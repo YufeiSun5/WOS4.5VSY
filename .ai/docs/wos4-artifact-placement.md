@@ -8,12 +8,42 @@
 
 ```text
 wos4-artifacts/
+  config/
   scripts/
   screenshots/
   snapshots/
   tests/
   reports/
   backups/
+```
+
+## scripts
+
+## config
+
+放本机 WOS4 连接配置。
+
+真实配置文件：
+
+```text
+wos4-artifacts/config/wos4.local.ini
+```
+
+要求：
+
+- `wos4.local.ini` 不进 Git。
+- 只提交 `wos4.local.example.ini` 或 README。
+- 脚本优先读取 ini；没有 ini 时再读取环境变量，例如 `WOS4_PASS`。
+- 不在脚本、skill、报告里写死密码。
+
+建议字段：
+
+```ini
+[wos4]
+url=http://...
+username=...
+password=...
+proxy=direct
 ```
 
 ## scripts

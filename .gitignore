@@ -12,6 +12,9 @@ Thumbs.db
 .env
 .env.*
 !.env.example
+*.local.ini
+wos4-artifacts/config/*.ini
+!wos4-artifacts/config/*.example.ini
 
 # Large browser/runtime caches
 playwright-report/

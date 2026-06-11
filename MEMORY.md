@@ -18,6 +18,7 @@
 - 2026-06-12 code-ai 创建项目级 AI 工作区骨架：`.ai/`、`AI-INTERACTION-PANEL.md`、`MEMORY.md`、`wos4-artifacts/`，并更新 `AGENTS.md` 路引。
 - 2026-06-12 code-ai 规划 WOS4 产物放置方式：脚本、截图、快照、测试、报告、备份分目录管理；旧产物暂不移动，先建立 Git 基线。
 - 2026-06-12 code-ai 初始化本地 Git 仓库并切换到 `main` 分支；敏感信息扫描发现旧探针/脚本仍有明文密码，因此只提交 AI 工作区和 WOS4 产物目录规范，旧脚本和旧产物暂不纳入基线。安全初始提交：`936cdfa`。
+- 2026-06-12 code-ai 补充 `wos4-artifacts/config/` 作为 WOS4 本机 ini 配置目录；真实 `wos4.local.ini` 不进 Git，脚本后续优先读取该 ini 或环境变量。
 
 ## 已验证技能
 

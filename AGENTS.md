@@ -26,6 +26,7 @@ WOS4 产物目录：
 - `wos4-artifacts/tests/`：测试用例、回归测试记录、测试数据。
 - `wos4-artifacts/reports/`：阶段报告、验证报告、时间报告。
 - `wos4-artifacts/backups/`：修改前后备份，必须配合 Git 作为安全控制。
+- `wos4-artifacts/config/`：本机 WOS4 连接配置。真实 `*.ini` 不进 Git，只提交示例和说明。
 
 现有根目录的 WOS4 脚本、截图、快照暂时保留原位。整理旧产物前，先建立 Git 基线，再按 `.ai/docs/wos4-artifact-placement.md` 分批迁移。
 
@@ -95,6 +96,7 @@ WOS4 产物目录：
 - 使用 `--proxy-server=direct://` 绕过代理/VPN。
 - 使用 `wos4-login` 中的原生 input value setter。
 - 不要把密码写进脚本文件；复用脚本应通过 `WOS4_PASS` 环境变量读取密码。
+- 如需读取 WOS4 网址、账号、密码，优先读取 `wos4-artifacts/config/wos4.local.ini`；该文件不进 Git。
 
 ## 验收规则
 
