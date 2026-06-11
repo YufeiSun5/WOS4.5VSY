@@ -1,0 +1,5 @@
+interface:
+  display_name: "WOS4新建画面"
+  short_description: "从产品组装中新建分组页面并打开编辑器流程"
+  default_prompt: "使用 $wos4-create-new-page 在WOS4中从产品组装新建一个页面并打开编辑器。"
+

@@ -14,7 +14,7 @@
 
 - `.ai/agents/`：AI 身份定义，包含 `frontend-ai.md`、`code-ai.md`、`test-ai.md`、`review-ai.md`。
 - `.ai/instructions/`：项目级规则说明，例如全局规则、WOS4 规则、Git 安全控制。
-- `.ai/skills/`：可迁移 skill 的放置位置和索引。根目录已有 skill 暂不搬动，迁移时再复制到这里。
+- `.ai/skills/`：项目真实 skill 源。所有项目 skill 只放这里，根目录不再保留同名 skill。
 - `.ai/docs/`：设计文档、WOS4 自动化方案、产物放置规范。
 - `.ai/closed-interactions/`：从 `AI-INTERACTION-PANEL.md` 清理出来的历史关闭记录。
 
@@ -83,14 +83,18 @@ WOS4 备份硬规则：
 
 处理 WOS4 / WellinOS4.5 时，必须先检查这些 skill：
 
-- `D:\DEV_D\WOS4.5\wos4-login\SKILL.md`
-- `D:\DEV_D\WOS4.5\wos4-create-new-page\SKILL.md`
-- `D:\DEV_D\WOS4.5\wos4-layout-devtools-skill\SKILL.md`
-- `D:\DEV_D\WOS4.5\wos4-component-persistence\SKILL.md`
-- `D:\DEV_D\WOS4.5\wos4-style-config\SKILL.md`
-- `D:\DEV_D\WOS4.5\wos4-button-variable-flow\SKILL.md`
-- `D:\DEV_D\WOS4.5\wos4-interaction-flow-skill\SKILL.md`
-- `D:\DEV_D\WOS4.5\wos4-demo-page-fullstack-skill\SKILL.md`
+- `D:\DEV_D\WOS4.5\.ai\skills\wos4-login\SKILL.md`
+- `D:\DEV_D\WOS4.5\.ai\skills\wos4-create-new-page\SKILL.md`
+- `D:\DEV_D\WOS4.5\.ai\skills\wos4-layout-devtools-skill\SKILL.md`
+- `D:\DEV_D\WOS4.5\.ai\skills\wos4-component-persistence\SKILL.md`
+- `D:\DEV_D\WOS4.5\.ai\skills\wos4-style-config\SKILL.md`
+- `D:\DEV_D\WOS4.5\.ai\skills\wos4-button-variable-flow\SKILL.md`
+- `D:\DEV_D\WOS4.5\.ai\skills\wos4-interaction-flow-skill\SKILL.md`
+- `D:\DEV_D\WOS4.5\.ai\skills\wos4-demo-page-fullstack-skill\SKILL.md`
+
+微信文件发送 skill：
+
+- `D:\DEV_D\WOS4.5\.ai\skills\wechat-send-file-transfer\SKILL.md`
 
 不要在已有 skill 覆盖的情况下反复试登录、布局、保存、交互。
 

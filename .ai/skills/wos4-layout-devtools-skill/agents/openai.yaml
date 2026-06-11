@@ -1,0 +1,5 @@
+interface:
+  display_name: "WOS4需求驱动布局"
+  short_description: "按用户需求切分布局容器并配置行列属性"
+  default_prompt: "使用 $wos4-layout-devtools-skill 根据用户需求设计WOS4页面布局。"
+

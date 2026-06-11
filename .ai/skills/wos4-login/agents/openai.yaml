@@ -1,0 +1,4 @@
+interface:
+  display_name: "WOS4登录"
+  short_description: "通过Chrome或直连Playwright登录WOS4平台"
+  default_prompt: "使用 $wos4-login 登录WOS4平台。"

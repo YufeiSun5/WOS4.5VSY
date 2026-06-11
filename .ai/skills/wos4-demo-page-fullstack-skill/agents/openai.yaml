@@ -1,0 +1,5 @@
+interface:
+  display_name: "WOS4演示页面"
+  short_description: "构建搜索表格曲线组成的可用演示页面"
+  default_prompt: "使用 $wos4-demo-page-fullstack-skill 构建一个有搜索、表格和曲线的WOS4演示页面。"
+

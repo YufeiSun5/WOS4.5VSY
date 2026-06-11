@@ -1,0 +1,4 @@
+interface:
+  display_name: "微信文件传输助手发送"
+  short_description: "用 Windows 微信发送本地文件到文件传输助手"
+  default_prompt: "Use $wechat-send-file-transfer to send a local file to WeChat File Transfer Assistant."

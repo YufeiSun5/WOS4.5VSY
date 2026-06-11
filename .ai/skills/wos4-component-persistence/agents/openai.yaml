@@ -1,0 +1,5 @@
+interface:
+  display_name: "WOS4组件持久化"
+  short_description: "保存表格图表文本输入框配置并验证预览生效"
+  default_prompt: "使用 $wos4-component-persistence 配置WOS4组件数据并验证提交后预览仍生效。"
+

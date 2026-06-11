@@ -1,0 +1,5 @@
+interface:
+  display_name: "WOS4交互流程"
+  short_description: "验证打开脚本按钮脚本定时脚本和组件联动"
+  default_prompt: "使用 $wos4-interaction-flow-skill 测试WOS4页面脚本和组件联动流程。"
+

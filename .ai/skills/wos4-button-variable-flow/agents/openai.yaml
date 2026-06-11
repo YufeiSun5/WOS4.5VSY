@@ -1,0 +1,5 @@
+interface:
+  display_name: "WOS4按钮变量联动"
+  short_description: "按钮点击修改变量并刷新表格和曲线图表"
+  default_prompt: "使用 $wos4-button-variable-flow 实现按钮点击后修改变量并刷新表格和曲线图表。"
+

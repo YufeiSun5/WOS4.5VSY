@@ -1,0 +1,4 @@
+interface:
+  display_name: "WOS4样式配置"
+  short_description: "使用styleConfig和detailConfig保存WOS4组件样式。"
+  default_prompt: "使用 $wos4-style-config 给WOS4页面组件配置提交后预览仍生效的样式。"

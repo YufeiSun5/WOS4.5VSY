@@ -21,6 +21,7 @@
 - 2026-06-12 code-ai 补充 `wos4-artifacts/config/` 作为 WOS4 本机 ini 配置目录；真实 `wos4.local.ini` 不进 Git，脚本后续优先读取该 ini 或环境变量。
 - 2026-06-12 code-ai 补充 WOS4 布局尺寸规范：表格和 ECharts 父容器必须声明高度策略，禁止主数据区 `percentage=100` 后叠加固定底部行；补充 WOS4 新建/修改/提交/预览各阶段备份要求。
 - 2026-06-12 test-ai 重跑 WOS4 fullstack runbook：确认 ini 读取、直连代理修正、preflight 备份、登录、编辑器打开、before-edit 备份可用；流程在布局重建阶段阻塞，原因是旧脚本对根布局行增删 API 的假设仍不稳定。中断后已清理残留 runbook 进程。
+- 2026-06-12 code-ai 将根目录已验证 skill 迁移到 `.ai/skills/`，并删除根目录同名 skill；`.ai/skills/` 现在是项目唯一真实 skill 源。
 
 ## 已验证技能
 
