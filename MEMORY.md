@@ -19,6 +19,8 @@
 - 2026-06-12 code-ai 规划 WOS4 产物放置方式：脚本、截图、快照、测试、报告、备份分目录管理；旧产物暂不移动，先建立 Git 基线。
 - 2026-06-12 code-ai 初始化本地 Git 仓库并切换到 `main` 分支；敏感信息扫描发现旧探针/脚本仍有明文密码，因此只提交 AI 工作区和 WOS4 产物目录规范，旧脚本和旧产物暂不纳入基线。安全初始提交：`936cdfa`。
 - 2026-06-12 code-ai 补充 `wos4-artifacts/config/` 作为 WOS4 本机 ini 配置目录；真实 `wos4.local.ini` 不进 Git，脚本后续优先读取该 ini 或环境变量。
+- 2026-06-12 code-ai 补充 WOS4 布局尺寸规范：表格和 ECharts 父容器必须声明高度策略，禁止主数据区 `percentage=100` 后叠加固定底部行；补充 WOS4 新建/修改/提交/预览各阶段备份要求。
+- 2026-06-12 test-ai 重跑 WOS4 fullstack runbook：确认 ini 读取、直连代理修正、preflight 备份、登录、编辑器打开、before-edit 备份可用；流程在布局重建阶段阻塞，原因是旧脚本对根布局行增删 API 的假设仍不稳定。中断后已清理残留 runbook 进程。
 
 ## 已验证技能
 
@@ -37,3 +39,4 @@
 - 旧 WOS4 脚本、截图、快照仍分散在根目录、`screenshots/`、`snapshots/`，需要在 Git 基线后分批迁移。
 - 需要补充 `wos4-page-backup-git` skill，把修改前备份、修改后验证、Git diff 固化成标准流程。
 - 需要清理旧脚本中的明文密码，统一改成 `WOS4_PASS` 后再纳入 Git。
+- 需要继续修正 WOS4 runbook 的布局重建策略：不要依赖全删再重建行，优先在现有布局上设置稳定高度和组件区域。

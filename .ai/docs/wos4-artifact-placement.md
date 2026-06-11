@@ -158,6 +158,36 @@ wos4-artifacts/backups/<page-name>/
 
 Git 要记录这些备份的索引和关键 JSON。截图数量过多时，先保留关键证据，后续再考虑 Git LFS。
 
+## 布局尺寸策略
+
+WOS4 页面布局必须记录尺寸策略，尤其是表格和 ECharts。
+
+推荐结构：
+
+```text
+顶部标题区：fixedsize，例如 64-80
+搜索/过滤区：fixedsize，例如 72-96
+主数据区：剩余空间策略，或 fixedsize + 最小高度
+底部状态区：fixedsize，例如 48-72
+```
+
+禁止结构：
+
+```text
+中部主行 percentage=100
+下方继续追加 fixedsize 行
+```
+
+这会让 100% 行和固定行叠加，预览时表格和图表容易被挤压、重叠或高度塌陷。
+
+表格和图表要求：
+
+- 父 `RRow` 必须有明确 `heightStrategy`。
+- 父 `RCol` 必须有明确 `heightStrategy` 或 `colHeight`。
+- ECharts 容器必须在预览页验证 canvas 高度。
+- 表格必须在预览页验证表头、至少一行数据和可见高度。
+- 记录列宽时注明使用响应式百分比还是固定像素。
+
 ## 旧产物整理策略
 
 现有根目录中的 `wos4-*.js`、`probe*.js`、`*.png`，以及 `screenshots/`、`snapshots/` 中的文件，先不要直接移动。
