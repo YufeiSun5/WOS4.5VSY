@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Runtime and temporary files
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Large browser/runtime caches
+playwright-report/
+test-results/
+
+# Captured network payloads may contain runtime identifiers or sensitive request data.
+network/
+
+# Old scratch probes are kept locally until cleaned and migrated.
+probe*.js
+temp_probe_runtime.js
+
+# Keep WOS4 evidence directories tracked through their README/files.
+!wos4-artifacts/
+!screenshots/
+!snapshots/
