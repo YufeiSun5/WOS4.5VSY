@@ -1,36 +1,56 @@
-# AI 交互面板规则
+# AI 交互面板多人协作规则
 
-`AI-INTERACTION-PANEL.md` 只保留当前仍需处理的事项。已完成事项必须在选择 close 的同一次操作中归档到 `.ai/closed-interactions/`，并从当前面板移出。
+本项目从“单文件看板”改为“短索引 + 单事项文件 + 事件日志”。目标是减少多人、多 AI、GitHub/Gitee 双远端协作时的 Markdown 冲突。
 
-## 状态
+## 文件分工
 
-新事项只使用两类状态：
+- `AI-INTERACTION-PANEL.md`：只保留当前 open 事项索引表，不写长反馈。
+- `.ai/interactions/INDEX.md`：事项总索引，按 ID、标题、参与人、任务工作包定位。
+- `.ai/interactions/open/`：每个 open 事项一个文件。
+- `.ai/interactions/closed/`：关闭后的事项文件放这里。
+- `.ai/interactions/templates/`：新事项、事件、关闭归档模板。
+- `wos4-artifacts/tasks/<任务>/events/`：多人过程反馈目录，一次反馈一个事件文件。
+- `.ai/closed-interactions/`：旧规则历史归档目录，只读保留；新关闭事项进入 `.ai/interactions/closed/`。
 
-- `open`：当前仍在处理、等待测试、等待审阅或等待发起人关闭。
-- `closed`：事项已完成，必须已经归档，并且不再保留在当前事项区。
+## ID 规则
 
-测试或审阅过程中的 `approved`、`needs-change`、`blocked` 写入反馈结论，不再作为新事项的主状态。历史事项可以保留原状态，不强行改写。
+旧事项 `0001` 到 `0009` 保留原编号，不重命名。
 
-## 必填字段
+新事项必须使用时间戳 ID，避免多人抢号：
 
-每个新事项必须包含：
+```text
+yyyyMMddTHHmmss-短标题
+```
 
-- 事项编号
+示例：
+
+```text
+20260623T131500-palimpsest-runtime-verify
+```
+
+## 新建事项
+
+新建事项时只做两类编辑：
+
+1. 新增 `.ai/interactions/open/<id>.md`。
+2. 在 `AI-INTERACTION-PANEL.md` 和 `.ai/interactions/INDEX.md` 各增加一行索引。
+
+事项正文必须包含：
+
+- ID
 - 标题
 - 状态
 - 发起人
 - 发起人 AI
 - 参与人
 - 创建时间
-- 关联文件
 - 任务工作包
 - 请求
-- 最新反馈
+- 当前摘要
+- 事件日志目录
 - 关闭条件
 
-具体事件不要堆在交互面板，写到任务工作包的 `执行日志.md`。
-
-人员格式使用：
+人员格式仍使用：
 
 ```text
 <开发人员姓名>_<AI身份>
@@ -44,44 +64,73 @@
 - `孙宇飞_test-ai`
 - `孙宇飞_review-ai`
 
+## 过程反馈
+
+多人协作时，参与人默认不直接改事项正文，优先新增事件文件：
+
+```text
+wos4-artifacts/tasks/<任务>/events/yyyyMMddTHHmmss-<开发人员姓名>_<AI身份>-<事件名>.md
+```
+
+事件文件写：
+
+- 时间
+- 记录人
+- 关联事项 ID
+- 结论：`approved`、`needs-change`、`blocked`、`note`
+- 证据链接
+- 详细说明
+
+事项文件只在需要更新“当前摘要、当前阶段、关闭条件”时由负责人或当前执行 AI 修改。
+
+## 状态规则
+
+事项主状态只使用：
+
+- `open`
+- `closed`
+
+测试和审阅结论写入事件文件或事项摘要：
+
+- `approved`
+- `needs-change`
+- `blocked`
+- `note`
+
+这些结论不作为事项主状态。
+
 ## 关闭权限
 
-- 用户明确要求 close 时，当前执行 AI 必须把这次关闭视为用户授权，并在同一次修改里完成归档、移出面板、更新归档索引和 `MEMORY.md`。
-- AI 自行判断 close 时，只有“发起人 AI”可以关闭事项。
-- 参与人可以给出 `approved`、`needs-change`、`blocked` 反馈，但不能直接关闭事项。
-- 如果参与人认为可以关闭，只能追加“请求发起人关闭”的反馈。
+- 用户明确要求 close 时，当前执行 AI 可以关闭，并在关闭文件中写明 `关闭触发：用户`。
+- AI 自行判断 close 时，只有事项的“发起人 AI”可以关闭。
+- 参与人可以提交 `approved`、`needs-change` 或 `blocked` 事件；不能直接关闭别人的事项。
+- 参与人认为可以关闭时，新增事件并写 `请求发起人关闭`。
 
 ## 关闭流程
 
-用户或发起人 AI 执行关闭时，必须在同一次修改里完成：
+close 必须在同一次修改中完成：
 
-1. 把完整事项复制到 `.ai/closed-interactions/<日期>-<事项编号>-<简短标题>.md`。
-2. 在归档文件中写明 `状态：closed`、关闭触发、关闭人、关闭时间、关闭原因和最终结论。
-3. 从 `AI-INTERACTION-PANEL.md` 的“当前事项”中删除该事项。
-4. 更新 `.ai/closed-interactions/INDEX.md`。
+1. 把 `.ai/interactions/open/<id>.md` 移到 `.ai/interactions/closed/<id>.md`。
+2. 在关闭文件追加关闭记录：`状态：closed`、关闭触发、关闭人、关闭时间、关闭原因、最终结论。
+3. 从 `AI-INTERACTION-PANEL.md` 删除该事项索引行。
+4. 更新 `.ai/interactions/INDEX.md`。
 5. 更新 `MEMORY.md`。
 
-这就是本项目的“自动移出交互面板”：只要选择 close，就必须立即归档、移出面板、更新索引；当前面板里不再保留该事项。
+如果事项有任务工作包，也要在任务 `events/` 中新增关闭事件。
 
-## 归档路引和历史查询
+## 冲突规避
 
-`.ai/closed-interactions/` 不是只按日期堆文件。目录内必须维护：
-
-- `AI-ROUTE.md`：告诉 AI 如何查询历史事项。
-- `INDEX.md`：按事项编号、标题、发起人 AI、参与人、任务工作包、关键词和归档文件维护索引。
-
-查询历史事项时，AI 必须按顺序执行：
-
-1. 先读 `.ai/closed-interactions/AI-ROUTE.md`。
-2. 再读 `.ai/closed-interactions/INDEX.md`，用编号、任务名、关键词、参与人或任务工作包定位归档文件。
-3. 最后打开具体归档文件核对完整上下文。
-
-归档索引必须能按业务语义查询，不能只依赖日期文件名。
+- 新建事项用时间戳 ID，不使用递增编号。
+- 不在 `AI-INTERACTION-PANEL.md` 写长段落。
+- 不把过程讨论堆到事项正文，写事件文件。
+- 一个事件一个文件，不多人同时编辑同一个事件文件。
+- 改事项正文前先看 `git status --short`，发现同一事项文件已有他人修改时先合并再继续。
+- 提交前运行 preflight，并确认没有把真实 ini、Cookie、Token、浏览器 profile、抓包放进 Git。
 
 ## 不允许的做法
 
-- 不允许只把状态改成 `closed` 却仍留在当前事项里。
-- 不允许先标记 close，后续再补归档或索引。
-- 不允许等 `AI-INTERACTION-PANEL.md` 变长后再集中剪切 closed 事项。
+- 不允许把 `AI-INTERACTION-PANEL.md` 重新写回长文档。
+- 不允许新事项继续抢 `0010` 这类递增编号。
 - 不允许参与人 AI 直接关闭发起人 AI 创建的事项。
-- 不允许新事项只写 `code-ai`、`test-ai` 这类裸身份。
+- 不允许只把事项状态改成 `closed` 但仍留在 open 目录或看板索引中。
+- 不允许把同一任务的多人反馈都追加到一个共享长段落里。

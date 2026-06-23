@@ -1,13 +1,6 @@
-# AI 交互看板
+# AI 交互事项索引
 
-本文件只保留当前 open 事项索引，降低多人协作时的 Git 冲突。
-
-- 事项全文：`.ai/interactions/open/<id>.md`
-- 已关闭事项：`.ai/interactions/closed/`
-- 详细过程：优先写入任务工作包 `events/` 目录，一次反馈一个事件文件。
-- 规则说明：`.ai/docs/ai-interaction-panel-policy.md`
-
-## 当前 open 事项
+本索引用于多人协作时按 ID、标题、参与人和任务工作包定位事项。
 
 | ID | 标题 | 状态 | 发起人 AI | 参与人 | 任务工作包 | 事项文件 |
 |---|---|---|---|---|---|---|
@@ -20,10 +13,3 @@
 | 0007 | code-ai 请求 test-ai / review-ai 验证 skill 清理和命名规则 | open | code-ai | test-ai / review-ai | - | `.ai/interactions/open/0007-skill-cleanup-naming-review.md` |
 | 0008 | code-ai 请求 test-ai / review-ai 验证建模客户端后台查询 Demo 持久化边界 | open | code-ai | test-ai / review-ai | - | `.ai/interactions/open/0008-backend-query-demo-persistence.md` |
 | 0009 | 盛云科技_孙宇飞_Palimpsest 新测试页设计 | open | 孙宇飞_design-ai | 孙宇飞_frontend-ai<br>孙宇飞_code-ai<br>孙宇飞_test-ai<br>孙宇飞_review-ai | wos4-artifacts/tasks/20260623-新测试页左右菜单CRUD弹窗设计/ | `.ai/interactions/open/0009-palimpsest-design.md` |
-
-## 操作约束
-
-- 新建事项不要在本文件写长内容，只新增 `.ai/interactions/open/<id>.md`，再在本表加一行。
-- 新 ID 使用时间戳格式：`yyyyMMddTHHmmss-短标题`；旧 `0001` 这类编号只作为历史兼容保留。
-- 参与人反馈写事件文件，不直接改别人的事项正文。
-- close 时移动事项文件到 `.ai/interactions/closed/`，更新本索引和 `.ai/interactions/INDEX.md`，并更新 `MEMORY.md`。

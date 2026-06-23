@@ -9,7 +9,7 @@
 - `AGENTS.md`：执行入口、强制规则、目录位置说明。
 - `README.md`：项目给人类开发者看的快速入口，说明本地 ini 新建格式、Git 根目录和常用文档。
 - `MEMORY.md`：项目长期记忆和 AI 修改记录。每次 AI 修改文件后都要追加记录。
-- `AI-INTERACTION-PANEL.md`：AI 协作看板短索引，只列当前 open 事项，不写长反馈。
+- `AI-INTERACTION-PANEL.md`：单文件 AI 协作看板，记录“开发人员 + AI 身份”之间的 open/closed 交互。
 
 `.ai` 目录：
 
@@ -17,7 +17,6 @@
 - `.ai/instructions/`：项目级规则说明，例如全局规则、WOS4 规则、Git 安全控制。
 - `.ai/skills/`：项目真实 skill 源。所有项目 skill 只放这里，根目录不再保留同名 skill。
 - `.ai/docs/`：设计文档、WOS4 自动化方案、产物放置规范。
-- `.ai/interactions/`：多人协作事项区，包含 `open/`、`closed/`、`templates/` 和 `INDEX.md`。
 - `.ai/docs/project-directory-map.md`：项目目录地图。涉及目录清理、旧产物迁移、文件应该放哪里时先读该文件。
 - `.ai/docs/backup-and-version-policy.md`：备份和版本管理规则。涉及本地文件修改、批量删除、WOS4 修改前备份时先读该文件。
 - `.ai/docs/mcp-and-local-tools.md`：MCP、本地浏览器工具和用户侧安装/启用要求。涉及页面操作、Chrome MCP、browser-harness、Computer Use 时先读该文件。
@@ -25,7 +24,7 @@
 - `.ai/docs/test-and-report-policy.md`：单元测试、集成测试、回归测试和报告放置规则。涉及测试或报告时先读该文件。
 - `.ai/docs/task-work-package-policy.md`：任务工作包规则。复杂任务、图片布局、前端逻辑、后端改动、分阶段执行时先读该文件。
 - `.ai/docs/wos4-version-tree.md`：WOS4 前端布局、前端组件代码、后端模块、客户端发布和运维部署之间的版本树说明。涉及版本定位、导入关系或模块归属时先读该文件。
-- `.ai/closed-interactions/`：旧规则历史关闭记录，只读保留；新关闭事项进入 `.ai/interactions/closed/`。
+- `.ai/closed-interactions/`：从 `AI-INTERACTION-PANEL.md` 清理出来的历史关闭记录。
 
 WOS4 产物目录：
 
@@ -122,7 +121,7 @@ WOS4 备份硬规则：
 - 用户给草图、截图、前端交互说明、后端数据结构、已有数据利用需求或需要先讨论方案时，优先由 `design-ai` 进入方案阶段。
 - 任务工作包放在 `wos4-artifacts/tasks/<日期-中文任务名>/`。
 - 任务可以分阶段完成，阶段状态写入任务 `README.md` 和 `执行日志.md`。
-- `AI-INTERACTION-PANEL.md` 只写 open 事项索引行；事项全文写入 `.ai/interactions/open/<id>.md`；具体事件、讨论、设计、执行过程写入任务工作包，参与人反馈优先写入任务 `events/` 目录。
+- `AI-INTERACTION-PANEL.md` 只写简要说明、改动范围、当前阶段、参与人和任务工作包路径；具体事件、讨论、设计、执行过程写入任务工作包。
 - 用户可以直接修改任务工作包文件，AI 后续按用户修改后的内容继续执行。
 - 创建任务工作包时，从 `wos4-artifacts/tasks/_template/` 复制结构。
 
@@ -139,22 +138,20 @@ WOS4 备份硬规则：
 
 执行 WOS4 操作或提交前检查时，必须先运行 `wos4-artifacts/scripts/ai-preflight.ps1`；失败时停止并修复。
 
-涉及 AI 身份协作时，必须按 `.ai/docs/ai-interaction-panel-policy.md` 更新协作记录：
+涉及 AI 身份协作时，必须更新 `AI-INTERACTION-PANEL.md`：
 
 - 交互项的发起方和接收方必须写成“开发人员 + AI 身份”，例如 `孙宇飞_design-ai`、`孙宇飞_frontend-ai`、`孙宇飞_code-ai`、`孙宇飞_test-ai`、`孙宇飞_review-ai`。
 - 同一个 AI 身份被不同开发人员使用时，必须用开发人员姓名区分，不得只写 `code-ai`、`frontend-ai` 这类裸身份。
-- 新事项必须新建 `.ai/interactions/open/<id>.md`，并在 `AI-INTERACTION-PANEL.md` 和 `.ai/interactions/INDEX.md` 各增加一行索引。
-- 新事项 ID 使用 `yyyyMMddTHHmmss-短标题`，禁止继续抢 `0010` 这类递增编号；旧 `0001` 到 `0009` 仅作为历史迁移编号保留。
-- 新事项文件必须包含发起人、发起人 AI、参与人、状态、创建时间、任务工作包、请求、当前摘要、事件日志目录和关闭条件。
-- 新事项主状态只使用 `open`；完成后由发起人 AI 或用户授权关闭，并移动到 `.ai/interactions/closed/`。
+- 新事项必须包含发起人、发起人 AI、参与人、状态、创建时间、关联文件、请求、最新反馈和关闭条件。
+- 新事项当前面板状态只使用 `open`；完成后由发起人 AI 关闭并归档为 `closed`。
 - design-ai 负责需求方案、系统能力核实、数据结构核实和阶段计划；不直接替代 code-ai/frontend-ai 实施。
 - design-ai 完成方案后，把计划写入任务工作包，再交给 frontend-ai/code-ai。
 - code-ai/frontend-ai 完成实现后，请求对应 test-ai 测试。
-- test-ai 返回 `approved`、`needs-change` 或 `blocked`，这些写入任务 `events/` 事件文件或事项摘要，不作为新事项主状态。
+- test-ai 返回 `approved`、`needs-change` 或 `blocked`，这些写入反馈结论，不作为新事项主状态。
 - review-ai 审阅 Git diff、安全控制、配置文件隔离和文档准确性。
-- 用户明确要求 close 时，当前执行 AI 必须在同一次修改里完成移动事项文件、移出看板索引、更新 `.ai/interactions/INDEX.md`、写关闭事件和更新 `MEMORY.md`；AI 自行判断 close 时只有发起人 AI 能关闭事项，参与人只能请求发起人关闭。
-- close 是原子操作：必须把事项从 `.ai/interactions/open/` 移到 `.ai/interactions/closed/`，写明 `状态：closed`、关闭触发、关闭人、关闭时间和最终结论，并从 `AI-INTERACTION-PANEL.md` 当前索引中移出。
-- 每次归档必须更新 `.ai/interactions/INDEX.md`；查询历史事项先读 `.ai/interactions/AI-ROUTE.md` 和 `INDEX.md`。旧归档查询再读 `.ai/closed-interactions/AI-ROUTE.md` 和 `INDEX.md`。
+- 用户明确要求 close 时，当前执行 AI 必须在同一次修改里完成归档、移出面板、更新索引和更新 `MEMORY.md`；AI 自行判断 close 时只有发起人 AI 能关闭事项，参与人只能请求发起人关闭。
+- close 是原子操作：必须把事项复制到 `.ai/closed-interactions/`，写明 `状态：closed`、关闭触发、关闭人、关闭时间和最终结论，并从 `AI-INTERACTION-PANEL.md` 当前事项中移出。
+- 每次归档必须更新 `.ai/closed-interactions/INDEX.md`；查询历史 closed 事项时先读 `.ai/closed-interactions/AI-ROUTE.md` 和 `INDEX.md`，不能只按日期猜归档文件。
 
 MCP 和本地工具规则：
 

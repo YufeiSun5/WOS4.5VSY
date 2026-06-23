@@ -7,10 +7,9 @@
 - `AGENTS.md`：AI 执行入口和强制规则。
 - `CLAUDE.md`：Claude Code 兼容入口，只导入 `AGENTS.md` 并指向 `.ai/`。
 - `MEMORY.md`：长期记忆和 AI 修改记录。
-- `AI-INTERACTION-PANEL.md`：多人协作看板短索引，只列当前 open 事项。
-- `.ai/interactions/AI-ROUTE.md`：当前和历史交互事项的查询路引。
-- `.ai/interactions/INDEX.md`：交互事项索引，按 ID、任务、参与人和关键词查当前/历史事项。
-- `.ai/closed-interactions/`：旧规则历史关闭记录，只读保留。
+- `AI-INTERACTION-PANEL.md`：多人协作看板，记录“开发人员 + AI 身份”做了什么。
+- `.ai/closed-interactions/AI-ROUTE.md`：已关闭交互的查询路引。
+- `.ai/closed-interactions/INDEX.md`：已关闭交互索引，按编号、任务、参与人和关键词查历史。
 - `.ai/skills/`：项目真实 skill 源。
 - `.claude/skills/use-ai-skill/`：Claude Code 通用 skill 适配器，用 `/use-ai-skill <skill-name>` 路由到 `.ai/skills/`。
 - `.ai/docs/project-directory-map.md`：当前目录地图和后续清理顺序。
@@ -29,7 +28,7 @@
 - 根目录只做入口。
 - `.ai/` 放 AI 身份、规则、skill 和设计文档。
 - `wos4-artifacts/` 放 WOS4 脚本、截图、快照、测试、报告、备份和本机配置。
-- 复杂任务放 `wos4-artifacts/tasks/<日期-中文任务名>/`，面板只指向事项文件和任务目录。
+- 复杂任务放 `wos4-artifacts/tasks/<日期-中文任务名>/`，面板只指向任务目录。
 - 旧的根目录 `screenshots/`、`snapshots/`、`wos4-*.js`、`probe*.js` 先不直接删除，按 `.ai/docs/project-directory-map.md` 分批迁移。
 
 ## 新建本地 ini
@@ -135,13 +134,13 @@ wos4-artifacts/tasks/yyyyMMdd-中文任务名/
 - 需要分阶段完成。
 - 需要多个 AI 身份协作。
 
-任务文件夹从 `wos4-artifacts/tasks/_template/` 复制。交互面板只写索引行；事项全文写到 `.ai/interactions/open/<id>.md`；具体事件优先写到任务 `events/` 目录，阶段性汇总再写 `执行日志.md`。
+任务文件夹从 `wos4-artifacts/tasks/_template/` 复制。交互面板只写任务工作包路径、简要说明、改动范围、当前阶段和关闭条件；具体事件写到任务的 `执行日志.md`。
 
 `design-ai` 的身份格式为 `孙宇飞_design-ai`。它负责方案讨论、已有系统内容核实、数据结构核实和阶段计划；确认方案后再交给 `frontend-ai` 或 `code-ai` 实施。
 
 ## 交互关闭和历史查询
 
-- 用户明确要求 close 时，当前 AI 必须在同一次修改中把事项从 `.ai/interactions/open/` 移到 `.ai/interactions/closed/`，从 `AI-INTERACTION-PANEL.md` 移出索引，更新 `.ai/interactions/INDEX.md` 和 `MEMORY.md`。
+- 用户明确要求 close 时，当前 AI 必须在同一次修改中完成归档、从 `AI-INTERACTION-PANEL.md` 移出、更新 `.ai/closed-interactions/INDEX.md` 和更新 `MEMORY.md`。
 - AI 自行判断 close 时，只有发起人 AI 能关闭事项。
-- 已关闭事项不留在当前看板里，统一进入 `.ai/interactions/closed/`。
-- 查询历史事项时，先读 `.ai/interactions/AI-ROUTE.md` 和 `INDEX.md`，再打开具体事项文件；旧归档再查 `.ai/closed-interactions/`。
+- 已关闭事项不留在当前看板里，统一进入 `.ai/closed-interactions/`。
+- 查询历史 closed 事项时，先读 `.ai/closed-interactions/AI-ROUTE.md` 和 `INDEX.md`，再打开具体归档文件；不要只按日期查。

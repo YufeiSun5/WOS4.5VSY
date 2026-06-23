@@ -1,0 +1,64 @@
+{
+  "task": "多人协作交互面板拆分",
+  "created_at": "2026-06-23T13:09:09+08:00",
+  "operator": "孙宇飞_code-ai",
+  "purpose": "将单文件 AI 交互看板拆分为短索引、单事项文件和事件日志规则，降低多人协作时的 Git 冲突。",
+  "backups": [
+    {
+      "path": "AI-INTERACTION-PANEL.md",
+      "backup": "wos4-artifacts/backups/多人协作交互面板拆分-20260623T130909/before/AI-INTERACTION-PANEL.md"
+    },
+    {
+      "path": "AGENTS.md",
+      "backup": "wos4-artifacts/backups/多人协作交互面板拆分-20260623T130909/before/AGENTS.md"
+    },
+    {
+      "path": "README.md",
+      "backup": "wos4-artifacts/backups/多人协作交互面板拆分-20260623T130909/before/README.md"
+    },
+    {
+      "path": "MEMORY.md",
+      "backup": "wos4-artifacts/backups/多人协作交互面板拆分-20260623T130909/before/MEMORY.md"
+    },
+    {
+      "path": ".ai/docs/ai-interaction-panel-policy.md",
+      "backup": "wos4-artifacts/backups/多人协作交互面板拆分-20260623T130909/before/.ai__docs__ai-interaction-panel-policy.md"
+    },
+    {
+      "path": ".ai/docs/task-work-package-policy.md",
+      "backup": "wos4-artifacts/backups/多人协作交互面板拆分-20260623T130909/before/.ai__docs__task-work-package-policy.md"
+    },
+    {
+      "path": ".ai/docs/project-directory-map.md",
+      "backup": "wos4-artifacts/backups/多人协作交互面板拆分-20260623T130909/before/.ai__docs__project-directory-map.md"
+    },
+    {
+      "path": ".ai/README.md",
+      "backup": "wos4-artifacts/backups/多人协作交互面板拆分-20260623T130909/before/.ai__README.md"
+    },
+    {
+      "path": ".ai/docs/README.md",
+      "backup": "wos4-artifacts/backups/多人协作交互面板拆分-20260623T130909/before/.ai__docs__README.md"
+    },
+    {
+      "path": ".ai/docs/project-ai-workspace.md",
+      "backup": "wos4-artifacts/backups/多人协作交互面板拆分-20260623T130909/before/.ai__docs__project-ai-workspace.md"
+    },
+    {
+      "path": ".ai/closed-interactions/INDEX.md",
+      "backup": "wos4-artifacts/backups/多人协作交互面板拆分-20260623T130909/before/.ai__closed-interactions__INDEX.md"
+    }
+  ],
+  "new_paths": [
+    ".ai/interactions/",
+    ".ai/interactions/open/",
+    ".ai/interactions/closed/",
+    ".ai/interactions/templates/",
+    "wos4-artifacts/tasks/_template/events/"
+  ],
+  "notes": [
+    "旧 0001-0009 事项原文已迁移到 .ai/interactions/open/。",
+    "AI-INTERACTION-PANEL.md 现在只保留短索引。",
+    "新事项使用时间戳 ID，过程反馈写任务 events 目录。"
+  ]
+}
