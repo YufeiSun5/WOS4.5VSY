@@ -40,6 +40,7 @@
 - 用户补充确认：需要重新创建项目，并且两个页面设计不同百分比。
 - 当前推荐：重新创建 `盛云科技_孙宇飞_Palimpsest` 项目/客户端，优先验证客户端双页面并排；结构固定为左侧 `PalimpsestMenu` 18% + 右侧 `PalimpsestContent` 82%，若正式运行态不稳定，再降级为单页面左右分栏。
 - blocked：用户要求使用 `browser-harness` 后，前台 Chrome 已接管成功，`browser-harness --doctor` 三项通过；按 `wos4-login` skill 执行登录时，平台返回 `用户名或口令错误`，当前不能继续进入 WOS4 主桌面、组态客户端或页面创建流程。
+- needs-change：用户纠正当前路线，Palimpsest 不应在 `KingStudio_V20260617 -> 产品管理 -> 新建` 中创建产品；新版入口应按桌面可见的 `建模系统客户端`、`组态系统客户端`、`运维部署客户端`，本任务主线从 `建模系统客户端` 起步。相关 skill 已更新。
 
 关闭条件：
 

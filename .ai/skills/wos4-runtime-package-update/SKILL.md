@@ -39,7 +39,7 @@ For the current CRUD chain, the target time-space example is `NadirL2`.
 Visible UI route for the package step:
 
 ```text
-组态系统客户端0518
+组态系统客户端
 -> target project
 -> 管控单元实例配置
 -> 时空列表
@@ -175,7 +175,7 @@ Verified conclusion: for the fixed personal test time-space, same-repository pac
 
 Verified on `盛云_孙宇飞_CRUD工程_0620`:
 
-- `组态系统客户端0518 -> 管控单元实例配置 -> NadirL2` can show an instance model version as updated:
+- `组态系统客户端 -> 管控单元实例配置 -> NadirL2` can show an instance model version as updated:
   - `NadirBack / 盛云_孙宇飞_后台_CRUDDemo_0620 / v2`
   - `NadirFront / 盛云_孙宇飞_前端_CRUDDemo_0620 / v2`
 - The `NadirBack` row-level `提交版本` can finish with:
@@ -218,7 +218,7 @@ even though the config client showed `NadirBack v2`.
 
 ## 2026-06-22 运维部署 Client Update Caveats
 
-Verified on `运维部署客户端_0518 -> 盛云_孙宇飞_CRUD工程_0620 -> 管控单元实例`:
+Verified on `运维部署客户端 -> 盛云_孙宇飞_CRUD工程_0620 -> 管控单元实例`:
 
 - The target row is `NadirL1`. It belongs to the user's own CRUD project even though the row name itself does not contain `盛云_孙宇飞`.
 - `停止` can succeed:
@@ -265,7 +265,7 @@ Critical correction, refined by the product provider on 2026-06-23:
 
 Verified API package generation path:
 
-1. In `组态系统客户端0518 -> 盛云_孙宇飞_CRUD工程_0620 -> 管控单元实例配置`, select `NadirL2`.
+1. In `组态系统客户端 -> 盛云_孙宇飞_CRUD工程_0620 -> 管控单元实例配置`, select `NadirL2`.
 2. Close or hide stale child submit pages first. Stale pages can stay mounted as:
 
 ```text
@@ -361,7 +361,7 @@ Verified on `盛云_孙宇飞_CRUD工程_0620 -> NadirL2` after a later frontend
 IQueryRepoPacketsList -> ret=-210133
 ```
 
-- Opening `运维部署客户端_0518`, selecting project `盛云_孙宇飞_CRUD工程_0620`, and executing the same call from the 运维 page `PageView.eval(...)` context is verified. The script environment must expose injected platform globals:
+- Opening `运维部署客户端`, selecting project `盛云_孙宇飞_CRUD工程_0620`, and executing the same call from the 运维 page `PageView.eval(...)` context is verified. The script environment must expose injected platform globals:
 
 ```js
 typeof SetRunInfo === "function"
@@ -397,3 +397,4 @@ Remaining boundary:
 - Old formal client tabs can retain old mock button scripts until reopened.
 - Refreshing existing `public/index.html?...clientGuid...` tabs can produce an empty white shell with no iframe; this is not a valid runtime verification.
 - To verify frontend backend `Call` after package update, reopen a fresh blue WebJS client object through the visible object-management/desktop route, then inspect the inner `.page_view` runtime.
+

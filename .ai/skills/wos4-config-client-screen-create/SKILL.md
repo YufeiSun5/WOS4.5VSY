@@ -1,17 +1,17 @@
 ---
 name: wos4-config-client-screen-create
-description: Verified WOS4 组态系统客户端0518 flow for creating/opening a frontend demo client and screen, then editing the page designer with layout-first/component-second discipline through browser-harness.
+description: Verified WOS4 组态系统客户端 flow for creating/opening a frontend demo client and screen, then editing the page designer with layout-first/component-second discipline through browser-harness.
 ---
 
 # WOS4 组态客户端画面新建与编辑
 
 ## Scope
 
-Use this skill for the current frontend route through `组态系统客户端0518` / `KingFusion4.5_工程浏览器`.
+Use this skill for the current frontend route through `组态系统客户端` / `KingFusion4.5_工程浏览器`.
 
 It covers verified operations:
 
-- Open `组态系统客户端0518` from the WOS4 desktop by visible human navigation.
+- Open `组态系统客户端` from the WOS4 desktop by visible human navigation.
 - Create or enter a工程.
 - Enter `数字孪生可视化`.
 - Create/rename a client.
@@ -23,6 +23,20 @@ It covers verified operations:
 - Generate the formal preview link for the client.
 
 Do not use this skill for deprecated `KingStudio_V20260514`.
+
+## Current Entry Names
+
+Current desktop labels are:
+
+```text
+建模系统客户端
+组态系统客户端
+运维部署客户端
+```
+
+Do not target historical suffixed desktop labels in current automation.
+
+For a new end-to-end task such as `盛云科技_孙宇飞_Palimpsest`, start from `建模系统客户端` to create or update the underlying model/page objects. Use `组态系统客户端` later only for client/page binding, visualization configuration, homepage setup, version update, and preview.
 
 ## Product-Provider Correction: Page-Only Frontend Is Not A Time-Space Instance
 
@@ -86,7 +100,7 @@ This file only covers:
 
 ## Verified Route
 
-1. From WOS4 desktop, double-click `组态系统客户端0518`.
+1. From WOS4 desktop, double-click `组态系统客户端`.
 2. Wait for nested iframe text `KingFusion4.5_工程浏览器`.
 3. Use `新建工程` to create a工程. In the dialog, scope input selection to `.el-dialog`; the first global input may be a table pagination input.
 4. Enter the工程 row with `进入工程`.
@@ -335,7 +349,7 @@ Do not mark frontend screen delivery complete until preview or published runtime
 The pending route above is no longer purely hypothetical. The following runtime segment is now verified on the clean project:
 
 ```text
-运维部署客户端_0518
+运维部署客户端
 -> 盛云_孙宇飞_CRUD工程_0620
 -> 管控单元实例
 -> NadirL1 / NadirL2
@@ -412,7 +426,7 @@ The following route was provided by the user as runnable in real use, but is not
 ### Pending route
 
 ```text
-组态系统客户端0518
+组态系统客户端
 -> 进入工程
 -> 管控树实例配置
 -> 时空列表创建手工层级
@@ -426,7 +440,7 @@ The following route was provided by the user as runnable in real use, but is not
 -> 右侧用 添加 引用前端页面对象
 -> 勾选 精灵图名称
 -> 设置唯一首页
--> 回桌面进入 运维部署客户端_0518
+-> 回桌面进入 运维部署客户端
 -> 管控单元 与 数字孪生画面 按父到子顺序部署/启动
 ```
 
@@ -540,7 +554,7 @@ Never select `KF4.5Root` for this action; verified prompt:
 
 ### Deploy refresh rule
 
-`运维部署客户端_0518` can stay stale after submit / deploy / start.
+`运维部署客户端` can stay stale after submit / deploy / start.
 
 Reliable refresh:
 
@@ -687,3 +701,4 @@ not yet frontend/backend CRUD integration.
   - `wos4-artifacts/snapshots/screen_resubmit_fixed_result.json`
   - `wos4-artifacts/snapshots/screen_about_blank_preview_probe.json`
   - `wos4-artifacts/snapshots/page_space_before_0618.txt`
+

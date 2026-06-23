@@ -57,7 +57,7 @@ Also read task-specific skills:
 For frontend page changes:
 
 ```text
-组态系统客户端0518
+组态系统客户端
 -> 数字孪生可视化
 -> client row double-click
 -> screen row edit
@@ -67,7 +67,7 @@ For frontend page changes:
 For backend meta-language changes:
 
 ```text
-建模系统客户端_0518
+建模系统客户端
 -> backend model edit
 -> compile/debug as needed
 -> submit model version
@@ -83,7 +83,7 @@ Acceptance:
 In the config client:
 
 ```text
-组态系统客户端0518
+组态系统客户端
 -> target project
 -> 管控单元实例配置
 -> 时空列表
@@ -173,7 +173,7 @@ Do not use this on public/shared instances. Do not delete a whole time-space lev
 
 ### 4. Update/deploy/start in operation client
 
-Use `运维部署客户端_0518`, not raw top-window calls. For automation, execute operation APIs from the operation page `PageView.eval(...)` context.
+Use `运维部署客户端`, not raw top-window calls. For automation, execute operation APIs from the operation page `PageView.eval(...)` context.
 
 Verified update pattern:
 
@@ -316,3 +316,4 @@ Append conclusions to:
 D:\DEV_D\WOS4.5\WOS4_deep_test_notes.md
 D:\DEV_D\WOS4.5\MEMORY.md
 ```
+

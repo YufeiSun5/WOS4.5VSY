@@ -11,7 +11,7 @@ Use this skill when inspecting existing WOS4 models such as `lk测试` reference
 
 This skill is for read-only evidence collection:
 
-- Enter `建模系统客户端_0518`.
+- Enter `建模系统客户端`.
 - Select the visible modeling group, for example `根组 -> lk测试`.
 - Open model edit pages only for inspection.
 - Read the left menu tree, switches, and right-side list contents.
@@ -41,7 +41,7 @@ Verified path:
 
 ```text
 WOS4 主页面
--> 建模系统客户端_0518
+-> 建模系统客户端
 -> 数字孪生建模分组
 -> 根组
 -> lk测试
@@ -147,12 +147,12 @@ The JSON should include:
 The `lk_客户端01_对象1` demo is not a single page artifact. It is assembled from:
 
 ```text
-建模系统客户端_0518 / lk测试
+建模系统客户端 / lk测试
 -> 前端_框架
 -> 前端_班次管理
 -> 后台_班次管理
 
-组态系统客户端0518 / 芦昆测试工程
+组态系统客户端 / 芦昆测试工程
 -> 数字孪生可视化
 -> lk_客户端01
 -> 框架页面 / 新建编辑班次 / 班次管理
@@ -163,4 +163,5 @@ The `lk_客户端01_对象1` demo is not a single page artifact. It is assembled
 ```
 
 The backend source model owns the business event schema and custom functions. The frontend source model owns page sprites. The group/client/runtime layers reference those modeling artifacts.
+
 

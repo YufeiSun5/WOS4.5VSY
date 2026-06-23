@@ -56,7 +56,7 @@ description: Catalog verified and explored WOS4 frontend components for page-spr
 
 当前主验证页面：
 
-- `建模系统客户端_0518 -> 盛云_孙宇飞_前端_查询Demo_0618 -> 查询列表`
+- `建模系统客户端 -> 盛云_孙宇飞_前端_查询Demo_0618 -> 查询列表`
 
 ## A. 已验证组件
 
@@ -360,3 +360,4 @@ inst.SetOption(option, true)
 - toolkit id
 - 当前验证层级（编辑器 / 预览 / 正式客户端）
 - 截图和快照路径
+

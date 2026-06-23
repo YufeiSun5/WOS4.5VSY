@@ -147,12 +147,12 @@ click_at_xy(rect['x'] + rect['w']/2, rect['y'] + rect['h']/2)
 
 Wait until `#/main` or desktop card text appears. Do not re-login because an inner client iframe is blank.
 
-## Opening 建模系统客户端_0518
+## Opening 建模系统客户端
 
 Use Unicode escapes in ASCII temp scripts:
 
 ```python
-label = '\u5efa\u6a21\u7cfb\u7edf\u5ba2\u6237\u7aef_0518'
+label = '\u5efa\u6a21\u7cfb\u7edf\u5ba2\u6237\u7aef'
 rect = js("""
 const label = '__LABEL__';
 const el = Array.from(document.querySelectorAll('.data-item.card-item'))
@@ -354,3 +354,4 @@ This verified `收球筒` version management:
 - WOS4 modal close buttons may exist with zero visible rect; DOM click and coordinate click can fail. Prefer one action per fresh tab/session until a reliable close strategy is verified.
 - Screenshots can show success even when a text readiness predicate fails; inspect `capture_screenshot()` and recursive iframe tree before declaring failure.
 - Do not use `browser-harness` to bypass the WOS4 human navigation rule by directly opening dynamic client URLs.
+

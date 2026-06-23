@@ -142,7 +142,7 @@ Verified project and client:
 盛云_孙宇飞_Nadir_客户端_0622
 ```
 
-Precondition from `运维部署客户端_0518 -> 数字孪生可视化`:
+Precondition from `运维部署客户端 -> 数字孪生可视化`:
 
 ```text
 盛云_孙宇飞_Nadir_客户端_0622
@@ -272,3 +272,4 @@ User follow-up evidence later confirmed that the blue client card is now visible
 Treat that as stronger business evidence that publishing worked.
 
 But do not replace the AI minimum acceptance path above until a clean-session replay independently re-verifies desktop-card surfacing and opening behavior.
+
