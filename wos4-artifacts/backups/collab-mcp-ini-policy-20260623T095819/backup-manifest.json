@@ -1,0 +1,48 @@
+[
+  {
+    "path": "AGENTS.md",
+    "existed": true,
+    "bytes": 12002,
+    "action": "backup-before-collab-mcp-ini-policy"
+  },
+  {
+    "path": "README.md",
+    "existed": true,
+    "bytes": 2548,
+    "action": "backup-before-collab-mcp-ini-policy"
+  },
+  {
+    "path": "AI-INTERACTION-PANEL.md",
+    "existed": true,
+    "bytes": 14090,
+    "action": "backup-before-collab-mcp-ini-policy"
+  },
+  {
+    "path": "MEMORY.md",
+    "existed": true,
+    "bytes": 51591,
+    "action": "backup-before-collab-mcp-ini-policy"
+  },
+  {
+    "path": "wos4-artifacts\\config\\wos4.local.example.ini",
+    "existed": true,
+    "bytes": 234,
+    "action": "backup-before-collab-mcp-ini-policy"
+  },
+  {
+    "path": ".ai\\docs\\README.md",
+    "existed": true,
+    "bytes": 514,
+    "action": "backup-before-collab-mcp-ini-policy"
+  },
+  {
+    "path": ".ai\\docs\\mcp-and-local-tools.md",
+    "existed": false,
+    "action": "new-file-will-be-created"
+  },
+  {
+    "path": ".ai\\docs\\ai-interaction-panel-policy.md",
+    "existed": false,
+    "action": "new-file-will-be-created"
+  }
+]

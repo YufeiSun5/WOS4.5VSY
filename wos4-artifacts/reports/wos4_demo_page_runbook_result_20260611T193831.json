@@ -1,0 +1,24 @@
+{
+  "startAt": "2026-06-11T19:38:31.498Z",
+  "backupDir": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\backups\\wos4-demo-fullstack-20260611T193831",
+  "config": {
+    "loginUrl": "http://221.239.19.118:13001/#/login",
+    "editorUrl": "http://221.239.19.118:13001/public/?id=6192730962611142864&parentid=0&cloudid=107&clientnumber=7710165597571436705&bs=true#/running",
+    "user": "孙宇飞",
+    "proxy": "direct",
+    "iniLoaded": true
+  },
+  "steps": [
+    {
+      "name": "runtime_error",
+      "ok": false,
+      "detail": "page.goto: net::ERR_PROXY_CONNECTION_FAILED at http://221.239.19.118:13001/#/login\nCall log:\n\u001b[2m  - navigating to \"http://221.239.19.118:13001/#/login\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at D:\\DEV_D\\WOS4.5\\wos4-demo-page-fullstack-skill\\runbook.js:237:16",
+      "at": "2026-06-11T19:38:35.590Z"
+    }
+  ],
+  "errors": [
+    "page.goto: net::ERR_PROXY_CONNECTION_FAILED at http://221.239.19.118:13001/#/login\nCall log:\n\u001b[2m  - navigating to \"http://221.239.19.118:13001/#/login\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at D:\\DEV_D\\WOS4.5\\wos4-demo-page-fullstack-skill\\runbook.js:237:16"
+  ],
+  "evidence": [],
+  "testCases": {}
+}

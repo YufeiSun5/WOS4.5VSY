@@ -1,0 +1,148 @@
+{
+  "ok": true,
+  "topRow": [
+    {
+      "name": "PageTitleCol",
+      "widthStrategy": "percentage",
+      "lgWidth": 16,
+      "xlWidth": 16
+    },
+    {
+      "name": "FilterInputCol",
+      "widthStrategy": "percentage",
+      "lgWidth": 58,
+      "xlWidth": 58
+    },
+    {
+      "name": "PrimaryActionCol",
+      "widthStrategy": "percentage",
+      "lgWidth": 10,
+      "xlWidth": 10
+    },
+    {
+      "name": "UtilitySpacerCol",
+      "widthStrategy": "percentage",
+      "lgWidth": 16,
+      "xlWidth": 16
+    }
+  ],
+  "bodyCol": {
+    "name": "BodyCanvasCol",
+    "widthStrategy": "percentage",
+    "lgWidth": 100,
+    "xlWidth": 100
+  },
+  "nestedCols": [
+    {
+      "name": "DataGridCol",
+      "widthStrategy": "percentage",
+      "lgWidth": 100,
+      "xlWidth": 100
+    },
+    {
+      "name": "TrendChartCol",
+      "widthStrategy": "percentage",
+      "lgWidth": 100,
+      "xlWidth": 100
+    }
+  ]
+}
+{
+  "ok": true
+}
+{
+  "ok": true
+}
+{
+  "capture": {
+    "messages": [
+      {
+        "kind": "mutation",
+        "text": "版本提交提交说明\n          取消\n        \n          确定",
+        "extra": {
+          "className": "el-message-box__wrapper"
+        },
+        "t": 1781768096671
+      },
+      {
+        "text": "版本提交提交说明\n          取消\n        \n          确定",
+        "className": "el-message-box__wrapper",
+        "t": 1781768096671
+      },
+      {
+        "kind": "mutation",
+        "text": "保存成功",
+        "extra": {
+          "className": "el-message"
+        },
+        "t": 1781768099749
+      },
+      {
+        "text": "保存成功",
+        "className": "el-message",
+        "t": 1781768099749
+      },
+      {
+        "kind": "mutation",
+        "text": "生成历史版本成功！",
+        "extra": {
+          "className": "el-message el-message--success"
+        },
+        "t": 1781768099955
+      },
+      {
+        "text": "生成历史版本成功！",
+        "className": "el-message el-message--success",
+        "t": 1781768099955
+      }
+    ]
+  },
+  "topRow": [
+    {
+      "name": "PageTitleCol",
+      "widthStrategy": "percentage",
+      "lgWidth": 16,
+      "xlWidth": 16
+    },
+    {
+      "name": "FilterInputCol",
+      "widthStrategy": "percentage",
+      "lgWidth": 58,
+      "xlWidth": 58
+    },
+    {
+      "name": "PrimaryActionCol",
+      "widthStrategy": "percentage",
+      "lgWidth": 10,
+      "xlWidth": 10
+    },
+    {
+      "name": "UtilitySpacerCol",
+      "widthStrategy": "percentage",
+      "lgWidth": 16,
+      "xlWidth": 16
+    }
+  ],
+  "bodyCol": {
+    "name": "BodyCanvasCol",
+    "widthStrategy": "percentage",
+    "lgWidth": 100,
+    "xlWidth": 100
+  },
+  "nestedCols": [
+    {
+      "row": "DataGridRow",
+      "col": "DataGridCol",
+      "widthStrategy": "percentage",
+      "lgWidth": 100,
+      "xlWidth": 93
+    },
+    {
+      "row": "TrendChartRow",
+      "col": "TrendChartCol",
+      "widthStrategy": "percentage",
+      "lgWidth": 100,
+      "xlWidth": 93
+    }
+  ]
+}

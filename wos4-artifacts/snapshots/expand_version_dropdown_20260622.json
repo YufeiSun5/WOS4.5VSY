@@ -1,0 +1,816 @@
+{
+  "rect": {
+    "x": 890,
+    "y": 444.5,
+    "w": 245,
+    "h": 33,
+    "text": "",
+    "tag": "DIV",
+    "cls": "el-select el-select--medium is-normal"
+  },
+  "summary": {
+    "body": "KingFusion4.5_工程浏览器\n\n< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n变更模型版本\n\n模型版本\n\n取消\n确定\nV2\nV1",
+    "options": [
+      {
+        "text": "KingFusion4.5_工程浏览器\n\n< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "client_run",
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 899
+      },
+      {
+        "text": "KingFusion4.5_工程浏览器\n\n< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "",
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 899
+      },
+      {
+        "text": "KingFusion4.5_工程浏览器\n\n< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "ksc_page_run",
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 899
+      },
+      {
+        "text": "KingFusion4.5_工程浏览器\n\n< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "page_running",
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 899
+      },
+      {
+        "text": "KingFusion4.5_工程浏览器\n\n< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "page_view_container client_page_view_container",
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 899
+      },
+      {
+        "text": "KingFusion4.5_工程浏览器\n\n< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "page_view",
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 899
+      },
+      {
+        "text": "KingFusion4.5_工程浏览器\n\n< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "layer_view",
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 899
+      },
+      {
+        "text": "KingFusion4.5_工程浏览器\n\n< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "layout_container containerStyle",
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 899
+      },
+      {
+        "text": "KingFusion4.5_工程浏览器\n\n< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "containerrow",
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 899
+      },
+      {
+        "text": "KingFusion4.5_工程浏览器",
+        "cls": "response_row",
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 64
+      },
+      {
+        "text": "KingFusion4.5_工程浏览器",
+        "cls": "",
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 64
+      },
+      {
+        "text": "KingFusion4.5_工程浏览器",
+        "cls": "",
+        "x": 45,
+        "y": 19.609375,
+        "w": 260,
+        "h": 24.75
+      },
+      {
+        "text": "KingFusion4.5_工程浏览器",
+        "cls": "component_object_unselect",
+        "x": 45,
+        "y": 19.609375,
+        "w": 260,
+        "h": 24.75
+      },
+      {
+        "text": "KingFusion4.5_工程浏览器",
+        "cls": "ui_factory",
+        "x": 45,
+        "y": 19.609375,
+        "w": 260,
+        "h": 24.75
+      },
+      {
+        "text": "KingFusion4.5_工程浏览器",
+        "cls": "pointer_auto",
+        "x": 45,
+        "y": 19.609375,
+        "w": 260,
+        "h": 24.75
+      },
+      {
+        "text": "KingFusion4.5_工程浏览器",
+        "cls": "el-text-component component_object ElementText1",
+        "x": 45,
+        "y": 19.609375,
+        "w": 260,
+        "h": 24.75
+      },
+      {
+        "text": "< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "response_row",
+        "x": 0,
+        "y": 64,
+        "w": 1920,
+        "h": 835
+      },
+      {
+        "text": "< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "",
+        "x": 1,
+        "y": 65,
+        "w": 1918,
+        "h": 833
+      },
+      {
+        "text": "< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "",
+        "x": 1,
+        "y": 65,
+        "w": 1918,
+        "h": 833
+      },
+      {
+        "text": "< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "component_object_unselect",
+        "x": 1,
+        "y": 65,
+        "w": 1918,
+        "h": 833
+      },
+      {
+        "text": "< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "ui_factory layer_class",
+        "x": 1,
+        "y": 65,
+        "w": 1918,
+        "h": 833
+      },
+      {
+        "text": "< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "page_view_container client_page_view_container set_page_app component_object 开发系统_组态_框架页面",
+        "x": 1,
+        "y": 65,
+        "w": 1918,
+        "h": 833
+      },
+      {
+        "text": "< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "page_view",
+        "x": 1,
+        "y": 65,
+        "w": 1918,
+        "h": 833
+      },
+      {
+        "text": "< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "layer_view",
+        "x": 1,
+        "y": 65,
+        "w": 1918,
+        "h": 833
+      },
+      {
+        "text": "< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "layout_container containerStyle",
+        "x": 1,
+        "y": 65,
+        "w": 1918,
+        "h": 833
+      },
+      {
+        "text": "< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "containerrow",
+        "x": 1,
+        "y": 65,
+        "w": 1918,
+        "h": 833
+      },
+      {
+        "text": "< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "response_row",
+        "x": 1,
+        "y": 65,
+        "w": 1918,
+        "h": 833
+      },
+      {
+        "text": "< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "",
+        "x": 1,
+        "y": 65,
+        "w": 1918,
+        "h": 833
+      },
+      {
+        "text": "< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理",
+        "cls": "",
+        "x": 1,
+        "y": 65,
+        "w": 240,
+        "h": 833
+      },
+      {
+        "text": "< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理",
+        "cls": "component_object_unselect",
+        "x": 1,
+        "y": 65,
+        "w": 240,
+        "h": 833
+      },
+      {
+        "text": "< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理",
+        "cls": "ui_factory",
+        "x": 1,
+        "y": 65,
+        "w": 240,
+        "h": 833
+      },
+      {
+        "text": "< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理",
+        "cls": "pointer_auto",
+        "x": 1,
+        "y": 65,
+        "w": 240,
+        "h": 833
+      },
+      {
+        "text": "< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理",
+        "cls": "layout_container component_object containerStyle",
+        "x": 1,
+        "y": 65,
+        "w": 240,
+        "h": 833
+      },
+      {
+        "text": "< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理",
+        "cls": "containerrow",
+        "x": 1,
+        "y": 65,
+        "w": 240,
+        "h": 833
+      },
+      {
+        "text": "盛云_孙宇飞_CRUD工程_0620",
+        "cls": "response_row",
+        "x": 1,
+        "y": 103,
+        "w": 240,
+        "h": 36
+      },
+      {
+        "text": "盛云_孙宇飞_CRUD工程_0620",
+        "cls": "",
+        "x": 1,
+        "y": 103,
+        "w": 239,
+        "h": 36
+      },
+      {
+        "text": "盛云_孙宇飞_CRUD工程_0620",
+        "cls": "",
+        "x": 11,
+        "y": 103,
+        "w": 229,
+        "h": 35
+      },
+      {
+        "text": "盛云_孙宇飞_CRUD工程_0620",
+        "cls": "component_object_unselect",
+        "x": 11,
+        "y": 103,
+        "w": 229,
+        "h": 35
+      },
+      {
+        "text": "盛云_孙宇飞_CRUD工程_0620",
+        "cls": "ui_factory",
+        "x": 11,
+        "y": 103,
+        "w": 229,
+        "h": 35
+      },
+      {
+        "text": "盛云_孙宇飞_CRUD工程_0620",
+        "cls": "pointer_auto",
+        "x": 11,
+        "y": 103,
+        "w": 229,
+        "h": 35
+      },
+      {
+        "text": "盛云_孙宇飞_CRUD工程_0620",
+        "cls": "el-text-component component_object projectText",
+        "x": 11,
+        "y": 103,
+        "w": 229,
+        "h": 35
+      },
+      {
+        "text": "时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "",
+        "x": 241,
+        "y": 65,
+        "w": 1678,
+        "h": 833
+      },
+      {
+        "text": "时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "component_object_unselect",
+        "x": 241,
+        "y": 65,
+        "w": 1678,
+        "h": 833
+      },
+      {
+        "text": "时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "ui_factory layer_class",
+        "x": 241,
+        "y": 65,
+        "w": 1678,
+        "h": 833
+      },
+      {
+        "text": "时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "page_view_container client_page_view_container set_page_app component_object 数字孪生实例化_框架页面",
+        "x": 241,
+        "y": 65,
+        "w": 1678,
+        "h": 833
+      },
+      {
+        "text": "时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "page_view",
+        "x": 241,
+        "y": 65,
+        "w": 1678,
+        "h": 833
+      },
+      {
+        "text": "时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "layer_view",
+        "x": 241,
+        "y": 65,
+        "w": 1678,
+        "h": 833
+      },
+      {
+        "text": "时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "layout_container containerStyle",
+        "x": 241,
+        "y": 65,
+        "w": 1678,
+        "h": 833
+      },
+      {
+        "text": "时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "containerrow",
+        "x": 241,
+        "y": 65,
+        "w": 1678,
+        "h": 833
+      },
+      {
+        "text": "时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "response_row",
+        "x": 241,
+        "y": 65,
+        "w": 1678,
+        "h": 833
+      },
+      {
+        "text": "时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "",
+        "x": 241,
+        "y": 65,
+        "w": 1678,
+        "h": 833
+      },
+      {
+        "text": "时空列表\n\nKF4.5Root\nNadirL1\nNadirL2",
+        "cls": "",
+        "x": 241,
+        "y": 65,
+        "w": 350,
+        "h": 833
+      },
+      {
+        "text": "时空列表\n\nKF4.5Root\nNadirL1\nNadirL2",
+        "cls": "component_object_unselect",
+        "x": 241,
+        "y": 65,
+        "w": 350,
+        "h": 833
+      },
+      {
+        "text": "时空列表\n\nKF4.5Root\nNadirL1\nNadirL2",
+        "cls": "ui_factory layer_class",
+        "x": 241,
+        "y": 65,
+        "w": 350,
+        "h": 833
+      },
+      {
+        "text": "时空列表\n\nKF4.5Root\nNadirL1\nNadirL2",
+        "cls": "layer_class",
+        "x": 241,
+        "y": 65,
+        "w": 350,
+        "h": 833
+      },
+      {
+        "text": "时空列表\n\nKF4.5Root\nNadirL1\nNadirL2",
+        "cls": "layout_container component_object containerStyle",
+        "x": 241,
+        "y": 65,
+        "w": 350,
+        "h": 833
+      },
+      {
+        "text": "时空列表\n\nKF4.5Root\nNadirL1\nNadirL2",
+        "cls": "containerrow",
+        "x": 241,
+        "y": 65,
+        "w": 350,
+        "h": 833
+      },
+      {
+        "text": "KF4.5Root\nNadirL1\nNadirL2",
+        "cls": "response_row",
+        "x": 256,
+        "y": 177,
+        "w": 320,
+        "h": 706
+      },
+      {
+        "text": "KF4.5Root\nNadirL1\nNadirL2",
+        "cls": "",
+        "x": 256,
+        "y": 177,
+        "w": 320,
+        "h": 706
+      },
+      {
+        "text": "KF4.5Root\nNadirL1\nNadirL2",
+        "cls": "",
+        "x": 256,
+        "y": 177,
+        "w": 320,
+        "h": 706
+      },
+      {
+        "text": "KF4.5Root\nNadirL1\nNadirL2",
+        "cls": "component_object_unselect",
+        "x": 256,
+        "y": 177,
+        "w": 320,
+        "h": 706
+      },
+      {
+        "text": "KF4.5Root\nNadirL1\nNadirL2",
+        "cls": "ui_factory layer_class",
+        "x": 256,
+        "y": 177,
+        "w": 320,
+        "h": 706
+      },
+      {
+        "text": "KF4.5Root\nNadirL1\nNadirL2",
+        "cls": "pointer_auto",
+        "x": 256,
+        "y": 177,
+        "w": 320,
+        "h": 706
+      },
+      {
+        "text": "KF4.5Root\nNadirL1\nNadirL2",
+        "cls": "custom_tree component_object spaceTimeRepo_ElementTree",
+        "x": 256,
+        "y": 177,
+        "w": 320,
+        "h": 706
+      },
+      {
+        "text": "KF4.5Root\nNadirL1\nNadirL2",
+        "cls": "el-tree tree el-tree--highlight-current",
+        "x": 256,
+        "y": 177,
+        "w": 320,
+        "h": 90
+      },
+      {
+        "text": "KF4.5Root\nNadirL1\nNadirL2",
+        "cls": "el-tree-node is-expanded is-focusable",
+        "x": 256,
+        "y": 177,
+        "w": 320,
+        "h": 90
+      },
+      {
+        "text": "KF4.5Root",
+        "cls": "el-tree-node__content",
+        "x": 256,
+        "y": 177,
+        "w": 320,
+        "h": 30
+      },
+      {
+        "text": "KF4.5Root",
+        "cls": "editNode root-node",
+        "x": 270,
+        "y": 179,
+        "w": 268,
+        "h": 26
+      },
+      {
+        "text": "KF4.5Root",
+        "cls": "treeNodeLabel",
+        "x": 282.484375,
+        "y": 179,
+        "w": 239.515625,
+        "h": 26
+      },
+      {
+        "text": "NadirL1\nNadirL2",
+        "cls": "el-tree-node__children",
+        "x": 256,
+        "y": 207,
+        "w": 320,
+        "h": 60
+      },
+      {
+        "text": "NadirL1\nNadirL2",
+        "cls": "el-tree-node is-expanded is-focusable",
+        "x": 256,
+        "y": 207,
+        "w": 320,
+        "h": 60
+      },
+      {
+        "text": "NadirL1",
+        "cls": "el-tree-node__content",
+        "x": 256,
+        "y": 207,
+        "w": 320,
+        "h": 30
+      },
+      {
+        "text": "NadirL1",
+        "cls": "editNode",
+        "x": 286,
+        "y": 209,
+        "w": 252,
+        "h": 26
+      },
+      {
+        "text": "NadirL1",
+        "cls": "treeNodeLabel",
+        "x": 298.390625,
+        "y": 209,
+        "w": 223.609375,
+        "h": 26
+      },
+      {
+        "text": "NadirL2",
+        "cls": "el-tree-node__children",
+        "x": 256,
+        "y": 237,
+        "w": 320,
+        "h": 30
+      },
+      {
+        "text": "NadirL2",
+        "cls": "el-tree-node is-expanded is-current is-focusable",
+        "x": 256,
+        "y": 237,
+        "w": 320,
+        "h": 30
+      },
+      {
+        "text": "NadirL2",
+        "cls": "el-tree-node__content",
+        "x": 256,
+        "y": 237,
+        "w": 320,
+        "h": 30
+      },
+      {
+        "text": "NadirL2",
+        "cls": "editNode",
+        "x": 302,
+        "y": 239,
+        "w": 236,
+        "h": 26
+      },
+      {
+        "text": "NadirL2",
+        "cls": "treeNodeLabel",
+        "x": 314.296875,
+        "y": 239,
+        "w": 207.703125,
+        "h": 26
+      },
+      {
+        "text": "实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "",
+        "x": 591,
+        "y": 65,
+        "w": 1328,
+        "h": 833
+      },
+      {
+        "text": "实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "component_object_unselect",
+        "x": 591,
+        "y": 65,
+        "w": 1328,
+        "h": 833
+      },
+      {
+        "text": "实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "ui_factory layer_class",
+        "x": 591,
+        "y": 65,
+        "w": 1328,
+        "h": 833
+      },
+      {
+        "text": "实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "layer_class",
+        "x": 591,
+        "y": 65,
+        "w": 1328,
+        "h": 833
+      },
+      {
+        "text": "实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "layout_container component_object containerStyle",
+        "x": 591,
+        "y": 65,
+        "w": 1328,
+        "h": 833
+      },
+      {
+        "text": "实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "containerrow",
+        "x": 591,
+        "y": 65,
+        "w": 1328,
+        "h": 833
+      },
+      {
+        "text": "名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "response_row",
+        "x": 606,
+        "y": 128,
+        "w": 1298,
+        "h": 755
+      },
+      {
+        "text": "名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "",
+        "x": 606,
+        "y": 128,
+        "w": 1298,
+        "h": 755
+      },
+      {
+        "text": "名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "",
+        "x": 606,
+        "y": 128,
+        "w": 1298,
+        "h": 755
+      },
+      {
+        "text": "名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "component_object_unselect",
+        "x": 606,
+        "y": 128,
+        "w": 1298,
+        "h": 755
+      },
+      {
+        "text": "名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "ui_factory layer_class",
+        "x": 606,
+        "y": 128,
+        "w": 1298,
+        "h": 755
+      },
+      {
+        "text": "名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "pointer_auto",
+        "x": 606,
+        "y": 128,
+        "w": 1298,
+        "h": 755
+      },
+      {
+        "text": "名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "PCUI_ElementTable component_object instanceList_ElementTable",
+        "x": 606,
+        "y": 128,
+        "w": 1298,
+        "h": 755
+      },
+      {
+        "text": "名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "el-table el-table--fit el-table--border el-table--scrollable-x el-table--enable-row-hover el-table--enable-row-transition el-table--medium",
+        "x": 606,
+        "y": 128,
+        "w": 1298,
+        "h": 755
+      },
+      {
+        "text": "NadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+        "cls": "el-table__body-wrapper is-scrolling-left",
+        "x": 607,
+        "y": 174,
+        "w": 1297,
+        "h": 709
+      },
+      {
+        "text": "盛云_孙宇飞_后台_CRUDDemo_0620",
+        "cls": "cell el-tooltip",
+        "x": 1305,
+        "y": 182,
+        "w": 98,
+        "h": 23
+      },
+      {
+        "text": "盛云_孙宇飞_后台_CRUDDemo_0620",
+        "cls": "",
+        "x": 1315,
+        "y": 183,
+        "w": 236.78125,
+        "h": 20
+      },
+      {
+        "text": "v1",
+        "cls": "cell el-tooltip",
+        "x": 1405,
+        "y": 182,
+        "w": 119,
+        "h": 23
+      },
+      {
+        "text": "v1",
+        "cls": "",
+        "x": 1415,
+        "y": 183,
+        "w": 15.078125,
+        "h": 20
+      },
+      {
+        "text": "盛云_孙宇飞_前端_CRUDDemo_0620",
+        "cls": "cell el-tooltip",
+        "x": 1305,
+        "y": 222,
+        "w": 98,
+        "h": 23
+      },
+      {
+        "text": "盛云_孙宇飞_前端_CRUDDemo_0620",
+        "cls": "",
+        "x": 1315,
+        "y": 223,
+        "w": 236.78125,
+        "h": 20
+      }
+    ]
+  }
+}

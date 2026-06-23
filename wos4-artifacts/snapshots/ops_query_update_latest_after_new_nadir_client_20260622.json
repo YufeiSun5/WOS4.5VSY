@@ -1,0 +1,112 @@
+{
+  "ok": true,
+  "result": {
+    "startedAt": 1782116548458,
+    "setRunInfo": {},
+    "queryPackets": {
+      "errorcodes": [
+        0
+      ],
+      "ret": 0,
+      "returndata": {
+        "errorcode": 0,
+        "errormsg": "success",
+        "repopktversionlist": [
+          1,
+          2,
+          3
+        ]
+      },
+      "traceID": "5188825566472071168",
+      "consumeTime": 109
+    },
+    "versionList": [
+      1,
+      2,
+      3
+    ],
+    "latest": 3,
+    "update": {
+      "errorcodes": [
+        0
+      ],
+      "ret": 0,
+      "returndata": {
+        "errorcode": 0,
+        "errormsg": "success"
+      },
+      "traceID": "5188825677570541568",
+      "consumeTime": 1726
+    },
+    "repoInfo": {
+      "errorcodes": [
+        0
+      ],
+      "ret": 0,
+      "returndata": {
+        "errorcode": 0,
+        "errormsg": "success",
+        "strepocfglist": [
+          {
+            "deploy_state": "已部署",
+            "running_state": "未启动",
+            "strepocfgguid": "069aca68-d952-4a20-949f-af9784b33985",
+            "strepocfgname": "NadirFront",
+            "strepocfgver": 3
+          },
+          {
+            "deploy_state": "已部署",
+            "running_state": "未启动",
+            "strepocfgguid": "1d6d69eb-b072-4419-9a1d-980ebbe1396e",
+            "strepocfgname": "业务内置APP",
+            "strepocfgver": 4
+          },
+          {
+            "deploy_state": "已部署",
+            "running_state": "未启动",
+            "strepocfgguid": "276cb189-67c5-47d1-94be-7e76f5f5af4e",
+            "strepocfgname": "NadirBack",
+            "strepocfgver": 5
+          },
+          {
+            "deploy_state": "已部署",
+            "running_state": "未启动",
+            "strepocfgguid": "5bf54c1d-7ecd-4127-8bf5-a47b23ac31b7",
+            "strepocfgname": "业务内置APP",
+            "strepocfgver": 3
+          },
+          {
+            "deploy_state": "已部署",
+            "running_state": "未启动",
+            "strepocfgguid": "a934b08f-695f-4067-8c4c-98aa434047ce",
+            "strepocfgname": "业务事_运行后台",
+            "strepocfgver": 4
+          }
+        ]
+      },
+      "traceID": "5188827442530939904",
+      "consumeTime": 61
+    },
+    "stInfo": {
+      "errorcodes": [
+        0
+      ],
+      "ret": 0,
+      "returndata": {
+        "errorcode": 0,
+        "errormsg": "success",
+        "stobjectlist": [
+          {
+            "deploy_state": "已部署",
+            "running_state": "已启动",
+            "stobjectguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+            "stobjectname": "NadirL2"
+          }
+        ]
+      },
+      "traceID": "5188827504871872512",
+      "consumeTime": 104
+    }
+  },
+  "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页\n管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t可视化名称\t版本\t部署状态\t运行状态\t操作\n\t\n盛云_孙宇飞_Noctiluca_客户端\n\t\n2\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止"
+}

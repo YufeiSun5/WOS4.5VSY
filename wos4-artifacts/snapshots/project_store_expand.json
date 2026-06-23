@@ -1,0 +1,45 @@
+{
+  "pageMng": {
+    "storeNameEnum": "[Object _root,CLIENT_ROOT,CLIENT_FU,CLIENT_PAGEMNG,CLIENT_VARIABLEGROUP,CLIENT_SCRIPTMNG]",
+    "RUN_PARAM_DATA": "[Object mode,type,guid,id,guidVersion]",
+    "FU_USER_CLICK": "[Object ]",
+    "groupTree": "[Object groupName,icon,id,KSCGUID,moduleType,nodeType,children]",
+    "showPageList": "[Array 23]",
+    "allDataList": "[Array 24]",
+    "homePage": "工程浏览器_框架页面",
+    "appHomePage": "工程浏览器_框架页面",
+    "currentUserKeys": "[Array 0]"
+  },
+  "dataStore1": {
+    "achievements": "[Object mode,type,id,guid,guidVersion,modeldbrepository]",
+    "storeNameEnum": "[Object dataStore,viewStore,scriptStore]",
+    "property": "[Object $id,$guid,$name,$type,$modelguid,$modelversion,$repositoryguid,$memberlist,FUType,isRecycled,modelDBRepository,quotedType]",
+    "paramList": "[Array 0]",
+    "fuList": "[Array 4]",
+    "dataList": "[Array 0]",
+    "rootConfig": "[Object ]",
+    "mode": "production",
+    "scriptFlag": true,
+    "PARENT_STORE_PARAM": "[Object pageName,child$StoreName,fuObj,spaceTime,currentUserKeys]",
+    "dependImgResource": "[Array 0]",
+    "pageFileId": "",
+    "pageFolderId": "",
+    "imageList": "[Array 0]"
+  },
+  "dataStore2": {
+    "achievements": "[Object mode,type,id,guid,guidVersion,modeldbrepository]",
+    "storeNameEnum": "[Object dataStore,viewStore,scriptStore]",
+    "property": "[Object $id,$guid,$name,$type,$modelguid,$modelversion,$repositoryguid,$memberlist,FUType,isRecycled,modelDBRepository,quotedType]",
+    "paramList": "[Array 0]",
+    "fuList": "[Array 4]",
+    "dataList": "[Array 0]",
+    "rootConfig": "[Object ]",
+    "mode": "production",
+    "scriptFlag": true,
+    "PARENT_STORE_PARAM": "[Object child$StoreName,fuObj,spaceTime,currentUserKeys,pageName]",
+    "dependImgResource": "[Array 0]",
+    "pageFileId": "",
+    "pageFolderId": "",
+    "imageList": "[Array 0]"
+  }
+}

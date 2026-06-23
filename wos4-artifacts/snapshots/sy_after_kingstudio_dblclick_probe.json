@@ -1,0 +1,445 @@
+{
+  "rect": {
+    "x": 14,
+    "y": 152,
+    "w": 68,
+    "h": 112,
+    "text": "KingStudio_V20260514"
+  },
+  "url": "http://221.239.19.118:13001/#/main",
+  "topText": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260514\n组态系统客户端0518\n建模系统客户端_0518\n运维部署客户端_0518\nCodex临时测试_前端视图_0611",
+  "frames": [
+    {
+      "url": "http://221.239.19.118:13001/#/main",
+      "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260514\n组态系统客户端0518\n建模系统客户端_0518\n运维部署客户端_0518\nCodex临时测试_前端视图_0611"
+    },
+    {
+      "url": "http://221.239.19.118:13001/public/?id=6192730962611142708&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+      "text": ""
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html#/running",
+      "text": "KingStudio\n简体中文\n关于\n产品管理\n新建\n导入\n导出\n升级拷贝1\n进入修改删除"
+    }
+  ],
+  "events": [
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/wellinos/loginsvcuserbyrole",
+      "at": 1781234476832
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/wellinos/loginsvcuserbyrole",
+      "at": 1781234476880
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234476886
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234476929
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234477573
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234477573
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234477573
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234477646
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234477671
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234477672
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Update",
+      "at": 1781234477688
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234477688
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Update",
+      "at": 1781234477710
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234477724
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/?id=6192730962611142708&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+      "at": 1781234477938
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/?id=6192730962611142708&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+      "at": 1781234477973
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js",
+      "at": 1781234477979
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css",
+      "at": 1781234477979
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/config.json",
+      "at": 1781234477979
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/config.json",
+      "at": 1781234478011
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css",
+      "at": 1781234478012
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js",
+      "at": 1781234478336
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js",
+      "at": 1781234478340
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js",
+      "at": 1781234478364
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234478365
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234478396
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html",
+      "at": 1781234478399
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js",
+      "at": 1781234478401
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js",
+      "at": 1781234478406
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html",
+      "at": 1781234478443
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/config.js?t=1778745025025",
+      "at": 1781234478448
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/index-e38b6f82.js",
+      "at": 1781234478448
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/index-3a2516c0.css",
+      "at": 1781234478448
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/config.js?t=1778745025025",
+      "at": 1781234478479
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/index-3a2516c0.css",
+      "at": 1781234478484
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/index-e38b6f82.js",
+      "at": 1781234478844
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/MainView-dec51b4b.js",
+      "at": 1781234478857
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/_plugin-vue_export-helper-c27b6911.js",
+      "at": 1781234478857
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/MainView-e7b601e3.css",
+      "at": 1781234478857
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/_plugin-vue_export-helper-c27b6911.js",
+      "at": 1781234478891
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/MainView-e7b601e3.css",
+      "at": 1781234478895
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/MainView-dec51b4b.js",
+      "at": 1781234479558
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234479646
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234479646
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234479649
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234479650
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234479661
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234479662
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234479686
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234479687
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234479707
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234479724
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234479724
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234479782
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234479782
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234479817
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234480698
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234480769
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234483686
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234483779
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234486699
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234486737
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234489694
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234489728
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234492698
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234492746
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234495690
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234495729
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234498690
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234498739
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234501691
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234501735
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234504687
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234504735
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234507691
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781234507727
+    }
+  ]
+}

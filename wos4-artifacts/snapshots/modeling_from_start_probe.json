@@ -1,0 +1,4597 @@
+{
+  "ok": true,
+  "finishedAt": "2026-06-12T05:24:17.197Z",
+  "targetModel": "盛云_孙宇飞_假数据设备模型_0612",
+  "log": [
+    {
+      "at": "2026-06-12T05:24:04.245Z",
+      "type": "start",
+      "targetModel": "盛云_孙宇飞_假数据设备模型_0612",
+      "base": "http://221.239.19.118:13001",
+      "userPresent": true,
+      "passPresent": true
+    },
+    {
+      "at": "2026-06-12T05:24:05.045Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/wellinos/loginsvcuserbyrole"
+    },
+    {
+      "at": "2026-06-12T05:24:05.089Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/wellinos/loginsvcuserbyrole"
+    },
+    {
+      "at": "2026-06-12T05:24:05.094Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:05.175Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:05.754Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:05.754Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:05.754Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:05.754Z",
+      "type": "login-ok",
+      "url": "http://221.239.19.118:13001/#/main"
+    },
+    {
+      "at": "2026-06-12T05:24:05.813Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:05.842Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:05.853Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:05.865Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:05.865Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:05.952Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:05.952Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:05.960Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Update"
+    },
+    {
+      "at": "2026-06-12T05:24:06.016Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Update"
+    },
+    {
+      "at": "2026-06-12T05:24:06.869Z",
+      "type": "desktop-card-candidates",
+      "cards": [
+        {
+          "tag": "DIV",
+          "cls": "data-item card-item",
+          "title": "建模系统客户端_0518",
+          "text": "建模系统客户端_0518",
+          "x": 204,
+          "y": 152,
+          "w": 68,
+          "h": 112
+        },
+        {
+          "tag": "SPAN",
+          "cls": "span-label",
+          "title": null,
+          "text": "建模系统客户端_0518",
+          "x": 204,
+          "y": 230,
+          "w": 68,
+          "h": 34
+        }
+      ]
+    },
+    {
+      "at": "2026-06-12T05:24:07.064Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/?id=6192730962611142710&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true"
+    },
+    {
+      "at": "2026-06-12T05:24:07.122Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/?id=6192730962611142710&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true"
+    },
+    {
+      "at": "2026-06-12T05:24:07.126Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js"
+    },
+    {
+      "at": "2026-06-12T05:24:07.126Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css"
+    },
+    {
+      "at": "2026-06-12T05:24:07.126Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/config.json"
+    },
+    {
+      "at": "2026-06-12T05:24:07.168Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/config.json"
+    },
+    {
+      "at": "2026-06-12T05:24:07.168Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css"
+    },
+    {
+      "at": "2026-06-12T05:24:07.440Z",
+      "type": "dblclick-modeling-card",
+      "card": {
+        "tag": "DIV",
+        "cls": "data-item card-item",
+        "title": "建模系统客户端_0518",
+        "text": "建模系统客户端_0518",
+        "x": 204,
+        "y": 152,
+        "w": 68,
+        "h": 112
+      }
+    },
+    {
+      "at": "2026-06-12T05:24:07.583Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js"
+    },
+    {
+      "at": "2026-06-12T05:24:07.588Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js"
+    },
+    {
+      "at": "2026-06-12T05:24:07.624Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js"
+    },
+    {
+      "at": "2026-06-12T05:24:07.627Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:07.645Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js"
+    },
+    {
+      "at": "2026-06-12T05:24:07.662Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:07.665Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js"
+    },
+    {
+      "at": "2026-06-12T05:24:07.672Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html"
+    },
+    {
+      "at": "2026-06-12T05:24:07.726Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html"
+    },
+    {
+      "at": "2026-06-12T05:24:07.734Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/config.js"
+    },
+    {
+      "at": "2026-06-12T05:24:07.734Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/debugger.js"
+    },
+    {
+      "at": "2026-06-12T05:24:07.734Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/runtime.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:24:07.734Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:24:07.734Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/index.26325ec0.css"
+    },
+    {
+      "at": "2026-06-12T05:24:07.774Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/config.js"
+    },
+    {
+      "at": "2026-06-12T05:24:07.775Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/debugger.js"
+    },
+    {
+      "at": "2026-06-12T05:24:07.798Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/index.26325ec0.css"
+    },
+    {
+      "at": "2026-06-12T05:24:07.833Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/runtime.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:24:08.572Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:24:08.809Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:08.871Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:08.871Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:08.939Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:08.942Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:08.942Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:08.974Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:08.979Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:08.980Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:08.980Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:08.984Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:09.021Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:09.023Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:09.060Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:09.065Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/62936.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:24:09.065Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/69225.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:24:09.065Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-run.24e1aadb.css"
+    },
+    {
+      "at": "2026-06-12T05:24:09.065Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:24:09.067Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:09.104Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-run.24e1aadb.css"
+    },
+    {
+      "at": "2026-06-12T05:24:09.114Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:09.183Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:24:09.198Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/69225.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:24:09.367Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/62936.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:24:09.789Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/fonts/element-icons.ff18efd1.woff"
+    },
+    {
+      "at": "2026-06-12T05:24:09.848Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/fonts/element-icons.ff18efd1.woff"
+    },
+    {
+      "at": "2026-06-12T05:24:09.928Z",
+      "type": "modeling-home-ready",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html"
+    },
+    {
+      "at": "2026-06-12T05:24:09.989Z",
+      "type": "clicked-label",
+      "label": "管控单元建模"
+    },
+    {
+      "at": "2026-06-12T05:24:10.403Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:10.446Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:10.449Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:10.484Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:10.489Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-view-App.109a4cde.css"
+    },
+    {
+      "at": "2026-06-12T05:24:10.489Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-view-App.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:24:10.492Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:10.538Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-view-App.109a4cde.css"
+    },
+    {
+      "at": "2026-06-12T05:24:10.540Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:10.540Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-view-App.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:24:10.542Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/65181.026e4f9f.css"
+    },
+    {
+      "at": "2026-06-12T05:24:10.542Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/65181.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:24:10.578Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/65181.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:24:10.584Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/65181.026e4f9f.css"
+    },
+    {
+      "at": "2026-06-12T05:24:10.762Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:10.796Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:10.801Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/index-53e0c0ac.js"
+    },
+    {
+      "at": "2026-06-12T05:24:10.838Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/assets/index-53e0c0ac.js"
+    },
+    {
+      "at": "2026-06-12T05:24:10.838Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:10.878Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:10.880Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:10.917Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:10.919Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:10.956Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:10.958Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:10.998Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:10.999Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:11.035Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:11.036Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:11.104Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:11.105Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:11.142Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:11.527Z",
+      "type": "clicked-label",
+      "label": "测试"
+    },
+    {
+      "at": "2026-06-12T05:24:11.873Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:11.874Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:11.920Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:11.920Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:13.065Z",
+      "type": "before-edit-ui",
+      "data": {
+        "body": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 2 条\n<1>前往页",
+        "matches": [
+          {
+            "tag": "DIV",
+            "cls": "client_run",
+            "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854
+          },
+          {
+            "tag": "DIV",
+            "cls": "ksc_page_run",
+            "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854
+          },
+          {
+            "tag": "DIV",
+            "cls": "page_running",
+            "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854
+          },
+          {
+            "tag": "DIV",
+            "cls": "page_view_container client_page_view_container",
+            "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854
+          },
+          {
+            "tag": "DIV",
+            "cls": "page_view",
+            "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854
+          },
+          {
+            "tag": "DIV",
+            "cls": "layer_view",
+            "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854
+          },
+          {
+            "tag": "DIV",
+            "cls": "layout_container containerStyle",
+            "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854
+          },
+          {
+            "tag": "SPAN",
+            "cls": "containerrow",
+            "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854
+          },
+          {
+            "tag": "DIV",
+            "cls": "response_row",
+            "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表",
+            "x": 240,
+            "y": 0,
+            "w": 1160,
+            "h": 854
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表",
+            "x": 240,
+            "y": 0,
+            "w": 1160,
+            "h": 854
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory layer_class",
+            "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表",
+            "x": 240,
+            "y": 0,
+            "w": 1160,
+            "h": 854
+          },
+          {
+            "tag": "DIV",
+            "cls": "page_view_container client_page_view_container set_page_app component_object 数字孪生建模_框架页面",
+            "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表",
+            "x": 240,
+            "y": 0,
+            "w": 1160,
+            "h": 854
+          },
+          {
+            "tag": "DIV",
+            "cls": "page_view",
+            "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表",
+            "x": 240,
+            "y": 0,
+            "w": 1160,
+            "h": 854
+          },
+          {
+            "tag": "DIV",
+            "cls": "layer_view",
+            "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表",
+            "x": 240,
+            "y": 0,
+            "w": 1160,
+            "h": 854
+          },
+          {
+            "tag": "DIV",
+            "cls": "layout_container containerStyle",
+            "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表",
+            "x": 240,
+            "y": 0,
+            "w": 1160,
+            "h": 854
+          },
+          {
+            "tag": "SPAN",
+            "cls": "containerrow",
+            "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表",
+            "x": 240,
+            "y": 0,
+            "w": 1160,
+            "h": 854
+          },
+          {
+            "tag": "DIV",
+            "cls": "response_row",
+            "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表",
+            "x": 260,
+            "y": 0,
+            "w": 1140,
+            "h": 854
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表",
+            "x": 260,
+            "y": 0,
+            "w": 1140,
+            "h": 854
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "导入 导出 删除",
+            "x": 404.984375,
+            "y": 39.5,
+            "w": 16,
+            "h": 16
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "导入 导出 删除",
+            "x": 404.984375,
+            "y": 39.5,
+            "w": 16,
+            "h": 16
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory",
+            "text": "导入 导出 删除",
+            "x": 404.984375,
+            "y": 39.5,
+            "w": 16,
+            "h": 16
+          },
+          {
+            "tag": "DIV",
+            "cls": "pointer_auto",
+            "text": "导入 导出 删除",
+            "x": 404.984375,
+            "y": 39.5,
+            "w": 16,
+            "h": 16
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-tooltip component_object 模型分组更多操作按钮",
+            "text": "导入 导出 删除",
+            "x": 404.984375,
+            "y": 39.5,
+            "w": 16,
+            "h": 16
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-dropdown k63cbfc7e4859a1e4104b0fff98923a1",
+            "text": "导入 导出 删除",
+            "x": 404.984375,
+            "y": 39.5,
+            "w": 16,
+            "h": 16
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理",
+            "x": 442,
+            "y": 0,
+            "w": 958,
+            "h": 854
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理",
+            "x": 442,
+            "y": 0,
+            "w": 958,
+            "h": 854
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory",
+            "text": "模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理",
+            "x": 442,
+            "y": 0,
+            "w": 958,
+            "h": 854
+          },
+          {
+            "tag": "DIV",
+            "cls": "pointer_auto",
+            "text": "模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理",
+            "x": 442,
+            "y": 0,
+            "w": 958,
+            "h": 854
+          },
+          {
+            "tag": "DIV",
+            "cls": "layout_container component_object containerStyle",
+            "text": "模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理",
+            "x": 442,
+            "y": 0,
+            "w": 958,
+            "h": 854
+          },
+          {
+            "tag": "SPAN",
+            "cls": "containerrow",
+            "text": "模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理",
+            "x": 442,
+            "y": 0,
+            "w": 958,
+            "h": 854
+          },
+          {
+            "tag": "DIV",
+            "cls": "response_row",
+            "text": "模型列表\n\n新建\n更多操作",
+            "x": 462,
+            "y": 10,
+            "w": 918,
+            "h": 38
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "模型列表\n\n新建\n更多操作",
+            "x": 462,
+            "y": 10,
+            "w": 918,
+            "h": 38
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "新建",
+            "x": 943,
+            "y": 10,
+            "w": 80,
+            "h": 34
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "新建",
+            "x": 943,
+            "y": 10,
+            "w": 80,
+            "h": 34
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory",
+            "text": "新建",
+            "x": 943,
+            "y": 10,
+            "w": 80,
+            "h": 34
+          },
+          {
+            "tag": "DIV",
+            "cls": "pointer_auto",
+            "text": "新建",
+            "x": 943,
+            "y": 10,
+            "w": 80,
+            "h": 34
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object 新建按钮",
+            "text": "新建",
+            "x": 943,
+            "y": 10,
+            "w": 80,
+            "h": 34
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "el-button el-button--primary el-button--medium propertyStyle",
+            "text": "新建",
+            "x": 943,
+            "y": 10,
+            "w": 80,
+            "h": 34
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "新建",
+            "x": 978.5,
+            "y": 20,
+            "w": 28,
+            "h": 14
+          },
+          {
+            "tag": "DIV",
+            "cls": "response_row",
+            "text": "序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+            "x": 462,
+            "y": 58,
+            "w": 918,
+            "h": 764
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+            "x": 462,
+            "y": 58,
+            "w": 918,
+            "h": 764
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+            "x": 462,
+            "y": 58,
+            "w": 918,
+            "h": 764
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+            "x": 462,
+            "y": 58,
+            "w": 918,
+            "h": 764
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory",
+            "text": "序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+            "x": 462,
+            "y": 58,
+            "w": 918,
+            "h": 764
+          },
+          {
+            "tag": "DIV",
+            "cls": "pointer_auto",
+            "text": "序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+            "x": 462,
+            "y": 58,
+            "w": 918,
+            "h": 764
+          },
+          {
+            "tag": "DIV",
+            "cls": "PCUI_ElementTable component_object 模型列表",
+            "text": "序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+            "x": 462,
+            "y": 58,
+            "w": 918,
+            "h": 764
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-table el-table--fit el-table--enable-row-hover el-table--enable-row-transition el-table--medium",
+            "text": "序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+            "x": 462,
+            "y": 58,
+            "w": 918,
+            "h": 764
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-table__body-wrapper is-scrolling-none",
+            "text": "1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+            "x": 462,
+            "y": 102,
+            "w": 918,
+            "h": 720
+          },
+          {
+            "tag": "DIV",
+            "cls": "cell",
+            "text": "编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+            "x": 999,
+            "y": 102,
+            "w": 381,
+            "h": 50
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "el-button el-button--text el-button--medium",
+            "text": "编辑",
+            "x": 1009,
+            "y": 102,
+            "w": 28,
+            "h": 50
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "编辑",
+            "x": 1009,
+            "y": 119,
+            "w": 28,
+            "h": 16
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "el-button el-button--text el-button--medium",
+            "text": "提交版本",
+            "x": 1089,
+            "y": 102,
+            "w": 56,
+            "h": 50
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "提交版本",
+            "x": 1089,
+            "y": 119,
+            "w": 56,
+            "h": 16
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "el-button el-button--text el-button--medium",
+            "text": "版本管理",
+            "x": 1157,
+            "y": 102,
+            "w": 56,
+            "h": 50
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "版本管理",
+            "x": 1157,
+            "y": 119,
+            "w": 56,
+            "h": 16
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "el-button el-button--text el-button--medium",
+            "text": "删除",
+            "x": 1265,
+            "y": 102,
+            "w": 28,
+            "h": 50
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "删除",
+            "x": 1265,
+            "y": 119,
+            "w": 28,
+            "h": 16
+          },
+          {
+            "tag": "DIV",
+            "cls": "cell el-tooltip",
+            "text": "盛云_孙宇飞_假数据设备模型_0612",
+            "x": 562,
+            "y": 168,
+            "w": 163,
+            "h": 20
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "盛云_孙宇飞_假数据设备模型_0612",
+            "x": 572,
+            "y": 168,
+            "w": 222.140625,
+            "h": 20
+          },
+          {
+            "tag": "DIV",
+            "cls": "cell",
+            "text": "编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+            "x": 999,
+            "y": 153,
+            "w": 381,
+            "h": 50
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "el-button el-button--text el-button--medium",
+            "text": "编辑",
+            "x": 1009,
+            "y": 153,
+            "w": 28,
+            "h": 50
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "编辑",
+            "x": 1009,
+            "y": 170,
+            "w": 28,
+            "h": 16
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "el-button el-button--text el-button--medium",
+            "text": "提交版本",
+            "x": 1089,
+            "y": 153,
+            "w": 56,
+            "h": 50
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "提交版本",
+            "x": 1089,
+            "y": 170,
+            "w": 56,
+            "h": 16
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "el-button el-button--text el-button--medium",
+            "text": "版本管理",
+            "x": 1157,
+            "y": 153,
+            "w": 56,
+            "h": 50
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "版本管理",
+            "x": 1157,
+            "y": 170,
+            "w": 56,
+            "h": 16
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "el-button el-button--text el-button--medium",
+            "text": "删除",
+            "x": 1265,
+            "y": 153,
+            "w": 28,
+            "h": 50
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "删除",
+            "x": 1265,
+            "y": 170,
+            "w": 28,
+            "h": 16
+          }
+        ]
+      }
+    },
+    {
+      "at": "2026-06-12T05:24:13.077Z",
+      "type": "clicked-target-edit",
+      "opened": {
+        "x": 1023,
+        "y": 127,
+        "cardText": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 2 条\n<1>前往页"
+      }
+    },
+    {
+      "at": "2026-06-12T05:24:13.078Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:13.135Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:13.137Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:13.179Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:13.182Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:13.182Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:13.188Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:13.220Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:13.222Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:13.222Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:13.263Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:13.266Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:13.413Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/queryResource?fuid=0&userType=2&serviceType=1&modelGuid=1c9746d4-146b-497a-afc0-8362367782d3&version=7&fileID=63"
+    },
+    {
+      "at": "2026-06-12T05:24:13.414Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:13.460Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:13.462Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/queryResource?fuid=0&userType=2&serviceType=1&modelGuid=1c9746d4-146b-497a-afc0-8362367782d3&version=7&fileID=63"
+    },
+    {
+      "at": "2026-06-12T05:24:13.573Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:13.619Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:13.621Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:13.657Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:13.677Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:13.722Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:14.081Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:14.120Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:14.869Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:14.869Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:14.900Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:14.903Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:24:17.131Z",
+      "type": "edit-probe",
+      "frameUrl": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+      "data": {
+        "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+        "body": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 2 条\n<1>前往页\n\nKingFusion4.5_工程浏览器\n\n收球筒\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n命令语言\n\t\n\n\n第三方计算管理\n\t\n\n\n图形模型\n\t\n\n\n2D精灵图\n\t\n\n\n3D精灵图\n\t\n\n\n页面精灵图\n\t\n\n\n报表精灵图\n\t\n\n\n子模型\n\t\n\n\n形参配置\n\t\n\n多灵敏时序物\n\n暂无数据\n\n基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情\n\n函数：\n\n暂无数据\n\n条件配置\n\n时间间隔 00h 00m 00s\n\n配置",
+        "buttons": [
+          {
+            "tag": "DIV",
+            "cls": "client_run",
+            "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "ksc_page_run",
+            "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "page_running",
+            "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "page_view_container client_page_view_container",
+            "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "page_view",
+            "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "layer_view",
+            "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "layout_container containerStyle",
+            "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "containerrow",
+            "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "response_row",
+            "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表",
+            "x": 240,
+            "y": 0,
+            "w": 1160,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表",
+            "x": 240,
+            "y": 0,
+            "w": 1160,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory layer_class",
+            "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表",
+            "x": 240,
+            "y": 0,
+            "w": 1160,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "page_view_container client_page_view_container set_page_app component_object 数字孪生建模_框架页面",
+            "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表",
+            "x": 240,
+            "y": 0,
+            "w": 1160,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "page_view",
+            "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表",
+            "x": 240,
+            "y": 0,
+            "w": 1160,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "layer_view",
+            "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表",
+            "x": 240,
+            "y": 0,
+            "w": 1160,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "layout_container containerStyle",
+            "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表",
+            "x": 240,
+            "y": 0,
+            "w": 1160,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "containerrow",
+            "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表",
+            "x": 240,
+            "y": 0,
+            "w": 1160,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "response_row",
+            "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表",
+            "x": 260,
+            "y": 0,
+            "w": 1140,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表",
+            "x": 260,
+            "y": 0,
+            "w": 1140,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理",
+            "x": 442,
+            "y": 0,
+            "w": 958,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理",
+            "x": 442,
+            "y": 0,
+            "w": 958,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory",
+            "text": "模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理",
+            "x": 442,
+            "y": 0,
+            "w": 958,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "pointer_auto",
+            "text": "模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理",
+            "x": 442,
+            "y": 0,
+            "w": 958,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "layout_container component_object containerStyle",
+            "text": "模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理",
+            "x": 442,
+            "y": 0,
+            "w": 958,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "containerrow",
+            "text": "模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理",
+            "x": 442,
+            "y": 0,
+            "w": 958,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "response_row",
+            "text": "模型列表\n\n新建\n更多操作",
+            "x": 462,
+            "y": 10,
+            "w": 918,
+            "h": 38,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "模型列表\n\n新建\n更多操作",
+            "x": 462,
+            "y": 10,
+            "w": 918,
+            "h": 38,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "新建",
+            "x": 943,
+            "y": 10,
+            "w": 80,
+            "h": 34,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "新建",
+            "x": 943,
+            "y": 10,
+            "w": 80,
+            "h": 34,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory",
+            "text": "新建",
+            "x": 943,
+            "y": 10,
+            "w": 80,
+            "h": 34,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "pointer_auto",
+            "text": "新建",
+            "x": 943,
+            "y": 10,
+            "w": 80,
+            "h": 34,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object 新建按钮",
+            "text": "新建",
+            "x": 943,
+            "y": 10,
+            "w": 80,
+            "h": 34,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "el-button el-button--primary el-button--medium propertyStyle",
+            "text": "新建",
+            "x": 943,
+            "y": 10,
+            "w": 80,
+            "h": 34,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "新建",
+            "x": 978.5,
+            "y": 20,
+            "w": 28,
+            "h": 14,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "response_row",
+            "text": "序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+            "x": 462,
+            "y": 58,
+            "w": 918,
+            "h": 764,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+            "x": 462,
+            "y": 58,
+            "w": 918,
+            "h": 764,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+            "x": 462,
+            "y": 58,
+            "w": 918,
+            "h": 764,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+            "x": 462,
+            "y": 58,
+            "w": 918,
+            "h": 764,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory",
+            "text": "序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+            "x": 462,
+            "y": 58,
+            "w": 918,
+            "h": 764,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "pointer_auto",
+            "text": "序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+            "x": 462,
+            "y": 58,
+            "w": 918,
+            "h": 764,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "PCUI_ElementTable component_object 模型列表",
+            "text": "序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+            "x": 462,
+            "y": 58,
+            "w": 918,
+            "h": 764,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-table el-table--fit el-table--enable-row-hover el-table--enable-row-transition el-table--medium",
+            "text": "序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+            "x": 462,
+            "y": 58,
+            "w": 918,
+            "h": 764,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-table__header-wrapper",
+            "text": "序号\t名称\t描述\t操作",
+            "x": 462,
+            "y": 58,
+            "w": 918,
+            "h": 44,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "cell",
+            "text": "名称",
+            "x": 562,
+            "y": 68,
+            "w": 165,
+            "h": 23,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "名称",
+            "x": 572,
+            "y": 70,
+            "w": 24,
+            "h": 17,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-table__body-wrapper is-scrolling-none",
+            "text": "1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+            "x": 462,
+            "y": 102,
+            "w": 918,
+            "h": 720,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "cell",
+            "text": "编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+            "x": 999,
+            "y": 102,
+            "w": 381,
+            "h": 50,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "el-button el-button--text el-button--medium",
+            "text": "提交版本",
+            "x": 1089,
+            "y": 102,
+            "w": 56,
+            "h": 50,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "提交版本",
+            "x": 1089,
+            "y": 119,
+            "w": 56,
+            "h": 16,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "el-button el-button--text el-button--medium",
+            "text": "版本管理",
+            "x": 1157,
+            "y": 102,
+            "w": 56,
+            "h": 50,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "版本管理",
+            "x": 1157,
+            "y": 119,
+            "w": 56,
+            "h": 16,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "cell el-tooltip",
+            "text": "盛云_孙宇飞_假数据设备模型_0612",
+            "x": 562,
+            "y": 168,
+            "w": 163,
+            "h": 20,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "盛云_孙宇飞_假数据设备模型_0612",
+            "x": 572,
+            "y": 168,
+            "w": 222.140625,
+            "h": 20,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "cell el-tooltip",
+            "text": "用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。",
+            "x": 727,
+            "y": 168,
+            "w": 270,
+            "h": 20,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。",
+            "x": 737,
+            "y": 168,
+            "w": 651.8125,
+            "h": 20,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "cell",
+            "text": "编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+            "x": 999,
+            "y": 153,
+            "w": 381,
+            "h": 50,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "el-button el-button--text el-button--medium",
+            "text": "提交版本",
+            "x": 1089,
+            "y": 153,
+            "w": 56,
+            "h": 50,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "提交版本",
+            "x": 1089,
+            "y": 170,
+            "w": 56,
+            "h": 16,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "el-button el-button--text el-button--medium",
+            "text": "版本管理",
+            "x": 1157,
+            "y": 153,
+            "w": 56,
+            "h": 50,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "版本管理",
+            "x": 1157,
+            "y": 170,
+            "w": 56,
+            "h": 16,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "ksc_page_run",
+            "text": "KingFusion4.5_工程浏览器\n\n收球筒\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "page_running",
+            "text": "KingFusion4.5_工程浏览器\n\n收球筒\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "page_view_container client_page_view_container",
+            "text": "KingFusion4.5_工程浏览器\n\n收球筒\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "page_view",
+            "text": "KingFusion4.5_工程浏览器\n\n收球筒\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "layer_view",
+            "text": "KingFusion4.5_工程浏览器\n\n收球筒\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "layout_container containerStyle",
+            "text": "KingFusion4.5_工程浏览器\n\n收球筒\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "containerrow",
+            "text": "KingFusion4.5_工程浏览器\n\n收球筒\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据",
+            "x": 0,
+            "y": 0,
+            "w": 1400,
+            "h": 854,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "response_row",
+            "text": "菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n命令语言\n\t\n\n\n第三",
+            "x": 0,
+            "y": 80,
+            "w": 1400,
+            "h": 774,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n命令语言\n\t\n\n\n第三",
+            "x": 0,
+            "y": 80,
+            "w": 1400,
+            "h": 774,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n命令语言\n\t\n\n\n第三",
+            "x": 0,
+            "y": 80,
+            "w": 290,
+            "h": 774,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n命令语言\n\t\n\n\n第三",
+            "x": 0,
+            "y": 80,
+            "w": 290,
+            "h": 774,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory",
+            "text": "菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n命令语言\n\t\n\n\n第三",
+            "x": 0,
+            "y": 80,
+            "w": 290,
+            "h": 774,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "pointer_auto",
+            "text": "菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n命令语言\n\t\n\n\n第三",
+            "x": 0,
+            "y": 80,
+            "w": 290,
+            "h": 774,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "layout_container component_object containerStyle",
+            "text": "菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n命令语言\n\t\n\n\n第三",
+            "x": 0,
+            "y": 80,
+            "w": 290,
+            "h": 774,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "containerrow",
+            "text": "菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n命令语言\n\t\n\n\n第三",
+            "x": 0,
+            "y": 80,
+            "w": 289,
+            "h": 774,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "response_row",
+            "text": "数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n命令语言\n\t\n\n\n第三方计算管理\n\t\n\n\n",
+            "x": 20,
+            "y": 120,
+            "w": 257,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n命令语言\n\t\n\n\n第三方计算管理\n\t\n\n\n",
+            "x": 20,
+            "y": 120,
+            "w": 257,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n命令语言\n\t\n\n\n第三方计算管理\n\t\n\n\n",
+            "x": 20,
+            "y": 120,
+            "w": 257,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n命令语言\n\t\n\n\n第三方计算管理\n\t\n\n\n",
+            "x": 20,
+            "y": 120,
+            "w": 257,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory",
+            "text": "数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n命令语言\n\t\n\n\n第三方计算管理\n\t\n\n\n",
+            "x": 20,
+            "y": 120,
+            "w": 257,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "pointer_auto",
+            "text": "数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n命令语言\n\t\n\n\n第三方计算管理\n\t\n\n\n",
+            "x": 20,
+            "y": 120,
+            "w": 257,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "PCUI_ElementTable component_object ElementTable2",
+            "text": "数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n命令语言\n\t\n\n\n第三方计算管理\n\t\n\n\n",
+            "x": 20,
+            "y": 120,
+            "w": 257,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-table el-table--fit el-table--scrollable-y el-table--enable-row-hover el-table--enable-row-transition el-table--medium",
+            "text": "数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n命令语言\n\t\n\n\n第三方计算管理\n\t\n\n\n",
+            "x": 20,
+            "y": 120,
+            "w": 257,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-table__body-wrapper is-scrolling-none",
+            "text": "数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n命令语言\n\t\n\n\n第三方计算管理\n\t\n\n\n",
+            "x": 20,
+            "y": 120,
+            "w": 257,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "cell el-tooltip",
+            "text": "数据模型",
+            "x": 20,
+            "y": 126,
+            "w": 197,
+            "h": 23,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "数据模型",
+            "x": 48,
+            "y": 126,
+            "w": 77,
+            "h": 23,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "数据模型",
+            "x": 48,
+            "y": 126,
+            "w": 77,
+            "h": 23,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "数据模型",
+            "x": 69,
+            "y": 127,
+            "w": 56,
+            "h": 20,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "cell el-tooltip",
+            "text": "多灵敏时序物",
+            "x": 20,
+            "y": 198,
+            "w": 197,
+            "h": 23,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "多灵敏时序物",
+            "x": 80,
+            "y": 198,
+            "w": 105,
+            "h": 23,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "多灵敏时序物",
+            "x": 80,
+            "y": 198,
+            "w": 105,
+            "h": 23,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "多灵敏时序物",
+            "x": 101,
+            "y": 199,
+            "w": 84,
+            "h": 20,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "cell el-tooltip",
+            "text": "单灵敏时序物",
+            "x": 20,
+            "y": 234,
+            "w": 197,
+            "h": 23,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "单灵敏时序物",
+            "x": 80,
+            "y": 234,
+            "w": 105,
+            "h": 23,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "单灵敏时序物",
+            "x": 80,
+            "y": 234,
+            "w": 105,
+            "h": 23,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "单灵敏时序物",
+            "x": 101,
+            "y": 235,
+            "w": 84,
+            "h": 20,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "cell el-tooltip",
+            "text": "多灵敏数据报警转发",
+            "x": 20,
+            "y": 558,
+            "w": 197,
+            "h": 23,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "多灵敏数据报警转发",
+            "x": 64,
+            "y": 558,
+            "w": 147,
+            "h": 23,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "多灵敏数据报警转发",
+            "x": 64,
+            "y": 558,
+            "w": 147,
+            "h": 23,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "多灵敏数据报警转发",
+            "x": 85,
+            "y": 559,
+            "w": 126,
+            "h": 20,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "cell el-tooltip",
+            "text": "单灵敏数据报警转发",
+            "x": 20,
+            "y": 594,
+            "w": 197,
+            "h": 23,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "单灵敏数据报警转发",
+            "x": 64,
+            "y": 594,
+            "w": 147,
+            "h": 23,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "单灵敏数据报警转发",
+            "x": 64,
+            "y": 594,
+            "w": 147,
+            "h": 23,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "单灵敏数据报警转发",
+            "x": 85,
+            "y": 595,
+            "w": 126,
+            "h": 20,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "多灵敏时序物\n\n暂无数据\n\n基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名",
+            "x": 290,
+            "y": 80,
+            "w": 1110,
+            "h": 774,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "多灵敏时序物\n\n暂无数据\n\n基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名",
+            "x": 290,
+            "y": 80,
+            "w": 1110,
+            "h": 774,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory",
+            "text": "多灵敏时序物\n\n暂无数据\n\n基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名",
+            "x": 290,
+            "y": 80,
+            "w": 1110,
+            "h": 774,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "pointer_auto",
+            "text": "多灵敏时序物\n\n暂无数据\n\n基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名",
+            "x": 290,
+            "y": 80,
+            "w": 1110,
+            "h": 774,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "layout_container component_object containerStyle",
+            "text": "多灵敏时序物\n\n暂无数据\n\n基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名",
+            "x": 290,
+            "y": 80,
+            "w": 1110,
+            "h": 774,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "containerrow",
+            "text": "多灵敏时序物\n\n暂无数据\n\n基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名",
+            "x": 290,
+            "y": 80,
+            "w": 1110,
+            "h": 774,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "response_row",
+            "text": "多灵敏时序物\n\n暂无数据\n\n基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名",
+            "x": 310,
+            "y": 100,
+            "w": 1070,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "多灵敏时序物\n\n暂无数据\n\n基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名",
+            "x": 310,
+            "y": 100,
+            "w": 1070,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "多灵敏时序物\n\n暂无数据\n\n基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名",
+            "x": 310,
+            "y": 100,
+            "w": 1070,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "多灵敏时序物\n\n暂无数据\n\n基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名",
+            "x": 310,
+            "y": 100,
+            "w": 1070,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory layer_class",
+            "text": "多灵敏时序物\n\n暂无数据\n\n基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名",
+            "x": 310,
+            "y": 100,
+            "w": 1070,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "page_view_container client_page_view_container set_page_app component_object 多灵敏时序物建模_框架页面",
+            "text": "多灵敏时序物\n\n暂无数据\n\n基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名",
+            "x": 310,
+            "y": 100,
+            "w": 1070,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "page_view",
+            "text": "多灵敏时序物\n\n暂无数据\n\n基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名",
+            "x": 310,
+            "y": 100,
+            "w": 1070,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "layer_view",
+            "text": "多灵敏时序物\n\n暂无数据\n\n基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名",
+            "x": 310,
+            "y": 100,
+            "w": 1070,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "layout_container containerStyle",
+            "text": "多灵敏时序物\n\n暂无数据\n\n基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名",
+            "x": 310,
+            "y": 100,
+            "w": 1070,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "containerrow",
+            "text": "多灵敏时序物\n\n暂无数据\n\n基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名",
+            "x": 310,
+            "y": 100,
+            "w": 1070,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "response_row",
+            "text": "多灵敏时序物\n\n暂无数据\n\n基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名",
+            "x": 310,
+            "y": 100,
+            "w": 1070,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "多灵敏时序物\n\n暂无数据\n\n基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名",
+            "x": 310,
+            "y": 100,
+            "w": 1070,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "多灵敏时序物\n\n暂无数据",
+            "x": 310,
+            "y": 100,
+            "w": 172,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "多灵敏时序物\n\n暂无数据",
+            "x": 310,
+            "y": 100,
+            "w": 172,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory",
+            "text": "多灵敏时序物\n\n暂无数据",
+            "x": 310,
+            "y": 100,
+            "w": 172,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "pointer_auto",
+            "text": "多灵敏时序物\n\n暂无数据",
+            "x": 310,
+            "y": 100,
+            "w": 172,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "layout_container component_object containerStyle",
+            "text": "多灵敏时序物\n\n暂无数据",
+            "x": 310,
+            "y": 100,
+            "w": 172,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "containerrow",
+            "text": "多灵敏时序物\n\n暂无数据",
+            "x": 310,
+            "y": 100,
+            "w": 172,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "response_row",
+            "text": "多灵敏时序物",
+            "x": 310,
+            "y": 100,
+            "w": 172,
+            "h": 88,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "多灵敏时序物",
+            "x": 310,
+            "y": 100,
+            "w": 172,
+            "h": 88,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "多灵敏时序物",
+            "x": 330,
+            "y": 110.75,
+            "w": 96,
+            "h": 22.46875,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "多灵敏时序物",
+            "x": 330,
+            "y": 110.75,
+            "w": 96,
+            "h": 22.46875,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory",
+            "text": "多灵敏时序物",
+            "x": 330,
+            "y": 110.75,
+            "w": 96,
+            "h": 22.46875,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "pointer_auto",
+            "text": "多灵敏时序物",
+            "x": 330,
+            "y": 110.75,
+            "w": 96,
+            "h": 22.46875,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-text-component component_object 资产树",
+            "text": "多灵敏时序物",
+            "x": 330,
+            "y": 110.75,
+            "w": 96,
+            "h": 22.46875,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "response_row",
+            "text": "暂无数据",
+            "x": 310,
+            "y": 231.328125,
+            "w": 172,
+            "h": 602.65625,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "暂无数据",
+            "x": 310,
+            "y": 231.328125,
+            "w": 172,
+            "h": 602.65625,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "暂无数据",
+            "x": 314.5,
+            "y": 231.328125,
+            "w": 163,
+            "h": 602.65625,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "暂无数据",
+            "x": 314.5,
+            "y": 231.328125,
+            "w": 163,
+            "h": 602.65625,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory",
+            "text": "暂无数据",
+            "x": 314.5,
+            "y": 231.328125,
+            "w": 163,
+            "h": 602.65625,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "pointer_auto",
+            "text": "暂无数据",
+            "x": 314.5,
+            "y": 231.328125,
+            "w": 163,
+            "h": 602.65625,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "custom_tree component_object 资产分组树",
+            "text": "暂无数据",
+            "x": 314.5,
+            "y": 231.328125,
+            "w": 163,
+            "h": 602.65625,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-tree tree el-tree--highlight-current",
+            "text": "暂无数据",
+            "x": 314.5,
+            "y": 231.328125,
+            "w": 163,
+            "h": 60,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-tree__empty-block",
+            "text": "暂无数据",
+            "x": 314.5,
+            "y": 231.328125,
+            "w": 163,
+            "h": 60,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "el-tree__empty-text",
+            "text": "暂无数据",
+            "x": 368,
+            "y": 253.28125,
+            "w": 56,
+            "h": 16.09375,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n",
+            "x": 482,
+            "y": 100,
+            "w": 898,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n",
+            "x": 482,
+            "y": 100,
+            "w": 898,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory",
+            "text": "基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n",
+            "x": 482,
+            "y": 100,
+            "w": 898,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "pointer_auto",
+            "text": "基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n",
+            "x": 482,
+            "y": 100,
+            "w": 898,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "layout_container component_object containerStyle",
+            "text": "基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n",
+            "x": 482,
+            "y": 100,
+            "w": 898,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "containerrow",
+            "text": "基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n",
+            "x": 483,
+            "y": 100,
+            "w": 897,
+            "h": 734,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "response_row",
+            "text": "基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS",
+            "x": 483,
+            "y": 100,
+            "w": 897,
+            "h": 95,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS",
+            "x": 483,
+            "y": 100,
+            "w": 897,
+            "h": 95,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS",
+            "x": 483,
+            "y": 100,
+            "w": 897,
+            "h": 95,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS",
+            "x": 483,
+            "y": 100,
+            "w": 897,
+            "h": 95,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory",
+            "text": "基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS",
+            "x": 483,
+            "y": 100,
+            "w": 897,
+            "h": 95,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "pointer_auto",
+            "text": "基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS",
+            "x": 483,
+            "y": 100,
+            "w": 897,
+            "h": 95,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "layout_container component_object containerStyle",
+            "text": "基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS",
+            "x": 483,
+            "y": 100,
+            "w": 897,
+            "h": 95,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "containerrow",
+            "text": "基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS",
+            "x": 483,
+            "y": 100,
+            "w": 897,
+            "h": 94,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "response_row",
+            "text": "名称\n\n描述\n\n存历史\n\n间隔时间\n\nS",
+            "x": 483,
+            "y": 130,
+            "w": 897,
+            "h": 64,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "名称\n\n描述\n\n存历史\n\n间隔时间\n\nS",
+            "x": 483,
+            "y": 130,
+            "w": 897,
+            "h": 64,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "名称",
+            "x": 503,
+            "y": 155.203125,
+            "w": 42,
+            "h": 13.5625,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "名称",
+            "x": 503,
+            "y": 155.203125,
+            "w": 42,
+            "h": 13.5625,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory",
+            "text": "名称",
+            "x": 503,
+            "y": 155.203125,
+            "w": 42,
+            "h": 13.5625,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "pointer_auto",
+            "text": "名称",
+            "x": 503,
+            "y": 155.203125,
+            "w": 42,
+            "h": 13.5625,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-text-component component_object ElementText8",
+            "text": "名称",
+            "x": 503,
+            "y": 155.203125,
+            "w": 42,
+            "h": 13.5625,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "response_row",
+            "text": "新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情\n\n函数：\n\n暂无数据\n\n条件配",
+            "x": 483,
+            "y": 195,
+            "w": 897,
+            "h": 638,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情\n\n函数：\n\n暂无数据\n\n条件配",
+            "x": 483,
+            "y": 195,
+            "w": 897,
+            "h": 638,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情\n\n函数：\n\n暂无数据\n\n条件配",
+            "x": 483,
+            "y": 195,
+            "w": 897,
+            "h": 638,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情\n\n函数：\n\n暂无数据\n\n条件配",
+            "x": 483,
+            "y": 195,
+            "w": 897,
+            "h": 638,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory",
+            "text": "新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情\n\n函数：\n\n暂无数据\n\n条件配",
+            "x": 483,
+            "y": 195,
+            "w": 897,
+            "h": 638,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "pointer_auto",
+            "text": "新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情\n\n函数：\n\n暂无数据\n\n条件配",
+            "x": 483,
+            "y": 195,
+            "w": 897,
+            "h": 638,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "layout_container component_object containerStyle",
+            "text": "新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情\n\n函数：\n\n暂无数据\n\n条件配",
+            "x": 483,
+            "y": 195,
+            "w": 897,
+            "h": 638,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "containerrow",
+            "text": "新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情\n\n函数：\n\n暂无数据\n\n条件配",
+            "x": 483,
+            "y": 195,
+            "w": 897,
+            "h": 638,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "response_row",
+            "text": "新建成员",
+            "x": 483,
+            "y": 195,
+            "w": 897,
+            "h": 4,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "新建成员",
+            "x": 483,
+            "y": 195,
+            "w": 897,
+            "h": 4,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "新建成员",
+            "x": 1309,
+            "y": 195,
+            "w": 71,
+            "h": 4,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "新建成员",
+            "x": 1309,
+            "y": 195,
+            "w": 71,
+            "h": 4,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory",
+            "text": "新建成员",
+            "x": 1309,
+            "y": 195,
+            "w": 71,
+            "h": 4,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "pointer_auto",
+            "text": "新建成员",
+            "x": 1309,
+            "y": 195,
+            "w": 71,
+            "h": 4,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object 新建成员",
+            "text": "新建成员",
+            "x": 1309,
+            "y": 195,
+            "w": 71,
+            "h": 4,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "el-button el-button--primary el-button--medium propertyStyle",
+            "text": "新建成员",
+            "x": 1309,
+            "y": 197,
+            "w": 71,
+            "h": 50,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "新建成员",
+            "x": 1329,
+            "y": 208,
+            "w": 50,
+            "h": 28,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "response_row",
+            "text": "非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页",
+            "x": 483,
+            "y": 199,
+            "w": 897,
+            "h": 243.359375,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页",
+            "x": 483,
+            "y": 199,
+            "w": 897,
+            "h": 243.359375,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页",
+            "x": 492,
+            "y": 199,
+            "w": 879,
+            "h": 243.359375,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页",
+            "x": 492,
+            "y": 199,
+            "w": 879,
+            "h": 243.359375,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory",
+            "text": "非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页",
+            "x": 492,
+            "y": 199,
+            "w": 879,
+            "h": 243.359375,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "pointer_auto",
+            "text": "非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页",
+            "x": 492,
+            "y": 199,
+            "w": 879,
+            "h": 243.359375,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object 设备成员标签页",
+            "text": "非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页",
+            "x": 492,
+            "y": 199,
+            "w": 879,
+            "h": 243.359375,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "tabSign el-tabs el-tabs--top",
+            "text": "非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页",
+            "x": 492,
+            "y": 199,
+            "w": 879,
+            "h": 243.359375,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-tabs__header is-top",
+            "text": "非灵敏成员灵敏成员",
+            "x": 492,
+            "y": 199,
+            "w": 879,
+            "h": 50,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-tabs__nav-wrap is-top",
+            "text": "非灵敏成员灵敏成员",
+            "x": 492,
+            "y": 199,
+            "w": 879,
+            "h": 50,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-tabs__nav-scroll",
+            "text": "非灵敏成员灵敏成员",
+            "x": 492,
+            "y": 199,
+            "w": 879,
+            "h": 50,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-tabs__nav is-top",
+            "text": "非灵敏成员灵敏成员",
+            "x": 492,
+            "y": 199,
+            "w": 224,
+            "h": 40,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-tabs__item is-top is-active",
+            "text": "非灵敏成员",
+            "x": 492,
+            "y": 199,
+            "w": 120,
+            "h": 40,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "非灵敏成员",
+            "x": 512,
+            "y": 207,
+            "w": 80,
+            "h": 24,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "非灵敏成员",
+            "x": 512,
+            "y": 207,
+            "w": 80,
+            "h": 24,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-tabs__item is-top",
+            "text": "灵敏成员",
+            "x": 612,
+            "y": 199,
+            "w": 104,
+            "h": 40,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "灵敏成员",
+            "x": 632,
+            "y": 207,
+            "w": 64,
+            "h": 24,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "灵敏成员",
+            "x": 632,
+            "y": 207,
+            "w": 64,
+            "h": 24,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-tabs__content",
+            "text": "名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页",
+            "x": 492,
+            "y": 248,
+            "w": 879,
+            "h": 193.359375,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-tab-pane",
+            "text": "名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页",
+            "x": 492,
+            "y": 248,
+            "w": 879,
+            "h": 193.359375,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页",
+            "x": 492,
+            "y": 248,
+            "w": 879,
+            "h": 193.359375,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory",
+            "text": "名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页",
+            "x": 492,
+            "y": 248,
+            "w": 879,
+            "h": 193.359375,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "pointer_auto",
+            "text": "名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页",
+            "x": 492,
+            "y": 248,
+            "w": 879,
+            "h": 193.359375,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "PCUI_ElementTable component_object 非灵敏成员表格",
+            "text": "名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页",
+            "x": 492,
+            "y": 248,
+            "w": 879,
+            "h": 193.359375,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-table el-table--fit el-table--border el-table--enable-row-hover el-table--medium",
+            "text": "名称\t类型\t值\t描述\t操作\n暂无数据",
+            "x": 492,
+            "y": 248,
+            "w": 879,
+            "h": 161.359375,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-table__header-wrapper",
+            "text": "名称\t类型\t值\t描述\t操作",
+            "x": 493,
+            "y": 249,
+            "w": 878,
+            "h": 44,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "cell",
+            "text": "名称",
+            "x": 493,
+            "y": 259.34375,
+            "w": 204,
+            "h": 23,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "名称",
+            "x": 503,
+            "y": 260.34375,
+            "w": 28,
+            "h": 20,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "cell",
+            "text": "类型",
+            "x": 698,
+            "y": 259.34375,
+            "w": 139,
+            "h": 23,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "类型",
+            "x": 708,
+            "y": 260.34375,
+            "w": 28,
+            "h": 20,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-table__body-wrapper is-scrolling-none",
+            "text": "暂无数据",
+            "x": 493,
+            "y": 293,
+            "w": 878,
+            "h": 116,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-table__empty-block",
+            "text": "暂无数据",
+            "x": 493,
+            "y": 293,
+            "w": 878,
+            "h": 80,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "el-table__empty-text",
+            "text": "暂无数据",
+            "x": 712.5,
+            "y": 303,
+            "w": 439,
+            "h": 60,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "response_row",
+            "text": "计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情\n\n函数：\n\n暂无数据\n\n条件配置\n\n时间间隔 00h 00m 00s\n\n配置",
+            "x": 483,
+            "y": 448.734375,
+            "w": 897,
+            "h": 384.25,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情\n\n函数：\n\n暂无数据\n\n条件配置\n\n时间间隔 00h 00m 00s\n\n配置",
+            "x": 483,
+            "y": 448.734375,
+            "w": 897,
+            "h": 384.25,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情\n\n函数：\n\n暂无数据\n\n条件配置\n\n时间间隔 00h 00m 00s\n\n配置",
+            "x": 483,
+            "y": 448.734375,
+            "w": 897,
+            "h": 384.25,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情\n\n函数：\n\n暂无数据\n\n条件配置\n\n时间间隔 00h 00m 00s\n\n配置",
+            "x": 483,
+            "y": 448.734375,
+            "w": 897,
+            "h": 384.25,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory",
+            "text": "计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情\n\n函数：\n\n暂无数据\n\n条件配置\n\n时间间隔 00h 00m 00s\n\n配置",
+            "x": 483,
+            "y": 448.734375,
+            "w": 897,
+            "h": 384.25,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "pointer_auto",
+            "text": "计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情\n\n函数：\n\n暂无数据\n\n条件配置\n\n时间间隔 00h 00m 00s\n\n配置",
+            "x": 483,
+            "y": 448.734375,
+            "w": 897,
+            "h": 384.25,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "layout_container component_object containerStyle",
+            "text": "计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情\n\n函数：\n\n暂无数据\n\n条件配置\n\n时间间隔 00h 00m 00s\n\n配置",
+            "x": 483,
+            "y": 448.734375,
+            "w": 897,
+            "h": 384.25,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "containerrow",
+            "text": "计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情\n\n函数：\n\n暂无数据\n\n条件配置\n\n时间间隔 00h 00m 00s\n\n配置",
+            "x": 483,
+            "y": 448.734375,
+            "w": 897,
+            "h": 384.25,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "response_row",
+            "text": "计算规则\n\n分析类型\n\n表达式分析\n汇总分析",
+            "x": 483,
+            "y": 448.734375,
+            "w": 897,
+            "h": 38,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "计算规则\n\n分析类型\n\n表达式分析\n汇总分析",
+            "x": 483,
+            "y": 449.734375,
+            "w": 897,
+            "h": 36,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "分析类型",
+            "x": 613.453125,
+            "y": 459.5,
+            "w": 44,
+            "h": 16.4375,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "分析类型",
+            "x": 613.453125,
+            "y": 459.5,
+            "w": 44,
+            "h": 16.4375,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory",
+            "text": "分析类型",
+            "x": 613.453125,
+            "y": 459.5,
+            "w": 44,
+            "h": 16.4375,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "pointer_auto",
+            "text": "分析类型",
+            "x": 613.453125,
+            "y": 459.5,
+            "w": 44,
+            "h": 16.4375,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-text-component component_object ElementText13",
+            "text": "分析类型",
+            "x": 613.453125,
+            "y": 459.5,
+            "w": 44,
+            "h": 16.4375,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "response_row",
+            "text": "分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情\n\n函数：\n\n暂无数据",
+            "x": 483,
+            "y": 486.734375,
+            "w": 897,
+            "h": 299,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情\n\n函数：\n\n暂无数据",
+            "x": 483,
+            "y": 486.734375,
+            "w": 897,
+            "h": 299,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情",
+            "x": 483,
+            "y": 486.734375,
+            "w": 762,
+            "h": 299,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情",
+            "x": 483,
+            "y": 486.734375,
+            "w": 762,
+            "h": 299,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory",
+            "text": "分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情",
+            "x": 483,
+            "y": 486.734375,
+            "w": 762,
+            "h": 299,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "pointer_auto",
+            "text": "分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情",
+            "x": 483,
+            "y": 486.734375,
+            "w": 762,
+            "h": 299,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "layout_container component_object containerStyle",
+            "text": "分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情",
+            "x": 483,
+            "y": 486.734375,
+            "w": 762,
+            "h": 299,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "containerrow",
+            "text": "分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情",
+            "x": 483,
+            "y": 486.734375,
+            "w": 762,
+            "h": 299,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "response_row",
+            "text": "Text\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据",
+            "x": 494.421875,
+            "y": 533.734375,
+            "w": 739.15625,
+            "h": 216,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "Text\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据",
+            "x": 495.421875,
+            "y": 534.734375,
+            "w": 737.15625,
+            "h": 214,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "Text\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据",
+            "x": 495.421875,
+            "y": 534.734375,
+            "w": 737.125,
+            "h": 214,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "Text\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据",
+            "x": 495.421875,
+            "y": 534.734375,
+            "w": 737.125,
+            "h": 214,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory",
+            "text": "Text\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据",
+            "x": 495.421875,
+            "y": 534.734375,
+            "w": 737.125,
+            "h": 214,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "pointer_auto",
+            "text": "Text\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据",
+            "x": 495.421875,
+            "y": 534.734375,
+            "w": 737.125,
+            "h": 214,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "layout_container component_object containerStyle",
+            "text": "Text\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据",
+            "x": 495.421875,
+            "y": 534.734375,
+            "w": 737.125,
+            "h": 214,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "containerrow",
+            "text": "Text\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据",
+            "x": 495.421875,
+            "y": 534.734375,
+            "w": 737.125,
+            "h": 214,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "response_row",
+            "text": "名字\t表达式\t操作\n暂无数据",
+            "x": 506.46875,
+            "y": 566.734375,
+            "w": 715.03125,
+            "h": 171,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "名字\t表达式\t操作\n暂无数据",
+            "x": 506.46875,
+            "y": 566.734375,
+            "w": 715.03125,
+            "h": 171,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "名字\t表达式\t操作\n暂无数据",
+            "x": 506.46875,
+            "y": 566.734375,
+            "w": 715.03125,
+            "h": 171,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "名字\t表达式\t操作\n暂无数据",
+            "x": 506.46875,
+            "y": 566.734375,
+            "w": 715.03125,
+            "h": 171,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory",
+            "text": "名字\t表达式\t操作\n暂无数据",
+            "x": 506.46875,
+            "y": 566.734375,
+            "w": 715.03125,
+            "h": 171,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "pointer_auto",
+            "text": "名字\t表达式\t操作\n暂无数据",
+            "x": 506.46875,
+            "y": 566.734375,
+            "w": 715.03125,
+            "h": 171,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "PCUI_ElementTable component_object 变量列表",
+            "text": "名字\t表达式\t操作\n暂无数据",
+            "x": 506.46875,
+            "y": 566.734375,
+            "w": 715.03125,
+            "h": 171,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-table el-table--fit el-table--border el-table--enable-row-hover el-table--medium",
+            "text": "名字\t表达式\t操作\n暂无数据",
+            "x": 506.46875,
+            "y": 566.734375,
+            "w": 715.03125,
+            "h": 171,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-table__body-wrapper is-scrolling-none",
+            "text": "暂无数据",
+            "x": 507.46875,
+            "y": 603.734375,
+            "w": 714.03125,
+            "h": 134,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-table__empty-block",
+            "text": "暂无数据",
+            "x": 507.46875,
+            "y": 603.734375,
+            "w": 714,
+            "h": 98,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "el-table__empty-text",
+            "text": "暂无数据",
+            "x": 685.96875,
+            "y": 622.734375,
+            "w": 357,
+            "h": 60,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "response_row",
+            "text": "编译成功！\n\n查看详情",
+            "x": 494.421875,
+            "y": 749.734375,
+            "w": 739.15625,
+            "h": 36,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "编译成功！\n\n查看详情",
+            "x": 494.421875,
+            "y": 749.734375,
+            "w": 739.15625,
+            "h": 36,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "编译成功！",
+            "x": 511.421875,
+            "y": 757.734375,
+            "w": 70,
+            "h": 20,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "编译成功！",
+            "x": 511.421875,
+            "y": 757.734375,
+            "w": 70,
+            "h": 20,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory",
+            "text": "编译成功！",
+            "x": 511.421875,
+            "y": 757.734375,
+            "w": 70,
+            "h": 20,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "pointer_auto",
+            "text": "编译成功！",
+            "x": 511.421875,
+            "y": 757.734375,
+            "w": 70,
+            "h": 20,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-text-component component_object ElementText20",
+            "text": "编译成功！",
+            "x": 511.421875,
+            "y": 757.734375,
+            "w": 70,
+            "h": 20,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "函数：\n\n暂无数据",
+            "x": 1245,
+            "y": 492.703125,
+            "w": 125,
+            "h": 293.015625,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "函数：\n\n暂无数据",
+            "x": 1245,
+            "y": 492.703125,
+            "w": 125,
+            "h": 293.015625,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory",
+            "text": "函数：\n\n暂无数据",
+            "x": 1245,
+            "y": 492.703125,
+            "w": 125,
+            "h": 293.015625,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "pointer_auto",
+            "text": "函数：\n\n暂无数据",
+            "x": 1245,
+            "y": 492.703125,
+            "w": 125,
+            "h": 293.015625,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "layout_container component_object containerStyle",
+            "text": "函数：\n\n暂无数据",
+            "x": 1245,
+            "y": 492.703125,
+            "w": 125,
+            "h": 293.015625,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "containerrow",
+            "text": "函数：\n\n暂无数据",
+            "x": 1246,
+            "y": 493.703125,
+            "w": 123,
+            "h": 291.015625,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "response_row",
+            "text": "暂无数据",
+            "x": 1246,
+            "y": 556.703125,
+            "w": 123,
+            "h": 145,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "暂无数据",
+            "x": 1246,
+            "y": 556.703125,
+            "w": 123,
+            "h": 145,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "text": "暂无数据",
+            "x": 1246,
+            "y": 556.703125,
+            "w": 123,
+            "h": 145,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "component_object_unselect",
+            "text": "暂无数据",
+            "x": 1246,
+            "y": 556.703125,
+            "w": 123,
+            "h": 145,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "ui_factory",
+            "text": "暂无数据",
+            "x": 1246,
+            "y": 556.703125,
+            "w": 123,
+            "h": 145,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "pointer_auto",
+            "text": "暂无数据",
+            "x": 1246,
+            "y": 556.703125,
+            "w": 123,
+            "h": 145,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "custom_tree component_object 函数列表树",
+            "text": "暂无数据",
+            "x": 1246,
+            "y": 556.703125,
+            "w": 123,
+            "h": 145,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-tree tree el-tree--highlight-current",
+            "text": "暂无数据",
+            "x": 1246,
+            "y": 556.703125,
+            "w": 123,
+            "h": 60,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "DIV",
+            "cls": "el-tree__empty-block",
+            "text": "暂无数据",
+            "x": 1246,
+            "y": 556.703125,
+            "w": 123,
+            "h": 60,
+            "title": null,
+            "placeholder": null
+          },
+          {
+            "tag": "SPAN",
+            "cls": "el-tree__empty-text",
+            "text": "暂无数据",
+            "x": 1279.5,
+            "y": 578.65625,
+            "w": 56,
+            "h": 16.09375,
+            "title": null,
+            "placeholder": null
+          }
+        ]
+      }
+    }
+  ],
+  "frames": [
+    {
+      "url": "http://221.239.19.118:13001/#/main",
+      "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260514\n组态系统客户端0518\n建模系统客户端_0518\n运维部署客户端_0518\nCodex临时测试_前端视图_0611"
+    },
+    {
+      "url": "http://221.239.19.118:13001/public/?id=6192730962611142710&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+      "text": ""
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+      "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 2 条\n<1>前往页\n\nKingFusion4.5_工程浏览器\n\n收球筒\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n命令语言\n\t\n\n\n第三方计算管理\n\t\n\n\n图形模型\n\t\n\n\n2D精灵图\n\t\n\n\n3D精灵图\n\t\n\n\n页面精灵图\n\t\n\n\n报表精灵图\n\t\n\n\n子模型\n\t\n\n\n形参配置\n\t\n\n多灵敏时序物\n\n暂无数据\n\n基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情\n\n函数：\n\n暂无数据\n\n条件配置\n\n时间间隔 00h 00m 00s\n\n配置"
+    }
+  ],
+  "screenshot": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\screenshots\\modeling_from_start_probe.png"
+}

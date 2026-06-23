@@ -1,0 +1,692 @@
+{
+  "open": {
+    "ok": true
+  },
+  "state": {
+    "dialogs": [
+      {
+        "i": 0,
+        "text": "调试配置\n添加用户访问信息:\n点击添加\n添加时空访问信息:\n点击添加\n时空信息:\n默认数据区\n测试\n工厂\nNadirL1\nNadirL2\nlk测试客户端1\nlk_客户端01\n管理员客户端\n产品生成器功能客户端\n开发系统\n测试客户端\n测试时空-工厂\nlk_工厂\n测试1\n菜单\n客户端工程\n生成器时空\n管理员\n客户端1_人工干预点_1\n盛云_孙宇飞_时空_0617\n手工层级1\n盛云_孙宇飞_Noctiluca_客户端\n盛云_孙宇飞_时空_0617_TOPV2\n客户端1\nEidolon手工层级1\n引滦集团\n已选信息:\n\t\nNadirL2\n取消\n确定",
+        "inputs": [
+          {
+            "j": 0,
+            "type": "text",
+            "visible": true,
+            "x": 568.90625,
+            "y": 296.1875,
+            "w": 246,
+            "h": 30,
+            "valueSample": "",
+            "valueLen": 0
+          },
+          {
+            "j": 1,
+            "type": "checkbox",
+            "visible": false,
+            "x": 596.90625,
+            "y": 358.1875,
+            "w": 0,
+            "h": 0,
+            "valueSample": "on",
+            "valueLen": 2
+          },
+          {
+            "j": 2,
+            "type": "checkbox",
+            "visible": false,
+            "x": 614.90625,
+            "y": 384.1875,
+            "w": 0,
+            "h": 0,
+            "valueSample": "on",
+            "valueLen": 2
+          },
+          {
+            "j": 3,
+            "type": "checkbox",
+            "visible": false,
+            "x": 614.90625,
+            "y": 410.1875,
+            "w": 0,
+            "h": 0,
+            "valueSample": "on",
+            "valueLen": 2
+          },
+          {
+            "j": 4,
+            "type": "checkbox",
+            "visible": false,
+            "x": 614.90625,
+            "y": 436.1875,
+            "w": 0,
+            "h": 0,
+            "valueSample": "on",
+            "valueLen": 2
+          },
+          {
+            "j": 5,
+            "type": "checkbox",
+            "visible": false,
+            "x": 632.90625,
+            "y": 462.1875,
+            "w": 0,
+            "h": 0,
+            "valueSample": "on",
+            "valueLen": 2
+          },
+          {
+            "j": 6,
+            "type": "checkbox",
+            "visible": false,
+            "x": 614.90625,
+            "y": 488.1875,
+            "w": 0,
+            "h": 0,
+            "valueSample": "on",
+            "valueLen": 2
+          },
+          {
+            "j": 7,
+            "type": "checkbox",
+            "visible": false,
+            "x": 614.90625,
+            "y": 514.1875,
+            "w": 0,
+            "h": 0,
+            "valueSample": "on",
+            "valueLen": 2
+          },
+          {
+            "j": 8,
+            "type": "checkbox",
+            "visible": false,
+            "x": 614.90625,
+            "y": 540.1875,
+            "w": 0,
+            "h": 0,
+            "valueSample": "on",
+            "valueLen": 2
+          },
+          {
+            "j": 9,
+            "type": "checkbox",
+            "visible": false,
+            "x": 614.90625,
+            "y": 566.1875,
+            "w": 0,
+            "h": 0,
+            "valueSample": "on",
+            "valueLen": 2
+          },
+          {
+            "j": 10,
+            "type": "checkbox",
+            "visible": false,
+            "x": 614.90625,
+            "y": 592.1875,
+            "w": 0,
+            "h": 0,
+            "valueSample": "on",
+            "valueLen": 2
+          },
+          {
+            "j": 11,
+            "type": "checkbox",
+            "visible": false,
+            "x": 614.90625,
+            "y": 618.1875,
+            "w": 0,
+            "h": 0,
+            "valueSample": "on",
+            "valueLen": 2
+          },
+          {
+            "j": 12,
+            "type": "checkbox",
+            "visible": false,
+            "x": 614.90625,
+            "y": 644.1875,
+            "w": 0,
+            "h": 0,
+            "valueSample": "on",
+            "valueLen": 2
+          },
+          {
+            "j": 13,
+            "type": "checkbox",
+            "visible": false,
+            "x": 614.90625,
+            "y": 670.1875,
+            "w": 0,
+            "h": 0,
+            "valueSample": "on",
+            "valueLen": 2
+          },
+          {
+            "j": 14,
+            "type": "checkbox",
+            "visible": false,
+            "x": 614.90625,
+            "y": 696.1875,
+            "w": 0,
+            "h": 0,
+            "valueSample": "on",
+            "valueLen": 2
+          },
+          {
+            "j": 15,
+            "type": "checkbox",
+            "visible": false,
+            "x": 614.90625,
+            "y": 722.1875,
+            "w": 0,
+            "h": 0,
+            "valueSample": "on",
+            "valueLen": 2
+          },
+          {
+            "j": 16,
+            "type": "checkbox",
+            "visible": false,
+            "x": 614.90625,
+            "y": 748.1875,
+            "w": 0,
+            "h": 0,
+            "valueSample": "on",
+            "valueLen": 2
+          },
+          {
+            "j": 17,
+            "type": "checkbox",
+            "visible": false,
+            "x": 614.90625,
+            "y": 774.1875,
+            "w": 0,
+            "h": 0,
+            "valueSample": "on",
+            "valueLen": 2
+          },
+          {
+            "j": 18,
+            "type": "checkbox",
+            "visible": false,
+            "x": 614.90625,
+            "y": 800.1875,
+            "w": 0,
+            "h": 0,
+            "valueSample": "on",
+            "valueLen": 2
+          },
+          {
+            "j": 19,
+            "type": "checkbox",
+            "visible": false,
+            "x": 614.90625,
+            "y": 826.1875,
+            "w": 0,
+            "h": 0,
+            "valueSample": "on",
+            "valueLen": 2
+          },
+          {
+            "j": 20,
+            "type": "checkbox",
+            "visible": false,
+            "x": 614.90625,
+            "y": 852.1875,
+            "w": 0,
+            "h": 0,
+            "valueSample": "on",
+            "valueLen": 2
+          },
+          {
+            "j": 21,
+            "type": "checkbox",
+            "visible": false,
+            "x": 614.90625,
+            "y": 878.1875,
+            "w": 0,
+            "h": 0,
+            "valueSample": "on",
+            "valueLen": 2
+          },
+          {
+            "j": 22,
+            "type": "checkbox",
+            "visible": false,
+            "x": 614.90625,
+            "y": 904.1875,
+            "w": 0,
+            "h": 0,
+            "valueSample": "on",
+            "valueLen": 2
+          },
+          {
+            "j": 23,
+            "type": "checkbox",
+            "visible": false,
+            "x": 614.90625,
+            "y": 930.1875,
+            "w": 0,
+            "h": 0,
+            "valueSample": "on",
+            "valueLen": 2
+          },
+          {
+            "j": 24,
+            "type": "checkbox",
+            "visible": false,
+            "x": 614.90625,
+            "y": 956.1875,
+            "w": 0,
+            "h": 0,
+            "valueSample": "on",
+            "valueLen": 2
+          },
+          {
+            "j": 25,
+            "type": "checkbox",
+            "visible": false,
+            "x": 614.90625,
+            "y": 982.1875,
+            "w": 0,
+            "h": 0,
+            "valueSample": "on",
+            "valueLen": 2
+          },
+          {
+            "j": 26,
+            "type": "checkbox",
+            "visible": false,
+            "x": 614.90625,
+            "y": 1008.1875,
+            "w": 0,
+            "h": 0,
+            "valueSample": "on",
+            "valueLen": 2
+          },
+          {
+            "j": 27,
+            "type": "checkbox",
+            "visible": false,
+            "x": 932.90625,
+            "y": 322.6875,
+            "w": 0,
+            "h": 0,
+            "valueSample": "on",
+            "valueLen": 2
+          }
+        ],
+        "buttons": [
+          {
+            "j": 0,
+            "text": "",
+            "disabled": false,
+            "x": 1044.09375,
+            "y": 112.1875
+          },
+          {
+            "j": 1,
+            "text": "点击添加",
+            "disabled": false,
+            "x": 679.8125,
+            "y": 162.1875
+          },
+          {
+            "j": 2,
+            "text": "点击添加",
+            "disabled": false,
+            "x": 679.8125,
+            "y": 212.1875
+          },
+          {
+            "j": 3,
+            "text": "",
+            "disabled": false,
+            "x": 841.90625,
+            "y": 379.1875
+          },
+          {
+            "j": 4,
+            "text": "",
+            "disabled": false,
+            "x": 841.90625,
+            "y": 431.1875
+          },
+          {
+            "j": 5,
+            "text": "取消",
+            "disabled": false,
+            "x": 940.09375,
+            "y": 596.1875
+          },
+          {
+            "j": 6,
+            "text": "确定",
+            "disabled": false,
+            "x": 1012.09375,
+            "y": 596.1875
+          }
+        ]
+      },
+      {
+        "i": 1,
+        "text": "访问信息\n本云\n其他云\n\n仅限本云功能单元用户\n\n业务\n运维\n安全\n审计\n用户名:\n密码:\n取消\n确定",
+        "inputs": [
+          {
+            "j": 0,
+            "type": "text",
+            "visible": true,
+            "x": 725.5,
+            "y": 287.1875,
+            "w": 246,
+            "h": 30,
+            "valueSample": "tsdbFUUser",
+            "valueLen": 10
+          },
+          {
+            "j": 1,
+            "type": "password",
+            "visible": true,
+            "x": 725.5,
+            "y": 339.1875,
+            "w": 224,
+            "h": 30,
+            "valueSample": "[password]",
+            "valueLen": 11
+          },
+          {
+            "j": 2,
+            "type": "text",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "valueSample": "",
+            "valueLen": 0
+          },
+          {
+            "j": 3,
+            "type": "password",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "valueSample": "[password]",
+            "valueLen": 0
+          },
+          {
+            "j": 4,
+            "type": "text",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "valueSample": "",
+            "valueLen": 0
+          },
+          {
+            "j": 5,
+            "type": "password",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "valueSample": "[password]",
+            "valueLen": 0
+          },
+          {
+            "j": 6,
+            "type": "text",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "valueSample": "",
+            "valueLen": 0
+          },
+          {
+            "j": 7,
+            "type": "password",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "valueSample": "[password]",
+            "valueLen": 0
+          },
+          {
+            "j": 8,
+            "type": "text",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "valueSample": "cloud107",
+            "valueLen": 8
+          },
+          {
+            "j": 9,
+            "type": "text",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "valueSample": "221.239.19.118",
+            "valueLen": 14
+          },
+          {
+            "j": 10,
+            "type": "number",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "valueSample": "9770",
+            "valueLen": 4
+          },
+          {
+            "j": 11,
+            "type": "text",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "valueSample": "孙宇飞",
+            "valueLen": 3
+          },
+          {
+            "j": 12,
+            "type": "password",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "valueSample": "[password]",
+            "valueLen": 8
+          },
+          {
+            "j": 13,
+            "type": "text",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "valueSample": "",
+            "valueLen": 0
+          },
+          {
+            "j": 14,
+            "type": "number",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "valueSample": "9771",
+            "valueLen": 4
+          },
+          {
+            "j": 15,
+            "type": "text",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "valueSample": "",
+            "valueLen": 0
+          },
+          {
+            "j": 16,
+            "type": "password",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "valueSample": "[password]",
+            "valueLen": 0
+          },
+          {
+            "j": 17,
+            "type": "text",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "valueSample": "",
+            "valueLen": 0
+          },
+          {
+            "j": 18,
+            "type": "number",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "valueSample": "9771",
+            "valueLen": 4
+          },
+          {
+            "j": 19,
+            "type": "text",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "valueSample": "",
+            "valueLen": 0
+          },
+          {
+            "j": 20,
+            "type": "password",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "valueSample": "[password]",
+            "valueLen": 0
+          },
+          {
+            "j": 21,
+            "type": "text",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "valueSample": "",
+            "valueLen": 0
+          },
+          {
+            "j": 22,
+            "type": "number",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "valueSample": "9771",
+            "valueLen": 4
+          },
+          {
+            "j": 23,
+            "type": "text",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "valueSample": "",
+            "valueLen": 0
+          },
+          {
+            "j": 24,
+            "type": "password",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "valueSample": "[password]",
+            "valueLen": 0
+          }
+        ],
+        "buttons": [
+          {
+            "j": 0,
+            "text": "",
+            "disabled": false,
+            "x": 1077.5,
+            "y": 112.1875
+          },
+          {
+            "j": 1,
+            "text": "新建",
+            "disabled": false,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "j": 2,
+            "text": "删除",
+            "disabled": false,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "j": 3,
+            "text": "取消",
+            "disabled": false,
+            "x": 973.5,
+            "y": 419.1875
+          },
+          {
+            "j": 4,
+            "text": "确定",
+            "disabled": false,
+            "x": 1045.5,
+            "y": 419.1875
+          }
+        ]
+      }
+    ]
+  }
+}

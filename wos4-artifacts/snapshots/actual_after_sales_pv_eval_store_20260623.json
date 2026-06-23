@@ -1,0 +1,47 @@
+{
+  "path": "top.1.0",
+  "probe": {
+    "state": "done",
+    "changeRes": {
+      "ret": 0,
+      "msg": "修改成功!"
+    },
+    "cloudID": 107,
+    "elapsed": 126,
+    "res": {
+      "errorcodes": [
+        0
+      ],
+      "ret": 0,
+      "returndata": {
+        "errorcode": 0,
+        "errormsg": "ok",
+        "statisticslist": [
+          {
+            "areaname": "A1",
+            "filter": "",
+            "flowvalue": "12.3",
+            "pressurevalue": "0.45",
+            "stationname": "S1",
+            "statustext": "RUN"
+          }
+        ]
+      },
+      "traceID": "5188879651515608064",
+      "consumeTime": 125
+    },
+    "t": 1782175424718
+  },
+  "spaceTimeId": {
+    "id": "1152921504606851278",
+    "name": "NadirL2",
+    "guid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+    "devName": "",
+    "realArea": 0,
+    "yuanArea": 0,
+    "webJsArea": 0,
+    "planArea": 0,
+    "historyArea": 0
+  },
+  "text": "<strong>We're sorry but app-master doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>frontend backend call patch 20260622 backend fail / -210133 全部区域A区B区站点区域状态流量压力CALL_FAILret=-210133[]frontend backend call patch 202606221782175226376共 1 条10条/页20条/页50条/页100条/页1前往页\n          \n          \n          \n          \n          body #RContainerk4d35d5d025d4c0cb68d11a48b77acda #UI_793357 input {\n            background: rgba(255,255,255,1);\n            border-radius: 4px;\n            border: 1px solid rgba(220,223,230,1);\n            font-size: 14px;\n            font-family: inherit;\n            font-style: normal;\n            font-weight: normal;\n            background-clip: padding-box;\n          }\n          body #RContainerk4d35d5d025d4c0cb68d11a48b77acda #UI_793357 input:focus {\n            border-color: rgba(64,158,255,1);\n          }\n          body #RContainerk4d35d5d025d4c0cb68d11a48b77acda #UI_793357 input:hover {\n            border-color: rgba(192,196,204,1);\n          }\n        body #RContainerk4d35d5d025d4c0cb68d11a48b77acda #UI_793357 input {\n              color: rgba(96,98,102,1);\n            }\n            body #RContainerk4d35d5d025d4c0cb68d11"
+}

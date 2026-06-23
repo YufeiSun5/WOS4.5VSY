@@ -1,0 +1,952 @@
+{
+  "target": "CodexSkill全链路_0612003159",
+  "at": "2026-06-12T01:00:08.650Z",
+  "seen": [
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/?id=6192730962611142708&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+      "at": "2026-06-12T01:00:11.020Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/?id=6192730962611142708&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+      "at": "2026-06-12T01:00:11.048Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js",
+      "at": "2026-06-12T01:00:11.054Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css",
+      "at": "2026-06-12T01:00:11.054Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/config.json",
+      "at": "2026-06-12T01:00:11.054Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/config.json",
+      "at": "2026-06-12T01:00:11.093Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css",
+      "at": "2026-06-12T01:00:11.096Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js",
+      "at": "2026-06-12T01:00:11.419Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js",
+      "at": "2026-06-12T01:00:11.422Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js",
+      "at": "2026-06-12T01:00:11.441Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js",
+      "at": "2026-06-12T01:00:11.489Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js",
+      "at": "2026-06-12T01:00:11.512Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html",
+      "at": "2026-06-12T01:00:11.515Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html",
+      "at": "2026-06-12T01:00:11.555Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/config.js?t=1778745025025",
+      "at": "2026-06-12T01:00:11.558Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/index-e38b6f82.js",
+      "at": "2026-06-12T01:00:11.558Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/index-3a2516c0.css",
+      "at": "2026-06-12T01:00:11.559Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/config.js?t=1778745025025",
+      "at": "2026-06-12T01:00:11.596Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/index-3a2516c0.css",
+      "at": "2026-06-12T01:00:11.596Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/index-e38b6f82.js",
+      "at": "2026-06-12T01:00:11.776Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/MainView-dec51b4b.js",
+      "at": "2026-06-12T01:00:11.787Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/_plugin-vue_export-helper-c27b6911.js",
+      "at": "2026-06-12T01:00:11.787Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/MainView-e7b601e3.css",
+      "at": "2026-06-12T01:00:11.787Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/_plugin-vue_export-helper-c27b6911.js",
+      "at": "2026-06-12T01:00:11.827Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/MainView-e7b601e3.css",
+      "at": "2026-06-12T01:00:11.848Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/MainView-dec51b4b.js",
+      "at": "2026-06-12T01:00:12.245Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/png/group-1ba25001.png",
+      "at": "2026-06-12T01:00:14.314Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/png/group-1ba25001.png",
+      "at": "2026-06-12T01:00:14.371Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/index-61bbcc27.js",
+      "at": "2026-06-12T01:00:16.513Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/assets/index-61bbcc27.js",
+      "at": "2026-06-12T01:00:16.548Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_107/index.html",
+      "at": "2026-06-12T01:00:16.660Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_107/index.html",
+      "at": "2026-06-12T01:00:16.708Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_107/config.js",
+      "at": "2026-06-12T01:00:16.713Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_107/debugger.js",
+      "at": "2026-06-12T01:00:16.713Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_107/js/runtime.beta.2026.05.14.15.js",
+      "at": "2026-06-12T01:00:16.713Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_107/js/index.beta.2026.05.14.15.js",
+      "at": "2026-06-12T01:00:16.713Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_107/css/index.7458ff8e.css",
+      "at": "2026-06-12T01:00:16.713Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_107/config.js",
+      "at": "2026-06-12T01:00:16.747Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_107/debugger.js",
+      "at": "2026-06-12T01:00:16.755Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_107/css/index.7458ff8e.css",
+      "at": "2026-06-12T01:00:16.758Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_107/js/runtime.beta.2026.05.14.15.js",
+      "at": "2026-06-12T01:00:16.855Z"
+    }
+  ],
+  "steps": [
+    {
+      "name": "login",
+      "frames": [
+        {
+          "i": 0,
+          "url": "http://221.239.19.118:13001/#/main",
+          "text": "时空功能开发 时空对象管理 系统运维 安全管理 审计管理 亚控云商城 KingStudio_V20260514 组态系统客户端0518 建模系统客户端_0518 运维部署客户端_0518 Codex临时测试_前端视图_0611"
+        }
+      ],
+      "seen": []
+    },
+    {
+      "name": "after_king_dbl",
+      "seen": [
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/public/?id=6192730962611142708&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+          "at": "2026-06-12T01:00:11.020Z"
+        }
+      ]
+    },
+    {
+      "name": "product_ready",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html#/running",
+      "frames": [
+        {
+          "i": 0,
+          "url": "http://221.239.19.118:13001/#/main",
+          "text": "时空功能开发 时空对象管理 系统运维 安全管理 审计管理 亚控云商城 KingStudio_V20260514 组态系统客户端0518 建模系统客户端_0518 运维部署客户端_0518 Codex临时测试_前端视图_0611"
+        },
+        {
+          "i": 1,
+          "url": "http://221.239.19.118:13001/public/?id=6192730962611142708&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+          "text": ""
+        },
+        {
+          "i": 2,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html#/running",
+          "text": "KingStudio 简体中文 关于 产品管理 新建 导入 导出 升级拷贝1 进入修改删除"
+        }
+      ],
+      "seen": [
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/public/?id=6192730962611142708&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+          "at": "2026-06-12T01:00:11.020Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/public/?id=6192730962611142708&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+          "at": "2026-06-12T01:00:11.048Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js",
+          "at": "2026-06-12T01:00:11.054Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css",
+          "at": "2026-06-12T01:00:11.054Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/public/config.json",
+          "at": "2026-06-12T01:00:11.054Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/public/config.json",
+          "at": "2026-06-12T01:00:11.093Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css",
+          "at": "2026-06-12T01:00:11.096Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js",
+          "at": "2026-06-12T01:00:11.419Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js",
+          "at": "2026-06-12T01:00:11.422Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js",
+          "at": "2026-06-12T01:00:11.441Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js",
+          "at": "2026-06-12T01:00:11.489Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js",
+          "at": "2026-06-12T01:00:11.512Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html",
+          "at": "2026-06-12T01:00:11.515Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html",
+          "at": "2026-06-12T01:00:11.555Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/config.js?t=1778745025025",
+          "at": "2026-06-12T01:00:11.558Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/index-e38b6f82.js",
+          "at": "2026-06-12T01:00:11.558Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/index-3a2516c0.css",
+          "at": "2026-06-12T01:00:11.559Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/config.js?t=1778745025025",
+          "at": "2026-06-12T01:00:11.596Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/index-3a2516c0.css",
+          "at": "2026-06-12T01:00:11.596Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/index-e38b6f82.js",
+          "at": "2026-06-12T01:00:11.776Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/MainView-dec51b4b.js",
+          "at": "2026-06-12T01:00:11.787Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/_plugin-vue_export-helper-c27b6911.js",
+          "at": "2026-06-12T01:00:11.787Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/MainView-e7b601e3.css",
+          "at": "2026-06-12T01:00:11.787Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/_plugin-vue_export-helper-c27b6911.js",
+          "at": "2026-06-12T01:00:11.827Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/MainView-e7b601e3.css",
+          "at": "2026-06-12T01:00:11.848Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/MainView-dec51b4b.js",
+          "at": "2026-06-12T01:00:12.245Z"
+        }
+      ]
+    },
+    {
+      "name": "inside_product",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html#/running",
+      "frames": [
+        {
+          "i": 0,
+          "url": "http://221.239.19.118:13001/#/main",
+          "text": "时空功能开发 时空对象管理 系统运维 安全管理 审计管理 亚控云商城 KingStudio_V20260514 组态系统客户端0518 建模系统客户端_0518 运维部署客户端_0518 Codex临时测试_前端视图_0611"
+        },
+        {
+          "i": 1,
+          "url": "http://221.239.19.118:13001/public/?id=6192730962611142708&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+          "text": ""
+        },
+        {
+          "i": 2,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html#/running",
+          "text": "KingStudio 简体中文 关于 产品管理 升级拷贝1 建模管理 产品组装 新增 删除 建模 新建 删除 复制 移动 导入 导出 添加依赖 升级拷贝 全部 测试 Codex临时功能单元_Node_0611 回收站 全选 共 2 条 1 前往 页"
+        }
+      ],
+      "seen": [
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/public/?id=6192730962611142708&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+          "at": "2026-06-12T01:00:11.020Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/public/?id=6192730962611142708&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+          "at": "2026-06-12T01:00:11.048Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js",
+          "at": "2026-06-12T01:00:11.054Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css",
+          "at": "2026-06-12T01:00:11.054Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/public/config.json",
+          "at": "2026-06-12T01:00:11.054Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/public/config.json",
+          "at": "2026-06-12T01:00:11.093Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css",
+          "at": "2026-06-12T01:00:11.096Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js",
+          "at": "2026-06-12T01:00:11.419Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js",
+          "at": "2026-06-12T01:00:11.422Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js",
+          "at": "2026-06-12T01:00:11.441Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js",
+          "at": "2026-06-12T01:00:11.489Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js",
+          "at": "2026-06-12T01:00:11.512Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html",
+          "at": "2026-06-12T01:00:11.515Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html",
+          "at": "2026-06-12T01:00:11.555Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/config.js?t=1778745025025",
+          "at": "2026-06-12T01:00:11.558Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/index-e38b6f82.js",
+          "at": "2026-06-12T01:00:11.558Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/index-3a2516c0.css",
+          "at": "2026-06-12T01:00:11.559Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/config.js?t=1778745025025",
+          "at": "2026-06-12T01:00:11.596Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/index-3a2516c0.css",
+          "at": "2026-06-12T01:00:11.596Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/index-e38b6f82.js",
+          "at": "2026-06-12T01:00:11.776Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/MainView-dec51b4b.js",
+          "at": "2026-06-12T01:00:11.787Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/_plugin-vue_export-helper-c27b6911.js",
+          "at": "2026-06-12T01:00:11.787Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/MainView-e7b601e3.css",
+          "at": "2026-06-12T01:00:11.787Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/_plugin-vue_export-helper-c27b6911.js",
+          "at": "2026-06-12T01:00:11.827Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/MainView-e7b601e3.css",
+          "at": "2026-06-12T01:00:11.848Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/MainView-dec51b4b.js",
+          "at": "2026-06-12T01:00:12.245Z"
+        }
+      ]
+    },
+    {
+      "name": "assembly_ready",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html#/running",
+      "frames": [
+        {
+          "i": 0,
+          "url": "http://221.239.19.118:13001/#/main",
+          "text": "时空功能开发 时空对象管理 系统运维 安全管理 审计管理 亚控云商城 KingStudio_V20260514 组态系统客户端0518 建模系统客户端_0518 运维部署客户端_0518 Codex临时测试_前端视图_0611"
+        },
+        {
+          "i": 1,
+          "url": "http://221.239.19.118:13001/public/?id=6192730962611142708&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+          "text": ""
+        },
+        {
+          "i": 2,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html#/running",
+          "text": "KingStudio 简体中文 关于 产品管理 升级拷贝1 建模管理 产品组装 新增 删除 产品 Codex自动演示_0612 新建 删除 复制 移动 导入 导出 添加拷贝 升级拷贝 全部 Codex自动演示_0612 回收站 全选 共 1 条 1 前往 页"
+        }
+      ],
+      "seen": [
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/public/?id=6192730962611142708&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+          "at": "2026-06-12T01:00:11.020Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/public/?id=6192730962611142708&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+          "at": "2026-06-12T01:00:11.048Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js",
+          "at": "2026-06-12T01:00:11.054Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css",
+          "at": "2026-06-12T01:00:11.054Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/public/config.json",
+          "at": "2026-06-12T01:00:11.054Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/public/config.json",
+          "at": "2026-06-12T01:00:11.093Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css",
+          "at": "2026-06-12T01:00:11.096Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js",
+          "at": "2026-06-12T01:00:11.419Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js",
+          "at": "2026-06-12T01:00:11.422Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js",
+          "at": "2026-06-12T01:00:11.441Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js",
+          "at": "2026-06-12T01:00:11.489Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js",
+          "at": "2026-06-12T01:00:11.512Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html",
+          "at": "2026-06-12T01:00:11.515Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html",
+          "at": "2026-06-12T01:00:11.555Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/config.js?t=1778745025025",
+          "at": "2026-06-12T01:00:11.558Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/index-e38b6f82.js",
+          "at": "2026-06-12T01:00:11.558Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/index-3a2516c0.css",
+          "at": "2026-06-12T01:00:11.559Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/config.js?t=1778745025025",
+          "at": "2026-06-12T01:00:11.596Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/index-3a2516c0.css",
+          "at": "2026-06-12T01:00:11.596Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/index-e38b6f82.js",
+          "at": "2026-06-12T01:00:11.776Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/MainView-dec51b4b.js",
+          "at": "2026-06-12T01:00:11.787Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/_plugin-vue_export-helper-c27b6911.js",
+          "at": "2026-06-12T01:00:11.787Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/MainView-e7b601e3.css",
+          "at": "2026-06-12T01:00:11.787Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/_plugin-vue_export-helper-c27b6911.js",
+          "at": "2026-06-12T01:00:11.827Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/MainView-e7b601e3.css",
+          "at": "2026-06-12T01:00:11.848Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/MainView-dec51b4b.js",
+          "at": "2026-06-12T01:00:12.245Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/png/group-1ba25001.png",
+          "at": "2026-06-12T01:00:14.314Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/png/group-1ba25001.png",
+          "at": "2026-06-12T01:00:14.371Z"
+        }
+      ]
+    },
+    {
+      "name": "after_page_dbl",
+      "seen": [
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/public/?id=6192730962611142708&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+          "at": "2026-06-12T01:00:11.020Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/public/?id=6192730962611142708&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+          "at": "2026-06-12T01:00:11.048Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js",
+          "at": "2026-06-12T01:00:11.054Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css",
+          "at": "2026-06-12T01:00:11.054Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/public/config.json",
+          "at": "2026-06-12T01:00:11.054Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/public/config.json",
+          "at": "2026-06-12T01:00:11.093Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css",
+          "at": "2026-06-12T01:00:11.096Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js",
+          "at": "2026-06-12T01:00:11.419Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js",
+          "at": "2026-06-12T01:00:11.422Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js",
+          "at": "2026-06-12T01:00:11.441Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js",
+          "at": "2026-06-12T01:00:11.489Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js",
+          "at": "2026-06-12T01:00:11.512Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html",
+          "at": "2026-06-12T01:00:11.515Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html",
+          "at": "2026-06-12T01:00:11.555Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/config.js?t=1778745025025",
+          "at": "2026-06-12T01:00:11.558Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/index-e38b6f82.js",
+          "at": "2026-06-12T01:00:11.558Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/index-3a2516c0.css",
+          "at": "2026-06-12T01:00:11.559Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/config.js?t=1778745025025",
+          "at": "2026-06-12T01:00:11.596Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/index-3a2516c0.css",
+          "at": "2026-06-12T01:00:11.596Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/index-e38b6f82.js",
+          "at": "2026-06-12T01:00:11.776Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/MainView-dec51b4b.js",
+          "at": "2026-06-12T01:00:11.787Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/_plugin-vue_export-helper-c27b6911.js",
+          "at": "2026-06-12T01:00:11.787Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/MainView-e7b601e3.css",
+          "at": "2026-06-12T01:00:11.787Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/_plugin-vue_export-helper-c27b6911.js",
+          "at": "2026-06-12T01:00:11.827Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/MainView-e7b601e3.css",
+          "at": "2026-06-12T01:00:11.848Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/MainView-dec51b4b.js",
+          "at": "2026-06-12T01:00:12.245Z"
+        },
+        {
+          "type": "request",
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/png/group-1ba25001.png",
+          "at": "2026-06-12T01:00:14.314Z"
+        },
+        {
+          "type": "response",
+          "status": 200,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/png/group-1ba25001.png",
+          "at": "2026-06-12T01:00:14.371Z"
+        }
+      ]
+    }
+  ],
+  "item": {
+    "x": 635,
+    "y": 165,
+    "w": 75,
+    "h": 115,
+    "text": "CodexSkill全链路_0612003159"
+  },
+  "editor": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_107/index.html",
+  "finalFrames": [
+    {
+      "i": 0,
+      "url": "http://221.239.19.118:13001/#/main",
+      "text": "时空功能开发 时空对象管理 系统运维 安全管理 审计管理 亚控云商城 KingStudio_V20260514 组态系统客户端0518 建模系统客户端_0518 运维部署客户端_0518 Codex临时测试_前端视图_0611"
+    },
+    {
+      "i": 1,
+      "url": "http://221.239.19.118:13001/public/?id=6192730962611142708&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+      "text": ""
+    },
+    {
+      "i": 2,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html#/running",
+      "text": "KingStudio 简体中文 关于 产品管理 升级拷贝1 页面编辑器"
+    },
+    {
+      "i": 3,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_107/index.html",
+      "text": ""
+    }
+  ]
+}

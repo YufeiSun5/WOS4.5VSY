@@ -1,0 +1,10 @@
+const CONFIG = {
+  GraphStudioName:"KingStudio",
+  GraphStudioFuCopyID: '7205759403792793716',
+  runMode:1, //1:正式环境 2:vscode模式
+  host: "172.30.76.52:8686", //请求发送的地址ip cs模式为127 bs模式为具体的ip
+  userName: "杨超儒",
+  passWord: "<密码已脱敏>",
+};
+
+window.CONFIG = CONFIG;

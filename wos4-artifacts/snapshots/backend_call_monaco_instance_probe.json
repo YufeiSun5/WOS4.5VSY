@@ -1,0 +1,43 @@
+{
+  "globals": [
+    "MonacoEnvironment"
+  ],
+  "elements": [
+    {
+      "idx": 0,
+      "tag": "DIV",
+      "cls": "app-model-editor code-editor w100 h100 code-editor",
+      "keys": [],
+      "props": []
+    },
+    {
+      "idx": 1,
+      "tag": "DIV",
+      "cls": "monaco-editor-view w100 h100 metalang-monaco-editor monaco-editor-panel",
+      "keys": [],
+      "props": []
+    },
+    {
+      "idx": 2,
+      "tag": "DIV",
+      "cls": "monaco-editor",
+      "keys": [],
+      "props": []
+    },
+    {
+      "idx": 3,
+      "tag": "DIV",
+      "cls": "monaco-editor no-user-select  showUnused showDeprecated vs-dark focused",
+      "keys": [],
+      "props": []
+    },
+    {
+      "idx": 4,
+      "tag": "TEXTAREA",
+      "cls": "inputarea monaco-mouse-cursor-text",
+      "keys": [],
+      "props": []
+    }
+  ],
+  "vue": []
+}

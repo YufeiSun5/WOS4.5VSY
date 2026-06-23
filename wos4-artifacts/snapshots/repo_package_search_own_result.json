@@ -1,0 +1,251 @@
+{
+  "fill": {
+    "foundDialog": true,
+    "filled": true,
+    "rect": {
+      "x": 1114,
+      "y": 208.84375,
+      "w": 56,
+      "h": 24
+    }
+  },
+  "state": [
+    {
+      "path": "top",
+      "href": "http://221.239.19.118:13001/#/main",
+      "body": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260514\n组态系统客户端0518\n建模系统客户端_0518\n运维部署客户端_0518\nlk_客户端01\nCodex临时测试_前端视图_0611",
+      "dialogs": [],
+      "tables": []
+    },
+    {
+      "path": "top.0",
+      "href": "http://221.239.19.118:13001/desktop-frame/index.html?cloud=107#/main/worker-space-model",
+      "body": "时空功能开发平台\n\nTime Space Platform\n\n时空开发\n部署管理\n盛云_孙宇飞_元语言查询Demo_0617\n仓库包\n权限\n镜像\n关于\n时空管理\n新建\n删除\n默认数据区\n盛云_孙宇飞_仓库\n新建\n生成拷贝\n复制\n移动\n导入\n导出\n删除\n上传资源\n打包\n名称\n本仓库-多类型\n盛云_孙宇飞_元语言查询Demo_0617\n盛云_孙宇飞_元语言查询Demo_0617_拷贝1\n全选\n共 2 条\n1\n前往\n页\n属性\n\n暂无数据\n\n仓库数据包管理\n数据区:\n默认数据区\n描述\n批量删除\n\t\n名称\n\t\n描述\n\t\nGUID\n\t\n提交时间\n\t\n版本\n\t\n操作\n\t\nKingStudio4.5_Beta\n\t\n2026033001\n\t\n579b683d-3951-446e-a8ef-7f3985115c9c\n\t\n2026-03-30 16:36:49\n\t\n1\n\t\n删除\n\n\n\t\n工程管理\n\t\n2026033001\n\t\nd1ff3e08-d622-48b4-a9ad-bbe1777760ec\n\t\n2026-03-30 16:35:18\n\t\n1\n\t\n删除\n\n\n\t\n数字孪生可视化\n\t\n2026033001\n\t\n90f3da26-13d4-4ee2-862e-46009e4e05a7\n\t\n2026-03-30 16:35:51\n\t\n1\n\t\n删除\n\n\n\t\n数字孪生实例化\n\t\n123\n\t\n1e87443b-e84e-4b24-a28b-5c0740253f69\n\t\n2026-05-06 11:45:40\n\t\n3\n\t\n删除\n\n\n\t\n数字孪生实例化\n\t\n12\n\t\n1e87443b-e84e-4b24-a28b-5c0740253f69\n\t\n2026-05-06 10:44:56\n\t\n2\n\t\n删除\n\n\n\t\n数字孪生实例化\n\t\n2026033001\n\t\n1e87443b-e84e-4b24-a28b-5c0740253f69\n\t\n2026-03-30 16:35:59\n\t\n1\n\t\n删除\n\n\n\t\n系统服务配置\n\t\n2026033001\n\t\n05df0ee7-517a-4fdd-8544-ebdee19bd531\n\t\n2026-03-30 16:36:15\n\t\n1\n\t\n删除\n\n\n\t\n建模系统客户端\n\t\n0518\n\t\n09d23134-645a-4f3b-8a43-c0068439378f\n\t\n2026-05-18 13:46:43\n\t\n5\n\t\n删除\n\n\n\t\n建模系统客户端\n\t\n2026033001\n\t\n09d23134-645a-4f3b-8a43-c0068439378f\n\t\n2026-03-30 17:07:39\n\t\n4\n\t\n删除\n\n\n\t\n组态系统客户端\n\t\n2026033001\n\t\n9a41e480-4678-4edd-9a50-d3bb01b83e51\n\t\n2026-03-30 17:07:44\n\t\n2\n\t\n删除\n已选: 0\n共 227 条\n1\n2\n3\n4\n5\n6\n23\n前往\n页",
+      "dialogs": [
+        {
+          "i": 0,
+          "text": "仓库数据包管理\n数据区:\n默认数据区\n描述\n批量删除\n\t\n名称\n\t\n描述\n\t\nGUID\n\t\n提交时间\n\t\n版本\n\t\n操作\n\t\nKingStudio4.5_Beta\n\t\n2026033001\n\t\n579b683d-3951-446e-a8ef-7f3985115c9c\n\t\n2026-03-30 16:36:49\n\t\n1\n\t\n删除\n\n\n\t\n工程管理\n\t\n2026033001\n\t\nd1ff3e08-d622-48b4-a9ad-bbe1777760ec\n\t\n2026-03-30 16:35:18\n\t\n1\n\t\n删除\n\n\n\t\n数字孪生可视化\n\t\n2026033001\n\t\n90f3da26-13d4-4ee2-862e-46009e4e05a7\n\t\n2026-03-30 16:35:51\n\t\n1\n\t\n删除\n\n\n\t\n数字孪生实例化\n\t\n123\n\t\n1e87443b-e84e-4b24-a28b-5c0740253f69\n\t\n2026-05-06 11:45:40\n\t\n3\n\t\n删除\n\n\n\t\n数字孪生实例化\n\t\n12\n\t\n1e87443b-e84e-4b24-a28b-5c0740253f69\n\t\n2026-05-06 10:44:56\n\t\n2\n\t\n删除\n\n\n\t\n数字孪生实例化\n\t\n2026033001\n\t\n1e87443b-e84e-4b24-a28b-5c0740253f69\n\t\n2026-03-30 16:35:59\n\t\n1\n\t\n删除\n\n\n\t\n系统服务配置\n\t\n2026033001\n\t\n05df0ee7-517a-4fdd-8544-ebdee19bd531\n\t\n2026-03-30 16:36:15\n\t\n1\n\t\n删除\n\n\n\t\n建模系统客户端\n\t\n0518\n\t\n09d23134-645a-4f3b-8a43-c0068439378f\n\t\n2026-05-18 13:46:43\n\t\n5\n\t\n删除\n\n\n\t\n建模系统客户端\n\t\n2026033001\n\t\n09d23134-645a-4f3b-8a43-c0068439378f\n\t\n2026-03-30 17:07:39\n\t\n4\n\t\n删除\n\n\n\t\n组态系统客户端\n\t\n2026033001\n\t\n9a41e480-4678-4edd-9a50-d3bb01b83e51\n\t\n2026-03-30 17:07:44\n\t\n2\n\t\n删除\n已选: 0\n共 227 条\n1\n2\n3\n4\n5\n6\n23\n前往\n页",
+          "inputs": [
+            {
+              "j": 0,
+              "value": "",
+              "type": "text",
+              "cls": "el-select__input is-default"
+            },
+            {
+              "j": 1,
+              "value": "meta-language-demo-0617-package-1",
+              "type": "text",
+              "cls": "el-select__input is-default"
+            },
+            {
+              "j": 2,
+              "value": "",
+              "type": "text",
+              "cls": "el-input__inner"
+            },
+            {
+              "j": 3,
+              "value": "on",
+              "type": "checkbox",
+              "cls": "el-checkbox__original"
+            },
+            {
+              "j": 4,
+              "value": "on",
+              "type": "checkbox",
+              "cls": "el-checkbox__original"
+            },
+            {
+              "j": 5,
+              "value": "on",
+              "type": "checkbox",
+              "cls": "el-checkbox__original"
+            },
+            {
+              "j": 6,
+              "value": "on",
+              "type": "checkbox",
+              "cls": "el-checkbox__original"
+            },
+            {
+              "j": 7,
+              "value": "on",
+              "type": "checkbox",
+              "cls": "el-checkbox__original"
+            },
+            {
+              "j": 8,
+              "value": "on",
+              "type": "checkbox",
+              "cls": "el-checkbox__original"
+            },
+            {
+              "j": 9,
+              "value": "on",
+              "type": "checkbox",
+              "cls": "el-checkbox__original"
+            },
+            {
+              "j": 10,
+              "value": "on",
+              "type": "checkbox",
+              "cls": "el-checkbox__original"
+            },
+            {
+              "j": 11,
+              "value": "on",
+              "type": "checkbox",
+              "cls": "el-checkbox__original"
+            },
+            {
+              "j": 12,
+              "value": "on",
+              "type": "checkbox",
+              "cls": "el-checkbox__original"
+            },
+            {
+              "j": 13,
+              "value": "on",
+              "type": "checkbox",
+              "cls": "el-checkbox__original"
+            },
+            {
+              "j": 14,
+              "value": "1",
+              "type": "number",
+              "cls": "el-input__inner"
+            }
+          ]
+        },
+        {
+          "i": 1,
+          "text": "仓库数据包管理\n数据区:\n默认数据区\n描述\n批量删除\n\t\n名称\n\t\n描述\n\t\nGUID\n\t\n提交时间\n\t\n版本\n\t\n操作\n\t\nKingStudio4.5_Beta\n\t\n2026033001\n\t\n579b683d-3951-446e-a8ef-7f3985115c9c\n\t\n2026-03-30 16:36:49\n\t\n1\n\t\n删除\n\n\n\t\n工程管理\n\t\n2026033001\n\t\nd1ff3e08-d622-48b4-a9ad-bbe1777760ec\n\t\n2026-03-30 16:35:18\n\t\n1\n\t\n删除\n\n\n\t\n数字孪生可视化\n\t\n2026033001\n\t\n90f3da26-13d4-4ee2-862e-46009e4e05a7\n\t\n2026-03-30 16:35:51\n\t\n1\n\t\n删除\n\n\n\t\n数字孪生实例化\n\t\n123\n\t\n1e87443b-e84e-4b24-a28b-5c0740253f69\n\t\n2026-05-06 11:45:40\n\t\n3\n\t\n删除\n\n\n\t\n数字孪生实例化\n\t\n12\n\t\n1e87443b-e84e-4b24-a28b-5c0740253f69\n\t\n2026-05-06 10:44:56\n\t\n2\n\t\n删除\n\n\n\t\n数字孪生实例化\n\t\n2026033001\n\t\n1e87443b-e84e-4b24-a28b-5c0740253f69\n\t\n2026-03-30 16:35:59\n\t\n1\n\t\n删除\n\n\n\t\n系统服务配置\n\t\n2026033001\n\t\n05df0ee7-517a-4fdd-8544-ebdee19bd531\n\t\n2026-03-30 16:36:15\n\t\n1\n\t\n删除\n\n\n\t\n建模系统客户端\n\t\n0518\n\t\n09d23134-645a-4f3b-8a43-c0068439378f\n\t\n2026-05-18 13:46:43\n\t\n5\n\t\n删除\n\n\n\t\n建模系统客户端\n\t\n2026033001\n\t\n09d23134-645a-4f3b-8a43-c0068439378f\n\t\n2026-03-30 17:07:39\n\t\n4\n\t\n删除\n\n\n\t\n组态系统客户端\n\t\n2026033001\n\t\n9a41e480-4678-4edd-9a50-d3bb01b83e51\n\t\n2026-03-30 17:07:44\n\t\n2\n\t\n删除\n已选: 0\n共 227 条\n1\n2\n3\n4\n5\n6\n23\n前往\n页",
+          "inputs": [
+            {
+              "j": 0,
+              "value": "",
+              "type": "text",
+              "cls": "el-select__input is-default"
+            },
+            {
+              "j": 1,
+              "value": "meta-language-demo-0617-package-1",
+              "type": "text",
+              "cls": "el-select__input is-default"
+            },
+            {
+              "j": 2,
+              "value": "",
+              "type": "text",
+              "cls": "el-input__inner"
+            },
+            {
+              "j": 3,
+              "value": "on",
+              "type": "checkbox",
+              "cls": "el-checkbox__original"
+            },
+            {
+              "j": 4,
+              "value": "on",
+              "type": "checkbox",
+              "cls": "el-checkbox__original"
+            },
+            {
+              "j": 5,
+              "value": "on",
+              "type": "checkbox",
+              "cls": "el-checkbox__original"
+            },
+            {
+              "j": 6,
+              "value": "on",
+              "type": "checkbox",
+              "cls": "el-checkbox__original"
+            },
+            {
+              "j": 7,
+              "value": "on",
+              "type": "checkbox",
+              "cls": "el-checkbox__original"
+            },
+            {
+              "j": 8,
+              "value": "on",
+              "type": "checkbox",
+              "cls": "el-checkbox__original"
+            },
+            {
+              "j": 9,
+              "value": "on",
+              "type": "checkbox",
+              "cls": "el-checkbox__original"
+            },
+            {
+              "j": 10,
+              "value": "on",
+              "type": "checkbox",
+              "cls": "el-checkbox__original"
+            },
+            {
+              "j": 11,
+              "value": "on",
+              "type": "checkbox",
+              "cls": "el-checkbox__original"
+            },
+            {
+              "j": 12,
+              "value": "on",
+              "type": "checkbox",
+              "cls": "el-checkbox__original"
+            },
+            {
+              "j": 13,
+              "value": "on",
+              "type": "checkbox",
+              "cls": "el-checkbox__original"
+            },
+            {
+              "j": 14,
+              "value": "1",
+              "type": "number",
+              "cls": "el-input__inner"
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "i": 0,
+          "text": "\t\n名称\n\t\n描述\n\t\nGUID\n\t\n提交时间\n\t\n版本\n\t\n操作\n\t\nKingStudio4.5_Beta\n\t\n2026033001\n\t\n579b683d-3951-446e-a8ef-7f3985115c9c\n\t\n2026-03-30 16:36:49\n\t\n1\n\t\n删除\n\n\n\t\n工程管理\n\t\n2026033001\n\t\nd1ff3e08-d622-48b4-a9ad-bbe1777760ec\n\t\n2026-03-30 16:35:18\n\t\n1\n\t\n删除\n\n\n\t\n数字孪生可视化\n\t\n2026033001\n\t\n90f3da26-13d4-4ee2-862e-46009e4e05a7\n\t\n2026-03-30 16:35:51\n\t\n1\n\t\n删除\n\n\n\t\n数字孪生实例化\n\t\n123\n\t\n1e87443b-e84e-4b24-a28b-5c0740253f69\n\t\n2026-05-06 11:45:40\n\t\n3\n\t\n删除\n\n\n\t\n数字孪生实例化\n\t\n12\n\t\n1e87443b-e84e-4b24-a28b-5c0740253f69\n\t\n2026-05-06 10:44:56\n\t\n2\n\t\n删除\n\n\n\t\n数字孪生实例化\n\t\n2026033001\n\t\n1e87443b-e84e-4b24-a28b-5c0740253f69\n\t\n2026-03-30 16:35:59\n\t\n1\n\t\n删除\n\n\n\t\n系统服务配置\n\t\n2026033001\n\t\n05df0ee7-517a-4fdd-8544-ebdee19bd531\n\t\n2026-03-30 16:36:15\n\t\n1\n\t\n删除\n\n\n\t\n建模系统客户端\n\t\n0518\n\t\n09d23134-645a-4f3b-8a43-c0068439378f\n\t\n2026-05-18 13:46:43\n\t\n5\n\t\n删除\n\n\n\t\n建模系统客户端\n\t\n2026033001\n\t\n09d23134-645a-4f3b-8a43-c0068439378f\n\t\n2026-03-30 17:07:39\n\t\n4\n\t\n删除\n\n\n\t\n组态系统客户端\n\t\n2026033001\n\t\n9a41e480-4678-4edd-9a50-d3bb01b83e51\n\t\n2026-03-30 17:07:44\n\t\n2\n\t\n删除",
+          "cls": "el-table--fit el-table--border el-table--enable-row-hover el-table--enable-row-transition el-table--default el-table el-table--layout-fixed is-scrolling-none"
+        },
+        {
+          "i": 1,
+          "text": "\t\n名称\n\t\n描述\n\t\nGUID\n\t\n提交时间\n\t\n版本\n\t\n操作",
+          "cls": "el-table__header"
+        },
+        {
+          "i": 2,
+          "text": "\t\nKingStudio4.5_Beta\n\t\n2026033001\n\t\n579b683d-3951-446e-a8ef-7f3985115c9c\n\t\n2026-03-30 16:36:49\n\t\n1\n\t\n删除\n\n\n\t\n工程管理\n\t\n2026033001\n\t\nd1ff3e08-d622-48b4-a9ad-bbe1777760ec\n\t\n2026-03-30 16:35:18\n\t\n1\n\t\n删除\n\n\n\t\n数字孪生可视化\n\t\n2026033001\n\t\n90f3da26-13d4-4ee2-862e-46009e4e05a7\n\t\n2026-03-30 16:35:51\n\t\n1\n\t\n删除\n\n\n\t\n数字孪生实例化\n\t\n123\n\t\n1e87443b-e84e-4b24-a28b-5c0740253f69\n\t\n2026-05-06 11:45:40\n\t\n3\n\t\n删除\n\n\n\t\n数字孪生实例化\n\t\n12\n\t\n1e87443b-e84e-4b24-a28b-5c0740253f69\n\t\n2026-05-06 10:44:56\n\t\n2\n\t\n删除\n\n\n\t\n数字孪生实例化\n\t\n2026033001\n\t\n1e87443b-e84e-4b24-a28b-5c0740253f69\n\t\n2026-03-30 16:35:59\n\t\n1\n\t\n删除\n\n\n\t\n系统服务配置\n\t\n2026033001\n\t\n05df0ee7-517a-4fdd-8544-ebdee19bd531\n\t\n2026-03-30 16:36:15\n\t\n1\n\t\n删除\n\n\n\t\n建模系统客户端\n\t\n0518\n\t\n09d23134-645a-4f3b-8a43-c0068439378f\n\t\n2026-05-18 13:46:43\n\t\n5\n\t\n删除\n\n\n\t\n建模系统客户端\n\t\n2026033001\n\t\n09d23134-645a-4f3b-8a43-c0068439378f\n\t\n2026-03-30 17:07:39\n\t\n4\n\t\n删除\n\n\n\t\n组态系统客户端\n\t\n2026033001\n\t\n9a41e480-4678-4edd-9a50-d3bb01b83e51\n\t\n2026-03-30 17:07:44\n\t\n2\n\t\n删除",
+          "cls": "el-table__body"
+        }
+      ]
+    },
+    {
+      "path": "top.1",
+      "href": "http://221.239.19.118:13001/public/?id=6192730962611142710&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+      "body": "\n    \n    \n    !function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();\n    \n    System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))\n  \n\n",
+      "dialogs": [],
+      "tables": []
+    },
+    {
+      "path": "top.1.0",
+      "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+      "body": "<strong>We're sorry but app-master doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>建模系统管控单元建模采集设备建模工作流建模数字孪生建模分组       导入 导出 删除  根组集成测试测试引滦工程mwq测试张测试组lk测试盛云_孙宇飞_根组模型列表 新建  更多操作    序号名称描述操作1盛云_孙宇飞_Smoke模型_0518建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。 编辑 属性 提交版本 版本管理 更新 删除共 1 条50条/页100条/页150条/页200条/页250条/页300条/页<1>前往页\n          \n          #RContainerk6a038a324005492e8f16e7f238c6e9c #k8f80717350dd77394bbec504122c6da { \n                        box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);\n                    }#RContainerk6a038a324005492e8f16e7f238c6e9c {\n                        height: 899px;\n                        width: 1920px;\n                        border: 0px solid rgba(0,0,0,0.1);\n                        border-radius:0px;\n                        background: rgba(255, 255, 255, 1);\n                        background-image: ;\n                        background-repeat: repeat;\n                        background-size: auto;\n                        box-shadow:0px 0px 0px 0px rgba(0,0,0,1)\n                        \n                    }#RContainerkfa825f8bbc18015220e01a0f38250c2 #k634771653cdb5f6f6b4a28dbe7f8795 {\n          background:#FFFFFF;\n          border-width:0px;\n          border-style:null;\n          border-color:#000000;\n          text-align:left;\n          align-items:center;\n      }\n      #RContainerkfa825f8bbc18015220e01a0f38250c2 #k634771653cdb5f6f6b4a28dbe7f8795 p{\n          font-family:Arial;\n          font-size:14px;\n      }\n      #RContainerkfa825f8bbc18015220e01a0f38250c2 #k634771653cdb5f6f6b4a28dbe7f8795 label{\n          font-weight:normal;\n          font-style:normal;\n          padding-right: 0px;\n          text-decoration:none;\n      }#RContainerkfa825f8bbc18015220e01a0f38250c2 #k634771653cdb5f6f6b4a28dbe7f8795 p {\n            color: #333333;\n          }\r\n/*自定义按钮边距*/\r\nbody #RContainerkfa825f8bbc18015220e01a0f38250c2 #k932b9dffd2df3b810aaee7f7c04d659 .el-tree-node__content .nodeButtonBox {\r\n    position: absolute;\r\n    right: 0; \r\n}\r\n\r\n/*树节点的文本字体大小*/\r\nbody #RContainerkfa825f8bbc18015220e01a0f38250c2 #k932b9dffd2df3b810aaee7f7c04d659 .el-tree-node__content{\r\n    font-size: 14px;}\r\n\r\n/*树节点的高度、背景色*/\r\nbody #RContainerkfa825f8bbc18015220e01a0f38250c2 #k932b9dffd2df3b810aaee7f7c04d659 .el-tree-node__content{\r\n    height: 32px;}\r\nbody #RContainerkfa825f8bbc18015220e01a0f38250c2 #k932b9dffd2df3b810aaee7f7c04d659 .treeicon1 {\r\n    background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAKpSURBVEiJtZXPS1RRFMe/57z75s340EUlkhQkaDMVqOXUIphwGQjRQoiCgiKGoCgo6A8I3LWusE3osk0QtghTSMIWGhgIykwizqIgZpHTy/nx7j0tbMZRZ8bRse/qvfvu+XzPOe+8+wgA+uIzdtbtag56yjEBEBoQ5yFZ188FvURmdjhaoL74jL2mIgcdJm4EvFU5IybkL6Q563Y17zccABwmzrpdzRz0lLPf8KKCnnLUjj0nu1VZ/k0C9wPSAaBJCEkYTBvBqDFmsVqoCYBULbayrKsgPUQgB5ANT0EEhIhFuM7Mr5CXJz6LrsSo2ntlWQ+J5CkBtVqoCLhNAXquDFl1G9gW9xPJoxrgrRogm+7UbQDC0C7gxZjHyuYPtrKeKba6qxooi2IAju3aAFAQkEAiIDOysbgtEerfA/xfLCwALUI0XxyKzRWQ3QpCbK8GADpF5HPB5OPFhVIFFquzzHoEQMuusQIthEkRfqG1P01ljSldEemXAM1ByAPJxfrINA9gLNqrkyeP64HJT/J1aWVz18vvlgHEQOLXIC4KMCeQ6VNhpHpPFM4FHVxiRsRoLC6tKG9rQMkgp+lK0EIMQFhA6x8XyR8IUm6T+X6mR6P9EIcDjukJ2LhPhI5y0O81Gq2U0cY7gMkVNMYBjN8Y1A9shTAzWpnoALF0ru81FcsyWr69nVAj5cfJNoNypVetqaNt+i4At1LQJrjBz2SKb2V+7eIsGnuPL6kfPGgMlmvBtWA+sawuT0xxstoeOn3Pa6/28EgbOxfO+9eaQjKgLHQDcEVk1RiaW83I63cf7TfVMi8Z9MW9w43+h6uJ8xDOun7uf8ABIOv6OQ56iUzOSOXxaEA5IyboJTI8OxwthPyFdN72s5zfYWTqEOchedvPhvyF9OxwtPAXO379YseyTFgAAAAASUVORK5CYII=\");\r\n    height: 24px;\r\n    width: 24px;\r\n    background-size: contain;\r\n}\r\nbody #RContainerkfa825f8bbc18015220e01a0f38250c2 #k932b9dffd2df3b810aaee7f7c04d659 .treeicon2 {\r\n    background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAHwSURBVEiJ7ZS/axRBFMe/7+3OzZ6bQ4hYaSo5jQo2d5aSSCpB/AcEsZDY2KhIEG1VUmgruUYRBCsLEVLIQfxR5uocHIpoIySHxHO53dm5eRaiYO73nkIKv+W877zPvC8zQwBQWlxXcVgsBJGvXQ6ECcQGEoc2CaJGq1Ypp1RaXFdtf3afZuJJGu9U4sTlbb3JcVgs/",
+      "dialogs": [],
+      "tables": []
+    }
+  ]
+}

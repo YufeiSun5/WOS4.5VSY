@@ -1,0 +1,20 @@
+{
+  "t": 1782093654167,
+  "href": "http://221.239.19.118:13001/public/index.html?id=6192730962611142709&parentid=0&cloudid=107&clientnumber=7710165594863352807&bs=true#/#{%22clientGuid%22:%22d01d4d20-79d3-4b0d-9d89-77856713e525%22,%22FUType%22:11}",
+  "title": "🐴 WellinOS4.0",
+  "steps": [],
+  "pageFound": false,
+  "text": "",
+  "vars": null,
+  "spaceTimeId": null,
+  "apiTypes": {
+    "StringMap": "undefined",
+    "Variant": "undefined",
+    "Call": "undefined",
+    "Query": "undefined",
+    "SetRunInfo": "undefined",
+    "getLocalCloudID": "undefined"
+  },
+  "fatal": "ReferenceError: Variant is not defined",
+  "stack": "ReferenceError: Variant is not defined\n    at <anonymous>:41:35\n    at <anonymous>:68:3\n    at <anonymous>:69:3"
+}

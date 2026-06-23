@@ -1,0 +1,1965 @@
+{
+  "ok": true,
+  "startedAt": "2026-06-12T05:32:43.471Z",
+  "operator": "盛云_孙宇飞",
+  "models": {
+    "收球筒": {
+      "row": {
+        "rowText": "\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+        "actions": {
+          "编辑": {
+            "x": 1033,
+            "y": 102,
+            "w": 28,
+            "h": 50
+          },
+          "属性": {
+            "x": 1073,
+            "y": 102,
+            "w": 28,
+            "h": 50
+          },
+          "提交版本": {
+            "x": 1113,
+            "y": 102,
+            "w": 56,
+            "h": 50
+          },
+          "版本管理": {
+            "x": 1181,
+            "y": 102,
+            "w": 56,
+            "h": 50
+          },
+          "更新": {
+            "x": 1249,
+            "y": 102,
+            "w": 28,
+            "h": 50
+          },
+          "删除": {
+            "x": 1289,
+            "y": 102,
+            "w": 28,
+            "h": 50
+          }
+        }
+      },
+      "属性": [
+        {
+          "idx": 0,
+          "tag": "DIV",
+          "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_317901",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 1440,
+            "h": 854
+          },
+          "text": "模型属性\n\nX\n\n名称：\n\n描述：\n\n0/128\n取消\n确认",
+          "inputs": [
+            {
+              "placeholder": "",
+              "value": "收球筒",
+              "disabled": false,
+              "readonly": false
+            },
+            {
+              "placeholder": "请输入",
+              "value": "",
+              "disabled": false,
+              "readonly": false
+            }
+          ]
+        },
+        {
+          "idx": 1,
+          "tag": "DIV",
+          "cls": "el-dialog",
+          "rect": {
+            "x": 510,
+            "y": 300,
+            "w": 420,
+            "h": 320
+          },
+          "text": "模型属性\n\nX\n\n名称：\n\n描述：\n\n0/128\n取消\n确认",
+          "inputs": [
+            {
+              "placeholder": "",
+              "value": "收球筒",
+              "disabled": false,
+              "readonly": false
+            },
+            {
+              "placeholder": "请输入",
+              "value": "",
+              "disabled": false,
+              "readonly": false
+            }
+          ]
+        }
+      ],
+      "属性Screenshot": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\screenshots\\readonly_收球筒_属性.png",
+      "版本管理": [
+        {
+          "idx": 0,
+          "tag": "DIV",
+          "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_317901",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 1440,
+            "h": 854
+          },
+          "text": "模型属性\n\nX\n\n名称：\n\n描述：\n\n0/128\n取消\n确认",
+          "inputs": [
+            {
+              "placeholder": "",
+              "value": "收球筒",
+              "disabled": false,
+              "readonly": false
+            },
+            {
+              "placeholder": "请输入",
+              "value": "",
+              "disabled": false,
+              "readonly": false
+            }
+          ]
+        },
+        {
+          "idx": 1,
+          "tag": "DIV",
+          "cls": "el-dialog",
+          "rect": {
+            "x": 510,
+            "y": 300,
+            "w": 420,
+            "h": 320
+          },
+          "text": "模型属性\n\nX\n\n名称：\n\n描述：\n\n0/128\n取消\n确认",
+          "inputs": [
+            {
+              "placeholder": "",
+              "value": "收球筒",
+              "disabled": false,
+              "readonly": false
+            },
+            {
+              "placeholder": "请输入",
+              "value": "",
+              "disabled": false,
+              "readonly": false
+            }
+          ]
+        }
+      ],
+      "版本管理Screenshot": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\screenshots\\readonly_收球筒_版本管理.png"
+    },
+    "盛云_孙宇飞_假数据设备模型_0612": {
+      "row": {
+        "rowText": "\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+        "actions": {
+          "编辑": {
+            "x": 1033,
+            "y": 153,
+            "w": 28,
+            "h": 50
+          },
+          "属性": {
+            "x": 1073,
+            "y": 153,
+            "w": 28,
+            "h": 50
+          },
+          "提交版本": {
+            "x": 1113,
+            "y": 153,
+            "w": 56,
+            "h": 50
+          },
+          "版本管理": {
+            "x": 1181,
+            "y": 153,
+            "w": 56,
+            "h": 50
+          },
+          "更新": {
+            "x": 1249,
+            "y": 153,
+            "w": 28,
+            "h": 50
+          },
+          "删除": {
+            "x": 1289,
+            "y": 153,
+            "w": 28,
+            "h": 50
+          }
+        }
+      },
+      "属性": [
+        {
+          "idx": 0,
+          "tag": "DIV",
+          "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_317901",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 1440,
+            "h": 854
+          },
+          "text": "模型属性\n\nX\n\n名称：\n\n描述：\n\n0/128\n取消\n确认",
+          "inputs": [
+            {
+              "placeholder": "",
+              "value": "收球筒",
+              "disabled": false,
+              "readonly": false
+            },
+            {
+              "placeholder": "请输入",
+              "value": "",
+              "disabled": false,
+              "readonly": false
+            }
+          ]
+        },
+        {
+          "idx": 1,
+          "tag": "DIV",
+          "cls": "el-dialog",
+          "rect": {
+            "x": 510,
+            "y": 300,
+            "w": 420,
+            "h": 320
+          },
+          "text": "模型属性\n\nX\n\n名称：\n\n描述：\n\n0/128\n取消\n确认",
+          "inputs": [
+            {
+              "placeholder": "",
+              "value": "收球筒",
+              "disabled": false,
+              "readonly": false
+            },
+            {
+              "placeholder": "请输入",
+              "value": "",
+              "disabled": false,
+              "readonly": false
+            }
+          ]
+        }
+      ],
+      "属性Screenshot": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\screenshots\\readonly_盛云_孙宇飞_假数据设备模型_0612_属性.png",
+      "版本管理": [
+        {
+          "idx": 0,
+          "tag": "DIV",
+          "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_317901",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 1440,
+            "h": 854
+          },
+          "text": "模型属性\n\nX\n\n名称：\n\n描述：\n\n0/128\n取消\n确认",
+          "inputs": [
+            {
+              "placeholder": "",
+              "value": "收球筒",
+              "disabled": false,
+              "readonly": false
+            },
+            {
+              "placeholder": "请输入",
+              "value": "",
+              "disabled": false,
+              "readonly": false
+            }
+          ]
+        },
+        {
+          "idx": 1,
+          "tag": "DIV",
+          "cls": "el-dialog",
+          "rect": {
+            "x": 510,
+            "y": 300,
+            "w": 420,
+            "h": 320
+          },
+          "text": "模型属性\n\nX\n\n名称：\n\n描述：\n\n0/128\n取消\n确认",
+          "inputs": [
+            {
+              "placeholder": "",
+              "value": "收球筒",
+              "disabled": false,
+              "readonly": false
+            },
+            {
+              "placeholder": "请输入",
+              "value": "",
+              "disabled": false,
+              "readonly": false
+            }
+          ]
+        }
+      ],
+      "版本管理Screenshot": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\screenshots\\readonly_盛云_孙宇飞_假数据设备模型_0612_版本管理.png"
+    }
+  },
+  "log": [
+    {
+      "at": "2026-06-12T05:32:46.607Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/wellinos/loginsvcuserbyrole",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":\"0\",\"commandID\":598017,\"serviceType\":11,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":0,\"clientNumber\":\"0\"},\"data\":{\"userInfo\":{\"userName\":\"孙宇飞\",\"passWord\":\"rBlDKGQB73vz4GCQMhcThrImWVL1AA8/wka7q3xgIa4=\",\"usertype\":2},\"cloudIP\":\"221.239.19.118\",\"port\":13001,\"isnextnotpasswd\":true,\"isBs\":true,\"loginProtocolType\":0}}"
+    },
+    {
+      "at": "2026-06-12T05:32:46.665Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/wellinos/loginsvcuserbyrole",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:46.670Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":10,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":10020,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":10020}},{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}}]},\"input\":{\"keyValueList\":[{\"key\":\"usertype\",\"value\":{\"int32Value\":2}},{\"key\":\"querytype\",\"value\":{\"int32Value\":4}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:46.707Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:47.371Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21005,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":21005}},{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"fuid\",\"value\":{\"uint64Value\":\"0\"}}]},\"input\":{\"keyValueList\":[{\"key\":\"apptype\",\"value\":{\"int32Value\":3}},{\"key\":\"querytype\",\"value\":{\"int32Value\":1}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:47.371Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21005,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":21005}},{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"fuid\",\"value\":{\"uint64Value\":\"0\"}}]},\"input\":{\"keyValueList\":[{\"key\":\"apptype\",\"value\":{\"int32Value\":2}},{\"key\":\"querytype\",\"value\":{\"int32Value\":2}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:47.371Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21005,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":21005}},{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"fuid\",\"value\":{\"uint64Value\":\"0\"}}]},\"input\":{\"keyValueList\":[{\"key\":\"apptype\",\"value\":{\"int32Value\":2}},{\"key\":\"querytype\",\"value\":{\"int32Value\":3}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:47.510Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:47.512Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:47.552Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:47.564Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":22,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":22001,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":22001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"6192730962611142708\",\"6192730962611142709\",\"6192730962611142710\",\"6192730962611142711\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:47.564Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21001,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":21001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"5911255985900486740\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:47.603Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:47.604Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:47.612Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Update",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":515,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21005,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":21005}},{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"fuid\",\"value\":{\"uint64Value\":\"0\"}}]},\"input\":{\"keyValueList\":[{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"17870283321406128138\"]}}},{\"key\":\"fieldvalues\",\"value\":{\"stringDictionaryArrayValue\":{\"keyValueList\":[{\"keyValueList\":[{\"key\":\"apptype\",\"value\":{\"int32Value\":3}},{\"key\":\"name\",\"value\":{\"stringValue\":\"Codex临时测试_前端视图_0611\"}},{\"key\":\"roleinfo\",\"value\":{\"stringDictionaryArrayValue\":{\"keyValueList\":[]}}},{\"key\":\"custominfo\",\"value\":{\"stringDictionaryArrayValue\":{\"keyValueList\":[{\"keyValueList\":[{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"kind\",\"value\":{\"int32Value\":0}},{\"key\":\"languagetype\",\"value\":{\"int32Value\":1"
+    },
+    {
+      "at": "2026-06-12T05:32:47.646Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Update",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:48.032Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/?id=6192730962611142710&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "at": "2026-06-12T05:32:48.100Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/public/?id=6192730962611142710&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:48.107Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "at": "2026-06-12T05:32:48.107Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "at": "2026-06-12T05:32:48.107Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/config.json",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "at": "2026-06-12T05:32:48.131Z",
+      "type": "dblclick-modeling",
+      "card": {
+        "x": 182,
+        "y": 152,
+        "w": 68,
+        "h": 112,
+        "text": "建模系统客户端_0518"
+      }
+    },
+    {
+      "at": "2026-06-12T05:32:48.141Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/public/config.json",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:48.142Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:48.799Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:48.802Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "at": "2026-06-12T05:32:48.825Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "at": "2026-06-12T05:32:48.826Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":536870966,\"cloudID\":107,\"desDataAreaID\":0,\"commandID\":516,\"serviceType\":22,\"usertype\":2,\"fuid\":\"0\",\"srcFuID\":\"0\",\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":22001}},{\"key\":\"kind\",\"value\":{\"int32Value\":2}},{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaID\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"mode\",\"value\":{\"int32Value\":100}},{\"key\":\"fuid\",\"value\":{\"uint64Value\":\"6192730962611142710\"}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:48.841Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:48.870Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:48.872Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:48.873Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "at": "2026-06-12T05:32:48.921Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:48.926Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/config.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "at": "2026-06-12T05:32:48.926Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/debugger.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "at": "2026-06-12T05:32:48.926Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/runtime.beta.2026.05.14.15.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "at": "2026-06-12T05:32:48.926Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "at": "2026-06-12T05:32:48.926Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/index.26325ec0.css",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "at": "2026-06-12T05:32:48.959Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/config.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:48.960Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/debugger.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:48.980Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/index.26325ec0.css",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:49.052Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/runtime.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:50.029Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:50.366Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":565,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1025,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":1025}}]},\"input\":{\"keyValueList\":[{\"key\":\"identifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"guids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"1c274adb-185a-4b95-b61b-e6f12f71265a\"]}}},{\"key\":\"returnFields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$id\",\"$guid\",\"$description\",\"$name\",\"$type\",\"$modelGUID\",\"$modelversion\",\"$repositoryGUID\",\"$memberlist\"]}}},{\"key\":\"querymode\",\"value\":{\"int32Value\":1}},{\"key\":\"returnMode\",\"value\":{\"int32Value\":1}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:50.412Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:50.416Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":888,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1005,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":1005}},{\"key\":\"clientID\",\"value\":{\"int32Value\":888}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"mode\",\"value\":{\"int32Value\":12}},{\"key\":\"repoIdentifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"repoGuids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"09d23134-645a-4f3b-8a43-c0068439378f\"]}}},{\"key\":\"generation\",\"value\":{\"int32Value\":0}},{\"key\":\"returnFields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$id\",\"$guid\",\"$name\",\"$repositoryGUID\",\"$type\",\"$version\",\"FUType\",\"maxVersion\",\"$modelguid\",\"$modelversion\",\"generatorType\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:50.416Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":481,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1025,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":1025}},{\"key\":\"clientID\",\"value\":{\"int32Value\":481}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"mode\",\"value\":{\"int32Value\":12}},{\"key\":\"repoIdentifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"repoGuids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"09d23134-645a-4f3b-8a43-c0068439378f\"]}}},{\"key\":\"generation\",\"value\":{\"int32Value\":0}},{\"key\":\"returnFields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$id\",\"$guid\",\"$name\",\"$repositoryGUID\",\"$type\",\"$version\",\"FUType\",\"maxVersion\",\"$modelguid\",\"$modelversion\",\"generatorType\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:50.455Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:50.455Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:50.463Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":871,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1025,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":1025}}]},\"input\":{\"keyValueList\":[{\"key\":\"identifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"guids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"71699858-26ad-4b24-b04f-4141ba36aa8f\"]}}},{\"key\":\"returnFields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$id\",\"$guid\",\"$name\",\"$type\",\"$modelguid\",\"$modelversion\",\"$repositoryguid\",\"$memberlist\"]}}},{\"key\":\"querymode\",\"value\":{\"int32Value\":1}},{\"key\":\"returnMode\",\"value\":{\"int32Value\":1}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:50.498Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:50.499Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":742,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1005,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":1005}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"identifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"guids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"563662e0-fe48-4ba0-9be1-e7fc7998f7de\"]}}},{\"key\":\"versions\",\"value\":{\"int32ArrayValue\":{\"int32Array\":[9]}}},{\"key\":\"returnFields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$repositoryguid\",\"modelDBRepository\",\"isHasChild\"]}}},{\"key\":\"querymode\",\"value\":{\"int32Value\":1}},{\"key\":\"returnMode\",\"value\":{\"int32Value\":1}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:50.559Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:50.567Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/62936.beta.2026.05.14.15.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "at": "2026-06-12T05:32:50.568Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/69225.beta.2026.05.14.15.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "at": "2026-06-12T05:32:50.568Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-run.24e1aadb.css",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "at": "2026-06-12T05:32:50.568Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "at": "2026-06-12T05:32:50.570Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":22,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":22001,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":22001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"6192730962611142708\",\"6192730962611142709\",\"6192730962611142710\",\"6192730962611142711\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:50.570Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21001,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":21001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"5911255985900486740\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:50.571Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":782,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1103,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":1103}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"modelType\",\"value\":{\"int32Value\":1005}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$fileid\",\"$name\",\"$data\"]}}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"modelguid\",\"value\":{\"stringValue\":\"563662e0-fe48-4ba0-9be1-e7fc7998f7de\"}},{\"key\":\"version\",\"value\":{\"int32Value\":9}},{\"key\":\"filter\",\"value\":{\"stringValue\":\"$fileid == 4692\"}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:50.596Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:50.602Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-run.24e1aadb.css",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:50.612Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:50.639Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:50.732Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:50.905Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/62936.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:50.918Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/69225.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:51.307Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/fonts/element-icons.ff18efd1.woff",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "at": "2026-06-12T05:32:51.378Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/fonts/element-icons.ff18efd1.woff",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:51.561Z",
+      "type": "click",
+      "label": "管控单元建模"
+    },
+    {
+      "at": "2026-06-12T05:32:51.887Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":90,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1025,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":1025}}]},\"input\":{\"keyValueList\":[{\"key\":\"identifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"guids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"45352e96-9472-49f0-9189-80bf407dfd45\"]}}},{\"key\":\"returnFields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$id\",\"$guid\",\"$name\",\"$type\",\"$modelguid\",\"$modelversion\",\"$repositoryguid\",\"$memberlist\"]}}},{\"key\":\"querymode\",\"value\":{\"int32Value\":1}},{\"key\":\"returnMode\",\"value\":{\"int32Value\":1}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:51.932Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:51.933Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":8,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1005,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":1005}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"identifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"guids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"8d514f85-a8d8-460a-aaf6-5253d7f33b66\"]}}},{\"key\":\"versions\",\"value\":{\"int32ArrayValue\":{\"int32Array\":[20]}}},{\"key\":\"returnFields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$repositoryguid\",\"modelDBRepository\",\"isHasChild\"]}}},{\"key\":\"querymode\",\"value\":{\"int32Value\":1}},{\"key\":\"returnMode\",\"value\":{\"int32Value\":1}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:51.976Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:51.980Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-view-App.109a4cde.css",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "at": "2026-06-12T05:32:51.980Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-view-App.beta.2026.05.14.15.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "at": "2026-06-12T05:32:51.981Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":531,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1103,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":1103}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"modelType\",\"value\":{\"int32Value\":1005}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$fileid\",\"$name\",\"$data\"]}}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"modelguid\",\"value\":{\"stringValue\":\"8d514f85-a8d8-460a-aaf6-5253d7f33b66\"}},{\"key\":\"version\",\"value\":{\"int32Value\":20}},{\"key\":\"filter\",\"value\":{\"stringValue\":\"$fileid == 4800\"}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:52.016Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-view-App.109a4cde.css",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:52.016Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-view-App.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:52.018Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/65181.026e4f9f.css",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "at": "2026-06-12T05:32:52.018Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/65181.beta.2026.05.14.15.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "at": "2026-06-12T05:32:52.021Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:52.046Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/65181.026e4f9f.css",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:52.058Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/65181.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:52.221Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":899,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1004,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":1004}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"returnmode\",\"value\":{\"int32Value\":1}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$id\",\"$guid\",\"$name\",\"$deploysystems\",\"$deployarea\"]}}},{\"key\":\"names\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"数字孪生建模\"]}}},{\"key\":\"identifiertype\",\"value\":{\"int32Value\":2}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:52.263Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:52.268Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/index-53e0c0ac.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "at": "2026-06-12T05:32:52.301Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/public/assets/index-53e0c0ac.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:52.303Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":536870966,\"cloudID\":107,\"desDataAreaID\":0,\"commandID\":516,\"serviceType\":1,\"TSRepoID\":\"0\",\"usertype\":2,\"fuid\":\"0\",\"transactionID\":\"0\",\"clientNumber\":\"7710165596812488023\",\"dataFormat\":1,\"dataType\":1025,\"srcFuID\":\"6192730962611142710\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"timeout\",\"value\":{\"int32Value\":20000}},{\"key\":\"type\",\"value\":{\"int32Value\":1025}}]},\"input\":{\"keyValueList\":[{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$modelGuid\",\"$modelVersion\"]}}},{\"key\":\"identifiertype\",\"value\":{\"int32Value\":5}},{\"key\":\"guids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"45352e96-9472-49f0-9189-80bf407dfd45\"]}}},{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"5d318263-a7d5-443d-8e82-ef8474a740e2\"}},{\"key\":\"apprepoguid\",\"value\":{\"stringValue\":\"09d23134-645a-4f3b-8a43-c0068439378f\"}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:52.349Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:52.351Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":536870966,\"cloudID\":107,\"desDataAreaID\":0,\"commandID\":516,\"serviceType\":1,\"TSRepoID\":\"0\",\"usertype\":2,\"fuid\":\"0\",\"transactionID\":\"0\",\"clientNumber\":\"7710165596812488023\",\"dataFormat\":1,\"dataType\":1005,\"srcFuID\":\"6192730962611142710\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"timeout\",\"value\":{\"int32Value\":20000}},{\"key\":\"type\",\"value\":{\"int32Value\":1005}}]},\"input\":{\"keyValueList\":[{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$repositoryGuid\"]}}},{\"key\":\"identifiertype\",\"value\":{\"int32Value\":5}},{\"key\":\"guids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"8d514f85-a8d8-460a-aaf6-5253d7f33b66\"]}}},{\"key\":\"versions\",\"value\":{\"int32ArrayValue\":{\"int32Array\":[20]}}},{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"5d318263-a7d5-443d-8e82-ef8474a740e2\"}},{\"key\":\"apprepoguid\",\"value\":{\"stringValue\":\"09d23134-645a-4f3b-8a43-c0068439378f\"}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:52.386Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:52.387Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":536870966,\"cloudID\":107,\"desDataAreaID\":0,\"commandID\":516,\"serviceType\":1,\"TSRepoID\":\"0\",\"usertype\":2,\"fuid\":\"0\",\"transactionID\":\"0\",\"clientNumber\":\"7710165596812488023\",\"dataFormat\":1,\"dataType\":1001,\"srcFuID\":\"6192730962611142710\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"timeout\",\"value\":{\"int32Value\":20000}},{\"key\":\"type\",\"value\":{\"int32Value\":1001}}]},\"input\":{\"keyValueList\":[{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$parentGuid\"]}}},{\"key\":\"identifiertype\",\"value\":{\"int32Value\":5}},{\"key\":\"guids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"ed3a20bf-f313-4e9d-91c1-6f639702f7da\"]}}},{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"5d318263-a7d5-443d-8e82-ef8474a740e2\"}},{\"key\":\"apprepoguid\",\"value\":{\"stringValue\":\"09d23134-645a-4f3b-8a43-c0068439378f\"}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:52.424Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:52.426Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":536870966,\"cloudID\":107,\"desDataAreaID\":0,\"commandID\":516,\"serviceType\":1,\"TSRepoID\":\"0\",\"usertype\":2,\"fuid\":\"0\",\"transactionID\":\"0\",\"clientNumber\":\"7710165596812488023\",\"dataFormat\":1,\"dataType\":1001,\"srcFuID\":\"6192730962611142710\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"timeout\",\"value\":{\"int32Value\":20000}},{\"key\":\"type\",\"value\":{\"int32Value\":1001}}]},\"input\":{\"keyValueList\":[{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\"]}}},{\"key\":\"mode\",\"value\":{\"int32Value\":12}},{\"key\":\"repoidentifiertype\",\"value\":{\"int32Value\":5}},{\"key\":\"repoguids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"98e9e77f-5ee0-4c95-be4c-878ff124f02d\"]}}},{\"key\":\"generation\",\"value\":{\"int32Value\":1}},{\"key\":\"filter\",\"value\":{\"stringValue\":\"$name == \\\"数字孪生实例化_组件\\\"\"}},{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"5d318263-a7d5-443d-8e82-ef8474a740e2\"}},{\"key\":\"apprepoguid\",\"value\":{\"stringValue\":\"09d23134-645a-4f3b-8a4"
+    },
+    {
+      "at": "2026-06-12T05:32:52.467Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:52.469Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":536870966,\"cloudID\":107,\"desDataAreaID\":0,\"commandID\":516,\"serviceType\":1,\"TSRepoID\":\"0\",\"usertype\":2,\"fuid\":\"0\",\"transactionID\":\"0\",\"clientNumber\":\"7710165596812488023\",\"dataFormat\":1,\"dataType\":1001,\"srcFuID\":\"6192730962611142710\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"timeout\",\"value\":{\"int32Value\":20000}},{\"key\":\"type\",\"value\":{\"int32Value\":1001}}]},\"input\":{\"keyValueList\":[{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\"]}}},{\"key\":\"mode\",\"value\":{\"int32Value\":12}},{\"key\":\"repoidentifiertype\",\"value\":{\"int32Value\":5}},{\"key\":\"repoguids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"c6372749-1df8-4c41-81e4-55767515f06d\"]}}},{\"key\":\"generation\",\"value\":{\"int32Value\":1}},{\"key\":\"filter\",\"value\":{\"stringValue\":\"$name == \\\"数字孪生实例化_实例化_配置后台\\\"\"}},{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"5d318263-a7d5-443d-8e82-ef8474a740e2\"}},{\"key\":\"apprepoguid\",\"value\":{\"stringValue\":\"09d23134-645a-4f"
+    },
+    {
+      "at": "2026-06-12T05:32:52.506Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:52.507Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":536870966,\"cloudID\":107,\"desDataAreaID\":0,\"commandID\":516,\"serviceType\":1,\"TSRepoID\":\"0\",\"usertype\":2,\"fuid\":\"0\",\"transactionID\":\"0\",\"clientNumber\":\"7710165596812488023\",\"dataFormat\":1,\"dataType\":1007,\"srcFuID\":\"6192730962611142710\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"timeout\",\"value\":{\"int32Value\":30000}},{\"key\":\"type\",\"value\":{\"int32Value\":1007}}]},\"input\":{\"keyValueList\":[{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$id\",\"$guid\"]}}},{\"key\":\"mode\",\"value\":{\"int32Value\":12}},{\"key\":\"repoidentifiertype\",\"value\":{\"int32Value\":5}},{\"key\":\"repoguids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"af566863-a866-4fb5-8862-8a40f45262cc\"]}}},{\"key\":\"generation\",\"value\":{\"int32Value\":1}},{\"key\":\"filter\",\"value\":{\"stringValue\":\"$name == \\\"实例配置\\\"\"}},{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"5d318263-a7d5-443d-8e82-ef8474a740e2\"}},{\"key\":\"apprepoguid\",\"value\":{\"stringValue\":\"09d23134-645a-4f3b-8a4"
+    },
+    {
+      "at": "2026-06-12T05:32:52.538Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:52.539Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":536870966,\"cloudID\":107,\"desDataAreaID\":0,\"commandID\":516,\"serviceType\":1,\"TSRepoID\":\"0\",\"usertype\":2,\"fuid\":\"0\",\"transactionID\":\"0\",\"clientNumber\":\"7710165596812488023\",\"dataFormat\":1,\"dataType\":1007,\"srcFuID\":\"6192730962611142710\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"timeout\",\"value\":{\"int32Value\":20000}},{\"key\":\"type\",\"value\":{\"int32Value\":1007}}]},\"input\":{\"keyValueList\":[{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$id\",\"$guid\",\"$name\",\"$version\"]}}},{\"key\":\"identifiertype\",\"value\":{\"int32Value\":5}},{\"key\":\"guids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"bf1e9813-e468-4230-b7f7-fdee5a8104db\"]}}},{\"key\":\"versions\",\"value\":{\"int32ArrayValue\":{\"int32Array\":[-1]}}},{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"5d318263-a7d5-443d-8e82-ef8474a740e2\"}},{\"key\":\"apprepoguid\",\"value\":{\"stringValue\":\"09d23134-645a-4f3b-8a43-c0068439378f\"}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:52.572Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:52.698Z",
+      "type": "click",
+      "label": "测试"
+    },
+    {
+      "at": "2026-06-12T05:32:53.237Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":499,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1005,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":1005}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"repoIdentifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"repoguids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"ed3a20bf-f313-4e9d-91c1-6f639702f7da\"]}}},{\"key\":\"generation\",\"value\":{\"int32Value\":1}},{\"key\":\"mode\",\"value\":{\"int32Value\":12}},{\"key\":\"returnMode\",\"value\":{\"int32Value\":1}},{\"key\":\"returnFields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$id\",\"$name\",\"$guid\",\"$version\",\"$type\",\"$memberlist\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:53.308Z",
+      "type": "click-action",
+      "model": "收球筒",
+      "action": "属性",
+      "r": {
+        "x": 1073,
+        "y": 102,
+        "w": 28,
+        "h": 50
+      }
+    },
+    {
+      "at": "2026-06-12T05:32:53.325Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:53.450Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":522,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1025,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":1025}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"repoIdentifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"repoguids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"ed3a20bf-f313-4e9d-91c1-6f639702f7da\"]}}},{\"key\":\"generation\",\"value\":{\"int32Value\":1}},{\"key\":\"mode\",\"value\":{\"int32Value\":12}},{\"key\":\"returnMode\",\"value\":{\"int32Value\":1}},{\"key\":\"returnFields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$id\",\"$name\",\"$guid\",\"$modelguid\",\"$modelversion\",\"$type\",\"$memberlist\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:53.482Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:53.488Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/54010.beta.2026.05.14.15.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "at": "2026-06-12T05:32:53.520Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/54010.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:53.521Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/94554.beta.2026.05.14.15.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "at": "2026-06-12T05:32:53.561Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/94554.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:53.561Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/13070.beta.2026.05.14.15.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "at": "2026-06-12T05:32:53.573Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":22,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":22001,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":22001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"6192730962611142708\",\"6192730962611142709\",\"6192730962611142710\",\"6192730962611142711\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:53.573Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21001,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":21001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"5911255985900486740\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:53.595Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/13070.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:53.599Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/34914.c017fb82.css",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "at": "2026-06-12T05:32:53.599Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/34914.beta.2026.05.14.15.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "at": "2026-06-12T05:32:53.599Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":925,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1005,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":1005}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"identifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"guids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"4f5dc814-a202-4d13-a02d-580535e2863d\"]}}},{\"key\":\"versions\",\"value\":{\"int32ArrayValue\":{\"int32Array\":[6]}}},{\"key\":\"returnFields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$id\",\"$guid\",\"$name\",\"$repositoryguid\",\"$type\",\"$version\",\"$modelguid\",\"$modelversion\",\"$updatetime\",\"$memberlist\"]}}},{\"key\":\"querymode\",\"value\":{\"int32Value\":1}},{\"key\":\"returnMode\",\"value\":{\"int32Value\":1}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:53.604Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:53.614Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:53.655Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/34914.c017fb82.css",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:53.655Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/34914.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:53.658Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:53.660Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":480,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1004,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":1004}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"returnmode\",\"value\":{\"int32Value\":1}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$id\",\"$guid\",\"$name\",\"$deploysystems\",\"$deployarea\"]}}},{\"key\":\"names\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"\"]}}},{\"key\":\"identifiertype\",\"value\":{\"int32Value\":2}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:53.660Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":703,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1103,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":1103}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"modelType\",\"value\":{\"int32Value\":1005}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$fileid\",\"$name\",\"$data\"]}}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"modelguid\",\"value\":{\"stringValue\":\"4f5dc814-a202-4d13-a02d-580535e2863d\"}},{\"key\":\"version\",\"value\":{\"int32Value\":6}},{\"key\":\"filter\",\"value\":{\"stringValue\":\"$fileid == 64\"}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:53.698Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:53.698Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:53.700Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/88360.24e1aadb.css",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "at": "2026-06-12T05:32:53.734Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/88360.24e1aadb.css",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:55.902Z",
+      "type": "close-overlay",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "cls": "i el-icon-close"
+      }
+    },
+    {
+      "at": "2026-06-12T05:32:56.569Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":22,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":22001,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":22001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"6192730962611142708\",\"6192730962611142709\",\"6192730962611142710\",\"6192730962611142711\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:56.569Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21001,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":21001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"5911255985900486740\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:56.598Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:56.599Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:56.802Z",
+      "type": "close-overlay",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "cls": "i el-icon-close"
+      }
+    },
+    {
+      "at": "2026-06-12T05:32:57.691Z",
+      "type": "close-overlay",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "cls": "i el-icon-close"
+      }
+    },
+    {
+      "at": "2026-06-12T05:32:58.573Z",
+      "type": "close-overlay",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "cls": "i el-icon-close"
+      }
+    },
+    {
+      "at": "2026-06-12T05:32:59.461Z",
+      "type": "close-overlay",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "cls": "i el-icon-close"
+      }
+    },
+    {
+      "at": "2026-06-12T05:32:59.567Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":22,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":22001,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":22001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"6192730962611142708\",\"6192730962611142709\",\"6192730962611142710\",\"6192730962611142711\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:59.567Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21001,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":21001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"5911255985900486740\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:32:59.717Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:32:59.717Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:33:00.341Z",
+      "type": "close-overlay",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "cls": "i el-icon-close"
+      }
+    },
+    {
+      "at": "2026-06-12T05:33:01.220Z",
+      "type": "close-overlay",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "cls": "i el-icon-close"
+      }
+    },
+    {
+      "at": "2026-06-12T05:33:02.106Z",
+      "type": "close-overlay",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "cls": "i el-icon-close"
+      }
+    },
+    {
+      "at": "2026-06-12T05:33:02.581Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":22,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":22001,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":22001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"6192730962611142708\",\"6192730962611142709\",\"6192730962611142710\",\"6192730962611142711\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:33:02.581Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21001,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":21001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"5911255985900486740\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:33:02.610Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:33:02.620Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:33:03.056Z",
+      "type": "click-action",
+      "model": "收球筒",
+      "action": "版本管理",
+      "r": {
+        "x": 1181,
+        "y": 102,
+        "w": 56,
+        "h": 50
+      }
+    },
+    {
+      "at": "2026-06-12T05:33:05.565Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":22,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":22001,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":22001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"6192730962611142708\",\"6192730962611142709\",\"6192730962611142710\",\"6192730962611142711\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:33:05.565Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21001,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":21001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"5911255985900486740\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:33:05.619Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:33:05.619Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:33:05.632Z",
+      "type": "close-overlay",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "cls": "i el-icon-close"
+      }
+    },
+    {
+      "at": "2026-06-12T05:33:06.535Z",
+      "type": "close-overlay",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "cls": "i el-icon-close"
+      }
+    },
+    {
+      "at": "2026-06-12T05:33:07.421Z",
+      "type": "close-overlay",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "cls": "i el-icon-close"
+      }
+    },
+    {
+      "at": "2026-06-12T05:33:08.304Z",
+      "type": "close-overlay",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "cls": "i el-icon-close"
+      }
+    },
+    {
+      "at": "2026-06-12T05:33:08.565Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":22,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":22001,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":22001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"6192730962611142708\",\"6192730962611142709\",\"6192730962611142710\",\"6192730962611142711\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:33:08.565Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21001,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":21001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"5911255985900486740\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:33:08.611Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:33:08.612Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:33:09.185Z",
+      "type": "close-overlay",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "cls": "i el-icon-close"
+      }
+    },
+    {
+      "at": "2026-06-12T05:33:10.065Z",
+      "type": "close-overlay",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "cls": "i el-icon-close"
+      }
+    },
+    {
+      "at": "2026-06-12T05:33:10.950Z",
+      "type": "close-overlay",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "cls": "i el-icon-close"
+      }
+    },
+    {
+      "at": "2026-06-12T05:33:11.575Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":22,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":22001,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":22001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"6192730962611142708\",\"6192730962611142709\",\"6192730962611142710\",\"6192730962611142711\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:33:11.576Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21001,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":21001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"5911255985900486740\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:33:11.606Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:33:11.606Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:33:11.840Z",
+      "type": "close-overlay",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "cls": "i el-icon-close"
+      }
+    },
+    {
+      "at": "2026-06-12T05:33:12.805Z",
+      "type": "click-action",
+      "model": "盛云_孙宇飞_假数据设备模型_0612",
+      "action": "属性",
+      "r": {
+        "x": 1073,
+        "y": 153,
+        "w": 28,
+        "h": 50
+      }
+    },
+    {
+      "at": "2026-06-12T05:33:14.567Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":22,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":22001,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":22001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"6192730962611142708\",\"6192730962611142709\",\"6192730962611142710\",\"6192730962611142711\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:33:14.567Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21001,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":21001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"5911255985900486740\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:33:14.613Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:33:14.613Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:33:15.392Z",
+      "type": "close-overlay",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "cls": "i el-icon-close"
+      }
+    },
+    {
+      "at": "2026-06-12T05:33:16.281Z",
+      "type": "close-overlay",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "cls": "i el-icon-close"
+      }
+    },
+    {
+      "at": "2026-06-12T05:33:17.170Z",
+      "type": "close-overlay",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "cls": "i el-icon-close"
+      }
+    },
+    {
+      "at": "2026-06-12T05:33:17.573Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":22,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":22001,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":22001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"6192730962611142708\",\"6192730962611142709\",\"6192730962611142710\",\"6192730962611142711\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:33:17.573Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21001,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":21001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"5911255985900486740\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:33:17.623Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:33:17.623Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:33:18.057Z",
+      "type": "close-overlay",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "cls": "i el-icon-close"
+      }
+    },
+    {
+      "at": "2026-06-12T05:33:18.935Z",
+      "type": "close-overlay",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "cls": "i el-icon-close"
+      }
+    },
+    {
+      "at": "2026-06-12T05:33:19.819Z",
+      "type": "close-overlay",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "cls": "i el-icon-close"
+      }
+    },
+    {
+      "at": "2026-06-12T05:33:20.572Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":22,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":22001,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":22001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"6192730962611142708\",\"6192730962611142709\",\"6192730962611142710\",\"6192730962611142711\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:33:20.572Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21001,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":21001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"5911255985900486740\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:33:20.618Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:33:20.618Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:33:20.711Z",
+      "type": "close-overlay",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "cls": "i el-icon-close"
+      }
+    },
+    {
+      "at": "2026-06-12T05:33:21.598Z",
+      "type": "close-overlay",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "cls": "i el-icon-close"
+      }
+    },
+    {
+      "at": "2026-06-12T05:33:22.557Z",
+      "type": "click-action",
+      "model": "盛云_孙宇飞_假数据设备模型_0612",
+      "action": "版本管理",
+      "r": {
+        "x": 1181,
+        "y": 153,
+        "w": 56,
+        "h": 50
+      }
+    },
+    {
+      "at": "2026-06-12T05:33:23.575Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":22,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":22001,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":22001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"6192730962611142708\",\"6192730962611142709\",\"6192730962611142710\",\"6192730962611142711\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:33:23.575Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21001,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":21001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"5911255985900486740\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:33:23.607Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:33:23.613Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:33:25.130Z",
+      "type": "close-overlay",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "cls": "i el-icon-close"
+      }
+    },
+    {
+      "at": "2026-06-12T05:33:26.018Z",
+      "type": "close-overlay",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "cls": "i el-icon-close"
+      }
+    },
+    {
+      "at": "2026-06-12T05:33:26.577Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":22,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":22001,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":22001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"6192730962611142708\",\"6192730962611142709\",\"6192730962611142710\",\"6192730962611142711\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:33:26.578Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21001,\"clientNumber\":\"7710165596812488023\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":21001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"5911255985900486740\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "at": "2026-06-12T05:33:26.617Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:33:26.623Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:33:26.904Z",
+      "type": "close-overlay",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "cls": "i el-icon-close"
+      }
+    },
+    {
+      "at": "2026-06-12T05:33:27.792Z",
+      "type": "close-overlay",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "cls": "i el-icon-close"
+      }
+    }
+  ],
+  "errors": [],
+  "rows": {
+    "收球筒": {
+      "rowText": "\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "actions": {
+        "编辑": {
+          "x": 1033,
+          "y": 102,
+          "w": 28,
+          "h": 50
+        },
+        "属性": {
+          "x": 1073,
+          "y": 102,
+          "w": 28,
+          "h": 50
+        },
+        "提交版本": {
+          "x": 1113,
+          "y": 102,
+          "w": 56,
+          "h": 50
+        },
+        "版本管理": {
+          "x": 1181,
+          "y": 102,
+          "w": 56,
+          "h": 50
+        },
+        "更新": {
+          "x": 1249,
+          "y": 102,
+          "w": 28,
+          "h": 50
+        },
+        "删除": {
+          "x": 1289,
+          "y": 102,
+          "w": 28,
+          "h": 50
+        }
+      }
+    },
+    "盛云_孙宇飞_假数据设备模型_0612": {
+      "rowText": "\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "actions": {
+        "编辑": {
+          "x": 1033,
+          "y": 153,
+          "w": 28,
+          "h": 50
+        },
+        "属性": {
+          "x": 1073,
+          "y": 153,
+          "w": 28,
+          "h": 50
+        },
+        "提交版本": {
+          "x": 1113,
+          "y": 153,
+          "w": 56,
+          "h": 50
+        },
+        "版本管理": {
+          "x": 1181,
+          "y": 153,
+          "w": 56,
+          "h": 50
+        },
+        "更新": {
+          "x": 1249,
+          "y": 153,
+          "w": 28,
+          "h": 50
+        },
+        "删除": {
+          "x": 1289,
+          "y": 153,
+          "w": 28,
+          "h": 50
+        }
+      }
+    }
+  },
+  "remainingOverlay": [
+    {
+      "idx": 0,
+      "tag": "DIV",
+      "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_317901",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 854
+      },
+      "text": "模型属性\n\nX\n\n名称：\n\n描述：\n\n0/128\n取消\n确认",
+      "inputs": [
+        {
+          "placeholder": "",
+          "value": "收球筒",
+          "disabled": false,
+          "readonly": false
+        },
+        {
+          "placeholder": "请输入",
+          "value": "",
+          "disabled": false,
+          "readonly": false
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "tag": "DIV",
+      "cls": "el-dialog",
+      "rect": {
+        "x": 510,
+        "y": 300,
+        "w": 420,
+        "h": 320
+      },
+      "text": "模型属性\n\nX\n\n名称：\n\n描述：\n\n0/128\n取消\n确认",
+      "inputs": [
+        {
+          "placeholder": "",
+          "value": "收球筒",
+          "disabled": false,
+          "readonly": false
+        },
+        {
+          "placeholder": "请输入",
+          "value": "",
+          "disabled": false,
+          "readonly": false
+        }
+      ]
+    }
+  ],
+  "finishedAt": "2026-06-12T05:33:28.673Z"
+}

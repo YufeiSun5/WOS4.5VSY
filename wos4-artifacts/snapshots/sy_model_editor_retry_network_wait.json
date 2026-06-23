@@ -1,0 +1,1648 @@
+{
+  "ok": true,
+  "startedAt": "2026-06-12T05:38:07.392Z",
+  "operator": "盛云_孙宇飞",
+  "log": [
+    {
+      "at": "2026-06-12T05:38:10.260Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/wellinos/loginsvcuserbyrole",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:10.290Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/wellinos/loginsvcuserbyrole",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:10.298Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:10.327Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:10.747Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:10.747Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:10.747Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:11.210Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:11.210Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:11.210Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:11.222Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:11.222Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:11.316Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:11.316Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:11.333Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Update",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:11.382Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Update",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:11.806Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/?id=6192730962611142710&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+      "method": "GET"
+    },
+    {
+      "at": "2026-06-12T05:38:11.841Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/public/?id=6192730962611142710&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:11.848Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js",
+      "method": "GET"
+    },
+    {
+      "at": "2026-06-12T05:38:11.848Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css",
+      "method": "GET"
+    },
+    {
+      "at": "2026-06-12T05:38:11.848Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/config.json",
+      "method": "GET"
+    },
+    {
+      "at": "2026-06-12T05:38:11.890Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/public/config.json",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:11.890Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:11.906Z",
+      "type": "dblclick-card",
+      "card": {
+        "x": 182,
+        "y": 152,
+        "w": 68,
+        "h": 112,
+        "text": "建模系统客户端_0518",
+        "title": "建模系统客户端_0518"
+      }
+    },
+    {
+      "at": "2026-06-12T05:38:12.339Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:12.343Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js",
+      "method": "GET"
+    },
+    {
+      "at": "2026-06-12T05:38:12.366Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js",
+      "method": "GET"
+    },
+    {
+      "at": "2026-06-12T05:38:12.369Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:12.377Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:12.397Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:12.399Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:12.401Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+      "method": "GET"
+    },
+    {
+      "at": "2026-06-12T05:38:12.454Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:12.459Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/config.js",
+      "method": "GET"
+    },
+    {
+      "at": "2026-06-12T05:38:12.459Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/debugger.js",
+      "method": "GET"
+    },
+    {
+      "at": "2026-06-12T05:38:12.459Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/runtime.beta.2026.05.14.15.js",
+      "method": "GET"
+    },
+    {
+      "at": "2026-06-12T05:38:12.459Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js",
+      "method": "GET"
+    },
+    {
+      "at": "2026-06-12T05:38:12.459Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/index.26325ec0.css",
+      "method": "GET"
+    },
+    {
+      "at": "2026-06-12T05:38:12.504Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/config.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:12.509Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/debugger.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:12.528Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/index.26325ec0.css",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:12.577Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/runtime.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:14.224Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:14.224Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:14.260Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:14.265Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:14.407Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:14.640Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:14.689Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:14.691Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:14.691Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:14.784Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:14.788Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:14.794Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:14.829Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:14.830Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:14.870Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:14.876Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/62936.beta.2026.05.14.15.js",
+      "method": "GET"
+    },
+    {
+      "at": "2026-06-12T05:38:14.876Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/69225.beta.2026.05.14.15.js",
+      "method": "GET"
+    },
+    {
+      "at": "2026-06-12T05:38:14.876Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-run.24e1aadb.css",
+      "method": "GET"
+    },
+    {
+      "at": "2026-06-12T05:38:14.876Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js",
+      "method": "GET"
+    },
+    {
+      "at": "2026-06-12T05:38:14.877Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:14.912Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:14.912Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-run.24e1aadb.css",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:14.982Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:15.162Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/69225.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:15.369Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/62936.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:15.656Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/fonts/element-icons.ff18efd1.woff",
+      "method": "GET"
+    },
+    {
+      "at": "2026-06-12T05:38:15.711Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/fonts/element-icons.ff18efd1.woff",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:16.067Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:16.109Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:16.111Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:16.149Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:16.152Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-view-App.109a4cde.css",
+      "method": "GET"
+    },
+    {
+      "at": "2026-06-12T05:38:16.152Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-view-App.beta.2026.05.14.15.js",
+      "method": "GET"
+    },
+    {
+      "at": "2026-06-12T05:38:16.153Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:16.191Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-view-App.109a4cde.css",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:16.191Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-view-App.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:16.193Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/65181.026e4f9f.css",
+      "method": "GET"
+    },
+    {
+      "at": "2026-06-12T05:38:16.193Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/65181.beta.2026.05.14.15.js",
+      "method": "GET"
+    },
+    {
+      "at": "2026-06-12T05:38:16.196Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:16.228Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/65181.026e4f9f.css",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:16.229Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/65181.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:16.349Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:16.421Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:16.425Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/index-53e0c0ac.js",
+      "method": "GET"
+    },
+    {
+      "at": "2026-06-12T05:38:16.456Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/public/assets/index-53e0c0ac.js",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:16.457Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:16.491Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:16.492Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:16.529Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:16.531Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:16.570Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:16.571Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:16.609Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:16.610Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:16.645Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:16.646Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:16.702Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:16.703Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:16.735Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:17.228Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:17.228Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:17.261Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:17.261Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:20.224Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:20.224Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:20.256Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:20.257Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:20.916Z",
+      "type": "after-dblclick",
+      "hasReq": true,
+      "seenCount": 108
+    },
+    {
+      "at": "2026-06-12T05:38:21.071Z",
+      "type": "click",
+      "label": "管控单元建模"
+    },
+    {
+      "at": "2026-06-12T05:38:21.194Z",
+      "type": "click",
+      "label": "测试"
+    },
+    {
+      "at": "2026-06-12T05:38:21.721Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:21.771Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:21.772Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:21.812Z",
+      "type": "click-action",
+      "action": "编辑",
+      "r": {
+        "x": 1033,
+        "y": 153,
+        "w": 28,
+        "h": 50
+      }
+    },
+    {
+      "at": "2026-06-12T05:38:21.822Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:21.825Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:21.825Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:21.834Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:21.854Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:21.866Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:21.867Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:21.921Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:21.925Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:22.028Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/queryResource?fuid=0&userType=2&serviceType=1&modelGuid=1c9746d4-146b-497a-afc0-8362367782d3&version=7&fileID=63",
+      "method": "GET"
+    },
+    {
+      "at": "2026-06-12T05:38:22.030Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:22.065Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/queryResource?fuid=0&userType=2&serviceType=1&modelGuid=1c9746d4-146b-497a-afc0-8362367782d3&version=7&fileID=63",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:22.065Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:22.196Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:22.233Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:22.234Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:22.268Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:22.279Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:22.335Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:22.687Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:22.723Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:23.226Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:23.226Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST"
+    },
+    {
+      "at": "2026-06-12T05:38:23.252Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "at": "2026-06-12T05:38:23.253Z",
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    }
+  ],
+  "errors": [],
+  "row": {
+    "rowText": "\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+    "actions": {
+      "编辑": {
+        "x": 1033,
+        "y": 153,
+        "w": 28,
+        "h": 50
+      },
+      "属性": {
+        "x": 1073,
+        "y": 153,
+        "w": 28,
+        "h": 50
+      },
+      "提交版本": {
+        "x": 1113,
+        "y": 153,
+        "w": 56,
+        "h": 50
+      },
+      "版本管理": {
+        "x": 1181,
+        "y": 153,
+        "w": 56,
+        "h": 50
+      }
+    }
+  },
+  "editor": {
+    "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+    "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 2 条\n<1>前往页\n\nKingFusion4.5_工程浏览器\n\n盛云_孙宇飞_假数据设备模型_0612 用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n命令语言\n\t\n\n\n第三方计算管理\n\t\n\n\n图形模型\n\t\n\n\n2D精灵图\n\t\n\n\n3D精灵图\n\t\n\n\n页面精灵图\n\t\n\n\n报表精灵图\n\t\n\n\n子模型\n\t\n\n\n形参配置\n\t\n\n多灵敏时序物\n\n人工多灵敏\n\n基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情\n\n函数：\n\n暂无数据\n\n条件配置\n\n时间间隔 00h 00m 00s\n\n配置"
+  },
+  "screenshot": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\screenshots\\sy_model_editor_retry_network_wait.png",
+  "requests": [
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/wellinos/loginsvcuserbyrole",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":\"0\",\"commandID\":598017,\"serviceType\":11,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":0,\"clientNumber\":\"0\"},\"data\":{\"userInfo\":{\"userName\":\"孙宇飞\",\"passWord\":\"rBlDKGQB73vz4GCQMhcThrImWVL1AA8/wka7q3xgIa4=\",\"usertype\":2},\"cloudIP\":\"221.239.19.118\",\"port\":13001,\"isnextnotpasswd\":true,\"isBs\":true,\"loginProtocolType\":0}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/wellinos/loginsvcuserbyrole",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":10,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":10020,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":10020}},{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}}]},\"input\":{\"keyValueList\":[{\"key\":\"usertype\",\"value\":{\"int32Value\":2}},{\"key\":\"querytype\",\"value\":{\"int32Value\":4}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21005,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":21005}},{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"fuid\",\"value\":{\"uint64Value\":\"0\"}}]},\"input\":{\"keyValueList\":[{\"key\":\"apptype\",\"value\":{\"int32Value\":3}},{\"key\":\"querytype\",\"value\":{\"int32Value\":1}}]}}}"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21005,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":21005}},{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"fuid\",\"value\":{\"uint64Value\":\"0\"}}]},\"input\":{\"keyValueList\":[{\"key\":\"apptype\",\"value\":{\"int32Value\":2}},{\"key\":\"querytype\",\"value\":{\"int32Value\":2}}]}}}"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21005,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":21005}},{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"fuid\",\"value\":{\"uint64Value\":\"0\"}}]},\"input\":{\"keyValueList\":[{\"key\":\"apptype\",\"value\":{\"int32Value\":2}},{\"key\":\"querytype\",\"value\":{\"int32Value\":3}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":22,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":22001,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":22001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"6192730962611142708\",\"6192730962611142709\",\"6192730962611142710\",\"6192730962611142711\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21001,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":21001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"5911255985900486740\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Update",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":515,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21005,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":21005}},{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"fuid\",\"value\":{\"uint64Value\":\"0\"}}]},\"input\":{\"keyValueList\":[{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"17870283321406128138\"]}}},{\"key\":\"fieldvalues\",\"value\":{\"stringDictionaryArrayValue\":{\"keyValueList\":[{\"keyValueList\":[{\"key\":\"apptype\",\"value\":{\"int32Value\":3}},{\"key\":\"name\",\"value\":{\"stringValue\":\"Codex临时测试_前端视图_0611\"}},{\"key\":\"roleinfo\",\"value\":{\"stringDictionaryArrayValue\":{\"keyValueList\":[]}}},{\"key\":\"custominfo\",\"value\":{\"stringDictionaryArrayValue\":{\"keyValueList\":[{\"keyValueList\":[{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"kind\",\"value\":{\"int32Value\":0}},{\"key\":\"languagetype\",\"value\":{\"int32Value\":1}},{\"key\":\"modelareaid\",\"value\":{\"int32Value\":0}},{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"iscollect\",\"value\":{\"boolValue\":false}},{\"key\":\"isshowloading\",\"value\":{\"boolValue\":false}},{\"key\":\"ispcshow\",\"value\":{\"boolValue\":true}},{\"key\":\"ismobileshow\",\"value\":{\"boolValue\":true}},{\"key\":\"spacetimeid\",\"value\":{\"stringDictionaryValue\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":21004}},{\"key\":\"id\",\"value\":{\"uint64Value\":\"1152921504606851253\"}},{\"key\":\"guid\",\"value\":{\"stringValue\":\"fbfa811d-b9be-4a7c-b1ae-c8653f96cf31\"}},{\"key\":\"version\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"name\",\"value\":{\"stringValue\":\"引滦集团\"}}]}}},{\"key\":\"fuid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"runfuid\",\"value\":{\"stringValue\":\"5911255985900486740\"}},{\"key\":\"runfuguid\",\"value\":{\"stringValue\":\"a63a00e0-05bd-4300-b0bc-b2fe76f938d6\"}},{\"key\":\"repoguid\",\"value\":{\"stringValue\":\"fd59273c-2811-46ad-9235-73c72ae2ebf3\"}},{\"key\":\"copyguid\",\"value\":{\"stringValue\":\"93277db9-c3d4-47cd-bd3f-8eda5e4a8499\"}},{\"key\":\"name\",\"value\":{\"stringValue\":\"Codex临时测试_前端视图_0611\"}},{\"key\":\"fuusername\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"fuuserpassword\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"groupname\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"cloudip\",\"value\":{\"stringValue\":\"221.239.19.118\"}},{\"key\":\"iconinfo\",\"value\":{\"stringDictionaryValue\":{\"keyValueList\":[{\"key\":\"large\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"medium\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"small\",\"value\":{\"stringValue\":\"\"}}]}}},{\"key\":\"logconfig\",\"value\":{\"stringDicti"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Update",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/?id=6192730962611142710&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/public/?id=6192730962611142710&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/config.json",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/public/config.json",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":536870966,\"cloudID\":107,\"desDataAreaID\":0,\"commandID\":516,\"serviceType\":22,\"usertype\":2,\"fuid\":\"0\",\"srcFuID\":\"0\",\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":22001}},{\"key\":\"kind\",\"value\":{\"int32Value\":2}},{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaID\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"mode\",\"value\":{\"int32Value\":100}},{\"key\":\"fuid\",\"value\":{\"uint64Value\":\"6192730962611142710\"}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/config.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/debugger.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/runtime.beta.2026.05.14.15.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/index.26325ec0.css",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/config.js",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/debugger.js",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/index.26325ec0.css",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/runtime.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":22,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":22001,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":22001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"6192730962611142708\",\"6192730962611142709\",\"6192730962611142710\",\"6192730962611142711\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21001,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":21001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"5911255985900486740\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":27,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1025,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":1025}}]},\"input\":{\"keyValueList\":[{\"key\":\"identifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"guids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"1c274adb-185a-4b95-b61b-e6f12f71265a\"]}}},{\"key\":\"returnFields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$id\",\"$guid\",\"$description\",\"$name\",\"$type\",\"$modelGUID\",\"$modelversion\",\"$repositoryGUID\",\"$memberlist\"]}}},{\"key\":\"querymode\",\"value\":{\"int32Value\":1}},{\"key\":\"returnMode\",\"value\":{\"int32Value\":1}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":247,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1005,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":1005}},{\"key\":\"clientID\",\"value\":{\"int32Value\":247}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"mode\",\"value\":{\"int32Value\":12}},{\"key\":\"repoIdentifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"repoGuids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"09d23134-645a-4f3b-8a43-c0068439378f\"]}}},{\"key\":\"generation\",\"value\":{\"int32Value\":0}},{\"key\":\"returnFields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$id\",\"$guid\",\"$name\",\"$repositoryGUID\",\"$type\",\"$version\",\"FUType\",\"maxVersion\",\"$modelguid\",\"$modelversion\",\"generatorType\"]}}}]}}}"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":749,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1025,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":1025}},{\"key\":\"clientID\",\"value\":{\"int32Value\":749}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"mode\",\"value\":{\"int32Value\":12}},{\"key\":\"repoIdentifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"repoGuids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"09d23134-645a-4f3b-8a43-c0068439378f\"]}}},{\"key\":\"generation\",\"value\":{\"int32Value\":0}},{\"key\":\"returnFields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$id\",\"$guid\",\"$name\",\"$repositoryGUID\",\"$type\",\"$version\",\"FUType\",\"maxVersion\",\"$modelguid\",\"$modelversion\",\"generatorType\"]}}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":13,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1025,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":1025}}]},\"input\":{\"keyValueList\":[{\"key\":\"identifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"guids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"71699858-26ad-4b24-b04f-4141ba36aa8f\"]}}},{\"key\":\"returnFields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$id\",\"$guid\",\"$name\",\"$type\",\"$modelguid\",\"$modelversion\",\"$repositoryguid\",\"$memberlist\"]}}},{\"key\":\"querymode\",\"value\":{\"int32Value\":1}},{\"key\":\"returnMode\",\"value\":{\"int32Value\":1}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":816,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1005,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":1005}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"identifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"guids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"563662e0-fe48-4ba0-9be1-e7fc7998f7de\"]}}},{\"key\":\"versions\",\"value\":{\"int32ArrayValue\":{\"int32Array\":[9]}}},{\"key\":\"returnFields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$repositoryguid\",\"modelDBRepository\",\"isHasChild\"]}}},{\"key\":\"querymode\",\"value\":{\"int32Value\":1}},{\"key\":\"returnMode\",\"value\":{\"int32Value\":1}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/62936.beta.2026.05.14.15.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/69225.beta.2026.05.14.15.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-run.24e1aadb.css",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":882,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1103,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":1103}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"modelType\",\"value\":{\"int32Value\":1005}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$fileid\",\"$name\",\"$data\"]}}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"modelguid\",\"value\":{\"stringValue\":\"563662e0-fe48-4ba0-9be1-e7fc7998f7de\"}},{\"key\":\"version\",\"value\":{\"int32Value\":9}},{\"key\":\"filter\",\"value\":{\"stringValue\":\"$fileid == 4692\"}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-run.24e1aadb.css",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/69225.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/62936.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/fonts/element-icons.ff18efd1.woff",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/fonts/element-icons.ff18efd1.woff",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":111,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1025,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":1025}}]},\"input\":{\"keyValueList\":[{\"key\":\"identifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"guids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"45352e96-9472-49f0-9189-80bf407dfd45\"]}}},{\"key\":\"returnFields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$id\",\"$guid\",\"$name\",\"$type\",\"$modelguid\",\"$modelversion\",\"$repositoryguid\",\"$memberlist\"]}}},{\"key\":\"querymode\",\"value\":{\"int32Value\":1}},{\"key\":\"returnMode\",\"value\":{\"int32Value\":1}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":735,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1005,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":1005}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"identifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"guids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"8d514f85-a8d8-460a-aaf6-5253d7f33b66\"]}}},{\"key\":\"versions\",\"value\":{\"int32ArrayValue\":{\"int32Array\":[20]}}},{\"key\":\"returnFields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$repositoryguid\",\"modelDBRepository\",\"isHasChild\"]}}},{\"key\":\"querymode\",\"value\":{\"int32Value\":1}},{\"key\":\"returnMode\",\"value\":{\"int32Value\":1}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-view-App.109a4cde.css",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-view-App.beta.2026.05.14.15.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":744,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1103,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":1103}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"modelType\",\"value\":{\"int32Value\":1005}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$fileid\",\"$name\",\"$data\"]}}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"modelguid\",\"value\":{\"stringValue\":\"8d514f85-a8d8-460a-aaf6-5253d7f33b66\"}},{\"key\":\"version\",\"value\":{\"int32Value\":20}},{\"key\":\"filter\",\"value\":{\"stringValue\":\"$fileid == 4800\"}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-view-App.109a4cde.css",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-view-App.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/65181.026e4f9f.css",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/65181.beta.2026.05.14.15.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/65181.026e4f9f.css",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/65181.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":8,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1004,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":1004}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"returnmode\",\"value\":{\"int32Value\":1}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$id\",\"$guid\",\"$name\",\"$deploysystems\",\"$deployarea\"]}}},{\"key\":\"names\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"数字孪生建模\"]}}},{\"key\":\"identifiertype\",\"value\":{\"int32Value\":2}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/index-53e0c0ac.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/public/assets/index-53e0c0ac.js",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":536870966,\"cloudID\":107,\"desDataAreaID\":0,\"commandID\":516,\"serviceType\":1,\"TSRepoID\":\"0\",\"usertype\":2,\"fuid\":\"0\",\"transactionID\":\"0\",\"clientNumber\":\"7710165597761022117\",\"dataFormat\":1,\"dataType\":1025,\"srcFuID\":\"6192730962611142710\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"timeout\",\"value\":{\"int32Value\":20000}},{\"key\":\"type\",\"value\":{\"int32Value\":1025}}]},\"input\":{\"keyValueList\":[{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$modelGuid\",\"$modelVersion\"]}}},{\"key\":\"identifiertype\",\"value\":{\"int32Value\":5}},{\"key\":\"guids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"45352e96-9472-49f0-9189-80bf407dfd45\"]}}},{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"5d318263-a7d5-443d-8e82-ef8474a740e2\"}},{\"key\":\"apprepoguid\",\"value\":{\"stringValue\":\"09d23134-645a-4f3b-8a43-c0068439378f\"}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":536870966,\"cloudID\":107,\"desDataAreaID\":0,\"commandID\":516,\"serviceType\":1,\"TSRepoID\":\"0\",\"usertype\":2,\"fuid\":\"0\",\"transactionID\":\"0\",\"clientNumber\":\"7710165597761022117\",\"dataFormat\":1,\"dataType\":1005,\"srcFuID\":\"6192730962611142710\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"timeout\",\"value\":{\"int32Value\":20000}},{\"key\":\"type\",\"value\":{\"int32Value\":1005}}]},\"input\":{\"keyValueList\":[{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$repositoryGuid\"]}}},{\"key\":\"identifiertype\",\"value\":{\"int32Value\":5}},{\"key\":\"guids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"8d514f85-a8d8-460a-aaf6-5253d7f33b66\"]}}},{\"key\":\"versions\",\"value\":{\"int32ArrayValue\":{\"int32Array\":[20]}}},{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"5d318263-a7d5-443d-8e82-ef8474a740e2\"}},{\"key\":\"apprepoguid\",\"value\":{\"stringValue\":\"09d23134-645a-4f3b-8a43-c0068439378f\"}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":536870966,\"cloudID\":107,\"desDataAreaID\":0,\"commandID\":516,\"serviceType\":1,\"TSRepoID\":\"0\",\"usertype\":2,\"fuid\":\"0\",\"transactionID\":\"0\",\"clientNumber\":\"7710165597761022117\",\"dataFormat\":1,\"dataType\":1001,\"srcFuID\":\"6192730962611142710\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"timeout\",\"value\":{\"int32Value\":20000}},{\"key\":\"type\",\"value\":{\"int32Value\":1001}}]},\"input\":{\"keyValueList\":[{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$parentGuid\"]}}},{\"key\":\"identifiertype\",\"value\":{\"int32Value\":5}},{\"key\":\"guids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"ed3a20bf-f313-4e9d-91c1-6f639702f7da\"]}}},{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"5d318263-a7d5-443d-8e82-ef8474a740e2\"}},{\"key\":\"apprepoguid\",\"value\":{\"stringValue\":\"09d23134-645a-4f3b-8a43-c0068439378f\"}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":536870966,\"cloudID\":107,\"desDataAreaID\":0,\"commandID\":516,\"serviceType\":1,\"TSRepoID\":\"0\",\"usertype\":2,\"fuid\":\"0\",\"transactionID\":\"0\",\"clientNumber\":\"7710165597761022117\",\"dataFormat\":1,\"dataType\":1001,\"srcFuID\":\"6192730962611142710\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"timeout\",\"value\":{\"int32Value\":20000}},{\"key\":\"type\",\"value\":{\"int32Value\":1001}}]},\"input\":{\"keyValueList\":[{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\"]}}},{\"key\":\"mode\",\"value\":{\"int32Value\":12}},{\"key\":\"repoidentifiertype\",\"value\":{\"int32Value\":5}},{\"key\":\"repoguids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"98e9e77f-5ee0-4c95-be4c-878ff124f02d\"]}}},{\"key\":\"generation\",\"value\":{\"int32Value\":1}},{\"key\":\"filter\",\"value\":{\"stringValue\":\"$name == \\\"数字孪生实例化_组件\\\"\"}},{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"5d318263-a7d5-443d-8e82-ef8474a740e2\"}},{\"key\":\"apprepoguid\",\"value\":{\"stringValue\":\"09d23134-645a-4f3b-8a43-c0068439378f\"}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":536870966,\"cloudID\":107,\"desDataAreaID\":0,\"commandID\":516,\"serviceType\":1,\"TSRepoID\":\"0\",\"usertype\":2,\"fuid\":\"0\",\"transactionID\":\"0\",\"clientNumber\":\"7710165597761022117\",\"dataFormat\":1,\"dataType\":1001,\"srcFuID\":\"6192730962611142710\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"timeout\",\"value\":{\"int32Value\":20000}},{\"key\":\"type\",\"value\":{\"int32Value\":1001}}]},\"input\":{\"keyValueList\":[{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\"]}}},{\"key\":\"mode\",\"value\":{\"int32Value\":12}},{\"key\":\"repoidentifiertype\",\"value\":{\"int32Value\":5}},{\"key\":\"repoguids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"c6372749-1df8-4c41-81e4-55767515f06d\"]}}},{\"key\":\"generation\",\"value\":{\"int32Value\":1}},{\"key\":\"filter\",\"value\":{\"stringValue\":\"$name == \\\"数字孪生实例化_实例化_配置后台\\\"\"}},{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"5d318263-a7d5-443d-8e82-ef8474a740e2\"}},{\"key\":\"apprepoguid\",\"value\":{\"stringValue\":\"09d23134-645a-4f3b-8a43-c0068439378f\"}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":536870966,\"cloudID\":107,\"desDataAreaID\":0,\"commandID\":516,\"serviceType\":1,\"TSRepoID\":\"0\",\"usertype\":2,\"fuid\":\"0\",\"transactionID\":\"0\",\"clientNumber\":\"7710165597761022117\",\"dataFormat\":1,\"dataType\":1007,\"srcFuID\":\"6192730962611142710\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"timeout\",\"value\":{\"int32Value\":30000}},{\"key\":\"type\",\"value\":{\"int32Value\":1007}}]},\"input\":{\"keyValueList\":[{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$id\",\"$guid\"]}}},{\"key\":\"mode\",\"value\":{\"int32Value\":12}},{\"key\":\"repoidentifiertype\",\"value\":{\"int32Value\":5}},{\"key\":\"repoguids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"af566863-a866-4fb5-8862-8a40f45262cc\"]}}},{\"key\":\"generation\",\"value\":{\"int32Value\":1}},{\"key\":\"filter\",\"value\":{\"stringValue\":\"$name == \\\"实例配置\\\"\"}},{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"5d318263-a7d5-443d-8e82-ef8474a740e2\"}},{\"key\":\"apprepoguid\",\"value\":{\"stringValue\":\"09d23134-645a-4f3b-8a43-c0068439378f\"}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":536870966,\"cloudID\":107,\"desDataAreaID\":0,\"commandID\":516,\"serviceType\":1,\"TSRepoID\":\"0\",\"usertype\":2,\"fuid\":\"0\",\"transactionID\":\"0\",\"clientNumber\":\"7710165597761022117\",\"dataFormat\":1,\"dataType\":1007,\"srcFuID\":\"6192730962611142710\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"timeout\",\"value\":{\"int32Value\":20000}},{\"key\":\"type\",\"value\":{\"int32Value\":1007}}]},\"input\":{\"keyValueList\":[{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$id\",\"$guid\",\"$name\",\"$version\"]}}},{\"key\":\"identifiertype\",\"value\":{\"int32Value\":5}},{\"key\":\"guids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"bf1e9813-e468-4230-b7f7-fdee5a8104db\"]}}},{\"key\":\"versions\",\"value\":{\"int32ArrayValue\":{\"int32Array\":[-1]}}},{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"5d318263-a7d5-443d-8e82-ef8474a740e2\"}},{\"key\":\"apprepoguid\",\"value\":{\"stringValue\":\"09d23134-645a-4f3b-8a43-c0068439378f\"}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":22,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":22001,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":22001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"6192730962611142708\",\"6192730962611142709\",\"6192730962611142710\",\"6192730962611142711\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21001,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":21001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"5911255985900486740\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":22,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":22001,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":22001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"6192730962611142708\",\"6192730962611142709\",\"6192730962611142710\",\"6192730962611142711\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21001,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":21001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"5911255985900486740\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":27,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1025,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":1025}}]},\"input\":{\"keyValueList\":[{\"key\":\"identifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"guids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"95fa1c3e-be93-47ca-8c63-c63aace90165\"]}}},{\"key\":\"returnFields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$id\",\"$guid\",\"$name\",\"$type\",\"$modelguid\",\"$modelversion\",\"$repositoryguid\",\"$memberlist\"]}}},{\"key\":\"querymode\",\"value\":{\"int32Value\":1}},{\"key\":\"returnMode\",\"value\":{\"int32Value\":1}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":234,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1005,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":1005}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"identifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"guids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"1c9746d4-146b-497a-afc0-8362367782d3\"]}}},{\"key\":\"versions\",\"value\":{\"int32ArrayValue\":{\"int32Array\":[7]}}},{\"key\":\"returnFields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$repositoryguid\",\"modelDBRepository\",\"isHasChild\"]}}},{\"key\":\"querymode\",\"value\":{\"int32Value\":1}},{\"key\":\"returnMode\",\"value\":{\"int32Value\":1}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":52,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1005,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":1005}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"repoIdentifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"repoguids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"ed3a20bf-f313-4e9d-91c1-6f639702f7da\"]}}},{\"key\":\"generation\",\"value\":{\"int32Value\":1}},{\"key\":\"mode\",\"value\":{\"int32Value\":12}},{\"key\":\"returnMode\",\"value\":{\"int32Value\":1}},{\"key\":\"returnFields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$id\",\"$name\",\"$guid\",\"$version\",\"$type\",\"$memberlist\"]}}}]}}}"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":620,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1025,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":1025}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"repoIdentifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"repoguids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"ed3a20bf-f313-4e9d-91c1-6f639702f7da\"]}}},{\"key\":\"generation\",\"value\":{\"int32Value\":1}},{\"key\":\"mode\",\"value\":{\"int32Value\":12}},{\"key\":\"returnMode\",\"value\":{\"int32Value\":1}},{\"key\":\"returnFields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$id\",\"$name\",\"$guid\",\"$modelguid\",\"$modelversion\",\"$type\",\"$memberlist\"]}}}]}}}"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":865,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1103,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":1103}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"modelType\",\"value\":{\"int32Value\":1005}},{\"key\":\"returnFields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$fileid\",\"$name\",\"$filetype\",\"$parentid\"]}}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"modelguid\",\"value\":{\"stringValue\":\"1c9746d4-146b-497a-afc0-8362367782d3\"}},{\"key\":\"version\",\"value\":{\"int32Value\":7}},{\"key\":\"filter\",\"value\":{\"stringValue\":\"$parentid == 0\"}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":799,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1103,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":1103}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"modelType\",\"value\":{\"int32Value\":1005}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$fileid\",\"$name\",\"$data\"]}}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"modelguid\",\"value\":{\"stringValue\":\"1c9746d4-146b-497a-afc0-8362367782d3\"}},{\"key\":\"version\",\"value\":{\"int32Value\":7}},{\"key\":\"filter\",\"value\":{\"stringValue\":\"$fileid == 61\"}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/queryResource?fuid=0&userType=2&serviceType=1&modelGuid=1c9746d4-146b-497a-afc0-8362367782d3&version=7&fileID=63",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":939,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1004,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":1004}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"returnmode\",\"value\":{\"int32Value\":1}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$id\",\"$guid\",\"$name\",\"$deploysystems\",\"$deployarea\"]}}},{\"key\":\"names\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"数字孪生建模\"]}}},{\"key\":\"identifiertype\",\"value\":{\"int32Value\":2}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/queryResource?fuid=0&userType=2&serviceType=1&modelGuid=1c9746d4-146b-497a-afc0-8362367782d3&version=7&fileID=63",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":626,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1025,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":1025}}]},\"input\":{\"keyValueList\":[{\"key\":\"identifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"guids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"486d5011-bb7d-4afb-97b2-8cc2eac6b785\"]}}},{\"key\":\"returnFields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$id\",\"$guid\",\"$name\",\"$type\",\"$modelguid\",\"$modelversion\",\"$repositoryguid\",\"$memberlist\"]}}},{\"key\":\"querymode\",\"value\":{\"int32Value\":1}},{\"key\":\"returnMode\",\"value\":{\"int32Value\":1}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":910,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1005,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":1005}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"identifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"guids\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"c4540f21-97ca-4ece-96e6-f9e3264a6a21\"]}}},{\"key\":\"versions\",\"value\":{\"int32ArrayValue\":{\"int32Array\":[55]}}},{\"key\":\"returnFields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$repositoryguid\",\"modelDBRepository\",\"isHasChild\"]}}},{\"key\":\"querymode\",\"value\":{\"int32Value\":1}},{\"key\":\"returnMode\",\"value\":{\"int32Value\":1}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":408,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1103,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":1103}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"modelType\",\"value\":{\"int32Value\":1005}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$fileid\",\"$name\",\"$data\"]}}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":5}},{\"key\":\"modelguid\",\"value\":{\"stringValue\":\"c4540f21-97ca-4ece-96e6-f9e3264a6a21\"}},{\"key\":\"version\",\"value\":{\"int32Value\":55}},{\"key\":\"filter\",\"value\":{\"stringValue\":\"$fileid == 232\"}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"clientID\":725,\"cloudID\":107,\"commandID\":516,\"serviceType\":1,\"usertype\":2,\"packetType\":2,\"TSRepoID\":\"0\",\"desDataAreaID\":\"0\",\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":1004,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"type\",\"value\":{\"int32Value\":1004}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}}]},\"input\":{\"keyValueList\":[{\"key\":\"returnmode\",\"value\":{\"int32Value\":1}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$id\",\"$guid\",\"$name\",\"$deploysystems\",\"$deployarea\"]}}},{\"key\":\"names\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"数字孪生建模\"]}}},{\"key\":\"identifiertype\",\"value\":{\"int32Value\":2}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":22,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":22001,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":22001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"6192730962611142708\",\"6192730962611142709\",\"6192730962611142710\",\"6192730962611142711\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "postData": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21001,\"clientNumber\":\"7710165597761022117\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":21001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"5911255985900486740\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}"
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    }
+  ],
+  "finishedAt": "2026-06-12T05:38:25.402Z"
+}

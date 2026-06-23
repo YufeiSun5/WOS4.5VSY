@@ -1,0 +1,14 @@
+{
+  "childCount": 16,
+  "button": {
+    "uiName": "demo_query_button",
+    "linkEnable": true,
+    "propLinkEnable": true,
+    "hasCall": true,
+    "propHasCall": true,
+    "hasVariantStringMap": true,
+    "backendId": "5911255985900487006",
+    "scriptHead": "\nvar page = this;\nvar kids = this.KMComponentsMng && this.KMComponentsMng.$Children || {};\nfunction propOf(obj) {\n  return obj && (obj._props && obj._props.propData || obj.propData || obj);\n}\nfunction byName(name) {\n  var values = Object.values(kids);\n  return values.find(function(v) {\n    var pd = propOf(v) || {};\n    return v && (v.UIName === name || v.name === name || pd.UIName === name || pd.name === name);\n  });\n}\nfunction byProto(proto) {\n  return Object.values(kids).find(function(v) {\n    var pd = propOf(v) || {};\n    return pd.prototypeName === proto;\n  });\n}\nfunction readInput() {\n  var input = byName('demo_filter_input') || byProto('ElementInput');\n  try {\n    if (input && input.getProperty) return String(input.getProperty('value') || '').trim();\n  } catch (e) {}\n  var pd = propOf(input) || {};\n  return String(pd.value || '').trim();\n}\nfunction setButton(text) {\n  var button = byName('demo_query_button') || byProto('ElementButton');\n  if (button && typeof button.button === 'function') button.button({ text: text });\n  var pd = propOf(button);\n  if (pd) pd.text = text;\n}\nfunction setTable(rows, columns) {\n  var table = byName('demo_table') || byProto('ElementTable');\n  var cfg = {\n    border: true,\n    fit: true,\n    showHeader: true,\n    emptyText: '\\u6682\\u65e0\\u540e\\u7aef\\u8fd4\\u56de\\u6570\\u636e',\n    pagination: true,\n    pageSize: 10,\n    columns: columns,\n    totalData: rows\n  };\n  if (table && typeof table.table === 'function') table.table(cfg);\n  var pd = propOf(table);\n  if (pd) pd.detailConfig = 'this.table(' + JSON.stringify(cfg) + ')';\n}\nfunction setChar"
+  },
+  "variables": []
+}

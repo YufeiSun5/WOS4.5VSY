@@ -1,0 +1,74 @@
+{
+  "overlays": [
+    {
+      "i": 0,
+      "id": "m运维部署管理_进度展示",
+      "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_550232",
+      "text": "运维部署管理_进度展示停止进度  停止中，请等待...100% 成功",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "display": "none",
+      "visibility": "visible",
+      "pointer": "none",
+      "z": "2003",
+      "opacity": "1"
+    },
+    {
+      "i": 1,
+      "id": "m运维部署管理_进度展示_新",
+      "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_917089",
+      "text": "批量启动进度\n\n共2个待执行时空节点\n\n2/2\n\n执行中",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 899
+      },
+      "display": "block",
+      "visibility": "visible",
+      "pointer": "auto",
+      "z": "2006",
+      "opacity": "1"
+    }
+  ],
+  "action": {
+    "text": "更新",
+    "cls": "el-button el-button--text el-button--medium",
+    "rect": {
+      "x": 1474,
+      "y": 149,
+      "w": 30,
+      "h": 36
+    }
+  },
+  "hit": {
+    "tag": "DIV",
+    "id": "m运维部署管理_进度展示_新",
+    "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_917089",
+    "text": "批量启动进度\n\n共2个待执行时空节点\n\n2/2\n\n执行中"
+  },
+  "chain": [
+    {
+      "tag": "DIV",
+      "id": "m运维部署管理_进度展示_新",
+      "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_917089",
+      "text": "批量启动进度\n\n共2个待执行时空节点\n\n2/2\n\n执行中"
+    },
+    {
+      "tag": "BODY",
+      "id": "",
+      "cls": "",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n"
+    },
+    {
+      "tag": "HTML",
+      "id": "client-run",
+      "cls": "",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n"
+    }
+  ]
+}

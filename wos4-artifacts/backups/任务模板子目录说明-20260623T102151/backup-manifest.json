@@ -1,0 +1,28 @@
+[
+  {
+    "path": "wos4-artifacts\\tasks\\_template\\assets\\README.md",
+    "existed": false,
+    "action": "new-file-will-be-created"
+  },
+  {
+    "path": "wos4-artifacts\\tasks\\_template\\screenshots\\README.md",
+    "existed": false,
+    "action": "new-file-will-be-created"
+  },
+  {
+    "path": "wos4-artifacts\\tasks\\_template\\snapshots\\README.md",
+    "existed": false,
+    "action": "new-file-will-be-created"
+  },
+  {
+    "path": "wos4-artifacts\\tasks\\_template\\backups\\README.md",
+    "existed": false,
+    "action": "new-file-will-be-created"
+  },
+  {
+    "path": "MEMORY.md",
+    "existed": true,
+    "bytes": 54980,
+    "action": "backup-before-task-template-subdir-readme"
+  }
+]

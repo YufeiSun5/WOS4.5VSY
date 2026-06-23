@@ -1,0 +1,1136 @@
+{
+  "startedAt": "2026-06-12T04:40:56.498Z",
+  "log": [
+    {
+      "type": "request",
+      "at": "2026-06-12T04:40:58.705Z",
+      "url": "http://221.239.19.118:13001/api/v1/wellinos/loginsvcuserbyrole"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:40:58.746Z",
+      "url": "http://221.239.19.118:13001/api/v1/wellinos/loginsvcuserbyrole",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:40:58.751Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:40:58.797Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:40:59.419Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:40:59.419Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:40:59.419Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "login-ok",
+      "at": "2026-06-12T04:40:59.419Z",
+      "url": "http://221.239.19.118:13001/#/main"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:40:59.514Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:40:59.626Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:40:59.638Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:40:59.655Z",
+      "url": "http://221.239.19.118:13001/api/v1/Update"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:40:59.655Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:40:59.691Z",
+      "url": "http://221.239.19.118:13001/api/v1/Update",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:40:59.692Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:00.130Z",
+      "url": "http://221.239.19.118:13001/public/?id=6192730962611142710&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:00.160Z",
+      "url": "http://221.239.19.118:13001/public/?id=6192730962611142710&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:00.163Z",
+      "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:00.163Z",
+      "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:00.163Z",
+      "url": "http://221.239.19.118:13001/public/config.json"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:00.196Z",
+      "url": "http://221.239.19.118:13001/public/config.json",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:00.196Z",
+      "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css",
+      "status": 200
+    },
+    {
+      "type": "dblclick-at",
+      "at": "2026-06-12T04:41:00.214Z",
+      "point": {
+        "x": 216,
+        "y": 187.84,
+        "label": "icon"
+      },
+      "card": {
+        "x": 182,
+        "y": 152,
+        "w": 68,
+        "h": 112
+      }
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:00.565Z",
+      "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:00.568Z",
+      "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:00.589Z",
+      "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:00.590Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:00.598Z",
+      "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:00.643Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:00.645Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:00.647Z",
+      "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:00.741Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:00.747Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/config.js"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:00.747Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/debugger.js"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:00.747Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/runtime.beta.2026.05.14.15.js"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:00.748Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:00.748Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/index.26325ec0.css"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:00.780Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/debugger.js",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:00.780Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/config.js",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:00.792Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/index.26325ec0.css",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:00.813Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/runtime.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:01.357Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:01.602Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:01.640Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:01.642Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:01.642Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:01.679Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:01.697Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:01.702Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:01.738Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:01.743Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:01.782Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:01.788Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/62936.beta.2026.05.14.15.js"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:01.788Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/69225.beta.2026.05.14.15.js"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:01.788Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-run.24e1aadb.css"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:01.788Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:01.790Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:01.824Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-run.24e1aadb.css",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:01.830Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:01.937Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/69225.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:01.976Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:02.209Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/62936.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:02.526Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/fonts/element-icons.ff18efd1.woff"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:02.604Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/fonts/element-icons.ff18efd1.woff",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:02.663Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:02.737Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:02.930Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:02.969Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:02.970Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:03.007Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:03.009Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-view-App.109a4cde.css"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:03.009Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-view-App.beta.2026.05.14.15.js"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:03.009Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:03.040Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-view-App.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:03.044Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-view-App.109a4cde.css",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:03.046Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/65181.026e4f9f.css"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:03.046Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/65181.beta.2026.05.14.15.js"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:03.050Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:03.081Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/65181.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:03.084Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/65181.026e4f9f.css",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:03.208Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:03.255Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:03.259Z",
+      "url": "http://221.239.19.118:13001/public/assets/index-53e0c0ac.js"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:03.287Z",
+      "url": "http://221.239.19.118:13001/public/assets/index-53e0c0ac.js",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:03.288Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:03.351Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:03.352Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:03.383Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:03.384Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:03.421Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:03.423Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:03.455Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:03.456Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:03.490Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:03.491Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:03.533Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:03.534Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:03.609Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:05.658Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:05.730Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:08.657Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:08.745Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "dblclick-network-check",
+      "at": "2026-06-12T04:41:10.215Z",
+      "point": "icon",
+      "seen": true
+    },
+    {
+      "type": "modeling-frame",
+      "at": "2026-06-12T04:41:10.220Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:11.654Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:11.698Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:12.939Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "click-edit",
+      "at": "2026-06-12T04:41:13.023Z",
+      "edit": {
+        "x": 1047,
+        "y": 178,
+        "text": "\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除"
+      }
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:13.111Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:13.118Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:13.213Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:13.216Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:13.216Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:13.221Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:13.295Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:13.296Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:13.300Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:13.339Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:13.366Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:13.492Z",
+      "url": "http://221.239.19.118:13001/api/v1/queryResource?fuid=0&userType=2&serviceType=1&modelGuid=1c9746d4-146b-497a-afc0-8362367782d3&version=7&fileID=63"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:13.493Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:13.531Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:13.537Z",
+      "url": "http://221.239.19.118:13001/api/v1/queryResource?fuid=0&userType=2&serviceType=1&modelGuid=1c9746d4-146b-497a-afc0-8362367782d3&version=7&fileID=63",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:13.683Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:14.049Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:14.050Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:14.084Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:14.092Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:14.138Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:14.393Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:14.422Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:14.651Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "edit-frame",
+      "at": "2026-06-12T04:41:14.652Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:14.885Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:17.665Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:17.842Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:17.978Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:18.041Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:18.042Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:18.168Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:18.169Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:18.230Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:18.230Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:18.338Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:18.339Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:18.416Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:18.416Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:18.474Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:18.475Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:18.506Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:18.507Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:18.543Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:18.543Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:18.601Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:18.601Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:18.631Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:18.632Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:18.666Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:18.666Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:18.711Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:18.712Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:18.745Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:41:18.745Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:41:18.780Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    }
+  ],
+  "result": {
+    "bodyText": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 2 条\n<1>前往页\n\nKingFusion4.5_工程浏览器\n\n盛云_孙宇飞_假数据设备模型_0612 用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n命令语言\n\t\n\n\n第三方计算管理\n\t\n\n\n图形模型\n\t\n\n\n2D精灵图\n\t\n\n\n3D精灵图\n\t\n\n\n页面精灵图\n\t\n\n\n报表精灵图\n\t\n\n\n子模型\n\t\n\n\n形参配置\n\t\n\n多灵敏时序物\n\n暂无数据\n\n基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情\n\n函数：\n\n暂无数据\n\n条件配置\n\n时间间隔 00h 00m 00s\n\n配置",
+    "variables": {
+      "数字孪生建模时空仓库Name": "盛云_孙宇飞_假数据设备模型_0612",
+      "数字孪生建模时空仓库ID": "288230376151738029",
+      "数字孪生建模时空仓库GUID": "90a60f87-961b-474d-8aec-6dc7e89dcae3",
+      "模型描述": "用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。",
+      "分组GUID": "ad17aec0-5ff0-4ace-aee5-689409cb4cae",
+      "当前页面名称": "数字孪生模型编辑_框架页面"
+    },
+    "calls": [
+      {
+        "label": "GetModelCopyProperty([id],1009)",
+        "ok": false,
+        "error": "dataSetToObjectLists is not defined",
+        "stack": "ReferenceError: dataSetToObjectLists is not defined\n    at Object.L [as GetModelCopyProperty] (http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js:1:235776)\n    at async call (eval at evaluate (:302:30), <anonymous>:7:45)\n    at async eval (eval at evaluate (:302:30), <anonymous>:11:5)\n    at async <anonymous>:328:30"
+      },
+      {
+        "label": "GetModelProperty id/ver 0",
+        "ok": false,
+        "error": "dataSetToObjectLists is not defined",
+        "stack": "ReferenceError: dataSetToObjectLists is not defined\n    at Object.k [as GetModelProperty] (http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js:1:235190)\n    at async call (eval at evaluate (:302:30), <anonymous>:7:45)\n    at async eval (eval at evaluate (:302:30), <anonymous>:12:76)\n    at async <anonymous>:328:30"
+      },
+      {
+        "label": "GetModelProperty id/ver 1",
+        "ok": false,
+        "error": "dataSetToObjectLists is not defined",
+        "stack": "ReferenceError: dataSetToObjectLists is not defined\n    at Object.k [as GetModelProperty] (http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js:1:235190)\n    at async call (eval at evaluate (:302:30), <anonymous>:7:45)\n    at async eval (eval at evaluate (:302:30), <anonymous>:12:76)\n    at async <anonymous>:328:30"
+      },
+      {
+        "label": "GetModelProperty id/ver 2",
+        "ok": false,
+        "error": "dataSetToObjectLists is not defined",
+        "stack": "ReferenceError: dataSetToObjectLists is not defined\n    at Object.k [as GetModelProperty] (http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js:1:235190)\n    at async call (eval at evaluate (:302:30), <anonymous>:7:45)\n    at async eval (eval at evaluate (:302:30), <anonymous>:12:76)\n    at async <anonymous>:328:30"
+      },
+      {
+        "label": "GetModelProperty id/ver 3",
+        "ok": false,
+        "error": "dataSetToObjectLists is not defined",
+        "stack": "ReferenceError: dataSetToObjectLists is not defined\n    at Object.k [as GetModelProperty] (http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js:1:235190)\n    at async call (eval at evaluate (:302:30), <anonymous>:7:45)\n    at async eval (eval at evaluate (:302:30), <anonymous>:12:76)\n    at async <anonymous>:328:30"
+      },
+      {
+        "label": "GetModelProperty id/ver 4",
+        "ok": false,
+        "error": "dataSetToObjectLists is not defined",
+        "stack": "ReferenceError: dataSetToObjectLists is not defined\n    at Object.k [as GetModelProperty] (http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js:1:235190)\n    at async call (eval at evaluate (:302:30), <anonymous>:7:45)\n    at async eval (eval at evaluate (:302:30), <anonymous>:12:76)\n    at async <anonymous>:328:30"
+      },
+      {
+        "label": "GetModelProperty id/ver 5",
+        "ok": false,
+        "error": "dataSetToObjectLists is not defined",
+        "stack": "ReferenceError: dataSetToObjectLists is not defined\n    at Object.k [as GetModelProperty] (http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js:1:235190)\n    at async call (eval at evaluate (:302:30), <anonymous>:7:45)\n    at async eval (eval at evaluate (:302:30), <anonymous>:12:76)\n    at async <anonymous>:328:30"
+      },
+      {
+        "label": "GetModelProperty id/ver 6",
+        "ok": false,
+        "error": "dataSetToObjectLists is not defined",
+        "stack": "ReferenceError: dataSetToObjectLists is not defined\n    at Object.k [as GetModelProperty] (http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js:1:235190)\n    at async call (eval at evaluate (:302:30), <anonymous>:7:45)\n    at async eval (eval at evaluate (:302:30), <anonymous>:12:76)\n    at async <anonymous>:328:30"
+      },
+      {
+        "label": "GetModelProperty id/ver 7",
+        "ok": false,
+        "error": "dataSetToObjectLists is not defined",
+        "stack": "ReferenceError: dataSetToObjectLists is not defined\n    at Object.k [as GetModelProperty] (http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js:1:235190)\n    at async call (eval at evaluate (:302:30), <anonymous>:7:45)\n    at async eval (eval at evaluate (:302:30), <anonymous>:12:76)\n    at async <anonymous>:328:30"
+      },
+      {
+        "label": "GetModelProperty id/ver 8",
+        "ok": false,
+        "error": "dataSetToObjectLists is not defined",
+        "stack": "ReferenceError: dataSetToObjectLists is not defined\n    at Object.k [as GetModelProperty] (http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js:1:235190)\n    at async call (eval at evaluate (:302:30), <anonymous>:7:45)\n    at async eval (eval at evaluate (:302:30), <anonymous>:12:76)\n    at async <anonymous>:328:30"
+      },
+      {
+        "label": "GetModelProperty id/ver 9",
+        "ok": false,
+        "error": "dataSetToObjectLists is not defined",
+        "stack": "ReferenceError: dataSetToObjectLists is not defined\n    at Object.k [as GetModelProperty] (http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js:1:235190)\n    at async call (eval at evaluate (:302:30), <anonymous>:7:45)\n    at async eval (eval at evaluate (:302:30), <anonymous>:12:76)\n    at async <anonymous>:328:30"
+      },
+      {
+        "label": "GetModelProperty id/ver 10",
+        "ok": false,
+        "error": "dataSetToObjectLists is not defined",
+        "stack": "ReferenceError: dataSetToObjectLists is not defined\n    at Object.k [as GetModelProperty] (http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js:1:235190)\n    at async call (eval at evaluate (:302:30), <anonymous>:7:45)\n    at async eval (eval at evaluate (:302:30), <anonymous>:12:76)\n    at async <anonymous>:328:30"
+      },
+      {
+        "label": "GetModelProperty id/ver -1",
+        "ok": false,
+        "error": "dataSetToObjectLists is not defined",
+        "stack": "ReferenceError: dataSetToObjectLists is not defined\n    at Object.k [as GetModelProperty] (http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js:1:235190)\n    at async call (eval at evaluate (:302:30), <anonymous>:7:45)\n    at async eval (eval at evaluate (:302:30), <anonymous>:12:76)\n    at async <anonymous>:328:30"
+      },
+      {
+        "label": "api53030.GetModelPropertyByGuidVersion",
+        "ok": true,
+        "result": {
+          "ret": 0,
+          "list": []
+        }
+      },
+      {
+        "label": "api53030.getMemberListByModelGuid",
+        "ok": false,
+        "stack": "undefined"
+      }
+    ],
+    "apiKeys": {
+      "api2016": [
+        "GetFileListByFuModel",
+        "GetFuModelFileData",
+        "GetObjInSpaceTimeRepoByModel",
+        "CreateFuModelFile",
+        "CreateFuModelMemberList",
+        "CreateFuModelVersion",
+        "UpdateFuModelFileData",
+        "ModifyFuModelMemberList",
+        "UpdateModelDBObject",
+        "DeleteFileListByFuModel",
+        "DeleteFuModelMemberList",
+        "GetModelProperty",
+        "GetModelCopyProperty",
+        "GetRealTimeObjProperty",
+        "GetHisTimeObjProperty",
+        "GetPlanTimeObjProperty",
+        "getResourceProperty"
+      ],
+      "api53030": [
+        "GetFuModelPropertyByGuidVersions",
+        "GetFuModelPropertyByGuidVersion",
+        "GetFuCopyPropertyByGUIDs",
+        "GetFuCopyPropertyByIDs",
+        "GetFileListByFuModel",
+        "GetFuModelFileData",
+        "GetFuModelPropertyByIdVersion",
+        "GetFuModelVersionList",
+        "GetCopyInRepoByModelInfo",
+        "GetFuModelVersionListByGUIDS",
+        "GetFuModelsInfo",
+        "GetFuCopyPropertyByGuiDs",
+        "GetDataCopyPropertyByGuiDs",
+        "getPropertyByObjectIds",
+        "getPropertyByCopyId",
+        "GetModelDBSpaceListById",
+        "getMemberListByModelGuid",
+        "CreateFuModelFile",
+        "CreateFuModelMemberList",
+        "CreateFuModel",
+        "CopyFuCopy",
+        "CreateFuCopy",
+        "CreateFuModelVersion",
+        "StartFuByCopy",
+        "AsyncImportFuCopyToEngine",
+        "AsyncImportFuModelToEngine",
+        "CreateFuCopyByModelGuid",
+        "CreateFuCopyByFieldValues",
+        "ModifyFuCopyMemberList",
+        "ModifyFuModelMemberList",
+        "UpdateFuModelFileData",
+        "UpdateFuCopyMemberList",
+        "UpdateFuCopyRepository",
+        "UpdateModelDBObject",
+        "UpdateFuCopyRepositoryList",
+        "DeleteFuModelMemberList",
+        "DeleteFileListByFuModel",
+        "DeleteCopyByIds",
+        "DeleteFuModelHistoryVersion",
+        "UpdateSpriteVersion",
+        "UpdateFuModelRepository",
+        "GetRealTimeObjectMemberList",
+        "GetTSEntityCopyProperty",
+        "GetMTSEntityCopyProperty",
+        "GetEntityCopyProperty",
+        "GetAllObjectByModel",
+        "QueryPropertyByGuid",
+        "CreateFuModelWebJs",
+        "CreateFuModelMemberListWebJs",
+        "CreateFuModelFileWebJs",
+        "CreateFuCopyByModelGuidWebJs",
+        "UpdateFuCopyRepositoryWebJs",
+        "QueryModelDBIdByGUID",
+        "getFuCopyProperty",
+        "GetFileListByFuModelByGuidVersion",
+        "GetFuModelFileDataByGuidVersion",
+        "GetModelPropertyByGuidVersion"
+      ]
+    },
+    "rows": [
+      "序号\t名称\t描述\t操作",
+      "1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "数据模型",
+      "物",
+      "多灵敏时序物",
+      "单灵敏时序物",
+      "业务物",
+      "事",
+      "时序事",
+      "业务事",
+      "岗位",
+      "组织",
+      "逻辑模型",
+      "报警规则配置",
+      "多灵敏数据报警转发",
+      "单灵敏数据报警转发",
+      "自定义计算",
+      "命令语言",
+      "第三方计算管理",
+      "图形模型",
+      "2D精灵图",
+      "3D精灵图",
+      "页面精灵图",
+      "报表精灵图",
+      "子模型",
+      "形参配置",
+      "名称\t类型\t值\t描述\t操作",
+      "名称类型值描述操作",
+      "名字\t表达式\t操作"
+    ]
+  },
+  "screenshot": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\screenshots\\sy_fake_model_property_probe_retry.png"
+}

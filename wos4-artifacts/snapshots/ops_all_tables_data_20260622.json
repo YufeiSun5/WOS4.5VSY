@@ -1,0 +1,2163 @@
+{
+  "tables": [
+    {
+      "idx": 22,
+      "id": "client_run",
+      "cls": "client_run",
+      "comp": "KSCClientRun",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页\n管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 899
+      },
+      "dataKeys": [
+        "storeNameEnum",
+        "scriptManager",
+        "refreshFlag",
+        "showPageList",
+        "currentShow",
+        "maxzIndex",
+        "pendingCloseItem",
+        "VariableManager"
+      ],
+      "data": {},
+      "methods": [
+        "UpdatePage",
+        "ExcuteDataSet",
+        "ShowLoading",
+        "ShowLoadingEx",
+        "CloseLoadingEx",
+        "UploadFile",
+        "GetLanguageResourceData"
+      ]
+    },
+    {
+      "idx": 24,
+      "id": "",
+      "cls": "",
+      "comp": "transition-group",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页\n管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 0
+      },
+      "dataKeys": [],
+      "data": {},
+      "methods": []
+    },
+    {
+      "idx": 25,
+      "id": "",
+      "cls": "ksc_page_run",
+      "comp": "KSCPageRun",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页\n管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 899
+      },
+      "dataKeys": [
+        "PARENT_STORE_PARAM",
+        "RUN_PARAM_DATA"
+      ],
+      "data": {},
+      "methods": []
+    },
+    {
+      "idx": 26,
+      "id": "$运维部署客户端__$PicManager__运维部署管理_框架页面",
+      "cls": "page_running",
+      "comp": "KSCPageRunning",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页\n管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 899
+      },
+      "dataKeys": [
+        "isEmitAlreadyRender"
+      ],
+      "data": {},
+      "methods": []
+    },
+    {
+      "idx": 27,
+      "id": "运维部署管理_框架页面",
+      "cls": "page_view_container client_page_view_container",
+      "comp": "PageRun",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页\n管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 899
+      },
+      "dataKeys": [
+        "pageData",
+        "dataObjMng",
+        "runParamData",
+        "previewImage",
+        "previewVideo",
+        "previewPDF",
+        "$dynamicDialogIns",
+        "$ClientProject",
+        "dataLinkPageName",
+        "$Workflow",
+        "allPageList",
+        "showAlert",
+        "alertOption",
+        "userFuncList"
+      ],
+      "data": {},
+      "methods": [
+        "UpdatePage",
+        "ShowLoading",
+        "getSheetDataByList",
+        "CreateRowObject",
+        "DeleteRowObject",
+        "UpdateDomStyle",
+        "ShowLoadingEx",
+        "CloseLoadingEx",
+        "UploadFile",
+        "BatchDownLoadFiles",
+        "UploadFiles",
+        "DownloadFiles",
+        "CreateZPLData",
+        "ToggleFullscreen",
+        "DeleteAllRow",
+        "initDataObjMng"
+      ]
+    },
+    {
+      "idx": 28,
+      "id": "pageView",
+      "cls": "page_view",
+      "comp": "PageView",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页\n管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 899
+      },
+      "dataKeys": [
+        "showPageList",
+        "callTimerMap",
+        "dateTimeTimer",
+        "funcMap",
+        "setPageArray",
+        "renderComs",
+        "dataCenterMng",
+        "evalCreatedFlag",
+        "d_uiOutputLinkList"
+      ],
+      "data": {},
+      "methods": [
+        "updateDevRenderComs",
+        "updateRenderComs",
+        "getDataSetNameList",
+        "getChildPageListDataSet",
+        "_updateSpaceTimeAndDevNameByType",
+        "updatePageData",
+        "initDataCenter",
+        "startDataCenter",
+        "_updateSpaceTime",
+        "upDateLink",
+        "_updateEvents",
+        "autoUpdateDataTime",
+        "initDataObjMng",
+        "_updateVariables",
+        "initPageDataSet",
+        "initDataSet",
+        "registerDataSet",
+        "syncStoreDataSets",
+        "callBackDataSets",
+        "getDataSetProxy",
+        "RunDataSet",
+        "RunChildDataSet",
+        "updateSelectContainer",
+        "updateContainerList",
+        "handleSelectItem",
+        "selectContainer"
+      ]
+    },
+    {
+      "idx": 29,
+      "id": "",
+      "cls": "layer_view",
+      "comp": "Layer",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页\n管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 899
+      },
+      "dataKeys": [
+        "childWidth",
+        "childHeight",
+        "changeRowSize"
+      ],
+      "data": {},
+      "methods": [
+        "updateRenderComs",
+        "handleSelectItem"
+      ]
+    },
+    {
+      "idx": 30,
+      "id": "RContainerkad68fa1ecadef0fa62a93df8bc3ed21",
+      "cls": "layout_container containerStyle",
+      "comp": "LayoutResponseContainer",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页\n管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 899
+      },
+      "dataKeys": [
+        "containerElement",
+        "UIType",
+        "rowsNumber",
+        "contanierSelectFlag",
+        "isShowContextMenu",
+        "selectedItems",
+        "copiedItems",
+        "backgroundImageData",
+        "theContextMenuItem",
+        "dragDisabled",
+        "containerSubscriptTop",
+        "responseWidth",
+        "resizeObserver",
+        "contextmenuInstance",
+        "scrollFlag",
+        "borderWSize",
+        "borderHSize",
+        "isScroll",
+        "containerList",
+        "showContainerList",
+        "prevWidth",
+        "prevHeight",
+        "mountRow",
+        "containerStyle"
+      ],
+      "data": {},
+      "methods": [
+        "setRowsNumber",
+        "getRowsNumber",
+        "setSelectStatus",
+        "getSelectStatus",
+        "calculateRowGap",
+        "deleteRows",
+        "selectedItemPointLeft",
+        "selectedItemPointRight",
+        "selectedItemPointDown",
+        "selectedItemPointUp",
+        "updateRenderComs",
+        "updateSelectFlag",
+        "updateOverRowItem",
+        "updateSelectContainer",
+        "updateContainerList",
+        "updataMountRow",
+        "handleDeleteRows",
+        "handleSelectItem",
+        "selectedContainer",
+        "selectedPage",
+        "addRow"
+      ]
+    },
+    {
+      "idx": 31,
+      "id": "",
+      "cls": "containerrow",
+      "comp": "transition-group",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页\n管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 899
+      },
+      "dataKeys": [],
+      "data": {},
+      "methods": []
+    },
+    {
+      "idx": 32,
+      "id": "k90cf5d85bdf862907ee836e64a7d880",
+      "cls": "response_row",
+      "comp": "LayoutResponseRow",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页\n管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 899
+      },
+      "dataKeys": [
+        "objectPosition",
+        "UIType",
+        "colsNumber",
+        "rowSelectFlag",
+        "backgroundImageRow",
+        "dragDisabled",
+        "rowTip",
+        "topAddLine",
+        "bottomAddLine",
+        "composingMod",
+        "lastRowGapLeft",
+        "lastRowGapRight",
+        "lastColsGap",
+        "leftScale",
+        "rightScale",
+        "oldRowMargin",
+        "backgroundImgFlag"
+      ],
+      "data": {},
+      "methods": [
+        "setRowDragResize",
+        "getRowDragResize",
+        "setWrapRowMargin",
+        "getWrapRowMargin",
+        "getAutoWrapRowMargin",
+        "setSelectStatus",
+        "getSelectStatus",
+        "setRowGap",
+        "setRowGapTop",
+        "setRowGapBottom",
+        "setRowGapLeft",
+        "setRowGapRight",
+        "getRowGap",
+        "getAutoRowGap",
+        "setRowGapStrategy",
+        "getRowGapStrategy",
+        "setRowShow",
+        "getRowShow",
+        "setRowVisible",
+        "getRowVisible",
+        "setRowHeight",
+        "updateRowHeight",
+        "getRowHeight",
+        "calculateRowGap",
+        "warpRowCal",
+        "calculateRowColsWidth",
+        "wrapInRow",
+        "getMaxRowLRGap",
+        "initRowGapAndColsGap",
+        "rowStyleStr",
+        "setRowAnimationToShow",
+        "setRowAnimationNotShow",
+        "updateSelectItem",
+        "updatePasteFlag",
+        "updateRenderComs",
+        "updateSelectFlag",
+        "updateOverRowItem",
+        "handleSelectItem",
+        "rowContextMenu",
+        "selectedRow",
+        "pasteRow",
+        "clearRow",
+        "removeRowSelf",
+        "copyRowSelf",
+        "pasteRowSelfPrev",
+        "pasteRowSelfAfter",
+        "pasteRowCustom",
+        "getProjectDataById",
+        "handleRowResize",
+        "handleRowStartResize",
+        "handleRowStopResize",
+        "endRowDrag"
+      ]
+    },
+    {
+      "idx": 33,
+      "id": "",
+      "cls": "",
+      "comp": "transition-group",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页\n管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 899
+      },
+      "dataKeys": [],
+      "data": {},
+      "methods": []
+    },
+    {
+      "idx": 55,
+      "id": "kc951cddf270fbea2af97e536963094c",
+      "cls": "PCUI_ElementTable component_object 工程目录表格",
+      "comp": "ElementTable",
+      "text": "名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页",
+      "rect": {
+        "x": 0,
+        "y": 50,
+        "w": 249,
+        "h": 849
+      },
+      "dataKeys": [
+        "tableDataCopy",
+        "dynamicRow",
+        "isRowEdit",
+        "editRowIndex",
+        "multipleSelectionRow",
+        "filterFlag",
+        "filterTotalData",
+        "inputSearchValue",
+        "searchTotalData",
+        "filterData",
+        "searchData",
+        "cellTooltipOption",
+        "cellPositionInfo",
+        "disabled",
+        "startIndex",
+        "scrollEventFlag",
+        "pluginCheckboxValues",
+        "parentSelectStatus",
+        "expandsRow",
+        "checkList",
+        "filterisShow",
+        "filterShowProp",
+        "filterList",
+        "filterIcon",
+        "lastProp",
+        "imgList",
+        "selectEventData",
+        "multupleToolTips",
+        "d_objColFilterConfig",
+        "d_arrColFilterData",
+        "UIType",
+        "linkList",
+        "times"
+      ],
+      "data": {
+        "tableDataCopy": {
+          "length": 0,
+          "rows": []
+        },
+        "totalData": {
+          "length": 9,
+          "rows": [
+            {
+              "creationtime": "2026-04-08 11:35:36",
+              "entitycopyid": "7782220156096217689",
+              "entitycopyname": "引滦原水处理",
+              "lastupdatetime": "2026-04-08 11:35:36",
+              "projectdesc": "",
+              "projectname": "引滦原水处理",
+              "projectrepositoryguid": "7c2fddd7-ac82-4df5-9f59-4f36f75b3cb0",
+              "projectrepositoryid": "288230376151725173",
+              "projectrepositoryname": "引滦原水处理",
+              "projectrootrepositoryguid": "96f53566-2c77-43fa-993e-9084b6047d87",
+              "projectrootrepositoryid": "288230376151725174",
+              "projectrootrepositoryname": "KF4.5Root",
+              "rowIndex": "1"
+            },
+            {
+              "creationtime": "2026-04-13 13:41:23",
+              "entitycopyid": "7782220156096217699",
+              "entitycopyname": "测试",
+              "lastupdatetime": "2026-04-13 13:41:23",
+              "projectdesc": "",
+              "projectname": "测试",
+              "projectrepositoryguid": "a4dec62a-0371-415f-9c74-9cdc8c371010",
+              "projectrepositoryid": "288230376151729295",
+              "projectrepositoryname": "测试",
+              "projectrootrepositoryguid": "5ec1006d-ae95-49d5-859b-366384233e98",
+              "projectrootrepositoryid": "288230376151729296",
+              "projectrootrepositoryname": "KF4.5Root",
+              "rowIndex": "2"
+            },
+            {
+              "creationtime": "2026-06-12 17:09:13",
+              "entitycopyid": "7782220156096217840",
+              "entitycopyname": "mwq测试",
+              "lastupdatetime": "2026-06-12 17:09:13",
+              "projectdesc": "",
+              "projectname": "mwq测试",
+              "projectrepositoryguid": "d8b66fa4-079b-436d-ae14-a827380890fe",
+              "projectrepositoryid": "288230376151738051",
+              "projectrepositoryname": "mwq测试",
+              "projectrootrepositoryguid": "df15865d-7ace-4bb6-b290-db03baea4fd2",
+              "projectrootrepositoryid": "288230376151738052",
+              "projectrootrepositoryname": "KF4.5Root",
+              "rowIndex": "3"
+            },
+            {
+              "creationtime": "2026-06-15 09:36:22",
+              "entitycopyid": "7782220156096217848",
+              "entitycopyname": "张测试1",
+              "lastupdatetime": "2026-06-15 09:36:22",
+              "projectdesc": "",
+              "projectname": "张测试1",
+              "projectrepositoryguid": "233a7072-51b5-4451-84f5-1f0ccceb0515",
+              "projectrepositoryid": "288230376151738089",
+              "projectrepositoryname": "张测试1",
+              "projectrootrepositoryguid": "31a77dcd-02fc-40d5-98b6-7397fcc64a94",
+              "projectrootrepositoryid": "288230376151738090",
+              "projectrootrepositoryname": "KF4.5Root",
+              "rowIndex": "4"
+            },
+            {
+              "creationtime": "2026-06-15 09:57:47",
+              "entitycopyid": "7782220156096217849",
+              "entitycopyname": "芦昆测试工程",
+              "lastupdatetime": "2026-06-15 09:57:47",
+              "projectdesc": "",
+              "projectname": "芦昆测试工程",
+              "projectrepositoryguid": "163921f2-356e-4843-bbd5-f6aa652e11ce",
+              "projectrepositoryid": "288230376151738106",
+              "projectrepositoryname": "芦昆测试工程",
+              "projectrootrepositoryguid": "479e2c95-f797-4cdf-aa64-e9251f12026d",
+              "projectrootrepositoryid": "288230376151738107",
+              "projectrootrepositoryname": "KF4.5Root",
+              "rowIndex": "5"
+            }
+          ]
+        },
+        "filterTotalData": {
+          "length": 0,
+          "rows": []
+        },
+        "searchTotalData": {
+          "length": 0,
+          "rows": []
+        },
+        "dynamicRow": {
+          "show": false
+        },
+        "multipleSelectionRow": {
+          "length": 0,
+          "rows": []
+        },
+        "expandsRow": {
+          "length": 0,
+          "rows": []
+        }
+      },
+      "methods": [
+        "uiRunDataSet",
+        "updateRenderComs",
+        "upDateLink",
+        "diffData",
+        "setSelectStatus",
+        "getDataSetValue",
+        "_getCallRetData",
+        "getDisplayData",
+        "isTreeData",
+        "setTableLinkData",
+        "setTablePluginSelectInput",
+        "rowClickChangeLink",
+        "multiSelectChangeLink",
+        "handleTotalData",
+        "isLazyLoad",
+        "initTreeData",
+        "treeLoad",
+        "reloadNode",
+        "getImageData",
+        "setRowIndex",
+        "updateVisibleItems",
+        "GetMultipleSelectionRow",
+        "deleteRow",
+        "DeleteRow",
+        "getRowIndex",
+        "getRowColIndex",
+        "beginRowEdit",
+        "endRowEdit",
+        "select",
+        "ToggleRowSelection",
+        "_ToggleRowSelectionChildren",
+        "_ToggleRowSelection",
+        "_selectAllTreeNode",
+        "selectAll",
+        "selectionChange",
+        "mergeRow",
+        "rowClick",
+        "rowContextmenu",
+        "rowDbClick",
+        "setSelection",
+        "expandChange",
+        "onLoadSuccess",
+        "verifyTotalData",
+        "ClearSelection",
+        "clearSelectStatus",
+        "ToggleAllSelection",
+        "ToggleRowExpansion",
+        "getRowData",
+        "SetCurrentRow",
+        "AppendRow",
+        "AddRow",
+        "SetData",
+        "GetData",
+        "findSelectData",
+        "setSelectData",
+        "UpdateRow",
+        "tableRowClassName",
+        "GetCurrentRow",
+        "GetCurrentRowProp",
+        "GetSelectionProp",
+        "_getDataSetLink",
+        "_setIsLazyLoad",
+        "getRowKey",
+        "GetCurrentPageData",
+        "assignPropData",
+        "_updateColFilterConfig",
+        "getParamLinkCurrentSelect",
+        "setParamLinkCurrentSelect",
+        "getParamLinkSelection",
+        "setParamLinkSelection",
+        "executeRunDataSet",
+        "_getSelectValue",
+        "_pluginSelectChange"
+      ]
+    },
+    {
+      "idx": 56,
+      "id": "kc951cddf270fbea2af97e536963094c",
+      "cls": "el-table el-table--fit el-table--enable-row-hover el-table--enable-row-transition el-table--medium",
+      "comp": "ElTable",
+      "text": "名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统",
+      "rect": {
+        "x": 0,
+        "y": 50,
+        "w": 249,
+        "h": 817
+      },
+      "dataKeys": [
+        "layout",
+        "isHidden",
+        "renderExpanded",
+        "resizeProxyVisible",
+        "resizeState",
+        "isGroup",
+        "scrollPosition"
+      ],
+      "data": {
+        "tableData": {
+          "length": 9,
+          "rows": [
+            {
+              "creationtime": "2026-04-08 11:35:36",
+              "entitycopyid": "7782220156096217689",
+              "entitycopyname": "引滦原水处理",
+              "lastupdatetime": "2026-04-08 11:35:36",
+              "projectdesc": "",
+              "projectname": "引滦原水处理",
+              "projectrepositoryguid": "7c2fddd7-ac82-4df5-9f59-4f36f75b3cb0",
+              "projectrepositoryid": "288230376151725173",
+              "projectrepositoryname": "引滦原水处理",
+              "projectrootrepositoryguid": "96f53566-2c77-43fa-993e-9084b6047d87",
+              "projectrootrepositoryid": "288230376151725174",
+              "projectrootrepositoryname": "KF4.5Root",
+              "rowIndex": "1"
+            },
+            {
+              "creationtime": "2026-04-13 13:41:23",
+              "entitycopyid": "7782220156096217699",
+              "entitycopyname": "测试",
+              "lastupdatetime": "2026-04-13 13:41:23",
+              "projectdesc": "",
+              "projectname": "测试",
+              "projectrepositoryguid": "a4dec62a-0371-415f-9c74-9cdc8c371010",
+              "projectrepositoryid": "288230376151729295",
+              "projectrepositoryname": "测试",
+              "projectrootrepositoryguid": "5ec1006d-ae95-49d5-859b-366384233e98",
+              "projectrootrepositoryid": "288230376151729296",
+              "projectrootrepositoryname": "KF4.5Root",
+              "rowIndex": "2"
+            },
+            {
+              "creationtime": "2026-06-12 17:09:13",
+              "entitycopyid": "7782220156096217840",
+              "entitycopyname": "mwq测试",
+              "lastupdatetime": "2026-06-12 17:09:13",
+              "projectdesc": "",
+              "projectname": "mwq测试",
+              "projectrepositoryguid": "d8b66fa4-079b-436d-ae14-a827380890fe",
+              "projectrepositoryid": "288230376151738051",
+              "projectrepositoryname": "mwq测试",
+              "projectrootrepositoryguid": "df15865d-7ace-4bb6-b290-db03baea4fd2",
+              "projectrootrepositoryid": "288230376151738052",
+              "projectrootrepositoryname": "KF4.5Root",
+              "rowIndex": "3"
+            },
+            {
+              "creationtime": "2026-06-15 09:36:22",
+              "entitycopyid": "7782220156096217848",
+              "entitycopyname": "张测试1",
+              "lastupdatetime": "2026-06-15 09:36:22",
+              "projectdesc": "",
+              "projectname": "张测试1",
+              "projectrepositoryguid": "233a7072-51b5-4451-84f5-1f0ccceb0515",
+              "projectrepositoryid": "288230376151738089",
+              "projectrepositoryname": "张测试1",
+              "projectrootrepositoryguid": "31a77dcd-02fc-40d5-98b6-7397fcc64a94",
+              "projectrootrepositoryid": "288230376151738090",
+              "projectrootrepositoryname": "KF4.5Root",
+              "rowIndex": "4"
+            },
+            {
+              "creationtime": "2026-06-15 09:57:47",
+              "entitycopyid": "7782220156096217849",
+              "entitycopyname": "芦昆测试工程",
+              "lastupdatetime": "2026-06-15 09:57:47",
+              "projectdesc": "",
+              "projectname": "芦昆测试工程",
+              "projectrepositoryguid": "163921f2-356e-4843-bbd5-f6aa652e11ce",
+              "projectrepositoryid": "288230376151738106",
+              "projectrepositoryname": "芦昆测试工程",
+              "projectrootrepositoryguid": "479e2c95-f797-4cdf-aa64-e9251f12026d",
+              "projectrootrepositoryid": "288230376151738107",
+              "projectrootrepositoryname": "KF4.5Root",
+              "rowIndex": "5"
+            }
+          ]
+        }
+      },
+      "methods": [
+        "setCurrentRow",
+        "toggleRowSelection",
+        "toggleRowExpansion",
+        "clearSelection",
+        "updateScrollY",
+        "toggleAllSelection"
+      ]
+    },
+    {
+      "idx": 58,
+      "id": "",
+      "cls": "",
+      "comp": "ElTableColumn",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 50,
+        "w": 0,
+        "h": 0
+      },
+      "dataKeys": [
+        "isSubColumn",
+        "columns"
+      ],
+      "data": {},
+      "methods": [
+        "getPropsData"
+      ]
+    },
+    {
+      "idx": 60,
+      "id": "",
+      "cls": "el-table__header",
+      "comp": "ElTableHeader",
+      "text": "名称",
+      "rect": {
+        "x": 0,
+        "y": 50,
+        "w": 249,
+        "h": 44
+      },
+      "dataKeys": [
+        "draggingColumn",
+        "dragging",
+        "dragState"
+      ],
+      "data": {},
+      "methods": [
+        "getHeaderRowStyle",
+        "getHeaderRowClass",
+        "toggleAllSelection",
+        "toggleOrder"
+      ]
+    },
+    {
+      "idx": 72,
+      "id": "",
+      "cls": "el-table__body",
+      "comp": "ElTableBody",
+      "text": "引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统",
+      "rect": {
+        "x": 0,
+        "y": 94,
+        "w": 249,
+        "h": 324
+      },
+      "dataKeys": [
+        "tooltipContent"
+      ],
+      "data": {},
+      "methods": [
+        "getKeyOfRow",
+        "getRowStyle",
+        "getRowClass",
+        "rowRender",
+        "wrappedRowRender"
+      ]
+    },
+    {
+      "idx": 76,
+      "id": "",
+      "cls": "el-table__row",
+      "comp": "ElTableRow",
+      "text": "引滦原水处理",
+      "rect": {
+        "x": 0,
+        "y": 94,
+        "w": 249,
+        "h": 36
+      },
+      "dataKeys": [],
+      "data": {},
+      "methods": []
+    },
+    {
+      "idx": 80,
+      "id": "",
+      "cls": "el-table__row",
+      "comp": "ElTableRow",
+      "text": "测试",
+      "rect": {
+        "x": 0,
+        "y": 130,
+        "w": 249,
+        "h": 36
+      },
+      "dataKeys": [],
+      "data": {},
+      "methods": []
+    },
+    {
+      "idx": 84,
+      "id": "",
+      "cls": "el-table__row",
+      "comp": "ElTableRow",
+      "text": "mwq测试",
+      "rect": {
+        "x": 0,
+        "y": 166,
+        "w": 249,
+        "h": 36
+      },
+      "dataKeys": [],
+      "data": {},
+      "methods": []
+    },
+    {
+      "idx": 88,
+      "id": "",
+      "cls": "el-table__row",
+      "comp": "ElTableRow",
+      "text": "张测试1",
+      "rect": {
+        "x": 0,
+        "y": 202,
+        "w": 249,
+        "h": 36
+      },
+      "dataKeys": [],
+      "data": {},
+      "methods": []
+    },
+    {
+      "idx": 92,
+      "id": "",
+      "cls": "el-table__row",
+      "comp": "ElTableRow",
+      "text": "芦昆测试工程",
+      "rect": {
+        "x": 0,
+        "y": 238,
+        "w": 249,
+        "h": 36
+      },
+      "dataKeys": [],
+      "data": {},
+      "methods": []
+    },
+    {
+      "idx": 96,
+      "id": "",
+      "cls": "el-table__row",
+      "comp": "ElTableRow",
+      "text": "盛云_孙宇飞_人工测试工程",
+      "rect": {
+        "x": 0,
+        "y": 274,
+        "w": 249,
+        "h": 36
+      },
+      "dataKeys": [],
+      "data": {},
+      "methods": []
+    },
+    {
+      "idx": 100,
+      "id": "",
+      "cls": "el-table__row",
+      "comp": "ElTableRow",
+      "text": "盛云_孙宇飞_Noctiluca",
+      "rect": {
+        "x": 0,
+        "y": 310,
+        "w": 249,
+        "h": 36
+      },
+      "dataKeys": [],
+      "data": {},
+      "methods": []
+    },
+    {
+      "idx": 104,
+      "id": "",
+      "cls": "el-table__row current-row",
+      "comp": "ElTableRow",
+      "text": "盛云_孙宇飞_CRUD工程_0620",
+      "rect": {
+        "x": 0,
+        "y": 346,
+        "w": 249,
+        "h": 36
+      },
+      "dataKeys": [],
+      "data": {},
+      "methods": []
+    },
+    {
+      "idx": 108,
+      "id": "",
+      "cls": "el-table__row",
+      "comp": "ElTableRow",
+      "text": "信息管理系统",
+      "rect": {
+        "x": 0,
+        "y": 382,
+        "w": 249,
+        "h": 36
+      },
+      "dataKeys": [],
+      "data": {},
+      "methods": []
+    },
+    {
+      "idx": 148,
+      "id": "b7ea9ce9-4bfe-4efb-81e0-4bf4b83d85b6",
+      "cls": "",
+      "comp": "LayoutResponseCol",
+      "text": "管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 249,
+        "y": 0,
+        "w": 1671,
+        "h": 899
+      },
+      "dataKeys": [
+        "setPageQueue",
+        "isSetPageProcessing",
+        "currentPageName",
+        "currentObject",
+        "paramConfigFlag",
+        "objectPosition",
+        "UIType",
+        "colSelectFlag",
+        "colWidth",
+        "componentName",
+        "dragDisabled",
+        "componentClass",
+        "lockhieght",
+        "offsetEditStatus",
+        "isNewObject",
+        "colTip",
+        "leftAddLine",
+        "rightAddLine",
+        "pageInstance",
+        "colLocationX",
+        "colLocationY",
+        "lastOffset",
+        "lastComponent",
+        "pasteBgFlag",
+        "childPageList",
+        "scale",
+        "initialOffset"
+      ],
+      "data": {},
+      "methods": [
+        "setSelectStatus",
+        "getSelectStatus",
+        "getOffsetRow",
+        "_initUiDataLink",
+        "updateViewStore",
+        "updateOverItem",
+        "updatePasteFlag",
+        "updateRenderComs",
+        "updateSelectFlag",
+        "UPDATE_POINTERFLAG",
+        "handleSelectItem",
+        "selectedCol",
+        "handleSelect",
+        "getProjectDataById"
+      ]
+    },
+    {
+      "idx": 150,
+      "id": "",
+      "cls": "ui_factory",
+      "comp": "ElementUIFactory",
+      "text": "管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 249,
+        "y": 0,
+        "w": 1671,
+        "h": 899
+      },
+      "dataKeys": [
+        "selectSrc",
+        "linkEditorFlag"
+      ],
+      "data": {},
+      "methods": [
+        "updateLinkScript",
+        "handleSelect",
+        "handleSelectItem"
+      ]
+    },
+    {
+      "idx": 152,
+      "id": "RContainerk4fc7bb8130d3a5b649bd8107d950987",
+      "cls": "layout_container component_object containerStyle",
+      "comp": "LayoutResponseContainer",
+      "text": "管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 249,
+        "y": 0,
+        "w": 1671,
+        "h": 899
+      },
+      "dataKeys": [
+        "containerElement",
+        "UIType",
+        "rowsNumber",
+        "contanierSelectFlag",
+        "isShowContextMenu",
+        "selectedItems",
+        "copiedItems",
+        "backgroundImageData",
+        "theContextMenuItem",
+        "dragDisabled",
+        "containerSubscriptTop",
+        "responseWidth",
+        "resizeObserver",
+        "contextmenuInstance",
+        "scrollFlag",
+        "borderWSize",
+        "borderHSize",
+        "isScroll",
+        "containerList",
+        "showContainerList",
+        "prevWidth",
+        "prevHeight",
+        "mountRow",
+        "containerStyle"
+      ],
+      "data": {},
+      "methods": [
+        "setRowsNumber",
+        "getRowsNumber",
+        "setSelectStatus",
+        "getSelectStatus",
+        "calculateRowGap",
+        "deleteRows",
+        "selectedItemPointLeft",
+        "selectedItemPointRight",
+        "selectedItemPointDown",
+        "selectedItemPointUp",
+        "updateRenderComs",
+        "updateSelectFlag",
+        "updateOverRowItem",
+        "updateSelectContainer",
+        "updateContainerList",
+        "updataMountRow",
+        "handleDeleteRows",
+        "handleSelectItem",
+        "selectedContainer",
+        "selectedPage",
+        "addRow"
+      ]
+    },
+    {
+      "idx": 153,
+      "id": "",
+      "cls": "containerrow",
+      "comp": "transition-group",
+      "text": "管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 250,
+        "y": 0,
+        "w": 1670,
+        "h": 899
+      },
+      "dataKeys": [],
+      "data": {},
+      "methods": []
+    },
+    {
+      "idx": 245,
+      "id": "k8ca373b7cd8ca556bff0a21883917ab",
+      "cls": "response_row",
+      "comp": "LayoutResponseRow",
+      "text": "实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 269,
+        "y": 76,
+        "w": 1631,
+        "h": 823
+      },
+      "dataKeys": [
+        "objectPosition",
+        "UIType",
+        "colsNumber",
+        "rowSelectFlag",
+        "backgroundImageRow",
+        "dragDisabled",
+        "rowTip",
+        "topAddLine",
+        "bottomAddLine",
+        "composingMod",
+        "lastRowGapLeft",
+        "lastRowGapRight",
+        "lastColsGap",
+        "leftScale",
+        "rightScale",
+        "oldRowMargin",
+        "backgroundImgFlag"
+      ],
+      "data": {},
+      "methods": [
+        "setRowDragResize",
+        "getRowDragResize",
+        "setWrapRowMargin",
+        "getWrapRowMargin",
+        "getAutoWrapRowMargin",
+        "setSelectStatus",
+        "getSelectStatus",
+        "setRowGap",
+        "setRowGapTop",
+        "setRowGapBottom",
+        "setRowGapLeft",
+        "setRowGapRight",
+        "getRowGap",
+        "getAutoRowGap",
+        "setRowGapStrategy",
+        "getRowGapStrategy",
+        "setRowShow",
+        "getRowShow",
+        "setRowVisible",
+        "getRowVisible",
+        "setRowHeight",
+        "updateRowHeight",
+        "getRowHeight",
+        "calculateRowGap",
+        "warpRowCal",
+        "calculateRowColsWidth",
+        "wrapInRow",
+        "getMaxRowLRGap",
+        "initRowGapAndColsGap",
+        "rowStyleStr",
+        "setRowAnimationToShow",
+        "setRowAnimationNotShow",
+        "updateSelectItem",
+        "updatePasteFlag",
+        "updateRenderComs",
+        "updateSelectFlag",
+        "updateOverRowItem",
+        "handleSelectItem",
+        "rowContextMenu",
+        "selectedRow",
+        "pasteRow",
+        "clearRow",
+        "removeRowSelf",
+        "copyRowSelf",
+        "pasteRowSelfPrev",
+        "pasteRowSelfAfter",
+        "pasteRowCustom",
+        "getProjectDataById",
+        "handleRowResize",
+        "handleRowStartResize",
+        "handleRowStopResize",
+        "endRowDrag"
+      ]
+    },
+    {
+      "idx": 246,
+      "id": "",
+      "cls": "",
+      "comp": "transition-group",
+      "text": "实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 269,
+        "y": 76,
+        "w": 1631,
+        "h": 823
+      },
+      "dataKeys": [],
+      "data": {},
+      "methods": []
+    },
+    {
+      "idx": 247,
+      "id": "k6fce715a127b26b3c07df4794ec7bef",
+      "cls": "",
+      "comp": "LayoutResponseCol",
+      "text": "实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 269,
+        "y": 76,
+        "w": 1631,
+        "h": 823
+      },
+      "dataKeys": [
+        "setPageQueue",
+        "isSetPageProcessing",
+        "currentPageName",
+        "currentObject",
+        "paramConfigFlag",
+        "objectPosition",
+        "UIType",
+        "colSelectFlag",
+        "colWidth",
+        "componentName",
+        "dragDisabled",
+        "componentClass",
+        "lockhieght",
+        "offsetEditStatus",
+        "isNewObject",
+        "colTip",
+        "leftAddLine",
+        "rightAddLine",
+        "pageInstance",
+        "colLocationX",
+        "colLocationY",
+        "lastOffset",
+        "lastComponent",
+        "pasteBgFlag",
+        "childPageList",
+        "scale",
+        "initialOffset"
+      ],
+      "data": {},
+      "methods": [
+        "setSelectStatus",
+        "getSelectStatus",
+        "getOffsetRow",
+        "_initUiDataLink",
+        "updateViewStore",
+        "updateOverItem",
+        "updatePasteFlag",
+        "updateRenderComs",
+        "updateSelectFlag",
+        "UPDATE_POINTERFLAG",
+        "handleSelectItem",
+        "selectedCol",
+        "handleSelect",
+        "getProjectDataById"
+      ]
+    },
+    {
+      "idx": 249,
+      "id": "",
+      "cls": "ui_factory layer_class",
+      "comp": "FuFactory",
+      "text": "实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 269,
+        "y": 76,
+        "w": 1631,
+        "h": 823
+      },
+      "dataKeys": [
+        "selectSrc",
+        "linkEditorFlag",
+        "configBorderStyle",
+        "spriteConfigStatus",
+        "d_bLoadFlag"
+      ],
+      "data": {},
+      "methods": [
+        "handleSelect",
+        "handleSelectItem",
+        "updateLinkScript",
+        "reloadComponent"
+      ]
+    },
+    {
+      "idx": 250,
+      "id": "管控单元实例_页面",
+      "cls": "page_view_container client_page_view_container set_child_app component_object 管控单元实例_页面",
+      "comp": "PageRun",
+      "text": "实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 269,
+        "y": 76,
+        "w": 1631,
+        "h": 823
+      },
+      "dataKeys": [
+        "pageData",
+        "dataObjMng",
+        "runParamData",
+        "previewImage",
+        "previewVideo",
+        "previewPDF",
+        "$dynamicDialogIns",
+        "$ClientProject",
+        "dataLinkPageName",
+        "$Workflow",
+        "allPageList",
+        "showAlert",
+        "alertOption",
+        "userFuncList"
+      ],
+      "data": {},
+      "methods": [
+        "UpdatePage",
+        "ShowLoading",
+        "getSheetDataByList",
+        "CreateRowObject",
+        "DeleteRowObject",
+        "UpdateDomStyle",
+        "ShowLoadingEx",
+        "CloseLoadingEx",
+        "UploadFile",
+        "BatchDownLoadFiles",
+        "UploadFiles",
+        "DownloadFiles",
+        "CreateZPLData",
+        "ToggleFullscreen",
+        "DeleteAllRow",
+        "initDataObjMng"
+      ]
+    },
+    {
+      "idx": 251,
+      "id": "pageView",
+      "cls": "page_view",
+      "comp": "PageView",
+      "text": "实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 269,
+        "y": 76,
+        "w": 1631,
+        "h": 823
+      },
+      "dataKeys": [
+        "showPageList",
+        "callTimerMap",
+        "dateTimeTimer",
+        "funcMap",
+        "setPageArray",
+        "renderComs",
+        "dataCenterMng",
+        "evalCreatedFlag",
+        "d_uiOutputLinkList"
+      ],
+      "data": {},
+      "methods": [
+        "updateDevRenderComs",
+        "updateRenderComs",
+        "getDataSetNameList",
+        "getChildPageListDataSet",
+        "_updateSpaceTimeAndDevNameByType",
+        "updatePageData",
+        "initDataCenter",
+        "startDataCenter",
+        "_updateSpaceTime",
+        "upDateLink",
+        "_updateEvents",
+        "autoUpdateDataTime",
+        "initDataObjMng",
+        "_updateVariables",
+        "initPageDataSet",
+        "initDataSet",
+        "registerDataSet",
+        "syncStoreDataSets",
+        "callBackDataSets",
+        "getDataSetProxy",
+        "RunDataSet",
+        "RunChildDataSet",
+        "updateSelectContainer",
+        "updateContainerList",
+        "handleSelectItem",
+        "selectContainer"
+      ]
+    },
+    {
+      "idx": 252,
+      "id": "",
+      "cls": "layer_view",
+      "comp": "Layer",
+      "text": "实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 269,
+        "y": 76,
+        "w": 1631,
+        "h": 823
+      },
+      "dataKeys": [
+        "childWidth",
+        "childHeight",
+        "changeRowSize"
+      ],
+      "data": {},
+      "methods": [
+        "updateRenderComs",
+        "handleSelectItem"
+      ]
+    },
+    {
+      "idx": 253,
+      "id": "RContainerkd58b14cdf879bdcc4f8a99b2e7ac01d",
+      "cls": "layout_container containerStyle",
+      "comp": "LayoutResponseContainer",
+      "text": "实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 269,
+        "y": 76,
+        "w": 1631,
+        "h": 823
+      },
+      "dataKeys": [
+        "containerElement",
+        "UIType",
+        "rowsNumber",
+        "contanierSelectFlag",
+        "isShowContextMenu",
+        "selectedItems",
+        "copiedItems",
+        "backgroundImageData",
+        "theContextMenuItem",
+        "dragDisabled",
+        "containerSubscriptTop",
+        "responseWidth",
+        "resizeObserver",
+        "contextmenuInstance",
+        "scrollFlag",
+        "borderWSize",
+        "borderHSize",
+        "isScroll",
+        "containerList",
+        "showContainerList",
+        "prevWidth",
+        "prevHeight",
+        "mountRow",
+        "containerStyle"
+      ],
+      "data": {},
+      "methods": [
+        "setRowsNumber",
+        "getRowsNumber",
+        "setSelectStatus",
+        "getSelectStatus",
+        "calculateRowGap",
+        "deleteRows",
+        "selectedItemPointLeft",
+        "selectedItemPointRight",
+        "selectedItemPointDown",
+        "selectedItemPointUp",
+        "updateRenderComs",
+        "updateSelectFlag",
+        "updateOverRowItem",
+        "updateSelectContainer",
+        "updateContainerList",
+        "updataMountRow",
+        "handleDeleteRows",
+        "handleSelectItem",
+        "selectedContainer",
+        "selectedPage",
+        "addRow"
+      ]
+    },
+    {
+      "idx": 254,
+      "id": "",
+      "cls": "containerrow",
+      "comp": "transition-group",
+      "text": "实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 269,
+        "y": 76,
+        "w": 1631,
+        "h": 823
+      },
+      "dataKeys": [],
+      "data": {},
+      "methods": []
+    },
+    {
+      "idx": 255,
+      "id": "k302890e163b5e51d5bdfbf45b6f5b69",
+      "cls": "response_row",
+      "comp": "LayoutResponseRow",
+      "text": "实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 269,
+        "y": 76,
+        "w": 1631,
+        "h": 823
+      },
+      "dataKeys": [
+        "objectPosition",
+        "UIType",
+        "colsNumber",
+        "rowSelectFlag",
+        "backgroundImageRow",
+        "dragDisabled",
+        "rowTip",
+        "topAddLine",
+        "bottomAddLine",
+        "composingMod",
+        "lastRowGapLeft",
+        "lastRowGapRight",
+        "lastColsGap",
+        "leftScale",
+        "rightScale",
+        "oldRowMargin",
+        "backgroundImgFlag"
+      ],
+      "data": {},
+      "methods": [
+        "setRowDragResize",
+        "getRowDragResize",
+        "setWrapRowMargin",
+        "getWrapRowMargin",
+        "getAutoWrapRowMargin",
+        "setSelectStatus",
+        "getSelectStatus",
+        "setRowGap",
+        "setRowGapTop",
+        "setRowGapBottom",
+        "setRowGapLeft",
+        "setRowGapRight",
+        "getRowGap",
+        "getAutoRowGap",
+        "setRowGapStrategy",
+        "getRowGapStrategy",
+        "setRowShow",
+        "getRowShow",
+        "setRowVisible",
+        "getRowVisible",
+        "setRowHeight",
+        "updateRowHeight",
+        "getRowHeight",
+        "calculateRowGap",
+        "warpRowCal",
+        "calculateRowColsWidth",
+        "wrapInRow",
+        "getMaxRowLRGap",
+        "initRowGapAndColsGap",
+        "rowStyleStr",
+        "setRowAnimationToShow",
+        "setRowAnimationNotShow",
+        "updateSelectItem",
+        "updatePasteFlag",
+        "updateRenderComs",
+        "updateSelectFlag",
+        "updateOverRowItem",
+        "handleSelectItem",
+        "rowContextMenu",
+        "selectedRow",
+        "pasteRow",
+        "clearRow",
+        "removeRowSelf",
+        "copyRowSelf",
+        "pasteRowSelfPrev",
+        "pasteRowSelfAfter",
+        "pasteRowCustom",
+        "getProjectDataById",
+        "handleRowResize",
+        "handleRowStartResize",
+        "handleRowStopResize",
+        "endRowDrag"
+      ]
+    },
+    {
+      "idx": 256,
+      "id": "",
+      "cls": "",
+      "comp": "transition-group",
+      "text": "实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 269,
+        "y": 76,
+        "w": 1631,
+        "h": 823
+      },
+      "dataKeys": [],
+      "data": {},
+      "methods": []
+    },
+    {
+      "idx": 257,
+      "id": "a7ec6ae3-92d1-456c-87ca-88481c5488cb",
+      "cls": "",
+      "comp": "LayoutResponseCol",
+      "text": "实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 269,
+        "y": 76,
+        "w": 1631,
+        "h": 823
+      },
+      "dataKeys": [
+        "setPageQueue",
+        "isSetPageProcessing",
+        "currentPageName",
+        "currentObject",
+        "paramConfigFlag",
+        "objectPosition",
+        "UIType",
+        "colSelectFlag",
+        "colWidth",
+        "componentName",
+        "dragDisabled",
+        "componentClass",
+        "lockhieght",
+        "offsetEditStatus",
+        "isNewObject",
+        "colTip",
+        "leftAddLine",
+        "rightAddLine",
+        "pageInstance",
+        "colLocationX",
+        "colLocationY",
+        "lastOffset",
+        "lastComponent",
+        "pasteBgFlag",
+        "childPageList",
+        "scale",
+        "initialOffset"
+      ],
+      "data": {},
+      "methods": [
+        "setSelectStatus",
+        "getSelectStatus",
+        "getOffsetRow",
+        "_initUiDataLink",
+        "updateViewStore",
+        "updateOverItem",
+        "updatePasteFlag",
+        "updateRenderComs",
+        "updateSelectFlag",
+        "UPDATE_POINTERFLAG",
+        "handleSelectItem",
+        "selectedCol",
+        "handleSelect",
+        "getProjectDataById"
+      ]
+    },
+    {
+      "idx": 259,
+      "id": "",
+      "cls": "ui_factory",
+      "comp": "ElementUIFactory",
+      "text": "实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 269,
+        "y": 76,
+        "w": 1631,
+        "h": 823
+      },
+      "dataKeys": [
+        "selectSrc",
+        "linkEditorFlag"
+      ],
+      "data": {},
+      "methods": [
+        "updateLinkScript",
+        "handleSelect",
+        "handleSelectItem"
+      ]
+    },
+    {
+      "idx": 261,
+      "id": "kfb11084f05c5ecec7d089e7f1183d59",
+      "cls": "PCUI_ElementTable component_object 生产单元实例表格",
+      "comp": "ElementTable",
+      "text": "实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 269,
+        "y": 76,
+        "w": 1631,
+        "h": 823
+      },
+      "dataKeys": [
+        "tableDataCopy",
+        "dynamicRow",
+        "isRowEdit",
+        "editRowIndex",
+        "multipleSelectionRow",
+        "filterFlag",
+        "filterTotalData",
+        "inputSearchValue",
+        "searchTotalData",
+        "filterData",
+        "searchData",
+        "cellTooltipOption",
+        "cellPositionInfo",
+        "disabled",
+        "startIndex",
+        "scrollEventFlag",
+        "pluginCheckboxValues",
+        "parentSelectStatus",
+        "expandsRow",
+        "checkList",
+        "filterisShow",
+        "filterShowProp",
+        "filterList",
+        "filterIcon",
+        "lastProp",
+        "imgList",
+        "selectEventData",
+        "multupleToolTips",
+        "d_objColFilterConfig",
+        "d_arrColFilterData",
+        "UIType",
+        "linkList",
+        "times"
+      ],
+      "data": {
+        "tableDataCopy": {
+          "length": 0,
+          "rows": []
+        },
+        "totalData": {
+          "length": 1,
+          "rows": [
+            {
+              "purepoguid": "10acca9d-f852-4dcf-b27e-35ebe8e3f671",
+              "purepoid": "288230376151738726",
+              "instance_name": "NadirL1",
+              "timespaceguid": "10acca9d-f852-4dcf-b27e-35ebe8e3f671",
+              "purepoparentguid": "",
+              "parenttsguid": "",
+              "current_version": "1",
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "cloudname": "本云",
+              "areaname": "area0",
+              "children": {
+                "type": "array",
+                "length": 1
+              },
+              "rowIndex": "1"
+            }
+          ]
+        },
+        "filterTotalData": {
+          "length": 0,
+          "rows": []
+        },
+        "searchTotalData": {
+          "length": 0,
+          "rows": []
+        },
+        "dynamicRow": {
+          "show": false
+        },
+        "multipleSelectionRow": {
+          "length": 0,
+          "rows": []
+        },
+        "expandsRow": {
+          "length": 0,
+          "rows": []
+        }
+      },
+      "methods": [
+        "uiRunDataSet",
+        "updateRenderComs",
+        "upDateLink",
+        "diffData",
+        "setSelectStatus",
+        "getDataSetValue",
+        "_getCallRetData",
+        "getDisplayData",
+        "isTreeData",
+        "setTableLinkData",
+        "setTablePluginSelectInput",
+        "rowClickChangeLink",
+        "multiSelectChangeLink",
+        "handleTotalData",
+        "isLazyLoad",
+        "initTreeData",
+        "treeLoad",
+        "reloadNode",
+        "getImageData",
+        "setRowIndex",
+        "updateVisibleItems",
+        "GetMultipleSelectionRow",
+        "deleteRow",
+        "DeleteRow",
+        "getRowIndex",
+        "getRowColIndex",
+        "beginRowEdit",
+        "endRowEdit",
+        "select",
+        "ToggleRowSelection",
+        "_ToggleRowSelectionChildren",
+        "_ToggleRowSelection",
+        "_selectAllTreeNode",
+        "selectAll",
+        "selectionChange",
+        "mergeRow",
+        "rowClick",
+        "rowContextmenu",
+        "rowDbClick",
+        "setSelection",
+        "expandChange",
+        "onLoadSuccess",
+        "verifyTotalData",
+        "ClearSelection",
+        "clearSelectStatus",
+        "ToggleAllSelection",
+        "ToggleRowExpansion",
+        "getRowData",
+        "SetCurrentRow",
+        "AppendRow",
+        "AddRow",
+        "SetData",
+        "GetData",
+        "findSelectData",
+        "setSelectData",
+        "UpdateRow",
+        "tableRowClassName",
+        "GetCurrentRow",
+        "GetCurrentRowProp",
+        "GetSelectionProp",
+        "_getDataSetLink",
+        "_setIsLazyLoad",
+        "getRowKey",
+        "GetCurrentPageData",
+        "assignPropData",
+        "_updateColFilterConfig",
+        "getParamLinkCurrentSelect",
+        "setParamLinkCurrentSelect",
+        "getParamLinkSelection",
+        "setParamLinkSelection",
+        "executeRunDataSet",
+        "_getSelectValue",
+        "_pluginSelectChange"
+      ]
+    },
+    {
+      "idx": 262,
+      "id": "kfb11084f05c5ecec7d089e7f1183d59",
+      "cls": "el-table el-table--fit el-table--enable-row-hover el-table--enable-row-transition el-table--medium",
+      "comp": "ElTable",
+      "text": "实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 269,
+        "y": 76,
+        "w": 1631,
+        "h": 823
+      },
+      "dataKeys": [
+        "layout",
+        "isHidden",
+        "renderExpanded",
+        "resizeProxyVisible",
+        "resizeState",
+        "isGroup",
+        "scrollPosition"
+      ],
+      "data": {
+        "tableData": {
+          "length": 1,
+          "rows": [
+            {
+              "purepoguid": "10acca9d-f852-4dcf-b27e-35ebe8e3f671",
+              "purepoid": "288230376151738726",
+              "instance_name": "NadirL1",
+              "timespaceguid": "10acca9d-f852-4dcf-b27e-35ebe8e3f671",
+              "purepoparentguid": "",
+              "parenttsguid": "",
+              "current_version": "1",
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "cloudname": "本云",
+              "areaname": "area0",
+              "children": {
+                "type": "array",
+                "length": 1
+              },
+              "rowIndex": "1"
+            }
+          ]
+        }
+      },
+      "methods": [
+        "setCurrentRow",
+        "toggleRowSelection",
+        "toggleRowExpansion",
+        "clearSelection",
+        "updateScrollY",
+        "toggleAllSelection"
+      ]
+    },
+    {
+      "idx": 264,
+      "id": "",
+      "cls": "",
+      "comp": "ElTableColumn",
+      "text": "",
+      "rect": {
+        "x": 269,
+        "y": 76,
+        "w": 0,
+        "h": 0
+      },
+      "dataKeys": [
+        "isSubColumn",
+        "columns"
+      ],
+      "data": {},
+      "methods": [
+        "getPropsData"
+      ]
+    },
+    {
+      "idx": 265,
+      "id": "",
+      "cls": "",
+      "comp": "ElTableColumn",
+      "text": "",
+      "rect": {
+        "x": 269,
+        "y": 76,
+        "w": 0,
+        "h": 0
+      },
+      "dataKeys": [
+        "isSubColumn",
+        "columns"
+      ],
+      "data": {},
+      "methods": [
+        "getPropsData"
+      ]
+    },
+    {
+      "idx": 266,
+      "id": "",
+      "cls": "",
+      "comp": "ElTableColumn",
+      "text": "",
+      "rect": {
+        "x": 269,
+        "y": 76,
+        "w": 0,
+        "h": 0
+      },
+      "dataKeys": [
+        "isSubColumn",
+        "columns"
+      ],
+      "data": {},
+      "methods": [
+        "getPropsData"
+      ]
+    },
+    {
+      "idx": 267,
+      "id": "",
+      "cls": "",
+      "comp": "ElTableColumn",
+      "text": "",
+      "rect": {
+        "x": 269,
+        "y": 76,
+        "w": 0,
+        "h": 0
+      },
+      "dataKeys": [
+        "isSubColumn",
+        "columns"
+      ],
+      "data": {},
+      "methods": [
+        "getPropsData"
+      ]
+    },
+    {
+      "idx": 268,
+      "id": "",
+      "cls": "",
+      "comp": "ElTableColumn",
+      "text": "",
+      "rect": {
+        "x": 269,
+        "y": 76,
+        "w": 0,
+        "h": 0
+      },
+      "dataKeys": [
+        "isSubColumn",
+        "columns"
+      ],
+      "data": {},
+      "methods": [
+        "getPropsData"
+      ]
+    },
+    {
+      "idx": 269,
+      "id": "",
+      "cls": "",
+      "comp": "ElTableColumn",
+      "text": "",
+      "rect": {
+        "x": 269,
+        "y": 76,
+        "w": 0,
+        "h": 0
+      },
+      "dataKeys": [
+        "isSubColumn",
+        "columns"
+      ],
+      "data": {},
+      "methods": [
+        "getPropsData"
+      ]
+    },
+    {
+      "idx": 270,
+      "id": "",
+      "cls": "",
+      "comp": "ElTableColumn",
+      "text": "",
+      "rect": {
+        "x": 269,
+        "y": 76,
+        "w": 0,
+        "h": 0
+      },
+      "dataKeys": [
+        "isSubColumn",
+        "columns"
+      ],
+      "data": {},
+      "methods": [
+        "getPropsData"
+      ]
+    },
+    {
+      "idx": 271,
+      "id": "",
+      "cls": "",
+      "comp": "ElTableColumn",
+      "text": "",
+      "rect": {
+        "x": 269,
+        "y": 76,
+        "w": 0,
+        "h": 0
+      },
+      "dataKeys": [
+        "isSubColumn",
+        "columns"
+      ],
+      "data": {},
+      "methods": [
+        "getPropsData"
+      ]
+    },
+    {
+      "idx": 273,
+      "id": "",
+      "cls": "el-table__header",
+      "comp": "ElTableHeader",
+      "text": "实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作",
+      "rect": {
+        "x": 269,
+        "y": 76,
+        "w": 1631,
+        "h": 36
+      },
+      "dataKeys": [
+        "draggingColumn",
+        "dragging",
+        "dragState"
+      ],
+      "data": {},
+      "methods": [
+        "getHeaderRowStyle",
+        "getHeaderRowClass",
+        "toggleAllSelection",
+        "toggleOrder"
+      ]
+    },
+    {
+      "idx": 322,
+      "id": "",
+      "cls": "el-table__body",
+      "comp": "ElTableBody",
+      "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 269,
+        "y": 112,
+        "w": 1631,
+        "h": 37
+      },
+      "dataKeys": [
+        "tooltipContent"
+      ],
+      "data": {},
+      "methods": [
+        "getKeyOfRow",
+        "getRowStyle",
+        "getRowClass",
+        "rowRender",
+        "wrappedRowRender"
+      ]
+    },
+    {
+      "idx": 333,
+      "id": "",
+      "cls": "el-table__row el-table__row--level-0",
+      "comp": "ElTableRow",
+      "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "rect": {
+        "x": 269,
+        "y": 112,
+        "w": 1631,
+        "h": 37
+      },
+      "dataKeys": [],
+      "data": {},
+      "methods": []
+    },
+    {
+      "idx": 374,
+      "id": "",
+      "cls": "el-table__row el-table__row--level-1",
+      "comp": "ElTableRow",
+      "text": "NadirL21本云area0已部署已启动撤销部署停止 更新 部分更新 删除 全部展开",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "dataKeys": [],
+      "data": {},
+      "methods": []
+    }
+  ]
+}

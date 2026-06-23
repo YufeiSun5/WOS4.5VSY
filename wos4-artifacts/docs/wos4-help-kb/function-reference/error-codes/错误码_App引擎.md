@@ -1,0 +1,1935 @@
+# 错误码_App引擎
+
+- 分组：错误码
+- 原始章节名：错误码_App引擎
+- 内容块数量：3
+- 来源：WOS4 帮助手册 static/js/file.js
+
+## 正文
+
+# 1. 元语言App引擎错误码
+
+APP_COMMON_REPO_TASK_ALREADY_EXIST
+-210147
+仓库任务已存在
+
+APP_COMMON_GET_PROXY_BINDATA_FAILED
+-210146
+从部署代理获取irData失败
+
+APP_COMMON_SCRIPT_PARAM_ERROR
+-210145
+后台脚本模块入参错误
+
+APP_COMMON_SERVICE_NOT_ALLOWED
+-210144
+服务不可用
+
+APP_COMMON_AREA_NOT_ACTIVE
+-210143
+数据区未激活
+
+APP_COMMON_ENDTIME_LE_STARTTIME
+-210142
+结束时间小于等于开始时间
+
+APP_COMMON_APP_TASK_BUSY
+-210141
+App任务繁忙
+
+APP_COMMON_APP_NAME_EXIST
+-210140
+App name已存在
+
+APP_COMMON_SPACETIME_NOT_MISMATCH
+-210139
+时空不匹配
+
+APP_COMMON_CALL_BACK_FUNC_NAME_NOT_EXIST
+-210138
+回调函数名称不存在
+
+APP_COMMON_LOG_OBJECT_NOT_EXIST
+-210137
+日志对象不存在
+
+APP_COMMON_APP_TASK_EXIT
+-210136
+App任务退出
+
+APP_COMMON_APP_TASK_EXECUTE_EXCEPTION
+-210135
+App任务执行异常
+
+APP_COMMON_FU_USER_NOT_LOGON
+-210134
+App用户未登录或登录失败
+
+APP_COMMON_DES_APP_NOT_EXIST
+-210133
+目标App不存在
+
+APP_COMMON_SECURITY_TIMEOUT
+-210132
+安全库无响应
+
+APP_COMMON_MODELDB_TIMEOUT
+-210131
+模型库无响应
+
+APP_COMMON_REALTIMEDB_TIMEOUT
+-210130
+实时库无响应
+
+APP_COMMON_HISTORYDB_TIMEOUT
+-210129
+历史库无响应
+
+APP_COMMON_PLANDB_TIMEOUT
+-210128
+计划库无响应
+
+APP_COMMON_OBJECT_RELATIONDB_TIMEOUT
+-210127
+关系库无响应
+
+APP_COMMON_SPATIALDB_TIMEOUT
+-210126
+空间库无响应
+
+APP_COMMON_INTERFACEDB_TIMEOUT
+-210125
+接口库无响应
+
+APP_COMMON_RESOURCEDB_TIMEOUT
+-210124
+资源库无响应
+
+APP_COMMON_VEDIODB_TIMEOUT
+-210123
+视频库无响应
+
+APP_COMMON_AUDIT_TIMEOUT
+-210122
+审计无响应
+
+APP_COMMON_SYSTEM_ADMIN_TIMEOUT
+-210121
+系统运维无响应
+
+APP_COMMON_ENGINE_TIMEOUT
+-210120
+App引擎库无响应
+
+APP_COMMON_GATEWAY_TIMEOUT
+-210119
+业务网关无响应
+
+APP_COMMON_TERMINAL_GRAPH_TIMEOUT
+-210118
+图形库无响应
+
+APP_COMMON_APP_NAME_REPEATE
+-210117
+App名称重复
+
+APP_COMMON_EXIST_CHILD_SPACETIME_NOT_ALLOWED_DELETE
+-210116
+存在子时空不允许删除
+
+APP_COMMON_CLOUD_ID_INVAILD
+-210115
+云ID无效
+
+APP_COMMON_SPACETIME_COPY_ID_REPEATE
+-210114
+时空拷贝ID重复
+
+APP_COMMON_GUID_EXISTED
+-210113
+GUID已存在
+
+APP_COMMON_GUID_INVAILD
+-210112
+GUID非法
+
+APP_COMMON_EXIST_APP_IN_SPACETIME_NOT_SUPPORT_DELETE
+-210111
+时空下有App对象存在不能删除
+
+APP_COMMON_SYS_LIENSE_NUM_EXPIRY
+-210110
+系统授权数量超限
+
+APP_COMMON_APP_LIENSE_NUM_OVERRUN
+-210109
+App授权数量超限
+
+APP_COMMON_APP_LIENSE_TIME_OVERDUE
+-210108
+App授权过期
+
+APP_COMMON_SPACETIME_ID_EXISTED
+-210107
+时空ID已存在
+
+APP_COMMON_SPACETIME_ID_INVAILD
+-210106
+时空ID非法
+
+APP_COMMON_SPATIALDB_STORAGE_FAILURE_ROLLBACK
+-210105
+空间库入库失败，所有操作自动回滚
+
+APP_COMMON_OBJECT_RELATIONDB_STORAGE_FAILURE_ROLLBACK
+-210104
+关系库入库失败，所有操作自动回滚
+
+APP_COMMON_SESSION_ID_NOT_EXIST
+-210103
+会话ID不存在
+
+APP_COMMON_FILTER_NAME_NOT_SURPPORT
+-210102
+filter中有不支持过滤的字段
+
+APP_COMMON_LOCTIONID_NOT_EXIST
+-210101
+位置ID不存在
+
+APP_COMMON_QUERY_TYPE_NOT_EXIST
+-210100
+queryType查询类型不存在
+
+APP_COMMON_ID_NOT_BELONG_ONE_APP_TREE
+-210099
+ids数组中ID不在同一棵树上
+
+APP_COMMON_PART_FAILED
+-210098
+部分失败
+
+APP_COMMON_IDLIST_KIND_NOT_UNANIMOUS
+-210097
+ids数组中App对象Kind类型不一致
+
+APP_COMMON_COPY_TYPE_NOT_EXIST
+-210096
+copyType类型不存在
+
+APP_COMMON_STARTTIME_MORETHAN_ENDTIME
+-210095
+结束时间大于开始时间
+
+APP_COMMON_DES_APP_ID_NOT_EXIST
+-210094
+目标App对象ID不存在
+
+APP_COMMON_TIMER_ID_NOT_EXIST
+-210093
+timerID不存在
+
+APP_COMMON_APP_ID_SIZE_AND_FIELDS_SIZE_NOT_UNANIMOUS
+-210092
+App对象ID数组长度与字段数组长度不一致
+
+APP_COMMON_APP_ID_REPEATE
+-210091
+App对象ID重复
+
+APP_COMMON_APP_ID_NOT_EXIST
+-210090
+App对象ID不存在
+
+APP_COMMON_CLOUD_SPACE_TIME_SIZE_MORETHAN_1
+-210089
+cloudSpaceTimeInfos数组长度超过1
+
+APP_COMMON_PARENT_AND_CHILD_KIND_NOT_UNANIMOUS
+-210088
+子App的kind类型与父App的kind类型不一致
+
+APP_COMMON_PARENT_AND_CHILD_LANGUAGE_NOT_UNANIMOUS
+-210087
+子App语言类型与父App语言类型不一致
+
+APP_COMMON_CONFIG_INFO_NOT_APPLL
+-210086
+用户配置信息不全
+
+APP_COMMON_RELATION_TYPE_NOT_EXIST
+-210085
+spatialRelationType空间关系类型不存在
+
+APP_COMMON_APP_COPY_VERSION_NOT_EXIST
+-210084
+App拷贝版本不存在
+
+APP_COMMON_ALL_FAILED
+-210083
+全部失败
+
+APP_COMMON_REPOSITORYID_NOT_EXIST
+-210082
+仓库ID不存在
+
+APP_COMMON_APP_ID_EXISTED
+-210081
+App对象ID已存在
+
+APP_COMMON_APP_ID_INVAILD
+-210080
+App对象ID不符合规范
+
+APP_COMMON_SCREEN_SPACE_TIME_ID_NOT_EXIST
+-210079
+屏幕时空不存在
+
+APP_COMMON_APP_USER_NAME_AND_PASSWORD_INVALD
+-210078
+App用户密码效验错误
+
+APP_COMMON_USERID_MORETHAN_64
+-210077
+业务用户数组长度超64
+
+APP_COMMON_USERID_REPEATE
+-210076
+用户ID重复
+
+APP_COMMON_USERID_NOT_EXIST
+-210075
+用户ID不存在
+
+APP_COMMON_PARAM_LOST
+-210074
+必要字段缺失
+
+APP_COMMON_TYPE_AND_KIND_INVAILD
+-210073
+type和kind参数不匹配
+
+APP_COMMON_NOT_SUPPORT_ROLLBACK
+-210072
+此App对象未执行过升级操作，不允许回滚对象
+
+APP_COMMON_LEVEL_UP_CHECK_FAILED
+-210071
+升级检查未通过
+
+APP_COMMON_ID_AND_VERSION_NUM_DISACCORD
+-210070
+ID数量与模型版本数量不一致
+
+APP_COMMON_SPACETIMEID_NOT_EXIST
+-210069
+时空对象ID不存在
+
+APP_COMMON_NAME_TYPE_INVAILD
+-210068
+名称数据类型不匹配
+
+APP_COMMON_NAME_INCLUDE_INVAILD_CHAR
+-210067
+名称包含非法字符
+
+APP_COMMON_NAME_LENGTH_MORE_THAN_64
+-210066
+名称超出64字符
+
+APP_COMMON_CLOUD_REGION_ID_NOT_EXIST
+-210065
+云区域ID不存在
+
+APP_COMMON_MESSAGE_SIZE_MORE_THAN_64_BIT
+-210064
+消息信息超64个字节
+
+APP_COMMON_TASK_SIGN_NOT_EXIST
+-210063
+任务标识不存在
+
+APP_COMMON_FILTER_CONTITION_APP_OBJECT_NAME_NOT_EXIST
+-210062
+过滤条件App对象名称不存在
+
+APP_COMMON_FILTER_CONTITION_TIME_ERROR
+-210061
+过滤条件时间错误
+
+APP_COMMON_TRANSACTION_NOT_EXIST
+-210060
+事务不存在
+
+APP_COMMON_CHECK_FAILED_NOT_SUPPORT_CONMMIT
+-210059
+完整检查未通过，不予提交
+
+APP_COMMON_SECURITYDB_STORAGE_FAILURE_ROLLBACK
+-210058
+安全库入库失败，所有操作自动回滚
+
+APP_COMMON_RESOURCEDB_STORAGE_FAILURE_ROLLBACK
+-210057
+资源库入库失败，所有操作自动回滚
+
+APP_COMMON_MODELDB_STORAGE_FAILURE_ROLLBACK
+-210056
+模型库入库失败，所有操作自动回滚
+
+APP_COMMON_PLANDB_STORAGE_FAILURE_ROLLBACK
+-210055
+计划库入库失败，所有操作自动回滚
+
+APP_COMMON_HISTORYDB_STORAGE_FAILURE_ROLLBACK
+-210054
+历史库入库失败，所有操作自动回滚
+
+APP_COMMON_REALTIMEDB_STORAGE_FAILURE_ROLLBACK
+-210053
+实时库入库失败，所有操作自动回滚
+
+APP_COMMON_PARAM_TYPE_INVAILD
+-210052
+参数类型错误
+
+APP_COMMON_SEND_FAILED
+-210051
+发送失败
+
+APP_COMMON_DEC_APP_MODEL_ID_NOT_EXIST
+-210050
+目标App模型ID不存在
+
+APP_COMMON_APP_MODEL_SPACETIME_ID_NOT_EXIST
+-210049
+目标App时空对象ID不存在
+
+APP_COMMON_CHILD_APP_NOT_BELONG_PARENT_APP_SPASETIME_RANGE
+-210048
+超出父APP对象的时空对象范围
+
+APP_COMMON_FUNC_NAME_NOT_EXIST
+-210047
+被调用的函数名称不存在
+
+APP_COMMON_FUNC_NOT_SUPPORT
+-210046
+不支持调用OnCreateOnDestroy功能
+
+APP_COMMON_EXCUTE_SCRIPT_FAILED
+-210045
+被调用的函数脚本执行异常
+
+APP_COMMON_FUNC_PARAMS_AND_CALLED_FUNC_INCONSISTENT
+-210044
+本功能的入参params与被调功能funcName的参数类型及个数不一致
+
+APP_COMMON_FUNC_NOT_EXIST
+-210043
+被调用的函数不存在
+
+APP_COMMON_APP_MODULE_COPY_ID_NOT_EXIST
+-210042
+AppModule的模型拷贝ID不存在
+
+APP_COMMON_TIMER_PERIOD_NOT_NULL
+-210041
+定时周期Period不能为0
+
+APP_COMMON_TIMING_CALL_BACK
+-210040
+不支持在OnDestroy功能中发起定时回调
+
+APP_COMMON_NOT_SUPPORT_LOOP_CALL
+-210039
+不支持循环调用错误，如：功能A定时回调功能A
+
+APP_COMMON_NOT_SUPPORT_CALL_ONCREATE_OR_ONDESTORY
+-210038
+不支持调用或异步回调OnCreate、OnDestroy功能
+
+APP_COMMON_CUSTOM_APPNC_NOT_EXIST
+-210037
+指定的自定义功能不存在
+
+APP_COMMON_SUBSRIBE_ITEM_REPEATE
+-210036
+订阅项ID重复
+
+APP_COMMON_SUBSRIBE_ITEM_NOT_EXIST
+-210035
+订阅项ID不存在
+
+APP_COMMON_REPEATE_SUBSRIBE
+-210034
+重复订阅
+
+APP_COMMON_ID_NUM_AND_FIELDS_NUM_INCONSISTENT
+-210033
+ID数量与字段数量不一致
+
+APP_COMMON_TYPE_AND_FILED_NOT_MATCH
+-210032
+类型与字段不匹配
+
+APP_COMMON_ARRAY_LENGTH_MORE_THAN_64
+-210031
+用户数组长度超64
+
+APP_COMMON_ROOT_OBJECT_ID_NOT_EXIST
+-210030
+根App对象ID不存在
+
+APP_COMMON_APP_OBJECT_ID_REPEATE
+-210029
+App对象ID重复
+
+APP_COMMON_APP_OBJECT_ID_NOT_EXIST
+-210028
+App对象ID不存在
+
+APP_COMMON_APP_PATH_NOT_EXIST
+-210027
+App路径不存在
+
+APP_COMMON_PARENT_OBJECT_ID_NOT_EXIST
+-210026
+父App对象ID不存在
+
+APP_COMMON_AREAID_ROOT_OBJECT_AREAID_NOT_MATCH
+-210025
+数据区ID与根App对象数据区ID不匹配
+
+APP_COMMON_APP_COPY_ID_NOT_EXIST
+-210024
+App拷贝ID不存在
+
+APP_COMMON_APP_MODEL_VERSION_NOT_EXIST
+-210023
+App模型版本不存在
+
+APP_COMMON_APP_MODEL_ID_NOT_EXIST
+-210022
+App模型ID不存在
+
+APP_COMMON_MODE_NOT_EXIST
+-210021
+mode模式不存在
+
+APP_COMMON_KIND_NOT_EXIST
+-210020
+Kind模式不存在
+
+APP_COMMON_ARRAY_MAX_1024
+-210019
+批量操作数组长度超限，不能超过1024
+
+APP_COMMON_LIMIT_OF_AUTHORITY
+-210018
+权限不足
+
+APP_COMMON_FILED_INVAILD
+-210017
+字段值不符合值约束
+
+APP_COMMON_FILED_TYPE_NOT_MATCH
+-210016
+字段值类型不匹配
+
+APP_COMMON_FILED_NAME_REPEATE
+-210015
+字段名称重复
+
+APP_COMMON_FILED_NAME_NOT_EXIST
+-210014
+字段名称不存在
+
+APP_COMMON_ROLE_ARRAY_SIZE_MAOR_THAN_64
+-210013
+角色数组长度超64
+
+APP_COMMON_ROLE_ID_REPEATE
+-210012
+角色ID重复
+
+APP_COMMON_ROLE_ID_NOT_EXIST
+-210011
+角色ID不存在
+
+APP_COMMON_SPACETIME_COPY_ID_NOT_EXIST
+-210010
+时空拷贝ID不存在
+
+APP_COMMON_CLOUD_SPACETIME_ID_REPEATE
+-210009
+时空ID重复
+
+APP_COMMON_CLOUD_SPACETIME_ID_NOT_EXIST
+-210008
+时空ID不存在
+
+APP_COMMON_TIME_OUT
+-210007
+超时
+
+APP_COMMON_APP_USER_NAME_NOT_EXIST
+-210006
+App用户名不存在
+
+APP_COMMON_AREAID_NOT_EXIST
+-210005
+数据区ID不存在
+
+APP_COMMON_TYPE_NOT_EXIST
+-210004
+type类型不存在
+
+APP_COMMON_NOT_RETURN_RESPONSE
+-210003
+已发送消息给目标App对象但未收到响应
+
+APP_COMMON_CALLTYPE_NOT_EXIST
+-210002
+callType类型不存在
+
+APP_SCRIPT_SET_TIME_OUT_FAILED
+-210001
+设置超时时间失败
+
+APP_COMMON_FAILED
+-210000
+失败
+
+APP_DEPLOY_IMPORT_MODEL_TASK_STATUS_FAILED
+-211999
+导入模型库数据时查询导入状态失败
+
+# 1. 元语言App引擎错误码
+
+ 
+ 
+ 
+ 定义 
+ 错误码 
+ 错误描述 
+ 排查说明 
+ 
+ 
+ 
+ APP_COMMON_REPO_TASK_ALREADY_EXIST 
+ -210147 
+ 仓库任务已存在 
+ 
+ 
+ 
+ APP_COMMON_GET_PROXY_BINDATA_FAILED 
+ -210146 
+ 从部署代理获取irData失败 
+ 
+ 
+ 
+ APP_COMMON_SCRIPT_PARAM_ERROR 
+ -210145 
+ 后台脚本模块入参错误 
+ 
+ 
+ 
+ APP_COMMON_SERVICE_NOT_ALLOWED 
+ -210144 
+ 服务不可用 
+ 
+ 
+ 
+ APP_COMMON_AREA_NOT_ACTIVE 
+ -210143 
+ 数据区未激活 
+ 
+ 
+ 
+ APP_COMMON_ENDTIME_LE_STARTTIME 
+ -210142 
+ 结束时间小于等于开始时间 
+ 
+ 
+ 
+ APP_COMMON_APP_TASK_BUSY 
+ -210141 
+ App任务繁忙 
+ 
+ 
+ 
+ APP_COMMON_APP_NAME_EXIST 
+ -210140 
+ App name已存在 
+ 
+ 
+ 
+ APP_COMMON_SPACETIME_NOT_MISMATCH 
+ -210139 
+ 时空不匹配 
+ 
+ 
+ 
+ APP_COMMON_CALL_BACK_FUNC_NAME_NOT_EXIST 
+ -210138 
+ 回调函数名称不存在 
+ 
+ 
+ 
+ APP_COMMON_LOG_OBJECT_NOT_EXIST 
+ -210137 
+ 日志对象不存在 
+ 
+ 
+ 
+ APP_COMMON_APP_TASK_EXIT 
+ -210136 
+ App任务退出 
+ 
+ 
+ 
+ APP_COMMON_APP_TASK_EXECUTE_EXCEPTION 
+ -210135 
+ App任务执行异常 
+ 
+ 
+ 
+ APP_COMMON_FU_USER_NOT_LOGON 
+ -210134 
+ App用户未登录或登录失败 
+ 
+ 
+ 
+ APP_COMMON_DES_APP_NOT_EXIST 
+ -210133 
+ 目标App不存在 
+ 
+ 
+ 
+ APP_COMMON_SECURITY_TIMEOUT 
+ -210132 
+ 安全库无响应 
+ 
+ 
+ 
+ APP_COMMON_MODELDB_TIMEOUT 
+ -210131 
+ 模型库无响应 
+ 
+ 
+ 
+ APP_COMMON_REALTIMEDB_TIMEOUT 
+ -210130 
+ 实时库无响应 
+ 
+ 
+ 
+ APP_COMMON_HISTORYDB_TIMEOUT 
+ -210129 
+ 历史库无响应 
+ 
+ 
+ 
+ APP_COMMON_PLANDB_TIMEOUT 
+ -210128 
+ 计划库无响应 
+ 
+ 
+ 
+ APP_COMMON_OBJECT_RELATIONDB_TIMEOUT 
+ -210127 
+ 关系库无响应 
+ 
+ 
+ 
+ APP_COMMON_SPATIALDB_TIMEOUT 
+ -210126 
+ 空间库无响应 
+ 
+ 
+ 
+ APP_COMMON_INTERFACEDB_TIMEOUT 
+ -210125 
+ 接口库无响应 
+ 
+ 
+ 
+ APP_COMMON_RESOURCEDB_TIMEOUT 
+ -210124 
+ 资源库无响应 
+ 
+ 
+ 
+ APP_COMMON_VEDIODB_TIMEOUT 
+ -210123 
+ 视频库无响应 
+ 
+ 
+ 
+ APP_COMMON_AUDIT_TIMEOUT 
+ -210122 
+ 审计无响应 
+ 
+ 
+ 
+ APP_COMMON_SYSTEM_ADMIN_TIMEOUT 
+ -210121 
+ 系统运维无响应 
+ 
+ 
+ 
+ APP_COMMON_ENGINE_TIMEOUT 
+ -210120 
+ App引擎库无响应 
+ 
+ 
+ 
+ APP_COMMON_GATEWAY_TIMEOUT 
+ -210119 
+ 业务网关无响应 
+ 
+ 
+ 
+ APP_COMMON_TERMINAL_GRAPH_TIMEOUT 
+ -210118 
+ 图形库无响应 
+ 
+ 
+ 
+ APP_COMMON_APP_NAME_REPEATE 
+ -210117 
+ App名称重复 
+ 
+ 
+ 
+ APP_COMMON_EXIST_CHILD_SPACETIME_NOT_ALLOWED_DELETE 
+ -210116 
+ 存在子时空不允许删除 
+ 
+ 
+ 
+ APP_COMMON_CLOUD_ID_INVAILD 
+ -210115 
+ 云ID无效 
+ 
+ 
+ 
+ APP_COMMON_SPACETIME_COPY_ID_REPEATE 
+ -210114 
+ 时空拷贝ID重复 
+ 
+ 
+ 
+ APP_COMMON_GUID_EXISTED 
+ -210113 
+ GUID已存在 
+ 
+ 
+ 
+ APP_COMMON_GUID_INVAILD 
+ -210112 
+ GUID非法 
+ 
+ 
+ 
+ APP_COMMON_EXIST_APP_IN_SPACETIME_NOT_SUPPORT_DELETE 
+ -210111 
+ 时空下有App对象存在不能删除 
+ 
+ 
+ 
+ APP_COMMON_SYS_LIENSE_NUM_EXPIRY 
+ -210110 
+ 系统授权数量超限 
+ 
+ 
+ 
+ APP_COMMON_APP_LIENSE_NUM_OVERRUN 
+ -210109 
+ App授权数量超限 
+ 
+ 
+ 
+ APP_COMMON_APP_LIENSE_TIME_OVERDUE 
+ -210108 
+ App授权过期 
+ 
+ 
+ 
+ APP_COMMON_SPACETIME_ID_EXISTED 
+ -210107 
+ 时空ID已存在 
+ 
+ 
+ 
+ APP_COMMON_SPACETIME_ID_INVAILD 
+ -210106 
+ 时空ID非法 
+ 
+ 
+ 
+ APP_COMMON_SPATIALDB_STORAGE_FAILURE_ROLLBACK 
+ -210105 
+ 空间库入库失败，所有操作自动回滚 
+ 
+ 
+ 
+ APP_COMMON_OBJECT_RELATIONDB_STORAGE_FAILURE_ROLLBACK 
+ -210104 
+ 关系库入库失败，所有操作自动回滚 
+ 
+ 
+ 
+ APP_COMMON_SESSION_ID_NOT_EXIST 
+ -210103 
+ 会话ID不存在 
+ 
+ 
+ 
+ APP_COMMON_FILTER_NAME_NOT_SURPPORT 
+ -210102 
+ filter中有不支持过滤的字段 
+ 
+ 
+ 
+ APP_COMMON_LOCTIONID_NOT_EXIST 
+ -210101 
+ 位置ID不存在 
+ 
+ 
+ 
+ APP_COMMON_QUERY_TYPE_NOT_EXIST 
+ -210100 
+ queryType查询类型不存在 
+ 
+ 
+ 
+ APP_COMMON_ID_NOT_BELONG_ONE_APP_TREE 
+ -210099 
+ ids数组中ID不在同一棵树上 
+ 
+ 
+ 
+ APP_COMMON_PART_FAILED 
+ -210098 
+ 部分失败 
+ 
+ 
+ 
+ APP_COMMON_IDLIST_KIND_NOT_UNANIMOUS 
+ -210097 
+ ids数组中App对象Kind类型不一致 
+ 
+ 
+ 
+ APP_COMMON_COPY_TYPE_NOT_EXIST 
+ -210096 
+ copyType类型不存在 
+ 
+ 
+ 
+ APP_COMMON_STARTTIME_MORETHAN_ENDTIME 
+ -210095 
+ 结束时间大于开始时间 
+ 
+ 
+ 
+ APP_COMMON_DES_APP_ID_NOT_EXIST 
+ -210094 
+ 目标App对象ID不存在 
+ 
+ 
+ 
+ APP_COMMON_TIMER_ID_NOT_EXIST 
+ -210093 
+ timerID不存在 
+ 
+ 
+ 
+ APP_COMMON_APP_ID_SIZE_AND_FIELDS_SIZE_NOT_UNANIMOUS 
+ -210092 
+ App对象ID数组长度与字段数组长度不一致 
+ 
+ 
+ 
+ APP_COMMON_APP_ID_REPEATE 
+ -210091 
+ App对象ID重复 
+ 
+ 
+ 
+ APP_COMMON_APP_ID_NOT_EXIST 
+ -210090 
+ App对象ID不存在 
+ 
+ 
+ 
+ APP_COMMON_CLOUD_SPACE_TIME_SIZE_MORETHAN_1 
+ -210089 
+ cloudSpaceTimeInfos数组长度超过1 
+ 
+ 
+ 
+ APP_COMMON_PARENT_AND_CHILD_KIND_NOT_UNANIMOUS 
+ -210088 
+ 子App的kind类型与父App的kind类型不一致 
+ 
+ 
+ 
+ APP_COMMON_PARENT_AND_CHILD_LANGUAGE_NOT_UNANIMOUS 
+ -210087 
+ 子App语言类型与父App语言类型不一致 
+ 
+ 
+ 
+ APP_COMMON_CONFIG_INFO_NOT_APPLL 
+ -210086 
+ 用户配置信息不全 
+ 
+ 
+ 
+ APP_COMMON_RELATION_TYPE_NOT_EXIST 
+ -210085 
+ spatialRelationType空间关系类型不存在 
+ 
+ 
+ 
+ APP_COMMON_APP_COPY_VERSION_NOT_EXIST 
+ -210084 
+ App拷贝版本不存在 
+ 
+ 
+ 
+ APP_COMMON_ALL_FAILED 
+ -210083 
+ 全部失败 
+ 
+ 
+ 
+ APP_COMMON_REPOSITORYID_NOT_EXIST 
+ -210082 
+ 仓库ID不存在 
+ 
+ 
+ 
+ APP_COMMON_APP_ID_EXISTED 
+ -210081 
+ App对象ID已存在 
+ 
+ 
+ 
+ APP_COMMON_APP_ID_INVAILD 
+ -210080 
+ App对象ID不符合规范 
+ 
+ 
+ 
+ APP_COMMON_SCREEN_SPACE_TIME_ID_NOT_EXIST 
+ -210079 
+ 屏幕时空不存在 
+ 
+ 
+ 
+ APP_COMMON_APP_USER_NAME_AND_PASSWORD_INVALD 
+ -210078 
+ App用户密码效验错误 
+ 
+ 
+ 
+ APP_COMMON_USERID_MORETHAN_64 
+ -210077 
+ 业务用户数组长度超64 
+ 
+ 
+ 
+ APP_COMMON_USERID_REPEATE 
+ -210076 
+ 用户ID重复 
+ 
+ 
+ 
+ APP_COMMON_USERID_NOT_EXIST 
+ -210075 
+ 用户ID不存在 
+ 
+ 
+ 
+ APP_COMMON_PARAM_LOST 
+ -210074 
+ 必要字段缺失 
+ 
+ 
+ 
+ APP_COMMON_TYPE_AND_KIND_INVAILD 
+ -210073 
+ type和kind参数不匹配 
+ 
+ 
+ 
+ APP_COMMON_NOT_SUPPORT_ROLLBACK 
+ -210072 
+ 此App对象未执行过升级操作，不允许回滚对象 
+ 
+ 
+ 
+ APP_COMMON_LEVEL_UP_CHECK_FAILED 
+ -210071 
+ 升级检查未通过 
+ 
+ 
+ 
+ APP_COMMON_ID_AND_VERSION_NUM_DISACCORD 
+ -210070 
+ ID数量与模型版本数量不一致 
+ 
+ 
+ 
+ APP_COMMON_SPACETIMEID_NOT_EXIST 
+ -210069 
+ 时空对象ID不存在 
+ 
+ 
+ 
+ APP_COMMON_NAME_TYPE_INVAILD 
+ -210068 
+ 名称数据类型不匹配 
+ 
+ 
+ 
+ APP_COMMON_NAME_INCLUDE_INVAILD_CHAR 
+ -210067 
+ 名称包含非法字符 
+ 
+ 
+ 
+ APP_COMMON_NAME_LENGTH_MORE_THAN_64 
+ -210066 
+ 名称超出64字符 
+ 
+ 
+ 
+ APP_COMMON_CLOUD_REGION_ID_NOT_EXIST 
+ -210065 
+ 云区域ID不存在 
+ 
+ 
+ 
+ APP_COMMON_MESSAGE_SIZE_MORE_THAN_64_BIT 
+ -210064 
+ 消息信息超64个字节 
+ 
+ 
+ 
+ APP_COMMON_TASK_SIGN_NOT_EXIST 
+ -210063 
+ 任务标识不存在 
+ 
+ 
+ 
+ APP_COMMON_FILTER_CONTITION_APP_OBJECT_NAME_NOT_EXIST 
+ -210062 
+ 过滤条件App对象名称不存在 
+ 
+ 
+ 
+ APP_COMMON_FILTER_CONTITION_TIME_ERROR 
+ -210061 
+ 过滤条件时间错误 
+ 
+ 
+ 
+ APP_COMMON_TRANSACTION_NOT_EXIST 
+ -210060 
+ 事务不存在 
+ 
+ 
+ 
+ APP_COMMON_CHECK_FAILED_NOT_SUPPORT_CONMMIT 
+ -210059 
+ 完整检查未通过，不予提交 
+ 
+ 
+ 
+ APP_COMMON_SECURITYDB_STORAGE_FAILURE_ROLLBACK 
+ -210058 
+ 安全库入库失败，所有操作自动回滚 
+ 
+ 
+ 
+ APP_COMMON_RESOURCEDB_STORAGE_FAILURE_ROLLBACK 
+ -210057 
+ 资源库入库失败，所有操作自动回滚 
+ 
+ 
+ 
+ APP_COMMON_MODELDB_STORAGE_FAILURE_ROLLBACK 
+ -210056 
+ 模型库入库失败，所有操作自动回滚 
+ 
+ 
+ 
+ APP_COMMON_PLANDB_STORAGE_FAILURE_ROLLBACK 
+ -210055 
+ 计划库入库失败，所有操作自动回滚 
+ 
+ 
+ 
+ APP_COMMON_HISTORYDB_STORAGE_FAILURE_ROLLBACK 
+ -210054 
+ 历史库入库失败，所有操作自动回滚 
+ 
+ 
+ 
+ APP_COMMON_REALTIMEDB_STORAGE_FAILURE_ROLLBACK 
+ -210053 
+ 实时库入库失败，所有操作自动回滚 
+ 
+ 
+ 
+ APP_COMMON_PARAM_TYPE_INVAILD 
+ -210052 
+ 参数类型错误 
+ 
+ 
+ 
+ APP_COMMON_SEND_FAILED 
+ -210051 
+ 发送失败 
+ 
+ 
+ 
+ APP_COMMON_DEC_APP_MODEL_ID_NOT_EXIST 
+ -210050 
+ 目标App模型ID不存在 
+ 
+ 
+ 
+ APP_COMMON_APP_MODEL_SPACETIME_ID_NOT_EXIST 
+ -210049 
+ 目标App时空对象ID不存在 
+ 
+ 
+ 
+ APP_COMMON_CHILD_APP_NOT_BELONG_PARENT_APP_SPASETIME_RANGE 
+ -210048 
+ 超出父APP对象的时空对象范围 
+ 
+ 
+ 
+ APP_COMMON_FUNC_NAME_NOT_EXIST 
+ -210047 
+ 被调用的函数名称不存在 
+ 
+ 
+ 
+ APP_COMMON_FUNC_NOT_SUPPORT 
+ -210046 
+ 不支持调用OnCreateOnDestroy功能 
+ 
+ 
+ 
+ APP_COMMON_EXCUTE_SCRIPT_FAILED 
+ -210045 
+ 被调用的函数脚本执行异常 
+ 
+ 
+ 
+ APP_COMMON_FUNC_PARAMS_AND_CALLED_FUNC_INCONSISTENT 
+ -210044 
+ 本功能的入参params与被调功能funcName的参数类型及个数不一致 
+ 
+ 
+ 
+ APP_COMMON_FUNC_NOT_EXIST 
+ -210043 
+ 被调用的函数不存在 
+ 
+ 
+ 
+ APP_COMMON_APP_MODULE_COPY_ID_NOT_EXIST 
+ -210042 
+ AppModule的模型拷贝ID不存在 
+ 
+ 
+ 
+ APP_COMMON_TIMER_PERIOD_NOT_NULL 
+ -210041 
+ 定时周期Period不能为0 
+ 
+ 
+ 
+ APP_COMMON_TIMING_CALL_BACK 
+ -210040 
+ 不支持在OnDestroy功能中发起定时回调 
+ 
+ 
+ 
+ APP_COMMON_NOT_SUPPORT_LOOP_CALL 
+ -210039 
+ 不支持循环调用错误，如：功能A定时回调功能A 
+ 
+ 
+ 
+ APP_COMMON_NOT_SUPPORT_CALL_ONCREATE_OR_ONDESTORY 
+ -210038 
+ 不支持调用或异步回调OnCreate、OnDestroy功能 
+ 
+ 
+ 
+ APP_COMMON_CUSTOM_APPNC_NOT_EXIST 
+ -210037 
+ 指定的自定义功能不存在 
+ 
+ 
+ 
+ APP_COMMON_SUBSRIBE_ITEM_REPEATE 
+ -210036 
+ 订阅项ID重复 
+ 
+ 
+ 
+ APP_COMMON_SUBSRIBE_ITEM_NOT_EXIST 
+ -210035 
+ 订阅项ID不存在 
+ 
+ 
+ 
+ APP_COMMON_REPEATE_SUBSRIBE 
+ -210034 
+ 重复订阅 
+ 
+ 
+ 
+ APP_COMMON_ID_NUM_AND_FIELDS_NUM_INCONSISTENT 
+ -210033 
+ ID数量与字段数量不一致 
+ 
+ 
+ 
+ APP_COMMON_TYPE_AND_FILED_NOT_MATCH 
+ -210032 
+ 类型与字段不匹配 
+ 
+ 
+ 
+ APP_COMMON_ARRAY_LENGTH_MORE_THAN_64 
+ -210031 
+ 用户数组长度超64 
+ 
+ 
+ 
+ APP_COMMON_ROOT_OBJECT_ID_NOT_EXIST 
+ -210030 
+ 根App对象ID不存在 
+ 
+ 
+ 
+ APP_COMMON_APP_OBJECT_ID_REPEATE 
+ -210029 
+ App对象ID重复 
+ 
+ 
+ 
+ APP_COMMON_APP_OBJECT_ID_NOT_EXIST 
+ -210028 
+ App对象ID不存在 
+ 
+ 
+ 
+ APP_COMMON_APP_PATH_NOT_EXIST 
+ -210027 
+ App路径不存在 
+ 
+ 
+ 
+ APP_COMMON_PARENT_OBJECT_ID_NOT_EXIST 
+ -210026 
+ 父App对象ID不存在 
+ 
+ 
+ 
+ APP_COMMON_AREAID_ROOT_OBJECT_AREAID_NOT_MATCH 
+ -210025 
+ 数据区ID与根App对象数据区ID不匹配 
+ 
+ 
+ 
+ APP_COMMON_APP_COPY_ID_NOT_EXIST 
+ -210024 
+ App拷贝ID不存在 
+ 
+ 
+ 
+ APP_COMMON_APP_MODEL_VERSION_NOT_EXIST 
+ -210023 
+ App模型版本不存在 
+ 
+ 
+ 
+ APP_COMMON_APP_MODEL_ID_NOT_EXIST 
+ -210022 
+ App模型ID不存在 
+ 
+ 
+ 
+ APP_COMMON_MODE_NOT_EXIST 
+ -210021 
+ mode模式不存在 
+ 
+ 
+ 
+ APP_COMMON_KIND_NOT_EXIST 
+ -210020 
+ Kind模式不存在 
+ 
+ 
+ 
+ APP_COMMON_ARRAY_MAX_1024 
+ -210019 
+ 批量操作数组长度超限，不能超过1024 
+ 
+ 
+ 
+ APP_COMMON_LIMIT_OF_AUTHORITY 
+ -210018 
+ 权限不足 
+ 
+ 
+ 
+ APP_COMMON_FILED_INVAILD 
+ -210017 
+ 字段值不符合值约束 
+ 
+ 
+ 
+ APP_COMMON_FILED_TYPE_NOT_MATCH 
+ -210016 
+ 字段值类型不匹配 
+ 
+ 
+ 
+ APP_COMMON_FILED_NAME_REPEATE 
+ -210015 
+ 字段名称重复 
+ 
+ 
+ 
+ APP_COMMON_FILED_NAME_NOT_EXIST 
+ -210014 
+ 字段名称不存在 
+ 
+ 
+ 
+ APP_COMMON_ROLE_ARRAY_SIZE_MAOR_THAN_64 
+ -210013 
+ 角色数组长度超64 
+ 
+ 
+ 
+ APP_COMMON_ROLE_ID_REPEATE 
+ -210012 
+ 角色ID重复 
+ 
+ 
+ 
+ APP_COMMON_ROLE_ID_NOT_EXIST 
+ -210011 
+ 角色ID不存在 
+ 
+ 
+ 
+ APP_COMMON_SPACETIME_COPY_ID_NOT_EXIST 
+ -210010 
+ 时空拷贝ID不存在 
+ 
+ 
+ 
+ APP_COMMON_CLOUD_SPACETIME_ID_REPEATE 
+ -210009 
+ 时空ID重复 
+ 
+ 
+ 
+ APP_COMMON_CLOUD_SPACETIME_ID_NOT_EXIST 
+ -210008 
+ 时空ID不存在 
+ 
+ 
+ 
+ APP_COMMON_TIME_OUT 
+ -210007 
+ 超时 
+ 
+ 
+ 
+ APP_COMMON_APP_USER_NAME_NOT_EXIST 
+ -210006 
+ App用户名不存在 
+ 
+ 
+ 
+ APP_COMMON_AREAID_NOT_EXIST 
+ -210005 
+ 数据区ID不存在 
+ 
+ 
+ 
+ APP_COMMON_TYPE_NOT_EXIST 
+ -210004 
+ type类型不存在 
+ 
+ 
+ 
+ APP_COMMON_NOT_RETURN_RESPONSE 
+ -210003 
+ 已发送消息给目标App对象但未收到响应 
+ 
+ 
+ 
+ APP_COMMON_CALLTYPE_NOT_EXIST 
+ -210002 
+ callType类型不存在 
+ 
+ 
+ 
+ APP_SCRIPT_SET_TIME_OUT_FAILED 
+ -210001 
+ 设置超时时间失败 
+ 
+ 
+ 
+ APP_COMMON_FAILED 
+ -210000 
+ 失败 
+ 
+ 
+ 
+ APP_DEPLOY_IMPORT_MODEL_TASK_STATUS_FAILED 
+ -211999 
+ 导入模型库数据时查询导入状态失败 
+ 
+ 
+ 
+
+# 2. WebJS App引擎错误码
+
+TryCatchError
+-221000
+系统异常错误
+
+Failed
+-220000
+失败
+
+TypeNotExist
+-220003
+type类型不存在
+
+TimeOut
+-220006
+超时
+
+ParamTypeError
+-220051
+参数类型错误
+
+TxNotExist
+-220059
+事务不存在
+
+CloudNotExist
+-220064
+云区域ID不存在
+
+TxRealTimeDBFailed
+-220052
+实时库入库失败，所有操作自动回滚
+
+TxHistoryDBFailed
+-220053
+历史库入库失败，所有操作自动回滚
+
+TxPlanDBFailed
+-220054
+计划库入库失败，所有操作自动回滚
+
+TxModelDBFailed
+-220055
+模型库入库失败，所有操作自动回滚
+
+TxResourceDBFailed
+-220056
+资源库入库失败，所有操作自动回滚
+
+TxSecurityDBFailed
+-220057
+安全库入库失败，所有操作自动回滚
+
+TxSpatialDBFailed
+-220104
+空间库入库失败，所有操作自动回滚
+
+TxRelationDBFailed
+-220103
+关系库入库失败，所有操作自动回滚
+
+FilterNameNotSupport
+-220101
+filter中有不支持过滤的字段
+
+ErrorCodeNotExist
+-221001
+错误码不存在
+
+NumOfFieldAndIdNotMatch
+-220032
+ID数量与字段数量不一致
+
+AppIDIsRepeat
+-220090
+App对象ID重复
+
+QueryTypeNotExist
+-220099
+queryType查询类型不存在
+
+ReturnGuidNotExist
+-220100
+returnGuid不存在
+
+FieldNameIsRepeat
+-220014
+字段名称重复
+
+KindNotExist
+-220019
+Kind类型不存在
+
+FieldNameNotExist
+-220013
+字段名称不存在
+
+CrossLevelOperation
+-220036
+禁止跨级操作
+
+NecessFieldMissing
+-220073
+必要字段缺失
+
+ModeIsNotExist
+-220020
+mode模式不存在
+
+AppIDNotExist
+-220027
+App对象ID不存在
+
+AppObjectIDRepeat
+-220028
+App对象ID重复
+
+FieldValueMismatch
+-220015
+字段值类型不匹配
+
+FieldValueInvalid
+-220016
+字段值不符合值约束
+
+FieldValueCanNotChange
+-220200
+存在属性无法修改
+
+BatchOperateLimit
+-220018
+批量操作数组长度超限，不能超过1024
+
+SuscribeIDNotFind
+-220034
+订阅项ID不存在
+
+SuscribeIDRepeat
+-220035
+订阅项ID重复
+
+NameIncludeInvaildChar
+-220066
+名称包含非法字符
+
+ArrLengthMismatch
+-223942
+数组长度不匹配
+
+SessionNotExist
+-220102
+会话不存在
+
+SuscribeNameIsExist
+-224001
+订阅名已存在
+
+SuscribeNameIsNotExist
+-224002
+订阅名不存在
+
+SpaceTimeIDIsNotExist
+-222999
+访问的时空不存在
+
+# 2. WebJS App引擎错误码
+
+ 
+ 
+ 
+ 定义 
+ 错误码 
+ 错误描述 
+ 排查说明 
+ 
+ 
+ 
+ TryCatchError 
+ -221000 
+ 系统异常错误 
+ 
+ 
+ 
+ Failed 
+ -220000 
+ 失败 
+ 
+ 
+ 
+ TypeNotExist 
+ -220003 
+ type类型不存在 
+ 
+ 
+ 
+ TimeOut 
+ -220006 
+ 超时 
+ 
+ 
+ 
+ ParamTypeError 
+ -220051 
+ 参数类型错误 
+ 
+ 
+ 
+ TxNotExist 
+ -220059 
+ 事务不存在 
+ 
+ 
+ 
+ CloudNotExist 
+ -220064 
+ 云区域ID不存在 
+ 
+ 
+ 
+ TxRealTimeDBFailed 
+ -220052 
+ 实时库入库失败，所有操作自动回滚 
+ 
+ 
+ 
+ TxHistoryDBFailed 
+ -220053 
+ 历史库入库失败，所有操作自动回滚 
+ 
+ 
+ 
+ TxPlanDBFailed 
+ -220054 
+ 计划库入库失败，所有操作自动回滚 
+ 
+ 
+ 
+ TxModelDBFailed 
+ -220055 
+ 模型库入库失败，所有操作自动回滚 
+ 
+ 
+ 
+ TxResourceDBFailed 
+ -220056 
+ 资源库入库失败，所有操作自动回滚 
+ 
+ 
+ 
+ TxSecurityDBFailed 
+ -220057 
+ 安全库入库失败，所有操作自动回滚 
+ 
+ 
+ 
+ TxSpatialDBFailed 
+ -220104 
+ 空间库入库失败，所有操作自动回滚 
+ 
+ 
+ 
+ TxRelationDBFailed 
+ -220103 
+ 关系库入库失败，所有操作自动回滚 
+ 
+ 
+ 
+ FilterNameNotSupport 
+ -220101 
+ filter中有不支持过滤的字段 
+ 
+ 
+ 
+ ErrorCodeNotExist 
+ -221001 
+ 错误码不存在 
+ 
+ 
+ 
+ NumOfFieldAndIdNotMatch 
+ -220032 
+ ID数量与字段数量不一致 
+ 
+ 
+ 
+ AppIDIsRepeat 
+ -220090 
+ App对象ID重复 
+ 
+ 
+ 
+ QueryTypeNotExist 
+ -220099 
+ queryType查询类型不存在 
+ 
+ 
+ 
+ ReturnGuidNotExist 
+ -220100 
+ returnGuid不存在 
+ 
+ 
+ 
+ FieldNameIsRepeat 
+ -220014 
+ 字段名称重复 
+ 
+ 
+ 
+ KindNotExist 
+ -220019 
+ Kind类型不存在 
+ 
+ 
+ 
+ FieldNameNotExist 
+ -220013 
+ 字段名称不存在 
+ 
+ 
+ 
+ CrossLevelOperation 
+ -220036 
+ 禁止跨级操作 
+ 
+ 
+ 
+ NecessFieldMissing 
+ -220073 
+ 必要字段缺失 
+ 
+ 
+ 
+ ModeIsNotExist 
+ -220020 
+ mode模式不存在 
+ 
+ 
+ 
+ AppIDNotExist 
+ -220027 
+ App对象ID不存在 
+ 
+ 
+ 
+ AppObjectIDRepeat 
+ -220028 
+ App对象ID重复 
+ 
+ 
+ 
+ FieldValueMismatch 
+ -220015 
+ 字段值类型不匹配 
+ 
+ 
+ 
+ FieldValueInvalid 
+ -220016 
+ 字段值不符合值约束 
+ 
+ 
+ 
+ FieldValueCanNotChange 
+ -220200 
+ 存在属性无法修改 
+ 
+ 
+ 
+ BatchOperateLimit 
+ -220018 
+ 批量操作数组长度超限，不能超过1024 
+ 
+ 
+ 
+ SuscribeIDNotFind 
+ -220034 
+ 订阅项ID不存在 
+ 
+ 
+ 
+ SuscribeIDRepeat 
+ -220035 
+ 订阅项ID重复 
+ 
+ 
+ 
+ NameIncludeInvaildChar 
+ -220066 
+ 名称包含非法字符 
+ 
+ 
+ 
+ ArrLengthMismatch 
+ -223942 
+ 数组长度不匹配 
+ 
+ 
+ 
+ SessionNotExist 
+ -220102 
+ 会话不存在 
+ 
+ 
+ 
+ SuscribeNameIsExist 
+ -224001 
+ 订阅名已存在 
+ 
+ 
+ 
+ SuscribeNameIsNotExist 
+ -224002 
+ 订阅名不存在 
+ 
+ 
+ 
+ SpaceTimeIDIsNotExist 
+ -222999 
+ 访问的时空不存在

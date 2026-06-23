@@ -1,0 +1,263 @@
+{
+  "calls": {
+    "out": [
+      {
+        "name": "button",
+        "keys": [
+          "_events",
+          "_hasHookEvent",
+          "$createElement",
+          "handleClick"
+        ],
+        "handleClick": "undefined"
+      },
+      {
+        "name": "component",
+        "keys": [
+          "_events",
+          "_hasHookEvent",
+          "$createElement",
+          "initLinkMngUi",
+          "getLinkAnimate",
+          "setLinkAnimate",
+          "evalUiInputLinkBase",
+          "registerUiInputLink",
+          "upDateLink",
+          "linkToPropertyJson",
+          "SetUIEventConfig",
+          "handleParentItem",
+          "handleClickBadge",
+          "getPubEventList",
+          "setBtnLinkChangeDataSet",
+          "getDataSetLinkInfo",
+          "setBtnLinkChangePubEvent",
+          "setBtnLinkChangeParamLinkVar",
+          "getParamLinkInfo",
+          "evalUiInputLink",
+          "setButtonLinkData",
+          "linkList",
+          "eventArray",
+          "uiInputLinkList",
+          "handleEvent"
+        ],
+        "handleEvent": "undefined",
+        "handleParentItem": "undefined",
+        "handleClickBadge": "undefined"
+      }
+    ],
+    "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\nempty\n共 0 条\n<1>前往页\n\n根组下不允许创建！\n\n根组下不允许创建！",
+    "dialogs": [
+      {
+        "i": 0,
+        "text": "",
+        "cls": "el-dialog",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "visible": false
+      },
+      {
+        "i": 1,
+        "text": "",
+        "cls": "el-dialog",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "visible": false
+      },
+      {
+        "i": 2,
+        "text": "根组下不允许创建！",
+        "cls": "el-message el-message--warning is-closable el-message-fade-leave-active el-message-fade-leave-to",
+        "rect": {
+          "x": 530,
+          "y": -18.681766510009766,
+          "w": 380,
+          "h": 46
+        },
+        "visible": true
+      },
+      {
+        "i": 3,
+        "text": "根组下不允许创建！",
+        "cls": "el-message el-message--warning is-closable",
+        "rect": {
+          "x": 530,
+          "y": 29.859375,
+          "w": 380,
+          "h": 46
+        },
+        "visible": true
+      }
+    ]
+  },
+  "after": {
+    "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\nempty\n共 0 条\n<1>前往页",
+    "dialogs": [
+      {
+        "i": 0,
+        "text": "",
+        "cls": "el-dialog",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "visible": false
+      },
+      {
+        "i": 1,
+        "text": "",
+        "cls": "el-dialog",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "visible": false
+      }
+    ]
+  },
+  "logs": [
+    {
+      "type": "log",
+      "text": "connect success"
+    },
+    {
+      "type": "log",
+      "text": "插入数据失败 InvalidStateError: Failed to execute 'transaction' on 'IDBDatabase': A version change transaction is running.\n    at b._insert (http://221.239.19.118:13001/assets/heart.worker-D544ST6X.js:1:712)\n    at b.log (http://221.239.19.118:13001/assets/heart.worker-D544ST6X.js:1:591)\n    at o (http://221.239.19.118:13001/assets/heart.worker-D544ST6X.js:1:932)\n    at http://221.239.19.118:13001/assets/heart.worker-D544ST6X.js:1:1204"
+    },
+    {
+      "type": "log",
+      "text": "connect success"
+    },
+    {
+      "type": "log",
+      "text": "connect success"
+    },
+    {
+      "type": "log",
+      "text": "KGSDataObjMng init"
+    },
+    {
+      "type": "log",
+      "text": "全局脚本资源未找到"
+    },
+    {
+      "type": "log",
+      "text": "客户端 ShowPage子store初始化 {mode: undefined, FUType: undefined, type: undefined, guid: undefined, id: undefined}"
+    },
+    {
+      "type": "warning",
+      "text": "Timer '客户端-页面入口' does not exist"
+    },
+    {
+      "type": "log",
+      "text": "initWebJsFuncList start"
+    },
+    {
+      "type": "log",
+      "text": "registerLink"
+    },
+    {
+      "type": "log",
+      "text": "页面名称: 开发系统_框架页面_v1 PARENT_STORE_PARAM: {pageName: undefined, child$StoreName: undefined, fuObj: undefined, spaceTime: undefined, currentUserKeys: undefined}"
+    },
+    {
+      "type": "log",
+      "text": "registerDataSet"
+    },
+    {
+      "type": "log",
+      "text": "KGSDataObjMng subscribeDataObj"
+    },
+    {
+      "type": "warning",
+      "text": "Timer '客户端-页面创建' does not exist"
+    },
+    {
+      "type": "timeEnd",
+      "text": "tree1: 0.10205078125 ms"
+    },
+    {
+      "type": "log",
+      "text": "客户端 SetPage子store初始化 {mode: production, FUType: 21, type: 1025, guid: 45352e96-9472-49f0-9189-80bf407dfd45, id: 7205759403792794678}"
+    },
+    {
+      "type": "log",
+      "text": "initWebJsFuncList start"
+    },
+    {
+      "type": "log",
+      "text": "registerLink"
+    },
+    {
+      "type": "log",
+      "text": "页面名称: 数字孪生建模_框架页面 PARENT_STORE_PARAM: {child$StoreName: undefined, fuObj: undefined, spaceTime: undefined, currentUserKeys: undefined, pageName: undefined}"
+    },
+    {
+      "type": "log",
+      "text": "registerDataSet"
+    },
+    {
+      "type": "log",
+      "text": "KGSDataObjMng subscribeDataObj"
+    },
+    {
+      "type": "warning",
+      "text": "Timer '客户端-页面创建' does not exist"
+    },
+    {
+      "type": "log",
+      "text": "{ret: 0, msg: 修改成功!}"
+    },
+    {
+      "type": "log",
+      "text": "-I- <数字孪生建模_框架页面> currentPageInfo =  {id: 7205759403792794678, guid: 45352e96-9472-49f0-9189-80bf407dfd45, type: 1025, name: 数字孪生建模_框架页面, spaceTime: Object}"
+    },
+    {
+      "type": "log",
+      "text": "0"
+    },
+    {
+      "type": "log",
+      "text": "远程调用后台APP查询客户端拷贝，res =  {errorcodes: Array(1), ret: 0, returndata: Object, traceID: 5189158649130439680, consumeTime: 66}"
+    },
+    {
+      "type": "log",
+      "text": "0"
+    },
+    {
+      "type": "log",
+      "text": "远程调用后台APP查询客户端拷贝，res =  {errorcodes: Array(1), ret: 0, returndata: Object, traceID: 5189158649436372992, consumeTime: 95}"
+    },
+    {
+      "type": "log",
+      "text": "0"
+    },
+    {
+      "type": "log",
+      "text": "0"
+    },
+    {
+      "type": "log",
+      "text": "0"
+    },
+    {
+      "type": "log",
+      "text": "0"
+    },
+    {
+      "type": "log",
+      "text": "0"
+    }
+  ]
+}

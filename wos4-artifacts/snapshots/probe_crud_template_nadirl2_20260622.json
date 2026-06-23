@@ -1,0 +1,790 @@
+{
+  "node": "NadirL2",
+  "selectedRect": {
+    "x": 58,
+    "y": 755,
+    "w": 51.34375,
+    "h": 18,
+    "text": "NadirL2",
+    "cls": ""
+  },
+  "createRect": {
+    "x": 470.84375,
+    "y": 60,
+    "w": 40,
+    "h": 40,
+    "text": "创建",
+    "disabled": false
+  },
+  "chooseRect": {
+    "x": 870,
+    "y": 299.75,
+    "w": 270,
+    "h": 32,
+    "text": "选择",
+    "dialogText": "创建\n名称:\n对象ID:\n自动\n应用模板:\n选择\n访问时空:\n配置\n运行日志配置\n取消\n确定"
+  },
+  "dialogs": [
+    {
+      "i": 0,
+      "visible": true,
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 945,
+      "text": "创建\n名称:\n对象ID:\n自动\n应用模板:\n选择\n访问时空:\n配置\n运行日志配置\n取消\n确定"
+    },
+    {
+      "i": 1,
+      "visible": true,
+      "x": 760,
+      "y": 141.75,
+      "w": 400,
+      "h": 322,
+      "text": "创建\n名称:\n对象ID:\n自动\n应用模板:\n选择\n访问时空:\n配置\n运行日志配置\n取消\n确定"
+    }
+  ],
+  "rows": [
+    {
+      "i": 0,
+      "cls": "data-item card-item",
+      "x": 44,
+      "y": 34,
+      "w": 68,
+      "h": 112,
+      "text": "时空功能开发"
+    },
+    {
+      "i": 1,
+      "cls": "data-item card-item",
+      "x": 128,
+      "y": 34,
+      "w": 68,
+      "h": 112,
+      "text": "时空对象管理"
+    },
+    {
+      "i": 2,
+      "cls": "data-item card-item",
+      "x": 212,
+      "y": 34,
+      "w": 68,
+      "h": 112,
+      "text": "系统运维"
+    },
+    {
+      "i": 3,
+      "cls": "data-item card-item",
+      "x": 296,
+      "y": 34,
+      "w": 68,
+      "h": 112,
+      "text": "安全管理"
+    },
+    {
+      "i": 4,
+      "cls": "data-item card-item",
+      "x": 380,
+      "y": 34,
+      "w": 68,
+      "h": 112,
+      "text": "审计管理"
+    },
+    {
+      "i": 5,
+      "cls": "data-item card-item",
+      "x": 464,
+      "y": 34,
+      "w": 68,
+      "h": 112,
+      "text": "亚控云商城"
+    },
+    {
+      "i": 6,
+      "cls": "data-item card-item",
+      "x": 44,
+      "y": 152,
+      "w": 68,
+      "h": 112,
+      "text": "KingStudio_V20260514"
+    },
+    {
+      "i": 7,
+      "cls": "data-item card-item",
+      "x": 128,
+      "y": 152,
+      "w": 68,
+      "h": 112,
+      "text": "组态系统客户端0518"
+    },
+    {
+      "i": 8,
+      "cls": "data-item card-item",
+      "x": 212,
+      "y": 152,
+      "w": 68,
+      "h": 112,
+      "text": "建模系统客户端_0518"
+    },
+    {
+      "i": 9,
+      "cls": "data-item card-item",
+      "x": 296,
+      "y": 152,
+      "w": 68,
+      "h": 112,
+      "text": "运维部署客户端_0518"
+    },
+    {
+      "i": 10,
+      "cls": "data-item card-item",
+      "x": 380,
+      "y": 152,
+      "w": 68,
+      "h": 112,
+      "text": "管理员客户端"
+    },
+    {
+      "i": 11,
+      "cls": "data-item card-item",
+      "x": 464,
+      "y": 152,
+      "w": 68,
+      "h": 112,
+      "text": "Codex临时测试_前端视图_0611"
+    },
+    {
+      "i": 12,
+      "cls": "data-item card-item",
+      "x": 548,
+      "y": 152,
+      "w": 68,
+      "h": 112,
+      "text": "盛云_孙宇飞_TraceDemo_0617"
+    },
+    {
+      "i": 13,
+      "cls": "data-item card-item",
+      "x": 632,
+      "y": 152,
+      "w": 68,
+      "h": 112,
+      "text": "盛云_孙宇飞_QueryDemo_0617"
+    },
+    {
+      "i": 14,
+      "cls": "data-item card-item",
+      "x": 716,
+      "y": 152,
+      "w": 68,
+      "h": 112,
+      "text": "盛云_孙宇飞_前端_框架_0618@EidolonL1Frame_对象1"
+    },
+    {
+      "i": 15,
+      "cls": "data-item card-item is-stop",
+      "x": 800,
+      "y": 152,
+      "w": 68,
+      "h": 112,
+      "text": "盛云_孙宇飞_Noctiluca_客户端_对象1"
+    },
+    {
+      "i": 16,
+      "cls": "data-item card-item",
+      "x": 884,
+      "y": 152,
+      "w": 68,
+      "h": 112,
+      "text": "盛云_孙宇飞_Noctiluca_客户端_对象2"
+    },
+    {
+      "i": 17,
+      "cls": "el-tree-node is-expanded is-focusable",
+      "x": 0,
+      "y": 59,
+      "w": 300,
+      "h": 840,
+      "text": "本云(0)\n开发系统\n生成器时空\n客户端工程\n引滦集团\n测试\n报警转发\n测试1\nlk测试客户端1\n测试客户端\nlk_工厂\nlk_客户端01\n盛云_孙宇飞_时空_0617\n盛云_孙宇飞_时空_0617_TOPV2\n盛云_孙宇飞_时空_0617_TOPV3\n菜单\n测试时空-工厂\n产品生成器功能客户端\n手工层级1\n客户端1\n盛云_孙宇飞_Noctiluca_客户端\nEidolon手工层级1\nNadirL1\nNadirL2\n客户端1_人工干预点_1\n工厂\n管理员\n管理员客户端"
+    },
+    {
+      "i": 18,
+      "cls": "el-tree-node is-focusable",
+      "x": 0,
+      "y": 89,
+      "w": 300,
+      "h": 30,
+      "text": "开发系统"
+    },
+    {
+      "i": 19,
+      "cls": "el-tree-node is-focusable",
+      "x": 0,
+      "y": 119,
+      "w": 300,
+      "h": 30,
+      "text": "生成器时空"
+    },
+    {
+      "i": 20,
+      "cls": "el-tree-node is-focusable",
+      "x": 0,
+      "y": 149,
+      "w": 300,
+      "h": 30,
+      "text": "客户端工程"
+    },
+    {
+      "i": 21,
+      "cls": "el-tree-node is-focusable",
+      "x": 0,
+      "y": 179,
+      "w": 300,
+      "h": 30,
+      "text": "引滦集团"
+    },
+    {
+      "i": 22,
+      "cls": "el-tree-node is-focusable",
+      "x": 0,
+      "y": 209,
+      "w": 300,
+      "h": 30,
+      "text": "测试"
+    },
+    {
+      "i": 23,
+      "cls": "el-tree-node is-focusable",
+      "x": 0,
+      "y": 239,
+      "w": 300,
+      "h": 30,
+      "text": "报警转发"
+    },
+    {
+      "i": 24,
+      "cls": "el-tree-node is-focusable",
+      "x": 0,
+      "y": 269,
+      "w": 300,
+      "h": 30,
+      "text": "测试1"
+    },
+    {
+      "i": 25,
+      "cls": "el-tree-node is-focusable",
+      "x": 0,
+      "y": 299,
+      "w": 300,
+      "h": 30,
+      "text": "lk测试客户端1"
+    },
+    {
+      "i": 26,
+      "cls": "el-tree-node is-focusable",
+      "x": 0,
+      "y": 329,
+      "w": 300,
+      "h": 30,
+      "text": "测试客户端"
+    },
+    {
+      "i": 27,
+      "cls": "el-tree-node is-focusable",
+      "x": 0,
+      "y": 359,
+      "w": 300,
+      "h": 30,
+      "text": "lk_工厂"
+    },
+    {
+      "i": 28,
+      "cls": "el-tree-node is-focusable",
+      "x": 0,
+      "y": 389,
+      "w": 300,
+      "h": 30,
+      "text": "lk_客户端01"
+    },
+    {
+      "i": 29,
+      "cls": "el-tree-node is-focusable",
+      "x": 0,
+      "y": 419,
+      "w": 300,
+      "h": 30,
+      "text": "盛云_孙宇飞_时空_0617"
+    },
+    {
+      "i": 30,
+      "cls": "el-tree-node is-focusable",
+      "x": 0,
+      "y": 449,
+      "w": 300,
+      "h": 30,
+      "text": "盛云_孙宇飞_时空_0617_TOPV2"
+    },
+    {
+      "i": 31,
+      "cls": "el-tree-node is-focusable",
+      "x": 0,
+      "y": 479,
+      "w": 300,
+      "h": 30,
+      "text": "盛云_孙宇飞_时空_0617_TOPV3"
+    },
+    {
+      "i": 32,
+      "cls": "el-tree-node is-focusable",
+      "x": 0,
+      "y": 509,
+      "w": 300,
+      "h": 30,
+      "text": "菜单"
+    },
+    {
+      "i": 33,
+      "cls": "el-tree-node is-focusable",
+      "x": 0,
+      "y": 539,
+      "w": 300,
+      "h": 30,
+      "text": "测试时空-工厂"
+    },
+    {
+      "i": 34,
+      "cls": "el-tree-node is-focusable",
+      "x": 0,
+      "y": 569,
+      "w": 300,
+      "h": 30,
+      "text": "产品生成器功能客户端"
+    },
+    {
+      "i": 35,
+      "cls": "el-tree-node is-focusable",
+      "x": 0,
+      "y": 599,
+      "w": 300,
+      "h": 30,
+      "text": "手工层级1"
+    },
+    {
+      "i": 36,
+      "cls": "el-tree-node is-focusable",
+      "x": 0,
+      "y": 629,
+      "w": 300,
+      "h": 30,
+      "text": "客户端1"
+    },
+    {
+      "i": 37,
+      "cls": "el-tree-node is-focusable",
+      "x": 0,
+      "y": 659,
+      "w": 300,
+      "h": 30,
+      "text": "盛云_孙宇飞_Noctiluca_客户端"
+    },
+    {
+      "i": 38,
+      "cls": "el-tree-node is-focusable",
+      "x": 0,
+      "y": 689,
+      "w": 300,
+      "h": 30,
+      "text": "Eidolon手工层级1"
+    },
+    {
+      "i": 39,
+      "cls": "el-tree-node is-expanded is-focusable",
+      "x": 0,
+      "y": 719,
+      "w": 300,
+      "h": 60,
+      "text": "NadirL1\nNadirL2"
+    },
+    {
+      "i": 40,
+      "cls": "el-tree-node is-current is-focusable",
+      "x": 0,
+      "y": 749,
+      "w": 300,
+      "h": 30,
+      "text": "NadirL2"
+    },
+    {
+      "i": 41,
+      "cls": "el-tree-node is-focusable",
+      "x": 0,
+      "y": 779,
+      "w": 300,
+      "h": 30,
+      "text": "客户端1_人工干预点_1"
+    },
+    {
+      "i": 42,
+      "cls": "el-tree-node is-focusable",
+      "x": 0,
+      "y": 809,
+      "w": 300,
+      "h": 30,
+      "text": "工厂"
+    },
+    {
+      "i": 43,
+      "cls": "el-tree-node is-focusable",
+      "x": 0,
+      "y": 839,
+      "w": 300,
+      "h": 30,
+      "text": "管理员"
+    },
+    {
+      "i": 44,
+      "cls": "el-tree-node is-focusable",
+      "x": 0,
+      "y": 869,
+      "w": 300,
+      "h": 30,
+      "text": "管理员客户端"
+    },
+    {
+      "i": 51,
+      "cls": "data-item data-item is-running",
+      "x": 330,
+      "y": 120,
+      "w": 68,
+      "h": 111,
+      "text": "业务内置APP@NadirBack/业务内置APP"
+    },
+    {
+      "i": 52,
+      "cls": "data-item data-item is-running",
+      "x": 423.25,
+      "y": 120,
+      "w": 68,
+      "h": 111,
+      "text": "业务内置APP@NadirFront/业务内置APP"
+    },
+    {
+      "i": 53,
+      "cls": "data-item data-item is-running",
+      "x": 516.5,
+      "y": 120,
+      "w": 68,
+      "h": 111,
+      "text": "盛云_孙宇飞_前端_CRUDDemo_0620@NadirFront"
+    },
+    {
+      "i": 54,
+      "cls": "data-item data-item is-running",
+      "x": 609.75,
+      "y": 120,
+      "w": 68,
+      "h": 111,
+      "text": "盛云_孙宇飞_后台_CRUDDemo_0620@NadirBack"
+    },
+    {
+      "i": 55,
+      "cls": "data-item data-item is-running",
+      "x": 703,
+      "y": 120,
+      "w": 68,
+      "h": 111,
+      "text": "业务事_运行后台@NadirBack/业务事_运行后台"
+    },
+    {
+      "i": 56,
+      "cls": "data-item data-item is-running",
+      "x": 796.25,
+      "y": 120,
+      "w": 68,
+      "h": 111,
+      "text": "请求式计算_HTTP服务模型@NadirBack"
+    },
+    {
+      "i": 57,
+      "cls": "data-item data-item is-running",
+      "x": 889.5,
+      "y": 120,
+      "w": 68,
+      "h": 111,
+      "text": "DemoCrudBackend_CUSTOMFUNC@NadirBack"
+    }
+  ],
+  "imgs": [
+    {
+      "i": 0,
+      "src": "http://221.239.19.118:13001/assets/img_FUBuilder-bVNyB-5T.1774322731382.png",
+      "x": 54,
+      "y": 44,
+      "w": 48,
+      "h": 48,
+      "visible": true
+    },
+    {
+      "i": 1,
+      "src": "http://221.239.19.118:13001/assets/img_FuMngTool-CVWmlXMY.1774322731382.png",
+      "x": 138,
+      "y": 44,
+      "w": 48,
+      "h": 48,
+      "visible": true
+    },
+    {
+      "i": 2,
+      "src": "http://221.239.19.118:13001/assets/app_manager_system--ligQE9M.1774322731382.png",
+      "x": 222,
+      "y": 44,
+      "w": 48,
+      "h": 48,
+      "visible": true
+    },
+    {
+      "i": 3,
+      "src": "http://221.239.19.118:13001/assets/app_manager_security-COc4ZbUh.1774322731382.png",
+      "x": 306,
+      "y": 44,
+      "w": 48,
+      "h": 48,
+      "visible": true
+    },
+    {
+      "i": 4,
+      "src": "http://221.239.19.118:13001/assets/app_manager_audit-88DCn8Pp.1774322731382.png",
+      "x": 390,
+      "y": 44,
+      "w": 48,
+      "h": 48,
+      "visible": true
+    },
+    {
+      "i": 5,
+      "src": "http://221.239.19.118:13001/assets/app_store-BKvxyJrM.1774322731382.png",
+      "x": 474,
+      "y": 44,
+      "w": 48,
+      "h": 48,
+      "visible": true
+    },
+    {
+      "i": 6,
+      "src": "http://221.239.19.118:13001/assets/js_func_unit_editor_light-DMRXO09p.1774322731382.png",
+      "x": 54,
+      "y": 162,
+      "w": 48,
+      "h": 48,
+      "visible": true
+    },
+    {
+      "i": 7,
+      "src": "http://221.239.19.118:13001/assets/js_func_unit_editor_light-DMRXO09p.1774322731382.png",
+      "x": 138,
+      "y": 162,
+      "w": 48,
+      "h": 48,
+      "visible": true
+    },
+    {
+      "i": 8,
+      "src": "http://221.239.19.118:13001/assets/js_func_unit_editor_light-DMRXO09p.1774322731382.png",
+      "x": 222,
+      "y": 162,
+      "w": 48,
+      "h": 48,
+      "visible": true
+    },
+    {
+      "i": 9,
+      "src": "http://221.239.19.118:13001/assets/js_func_unit_editor_light-DMRXO09p.1774322731382.png",
+      "x": 306,
+      "y": 162,
+      "w": 48,
+      "h": 48,
+      "visible": true
+    },
+    {
+      "i": 10,
+      "src": "http://221.239.19.118:13001/assets/js_func_unit_editor_light-DMRXO09p.1774322731382.png",
+      "x": 390,
+      "y": 162,
+      "w": 48,
+      "h": 48,
+      "visible": true
+    },
+    {
+      "i": 11,
+      "src": "http://221.239.19.118:13001/assets/func_unit_editor_light-CMc0qCf8.1774322731382.png",
+      "x": 474,
+      "y": 162,
+      "w": 48,
+      "h": 48,
+      "visible": true
+    },
+    {
+      "i": 12,
+      "src": "http://221.239.19.118:13001/assets/func_unit_editor_light-CMc0qCf8.1774322731382.png",
+      "x": 558,
+      "y": 162,
+      "w": 48,
+      "h": 48,
+      "visible": true
+    },
+    {
+      "i": 13,
+      "src": "http://221.239.19.118:13001/assets/func_unit_editor_light-CMc0qCf8.1774322731382.png",
+      "x": 642,
+      "y": 162,
+      "w": 48,
+      "h": 48,
+      "visible": true
+    },
+    {
+      "i": 14,
+      "src": "http://221.239.19.118:13001/assets/func_unit_editor_light-CMc0qCf8.1774322731382.png",
+      "x": 726,
+      "y": 162,
+      "w": 48,
+      "h": 48,
+      "visible": true
+    },
+    {
+      "i": 15,
+      "src": "http://221.239.19.118:13001/assets/js_func_unit_editor_light-DMRXO09p.1774322731382.png",
+      "x": 810,
+      "y": 162,
+      "w": 48,
+      "h": 48,
+      "visible": true
+    },
+    {
+      "i": 16,
+      "src": "http://221.239.19.118:13001/assets/js_func_unit_editor_light-DMRXO09p.1774322731382.png",
+      "x": 894,
+      "y": 162,
+      "w": 48,
+      "h": 48,
+      "visible": true
+    },
+    {
+      "i": 17,
+      "src": "http://221.239.19.118:13001/assets/func_unit_editor_light-CMc0qCf8.1774322731382.png",
+      "x": 341,
+      "y": 141,
+      "w": 46,
+      "h": 46,
+      "visible": true
+    },
+    {
+      "i": 18,
+      "src": "http://221.239.19.118:13001/assets/func_unit_editor_light-CMc0qCf8.1774322731382.png",
+      "x": 434.25,
+      "y": 141,
+      "w": 46,
+      "h": 46,
+      "visible": true
+    },
+    {
+      "i": 19,
+      "src": "http://221.239.19.118:13001/assets/func_unit_editor_light-CMc0qCf8.1774322731382.png",
+      "x": 527.5,
+      "y": 141,
+      "w": 46,
+      "h": 46,
+      "visible": true
+    },
+    {
+      "i": 20,
+      "src": "http://221.239.19.118:13001/assets/func_unit_editor_light-CMc0qCf8.1774322731382.png",
+      "x": 620.75,
+      "y": 141,
+      "w": 46,
+      "h": 46,
+      "visible": true
+    },
+    {
+      "i": 21,
+      "src": "http://221.239.19.118:13001/assets/func_unit_editor_light-CMc0qCf8.1774322731382.png",
+      "x": 714,
+      "y": 141,
+      "w": 46,
+      "h": 46,
+      "visible": true
+    },
+    {
+      "i": 22,
+      "src": "http://221.239.19.118:13001/assets/func_unit_editor_light-CMc0qCf8.1774322731382.png",
+      "x": 807.25,
+      "y": 141,
+      "w": 46,
+      "h": 46,
+      "visible": true
+    },
+    {
+      "i": 23,
+      "src": "http://221.239.19.118:13001/assets/func_unit_editor_light-CMc0qCf8.1774322731382.png",
+      "x": 900.5,
+      "y": 141,
+      "w": 46,
+      "h": 46,
+      "visible": true
+    },
+    {
+      "i": 24,
+      "src": "http://221.239.19.118:13001/assets/os-CMkA3C3d.1774322731382.png",
+      "x": 14.5,
+      "y": 908.5,
+      "w": 26,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "i": 25,
+      "src": "http://221.239.19.118:13001/assets/img_FUBuilder-bVNyB-5T.1774322731382.png",
+      "x": 69.5,
+      "y": 908.5,
+      "w": 26,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "i": 26,
+      "src": "http://221.239.19.118:13001/assets/img_FuMngTool-CVWmlXMY.1774322731382.png",
+      "x": 124.5,
+      "y": 908.5,
+      "w": 26,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "i": 27,
+      "src": "http://221.239.19.118:13001/assets/js_func_unit_editor_light-DMRXO09p.1774322731382.png",
+      "x": 179.5,
+      "y": 908.5,
+      "w": 26,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "i": 28,
+      "src": "http://221.239.19.118:13001/assets/js_func_unit_editor_light-DMRXO09p.1774322731382.png",
+      "x": 234.5,
+      "y": 908.5,
+      "w": 26,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "i": 29,
+      "src": "http://221.239.19.118:13001/assets/js_func_unit_editor_light-DMRXO09p.1774322731382.png",
+      "x": 289.5,
+      "y": 908.5,
+      "w": 26,
+      "h": 26,
+      "visible": true
+    }
+  ],
+  "body": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260514\n组态系统客户端0518\n建模系统客户端_0518\n运维部署客户端_0518\n管理员客户端\nCodex临时测试_前端视图_0611\n盛云_孙宇飞_TraceDemo_0617\n盛云_孙宇飞_QueryDemo_0617\n盛云_孙宇飞_前端_框架_0618@EidolonL1Frame_对象1\n盛云_孙宇飞_Noctiluca_客户端_对象1\n盛云_孙宇飞_Noctiluca_客户端_对象2\n时空对象管理平台\n本云(0)\n开发系统\n生成器时空\n客户端工程\n引滦集团\n测试\n报警转发\n测试1\nlk测试客户端1\n测试客户端\nlk_工厂\nlk_客户端01\n盛云_孙宇飞_时空_0617\n盛云_孙宇飞_时空_0617_TOPV2\n盛云_孙宇飞_时空_0617_TOPV3\n菜单\n测试时空-工厂\n产品生成器功能客户端\n手工层级1\n客户端1\n盛云_孙宇飞_Noctiluca_客户端\nEidolon手工层级1\nNadirL1\nNadirL2\n客户端1_人工干预点_1\n工厂\n管理员\n管理员客户端\n功能\n实时\n历史\n计划\n连接\n三方APP\n权限\n镜像\n关于\n我创建的\n|\n全部\n创建\n启动\n停止\n强制停止\n编辑\n删除\n强制删除\n日志\n监视\n视图\n模型管理\n名称\n全部\n业务内置APP@NadirBack/业务内置APP\n业务内置APP@NadirFront/业务内置APP\n盛云_孙宇飞_前端_CRUDDemo_0620@NadirFront\n盛云_孙宇飞_后台_CRUDDemo_0620@NadirBack\n业务事_运行后台@NadirBack/业务事_运行后台\n请求式计算_HTTP服务模型@NadirBack\nDemoCrudBackend_CUSTOMFUNC@NadirBack\n全选\n共 7 条\n1\n前往\n页\n创建\n名称:\n对象ID:\n自动\n应用模板:\n选择\n访问时空:\n配置\n运行日志配置\n取消\n确定"
+}

@@ -1,0 +1,717 @@
+{
+  "ok": true,
+  "finishedAt": "2026-06-12T05:14:46.401Z",
+  "log": [
+    {
+      "at": "2026-06-12T05:14:40.941Z",
+      "type": "start",
+      "base": "http://221.239.19.118:13001/#/login",
+      "userPresent": true,
+      "passPresent": true
+    },
+    {
+      "at": "2026-06-12T05:14:41.660Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:41.753Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:42.004Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:42.004Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:42.004Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:42.006Z",
+      "type": "login-ok",
+      "url": "http://221.239.19.118:13001/#/main"
+    },
+    {
+      "at": "2026-06-12T05:14:42.131Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:42.137Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:42.137Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:42.155Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Update"
+    },
+    {
+      "at": "2026-06-12T05:14:42.155Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:42.203Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:42.203Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Update"
+    },
+    {
+      "at": "2026-06-12T05:14:43.167Z",
+      "type": "desktop-card-candidates",
+      "cards": [
+        {
+          "tag": "DIV",
+          "cls": "data-item card-item",
+          "title": "KingStudio_V20260514",
+          "text": "KingStudio_V20260514",
+          "x": 36,
+          "y": 152,
+          "w": 68,
+          "h": 112
+        },
+        {
+          "tag": "SPAN",
+          "cls": "span-label",
+          "title": null,
+          "text": "KingStudio_V20260514",
+          "x": 36,
+          "y": 230,
+          "w": 68,
+          "h": 34
+        }
+      ]
+    },
+    {
+      "at": "2026-06-12T05:14:43.167Z",
+      "type": "desktop-card-dblclick-attempt",
+      "point": {
+        "name": "icon-upper",
+        "x": 70,
+        "y": 191.2
+      },
+      "card": {
+        "tag": "DIV",
+        "cls": "data-item card-item",
+        "title": "KingStudio_V20260514",
+        "text": "KingStudio_V20260514",
+        "x": 36,
+        "y": 152,
+        "w": 68,
+        "h": 112
+      }
+    },
+    {
+      "at": "2026-06-12T05:14:43.370Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/?id=6192730962611142708&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true"
+    },
+    {
+      "at": "2026-06-12T05:14:43.752Z",
+      "type": "app-resource-seen-after-click",
+      "point": {
+        "name": "icon-upper",
+        "x": 70,
+        "y": 191.2
+      }
+    },
+    {
+      "at": "2026-06-12T05:14:44.158Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/?id=6192730962611142708&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true"
+    },
+    {
+      "at": "2026-06-12T05:14:44.167Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js"
+    },
+    {
+      "at": "2026-06-12T05:14:44.167Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css"
+    },
+    {
+      "at": "2026-06-12T05:14:44.167Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/config.json"
+    },
+    {
+      "at": "2026-06-12T05:14:44.227Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/config.json"
+    },
+    {
+      "at": "2026-06-12T05:14:44.227Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css"
+    },
+    {
+      "at": "2026-06-12T05:14:44.432Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js"
+    },
+    {
+      "at": "2026-06-12T05:14:44.435Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js"
+    },
+    {
+      "at": "2026-06-12T05:14:44.458Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js"
+    },
+    {
+      "at": "2026-06-12T05:14:44.459Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:44.470Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js"
+    },
+    {
+      "at": "2026-06-12T05:14:44.498Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:44.501Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html"
+    },
+    {
+      "at": "2026-06-12T05:14:44.503Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js"
+    },
+    {
+      "at": "2026-06-12T05:14:44.544Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html"
+    },
+    {
+      "at": "2026-06-12T05:14:44.549Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/config.js?t=1778745025025"
+    },
+    {
+      "at": "2026-06-12T05:14:44.549Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/index-e38b6f82.js"
+    },
+    {
+      "at": "2026-06-12T05:14:44.549Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/index-3a2516c0.css"
+    },
+    {
+      "at": "2026-06-12T05:14:44.595Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/config.js?t=1778745025025"
+    },
+    {
+      "at": "2026-06-12T05:14:44.602Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/index-3a2516c0.css"
+    },
+    {
+      "at": "2026-06-12T05:14:44.726Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/index-e38b6f82.js"
+    },
+    {
+      "at": "2026-06-12T05:14:44.739Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/MainView-dec51b4b.js"
+    },
+    {
+      "at": "2026-06-12T05:14:44.740Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/_plugin-vue_export-helper-c27b6911.js"
+    },
+    {
+      "at": "2026-06-12T05:14:44.740Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/MainView-e7b601e3.css"
+    },
+    {
+      "at": "2026-06-12T05:14:44.772Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/_plugin-vue_export-helper-c27b6911.js"
+    },
+    {
+      "at": "2026-06-12T05:14:44.781Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/MainView-e7b601e3.css"
+    },
+    {
+      "at": "2026-06-12T05:14:44.929Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/MainView-dec51b4b.js"
+    },
+    {
+      "at": "2026-06-12T05:14:45.037Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.037Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.041Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.041Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.043Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.048Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.082Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.086Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.087Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.142Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.142Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.167Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.186Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.186Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.202Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.226Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.264Z",
+      "type": "product-frame-ready",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html#/running"
+    },
+    {
+      "at": "2026-06-12T05:14:45.306Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.306Z",
+      "type": "clicked-product-enter"
+    },
+    {
+      "at": "2026-06-12T05:14:45.344Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.463Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.475Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.484Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.514Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.585Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.621Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.623Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.661Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.861Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.928Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.928Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:45.964Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:14:46.338Z",
+      "type": "assembly-frame-ready",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html#/running"
+    },
+    {
+      "at": "2026-06-12T05:14:46.345Z",
+      "type": "assembly-text-sample",
+      "text": "KingStudio\n简体中文\n关于\n产品管理\n升级拷贝1\n建模管理\n产品组装\n新增\n删除\n建模\n新建\n删除\n复制\n移动\n导入\n导出\n添加依赖\n升级拷贝\n全部\n测试\nCodex临时功能单元_Node_0611\n回收站\n全选\n共 2 条\n1\n前往\n页"
+    },
+    {
+      "at": "2026-06-12T05:14:46.345Z",
+      "type": "assembly-action-candidates",
+      "buttons": [
+        {
+          "i": 0,
+          "tag": "DIV",
+          "cls": "",
+          "text": "KingStudio\n简体中文\n关于\n产品管理\n升级拷贝1\n建模管理\n产品组装\n新增\n删除\n建模\n新建\n删除\n复制\n移动\n导入\n导出\n添加依赖\n升级拷贝\n全部\n",
+          "x": 0,
+          "y": 0,
+          "w": 1400,
+          "h": 854,
+          "visible": true
+        },
+        {
+          "i": 8,
+          "tag": "DIV",
+          "cls": "worker-space-tabs-view",
+          "text": "产品管理\n升级拷贝1",
+          "x": 0,
+          "y": 40,
+          "w": 1400,
+          "h": 40,
+          "visible": true
+        },
+        {
+          "i": 12,
+          "tag": "SPAN",
+          "cls": "title",
+          "text": "升级拷贝1",
+          "x": 271,
+          "y": 49,
+          "w": 63.78125,
+          "h": 28,
+          "visible": true
+        },
+        {
+          "i": 47,
+          "tag": "DIV",
+          "cls": "h100 w100",
+          "text": "建模管理\n产品组装\n新增\n删除\n建模\n新建\n删除\n复制\n移动\n导入\n导出\n添加依赖\n升级拷贝\n全部\n测试\nCodex临时功能单元_Node_0611\n回收站\n全",
+          "x": 0,
+          "y": 80,
+          "w": 1400,
+          "h": 774,
+          "visible": true
+        },
+        {
+          "i": 51,
+          "tag": "BUTTON",
+          "cls": "el-button el-button--text el-button--default expire-bt",
+          "text": "产品组装",
+          "x": 107,
+          "y": 94,
+          "w": 74,
+          "h": 32,
+          "visible": true
+        },
+        {
+          "i": 52,
+          "tag": "SPAN",
+          "cls": "",
+          "text": "产品组装",
+          "x": 108,
+          "y": 103,
+          "w": 72,
+          "h": 14,
+          "visible": true
+        },
+        {
+          "i": 77,
+          "tag": "DIV",
+          "cls": "main-tool-bar tool-bar",
+          "text": "新建\n删除\n复制\n移动\n导入\n导出\n添加依赖\n升级拷贝",
+          "x": 320,
+          "y": 90,
+          "w": 700,
+          "h": 40,
+          "visible": true
+        },
+        {
+          "i": 78,
+          "tag": "DIV",
+          "cls": "main-tool-bar-item",
+          "text": "新建\n删除\n复制\n移动\n导入\n导出\n添加依赖\n升级拷贝",
+          "x": 335,
+          "y": 94,
+          "w": 647,
+          "h": 32,
+          "visible": true
+        },
+        {
+          "i": 79,
+          "tag": "DIV",
+          "cls": "button-div",
+          "text": "新建",
+          "x": 335,
+          "y": 94,
+          "w": 71,
+          "h": 32,
+          "visible": true
+        },
+        {
+          "i": 80,
+          "tag": "BUTTON",
+          "cls": "el-button el-button--default iconfont icon-tianjia",
+          "text": "新建",
+          "x": 335,
+          "y": 94,
+          "w": 70,
+          "h": 32,
+          "visible": true
+        },
+        {
+          "i": 81,
+          "tag": "SPAN",
+          "cls": "",
+          "text": "新建",
+          "x": 347.5,
+          "y": 103,
+          "w": 48,
+          "h": 14,
+          "visible": true
+        },
+        {
+          "i": 82,
+          "tag": "SPAN",
+          "cls": "",
+          "text": "新建",
+          "x": 367.5,
+          "y": 103,
+          "w": 28,
+          "h": 14,
+          "visible": true
+        },
+        {
+          "i": 99,
+          "tag": "DIV",
+          "cls": "button-div",
+          "text": "导入",
+          "x": 619,
+          "y": 94,
+          "w": 101,
+          "h": 32,
+          "visible": true
+        },
+        {
+          "i": 100,
+          "tag": "BUTTON",
+          "cls": "el-button el-button--default iconfont icon-wenjiandaoru",
+          "text": "导入",
+          "x": 619,
+          "y": 94,
+          "w": 100,
+          "h": 32,
+          "visible": true
+        },
+        {
+          "i": 101,
+          "tag": "SPAN",
+          "cls": "",
+          "text": "导入",
+          "x": 629.5,
+          "y": 103,
+          "w": 82,
+          "h": 14,
+          "visible": true
+        },
+        {
+          "i": 102,
+          "tag": "SPAN",
+          "cls": "",
+          "text": "导入",
+          "x": 649.5,
+          "y": 103,
+          "w": 28,
+          "h": 14,
+          "visible": true
+        },
+        {
+          "i": 116,
+          "tag": "DIV",
+          "cls": "button-div",
+          "text": "升级拷贝",
+          "x": 902,
+          "y": 94,
+          "w": 80,
+          "h": 32,
+          "visible": true
+        },
+        {
+          "i": 117,
+          "tag": "BUTTON",
+          "cls": "el-button el-button--default iconfont icon-wenjiandaoru",
+          "text": "升级拷贝",
+          "x": 902,
+          "y": 94,
+          "w": 80,
+          "h": 32,
+          "visible": true
+        },
+        {
+          "i": 118,
+          "tag": "SPAN",
+          "cls": "",
+          "text": "升级拷贝",
+          "x": 905.5,
+          "y": 103,
+          "w": 76,
+          "h": 14,
+          "visible": true
+        },
+        {
+          "i": 119,
+          "tag": "SPAN",
+          "cls": "",
+          "text": "升级拷贝",
+          "x": 925.5,
+          "y": 103,
+          "w": 56,
+          "h": 14,
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "url": "http://221.239.19.118:13001/#/main",
+      "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260514\n组态系统客户端0518\n建模系统客户端_0518\n运维部署客户端_0518\nCodex临时测试_前端视图_0611"
+    },
+    {
+      "url": "http://221.239.19.118:13001/public/?id=6192730962611142708&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+      "text": ""
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html#/running",
+      "text": "KingStudio\n简体中文\n关于\n产品管理\n升级拷贝1\n建模管理\n产品组装\n新增\n删除\n建模\n新建\n删除\n复制\n移动\n导入\n导出\n添加依赖\n升级拷贝\n全部\n测试\nCodex临时功能单元_Node_0611\n回收站\n全选\n共 2 条\n1\n前往\n页"
+    }
+  ],
+  "screenshot": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\screenshots\\client_publish_entry_probe_retry.png"
+}

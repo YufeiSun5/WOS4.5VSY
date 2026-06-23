@@ -1,0 +1,129 @@
+{
+  "selectNadir": {
+    "ok": true
+  },
+  "create": {
+    "ok": true
+  },
+  "selectTemplate": {
+    "ok": true
+  },
+  "state": {
+    "dialogs": [
+      {
+        "i": 0,
+        "text": "创建\n名称:\n对象ID:\n自动\n应用模板:\n选择\n访问时空:\n配置\n选择拷贝\n仓库:\n业务内置APP\n导入\n名称\n\t\n语言类型\n\t\n拷贝ID\n\t\n拷贝GUID\n\t\n模型GUID\n\t\n模型版本\n业务内置APP@NadirFront/业务内置APP\n\t\n元语言\n\t\n7205759403792795858\n\t\nde26941c-1cd4-41f5-8446-76cc9b37c9de\n\t\n4cdf8aaa-dcff-45ed-a061-ba1bd711673b\n\t\n22\n共 1 条\n10条/页\n1\n前往\n页\n取消\n确定\n运行日志配置\n取消\n确定",
+        "rows": [
+          {
+            "j": 0,
+            "text": "业务内置APP@NadirFront/业务内置APP\n\t\n元语言\n\t\n7205759403792795858\n\t\nde26941c-1cd4-41f5-8446-76cc9b37c9de\n\t\n4cdf8aaa-dcff-45ed-a061-ba1bd711673b\n\t\n22"
+          }
+        ],
+        "buttons": [
+          {
+            "j": 0,
+            "text": "",
+            "disabled": false
+          },
+          {
+            "j": 1,
+            "text": "选择",
+            "disabled": false
+          },
+          {
+            "j": 2,
+            "text": "配置",
+            "disabled": false
+          },
+          {
+            "j": 3,
+            "text": "",
+            "disabled": false
+          },
+          {
+            "j": 4,
+            "text": "导入",
+            "disabled": false
+          },
+          {
+            "j": 5,
+            "text": "",
+            "disabled": true
+          },
+          {
+            "j": 6,
+            "text": "",
+            "disabled": true
+          },
+          {
+            "j": 7,
+            "text": "取消",
+            "disabled": false
+          },
+          {
+            "j": 8,
+            "text": "确定",
+            "disabled": true
+          },
+          {
+            "j": 9,
+            "text": "运行日志配置",
+            "disabled": false
+          },
+          {
+            "j": 10,
+            "text": "取消",
+            "disabled": false
+          },
+          {
+            "j": 11,
+            "text": "确定",
+            "disabled": false
+          }
+        ]
+      },
+      {
+        "i": 1,
+        "text": "选择拷贝\n仓库:\n业务内置APP\n导入\n名称\n\t\n语言类型\n\t\n拷贝ID\n\t\n拷贝GUID\n\t\n模型GUID\n\t\n模型版本\n业务内置APP@NadirFront/业务内置APP\n\t\n元语言\n\t\n7205759403792795858\n\t\nde26941c-1cd4-41f5-8446-76cc9b37c9de\n\t\n4cdf8aaa-dcff-45ed-a061-ba1bd711673b\n\t\n22\n共 1 条\n10条/页\n1\n前往\n页\n取消\n确定",
+        "rows": [
+          {
+            "j": 0,
+            "text": "业务内置APP@NadirFront/业务内置APP\n\t\n元语言\n\t\n7205759403792795858\n\t\nde26941c-1cd4-41f5-8446-76cc9b37c9de\n\t\n4cdf8aaa-dcff-45ed-a061-ba1bd711673b\n\t\n22"
+          }
+        ],
+        "buttons": [
+          {
+            "j": 0,
+            "text": "",
+            "disabled": false
+          },
+          {
+            "j": 1,
+            "text": "导入",
+            "disabled": false
+          },
+          {
+            "j": 2,
+            "text": "",
+            "disabled": true
+          },
+          {
+            "j": 3,
+            "text": "",
+            "disabled": true
+          },
+          {
+            "j": 4,
+            "text": "取消",
+            "disabled": false
+          },
+          {
+            "j": 5,
+            "text": "确定",
+            "disabled": true
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,2089 @@
+{
+  "tableKeys": [
+    "_uid",
+    "_isVue",
+    "__v_skip",
+    "_scope",
+    "$options",
+    "_renderProxy",
+    "_self",
+    "$parent",
+    "$root",
+    "$children",
+    "$refs",
+    "_provided",
+    "_watcher",
+    "_inactive",
+    "_directInactive",
+    "_isMounted",
+    "_isDestroyed",
+    "_isBeingDestroyed",
+    "_events",
+    "_hasHookEvent",
+    "_vnode",
+    "_staticTrees",
+    "$vnode",
+    "$slots",
+    "$scopedSlots",
+    "_c",
+    "$createElement",
+    "$attrs",
+    "$listeners",
+    "_i18n",
+    "$store",
+    "storeName",
+    "KMComponentsMng",
+    "mode",
+    "getStoreNameEnum",
+    "useConfigHook",
+    "tabsActiveName",
+    "_props",
+    "initLinkMngUi",
+    "getFontStyle",
+    "getVariableList",
+    "hasActionAuth",
+    "getLinkAnimate",
+    "setLinkAnimate",
+    "evalUiInputLinkBase",
+    "triggerUiToOtherModule",
+    "registerUiInputLink",
+    "uiRunDataSet",
+    "_pageJump",
+    "currentTab",
+    "getUIAuthKey",
+    "updateRenderComs",
+    "setComponentProperty",
+    "removeInKMComponentsMng",
+    "defineScriptProperty",
+    "getGUID",
+    "initGlobalTheme",
+    "evalStyleConfig",
+    "getColor",
+    "getColors",
+    "removeStyleConfig",
+    "removePropertyStyleConfig",
+    "evalDetailConfig",
+    "evalFun",
+    "getLangRes",
+    "getProperty",
+    "getAuthName",
+    "multiSetProperty",
+    "setColor",
+    "setBackgroundColor",
+    "getBackgroundColor",
+    "setBorderColor",
+    "setProperty",
+    "upDateLink",
+    "diffData",
+    "setSelectStatus",
+    "basePropertyTojson",
+    "linkToPropertyJson",
+    "setChildren",
+    "setOption",
+    "getOption",
+    "SetUIStyleConfig",
+    "SetUIEventConfig",
+    "handleParentItem",
+    "ParentItem",
+    "evalPropertyColor",
+    "diffPropertyStyle",
+    "getChildVariableByGuid",
+    "validate",
+    "getFilteredRule",
+    "getDataSetValue",
+    "_getCallRetData",
+    "getPrototypeName",
+    "diffColor",
+    "diffFont",
+    "formatURLToConfig",
+    "formatConfigToURL",
+    "setStyleOption",
+    "assignStyleOption",
+    "pasteStyle",
+    "getDisplayData",
+    "isTreeData",
+    "filterMethodSystem",
+    "filterNode",
+    "searchString",
+    "getTimePickerKey",
+    "registerUiInputOthers",
+    "setTableLinkData",
+    "_setTotalLength",
+    "_getColumnsList",
+    "setTablePluginRadioInput",
+    "setTablePluginSelectInput",
+    "rowClickChangeLink",
+    "multiSelectChangeLink",
+    "iGetFiltersList",
+    "_createExpressionBranch",
+    "_tableAnimate",
+    "createAnimateStyleFunc",
+    "handleTotalData",
+    "isLazyLoad",
+    "initTreeData",
+    "isTreeTable",
+    "treeLoad",
+    "reloadNode",
+    "getImageData",
+    "filterShow",
+    "handleFilterChange",
+    "getUuid",
+    "setRowIndex",
+    "checkBoxChange",
+    "addListeners",
+    "removeListeners",
+    "handlerScroll",
+    "updateVisibleItems",
+    "getScroll",
+    "setImage",
+    "inputSearch",
+    "tableStyle",
+    "handleSizeChange",
+    "handleCurrentChange",
+    "handlePrev",
+    "handleNext",
+    "GetMultipleSelectionRow",
+    "deleteRow",
+    "DeleteRow",
+    "deleteDeep",
+    "getRowIndex",
+    "getRowColIndex",
+    "beginRowEdit",
+    "endRowEdit",
+    "beginEditCell",
+    "endEdit",
+    "select",
+    "ToggleRowSelection",
+    "_ToggleRowSelectionChildren",
+    "_ToggleRowSelection",
+    "_selectAllTreeNode",
+    "_checkSeletionEmpty",
+    "selectAll",
+    "selectionChange",
+    "mergeRow",
+    "cellMouseEnter",
+    "cellMouseLeave",
+    "cellClick",
+    "cellDbClick",
+    "rowClick",
+    "rowContextmenu",
+    "DoLayout",
+    "rowDbClick",
+    "headerClick",
+    "sortChange",
+    "sortAll",
+    "setSelection",
+    "recursionSort",
+    "sortRuleByAsc",
+    "sortRuleByDesc",
+    "filterChange",
+    "currentChange",
+    "headerDragend",
+    "expandChange",
+    "spanMethod",
+    "currentPageChange",
+    "onBeforeEdit",
+    "onAfterEdit",
+    "onLoadSuccess",
+    "nodeClick",
+    "demoStr",
+    "styleStr",
+    "table",
+    "verifyTotalData",
+    "ClearSelection",
+    "clearSelectStatus",
+    "findObject",
+    "ToggleAllSelection",
+    "ToggleRowExpansion",
+    "getRowData",
+    "SetCurrentRow",
+    "ClearCascaderCheck",
+    "tableClick",
+    "ClearFilter",
+    "ClearSort",
+    "Sort",
+    "AppendRow",
+    "AddRow",
+    "SetData",
+    "GetData",
+    "findSelectData",
+    "setSelectData",
+    "UpdateRow",
+    "tableRowClassName",
+    "GetCurrentRow",
+    "GetCurrentRowProp",
+    "GetSelectionProp",
+    "Filter",
+    "_getDataSetLink",
+    "excuteUILinkOutPut",
+    "propertyToJson",
+    "_setIsLazyLoad",
+    "_setIsVirtualScroll",
+    "ShowTooltip",
+    "getRowKey",
+    "getLanguageRes",
+    "initLanguageRes",
+    "setLanguageRes",
+    "GetCurrentPageData",
+    "ShowMultipleTooltips",
+    "getCellTooltip",
+    "styleUtilsSet",
+    "ExportToExcel",
+    "handleInputBlur",
+    "assignPropData",
+    "getStyleOption",
+    "_updateColFilterConfig",
+    "_columnFilter",
+    "getParamLinkCurrentSelect",
+    "setParamLinkCurrentSelect",
+    "getParamLinkSelection",
+    "setParamLinkSelection",
+    "getUserDefinedEvents",
+    "setUserDefinedEvents",
+    "executeRunDataSet",
+    "executePageJump",
+    "executeParamLink",
+    "_spanMergeMethod",
+    "_ceilAdjacentMerge",
+    "_ceilAdjacentMergeWithParentGroup",
+    "_getSelectValue",
+    "_pluginSelectChange",
+    "serializeProps",
+    "deSerializeProps",
+    "totalData",
+    "cacheTotalData",
+    "_data",
+    "times",
+    "linkList",
+    "UIType",
+    "d_arrColFilterData",
+    "d_objColFilterConfig",
+    "multupleToolTips",
+    "selectEventData",
+    "imgList",
+    "lastProp",
+    "filterIcon",
+    "filterList",
+    "filterShowProp",
+    "filterisShow",
+    "checkList",
+    "expandsRow",
+    "parentSelectStatus",
+    "pluginCheckboxValues",
+    "scrollEventFlag",
+    "startIndex",
+    "disabled",
+    "cellPositionInfo",
+    "cellTooltipOption",
+    "searchData",
+    "filterData",
+    "searchTotalData",
+    "inputSearchValue",
+    "filterTotalData",
+    "filterFlag",
+    "multipleSelectionRow",
+    "editRowIndex",
+    "isRowEdit",
+    "dynamicRow",
+    "tableDataCopy",
+    "_computedWatchers",
+    "styleOption",
+    "uiInputLinkList",
+    "$el",
+    "_subscribing"
+  ],
+  "methodNames": [
+    "evalUiInputLinkBase",
+    "registerUiInputLink",
+    "updateRenderComs",
+    "upDateLink",
+    "registerUiInputOthers",
+    "setTablePluginRadioInput",
+    "setTablePluginSelectInput",
+    "rowClickChangeLink",
+    "setRowIndex",
+    "updateVisibleItems",
+    "inputSearch",
+    "GetMultipleSelectionRow",
+    "deleteRow",
+    "DeleteRow",
+    "getRowIndex",
+    "getRowColIndex",
+    "beginRowEdit",
+    "endRowEdit",
+    "ToggleRowSelection",
+    "_ToggleRowSelectionChildren",
+    "_ToggleRowSelection",
+    "mergeRow",
+    "cellClick",
+    "cellDbClick",
+    "rowClick",
+    "rowContextmenu",
+    "rowDbClick",
+    "headerClick",
+    "nodeClick",
+    "ToggleRowExpansion",
+    "getRowData",
+    "SetCurrentRow",
+    "tableClick",
+    "AppendRow",
+    "AddRow",
+    "UpdateRow",
+    "tableRowClassName",
+    "GetCurrentRow",
+    "GetCurrentRowProp",
+    "excuteUILinkOutPut",
+    "getRowKey",
+    "handleInputBlur",
+    "_updateColFilterConfig",
+    "expandsRow",
+    "startIndex",
+    "inputSearchValue",
+    "multipleSelectionRow",
+    "editRowIndex",
+    "isRowEdit",
+    "dynamicRow",
+    "_computedWatchers",
+    "uiInputLinkList",
+    "highlightCurrentRow",
+    "_update",
+    "$forceUpdate"
+  ],
+  "funcHits": [
+    {
+      "name": "evalUiInputLinkBase",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "registerUiInputLink",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "updateRenderComs",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "upDateLink",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "registerUiInputOthers",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "setTablePluginRadioInput",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "setTablePluginSelectInput",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "rowClickChangeLink",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "setRowIndex",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "updateVisibleItems",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "inputSearch",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "GetMultipleSelectionRow",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "deleteRow",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "DeleteRow",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "getRowIndex",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "getRowColIndex",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "beginRowEdit",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "endRowEdit",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "ToggleRowSelection",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "_ToggleRowSelectionChildren",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "_ToggleRowSelection",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "mergeRow",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "cellClick",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "cellDbClick",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "rowClick",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "rowContextmenu",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "rowDbClick",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "headerClick",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "nodeClick",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "ToggleRowExpansion",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "getRowData",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "SetCurrentRow",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "tableClick",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "AppendRow",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "AddRow",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "UpdateRow",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "tableRowClassName",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "GetCurrentRow",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "GetCurrentRowProp",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "excuteUILinkOutPut",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "getRowKey",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "handleInputBlur",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "_updateColFilterConfig",
+      "source": "function () { [native code] }"
+    },
+    {
+      "name": "_update",
+      "source": "function(e,t){var n=this,i=n.$el,r=n._vnode,a=Cn(n);n._vnode=e,n.$el=r?n.__patch__(r,e):n.__patch__(n.$el,e,t,!1),a(),i&&(i.__vue__=null),n.$el&&(n.$el.__vue__=n);var o=n;while(o&&o.$vnode&&o.$parent&&o.$vnode===o.$parent._vnode)o.$parent.$el=o.$el,o=o.$parent}"
+    },
+    {
+      "name": "$forceUpdate",
+      "source": "function(){var e=this;e._watcher&&e._watcher.update()}"
+    }
+  ],
+  "propData": {
+    "UIName": "生产单元实例表格",
+    "groupName": "数据",
+    "icon": "table",
+    "prototypeName": "ElementTable",
+    "elementuiType": "ElementTable",
+    "objectType": 2,
+    "KSCGUID": "kfb11084f05c5ecec7d089e7f1183d59",
+    "leftTopPt": {
+      "x": 0,
+      "y": 0
+    },
+    "showCustomLabel": false,
+    "customLabel": "",
+    "expands": [
+      {
+        "purepoguid": "10acca9d-f852-4dcf-b27e-35ebe8e3f671",
+        "purepoid": "288230376151738726",
+        "instance_name": "NadirL1",
+        "timespaceguid": "10acca9d-f852-4dcf-b27e-35ebe8e3f671",
+        "purepoparentguid": "",
+        "parenttsguid": "",
+        "current_version": "1",
+        "deploy_state": "已部署",
+        "running_state": "已启动",
+        "cloudname": "本云",
+        "areaname": "area0",
+        "children": [
+          {
+            "purepoguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+            "purepoid": "288230376151738727",
+            "instance_name": "NadirL2",
+            "timespaceguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+            "purepoparentguid": "10acca9d-f852-4dcf-b27e-35ebe8e3f671",
+            "parenttsguid": "10acca9d-f852-4dcf-b27e-35ebe8e3f671",
+            "current_version": "1",
+            "deploy_state": "已部署",
+            "running_state": "已启动",
+            "cloudname": "本云",
+            "areaname": "area0",
+            "children": [],
+            "rowIndex": "1-1"
+          }
+        ],
+        "rowIndex": "1"
+      }
+    ],
+    "detailConfig": "// 获取选中行的父行信息，用于判断部署和运行状态\n// 入参：父实例仓库GUID\nfunction getParentRowData(param) {\n  let retObj = {};\n  for (let i = 0; i < $Variable.tableData.length; i++) {\n    let objItem = $Variable.tableData[i];\n    if (param === objItem.purepoguid) {\n      retObj = objItem;\n      break;\n    }\n  }\n  return retObj;\n}\n\n// 用于校验选中行的所有子行的部署状态\n// 入参：选中行的子行数组\nfunction verifyChildRowStatus(param) {\n  for (let i = 0; i < param.length; i++) {\n    let objItem = param[i];\n    if (\"未部署\" !== objItem.deploy_state) {\n      _Infor(\"请先撤销部署当前项的所有子节点！\", \"error\");\n      return -1;\n    }\n  }\n  return 0;\n}\n\n// 消息提示窗\nfunction _Infor(massage, type) {\n  var options = {\n    message: massage,\n    type: type,\n    duration: 3000,\n    showClose: true\n  };\n  ShowMessage(options);\n}\n\nthis.table({\n  filterOption: {\n    searchKey: 'instance_name', //搜索列的prop，未配置或空值为全列搜索。\n    resPrecise: false, //是否精准匹配，默认否，为模糊搜索\n    range: 1 //0代表当前页数据，1代表表格所有页数据\n  },\n  cellClassName: function({\n    row,\n    column,\n    rowIndex,\n    columnIndex\n  }) {\n    if ('操作' == column.label) {\n      return 'cellName';\n    }\n  },\n  columns: [{\n      prop: 'select',\n      align: \"left\",\n      minWidth: '6%',\n      type: 'selection'\n    }, {\n      prop: 'instance_name',\n      label: '实例名称',\n      align: \"left\",\n      minWidth: '32%',\n      type: '',\n      columnKey: '',\n      fixed: false,\n    },\n    {\n      prop: 'current_version',\n      label: '版本',\n      align: \"left\",\n      minWidth: '8%',\n      type: '',\n      columnKey: '',\n      fixed: false,\n    },\n    {\n      prop: 'cloudname',\n      label: '云',\n      align: \"left\",\n      minWidth: '8%',\n      type: '',\n      columnKey: '',\n      fixed: false,\n    },\n    {\n      prop: 'areaname',\n      label: '数据区',\n      align: \"left\",\n      minWidth: '8%',\n      type: '',\n      columnKey: '',\n      fixed: false,\n    },\n    {\n      prop: 'deploy_state',\n      label: '部署状态',\n      align: \"left\",\n      minWidth: '8%',\n      type: '',\n      columnKey: '',\n      fixed: false,\n    },\n    {\n      prop: 'running_state',\n      label: '运行状态',\n      align: \"left\",\n      minWidth: '8%',\n      type: '',\n      columnKey: '',\n      fixed: false,\n    },\n    {\n      prop: '操作',\n      label: '操作',\n      align: \"left\",\n      minWidth: '38%',\n      type: '',\n      columnKey: '',\n      fixed: false,\n      plugins: [{\n        pluginType: 'button',\n        text: '部署',\n        type: 'text',\n        click: function(scope) {\n          if (scope.row) {\n            debugger\n\n            let rowData = scope.row;\n            // 给全局变量赋值\n            $Variable.selectPUInstancesList = [rowData];\n\n            if (\"未部署\" === rowData.deploy_state) {\n              // 判断当前项的父节点的部署状态\n              if (\"\" != rowData.purepoparentguid) {\n                let parentRowData = getParentRowData(rowData.purepoparentguid);\n                if ((\"未部署\" === parentRowData.deploy_state || \"部分部署\" == parentRowData.deploy_state) &&\n                  (\"\" == parentRowData.cloudname || undefined == parentRowData.cloudname)) {\n                  _Infor(\"请先部署此节点的父节点！\", \"error\");\n                } else {\n                  // 部署生产单元实例\n                  if (\"\" != rowData.cloudname && undefined != rowData.cloudname) {\n                    $Variable.deployPUInstances = !$Variable.deployPUInstances;\n                  } else {\n                    // 选择需要部署的云，数据区\n                    // 配置窗口 top 位置\n                    let windowHeight = document.body.clientHeight;\n                    let pageHeight = 600;\n                    let topPX = \"0px\";\n                    if ((windowHeight - pageHeight) > 0) {\n                      topPX = String((windowHeight - pageHeight) / 2) + \"px\";\n                    }\n\n                    //页面名称\n                    let pageName = \"数据区选择_页面\";\n                    //配置项\n                    let options = {\n                      styleOptions: {\n                        header: false,\n                        modal: true,\n                        width: 700,\n                        height: 360,\n                        draggable: true,\n                        maximizable: false,\n                        top: topPX\n                      },\n                      variables: []\n                    };\n\n                    ShowChild(pageName, options, (res) => {\n\n                      if (res.eventName == \"closePageEvent\") {\n                        if (res.eventParam.length > 0) {\n                          $Variable.deployInfo = JSON.stringify(res.eventParam[0])\n                        }\n                        CloseChild(pageName);\n\n                        if (res.eventParam.length > 0) {\n                          $Variable.deployPUInstances = !$Variable.deployPUInstances;\n                        }\n\n                      }\n\n                    });\n                  }\n                }\n              }else{\n                  if (\"\" != rowData.cloudname && undefined != rowData.cloudname) {\n                    $Variable.deployPUInstances = !$Variable.deployPUInstances;\n                  } else {\n                    // 选择需要部署的云，数据区\n                    // 配置窗口 top 位置\n                    let windowHeight = document.body.clientHeight;\n                    let pageHeight = 600;\n                    let topPX = \"0px\";\n                    if ((windowHeight - pageHeight) > 0) {\n                      topPX = String((windowHeight - pageHeight) / 2) + \"px\";\n                    }\n\n                    //页面名称\n                    let pageName = \"数据区选择_页面\";\n                    //配置项\n                    let options = {\n                      styleOptions: {\n                        header: false,\n                        modal: true,\n                        width: 700,\n                        height: 360,\n                        draggable: true,\n                        maximizable: false,\n                        top: topPX\n                      },\n                      variables: []\n                    };\n\n                    ShowChild(pageName, options, (res) => {\n\n                      if (res.eventName == \"closePageEvent\") {\n                        if (res.eventParam.length > 0) {\n                          $Variable.deployInfo = JSON.stringify(res.eventParam[0])\n                        }\n                        CloseChild(pageName);\n\n                        if (res.eventParam.length > 0) {\n                          $Variable.deployPUInstances = !$Variable.deployPUInstances;\n                        }\n\n                      }\n\n                    });\n                  }                \n              }\n            } else if (\"已部署\" === rowData.deploy_state) {\n              // 判断当前项是否已启动\n              if (\"已启动\" === rowData.running_state) {\n                _Infor(\"请先停止此节点！\", \"error\");\n              } else {\n                // 校验当前项的所有子节点状态\n                // let retVerify = verifyChildRowStatus(rowData.children);\n                // if (0 === retVerify) {\n                // 撤销部署生产单元实例\n                $Variable.undeployPUInstances = !$Variable.undeployPUInstances;\n                // }\n              }\n            } else if (\"部分部署\" == rowData.deploy_state) {\n              $Variable.undeployPUInstances = !$Variable.undeployPUInstances;\n            }\n          } else {\n            _Infor(\"当前选中行数据有误，请检查后重试！\", \"error\");\n          }\n        }\n      }, {\n        pluginType: 'button',\n        text: '启动',\n        type: 'text',\n        click: function(scope) {\n          if (scope.row) {\n            debugger\n\n            let rowData = scope.row;\n            // 给全局变量赋值\n            $Variable.selectPUInstancesList = [rowData];\n\n            if (\"未启动\" === rowData.running_state) {\n              // 判断当前项的部署状态\n              if (\"未部署\" === rowData.deploy_state) {\n                _Infor(\"请先部署此节点！\", \"error\");\n              } else if (\"已部署\" === rowData.deploy_state) {\n                // 判断当前项的父节点的运行状态\n                // let parentRowData = getParentRowData(rowData.purepoparentguid);\n                // if (\"未启动\" === parentRowData.running_state) {\n                //     _Infor(\"请先启动此节点的父节点！\", \"error\");\n                // } else {\n                // 启动生产单元实例\n                $Variable.startPUInstances = !$Variable.startPUInstances;\n                // }\n              } else if (\"部分部署\" == rowData.deploy_state) {\n                _Infor(\"请先撤销部署此节点！\", \"error\");\n              }\n            } else if (\"已启动\" === rowData.running_state || \"部分启动\" == rowData.running_state) {\n              // 停止生产单元实例\n              $Variable.stopPUInstances = !$Variable.stopPUInstances;\n            }\n          } else {\n            _Infor(\"当前选中行数据有误，请检查后重试！\", \"error\");\n          }\n        }\n      }, {\n\n        pluginType: 'button',\n        text: '更新',\n        type: 'text',\n        click: function(scope) {\n          if (scope.row) {\n            debugger\n\n            if (!$Variable.bClickButton) {\n              // 设置标志位\n              $Variable.bClickButton = true;\n\n              let rowData = scope.row;\n              // 给全局变量赋值\n              $Variable.selectPUInstancesList = [rowData];\n\n              if (\"未启动\" === rowData.running_state) {\n                // 重置标志位\n                $Variable.bClickButton = false;\n                _Infor(\"请先启动此节点！\", \"error\");\n                return;\n              }\n\n              $Variable.updatePUInstance = !$Variable.updatePUInstance;\n              // // 配置窗口 top 位置\n              // let windowHeight = document.body.clientHeight;\n              // let pageHeight = 600;\n              // let topPX = \"0px\";\n              // if ((windowHeight - pageHeight) > 0) {\n              //     topPX = String((windowHeight - pageHeight) / 2) + \"px\";\n              // }\n\n              // //页面名称\n              // let pageName = \"更新_弹窗页面\";\n              // //配置项\n              // let options = {\n              //     styleOptions: {\n              //         header: false,\n              //         modal: true,\n              //         width: 1008,\n              //         height: 600,\n              //         draggable: true,\n              //         maximizable: false,\n              //         top: topPX\n              //     },\n              //     variables: [{\n              //         name: \"cloudID\",\n              //         value: $Variable.cloudID\n              //     }, {\n              //         name: \"spaceTimeObjectFullPath\",\n              //         value: $Variable.spaceTimeObjectFullPath\n              //     }, {\n              //         name: \"spaceTimeObjectName\",\n              //         value: $Variable.spaceTimeObjectName\n              //     }, {\n              //         name: \"selectCloudInfos\",\n              //         value: $Variable.selectCloudInfos\n              //     }, {\n              //         name: \"selectInstanceInfos\",\n              //         value: rowData\n              //     }]\n              // };\n\n              // ShowChild(pageName, options, (res) => {\n              //     // 重置标志位\n              //     $Variable.bClickButton = false;\n\n              //     if (res.eventName == \"submit\") {\n              //         CloseChild(pageName);\n              //     }\n              //     if (res.eventName == \"cancel\") {\n              //         CloseChild(pageName);\n              //     }\n              // });\n            }\n          } else {\n            _Infor(\"当前选中行数据有误，请检查后重试！\", \"error\");\n          }\n        }\n      }, {\n\n        pluginType: 'button',\n        text: '部分更新',\n        type: 'text',\n        click: function(scope) {\n          if (scope.row) {\n            debugger\n\n            if (!$Variable.bClickButton) {\n              // 设置标志位\n              $Variable.bClickButton = true;\n\n              let rowData = scope.row;\n              // 给全局变量赋值\n              $Variable.selectPUInstancesList = [rowData];\n\n              if (\"未启动\" === rowData.running_state) {\n                // 重置标志位\n                $Variable.bClickButton = false;\n                _Infor(\"请先启动此节点！\", \"error\");\n                return;\n              }\n\n              // 配置窗口 top 位置\n              let windowHeight = document.body.clientHeight;\n              let pageHeight = 600;\n              let topPX = \"0px\";\n              if ((windowHeight - pageHeight) > 0) {\n                topPX = String((windowHeight - pageHeight) / 2) + \"px\";\n              }\n\n              //页面名称\n              let pageName = \"部分更新_弹窗页面\";\n              //配置项\n              let options = {\n                styleOptions: {\n                  header: false,\n                  modal: true,\n                  width: 1008,\n                  height: 600,\n                  draggable: true,\n                  maximizable: false,\n                  top: topPX\n                },\n                variables: [{\n                  name: \"cloudID\",\n                  value: $Variable.cloudID\n                }, {\n                  name: \"spaceTimeObjectFullPath\",\n                  value: $Variable.spaceTimeObjectFullPath\n                }, {\n                  name: \"spaceTimeObjectName\",\n                  value: $Variable.spaceTimeObjectName\n                }, {\n                  name: \"selectCloudInfos\",\n                  value: $Variable.selectCloudInfos\n                }, {\n                  name: \"selectInstanceInfos\",\n                  value: rowData\n                }]\n              };\n\n              ShowChild(pageName, options, (res) => {\n                // 重置标志位\n                $Variable.bClickButton = false;\n\n                if (res.eventName == \"submit\") {\n                  CloseChild(pageName);\n                }\n                if (res.eventName == \"cancel\") {\n                  CloseChild(pageName);\n                }\n              });\n            }\n          } else {\n            _Infor(\"当前选中行数据有误，请检查后重试！\", \"error\");\n          }\n        }\n      }, {\n        pluginType: 'button',\n        text: '删除',\n        type: 'text',\n        click: function(scope) {\n          if (scope.row) {\n            debugger\n\n            let rowData = scope.row;\n            // 给全局变量赋值\n            $Variable.selectPUInstancesList = [rowData];\n\n            if (\"未启动\" === rowData.running_state) {\n              $Variable.deletPUInstances = !$Variable.deletPUInstances;\n            } else if (\"已启动\" === rowData.running_state) {\n              _Infor(\"请先停止此节点！\", \"error\");\n            }\n          } else {\n            _Infor(\"当前选中行数据有误，请检查后重试！\", \"error\");\n          }\n        }\n      }, {\n        pluginType: 'button',\n        text: '全部展开',\n        type: 'text',\n        click: function(scope) {\n          if (scope.row) {\n            debugger\n\n            let rowData = scope.row;\n            let index = rowData.rowIndex\n            if (index.split(\"-\").length != 2) {\n              _Infor(\"仅作业区支持全部展开！\", \"error\");\n            } else {\n              // 给全局变量赋值\n              $Variable.selectPUInstancesList = [rowData];\n              $Variable.showAll = !$Variable.showAll;\n            }\n          }\n        }\n      }]\n    },\n  ],\n  totalData: [\n    /*{\n            instance_name: '报警转发',\n            rollback_version: 'v1',\n            current_version: 'v2',\n            deploy_state: '未部署',\n            running_state: '未启动',\n            children: []\n        }, {\n            instance_name: '长庆采油六厂',\n            rollback_version: 'v1',\n            current_version: 'v2',\n            deploy_state: '已部署',\n            running_state: '未启动',\n            children: [{\n                instance_name: '武峁子作业区',\n                rollback_version: 'v3',\n                current_version: 'v4',\n                deploy_state: '未部署',\n                running_state: '未启动',\n                children: [{\n                    instance_name: 'A83-029Z',\n                    rollback_version: 'v1',\n                    current_version: 'v2',\n                    deploy_state: '已部署',\n                    running_state: '已启动',\n                    children: [{\n                        instance_name: 'DDF1',\n                        rollback_version: 'v2',\n                        current_version: 'v3',\n                        deploy_state: '未部署',\n                        running_state: '未启动',\n                        children: []\n                    }]\n                }]\n            }]\n        }*/\n  ]\n})",
+    "styleConfig": "/*单元格背景色*/\n#domId .el-table th,\n#domId .el-table tr {\n    background: #FFFFFF;\n    font-family: Source Han Sans;\n    font-size: 14px;\n    line-height: normal;\n    letter-spacing: normal;\n    color: #333333;\n    height: 36px;\n}\n\n/*表格header字体样式*/\n#domId .el-table thead {\n    font-family: Source Han Sans;\n    font-size: 12px;\n    line-height: normal;\n    letter-spacing: normal;\n    color: #333333;\n}\n\n/*表格header的背景色*/\n#domId .el-table__header th,\n#domId .el-table__header tr {\n    background: #F8F8F8;\n    font-weight: normal;\n}\n\n/*操作列按钮*/\n#domId .cellName .el-button:nth-child(1) {\n    width: 60px;\n}",
+    "dblLight": true,
+    "operable": true,
+    "lock": false,
+    "visible": true,
+    "expandRowKeys": [],
+    "runVisible": true,
+    "checkStateSave": false,
+    "show": true,
+    "data": [
+      {
+        "purepoguid": "10acca9d-f852-4dcf-b27e-35ebe8e3f671",
+        "purepoid": "288230376151738726",
+        "instance_name": "NadirL1",
+        "timespaceguid": "10acca9d-f852-4dcf-b27e-35ebe8e3f671",
+        "purepoparentguid": "",
+        "parenttsguid": "",
+        "current_version": "1",
+        "deploy_state": "已部署",
+        "running_state": "已启动",
+        "cloudname": "本云",
+        "areaname": "area0",
+        "children": [
+          {
+            "purepoguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+            "purepoid": "288230376151738727",
+            "instance_name": "NadirL2",
+            "timespaceguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+            "purepoparentguid": "10acca9d-f852-4dcf-b27e-35ebe8e3f671",
+            "parenttsguid": "10acca9d-f852-4dcf-b27e-35ebe8e3f671",
+            "current_version": "1",
+            "deploy_state": "已部署",
+            "running_state": "已启动",
+            "cloudname": "本云",
+            "areaname": "area0",
+            "children": [],
+            "rowIndex": "1-1"
+          }
+        ],
+        "rowIndex": "1"
+      }
+    ],
+    "stripe": false,
+    "border": false,
+    "treeProps": {
+      "children": "children",
+      "hasChildren": "hasChildren"
+    },
+    "showHeader": true,
+    "fit": true,
+    "highlightCurrentRow": true,
+    "emptyText": "暂无数据",
+    "showSummary": false,
+    "sumText": "sumText",
+    "pagination": false,
+    "pageSizes": [
+      10,
+      20,
+      50,
+      100
+    ],
+    "currentPage": 1,
+    "pageSize": 10,
+    "defaultExpandAll": false,
+    "lazyLoad": false,
+    "paginationLayout": "total,sizes,prev,pager,next,jumper",
+    "paginationBackground": false,
+    "isVirtualScroll": false,
+    "totalData": [],
+    "totalLength": 1,
+    "pagerCount": 7,
+    "height": "100%",
+    "styleOption": {},
+    "langKeys": [
+      "暂无数据",
+      "sumText",
+      "实例名称",
+      "版本",
+      "云",
+      "数据区",
+      "部署状态",
+      "运行状态",
+      "操作"
+    ],
+    "rowStyleConditions": [],
+    "cellStyleConditions": [],
+    "locationY": "0",
+    "locationX": "0",
+    "singleSelect": false,
+    "columns": [
+      {
+        "prop": "select",
+        "align": "left",
+        "minWidth": "6%",
+        "type": "selection",
+        "link": true
+      },
+      {
+        "prop": "instance_name",
+        "label": "实例名称",
+        "align": "left",
+        "minWidth": "32%",
+        "type": "",
+        "columnKey": "",
+        "fixed": false
+      },
+      {
+        "prop": "current_version",
+        "label": "版本",
+        "align": "left",
+        "minWidth": "8%",
+        "type": "",
+        "columnKey": "",
+        "fixed": false
+      },
+      {
+        "prop": "cloudname",
+        "label": "云",
+        "align": "left",
+        "minWidth": "8%",
+        "type": "",
+        "columnKey": "",
+        "fixed": false
+      },
+      {
+        "prop": "areaname",
+        "label": "数据区",
+        "align": "left",
+        "minWidth": "8%",
+        "type": "",
+        "columnKey": "",
+        "fixed": false
+      },
+      {
+        "prop": "deploy_state",
+        "label": "部署状态",
+        "align": "left",
+        "minWidth": "8%",
+        "type": "",
+        "columnKey": "",
+        "fixed": false
+      },
+      {
+        "prop": "running_state",
+        "label": "运行状态",
+        "align": "left",
+        "minWidth": "8%",
+        "type": "",
+        "columnKey": "",
+        "fixed": false
+      },
+      {
+        "prop": "操作",
+        "label": "操作",
+        "align": "left",
+        "minWidth": "38%",
+        "type": "",
+        "columnKey": "",
+        "fixed": false,
+        "plugins": [
+          {
+            "pluginType": "button",
+            "text": "部署",
+            "type": "text"
+          },
+          {
+            "pluginType": "button",
+            "text": "启动",
+            "type": "text"
+          },
+          {
+            "pluginType": "button",
+            "text": "更新",
+            "type": "text"
+          },
+          {
+            "pluginType": "button",
+            "text": "部分更新",
+            "type": "text"
+          },
+          {
+            "pluginType": "button",
+            "text": "删除",
+            "type": "text"
+          },
+          {
+            "pluginType": "button",
+            "text": "全部展开",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "linkList": [
+      {
+        "name": "Select",
+        "property": "upDateLink",
+        "type": "script",
+        "enable": true,
+        "script": "debugger\r\n\r\nif (arguments.length > 1) {\r\n    //当前已选中的行内容（可能是多行）\r\n    let data = arguments[1].selection;\r\n\r\n    // 给全局变量赋值\r\n    $Variable.selectPUInstancesList = data;\r\n\r\n    // 统计节点状态（根据最新的数据来源）\r\n    let undeployNodeCount = 0;\r\n    let deployedStartedCount = 0; // 已部署且已启动\r\n    let deployedStoppedCount = 0; // 已部署但未启动\r\n    let unnormalNodeCount = 0;\r\n    let partDeployCount = 0; // 部分部署\r\n\r\n    // 处理每个选中数据\r\n    for (let i = 0; i < data.length; i++) {\r\n        let nodeItem = data[i];\r\n\r\n        if (\"已部署\" === nodeItem.deploy_state) {\r\n            if (\"已启动\" === nodeItem.running_state || \"部分启动\" == nodeItem.running_state) {\r\n                deployedStartedCount++;\r\n            } else if (\"未启动\" === nodeItem.running_state) {\r\n                deployedStoppedCount++;\r\n            }\r\n        } else if (\"未部署\" === nodeItem.deploy_state) {\r\n            undeployNodeCount++;\r\n        } else if (\"部分部署\" == nodeItem.deploy_state){\r\n            partDeployCount++;\r\n        } else if(\"异常\" == nodeItem.deploy_state){\r\n            unnormalNodeCount++;\r\n        }\r\n    }\r\n\r\n    // 向父页面传参\r\n    let parentPageName = \"运维部署管理_框架页面\";\r\n    let selectedNodeStatus = {\r\n        undeployNodeCount,\r\n        deployedStartedCount,\r\n        deployedStoppedCount,\r\n        unnormalNodeCount,\r\n        partDeployCount\r\n    };\r\n    SetVariable(parentPageName, 'selectedNodeStatus', selectedNodeStatus);\r\n\r\n    // 触发父页面脚本执行\r\n    GetVariable(parentPageName, 'updatePUButtonStatus');\r\n}",
+        "linkId": 200001,
+        "KSCGUID": "k2f8a936f35988d90170c7e70d133a0c"
+      },
+      {
+        "name": "Select-all",
+        "property": "upDateLink",
+        "type": "script",
+        "enable": true,
+        "script": "debugger\r\n\r\nif (arguments.length > 1) {\r\n    //当前已选中的行内容（可能是多行）\r\n    let data = arguments[1];\r\n\r\n    // 给全局变量赋值\r\n    $Variable.selectPUInstancesList = data;\r\n\r\n    // 统计节点状态（根据最新的数据来源）\r\n    let undeployNodeCount = 0;\r\n    let deployedStartedCount = 0; // 已部署且已启动\r\n    let deployedStoppedCount = 0; // 已部署但未启动\r\n    let unnormalNodeCount = 0;\r\n    let partDeployCount = 0; // 部分部署\r\n    // 处理每个选中数据\r\n    for (let i = 0; i < data.length; i++) {\r\n        let nodeItem = data[i];\r\n\r\n        if (\"已部署\" === nodeItem.deploy_state) {\r\n            if (\"已启动\" === nodeItem.running_state || \"部分启动\" == nodeItem.running_state) {\r\n                deployedStartedCount++;\r\n            } else if (\"未启动\" === nodeItem.running_state) {\r\n                deployedStoppedCount++;\r\n            }\r\n        } else if (\"未部署\" === nodeItem.deploy_state) {\r\n            undeployNodeCount++;\r\n        } else if (\"部分部署\" == nodeItem.deploy_state){\r\n            partDeployCount++;\r\n        } else if(\"异常\" == nodeItem.deploy_state){\r\n            unnormalNodeCount++;\r\n        }\r\n    }\r\n\r\n    // 向父页面传参\r\n    let parentPageName = \"运维部署管理_框架页面\";\r\n    let selectedNodeStatus = {\r\n        undeployNodeCount,\r\n        deployedStartedCount,\r\n        deployedStoppedCount\r\n    };\r\n    SetVariable(parentPageName, 'selectedNodeStatus', selectedNodeStatus);\r\n\r\n    // 触发父页面脚本执行\r\n    GetVariable(parentPageName, 'updatePUButtonStatus');\r\n}",
+        "linkId": 200002,
+        "KSCGUID": "k2b7510e83130154fba5255a227e996f"
+      },
+      {
+        "linkId": 200003,
+        "enable": false,
+        "KSCGUID": "kd35b1393e55ee9394e9381734b03814",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "SelectionChange"
+      },
+      {
+        "linkId": 200004,
+        "enable": false,
+        "KSCGUID": "k86b0ebc55eded806f8f94195029e6ff",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CellMouseEnter"
+      },
+      {
+        "linkId": 200005,
+        "enable": false,
+        "KSCGUID": "k49fbc5588c8275788076f1482a2a14d",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CellMouseLeave"
+      },
+      {
+        "name": "Cell-click",
+        "property": "upDateLink",
+        "type": "script",
+        "enable": false,
+        "script": "debugger\n\nif (arguments.length > 1) {\n    let data = arguments[1];\n\n    if (\"实例名称\" === data.column.label){\n        // 给当前选择的仓库GUID赋值\n        $Variable.selectRepoGUID = data.row.purepoguid;\n    \n        // 触发执行刷新生产单元实例列表函数\n        $Variable.queryPUInstancesList = !$Variable.queryPUInstancesList;\n    }\n}",
+        "linkId": 200006,
+        "KSCGUID": "kf4dd4b4317c9b16500b473838584579"
+      },
+      {
+        "linkId": 200007,
+        "enable": false,
+        "KSCGUID": "k8e36d64fa4c726d8003026092896f05",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CellDbclick"
+      },
+      {
+        "linkId": 200008,
+        "enable": false,
+        "KSCGUID": "k07ea3155f03a398dad4401125de2e06",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "RowClick"
+      },
+      {
+        "linkId": 200009,
+        "enable": false,
+        "KSCGUID": "k5f617a2ed39af695b814d6177c5a902",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "RowContextmenu"
+      },
+      {
+        "linkId": 200010,
+        "enable": false,
+        "KSCGUID": "kaf127c7bdb6cd12dedfabfb945742cf",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "RowDbclick"
+      },
+      {
+        "linkId": 200011,
+        "enable": false,
+        "KSCGUID": "k1015ea551c41064a8c113d5d459986d",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "HeaderClick"
+      },
+      {
+        "linkId": 200012,
+        "enable": false,
+        "KSCGUID": "kce52c67fe588b91c5e256b5a80c65ea",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "SortChange"
+      },
+      {
+        "linkId": 200013,
+        "enable": false,
+        "KSCGUID": "kaae568fcae2b701870a543f3f284113",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "FilterChange"
+      },
+      {
+        "linkId": 200014,
+        "enable": false,
+        "KSCGUID": "kd787eb314d9ce39c254dd8097e76bf7",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CurrentChange"
+      },
+      {
+        "linkId": 200015,
+        "enable": false,
+        "KSCGUID": "k20d3b79c9dcdeec146e0e6dcce0c14f",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "HeaderDragend"
+      },
+      {
+        "name": "Expand-change",
+        "property": "upDateLink",
+        "type": "script",
+        "enable": true,
+        "script": "debugger\n\nif (arguments.length > 1) {\n    let data = arguments[1];\n\n    if (true === data.expand) {\n        // 给当前选择的仓库GUID赋值\n        $Variable.selectRepoInfos = data.rows;\n\n        // 触发执行刷新生产单元实例列表函数\n        $Variable.queryPUInstancesList = !$Variable.queryPUInstancesList;\n    }\n}",
+        "linkId": 200016,
+        "KSCGUID": "kbba6fb5bd03926379307f682c7a2f2f"
+      },
+      {
+        "linkId": 200017,
+        "enable": false,
+        "KSCGUID": "kb1aff4a9746ff4f45d9bec2be3a7a60",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CurrentPageChange"
+      },
+      {
+        "name": "onLoadSuccess",
+        "property": "upDateLink",
+        "type": "script",
+        "enable": true,
+        "script": "debugger\n\nlet elementArr = document.querySelectorAll(\".生产单元实例表格 .el-table__row\");\nfor (let i = 0; i < elementArr.length; i++) {\n    let element = elementArr[i];\n    \n    // 部署状态\n    let deployState = element.children[5].children[0].innerText;\n    let name = element.children[1].children[0].innerText;\n    if(!name.includes(\"作业区\")){\n        element.children[7].children[0].children[5].children[0].style.color = \"#A4ABBC\"; // 全部展开\n    }\n    if (\"已部署\" === deployState) {\n        // 部署状态列\n        element.children[5].children[0].style.color = \"#08BF58\";\n        // 操作列\n        element.children[7].children[0].children[0].children[0].innerText = \"撤销部署\";\n        element.children[7].children[0].children[1].children[0].style.color = \"#0076FF\"; // 启动\n    } else if (\"未部署\" === deployState) {\n        // 部署状态列\n        element.children[5].children[0].style.color = \"#A4ABBC\";\n        // 操作列\n        element.children[7].children[0].children[0].children[0].innerText = \"部署\";\n        element.children[7].children[0].children[0].children[0].style.color = \"#0076FF\"; // 部署\n        element.children[7].children[0].children[1].children[0].style.color = \"#A4ABBC\"; // 启动\n    } else if (\"部分部署\" == deployState){\n        element.children[7].children[0].children[0].children[0].innerText = \"撤销部署\";\n        element.children[7].children[0].children[1].children[0].style.color = \"#A4ABBC\"; // 启动        \n    } else if(\"异常\" == deployState){\n        element.children[7].children[0].children[0].children[0].innerText = \"部署\";\n        element.children[7].children[0].children[1].children[0].innerText = \"启动\";\n        element.children[7].children[0].children[0].children[0].style.color = \"#A4ABBC\"; // 部署\n        element.children[7].children[0].children[1].children[0].style.color = \"#A4ABBC\"; // 启动        \n    }\n    \n    \n    // 运行状态\n    let runState = element.children[6].children[0].innerText;\n    if (\"已启动\" === runState || \"部分启动\" == runState) {\n        // 运行状态列\n        element.children[6].children[0].style.color = \"#08BF58\";\n        // 操作列\n        element.children[7].children[0].children[1].children[0].innerText = \"停止\";\n        element.children[7].children[0].children[0].children[0].style.color = \"#A4ABBC\"; // 撤销部署\n        element.children[7].children[0].children[1].children[0].style.color = \"#FF5B51\"; // 停止\n        element.children[7].children[0].children[2].children[0].style.color = \"#0076FF\"; // 更新\n        // element.children[5].children[0].children[3].children[0].style.color = \"#0076FF\"; // 回退\n    } else if (\"未启动\" === runState) {\n        // 运行状态列\n        element.children[6].children[0].style.color = \"#F04438\";\n        // 操作列\n        element.children[7].children[0].children[1].children[0].innerText = \"启动\";\n        element.children[7].children[0].children[0].children[0].style.color = \"#0076FF\"; // 撤销部署\n        element.children[7].children[0].children[2].children[0].style.color = \"#A4ABBC\"; // 更新\n        // element.children[5].children[0].children[3].children[0].style.color = \"#A4ABBC\"; // 回退\n    }\n}",
+        "linkId": 200018,
+        "KSCGUID": "k950b34e4b197f9850bde145b833dc78"
+      },
+      {
+        "linkId": 200019,
+        "enable": false,
+        "KSCGUID": "k74278ed8fe16bac84bfee591b47c9ce",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "OnBeforeEdit"
+      },
+      {
+        "linkId": 200020,
+        "enable": false,
+        "KSCGUID": "ka6aaa49d070943c12208be8cbdfe6e2",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "OnAfterEdit"
+      },
+      {
+        "linkId": 200021,
+        "enable": false,
+        "KSCGUID": "k4848711009328eae42c06a2a4e76e44",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "PageSizeChange"
+      }
+    ],
+    "uiInputLinkList": [],
+    "uiOutputLinkList": [],
+    "parentGUID": "a7ec6ae3-92d1-456c-87ca-88481c5488cb",
+    "spanMethodConfig": {
+      "enable": false,
+      "list": []
+    },
+    "filterOption": {
+      "searchKey": "instance_name",
+      "resPrecise": false,
+      "range": 1
+    },
+    "currentRow": null
+  },
+  "data": "SyntaxError: \"undefined\" is not valid JSON",
+  "totalData": [
+    {
+      "purepoguid": "10acca9d-f852-4dcf-b27e-35ebe8e3f671",
+      "purepoid": "288230376151738726",
+      "instance_name": "NadirL1",
+      "timespaceguid": "10acca9d-f852-4dcf-b27e-35ebe8e3f671",
+      "purepoparentguid": "",
+      "parenttsguid": "",
+      "current_version": "1",
+      "deploy_state": "已部署",
+      "running_state": "已启动",
+      "cloudname": "本云",
+      "areaname": "area0",
+      "children": [
+        {
+          "purepoguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+          "purepoid": "288230376151738727",
+          "instance_name": "NadirL2",
+          "timespaceguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+          "purepoparentguid": "10acca9d-f852-4dcf-b27e-35ebe8e3f671",
+          "parenttsguid": "10acca9d-f852-4dcf-b27e-35ebe8e3f671",
+          "current_version": "1",
+          "deploy_state": "已部署",
+          "running_state": "已启动",
+          "cloudname": "本云",
+          "areaname": "area0",
+          "children": [],
+          "rowIndex": "1-1"
+        }
+      ],
+      "rowIndex": "1"
+    }
+  ],
+  "configHits": [
+    {
+      "path": "root._scope.effects.9.value.0.deploy_state",
+      "key": "deploy_state",
+      "type": "string",
+      "value": "已部署"
+    },
+    {
+      "path": "root.$options.parent.$options.parent.$options.parent._update",
+      "key": "_update",
+      "type": "function",
+      "value": "function(n,i){var r=Cn(e);e.__patch__(e._vnode,e.kept,!1,!0),e._vnode=e.kept,r(),t.call(e,n,i)}"
+    },
+    {
+      "path": "root.$options.parent.$options.parent.KSCClientRun.UpdatePage",
+      "key": "UpdatePage",
+      "type": "function",
+      "value": "function () { [native code] }"
+    },
+    {
+      "path": "root.$options.parent.$options.parent.KSCClientRun.VariableManager.updateRelateInfo",
+      "key": "updateRelateInfo",
+      "type": "function",
+      "value": "function(e){let t=this.getVarByName(e.name);t&&t.setRelateInfo(e.relateName)}"
+    },
+    {
+      "path": "root.$options.parent.$options.parent.updateViewStore",
+      "key": "updateViewStore",
+      "type": "function",
+      "value": "function () { [native code] }"
+    },
+    {
+      "path": "root.$options.parent.$options.parent.updateOverItem",
+      "key": "updateOverItem",
+      "type": "function",
+      "value": "function () { [native code] }"
+    },
+    {
+      "path": "root.$options.parent.$options.parent.updatePasteFlag",
+      "key": "updatePasteFlag",
+      "type": "function",
+      "value": "function () { [native code] }"
+    },
+    {
+      "path": "root.$options.parent.$options.parent.updateRenderComs",
+      "key": "updateRenderComs",
+      "type": "function",
+      "value": "function () { [native code] }"
+    },
+    {
+      "path": "root.$options.parent.$options.parent.updateSelectFlag",
+      "key": "updateSelectFlag",
+      "type": "function",
+      "value": "function () { [native code] }"
+    },
+    {
+      "path": "root.$options.parent._props.propData.detailConfig",
+      "value": "// 获取选中行的父行信息，用于判断部署和运行状态\n// 入参：父实例仓库GUID\nfunction getParentRowData(param) {\n  let retObj = {};\n  for (let i = 0; i < $Variable.tableData.length; i++) {\n    let objItem = $Variable.tableData[i];\n    if (param === objItem.purepoguid) {\n      retObj = objItem;\n      break;\n    }\n  }\n  return retObj;\n}\n\n// 用于校验选中行的所有子行的部署状态\n// 入参：选中行的子行数组\nfunction verifyChildRowStatus(param) {\n  for (let i = 0; i < param.length; i++) {\n    let objItem = param[i];\n    if (\"未部署\" !== objItem.deploy_state) {\n      _Infor(\"请先撤销部署当前项的所有子节点！\", \"error\");\n      return -1;\n    }\n  }\n  return 0;\n}\n\n// 消息提示窗\nfunction _Infor(massage, type) {\n  var options = {\n    message: massage,\n    type: type,\n    duration: 3000,\n    showClose: true\n  };\n  ShowMessage(options);\n}\n\nthis.table({\n  filterOption: {\n    searchKey: 'instance_name', //搜索列的prop，未配置或空值为全列搜索。\n    resPrecise: false, //是否精准匹配，默认否，为模糊搜索\n    range: 1 //0代表当前页数据，1代表表格所有页数据\n  },\n  cellClassName: function({\n    row,\n    column,\n    rowIndex,\n    columnIndex\n  }) {\n    if ('操作' == column.label) {\n      return 'cellName';\n    }\n  },\n  columns: [{\n      prop: 'select',\n      align: \"left\",\n      minWidth: '6%',\n      type: 'selection'\n    }, {\n      prop: 'instance_name',\n      label: '实例名称',\n      align: \"left\",\n      minWidth: '32%',\n      type: '',\n      columnKey: '',\n      fixed: false,\n    },\n    {\n      prop: 'current_version',\n      label: '版本',\n      align: \"left\",\n      minWidth: '8%',\n      type: '',\n      columnKey: '',\n      fixed: false,\n    },\n    {\n      prop: 'cloudname',\n      label: '云',\n      align: \"left\",\n      minWidth: '8%',\n      type: '',\n      columnKey: '',\n      fixed: false,\n    },\n    {\n      prop: 'areaname',\n      label: '数据区',\n      align: \"left\",\n      minWidth: '8%',\n      type: '',\n      columnKey: '',\n      fixed: false,\n    },\n    {\n      prop: 'deploy_state',\n      label: '部署状态',\n      align: \"left\",\n      minWidth: '8%',\n      type: '',\n      columnKey: '',\n      fixed: false,\n    },\n    {\n      prop: 'running_state',\n      label: '运行状态',\n      align: \"left\",\n      minWidth: '8%',\n      type: '',\n      columnKey: '',\n      fixed: false,\n    },\n    {\n      prop: '操作',\n      label: '操作',\n      align: \"left\",\n      minWidth: '38%',\n      type: '',\n      columnKey: '',\n      fixed: false,\n      plugins: [{\n        pluginType: 'button',\n        text: '部署',\n        type: 'text',\n        click: function(scope) {\n          if (scope.row) {\n            debugger\n\n            let rowData = scope.row;\n            // 给全局变量赋值\n            $Variable.selectPUInstancesList = [rowData];\n\n            if (\"未部署\" === rowData.deploy_state) {\n              // 判断当前项的父节点的部署状态\n              if (\"\" != rowData.purepoparentguid) {\n                let parentRowData = getParentRowData(rowData.purepoparentguid);\n                if ((\"未部署\" === parentRowData.deploy_state || \"部分部署\" == parentRowData.deploy_state) &&\n                  (\"\" == parentRowData.cloudname || undefined == parentRowData.cloudname)) {\n                  "
+    },
+    {
+      "path": "root.$options.parent._props.propData.columns",
+      "key": "columns",
+      "type": "object",
+      "value": [
+        {
+          "prop": "select",
+          "align": "left",
+          "minWidth": "6%",
+          "type": "selection",
+          "link": true
+        },
+        {
+          "prop": "instance_name",
+          "label": "实例名称",
+          "align": "left",
+          "minWidth": "32%",
+          "type": "",
+          "columnKey": "",
+          "fixed": false
+        },
+        {
+          "prop": "current_version",
+          "label": "版本",
+          "align": "left",
+          "minWidth": "8%",
+          "type": "",
+          "columnKey": "",
+          "fixed": false
+        },
+        {
+          "prop": "cloudname",
+          "label": "云",
+          "align": "left",
+          "minWidth": "8%",
+          "type": "",
+          "columnKey": "",
+          "fixed": false
+        },
+        {
+          "prop": "areaname",
+          "label": "数据区",
+          "align": "left",
+          "minWidth": "8%",
+          "type": "",
+          "columnKey": "",
+          "fixed": false
+        },
+        {
+          "prop": "deploy_state",
+          "label": "部署状态",
+          "align": "left",
+          "minWidth": "8%",
+          "type": "",
+          "columnKey": "",
+          "fixed": false
+        },
+        {
+          "prop": "running_state",
+          "label": "运行状态",
+          "align": "left",
+          "minWidth": "8%",
+          "type": "",
+          "columnKey": "",
+          "fixed": false
+        },
+        {
+          "prop": "操作",
+          "label": "操作",
+          "align": "left",
+          "minWidth": "38%",
+          "type": "",
+          "columnKey": "",
+          "fixed": false,
+          "plugins": [
+            {
+              "pluginType": "button",
+              "text": "部署",
+              "type": "text"
+            },
+            {
+              "pluginType": "button",
+              "text": "启动",
+              "type": "text"
+            },
+            {
+              "pluginType": "button",
+              "text": "更新",
+              "type": "text"
+            },
+            {
+              "pluginType": "button",
+              "text": "部分更新",
+              "type": "text"
+            },
+            {
+              "pluginType": "button",
+              "text": "删除",
+              "type": "text"
+            },
+            {
+              "pluginType": "button",
+              "text": "全部展开",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "root.$options.parent._props.propData.columns.1.columnKey",
+      "key": "columnKey",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "path": "root.$options.parent._props.propData.columns.2.columnKey",
+      "key": "columnKey",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "path": "root.$options.parent._props.propData.columns.3.columnKey",
+      "key": "columnKey",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "path": "root.$options.parent._props.propData.columns.4.columnKey",
+      "key": "columnKey",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "path": "root.$options.parent._props.propData.columns.5.columnKey",
+      "key": "columnKey",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "path": "root.$options.parent._props.propData.columns.6.columnKey",
+      "key": "columnKey",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "path": "root.$options.parent._props.propData.columns.7.columnKey",
+      "key": "columnKey",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "path": "root.$options.parent.updateLinkScript",
+      "key": "updateLinkScript",
+      "type": "function",
+      "value": "function () { [native code] }"
+    },
+    {
+      "path": "root.$children.0.$children.0.column",
+      "key": "column",
+      "type": "object",
+      "value": {}
+    },
+    {
+      "path": "root.$children.0.$children.0.columnId",
+      "key": "columnId",
+      "type": "string",
+      "value": "el-table_2_column_2"
+    },
+    {
+      "path": "root.$children.0.$children.0._props.columnKey",
+      "key": "columnKey",
+      "type": "undefined",
+      "value": "SyntaxError: \"undefined\" is not valid JSON"
+    },
+    {
+      "path": "root.$children.0.$children.0._data.columns",
+      "key": "columns",
+      "type": "object",
+      "value": []
+    },
+    {
+      "path": "root.$children.0.$children.0.columns",
+      "key": "columns",
+      "type": "object",
+      "value": []
+    },
+    {
+      "path": "root.$children.0.$children.0._computedWatchers.columnOrTableParent",
+      "key": "columnOrTableParent",
+      "type": "object",
+      "value": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'o'\n    |     property '_scope' -> object with constructor 'e'\n    |     property 'effects' -> object with constructor 'Array'\n    |     index 0 -> object with constructor 'e'\n    --- property 'vm' closes the circle"
+    },
+    {
+      "path": "root.$children.0.$children.0.columnConfig",
+      "key": "columnConfig",
+      "type": "object",
+      "value": {
+        "width": 48,
+        "minWidth": 6,
+        "realWidth": null,
+        "order": "",
+        "className": "el-table-column--selection",
+        "id": "el-table_2_column_2",
+        "type": "selection",
+        "align": null,
+        "headerAlign": null,
+        "showOverflowTooltip": false,
+        "filteredValue": [],
+        "filterPlacement": "",
+        "isColumnGroup": false,
+        "filterOpened": false,
+        "sortable": false,
+        "resizable": false,
+        "sortOrders": [
+          "ascending",
+          "descending",
+          null
+        ],
+        "reserveSelection": false,
+        "filterMultiple": true,
+        "level": 1,
+        "colSpan": 1,
+        "rowSpan": 1
+      }
+    },
+    {
+      "path": "root.$children.0.$children.1.$options.propsData.columnKey",
+      "key": "columnKey",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "path": "root.$children.0.$children.1.column",
+      "key": "column",
+      "type": "object",
+      "value": {}
+    },
+    {
+      "path": "root.$children.0.$children.1.columnId",
+      "key": "columnId",
+      "type": "string",
+      "value": "el-table_2_column_3"
+    },
+    {
+      "path": "root.$children.0.$children.1._props.columnKey",
+      "key": "columnKey",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "path": "root.$children.0.$children.1._data.columns",
+      "key": "columns",
+      "type": "object",
+      "value": []
+    },
+    {
+      "path": "root.$children.0.$children.1.columns",
+      "key": "columns",
+      "type": "object",
+      "value": []
+    },
+    {
+      "path": "root.$children.0.$children.1._computedWatchers.columnOrTableParent",
+      "key": "columnOrTableParent",
+      "type": "object",
+      "value": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'o'\n    |     property '_scope' -> object with constructor 'e'\n    |     property 'effects' -> object with constructor 'Array'\n    |     index 0 -> object with constructor 'e'\n    --- property 'vm' closes the circle"
+    },
+    {
+      "path": "root.$children.0.$children.1.columnConfig",
+      "key": "columnConfig",
+      "type": "object",
+      "value": {
+        "order": "",
+        "id": "el-table_2_column_3",
+        "type": "default",
+        "property": "instance_name",
+        "align": "is-left",
+        "headerAlign": "is-left",
+        "showOverflowTooltip": true,
+        "filteredValue": [],
+        "filterPlacement": "",
+        "isColumnGroup": false,
+        "filterOpened": false,
+        "sortable": false,
+        "columnKey": "",
+        "label": "实例名称",
+        "fixed": false,
+        "resizable": true,
+        "sortOrders": [
+          "ascending",
+          "descending",
+          null
+        ],
+        "reserveSelection": false,
+        "filterMultiple": true,
+        "minWidth": 32,
+        "realWidth": 462,
+        "level": 1,
+        "colSpan": 1,
+        "rowSpan": 1
+      }
+    },
+    {
+      "path": "root.$children.0.$children.1.columnConfig.columnKey",
+      "key": "columnKey",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "path": "root.$children.0.$children.2.$options.propsData.columnKey",
+      "key": "columnKey",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "path": "root.$children.0.$children.2.column",
+      "key": "column",
+      "type": "object",
+      "value": {}
+    },
+    {
+      "path": "root.$children.0.$children.2.columnId",
+      "key": "columnId",
+      "type": "string",
+      "value": "el-table_2_column_4"
+    },
+    {
+      "path": "root.$children.0.$children.2._props.columnKey",
+      "key": "columnKey",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "path": "root.$children.0.$children.2._data.columns",
+      "key": "columns",
+      "type": "object",
+      "value": []
+    },
+    {
+      "path": "root.$children.0.$children.2.columns",
+      "key": "columns",
+      "type": "object",
+      "value": []
+    },
+    {
+      "path": "root.$children.0.$children.2._computedWatchers.columnOrTableParent",
+      "key": "columnOrTableParent",
+      "type": "object",
+      "value": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'o'\n    |     property '_scope' -> object with constructor 'e'\n    |     property 'effects' -> object with constructor 'Array'\n    |     index 0 -> object with constructor 'e'\n    --- property 'vm' closes the circle"
+    },
+    {
+      "path": "root.$children.0.$children.2.columnConfig",
+      "key": "columnConfig",
+      "type": "object",
+      "value": {
+        "order": "",
+        "id": "el-table_2_column_4",
+        "type": "default",
+        "property": "current_version",
+        "align": "is-left",
+        "headerAlign": "is-left",
+        "showOverflowTooltip": true,
+        "filteredValue": [],
+        "filterPlacement": "",
+        "isColumnGroup": false,
+        "filterOpened": false,
+        "sortable": false,
+        "columnKey": "",
+        "label": "版本",
+        "fixed": false,
+        "resizable": true,
+        "sortOrders": [
+          "ascending",
+          "descending",
+          null
+        ],
+        "reserveSelection": false,
+        "filterMultiple": true,
+        "minWidth": 8,
+        "realWidth": 115,
+        "level": 1,
+        "colSpan": 1,
+        "rowSpan": 1
+      }
+    },
+    {
+      "path": "root.$children.0.$children.2.columnConfig.columnKey",
+      "key": "columnKey",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "path": "root.$children.0.$children.3.$options.propsData.columnKey",
+      "key": "columnKey",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "path": "root.$children.0.$children.3.column",
+      "key": "column",
+      "type": "object",
+      "value": {}
+    },
+    {
+      "path": "root.$children.0.$children.3.columnId",
+      "key": "columnId",
+      "type": "string",
+      "value": "el-table_2_column_5"
+    },
+    {
+      "path": "root.$children.0.$children.3._props.columnKey",
+      "key": "columnKey",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "path": "root.$children.0.$children.3._data.columns",
+      "key": "columns",
+      "type": "object",
+      "value": []
+    },
+    {
+      "path": "root.$children.0.$children.3.columns",
+      "key": "columns",
+      "type": "object",
+      "value": []
+    },
+    {
+      "path": "root.$children.0.$children.3._computedWatchers.columnOrTableParent",
+      "key": "columnOrTableParent",
+      "type": "object",
+      "value": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'o'\n    |     property '_scope' -> object with constructor 'e'\n    |     property 'effects' -> object with constructor 'Array'\n    |     index 0 -> object with constructor 'e'\n    --- property 'vm' closes the circle"
+    },
+    {
+      "path": "root.$children.0.$children.3.columnConfig",
+      "key": "columnConfig",
+      "type": "object",
+      "value": {
+        "order": "",
+        "id": "el-table_2_column_5",
+        "type": "default",
+        "property": "cloudname",
+        "align": "is-left",
+        "headerAlign": "is-left",
+        "showOverflowTooltip": true,
+        "filteredValue": [],
+        "filterPlacement": "",
+        "isColumnGroup": false,
+        "filterOpened": false,
+        "sortable": false,
+        "columnKey": "",
+        "label": "云",
+        "fixed": false,
+        "resizable": true,
+        "sortOrders": [
+          "ascending",
+          "descending",
+          null
+        ],
+        "reserveSelection": false,
+        "filterMultiple": true,
+        "minWidth": 8,
+        "realWidth": 115,
+        "level": 1,
+        "colSpan": 1,
+        "rowSpan": 1
+      }
+    },
+    {
+      "path": "root.$children.0.$children.3.columnConfig.columnKey",
+      "key": "columnKey",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "path": "root.$children.0.$children.4.$options.propsData.columnKey",
+      "key": "columnKey",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "path": "root.$children.0.$children.4.column",
+      "key": "column",
+      "type": "object",
+      "value": {}
+    },
+    {
+      "path": "root.$children.0.$children.4.columnId",
+      "key": "columnId",
+      "type": "string",
+      "value": "el-table_2_column_6"
+    },
+    {
+      "path": "root.$children.0.$children.4._props.columnKey",
+      "key": "columnKey",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "path": "root.$children.0.$children.4._data.columns",
+      "key": "columns",
+      "type": "object",
+      "value": []
+    },
+    {
+      "path": "root.$children.0.$children.4.columns",
+      "key": "columns",
+      "type": "object",
+      "value": []
+    },
+    {
+      "path": "root.$children.0.$children.4._computedWatchers.columnOrTableParent",
+      "key": "columnOrTableParent",
+      "type": "object",
+      "value": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'o'\n    |     property '_scope' -> object with constructor 'e'\n    |     property 'effects' -> object with constructor 'Array'\n    |     index 0 -> object with constructor 'e'\n    --- property 'vm' closes the circle"
+    },
+    {
+      "path": "root.$children.0.$children.4.columnConfig",
+      "key": "columnConfig",
+      "type": "object",
+      "value": {
+        "order": "",
+        "id": "el-table_2_column_6",
+        "type": "default",
+        "property": "areaname",
+        "align": "is-left",
+        "headerAlign": "is-left",
+        "showOverflowTooltip": true,
+        "filteredValue": [],
+        "filterPlacement": "",
+        "isColumnGroup": false,
+        "filterOpened": false,
+        "sortable": false,
+        "columnKey": "",
+        "label": "数据区",
+        "fixed": false,
+        "resizable": true,
+        "sortOrders": [
+          "ascending",
+          "descending",
+          null
+        ],
+        "reserveSelection": false,
+        "filterMultiple": true,
+        "minWidth": 8,
+        "realWidth": 115,
+        "level": 1,
+        "colSpan": 1,
+        "rowSpan": 1
+      }
+    },
+    {
+      "path": "root.$children.0.$children.4.columnConfig.columnKey",
+      "key": "columnKey",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "path": "root.$children.0.$children.5.$options.propsData.columnKey",
+      "key": "columnKey",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "path": "root.$children.0.$children.5.column",
+      "key": "column",
+      "type": "object",
+      "value": {}
+    },
+    {
+      "path": "root.$children.0.$children.5.columnId",
+      "key": "columnId",
+      "type": "string",
+      "value": "el-table_2_column_7"
+    },
+    {
+      "path": "root.$children.0.$children.5._props.prop",
+      "value": "deploy_state"
+    },
+    {
+      "path": "root.$children.0.$children.5._props.columnKey",
+      "key": "columnKey",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "path": "root.$children.0.$children.5._data.columns",
+      "key": "columns",
+      "type": "object",
+      "value": []
+    },
+    {
+      "path": "root.$children.0.$children.5.columns",
+      "key": "columns",
+      "type": "object",
+      "value": []
+    },
+    {
+      "path": "root.$children.0.$children.5._computedWatchers.columnOrTableParent",
+      "key": "columnOrTableParent",
+      "type": "object",
+      "value": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'o'\n    |     property '_scope' -> object with constructor 'e'\n    |     property 'effects' -> object with constructor 'Array'\n    |     index 0 -> object with constructor 'e'\n    --- property 'vm' closes the circle"
+    },
+    {
+      "path": "root.$children.0.$children.5.columnConfig",
+      "key": "columnConfig",
+      "type": "object",
+      "value": {
+        "order": "",
+        "id": "el-table_2_column_7",
+        "type": "default",
+        "property": "deploy_state",
+        "align": "is-left",
+        "headerAlign": "is-left",
+        "showOverflowTooltip": true,
+        "filteredValue": [],
+        "filterPlacement": "",
+        "isColumnGroup": false,
+        "filterOpened": false,
+        "sortable": false,
+        "columnKey": "",
+        "label": "部署状态",
+        "fixed": false,
+        "resizable": true,
+        "sortOrders": [
+          "ascending",
+          "descending",
+          null
+        ],
+        "reserveSelection": false,
+        "filterMultiple": true,
+        "minWidth": 8,
+        "realWidth": 115,
+        "level": 1,
+        "colSpan": 1,
+        "rowSpan": 1
+      }
+    },
+    {
+      "path": "root.$children.0.$children.5.columnConfig.property",
+      "value": "deploy_state"
+    },
+    {
+      "path": "root.$children.0.$children.5.columnConfig.columnKey",
+      "key": "columnKey",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "path": "root.$children.0.$children.6.$options.propsData.columnKey",
+      "key": "columnKey",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "path": "root.$children.0.$children.6.column",
+      "key": "column",
+      "type": "object",
+      "value": {}
+    },
+    {
+      "path": "root.$children.0.$children.6.columnId",
+      "key": "columnId",
+      "type": "string",
+      "value": "el-table_2_column_8"
+    },
+    {
+      "path": "root.$children.0.$children.6._props.columnKey",
+      "key": "columnKey",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "path": "root.$children.0.$children.6._data.columns",
+      "key": "columns",
+      "type": "object",
+      "value": []
+    },
+    {
+      "path": "root.$children.0.$children.6.columns",
+      "key": "columns",
+      "type": "object",
+      "value": []
+    },
+    {
+      "path": "root.$children.0.$children.6._computedWatchers.columnOrTableParent",
+      "key": "columnOrTableParent",
+      "type": "object",
+      "value": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'o'\n    |     property '_scope' -> object with constructor 'e'\n    |     property 'effects' -> object with constructor 'Array'\n    |     index 0 -> object with constructor 'e'\n    --- property 'vm' closes the circle"
+    },
+    {
+      "path": "root.$children.0.$children.6.columnConfig",
+      "key": "columnConfig",
+      "type": "object",
+      "value": {
+        "order": "",
+        "id": "el-table_2_column_8",
+        "type": "default",
+        "property": "running_state",
+        "align": "is-left",
+        "headerAlign": "is-left",
+        "showOverflowTooltip": true,
+        "filteredValue": [],
+        "filterPlacement": "",
+        "isColumnGroup": false,
+        "filterOpened": false,
+        "sortable": false,
+        "columnKey": "",
+        "label": "运行状态",
+        "fixed": false,
+        "resizable": true,
+        "sortOrders": [
+          "ascending",
+          "descending",
+          null
+        ],
+        "reserveSelection": false,
+        "filterMultiple": true,
+        "minWidth": 8,
+        "realWidth": 115,
+        "level": 1,
+        "colSpan": 1,
+        "rowSpan": 1
+      }
+    },
+    {
+      "path": "root.$children.0.$children.6.columnConfig.columnKey",
+      "key": "columnKey",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "path": "root.$children.0.$children.7.$options.propsData.columnKey",
+      "key": "columnKey",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "path": "root.$children.0.$children.7.$attrs.columnType",
+      "key": "columnType",
+      "type": "object",
+      "value": [
+        {
+          "pluginType": "button",
+          "text": "部署",
+          "type": "text"
+        },
+        {
+          "pluginType": "button",
+          "text": "启动",
+          "type": "text"
+        },
+        {
+          "pluginType": "button",
+          "text": "更新",
+          "type": "text"
+        },
+        {
+          "pluginType": "button",
+          "text": "部分更新",
+          "type": "text"
+        },
+        {
+          "pluginType": "button",
+          "text": "删除",
+          "type": "text"
+        },
+        {
+          "pluginType": "button",
+          "text": "全部展开",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "path": "root.$children.0.$children.7.column",
+      "key": "column",
+      "type": "object",
+      "value": {}
+    },
+    {
+      "path": "root.$children.0.$children.7.columnId",
+      "key": "columnId",
+      "type": "string",
+      "value": "el-table_2_column_9"
+    },
+    {
+      "path": "root.$children.0.$children.7._props.columnKey",
+      "key": "columnKey",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "path": "root.$children.0.$children.7._data.columns",
+      "key": "columns",
+      "type": "object",
+      "value": []
+    },
+    {
+      "path": "root.$children.0.$children.7.columns",
+      "key": "columns",
+      "type": "object",
+      "value": []
+    },
+    {
+      "path": "root.$children.0.$children.7._computedWatchers.columnOrTableParent",
+      "key": "columnOrTableParent",
+      "type": "object",
+      "value": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'o'\n    |     property '_scope' -> object with constructor 'e'\n    |     property 'effects' -> object with constructor 'Array'\n    |     index 0 -> object with constructor 'e'\n    --- property 'vm' closes the circle"
+    },
+    {
+      "path": "root.$children.0.$children.7.columnConfig",
+      "key": "columnConfig",
+      "type": "object",
+      "value": {
+        "id": "el-table_2_column_9",
+        "type": "button",
+        "property": "操作",
+        "align": "is-left",
+        "headerAlign": "is-left",
+        "showOverflowTooltip": false,
+        "filteredValue": [],
+        "filterPlacement": "",
+        "isColumnGroup": false,
+        "filterOpened": false,
+        "sortable": false,
+        "columnKey": "",
+        "label": "操作",
+        "fixed": false,
+        "resizable": true,
+        "sortOrders": [
+          "ascending",
+          "descending",
+          null
+        ],
+        "reserveSelection": false,
+        "filterMultiple": true,
+        "minWidth": 38,
+        "realWidth": 546,
+        "level": 1,
+        "colSpan": 1,
+        "rowSpan": 1
+      }
+    },
+    {
+      "path": "root.$children.0.$children.7.columnConfig.columnKey",
+      "key": "columnKey",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "path": "root.$children.0.$children.8._props.store.updateExpandRows",
+      "key": "updateExpandRows",
+      "type": "function",
+      "value": "function () { [native code] }"
+    },
+    {
+      "path": "root.$children.0.$children.8._props.store.updateCurrentRow",
+      "key": "updateCurrentRow",
+      "type": "function",
+      "value": "function () { [native code] }"
+    },
+    {
+      "path": "root.$children.0.$children.8._props.store.updateCurrentRowData",
+      "key": "updateCurrentRowData",
+      "type": "function",
+      "value": "function () { [native code] }"
+    },
+    {
+      "path": "root.$children.0.$children.8._props.store.updateTreeData",
+      "key": "updateTreeData",
+      "type": "function",
+      "value": "function () { [native code] }"
+    },
+    {
+      "path": "root.$children.0.$children.8._props.store.updateTreeExpandKeys",
+      "key": "updateTreeExpandKeys",
+      "type": "function",
+      "value": "function () { [native code] }"
+    },
+    {
+      "path": "root.$children.0.$children.8._props.store.updateColumns",
+      "key": "updateColumns",
+      "type": "function",
+      "value": "function () { [native code] }"
+    },
+    {
+      "path": "root.$children.0.$children.8._props.store.updateSelectionByRowKey",
+      "key": "updateSelectionByRowKey",
+      "type": "function",
+      "value": "function () { [native code] }"
+    },
+    {
+      "path": "root.$children.0.$children.8._props.store.updateAllSelected",
+      "key": "updateAllSelected",
+      "type": "function",
+      "value": "function () { [native code] }"
+    },
+    {
+      "path": "root.$children.0.$children.8._props.store.updateFilters",
+      "key": "updateFilters",
+      "type": "function",
+      "value": "function () { [native code] }"
+    },
+    {
+      "path": "root.$children.0.$children.8._props.store.updateSort",
+      "key": "updateSort",
+      "type": "function",
+      "value": "function () { [native code] }"
+    },
+    {
+      "path": "root.$children.0.$children.8._computedWatchers.columns",
+      "key": "columns",
+      "type": "object",
+      "value": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'o'\n    |     property '_scope' -> object with constructor 'e'\n    |     property 'effects' -> object with constructor 'Array'\n    |     index 0 -> object with constructor 'e'\n    --- property 'vm' closes the circle"
+    },
+    {
+      "path": "root.$children.0.$children.8._computedWatchers.columnsCount",
+      "key": "columnsCount",
+      "type": "object",
+      "value": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'o'\n    |     property '_scope' -> object with constructor 'e'\n    |     property 'effects' -> object with constructor 'Array'\n    |     index 0 -> object with constructor 'e'\n    --- property 'vm' closes the circle"
+    },
+    {
+      "path": "root.$children.0.$children.8.__updated__",
+      "key": "__updated__",
+      "type": "boolean",
+      "value": true
+    },
+    {
+      "path": "root.$children.0.$children.9.$children.0.updatePopper",
+      "key": "updatePopper",
+      "type": "function",
+      "value": "function () { [native code] }"
+    },
+    {
+      "path": "root.$children.0.$children.9._computedWatchers.columns",
+      "key": "columns",
+      "type": "object",
+      "value": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'o'\n    |     property '_scope' -> object with constructor 'e'\n    |     property 'effects' -> object with constructor 'Array'\n    |     index 0 -> object with constructor 'e'\n    --- property 'vm' closes the circle"
+    },
+    {
+      "path": "root.$children.0.$children.9._computedWatchers.columnsCount",
+      "key": "columnsCount",
+      "type": "object",
+      "value": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'o'\n    |     property '_scope' -> object with constructor 'e'\n    |     property 'effects' -> object with constructor 'Array'\n    |     index 0 -> object with constructor 'e'\n    --- property 'vm' closes the circle"
+    },
+    {
+      "path": "root.$children.0.$children.9._computedWatchers.columnsHidden",
+      "key": "columnsHidden",
+      "type": "object",
+      "value": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'o'\n    |     property '_scope' -> object with constructor 'e'\n    |     property 'effects' -> object with constructor 'Array'\n    |     index 0 -> object with constructor 'e'\n    --- property 'vm' closes the circle"
+    },
+    {
+      "path": "root.$children.0.$children.9.__updated__",
+      "key": "__updated__",
+      "type": "boolean",
+      "value": true
+    },
+    {
+      "path": "root.$children.0.updateScrollY",
+      "key": "updateScrollY",
+      "type": "function",
+      "value": "function () { [native code] }"
+    },
+    {
+      "path": "root.$children.0._data.layout.columns",
+      "key": "columns",
+      "type": "object",
+      "value": null
+    },
+    {
+      "path": "root.$children.0._computedWatchers.shouldUpdateHeight",
+      "key": "shouldUpdateHeight",
+      "type": "object",
+      "value": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'o'\n    |     property '_scope' -> object with constructor 'e'\n    |     property 'effects' -> object with constructor 'Array'\n    |     index 0 -> object with constructor 'e'\n    --- property 'vm' closes the circle"
+    },
+    {
+      "path": "root.$children.0._computedWatchers.columns",
+      "key": "columns",
+      "type": "object",
+      "value": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'o'\n    |     property '_scope' -> object with constructor 'e'\n    |     property 'effects' -> object with constructor 'Array'\n    |     index 0 -> object with constructor 'e'\n    --- property 'vm' closes the circle"
+    },
+    {
+      "path": "root.$children.0.debouncedUpdateLayout",
+      "key": "debouncedUpdateLayout",
+      "type": "function",
+      "value": "function o(){var o=this,s=Number(new Date)-a,l=arguments;function u(){a=Number(new Date),n.apply(o,l)}function c(){r=void 0}i&&!r&&u(),r&&clearTimeout(r),void 0===i&&s>e?u():!0!==t&&(r=setTimeout(i?c:u,void 0===i?e-s:e))}"
+    },
+    {
+      "path": "root.updateRenderComs",
+      "key": "updateRenderComs",
+      "type": "function",
+      "value": "function () { [native code] }"
+    },
+    {
+      "path": "root.updateVisibleItems",
+      "key": "updateVisibleItems",
+      "type": "function",
+      "value": "function () { [native code] }"
+    },
+    {
+      "path": "root.UpdateRow",
+      "key": "UpdateRow",
+      "type": "function",
+      "value": "function () { [native code] }"
+    },
+    {
+      "path": "root._updateColFilterConfig",
+      "key": "_updateColFilterConfig",
+      "type": "function",
+      "value": "function () { [native code] }"
+    },
+    {
+      "path": "root._columnFilter",
+      "key": "_columnFilter",
+      "type": "function",
+      "value": "function () { [native code] }"
+    },
+    {
+      "path": "root.cacheTotalData.0.deploy_state",
+      "key": "deploy_state",
+      "type": "string",
+      "value": "已部署"
+    },
+    {
+      "path": "root.cacheTotalData.0.children.0.deploy_state",
+      "key": "deploy_state",
+      "type": "string",
+      "value": "已部署"
+    }
+  ]
+}

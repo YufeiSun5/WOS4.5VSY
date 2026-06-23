@@ -1,0 +1,94 @@
+{
+  "error": "ReferenceError: ShowChild is not defined",
+  "transfer": null,
+  "log": [
+    {
+      "kind": "CloseChildError",
+      "data": {
+        "n": "数字孪生实例化_实例_提交版本",
+        "err": "ReferenceError: CloseChild is not defined"
+      },
+      "t": 1782101740800
+    },
+    {
+      "kind": "CloseChildError",
+      "data": {
+        "n": "数字孪生实例化_时空_提交版本",
+        "err": "ReferenceError: CloseChild is not defined"
+      },
+      "t": 1782101740802
+    },
+    {
+      "kind": "CloseChildError",
+      "data": {
+        "n": "数字孪生实例化_时空_版本说明",
+        "err": "ReferenceError: CloseChild is not defined"
+      },
+      "t": 1782101740803
+    },
+    {
+      "kind": "hideStale",
+      "data": {
+        "i": 0,
+        "txt": "数字孪生实例化_实例_提交版本实例版本提交进度  100% 名称GUID状态详情1NadirBack276cb189-67c5-47d1-94be-7e76f5f5af4e100%提交成功 关闭 "
+      },
+      "t": 1782101740805
+    },
+    {
+      "kind": "hideStale",
+      "data": {
+        "i": 1,
+        "txt": "实例版本提交进度  100% 名称GUID状态详情1NadirBack276cb189-67c5-47d1-94be-7e76f5f5af4e100%提交成功 关闭 "
+      },
+      "t": 1782101740806
+    },
+    {
+      "kind": "spaceTimeOption",
+      "data": "系统服务配置",
+      "t": 1782101741308
+    },
+    {
+      "kind": "ShowChildError",
+      "data": "ReferenceError: ShowChild is not defined",
+      "t": 1782101741309
+    }
+  ],
+  "console": [],
+  "childPages": [
+    {
+      "i": 0,
+      "id": "工程浏览器_框架页面",
+      "cls": "page_view_container client_page_view_container",
+      "display": "block",
+      "txt": "KingFusion4.5_工程浏览器\n\n< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除"
+    },
+    {
+      "i": 1,
+      "id": "开发系统_组态_框架页面",
+      "cls": "page_view_container client_page_view_container set_page_app component_object 开发系统_组态_框架页面",
+      "display": "block",
+      "txt": "< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除"
+    },
+    {
+      "i": 2,
+      "id": "数字孪生实例化_框架页面",
+      "cls": "page_view_container client_page_view_container set_page_app component_object 数字孪生实例化_框架页面",
+      "display": "block",
+      "txt": "时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除"
+    },
+    {
+      "i": 3,
+      "id": "m数字孪生实例化_实例_提交版本",
+      "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_322128",
+      "display": "none",
+      "txt": "数字孪生实例化_实例_提交版本实例版本提交进度  100% 名称GUID状态详情1NadirBack276cb189-67c5-47d1-94be-7e76f5f5af4e100%提交成功 关闭 "
+    },
+    {
+      "i": 4,
+      "id": "",
+      "cls": "page_view_container show_child_view_container",
+      "display": "none",
+      "txt": "实例版本提交进度  100% 名称GUID状态详情1NadirBack276cb189-67c5-47d1-94be-7e76f5f5af4e100%提交成功 关闭 "
+    }
+  ]
+}

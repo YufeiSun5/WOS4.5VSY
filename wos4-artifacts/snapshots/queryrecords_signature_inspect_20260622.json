@@ -1,0 +1,753 @@
+{
+  "ok": true,
+  "clickres": {
+    "ok": true,
+    "cls": "model-function-list-item-text",
+    "text": "QueryRecords"
+  },
+  "bodyText": "变量\n暂无数据\n监视\n堆栈\n断点\nUpdateRecord\n1441151880758559679-0: 1\n当前模型: DemoCrudBackend_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nonDestroy\nonException\nQueryRecords\nInsertRecord\nUpdateRecord\n名称:\n输入参数:\n返回值类型:\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\nTrace(2, \"QueryRecords.enter\", strmapPara);\nint32 SUCCESS_CODE = 0;\nstring filter = strmapPara.filter;\nstringMap<var> returnData;\nstringMap<var> row;\nstringMap<var>[] statisticsList;\nreturnData[\"errorcode\"] = SUCCESS_CODE;\nreturnData[\"errormsg\"] = \"ok\";\nrow[\"stationName\"] = \"S1\";\nrow[\"areaName\"] = \"A1\";\nrow[\"statusText\"] = \"RUN\";\n编译信息\nxxxxxxxxxxxxxx 编译成功 14:37:59 xxxxxxxxxxxxxx\n行：1，列：1，\n空格：4\n元语言\n属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n0 / 128\n\n\nID:\n1441151880758559679\n\n\nGUID:\n478c5219-9a87-4038-94cb-574514ae6d82\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\nKingFusion4.5_V1/产品仓库/KF4.5产品/KF4.5数字孪生模型/管控单元模型/盛云_孙宇飞_后台_CRUDDemo_0620\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:\n无法在只读编辑器中编辑",
+  "inputs": [
+    {
+      "i": 0,
+      "type": "text",
+      "placeholder": "请输入功能名称",
+      "value": "",
+      "cls": "el-input__inner",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 1,
+      "type": "text",
+      "placeholder": "请输入功能名称",
+      "value": "declare",
+      "cls": "el-input__inner",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 2,
+      "type": "text",
+      "placeholder": "参数用,隔开，如int a, int b",
+      "value": "",
+      "cls": "el-input__inner",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 3,
+      "type": "text",
+      "placeholder": null,
+      "value": "",
+      "cls": "el-input__inner",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 4,
+      "type": "text",
+      "placeholder": "请输入功能名称",
+      "value": "onCreate",
+      "cls": "el-input__inner",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 5,
+      "type": "text",
+      "placeholder": "参数用,隔开，如int a, int b",
+      "value": "",
+      "cls": "el-input__inner",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 6,
+      "type": "text",
+      "placeholder": null,
+      "value": "",
+      "cls": "el-input__inner",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 7,
+      "type": "text",
+      "placeholder": "请输入功能名称",
+      "value": "onDestroy",
+      "cls": "el-input__inner",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 8,
+      "type": "text",
+      "placeholder": "参数用,隔开，如int a, int b",
+      "value": "",
+      "cls": "el-input__inner",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 9,
+      "type": "text",
+      "placeholder": null,
+      "value": "",
+      "cls": "el-input__inner",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 10,
+      "type": "text",
+      "placeholder": "请输入功能名称",
+      "value": "onException",
+      "cls": "el-input__inner",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 11,
+      "type": "text",
+      "placeholder": "参数用,隔开，如int a, int b",
+      "value": "stringMap<var> message",
+      "cls": "el-input__inner",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 12,
+      "type": "text",
+      "placeholder": null,
+      "value": "",
+      "cls": "el-input__inner",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 13,
+      "type": "text",
+      "placeholder": "请输入功能名称",
+      "value": "QueryRecords",
+      "cls": "el-input__inner",
+      "rect": {
+        "x": 414.90625,
+        "y": 104,
+        "w": 170,
+        "h": 30
+      }
+    },
+    {
+      "i": 14,
+      "type": "text",
+      "placeholder": "参数用,隔开，如int a, int b",
+      "value": "stringMap<var> strmapPara",
+      "cls": "el-input__inner",
+      "rect": {
+        "x": 700.8125,
+        "y": 104,
+        "w": 170,
+        "h": 30
+      }
+    },
+    {
+      "i": 15,
+      "type": "text",
+      "placeholder": null,
+      "value": "stringMap<var>",
+      "cls": "el-input__inner",
+      "rect": {
+        "x": 1011.71875,
+        "y": 104,
+        "w": 170,
+        "h": 30
+      }
+    },
+    {
+      "i": 16,
+      "type": "text",
+      "placeholder": "请输入功能名称",
+      "value": "InsertRecord",
+      "cls": "el-input__inner",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 17,
+      "type": "text",
+      "placeholder": "参数用,隔开，如int a, int b",
+      "value": "string payload",
+      "cls": "el-input__inner",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 18,
+      "type": "text",
+      "placeholder": null,
+      "value": "string",
+      "cls": "el-input__inner",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 19,
+      "type": "text",
+      "placeholder": "请输入功能名称",
+      "value": "UpdateRecord",
+      "cls": "el-input__inner",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 20,
+      "type": "text",
+      "placeholder": "参数用,隔开，如int a, int b",
+      "value": "string payload",
+      "cls": "el-input__inner",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 21,
+      "type": "text",
+      "placeholder": null,
+      "value": "string",
+      "cls": "el-input__inner",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 22,
+      "type": "textarea",
+      "placeholder": null,
+      "value": "Trace(2, \"QueryRecords.enter\", strmapPara);\n\nint32 SUCCESS_CODE = 0;\nstring filter = strmapPara.filter;\n\nstringMap<var> returnData;\nstringMap<var> row;\nstringMap<var>[] statisticsList;\n\nreturnData[\"errorcode\"] = SUCCESS_CODE;\n",
+      "cls": "inputarea monaco-mouse-cursor-text",
+      "rect": {
+        "x": 432,
+        "y": 146,
+        "w": 1,
+        "h": 1
+      }
+    },
+    {
+      "i": 23,
+      "type": "radio",
+      "placeholder": null,
+      "value": "common.property.baseInfo",
+      "cls": "el-radio-button__original-radio",
+      "rect": {
+        "x": 1256,
+        "y": 60,
+        "w": 13,
+        "h": 13
+      }
+    },
+    {
+      "i": 24,
+      "type": "text",
+      "placeholder": null,
+      "value": "DemoCrudBackend_CUSTOMFUNC",
+      "cls": "el-input__inner",
+      "rect": {
+        "x": 1387,
+        "y": 106,
+        "w": 146,
+        "h": 30
+      }
+    },
+    {
+      "i": 25,
+      "type": "file",
+      "placeholder": null,
+      "value": "",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 26,
+      "type": "file",
+      "placeholder": null,
+      "value": "",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 27,
+      "type": "text",
+      "placeholder": null,
+      "value": "DemoCrudBackend_CUSTOMFUNC",
+      "cls": "el-input__inner",
+      "rect": {
+        "x": 1387,
+        "y": 143,
+        "w": 146,
+        "h": 30
+      }
+    },
+    {
+      "i": 28,
+      "type": "file",
+      "placeholder": null,
+      "value": "",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 29,
+      "type": "file",
+      "placeholder": null,
+      "value": "",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 30,
+      "type": "text",
+      "placeholder": null,
+      "value": "",
+      "cls": "el-input__inner",
+      "rect": {
+        "x": 1387,
+        "y": 180,
+        "w": 93.265625,
+        "h": 30
+      }
+    },
+    {
+      "i": 31,
+      "type": "file",
+      "placeholder": null,
+      "value": "",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 32,
+      "type": "file",
+      "placeholder": null,
+      "value": "",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 33,
+      "type": "file",
+      "placeholder": null,
+      "value": "",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 34,
+      "type": "file",
+      "placeholder": null,
+      "value": "",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 35,
+      "type": "file",
+      "placeholder": null,
+      "value": "",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 36,
+      "type": "file",
+      "placeholder": null,
+      "value": "",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 37,
+      "type": "file",
+      "placeholder": null,
+      "value": "",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 38,
+      "type": "file",
+      "placeholder": null,
+      "value": "",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 39,
+      "type": "file",
+      "placeholder": null,
+      "value": "",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 40,
+      "type": "file",
+      "placeholder": null,
+      "value": "",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 41,
+      "type": "file",
+      "placeholder": null,
+      "value": "",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 42,
+      "type": "file",
+      "placeholder": null,
+      "value": "",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 43,
+      "type": "file",
+      "placeholder": null,
+      "value": "",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 44,
+      "type": "file",
+      "placeholder": null,
+      "value": "",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 45,
+      "type": "file",
+      "placeholder": null,
+      "value": "",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 46,
+      "type": "file",
+      "placeholder": null,
+      "value": "",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 47,
+      "type": "text",
+      "placeholder": null,
+      "value": "",
+      "cls": "el-input__inner",
+      "rect": {
+        "x": 1387,
+        "y": 476,
+        "w": 146,
+        "h": 30
+      }
+    },
+    {
+      "i": 48,
+      "type": "file",
+      "placeholder": null,
+      "value": "",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 49,
+      "type": "file",
+      "placeholder": null,
+      "value": "",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 50,
+      "type": "text",
+      "placeholder": null,
+      "value": "",
+      "cls": "el-input__inner",
+      "rect": {
+        "x": 1387,
+        "y": 513,
+        "w": 146,
+        "h": 30
+      }
+    },
+    {
+      "i": 51,
+      "type": "file",
+      "placeholder": null,
+      "value": "",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 52,
+      "type": "file",
+      "placeholder": null,
+      "value": "",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 53,
+      "type": "text",
+      "placeholder": null,
+      "value": "customfunc-runtime-call-submit-20260622",
+      "cls": "el-input__inner",
+      "rect": {
+        "x": 1387,
+        "y": 550,
+        "w": 146,
+        "h": 30
+      }
+    },
+    {
+      "i": 54,
+      "type": "file",
+      "placeholder": null,
+      "value": "",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 55,
+      "type": "file",
+      "placeholder": null,
+      "value": "",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 56,
+      "type": "radio",
+      "placeholder": null,
+      "value": "on",
+      "cls": "el-radio-button__original-radio",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    }
+  ],
+  "monacoText": null
+}

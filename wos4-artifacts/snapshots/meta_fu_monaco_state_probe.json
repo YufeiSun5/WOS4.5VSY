@@ -1,0 +1,89 @@
+{
+  "models": [],
+  "roots": [
+    {
+      "i": 0,
+      "tag": "DIV",
+      "id": "desktop-frame",
+      "cls": "wos-root-app",
+      "vueKeys": [],
+      "setup": null,
+      "data": null
+    },
+    {
+      "i": 1,
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar model-function-list",
+      "vueKeys": [],
+      "setup": null,
+      "data": null
+    }
+  ],
+  "active": [
+    {
+      "i": 0,
+      "tag": "LI",
+      "cls": "worker-space-tab-item tab cursor-pointer is-active",
+      "text": "盛云_孙宇飞_元语言查询Demo_0617"
+    },
+    {
+      "i": 1,
+      "tag": "DIV",
+      "cls": "menu-item wos-script-editor-function-mng is-active",
+      "text": ""
+    },
+    {
+      "i": 2,
+      "tag": "P",
+      "cls": "model-function-list-item cursor-pointer function-list-item active",
+      "text": "declare"
+    },
+    {
+      "i": 3,
+      "tag": "P",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "text": "onCreate"
+    },
+    {
+      "i": 4,
+      "tag": "P",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "text": "onDestroy"
+    },
+    {
+      "i": 5,
+      "tag": "P",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "text": "onException"
+    },
+    {
+      "i": 6,
+      "tag": "DIV",
+      "cls": "el-tabs__item is-top is-active",
+      "text": "declare"
+    },
+    {
+      "i": 7,
+      "tag": "LABEL",
+      "cls": "el-radio-button is-active el-radio-button--default property-group-name-item",
+      "text": "基础信息"
+    },
+    {
+      "i": 8,
+      "tag": "LABEL",
+      "cls": "el-radio-button is-active is-disabled el-radio-button--default member-group-name-item member-edit-btn",
+      "text": "编辑"
+    }
+  ],
+  "globals": [
+    "oncontextrestored",
+    "MonacoEnvironment",
+    "__VUE_INSTANCE_SETTERS__",
+    "__VUE_SSR_SETTERS__",
+    "__VUE_I18N_FULL_INSTALL__",
+    "__VUE_I18N_LEGACY_API__",
+    "__VUE__",
+    "__vueuse_ssr_handlers__"
+  ]
+}

@@ -1,0 +1,756 @@
+{
+  "operator": "盛云_孙宇飞",
+  "namePrefix": "盛云_孙宇飞",
+  "modelName": "盛云_孙宇飞_假数据设备模型_0612",
+  "selected": {
+    "ok": true,
+    "nodes": [
+      {
+        "text": "管控单元建模",
+        "cls": "el-tree-node is-expanded is-current is-focusable"
+      },
+      {
+        "text": "采集设备建模",
+        "cls": "el-tree-node is-focusable"
+      },
+      {
+        "text": "工作流建模",
+        "cls": "el-tree-node is-focusable"
+      },
+      {
+        "text": "根组\n集成测试\n测试\n引滦工程",
+        "cls": "el-tree-node is-expanded is-current is-focusable"
+      },
+      {
+        "text": "集成测试",
+        "cls": "el-tree-node is-expanded is-focusable"
+      },
+      {
+        "text": "测试",
+        "cls": "el-tree-node is-expanded is-focusable"
+      },
+      {
+        "text": "引滦工程",
+        "cls": "el-tree-node is-expanded is-focusable"
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "i": 1,
+      "attempt": {
+        "before": [
+          "管控单元建模",
+          "测试"
+        ],
+        "error": "",
+        "dialogs": [
+          {
+            "idx": 0,
+            "text": "",
+            "visible": false,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            }
+          },
+          {
+            "idx": 1,
+            "text": "",
+            "visible": false,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            }
+          },
+          {
+            "idx": 2,
+            "text": "新建\n\nX\n\n名称：\n\n描述：\n\n0/128\n取消\n确认",
+            "visible": true,
+            "rect": {
+              "x": 510,
+              "y": 277,
+              "w": 420,
+              "h": 340
+            }
+          }
+        ],
+        "messages": []
+      }
+    }
+  ],
+  "fill": {
+    "ok": true,
+    "inputValue": "盛云_孙宇飞_假数据设备模型_0612",
+    "textareaValue": "用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。"
+  },
+  "confirm": {
+    "ok": true
+  },
+  "state": {
+    "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 2 条\n<1>前往页",
+    "currentNodes": [
+      {
+        "text": "管控单元建模",
+        "cls": "el-tree-node is-expanded is-current is-focusable"
+      },
+      {
+        "text": "测试",
+        "cls": "el-tree-node is-expanded is-current is-focusable"
+      }
+    ],
+    "dialogs": [
+      {
+        "i": 0,
+        "text": "",
+        "cls": "el-dialog",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "visible": false
+      },
+      {
+        "i": 1,
+        "text": "",
+        "cls": "el-dialog",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "visible": false
+      }
+    ],
+    "inputs": [
+      {
+        "i": 0,
+        "value": "",
+        "placeholder": "搜索...",
+        "type": "text",
+        "cls": "el-input__inner",
+        "rect": {
+          "x": 261,
+          "y": 72,
+          "w": 130,
+          "h": 32
+        },
+        "visible": true
+      },
+      {
+        "i": 1,
+        "value": "",
+        "placeholder": "搜索",
+        "type": "text",
+        "cls": "el-input__inner",
+        "rect": {
+          "x": 1198,
+          "y": 13,
+          "w": 186,
+          "h": 32
+        },
+        "visible": true
+      },
+      {
+        "i": 2,
+        "value": "",
+        "placeholder": null,
+        "type": "checkbox",
+        "cls": "el-checkbox__original",
+        "rect": {
+          "x": 492,
+          "y": 71.875,
+          "w": 0,
+          "h": 0
+        },
+        "visible": false
+      },
+      {
+        "i": 3,
+        "value": "",
+        "placeholder": null,
+        "type": "checkbox",
+        "cls": "el-checkbox__original",
+        "rect": {
+          "x": 496,
+          "y": 117.875,
+          "w": 0,
+          "h": 0
+        },
+        "visible": false
+      },
+      {
+        "i": 4,
+        "value": "",
+        "placeholder": null,
+        "type": "checkbox",
+        "cls": "el-checkbox__original",
+        "rect": {
+          "x": 496,
+          "y": 168.875,
+          "w": 0,
+          "h": 0
+        },
+        "visible": false
+      },
+      {
+        "i": 5,
+        "value": "50条/页",
+        "placeholder": "请选择",
+        "type": "text",
+        "cls": "el-input__inner",
+        "rect": {
+          "x": 1037.5,
+          "y": 844,
+          "w": 100,
+          "h": 28
+        },
+        "visible": true
+      },
+      {
+        "i": 6,
+        "value": "1",
+        "placeholder": null,
+        "type": "number",
+        "cls": "el-input__inner",
+        "rect": {
+          "x": 1351,
+          "y": 844,
+          "w": 46,
+          "h": 28
+        },
+        "visible": true
+      }
+    ],
+    "rows": [
+      {
+        "i": 0,
+        "text": "序号\t名称\t描述\t操作"
+      },
+      {
+        "i": 1,
+        "text": "1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除"
+      },
+      {
+        "i": 2,
+        "text": "2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除"
+      }
+    ]
+  },
+  "logs": [
+    {
+      "type": "log",
+      "text": "connect success",
+      "at": 1781236468775
+    },
+    {
+      "type": "log",
+      "text": "connect success",
+      "at": 1781236470393
+    },
+    {
+      "type": "log",
+      "text": "connect success",
+      "at": 1781236470394
+    },
+    {
+      "type": "log",
+      "text": "KGSDataObjMng init",
+      "at": 1781236472890
+    },
+    {
+      "type": "log",
+      "text": "全局脚本资源未找到",
+      "at": 1781236472982
+    },
+    {
+      "type": "log",
+      "text": "客户端 ShowPage子store初始化 {mode: undefined, FUType: undefined, type: undefined, guid: undefined, id: undefined}",
+      "at": 1781236472985
+    },
+    {
+      "type": "warning",
+      "text": "Timer '客户端-页面入口' does not exist",
+      "at": 1781236473068
+    },
+    {
+      "type": "log",
+      "text": "initWebJsFuncList start",
+      "at": 1781236474013
+    },
+    {
+      "type": "log",
+      "text": "registerLink",
+      "at": 1781236474023
+    },
+    {
+      "type": "log",
+      "text": "页面名称: 开发系统_框架页面_v1 PARENT_STORE_PARAM: {pageName: undefined, child$StoreName: undefined, fuObj: undefined, spaceTime: undefined, currentUserKeys: undefined}",
+      "at": 1781236474033
+    },
+    {
+      "type": "log",
+      "text": "registerDataSet",
+      "at": 1781236474037
+    },
+    {
+      "type": "log",
+      "text": "KGSDataObjMng subscribeDataObj",
+      "at": 1781236474038
+    },
+    {
+      "type": "warning",
+      "text": "Timer '客户端-页面创建' does not exist",
+      "at": 1781236474060
+    },
+    {
+      "type": "timeEnd",
+      "text": "tree1: 0.09814453125 ms",
+      "at": 1781236474061
+    },
+    {
+      "type": "log",
+      "text": "客户端 SetPage子store初始化 {mode: production, FUType: 21, type: 1025, guid: 45352e96-9472-49f0-9189-80bf407dfd45, id: 7205759403792794678}",
+      "at": 1781236474480
+    },
+    {
+      "type": "log",
+      "text": "initWebJsFuncList start",
+      "at": 1781236474644
+    },
+    {
+      "type": "log",
+      "text": "registerLink",
+      "at": 1781236474692
+    },
+    {
+      "type": "log",
+      "text": "页面名称: 数字孪生建模_框架页面 PARENT_STORE_PARAM: {child$StoreName: undefined, fuObj: undefined, spaceTime: undefined, currentUserKeys: undefined, pageName: undefined}",
+      "at": 1781236474796
+    },
+    {
+      "type": "log",
+      "text": "registerDataSet",
+      "at": 1781236474840
+    },
+    {
+      "type": "log",
+      "text": "KGSDataObjMng subscribeDataObj",
+      "at": 1781236474865
+    },
+    {
+      "type": "warning",
+      "text": "Timer '客户端-页面创建' does not exist",
+      "at": 1781236474872
+    },
+    {
+      "type": "log",
+      "text": "{ret: 0, msg: 修改成功!}",
+      "at": 1781236474942
+    },
+    {
+      "type": "log",
+      "text": "-I- <数字孪生建模_框架页面> currentPageInfo =  {id: 7205759403792794678, guid: 45352e96-9472-49f0-9189-80bf407dfd45, type: 1025, name: 数字孪生建模_框架页面, spaceTime: Object}",
+      "at": 1781236474944
+    },
+    {
+      "type": "log",
+      "text": "0",
+      "at": 1781236474997
+    },
+    {
+      "type": "log",
+      "text": "远程调用后台APP查询客户端拷贝，res =  {errorcodes: Array(1), ret: 0, returndata: Object, traceID: 5188899349490105344, consumeTime: 85}",
+      "at": 1781236475027
+    },
+    {
+      "type": "log",
+      "text": "0",
+      "at": 1781236475034
+    },
+    {
+      "type": "log",
+      "text": "远程调用后台APP查询客户端拷贝，res =  {errorcodes: Array(1), ret: 0, returndata: Object, traceID: 5188899349791187968, consumeTime: 113}",
+      "at": 1781236475058
+    },
+    {
+      "type": "log",
+      "text": "0",
+      "at": 1781236475069
+    },
+    {
+      "type": "log",
+      "text": "0",
+      "at": 1781236475105
+    },
+    {
+      "type": "log",
+      "text": "0",
+      "at": 1781236475147
+    },
+    {
+      "type": "log",
+      "text": "0",
+      "at": 1781236475187
+    },
+    {
+      "type": "log",
+      "text": "0",
+      "at": 1781236475223
+    },
+    {
+      "type": "log",
+      "text": "i show child initChildData",
+      "at": 1781236483634
+    },
+    {
+      "type": "log",
+      "text": "initWebJsFuncList start",
+      "at": 1781236483798
+    },
+    {
+      "type": "log",
+      "text": "spaceTime parse error!",
+      "at": 1781236483802
+    },
+    {
+      "type": "log",
+      "text": "registerLink",
+      "at": 1781236483806
+    },
+    {
+      "type": "log",
+      "text": "页面名称: 数字孪生模型新建 PARENT_STORE_PARAM: {child$StoreName: undefined, spaceTime: undefined, fuObj: undefined, isChild: true, __ob__: e}",
+      "at": 1781236483826
+    },
+    {
+      "type": "log",
+      "text": "registerDataSet",
+      "at": 1781236483833
+    },
+    {
+      "type": "log",
+      "text": "KGSDataObjMng subscribeDataObj",
+      "at": 1781236483833
+    },
+    {
+      "type": "warning",
+      "text": "Timer '客户端-页面创建' does not exist",
+      "at": 1781236483834
+    },
+    {
+      "type": "log",
+      "text": "{ret: 0, msg: 修改成功!}",
+      "at": 1781236484531
+    },
+    {
+      "type": "log",
+      "text": "KGSDataObjMng subscribeDataObj",
+      "at": 1781236484672
+    }
+  ],
+  "events": [
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/wellinos/loginsvcuserbyrole",
+      "at": 1781236468697
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236468762
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236469224
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236469231
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236469325
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Update",
+      "at": 1781236469527
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236469527
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236470393
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+      "at": 1781236470434
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/config.js",
+      "at": 1781236470500
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/debugger.js",
+      "at": 1781236470500
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/index.26325ec0.css",
+      "at": 1781236470502
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/runtime.beta.2026.05.14.15.js",
+      "at": 1781236470693
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236472425
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js",
+      "at": 1781236472608
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236472937
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236472979
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236472981
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236473028
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236473064
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-run.24e1aadb.css",
+      "at": 1781236473112
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236473125
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/69225.beta.2026.05.14.15.js",
+      "at": 1781236473198
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js",
+      "at": 1781236473263
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/62936.beta.2026.05.14.15.js",
+      "at": 1781236473701
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/fonts/element-icons.ff18efd1.woff",
+      "at": 1781236474148
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236474520
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236474559
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-view-App.109a4cde.css",
+      "at": 1781236474600
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-view-App.beta.2026.05.14.15.js",
+      "at": 1781236474600
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236474612
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/65181.026e4f9f.css",
+      "at": 1781236474641
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/65181.beta.2026.05.14.15.js",
+      "at": 1781236474642
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236474941
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236475033
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236475068
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236475103
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236475146
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236475185
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236475222
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236475257
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236475575
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236478377
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236481725
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236483301
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236483488
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/54010.beta.2026.05.14.15.js",
+      "at": 1781236483531
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/94554.beta.2026.05.14.15.js",
+      "at": 1781236483587
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/13070.beta.2026.05.14.15.js",
+      "at": 1781236483632
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/34914.c017fb82.css",
+      "at": 1781236483695
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/34914.beta.2026.05.14.15.js",
+      "at": 1781236483695
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236483701
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236483746
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236483746
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/88360.24e1aadb.css",
+      "at": 1781236483797
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236484377
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236484530
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236487374
+    },
+    {
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": 1781236490436
+    }
+  ]
+}

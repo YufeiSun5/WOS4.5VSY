@@ -1,0 +1,4 @@
+interface:
+  display_name: "WOS4 Manual To Skill"
+  short_description: "Manual claims to verified skills"
+  default_prompt: "Use the WOS4 help manual to form an operation hypothesis, verify it with UI/API evidence, and only then create or update a project skill."

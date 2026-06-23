@@ -1,0 +1,938 @@
+{
+  "ok": false,
+  "finishedAt": "2026-06-12T05:28:12.339Z",
+  "models": [
+    "收球筒",
+    "盛云_孙宇飞_假数据设备模型_0612"
+  ],
+  "error": "Cannot read properties of undefined (reading 'press')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'press')\n    at clickAction ([stdin]:55:19)\n    at async [stdin]:68:64",
+  "log": [
+    {
+      "at": "2026-06-12T05:27:58.610Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/wellinos/loginsvcuserbyrole"
+    },
+    {
+      "at": "2026-06-12T05:27:58.684Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/wellinos/loginsvcuserbyrole"
+    },
+    {
+      "at": "2026-06-12T05:27:58.689Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:27:58.788Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:03.072Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:03.072Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:03.072Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:03.250Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:03.250Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:03.251Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:03.266Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:03.266Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:03.365Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:03.374Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Update"
+    },
+    {
+      "at": "2026-06-12T05:28:03.374Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:03.439Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Update"
+    },
+    {
+      "at": "2026-06-12T05:28:04.475Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/?id=6192730962611142710&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true"
+    },
+    {
+      "at": "2026-06-12T05:28:04.512Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/?id=6192730962611142710&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true"
+    },
+    {
+      "at": "2026-06-12T05:28:04.516Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js"
+    },
+    {
+      "at": "2026-06-12T05:28:04.516Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css"
+    },
+    {
+      "at": "2026-06-12T05:28:04.517Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/config.json"
+    },
+    {
+      "at": "2026-06-12T05:28:04.550Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/config.json"
+    },
+    {
+      "at": "2026-06-12T05:28:04.550Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css"
+    },
+    {
+      "at": "2026-06-12T05:28:04.771Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js"
+    },
+    {
+      "at": "2026-06-12T05:28:04.776Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js"
+    },
+    {
+      "at": "2026-06-12T05:28:04.809Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js"
+    },
+    {
+      "at": "2026-06-12T05:28:04.811Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:04.819Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js"
+    },
+    {
+      "at": "2026-06-12T05:28:04.853Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:04.856Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html"
+    },
+    {
+      "at": "2026-06-12T05:28:04.857Z",
+      "type": "dblclick-modeling",
+      "card": {
+        "x": 204,
+        "y": 152,
+        "w": 68,
+        "h": 112,
+        "text": "建模系统客户端_0518"
+      }
+    },
+    {
+      "at": "2026-06-12T05:28:04.860Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js"
+    },
+    {
+      "at": "2026-06-12T05:28:04.896Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html"
+    },
+    {
+      "at": "2026-06-12T05:28:04.903Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/config.js"
+    },
+    {
+      "at": "2026-06-12T05:28:04.903Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/debugger.js"
+    },
+    {
+      "at": "2026-06-12T05:28:04.903Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/runtime.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:28:04.904Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:28:04.904Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/index.26325ec0.css"
+    },
+    {
+      "at": "2026-06-12T05:28:04.942Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/config.js"
+    },
+    {
+      "at": "2026-06-12T05:28:04.943Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/debugger.js"
+    },
+    {
+      "at": "2026-06-12T05:28:04.968Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/index.26325ec0.css"
+    },
+    {
+      "at": "2026-06-12T05:28:05.020Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/runtime.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:28:05.521Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:28:05.908Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:05.947Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:05.950Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:05.950Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:05.989Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:06.003Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:06.010Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:06.071Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:06.076Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:06.113Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:06.124Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/62936.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:28:06.124Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/69225.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:28:06.125Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-run.24e1aadb.css"
+    },
+    {
+      "at": "2026-06-12T05:28:06.125Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:28:06.126Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:06.160Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-run.24e1aadb.css"
+    },
+    {
+      "at": "2026-06-12T05:28:06.204Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:06.268Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:06.268Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:06.337Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:06.341Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/69225.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:28:06.368Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:28:06.369Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:06.533Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/62936.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:28:07.122Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/fonts/element-icons.ff18efd1.woff"
+    },
+    {
+      "at": "2026-06-12T05:28:07.196Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/fonts/element-icons.ff18efd1.woff"
+    },
+    {
+      "at": "2026-06-12T05:28:07.211Z",
+      "type": "clicked",
+      "label": "管控单元建模"
+    },
+    {
+      "at": "2026-06-12T05:28:07.614Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:07.654Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:07.655Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:07.694Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:07.700Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-view-App.109a4cde.css"
+    },
+    {
+      "at": "2026-06-12T05:28:07.700Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-view-App.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:28:07.701Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:07.745Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-view-App.109a4cde.css"
+    },
+    {
+      "at": "2026-06-12T05:28:07.745Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-view-App.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:28:07.748Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/65181.026e4f9f.css"
+    },
+    {
+      "at": "2026-06-12T05:28:07.748Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/65181.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:28:07.754Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:07.787Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/65181.026e4f9f.css"
+    },
+    {
+      "at": "2026-06-12T05:28:07.787Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/65181.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:28:08.020Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:08.069Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:08.074Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/index-53e0c0ac.js"
+    },
+    {
+      "at": "2026-06-12T05:28:08.123Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/assets/index-53e0c0ac.js"
+    },
+    {
+      "at": "2026-06-12T05:28:08.125Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:08.164Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:08.166Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:08.206Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:08.207Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:08.250Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:08.251Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:08.329Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:08.332Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:08.377Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:08.379Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:08.426Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:08.427Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:08.464Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:08.895Z",
+      "type": "clicked",
+      "label": "测试"
+    },
+    {
+      "at": "2026-06-12T05:28:09.276Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:09.276Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:09.309Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:09.309Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:09.739Z",
+      "type": "rows",
+      "rows": {
+        "body": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 2 条\n<1>前往页",
+        "rows": {
+          "收球筒": {
+            "rowText": "1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+            "rect": {
+              "x": 462,
+              "y": 102,
+              "w": 918,
+              "h": 51
+            },
+            "actions": {
+              "编辑": {
+                "tag": "SPAN",
+                "cls": "",
+                "text": "编辑",
+                "rect": {
+                  "x": 1009,
+                  "y": 119,
+                  "w": 28,
+                  "h": 16
+                }
+              },
+              "属性": {
+                "tag": "SPAN",
+                "cls": "",
+                "text": "属性",
+                "rect": {
+                  "x": 1049,
+                  "y": 119,
+                  "w": 28,
+                  "h": 16
+                }
+              },
+              "提交版本": {
+                "tag": "SPAN",
+                "cls": "",
+                "text": "提交版本",
+                "rect": {
+                  "x": 1089,
+                  "y": 119,
+                  "w": 56,
+                  "h": 16
+                }
+              },
+              "版本管理": {
+                "tag": "SPAN",
+                "cls": "",
+                "text": "版本管理",
+                "rect": {
+                  "x": 1157,
+                  "y": 119,
+                  "w": 56,
+                  "h": 16
+                }
+              },
+              "更新": {
+                "tag": "SPAN",
+                "cls": "",
+                "text": "更新",
+                "rect": {
+                  "x": 1225,
+                  "y": 119,
+                  "w": 28,
+                  "h": 16
+                }
+              },
+              "删除": {
+                "tag": "SPAN",
+                "cls": "",
+                "text": "删除",
+                "rect": {
+                  "x": 1265,
+                  "y": 119,
+                  "w": 28,
+                  "h": 16
+                }
+              }
+            }
+          },
+          "盛云_孙宇飞_假数据设备模型_0612": {
+            "rowText": "2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+            "rect": {
+              "x": 462,
+              "y": 153,
+              "w": 918,
+              "h": 51
+            },
+            "actions": {
+              "编辑": {
+                "tag": "SPAN",
+                "cls": "",
+                "text": "编辑",
+                "rect": {
+                  "x": 1009,
+                  "y": 170,
+                  "w": 28,
+                  "h": 16
+                }
+              },
+              "属性": {
+                "tag": "SPAN",
+                "cls": "",
+                "text": "属性",
+                "rect": {
+                  "x": 1049,
+                  "y": 170,
+                  "w": 28,
+                  "h": 16
+                }
+              },
+              "提交版本": {
+                "tag": "SPAN",
+                "cls": "",
+                "text": "提交版本",
+                "rect": {
+                  "x": 1089,
+                  "y": 170,
+                  "w": 56,
+                  "h": 16
+                }
+              },
+              "版本管理": {
+                "tag": "SPAN",
+                "cls": "",
+                "text": "版本管理",
+                "rect": {
+                  "x": 1157,
+                  "y": 170,
+                  "w": 56,
+                  "h": 16
+                }
+              },
+              "更新": {
+                "tag": "SPAN",
+                "cls": "",
+                "text": "更新",
+                "rect": {
+                  "x": 1225,
+                  "y": 170,
+                  "w": 28,
+                  "h": 16
+                }
+              },
+              "删除": {
+                "tag": "SPAN",
+                "cls": "",
+                "text": "删除",
+                "rect": {
+                  "x": 1265,
+                  "y": 170,
+                  "w": 28,
+                  "h": 16
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "at": "2026-06-12T05:28:09.754Z",
+      "type": "clicked-action",
+      "model": "收球筒",
+      "action": "属性",
+      "rect": {
+        "x": 1049,
+        "y": 119,
+        "w": 28,
+        "h": 16
+      }
+    },
+    {
+      "at": "2026-06-12T05:28:09.755Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:09.863Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:09.959Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:10.000Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:10.011Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/54010.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:28:10.052Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/54010.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:28:10.052Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/94554.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:28:10.110Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/94554.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:28:10.111Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/13070.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:28:10.146Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/13070.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:28:10.155Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/34914.c017fb82.css"
+    },
+    {
+      "at": "2026-06-12T05:28:10.155Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/34914.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:28:10.155Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:10.188Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/34914.c017fb82.css"
+    },
+    {
+      "at": "2026-06-12T05:28:10.188Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/34914.beta.2026.05.14.15.js"
+    },
+    {
+      "at": "2026-06-12T05:28:10.225Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:10.229Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:10.230Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:10.273Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:10.275Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/88360.24e1aadb.css"
+    },
+    {
+      "at": "2026-06-12T05:28:10.334Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/88360.24e1aadb.css"
+    },
+    {
+      "at": "2026-06-12T05:28:10.348Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:12.270Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:12.270Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:12.306Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:28:12.306Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    }
+  ],
+  "frames": [
+    {
+      "url": "http://221.239.19.118:13001/#/main",
+      "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260514\n组态系统客户端0518\n建模系统客户端_0518\n运维部署客户端_0518\nCodex临时测试_前端视图_0611"
+    },
+    {
+      "url": "http://221.239.19.118:13001/public/?id=6192730962611142710&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+      "text": ""
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+      "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 2 条\n<1>前往页\n\n模型属性\n\nX\n\n名称：\n\n描述：\n\n0/128\n取消\n确认"
+    }
+  ],
+  "screenshot": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\screenshots\\modeling_compare_shouqiutong_probe.png"
+}

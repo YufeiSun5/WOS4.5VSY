@@ -1,0 +1,406 @@
+{
+  "queries": [
+    {
+      "fields": [
+        "$guid",
+        "$id",
+        "$runstatus"
+      ],
+      "status": 200,
+      "response": {
+        "data": {
+          "output": {
+            "keyValueList": [
+              {
+                "key": "errorcodes",
+                "value": {
+                  "int32ArrayValue": {
+                    "int32Array": [
+                      0,
+                      0
+                    ]
+                  }
+                }
+              },
+              {
+                "key": "ret",
+                "value": {
+                  "int32Value": 0
+                }
+              },
+              {
+                "key": "returndata",
+                "value": {
+                  "dataSet": {
+                    "fieldNames": [
+                      "$guid",
+                      "$id",
+                      "$runstatus"
+                    ],
+                    "fieldValues": [
+                      {
+                        "values": [
+                          {
+                            "stringValue": "aa1773bf-c7cb-4107-aea9-31b2cf7b2fac"
+                          },
+                          {
+                            "uint64Value": "6192730962611142975"
+                          },
+                          {
+                            "int32Value": 2
+                          }
+                        ]
+                      },
+                      {
+                        "values": [
+                          {
+                            "stringValue": "482bced7-e5e8-4885-ad3f-6f787d657980"
+                          },
+                          {
+                            "uint64Value": "6192730962611143001"
+                          },
+                          {
+                            "int32Value": 2
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "header": {
+          "commandID": 516,
+          "requestID": 268941978,
+          "cloudID": 0,
+          "userType": 2,
+          "packetType": 2,
+          "transactionID": "0",
+          "clientID": 0,
+          "serviceType": 22,
+          "traceID": "5189083122731797504",
+          "fuid": "0"
+        }
+      }
+    },
+    {
+      "fields": [
+        "$guid",
+        "$id",
+        "$name",
+        "$runstatus"
+      ],
+      "status": 200,
+      "response": {
+        "data": {
+          "output": {
+            "keyValueList": [
+              {
+                "key": "errorcodes",
+                "value": {
+                  "int32ArrayValue": {
+                    "int32Array": [
+                      0,
+                      0
+                    ]
+                  }
+                }
+              },
+              {
+                "key": "ret",
+                "value": {
+                  "int32Value": 0
+                }
+              },
+              {
+                "key": "returndata",
+                "value": {
+                  "dataSet": {
+                    "fieldNames": [
+                      "$guid",
+                      "$id",
+                      "$name",
+                      "$runstatus"
+                    ],
+                    "fieldValues": [
+                      {
+                        "values": [
+                          {
+                            "stringValue": "aa1773bf-c7cb-4107-aea9-31b2cf7b2fac"
+                          },
+                          {
+                            "uint64Value": "6192730962611142975"
+                          },
+                          {
+                            "stringValue": "lk_客户端01"
+                          },
+                          {
+                            "int32Value": 2
+                          }
+                        ]
+                      },
+                      {
+                        "values": [
+                          {
+                            "stringValue": "482bced7-e5e8-4885-ad3f-6f787d657980"
+                          },
+                          {
+                            "uint64Value": "6192730962611143001"
+                          },
+                          {
+                            "stringValue": "lk_客户端01_对象1"
+                          },
+                          {
+                            "int32Value": 2
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "header": {
+          "commandID": 516,
+          "requestID": 268941979,
+          "cloudID": 0,
+          "userType": 2,
+          "packetType": 2,
+          "transactionID": "0",
+          "clientID": 0,
+          "serviceType": 22,
+          "traceID": "5189083163596120064",
+          "fuid": "0"
+        }
+      }
+    },
+    {
+      "fields": [
+        "$guid",
+        "$id",
+        "$name",
+        "$type",
+        "$runstatus"
+      ],
+      "status": 200,
+      "response": {
+        "data": {
+          "output": {
+            "keyValueList": [
+              {
+                "key": "errorcodes",
+                "value": {
+                  "int32ArrayValue": {
+                    "int32Array": [
+                      536903688,
+                      536903688
+                    ]
+                  }
+                }
+              },
+              {
+                "key": "ret",
+                "value": {
+                  "int32Value": 0
+                }
+              },
+              {
+                "key": "returndata",
+                "value": {
+                  "dataSet": {
+                    "fieldNames": [],
+                    "fieldValues": []
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "header": {
+          "commandID": 516,
+          "requestID": 268941980,
+          "cloudID": 0,
+          "userType": 2,
+          "packetType": 2,
+          "transactionID": "0",
+          "clientID": 0,
+          "serviceType": 22,
+          "traceID": "5189083240388843520",
+          "fuid": "0"
+        }
+      }
+    },
+    {
+      "fields": [
+        "$guid",
+        "$id",
+        "$name",
+        "$modelguid",
+        "$modelversion",
+        "$runstatus"
+      ],
+      "status": 200,
+      "response": {
+        "data": {
+          "output": {
+            "keyValueList": [
+              {
+                "key": "errorcodes",
+                "value": {
+                  "int32ArrayValue": {
+                    "int32Array": [
+                      0,
+                      0
+                    ]
+                  }
+                }
+              },
+              {
+                "key": "ret",
+                "value": {
+                  "int32Value": 0
+                }
+              },
+              {
+                "key": "returndata",
+                "value": {
+                  "dataSet": {
+                    "fieldNames": [
+                      "$guid",
+                      "$id",
+                      "$name",
+                      "$modelguid",
+                      "$modelversion",
+                      "$runstatus"
+                    ],
+                    "fieldValues": [
+                      {
+                        "values": [
+                          {
+                            "stringValue": "aa1773bf-c7cb-4107-aea9-31b2cf7b2fac"
+                          },
+                          {
+                            "uint64Value": "6192730962611142975"
+                          },
+                          {
+                            "stringValue": "lk_客户端01"
+                          },
+                          {
+                            "stringValue": "f5f8c456-e145-4d85-b1c3-dc3a17e7b512"
+                          },
+                          {
+                            "int32Value": 105
+                          },
+                          {
+                            "int32Value": 2
+                          }
+                        ]
+                      },
+                      {
+                        "values": [
+                          {
+                            "stringValue": "482bced7-e5e8-4885-ad3f-6f787d657980"
+                          },
+                          {
+                            "uint64Value": "6192730962611143001"
+                          },
+                          {
+                            "stringValue": "lk_客户端01_对象1"
+                          },
+                          {
+                            "stringValue": "f5f8c456-e145-4d85-b1c3-dc3a17e7b512"
+                          },
+                          {
+                            "int32Value": 105
+                          },
+                          {
+                            "int32Value": 2
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "header": {
+          "commandID": 516,
+          "requestID": 268941981,
+          "cloudID": 0,
+          "userType": 2,
+          "packetType": 2,
+          "transactionID": "0",
+          "clientID": 0,
+          "serviceType": 22,
+          "traceID": "5189083285468240896",
+          "fuid": "0"
+        }
+      }
+    },
+    {
+      "fields": [
+        "$guid",
+        "$id",
+        "$name",
+        "$modelguid",
+        "$modelversion",
+        "$repositoryguid",
+        "$runstatus"
+      ],
+      "status": 200,
+      "response": {
+        "data": {
+          "output": {
+            "keyValueList": [
+              {
+                "key": "errorcodes",
+                "value": {
+                  "int32ArrayValue": {
+                    "int32Array": [
+                      536903688,
+                      536903688
+                    ]
+                  }
+                }
+              },
+              {
+                "key": "ret",
+                "value": {
+                  "int32Value": 0
+                }
+              },
+              {
+                "key": "returndata",
+                "value": {
+                  "dataSet": {
+                    "fieldNames": [],
+                    "fieldValues": []
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "header": {
+          "commandID": 516,
+          "requestID": 268941982,
+          "cloudID": 0,
+          "userType": 2,
+          "packetType": 2,
+          "transactionID": "0",
+          "clientID": 0,
+          "serviceType": 22,
+          "traceID": "5189083324355936256",
+          "fuid": "0"
+        }
+      }
+    }
+  ],
+  "captured_at": "2026-06-18 09:12:48"
+}

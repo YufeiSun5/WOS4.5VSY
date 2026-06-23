@@ -1,0 +1,602 @@
+{
+  "status": "callback",
+  "error": null,
+  "transfer": {
+    "eventName": "Finish",
+    "eventParam": [],
+    "comId": "dynamic-dialog-0.9851488991948911",
+    "pageName": "数字孪生实例化_时空_提交版本"
+  },
+  "logs": [
+    {
+      "kind": "CloseChild",
+      "data": "数字孪生实例化_实例_提交版本",
+      "t": 1782101801387
+    },
+    {
+      "kind": "CloseChild",
+      "data": "数字孪生实例化_时空_提交版本",
+      "t": 1782101801388
+    },
+    {
+      "kind": "CloseChild",
+      "data": "数字孪生实例化_时空_版本说明",
+      "t": 1782101801389
+    },
+    {
+      "kind": "hideStale",
+      "data": {
+        "i": 0,
+        "txt": "数字孪生实例化_实例_提交版本实例版本提交进度  100% 名称GUID状态详情1NadirBack276cb189-67c5-47d1-94be-7e76f5f5af4e100%提交成功 关闭 "
+      },
+      "t": 1782101801390
+    },
+    {
+      "kind": "hideStale",
+      "data": {
+        "i": 1,
+        "txt": "实例版本提交进度  100% 名称GUID状态详情1NadirBack276cb189-67c5-47d1-94be-7e76f5f5af4e100%提交成功 关闭 "
+      },
+      "t": 1782101801392
+    },
+    {
+      "kind": "transfer",
+      "data": {
+        "eventName": "Finish",
+        "eventParam": [],
+        "comId": "dynamic-dialog-0.9851488991948911",
+        "pageName": "数字孪生实例化_时空_提交版本"
+      },
+      "t": 1782101802531
+    }
+  ],
+  "console": [
+    {
+      "level": "log",
+      "args": [
+        "[AI PageRun submit]",
+        "CloseChild",
+        "数字孪生实例化_实例_提交版本"
+      ],
+      "t": 1782101801387
+    },
+    {
+      "level": "log",
+      "args": [
+        "[AI PageRun submit]",
+        "CloseChild",
+        "数字孪生实例化_实例_提交版本"
+      ],
+      "t": 1782101801387
+    },
+    {
+      "level": "log",
+      "args": [
+        "[AI PageRun submit]",
+        "CloseChild",
+        "数字孪生实例化_时空_提交版本"
+      ],
+      "t": 1782101801388
+    },
+    {
+      "level": "log",
+      "args": [
+        "[AI PageRun submit]",
+        "CloseChild",
+        "数字孪生实例化_时空_提交版本"
+      ],
+      "t": 1782101801388
+    },
+    {
+      "level": "log",
+      "args": [
+        "[AI PageRun submit]",
+        "CloseChild",
+        "数字孪生实例化_时空_版本说明"
+      ],
+      "t": 1782101801389
+    },
+    {
+      "level": "log",
+      "args": [
+        "[AI PageRun submit]",
+        "CloseChild",
+        "数字孪生实例化_时空_版本说明"
+      ],
+      "t": 1782101801389
+    },
+    {
+      "level": "log",
+      "args": [
+        "[AI PageRun submit]",
+        "hideStale",
+        "{\"i\":0,\"txt\":\"数字孪生实例化_实例_提交版本实例版本提交进度  100% 名称GUID状态详情1NadirBack276cb189-67c5-47d1-94be-7e76f5f5af4e100%提交成功 关闭 \"}"
+      ],
+      "t": 1782101801390
+    },
+    {
+      "level": "log",
+      "args": [
+        "[AI PageRun submit]",
+        "hideStale",
+        "{\"i\":0,\"txt\":\"数字孪生实例化_实例_提交版本实例版本提交进度  100% 名称GUID状态详情1NadirBack276cb189-67c5-47d1-94be-7e76f5f5af4e100%提交成功 关闭 \"}"
+      ],
+      "t": 1782101801390
+    },
+    {
+      "level": "log",
+      "args": [
+        "[AI PageRun submit]",
+        "hideStale",
+        "{\"i\":1,\"txt\":\"实例版本提交进度  100% 名称GUID状态详情1NadirBack276cb189-67c5-47d1-94be-7e76f5f5af4e100%提交成功 关闭 \"}"
+      ],
+      "t": 1782101801392
+    },
+    {
+      "level": "log",
+      "args": [
+        "[AI PageRun submit]",
+        "hideStale",
+        "{\"i\":1,\"txt\":\"实例版本提交进度  100% 名称GUID状态详情1NadirBack276cb189-67c5-47d1-94be-7e76f5f5af4e100%提交成功 关闭 \"}"
+      ],
+      "t": 1782101801392
+    },
+    {
+      "level": "log",
+      "args": [
+        "KGSDataObjMng subscribeDataObj"
+      ],
+      "t": 1782101801399
+    },
+    {
+      "level": "log",
+      "args": [
+        "KGSDataObjMng subscribeDataObj"
+      ],
+      "t": 1782101801399
+    },
+    {
+      "level": "log",
+      "args": [
+        "i show child initChildData"
+      ],
+      "t": 1782101801896
+    },
+    {
+      "level": "log",
+      "args": [
+        "i show child initChildData"
+      ],
+      "t": 1782101801896
+    },
+    {
+      "level": "log",
+      "args": [
+        "initWebJsFuncList start"
+      ],
+      "t": 1782101801987
+    },
+    {
+      "level": "log",
+      "args": [
+        "initWebJsFuncList start"
+      ],
+      "t": 1782101801987
+    },
+    {
+      "level": "log",
+      "args": [
+        "spaceTime parse error!"
+      ],
+      "t": 1782101801995
+    },
+    {
+      "level": "log",
+      "args": [
+        "spaceTime parse error!"
+      ],
+      "t": 1782101801995
+    },
+    {
+      "level": "log",
+      "args": [
+        "registerLink"
+      ],
+      "t": 1782101802003
+    },
+    {
+      "level": "log",
+      "args": [
+        "registerLink"
+      ],
+      "t": 1782101802003
+    },
+    {
+      "level": "log",
+      "args": [
+        "页面名称:",
+        "数字孪生实例化_时空_提交版本",
+        "PARENT_STORE_PARAM:",
+        "{\"child$StoreName\":\"$7205759403792794600__$ChildPage__数字孪生实例化_时空_提交版本\",\"spaceTime\":{\"ret\":-10002,\"id\":\"\",\"guid\":\"\",\"name\":\"\",\"yuanArea\":0,\"webJsArea\":0,\"realArea\":0,\"planArea\":0,\"historyArea\":0,\"devName\":\"\",\"source\":\"showChild\"},\"fuObj\":{},\"isChild\":true}"
+      ],
+      "t": 1782101802021
+    },
+    {
+      "level": "log",
+      "args": [
+        "页面名称:",
+        "数字孪生实例化_时空_提交版本",
+        "PARENT_STORE_PARAM:",
+        "{\"child$StoreName\":\"$7205759403792794600__$ChildPage__数字孪生实例化_时空_提交版本\",\"spaceTime\":{\"ret\":-10002,\"id\":\"\",\"guid\":\"\",\"name\":\"\",\"yuanArea\":0,\"webJsArea\":0,\"realArea\":0,\"planArea\":0,\"historyArea\":0,\"devName\":\"\",\"source\":\"showChild\"},\"fuObj\":{},\"isChild\":true}"
+      ],
+      "t": 1782101802021
+    },
+    {
+      "level": "log",
+      "args": [
+        "registerDataSet"
+      ],
+      "t": 1782101802027
+    },
+    {
+      "level": "log",
+      "args": [
+        "registerDataSet"
+      ],
+      "t": 1782101802027
+    },
+    {
+      "level": "log",
+      "args": [
+        "KGSDataObjMng subscribeDataObj"
+      ],
+      "t": 1782101802033
+    },
+    {
+      "level": "log",
+      "args": [
+        "KGSDataObjMng subscribeDataObj"
+      ],
+      "t": 1782101802033
+    },
+    {
+      "level": "log",
+      "args": [
+        "taskProgress_VantProgress = ",
+        "[object Object]"
+      ],
+      "t": 1782101802112
+    },
+    {
+      "level": "log",
+      "args": [
+        "taskProgress_VantProgress = ",
+        "[object Object]"
+      ],
+      "t": 1782101802112
+    },
+    {
+      "level": "log",
+      "args": [
+        "initWebJsFuncList,GetPageInfo,获取失败"
+      ],
+      "t": 1782101802115
+    },
+    {
+      "level": "log",
+      "args": [
+        "initWebJsFuncList,GetPageInfo,获取失败"
+      ],
+      "t": 1782101802115
+    },
+    {
+      "level": "log",
+      "args": [
+        "initWebJsFuncList,GetPageInfo,获取失败"
+      ],
+      "t": 1782101802156
+    },
+    {
+      "level": "log",
+      "args": [
+        "initWebJsFuncList,GetPageInfo,获取失败"
+      ],
+      "t": 1782101802156
+    },
+    {
+      "level": "log",
+      "args": [
+        "initWebJsFuncList,GetPageInfo,获取失败"
+      ],
+      "t": 1782101802200
+    },
+    {
+      "level": "log",
+      "args": [
+        "initWebJsFuncList,GetPageInfo,获取失败"
+      ],
+      "t": 1782101802200
+    },
+    {
+      "level": "log",
+      "args": [
+        "initWebJsFuncList,GetPageInfo,获取失败"
+      ],
+      "t": 1782101802240
+    },
+    {
+      "level": "log",
+      "args": [
+        "initWebJsFuncList,GetPageInfo,获取失败"
+      ],
+      "t": 1782101802240
+    },
+    {
+      "level": "log",
+      "args": [
+        "[D] <版本提交进度> 开始打包 :: repoGuidAndInfoMap = ",
+        "{}"
+      ],
+      "t": 1782101802280
+    },
+    {
+      "level": "log",
+      "args": [
+        "[D] <版本提交进度> 开始打包 :: repoGuidAndInfoMap = ",
+        "{}"
+      ],
+      "t": 1782101802280
+    },
+    {
+      "level": "log",
+      "args": [
+        "initWebJsFuncList,GetPageInfo,获取失败"
+      ],
+      "t": 1782101802285
+    },
+    {
+      "level": "log",
+      "args": [
+        "initWebJsFuncList,GetPageInfo,获取失败"
+      ],
+      "t": 1782101802285
+    },
+    {
+      "level": "log",
+      "args": [
+        "[D] _asyncCreatePacketCallback, result = ",
+        "{\"errorcodes\":[0],\"errordesc\":\"{\\\"errorCode\\\", \\\"0\\\"}\",\"guids\":[\"4fa17a11-b923-4b36-b1e8-c39ca1bcf62c\"],\"versions\":[2]}"
+      ],
+      "t": 1782101802401
+    },
+    {
+      "level": "log",
+      "args": [
+        "[D] _asyncCreatePacketCallback, result = ",
+        "{\"errorcodes\":[0],\"errordesc\":\"{\\\"errorCode\\\", \\\"0\\\"}\",\"guids\":[\"4fa17a11-b923-4b36-b1e8-c39ca1bcf62c\"],\"versions\":[2]}"
+      ],
+      "t": 1782101802401
+    },
+    {
+      "level": "log",
+      "args": [
+        "initWebJsFuncList,GetPageInfo,获取失败"
+      ],
+      "t": 1782101802404
+    },
+    {
+      "level": "log",
+      "args": [
+        "initWebJsFuncList,GetPageInfo,获取失败"
+      ],
+      "t": 1782101802404
+    },
+    {
+      "level": "log",
+      "args": [
+        "initWebJsFuncList,GetPageInfo,获取失败"
+      ],
+      "t": 1782101802405
+    },
+    {
+      "level": "log",
+      "args": [
+        "initWebJsFuncList,GetPageInfo,获取失败"
+      ],
+      "t": 1782101802405
+    },
+    {
+      "level": "log",
+      "args": [
+        "initWebJsFuncList,GetPageInfo,获取失败"
+      ],
+      "t": 1782101802406
+    },
+    {
+      "level": "log",
+      "args": [
+        "initWebJsFuncList,GetPageInfo,获取失败"
+      ],
+      "t": 1782101802406
+    },
+    {
+      "level": "log",
+      "args": [
+        "initWebJsFuncList,GetPageInfo,获取失败"
+      ],
+      "t": 1782101802407
+    },
+    {
+      "level": "log",
+      "args": [
+        "initWebJsFuncList,GetPageInfo,获取失败"
+      ],
+      "t": 1782101802407
+    },
+    {
+      "level": "log",
+      "args": [
+        "initWebJsFuncList,GetPageInfo,获取失败"
+      ],
+      "t": 1782101802408
+    },
+    {
+      "level": "log",
+      "args": [
+        "initWebJsFuncList,GetPageInfo,获取失败"
+      ],
+      "t": 1782101802408
+    },
+    {
+      "level": "log",
+      "args": [
+        "[D] _asyncCreatePacketCallback, result = ",
+        "{\"errorcodes\":[0],\"errordesc\":\"{\\\"errorCode\\\", \\\"0\\\"}\",\"guids\":[\"a934b08f-695f-4067-8c4c-98aa434047ce\"],\"versions\":[3]}"
+      ],
+      "t": 1782101802468
+    },
+    {
+      "level": "log",
+      "args": [
+        "[D] _asyncCreatePacketCallback, result = ",
+        "{\"errorcodes\":[0],\"errordesc\":\"{\\\"errorCode\\\", \\\"0\\\"}\",\"guids\":[\"a934b08f-695f-4067-8c4c-98aa434047ce\"],\"versions\":[3]}"
+      ],
+      "t": 1782101802468
+    },
+    {
+      "level": "log",
+      "args": [
+        "[D] _asyncCreatePacketCallback, result = ",
+        "{\"errorcodes\":[0],\"errordesc\":\"{\\\"errorCode\\\", \\\"0\\\"}\",\"guids\":[\"1d6d69eb-b072-4419-9a1d-980ebbe1396e\"],\"versions\":[3]}"
+      ],
+      "t": 1782101802489
+    },
+    {
+      "level": "log",
+      "args": [
+        "[D] _asyncCreatePacketCallback, result = ",
+        "{\"errorcodes\":[0],\"errordesc\":\"{\\\"errorCode\\\", \\\"0\\\"}\",\"guids\":[\"1d6d69eb-b072-4419-9a1d-980ebbe1396e\"],\"versions\":[3]}"
+      ],
+      "t": 1782101802489
+    },
+    {
+      "level": "log",
+      "args": [
+        "[D] _asyncCreatePacketCallback, result = ",
+        "{\"errorcodes\":[0],\"errordesc\":\"{\\\"errorCode\\\", \\\"0\\\"}\",\"guids\":[\"5bf54c1d-7ecd-4127-8bf5-a47b23ac31b7\"],\"versions\":[2]}"
+      ],
+      "t": 1782101802501
+    },
+    {
+      "level": "log",
+      "args": [
+        "[D] _asyncCreatePacketCallback, result = ",
+        "{\"errorcodes\":[0],\"errordesc\":\"{\\\"errorCode\\\", \\\"0\\\"}\",\"guids\":[\"5bf54c1d-7ecd-4127-8bf5-a47b23ac31b7\"],\"versions\":[2]}"
+      ],
+      "t": 1782101802501
+    },
+    {
+      "level": "log",
+      "args": [
+        "[D] _asyncCreatePacketCallback, result = ",
+        "{\"errorcodes\":[0],\"errordesc\":\"{\\\"errorCode\\\", \\\"0\\\"}\",\"guids\":[\"276cb189-67c5-47d1-94be-7e76f5f5af4e\"],\"versions\":[4]}"
+      ],
+      "t": 1782101802505
+    },
+    {
+      "level": "log",
+      "args": [
+        "[D] _asyncCreatePacketCallback, result = ",
+        "{\"errorcodes\":[0],\"errordesc\":\"{\\\"errorCode\\\", \\\"0\\\"}\",\"guids\":[\"276cb189-67c5-47d1-94be-7e76f5f5af4e\"],\"versions\":[4]}"
+      ],
+      "t": 1782101802505
+    },
+    {
+      "level": "log",
+      "args": [
+        "[D] _asyncCreatePacketCallback, result = ",
+        "{\"errorcodes\":[0],\"errordesc\":\"{\\\"errorCode\\\", \\\"0\\\"}\",\"guids\":[\"069aca68-d952-4a20-949f-af9784b33985\"],\"versions\":[2]}"
+      ],
+      "t": 1782101802524
+    },
+    {
+      "level": "log",
+      "args": [
+        "[D] _asyncCreatePacketCallback, result = ",
+        "{\"errorcodes\":[0],\"errordesc\":\"{\\\"errorCode\\\", \\\"0\\\"}\",\"guids\":[\"069aca68-d952-4a20-949f-af9784b33985\"],\"versions\":[2]}"
+      ],
+      "t": 1782101802524
+    },
+    {
+      "level": "log",
+      "args": [
+        "[D] <版本提交进度> 打包结果 :: repoGuidAndInfoMap = ",
+        "{}"
+      ],
+      "t": 1782101802527
+    },
+    {
+      "level": "log",
+      "args": [
+        "[D] <版本提交进度> 打包结果 :: repoGuidAndInfoMap = ",
+        "{}"
+      ],
+      "t": 1782101802527
+    },
+    {
+      "level": "log",
+      "args": [
+        "[AI PageRun submit]",
+        "transfer",
+        "{\"eventName\":\"Finish\",\"eventParam\":[],\"comId\":\"dynamic-dialog-0.9851488991948911\",\"pageName\":\"数字孪生实例化_时空_提交版本\"}"
+      ],
+      "t": 1782101802531
+    },
+    {
+      "level": "log",
+      "args": [
+        "[AI PageRun submit]",
+        "transfer",
+        "{\"eventName\":\"Finish\",\"eventParam\":[],\"comId\":\"dynamic-dialog-0.9851488991948911\",\"pageName\":\"数字孪生实例化_时空_提交版本\"}"
+      ],
+      "t": 1782101802531
+    }
+  ],
+  "pages": [
+    {
+      "i": 0,
+      "id": "工程浏览器_框架页面",
+      "cls": "page_view_container client_page_view_container",
+      "display": "block",
+      "txt": "KingFusion4.5_工程浏览器\n\n< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除"
+    },
+    {
+      "i": 1,
+      "id": "开发系统_组态_框架页面",
+      "cls": "page_view_container client_page_view_container set_page_app component_object 开发系统_组态_框架页面",
+      "display": "block",
+      "txt": "< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除"
+    },
+    {
+      "i": 2,
+      "id": "数字孪生实例化_框架页面",
+      "cls": "page_view_container client_page_view_container set_page_app component_object 数字孪生实例化_框架页面",
+      "display": "block",
+      "txt": "时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除"
+    },
+    {
+      "i": 3,
+      "id": "m数字孪生实例化_时空_提交版本",
+      "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_816342",
+      "display": "block",
+      "txt": "时空仓库版本提交进度\n\n100%\n\n\t名称\tGUID\t状态\t详情\n1\n\t\nNadirL2\n\t\n4fa17a11-b923-4b36-b1e8-c39ca1bcf62c\n\t\n100%\n\t\n提交成功\n\n\n2\n\t\nNadirBack\n\t\n276cb189-67c5-47d1-94be-7e76f5f5af4e\n\t\n100%\n\t\n提交成功\n\n\n3\n\t\nNadirFront\n\t\n069aca68-d952-4a20-949f-af9784b33985\n\t\n100%\n\t\n提交成功\n关闭"
+    },
+    {
+      "i": 4,
+      "id": "",
+      "cls": "page_view_container show_child_view_container",
+      "display": "block",
+      "txt": "时空仓库版本提交进度\n\n100%\n\n\t名称\tGUID\t状态\t详情\n1\n\t\nNadirL2\n\t\n4fa17a11-b923-4b36-b1e8-c39ca1bcf62c\n\t\n100%\n\t\n提交成功\n\n\n2\n\t\nNadirBack\n\t\n276cb189-67c5-47d1-94be-7e76f5f5af4e\n\t\n100%\n\t\n提交成功\n\n\n3\n\t\nNadirFront\n\t\n069aca68-d952-4a20-949f-af9784b33985\n\t\n100%\n\t\n提交成功\n关闭"
+    }
+  ]
+}

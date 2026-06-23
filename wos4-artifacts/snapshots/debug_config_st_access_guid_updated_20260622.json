@@ -1,0 +1,163 @@
+{
+  "update": {
+    "ok": true,
+    "inputValues": [
+      "",
+      "107",
+      "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c"
+    ]
+  },
+  "state": {
+    "dialogs": [
+      {
+        "i": 0,
+        "text": "调试配置\n添加用户访问信息:\n点击添加\n添加时空访问信息:\n点击添加\n时空信息:\n默认数据区\n测试\n工厂\nNadirL1\nNadirL2\nlk测试客户端1\nlk_客户端01\n管理员客户端\n产品生成器功能客户端\n开发系统\n测试客户端\n测试时空-工厂\nlk_工厂\n测试1\n菜单\n客户端工程\n生成器时空\n管理员\n客户端1_人工干预点_1\n盛云_孙宇飞_时空_0617\n手工层级1\n盛云_孙宇飞_Noctiluca_客户端\n盛云_孙宇飞_时空_0617_TOPV2\n客户端1\nEidolon手工层级1\n引滦集团\n已选信息:\n\t\nNadirL2\n外云访问时空列表\n云ID\n\t\n时空GUID\n\t\n操作\n107\n\t\n4fa17a11-b923-4b36-b1e8-c39ca1bcf62c\n\t\n编辑\n移除\n添加\n取消\n确定\n取消\n确定",
+        "rows": [
+          {
+            "j": 0,
+            "text": "NadirL2"
+          },
+          {
+            "j": 1,
+            "text": "107\n\t\n4fa17a11-b923-4b36-b1e8-c39ca1bcf62c\n\t\n编辑\n移除"
+          }
+        ],
+        "inputs": [
+          {
+            "j": 0,
+            "value": ""
+          }
+        ],
+        "buttons": [
+          {
+            "j": 0,
+            "text": "",
+            "disabled": false,
+            "cls": "el-dialog__headerbtn"
+          },
+          {
+            "j": 1,
+            "text": "点击添加",
+            "disabled": false,
+            "cls": "el-button el-button--primary el-button--default is-link"
+          },
+          {
+            "j": 2,
+            "text": "点击添加",
+            "disabled": false,
+            "cls": "el-button el-button--primary el-button--default is-link"
+          },
+          {
+            "j": 3,
+            "text": "",
+            "disabled": false,
+            "cls": "el-button el-button--default"
+          },
+          {
+            "j": 4,
+            "text": "",
+            "disabled": false,
+            "cls": "el-button el-button--default"
+          },
+          {
+            "j": 5,
+            "text": "",
+            "disabled": false,
+            "cls": "el-dialog__headerbtn"
+          },
+          {
+            "j": 6,
+            "text": "编辑",
+            "disabled": false,
+            "cls": "el-button el-button--primary el-button--default is-link"
+          },
+          {
+            "j": 7,
+            "text": "移除",
+            "disabled": false,
+            "cls": "el-button el-button--danger el-button--default is-link"
+          },
+          {
+            "j": 8,
+            "text": "添加",
+            "disabled": false,
+            "cls": "el-button el-button--primary el-button--default is-link"
+          },
+          {
+            "j": 9,
+            "text": "取消",
+            "disabled": false,
+            "cls": "el-button el-button--default"
+          },
+          {
+            "j": 10,
+            "text": "确定",
+            "disabled": false,
+            "cls": "el-button el-button--primary el-button--default"
+          },
+          {
+            "j": 11,
+            "text": "取消",
+            "disabled": false,
+            "cls": "el-button el-button--default"
+          },
+          {
+            "j": 12,
+            "text": "确定",
+            "disabled": false,
+            "cls": "el-button el-button--primary el-button--default"
+          }
+        ]
+      },
+      {
+        "i": 1,
+        "text": "外云访问时空列表\n云ID\n\t\n时空GUID\n\t\n操作\n107\n\t\n4fa17a11-b923-4b36-b1e8-c39ca1bcf62c\n\t\n编辑\n移除\n添加\n取消\n确定",
+        "rows": [
+          {
+            "j": 0,
+            "text": "107\n\t\n4fa17a11-b923-4b36-b1e8-c39ca1bcf62c\n\t\n编辑\n移除"
+          }
+        ],
+        "inputs": [],
+        "buttons": [
+          {
+            "j": 0,
+            "text": "",
+            "disabled": false,
+            "cls": "el-dialog__headerbtn"
+          },
+          {
+            "j": 1,
+            "text": "编辑",
+            "disabled": false,
+            "cls": "el-button el-button--primary el-button--default is-link"
+          },
+          {
+            "j": 2,
+            "text": "移除",
+            "disabled": false,
+            "cls": "el-button el-button--danger el-button--default is-link"
+          },
+          {
+            "j": 3,
+            "text": "添加",
+            "disabled": false,
+            "cls": "el-button el-button--primary el-button--default is-link"
+          },
+          {
+            "j": 4,
+            "text": "取消",
+            "disabled": false,
+            "cls": "el-button el-button--default"
+          },
+          {
+            "j": 5,
+            "text": "确定",
+            "disabled": false,
+            "cls": "el-button el-button--primary el-button--default"
+          }
+        ]
+      }
+    ]
+  }
+}

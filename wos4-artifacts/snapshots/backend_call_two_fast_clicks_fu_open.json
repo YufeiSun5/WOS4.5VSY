@@ -1,0 +1,44 @@
+{
+  "coords": {
+    "img": {
+      "x": 345,
+      "y": 152,
+      "w": 67,
+      "h": 67
+    },
+    "title": {
+      "x": 346,
+      "y": 219,
+      "w": 65,
+      "h": 32
+    },
+    "card": {
+      "x": 345,
+      "y": 152,
+      "w": 67,
+      "h": 99
+    }
+  },
+  "attempts": [
+    {
+      "target": "title",
+      "opened": true,
+      "obs": [
+        [
+          {
+            "path": "top",
+            "href": "http://221.239.19.118:13001/#/main",
+            "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260514\n组态系统客户端0518\n建模系统客户端_0518\n运维部署客户端_0518\nlk_客户端01\nlk_客户端01_对象1\nCodex临时测试_前端视图_0611\n盛云_孙宇飞_TraceDemo_0617",
+            "iframes": 1
+          },
+          {
+            "path": "top.0",
+            "href": "http://221.239.19.118:13001/desktop-frame/index.html?cloud=107#/main/worker-space-model",
+            "text": "时空功能开发平台\n\nTime Space Platform\n\n时空开发\n部署管理\n盛云_孙宇飞_元语言查询Demo_0617\n仓库包\n权限\n镜像\n关于\n新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\n名称:\n输入参数:\n返回值类型:\n1\n行：1，列：1，\n空格：4\n元语言\n属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0eb5ff6c-93d1-481f-96a4-1c8be6646531\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\n盛云_孙宇飞_仓库\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:",
+            "iframes": 0
+          }
+        ]
+      ]
+    }
+  ]
+}

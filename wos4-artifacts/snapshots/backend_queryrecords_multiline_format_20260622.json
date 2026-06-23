@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "inputs": [
+      "",
+      "QueryRecords",
+      "stringMap<var> strmapPara",
+      "stringMap<var>",
+      "DemoCrudBackend_CUSTOMFUNC",
+      "DemoCrudBackend_CUSTOMFUNC",
+      "",
+      "",
+      "",
+      "customfunc-runtime-call-submit-20260622"
+    ],
+    "paramSet": true,
+    "returnSet": true
+  },
+  "after": {
+    "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\nQueryRecords\n\nInsertRecord\n\nUpdateRecord\n\n当前模型: DemoCrudBackend_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nonDestroy\nonException\nQueryRecords\nInsertRecord\nUpdateRecord\n名称:\n输入参数:\n返回值类型:\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\nrow[\"areaName\"] = \"A1\";\nrow[\"statusText\"] = \"RUN\";\nrow[\"flowValue\"] = \"12.3\";\nrow[\"pressureValue\"] = \"0.45\";\nrow[\"filter\"] = filter;\nstatisticsList.push(row);\nreturnData[\"statisticsList\"] = statisticsList;\nreturn returnData;\n编译信息\nxxxxxxxxxxxxxx 编译成功 13:52:46 xxxxxxxxxxxxxx\n行：23，列：19，\n空格：4\n元语言\n属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n0 / 128\n\n\nID:\n1441151880758559679\n\n\nGUID:\n478c5219-9a87-4038-94cb-574514ae6d82\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\nKingFusion4.5_V1/产品仓库/KF4.5产品/KF4.5数字孪生模型/管控单元模型/盛云_孙宇飞_后台_CRUDDemo_0620\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:\n无法在只读编辑器中编辑",
+    "lines": [
+      "row[\"areaName\"] = \"A1\";",
+      "row[\"statusText\"] = \"RUN\";",
+      "row[\"flowValue\"] = \"12.3\";",
+      "row[\"pressureValue\"] = \"0.45\";",
+      "row[\"filter\"] = filter;",
+      "",
+      "statisticsList.push(row);",
+      "returnData[\"statisticsList\"] = statisticsList;",
+      "",
+      "return returnData;"
+    ],
+    "inputs": [
+      "",
+      "QueryRecords",
+      "stringMap<var> strmapPara",
+      "stringMap<var>",
+      "DemoCrudBackend_CUSTOMFUNC",
+      "DemoCrudBackend_CUSTOMFUNC",
+      "",
+      "",
+      "",
+      "customfunc-runtime-call-submit-20260622"
+    ],
+    "unsaved": [
+      {
+        "display": "none"
+      },
+      {
+        "display": "none"
+      },
+      {
+        "display": "none"
+      },
+      {
+        "display": "none"
+      },
+      {
+        "display": "block"
+      },
+      {
+        "display": "none"
+      },
+      {
+        "display": "none"
+      }
+    ]
+  },
+  "rects": {
+    "save": {
+      "x": 513,
+      "y": 84.46875,
+      "w": 20,
+      "h": 55
+    },
+    "compile": {
+      "x": 697,
+      "y": 84.46875,
+      "w": 20,
+      "h": 55
+    }
+  },
+  "final": {
+    "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\nQueryRecords\n\nInsertRecord\n\nUpdateRecord\n\n当前模型: DemoCrudBackend_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nonDestroy\nonException\nQueryRecords\nInsertRecord\nUpdateRecord\n名称:\n输入参数:\n返回值类型:\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\nrow[\"areaName\"] = \"A1\";\nrow[\"statusText\"] = \"RUN\";\nrow[\"flowValue\"] = \"12.3\";\nrow[\"pressureValue\"] = \"0.45\";\nrow[\"filter\"] = filter;\nstatisticsList.push(row);\nreturnData[\"statisticsList\"] = statisticsList;\nreturn returnData;\n编译信息\nxxxxxxxxxxxxxx 编译成功 13:54:46 xxxxxxxxxxxxxx\n行：23，列：19，\n空格：4\n元语言\n属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n0 / 128\n\n\nID:\n1441151880758559679\n\n\nGUID:\n478c5219-9a87-4038-94cb-574514ae6d82\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\nKingFusion4.5_V1/产品仓库/KF4.5产品/KF4.5数字孪生模型/管控单元模型/盛云_孙宇飞_后台_CRUDDemo_0620\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:\n编译模型\n无法在只读编辑器中编辑\n\n修改成功",
+    "lines": [
+      "row[\"areaName\"] = \"A1\";",
+      "row[\"statusText\"] = \"RUN\";",
+      "row[\"flowValue\"] = \"12.3\";",
+      "row[\"pressureValue\"] = \"0.45\";",
+      "row[\"filter\"] = filter;",
+      "",
+      "statisticsList.push(row);",
+      "returnData[\"statisticsList\"] = statisticsList;",
+      "",
+      "return returnData;"
+    ],
+    "inputs": [
+      "",
+      "QueryRecords",
+      "stringMap<var> strmapPara",
+      "stringMap<var>",
+      "DemoCrudBackend_CUSTOMFUNC",
+      "DemoCrudBackend_CUSTOMFUNC",
+      "",
+      "",
+      "",
+      "customfunc-runtime-call-submit-20260622"
+    ],
+    "messages": [
+      "修改成功"
+    ],
+    "unsaved": [
+      {
+        "display": "none"
+      },
+      {
+        "display": "none"
+      },
+      {
+        "display": "none"
+      },
+      {
+        "display": "none"
+      },
+      {
+        "display": "none"
+      },
+      {
+        "display": "none"
+      },
+      {
+        "display": "none"
+      }
+    ]
+  },
+  "code": "Trace(2, \"QueryRecords.enter\", strmapPara);\n\nint32 SUCCESS_CODE = 0;\nstring filter = strmapPara.filter;\n\nstringMap<var> returnData;\nstringMap<var> row;\nstringMap<var>[] statisticsList;\n\nreturnData[\"errorcode\"] = SUCCESS_CODE;\nreturnData[\"errormsg\"] = \"ok\";\n\nrow[\"stationName\"] = \"S1\";\nrow[\"areaName\"] = \"A1\";\nrow[\"statusText\"] = \"RUN\";\nrow[\"flowValue\"] = \"12.3\";\nrow[\"pressureValue\"] = \"0.45\";\nrow[\"filter\"] = filter;\n\nstatisticsList.push(row);\nreturnData[\"statisticsList\"] = statisticsList;\n\nreturn returnData;"
+}

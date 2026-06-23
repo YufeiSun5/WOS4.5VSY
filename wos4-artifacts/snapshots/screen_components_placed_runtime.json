@@ -1,0 +1,109 @@
+{
+  "ok": true,
+  "path": "top.0.0.0",
+  "beforeKeys": [
+    "PageView",
+    "RCol11",
+    "RCol12",
+    "RCol13",
+    "RCol14",
+    "RCol9",
+    "RCol2",
+    "RCol8",
+    "RCol3",
+    "RRow1",
+    "RCol6",
+    "RRow2",
+    "RContainer1",
+    "图层1",
+    "currentSelectItem",
+    "RCol15",
+    "RCol16"
+  ],
+  "targets": {
+    "RCol12": true,
+    "RCol14": true,
+    "RCol6": true,
+    "RCol15": true,
+    "RCol16": true
+  },
+  "components": {
+    "demo_filter_input": {
+      "prototypeName": "ElementInput",
+      "uiName": "demo_filter_input",
+      "key": "RCol12"
+    },
+    "demo_query_button": {
+      "prototypeName": "ElementButton",
+      "uiName": "demo_query_button",
+      "key": "RCol14"
+    },
+    "demo_area_tree": {
+      "prototypeName": "ElementTree",
+      "uiName": "demo_area_tree",
+      "key": "RCol6"
+    },
+    "demo_table": {
+      "prototypeName": "ElementTable",
+      "uiName": "demo_table",
+      "key": "RCol15"
+    },
+    "demo_chart": {
+      "prototypeName": "ElementChart",
+      "uiName": "demo_chart",
+      "key": "RCol16"
+    }
+  },
+  "errors": [],
+  "after": {
+    "RCol12": {
+      "name": "demo_filter_input",
+      "proto": "ElementInput",
+      "w": 0
+    },
+    "RCol14": {
+      "name": "demo_query_button",
+      "proto": "ElementButton",
+      "w": 0
+    },
+    "RCol6": {
+      "name": "demo_area_tree",
+      "proto": "ElementTree",
+      "w": 0
+    },
+    "RCol15": {
+      "name": "demo_table",
+      "proto": "ElementTable",
+      "w": 0
+    },
+    "RCol16": {
+      "name": "demo_chart",
+      "proto": "ElementChart",
+      "w": 0
+    }
+  },
+  "vars": {
+    "filterKey": "A",
+    "clickCount": 0,
+    "dataVarCount": 2
+  },
+  "afterKeys": [
+    "PageView",
+    "RCol11",
+    "RCol12",
+    "RCol13",
+    "RCol14",
+    "RCol9",
+    "RCol2",
+    "RCol8",
+    "RCol3",
+    "RRow1",
+    "RCol6",
+    "RRow2",
+    "RContainer1",
+    "图层1",
+    "currentSelectItem",
+    "RCol15",
+    "RCol16"
+  ]
+}

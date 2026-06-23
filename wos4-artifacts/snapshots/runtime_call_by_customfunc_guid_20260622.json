@@ -1,0 +1,74 @@
+[
+  {
+    "test": {
+      "identifierType": 5,
+      "guid": "478c5219-9a87-4038-94cb-574514ae6d82",
+      "desc": "customfunc-model-guid"
+    },
+    "started": 1782095082180,
+    "ms": 1205,
+    "res": {
+      "consumeTime": 1201,
+      "returnData": null,
+      "errorcodes": [
+        -220006
+      ],
+      "ret": -220006,
+      "traceID": "0"
+    }
+  },
+  {
+    "test": {
+      "identifierType": 1,
+      "id": "1441151880758559679",
+      "desc": "customfunc-model-id"
+    },
+    "started": 1782095083385,
+    "ms": 1212,
+    "res": {
+      "consumeTime": 1201,
+      "returnData": null,
+      "errorcodes": [
+        -220006
+      ],
+      "ret": -220006,
+      "traceID": "0"
+    }
+  },
+  {
+    "test": {
+      "identifierType": 3,
+      "name": "DemoCrudBackend_CUSTOMFUNC@NadirBack",
+      "desc": "fullname-custom"
+    },
+    "started": 1782095084597,
+    "ms": 1212,
+    "res": {
+      "consumeTime": 1201,
+      "returnData": null,
+      "errorcodes": [
+        -220006
+      ],
+      "ret": -220006,
+      "traceID": "0"
+    }
+  },
+  {
+    "test": {
+      "identifierType": 2,
+      "name": "DemoCrudBackend_CUSTOMFUNC",
+      "desc": "name-no-instance"
+    },
+    "started": 1782095085809,
+    "ms": 1214,
+    "res": {
+      "consumeTime": 1201,
+      "returnData": null,
+      "errorcodes": [
+        -220006
+      ],
+      "ret": -220006,
+      "traceID": "0"
+    }
+  }
+]

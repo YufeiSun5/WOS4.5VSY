@@ -1,0 +1,84 @@
+{
+  "start": {
+    "started": true,
+    "t": 1782104702365,
+    "spaceTimeId": {
+      "spaceTime": "NadirL2",
+      "stType": 5,
+      "devName": "NadirFront",
+      "name": "NadirL2",
+      "guid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+      "id": "1152921504606851278"
+    }
+  },
+  "res": {
+    "done": true,
+    "tries": [
+      {
+        "label": "name-full-no-params",
+        "setRunInfo": {
+          "ret": -180985,
+          "msg": "修改失败!"
+        },
+        "res": {
+          "consumeTime": 7001,
+          "returnData": null,
+          "errorcodes": [
+            -220006
+          ],
+          "ret": -220006,
+          "traceID": "0"
+        }
+      },
+      {
+        "label": "name-short-no-params",
+        "setRunInfo": {
+          "ret": -180985,
+          "msg": "修改失败!"
+        },
+        "res": {
+          "consumeTime": 7001,
+          "returnData": null,
+          "errorcodes": [
+            -220006
+          ],
+          "ret": -220006,
+          "traceID": "0"
+        }
+      },
+      {
+        "label": "name-full-no-params-field-omitted",
+        "setRunInfo": {
+          "ret": -180985,
+          "msg": "修改失败!"
+        },
+        "res": {
+          "ret": -220073,
+          "output": {
+            "errorcodes": [
+              -220073
+            ]
+          },
+          "consumeTime": 1
+        }
+      },
+      {
+        "label": "name-full-string-param",
+        "setRunInfo": {
+          "ret": -180985,
+          "msg": "修改失败!"
+        },
+        "res": {
+          "consumeTime": 7001,
+          "returnData": null,
+          "errorcodes": [
+            -220006
+          ],
+          "ret": -220006,
+          "traceID": "0"
+        }
+      }
+    ],
+    "t": 1782104723655
+  }
+}

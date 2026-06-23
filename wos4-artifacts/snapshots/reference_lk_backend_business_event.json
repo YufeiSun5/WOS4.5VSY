@@ -1,0 +1,3040 @@
+{
+  "url": "http://221.239.19.118:13001/#/main",
+  "fullText": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n前端_班次管理\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n后台_班次管理\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n前端_框架\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 3 条\n<1>前往页\n\nKingFusion4.5_工程浏览器\n\n后台_班次管理\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n命令语言\n\t\n\n\n第三方计算管理\n\t\n\n\n图形模型\n\t\n\n\n2D精灵图\n\t\n\n\n3D精灵图\n\t\n\n\n页面精灵图\n\t\n\n\n报表精灵图\n\t\n\n\n子模型\n\t\n\n\n形参配置\n\t\n\n业务事\n\nRoot\n班次信息\n\n基础信息\n\n名称\n\n描述\n\n形态\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+  "tables": [
+    {
+      "x": 545,
+      "y": 58,
+      "w": 1355,
+      "h": 809,
+      "text": "序号\t名称\t描述\t操作\n\t\n1\n\t\n前端_班次管理\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n后台_班次管理\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n前端_框架\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除"
+    },
+    {
+      "x": 545,
+      "y": 58,
+      "w": 1355,
+      "h": 44,
+      "text": "序号\t名称\t描述\t操作"
+    },
+    {
+      "x": 545,
+      "y": 102,
+      "w": 1355,
+      "h": 153,
+      "text": "1\n\t\n前端_班次管理\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n后台_班次管理\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n前端_框架\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除"
+    },
+    {
+      "x": 584,
+      "y": 317,
+      "w": 1296,
+      "h": 530,
+      "text": "名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除"
+    },
+    {
+      "x": 584,
+      "y": 317,
+      "w": 1296,
+      "h": 44,
+      "text": "名称\t类型\t值\t描述\t操作"
+    },
+    {
+      "x": 584,
+      "y": 361,
+      "w": 1296,
+      "h": 185,
+      "text": "删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除"
+    }
+  ],
+  "visible": [
+    {
+      "tag": "DIV",
+      "txt": "根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组",
+      "x": 260,
+      "y": 102,
+      "w": 264,
+      "h": 797,
+      "cls": "response_row"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组",
+      "x": 260,
+      "y": 102,
+      "w": 264,
+      "h": 797,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组",
+      "x": 260,
+      "y": 102,
+      "w": 264,
+      "h": 797,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组",
+      "x": 260,
+      "y": 102,
+      "w": 264,
+      "h": 797,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "txt": "根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组",
+      "x": 260,
+      "y": 102,
+      "w": 264,
+      "h": 797,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "txt": "根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组",
+      "x": 260,
+      "y": 102,
+      "w": 264,
+      "h": 797,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "txt": "根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组",
+      "x": 260,
+      "y": 102,
+      "w": 264,
+      "h": 797,
+      "cls": "custom_tree component_object 工厂模型分组树"
+    },
+    {
+      "tag": "DIV",
+      "txt": "根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组",
+      "x": 260,
+      "y": 102,
+      "w": 264,
+      "h": 208,
+      "cls": "el-tree tree el-tree--highlight-current"
+    },
+    {
+      "tag": "DIV",
+      "txt": "根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组",
+      "x": 260,
+      "y": 102,
+      "w": 264,
+      "h": 208,
+      "cls": "el-tree-node is-expanded is-focusable"
+    },
+    {
+      "tag": "DIV",
+      "txt": "根组",
+      "x": 260,
+      "y": 102,
+      "w": 264,
+      "h": 26,
+      "cls": "el-tree-node__content"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "根组",
+      "x": 280,
+      "y": 102,
+      "w": 212,
+      "h": 26,
+      "cls": "editNode root-node"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "根组",
+      "x": 293.109375,
+      "y": 104,
+      "w": 198.890625,
+      "h": 22,
+      "cls": "treeNodeLabel"
+    },
+    {
+      "tag": "DIV",
+      "txt": "集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组",
+      "x": 260,
+      "y": 128,
+      "w": 264,
+      "h": 182,
+      "cls": "el-tree-node__children"
+    },
+    {
+      "tag": "DIV",
+      "txt": "集成测试",
+      "x": 260,
+      "y": 128,
+      "w": 264,
+      "h": 26,
+      "cls": "el-tree-node is-expanded is-focusable"
+    },
+    {
+      "tag": "DIV",
+      "txt": "集成测试",
+      "x": 260,
+      "y": 128,
+      "w": 264,
+      "h": 26,
+      "cls": "el-tree-node__content"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "集成测试",
+      "x": 296,
+      "y": 128,
+      "w": 196,
+      "h": 26,
+      "cls": "editNode"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "集成测试",
+      "x": 309.046875,
+      "y": 130,
+      "w": 182.953125,
+      "h": 22,
+      "cls": "treeNodeLabel"
+    },
+    {
+      "tag": "DIV",
+      "txt": "测试",
+      "x": 260,
+      "y": 154,
+      "w": 264,
+      "h": 26,
+      "cls": "el-tree-node is-expanded is-focusable"
+    },
+    {
+      "tag": "DIV",
+      "txt": "测试",
+      "x": 260,
+      "y": 154,
+      "w": 264,
+      "h": 26,
+      "cls": "el-tree-node__content"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "测试",
+      "x": 296,
+      "y": 154,
+      "w": 196,
+      "h": 26,
+      "cls": "editNode"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "测试",
+      "x": 309.046875,
+      "y": 156,
+      "w": 182.953125,
+      "h": 22,
+      "cls": "treeNodeLabel"
+    },
+    {
+      "tag": "DIV",
+      "txt": "引滦工程",
+      "x": 260,
+      "y": 180,
+      "w": 264,
+      "h": 26,
+      "cls": "el-tree-node is-expanded is-focusable"
+    },
+    {
+      "tag": "DIV",
+      "txt": "引滦工程",
+      "x": 260,
+      "y": 180,
+      "w": 264,
+      "h": 26,
+      "cls": "el-tree-node__content"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "引滦工程",
+      "x": 296,
+      "y": 180,
+      "w": 196,
+      "h": 26,
+      "cls": "editNode"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "引滦工程",
+      "x": 309.046875,
+      "y": 182,
+      "w": 182.953125,
+      "h": 22,
+      "cls": "treeNodeLabel"
+    },
+    {
+      "tag": "DIV",
+      "txt": "mwq测试",
+      "x": 260,
+      "y": 206,
+      "w": 264,
+      "h": 26,
+      "cls": "el-tree-node is-expanded is-focusable"
+    },
+    {
+      "tag": "DIV",
+      "txt": "mwq测试",
+      "x": 260,
+      "y": 206,
+      "w": 264,
+      "h": 26,
+      "cls": "el-tree-node__content"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "mwq测试",
+      "x": 296,
+      "y": 206,
+      "w": 196,
+      "h": 26,
+      "cls": "editNode"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "mwq测试",
+      "x": 309.046875,
+      "y": 208,
+      "w": 182.953125,
+      "h": 22,
+      "cls": "treeNodeLabel"
+    },
+    {
+      "tag": "DIV",
+      "txt": "张测试组",
+      "x": 260,
+      "y": 232,
+      "w": 264,
+      "h": 26,
+      "cls": "el-tree-node is-expanded is-focusable"
+    },
+    {
+      "tag": "DIV",
+      "txt": "张测试组",
+      "x": 260,
+      "y": 232,
+      "w": 264,
+      "h": 26,
+      "cls": "el-tree-node__content"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "张测试组",
+      "x": 296,
+      "y": 232,
+      "w": 196,
+      "h": 26,
+      "cls": "editNode"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "张测试组",
+      "x": 309.046875,
+      "y": 234,
+      "w": 182.953125,
+      "h": 22,
+      "cls": "treeNodeLabel"
+    },
+    {
+      "tag": "DIV",
+      "txt": "lk测试",
+      "x": 260,
+      "y": 258,
+      "w": 264,
+      "h": 26,
+      "cls": "el-tree-node is-expanded is-current is-focusable"
+    },
+    {
+      "tag": "DIV",
+      "txt": "lk测试",
+      "x": 260,
+      "y": 258,
+      "w": 264,
+      "h": 26,
+      "cls": "el-tree-node__content"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "lk测试",
+      "x": 296,
+      "y": 258,
+      "w": 196,
+      "h": 26,
+      "cls": "editNode"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "lk测试",
+      "x": 309.046875,
+      "y": 260,
+      "w": 182.953125,
+      "h": 22,
+      "cls": "treeNodeLabel"
+    },
+    {
+      "tag": "DIV",
+      "txt": "盛云_孙宇飞_根组",
+      "x": 260,
+      "y": 284,
+      "w": 264,
+      "h": 26,
+      "cls": "el-tree-node is-expanded is-focusable"
+    },
+    {
+      "tag": "DIV",
+      "txt": "盛云_孙宇飞_根组",
+      "x": 260,
+      "y": 284,
+      "w": 264,
+      "h": 26,
+      "cls": "el-tree-node__content"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "盛云_孙宇飞_根组",
+      "x": 296,
+      "y": 284,
+      "w": 196,
+      "h": 26,
+      "cls": "editNode"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "盛云_孙宇飞_根组",
+      "x": 309.046875,
+      "y": 286,
+      "w": 182.953125,
+      "h": 22,
+      "cls": "treeNodeLabel"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "序号",
+      "x": 595,
+      "y": 70,
+      "w": 24,
+      "h": 17,
+      "cls": ""
+    },
+    {
+      "tag": "SPAN",
+      "txt": "名称",
+      "x": 655,
+      "y": 70,
+      "w": 24,
+      "h": 17,
+      "cls": ""
+    },
+    {
+      "tag": "SPAN",
+      "txt": "描述",
+      "x": 907,
+      "y": 70,
+      "w": 24,
+      "h": 17,
+      "cls": ""
+    },
+    {
+      "tag": "SPAN",
+      "txt": "操作",
+      "x": 1325,
+      "y": 70,
+      "w": 24,
+      "h": 17,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "1\n\t\n前端_班次管理\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n后台_班次管理\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n前端_框架\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "x": 545,
+      "y": 102,
+      "w": 1355,
+      "h": 765,
+      "cls": "el-table__body-wrapper is-scrolling-none"
+    },
+    {
+      "tag": "TD",
+      "txt": "1",
+      "x": 585,
+      "y": 102,
+      "w": 60,
+      "h": 51,
+      "cls": "el-table_1_column_2 is-left   el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "1",
+      "x": 585,
+      "y": 115.5,
+      "w": 60,
+      "h": 23,
+      "cls": "cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "1",
+      "x": 595,
+      "y": 115.5,
+      "w": 7.796875,
+      "h": 23,
+      "cls": ""
+    },
+    {
+      "tag": "TD",
+      "txt": "前端_班次管理",
+      "x": 645,
+      "y": 102,
+      "w": 252,
+      "h": 51,
+      "cls": "el-table_1_column_3 is-left   el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "前端_班次管理",
+      "x": 645,
+      "y": 117,
+      "w": 250,
+      "h": 20,
+      "cls": "cell el-tooltip"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "前端_班次管理",
+      "x": 655,
+      "y": 117,
+      "w": 91.8125,
+      "h": 20,
+      "cls": ""
+    },
+    {
+      "tag": "TD",
+      "txt": "编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "x": 1315,
+      "y": 102,
+      "w": 585,
+      "h": 51,
+      "cls": "el-table_1_column_5 is-left  cellName el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "x": 1315,
+      "y": 102,
+      "w": 585,
+      "h": 50,
+      "cls": "cell"
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "编辑",
+      "x": 1325,
+      "y": 102,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "编辑",
+      "x": 1325,
+      "y": 119,
+      "w": 28,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "属性",
+      "x": 1365,
+      "y": 102,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "属性",
+      "x": 1365,
+      "y": 119,
+      "w": 28,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "提交版本",
+      "x": 1405,
+      "y": 102,
+      "w": 56,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "提交版本",
+      "x": 1405,
+      "y": 119,
+      "w": 56,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "版本管理",
+      "x": 1473,
+      "y": 102,
+      "w": 56,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "版本管理",
+      "x": 1473,
+      "y": 119,
+      "w": 56,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "更新",
+      "x": 1541,
+      "y": 102,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "更新",
+      "x": 1541,
+      "y": 119,
+      "w": 28,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "删除",
+      "x": 1581,
+      "y": 102,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "删除",
+      "x": 1581,
+      "y": 119,
+      "w": 28,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "TD",
+      "txt": "2",
+      "x": 585,
+      "y": 153,
+      "w": 60,
+      "h": 51,
+      "cls": "el-table_1_column_2 is-left   el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "2",
+      "x": 585,
+      "y": 166.5,
+      "w": 60,
+      "h": 23,
+      "cls": "cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "2",
+      "x": 595,
+      "y": 166.5,
+      "w": 7.796875,
+      "h": 23,
+      "cls": ""
+    },
+    {
+      "tag": "TD",
+      "txt": "后台_班次管理",
+      "x": 645,
+      "y": 153,
+      "w": 252,
+      "h": 51,
+      "cls": "el-table_1_column_3 is-left   el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "后台_班次管理",
+      "x": 645,
+      "y": 168,
+      "w": 250,
+      "h": 20,
+      "cls": "cell el-tooltip"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "后台_班次管理",
+      "x": 655,
+      "y": 168,
+      "w": 91.8125,
+      "h": 20,
+      "cls": ""
+    },
+    {
+      "tag": "TD",
+      "txt": "编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "x": 1315,
+      "y": 153,
+      "w": 585,
+      "h": 51,
+      "cls": "el-table_1_column_5 is-left  cellName el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "x": 1315,
+      "y": 153,
+      "w": 585,
+      "h": 50,
+      "cls": "cell"
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "编辑",
+      "x": 1325,
+      "y": 153,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "编辑",
+      "x": 1325,
+      "y": 170,
+      "w": 28,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "属性",
+      "x": 1365,
+      "y": 153,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "属性",
+      "x": 1365,
+      "y": 170,
+      "w": 28,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "提交版本",
+      "x": 1405,
+      "y": 153,
+      "w": 56,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "提交版本",
+      "x": 1405,
+      "y": 170,
+      "w": 56,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "版本管理",
+      "x": 1473,
+      "y": 153,
+      "w": 56,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "版本管理",
+      "x": 1473,
+      "y": 170,
+      "w": 56,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "更新",
+      "x": 1541,
+      "y": 153,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "更新",
+      "x": 1541,
+      "y": 170,
+      "w": 28,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "删除",
+      "x": 1581,
+      "y": 153,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "删除",
+      "x": 1581,
+      "y": 170,
+      "w": 28,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "TD",
+      "txt": "3",
+      "x": 585,
+      "y": 204,
+      "w": 60,
+      "h": 51,
+      "cls": "el-table_1_column_2 is-left   el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "3",
+      "x": 585,
+      "y": 217.5,
+      "w": 60,
+      "h": 23,
+      "cls": "cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "3",
+      "x": 595,
+      "y": 217.5,
+      "w": 7.796875,
+      "h": 23,
+      "cls": ""
+    },
+    {
+      "tag": "TD",
+      "txt": "前端_框架",
+      "x": 645,
+      "y": 204,
+      "w": 252,
+      "h": 51,
+      "cls": "el-table_1_column_3 is-left   el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "前端_框架",
+      "x": 645,
+      "y": 219,
+      "w": 250,
+      "h": 20,
+      "cls": "cell el-tooltip"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "前端_框架",
+      "x": 655,
+      "y": 219,
+      "w": 63.8125,
+      "h": 20,
+      "cls": ""
+    },
+    {
+      "tag": "TD",
+      "txt": "编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "x": 1315,
+      "y": 204,
+      "w": 585,
+      "h": 51,
+      "cls": "el-table_1_column_5 is-left  cellName el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "x": 1315,
+      "y": 204,
+      "w": 585,
+      "h": 50,
+      "cls": "cell"
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "编辑",
+      "x": 1325,
+      "y": 204,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "编辑",
+      "x": 1325,
+      "y": 221,
+      "w": 28,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "属性",
+      "x": 1365,
+      "y": 204,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "属性",
+      "x": 1365,
+      "y": 221,
+      "w": 28,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "提交版本",
+      "x": 1405,
+      "y": 204,
+      "w": 56,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "提交版本",
+      "x": 1405,
+      "y": 221,
+      "w": 56,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "版本管理",
+      "x": 1473,
+      "y": 204,
+      "w": 56,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "版本管理",
+      "x": 1473,
+      "y": 221,
+      "w": 56,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "更新",
+      "x": 1541,
+      "y": 204,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "更新",
+      "x": 1541,
+      "y": 221,
+      "w": 28,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "删除",
+      "x": 1581,
+      "y": 204,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "删除",
+      "x": 1581,
+      "y": 221,
+      "w": 28,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "共 3 条\n<1>前往页",
+      "x": 545,
+      "y": 867,
+      "w": 1355,
+      "h": 32,
+      "cls": "response_row"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "共 3 条\n<1>前往页",
+      "x": 545,
+      "y": 867,
+      "w": 1355,
+      "h": 32,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "共 3 条\n<1>前往页",
+      "x": 545,
+      "y": 867,
+      "w": 1355,
+      "h": 32,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "共 3 条\n<1>前往页",
+      "x": 545,
+      "y": 867,
+      "w": 1355,
+      "h": 32,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "txt": "共 3 条\n<1>前往页",
+      "x": 545,
+      "y": 867,
+      "w": 1355,
+      "h": 32,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "txt": "共 3 条\n<1>前往页",
+      "x": 545,
+      "y": 867,
+      "w": 1355,
+      "h": 32,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "txt": "共 3 条\n<1>前往页",
+      "x": 545,
+      "y": 867,
+      "w": 1355,
+      "h": 32,
+      "cls": "component_object 工厂模型列表分页"
+    },
+    {
+      "tag": "DIV",
+      "txt": "共 3 条\n<1>前往页",
+      "x": 1455.5625,
+      "y": 867,
+      "w": 444.4375,
+      "h": 32,
+      "cls": "el-pagination"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "共 3 条",
+      "x": 1460.5625,
+      "y": 869,
+      "w": 41.9375,
+      "h": 28,
+      "cls": "el-pagination__total"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "50条/页100条/页150条/页200条/页250条/页300条/页",
+      "x": 1512.5,
+      "y": 869,
+      "w": 110,
+      "h": 28,
+      "cls": "el-pagination__sizes"
+    },
+    {
+      "tag": "DIV",
+      "txt": "50条/页100条/页150条/页200条/页250条/页300条/页",
+      "x": 1512.5,
+      "y": 869,
+      "w": 110,
+      "h": 29,
+      "cls": "el-select el-select--mini"
+    },
+    {
+      "tag": "INPUT",
+      "txt": "请选择",
+      "x": 1517.5,
+      "y": 869,
+      "w": 100,
+      "h": 28,
+      "cls": "el-input__inner"
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "<",
+      "x": 1632.5,
+      "y": 869,
+      "w": 53.5,
+      "h": 28,
+      "cls": "btn-prev"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "<",
+      "x": 1638.5,
+      "y": 869,
+      "w": 35.5,
+      "h": 28,
+      "cls": ""
+    },
+    {
+      "tag": "BUTTON",
+      "txt": ">",
+      "x": 1721.5,
+      "y": 869,
+      "w": 53.5,
+      "h": 28,
+      "cls": "btn-next"
+    },
+    {
+      "tag": "SPAN",
+      "txt": ">",
+      "x": 1733.5,
+      "y": 869,
+      "w": 35.5,
+      "h": 28,
+      "cls": ""
+    },
+    {
+      "tag": "SPAN",
+      "txt": "前往页",
+      "x": 1799,
+      "y": 869,
+      "w": 96,
+      "h": 28,
+      "cls": "el-pagination__jump"
+    },
+    {
+      "tag": "INPUT",
+      "txt": "1",
+      "x": 1831,
+      "y": 869,
+      "w": 46,
+      "h": 28,
+      "cls": "el-input__inner"
+    },
+    {
+      "tag": "DIV",
+      "txt": "业务事\n\nRoot\n班次信息\n\n基础信息\n\n名称\n\n描述\n\n形态\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 290,
+      "y": 80,
+      "w": 1630,
+      "h": 819,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "业务事\n\nRoot\n班次信息\n\n基础信息\n\n名称\n\n描述\n\n形态\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 290,
+      "y": 80,
+      "w": 1630,
+      "h": 819,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "txt": "业务事\n\nRoot\n班次信息\n\n基础信息\n\n名称\n\n描述\n\n形态\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 290,
+      "y": 80,
+      "w": 1630,
+      "h": 819,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "txt": "业务事\n\nRoot\n班次信息\n\n基础信息\n\n名称\n\n描述\n\n形态\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 290,
+      "y": 80,
+      "w": 1630,
+      "h": 819,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "txt": "业务事\n\nRoot\n班次信息\n\n基础信息\n\n名称\n\n描述\n\n形态\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 290,
+      "y": 80,
+      "w": 1630,
+      "h": 819,
+      "cls": "layout_container component_object containerStyle"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "业务事\n\nRoot\n班次信息\n\n基础信息\n\n名称\n\n描述\n\n形态\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 290,
+      "y": 80,
+      "w": 1630,
+      "h": 819,
+      "cls": "containerrow"
+    },
+    {
+      "tag": "DIV",
+      "txt": "业务事\n\nRoot\n班次信息\n\n基础信息\n\n名称\n\n描述\n\n形态\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": "response_row"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "业务事\n\nRoot\n班次信息\n\n基础信息\n\n名称\n\n描述\n\n形态\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "业务事\n\nRoot\n班次信息\n\n基础信息\n\n名称\n\n描述\n\n形态\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "业务事\n\nRoot\n班次信息\n\n基础信息\n\n名称\n\n描述\n\n形态\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "txt": "业务事\n\nRoot\n班次信息\n\n基础信息\n\n名称\n\n描述\n\n形态\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": "ui_factory layer_class"
+    },
+    {
+      "tag": "DIV",
+      "txt": "业务事\n\nRoot\n班次信息\n\n基础信息\n\n名称\n\n描述\n\n形态\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": "page_view_container client_page_view_container set_page_app component_object 业务事建模_框架页面"
+    },
+    {
+      "tag": "DIV",
+      "txt": "业务事\n\nRoot\n班次信息\n\n基础信息\n\n名称\n\n描述\n\n形态\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": "page_view"
+    },
+    {
+      "tag": "DIV",
+      "txt": "业务事\n\nRoot\n班次信息\n\n基础信息\n\n名称\n\n描述\n\n形态\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": "layer_view"
+    },
+    {
+      "tag": "DIV",
+      "txt": "业务事\n\nRoot\n班次信息\n\n基础信息\n\n名称\n\n描述\n\n形态\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": "layout_container containerStyle"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "业务事\n\nRoot\n班次信息\n\n基础信息\n\n名称\n\n描述\n\n形态\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": "containerrow"
+    },
+    {
+      "tag": "DIV",
+      "txt": "业务事\n\nRoot\n班次信息\n\n基础信息\n\n名称\n\n描述\n\n形态\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": "response_row"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "业务事\n\nRoot\n班次信息\n\n基础信息\n\n名称\n\n描述\n\n形态\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "业务事\n\nRoot\n班次信息",
+      "x": 310,
+      "y": 100,
+      "w": 254,
+      "h": 779,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "业务事\n\nRoot\n班次信息",
+      "x": 310,
+      "y": 100,
+      "w": 254,
+      "h": 779,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "txt": "业务事\n\nRoot\n班次信息",
+      "x": 310,
+      "y": 100,
+      "w": 254,
+      "h": 779,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "txt": "业务事\n\nRoot\n班次信息",
+      "x": 310,
+      "y": 100,
+      "w": 254,
+      "h": 779,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "txt": "业务事\n\nRoot\n班次信息",
+      "x": 310,
+      "y": 100,
+      "w": 254,
+      "h": 779,
+      "cls": "layout_container component_object containerStyle"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "业务事\n\nRoot\n班次信息",
+      "x": 310,
+      "y": 100,
+      "w": 253,
+      "h": 779,
+      "cls": "containerrow"
+    },
+    {
+      "tag": "DIV",
+      "txt": "业务事",
+      "x": 330,
+      "y": 115,
+      "w": 213,
+      "h": 40,
+      "cls": "response_row"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "业务事",
+      "x": 330,
+      "y": 115,
+      "w": 213,
+      "h": 40,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "业务事",
+      "x": 330,
+      "y": 115,
+      "w": 150,
+      "h": 40,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "业务事",
+      "x": 330,
+      "y": 115,
+      "w": 150,
+      "h": 40,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "txt": "业务事",
+      "x": 330,
+      "y": 115,
+      "w": 150,
+      "h": 40,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "txt": "业务事",
+      "x": 330,
+      "y": 115,
+      "w": 150,
+      "h": 40,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "txt": "业务事",
+      "x": 330,
+      "y": 115,
+      "w": 150,
+      "h": 40,
+      "cls": "el-text-component component_object ElementText3"
+    },
+    {
+      "tag": "INPUT",
+      "txt": "搜索时序事",
+      "x": 330,
+      "y": 160,
+      "w": 179,
+      "h": 34,
+      "cls": "el-input__inner"
+    },
+    {
+      "tag": "DIV",
+      "txt": "Root\n班次信息",
+      "x": 310,
+      "y": 199,
+      "w": 253,
+      "h": 680,
+      "cls": "response_row"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "Root\n班次信息",
+      "x": 310,
+      "y": 199,
+      "w": 253,
+      "h": 680,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "Root\n班次信息",
+      "x": 310,
+      "y": 199,
+      "w": 253,
+      "h": 680,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "Root\n班次信息",
+      "x": 310,
+      "y": 199,
+      "w": 253,
+      "h": 680,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "txt": "Root\n班次信息",
+      "x": 310,
+      "y": 199,
+      "w": 253,
+      "h": 680,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "txt": "Root\n班次信息",
+      "x": 310,
+      "y": 199,
+      "w": 253,
+      "h": 680,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "txt": "Root\n班次信息",
+      "x": 310,
+      "y": 199,
+      "w": 253,
+      "h": 680,
+      "cls": "custom_tree component_object ElementTree2"
+    },
+    {
+      "tag": "DIV",
+      "txt": "Root\n班次信息",
+      "x": 310,
+      "y": 199,
+      "w": 253,
+      "h": 52,
+      "cls": "el-tree tree"
+    },
+    {
+      "tag": "DIV",
+      "txt": "Root\n班次信息",
+      "x": 310,
+      "y": 199,
+      "w": 253,
+      "h": 52,
+      "cls": "el-tree-node is-expanded is-focusable"
+    },
+    {
+      "tag": "DIV",
+      "txt": "Root",
+      "x": 310,
+      "y": 199,
+      "w": 253,
+      "h": 26,
+      "cls": "el-tree-node__content"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "Root",
+      "x": 334,
+      "y": 199,
+      "w": 201,
+      "h": 26,
+      "cls": "editNode root-node"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "Root",
+      "x": 348.796875,
+      "y": 199,
+      "w": 186.203125,
+      "h": 26,
+      "cls": "treeNodeLabel"
+    },
+    {
+      "tag": "DIV",
+      "txt": "班次信息",
+      "x": 310,
+      "y": 225,
+      "w": 253,
+      "h": 26,
+      "cls": "el-tree-node__children"
+    },
+    {
+      "tag": "DIV",
+      "txt": "班次信息",
+      "x": 310,
+      "y": 225,
+      "w": 253,
+      "h": 26,
+      "cls": "el-tree-node is-expanded is-current is-focusable"
+    },
+    {
+      "tag": "DIV",
+      "txt": "班次信息",
+      "x": 310,
+      "y": 225,
+      "w": 253,
+      "h": 26,
+      "cls": "el-tree-node__content"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "班次信息",
+      "x": 350,
+      "y": 225,
+      "w": 185,
+      "h": 26,
+      "cls": "editNode"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "班次信息",
+      "x": 350,
+      "y": 225,
+      "w": 185,
+      "h": 26,
+      "cls": "treeNodeLabel"
+    },
+    {
+      "tag": "DIV",
+      "txt": "基础信息\n\n名称\n\n描述\n\n形态\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 564,
+      "y": 100,
+      "w": 1336,
+      "h": 779,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "基础信息\n\n名称\n\n描述\n\n形态\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 564,
+      "y": 100,
+      "w": 1336,
+      "h": 779,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "txt": "基础信息\n\n名称\n\n描述\n\n形态\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 564,
+      "y": 100,
+      "w": 1336,
+      "h": 779,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "txt": "基础信息\n\n名称\n\n描述\n\n形态\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 564,
+      "y": 100,
+      "w": 1336,
+      "h": 779,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "txt": "基础信息\n\n名称\n\n描述\n\n形态\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 564,
+      "y": 100,
+      "w": 1336,
+      "h": 779,
+      "cls": "layout_container component_object containerStyle"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "基础信息\n\n名称\n\n描述\n\n形态\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 564,
+      "y": 100,
+      "w": 1336,
+      "h": 779,
+      "cls": "containerrow"
+    },
+    {
+      "tag": "DIV",
+      "txt": "基础信息",
+      "x": 564,
+      "y": 115,
+      "w": 1336,
+      "h": 40,
+      "cls": "response_row"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "基础信息",
+      "x": 564,
+      "y": 115,
+      "w": 1336,
+      "h": 40,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "基础信息",
+      "x": 584,
+      "y": 115,
+      "w": 1296,
+      "h": 40,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "基础信息",
+      "x": 584,
+      "y": 115,
+      "w": 1296,
+      "h": 40,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "txt": "基础信息",
+      "x": 584,
+      "y": 115,
+      "w": 1296,
+      "h": 40,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "txt": "基础信息",
+      "x": 584,
+      "y": 115,
+      "w": 1296,
+      "h": 40,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "txt": "基础信息",
+      "x": 584,
+      "y": 115,
+      "w": 1296,
+      "h": 40,
+      "cls": "el-text-component component_object ElementText5"
+    },
+    {
+      "tag": "DIV",
+      "txt": "名称\n\n描述\n\n形态",
+      "x": 564,
+      "y": 169,
+      "w": 1336,
+      "h": 38,
+      "cls": "response_row"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "名称\n\n描述\n\n形态",
+      "x": 564,
+      "y": 169,
+      "w": 1336,
+      "h": 38,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "名称",
+      "x": 584,
+      "y": 169,
+      "w": 40,
+      "h": 38,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "名称",
+      "x": 584,
+      "y": 169,
+      "w": 40,
+      "h": 38,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "txt": "名称",
+      "x": 584,
+      "y": 169,
+      "w": 40,
+      "h": 38,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "txt": "名称",
+      "x": 584,
+      "y": 169,
+      "w": 40,
+      "h": 38,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "txt": "名称",
+      "x": 584,
+      "y": 169,
+      "w": 40,
+      "h": 38,
+      "cls": "el-text-component component_object ElementText6"
+    },
+    {
+      "tag": "DIV",
+      "txt": "班次信息",
+      "x": 624,
+      "y": 169,
+      "w": 253,
+      "h": 38,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "班次信息",
+      "x": 624,
+      "y": 169,
+      "w": 253,
+      "h": 38,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "txt": "班次信息",
+      "x": 624,
+      "y": 169,
+      "w": 253,
+      "h": 38,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "txt": "班次信息",
+      "x": 624,
+      "y": 169,
+      "w": 253,
+      "h": 38,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "txt": "班次信息",
+      "x": 624,
+      "y": 169,
+      "w": 253,
+      "h": 38,
+      "cls": "el-input-component component_object ElementInput1"
+    },
+    {
+      "tag": "INPUT",
+      "txt": "班次信息",
+      "x": 624,
+      "y": 169,
+      "w": 253,
+      "h": 38,
+      "cls": "el-input__inner"
+    },
+    {
+      "tag": "DIV",
+      "txt": "描述",
+      "x": 917,
+      "y": 169,
+      "w": 40,
+      "h": 38,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "描述",
+      "x": 917,
+      "y": 169,
+      "w": 40,
+      "h": 38,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "txt": "描述",
+      "x": 917,
+      "y": 169,
+      "w": 40,
+      "h": 38,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "txt": "描述",
+      "x": 917,
+      "y": 169,
+      "w": 40,
+      "h": 38,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "txt": "描述",
+      "x": 917,
+      "y": 169,
+      "w": 40,
+      "h": 38,
+      "cls": "el-text-component component_object ElementText8"
+    },
+    {
+      "tag": "DIV",
+      "txt": "形态",
+      "x": 1530,
+      "y": 169,
+      "w": 40,
+      "h": 38,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "形态",
+      "x": 1530,
+      "y": 169,
+      "w": 40,
+      "h": 38,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "txt": "形态",
+      "x": 1530,
+      "y": 169,
+      "w": 40,
+      "h": 38,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "txt": "形态",
+      "x": 1530,
+      "y": 169,
+      "w": 40,
+      "h": 38,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "txt": "形态",
+      "x": 1530,
+      "y": 169,
+      "w": 40,
+      "h": 38,
+      "cls": "el-text-component component_object ElementText9"
+    },
+    {
+      "tag": "DIV",
+      "txt": "实时历史计划",
+      "x": 1570,
+      "y": 169,
+      "w": 310,
+      "h": 38,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "实时历史计划",
+      "x": 1570,
+      "y": 169,
+      "w": 310,
+      "h": 38,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "txt": "实时历史计划",
+      "x": 1570,
+      "y": 169,
+      "w": 310,
+      "h": 38,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "txt": "实时历史计划",
+      "x": 1570,
+      "y": 169,
+      "w": 310,
+      "h": 38,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "txt": "实时历史计划",
+      "x": 1570,
+      "y": 169,
+      "w": 310,
+      "h": 38,
+      "cls": "select-divcls component_object ElementSelect1"
+    },
+    {
+      "tag": "DIV",
+      "txt": "实时历史计划",
+      "x": 1570,
+      "y": 169,
+      "w": 310,
+      "h": 38,
+      "cls": "el-select el-select--medium is-normal"
+    },
+    {
+      "tag": "INPUT",
+      "txt": "请选择",
+      "x": 1570,
+      "y": 169,
+      "w": 310,
+      "h": 38,
+      "cls": "el-input__inner"
+    },
+    {
+      "tag": "DIV",
+      "txt": "成员",
+      "x": 564,
+      "y": 221,
+      "w": 1336,
+      "h": 48,
+      "cls": "response_row"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "成员",
+      "x": 564,
+      "y": 222,
+      "w": 1336,
+      "h": 47,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "成员",
+      "x": 584,
+      "y": 222,
+      "w": 1296,
+      "h": 47,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "成员",
+      "x": 584,
+      "y": 222,
+      "w": 1296,
+      "h": 47,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "txt": "成员",
+      "x": 584,
+      "y": 222,
+      "w": 1296,
+      "h": 47,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "txt": "成员",
+      "x": 584,
+      "y": 222,
+      "w": 1296,
+      "h": 47,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "txt": "成员",
+      "x": 584,
+      "y": 222,
+      "w": 1296,
+      "h": 47,
+      "cls": "el-text-component component_object ElementText10"
+    },
+    {
+      "tag": "DIV",
+      "txt": "添加行\n批量删除\n导入\n导出",
+      "x": 564,
+      "y": 269,
+      "w": 1336,
+      "h": 34,
+      "cls": "response_row"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "添加行\n批量删除\n导入\n导出",
+      "x": 564,
+      "y": 269,
+      "w": 1336,
+      "h": 34,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "添加行",
+      "x": 584,
+      "y": 269,
+      "w": 108,
+      "h": 34,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "添加行",
+      "x": 584,
+      "y": 269,
+      "w": 108,
+      "h": 34,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "txt": "添加行",
+      "x": 584,
+      "y": 269,
+      "w": 108,
+      "h": 34,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "txt": "添加行",
+      "x": 584,
+      "y": 269,
+      "w": 108,
+      "h": 34,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "txt": "添加行",
+      "x": 584,
+      "y": 269,
+      "w": 108,
+      "h": 34,
+      "cls": "component_object ElementButton7"
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "添加行",
+      "x": 584,
+      "y": 269,
+      "w": 94,
+      "h": 34,
+      "cls": "el-button el-button--primary el-button--medium propertyStyle"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "添加行",
+      "x": 620,
+      "y": 279,
+      "w": 42,
+      "h": 14,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "批量删除",
+      "x": 692,
+      "y": 269,
+      "w": 108,
+      "h": 34,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "批量删除",
+      "x": 692,
+      "y": 269,
+      "w": 108,
+      "h": 34,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "txt": "批量删除",
+      "x": 692,
+      "y": 269,
+      "w": 108,
+      "h": 34,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "txt": "批量删除",
+      "x": 692,
+      "y": 269,
+      "w": 108,
+      "h": 34,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "txt": "批量删除",
+      "x": 692,
+      "y": 269,
+      "w": 108,
+      "h": 34,
+      "cls": "component_object ElementButton8"
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "批量删除",
+      "x": 692,
+      "y": 269,
+      "w": 98,
+      "h": 34,
+      "cls": "el-button el-button--primary el-button--medium propertyStyle"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "批量删除",
+      "x": 723,
+      "y": 279,
+      "w": 56,
+      "h": 14,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "导入",
+      "x": 800,
+      "y": 269,
+      "w": 94,
+      "h": 34,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "导入",
+      "x": 800,
+      "y": 269,
+      "w": 94,
+      "h": 34,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "txt": "导入",
+      "x": 800,
+      "y": 269,
+      "w": 94,
+      "h": 34,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "txt": "导入",
+      "x": 800,
+      "y": 269,
+      "w": 94,
+      "h": 34,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "txt": "导入",
+      "x": 800,
+      "y": 269,
+      "w": 94,
+      "h": 34,
+      "cls": "component_object ElementButton9"
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "导入",
+      "x": 800,
+      "y": 269,
+      "w": 80,
+      "h": 34,
+      "cls": "el-button el-button--primary el-button--medium propertyStyle"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "导入",
+      "x": 836,
+      "y": 279,
+      "w": 28,
+      "h": 14,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "导出",
+      "x": 894,
+      "y": 269,
+      "w": 94,
+      "h": 34,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "导出",
+      "x": 894,
+      "y": 269,
+      "w": 94,
+      "h": 34,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "txt": "导出",
+      "x": 894,
+      "y": 269,
+      "w": 94,
+      "h": 34,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "txt": "导出",
+      "x": 894,
+      "y": 269,
+      "w": 94,
+      "h": 34,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "txt": "导出",
+      "x": 894,
+      "y": 269,
+      "w": 94,
+      "h": 34,
+      "cls": "component_object ElementButton10"
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "导出",
+      "x": 894,
+      "y": 269,
+      "w": 80,
+      "h": 34,
+      "cls": "el-button el-button--primary el-button--medium propertyStyle"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "导出",
+      "x": 930,
+      "y": 279,
+      "w": 28,
+      "h": 14,
+      "cls": ""
+    },
+    {
+      "tag": "INPUT",
+      "txt": "搜索",
+      "x": 1654,
+      "y": 269,
+      "w": 200,
+      "h": 34,
+      "cls": "el-input__inner"
+    },
+    {
+      "tag": "DIV",
+      "txt": "名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 564,
+      "y": 317,
+      "w": 1336,
+      "h": 562,
+      "cls": "response_row"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 564,
+      "y": 317,
+      "w": 1336,
+      "h": 562,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 584,
+      "y": 317,
+      "w": 1296,
+      "h": 562,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 584,
+      "y": 317,
+      "w": 1296,
+      "h": 562,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "txt": "名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 584,
+      "y": 317,
+      "w": 1296,
+      "h": 562,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "txt": "名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 584,
+      "y": 317,
+      "w": 1296,
+      "h": 562,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "txt": "名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页",
+      "x": 584,
+      "y": 317,
+      "w": 1296,
+      "h": 562,
+      "cls": "PCUI_ElementTable component_object ElementTable1"
+    },
+    {
+      "tag": "DIV",
+      "txt": "名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除",
+      "x": 584,
+      "y": 317,
+      "w": 1296,
+      "h": 530,
+      "cls": "el-table el-table--fit el-table--enable-row-hover el-table--enable-row-transition el-table--medium"
+    },
+    {
+      "tag": "DIV",
+      "txt": "名称\t类型\t值\t描述\t操作",
+      "x": 584,
+      "y": 317,
+      "w": 1296,
+      "h": 44,
+      "cls": "el-table__header-wrapper"
+    },
+    {
+      "tag": "TH",
+      "txt": "名称",
+      "x": 632,
+      "y": 317,
+      "w": 358,
+      "h": 44,
+      "cls": "el-table_31_column_127  is-left   is-leaf el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "名称",
+      "x": 632,
+      "y": 327,
+      "w": 358,
+      "h": 23,
+      "cls": "cell"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "名称",
+      "x": 642,
+      "y": 331,
+      "w": 24,
+      "h": 14,
+      "cls": ""
+    },
+    {
+      "tag": "TH",
+      "txt": "类型",
+      "x": 990,
+      "y": 317,
+      "w": 178,
+      "h": 44,
+      "cls": "el-table_31_column_128  is-left   is-leaf el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "类型",
+      "x": 990,
+      "y": 327,
+      "w": 178,
+      "h": 23,
+      "cls": "cell"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "类型",
+      "x": 1000,
+      "y": 331,
+      "w": 24,
+      "h": 14,
+      "cls": ""
+    },
+    {
+      "tag": "TH",
+      "txt": "值",
+      "x": 1168,
+      "y": 317,
+      "w": 178,
+      "h": 44,
+      "cls": "el-table_31_column_129  is-left   is-leaf el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "值",
+      "x": 1168,
+      "y": 327,
+      "w": 178,
+      "h": 23,
+      "cls": "cell"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "值",
+      "x": 1178,
+      "y": 331,
+      "w": 12,
+      "h": 14,
+      "cls": ""
+    },
+    {
+      "tag": "TH",
+      "txt": "描述",
+      "x": 1346,
+      "y": 317,
+      "w": 445,
+      "h": 44,
+      "cls": "el-table_31_column_130  is-left   is-leaf el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "描述",
+      "x": 1346,
+      "y": 327,
+      "w": 445,
+      "h": 23,
+      "cls": "cell"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "描述",
+      "x": 1356,
+      "y": 331,
+      "w": 24,
+      "h": 14,
+      "cls": ""
+    },
+    {
+      "tag": "TH",
+      "txt": "操作",
+      "x": 1791,
+      "y": 317,
+      "w": 89,
+      "h": 44,
+      "cls": "el-table_31_column_131  is-left   is-leaf el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "操作",
+      "x": 1791,
+      "y": 327,
+      "w": 89,
+      "h": 23,
+      "cls": "cell"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "操作",
+      "x": 1801,
+      "y": 331,
+      "w": 24,
+      "h": 14,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除",
+      "x": 584,
+      "y": 361,
+      "w": 1296,
+      "h": 486,
+      "cls": "el-table__body-wrapper is-scrolling-none"
+    },
+    {
+      "tag": "INPUT",
+      "txt": "班次名称",
+      "x": 642,
+      "y": 361,
+      "w": 338,
+      "h": 36,
+      "cls": "el-input__inner"
+    },
+    {
+      "tag": "TD",
+      "txt": "boolint8int16int32int64uint8uint16uint32uint64floatdoubledecimalstringdateTime",
+      "x": 990,
+      "y": 361,
+      "w": 178,
+      "h": 37,
+      "cls": "el-table_31_column_128 is-left  el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "boolint8int16int32int64uint8uint16uint32uint64floatdoubledecimalstringdateTime",
+      "x": 990,
+      "y": 361,
+      "w": 178,
+      "h": 36,
+      "cls": "cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "boolint8int16int32int64uint8uint16uint32uint64floatdoubledecimalstringdateTime",
+      "x": 1000,
+      "y": 361,
+      "w": 158,
+      "h": 36,
+      "cls": "el-select el-select--medium"
+    },
+    {
+      "tag": "INPUT",
+      "txt": "请选择",
+      "x": 1000,
+      "y": 361,
+      "w": 158,
+      "h": 36,
+      "cls": "el-input__inner"
+    },
+    {
+      "tag": "TD",
+      "txt": "删除",
+      "x": 1791,
+      "y": 361,
+      "w": 89,
+      "h": 37,
+      "cls": "el-table_31_column_131 is-left  el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "删除",
+      "x": 1791,
+      "y": 361,
+      "w": 89,
+      "h": 36,
+      "cls": "cell"
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "删除",
+      "x": 1801,
+      "y": 361,
+      "w": 30,
+      "h": 36,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "删除",
+      "x": 1802,
+      "y": 371,
+      "w": 28,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "INPUT",
+      "txt": "班次类型",
+      "x": 642,
+      "y": 398,
+      "w": 338,
+      "h": 36,
+      "cls": "el-input__inner"
+    },
+    {
+      "tag": "TD",
+      "txt": "boolint8int16int32int64uint8uint16uint32uint64floatdoubledecimalstringdateTime",
+      "x": 990,
+      "y": 398,
+      "w": 178,
+      "h": 37,
+      "cls": "el-table_31_column_128 is-left  el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "boolint8int16int32int64uint8uint16uint32uint64floatdoubledecimalstringdateTime",
+      "x": 990,
+      "y": 398,
+      "w": 178,
+      "h": 36,
+      "cls": "cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "boolint8int16int32int64uint8uint16uint32uint64floatdoubledecimalstringdateTime",
+      "x": 1000,
+      "y": 398,
+      "w": 158,
+      "h": 36,
+      "cls": "el-select el-select--medium"
+    },
+    {
+      "tag": "INPUT",
+      "txt": "请选择",
+      "x": 1000,
+      "y": 398,
+      "w": 158,
+      "h": 36,
+      "cls": "el-input__inner"
+    },
+    {
+      "tag": "TD",
+      "txt": "删除",
+      "x": 1791,
+      "y": 398,
+      "w": 89,
+      "h": 37,
+      "cls": "el-table_31_column_131 is-left  el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "删除",
+      "x": 1791,
+      "y": 398,
+      "w": 89,
+      "h": 36,
+      "cls": "cell"
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "删除",
+      "x": 1801,
+      "y": 398,
+      "w": 30,
+      "h": 36,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "删除",
+      "x": 1802,
+      "y": 408,
+      "w": 28,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "INPUT",
+      "txt": "起始时间",
+      "x": 642,
+      "y": 435,
+      "w": 338,
+      "h": 36,
+      "cls": "el-input__inner"
+    },
+    {
+      "tag": "TD",
+      "txt": "boolint8int16int32int64uint8uint16uint32uint64floatdoubledecimalstringdateTime",
+      "x": 990,
+      "y": 435,
+      "w": 178,
+      "h": 37,
+      "cls": "el-table_31_column_128 is-left  el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "boolint8int16int32int64uint8uint16uint32uint64floatdoubledecimalstringdateTime",
+      "x": 990,
+      "y": 435,
+      "w": 178,
+      "h": 36,
+      "cls": "cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "boolint8int16int32int64uint8uint16uint32uint64floatdoubledecimalstringdateTime",
+      "x": 1000,
+      "y": 435,
+      "w": 158,
+      "h": 36,
+      "cls": "el-select el-select--medium"
+    },
+    {
+      "tag": "INPUT",
+      "txt": "请选择",
+      "x": 1000,
+      "y": 435,
+      "w": 158,
+      "h": 36,
+      "cls": "el-input__inner"
+    },
+    {
+      "tag": "TD",
+      "txt": "删除",
+      "x": 1791,
+      "y": 435,
+      "w": 89,
+      "h": 37,
+      "cls": "el-table_31_column_131 is-left  el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "删除",
+      "x": 1791,
+      "y": 435,
+      "w": 89,
+      "h": 36,
+      "cls": "cell"
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "删除",
+      "x": 1801,
+      "y": 435,
+      "w": 30,
+      "h": 36,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "删除",
+      "x": 1802,
+      "y": 445,
+      "w": 28,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "INPUT",
+      "txt": "结束时间",
+      "x": 642,
+      "y": 472,
+      "w": 338,
+      "h": 36,
+      "cls": "el-input__inner"
+    },
+    {
+      "tag": "TD",
+      "txt": "boolint8int16int32int64uint8uint16uint32uint64floatdoubledecimalstringdateTime",
+      "x": 990,
+      "y": 472,
+      "w": 178,
+      "h": 37,
+      "cls": "el-table_31_column_128 is-left  el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "boolint8int16int32int64uint8uint16uint32uint64floatdoubledecimalstringdateTime",
+      "x": 990,
+      "y": 472,
+      "w": 178,
+      "h": 36,
+      "cls": "cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "boolint8int16int32int64uint8uint16uint32uint64floatdoubledecimalstringdateTime",
+      "x": 1000,
+      "y": 472,
+      "w": 158,
+      "h": 36,
+      "cls": "el-select el-select--medium"
+    },
+    {
+      "tag": "INPUT",
+      "txt": "请选择",
+      "x": 1000,
+      "y": 472,
+      "w": 158,
+      "h": 36,
+      "cls": "el-input__inner"
+    },
+    {
+      "tag": "TD",
+      "txt": "删除",
+      "x": 1791,
+      "y": 472,
+      "w": 89,
+      "h": 37,
+      "cls": "el-table_31_column_131 is-left  el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "删除",
+      "x": 1791,
+      "y": 472,
+      "w": 89,
+      "h": 36,
+      "cls": "cell"
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "删除",
+      "x": 1801,
+      "y": 472,
+      "w": 30,
+      "h": 36,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "删除",
+      "x": 1802,
+      "y": 482,
+      "w": 28,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "INPUT",
+      "txt": "车间名称",
+      "x": 642,
+      "y": 509,
+      "w": 338,
+      "h": 36,
+      "cls": "el-input__inner"
+    },
+    {
+      "tag": "TD",
+      "txt": "boolint8int16int32int64uint8uint16uint32uint64floatdoubledecimalstringdateTime",
+      "x": 990,
+      "y": 509,
+      "w": 178,
+      "h": 37,
+      "cls": "el-table_31_column_128 is-left  el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "boolint8int16int32int64uint8uint16uint32uint64floatdoubledecimalstringdateTime",
+      "x": 990,
+      "y": 509,
+      "w": 178,
+      "h": 36,
+      "cls": "cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "boolint8int16int32int64uint8uint16uint32uint64floatdoubledecimalstringdateTime",
+      "x": 1000,
+      "y": 509,
+      "w": 158,
+      "h": 36,
+      "cls": "el-select el-select--medium"
+    },
+    {
+      "tag": "INPUT",
+      "txt": "请选择",
+      "x": 1000,
+      "y": 509,
+      "w": 158,
+      "h": 36,
+      "cls": "el-input__inner"
+    },
+    {
+      "tag": "TD",
+      "txt": "删除",
+      "x": 1791,
+      "y": 509,
+      "w": 89,
+      "h": 37,
+      "cls": "el-table_31_column_131 is-left  el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "txt": "删除",
+      "x": 1791,
+      "y": 509,
+      "w": 89,
+      "h": 36,
+      "cls": "cell"
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "删除",
+      "x": 1801,
+      "y": 509,
+      "w": 30,
+      "h": 36,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "删除",
+      "x": 1802,
+      "y": 519,
+      "w": 28,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "txt": "共 5 条\n1\n前往页",
+      "x": 584,
+      "y": 847,
+      "w": 1296,
+      "h": 32,
+      "cls": "pagination-container"
+    },
+    {
+      "tag": "DIV",
+      "txt": "共 5 条\n1\n前往页",
+      "x": 1476.03125,
+      "y": 847,
+      "w": 403.96875,
+      "h": 32,
+      "cls": "el-pagination"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "共 5 条",
+      "x": 1481.03125,
+      "y": 849,
+      "w": 40.46875,
+      "h": 28,
+      "cls": "el-pagination__total"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "50条/页100条/页150条/页200条/页250条/页300条/页",
+      "x": 1531.5,
+      "y": 849,
+      "w": 110,
+      "h": 28,
+      "cls": "el-pagination__sizes"
+    },
+    {
+      "tag": "DIV",
+      "txt": "50条/页100条/页150条/页200条/页250条/页300条/页",
+      "x": 1531.5,
+      "y": 849,
+      "w": 110,
+      "h": 28,
+      "cls": "el-select el-select--mini"
+    },
+    {
+      "tag": "INPUT",
+      "txt": "请选择",
+      "x": 1536.5,
+      "y": 849,
+      "w": 100,
+      "h": 28,
+      "cls": "el-input__inner"
+    },
+    {
+      "tag": "SPAN",
+      "txt": "前往页",
+      "x": 1782,
+      "y": 849,
+      "w": 93,
+      "h": 28,
+      "cls": "el-pagination__jump"
+    },
+    {
+      "tag": "INPUT",
+      "txt": "1",
+      "x": 1812,
+      "y": 849,
+      "w": 46,
+      "h": 28,
+      "cls": "el-input__inner"
+    }
+  ],
+  "sectionKey": "business_event",
+  "sectionLabel": "业务事"
+}

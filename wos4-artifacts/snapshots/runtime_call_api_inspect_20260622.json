@@ -1,0 +1,204 @@
+{
+  "path": "top.0",
+  "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_107/index.html",
+  "text": "查询全部(4)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n泵站A-01\n\t\nA\n\t\n正常\n\t\n128\n\t\n0.62\n\n\n泵站A-02\n\t\nA\n\t\n待机\n\t\n96\n\t\n0.58\n\n\n泵站B-01\n\t\nB\n\t\n正常\n\t\n141\n\t\n0.67\n\n\n泵站B-02\n\t\nB\n\t\n报警\n\t\n73\n\t\n0.49\n共 4 条\n1\n前往页",
+  "keys": [
+    "pageXOffset",
+    "pageYOffset",
+    "oncontextrestored",
+    "onformdata",
+    "onloadeddata",
+    "onloadedmetadata",
+    "ontransitionrun",
+    "onpagehide",
+    "onpageshow",
+    "cancelIdleCallback",
+    "requestIdleCallback",
+    "onpageswap",
+    "onpagereveal",
+    "InterfaceSyncCall",
+    "InterfaceAsynCall",
+    "AsyncCall",
+    "Call",
+    "executeMobileFunction",
+    "GetWosServerTime",
+    "PublicEventCallBackEval",
+    "PageEval",
+    "$StoreMap",
+    "__runtimeVue",
+    "__runtimeVue__",
+    "$store",
+    "KGSInterFace",
+    "KMLinkId",
+    "KMLinkType",
+    "KGSDataObjMng",
+    "element_popup_page"
+  ],
+  "callType": "function",
+  "callLen": 0,
+  "callStr": "(...i)=>this._apis[r](t,...i)",
+  "hasSetRunInfo": false,
+  "setRunInfoStr": "",
+  "vueEls": [
+    {
+      "i": 0,
+      "tag": "DIV",
+      "cls": "app-master",
+      "text": "查询全部(4)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n泵站A-01\n\t\nA\n\t\n正常\n\t\n128\n\t\n0.62\n\n\n泵站A-02\n\t\nA\n\t\n待机\n\t\n96\n\t\n0.58\n\n\n泵站B-01\n\t\nB\n\t\n正常\n\t\n141\n\t\n0.67\n\n\n泵站B-02\n\t\nB\n\t\n报警\n\t\n73\n\t\n0.49\n共 4 条\n1\n前往页",
+      "hasVue": true,
+      "hasV3": false
+    },
+    {
+      "i": 1,
+      "tag": "DIV",
+      "cls": "page_view_container",
+      "text": "查询全部(4)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n泵站A-01\n\t\nA\n\t\n正常\n\t\n128\n\t\n0.62\n\n\n泵站A-02\n\t\nA\n\t\n待机\n\t\n96\n\t\n0.58\n\n\n泵站B-01\n\t\nB\n\t\n正常\n\t\n141\n\t\n0.67\n\n\n泵站B-02\n\t\nB\n\t\n报警\n\t\n73\n\t\n0.49\n共 4 条\n1\n前往页",
+      "hasVue": true,
+      "hasV3": false
+    },
+    {
+      "i": 2,
+      "tag": "DIV",
+      "cls": "page_view",
+      "text": "查询全部(4)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n泵站A-01\n\t\nA\n\t\n正常\n\t\n128\n\t\n0.62\n\n\n泵站A-02\n\t\nA\n\t\n待机\n\t\n96\n\t\n0.58\n\n\n泵站B-01\n\t\nB\n\t\n正常\n\t\n141\n\t\n0.67\n\n\n泵站B-02\n\t\nB\n\t\n报警\n\t\n73\n\t\n0.49\n共 4 条\n1\n前往页",
+      "hasVue": true,
+      "hasV3": false
+    },
+    {
+      "i": 3,
+      "tag": "DIV",
+      "cls": "layer_view",
+      "text": "查询全部(4)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n泵站A-01\n\t\nA\n\t\n正常\n\t\n128\n\t\n0.62\n\n\n泵站A-02\n\t\nA\n\t\n待机\n\t\n96\n\t\n0.58\n\n\n泵站B-01\n\t\nB\n\t\n正常\n\t\n141\n\t\n0.67\n\n\n泵站B-02\n\t\nB\n\t\n报警\n\t\n73\n\t\n0.49\n共 4 条\n1\n前往页",
+      "hasVue": true,
+      "hasV3": false
+    },
+    {
+      "i": 4,
+      "tag": "DIV",
+      "cls": "layout_container containerStyle",
+      "text": "查询全部(4)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n泵站A-01\n\t\nA\n\t\n正常\n\t\n128\n\t\n0.62\n\n\n泵站A-02\n\t\nA\n\t\n待机\n\t\n96\n\t\n0.58\n\n\n泵站B-01\n\t\nB\n\t\n正常\n\t\n141\n\t\n0.67\n\n\n泵站B-02\n\t\nB\n\t\n报警\n\t\n73\n\t\n0.49\n共 4 条\n1\n前往页",
+      "hasVue": true,
+      "hasV3": false
+    },
+    {
+      "i": 5,
+      "tag": "SPAN",
+      "cls": "containerrow",
+      "text": "查询全部(4)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n泵站A-01\n\t\nA\n\t\n正常\n\t\n128\n\t\n0.62\n\n\n泵站A-02\n\t\nA\n\t\n待机\n\t\n96\n\t\n0.58\n\n\n泵站B-01\n\t\nB\n\t\n正常\n\t\n141\n\t\n0.67\n\n\n泵站B-02\n\t\nB\n\t\n报警\n\t\n73\n\t\n0.49\n共 4 条\n1\n前往页",
+      "hasVue": true,
+      "hasV3": false
+    },
+    {
+      "i": 6,
+      "tag": "DIV",
+      "cls": "response_row",
+      "text": "查询全部(4)",
+      "hasVue": true,
+      "hasV3": false
+    },
+    {
+      "i": 7,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "查询全部(4)",
+      "hasVue": true,
+      "hasV3": false
+    },
+    {
+      "i": 8,
+      "tag": "DIV",
+      "cls": "",
+      "text": "",
+      "hasVue": true,
+      "hasV3": false
+    },
+    {
+      "i": 9,
+      "tag": "DIV",
+      "cls": "ui_factory",
+      "text": "",
+      "hasVue": true,
+      "hasV3": false
+    },
+    {
+      "i": 10,
+      "tag": "DIV",
+      "cls": "el-input-component component_object demo_filter_input",
+      "text": "",
+      "hasVue": true,
+      "hasV3": false
+    },
+    {
+      "i": 11,
+      "tag": "DIV",
+      "cls": "el-input el-input--auto is-normal",
+      "text": "",
+      "hasVue": true,
+      "hasV3": false
+    },
+    {
+      "i": 12,
+      "tag": "DIV",
+      "cls": "",
+      "text": "查询全部(4)",
+      "hasVue": true,
+      "hasV3": false
+    },
+    {
+      "i": 13,
+      "tag": "DIV",
+      "cls": "ui_factory",
+      "text": "查询全部(4)",
+      "hasVue": true,
+      "hasV3": false
+    },
+    {
+      "i": 14,
+      "tag": "DIV",
+      "cls": "component_object demo_query_button",
+      "text": "查询全部(4)",
+      "hasVue": true,
+      "hasV3": false
+    },
+    {
+      "i": 15,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--primary el-button--medium propertyStyle",
+      "text": "查询全部(4)",
+      "hasVue": true,
+      "hasV3": false
+    },
+    {
+      "i": 16,
+      "tag": "DIV",
+      "cls": "response_row",
+      "text": "全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n泵站A-01\n\t\nA\n\t\n正常\n\t\n128\n\t\n0.62\n\n\n泵站A-02\n\t\nA\n\t\n待机\n\t\n96\n\t\n0.58\n\n\n泵站B-01\n\t\nB\n\t\n正常\n\t\n141\n\t\n0.67\n\n\n泵站B-02\n\t\nB\n\t\n报警\n\t\n73\n\t\n0.49\n共 4 条\n1\n前往页",
+      "hasVue": true,
+      "hasV3": false
+    },
+    {
+      "i": 17,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n泵站A-01\n\t\nA\n\t\n正常\n\t\n128\n\t\n0.62\n\n\n泵站A-02\n\t\nA\n\t\n待机\n\t\n96\n\t\n0.58\n\n\n泵站B-01\n\t\nB\n\t\n正常\n\t\n141\n\t\n0.67\n\n\n泵站B-02\n\t\nB\n\t\n报警\n\t\n73\n\t\n0.49\n共 4 条\n1\n前往页",
+      "hasVue": true,
+      "hasV3": false
+    },
+    {
+      "i": 18,
+      "tag": "DIV",
+      "cls": "",
+      "text": "全部区域\nA区\nB区",
+      "hasVue": true,
+      "hasV3": false
+    },
+    {
+      "i": 19,
+      "tag": "DIV",
+      "cls": "ui_factory",
+      "text": "全部区域\nA区\nB区",
+      "hasVue": true,
+      "hasV3": false
+    }
+  ]
+}

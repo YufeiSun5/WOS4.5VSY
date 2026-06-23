@@ -1,0 +1,1444 @@
+{
+  "body": "时空功能开发平台\n\nTime Space Platform\n\n时空开发\n部署管理\n本云(0)\n盛云_孙宇飞_元语言查询Demo_0617\n仓库包\n权限\n镜像\n关于\n新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\nonCreate\n名称:\n输入参数:\n返回值类型:\n1\nTrace(2, \"wos4-demo-oncreate-0617\", \"ok\");\n行：1，列：43，\n空格：4\n元语言\n属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0eb5ff6c-93d1-481f-96a4-1c8be6646531\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\n盛云_孙宇飞_仓库\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:",
+  "lines": "Trace(2, \"wos4-demo-oncreate-0617\", \"ok\");",
+  "candidates": [
+    {
+      "i": 0,
+      "tag": "DIV",
+      "cls": "wos-root-app",
+      "title": null,
+      "aria": null,
+      "text": "时空功能开发平台\n\nTime Space Platform\n\n时空开发\n部署管理\n本云(0)\n盛云_孙宇飞_元语言查询Demo_0617\n仓库包\n权限\n镜像\n关于\n新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\nonCreate\n名称:\n输入参数:\n返回值类型:\n1\nTrace(2, \"wos4-demo-oncreate-0617\", \"ok\");\n行：1，列：43，\n空格：4\n元语言\n属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0eb5ff6c-93d1-481f-96a4-1c8be6646531\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\n盛云_孙宇飞_仓库\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 899,
+      "hit": [
+        "提交",
+        "wos"
+      ]
+    },
+    {
+      "i": 6,
+      "tag": "I",
+      "cls": "icon iconfont-WOS45 icon-WOS45-home",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 216,
+      "y": 29,
+      "w": 16,
+      "h": 16,
+      "hit": [
+        "icon"
+      ]
+    },
+    {
+      "i": 8,
+      "tag": "I",
+      "cls": "icon iconfont-WOS45 icon-WOS45-kechengtixi",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 327,
+      "y": 29,
+      "w": 16,
+      "h": 16,
+      "hit": [
+        "icon"
+      ]
+    },
+    {
+      "i": 13,
+      "tag": "I",
+      "cls": "el-icon worker-space-tab-item-close cursor-pointer",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 567,
+      "y": 31.5,
+      "w": 12,
+      "h": 12,
+      "hit": [
+        "icon"
+      ]
+    },
+    {
+      "i": 17,
+      "tag": "I",
+      "cls": "el-icon worker-space-tab-item-close cursor-pointer",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 732,
+      "y": 31.5,
+      "w": 12,
+      "h": 12,
+      "hit": [
+        "icon"
+      ]
+    },
+    {
+      "i": 20,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default is-link",
+      "title": null,
+      "aria": null,
+      "text": "仓库包",
+      "x": 1622.546875,
+      "y": 15.25,
+      "w": 71,
+      "h": 23.484375,
+      "hit": [
+        "button"
+      ]
+    },
+    {
+      "i": 22,
+      "tag": "DIV",
+      "cls": "el-image icon image",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 1625.546875,
+      "y": 18.25,
+      "w": 17,
+      "h": 17.484375,
+      "hit": [
+        "icon"
+      ]
+    },
+    {
+      "i": 23,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default is-link",
+      "title": null,
+      "aria": null,
+      "text": "权限",
+      "x": 1705.546875,
+      "y": 16,
+      "w": 56,
+      "h": 22,
+      "hit": [
+        "button"
+      ]
+    },
+    {
+      "i": 25,
+      "tag": "I",
+      "cls": "icon iconfont-WOS45 icon-WOS45-quanxian",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 1708.546875,
+      "y": 19,
+      "w": 16,
+      "h": 16,
+      "hit": [
+        "icon"
+      ]
+    },
+    {
+      "i": 26,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default is-disabled is-link",
+      "title": null,
+      "aria": null,
+      "text": "镜像",
+      "x": 1773.546875,
+      "y": 16,
+      "w": 57.453125,
+      "h": 22,
+      "hit": [
+        "button"
+      ]
+    },
+    {
+      "i": 28,
+      "tag": "I",
+      "cls": "icon iconfont-WOS45 icon-WOS45-jingxiang",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 1776.546875,
+      "y": 19,
+      "w": 17.453125,
+      "h": 16,
+      "hit": [
+        "icon"
+      ]
+    },
+    {
+      "i": 29,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default is-disabled is-link",
+      "title": null,
+      "aria": null,
+      "text": "关于",
+      "x": 1843,
+      "y": 16,
+      "w": 56,
+      "h": 22,
+      "hit": [
+        "button"
+      ]
+    },
+    {
+      "i": 31,
+      "tag": "I",
+      "cls": "icon iconfont-WOS45 icon-WOS45-guanyu",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 1846,
+      "y": 19,
+      "w": 16,
+      "h": 16,
+      "hit": [
+        "icon"
+      ]
+    },
+    {
+      "i": 32,
+      "tag": "DIV",
+      "cls": "worker-space-view",
+      "title": null,
+      "aria": null,
+      "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\nonCreate\n名称:\n输入参数:\n返回值类型:\n1\nTrace(2, \"wos4-demo-oncreate-0617\", \"ok\");\n行：1，列：43，\n空格：4\n元语言\n属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0eb5ff6c-93d1-481f-96a4-1c8be6646531\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\n盛云_孙宇飞_仓库\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:",
+      "x": 0,
+      "y": 55,
+      "w": 1920,
+      "h": 844,
+      "hit": [
+        "提交",
+        "wos"
+      ]
+    },
+    {
+      "i": 33,
+      "tag": "DIV",
+      "cls": "editor-container fu-editor-container",
+      "title": null,
+      "aria": null,
+      "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\nonCreate\n名称:\n输入参数:\n返回值类型:\n1\nTrace(2, \"wos4-demo-oncreate-0617\", \"ok\");\n行：1，列：43，\n空格：4\n元语言\n属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0eb5ff6c-93d1-481f-96a4-1c8be6646531\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\n盛云_孙宇飞_仓库\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:",
+      "x": 0,
+      "y": 55,
+      "w": 1920,
+      "h": 844,
+      "hit": [
+        "提交",
+        "wos"
+      ]
+    },
+    {
+      "i": 34,
+      "tag": "DIV",
+      "cls": "editor-main",
+      "title": null,
+      "aria": null,
+      "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\nonCreate\n名称:\n输入参数:\n返回值类型:\n1\nTrace(2, \"wos4-demo-oncreate-0617\", \"ok\");\n行：1，列：43，\n空格：4\n元语言",
+      "x": 0,
+      "y": 55,
+      "w": 1543,
+      "h": 844,
+      "hit": [
+        "提交",
+        "wos"
+      ]
+    },
+    {
+      "i": 35,
+      "tag": "DIV",
+      "cls": "editor-aside editor-aside-main",
+      "title": null,
+      "aria": null,
+      "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\nonCreate\n名称:\n输入参数:\n返回值类型:\n1\nTrace(2, \"wos4-demo-oncreate-0617\", \"ok\");\n行：1，列：43，\n空格：4\n元语言",
+      "x": 0,
+      "y": 55,
+      "w": 1543,
+      "h": 844,
+      "hit": [
+        "提交",
+        "wos"
+      ]
+    },
+    {
+      "i": 36,
+      "tag": "DIV",
+      "cls": "editor-aside-comp-container",
+      "title": null,
+      "aria": null,
+      "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\nonCreate\n名称:\n输入参数:\n返回值类型:\n1\nTrace(2, \"wos4-demo-oncreate-0617\", \"ok\");\n行：1，列：43，\n空格：4\n元语言",
+      "x": 6,
+      "y": 67,
+      "w": 1531,
+      "h": 832,
+      "hit": [
+        "提交",
+        "wos"
+      ]
+    },
+    {
+      "i": 37,
+      "tag": "DIV",
+      "cls": "editor-aside-comp-item",
+      "title": null,
+      "aria": null,
+      "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\nonCreate\n名称:\n输入参数:\n返回值类型:\n1\nTrace(2, \"wos4-demo-oncreate-0617\", \"ok\");\n行：1，列：43，\n空格：4\n元语言",
+      "x": 6,
+      "y": 67,
+      "w": 1531,
+      "h": 832,
+      "hit": [
+        "提交",
+        "wos"
+      ]
+    },
+    {
+      "i": 38,
+      "tag": "DIV",
+      "cls": "editor-main",
+      "title": null,
+      "aria": null,
+      "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\nonCreate\n名称:\n输入参数:\n返回值类型:\n1\nTrace(2, \"wos4-demo-oncreate-0617\", \"ok\");\n行：1，列：43，\n空格：4\n元语言",
+      "x": 6,
+      "y": 67,
+      "w": 1531,
+      "h": 832,
+      "hit": [
+        "提交",
+        "wos"
+      ]
+    },
+    {
+      "i": 39,
+      "tag": "DIV",
+      "cls": "el-row",
+      "title": null,
+      "aria": null,
+      "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\nonCreate\n名称:\n输入参数:\n返回值类型:\n1\nTrace(2, \"wos4-demo-oncreate-0617\", \"ok\");\n行：1，列：43，\n空格：4\n元语言",
+      "x": 6,
+      "y": 67,
+      "w": 1531,
+      "h": 832,
+      "hit": [
+        "提交",
+        "wos"
+      ]
+    },
+    {
+      "i": 40,
+      "tag": "DIV",
+      "cls": "app-model-editor code-editor w100 h100 code-editor",
+      "title": null,
+      "aria": null,
+      "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\nonCreate\n名称:\n输入参数:\n返回值类型:\n1\nTrace(2, \"wos4-demo-oncreate-0617\", \"ok\");\n行：1，列：43，\n空格：4\n元语言",
+      "x": 6,
+      "y": 67,
+      "w": 1531,
+      "h": 832,
+      "hit": [
+        "提交",
+        "wos"
+      ]
+    },
+    {
+      "i": 42,
+      "tag": "DIV",
+      "cls": "menu-item wos-script-editor-function-mng is-active",
+      "title": "编辑",
+      "aria": null,
+      "text": "",
+      "x": 6,
+      "y": 67,
+      "w": 40,
+      "h": 40,
+      "hit": [
+        "wos"
+      ]
+    },
+    {
+      "i": 43,
+      "tag": "I",
+      "cls": "el-icon item-icon",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 16,
+      "y": 77,
+      "w": 20,
+      "h": 20,
+      "hit": [
+        "icon"
+      ]
+    },
+    {
+      "i": 44,
+      "tag": "DIV",
+      "cls": "menu-item wos-script-editor-debugger-mng",
+      "title": "调试",
+      "aria": null,
+      "text": "",
+      "x": 6,
+      "y": 107,
+      "w": 40,
+      "h": 40,
+      "hit": [
+        "wos"
+      ]
+    },
+    {
+      "i": 45,
+      "tag": "I",
+      "cls": "el-icon item-icon",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 16,
+      "y": 117,
+      "w": 20,
+      "h": 20,
+      "hit": [
+        "icon"
+      ]
+    },
+    {
+      "i": 46,
+      "tag": "I",
+      "cls": "icon iconfont icon-zaixiantiaoshi",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 16.34375,
+      "y": 117,
+      "w": 19.296875,
+      "h": 20,
+      "hit": [
+        "icon"
+      ]
+    },
+    {
+      "i": 117,
+      "tag": "DIV",
+      "cls": "metalang-script-editor w100 h100",
+      "title": null,
+      "aria": null,
+      "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\nonCreate\n名称:\n输入参数:\n返回值类型:\n1\nTrace(2, \"wos4-demo-oncreate-0617\", \"ok\");",
+      "x": 46,
+      "y": 67,
+      "w": 1491,
+      "h": 808,
+      "hit": [
+        "提交",
+        "wos"
+      ]
+    },
+    {
+      "i": 122,
+      "tag": "SPAN",
+      "cls": "icon iconfont icon-model-function-add cursor-pointer",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 156,
+      "y": 90,
+      "w": 16,
+      "h": 16,
+      "hit": [
+        "icon"
+      ]
+    },
+    {
+      "i": 128,
+      "tag": "I",
+      "cls": "icon iconfont cursor-pointer wos-editor-search",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 299,
+      "y": 126,
+      "w": 20,
+      "h": 30,
+      "hit": [
+        "wos",
+        "icon"
+      ]
+    },
+    {
+      "i": 141,
+      "tag": "DIV",
+      "cls": "monaco-editor-view w100 h100 metalang-monaco-editor monaco-editor-panel",
+      "title": null,
+      "aria": null,
+      "text": "当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\nonCreate\n名称:\n输入参数:\n返回值类型:\n1\nTrace(2, \"wos4-demo-oncreate-0617\", \"ok\");",
+      "x": 349,
+      "y": 67,
+      "w": 1188,
+      "h": 808,
+      "hit": [
+        "提交",
+        "wos"
+      ]
+    },
+    {
+      "i": 142,
+      "tag": "DIV",
+      "cls": "code-editor-toolbar",
+      "title": null,
+      "aria": null,
+      "text": "当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置",
+      "x": 349,
+      "y": 67,
+      "w": 1188,
+      "h": 55,
+      "hit": [
+        "提交"
+      ]
+    },
+    {
+      "i": 143,
+      "tag": "DIV",
+      "cls": "",
+      "title": null,
+      "aria": null,
+      "text": "当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置",
+      "x": 359,
+      "y": 67,
+      "w": 1168,
+      "h": 47,
+      "hit": [
+        "提交"
+      ]
+    },
+    {
+      "i": 145,
+      "tag": "SPAN",
+      "cls": "icon iconfont cursor-pointer wos-editor-save el-tooltip__trigger el-tooltip__trigger",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 359,
+      "y": 62.5,
+      "w": 20,
+      "h": 55,
+      "hit": [
+        "save",
+        "wos",
+        "icon"
+      ]
+    },
+    {
+      "i": 146,
+      "tag": "SPAN",
+      "cls": "icon iconfont cursor-pointer wos-editor-undo el-tooltip__trigger el-tooltip__trigger",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 389,
+      "y": 62.5,
+      "w": 20,
+      "h": 55,
+      "hit": [
+        "wos",
+        "icon"
+      ]
+    },
+    {
+      "i": 147,
+      "tag": "SPAN",
+      "cls": "icon iconfont cursor-pointer wos-editor-redo el-tooltip__trigger el-tooltip__trigger",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 419,
+      "y": 62.5,
+      "w": 20,
+      "h": 55,
+      "hit": [
+        "wos",
+        "icon"
+      ]
+    },
+    {
+      "i": 148,
+      "tag": "SPAN",
+      "cls": "icon iconfont cursor-pointer wos-editor-search el-tooltip__trigger el-tooltip__trigger",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 449,
+      "y": 62.5,
+      "w": 20,
+      "h": 55,
+      "hit": [
+        "wos",
+        "icon"
+      ]
+    },
+    {
+      "i": 149,
+      "tag": "SPAN",
+      "cls": "icon iconfont cursor-pointer wos-editor-copy el-tooltip__trigger el-tooltip__trigger",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 479,
+      "y": 62.5,
+      "w": 20,
+      "h": 55,
+      "hit": [
+        "wos",
+        "icon"
+      ]
+    },
+    {
+      "i": 150,
+      "tag": "SPAN",
+      "cls": "icon iconfont cursor-pointer wos-HTMLyuanma el-tooltip__trigger el-tooltip__trigger",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 509,
+      "y": 62,
+      "w": 24,
+      "h": 56,
+      "hit": [
+        "wos",
+        "icon"
+      ]
+    },
+    {
+      "i": 151,
+      "tag": "SPAN",
+      "cls": "icon iconfont cursor-pointer wos-editor-complie el-tooltip__trigger el-tooltip__trigger",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 543,
+      "y": 62.5,
+      "w": 20,
+      "h": 55,
+      "hit": [
+        "wos",
+        "icon"
+      ]
+    },
+    {
+      "i": 152,
+      "tag": "I",
+      "cls": "el-icon icon cursor-pointer wos-editor-debug-start el-tooltip__trigger el-tooltip__trigger",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 573,
+      "y": 80,
+      "w": 20,
+      "h": 20,
+      "hit": [
+        "wos",
+        "icon"
+      ]
+    },
+    {
+      "i": 153,
+      "tag": "SPAN",
+      "cls": "icon text wos-editor-edit-model",
+      "title": "盛云_孙宇飞_元语言查询Demo_0617",
+      "aria": null,
+      "text": "当前模型: 盛云_孙宇飞_元语言查询Demo_0617",
+      "x": 603,
+      "y": 62.5,
+      "w": 200,
+      "h": 55,
+      "hit": [
+        "wos",
+        "icon"
+      ]
+    },
+    {
+      "i": 154,
+      "tag": "DIV",
+      "cls": "code-editor-toolbar-right",
+      "title": null,
+      "aria": null,
+      "text": "提交\n调试配置",
+      "x": 1279,
+      "y": 67,
+      "w": 248,
+      "h": 46,
+      "hit": [
+        "提交"
+      ]
+    },
+    {
+      "i": 155,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default",
+      "title": null,
+      "aria": null,
+      "text": "提交",
+      "x": 1279,
+      "y": 74,
+      "w": 78,
+      "h": 32,
+      "hit": [
+        "提交",
+        "button"
+      ]
+    },
+    {
+      "i": 156,
+      "tag": "I",
+      "cls": "el-icon",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 1294,
+      "y": 83,
+      "w": 14,
+      "h": 14,
+      "hit": [
+        "icon"
+      ]
+    },
+    {
+      "i": 157,
+      "tag": "SPAN",
+      "cls": "",
+      "title": null,
+      "aria": null,
+      "text": "提交",
+      "x": 1314,
+      "y": 83,
+      "w": 28,
+      "h": 14,
+      "hit": [
+        "提交"
+      ]
+    },
+    {
+      "i": 158,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default",
+      "title": null,
+      "aria": null,
+      "text": "调试配置",
+      "x": 1369,
+      "y": 74,
+      "w": 106,
+      "h": 32,
+      "hit": [
+        "button"
+      ]
+    },
+    {
+      "i": 159,
+      "tag": "I",
+      "cls": "el-icon",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 1384,
+      "y": 83,
+      "w": 14,
+      "h": 14,
+      "hit": [
+        "icon"
+      ]
+    },
+    {
+      "i": 161,
+      "tag": "I",
+      "cls": "el-icon icon cursor-pointer wos-editor-change-theme el-tooltip__trigger el-tooltip__trigger",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 1485,
+      "y": 82,
+      "w": 16,
+      "h": 16,
+      "hit": [
+        "wos",
+        "icon"
+      ]
+    },
+    {
+      "i": 162,
+      "tag": "I",
+      "cls": "el-icon icon cursor-pointer wos-editor-fullScreen el-tooltip__trigger el-tooltip__trigger",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 1511,
+      "y": 82,
+      "w": 16,
+      "h": 16,
+      "hit": [
+        "wos",
+        "icon"
+      ]
+    },
+    {
+      "i": 163,
+      "tag": "DIV",
+      "cls": "code-editor-body",
+      "title": null,
+      "aria": null,
+      "text": "declare\nonCreate\n名称:\n输入参数:\n返回值类型:\n1\nTrace(2, \"wos4-demo-oncreate-0617\", \"ok\");",
+      "x": 349,
+      "y": 122,
+      "w": 1188,
+      "h": 753,
+      "hit": [
+        "wos"
+      ]
+    },
+    {
+      "i": 175,
+      "tag": "I",
+      "cls": "el-icon is-icon-close",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 581,
+      "y": 129.5,
+      "w": 14,
+      "h": 14,
+      "hit": [
+        "icon"
+      ]
+    },
+    {
+      "i": 196,
+      "tag": "DIV",
+      "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-name wos-editor-function-name",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 402.90625,
+      "y": 157,
+      "w": 194,
+      "h": 34,
+      "hit": [
+        "wos"
+      ]
+    },
+    {
+      "i": 200,
+      "tag": "DIV",
+      "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 688.8125,
+      "y": 157,
+      "w": 205,
+      "h": 34,
+      "hit": [
+        "wos"
+      ]
+    },
+    {
+      "i": 202,
+      "tag": "I",
+      "cls": "el-icon param-list-icon cursor-pointer",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 874.8125,
+      "y": 167,
+      "w": 14,
+      "h": 14,
+      "hit": [
+        "icon"
+      ]
+    },
+    {
+      "i": 205,
+      "tag": "DIV",
+      "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 999.71875,
+      "y": 157,
+      "w": 194,
+      "h": 34,
+      "hit": [
+        "wos"
+      ]
+    },
+    {
+      "i": 207,
+      "tag": "DIV",
+      "cls": "monaco-editor",
+      "title": null,
+      "aria": null,
+      "text": "1\nTrace(2, \"wos4-demo-oncreate-0617\", \"ok\");",
+      "x": 349,
+      "y": 201,
+      "w": 1188,
+      "h": 671,
+      "hit": [
+        "wos"
+      ]
+    },
+    {
+      "i": 209,
+      "tag": "DIV",
+      "cls": "monaco-editor no-user-select  showUnused showDeprecated vs-dark focused",
+      "title": null,
+      "aria": null,
+      "text": "1\nTrace(2, \"wos4-demo-oncreate-0617\", \"ok\");",
+      "x": 349,
+      "y": 201,
+      "w": 1188,
+      "h": 671,
+      "hit": [
+        "wos"
+      ]
+    },
+    {
+      "i": 210,
+      "tag": "DIV",
+      "cls": "overflow-guard",
+      "title": null,
+      "aria": null,
+      "text": "1\nTrace(2, \"wos4-demo-oncreate-0617\", \"ok\");",
+      "x": 349,
+      "y": 201,
+      "w": 1188,
+      "h": 671,
+      "hit": [
+        "wos"
+      ]
+    },
+    {
+      "i": 219,
+      "tag": "DIV",
+      "cls": "monaco-scrollable-element editor-scrollable vs-dark",
+      "title": null,
+      "aria": null,
+      "text": "Trace(2, \"wos4-demo-oncreate-0617\", \"ok\");",
+      "x": 432,
+      "y": 201,
+      "w": 1105,
+      "h": 671,
+      "hit": [
+        "wos"
+      ]
+    },
+    {
+      "i": 220,
+      "tag": "DIV",
+      "cls": "lines-content monaco-editor-background",
+      "title": null,
+      "aria": null,
+      "text": "Trace(2, \"wos4-demo-oncreate-0617\", \"ok\");",
+      "x": 432,
+      "y": 201,
+      "w": 16777216,
+      "h": 16777215,
+      "hit": [
+        "wos"
+      ]
+    },
+    {
+      "i": 226,
+      "tag": "DIV",
+      "cls": "view-lines monaco-mouse-cursor-text",
+      "title": null,
+      "aria": null,
+      "text": "Trace(2, \"wos4-demo-oncreate-0617\", \"ok\");",
+      "x": 432,
+      "y": 201,
+      "w": 985,
+      "h": 671,
+      "hit": [
+        "wos"
+      ]
+    },
+    {
+      "i": 227,
+      "tag": "DIV",
+      "cls": "view-line",
+      "title": null,
+      "aria": null,
+      "text": "Trace(2, \"wos4-demo-oncreate-0617\", \"ok\");",
+      "x": 432,
+      "y": 201,
+      "w": 985,
+      "h": 19,
+      "hit": [
+        "wos"
+      ]
+    },
+    {
+      "i": 228,
+      "tag": "SPAN",
+      "cls": "",
+      "title": null,
+      "aria": null,
+      "text": "Trace(2, \"wos4-demo-oncreate-0617\", \"ok\");",
+      "x": 432,
+      "y": 201,
+      "w": 323.359375,
+      "h": 19,
+      "hit": [
+        "wos"
+      ]
+    },
+    {
+      "i": 234,
+      "tag": "SPAN",
+      "cls": "mtk5",
+      "title": null,
+      "aria": null,
+      "text": "\"wos4-demo-oncreate-0617\"",
+      "x": 501.3125,
+      "y": 202,
+      "w": 192.4375,
+      "h": 17,
+      "hit": [
+        "wos"
+      ]
+    },
+    {
+      "i": 315,
+      "tag": "DIV",
+      "cls": "editor-aside function-editor-property",
+      "title": null,
+      "aria": null,
+      "text": "属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0eb5ff6c-93d1-481f-96a4-1c8be6646531\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\n盛云_孙宇飞_仓库\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:",
+      "x": 1543,
+      "y": 55,
+      "w": 377,
+      "h": 844,
+      "hit": [
+        "提交"
+      ]
+    },
+    {
+      "i": 316,
+      "tag": "DIV",
+      "cls": "editor-aside-comp-container",
+      "title": null,
+      "aria": null,
+      "text": "属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0eb5ff6c-93d1-481f-96a4-1c8be6646531\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\n盛云_孙宇飞_仓库\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:",
+      "x": 1549,
+      "y": 67,
+      "w": 315,
+      "h": 832,
+      "hit": [
+        "提交"
+      ]
+    },
+    {
+      "i": 317,
+      "tag": "DIV",
+      "cls": "editor-aside-comp-item",
+      "title": null,
+      "aria": null,
+      "text": "属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0eb5ff6c-93d1-481f-96a4-1c8be6646531\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\n盛云_孙宇飞_仓库\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:",
+      "x": 1549,
+      "y": 67,
+      "w": 315,
+      "h": 832,
+      "hit": [
+        "提交"
+      ]
+    },
+    {
+      "i": 318,
+      "tag": "DIV",
+      "cls": "common-object-property property-panel",
+      "title": null,
+      "aria": null,
+      "text": "属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0eb5ff6c-93d1-481f-96a4-1c8be6646531\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\n盛云_孙宇飞_仓库\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:",
+      "x": 1549,
+      "y": 67,
+      "w": 315,
+      "h": 832,
+      "hit": [
+        "提交"
+      ]
+    },
+    {
+      "i": 319,
+      "tag": "DIV",
+      "cls": "property_area",
+      "title": null,
+      "aria": null,
+      "text": "属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0eb5ff6c-93d1-481f-96a4-1c8be6646531\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\n盛云_孙宇飞_仓库\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:",
+      "x": 1549,
+      "y": 67,
+      "w": 315,
+      "h": 832,
+      "hit": [
+        "提交"
+      ]
+    },
+    {
+      "i": 321,
+      "tag": "I",
+      "cls": "el-icon fold-btn cursor-pointer",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 1841,
+      "y": 77.5,
+      "w": 13,
+      "h": 13,
+      "hit": [
+        "icon",
+        "btn"
+      ]
+    },
+    {
+      "i": 322,
+      "tag": "DIV",
+      "cls": "main",
+      "title": null,
+      "aria": null,
+      "text": "基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0eb5ff6c-93d1-481f-96a4-1c8be6646531\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\n盛云_孙宇飞_仓库\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:",
+      "x": 1559,
+      "y": 112,
+      "w": 295,
+      "h": 777,
+      "hit": [
+        "提交"
+      ]
+    },
+    {
+      "i": 323,
+      "tag": "DIV",
+      "cls": "property-panel",
+      "title": null,
+      "aria": null,
+      "text": "基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0eb5ff6c-93d1-481f-96a4-1c8be6646531\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\n盛云_孙宇飞_仓库\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:",
+      "x": 1559,
+      "y": 112,
+      "w": 295,
+      "h": 777,
+      "hit": [
+        "提交"
+      ]
+    },
+    {
+      "i": 329,
+      "tag": "SPAN",
+      "cls": "el-radio-button__inner",
+      "title": null,
+      "aria": null,
+      "text": "基础信息",
+      "x": 1559,
+      "y": 112,
+      "w": 80,
+      "h": 30,
+      "hit": [
+        "button"
+      ]
+    },
+    {
+      "i": 334,
+      "tag": "DIV",
+      "cls": "el-scrollbar property-group-content",
+      "title": null,
+      "aria": null,
+      "text": "名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0eb5ff6c-93d1-481f-96a4-1c8be6646531\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\n盛云_孙宇飞_仓库\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:",
+      "x": 1559,
+      "y": 158,
+      "w": 295,
+      "h": 725,
+      "hit": [
+        "提交"
+      ]
+    },
+    {
+      "i": 335,
+      "tag": "DIV",
+      "cls": "el-scrollbar__wrap el-scrollbar__wrap--hidden-default",
+      "title": null,
+      "aria": null,
+      "text": "名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0eb5ff6c-93d1-481f-96a4-1c8be6646531\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\n盛云_孙宇飞_仓库\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:",
+      "x": 1559,
+      "y": 158,
+      "w": 295,
+      "h": 725,
+      "hit": [
+        "提交"
+      ]
+    },
+    {
+      "i": 336,
+      "tag": "DIV",
+      "cls": "el-scrollbar__view",
+      "title": null,
+      "aria": null,
+      "text": "名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0eb5ff6c-93d1-481f-96a4-1c8be6646531\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\n盛云_孙宇飞_仓库\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:",
+      "x": 1559,
+      "y": 158,
+      "w": 295,
+      "h": 481,
+      "hit": [
+        "提交"
+      ]
+    },
+    {
+      "i": 337,
+      "tag": "DIV",
+      "cls": "",
+      "title": null,
+      "aria": null,
+      "text": "名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0eb5ff6c-93d1-481f-96a4-1c8be6646531\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\n盛云_孙宇飞_仓库\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:",
+      "x": 1559,
+      "y": 158,
+      "w": 295,
+      "h": 481,
+      "hit": [
+        "提交"
+      ]
+    },
+    {
+      "i": 338,
+      "tag": "DIV",
+      "cls": "el-table--fit el-table--enable-row-hover el-table--enable-row-transition el-table--default el-table el-table--layout-fixed is-scrolling-none",
+      "title": null,
+      "aria": null,
+      "text": "名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0eb5ff6c-93d1-481f-96a4-1c8be6646531\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\n盛云_孙宇飞_仓库\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:",
+      "x": 1559,
+      "y": 158,
+      "w": 295,
+      "h": 481,
+      "hit": [
+        "提交"
+      ]
+    },
+    {
+      "i": 339,
+      "tag": "DIV",
+      "cls": "el-table__inner-wrapper",
+      "title": null,
+      "aria": null,
+      "text": "名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0eb5ff6c-93d1-481f-96a4-1c8be6646531\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\n盛云_孙宇飞_仓库\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:",
+      "x": 1559,
+      "y": 158,
+      "w": 295,
+      "h": 481,
+      "hit": [
+        "提交"
+      ]
+    },
+    {
+      "i": 344,
+      "tag": "DIV",
+      "cls": "el-table__body-wrapper",
+      "title": null,
+      "aria": null,
+      "text": "名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0eb5ff6c-93d1-481f-96a4-1c8be6646531\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\n盛云_孙宇飞_仓库\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:",
+      "x": 1559,
+      "y": 158,
+      "w": 295,
+      "h": 481,
+      "hit": [
+        "提交"
+      ]
+    },
+    {
+      "i": 345,
+      "tag": "DIV",
+      "cls": "el-scrollbar",
+      "title": null,
+      "aria": null,
+      "text": "名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0eb5ff6c-93d1-481f-96a4-1c8be6646531\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\n盛云_孙宇飞_仓库\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:",
+      "x": 1559,
+      "y": 158,
+      "w": 295,
+      "h": 481,
+      "hit": [
+        "提交"
+      ]
+    },
+    {
+      "i": 346,
+      "tag": "DIV",
+      "cls": "el-scrollbar__wrap el-scrollbar__wrap--hidden-default",
+      "title": null,
+      "aria": null,
+      "text": "名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0eb5ff6c-93d1-481f-96a4-1c8be6646531\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\n盛云_孙宇飞_仓库\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:",
+      "x": 1559,
+      "y": 158,
+      "w": 295,
+      "h": 481,
+      "hit": [
+        "提交"
+      ]
+    },
+    {
+      "i": 347,
+      "tag": "DIV",
+      "cls": "el-scrollbar__view",
+      "title": null,
+      "aria": null,
+      "text": "名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0eb5ff6c-93d1-481f-96a4-1c8be6646531\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\n盛云_孙宇飞_仓库\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:",
+      "x": 1559,
+      "y": 158,
+      "w": 295,
+      "h": 481,
+      "hit": [
+        "提交"
+      ]
+    },
+    {
+      "i": 405,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default is-link",
+      "title": null,
+      "aria": null,
+      "text": "上传",
+      "x": 1807,
+      "y": 389.46875,
+      "w": 34,
+      "h": 20,
+      "hit": [
+        "button"
+      ]
+    },
+    {
+      "i": 419,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "title": null,
+      "aria": null,
+      "text": "提交\n查看",
+      "x": 1687,
+      "y": 454,
+      "w": 162,
+      "h": 36,
+      "hit": [
+        "提交"
+      ]
+    },
+    {
+      "i": 420,
+      "tag": "DIV",
+      "cls": "",
+      "title": null,
+      "aria": null,
+      "text": "提交\n查看",
+      "x": 1761,
+      "y": 454,
+      "w": 80,
+      "h": 36,
+      "hit": [
+        "提交"
+      ]
+    },
+    {
+      "i": 421,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default is-link",
+      "title": null,
+      "aria": null,
+      "text": "提交",
+      "x": 1761,
+      "y": 463.46875,
+      "w": 34,
+      "h": 20,
+      "hit": [
+        "提交",
+        "button"
+      ]
+    },
+    {
+      "i": 422,
+      "tag": "SPAN",
+      "cls": "",
+      "title": null,
+      "aria": null,
+      "text": "提交",
+      "x": 1764,
+      "y": 466.46875,
+      "w": 28,
+      "h": 14,
+      "hit": [
+        "提交"
+      ]
+    },
+    {
+      "i": 423,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default is-link",
+      "title": null,
+      "aria": null,
+      "text": "查看",
+      "x": 1807,
+      "y": 463.46875,
+      "w": 34,
+      "h": 20,
+      "hit": [
+        "button"
+      ]
+    },
+    {
+      "i": 503,
+      "tag": "DIV",
+      "cls": "editor-aside-btn-container",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "x": 1870,
+      "y": 67,
+      "w": 50,
+      "h": 832,
+      "hit": [
+        "btn"
+      ]
+    },
+    {
+      "i": 504,
+      "tag": "DIV",
+      "cls": "el-icon-editor-property-light fu-right-menu-item",
+      "title": "属性",
+      "aria": null,
+      "text": "",
+      "x": 1870,
+      "y": 67,
+      "w": 50,
+      "h": 50,
+      "hit": [
+        "icon"
+      ]
+    },
+    {
+      "i": 505,
+      "tag": "DIV",
+      "cls": "el-icon-editor-member fu-right-menu-item",
+      "title": "成员",
+      "aria": null,
+      "text": "",
+      "x": 1870,
+      "y": 117,
+      "w": 50,
+      "h": 50,
+      "hit": [
+        "icon"
+      ]
+    },
+    {
+      "i": 506,
+      "tag": "DIV",
+      "cls": "icon iconfont-WOS45 icon-WOS45-shishishujuzhanxian",
+      "title": "数据依赖",
+      "aria": null,
+      "text": "",
+      "x": 1870,
+      "y": 167,
+      "w": 50,
+      "h": 50,
+      "hit": [
+        "icon"
+      ]
+    }
+  ]
+}

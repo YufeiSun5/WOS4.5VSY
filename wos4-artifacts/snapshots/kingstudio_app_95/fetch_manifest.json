@@ -1,0 +1,61 @@
+{
+  "finishedAt": "2026-06-12T05:17:07.409Z",
+  "scripts": [
+    "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/config.js?t=1778745025025",
+    "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/index-e38b6f82.js",
+    "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/polyfills-legacy-11ef625c.js"
+  ],
+  "results": [
+    {
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/config.js?t=1778745025025",
+      "file": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\snapshots\\kingstudio_app_95\\a882f412-06f7-4256-930d-571048dc3933_95_config.js_t_1778745025025",
+      "length": 260,
+      "includes": {
+        "upgrade": false,
+        "export": false,
+        "publish": false,
+        "appCreate": false
+      }
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/index-e38b6f82.js",
+      "file": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\snapshots\\kingstudio_app_95\\js_index-e38b6f82.js",
+      "length": 409648,
+      "includes": {
+        "upgrade": true,
+        "export": true,
+        "publish": true,
+        "appCreate": true
+      }
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/polyfills-legacy-11ef625c.js",
+      "file": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\snapshots\\kingstudio_app_95\\js_polyfills-legacy-11ef625c.js",
+      "length": 96878,
+      "includes": {
+        "upgrade": false,
+        "export": false,
+        "publish": false,
+        "appCreate": false
+      }
+    }
+  ],
+  "reqs": [
+    "http://221.239.19.118:13001/public/?id=6192730962611142708&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+    "http://221.239.19.118:13001/public/assets/index-87d8f399.js",
+    "http://221.239.19.118:13001/public/assets/index-c248d495.css",
+    "http://221.239.19.118:13001/public/config.json",
+    "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js",
+    "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js",
+    "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html",
+    "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/config.js?t=1778745025025",
+    "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/index-e38b6f82.js",
+    "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/index-3a2516c0.css",
+    "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/MainView-dec51b4b.js",
+    "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/_plugin-vue_export-helper-c27b6911.js",
+    "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/MainView-e7b601e3.css",
+    "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/config.js?t=1778745025025",
+    "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/index-e38b6f82.js",
+    "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/polyfills-legacy-11ef625c.js"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "messages": [
+    {
+      "kind": "mutation",
+      "text": "保存(Ctrl+S)",
+      "extra": {
+        "className": "el-tooltip__popper is-dark el-fade-in-linear-enter el-fade-in-linear-enter-active"
+      },
+      "t": 1782111710087
+    },
+    {
+      "kind": "mutation",
+      "text": "保存中,请稍后 ! ! !",
+      "extra": {
+        "className": "el-loading-mask is-fullscreen"
+      },
+      "t": 1782111710326
+    },
+    {
+      "kind": "mutation",
+      "text": "保存成功",
+      "extra": {
+        "className": "el-message"
+      },
+      "t": 1782111711832
+    }
+  ],
+  "console": []
+}

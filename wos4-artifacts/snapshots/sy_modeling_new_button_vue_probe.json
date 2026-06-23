@@ -1,0 +1,537 @@
+{
+  "buttonPath": [
+    {
+      "tag": "BUTTON",
+      "cls": "el-button el-button--primary el-button--medium propertyStyle",
+      "text": "新建",
+      "attrs": [
+        [
+          "data-v-1ed2a00d",
+          ""
+        ],
+        [
+          "type",
+          "button"
+        ],
+        [
+          "class",
+          "el-button el-button--primary el-button--medium propertyStyle"
+        ],
+        [
+          "style",
+          "height: 100%; width: 100%; padding: 0px; position: absolute;"
+        ]
+      ],
+      "vueKeys": [
+        "$createElement",
+        "handleClick"
+      ],
+      "vueDataKeys": [],
+      "vueMethods": [
+        "handleClick"
+      ]
+    },
+    {
+      "tag": "DIV",
+      "cls": "component_object 新建按钮",
+      "text": "新建",
+      "attrs": [
+        [
+          "data-v-1ed2a00d",
+          ""
+        ],
+        [
+          "data-v-5cf23eb3",
+          ""
+        ],
+        [
+          "id",
+          "kce80968b9c674f79fc65482685a7b6c"
+        ],
+        [
+          "class",
+          "component_object 新建按钮"
+        ],
+        [
+          "tabindex",
+          "0"
+        ],
+        [
+          "colwidth",
+          "80"
+        ],
+        [
+          "colheight",
+          "34"
+        ],
+        [
+          "layerguid",
+          "0c79c07f_d539_4808_84c5_e4f36a1ea285"
+        ],
+        [
+          "parentguid",
+          "kb21c23507465327f4235fdfa12864ad"
+        ],
+        [
+          "style",
+          "text-align: left;"
+        ]
+      ],
+      "vueKeys": [
+        "$createElement",
+        "handleParentItem",
+        "handleClickBadge",
+        "handleEvent"
+      ],
+      "vueDataKeys": [],
+      "vueMethods": [
+        "handleParentItem",
+        "handleClickBadge"
+      ]
+    },
+    {
+      "tag": "DIV",
+      "cls": "pointer_auto",
+      "text": "新建",
+      "attrs": [
+        [
+          "data-v-5cf23eb3",
+          ""
+        ],
+        [
+          "class",
+          "pointer_auto"
+        ],
+        [
+          "style",
+          "width: 100%; height: 100%;"
+        ]
+      ],
+      "vueKeys": [],
+      "vueDataKeys": [],
+      "vueMethods": []
+    },
+    {
+      "tag": "DIV",
+      "cls": "ui_factory",
+      "text": "新建",
+      "attrs": [
+        [
+          "data-v-5cf23eb3",
+          ""
+        ],
+        [
+          "data-v-6868b17b",
+          ""
+        ],
+        [
+          "class",
+          "ui_factory"
+        ],
+        [
+          "style",
+          "transform: matrix(1, 0, 0, 1, 0, 0);"
+        ]
+      ],
+      "vueKeys": [
+        "$createElement",
+        "handleSelect",
+        "handleSelectItem",
+        "handleParentItem",
+        "handleChildItem",
+        "openLinkEditor"
+      ],
+      "vueDataKeys": [],
+      "vueMethods": [
+        "handleSelect",
+        "handleSelectItem",
+        "handleParentItem",
+        "handleChildItem",
+        "openLinkEditor"
+      ]
+    },
+    {
+      "tag": "DIV",
+      "cls": "component_object_unselect",
+      "text": "新建",
+      "attrs": [
+        [
+          "data-v-6868b17b",
+          ""
+        ],
+        [
+          "class",
+          "component_object_unselect"
+        ],
+        [
+          "style",
+          "width: 80px; height: 34px; transform: scale(1); transform-origin: left top;"
+        ]
+      ],
+      "vueKeys": [],
+      "vueDataKeys": [],
+      "vueMethods": []
+    },
+    {
+      "tag": "DIV",
+      "cls": "",
+      "text": "新建",
+      "attrs": [
+        [
+          "data-v-6868b17b",
+          ""
+        ],
+        [
+          "data-v-0be8d4dd",
+          ""
+        ],
+        [
+          "id",
+          "kb21c23507465327f4235fdfa12864ad"
+        ],
+        [
+          "tabindex",
+          ""
+        ],
+        [
+          "class",
+          ""
+        ],
+        [
+          "style",
+          "height: 34px; width: 80px; margin: 0px 0px 0px 5px; position: relative;"
+        ]
+      ],
+      "vueKeys": [
+        "$createElement",
+        "setColShow",
+        "getColShow",
+        "setColVisible",
+        "getColVisible",
+        "setResponseShow",
+        "setResponseShowXS",
+        "setResponseShowSM",
+        "setResponseShowMD",
+        "setResponseShowLG",
+        "setResponseShowXL",
+        "getResponseShow",
+        "addlinkList",
+        "handleVisibleCondition",
+        "setColAnimationToShow",
+        "setColAnimationNotShow",
+        "onParamPopOpen",
+        "onCopy",
+        "addChild",
+        "addSprite",
+        "copyColSelf",
+        "handleDelete",
+        "handleSelectItem",
+        "createNewAppId",
+        "handleSelect",
+        "handlePaste",
+        "handleAppAlreadyRender",
+        "CreateUIObject",
+        "CreateChartObject",
+        "handleColStartResize",
+        "handleColStopResize",
+        "handleParentItem",
+        "handleChildItem",
+        "handleColBackGroundColor",
+        "_copyPasteFlowApp",
+        "visibleAnimateStyle",
+        "rightAddLine",
+        "leftAddLine",
+        "isNewObject"
+      ],
+      "vueDataKeys": [
+        "isNewObject",
+        "leftAddLine",
+        "rightAddLine"
+      ],
+      "vueMethods": [
+        "setColShow",
+        "getColShow",
+        "setColVisible",
+        "getColVisible",
+        "setResponseShow",
+        "setResponseShowXS",
+        "setResponseShowSM",
+        "setResponseShowMD",
+        "setResponseShowLG",
+        "setResponseShowXL",
+        "getResponseShow",
+        "addlinkList",
+        "handleVisibleCondition",
+        "setColAnimationToShow",
+        "setColAnimationNotShow",
+        "onParamPopOpen",
+        "onCopy",
+        "addChild",
+        "addSprite",
+        "copyColSelf",
+        "handleDelete",
+        "handleSelectItem",
+        "createNewAppId",
+        "handleSelect",
+        "handlePaste",
+        "handleAppAlreadyRender",
+        "CreateUIObject",
+        "CreateChartObject",
+        "handleColStartResize",
+        "handleColStopResize",
+        "handleParentItem",
+        "handleChildItem",
+        "handleColBackGroundColor",
+        "_copyPasteFlowApp",
+        "visibleAnimateStyle"
+      ]
+    },
+    {
+      "tag": "SPAN",
+      "cls": "",
+      "text": "模型列表\n\n新建\n更多操作",
+      "attrs": [
+        [
+          "data-v-0be8d4dd",
+          ""
+        ],
+        [
+          "style",
+          "display: flex; flex-wrap: wrap; flex-grow: 1; justify-content: flex-start;"
+        ]
+      ],
+      "vueKeys": [
+        "$createElement"
+      ],
+      "vueDataKeys": [],
+      "vueMethods": []
+    },
+    {
+      "tag": "DIV",
+      "cls": "response_row",
+      "text": "模型列表\n\n新建\n更多操作",
+      "attrs": [
+        [
+          "data-v-0be8d4dd",
+          ""
+        ],
+        [
+          "data-v-07e088b2",
+          ""
+        ],
+        [
+          "id",
+          "k1922fc99f2ce6294cedcbe200a4e70f"
+        ],
+        [
+          "class",
+          "response_row"
+        ],
+        [
+          "style",
+          "margin: 10px 20px 0px; height: 38px; position: relative;"
+        ]
+      ],
+      "vueKeys": [
+        "$createElement",
+        "setRowShow",
+        "getRowShow",
+        "setRowVisible",
+        "getRowVisible",
+        "dragAndCopyCols",
+        "addlinkList",
+        "handleVisibleCondition",
+        "setRowAnimationToShow",
+        "setRowAnimationNotShow",
+        "onCopy",
+        "handleDelete",
+        "handleDeleteCols",
+        "handleSelectItem",
+        "addCol",
+        "copyRowSelf",
+        "createNewAppId",
+        "handleRowResize",
+        "handleRowStartResize",
+        "handleRowStopResize",
+        "handleParentItem",
+        "handleChildItem",
+        "visibleAnimateStyle",
+        "bottomAddLine",
+        "topAddLine"
+      ],
+      "vueDataKeys": [
+        "topAddLine",
+        "bottomAddLine"
+      ],
+      "vueMethods": [
+        "setRowShow",
+        "getRowShow",
+        "setRowVisible",
+        "getRowVisible",
+        "dragAndCopyCols",
+        "addlinkList",
+        "handleVisibleCondition",
+        "setRowAnimationToShow",
+        "setRowAnimationNotShow",
+        "onCopy",
+        "handleDelete",
+        "handleDeleteCols",
+        "handleSelectItem",
+        "addCol",
+        "copyRowSelf",
+        "createNewAppId",
+        "handleRowResize",
+        "handleRowStartResize",
+        "handleRowStopResize",
+        "handleParentItem",
+        "handleChildItem",
+        "visibleAnimateStyle"
+      ]
+    }
+  ],
+  "allVue": [
+    {
+      "tag": "DIV",
+      "cls": "client_run",
+      "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\nempty\n共 0 条\n<1>前往页",
+      "dataKeys": [
+        "showPageList",
+        "currentShow"
+      ],
+      "methods": [
+        "handleAlreadyRender",
+        "showPage",
+        "ShowPageByID",
+        "showDrawer",
+        "_add",
+        "_getPageInfoByPageCopyID",
+        "_getShowPageByName",
+        "pageBeforeOpen",
+        "ShowPicture",
+        "ShowAlert",
+        "ShowLoading",
+        "ShowMessage",
+        "ShowMsgBox",
+        "ShowNotification",
+        "ShowPicker",
+        "ShowCascader",
+        "ShowActionSheet",
+        "ShowCalendar",
+        "ShowDateTimePicker",
+        "ShowLoadingEx"
+      ],
+      "propKeys": []
+    },
+    {
+      "tag": "UL",
+      "cls": "",
+      "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\nempty\n共 0 条\n<1>前往页",
+      "dataKeys": [],
+      "methods": [],
+      "propKeys": []
+    },
+    {
+      "tag": "DIV",
+      "cls": "ksc_page_run",
+      "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\nempty\n共 0 条\n<1>前往页",
+      "dataKeys": [],
+      "methods": [
+        "pageBeforeOpen"
+      ],
+      "propKeys": []
+    },
+    {
+      "tag": "DIV",
+      "cls": "page_running",
+      "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\nempty\n共 0 条\n<1>前往页",
+      "dataKeys": [],
+      "methods": [
+        "handleAlreadyRender"
+      ],
+      "propKeys": []
+    },
+    {
+      "tag": "DIV",
+      "cls": "page_view_container client_page_view_container",
+      "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\nempty\n共 0 条\n<1>前往页",
+      "dataKeys": [
+        "$dynamicDialogIns",
+        "showAlert"
+      ],
+      "methods": [
+        "ShowPage",
+        "ShowChild",
+        "ShowChildByID",
+        "ShowDrawer",
+        "ShowPageByID",
+        "ShowAlert",
+        "ShowLoading",
+        "ShowMessage",
+        "ShowMsgBox",
+        "ShowNotification",
+        "CreateRowObject",
+        "CreateFieldObject",
+        "SetLayerVisible",
+        "ShowPicker",
+        "ShowCascader",
+        "ShowActionSheet",
+        "ShowCalendar",
+        "ShowDateTimePicker",
+        "ShowLoadingEx",
+        "CreateZPLData",
+        "pageBeforeOpen",
+        "ShowPicture",
+        "__getCopyInfo",
+        "handleAlreadyRender"
+      ],
+      "propKeys": []
+    },
+    {
+      "tag": "DIV",
+      "cls": "page_view",
+      "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\nempty\n共 0 条\n<1>前往页",
+      "dataKeys": [
+        "showPageList",
+        "evalCreatedFlag"
+      ],
+      "methods": [
+        "showPageCallback",
+        "addUIOutputLinkList",
+        "addUIComponentStyleSheet",
+        "createObjectTree",
+        "onCreate",
+        "onShowing",
+        "handleSelectItem"
+      ],
+      "propKeys": []
+    },
+    {
+      "tag": "DIV",
+      "cls": "layer_view",
+      "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\nempty\n共 0 条\n<1>前往页",
+      "dataKeys": [],
+      "methods": [
+        "setLayerVisibleAnimation",
+        "handleSelectItem"
+      ],
+      "propKeys": []
+    }
+  ],
+  "globals": [
+    "clientInformation",
+    "onappinstalled",
+    "oncontextrestored",
+    "createImageBitmap",
+    "Create",
+    "AsyncCreate",
+    "createBond",
+    "webpackChunkapp_master",
+    "$StoreMap",
+    "__runtimeVue",
+    "__runtimeVue__",
+    "Vue",
+    "$store",
+    "$ClientProject",
+    "CLIENTRUNINSTANCE"
+  ]
+}

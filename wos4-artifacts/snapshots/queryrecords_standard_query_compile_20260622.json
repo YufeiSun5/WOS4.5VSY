@@ -1,0 +1,642 @@
+{
+  "ok": true,
+  "bodyText": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\nQueryRecords\n\nInsertRecord\n\nUpdateRecord\n\n当前模型: DemoCrudBackend_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nonDestroy\nonException\nQueryRecords\nInsertRecord\nUpdateRecord\n名称:\n输入参数:\n返回值类型:\n15\n12\n13\n14\n10\n11\n7\n8\n9\n4\n5\n6\n2\n3\n1\nstring filter = strmapPara.filter;\nstringMap<var> debugInfo;\ndebugInfo[\"functionName\"] = \"QueryRecords\";\nstring errormsg = \"\";\nreturnData[\"errormsg\"] = \"ok\";\nstringMap<var> returnData;\nreturnData[\"errorcode\"] = SUCCESS_CODE;\nint32 INTERNAL_ERROR_CODE = 0 - errorCodeEnum::INTERNAL_ERROR_CODE;\nint32 cloudID = getLocalCloudID();\nstring OBJECT_NAME = \"DemoRecord\";\nint32 SUCCESS_CODE = errorCodeEnum::SUCCESS_CODE;\nATrace(2, \"QueryRecords.enter\", strmapPara);\n编译信息\n\n*QueryRecords*: FATAL: 0;ERROR: 10;WARNING: 0;\n\nERROR\n\nerrorCode:604013821错误行:1;错误列:1错误信息:ATrace - can not find the identifier.\n\nerrorCode:604013675错误行:3;错误列:21错误信息:errorCodeEnum - enum not been define !\n\nerrorCode:604013675错误行:4;错误列:32错误信息:errorCodeEnum - enum not been define !\n\nerrorCode:604013821错误行:9;错误列:26错误信息:SUCCESS_CODE - can not find the identifier.\n\nerrorCode:604013675错误行:22;错误列:20错误信息:Enum_Plan_Type - enum not been define !\n\nerrorCode:604013675错误行:24;错误列:30错误信息:RTENUM_MODE - enum not been define !\n\nerrorCode:604013675错误行:25;错误列:40错误信息:enumIdentifierType - enum not been define !\n\nerrorCode:604013675错误行:28;错误列:24错误信息:RTENUM_MODE - enum not been define !\n\nerrorCode:604013675错误行:29;错误列:28错误信息:RTENUM_MODE - enum not been define !\n\nerrorCode:604013821错误行:42;错误列:8错误信息:SUCCESS_CODE - can not find the identifier.\n\n行：87，列：191，\n空格：4\n元语言\n属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n0 / 128\n\n\nID:\n1441151880758559679\n\n\nGUID:\n478c5219-9a87-4038-94cb-574514ae6d82\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\nKingFusion4.5_V1/产品仓库/KF4.5产品/KF4.5数字孪生模型/管控单元模型/盛云_孙宇飞_后台_CRUDDemo_0620\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:\n无法在只读编辑器中编辑",
+  "inputs": [
+    {
+      "i": 0,
+      "placeholder": "请输入功能名称",
+      "value": "",
+      "rect": {
+        "x": 73,
+        "y": 71,
+        "w": 218,
+        "h": 30
+      }
+    },
+    {
+      "i": 1,
+      "placeholder": "请输入功能名称",
+      "value": "declare",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 2,
+      "placeholder": "参数用,隔开，如int a, int b",
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 3,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 4,
+      "placeholder": "请输入功能名称",
+      "value": "onCreate",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 5,
+      "placeholder": "参数用,隔开，如int a, int b",
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 6,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 7,
+      "placeholder": "请输入功能名称",
+      "value": "onDestroy",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 8,
+      "placeholder": "参数用,隔开，如int a, int b",
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 9,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 10,
+      "placeholder": "请输入功能名称",
+      "value": "onException",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 11,
+      "placeholder": "参数用,隔开，如int a, int b",
+      "value": "stringMap<var> message",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 12,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 13,
+      "placeholder": "请输入功能名称",
+      "value": "QueryRecords",
+      "rect": {
+        "x": 414.90625,
+        "y": 104,
+        "w": 170,
+        "h": 30
+      }
+    },
+    {
+      "i": 14,
+      "placeholder": "参数用,隔开，如int a, int b",
+      "value": "stringMap<var> strmapPara",
+      "rect": {
+        "x": 700.8125,
+        "y": 104,
+        "w": 170,
+        "h": 30
+      }
+    },
+    {
+      "i": 15,
+      "placeholder": null,
+      "value": "stringMap<var>",
+      "rect": {
+        "x": 1011.71875,
+        "y": 104,
+        "w": 170,
+        "h": 30
+      }
+    },
+    {
+      "i": 16,
+      "placeholder": "请输入功能名称",
+      "value": "InsertRecord",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 17,
+      "placeholder": "参数用,隔开，如int a, int b",
+      "value": "string payload",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 18,
+      "placeholder": null,
+      "value": "string",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 19,
+      "placeholder": "请输入功能名称",
+      "value": "UpdateRecord",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 20,
+      "placeholder": "参数用,隔开，如int a, int b",
+      "value": "string payload",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 21,
+      "placeholder": null,
+      "value": "string",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 22,
+      "placeholder": null,
+      "value": "                                            returnData[\"statisticsList\"] = statisticsList;\n                                                                                                                                                                            Trace(2, \"QueryRecords.result\", returnData);\n                                                                                                                                                                            return returnData;",
+      "rect": {
+        "x": 349,
+        "y": 146,
+        "w": 1,
+        "h": 1
+      }
+    },
+    {
+      "i": 23,
+      "placeholder": null,
+      "value": "common.property.baseInfo",
+      "rect": {
+        "x": 1256,
+        "y": 60,
+        "w": 13,
+        "h": 13
+      }
+    },
+    {
+      "i": 24,
+      "placeholder": null,
+      "value": "DemoCrudBackend_CUSTOMFUNC",
+      "rect": {
+        "x": 1387,
+        "y": 106,
+        "w": 146,
+        "h": 30
+      }
+    },
+    {
+      "i": 25,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 26,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 27,
+      "placeholder": null,
+      "value": "DemoCrudBackend_CUSTOMFUNC",
+      "rect": {
+        "x": 1387,
+        "y": 143,
+        "w": 146,
+        "h": 30
+      }
+    },
+    {
+      "i": 28,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 29,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 30,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 1387,
+        "y": 180,
+        "w": 93.265625,
+        "h": 30
+      }
+    },
+    {
+      "i": 31,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 32,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 33,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 34,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 35,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 36,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 37,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 38,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 39,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 40,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 41,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 42,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 43,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 44,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 45,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 46,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 47,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 1387,
+        "y": 476,
+        "w": 146,
+        "h": 30
+      }
+    },
+    {
+      "i": 48,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 49,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 50,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 1387,
+        "y": 513,
+        "w": 146,
+        "h": 30
+      }
+    },
+    {
+      "i": 51,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 52,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 53,
+      "placeholder": null,
+      "value": "customfunc-runtime-call-submit-20260622",
+      "rect": {
+        "x": 1387,
+        "y": 550,
+        "w": 146,
+        "h": 30
+      }
+    },
+    {
+      "i": 54,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 55,
+      "placeholder": null,
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "i": 56,
+      "placeholder": null,
+      "value": "on",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    }
+  ],
+  "panels": [
+    {
+      "i": 0,
+      "cls": "compile-message-item w100 editor-message-debug-item",
+      "text": "*QueryRecords*: FATAL: 0;ERROR: 10;WARNING: 0;\n\nERROR\n\nerrorCode:604013821错误行:1;错误列:1错误信息:ATrace - can not find the identifier.\n\nerrorCode:604013675错误行:3;错误列:21错误信息:errorCodeEnum - enum not been define !\n\nerrorCode:604013675错误行:4;错误列:32错误信息:errorCodeEnum - enum not been define !\n\nerrorCode:604013821错误行:9;错误列:26错误信息:SUCCESS_CODE - can not find the identifier.\n\nerrorCode:604013675错误行:22;错误列:20错误信息:Enum_Plan_Type - enum not been define !\n\nerrorCode:604013675错误行:24;错误列:30错误信息:RTENUM_MODE - enum not been define !\n\nerrorCode:604013675错误行:25;错误列:40错误信息:enumIdentifierType - enum not been define !\n\nerrorCode:604013675错误行:28;错误列:24错误信息:RTENUM_MODE - enum not been define !\n\nerrorCode:604013675错误行:29;错误列:28错误信息:RTENUM_MODE - enum not been define !\n\nerrorCode:604013821错误行:42;错误列:8错误信息:SUCCESS_CODE - can not find the identifier."
+    }
+  ],
+  "hasStop": false,
+  "hasStart": true
+}

@@ -1,0 +1,29 @@
+{
+  "start": 1782100167743,
+  "messages": [],
+  "console": [],
+  "calls": [
+    {
+      "callInfo": {
+        "funcname": "IQueryRepoPacketsList",
+        "name": "运维部署管理_配置后台"
+      },
+      "ret": 0,
+      "errorcodes": [
+        0
+      ],
+      "returndata": {
+        "errorcode": 0,
+        "errormsg": "success",
+        "repopktversionlist": [
+          1
+        ]
+      },
+      "ms": 97,
+      "t": 1782100167881
+    }
+  ],
+  "errors": [],
+  "done": false,
+  "injected": true
+}

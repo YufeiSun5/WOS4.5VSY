@@ -1,0 +1,1328 @@
+{
+  "ok": true,
+  "finishedAt": "2026-06-12T05:15:51.062Z",
+  "log": [
+    {
+      "at": "2026-06-12T05:15:43.098Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/wellinos/loginsvcuserbyrole"
+    },
+    {
+      "at": "2026-06-12T05:15:43.136Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/wellinos/loginsvcuserbyrole"
+    },
+    {
+      "at": "2026-06-12T05:15:43.140Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:43.184Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:43.717Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:43.717Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:43.717Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:45.279Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:45.279Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:45.279Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:45.293Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Update"
+    },
+    {
+      "at": "2026-06-12T05:15:45.293Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:45.385Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:45.450Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Update"
+    },
+    {
+      "at": "2026-06-12T05:15:46.492Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/?id=6192730962611142708&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true"
+    },
+    {
+      "at": "2026-06-12T05:15:46.549Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/?id=6192730962611142708&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true"
+    },
+    {
+      "at": "2026-06-12T05:15:46.552Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js"
+    },
+    {
+      "at": "2026-06-12T05:15:46.552Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css"
+    },
+    {
+      "at": "2026-06-12T05:15:46.552Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/config.json"
+    },
+    {
+      "at": "2026-06-12T05:15:46.584Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/config.json"
+    },
+    {
+      "at": "2026-06-12T05:15:46.585Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css"
+    },
+    {
+      "at": "2026-06-12T05:15:47.985Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js"
+    },
+    {
+      "at": "2026-06-12T05:15:47.988Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js"
+    },
+    {
+      "at": "2026-06-12T05:15:48.010Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js"
+    },
+    {
+      "at": "2026-06-12T05:15:48.011Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:48.026Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js"
+    },
+    {
+      "at": "2026-06-12T05:15:48.041Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:48.047Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html"
+    },
+    {
+      "at": "2026-06-12T05:15:48.049Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js"
+    },
+    {
+      "at": "2026-06-12T05:15:48.091Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html"
+    },
+    {
+      "at": "2026-06-12T05:15:48.094Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/config.js?t=1778745025025"
+    },
+    {
+      "at": "2026-06-12T05:15:48.094Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/index-e38b6f82.js"
+    },
+    {
+      "at": "2026-06-12T05:15:48.094Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/index-3a2516c0.css"
+    },
+    {
+      "at": "2026-06-12T05:15:48.131Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/config.js?t=1778745025025"
+    },
+    {
+      "at": "2026-06-12T05:15:48.140Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/index-3a2516c0.css"
+    },
+    {
+      "at": "2026-06-12T05:15:48.301Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:48.336Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:48.499Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/index-e38b6f82.js"
+    },
+    {
+      "at": "2026-06-12T05:15:48.512Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/MainView-dec51b4b.js"
+    },
+    {
+      "at": "2026-06-12T05:15:48.512Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/_plugin-vue_export-helper-c27b6911.js"
+    },
+    {
+      "at": "2026-06-12T05:15:48.512Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/MainView-e7b601e3.css"
+    },
+    {
+      "at": "2026-06-12T05:15:48.628Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/_plugin-vue_export-helper-c27b6911.js"
+    },
+    {
+      "at": "2026-06-12T05:15:48.629Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/css/MainView-e7b601e3.css"
+    },
+    {
+      "at": "2026-06-12T05:15:49.453Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/MainView-dec51b4b.js"
+    },
+    {
+      "at": "2026-06-12T05:15:49.544Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:49.544Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:49.547Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:49.550Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:49.550Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:49.551Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:49.583Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:49.583Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:49.592Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:49.623Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:49.623Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:49.653Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:49.655Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:49.685Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:50.180Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:50.211Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:50.285Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:50.291Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:50.296Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:50.325Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:50.399Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:50.437Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:50.437Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:50.473Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:50.682Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:50.718Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:50.718Z",
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "at": "2026-06-12T05:15:50.752Z",
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    }
+  ],
+  "data": {
+    "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html#/running",
+    "bodyText": "KingStudio\n简体中文\n关于\n产品管理\n升级拷贝1\n建模管理\n产品组装\n新增\n删除\n建模\n新建\n删除\n复制\n移动\n导入\n导出\n添加依赖\n升级拷贝\n全部\n测试\nCodex临时功能单元_Node_0611\n回收站\n全选\n共 2 条\n1\n前往\n页",
+    "scripts": [
+      "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/config.js?t=1778745025025",
+      "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/index-e38b6f82.js",
+      "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/static/js/polyfills-legacy-11ef625c.js"
+    ],
+    "matches": [
+      {
+        "label": "新建",
+        "tag": "DIV",
+        "cls": "button-div",
+        "text": "新建",
+        "rect": {
+          "x": 335,
+          "y": 94,
+          "w": 71,
+          "h": 32
+        },
+        "path": "section.el-container.work-space-main > main.el-main.work-space-model > header.el-header.work-space-model-header > div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "新建",
+        "tag": "BUTTON",
+        "cls": "el-button el-button--default iconfont icon-tianjia",
+        "text": "新建",
+        "rect": {
+          "x": 335,
+          "y": 94,
+          "w": 70,
+          "h": 32
+        },
+        "path": "main.el-main.work-space-model > header.el-header.work-space-model-header > div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div > button.el-button.el-button--default.iconfont.icon-tianjia",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": "false"
+        }
+      },
+      {
+        "label": "新建",
+        "tag": "SPAN",
+        "cls": "",
+        "text": "新建",
+        "rect": {
+          "x": 347.5,
+          "y": 103,
+          "w": 48,
+          "h": 14
+        },
+        "path": "header.el-header.work-space-model-header > div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div > button.el-button.el-button--default.iconfont.icon-tianjia > span",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "新建",
+        "tag": "SPAN",
+        "cls": "",
+        "text": "新建",
+        "rect": {
+          "x": 367.5,
+          "y": 103,
+          "w": 28,
+          "h": 14
+        },
+        "path": "div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div > button.el-button.el-button--default.iconfont.icon-tianjia > span > span",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "删除",
+        "tag": "BUTTON",
+        "cls": "el-button el-button--text el-button--default",
+        "text": "删除",
+        "rect": {
+          "x": 76,
+          "y": 169,
+          "w": 46,
+          "h": 32
+        },
+        "path": "div.h100.w100 > section.el-container.work-space-main > aside.el-aside.work-space-tree > section.el-container.is-vertical.repository-tree-view > header.el-header.third-header > button.el-button.el-button--text.el-button--default",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": "false"
+        }
+      },
+      {
+        "label": "删除",
+        "tag": "SPAN",
+        "cls": "",
+        "text": "删除",
+        "rect": {
+          "x": 77,
+          "y": 178,
+          "w": 44,
+          "h": 14
+        },
+        "path": "section.el-container.work-space-main > aside.el-aside.work-space-tree > section.el-container.is-vertical.repository-tree-view > header.el-header.third-header > button.el-button.el-button--text.el-button--default > span",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "删除",
+        "tag": "DIV",
+        "cls": "button-div",
+        "text": "删除",
+        "rect": {
+          "x": 406,
+          "y": 94,
+          "w": 71,
+          "h": 32
+        },
+        "path": "section.el-container.work-space-main > main.el-main.work-space-model > header.el-header.work-space-model-header > div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "删除",
+        "tag": "BUTTON",
+        "cls": "el-button el-button--default iconfont icon-shanchu",
+        "text": "删除",
+        "rect": {
+          "x": 406,
+          "y": 94,
+          "w": 70,
+          "h": 32
+        },
+        "path": "main.el-main.work-space-model > header.el-header.work-space-model-header > div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div > button.el-button.el-button--default.iconfont.icon-shanchu",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": "false"
+        }
+      },
+      {
+        "label": "删除",
+        "tag": "SPAN",
+        "cls": "",
+        "text": "删除",
+        "rect": {
+          "x": 418.5,
+          "y": 103,
+          "w": 48,
+          "h": 14
+        },
+        "path": "header.el-header.work-space-model-header > div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div > button.el-button.el-button--default.iconfont.icon-shanchu > span",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "删除",
+        "tag": "SPAN",
+        "cls": "",
+        "text": "删除",
+        "rect": {
+          "x": 438.5,
+          "y": 103,
+          "w": 28,
+          "h": 14
+        },
+        "path": "div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div > button.el-button.el-button--default.iconfont.icon-shanchu > span > span",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "复制",
+        "tag": "DIV",
+        "cls": "button-div",
+        "text": "复制",
+        "rect": {
+          "x": 477,
+          "y": 94,
+          "w": 71,
+          "h": 32
+        },
+        "path": "section.el-container.work-space-main > main.el-main.work-space-model > header.el-header.work-space-model-header > div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "复制",
+        "tag": "BUTTON",
+        "cls": "el-button el-button--default iconfont icon-fuzhi",
+        "text": "复制",
+        "rect": {
+          "x": 477,
+          "y": 94,
+          "w": 70,
+          "h": 32
+        },
+        "path": "main.el-main.work-space-model > header.el-header.work-space-model-header > div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div > button.el-button.el-button--default.iconfont.icon-fuzhi",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": "false"
+        }
+      },
+      {
+        "label": "复制",
+        "tag": "SPAN",
+        "cls": "",
+        "text": "复制",
+        "rect": {
+          "x": 489.5,
+          "y": 103,
+          "w": 48,
+          "h": 14
+        },
+        "path": "header.el-header.work-space-model-header > div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div > button.el-button.el-button--default.iconfont.icon-fuzhi > span",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "复制",
+        "tag": "SPAN",
+        "cls": "",
+        "text": "复制",
+        "rect": {
+          "x": 509.5,
+          "y": 103,
+          "w": 28,
+          "h": 14
+        },
+        "path": "div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div > button.el-button.el-button--default.iconfont.icon-fuzhi > span > span",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "移动",
+        "tag": "DIV",
+        "cls": "button-div",
+        "text": "移动",
+        "rect": {
+          "x": 548,
+          "y": 94,
+          "w": 71,
+          "h": 32
+        },
+        "path": "section.el-container.work-space-main > main.el-main.work-space-model > header.el-header.work-space-model-header > div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "移动",
+        "tag": "BUTTON",
+        "cls": "el-button el-button--default iconfont icon-yidong",
+        "text": "移动",
+        "rect": {
+          "x": 548,
+          "y": 94,
+          "w": 70,
+          "h": 32
+        },
+        "path": "main.el-main.work-space-model > header.el-header.work-space-model-header > div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div > button.el-button.el-button--default.iconfont.icon-yidong",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": "false"
+        }
+      },
+      {
+        "label": "移动",
+        "tag": "SPAN",
+        "cls": "",
+        "text": "移动",
+        "rect": {
+          "x": 560.5,
+          "y": 103,
+          "w": 48,
+          "h": 14
+        },
+        "path": "header.el-header.work-space-model-header > div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div > button.el-button.el-button--default.iconfont.icon-yidong > span",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "移动",
+        "tag": "SPAN",
+        "cls": "",
+        "text": "移动",
+        "rect": {
+          "x": 580.5,
+          "y": 103,
+          "w": 28,
+          "h": 14
+        },
+        "path": "div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div > button.el-button.el-button--default.iconfont.icon-yidong > span > span",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "导入",
+        "tag": "DIV",
+        "cls": "button-div",
+        "text": "导入",
+        "rect": {
+          "x": 619,
+          "y": 94,
+          "w": 101,
+          "h": 32
+        },
+        "path": "section.el-container.work-space-main > main.el-main.work-space-model > header.el-header.work-space-model-header > div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "导入",
+        "tag": "BUTTON",
+        "cls": "el-button el-button--default iconfont icon-wenjiandaoru",
+        "text": "导入",
+        "rect": {
+          "x": 619,
+          "y": 94,
+          "w": 100,
+          "h": 32
+        },
+        "path": "main.el-main.work-space-model > header.el-header.work-space-model-header > div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div > button.el-button.el-button--default.iconfont.icon-wenjiandaoru",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": "false"
+        }
+      },
+      {
+        "label": "导入",
+        "tag": "SPAN",
+        "cls": "",
+        "text": "导入",
+        "rect": {
+          "x": 629.5,
+          "y": 103,
+          "w": 82,
+          "h": 14
+        },
+        "path": "header.el-header.work-space-model-header > div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div > button.el-button.el-button--default.iconfont.icon-wenjiandaoru > span",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "导入",
+        "tag": "SPAN",
+        "cls": "",
+        "text": "导入",
+        "rect": {
+          "x": 649.5,
+          "y": 103,
+          "w": 28,
+          "h": 14
+        },
+        "path": "div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div > button.el-button.el-button--default.iconfont.icon-wenjiandaoru > span > span",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "导出",
+        "tag": "DIV",
+        "cls": "button-div",
+        "text": "导出",
+        "rect": {
+          "x": 720,
+          "y": 94,
+          "w": 81,
+          "h": 32
+        },
+        "path": "section.el-container.work-space-main > main.el-main.work-space-model > header.el-header.work-space-model-header > div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "导出",
+        "tag": "BUTTON",
+        "cls": "el-button el-button--default iconfont icon-wenjiandaochu",
+        "text": "导出",
+        "rect": {
+          "x": 720,
+          "y": 94,
+          "w": 80,
+          "h": 32
+        },
+        "path": "main.el-main.work-space-model > header.el-header.work-space-model-header > div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div > button.el-button.el-button--default.iconfont.icon-wenjiandaochu",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": "false"
+        }
+      },
+      {
+        "label": "导出",
+        "tag": "SPAN",
+        "cls": "",
+        "text": "导出",
+        "rect": {
+          "x": 737.5,
+          "y": 103,
+          "w": 48,
+          "h": 14
+        },
+        "path": "header.el-header.work-space-model-header > div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div > button.el-button.el-button--default.iconfont.icon-wenjiandaochu > span",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "导出",
+        "tag": "SPAN",
+        "cls": "",
+        "text": "导出",
+        "rect": {
+          "x": 757.5,
+          "y": 103,
+          "w": 28,
+          "h": 14
+        },
+        "path": "div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div > button.el-button.el-button--default.iconfont.icon-wenjiandaochu > span > span",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "添加依赖",
+        "tag": "DIV",
+        "cls": "button-div",
+        "text": "添加依赖",
+        "rect": {
+          "x": 801,
+          "y": 94,
+          "w": 101,
+          "h": 32
+        },
+        "path": "section.el-container.work-space-main > main.el-main.work-space-model > header.el-header.work-space-model-header > div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "添加依赖",
+        "tag": "BUTTON",
+        "cls": "el-button el-button--default iconfont icon-wenjiandaoru",
+        "text": "添加依赖",
+        "rect": {
+          "x": 801,
+          "y": 94,
+          "w": 100,
+          "h": 32
+        },
+        "path": "main.el-main.work-space-model > header.el-header.work-space-model-header > div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div > button.el-button.el-button--default.iconfont.icon-wenjiandaoru",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": "false"
+        }
+      },
+      {
+        "label": "添加依赖",
+        "tag": "SPAN",
+        "cls": "",
+        "text": "添加依赖",
+        "rect": {
+          "x": 814.5,
+          "y": 103,
+          "w": 76,
+          "h": 14
+        },
+        "path": "header.el-header.work-space-model-header > div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div > button.el-button.el-button--default.iconfont.icon-wenjiandaoru > span",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "添加依赖",
+        "tag": "SPAN",
+        "cls": "",
+        "text": "添加依赖",
+        "rect": {
+          "x": 834.5,
+          "y": 103,
+          "w": 56,
+          "h": 14
+        },
+        "path": "div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div > button.el-button.el-button--default.iconfont.icon-wenjiandaoru > span > span",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "升级拷贝",
+        "tag": "DIV",
+        "cls": "button-div",
+        "text": "升级拷贝",
+        "rect": {
+          "x": 902,
+          "y": 94,
+          "w": 80,
+          "h": 32
+        },
+        "path": "section.el-container.work-space-main > main.el-main.work-space-model > header.el-header.work-space-model-header > div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "升级拷贝",
+        "tag": "BUTTON",
+        "cls": "el-button el-button--default iconfont icon-wenjiandaoru",
+        "text": "升级拷贝",
+        "rect": {
+          "x": 902,
+          "y": 94,
+          "w": 80,
+          "h": 32
+        },
+        "path": "main.el-main.work-space-model > header.el-header.work-space-model-header > div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div > button.el-button.el-button--default.iconfont.icon-wenjiandaoru",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": "false"
+        }
+      },
+      {
+        "label": "升级拷贝",
+        "tag": "SPAN",
+        "cls": "",
+        "text": "升级拷贝",
+        "rect": {
+          "x": 905.5,
+          "y": 103,
+          "w": 76,
+          "h": 14
+        },
+        "path": "header.el-header.work-space-model-header > div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div > button.el-button.el-button--default.iconfont.icon-wenjiandaoru > span",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "升级拷贝",
+        "tag": "SPAN",
+        "cls": "",
+        "text": "升级拷贝",
+        "rect": {
+          "x": 925.5,
+          "y": 103,
+          "w": 56,
+          "h": 14
+        },
+        "path": "div#tool-bar-model.main-tool-bar.tool-bar > div.main-tool-bar-item > div.button-div > button.el-button.el-button--default.iconfont.icon-wenjiandaoru > span > span",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "建模",
+        "tag": "DIV",
+        "cls": "el-scrollbar",
+        "text": "建模",
+        "rect": {
+          "x": 15,
+          "y": 210,
+          "w": 290,
+          "h": 629
+        },
+        "path": "div.h100.w100 > section.el-container.work-space-main > aside.el-aside.work-space-tree > section.el-container.is-vertical.repository-tree-view > main.el-main > div.el-scrollbar",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "建模",
+        "tag": "DIV",
+        "cls": "el-scrollbar__wrap el-scrollbar__wrap--hidden-default",
+        "text": "建模",
+        "rect": {
+          "x": 15,
+          "y": 210,
+          "w": 290,
+          "h": 629
+        },
+        "path": "section.el-container.work-space-main > aside.el-aside.work-space-tree > section.el-container.is-vertical.repository-tree-view > main.el-main > div.el-scrollbar > div.el-scrollbar__wrap.el-scrollbar__wrap--hidden-default",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "建模",
+        "tag": "DIV",
+        "cls": "el-scrollbar__view",
+        "text": "建模",
+        "rect": {
+          "x": 15,
+          "y": 210,
+          "w": 290,
+          "h": 26
+        },
+        "path": "aside.el-aside.work-space-tree > section.el-container.is-vertical.repository-tree-view > main.el-main > div.el-scrollbar > div.el-scrollbar__wrap.el-scrollbar__wrap--hidden-default > div.el-scrollbar__view",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "建模",
+        "tag": "DIV",
+        "cls": "el-tree el-tree--highlight-current",
+        "text": "建模",
+        "rect": {
+          "x": 15,
+          "y": 210,
+          "w": 290,
+          "h": 26
+        },
+        "path": "section.el-container.is-vertical.repository-tree-view > main.el-main > div.el-scrollbar > div.el-scrollbar__wrap.el-scrollbar__wrap--hidden-default > div.el-scrollbar__view > div#repository-tree.el-tree.el-tree--highlight-current",
+        "attrs": {
+          "title": null,
+          "role": "tree",
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "建模",
+        "tag": "DIV",
+        "cls": "el-tree-node is-expanded is-current is-focusable",
+        "text": "建模",
+        "rect": {
+          "x": 15,
+          "y": 210,
+          "w": 290,
+          "h": 26
+        },
+        "path": "main.el-main > div.el-scrollbar > div.el-scrollbar__wrap.el-scrollbar__wrap--hidden-default > div.el-scrollbar__view > div#repository-tree.el-tree.el-tree--highlight-current > div.el-tree-node.is-expanded.is-current.is-focusable",
+        "attrs": {
+          "title": null,
+          "role": "treeitem",
+          "disabled": null,
+          "ariaDisabled": ""
+        }
+      },
+      {
+        "label": "建模",
+        "tag": "DIV",
+        "cls": "el-tree-node__content",
+        "text": "建模",
+        "rect": {
+          "x": 15,
+          "y": 210,
+          "w": 290,
+          "h": 26
+        },
+        "path": "div.el-scrollbar > div.el-scrollbar__wrap.el-scrollbar__wrap--hidden-default > div.el-scrollbar__view > div#repository-tree.el-tree.el-tree--highlight-current > div.el-tree-node.is-expanded.is-current.is-focusable > div.el-tree-node__content",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "建模",
+        "tag": "DIV",
+        "cls": "tree-node",
+        "text": "建模",
+        "rect": {
+          "x": 39,
+          "y": 210,
+          "w": 266,
+          "h": 26
+        },
+        "path": "div.el-scrollbar__wrap.el-scrollbar__wrap--hidden-default > div.el-scrollbar__view > div#repository-tree.el-tree.el-tree--highlight-current > div.el-tree-node.is-expanded.is-current.is-focusable > div.el-tree-node__content > div.tree-node",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "建模",
+        "tag": "SPAN",
+        "cls": "",
+        "text": "建模",
+        "rect": {
+          "x": 60,
+          "y": 214,
+          "w": 242.046875,
+          "h": 18
+        },
+        "path": "div.el-scrollbar__view > div#repository-tree.el-tree.el-tree--highlight-current > div.el-tree-node.is-expanded.is-current.is-focusable > div.el-tree-node__content > div.tree-node > span",
+        "attrs": {
+          "title": "建模",
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "测试",
+        "tag": "DIV",
+        "cls": "data-item",
+        "text": "测试",
+        "rect": {
+          "x": 350,
+          "y": 165,
+          "w": 75,
+          "h": 115
+        },
+        "path": "div.h100.w100 > section.el-container.work-space-main > main.el-main.work-space-model > main.el-main.work-space-model-mian > section.el-container.data-container > div.data-item",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "测试",
+        "tag": "SPAN",
+        "cls": "span_label",
+        "text": "测试",
+        "rect": {
+          "x": 350,
+          "y": 248.484375,
+          "w": 75,
+          "h": 31.515625
+        },
+        "path": "section.el-container.work-space-main > main.el-main.work-space-model > main.el-main.work-space-model-mian > section.el-container.data-container > div.data-item > span.span_label",
+        "attrs": {
+          "title": "测试",
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "Codex临时功能单元_Node_0611",
+        "tag": "DIV",
+        "cls": "",
+        "text": "KingStudio\n简体中文\n关于\n产品管理\n升级拷贝1\n建模管理\n产品组装\n新增\n删除\n建模\n新建\n删除\n复制\n移动\n导入\n导出\n添加依赖\n升级拷贝\n全部\n测试\nCodex临时功能单元_Node_0611\n回收站\n全选\n共 2 条\n1\n前往\n页",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1400,
+          "h": 854
+        },
+        "path": "html.dark > body > div#app",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "Codex临时功能单元_Node_0611",
+        "tag": "DIV",
+        "cls": "h100 w100",
+        "text": "建模管理\n产品组装\n新增\n删除\n建模\n新建\n删除\n复制\n移动\n导入\n导出\n添加依赖\n升级拷贝\n全部\n测试\nCodex临时功能单元_Node_0611\n回收站\n全选\n共 2 条\n1\n前往\n页",
+        "rect": {
+          "x": 0,
+          "y": 80,
+          "w": 1400,
+          "h": 774
+        },
+        "path": "body > div#app > section.el-container.is-vertical.frame-container > main.el-main > section#288230376151716915.el-container.data-container > div.h100.w100",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "Codex临时功能单元_Node_0611",
+        "tag": "DIV",
+        "cls": "data-item",
+        "text": "Codex临时功能单元_Node_0611",
+        "rect": {
+          "x": 445,
+          "y": 165,
+          "w": 75,
+          "h": 115
+        },
+        "path": "div.h100.w100 > section.el-container.work-space-main > main.el-main.work-space-model > main.el-main.work-space-model-mian > section.el-container.data-container > div.data-item",
+        "attrs": {
+          "title": null,
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      },
+      {
+        "label": "Codex临时功能单元_Node_0611",
+        "tag": "SPAN",
+        "cls": "span_label",
+        "text": "Codex临时功能单元_Node_0611",
+        "rect": {
+          "x": 445,
+          "y": 248.484375,
+          "w": 75,
+          "h": 31.515625
+        },
+        "path": "section.el-container.work-space-main > main.el-main.work-space-model > main.el-main.work-space-model-mian > section.el-container.data-container > div.data-item > span.span_label",
+        "attrs": {
+          "title": "Codex临时功能单元_Node_0611",
+          "role": null,
+          "disabled": null,
+          "ariaDisabled": null
+        }
+      }
+    ],
+    "vueRoots": [],
+    "appKeys": []
+  },
+  "screenshot": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\screenshots\\client_publish_product_assembly_dom_probe.png"
+}

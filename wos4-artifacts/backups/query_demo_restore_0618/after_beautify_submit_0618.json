@@ -1,0 +1,96 @@
+{
+  "ok": true,
+  "text": "提交"
+}
+{
+  "ok": true,
+  "boxText": "版本提交\n\n提交说明\n\n取消确定"
+}
+{
+  "capture": {
+    "messages": [
+      {
+        "kind": "mutation",
+        "text": "版本提交提交说明\n          取消\n        \n          确定",
+        "extra": {
+          "className": "el-message-box__wrapper"
+        },
+        "t": 1781767878800
+      },
+      {
+        "kind": "mutation",
+        "text": "版本提交提交说明\n          取消\n        \n          确定",
+        "extra": {
+          "className": "el-message-box__wrapper"
+        },
+        "t": 1781767878800
+      },
+      {
+        "kind": "mutation",
+        "text": "保存成功",
+        "extra": {
+          "className": "el-message"
+        },
+        "t": 1781767881784
+      },
+      {
+        "kind": "mutation",
+        "text": "保存成功",
+        "extra": {
+          "className": "el-message"
+        },
+        "t": 1781767881784
+      },
+      {
+        "kind": "mutation",
+        "text": "生成历史版本成功！",
+        "extra": {
+          "className": "el-message el-message--success"
+        },
+        "t": 1781767881910
+      },
+      {
+        "kind": "mutation",
+        "text": "生成历史版本成功！",
+        "extra": {
+          "className": "el-message el-message--success"
+        },
+        "t": 1781767881910
+      }
+    ],
+    "console": []
+  },
+  "rootName": "RootShell",
+  "nestedName": "MainDashboardContainer",
+  "topRowName": "HeaderBarRow",
+  "topWidths": [
+    {
+      "name": "PageTitleCol",
+      "xlWidth": 300
+    },
+    {
+      "name": "FilterInputCol",
+      "xlWidth": 1160
+    },
+    {
+      "name": "PrimaryActionCol",
+      "xlWidth": 180
+    },
+    {
+      "name": "UtilitySpacerCol",
+      "xlWidth": 277
+    }
+  ],
+  "nestedRows": [
+    {
+      "name": "DataGridRow",
+      "height": 560,
+      "col": "DataGridCol"
+    },
+    {
+      "name": "TrendChartRow",
+      "height": 430,
+      "col": "TrendChartCol"
+    }
+  ]
+}

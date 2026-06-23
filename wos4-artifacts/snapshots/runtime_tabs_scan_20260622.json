@@ -1,0 +1,548 @@
+[
+  {
+    "tab": {
+      "targetId": "7364497602A0E45FC58E47F6B23AC7A7",
+      "title": "🐴",
+      "url": "about:blank"
+    },
+    "hit": false,
+    "frames": [
+      {
+        "path": "top",
+        "href": "about:blank",
+        "title": "🐴",
+        "text": "",
+        "frames": 0,
+        "pageView": false,
+        "pageName": null,
+        "spaceTimeId": null
+      }
+    ]
+  },
+  {
+    "tab": {
+      "targetId": "67CFE42C3A78B160670B90B777816777",
+      "title": "WellinOS4.5",
+      "url": "http://221.239.19.118:13001/#/main"
+    },
+    "hit": true,
+    "frames": [
+      {
+        "path": "top",
+        "href": "http://221.239.19.118:13001/#/main",
+        "title": "🐴 WellinOS4.5",
+        "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260514\n组态系统客户端0518\n建模系统客户端_0518\n运维部署客户端_0518\n管理员客户端\nCodex临时测试_前端视图_0611\n盛云_孙宇飞_TraceDemo_0617\n盛云_孙宇飞_QueryDemo_0617\n盛云_孙宇飞_前端_框架_0618@EidolonL1Frame_对象1\n盛云_孙宇飞_Noctiluca_客户端_对象1\n盛云_孙宇飞_Noctiluca_客户端_对象2",
+        "frames": 1,
+        "pageView": false,
+        "pageName": null,
+        "spaceTimeId": null
+      },
+      {
+        "path": "top.0",
+        "href": "http://221.239.19.118:13001/public/?id=6192730962611142710&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+        "title": "WellinOS4.0",
+        "text": "",
+        "frames": 1,
+        "pageView": false,
+        "pageName": null,
+        "spaceTimeId": null
+      },
+      {
+        "path": "top.0.0",
+        "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+        "title": "客户端运行",
+        "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端",
+        "frames": 1,
+        "pageView": true,
+        "pageName": null,
+        "spaceTimeId": {}
+      },
+      {
+        "path": "top.0.0.0",
+        "href": "http://221.239.19.118:13001/worker-space/index.html?guid=478c5219-9a87-4038-94cb-574514ae6d82&version=0&areaid=0&parentid=0&cloudid=107&type=1005",
+        "title": "worker-space",
+        "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\nQueryRecords\n\nInsertRecord\n\nUpdateRecord\n\n当前模型: DemoCrudBackend_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nonDestroy\nonException\nQueryRecords\nInsertRecord\nUpdateRecord\n名称:\n输入参数:\n返回值类型:\n1\n2\n3\n4\n5\n6\n7\nstringMap<var> strmapPara;\nstringMap<var> queryResult;\nstrmapPara[\"filter\"] = \"\";\nqueryResult = QueryRecords(strmapPara);\nTrace(2, \"onCreate.QueryRecords.result\", queryResult);\n编译信息\nxxxxxxxxxxxxxx 编译成功 14:07:59 xxxxxxxxxxxxxx\n行：7，列：55，\n空格：4\n元语言\n属性\n基础信息\n名称:\n\n\n显",
+        "frames": 0,
+        "pageView": false,
+        "pageName": null,
+        "spaceTimeId": null
+      }
+    ]
+  },
+  {
+    "tab": {
+      "targetId": "D7816E592F8EBBC769A0B68A1740B328",
+      "title": "🐴 WellinOS4.0",
+      "url": "http://221.239.19.118:13001/public/index.html?id=6192730962611142709&parentid=0&cloudid=107&clientnumber=7710165594863352807&bs=true#/#{%22clientGuid%22:%22d01d4d20-79d3-4b0d-9d89-77856713e525%22,%22FUType%22:11}"
+    },
+    "hit": false,
+    "frames": [
+      {
+        "path": "top",
+        "href": "http://221.239.19.118:13001/public/index.html?id=6192730962611142709&parentid=0&cloudid=107&clientnumber=7710165594863352807&bs=true#/#{%22clientGuid%22:%22d01d4d20-79d3-4b0d-9d89-77856713e525%22,%22FUType%22:11}",
+        "title": "🐴 WellinOS4.0",
+        "text": "",
+        "frames": 0,
+        "pageView": false,
+        "pageName": null,
+        "spaceTimeId": null
+      }
+    ]
+  },
+  {
+    "tab": {
+      "targetId": "2B8088D85E2D392C677762B564B00625",
+      "title": "WellinOS4.0",
+      "url": "http://221.239.19.118:13001/public/index.html?id=6192730962611142709&parentid=0&cloudid=107&clientnumber=7710165594863352807&bs=true#/#{\\%22clientGuid\\%22:\\%2287d72c85-f47b-42ed-9cbe-711657b93fe6\\%22,\\%22FUType\\%22:11}"
+    },
+    "hit": true,
+    "frames": [
+      {
+        "path": "top",
+        "href": "http://221.239.19.118:13001/public/index.html?id=6192730962611142709&parentid=0&cloudid=107&clientnumber=7710165594863352807&bs=true#/#{\\%22clientGuid\\%22:\\%2287d72c85-f47b-42ed-9cbe-711657b93fe6\\%22,\\%22FUType\\%22:11}",
+        "title": "🐴 WellinOS4.0",
+        "text": "",
+        "frames": 1,
+        "pageView": false,
+        "pageName": null,
+        "spaceTimeId": null
+      },
+      {
+        "path": "top.0",
+        "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+        "title": "客户端运行",
+        "text": "KingFusion4.5_工程浏览器\n\n工程目录\n\n新建工程\n刷新\n更多操作\n工程名称\t描述\t创建时间\t上次更新时间\t操作\n引滦原水处理\n\t\n\t\n2026-04-08 11:35:36\n\t\n2026-04-08 11:35:36\n\t\n进入工程编辑删除\n\n\n测试\n\t\n\t\n2026-04-13 13:41:23\n\t\n2026-04-13 13:41:23\n\t\n进入工程编辑删除\n\n\nmwq测试\n\t\n\t\n2026-06-12 17:09:13\n\t\n2026-06-12 17:09:13\n\t\n进入工程编辑删除\n\n\n张测试1\n\t\n\t\n2026-06-15 09:36:22\n\t\n2026-06-15 09:36:22\n\t\n进入工程编辑删除\n\n\n芦昆测试工程\n\t\n\t\n2026-06-15 09:57:47\n\t\n2026-06-15 09:57:47\n\t\n进入工程编辑删除\n\n\n盛云_孙宇飞_人工测试工程\n\t\n手动\n\t\n2026-06-18 21:45:31\n\t\n2026-06-18 21:45:31\n\t\n进入工程编辑删除\n\n\n盛云_孙宇飞_Noctiluca\n\t\nisolated config lin",
+        "frames": 0,
+        "pageView": true,
+        "pageName": null,
+        "spaceTimeId": {}
+      }
+    ]
+  },
+  {
+    "tab": {
+      "targetId": "C71D410B8CC49E98B395B2E485371D8A",
+      "title": "WellinOS4.5",
+      "url": "http://221.239.19.118:13001/#/login"
+    },
+    "hit": false,
+    "frames": [
+      {
+        "path": "top",
+        "href": "http://221.239.19.118:13001/#/login",
+        "title": "🐴 WellinOS4.5",
+        "text": "欢迎登录!\nWellinOS平台\n记住密码\n忘记密码?\n登录\n\n-------------- 多工具登录 --------------\n\n运维\n安全\n审计",
+        "frames": 0,
+        "pageView": false,
+        "pageName": null,
+        "spaceTimeId": null
+      }
+    ]
+  },
+  {
+    "tab": {
+      "targetId": "2A099C35D89F3DD6D8C7BCB757628C7C",
+      "title": "221.239.19.118",
+      "url": "http://221.239.19.118:13001/#/main"
+    },
+    "hit": false,
+    "frames": [
+      {
+        "path": "top",
+        "href": "chrome-error://chromewebdata/",
+        "title": "🐴 221.239.19.118",
+        "text": "该网页无法正常运作\n\n221.239.19.118 未发送任何数据。\n\nERR_EMPTY_RESPONSE\n重新加载",
+        "frames": 0,
+        "pageView": false,
+        "pageName": null,
+        "spaceTimeId": null
+      }
+    ]
+  },
+  {
+    "tab": {
+      "targetId": "EF0253B2A2F7C4E035539DC78DAFF4A3",
+      "title": "🐴",
+      "url": "about:blank"
+    },
+    "hit": false,
+    "frames": [
+      {
+        "path": "top",
+        "href": "about:blank",
+        "title": "🐴",
+        "text": "",
+        "frames": 0,
+        "pageView": false,
+        "pageName": null,
+        "spaceTimeId": null
+      }
+    ]
+  },
+  {
+    "tab": {
+      "targetId": "47CDEEF1BD39FB0F3EBB2AB54DA17A71",
+      "title": "WellinOS4.5",
+      "url": "http://221.239.19.118:13001/#/main"
+    },
+    "hit": true,
+    "frames": [
+      {
+        "path": "top",
+        "href": "http://221.239.19.118:13001/#/main",
+        "title": "🐴 WellinOS4.5",
+        "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260514\n组态系统客户端0518\n建模系统客户端_0518\n运维部署客户端_0518\n管理员客户端\nCodex临时测试_前端视图_0611\n盛云_孙宇飞_TraceDemo_0617\n盛云_孙宇飞_QueryDemo_0617\n盛云_孙宇飞_前端_框架_0618@EidolonL1Frame_对象1\n盛云_孙宇飞_Noctiluca_客户端_对象1\n盛云_孙宇飞_Noctiluca_客户端_对象2\n时空对象管理平台\n本云(0)\n开发系统\n生成器时空\n客户端工程\n引滦集团\n测试\n报警转发\n测试1\nlk测试客户端1\n测试客户端\nlk_工厂\nlk_客户端01\n盛云_孙宇飞_时空_0617\n盛云_孙宇飞_时空_0617_TOPV2\n盛云_孙宇飞_时空_0617_TOPV3\n菜单\n测试时空-工厂\n产品生成器功能客户端\n手工层级1\n客户端1\n盛云_孙宇飞_Noctiluca_客户端\nEidolon手工层级1\nNadirL1\nNadirL2\n客户端1_人工干预点_1\n工厂\n管理员\n管理员客户端\n功能",
+        "frames": 0,
+        "pageView": false,
+        "pageName": null,
+        "spaceTimeId": null
+      }
+    ]
+  },
+  {
+    "tab": {
+      "targetId": "5C74882D3AB7804B912F6E3F25B36C64",
+      "title": "WellinOS4.0",
+      "url": "http://221.239.19.118:13001/public/index.html?id=6192730962611143091&parentid=0&cloudid=107&clientnumber=7710165597708173918&bs=true#/#{%22mode%22:%22debugger%22,%22FUType%22:%2221%22,%22type%22:1005,%22guid%22:%22%22,%22id%22:%22%22,%22guidVersion%22:{%22guid%22:%22cfe7fe91-d320-4492-9421-1b36b8ddebf8%22,%22version%22:0,%22id%22:%221441151880758559680%22},%22projectId%22:%22%22,%22isParamConfig%22:false,%22runModelName%22:%22%E6%9F%A5%E8%AF%A2%E5%88%97%E8%A1%A8%22}"
+    },
+    "hit": true,
+    "frames": [
+      {
+        "path": "top",
+        "href": "http://221.239.19.118:13001/public/index.html?id=6192730962611143091&parentid=0&cloudid=107&clientnumber=7710165597708173918&bs=true#/#{%22mode%22:%22debugger%22,%22FUType%22:%2221%22,%22type%22:1005,%22guid%22:%22%22,%22id%22:%22%22,%22guidVersion%22:{%22guid%22:%22cfe7fe91-d320-4492-9421-1b36b8ddebf8%22,%22version%22:0,%22id%22:%221441151880758559680%22},%22projectId%22:%22%22,%22isParamConfig%22:false,%22runModelName%22:%22%E6%9F%A5%E8%AF%A2%E5%88%97%E8%A1%A8%22}",
+        "title": "🐴 WellinOS4.0",
+        "text": "",
+        "frames": 1,
+        "pageView": false,
+        "pageName": null,
+        "spaceTimeId": null
+      },
+      {
+        "path": "top.0",
+        "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_107/index.html",
+        "title": "KingStudio4.5",
+        "text": "查询全部(4)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n泵站A-01\n\t\nA\n\t\n正常\n\t\n128\n\t\n0.62\n\n\n泵站A-02\n\t\nA\n\t\n待机\n\t\n96\n\t\n0.58\n\n\n泵站B-01\n\t\nB\n\t\n正常\n\t\n141\n\t\n0.67\n\n\n泵站B-02\n\t\nB\n\t\n报警\n\t\n73\n\t\n0.49\n共 4 条\n1\n前往页",
+        "frames": 0,
+        "pageView": true,
+        "pageName": null,
+        "spaceTimeId": {
+          "id": "",
+          "guid": "",
+          "name": ""
+        }
+      }
+    ]
+  },
+  {
+    "tab": {
+      "targetId": "1414D4BDDECE7B9BE9863901B3021851",
+      "title": "221.239.19.118",
+      "url": "http://221.239.19.118:13001/#/main"
+    },
+    "hit": false,
+    "frames": [
+      {
+        "path": "top",
+        "href": "chrome-error://chromewebdata/",
+        "title": "🐴 221.239.19.118",
+        "text": "该网页无法正常运作\n\n221.239.19.118 未发送任何数据。\n\nERR_EMPTY_RESPONSE\n重新加载",
+        "frames": 0,
+        "pageView": false,
+        "pageName": null,
+        "spaceTimeId": null
+      }
+    ]
+  },
+  {
+    "tab": {
+      "targetId": "206C160174588A3D17E5F29BC6CF32DA",
+      "title": "WellinOS4.0",
+      "url": "http://221.239.19.118:13001/public/index.html?id=6192730962611143091&parentid=0&cloudid=107&clientnumber=7710165597708173918&bs=true#/#{%22mode%22:%22debugger%22,%22FUType%22:%2221%22,%22type%22:1005,%22guid%22:%22%22,%22id%22:%22%22,%22guidVersion%22:{%22guid%22:%22cfe7fe91-d320-4492-9421-1b36b8ddebf8%22,%22version%22:0,%22id%22:%221441151880758559680%22},%22projectId%22:%22%22,%22isParamConfig%22:false,%22runModelName%22:%22%E6%9F%A5%E8%AF%A2%E5%88%97%E8%A1%A8%22}"
+    },
+    "hit": true,
+    "frames": [
+      {
+        "path": "top",
+        "href": "http://221.239.19.118:13001/public/index.html?id=6192730962611143091&parentid=0&cloudid=107&clientnumber=7710165597708173918&bs=true#/#{%22mode%22:%22debugger%22,%22FUType%22:%2221%22,%22type%22:1005,%22guid%22:%22%22,%22id%22:%22%22,%22guidVersion%22:{%22guid%22:%22cfe7fe91-d320-4492-9421-1b36b8ddebf8%22,%22version%22:0,%22id%22:%221441151880758559680%22},%22projectId%22:%22%22,%22isParamConfig%22:false,%22runModelName%22:%22%E6%9F%A5%E8%AF%A2%E5%88%97%E8%A1%A8%22}",
+        "title": "🐴 WellinOS4.0",
+        "text": "",
+        "frames": 1,
+        "pageView": false,
+        "pageName": null,
+        "spaceTimeId": null
+      },
+      {
+        "path": "top.0",
+        "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_107/index.html",
+        "title": "KingStudio4.5",
+        "text": "查询：B-01(0)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n暂无匹配数据\n共 0 条\n1\n前往页",
+        "frames": 0,
+        "pageView": true,
+        "pageName": null,
+        "spaceTimeId": {
+          "id": "",
+          "guid": "",
+          "name": ""
+        }
+      }
+    ]
+  },
+  {
+    "tab": {
+      "targetId": "CEA9F91E29CD04E81E713439CBEDB832",
+      "title": "🐴",
+      "url": "about:blank"
+    },
+    "hit": false,
+    "frames": [
+      {
+        "path": "top",
+        "href": "about:blank",
+        "title": "🐴",
+        "text": "",
+        "frames": 0,
+        "pageView": false,
+        "pageName": null,
+        "spaceTimeId": null
+      }
+    ]
+  },
+  {
+    "tab": {
+      "targetId": "56B8E18B2C37FF3372FF9F49A5AC20C2",
+      "title": "WellinOS4.5",
+      "url": "http://221.239.19.118:13001/#/login"
+    },
+    "hit": false,
+    "frames": [
+      {
+        "path": "top",
+        "href": "http://221.239.19.118:13001/#/login",
+        "title": "🐴 WellinOS4.5",
+        "text": "欢迎登录!\nWellinOS平台\n记住密码\n忘记密码?\n登录\n\n-------------- 多工具登录 --------------\n\n运维\n安全\n审计",
+        "frames": 0,
+        "pageView": false,
+        "pageName": null,
+        "spaceTimeId": null
+      }
+    ]
+  },
+  {
+    "tab": {
+      "targetId": "01B93BCFF369F4ED9BDF6DBA86E73BAB",
+      "title": "221.239.19.118",
+      "url": "http://221.239.19.118:13001/#/main"
+    },
+    "hit": false,
+    "frames": [
+      {
+        "path": "top",
+        "href": "chrome-error://chromewebdata/",
+        "title": "🐴 221.239.19.118",
+        "text": "该网页无法正常运作\n\n221.239.19.118 未发送任何数据。\n\nERR_EMPTY_RESPONSE\n重新加载",
+        "frames": 0,
+        "pageView": false,
+        "pageName": null,
+        "spaceTimeId": null
+      }
+    ]
+  },
+  {
+    "tab": {
+      "targetId": "94DC986400494C284340DA500980E0D8",
+      "title": "WellinOS4.0",
+      "url": "http://221.239.19.118:13001/public/index.html?id=6192730962611143090&parentid=0&cloudid=107&clientnumber=7710165595257178244&bs=true#/#{%22mode%22:%22debugger%22,%22FUType%22:%2221%22,%22type%22:1005,%22guid%22:%22%22,%22id%22:%22%22,%22guidVersion%22:{%22guid%22:%22cfe7fe91-d320-4492-9421-1b36b8ddebf8%22,%22version%22:0,%22id%22:%221441151880758559680%22},%22projectId%22:%22%22,%22isParamConfig%22:false,%22runModelName%22:%22%E6%9F%A5%E8%AF%A2%E5%88%97%E8%A1%A8%22}"
+    },
+    "hit": true,
+    "frames": [
+      {
+        "path": "top",
+        "href": "http://221.239.19.118:13001/public/index.html?id=6192730962611143090&parentid=0&cloudid=107&clientnumber=7710165595257178244&bs=true#/#{%22mode%22:%22debugger%22,%22FUType%22:%2221%22,%22type%22:1005,%22guid%22:%22%22,%22id%22:%22%22,%22guidVersion%22:{%22guid%22:%22cfe7fe91-d320-4492-9421-1b36b8ddebf8%22,%22version%22:0,%22id%22:%221441151880758559680%22},%22projectId%22:%22%22,%22isParamConfig%22:false,%22runModelName%22:%22%E6%9F%A5%E8%AF%A2%E5%88%97%E8%A1%A8%22}",
+        "title": "🐴 WellinOS4.0",
+        "text": "",
+        "frames": 1,
+        "pageView": false,
+        "pageName": null,
+        "spaceTimeId": null
+      },
+      {
+        "path": "top.0",
+        "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_107/index.html",
+        "title": "KingStudio4.5",
+        "text": "查询全部(4)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n泵站A-01\n\t\nA\n\t\n正常\n\t\n128\n\t\n0.62\n\n\n泵站A-02\n\t\nA\n\t\n待机\n\t\n96\n\t\n0.58\n\n\n泵站B-01\n\t\nB\n\t\n正常\n\t\n141\n\t\n0.67\n\n\n泵站B-02\n\t\nB\n\t\n报警\n\t\n73\n\t\n0.49\n共 4 条\n1\n前往页",
+        "frames": 0,
+        "pageView": true,
+        "pageName": null,
+        "spaceTimeId": {
+          "id": "",
+          "guid": "",
+          "name": ""
+        }
+      }
+    ]
+  },
+  {
+    "tab": {
+      "targetId": "598CE7B68483E347033DBB9783ABBBE3",
+      "title": "WellinOS4.5",
+      "url": "http://221.239.19.118:13001/#/main"
+    },
+    "hit": true,
+    "frames": [
+      {
+        "path": "top",
+        "href": "http://221.239.19.118:13001/#/main",
+        "title": "🐴 WellinOS4.5",
+        "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260514\n组态系统客户端0518\n建模系统客户端_0518\n运维部署客户端_0518\n管理员客户端\nCodex临时测试_前端视图_0611\n盛云_孙宇飞_TraceDemo_0617\n盛云_孙宇飞_QueryDemo_0617\n盛云_孙宇飞_前端_框架_0618@EidolonL1Frame_对象1\n盛云_孙宇飞_Noctiluca_客户端_对象1\n盛云_孙宇飞_Noctiluca_客户端_对象2",
+        "frames": 2,
+        "pageView": false,
+        "pageName": null,
+        "spaceTimeId": null
+      },
+      {
+        "path": "top.0",
+        "href": "http://221.239.19.118:13001/public/?id=6192730962611143089&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+        "title": "WellinOS4.0",
+        "text": "\n    \n    \n    !function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();\n    \n    System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))\n  \n\n",
+        "frames": 1,
+        "pageView": false,
+        "pageName": null,
+        "spaceTimeId": null
+      },
+      {
+        "path": "top.0.0",
+        "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+        "title": "客户端运行",
+        "text": "<strong>We're sorry but app-master doesn't work properly without JavaScript enabled. Please enable it to continue.</strong> ElementButton empty共 0 条10条/页20条/页50条/页100条/页1前往页\n          \n          \n          \n          \n          body #RContainerk9d8b1014c2cd61802516caf6ae46fa5 #UI_801551 input {\n            background: rgba(255,255,255,1);\n            border-radius: 4px;\n            border: 1px solid rgba(220,223,230,1);\n            font-size: 14px;\n            font-family: inherit;\n            f",
+        "frames": 0,
+        "pageView": true,
+        "pageName": null,
+        "spaceTimeId": {}
+      },
+      {
+        "path": "top.1",
+        "href": "http://221.239.19.118:13001/public/?id=6192730962611142709&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+        "title": "WellinOS4.0",
+        "text": "\n    \n    \n    !function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();\n    \n    System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))\n  \n\n",
+        "frames": 1,
+        "pageView": false,
+        "pageName": null,
+        "spaceTimeId": null
+      },
+      {
+        "path": "top.1.0",
+        "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+        "title": "客户端运行",
+        "text": "<strong>We're sorry but app-master doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>KingFusion4.5_工程浏览器 <  返回工程管理 盛云_孙宇飞_CRUD工程_0620数字孪生实例配置管控单元实例配置工作流实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导入变量 导出变量 采集配置KF4.5RootNadirL1NadirL2实例列表 新建  删除  更多操作  批量提交版本名称显示名称描述模型模型版本操作NadirBackNadirBackclean backend盛云_孙宇飞_后台_CRUDDemo_0620v2 编辑 属性 切换模型版本 形参管理 提交版本 删除NadirFrontNadirFrontclean front business盛云_孙宇飞_前端_CRUDDemo_0620v2 编辑 属性 切换模型版本 形",
+        "frames": 0,
+        "pageView": true,
+        "pageName": null,
+        "spaceTimeId": {
+          "id": "1152921504606851078",
+          "name": "系统服务配置",
+          "guid": "e67536e6-43df-4193-9b6d-403b193768c0",
+          "devName": "",
+          "realArea": 0,
+          "yuanArea": 0,
+          "webJsArea": 0,
+          "planArea": 0,
+          "historyArea": 0
+        }
+      }
+    ]
+  },
+  {
+    "tab": {
+      "targetId": "0388A4FA45304D56528D0017970785AC",
+      "title": "WellinOS4.5",
+      "url": "http://221.239.19.118:13001/#/login"
+    },
+    "hit": false,
+    "frames": [
+      {
+        "path": "top",
+        "href": "http://221.239.19.118:13001/#/login",
+        "title": "🐴 WellinOS4.5",
+        "text": "欢迎登录!\nWellinOS平台\n记住密码\n忘记密码?\n登录\n\n-------------- 多工具登录 --------------\n\n运维\n安全\n审计",
+        "frames": 0,
+        "pageView": false,
+        "pageName": null,
+        "spaceTimeId": null
+      }
+    ]
+  },
+  {
+    "tab": {
+      "targetId": "DF7FF60AB3DC6390A4BA572713BBE8B2",
+      "title": "WellinOS4.0",
+      "url": "http://221.239.19.118:13001/public/index.html?id=6192730962611142709&parentid=0&cloudid=107&clientnumber=7710165594863352807&bs=true#/#{%22clientGuid%22:%2287d72c85-f47b-42ed-9cbe-711657b93fe6%22,%22FUType%22:11}"
+    },
+    "hit": true,
+    "frames": [
+      {
+        "path": "top",
+        "href": "http://221.239.19.118:13001/public/index.html?id=6192730962611142709&parentid=0&cloudid=107&clientnumber=7710165594863352807&bs=true#/#{%22clientGuid%22:%2287d72c85-f47b-42ed-9cbe-711657b93fe6%22,%22FUType%22:11}",
+        "title": "🐴 WellinOS4.0",
+        "text": "",
+        "frames": 1,
+        "pageView": false,
+        "pageName": null,
+        "spaceTimeId": null
+      },
+      {
+        "path": "top.0",
+        "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+        "title": "客户端运行",
+        "text": "查询全部(4)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n泵站A-01\n\t\nA\n\t\n正常\n\t\n128\n\t\n0.62\n\n\n泵站A-02\n\t\nA\n\t\n待机\n\t\n96\n\t\n0.58\n\n\n泵站B-01\n\t\nB\n\t\n正常\n\t\n141\n\t\n0.67\n\n\n泵站B-02\n\t\nB\n\t\n报警\n\t\n73\n\t\n0.49\n共 4 条\n1\n前往页",
+        "frames": 0,
+        "pageView": true,
+        "pageName": null,
+        "spaceTimeId": {
+          "spaceTime": "NadirL2",
+          "stType": 5,
+          "devName": "NadirFront",
+          "name": "NadirL2",
+          "guid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+          "id": "1152921504606851278"
+        }
+      }
+    ]
+  },
+  {
+    "tab": {
+      "targetId": "1E28C85ED4D5F84BDFC84BD117E10420",
+      "title": "WellinOS4.0",
+      "url": "http://221.239.19.118:13001/public/index.html?id=6192730962611142709&parentid=0&cloudid=107&clientnumber=7710165594863352807&bs=true#/#{%22clientGuid%22:%22d01d4d20-79d3-4b0d-9d89-77856713e525%22,%22FUType%22:11}"
+    },
+    "hit": true,
+    "frames": [
+      {
+        "path": "top",
+        "href": "http://221.239.19.118:13001/public/index.html?id=6192730962611142709&parentid=0&cloudid=107&clientnumber=7710165594863352807&bs=true#/#{%22clientGuid%22:%22d01d4d20-79d3-4b0d-9d89-77856713e525%22,%22FUType%22:11}",
+        "title": "🐴 WellinOS4.0",
+        "text": "",
+        "frames": 1,
+        "pageView": false,
+        "pageName": null,
+        "spaceTimeId": null
+      },
+      {
+        "path": "top.0",
+        "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+        "title": "客户端运行",
+        "text": "查询全部(0)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n暂无匹配数据\n共 0 条\n1\n前往页",
+        "frames": 0,
+        "pageView": true,
+        "pageName": null,
+        "spaceTimeId": {
+          "spaceTime": "NadirL2",
+          "stType": 5,
+          "devName": "NadirFront",
+          "name": "NadirL2",
+          "guid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+          "id": "1152921504606851278"
+        }
+      }
+    ]
+  }
+]

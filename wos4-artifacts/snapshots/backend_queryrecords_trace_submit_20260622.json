@@ -1,0 +1,25 @@
+{
+  "submitRect": {
+    "x": 1125,
+    "y": 95.96875,
+    "w": 78,
+    "h": 32,
+    "text": "提交"
+  },
+  "filled": {
+    "ok": true,
+    "dialogText": "版本提交\n提交说明:\n取消\n确认",
+    "inputValue": "queryrecords-trace-filterkey-20260622"
+  },
+  "confirmRect": {
+    "x": 1284,
+    "y": 319.15625,
+    "w": 60,
+    "h": 32,
+    "text": "确认"
+  },
+  "state": {
+    "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\nQueryRecords\n\nInsertRecord\n\nUpdateRecord\n\n当前模型: DemoCrudBackend_CUSTOMFUNC\n提交\n调试配置\ndeclare\nQueryRecords\nInsertRecord\nUpdateRecord\n名称:\n输入参数:\n返回值类型:\n1\nTrace(2, \"QueryRecords.enter\", filterKey); return \"[{\\\"stationName\\\":\\\"S1\\\",\\\"areaName\\\":\\\"A1\\\",\\\"statusText\\\":\\\"RUN\\\",\\\"flowValue\\\":\\\"12.3\\\",\\\"pressureValue\\\":\\\"0.45\\\"}]\";\n编译信息\nxxxxxxxxxxxxxx 编译成功 13:47:26 xxxxxxxxxxxxxx\n行：1，列：173，\n空格：4\n元语言\n属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n0 / 128\n\n\nID:\n1441151880758559679\n\n\nGUID:\n478c5219-9a87-4038-94cb-574514ae6d82\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\nKingFusion4.5_V1/产品仓库/KF4.5产品/KF4.5数字孪生模型/管控单元模型/盛云_孙宇飞_后台_CRUDDemo_0620\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:\n无法在只读编辑器中编辑",
+    "messages": []
+  }
+}

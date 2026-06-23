@@ -1,0 +1,61 @@
+{
+  "ok": true,
+  "currentSelect": {
+    "uiName": "",
+    "proto": "",
+    "detailConfig": "",
+    "styleConfig": ""
+  },
+  "variables": [
+    {
+      "varName": "人工添加",
+      "varType": 2,
+      "value": "test",
+      "defaultValue": "test",
+      "desc": ""
+    }
+  ],
+  "components": [
+    {
+      "row": "HeaderBarRow",
+      "col": "FilterInputCol",
+      "uiName": "demo_filter_input",
+      "prototypeName": "ElementInput",
+      "detailConfig": "",
+      "styleConfig": "",
+      "placeholder": "请输入关键字"
+    },
+    {
+      "row": "HeaderBarRow",
+      "col": "PrimaryActionCol",
+      "uiName": "demo_query_button",
+      "prototypeName": "ElementButton",
+      "detailConfig": "this.button({ text: '查询' })",
+      "styleConfig": ""
+    },
+    {
+      "row": "BodyCanvasRow",
+      "col": "BodyCanvasCol",
+      "uiName": "MainDashboardContainer",
+      "prototypeName": "RContainer",
+      "detailConfig": "",
+      "styleConfig": ""
+    },
+    {
+      "row": "DataGridRow",
+      "col": "DataGridCol",
+      "uiName": "demo_table",
+      "prototypeName": "ElementTable",
+      "detailConfig": "this.table({\"border\":true,\"fit\":true,\"showHeader\":true,\"emptyText\":\"暂无匹配数据\",\"columns\":[{\"prop\":\"station\",\"label\":\"站点\",\"minWidth\":\"160\",\"align\":\"left\",\"type\":\"\",\"columnKey\":\"\",\"fixe ...len=841",
+      "styleConfig": ""
+    },
+    {
+      "row": "TrendChartRow",
+      "col": "TrendChartCol",
+      "uiName": "demo_chart",
+      "prototypeName": "ElementChart",
+      "detailConfig": "option={\"tooltip\":{\"trigger\":\"axis\"},\"grid\":{\"left\":48,\"right\":20,\"top\":24,\"bottom\":30},\"xAxis\":{\"type\":\"category\",\"data\":[\"A-01\",\"B-01\",\"A-02\"]},\"yAxis\":{\"type\":\"value\",\"name\":\"流量 ...len=270",
+      "styleConfig": ""
+    }
+  ]
+}

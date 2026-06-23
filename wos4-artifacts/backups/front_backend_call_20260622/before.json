@@ -1,0 +1,576 @@
+{
+  "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_107/index.html",
+  "childCount": 16,
+  "comps": [
+    {
+      "key": "PageView",
+      "linkList": null
+    },
+    {
+      "key": "demo_filter_input",
+      "UIName": "demo_filter_input",
+      "prototypeName": "ElementInput",
+      "label": "",
+      "linkList": [
+        {
+          "linkId": 200001,
+          "enable": false,
+          "KSCGUID": "kb79654aca563a11294ae3f16a7693b9",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Focus"
+        },
+        {
+          "linkId": 200002,
+          "enable": false,
+          "KSCGUID": "kbe6080c1340d333170cf85573ded5ef",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Blur"
+        },
+        {
+          "linkId": 200003,
+          "enable": false,
+          "KSCGUID": "k6fd53ef77ec550c0dafac479d1f5668",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Change"
+        },
+        {
+          "linkId": 200004,
+          "enable": false,
+          "KSCGUID": "k72f8e265407dfdfc17f297a1fcb2a9f",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Input"
+        },
+        {
+          "linkId": 200005,
+          "enable": false,
+          "KSCGUID": "kec434d8310e3e36dadd73a8c245ee38",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Clear"
+        },
+        {
+          "linkId": 200006,
+          "enable": false,
+          "KSCGUID": "k18b90bc956d44c62f2f9f4116a7ed1f",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Select"
+        }
+      ]
+    },
+    {
+      "key": "SearchInputCol",
+      "linkList": null
+    },
+    {
+      "key": "demo_query_button",
+      "UIName": "demo_query_button",
+      "prototypeName": "ElementButton",
+      "label": "查询全部(4)",
+      "linkList": [
+        {
+          "name": "OnClick",
+          "property": "upDateLink",
+          "type": "script",
+          "enable": true,
+          "script": "var page = this;\nvar kids = this.KMComponentsMng.$Children || {};\nfunction byName(name){ return Object.values(kids).find(function(v){ return v && (v.UIName===name || v.name===name || (v.propData && v.propData.UIName===name)); }); }\nfunction propOf(obj){ return obj && (obj._props && obj._props.propData || obj.propData || obj); }\nfunction getVar(name){\n  if (page.$Variable && typeof page.$Variable[name] !== 'undefined') return page.$Variable[name];\n  if (page.variableMng && page.variableMng.getVarByName) { var mv = page.variableMng.getVarByName(name); if (mv) { if (typeof mv.getValue === 'function') return mv.getValue(); return mv.varValue; } }\n}\nfunction setVar(name, value){\n  page.$Variable = page.$Variable || {};\n  page.$Variable[name] = value;\n  if (page.variableMng && page.variableMng.getVarByName && typeof page.setVariable === 'function') { var mv = page.variableMng.getVarByName(name); if (mv) page.setVariable(mv, value); }\n}\nfunction loadRows(){\n  var raw = getVar('seedData') || '[]';\n  try { return JSON.parse(raw); } catch(e) { return []; }\n}\nfunction buildRows(){\n  var kw = String(getVar('filterKey') || '').trim().toUpperCase();\n  var all = loadRows();\n  if (!kw) return all;\n  return all.filter(function(r){\n    return String(r.station||'').toUpperCase().indexOf(kw) >= 0 || String(r.area||'').toUpperCase().indexOf(kw) >= 0 || String(r.status||'').toUpperCase().indexOf(kw) >= 0;\n  });\n}\nfunction buildColumns(){\n  return [\n    {prop:'station',label:'\\u7ad9\\u70b9',minWidth:'140',align:'left',type:'',columnKey:'',fixed:false},\n    {prop:'area',label:'\\u533a\\u57df',minWidth:'84',align:'center',type:'',columnKey:'',fixed:false},\n    {prop:'status',label:'\\u72b6\\u6001',minWidth:'100',align:'center',type:'',columnKey:'',fixed:false},\n    {prop:'flow',label:'\\u6d41\\u91cf',minWidth:'100',align:'right',type:'',columnKey:'',fixed:false},\n    {prop:'pressure',label:'\\u538b\\u529b',minWidth:'100',align:'right',type:'',columnKey:'',fixed:false}\n  ];\n}\nfunction buildOption(rows, counter){\n  return {\n    color:['#2563eb'],\n    tooltip:{trigger:'axis'},\n    grid:{left:44,right:24,top:36,bottom:36},\n    xAxis:{type:'category',boundaryGap:false,data:rows.map(function(r){ return r.station; }),axisLine:{lineStyle:{color:'#94a3b8'}},axisLabel:{color:'#475569'}},\n    yAxis:{type:'value',axisLine:{show:false},splitLine:{lineStyle:{color:'#e2e8f0'}},axisLabel:{color:'#475569'}},\n    series:[{name:'\\u6d41\\u91cf\\u8d8b\\u52bf',type:'line',smooth:true,symbol:'circle',symbolSize:7,lineStyle:{width:3},areaStyle:{opacity:0.12},data:rows.map(function(r){ return Number(r.trend || 0) + Number(counter || 0); })}]\n  };\n}\npage.__pilotRefresh = function(reason){\n  var input = byName('demo_filter_input');\n  var button = byName('demo_query_button');\n  var table = byName('demo_table');\n  var chart = byName('demo_chart');\n  var tree = byName('demo_area_tree');\n  var counter = Number(getVar('refreshCounter') || 0);\n  var rows = buildRows();\n  var columns = buildColumns();\n  var cfg = { border:true, fit:true, showHeader:true, emptyText:'\\u6682\\u65e0\\u5339\\u914d\\u6570\\u636e', pagination:true, pageSize:10, columns:columns, totalData:rows };\n  if (table && typeof table.table === 'function') table.table(cfg);\n  if (propOf(table)) propOf(table).detailConfig = 'this.table(' + JSON.stringify(cfg) + ')';\n  var option = buildOption(rows, counter);\n  if (chart && typeof chart.SetOption === 'function') chart.SetOption(option, true);\n  if (propOf(chart)) propOf(chart).detailConfig = 'option=' + JSON.stringify(option);\n  if (button && typeof button.button === 'function') button.button({ text: '\\u67e5\\u8be2' + (String(getVar('filterKey') || '').trim() ? '\\uff1a' + String(getVar('filterKey')).trim() : '\\u5168\\u90e8') + '(' + rows.length + ')' });\n  if (tree && propOf(tree)) { propOf(tree).data = [{ label:'\\u5168\\u90e8\\u533a\\u57df', children:[{label:'A\\u533a'},{label:'B\\u533a'}] }]; }\n  page.__pilotLast = { reason: reason, counter: counter, rows: rows.length, filterKey: getVar('filterKey') || '' };\n  return page.__pilotLast;\n};\n\nvar input = byName('demo_filter_input');\n\nvar kw = '';\n\nif (input) { kw = String((input.getProperty && input.getProperty('value')) || (input.propData && input.propData.value) || '').trim(); }\n\nsetVar('filterKey', kw);\n\nvar current = Number(getVar('refreshCounter') || 0);\n\nsetVar('refreshCounter', current + 1);\n\npage.__pilotRefresh('button');",
+          "linkId": 200001,
+          "KSCGUID": "kc0bb92d50a435e76e3a475f73d8d5dc",
+          "option": [
+            {
+              "group": "基本",
+              "children": [
+                {
+                  "name": "OnClick",
+                  "property": "upDateLink",
+                  "type": "script",
+                  "enable": true,
+                  "script": "var page = this;\nvar kids = this.KMComponentsMng.$Children || {};\nfunction byName(name){ return Object.values(kids).find(function(v){ return v && (v.UIName===name || v.name===name || (v.propData && v.propData.UIName===name)); }); }\nfunction propOf(obj){ return obj && (obj._props && obj._props.propData || obj.propData || obj); }\nfunction getVar(name){\n  if (page.$Variable && typeof page.$Variable[name] !== 'undefined') return page.$Variable[name];\n  if (page.variableMng && page.variableMng.getVarByName) { var mv = page.variableMng.getVarByName(name); if (mv) { if (typeof mv.getValue === 'function') return mv.getValue(); return mv.varValue; } }\n}\nfunction setVar(name, value){\n  page.$Variable = page.$Variable || {};\n  page.$Variable[name] = value;\n  if (page.variableMng && page.variableMng.getVarByName && typeof page.setVariable === 'function') { var mv = page.variableMng.getVarByName(name); if (mv) page.setVariable(mv, value); }\n}\nfunction loadRows(){\n  var raw = getVar('seedData') || '[]';\n  try { return JSON.parse(raw); } catch(e) { return []; }\n}\nfunction buildRows(){\n  var kw = String(getVar('filterKey') || '').trim().toUpperCase();\n  var all = loadRows();\n  if (!kw) return all;\n  return all.filter(function(r){\n    return String(r.station||'').toUpperCase().indexOf(kw) >= 0 || String(r.area||'').toUpperCase().indexOf(kw) >= 0 || String(r.status||'').toUpperCase().indexOf(kw) >= 0;\n  });\n}\nfunction buildColumns(){\n  return [\n    {prop:'station',label:'\\u7ad9\\u70b9',minWidth:'140',align:'left',type:'',columnKey:'',fixed:false},\n    {prop:'area',label:'\\u533a\\u57df',minWidth:'84',align:'center',type:'',columnKey:'',fixed:false},\n    {prop:'status',label:'\\u72b6\\u6001',minWidth:'100',align:'center',type:'',columnKey:'',fixed:false},\n    {prop:'flow',label:'\\u6d41\\u91cf',minWidth:'100',align:'right',type:'',columnKey:'',fixed:false},\n    {prop:'pressure',label:'\\u538b\\u529b',minWidth:'100',align:'right',type:'',columnKey:'',fixed:false}\n  ];\n}\nfunction buildOption(rows, counter){\n  return {\n    color:['#2563eb'],\n    tooltip:{trigger:'axis'},\n    grid:{left:44,right:24,top:36,bottom:36},\n    xAxis:{type:'category',boundaryGap:false,data:rows.map(function(r){ return r.station; }),axisLine:{lineStyle:{color:'#94a3b8'}},axisLabel:{color:'#475569'}},\n    yAxis:{type:'value',axisLine:{show:false},splitLine:{lineStyle:{color:'#e2e8f0'}},axisLabel:{color:'#475569'}},\n    series:[{name:'\\u6d41\\u91cf\\u8d8b\\u52bf',type:'line',smooth:true,symbol:'circle',symbolSize:7,lineStyle:{width:3},areaStyle:{opacity:0.12},data:rows.map(function(r){ return Number(r.trend || 0) + Number(counter || 0); })}]\n  };\n}\npage.__pilotRefresh = function(reason){\n  var input = byName('demo_filter_input');\n  var button = byName('demo_query_button');\n  var table = byName('demo_table');\n  var chart = byName('demo_chart');\n  var tree = byName('demo_area_tree');\n  var counter = Number(getVar('refreshCounter') || 0);\n  var rows = buildRows();\n  var columns = buildColumns();\n  var cfg = { border:true, fit:true, showHeader:true, emptyText:'\\u6682\\u65e0\\u5339\\u914d\\u6570\\u636e', pagination:true, pageSize:10, columns:columns, totalData:rows };\n  if (table && typeof table.table === 'function') table.table(cfg);\n  if (propOf(table)) propOf(table).detailConfig = 'this.table(' + JSON.stringify(cfg) + ')';\n  var option = buildOption(rows, counter);\n  if (chart && typeof chart.SetOption === 'function') chart.SetOption(option, true);\n  if (propOf(chart)) propOf(chart).detailConfig = 'option=' + JSON.stringify(option);\n  if (button && typeof button.button === 'function') button.button({ text: '\\u67e5\\u8be2' + (String(getVar('filterKey') || '').trim() ? '\\uff1a' + String(getVar('filterKey')).trim() : '\\u5168\\u90e8') + '(' + rows.length + ')' });\n  if (tree && propOf(tree)) { propOf(tree).data = [{ label:'\\u5168\\u90e8\\u533a\\u57df', children:[{label:'A\\u533a'},{label:'B\\u533a'}] }]; }\n  page.__pilotLast = { reason: reason, counter: counter, rows: rows.length, filterKey: getVar('filterKey') || '' };\n  return page.__pilotLast;\n};\n\nvar input = byName('demo_filter_input');\n\nvar kw = '';\n\nif (input) { kw = String((input.getProperty && input.getProperty('value')) || (input.propData && input.propData.value) || '').trim(); }\n\nsetVar('filterKey', kw);\n\nvar current = Number(getVar('refreshCounter') || 0);\n\nsetVar('refreshCounter', current + 1);\n\npage.__pilotRefresh('button');",
+                  "linkId": 200001,
+                  "KSCGUID": "kc0bb92d50a435e76e3a475f73d8d5dc"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "SearchButtonCol",
+      "linkList": null
+    },
+    {
+      "key": "TopBarRow",
+      "linkList": null
+    },
+    {
+      "key": "demo_area_tree",
+      "UIName": "demo_area_tree",
+      "prototypeName": "ElementTree",
+      "linkList": [
+        {
+          "linkId": 200001,
+          "enable": false,
+          "KSCGUID": "ka0e5d5d8f226e7a7a402f887d6112f3",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "NodeClick"
+        },
+        {
+          "linkId": 200002,
+          "enable": false,
+          "KSCGUID": "kd8f861c9d0369b3de90bb8f6e9253a3",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "NodeContextmenu"
+        },
+        {
+          "linkId": 200003,
+          "enable": false,
+          "KSCGUID": "k7b377c0d5cc3e141ab5bb761c4a7d86",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CheckChange"
+        },
+        {
+          "linkId": 200004,
+          "enable": false,
+          "KSCGUID": "kdbb29d985ebe9c5442f27491eb9e81e",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Check"
+        },
+        {
+          "linkId": 200005,
+          "enable": false,
+          "KSCGUID": "kf01022d65715e3a6ab302b4d2ab5d48",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CurrentChange"
+        },
+        {
+          "linkId": 200006,
+          "enable": false,
+          "KSCGUID": "kc305c7fb551df94bb2e571475d05a61",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "NodeExpand"
+        },
+        {
+          "linkId": 200007,
+          "enable": false,
+          "KSCGUID": "k69f7166ca40c42443f3273d193aca87",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "NodeCollapse"
+        },
+        {
+          "linkId": 200008,
+          "enable": false,
+          "KSCGUID": "kc5d8556cfdb03696823510bfa1e072f",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "NodeDragStart"
+        },
+        {
+          "linkId": 200009,
+          "enable": false,
+          "KSCGUID": "k6154ff135e86f75f8feb606484b9eef",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "NodeDragEnter"
+        },
+        {
+          "linkId": 200010,
+          "enable": false,
+          "KSCGUID": "k41a02a97801d75ba0a3ab4c93e52700",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "NodeDragLeave"
+        },
+        {
+          "linkId": 200011,
+          "enable": false,
+          "KSCGUID": "k44efed41d5a96f8e6a20942ceac3bb3",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "NodeDragOver"
+        },
+        {
+          "linkId": 200012,
+          "enable": false,
+          "KSCGUID": "kf4508057a884e9ffb19515a59b671d6",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "NodeDragEnd"
+        },
+        {
+          "linkId": 200013,
+          "enable": false,
+          "KSCGUID": "k6fe100492623d235d93408dda447030",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "NodeDrop"
+        },
+        {
+          "linkId": 200014,
+          "enable": false,
+          "KSCGUID": "k3c8e7586ad96ae49b05974475094aa1",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "AfterEdit"
+        }
+      ]
+    },
+    {
+      "key": "LeftTreeCol",
+      "linkList": null
+    },
+    {
+      "key": "demo_table",
+      "UIName": "demo_table",
+      "prototypeName": "ElementTable",
+      "linkList": [
+        {
+          "linkId": 200001,
+          "enable": false,
+          "KSCGUID": "k98876bfc7022ac935835037f765672f",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Select"
+        },
+        {
+          "linkId": 200002,
+          "enable": false,
+          "KSCGUID": "k5c0463b0b7e76cdf41c2c18b35d6f93",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "SelectAll"
+        },
+        {
+          "linkId": 200003,
+          "enable": false,
+          "KSCGUID": "k68abf873147d87baac69e87787ed740",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "SelectionChange"
+        },
+        {
+          "linkId": 200004,
+          "enable": false,
+          "KSCGUID": "k57092a42ed7bc3790f3972ac3352115",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CellMouseEnter"
+        },
+        {
+          "linkId": 200005,
+          "enable": false,
+          "KSCGUID": "k252368c4ce5a9f8daef451ad7deb0be",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CellMouseLeave"
+        },
+        {
+          "linkId": 200006,
+          "enable": false,
+          "KSCGUID": "kd347106c924af5b1a063cbf6e1b4c6f",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CellClick"
+        },
+        {
+          "linkId": 200007,
+          "enable": false,
+          "KSCGUID": "kb9e0bdbeeb09d658582a368cb4e8474",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CellDbclick"
+        },
+        {
+          "linkId": 200008,
+          "enable": false,
+          "KSCGUID": "k691a3a901dd1572357b18495f9acc72",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "RowClick"
+        },
+        {
+          "linkId": 200009,
+          "enable": false,
+          "KSCGUID": "k929457bac5ec481da465d2133640ba1",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "RowContextmenu"
+        },
+        {
+          "linkId": 200010,
+          "enable": false,
+          "KSCGUID": "k81a090666803df6e26c3ec5bedfc01e",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "RowDbclick"
+        },
+        {
+          "linkId": 200011,
+          "enable": false,
+          "KSCGUID": "k322bbe50439740d8ad3b97c2225d394",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "HeaderClick"
+        },
+        {
+          "linkId": 200012,
+          "enable": false,
+          "KSCGUID": "kd5c02ba9ba8f6a3839f459b88a25934",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "SortChange"
+        },
+        {
+          "linkId": 200013,
+          "enable": false,
+          "KSCGUID": "k39d843325d5aee7800f4a671441720e",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "FilterChange"
+        },
+        {
+          "linkId": 200014,
+          "enable": false,
+          "KSCGUID": "ke2e13ecb2910e7b50a48bc5daa0be6f",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CurrentChange"
+        },
+        {
+          "linkId": 200015,
+          "enable": false,
+          "KSCGUID": "k2b86225d65360c8c7ffc9455e2e21ec",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "HeaderDragend"
+        },
+        {
+          "linkId": 200016,
+          "enable": false,
+          "KSCGUID": "k454380aac6d87de72f1e3ac5b5e0925",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "ExpandChange"
+        },
+        {
+          "linkId": 200017,
+          "enable": false,
+          "KSCGUID": "k29085fe5e45c9788d5938ec10e01a97",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CurrentPageChange"
+        },
+        {
+          "linkId": 200018,
+          "enable": false,
+          "KSCGUID": "kf088c6114795e857b52aa0af5d52f4a",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "OnLoadSuccess"
+        },
+        {
+          "linkId": 200019,
+          "enable": false,
+          "KSCGUID": "k4c24161227f76ea177986de12732f8c",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "OnBeforeEdit"
+        },
+        {
+          "linkId": 200020,
+          "enable": false,
+          "KSCGUID": "k9d6b04415758200e159468da0600e38",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "OnAfterEdit"
+        },
+        {
+          "linkId": 200021,
+          "enable": false,
+          "KSCGUID": "k7213b0592bd582787f80f31d9aeb94e",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "PageSizeChange"
+        }
+      ]
+    },
+    {
+      "key": "CenterTableCol",
+      "linkList": null
+    },
+    {
+      "key": "RightChartCol",
+      "linkList": null
+    },
+    {
+      "key": "MainContentRow",
+      "linkList": null
+    },
+    {
+      "key": "RootLayout",
+      "linkList": null
+    },
+    {
+      "key": "图层1",
+      "UIName": "图层1",
+      "prototypeName": "layer",
+      "linkList": null
+    },
+    {
+      "key": "currentSelectItem",
+      "linkList": null
+    },
+    {
+      "key": "demo_chart",
+      "UIName": "demo_chart",
+      "prototypeName": "ElementChart",
+      "linkList": [
+        {
+          "linkId": 200001,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Click",
+          "KSCGUID": "k02540a39adc1d9e1f606b139b1fbbc8"
+        },
+        {
+          "linkId": 200002,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Dblclick",
+          "KSCGUID": "kb90d8f7c58dc26ebcf59abc9162d6c2"
+        },
+        {
+          "linkId": 200003,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Mousedown",
+          "KSCGUID": "k517891d112057f1f5c1c201cd049199"
+        },
+        {
+          "linkId": 200004,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Mousemove",
+          "KSCGUID": "kc1fed63b3c3de337c5fd5936cf50fbd"
+        },
+        {
+          "linkId": 200005,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Mouseup",
+          "KSCGUID": "kf83422ab493a13fa007382544fd69e9"
+        },
+        {
+          "linkId": 200006,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Mouseover",
+          "KSCGUID": "kb62400f879e948f82ec8133d8020b3d"
+        },
+        {
+          "linkId": 200007,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Mouseout",
+          "KSCGUID": "k75f4709719f884b95adbc44762bd6e2"
+        },
+        {
+          "linkId": 200008,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Globalout",
+          "KSCGUID": "k94344c32ab1b56ac3a5215be5108f2b"
+        },
+        {
+          "linkId": 200009,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Contextmenu",
+          "KSCGUID": "k71b50440eee5ba577185478244603d4"
+        }
+      ]
+    }
+  ],
+  "variables": null,
+  "pageLinkMng": null,
+  "button": {
+    "UIName": "demo_query_button",
+    "prototypeName": "ElementButton",
+    "linkList": [
+      {
+        "name": "OnClick",
+        "property": "upDateLink",
+        "type": "script",
+        "enable": true,
+        "script": "var page = this;\nvar kids = this.KMComponentsMng.$Children || {};\nfunction byName(name){ return Object.values(kids).find(function(v){ return v && (v.UIName===name || v.name===name || (v.propData && v.propData.UIName===name)); }); }\nfunction propOf(obj){ return obj && (obj._props && obj._props.propData || obj.propData || obj); }\nfunction getVar(name){\n  if (page.$Variable && typeof page.$Variable[name] !== 'undefined') return page.$Variable[name];\n  if (page.variableMng && page.variableMng.getVarByName) { var mv = page.variableMng.getVarByName(name); if (mv) { if (typeof mv.getValue === 'function') return mv.getValue(); return mv.varValue; } }\n}\nfunction setVar(name, value){\n  page.$Variable = page.$Variable || {};\n  page.$Variable[name] = value;\n  if (page.variableMng && page.variableMng.getVarByName && typeof page.setVariable === 'function') { var mv = page.variableMng.getVarByName(name); if (mv) page.setVariable(mv, value); }\n}\nfunction loadRows(){\n  var raw = getVar('seedData') || '[]';\n  try { return JSON.parse(raw); } catch(e) { return []; }\n}\nfunction buildRows(){\n  var kw = String(getVar('filterKey') || '').trim().toUpperCase();\n  var all = loadRows();\n  if (!kw) return all;\n  return all.filter(function(r){\n    return String(r.station||'').toUpperCase().indexOf(kw) >= 0 || String(r.area||'').toUpperCase().indexOf(kw) >= 0 || String(r.status||'').toUpperCase().indexOf(kw) >= 0;\n  });\n}\nfunction buildColumns(){\n  return [\n    {prop:'station',label:'\\u7ad9\\u70b9',minWidth:'140',align:'left',type:'',columnKey:'',fixed:false},\n    {prop:'area',label:'\\u533a\\u57df',minWidth:'84',align:'center',type:'',columnKey:'',fixed:false},\n    {prop:'status',label:'\\u72b6\\u6001',minWidth:'100',align:'center',type:'',columnKey:'',fixed:false},\n    {prop:'flow',label:'\\u6d41\\u91cf',minWidth:'100',align:'right',type:'',columnKey:'',fixed:false},\n    {prop:'pressure',label:'\\u538b\\u529b',minWidth:'100',align:'right',type:'',columnKey:'',fixed:false}\n  ];\n}\nfunction buildOption(rows, counter){\n  return {\n    color:['#2563eb'],\n    tooltip:{trigger:'axis'},\n    grid:{left:44,right:24,top:36,bottom:36},\n    xAxis:{type:'category',boundaryGap:false,data:rows.map(function(r){ return r.station; }),axisLine:{lineStyle:{color:'#94a3b8'}},axisLabel:{color:'#475569'}},\n    yAxis:{type:'value',axisLine:{show:false},splitLine:{lineStyle:{color:'#e2e8f0'}},axisLabel:{color:'#475569'}},\n    series:[{name:'\\u6d41\\u91cf\\u8d8b\\u52bf',type:'line',smooth:true,symbol:'circle',symbolSize:7,lineStyle:{width:3},areaStyle:{opacity:0.12},data:rows.map(function(r){ return Number(r.trend || 0) + Number(counter || 0); })}]\n  };\n}\npage.__pilotRefresh = function(reason){\n  var input = byName('demo_filter_input');\n  var button = byName('demo_query_button');\n  var table = byName('demo_table');\n  var chart = byName('demo_chart');\n  var tree = byName('demo_area_tree');\n  var counter = Number(getVar('refreshCounter') || 0);\n  var rows = buildRows();\n  var columns = buildColumns();\n  var cfg = { border:true, fit:true, showHeader:true, emptyText:'\\u6682\\u65e0\\u5339\\u914d\\u6570\\u636e', pagination:true, pageSize:10, columns:columns, totalData:rows };\n  if (table && typeof table.table === 'function') table.table(cfg);\n  if (propOf(table)) propOf(table).detailConfig = 'this.table(' + JSON.stringify(cfg) + ')';\n  var option = buildOption(rows, counter);\n  if (chart && typeof chart.SetOption === 'function') chart.SetOption(option, true);\n  if (propOf(chart)) propOf(chart).detailConfig = 'option=' + JSON.stringify(option);\n  if (button && typeof button.button === 'function') button.button({ text: '\\u67e5\\u8be2' + (String(getVar('filterKey') || '').trim() ? '\\uff1a' + String(getVar('filterKey')).trim() : '\\u5168\\u90e8') + '(' + rows.length + ')' });\n  if (tree && propOf(tree)) { propOf(tree).data = [{ label:'\\u5168\\u90e8\\u533a\\u57df', children:[{label:'A\\u533a'},{label:'B\\u533a'}] }]; }\n  page.__pilotLast = { reason: reason, counter: counter, rows: rows.length, filterKey: getVar('filterKey') || '' };\n  return page.__pilotLast;\n};\n\nvar input = byName('demo_filter_input');\n\nvar kw = '';\n\nif (input) { kw = String((input.getProperty && input.getProperty('value')) || (input.propData && input.propData.value) || '').trim(); }\n\nsetVar('filterKey', kw);\n\nvar current = Number(getVar('refreshCounter') || 0);\n\nsetVar('refreshCounter', current + 1);\n\npage.__pilotRefresh('button');",
+        "linkId": 200001,
+        "KSCGUID": "kc0bb92d50a435e76e3a475f73d8d5dc",
+        "option": [
+          {
+            "group": "基本",
+            "children": [
+              {
+                "name": "OnClick",
+                "property": "upDateLink",
+                "type": "script",
+                "enable": true,
+                "script": "var page = this;\nvar kids = this.KMComponentsMng.$Children || {};\nfunction byName(name){ return Object.values(kids).find(function(v){ return v && (v.UIName===name || v.name===name || (v.propData && v.propData.UIName===name)); }); }\nfunction propOf(obj){ return obj && (obj._props && obj._props.propData || obj.propData || obj); }\nfunction getVar(name){\n  if (page.$Variable && typeof page.$Variable[name] !== 'undefined') return page.$Variable[name];\n  if (page.variableMng && page.variableMng.getVarByName) { var mv = page.variableMng.getVarByName(name); if (mv) { if (typeof mv.getValue === 'function') return mv.getValue(); return mv.varValue; } }\n}\nfunction setVar(name, value){\n  page.$Variable = page.$Variable || {};\n  page.$Variable[name] = value;\n  if (page.variableMng && page.variableMng.getVarByName && typeof page.setVariable === 'function') { var mv = page.variableMng.getVarByName(name); if (mv) page.setVariable(mv, value); }\n}\nfunction loadRows(){\n  var raw = getVar('seedData') || '[]';\n  try { return JSON.parse(raw); } catch(e) { return []; }\n}\nfunction buildRows(){\n  var kw = String(getVar('filterKey') || '').trim().toUpperCase();\n  var all = loadRows();\n  if (!kw) return all;\n  return all.filter(function(r){\n    return String(r.station||'').toUpperCase().indexOf(kw) >= 0 || String(r.area||'').toUpperCase().indexOf(kw) >= 0 || String(r.status||'').toUpperCase().indexOf(kw) >= 0;\n  });\n}\nfunction buildColumns(){\n  return [\n    {prop:'station',label:'\\u7ad9\\u70b9',minWidth:'140',align:'left',type:'',columnKey:'',fixed:false},\n    {prop:'area',label:'\\u533a\\u57df',minWidth:'84',align:'center',type:'',columnKey:'',fixed:false},\n    {prop:'status',label:'\\u72b6\\u6001',minWidth:'100',align:'center',type:'',columnKey:'',fixed:false},\n    {prop:'flow',label:'\\u6d41\\u91cf',minWidth:'100',align:'right',type:'',columnKey:'',fixed:false},\n    {prop:'pressure',label:'\\u538b\\u529b',minWidth:'100',align:'right',type:'',columnKey:'',fixed:false}\n  ];\n}\nfunction buildOption(rows, counter){\n  return {\n    color:['#2563eb'],\n    tooltip:{trigger:'axis'},\n    grid:{left:44,right:24,top:36,bottom:36},\n    xAxis:{type:'category',boundaryGap:false,data:rows.map(function(r){ return r.station; }),axisLine:{lineStyle:{color:'#94a3b8'}},axisLabel:{color:'#475569'}},\n    yAxis:{type:'value',axisLine:{show:false},splitLine:{lineStyle:{color:'#e2e8f0'}},axisLabel:{color:'#475569'}},\n    series:[{name:'\\u6d41\\u91cf\\u8d8b\\u52bf',type:'line',smooth:true,symbol:'circle',symbolSize:7,lineStyle:{width:3},areaStyle:{opacity:0.12},data:rows.map(function(r){ return Number(r.trend || 0) + Number(counter || 0); })}]\n  };\n}\npage.__pilotRefresh = function(reason){\n  var input = byName('demo_filter_input');\n  var button = byName('demo_query_button');\n  var table = byName('demo_table');\n  var chart = byName('demo_chart');\n  var tree = byName('demo_area_tree');\n  var counter = Number(getVar('refreshCounter') || 0);\n  var rows = buildRows();\n  var columns = buildColumns();\n  var cfg = { border:true, fit:true, showHeader:true, emptyText:'\\u6682\\u65e0\\u5339\\u914d\\u6570\\u636e', pagination:true, pageSize:10, columns:columns, totalData:rows };\n  if (table && typeof table.table === 'function') table.table(cfg);\n  if (propOf(table)) propOf(table).detailConfig = 'this.table(' + JSON.stringify(cfg) + ')';\n  var option = buildOption(rows, counter);\n  if (chart && typeof chart.SetOption === 'function') chart.SetOption(option, true);\n  if (propOf(chart)) propOf(chart).detailConfig = 'option=' + JSON.stringify(option);\n  if (button && typeof button.button === 'function') button.button({ text: '\\u67e5\\u8be2' + (String(getVar('filterKey') || '').trim() ? '\\uff1a' + String(getVar('filterKey')).trim() : '\\u5168\\u90e8') + '(' + rows.length + ')' });\n  if (tree && propOf(tree)) { propOf(tree).data = [{ label:'\\u5168\\u90e8\\u533a\\u57df', children:[{label:'A\\u533a'},{label:'B\\u533a'}] }]; }\n  page.__pilotLast = { reason: reason, counter: counter, rows: rows.length, filterKey: getVar('filterKey') || '' };\n  return page.__pilotLast;\n};\n\nvar input = byName('demo_filter_input');\n\nvar kw = '';\n\nif (input) { kw = String((input.getProperty && input.getProperty('value')) || (input.propData && input.propData.value) || '').trim(); }\n\nsetVar('filterKey', kw);\n\nvar current = Number(getVar('refreshCounter') || 0);\n\nsetVar('refreshCounter', current + 1);\n\npage.__pilotRefresh('button');",
+                "linkId": 200001,
+                "KSCGUID": "kc0bb92d50a435e76e3a475f73d8d5dc"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "propDataLinkList": [
+      {
+        "name": "OnClick",
+        "property": "upDateLink",
+        "type": "script",
+        "enable": true,
+        "script": "var page = this;\nvar kids = this.KMComponentsMng.$Children || {};\nfunction byName(name){ return Object.values(kids).find(function(v){ return v && (v.UIName===name || v.name===name || (v.propData && v.propData.UIName===name)); }); }\nfunction propOf(obj){ return obj && (obj._props && obj._props.propData || obj.propData || obj); }\nfunction getVar(name){\n  if (page.$Variable && typeof page.$Variable[name] !== 'undefined') return page.$Variable[name];\n  if (page.variableMng && page.variableMng.getVarByName) { var mv = page.variableMng.getVarByName(name); if (mv) { if (typeof mv.getValue === 'function') return mv.getValue(); return mv.varValue; } }\n}\nfunction setVar(name, value){\n  page.$Variable = page.$Variable || {};\n  page.$Variable[name] = value;\n  if (page.variableMng && page.variableMng.getVarByName && typeof page.setVariable === 'function') { var mv = page.variableMng.getVarByName(name); if (mv) page.setVariable(mv, value); }\n}\nfunction loadRows(){\n  var raw = getVar('seedData') || '[]';\n  try { return JSON.parse(raw); } catch(e) { return []; }\n}\nfunction buildRows(){\n  var kw = String(getVar('filterKey') || '').trim().toUpperCase();\n  var all = loadRows();\n  if (!kw) return all;\n  return all.filter(function(r){\n    return String(r.station||'').toUpperCase().indexOf(kw) >= 0 || String(r.area||'').toUpperCase().indexOf(kw) >= 0 || String(r.status||'').toUpperCase().indexOf(kw) >= 0;\n  });\n}\nfunction buildColumns(){\n  return [\n    {prop:'station',label:'\\u7ad9\\u70b9',minWidth:'140',align:'left',type:'',columnKey:'',fixed:false},\n    {prop:'area',label:'\\u533a\\u57df',minWidth:'84',align:'center',type:'',columnKey:'',fixed:false},\n    {prop:'status',label:'\\u72b6\\u6001',minWidth:'100',align:'center',type:'',columnKey:'',fixed:false},\n    {prop:'flow',label:'\\u6d41\\u91cf',minWidth:'100',align:'right',type:'',columnKey:'',fixed:false},\n    {prop:'pressure',label:'\\u538b\\u529b',minWidth:'100',align:'right',type:'',columnKey:'',fixed:false}\n  ];\n}\nfunction buildOption(rows, counter){\n  return {\n    color:['#2563eb'],\n    tooltip:{trigger:'axis'},\n    grid:{left:44,right:24,top:36,bottom:36},\n    xAxis:{type:'category',boundaryGap:false,data:rows.map(function(r){ return r.station; }),axisLine:{lineStyle:{color:'#94a3b8'}},axisLabel:{color:'#475569'}},\n    yAxis:{type:'value',axisLine:{show:false},splitLine:{lineStyle:{color:'#e2e8f0'}},axisLabel:{color:'#475569'}},\n    series:[{name:'\\u6d41\\u91cf\\u8d8b\\u52bf',type:'line',smooth:true,symbol:'circle',symbolSize:7,lineStyle:{width:3},areaStyle:{opacity:0.12},data:rows.map(function(r){ return Number(r.trend || 0) + Number(counter || 0); })}]\n  };\n}\npage.__pilotRefresh = function(reason){\n  var input = byName('demo_filter_input');\n  var button = byName('demo_query_button');\n  var table = byName('demo_table');\n  var chart = byName('demo_chart');\n  var tree = byName('demo_area_tree');\n  var counter = Number(getVar('refreshCounter') || 0);\n  var rows = buildRows();\n  var columns = buildColumns();\n  var cfg = { border:true, fit:true, showHeader:true, emptyText:'\\u6682\\u65e0\\u5339\\u914d\\u6570\\u636e', pagination:true, pageSize:10, columns:columns, totalData:rows };\n  if (table && typeof table.table === 'function') table.table(cfg);\n  if (propOf(table)) propOf(table).detailConfig = 'this.table(' + JSON.stringify(cfg) + ')';\n  var option = buildOption(rows, counter);\n  if (chart && typeof chart.SetOption === 'function') chart.SetOption(option, true);\n  if (propOf(chart)) propOf(chart).detailConfig = 'option=' + JSON.stringify(option);\n  if (button && typeof button.button === 'function') button.button({ text: '\\u67e5\\u8be2' + (String(getVar('filterKey') || '').trim() ? '\\uff1a' + String(getVar('filterKey')).trim() : '\\u5168\\u90e8') + '(' + rows.length + ')' });\n  if (tree && propOf(tree)) { propOf(tree).data = [{ label:'\\u5168\\u90e8\\u533a\\u57df', children:[{label:'A\\u533a'},{label:'B\\u533a'}] }]; }\n  page.__pilotLast = { reason: reason, counter: counter, rows: rows.length, filterKey: getVar('filterKey') || '' };\n  return page.__pilotLast;\n};\n\nvar input = byName('demo_filter_input');\n\nvar kw = '';\n\nif (input) { kw = String((input.getProperty && input.getProperty('value')) || (input.propData && input.propData.value) || '').trim(); }\n\nsetVar('filterKey', kw);\n\nvar current = Number(getVar('refreshCounter') || 0);\n\nsetVar('refreshCounter', current + 1);\n\npage.__pilotRefresh('button');",
+        "linkId": 200001,
+        "KSCGUID": "kc0bb92d50a435e76e3a475f73d8d5dc",
+        "option": [
+          {
+            "group": "基本",
+            "children": [
+              {
+                "name": "OnClick",
+                "property": "upDateLink",
+                "type": "script",
+                "enable": true,
+                "script": "var page = this;\nvar kids = this.KMComponentsMng.$Children || {};\nfunction byName(name){ return Object.values(kids).find(function(v){ return v && (v.UIName===name || v.name===name || (v.propData && v.propData.UIName===name)); }); }\nfunction propOf(obj){ return obj && (obj._props && obj._props.propData || obj.propData || obj); }\nfunction getVar(name){\n  if (page.$Variable && typeof page.$Variable[name] !== 'undefined') return page.$Variable[name];\n  if (page.variableMng && page.variableMng.getVarByName) { var mv = page.variableMng.getVarByName(name); if (mv) { if (typeof mv.getValue === 'function') return mv.getValue(); return mv.varValue; } }\n}\nfunction setVar(name, value){\n  page.$Variable = page.$Variable || {};\n  page.$Variable[name] = value;\n  if (page.variableMng && page.variableMng.getVarByName && typeof page.setVariable === 'function') { var mv = page.variableMng.getVarByName(name); if (mv) page.setVariable(mv, value); }\n}\nfunction loadRows(){\n  var raw = getVar('seedData') || '[]';\n  try { return JSON.parse(raw); } catch(e) { return []; }\n}\nfunction buildRows(){\n  var kw = String(getVar('filterKey') || '').trim().toUpperCase();\n  var all = loadRows();\n  if (!kw) return all;\n  return all.filter(function(r){\n    return String(r.station||'').toUpperCase().indexOf(kw) >= 0 || String(r.area||'').toUpperCase().indexOf(kw) >= 0 || String(r.status||'').toUpperCase().indexOf(kw) >= 0;\n  });\n}\nfunction buildColumns(){\n  return [\n    {prop:'station',label:'\\u7ad9\\u70b9',minWidth:'140',align:'left',type:'',columnKey:'',fixed:false},\n    {prop:'area',label:'\\u533a\\u57df',minWidth:'84',align:'center',type:'',columnKey:'',fixed:false},\n    {prop:'status',label:'\\u72b6\\u6001',minWidth:'100',align:'center',type:'',columnKey:'',fixed:false},\n    {prop:'flow',label:'\\u6d41\\u91cf',minWidth:'100',align:'right',type:'',columnKey:'',fixed:false},\n    {prop:'pressure',label:'\\u538b\\u529b',minWidth:'100',align:'right',type:'',columnKey:'',fixed:false}\n  ];\n}\nfunction buildOption(rows, counter){\n  return {\n    color:['#2563eb'],\n    tooltip:{trigger:'axis'},\n    grid:{left:44,right:24,top:36,bottom:36},\n    xAxis:{type:'category',boundaryGap:false,data:rows.map(function(r){ return r.station; }),axisLine:{lineStyle:{color:'#94a3b8'}},axisLabel:{color:'#475569'}},\n    yAxis:{type:'value',axisLine:{show:false},splitLine:{lineStyle:{color:'#e2e8f0'}},axisLabel:{color:'#475569'}},\n    series:[{name:'\\u6d41\\u91cf\\u8d8b\\u52bf',type:'line',smooth:true,symbol:'circle',symbolSize:7,lineStyle:{width:3},areaStyle:{opacity:0.12},data:rows.map(function(r){ return Number(r.trend || 0) + Number(counter || 0); })}]\n  };\n}\npage.__pilotRefresh = function(reason){\n  var input = byName('demo_filter_input');\n  var button = byName('demo_query_button');\n  var table = byName('demo_table');\n  var chart = byName('demo_chart');\n  var tree = byName('demo_area_tree');\n  var counter = Number(getVar('refreshCounter') || 0);\n  var rows = buildRows();\n  var columns = buildColumns();\n  var cfg = { border:true, fit:true, showHeader:true, emptyText:'\\u6682\\u65e0\\u5339\\u914d\\u6570\\u636e', pagination:true, pageSize:10, columns:columns, totalData:rows };\n  if (table && typeof table.table === 'function') table.table(cfg);\n  if (propOf(table)) propOf(table).detailConfig = 'this.table(' + JSON.stringify(cfg) + ')';\n  var option = buildOption(rows, counter);\n  if (chart && typeof chart.SetOption === 'function') chart.SetOption(option, true);\n  if (propOf(chart)) propOf(chart).detailConfig = 'option=' + JSON.stringify(option);\n  if (button && typeof button.button === 'function') button.button({ text: '\\u67e5\\u8be2' + (String(getVar('filterKey') || '').trim() ? '\\uff1a' + String(getVar('filterKey')).trim() : '\\u5168\\u90e8') + '(' + rows.length + ')' });\n  if (tree && propOf(tree)) { propOf(tree).data = [{ label:'\\u5168\\u90e8\\u533a\\u57df', children:[{label:'A\\u533a'},{label:'B\\u533a'}] }]; }\n  page.__pilotLast = { reason: reason, counter: counter, rows: rows.length, filterKey: getVar('filterKey') || '' };\n  return page.__pilotLast;\n};\n\nvar input = byName('demo_filter_input');\n\nvar kw = '';\n\nif (input) { kw = String((input.getProperty && input.getProperty('value')) || (input.propData && input.propData.value) || '').trim(); }\n\nsetVar('filterKey', kw);\n\nvar current = Number(getVar('refreshCounter') || 0);\n\nsetVar('refreshCounter', current + 1);\n\npage.__pilotRefresh('button');",
+                "linkId": 200001,
+                "KSCGUID": "kc0bb92d50a435e76e3a475f73d8d5dc"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "text": "查询全部(4)"
+  },
+  "pageData": null
+}

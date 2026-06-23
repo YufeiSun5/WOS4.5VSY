@@ -1,0 +1,170 @@
+[
+  {
+    "key": "RContainer1",
+    "parentGUID": "0c79c07f_d539_4808_84c5_e4f36a1ea285",
+    "rect": {
+      "x": 326.05999755859375,
+      "y": 109.59625244140625,
+      "w": 1181.880126953125,
+      "h": 664.8074951171875
+    }
+  },
+  {
+    "key": "RRow1",
+    "parentGUID": "k5d6aef4b94a95dad147d02b2a0f12e2",
+    "colsNumber": 8,
+    "rowHeight": 88,
+    "rowHeightStrategy": "fixedsize",
+    "rect": {
+      "x": 326.05999755859375,
+      "y": 115.75187683105469,
+      "w": 1181.880126953125,
+      "h": 54.16950988769531
+    }
+  },
+  {
+    "key": "RCol11",
+    "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+    "colHeight": 86,
+    "colHeightStrategy": "percentage",
+    "rect": {
+      "x": 326.6755676269531,
+      "y": 116.36743927001953,
+      "w": 49.2449951171875,
+      "h": 52.938377380371094
+    }
+  },
+  {
+    "key": "RCol12",
+    "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+    "colHeight": 86,
+    "colHeightStrategy": "percentage",
+    "rect": {
+      "x": 375.9205627441406,
+      "y": 116.36743927001953,
+      "w": 124.83413696289062,
+      "h": 52.938377380371094
+    }
+  },
+  {
+    "key": "RCol13",
+    "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+    "colHeight": 86,
+    "colHeightStrategy": "percentage",
+    "rect": {
+      "x": 500.75469970703125,
+      "y": 116.36743927001953,
+      "w": 49.2449951171875,
+      "h": 52.938377380371094
+    }
+  },
+  {
+    "key": "RCol14",
+    "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+    "colHeight": 86,
+    "colHeightStrategy": "percentage",
+    "rect": {
+      "x": 549.9996948242188,
+      "y": 116.36743927001953,
+      "w": 138.41497802734375,
+      "h": 52.938377380371094
+    }
+  },
+  {
+    "key": "RCol9",
+    "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+    "colHeight": 86,
+    "colHeightStrategy": "percentage",
+    "rect": {
+      "x": 1278.941162109375,
+      "y": 116.36743927001953,
+      "w": 49.2449951171875,
+      "h": 52.938377380371094
+    }
+  },
+  {
+    "key": "RCol2",
+    "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+    "colHeight": 86,
+    "colHeightStrategy": "percentage",
+    "rect": {
+      "x": 1334.341796875,
+      "y": 116.36743927001953,
+      "w": 49.2449951171875,
+      "h": 52.938377380371094
+    }
+  },
+  {
+    "key": "RCol8",
+    "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+    "colHeight": 86,
+    "colHeightStrategy": "percentage",
+    "rect": {
+      "x": 1389.742431640625,
+      "y": 116.36743927001953,
+      "w": 49.2449951171875,
+      "h": 52.938377380371094
+    }
+  },
+  {
+    "key": "RCol3",
+    "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+    "colHeight": 86,
+    "colHeightStrategy": "percentage",
+    "rect": {
+      "x": 1445.14306640625,
+      "y": 116.36743927001953,
+      "w": 49.2449951171875,
+      "h": 52.938377380371094
+    }
+  },
+  {
+    "key": "RRow2",
+    "parentGUID": "k5d6aef4b94a95dad147d02b2a0f12e2",
+    "colsNumber": 3,
+    "rowHeight": 1045,
+    "rowHeightStrategy": "percentage",
+    "rect": {
+      "x": 326.05999755859375,
+      "y": 176.07699584960938,
+      "w": 1181.880126953125,
+      "h": 643.2628173828125
+    }
+  },
+  {
+    "key": "RCol6",
+    "parentGUID": "kfced2d11d057076a229e74f82c42122",
+    "colHeight": 1043,
+    "colHeightStrategy": "percentage",
+    "rect": {
+      "x": 326.6755676269531,
+      "y": 176.69256591796875,
+      "w": 391.2861022949219,
+      "h": 642.0316772460938
+    }
+  },
+  {
+    "key": "RCol15",
+    "parentGUID": "kfced2d11d057076a229e74f82c42122",
+    "colHeight": 1043,
+    "colHeightStrategy": "percentage",
+    "rect": {
+      "x": 717.961669921875,
+      "y": 176.69256591796875,
+      "w": 391.2861328125,
+      "h": 642.0316772460938
+    }
+  },
+  {
+    "key": "RCol16",
+    "parentGUID": "kfced2d11d057076a229e74f82c42122",
+    "colHeight": 1043,
+    "colHeightStrategy": "percentage",
+    "rect": {
+      "x": 1109.247802734375,
+      "y": 176.69256591796875,
+      "w": 391.2862548828125,
+      "h": 642.0316772460938
+    }
+  }
+]

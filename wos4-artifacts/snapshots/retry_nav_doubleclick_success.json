@@ -1,0 +1,36 @@
+{
+  "at": "2026-06-12T00:56:18.023Z",
+  "steps": [
+    {
+      "name": "login_ready",
+      "frames": [
+        {
+          "i": 0,
+          "url": "http://221.239.19.118:13001/#/main",
+          "text": "时空功能开发 时空对象管理 系统运维 安全管理 审计管理 亚控云商城 KingStudio_V20260514 组态系统客户端0518 建模系统客户端_0518 运维部署客户端_0518 Codex临时测试_前端视图_0611"
+        }
+      ]
+    },
+    {
+      "name": "product_frame_ready",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html#/running",
+      "frames": [
+        {
+          "i": 0,
+          "url": "http://221.239.19.118:13001/#/main",
+          "text": "时空功能开发 时空对象管理 系统运维 安全管理 审计管理 亚控云商城 KingStudio_V20260514 组态系统客户端0518 建模系统客户端_0518 运维部署客户端_0518 Codex临时测试_前端视图_0611"
+        },
+        {
+          "i": 1,
+          "url": "http://221.239.19.118:13001/public/?id=6192730962611142708&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+          "text": ""
+        },
+        {
+          "i": 2,
+          "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html#/running",
+          "text": "KingStudio 简体中文 关于 产品管理 新建 导入 导出 升级拷贝1 进入修改删除"
+        }
+      ]
+    }
+  ]
+}

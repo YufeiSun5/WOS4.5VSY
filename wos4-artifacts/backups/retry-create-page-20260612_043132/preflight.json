@@ -1,0 +1,14 @@
+{
+  "task": "retry-create-page-chain",
+  "at": "2026-06-12T04:31:32",
+  "group": "Codex自动演示_0612",
+  "pageName": "Codex自动演示页面_retry_20260612_043132",
+  "operator": "code-ai",
+  "skills": [
+    "wos4-login",
+    "wos4-create-new-page",
+    "wos4-layout-devtools-skill",
+    "wos4-demo-page-fullstack-skill"
+  ],
+  "note": "登录使用 wos4-login 原生 setter；页面入口和后续操作使用 Chrome MCP。"
+}

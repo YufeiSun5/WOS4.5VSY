@@ -1,0 +1,62 @@
+[
+  {
+    "path": "wos4-artifacts\\tests\\README.md",
+    "existed": true,
+    "bytes": 236,
+    "action": "backup-before-test-report-policy"
+  },
+  {
+    "path": "wos4-artifacts\\reports\\README.md",
+    "existed": true,
+    "bytes": 246,
+    "action": "backup-before-test-report-policy"
+  },
+  {
+    "path": "README.md",
+    "existed": true,
+    "bytes": 3504,
+    "action": "backup-before-test-report-policy"
+  },
+  {
+    "path": "AGENTS.md",
+    "existed": true,
+    "bytes": 14496,
+    "action": "backup-before-test-report-policy"
+  },
+  {
+    "path": "MEMORY.md",
+    "existed": true,
+    "bytes": 54073,
+    "action": "backup-before-test-report-policy"
+  },
+  {
+    "path": "wos4-artifacts\\tests\\unit\\README.md",
+    "existed": false,
+    "action": "new-file-or-directory-readme-will-be-created"
+  },
+  {
+    "path": "wos4-artifacts\\tests\\integration\\README.md",
+    "existed": false,
+    "action": "new-file-or-directory-readme-will-be-created"
+  },
+  {
+    "path": "wos4-artifacts\\tests\\regression\\README.md",
+    "existed": false,
+    "action": "new-file-or-directory-readme-will-be-created"
+  },
+  {
+    "path": "wos4-artifacts\\tests\\fixtures\\README.md",
+    "existed": false,
+    "action": "new-file-or-directory-readme-will-be-created"
+  },
+  {
+    "path": "wos4-artifacts\\tests\\manual\\README.md",
+    "existed": false,
+    "action": "new-file-or-directory-readme-will-be-created"
+  },
+  {
+    "path": ".ai\\docs\\test-and-report-policy.md",
+    "existed": false,
+    "action": "new-file-or-directory-readme-will-be-created"
+  }
+]

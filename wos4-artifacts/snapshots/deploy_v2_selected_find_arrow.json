@@ -1,0 +1,71 @@
+{
+  "dialog": "添加时空仓库\n时空仓库\n默认数据区\nKingFusion4.5_V1\nKingStudio4.5_Beta_dataBase\nKF4.5工程\nKingStudio4.5_Beta\n个人仓库\n盛云_孙宇飞_仓库\n仓库数据包\nV2\n\n描述: meta-language-demo-0617-package-v2-oncreate-trace\n\n时间: 2026-06-17 13:10:49\n\nV1\n\n描述: meta-language-demo-0617-package-1\n\n时间: 2026-06-17 11:52:52\n\n预添加仓库数据包\n\n暂无选中版本\n\n已选仓库包 0 项\n取消\n确认",
+  "candidates": [
+    {
+      "i": 85,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default",
+      "text": "",
+      "x": 1084.234375,
+      "y": 405.84375,
+      "w": 46,
+      "h": 46,
+      "disabled": false
+    },
+    {
+      "i": 86,
+      "tag": "I",
+      "cls": "el-icon",
+      "text": "",
+      "x": 1097.234375,
+      "y": 418.84375,
+      "w": 20,
+      "h": 20,
+      "disabled": false
+    },
+    {
+      "i": 88,
+      "tag": "DIV",
+      "cls": "el-scrollbar package-scrollbar",
+      "text": "暂无选中版本",
+      "x": 1164.234375,
+      "y": 230.84375,
+      "w": 267.765625,
+      "h": 428,
+      "disabled": false
+    },
+    {
+      "i": 89,
+      "tag": "DIV",
+      "cls": "el-scrollbar__wrap el-scrollbar__wrap--hidden-default",
+      "text": "暂无选中版本",
+      "x": 1164.234375,
+      "y": 230.84375,
+      "w": 255.765625,
+      "h": 428,
+      "disabled": false
+    },
+    {
+      "i": 90,
+      "tag": "DIV",
+      "cls": "el-scrollbar__view",
+      "text": "暂无选中版本",
+      "x": 1164.234375,
+      "y": 230.84375,
+      "w": 255.765625,
+      "h": 288.171875,
+      "disabled": false
+    },
+    {
+      "i": 91,
+      "tag": "DIV",
+      "cls": "el-empty",
+      "text": "暂无选中版本",
+      "x": 1164.234375,
+      "y": 230.84375,
+      "w": 255.765625,
+      "h": 288.171875,
+      "disabled": false
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+[
+  {
+    "task": "登录、桌面、任务栏、帮助入口",
+    "chapters": [
+      "简介",
+      "统一登录",
+      "任务栏应用管理",
+      "系统设置",
+      "其他功能"
+    ],
+    "files": [
+      "operation-manual/简介.md",
+      "operation-manual/统一登录.md",
+      "operation-manual/任务栏应用管理.md",
+      "operation-manual/系统设置.md",
+      "system-introduction/其他功能.md"
+    ]
+  },
+  {
+    "task": "安装、部署、升级、授权",
+    "chapters": [
+      "服务器推荐配置",
+      "wos安装卸载流程",
+      "系统客户端概述",
+      "节点管理",
+      "资源组管理",
+      "区域管理",
+      "升级",
+      "备份恢复管理",
+      "授权管理",
+      "准入配置管理"
+    ],
+    "files": [
+      "operation-manual/服务器推荐配置.md",
+      "operation-manual/wos安装卸载流程.md",
+      "operation-manual/系统客户端概述.md",
+      "operation-manual/节点管理.md",
+      "operation-manual/资源组管理.md",
+      "operation-manual/区域管理.md",
+      "operation-manual/升级.md",
+      "operation-manual/备份恢复管理.md",
+      "operation-manual/授权管理.md",
+      "operation-manual/准入配置管理.md"
+    ]
+  },
+  {
+    "task": "业务建模、对象、数字孪生",
+    "chapters": [
+      "快速入门",
+      "模型库",
+      "实时库",
+      "历史库",
+      "计划库",
+      "数据结构_模型库",
+      "数据结构_实时库",
+      "数据结构_历史计划库"
+    ],
+    "files": [
+      "operation-manual/快速入门.md",
+      "system-introduction/模型库.md",
+      "system-introduction/实时库.md",
+      "system-introduction/历史库.md",
+      "system-introduction/计划库.md",
+      "function-reference/data-structures/数据结构_模型库.md",
+      "function-reference/data-structures/数据结构_实时库.md",
+      "function-reference/data-structures/数据结构_历史计划库.md"
+    ]
+  },
+  {
+    "task": "前端页面、WebJS、按钮联动、预览 iframe",
+    "chapters": [
+      "App引擎介绍",
+      "JS函数_App引擎",
+      "数据结构_App引擎",
+      "系统枚举_App引擎",
+      "错误码_App引擎"
+    ],
+    "files": [
+      "system-introduction/App引擎介绍.md",
+      "function-reference/js-functions/JS函数_App引擎.md",
+      "function-reference/data-structures/数据结构_App引擎.md",
+      "function-reference/system-enums/系统枚举_App引擎.md",
+      "function-reference/error-codes/错误码_App引擎.md"
+    ]
+  },
+  {
+    "task": "后台元语言开发",
+    "chapters": [
+      "开发必读",
+      "元语言函数_基础语法",
+      "元语言函数_基础函数",
+      "元语言函数_模型库",
+      "元语言函数_实时库",
+      "元语言函数_历史计划库",
+      "元语言函数_App引擎"
+    ],
+    "files": [
+      "system-introduction/开发必读.md",
+      "function-reference/meta-language-functions/元语言函数_基础语法.md",
+      "function-reference/meta-language-functions/元语言函数_基础函数.md",
+      "function-reference/meta-language-functions/元语言函数_模型库.md",
+      "function-reference/meta-language-functions/元语言函数_实时库.md",
+      "function-reference/meta-language-functions/元语言函数_历史计划库.md",
+      "function-reference/meta-language-functions/元语言函数_App引擎.md"
+    ]
+  },
+  {
+    "task": "接口变量、网关、外部系统通信",
+    "chapters": [
+      "接口库介绍",
+      "数据结构_接口变量",
+      "系统枚举_接口变量",
+      "元语言函数_接口变量",
+      "元语言函数_网关库",
+      "错误码_接口变量",
+      "错误码_网关库"
+    ],
+    "files": [
+      "system-introduction/接口库介绍.md",
+      "function-reference/data-structures/数据结构_接口变量.md",
+      "function-reference/system-enums/系统枚举_接口变量.md",
+      "function-reference/meta-language-functions/元语言函数_接口变量.md",
+      "function-reference/meta-language-functions/元语言函数_网关库.md",
+      "function-reference/error-codes/错误码_接口变量.md",
+      "function-reference/error-codes/错误码_网关库.md"
+    ]
+  },
+  {
+    "task": "安全、权限、审计、证书",
+    "chapters": [
+      "安全客户端概述",
+      "安全中心",
+      "主客体访问范畴",
+      "业务审计",
+      "操作系统审计",
+      "证书管理",
+      "防护策略",
+      "报警管理",
+      "元语言函数_安全库"
+    ],
+    "files": [
+      "operation-manual/安全客户端概述.md",
+      "operation-manual/安全中心.md",
+      "system-introduction/主客体访问范畴.md",
+      "operation-manual/业务审计.md",
+      "operation-manual/操作系统审计.md",
+      "operation-manual/证书管理.md",
+      "operation-manual/防护策略.md",
+      "operation-manual/报警管理.md",
+      "function-reference/meta-language-functions/元语言函数_安全库.md"
+    ]
+  },
+  {
+    "task": "运维监控、资源、报警",
+    "chapters": [
+      "系统客户端概述",
+      "节点管理",
+      "资源组管理",
+      "报警及推送配置",
+      "数据结构_运维库",
+      "系统枚举_运维库",
+      "元语言函数_运维库"
+    ],
+    "files": [
+      "operation-manual/系统客户端概述.md",
+      "operation-manual/节点管理.md",
+      "operation-manual/资源组管理.md",
+      "operation-manual/报警及推送配置.md",
+      "function-reference/data-structures/数据结构_运维库.md",
+      "function-reference/system-enums/系统枚举_运维库.md",
+      "function-reference/meta-language-functions/元语言函数_运维库.md"
+    ]
+  }
+]

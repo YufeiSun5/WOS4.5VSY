@@ -1,0 +1,265 @@
+[
+  {
+    "text": "多灵敏时序物",
+    "x": 20,
+    "y": 107,
+    "w": 249,
+    "h": 36,
+    "cls": "el-table__row el-table__row--level-2",
+    "level": 2,
+    "icon": null,
+    "cellText": "多灵敏时序物"
+  },
+  {
+    "text": "单灵敏时序物",
+    "x": 20,
+    "y": 143,
+    "w": 249,
+    "h": 36,
+    "cls": "el-table__row el-table__row--level-2",
+    "level": 2,
+    "icon": null,
+    "cellText": "单灵敏时序物"
+  },
+  {
+    "text": "业务物",
+    "x": 20,
+    "y": 179,
+    "w": 249,
+    "h": 36,
+    "cls": "el-table__row el-table__row--level-2",
+    "level": 2,
+    "icon": null,
+    "cellText": "业务物"
+  },
+  {
+    "text": "事",
+    "x": 20,
+    "y": 215,
+    "w": 249,
+    "h": 36,
+    "cls": "el-table__row el-table__row--level-1",
+    "level": 1,
+    "icon": {
+      "cls": "el-table__expand-icon el-table__expand-icon--expanded",
+      "x": 41,
+      "y": 221,
+      "w": 20,
+      "h": 20,
+      "transform": "matrix(0, 1, -1, 0, 0, 0)"
+    },
+    "cellText": "事"
+  },
+  {
+    "text": "时序事",
+    "x": 20,
+    "y": 251,
+    "w": 249,
+    "h": 36,
+    "cls": "el-table__row el-table__row--level-2",
+    "level": 2,
+    "icon": null,
+    "cellText": "时序事"
+  },
+  {
+    "text": "业务事",
+    "x": 20,
+    "y": 287,
+    "w": 249,
+    "h": 36,
+    "cls": "el-table__row el-table__row--level-2",
+    "level": 2,
+    "icon": null,
+    "cellText": "业务事"
+  },
+  {
+    "text": "岗位",
+    "x": 20,
+    "y": 323,
+    "w": 249,
+    "h": 36,
+    "cls": "el-table__row el-table__row--level-1",
+    "level": 1,
+    "icon": null,
+    "cellText": "岗位"
+  },
+  {
+    "text": "组织",
+    "x": 20,
+    "y": 359,
+    "w": 249,
+    "h": 36,
+    "cls": "el-table__row el-table__row--level-1",
+    "level": 1,
+    "icon": null,
+    "cellText": "组织"
+  },
+  {
+    "text": "逻辑模型",
+    "x": 20,
+    "y": 395,
+    "w": 249,
+    "h": 36,
+    "cls": "el-table__row expanded el-table__row--level-0",
+    "level": 0,
+    "icon": {
+      "cls": "el-table__expand-icon el-table__expand-icon--expanded",
+      "x": 25,
+      "y": 401,
+      "w": 20,
+      "h": 20,
+      "transform": "matrix(0, 1, -1, 0, 0, 0)"
+    },
+    "cellText": "逻辑模型"
+  },
+  {
+    "text": "报警规则配置",
+    "x": 20,
+    "y": 431,
+    "w": 249,
+    "h": 36,
+    "cls": "el-table__row el-table__row--level-1",
+    "level": 1,
+    "icon": null,
+    "cellText": "报警规则配置"
+  },
+  {
+    "text": "多灵敏数据报警转发",
+    "x": 20,
+    "y": 467,
+    "w": 249,
+    "h": 36,
+    "cls": "el-table__row el-table__row--level-1",
+    "level": 1,
+    "icon": null,
+    "cellText": "多灵敏数据报警转发"
+  },
+  {
+    "text": "单灵敏数据报警转发",
+    "x": 20,
+    "y": 503,
+    "w": 249,
+    "h": 36,
+    "cls": "el-table__row el-table__row--level-1",
+    "level": 1,
+    "icon": null,
+    "cellText": "单灵敏数据报警转发"
+  },
+  {
+    "text": "自定义计算",
+    "x": 20,
+    "y": 539,
+    "w": 249,
+    "h": 36,
+    "cls": "el-table__row el-table__row--level-1",
+    "level": 1,
+    "icon": null,
+    "cellText": "自定义计算"
+  },
+  {
+    "text": "命令语言",
+    "x": 20,
+    "y": 575,
+    "w": 249,
+    "h": 36,
+    "cls": "el-table__row el-table__row--level-1",
+    "level": 1,
+    "icon": null,
+    "cellText": "命令语言"
+  },
+  {
+    "text": "第三方计算管理",
+    "x": 20,
+    "y": 611,
+    "w": 249,
+    "h": 36,
+    "cls": "el-table__row el-table__row--level-1",
+    "level": 1,
+    "icon": null,
+    "cellText": "第三方计算管理"
+  },
+  {
+    "text": "图形模型",
+    "x": 20,
+    "y": 647,
+    "w": 249,
+    "h": 36,
+    "cls": "el-table__row expanded el-table__row--level-0",
+    "level": 0,
+    "icon": {
+      "cls": "el-table__expand-icon el-table__expand-icon--expanded",
+      "x": 25,
+      "y": 653,
+      "w": 20,
+      "h": 20,
+      "transform": "matrix(0, 1, -1, 0, 0, 0)"
+    },
+    "cellText": "图形模型"
+  },
+  {
+    "text": "2D精灵图",
+    "x": 20,
+    "y": 683,
+    "w": 249,
+    "h": 36,
+    "cls": "el-table__row el-table__row--level-1",
+    "level": 1,
+    "icon": null,
+    "cellText": "2D精灵图"
+  },
+  {
+    "text": "3D精灵图",
+    "x": 20,
+    "y": 719,
+    "w": 249,
+    "h": 36,
+    "cls": "el-table__row el-table__row--level-1",
+    "level": 1,
+    "icon": null,
+    "cellText": "3D精灵图"
+  },
+  {
+    "text": "页面精灵图",
+    "x": 20,
+    "y": 755,
+    "w": 249,
+    "h": 36,
+    "cls": "el-table__row el-table__row--level-1",
+    "level": 1,
+    "icon": null,
+    "cellText": "页面精灵图"
+  },
+  {
+    "text": "报表精灵图",
+    "x": 20,
+    "y": 791,
+    "w": 249,
+    "h": 36,
+    "cls": "el-table__row el-table__row--level-1",
+    "level": 1,
+    "icon": null,
+    "cellText": "报表精灵图"
+  },
+  {
+    "text": "子模型",
+    "x": 20,
+    "y": 827,
+    "w": 249,
+    "h": 36,
+    "cls": "el-table__row expanded",
+    "level": null,
+    "icon": null,
+    "cellText": "子模型"
+  },
+  {
+    "text": "形参配置",
+    "x": 20,
+    "y": 863,
+    "w": 249,
+    "h": 36,
+    "cls": "el-table__row expanded",
+    "level": null,
+    "icon": null,
+    "cellText": "形参配置"
+  }
+]

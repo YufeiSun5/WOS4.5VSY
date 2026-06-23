@@ -1,0 +1,317 @@
+{
+  "input": {
+    "UIName": "demo_filter_input",
+    "prototypeName": "ElementInput",
+    "KSCGUID": "UI_747891",
+    "value": "B-01",
+    "linkList": [
+      {
+        "linkId": 200001,
+        "linkName": "Focus",
+        "enable": false,
+        "KSCGUID": "k301e13beaa9db85d1ccbf6fde9d04fa",
+        "KSCLINKGUID": "",
+        "script": ""
+      },
+      {
+        "linkId": 200002,
+        "linkName": "Blur",
+        "enable": false,
+        "KSCGUID": "k2c7d26dae8c44ba294280ad59e996b3",
+        "KSCLINKGUID": "",
+        "script": ""
+      },
+      {
+        "linkId": 200003,
+        "linkName": "Change",
+        "enable": false,
+        "KSCGUID": "k3fad36820e90e7a769003484343b315",
+        "KSCLINKGUID": "",
+        "script": ""
+      },
+      {
+        "linkId": 200004,
+        "linkName": "Input",
+        "enable": false,
+        "KSCGUID": "kbff02c2fe8375a0afd86822b9c9b8d6",
+        "KSCLINKGUID": "",
+        "script": ""
+      },
+      {
+        "linkId": 200005,
+        "linkName": "Clear",
+        "enable": false,
+        "KSCGUID": "kae8d12b1dac3241df50ba334259edb5",
+        "KSCLINKGUID": "",
+        "script": ""
+      },
+      {
+        "linkId": 200006,
+        "linkName": "Select",
+        "enable": false,
+        "KSCGUID": "k4867be0a6614950ade0d4c703595d4e",
+        "KSCLINKGUID": "",
+        "script": ""
+      }
+    ]
+  },
+  "button": {
+    "UIName": "demo_query_button",
+    "prototypeName": "ElementButton",
+    "KSCGUID": "UI_254154",
+    "linkList": [
+      {
+        "linkId": 200001,
+        "enable": true,
+        "KSCGUID": "kc0bb92d50a435e76e3a475f73d8d5dc",
+        "script": "var page = this;\nvar kids = this.KMComponentsMng.$Children || {};\nfunction byName(name){ return Object.values(kids).find(function(v){ return v && (v.UIName===name || v.name===name || (v.propData && v.propData.UIName===name)); }); }\nfunction propOf(obj){ return obj && (obj._props && obj._props.propData || obj.propData || obj); }\nfunction getVar(name){\n  if (page.$Variable && typeof page.$Variable[name] !== 'undefined') return page.$Variable[name];\n  if (page.variableMng && page.variableMng.getVarByName) { var mv = page.variableMng.getVarByName(name); if (mv) { if (typeof mv.getValue === 'function') return mv.getValue(); return mv.varValue; } }\n}\nfunction setVar(name, value){\n  page.$Variable = page.$Variable || {};\n  page.$Variable[name] = value;\n  if (page.variableMng && page.variableMng.getVarByName && typeof page.setVariable === 'function') { var mv = page.variableMng.getVarByName(name); if (mv) page.setVariable(mv, value); }\n}\nfunction loadRows(){\n  var raw = getVar('seedData') || '[]';\n  try { return JSON.parse(raw); } catch(e) { return []; }\n}\nfunction buildRows(){\n  var kw = String(getVar('filterKey') || '').trim().toUpperCase();\n  var all = loadRows();\n  if (!kw) return all;\n  return all.filter(function(r){\n    return String(r.station||'').toUpperCase().indexOf(kw) >= 0 || String(r.area||'').toUpperCase().indexOf(kw) >= 0 || String(r.status||'').toUpperCase().indexOf(kw) >= 0;\n  });\n}\nfunction buildColumns(){\n  return [\n    {prop:'station',label:'\\u7ad9\\u70b9',minWidth:'140',align:'left',type:'',columnKey:'',fixed:false},\n    {prop:'area',label:'\\u533a\\u57df',minWidth:'84',align:'center',type:'',columnKey:'',fixed:false},\n    {prop:'status',label:'\\u72b6\\u6001',minWidth:'100',align:'center',type:'',columnKey:'',fixed:false},\n    {prop:'flow',label:'\\u6d41\\u91cf',minWidth:'100',align:'right',type:'',columnKey:'',fixed:false},\n    {prop:'pressure',label:'\\u538b\\u529b',minWidth:'100',align:'right',type:'',columnKey:'',fixed:false}\n  ];\n}\nfunction buildOption(rows, counter){\n  return {\n    color:['#2563eb'],\n    tooltip:{trigger:'axis'},\n    grid:{left:44,right:24,top:36,bottom:36},\n    xAxis:{type:'category',boundaryGap:false,data:rows.map(function(r){ return r.station; }),axisLine:{lineStyle:{color:'#94a3b8'}},axisLabel:{color:'#475569'}},\n    yAxis:{type:'value',axisLine:{show:false},splitLine:{lineStyle:{color:'#e2e8f0'}},axisLabel:{color:'#475569'}},\n    series:[{name:'\\u6d41\\u91cf\\u8d8b\\u52bf',type:'line',smooth:true,symbol:'circle',symbolSize:7,lineStyle:{width:3},areaStyle:{opacity:0.12},data:rows.map(function(r){ return Number(r.trend || 0) + Number(counter || 0); })}]\n  };\n}\npage.__pilotRefresh = function(reason){\n  var input = byName('demo_filter_input');\n  var button = byName('demo_query_button');\n  var table = byName('demo_table');\n  var chart = byName('demo_chart');\n  var tree = byName('demo_area_tree');\n  var counter = Number(getVar('refreshCounter') || 0);\n  var rows = buildRows();\n  var columns = buildColumns();\n  var cfg = { border:true, fit:true, showHeader:true, emptyText:'\\u6682\\u65e0\\u5339\\u914d\\u6570\\u636e', pagination:true, pageSize:10, columns:columns, totalData:rows };\n  if (table && typeof table.table === 'function') table.table(cfg);\n  if (propOf(table)) propOf(table).detailConfig = 'this.table(' + JSON.stringify(cfg) + ')';\n  var option = buildOption(rows, counter);\n  if (chart && typeof chart.SetOption === 'function') chart.SetOption(option, true);\n  if (propOf(chart)) propOf(chart).detailConfig = 'option=' + JSON.stringify(option);\n  if (button && typeof button.button === 'function') button.button({ text: '\\u67e5\\u8be2' + (String(getVar('filterKey') || '').trim() ? '\\uff1a' + String(getVar('filterKey')).trim() : '\\u5168\\u90e8') + '(' + rows.length + ')' });\n  if (tree && propOf(tree)) { propOf(tree).data = [{ label:'\\u5168\\u90e8\\u533a\\u57df', children:[{label:'A\\u533a'},{label:'B\\u533a'}] }]; }\n  page.__pilotLast = { reason: reason, counter: counter, rows: rows.length, filterKey: getVar('filterKey') || '' };\n  return page.__pilotLast;\n};\n\nvar input = byName('demo_filter_input');\n\nvar kw = '';\n\nif (input) { kw = String((input.getProperty && input.getProperty('value')) || (input.propData && input.propData.value) || '').trim(); }\n\nsetVar('filterKey', kw);\n\nvar current = Number(getVar('refreshCounter') || 0);\n\nsetVar('refreshCounter', current + 1);\n\npage.__pilotRefresh('button');"
+      }
+    ]
+  },
+  "table": {
+    "UIName": "demo_table",
+    "prototypeName": "ElementTable",
+    "KSCGUID": "UI_669250",
+    "linkList": [
+      {
+        "linkId": 200001,
+        "linkName": "Select",
+        "enable": false,
+        "KSCGUID": "k21a5516958a4b73e93e05de910d08ff",
+        "KSCLINKGUID": "",
+        "script": ""
+      },
+      {
+        "linkId": 200002,
+        "linkName": "SelectAll",
+        "enable": false,
+        "KSCGUID": "k95a7bb80acaced678f6fa017ef59911",
+        "KSCLINKGUID": "",
+        "script": ""
+      },
+      {
+        "linkId": 200003,
+        "linkName": "SelectionChange",
+        "enable": false,
+        "KSCGUID": "kab07c83f3f785f9ffbbbe476c55547c",
+        "KSCLINKGUID": "",
+        "script": ""
+      },
+      {
+        "linkId": 200004,
+        "linkName": "CellMouseEnter",
+        "enable": false,
+        "KSCGUID": "k57eb313e45babf6235eaceab7065c42",
+        "KSCLINKGUID": "",
+        "script": ""
+      },
+      {
+        "linkId": 200005,
+        "linkName": "CellMouseLeave",
+        "enable": false,
+        "KSCGUID": "k92b83d92af2bbe0f137223c8a061351",
+        "KSCLINKGUID": "",
+        "script": ""
+      },
+      {
+        "linkId": 200006,
+        "linkName": "CellClick",
+        "enable": false,
+        "KSCGUID": "k2b24bfff21e99dd2d1cb3feaf8ed67f",
+        "KSCLINKGUID": "",
+        "script": ""
+      },
+      {
+        "linkId": 200007,
+        "linkName": "CellDbclick",
+        "enable": false,
+        "KSCGUID": "kf56f511a9336ef3335799d9620b0126",
+        "KSCLINKGUID": "",
+        "script": ""
+      },
+      {
+        "linkId": 200008,
+        "linkName": "RowClick",
+        "enable": false,
+        "KSCGUID": "k2823c57994647b162de6f8189c012e3",
+        "KSCLINKGUID": "",
+        "script": ""
+      },
+      {
+        "linkId": 200009,
+        "linkName": "RowContextmenu",
+        "enable": false,
+        "KSCGUID": "k8fd85188c3e61b57b9628e4ed9ea591",
+        "KSCLINKGUID": "",
+        "script": ""
+      },
+      {
+        "linkId": 200010,
+        "linkName": "RowDbclick",
+        "enable": false,
+        "KSCGUID": "k73da0b073bb8f1e5d28cafc2beff3be",
+        "KSCLINKGUID": "",
+        "script": ""
+      },
+      {
+        "linkId": 200011,
+        "linkName": "HeaderClick",
+        "enable": false,
+        "KSCGUID": "k1cd2f37240ca32b3482fb2adc730dbe",
+        "KSCLINKGUID": "",
+        "script": ""
+      },
+      {
+        "linkId": 200012,
+        "linkName": "SortChange",
+        "enable": false,
+        "KSCGUID": "k396bbce39de03ac19f00f02cf18b7c8",
+        "KSCLINKGUID": "",
+        "script": ""
+      },
+      {
+        "linkId": 200013,
+        "linkName": "FilterChange",
+        "enable": false,
+        "KSCGUID": "k1afed58ca16b49d974483877a8e4f81",
+        "KSCLINKGUID": "",
+        "script": ""
+      },
+      {
+        "linkId": 200014,
+        "linkName": "CurrentChange",
+        "enable": false,
+        "KSCGUID": "ke0cf740fd0fae4d6c1bcd1133d913ec",
+        "KSCLINKGUID": "",
+        "script": ""
+      },
+      {
+        "linkId": 200015,
+        "linkName": "HeaderDragend",
+        "enable": false,
+        "KSCGUID": "k58d80692ba085e1546482153164599e",
+        "KSCLINKGUID": "",
+        "script": ""
+      },
+      {
+        "linkId": 200016,
+        "linkName": "ExpandChange",
+        "enable": false,
+        "KSCGUID": "kdae42d894410d687ee5102ca2937b8f",
+        "KSCLINKGUID": "",
+        "script": ""
+      },
+      {
+        "linkId": 200017,
+        "linkName": "CurrentPageChange",
+        "enable": false,
+        "KSCGUID": "k12a71c04a7d662b00610e268ff18b7f",
+        "KSCLINKGUID": "",
+        "script": ""
+      },
+      {
+        "linkId": 200018,
+        "linkName": "OnLoadSuccess",
+        "enable": false,
+        "KSCGUID": "k36839827bbccaf37aae2f7cc895716c",
+        "KSCLINKGUID": "",
+        "script": ""
+      },
+      {
+        "linkId": 200019,
+        "linkName": "OnBeforeEdit",
+        "enable": false,
+        "KSCGUID": "k38ce8b2bc9678c8d4f56db86dda7d66",
+        "KSCLINKGUID": "",
+        "script": ""
+      },
+      {
+        "linkId": 200020,
+        "linkName": "OnAfterEdit",
+        "enable": false,
+        "KSCGUID": "kce52e46d6b1768347fd9f7fb2513822",
+        "KSCLINKGUID": "",
+        "script": ""
+      },
+      {
+        "linkId": 200021,
+        "linkName": "PageSizeChange",
+        "enable": false,
+        "KSCGUID": "k62f712c84bbf4e22eeed5a22972c8d1",
+        "KSCLINKGUID": "",
+        "script": ""
+      }
+    ]
+  },
+  "chart": {
+    "UIName": "demo_chart",
+    "prototypeName": "ElementChart",
+    "KSCGUID": "UI_904689",
+    "linkList": [
+      {
+        "linkId": 200001,
+        "linkName": "Click",
+        "enable": false,
+        "KSCGUID": "kf13006a0cf7339f3d66b98e6e36e515",
+        "script": ""
+      },
+      {
+        "linkId": 200002,
+        "linkName": "Dblclick",
+        "enable": false,
+        "KSCGUID": "k89cea44fe792648abd1797fc4233983",
+        "script": ""
+      },
+      {
+        "linkId": 200003,
+        "linkName": "Mousedown",
+        "enable": false,
+        "KSCGUID": "k328572f0a2887a74fd68219a63922b1",
+        "script": ""
+      },
+      {
+        "linkId": 200004,
+        "linkName": "Mousemove",
+        "enable": false,
+        "KSCGUID": "k8f578eee4fadfa316060e57a0ef1e8f",
+        "script": ""
+      },
+      {
+        "linkId": 200005,
+        "linkName": "Mouseup",
+        "enable": false,
+        "KSCGUID": "k43a6014ba45f149433055ec63e8fe09",
+        "script": ""
+      },
+      {
+        "linkId": 200006,
+        "linkName": "Mouseover",
+        "enable": false,
+        "KSCGUID": "k08094c8a2a7e627e959619907021372",
+        "script": ""
+      },
+      {
+        "linkId": 200007,
+        "linkName": "Mouseout",
+        "enable": false,
+        "KSCGUID": "ke8b6cb964240a51ad194ea1affbfc53",
+        "script": ""
+      },
+      {
+        "linkId": 200008,
+        "linkName": "Globalout",
+        "enable": false,
+        "KSCGUID": "k62f3625ee1bffb54c3f35156a20ce66",
+        "script": ""
+      },
+      {
+        "linkId": 200009,
+        "linkName": "Contextmenu",
+        "enable": false,
+        "KSCGUID": "k4ef3b7e498e4a2ebde0d6b55121bc4a",
+        "script": ""
+      }
+    ]
+  },
+  "rows": []
+}

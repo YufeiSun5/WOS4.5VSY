@@ -1,0 +1,1281 @@
+{
+  "title": "集成测试",
+  "right": [
+    {
+      "tag": "TD",
+      "text": "1",
+      "x": 585,
+      "y": 102,
+      "w": 60,
+      "h": 51,
+      "cls": "el-table_1_column_2 is-left   el-table__cell"
+    },
+    {
+      "tag": "TD",
+      "text": "前端_班次管理",
+      "x": 645,
+      "y": 102,
+      "w": 252,
+      "h": 51,
+      "cls": "el-table_1_column_3 is-left   el-table__cell"
+    },
+    {
+      "tag": "TD",
+      "text": "编辑 属性 提交版本 版本管理 更新 删除",
+      "x": 1315,
+      "y": 102,
+      "w": 585,
+      "h": 51,
+      "cls": "el-table_1_column_5 is-left  cellName el-table__cell"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "编辑",
+      "x": 1325,
+      "y": 102,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "属性",
+      "x": 1365,
+      "y": 102,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "提交版本",
+      "x": 1405,
+      "y": 102,
+      "w": 56,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "版本管理",
+      "x": 1473,
+      "y": 102,
+      "w": 56,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "更新",
+      "x": 1541,
+      "y": 102,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "删除",
+      "x": 1581,
+      "y": 102,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "TD",
+      "text": "2",
+      "x": 585,
+      "y": 153,
+      "w": 60,
+      "h": 51,
+      "cls": "el-table_1_column_2 is-left   el-table__cell"
+    },
+    {
+      "tag": "TD",
+      "text": "后台_班次管理",
+      "x": 645,
+      "y": 153,
+      "w": 252,
+      "h": 51,
+      "cls": "el-table_1_column_3 is-left   el-table__cell"
+    },
+    {
+      "tag": "TD",
+      "text": "编辑 属性 提交版本 版本管理 更新 删除",
+      "x": 1315,
+      "y": 153,
+      "w": 585,
+      "h": 51,
+      "cls": "el-table_1_column_5 is-left  cellName el-table__cell"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "编辑",
+      "x": 1325,
+      "y": 153,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "属性",
+      "x": 1365,
+      "y": 153,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "提交版本",
+      "x": 1405,
+      "y": 153,
+      "w": 56,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "版本管理",
+      "x": 1473,
+      "y": 153,
+      "w": 56,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "更新",
+      "x": 1541,
+      "y": 153,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "删除",
+      "x": 1581,
+      "y": 153,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "TD",
+      "text": "3",
+      "x": 585,
+      "y": 204,
+      "w": 60,
+      "h": 51,
+      "cls": "el-table_1_column_2 is-left   el-table__cell"
+    },
+    {
+      "tag": "TD",
+      "text": "前端_框架",
+      "x": 645,
+      "y": 204,
+      "w": 252,
+      "h": 51,
+      "cls": "el-table_1_column_3 is-left   el-table__cell"
+    },
+    {
+      "tag": "TD",
+      "text": "编辑 属性 提交版本 版本管理 更新 删除",
+      "x": 1315,
+      "y": 204,
+      "w": 585,
+      "h": 51,
+      "cls": "el-table_1_column_5 is-left  cellName el-table__cell"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "编辑",
+      "x": 1325,
+      "y": 204,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "属性",
+      "x": 1365,
+      "y": 204,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "提交版本",
+      "x": 1405,
+      "y": 204,
+      "w": 56,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "版本管理",
+      "x": 1473,
+      "y": 204,
+      "w": 56,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "更新",
+      "x": 1541,
+      "y": 204,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "删除",
+      "x": 1581,
+      "y": 204,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "INPUT",
+      "text": "请选择",
+      "x": 1517.5,
+      "y": 869,
+      "w": 100,
+      "h": 28,
+      "cls": "el-input__inner"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "<",
+      "x": 1632.5,
+      "y": 869,
+      "w": 53.5,
+      "h": 28,
+      "cls": "btn-prev"
+    },
+    {
+      "tag": "BUTTON",
+      "text": ">",
+      "x": 1721.5,
+      "y": 869,
+      "w": 53.5,
+      "h": 28,
+      "cls": "btn-next"
+    },
+    {
+      "tag": "INPUT",
+      "text": "1",
+      "x": 1831,
+      "y": 869,
+      "w": 46,
+      "h": 28,
+      "cls": "el-input__inner"
+    },
+    {
+      "tag": "DIV",
+      "text": "自定义计算模型 新建 更多操作 模型名称 触发类型 触发条件 操作 班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除 共 2 条 1 前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": "response_row"
+    },
+    {
+      "tag": "SPAN",
+      "text": "自定义计算模型 新建 更多操作 模型名称 触发类型 触发条件 操作 班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除 共 2 条 1 前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "自定义计算模型 新建 更多操作 模型名称 触发类型 触发条件 操作 班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除 共 2 条 1 前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "自定义计算模型 新建 更多操作 模型名称 触发类型 触发条件 操作 班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除 共 2 条 1 前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "text": "自定义计算模型 新建 更多操作 模型名称 触发类型 触发条件 操作 班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除 共 2 条 1 前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": "ui_factory layer_class"
+    },
+    {
+      "tag": "DIV",
+      "text": "自定义计算模型 新建 更多操作 模型名称 触发类型 触发条件 操作 班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除 共 2 条 1 前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": "page_view_container client_page_view_container set_page_app component_object 自定义计算建模_框架页面"
+    },
+    {
+      "tag": "DIV",
+      "text": "自定义计算模型 新建 更多操作 模型名称 触发类型 触发条件 操作 班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除 共 2 条 1 前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": "page_view"
+    },
+    {
+      "tag": "DIV",
+      "text": "自定义计算模型 新建 更多操作 模型名称 触发类型 触发条件 操作 班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除 共 2 条 1 前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": "layer_view"
+    },
+    {
+      "tag": "DIV",
+      "text": "自定义计算模型 新建 更多操作 模型名称 触发类型 触发条件 操作 班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除 共 2 条 1 前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": "layout_container containerStyle"
+    },
+    {
+      "tag": "SPAN",
+      "text": "自定义计算模型 新建 更多操作 模型名称 触发类型 触发条件 操作 班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除 共 2 条 1 前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": "containerrow"
+    },
+    {
+      "tag": "DIV",
+      "text": "自定义计算模型 新建 更多操作 模型名称 触发类型 触发条件 操作 班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除 共 2 条 1 前往页",
+      "x": 325,
+      "y": 115,
+      "w": 1560,
+      "h": 749,
+      "cls": "response_row"
+    },
+    {
+      "tag": "SPAN",
+      "text": "自定义计算模型 新建 更多操作 模型名称 触发类型 触发条件 操作 班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除 共 2 条 1 前往页",
+      "x": 325,
+      "y": 115,
+      "w": 1560,
+      "h": 749,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "自定义计算模型 新建 更多操作 模型名称 触发类型 触发条件 操作 班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除 共 2 条 1 前往页",
+      "x": 325,
+      "y": 115,
+      "w": 1560,
+      "h": 749,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "自定义计算模型 新建 更多操作 模型名称 触发类型 触发条件 操作 班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除 共 2 条 1 前往页",
+      "x": 325,
+      "y": 115,
+      "w": 1560,
+      "h": 749,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "text": "自定义计算模型 新建 更多操作 模型名称 触发类型 触发条件 操作 班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除 共 2 条 1 前往页",
+      "x": 325,
+      "y": 115,
+      "w": 1560,
+      "h": 749,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "text": "自定义计算模型 新建 更多操作 模型名称 触发类型 触发条件 操作 班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除 共 2 条 1 前往页",
+      "x": 325,
+      "y": 115,
+      "w": 1560,
+      "h": 749,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "text": "自定义计算模型 新建 更多操作 模型名称 触发类型 触发条件 操作 班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除 共 2 条 1 前往页",
+      "x": 325,
+      "y": 115,
+      "w": 1560,
+      "h": 749,
+      "cls": "layout_container component_object containerStyle"
+    },
+    {
+      "tag": "SPAN",
+      "text": "自定义计算模型 新建 更多操作 模型名称 触发类型 触发条件 操作 班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除 共 2 条 1 前往页",
+      "x": 325,
+      "y": 115,
+      "w": 1560,
+      "h": 749,
+      "cls": "containerrow"
+    },
+    {
+      "tag": "DIV",
+      "text": "自定义计算模型 新建 更多操作",
+      "x": 325,
+      "y": 115,
+      "w": 1560,
+      "h": 38,
+      "cls": "response_row"
+    },
+    {
+      "tag": "SPAN",
+      "text": "自定义计算模型 新建 更多操作",
+      "x": 325,
+      "y": 115,
+      "w": 1560,
+      "h": 38,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "自定义计算模型",
+      "x": 325,
+      "y": 115,
+      "w": 1082,
+      "h": 38,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "自定义计算模型",
+      "x": 325,
+      "y": 115,
+      "w": 1082,
+      "h": 38,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "text": "自定义计算模型",
+      "x": 325,
+      "y": 115,
+      "w": 1082,
+      "h": 38,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "text": "自定义计算模型",
+      "x": 325,
+      "y": 115,
+      "w": 1082,
+      "h": 38,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "text": "自定义计算模型",
+      "x": 325,
+      "y": 115,
+      "w": 1082,
+      "h": 38,
+      "cls": "el-text-component component_object ElementText1"
+    },
+    {
+      "tag": "DIV",
+      "text": "新建",
+      "x": 1417,
+      "y": 117,
+      "w": 82,
+      "h": 34,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "新建",
+      "x": 1417,
+      "y": 117,
+      "w": 82,
+      "h": 34,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "text": "新建",
+      "x": 1417,
+      "y": 117,
+      "w": 82,
+      "h": 34,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "text": "新建",
+      "x": 1417,
+      "y": 117,
+      "w": 82,
+      "h": 34,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "text": "新建",
+      "x": 1417,
+      "y": 117,
+      "w": 82,
+      "h": 34,
+      "cls": "component_object ElementButton1"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "新建",
+      "x": 1417,
+      "y": 117,
+      "w": 82,
+      "h": 34,
+      "cls": "el-button el-button--primary el-button--medium propertyStyle"
+    },
+    {
+      "tag": "SPAN",
+      "text": "新建",
+      "x": 1453.5,
+      "y": 127,
+      "w": 28,
+      "h": 14,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "更多操作",
+      "x": 1509,
+      "y": 117,
+      "w": 110,
+      "h": 34,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "更多操作",
+      "x": 1509,
+      "y": 117,
+      "w": 110,
+      "h": 34,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "text": "更多操作",
+      "x": 1509,
+      "y": 117,
+      "w": 110,
+      "h": 34,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "text": "更多操作",
+      "x": 1509,
+      "y": 117,
+      "w": 110,
+      "h": 34,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "text": "更多操作",
+      "x": 1509,
+      "y": 117,
+      "w": 110,
+      "h": 34,
+      "cls": "el-tooltip component_object ElementDropdown1"
+    },
+    {
+      "tag": "DIV",
+      "text": "更多操作",
+      "x": 1509,
+      "y": 117,
+      "w": 110,
+      "h": 34,
+      "cls": "el-dropdown k78a4cf8c0595901a6e83907fc30d20c"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "更多操作",
+      "x": 1509,
+      "y": 117,
+      "w": 110,
+      "h": 34,
+      "cls": "el-button el-button--primary el-button--medium el-dropdown-selfdefine"
+    },
+    {
+      "tag": "SPAN",
+      "text": "更多操作",
+      "x": 1546.546875,
+      "y": 126,
+      "w": 64.890625,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "INPUT",
+      "text": "请输入关键字",
+      "x": 1629,
+      "y": 117,
+      "w": 256,
+      "h": 34,
+      "cls": "el-input__inner"
+    },
+    {
+      "tag": "DIV",
+      "text": "模型名称 触发类型 触发条件 操作 班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除 共 2 条 1 前往页",
+      "x": 325,
+      "y": 163,
+      "w": 1560,
+      "h": 701,
+      "cls": "response_row"
+    },
+    {
+      "tag": "SPAN",
+      "text": "模型名称 触发类型 触发条件 操作 班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除 共 2 条 1 前往页",
+      "x": 325,
+      "y": 163,
+      "w": 1560,
+      "h": 701,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "模型名称 触发类型 触发条件 操作 班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除 共 2 条 1 前往页",
+      "x": 325,
+      "y": 163,
+      "w": 1560,
+      "h": 701,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "模型名称 触发类型 触发条件 操作 班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除 共 2 条 1 前往页",
+      "x": 325,
+      "y": 163,
+      "w": 1560,
+      "h": 701,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "text": "模型名称 触发类型 触发条件 操作 班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除 共 2 条 1 前往页",
+      "x": 325,
+      "y": 163,
+      "w": 1560,
+      "h": 701,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "text": "模型名称 触发类型 触发条件 操作 班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除 共 2 条 1 前往页",
+      "x": 325,
+      "y": 163,
+      "w": 1560,
+      "h": 701,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "text": "模型名称 触发类型 触发条件 操作 班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除 共 2 条 1 前往页",
+      "x": 325,
+      "y": 163,
+      "w": 1560,
+      "h": 701,
+      "cls": "PCUI_ElementTable component_object ElementTable1"
+    },
+    {
+      "tag": "DIV",
+      "text": "模型名称 触发类型 触发条件 操作 班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除",
+      "x": 325,
+      "y": 163,
+      "w": 1560,
+      "h": 669,
+      "cls": "el-table el-table--fit el-table--border el-table--enable-row-hover el-table--enable-row-transition el-table--medium"
+    },
+    {
+      "tag": "DIV",
+      "text": "模型名称 触发类型 触发条件 操作",
+      "x": 326,
+      "y": 164,
+      "w": 1559,
+      "h": 44,
+      "cls": "el-table__header-wrapper"
+    },
+    {
+      "tag": "TH",
+      "text": "模型名称",
+      "x": 366,
+      "y": 164,
+      "w": 305,
+      "h": 44,
+      "cls": "el-table_35_column_148  is-left   is-leaf el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "text": "模型名称",
+      "x": 366,
+      "y": 174,
+      "w": 304,
+      "h": 23,
+      "cls": "cell"
+    },
+    {
+      "tag": "SPAN",
+      "text": "模型名称",
+      "x": 376,
+      "y": 175,
+      "w": 56,
+      "h": 19,
+      "cls": ""
+    },
+    {
+      "tag": "TH",
+      "text": "触发类型",
+      "x": 671,
+      "y": 164,
+      "w": 202,
+      "h": 44,
+      "cls": "el-table_35_column_149  is-left   is-leaf el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "text": "触发类型",
+      "x": 671,
+      "y": 174,
+      "w": 201,
+      "h": 23,
+      "cls": "cell"
+    },
+    {
+      "tag": "SPAN",
+      "text": "触发类型",
+      "x": 681,
+      "y": 175,
+      "w": 56,
+      "h": 19,
+      "cls": ""
+    },
+    {
+      "tag": "TH",
+      "text": "触发条件",
+      "x": 873,
+      "y": 164,
+      "w": 810,
+      "h": 44,
+      "cls": "el-table_35_column_150  is-left   is-leaf el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "text": "触发条件",
+      "x": 873,
+      "y": 174,
+      "w": 809,
+      "h": 23,
+      "cls": "cell"
+    },
+    {
+      "tag": "SPAN",
+      "text": "触发条件",
+      "x": 883,
+      "y": 175,
+      "w": 56,
+      "h": 19,
+      "cls": ""
+    },
+    {
+      "tag": "TH",
+      "text": "操作",
+      "x": 1683,
+      "y": 164,
+      "w": 202,
+      "h": 44,
+      "cls": "el-table_35_column_151  is-left   is-leaf el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "text": "操作",
+      "x": 1683,
+      "y": 174,
+      "w": 201,
+      "h": 23,
+      "cls": "cell"
+    },
+    {
+      "tag": "SPAN",
+      "text": "操作",
+      "x": 1693,
+      "y": 175,
+      "w": 28,
+      "h": 19,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除",
+      "x": 326,
+      "y": 208,
+      "w": 1559,
+      "h": 624,
+      "cls": "el-table__body-wrapper is-scrolling-none"
+    },
+    {
+      "tag": "TR",
+      "text": "班次管理后台 自定义函数 编辑 属性 删除",
+      "x": 326,
+      "y": 208,
+      "w": 1559,
+      "h": 37,
+      "cls": "el-table__row"
+    },
+    {
+      "tag": "TD",
+      "text": "班次管理后台",
+      "x": 366,
+      "y": 208,
+      "w": 305,
+      "h": 37,
+      "cls": "el-table_35_column_148 is-left   el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "text": "班次管理后台",
+      "x": 366,
+      "y": 216.5,
+      "w": 303,
+      "h": 19,
+      "cls": "cell el-tooltip"
+    },
+    {
+      "tag": "SPAN",
+      "text": "班次管理后台",
+      "x": 376,
+      "y": 216.5,
+      "w": 84,
+      "h": 19,
+      "cls": ""
+    },
+    {
+      "tag": "TD",
+      "text": "自定义函数",
+      "x": 671,
+      "y": 208,
+      "w": 202,
+      "h": 37,
+      "cls": "el-table_35_column_149 is-left   el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "text": "自定义函数",
+      "x": 671,
+      "y": 216.5,
+      "w": 200,
+      "h": 19,
+      "cls": "cell el-tooltip"
+    },
+    {
+      "tag": "SPAN",
+      "text": "自定义函数",
+      "x": 681,
+      "y": 216.5,
+      "w": 70,
+      "h": 19,
+      "cls": ""
+    },
+    {
+      "tag": "TD",
+      "text": "编辑 属性 删除",
+      "x": 1683,
+      "y": 208,
+      "w": 202,
+      "h": 37,
+      "cls": "el-table_35_column_151 is-left  cellName el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "text": "编辑 属性 删除",
+      "x": 1683,
+      "y": 208,
+      "w": 201,
+      "h": 36,
+      "cls": "cell"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "编辑",
+      "x": 1693,
+      "y": 208,
+      "w": 30,
+      "h": 36,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "text": "编辑",
+      "x": 1694,
+      "y": 218,
+      "w": 28,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "BUTTON",
+      "text": "属性",
+      "x": 1735,
+      "y": 208,
+      "w": 30,
+      "h": 36,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "text": "属性",
+      "x": 1736,
+      "y": 218,
+      "w": 28,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "BUTTON",
+      "text": "删除",
+      "x": 1777,
+      "y": 208,
+      "w": 30,
+      "h": 36,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "text": "删除",
+      "x": 1778,
+      "y": 218,
+      "w": 28,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "TR",
+      "text": "test01 自定义函数 编辑 属性 删除",
+      "x": 326,
+      "y": 245,
+      "w": 1559,
+      "h": 37,
+      "cls": "el-table__row"
+    },
+    {
+      "tag": "TD",
+      "text": "test01",
+      "x": 366,
+      "y": 245,
+      "w": 305,
+      "h": 37,
+      "cls": "el-table_35_column_148 is-left   el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "text": "test01",
+      "x": 366,
+      "y": 253.5,
+      "w": 303,
+      "h": 19,
+      "cls": "cell el-tooltip"
+    },
+    {
+      "tag": "SPAN",
+      "text": "test01",
+      "x": 376,
+      "y": 253.5,
+      "w": 41.171875,
+      "h": 19,
+      "cls": ""
+    },
+    {
+      "tag": "TD",
+      "text": "自定义函数",
+      "x": 671,
+      "y": 245,
+      "w": 202,
+      "h": 37,
+      "cls": "el-table_35_column_149 is-left   el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "text": "自定义函数",
+      "x": 671,
+      "y": 253.5,
+      "w": 200,
+      "h": 19,
+      "cls": "cell el-tooltip"
+    },
+    {
+      "tag": "SPAN",
+      "text": "自定义函数",
+      "x": 681,
+      "y": 253.5,
+      "w": 70,
+      "h": 19,
+      "cls": ""
+    },
+    {
+      "tag": "TD",
+      "text": "编辑 属性 删除",
+      "x": 1683,
+      "y": 245,
+      "w": 202,
+      "h": 37,
+      "cls": "el-table_35_column_151 is-left  cellName el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "text": "编辑 属性 删除",
+      "x": 1683,
+      "y": 245,
+      "w": 201,
+      "h": 36,
+      "cls": "cell"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "编辑",
+      "x": 1693,
+      "y": 245,
+      "w": 30,
+      "h": 36,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "text": "编辑",
+      "x": 1694,
+      "y": 255,
+      "w": 28,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "BUTTON",
+      "text": "属性",
+      "x": 1735,
+      "y": 245,
+      "w": 30,
+      "h": 36,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "text": "属性",
+      "x": 1736,
+      "y": 255,
+      "w": 28,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "BUTTON",
+      "text": "删除",
+      "x": 1777,
+      "y": 245,
+      "w": 30,
+      "h": 36,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "SPAN",
+      "text": "删除",
+      "x": 1778,
+      "y": 255,
+      "w": 28,
+      "h": 16,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "共 2 条 1 前往页",
+      "x": 325,
+      "y": 832,
+      "w": 1560,
+      "h": 32,
+      "cls": "pagination-container"
+    },
+    {
+      "tag": "DIV",
+      "text": "共 2 条 1 前往页",
+      "x": 1481.03125,
+      "y": 832,
+      "w": 403.96875,
+      "h": 32,
+      "cls": "el-pagination"
+    },
+    {
+      "tag": "SPAN",
+      "text": "共 2 条",
+      "x": 1486.03125,
+      "y": 834,
+      "w": 40.46875,
+      "h": 28,
+      "cls": "el-pagination__total"
+    },
+    {
+      "tag": "SPAN",
+      "text": "50条/页100条/页150条/页200条/页250条/页300条/页",
+      "x": 1536.5,
+      "y": 834,
+      "w": 110,
+      "h": 28,
+      "cls": "el-pagination__sizes"
+    },
+    {
+      "tag": "DIV",
+      "text": "50条/页100条/页150条/页200条/页250条/页300条/页",
+      "x": 1536.5,
+      "y": 834,
+      "w": 110,
+      "h": 28,
+      "cls": "el-select el-select--mini"
+    },
+    {
+      "tag": "INPUT",
+      "text": "请选择",
+      "x": 1541.5,
+      "y": 834,
+      "w": 100,
+      "h": 28,
+      "cls": "el-input__inner"
+    },
+    {
+      "tag": "SPAN",
+      "text": "前往页",
+      "x": 1787,
+      "y": 834,
+      "w": 93,
+      "h": 28,
+      "cls": "el-pagination__jump"
+    },
+    {
+      "tag": "INPUT",
+      "text": "1",
+      "x": 1817,
+      "y": 834,
+      "w": 46,
+      "h": 28,
+      "cls": "el-input__inner"
+    }
+  ],
+  "tables": [
+    {
+      "x": 545,
+      "y": 102,
+      "w": 1355,
+      "h": 153,
+      "headers": [],
+      "rows": [
+        [
+          "1",
+          "前端_班次管理",
+          "编辑 属性 提交版本 版本管理 更新 删除"
+        ],
+        [
+          "2",
+          "后台_班次管理",
+          "编辑 属性 提交版本 版本管理 更新 删除"
+        ],
+        [
+          "3",
+          "前端_框架",
+          "编辑 属性 提交版本 版本管理 更新 删除"
+        ]
+      ],
+      "text": "1 前端_班次管理 编辑 属性 提交版本 版本管理 更新 删除 2 后台_班次管理 编辑 属性 提交版本 版本管理 更新 删除 3 前端_框架 编辑 属性 提交版本 版本管理 更新 删除"
+    },
+    {
+      "x": 325,
+      "y": 163,
+      "w": 1560,
+      "h": 669,
+      "headers": [
+        "模型名称",
+        "触发类型",
+        "触发条件",
+        "操作"
+      ],
+      "rows": [
+        [
+          "班次管理后台",
+          "自定义函数",
+          "编辑 属性 删除"
+        ],
+        [
+          "test01",
+          "自定义函数",
+          "编辑 属性 删除"
+        ]
+      ],
+      "text": "模型名称 触发类型 触发条件 操作 班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除"
+    },
+    {
+      "x": 326,
+      "y": 164,
+      "w": 1559,
+      "h": 44,
+      "headers": [
+        "模型名称",
+        "触发类型",
+        "触发条件",
+        "操作"
+      ],
+      "rows": [],
+      "text": "模型名称 触发类型 触发条件 操作"
+    },
+    {
+      "x": 326,
+      "y": 208,
+      "w": 1559,
+      "h": 74,
+      "headers": [],
+      "rows": [
+        [
+          "班次管理后台",
+          "自定义函数",
+          "编辑 属性 删除"
+        ],
+        [
+          "test01",
+          "自定义函数",
+          "编辑 属性 删除"
+        ]
+      ],
+      "text": "班次管理后台 自定义函数 编辑 属性 删除 test01 自定义函数 编辑 属性 删除"
+    }
+  ],
+  "sectionKey": "command_language",
+  "sectionLabel": "命令语言"
+}

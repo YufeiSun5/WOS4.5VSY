@@ -1,0 +1,105 @@
+{
+  "ok": true
+}
+{
+  "ok": true
+}
+{
+  "capture": {
+    "messages": [
+      {
+        "kind": "mutation",
+        "text": "版本提交提交说明\n          取消\n        \n          确定",
+        "extra": {
+          "className": "el-message-box__wrapper"
+        },
+        "t": 1781768664052
+      },
+      {
+        "text": "版本提交提交说明\n          取消\n        \n          确定",
+        "className": "el-message-box__wrapper",
+        "t": 1781768664053
+      },
+      {
+        "kind": "mutation",
+        "text": "保存成功",
+        "extra": {
+          "className": "el-message"
+        },
+        "t": 1781768667298
+      },
+      {
+        "text": "保存成功",
+        "className": "el-message",
+        "t": 1781768667298
+      },
+      {
+        "kind": "mutation",
+        "text": "生成历史版本成功！",
+        "extra": {
+          "className": "el-message el-message--success"
+        },
+        "t": 1781768667419
+      },
+      {
+        "text": "生成历史版本成功！",
+        "className": "el-message el-message--success",
+        "t": 1781768667419
+      }
+    ]
+  },
+  "headerRow": {
+    "colStrategy": "percentage",
+    "sumLG": 100,
+    "cols": [
+      {
+        "name": "PageTitleCol",
+        "lg": 16,
+        "xl": 287,
+        "strategy": "percentage"
+      },
+      {
+        "name": "FilterInputCol",
+        "lg": 58,
+        "xl": 1149,
+        "strategy": "percentage"
+      },
+      {
+        "name": "PrimaryActionCol",
+        "lg": 10,
+        "xl": 172,
+        "strategy": "percentage"
+      },
+      {
+        "name": "UtilitySpacerCol",
+        "lg": 16,
+        "xl": 268,
+        "strategy": "percentage"
+      }
+    ]
+  },
+  "dataRow": {
+    "colStrategy": "percentage",
+    "sumLG": 100,
+    "cols": [
+      {
+        "name": "DataGridCol",
+        "lg": 100,
+        "xl": 1908,
+        "strategy": "percentage"
+      }
+    ]
+  },
+  "trendRow": {
+    "colStrategy": "percentage",
+    "sumLG": 100,
+    "cols": [
+      {
+        "name": "TrendChartCol",
+        "lg": 100,
+        "xl": 1908,
+        "strategy": "percentage"
+      }
+    ]
+  }
+}

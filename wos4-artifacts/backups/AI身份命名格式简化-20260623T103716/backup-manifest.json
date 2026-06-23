@@ -1,0 +1,18 @@
+{
+  "createdAt": "2026-06-23T10:37:16+08:00",
+  "operator": "Codex",
+  "task": "AI身份命名格式简化",
+  "backedUpFiles": [
+    "AGENTS.md",
+    "README.md",
+    "AI-INTERACTION-PANEL.md",
+    "MEMORY.md",
+    ".ai/docs/ai-interaction-panel-policy.md",
+    ".ai/docs/wos4-version-tree.md",
+    ".ai/agents/README.md",
+    "wos4-artifacts/tasks/20260623-验证蓝色客户端创建skill/README.md",
+    "wos4-artifacts/tasks/20260623-验证蓝色客户端创建skill/01-需求说明.md",
+    "wos4-artifacts/tasks/20260623-验证蓝色客户端创建skill/05-测试验收.md"
+  ],
+  "note": "将 AI 协作身份格式从 开发人员_工作域_AI身份 简化为 开发人员_AI身份。"
+}

@@ -1,0 +1,29 @@
+{
+  "messages": [
+    {
+      "kind": "mutation",
+      "text": "版本提交\n提交说明:\n取消\n确认",
+      "extra": {
+        "className": "el-dialog"
+      },
+      "t": 1781920013827
+    },
+    {
+      "kind": "mutation",
+      "text": "提交说明:",
+      "extra": {
+        "className": "el-form-item__label"
+      },
+      "t": 1781920013827
+    },
+    {
+      "kind": "mutation",
+      "text": "提交成功",
+      "extra": {
+        "className": "el-message el-message--success is-center el-message-fade-enter-from el-message-fade-enter-active"
+      },
+      "t": 1781920047718
+    }
+  ],
+  "console": []
+}

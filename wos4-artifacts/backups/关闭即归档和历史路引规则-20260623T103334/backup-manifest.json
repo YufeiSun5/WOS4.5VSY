@@ -1,0 +1,19 @@
+{
+  "createdAt": "2026-06-23T10:33:34+08:00",
+  "operator": "Codex",
+  "task": "关闭即归档和历史路引规则",
+  "backedUpFiles": [
+    "AGENTS.md",
+    "README.md",
+    "AI-INTERACTION-PANEL.md",
+    "MEMORY.md",
+    ".ai/docs/ai-interaction-panel-policy.md",
+    ".ai/docs/README.md",
+    ".ai/closed-interactions/README.md"
+  ],
+  "newFiles": [
+    ".ai/closed-interactions/AI-ROUTE.md",
+    ".ai/closed-interactions/INDEX.md"
+  ],
+  "note": "为 close 原子归档和历史查询路引新增规则。"
+}

@@ -1,0 +1,1050 @@
+{
+  "title": "集成测试",
+  "right": [
+    {
+      "tag": "TD",
+      "text": "1",
+      "x": 585,
+      "y": 102,
+      "w": 60,
+      "h": 51,
+      "cls": "el-table_1_column_2 is-left   el-table__cell"
+    },
+    {
+      "tag": "TD",
+      "text": "前端_班次管理",
+      "x": 645,
+      "y": 102,
+      "w": 252,
+      "h": 51,
+      "cls": "el-table_1_column_3 is-left   el-table__cell"
+    },
+    {
+      "tag": "TD",
+      "text": "编辑 属性 提交版本 版本管理 更新 删除",
+      "x": 1315,
+      "y": 102,
+      "w": 585,
+      "h": 51,
+      "cls": "el-table_1_column_5 is-left  cellName el-table__cell"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "编辑",
+      "x": 1325,
+      "y": 102,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "属性",
+      "x": 1365,
+      "y": 102,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "提交版本",
+      "x": 1405,
+      "y": 102,
+      "w": 56,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "版本管理",
+      "x": 1473,
+      "y": 102,
+      "w": 56,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "更新",
+      "x": 1541,
+      "y": 102,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "删除",
+      "x": 1581,
+      "y": 102,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "TD",
+      "text": "2",
+      "x": 585,
+      "y": 153,
+      "w": 60,
+      "h": 51,
+      "cls": "el-table_1_column_2 is-left   el-table__cell"
+    },
+    {
+      "tag": "TD",
+      "text": "后台_班次管理",
+      "x": 645,
+      "y": 153,
+      "w": 252,
+      "h": 51,
+      "cls": "el-table_1_column_3 is-left   el-table__cell"
+    },
+    {
+      "tag": "TD",
+      "text": "编辑 属性 提交版本 版本管理 更新 删除",
+      "x": 1315,
+      "y": 153,
+      "w": 585,
+      "h": 51,
+      "cls": "el-table_1_column_5 is-left  cellName el-table__cell"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "编辑",
+      "x": 1325,
+      "y": 153,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "属性",
+      "x": 1365,
+      "y": 153,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "提交版本",
+      "x": 1405,
+      "y": 153,
+      "w": 56,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "版本管理",
+      "x": 1473,
+      "y": 153,
+      "w": 56,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "更新",
+      "x": 1541,
+      "y": 153,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "删除",
+      "x": 1581,
+      "y": 153,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "TD",
+      "text": "3",
+      "x": 585,
+      "y": 204,
+      "w": 60,
+      "h": 51,
+      "cls": "el-table_1_column_2 is-left   el-table__cell"
+    },
+    {
+      "tag": "TD",
+      "text": "前端_框架",
+      "x": 645,
+      "y": 204,
+      "w": 252,
+      "h": 51,
+      "cls": "el-table_1_column_3 is-left   el-table__cell"
+    },
+    {
+      "tag": "TD",
+      "text": "编辑 属性 提交版本 版本管理 更新 删除",
+      "x": 1315,
+      "y": 204,
+      "w": 585,
+      "h": 51,
+      "cls": "el-table_1_column_5 is-left  cellName el-table__cell"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "编辑",
+      "x": 1325,
+      "y": 204,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "属性",
+      "x": 1365,
+      "y": 204,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "提交版本",
+      "x": 1405,
+      "y": 204,
+      "w": 56,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "版本管理",
+      "x": 1473,
+      "y": 204,
+      "w": 56,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "更新",
+      "x": 1541,
+      "y": 204,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "删除",
+      "x": 1581,
+      "y": 204,
+      "w": 28,
+      "h": 50,
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "tag": "INPUT",
+      "text": "请选择",
+      "x": 1517.5,
+      "y": 869,
+      "w": 100,
+      "h": 28,
+      "cls": "el-input__inner"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "<",
+      "x": 1632.5,
+      "y": 869,
+      "w": 53.5,
+      "h": 28,
+      "cls": "btn-prev"
+    },
+    {
+      "tag": "BUTTON",
+      "text": ">",
+      "x": 1721.5,
+      "y": 869,
+      "w": 53.5,
+      "h": 28,
+      "cls": "btn-next"
+    },
+    {
+      "tag": "INPUT",
+      "text": "1",
+      "x": 1831,
+      "y": 869,
+      "w": 46,
+      "h": 28,
+      "cls": "el-input__inner"
+    },
+    {
+      "tag": "DIV",
+      "text": "形参列表 添加 删除 名称 描述 操作 empty 共 0 条 <1>前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": "response_row"
+    },
+    {
+      "tag": "SPAN",
+      "text": "形参列表 添加 删除 名称 描述 操作 empty 共 0 条 <1>前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "形参列表 添加 删除 名称 描述 操作 empty 共 0 条 <1>前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "形参列表 添加 删除 名称 描述 操作 empty 共 0 条 <1>前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "text": "形参列表 添加 删除 名称 描述 操作 empty 共 0 条 <1>前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": "ui_factory layer_class"
+    },
+    {
+      "tag": "DIV",
+      "text": "形参列表 添加 删除 名称 描述 操作 empty 共 0 条 <1>前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": "page_view_container client_page_view_container set_page_app component_object 形参列表_框架页面"
+    },
+    {
+      "tag": "DIV",
+      "text": "形参列表 添加 删除 名称 描述 操作 empty 共 0 条 <1>前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": "page_view"
+    },
+    {
+      "tag": "DIV",
+      "text": "形参列表 添加 删除 名称 描述 操作 empty 共 0 条 <1>前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": "layer_view"
+    },
+    {
+      "tag": "DIV",
+      "text": "形参列表 添加 删除 名称 描述 操作 empty 共 0 条 <1>前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": "layout_container containerStyle"
+    },
+    {
+      "tag": "SPAN",
+      "text": "形参列表 添加 删除 名称 描述 操作 empty 共 0 条 <1>前往页",
+      "x": 310,
+      "y": 100,
+      "w": 1590,
+      "h": 779,
+      "cls": "containerrow"
+    },
+    {
+      "tag": "DIV",
+      "text": "形参列表 添加 删除 名称 描述 操作 empty 共 0 条 <1>前往页",
+      "x": 330,
+      "y": 100,
+      "w": 1570,
+      "h": 779,
+      "cls": "response_row"
+    },
+    {
+      "tag": "SPAN",
+      "text": "形参列表 添加 删除 名称 描述 操作 empty 共 0 条 <1>前往页",
+      "x": 330,
+      "y": 100,
+      "w": 1570,
+      "h": 779,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "形参列表 添加 删除 名称 描述 操作 empty 共 0 条 <1>前往页",
+      "x": 330,
+      "y": 100,
+      "w": 1570,
+      "h": 779,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "形参列表 添加 删除 名称 描述 操作 empty 共 0 条 <1>前往页",
+      "x": 330,
+      "y": 100,
+      "w": 1570,
+      "h": 779,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "text": "形参列表 添加 删除 名称 描述 操作 empty 共 0 条 <1>前往页",
+      "x": 330,
+      "y": 100,
+      "w": 1570,
+      "h": 779,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "text": "形参列表 添加 删除 名称 描述 操作 empty 共 0 条 <1>前往页",
+      "x": 330,
+      "y": 100,
+      "w": 1570,
+      "h": 779,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "text": "形参列表 添加 删除 名称 描述 操作 empty 共 0 条 <1>前往页",
+      "x": 330,
+      "y": 100,
+      "w": 1570,
+      "h": 779,
+      "cls": "layout_container component_object containerStyle"
+    },
+    {
+      "tag": "SPAN",
+      "text": "形参列表 添加 删除 名称 描述 操作 empty 共 0 条 <1>前往页",
+      "x": 330,
+      "y": 100,
+      "w": 1570,
+      "h": 779,
+      "cls": "containerrow"
+    },
+    {
+      "tag": "DIV",
+      "text": "形参列表 添加 删除",
+      "x": 350,
+      "y": 110,
+      "w": 1530,
+      "h": 36,
+      "cls": "response_row"
+    },
+    {
+      "tag": "SPAN",
+      "text": "形参列表 添加 删除",
+      "x": 350,
+      "y": 110,
+      "w": 1530,
+      "h": 36,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "形参列表",
+      "x": 350,
+      "y": 110,
+      "w": 1120,
+      "h": 34,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "形参列表",
+      "x": 350,
+      "y": 110,
+      "w": 1120,
+      "h": 34,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "text": "形参列表",
+      "x": 350,
+      "y": 110,
+      "w": 1120,
+      "h": 34,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "text": "形参列表",
+      "x": 350,
+      "y": 110,
+      "w": 1120,
+      "h": 34,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "text": "形参列表",
+      "x": 350,
+      "y": 110,
+      "w": 1120,
+      "h": 34,
+      "cls": "el-text-component component_object ElementText1"
+    },
+    {
+      "tag": "DIV",
+      "text": "添加",
+      "x": 1475,
+      "y": 110,
+      "w": 80,
+      "h": 34,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "添加",
+      "x": 1475,
+      "y": 110,
+      "w": 80,
+      "h": 34,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "text": "添加",
+      "x": 1475,
+      "y": 110,
+      "w": 80,
+      "h": 34,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "text": "添加",
+      "x": 1475,
+      "y": 110,
+      "w": 80,
+      "h": 34,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "text": "添加",
+      "x": 1475,
+      "y": 110,
+      "w": 80,
+      "h": 34,
+      "cls": "component_object 新建按钮"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "添加",
+      "x": 1475,
+      "y": 110,
+      "w": 80,
+      "h": 34,
+      "cls": "el-button el-button--primary el-button--medium propertyStyle"
+    },
+    {
+      "tag": "SPAN",
+      "text": "添加",
+      "x": 1510.5,
+      "y": 120,
+      "w": 28,
+      "h": 14,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "删除",
+      "x": 1565,
+      "y": 110,
+      "w": 80,
+      "h": 34,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "删除",
+      "x": 1565,
+      "y": 110,
+      "w": 80,
+      "h": 34,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "text": "删除",
+      "x": 1565,
+      "y": 110,
+      "w": 80,
+      "h": 34,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "text": "删除",
+      "x": 1565,
+      "y": 110,
+      "w": 80,
+      "h": 34,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "text": "删除",
+      "x": 1565,
+      "y": 110,
+      "w": 80,
+      "h": 34,
+      "cls": "component_object ElementButton2"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "删除",
+      "x": 1565,
+      "y": 110,
+      "w": 80,
+      "h": 34,
+      "cls": "el-button el-button--primary el-button--medium propertyStyle"
+    },
+    {
+      "tag": "SPAN",
+      "text": "删除",
+      "x": 1596,
+      "y": 120,
+      "w": 28,
+      "h": 14,
+      "cls": ""
+    },
+    {
+      "tag": "INPUT",
+      "text": "搜索",
+      "x": 1658,
+      "y": 112,
+      "w": 183,
+      "h": 32,
+      "cls": "el-input__inner"
+    },
+    {
+      "tag": "DIV",
+      "text": "名称 描述 操作 empty",
+      "x": 350,
+      "y": 156,
+      "w": 1530,
+      "h": 691,
+      "cls": "response_row"
+    },
+    {
+      "tag": "SPAN",
+      "text": "名称 描述 操作 empty",
+      "x": 350,
+      "y": 156,
+      "w": 1530,
+      "h": 691,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "名称 描述 操作 empty",
+      "x": 350,
+      "y": 156,
+      "w": 1530,
+      "h": 691,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "名称 描述 操作 empty",
+      "x": 350,
+      "y": 156,
+      "w": 1530,
+      "h": 691,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "text": "名称 描述 操作 empty",
+      "x": 350,
+      "y": 156,
+      "w": 1530,
+      "h": 691,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "text": "名称 描述 操作 empty",
+      "x": 350,
+      "y": 156,
+      "w": 1530,
+      "h": 691,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "text": "名称 描述 操作 empty",
+      "x": 350,
+      "y": 156,
+      "w": 1530,
+      "h": 691,
+      "cls": "PCUI_ElementTable component_object 模型列表"
+    },
+    {
+      "tag": "DIV",
+      "text": "名称 描述 操作 empty",
+      "x": 350,
+      "y": 156,
+      "w": 1530,
+      "h": 691,
+      "cls": "el-table el-table--fit el-table--enable-row-hover el-table--medium"
+    },
+    {
+      "tag": "DIV",
+      "text": "名称 描述 操作",
+      "x": 350,
+      "y": 156,
+      "w": 1530,
+      "h": 44,
+      "cls": "el-table__header-wrapper"
+    },
+    {
+      "tag": "TH",
+      "text": "名称",
+      "x": 390,
+      "y": 156,
+      "w": 299,
+      "h": 44,
+      "cls": "el-table_39_column_167  is-left   is-leaf el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "text": "名称",
+      "x": 390,
+      "y": 166,
+      "w": 299,
+      "h": 23,
+      "cls": "cell"
+    },
+    {
+      "tag": "SPAN",
+      "text": "名称",
+      "x": 400,
+      "y": 168,
+      "w": 24,
+      "h": 17,
+      "cls": ""
+    },
+    {
+      "tag": "TH",
+      "text": "描述",
+      "x": 689,
+      "y": 156,
+      "w": 496,
+      "h": 44,
+      "cls": "el-table_39_column_168  is-left   is-leaf el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "text": "描述",
+      "x": 689,
+      "y": 166,
+      "w": 496,
+      "h": 23,
+      "cls": "cell"
+    },
+    {
+      "tag": "SPAN",
+      "text": "描述",
+      "x": 699,
+      "y": 168,
+      "w": 24,
+      "h": 17,
+      "cls": ""
+    },
+    {
+      "tag": "TH",
+      "text": "操作",
+      "x": 1185,
+      "y": 156,
+      "w": 695,
+      "h": 44,
+      "cls": "el-table_39_column_169  is-left   is-leaf el-table__cell"
+    },
+    {
+      "tag": "DIV",
+      "text": "操作",
+      "x": 1185,
+      "y": 166,
+      "w": 695,
+      "h": 23,
+      "cls": "cell"
+    },
+    {
+      "tag": "SPAN",
+      "text": "操作",
+      "x": 1195,
+      "y": 168,
+      "w": 24,
+      "h": 17,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "empty",
+      "x": 350,
+      "y": 200,
+      "w": 1530,
+      "h": 647,
+      "cls": "el-table__body-wrapper is-scrolling-none"
+    },
+    {
+      "tag": "DIV",
+      "text": "empty",
+      "x": 350,
+      "y": 200,
+      "w": 1530,
+      "h": 611,
+      "cls": "el-table__empty-block"
+    },
+    {
+      "tag": "SPAN",
+      "text": "empty",
+      "x": 732.5,
+      "y": 475.5,
+      "w": 765,
+      "h": 60,
+      "cls": "el-table__empty-text"
+    },
+    {
+      "tag": "DIV",
+      "text": "共 0 条 <1>前往页",
+      "x": 350,
+      "y": 847,
+      "w": 1530,
+      "h": 32,
+      "cls": "response_row"
+    },
+    {
+      "tag": "SPAN",
+      "text": "共 0 条 <1>前往页",
+      "x": 350,
+      "y": 847,
+      "w": 1530,
+      "h": 32,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "共 0 条 <1>前往页",
+      "x": 350,
+      "y": 847,
+      "w": 1530,
+      "h": 32,
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "共 0 条 <1>前往页",
+      "x": 350,
+      "y": 847,
+      "w": 1530,
+      "h": 32,
+      "cls": "component_object_unselect"
+    },
+    {
+      "tag": "DIV",
+      "text": "共 0 条 <1>前往页",
+      "x": 350,
+      "y": 847,
+      "w": 1530,
+      "h": 32,
+      "cls": "ui_factory"
+    },
+    {
+      "tag": "DIV",
+      "text": "共 0 条 <1>前往页",
+      "x": 350,
+      "y": 847,
+      "w": 1530,
+      "h": 32,
+      "cls": "pointer_auto"
+    },
+    {
+      "tag": "DIV",
+      "text": "共 0 条 <1>前往页",
+      "x": 350,
+      "y": 847,
+      "w": 1530,
+      "h": 32,
+      "cls": "component_object 工厂模型列表分页"
+    },
+    {
+      "tag": "DIV",
+      "text": "共 0 条 <1>前往页",
+      "x": 1435.5625,
+      "y": 847,
+      "w": 444.4375,
+      "h": 32,
+      "cls": "el-pagination"
+    },
+    {
+      "tag": "SPAN",
+      "text": "共 0 条",
+      "x": 1440.5625,
+      "y": 849,
+      "w": 41.9375,
+      "h": 28,
+      "cls": "el-pagination__total"
+    },
+    {
+      "tag": "SPAN",
+      "text": "15条/页20条/页50条/页200条/页300条/页",
+      "x": 1492.5,
+      "y": 849,
+      "w": 110,
+      "h": 28,
+      "cls": "el-pagination__sizes"
+    },
+    {
+      "tag": "DIV",
+      "text": "15条/页20条/页50条/页200条/页300条/页",
+      "x": 1492.5,
+      "y": 849,
+      "w": 110,
+      "h": 29,
+      "cls": "el-select el-select--mini"
+    },
+    {
+      "tag": "INPUT",
+      "text": "请选择",
+      "x": 1497.5,
+      "y": 849,
+      "w": 100,
+      "h": 28,
+      "cls": "el-input__inner"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "<",
+      "x": 1612.5,
+      "y": 849,
+      "w": 53.5,
+      "h": 28,
+      "cls": "btn-prev"
+    },
+    {
+      "tag": "SPAN",
+      "text": "<",
+      "x": 1618.5,
+      "y": 849,
+      "w": 35.5,
+      "h": 28,
+      "cls": ""
+    },
+    {
+      "tag": "BUTTON",
+      "text": ">",
+      "x": 1701.5,
+      "y": 849,
+      "w": 53.5,
+      "h": 28,
+      "cls": "btn-next"
+    },
+    {
+      "tag": "SPAN",
+      "text": ">",
+      "x": 1713.5,
+      "y": 849,
+      "w": 35.5,
+      "h": 28,
+      "cls": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "前往页",
+      "x": 1779,
+      "y": 849,
+      "w": 96,
+      "h": 28,
+      "cls": "el-pagination__jump"
+    },
+    {
+      "tag": "INPUT",
+      "text": "1",
+      "x": 1811,
+      "y": 849,
+      "w": 46,
+      "h": 28,
+      "cls": "el-input__inner"
+    }
+  ],
+  "tables": [
+    {
+      "x": 545,
+      "y": 102,
+      "w": 1355,
+      "h": 153,
+      "headers": [],
+      "rows": [
+        [
+          "1",
+          "前端_班次管理",
+          "编辑 属性 提交版本 版本管理 更新 删除"
+        ],
+        [
+          "2",
+          "后台_班次管理",
+          "编辑 属性 提交版本 版本管理 更新 删除"
+        ],
+        [
+          "3",
+          "前端_框架",
+          "编辑 属性 提交版本 版本管理 更新 删除"
+        ]
+      ],
+      "text": "1 前端_班次管理 编辑 属性 提交版本 版本管理 更新 删除 2 后台_班次管理 编辑 属性 提交版本 版本管理 更新 删除 3 前端_框架 编辑 属性 提交版本 版本管理 更新 删除"
+    },
+    {
+      "x": 350,
+      "y": 156,
+      "w": 1530,
+      "h": 691,
+      "headers": [
+        "名称",
+        "描述",
+        "操作"
+      ],
+      "rows": [],
+      "text": "名称 描述 操作 empty"
+    },
+    {
+      "x": 350,
+      "y": 156,
+      "w": 1530,
+      "h": 44,
+      "headers": [
+        "名称",
+        "描述",
+        "操作"
+      ],
+      "rows": [],
+      "text": "名称 描述 操作"
+    }
+  ],
+  "sectionKey": "shape_param",
+  "sectionLabel": "形参配置"
+}

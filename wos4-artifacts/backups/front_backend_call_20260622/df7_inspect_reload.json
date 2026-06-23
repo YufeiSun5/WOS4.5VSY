@@ -1,0 +1,21 @@
+{
+  "before": {
+    "text": "查询全部(4)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n泵站A-01\n\t\nA\n\t\n正常\n\t\n128\n\t\n0.62\n\n\n泵站A-02\n\t\nA\n\t\n待机\n\t\n96\n\t\n0.58\n\n\n泵站B-01\n\t\nB\n\t\n正常\n\t\n141\n\t\n0.67\n\n\n泵站B-02\n\t\nB\n\t\n报警\n\t\n73\n\t\n0.49\n共 4 条\n1\n前往页",
+    "scripts": [
+      {
+        "key": "demo_query_button",
+        "text": "查询全部(4)",
+        "hasCall": false,
+        "script": "var page = this;\nvar kids = this.KMComponentsMng.$Children || {};\nfunction byName(name){ return Object.values(kids).find(function(v){ return v && (v.UIName===name || v.name===name || (v.propData && v.propData.UIName===name)); }); }\nfunction propOf(obj){ return obj && (obj._props && obj._props.propData || obj.propData || obj); }\nfunction getVar(name){\n  if (page.$Variable && typeof page.$Variable[name] !== 'undefined') return page.$Variable[name];\n  if (page.variableMng && page.variableMng.getVarByName) { var mv = page.variableMng.getVarByName(name); if (mv) { if (typeof mv.getValue === 'function') return mv.getValue(); return mv.varValue; } }\n}\nfunction setVar(name, value){\n  page.$Variable = page.$Variable || {};\n  page.$Variable[name] = value;\n  if (page.variableMng && page.variableMng.getVarByName && typeof page.setVariable === 'function') { var mv = page.variableMng.getVarByName(name); if (mv) page.setVariable(mv, value); }\n}\nfunction loadRows(){\n  var raw = getVar('seedData') || '"
+      }
+    ]
+  },
+  "afterReloadFrames": [
+    {
+      "path": "top",
+      "href": "http://221.239.19.118:13001/public/index.html?id=6192730962611142709&parentid=0&cloudid=107&clientnumber=7710165594863352807&bs=true#/#{%22clientGuid%22:%2287d72c85-f47b-42ed-9cbe-711657b93fe6%22,%22FUType%22:11}",
+      "text": "",
+      "frameCount": 0
+    }
+  ]
+}

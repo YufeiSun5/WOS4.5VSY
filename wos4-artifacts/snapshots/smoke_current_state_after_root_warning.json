@@ -1,0 +1,260 @@
+{
+  "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；操作者：盛云_孙宇飞；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 3 条\n<1>前往页",
+  "buttons": [
+    {
+      "i": 1,
+      "text": "",
+      "cls": "el-button el-tooltip el-button--primary el-button--medium propertyStyle",
+      "x": 446.234375,
+      "y": 21,
+      "w": 16,
+      "h": 16
+    },
+    {
+      "i": 2,
+      "text": "",
+      "cls": "el-button el-tooltip el-button--primary el-button--medium propertyStyle",
+      "x": 467.109375,
+      "y": 21,
+      "w": 16,
+      "h": 16
+    },
+    {
+      "i": 3,
+      "text": "",
+      "cls": "el-button el-button--text el-button--medium el-dropdown-selfdefine",
+      "x": 487.984375,
+      "y": 21,
+      "w": 16,
+      "h": 16
+    },
+    {
+      "i": 4,
+      "text": "",
+      "cls": "el-button el-button--primary el-button--medium propertyStyle",
+      "x": 469,
+      "y": 54,
+      "w": 34,
+      "h": 32
+    },
+    {
+      "i": 6,
+      "text": "新建",
+      "cls": "el-button el-button--primary el-button--medium propertyStyle",
+      "x": 1463,
+      "y": 10,
+      "w": 80,
+      "h": 34
+    },
+    {
+      "i": 7,
+      "text": "更多操作",
+      "cls": "el-button el-button--primary el-button--medium el-dropdown-selfdefine ",
+      "x": 1555,
+      "y": 10,
+      "w": 110,
+      "h": 34
+    },
+    {
+      "i": 8,
+      "text": "",
+      "cls": "el-button el-button--primary el-button--medium propertyStyle",
+      "x": 1865,
+      "y": 13,
+      "w": 34,
+      "h": 32
+    },
+    {
+      "i": 9,
+      "text": "编辑",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 1325,
+      "y": 102,
+      "w": 28,
+      "h": 50
+    },
+    {
+      "i": 10,
+      "text": "属性",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 1365,
+      "y": 102,
+      "w": 28,
+      "h": 50
+    },
+    {
+      "i": 11,
+      "text": "提交版本",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 1405,
+      "y": 102,
+      "w": 56,
+      "h": 50
+    },
+    {
+      "i": 12,
+      "text": "版本管理",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 1473,
+      "y": 102,
+      "w": 56,
+      "h": 50
+    },
+    {
+      "i": 13,
+      "text": "更新",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 1541,
+      "y": 102,
+      "w": 28,
+      "h": 50
+    },
+    {
+      "i": 14,
+      "text": "删除",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 1581,
+      "y": 102,
+      "w": 28,
+      "h": 50
+    },
+    {
+      "i": 15,
+      "text": "编辑",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 1325,
+      "y": 153,
+      "w": 28,
+      "h": 50
+    },
+    {
+      "i": 16,
+      "text": "属性",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 1365,
+      "y": 153,
+      "w": 28,
+      "h": 50
+    },
+    {
+      "i": 17,
+      "text": "提交版本",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 1405,
+      "y": 153,
+      "w": 56,
+      "h": 50
+    },
+    {
+      "i": 18,
+      "text": "版本管理",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 1473,
+      "y": 153,
+      "w": 56,
+      "h": 50
+    },
+    {
+      "i": 19,
+      "text": "更新",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 1541,
+      "y": 153,
+      "w": 28,
+      "h": 50
+    },
+    {
+      "i": 20,
+      "text": "删除",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 1581,
+      "y": 153,
+      "w": 28,
+      "h": 50
+    },
+    {
+      "i": 21,
+      "text": "编辑",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 1325,
+      "y": 204,
+      "w": 28,
+      "h": 50
+    },
+    {
+      "i": 22,
+      "text": "属性",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 1365,
+      "y": 204,
+      "w": 28,
+      "h": 50
+    },
+    {
+      "i": 23,
+      "text": "提交版本",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 1405,
+      "y": 204,
+      "w": 56,
+      "h": 50
+    },
+    {
+      "i": 24,
+      "text": "版本管理",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 1473,
+      "y": 204,
+      "w": 56,
+      "h": 50
+    },
+    {
+      "i": 25,
+      "text": "更新",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 1541,
+      "y": 204,
+      "w": 28,
+      "h": 50
+    },
+    {
+      "i": 26,
+      "text": "删除",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 1581,
+      "y": 204,
+      "w": 28,
+      "h": 50
+    },
+    {
+      "i": 27,
+      "text": "<",
+      "cls": "btn-prev",
+      "x": 1632.5,
+      "y": 869,
+      "w": 53.5,
+      "h": 28
+    },
+    {
+      "i": 28,
+      "text": ">",
+      "cls": "btn-next",
+      "x": 1721.5,
+      "y": 869,
+      "w": 53.5,
+      "h": 28
+    }
+  ],
+  "dialogs": [
+    {
+      "i": 0,
+      "text": "",
+      "cls": "el-dialog"
+    },
+    {
+      "i": 1,
+      "text": "",
+      "cls": "el-dialog"
+    }
+  ]
+}

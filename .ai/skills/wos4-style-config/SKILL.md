@@ -13,6 +13,10 @@ description: WOS4 样式配置规则。用于通过 styleConfig 和 detailConfig
 - 让样式提交后预览仍生效。
 - 验证样式字段不是只在编辑器里临时生效。
 
+如果还没有决定该用哪种组件，先读：
+
+- `D:\DEV_D\WOS4.5\.ai\skills\wos4-component-catalog\SKILL.md`
+
 ## 核心规则
 
 WOS4 样式优先使用：
@@ -116,5 +120,5 @@ chart.SetOption(option, true)
 
 证据文件：
 
-- `D:\DEV_D\WOS4.5\snapshots\wos4_style_verify.json`
-- `D:\DEV_D\WOS4.5\screenshots\wos4_style_preview_verify.png`
+- `D:\DEV_D\WOS4.5\wos4-artifacts\snapshots\wos4_style_verify.json`
+- `D:\DEV_D\WOS4.5\wos4-artifacts\screenshots\wos4_style_preview_verify.png`

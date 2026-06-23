@@ -1,0 +1,1110 @@
+{
+  "startedAt": "2026-06-12T04:00:17.109Z",
+  "modelName": "盛云_孙宇飞_假数据设备模型_0612",
+  "operator": "盛云_孙宇飞",
+  "editUrl": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+  "clickRes": {
+    "ok": true,
+    "tag": "DIV",
+    "cls": "response_row",
+    "text": "新建成员"
+  },
+  "dialogs": [
+    {
+      "i": 0,
+      "visible": false,
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "text": "",
+      "html": "<div role=\"dialog\" aria-modal=\"true\" aria-label=\"dialog\" class=\"el-dialog\" style=\"margin-top: 15vh;\"><div class=\"el-dialog__header\"><span class=\"el-dialog__title\"></span><button type=\"button\" aria-label=\"Close\" class=\"el-dialog__headerbtn\"><i class=\"el-dialog__close el-icon el-icon-close\"></i></button></div><!----><!----></div>",
+      "inputs": [],
+      "buttons": [
+        {
+          "j": 0,
+          "text": "",
+          "cls": "el-dialog__headerbtn"
+        }
+      ]
+    },
+    {
+      "i": 1,
+      "visible": false,
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "text": "",
+      "html": "<div role=\"dialog\" aria-modal=\"true\" aria-label=\"dialog\" class=\"el-dialog\" style=\"margin-top: 15vh;\"><div class=\"el-dialog__header\"><span class=\"el-dialog__title\"></span><button type=\"button\" aria-label=\"Close\" class=\"el-dialog__headerbtn\"><i class=\"el-dialog__close el-icon el-icon-close\"></i></button></div><!----><!----></div>",
+      "inputs": [],
+      "buttons": [
+        {
+          "j": 0,
+          "text": "",
+          "cls": "el-dialog__headerbtn"
+        }
+      ]
+    },
+    {
+      "i": 2,
+      "visible": false,
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "text": "",
+      "html": "<div role=\"dialog\" aria-modal=\"true\" aria-label=\"dialog\" class=\"el-dialog\" style=\"margin-top: 15vh;\"><div class=\"el-dialog__header\"><span class=\"el-dialog__title\"></span><button type=\"button\" aria-label=\"Close\" class=\"el-dialog__headerbtn\"><i class=\"el-dialog__close el-icon el-icon-close\"></i></button></div><!----><!----></div>",
+      "inputs": [],
+      "buttons": [
+        {
+          "j": 0,
+          "text": "",
+          "cls": "el-dialog__headerbtn"
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "visible": false,
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "text": "",
+      "html": "<div role=\"dialog\" aria-modal=\"true\" aria-label=\"dialog\" class=\"el-dialog\" style=\"margin-top: 15vh;\"><div class=\"el-dialog__header\"><span class=\"el-dialog__title\"></span><button type=\"button\" aria-label=\"Close\" class=\"el-dialog__headerbtn\"><i class=\"el-dialog__close el-icon el-icon-close\"></i></button></div><!----><!----></div>",
+      "inputs": [],
+      "buttons": [
+        {
+          "j": 0,
+          "text": "",
+          "cls": "el-dialog__headerbtn"
+        }
+      ]
+    }
+  ],
+  "visibleInputs": [
+    {
+      "i": 0,
+      "visible": true,
+      "x": 261,
+      "y": 72,
+      "w": 130,
+      "h": 32,
+      "type": "text",
+      "placeholder": "搜索...",
+      "value": "",
+      "cls": "el-input__inner",
+      "near": ""
+    },
+    {
+      "i": 1,
+      "visible": true,
+      "x": 1198,
+      "y": 13,
+      "w": 186,
+      "h": 32,
+      "type": "text",
+      "placeholder": "搜索",
+      "value": "",
+      "cls": "el-input__inner",
+      "near": ""
+    },
+    {
+      "i": 2,
+      "visible": false,
+      "x": 492,
+      "y": 71.875,
+      "w": 0,
+      "h": 0,
+      "type": "checkbox",
+      "placeholder": "",
+      "value": "",
+      "cls": "el-checkbox__original",
+      "near": ""
+    },
+    {
+      "i": 3,
+      "visible": false,
+      "x": 496,
+      "y": 117.875,
+      "w": 0,
+      "h": 0,
+      "type": "checkbox",
+      "placeholder": "",
+      "value": "",
+      "cls": "el-checkbox__original",
+      "near": ""
+    },
+    {
+      "i": 4,
+      "visible": false,
+      "x": 496,
+      "y": 168.875,
+      "w": 0,
+      "h": 0,
+      "type": "checkbox",
+      "placeholder": "",
+      "value": "",
+      "cls": "el-checkbox__original",
+      "near": ""
+    },
+    {
+      "i": 5,
+      "visible": true,
+      "x": 1107.5,
+      "y": 854,
+      "w": 100,
+      "h": 28,
+      "type": "text",
+      "placeholder": "请选择",
+      "value": "50条/页",
+      "cls": "el-input__inner",
+      "near": ""
+    },
+    {
+      "i": 6,
+      "visible": true,
+      "x": 1351,
+      "y": 854,
+      "w": 46,
+      "h": 28,
+      "type": "number",
+      "placeholder": "",
+      "value": "1",
+      "cls": "el-input__inner",
+      "near": ""
+    },
+    {
+      "i": 7,
+      "visible": false,
+      "x": 233,
+      "y": 211.203125,
+      "w": 0,
+      "h": 0,
+      "type": "checkbox",
+      "placeholder": "",
+      "value": "on",
+      "cls": "el-switch__input",
+      "near": ""
+    },
+    {
+      "i": 8,
+      "visible": false,
+      "x": 233,
+      "y": 247.203125,
+      "w": 0,
+      "h": 0,
+      "type": "checkbox",
+      "placeholder": "",
+      "value": "on",
+      "cls": "el-switch__input",
+      "near": ""
+    },
+    {
+      "i": 9,
+      "visible": false,
+      "x": 233,
+      "y": 283.203125,
+      "w": 0,
+      "h": 0,
+      "type": "checkbox",
+      "placeholder": "",
+      "value": "on",
+      "cls": "el-switch__input",
+      "near": ""
+    },
+    {
+      "i": 10,
+      "visible": false,
+      "x": 233,
+      "y": 355.203125,
+      "w": 0,
+      "h": 0,
+      "type": "checkbox",
+      "placeholder": "",
+      "value": "on",
+      "cls": "el-switch__input",
+      "near": ""
+    },
+    {
+      "i": 11,
+      "visible": false,
+      "x": 233,
+      "y": 391.203125,
+      "w": 0,
+      "h": 0,
+      "type": "checkbox",
+      "placeholder": "",
+      "value": "on",
+      "cls": "el-switch__input",
+      "near": ""
+    },
+    {
+      "i": 12,
+      "visible": false,
+      "x": 233,
+      "y": 427.203125,
+      "w": 0,
+      "h": 0,
+      "type": "checkbox",
+      "placeholder": "",
+      "value": "on",
+      "cls": "el-switch__input",
+      "near": ""
+    },
+    {
+      "i": 13,
+      "visible": false,
+      "x": 233,
+      "y": 463.203125,
+      "w": 0,
+      "h": 0,
+      "type": "checkbox",
+      "placeholder": "",
+      "value": "on",
+      "cls": "el-switch__input",
+      "near": ""
+    },
+    {
+      "i": 14,
+      "visible": false,
+      "x": 233,
+      "y": 535.203125,
+      "w": 0,
+      "h": 0,
+      "type": "checkbox",
+      "placeholder": "",
+      "value": "on",
+      "cls": "el-switch__input",
+      "near": ""
+    },
+    {
+      "i": 15,
+      "visible": false,
+      "x": 233,
+      "y": 571.203125,
+      "w": 0,
+      "h": 0,
+      "type": "checkbox",
+      "placeholder": "",
+      "value": "on",
+      "cls": "el-switch__input",
+      "near": ""
+    },
+    {
+      "i": 16,
+      "visible": false,
+      "x": 233,
+      "y": 607.203125,
+      "w": 0,
+      "h": 0,
+      "type": "checkbox",
+      "placeholder": "",
+      "value": "on",
+      "cls": "el-switch__input",
+      "near": ""
+    },
+    {
+      "i": 17,
+      "visible": false,
+      "x": 233,
+      "y": 643.203125,
+      "w": 0,
+      "h": 0,
+      "type": "checkbox",
+      "placeholder": "",
+      "value": "on",
+      "cls": "el-switch__input",
+      "near": ""
+    },
+    {
+      "i": 18,
+      "visible": false,
+      "x": 233,
+      "y": 679.203125,
+      "w": 0,
+      "h": 0,
+      "type": "checkbox",
+      "placeholder": "",
+      "value": "on",
+      "cls": "el-switch__input",
+      "near": ""
+    },
+    {
+      "i": 19,
+      "visible": false,
+      "x": 233,
+      "y": 715.203125,
+      "w": 0,
+      "h": 0,
+      "type": "checkbox",
+      "placeholder": "",
+      "value": "on",
+      "cls": "el-switch__input",
+      "near": ""
+    },
+    {
+      "i": 20,
+      "visible": true,
+      "x": 322,
+      "y": 150.171875,
+      "w": 129,
+      "h": 27.625,
+      "type": "text",
+      "placeholder": "搜索资产",
+      "value": "",
+      "cls": "el-input__inner",
+      "near": ""
+    },
+    {
+      "i": 21,
+      "visible": true,
+      "x": 557,
+      "y": 147.078125,
+      "w": 280,
+      "h": 34.828125,
+      "type": "text",
+      "placeholder": "",
+      "value": "",
+      "cls": "el-input__inner",
+      "near": ""
+    },
+    {
+      "i": 22,
+      "visible": true,
+      "x": 919,
+      "y": 147.078125,
+      "w": 171,
+      "h": 34.828125,
+      "type": "text",
+      "placeholder": "",
+      "value": "",
+      "cls": "el-input__inner",
+      "near": ""
+    },
+    {
+      "i": 23,
+      "visible": false,
+      "x": 1145,
+      "y": 157.375,
+      "w": 0,
+      "h": 0,
+      "type": "checkbox",
+      "placeholder": "",
+      "value": "0",
+      "cls": "el-checkbox__original",
+      "near": "存历史"
+    },
+    {
+      "i": 24,
+      "visible": true,
+      "x": 1295,
+      "y": 145.5,
+      "w": 88,
+      "h": 38,
+      "type": "text",
+      "placeholder": "",
+      "value": "",
+      "cls": "el-input__inner",
+      "near": ""
+    },
+    {
+      "i": 25,
+      "visible": true,
+      "x": 1229,
+      "y": 427.328125,
+      "w": 50,
+      "h": 20,
+      "type": "text",
+      "placeholder": "请选择",
+      "value": "10条/页",
+      "cls": "el-input__inner",
+      "near": ""
+    },
+    {
+      "i": 26,
+      "visible": true,
+      "x": 1377.5,
+      "y": 427.328125,
+      "w": 16,
+      "h": 20,
+      "type": "number",
+      "placeholder": "",
+      "value": "1",
+      "cls": "el-input__inner",
+      "near": ""
+    },
+    {
+      "i": 27,
+      "visible": false,
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "type": "text",
+      "placeholder": "请选择",
+      "value": "10条/页",
+      "cls": "el-input__inner",
+      "near": ""
+    },
+    {
+      "i": 28,
+      "visible": false,
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "type": "number",
+      "placeholder": "",
+      "value": "1",
+      "cls": "el-input__inner",
+      "near": ""
+    },
+    {
+      "i": 29,
+      "visible": true,
+      "x": 669.953125,
+      "y": 466.9375,
+      "w": 14,
+      "h": 16,
+      "type": "radio",
+      "placeholder": "",
+      "value": "1",
+      "cls": "el-radio__original",
+      "near": "表达式分析\n汇总分析"
+    },
+    {
+      "i": 30,
+      "visible": true,
+      "x": 669.953125,
+      "y": 486.3125,
+      "w": 14,
+      "h": 16,
+      "type": "radio",
+      "placeholder": "",
+      "value": "2",
+      "cls": "el-radio__original",
+      "near": "表达式分析\n汇总分析"
+    },
+    {
+      "i": 31,
+      "visible": true,
+      "x": 546.859375,
+      "y": 521.140625,
+      "w": 14,
+      "h": 16,
+      "type": "radio",
+      "placeholder": "",
+      "value": "1",
+      "cls": "el-radio__original",
+      "near": "周期性\n变化时\n事件触发\n条件触发"
+    },
+    {
+      "i": 32,
+      "visible": true,
+      "x": 642.859375,
+      "y": 521.140625,
+      "w": 14,
+      "h": 16,
+      "type": "radio",
+      "placeholder": "",
+      "value": "2",
+      "cls": "el-radio__original",
+      "near": "周期性\n变化时\n事件触发\n条件触发"
+    },
+    {
+      "i": 33,
+      "visible": true,
+      "x": 738.859375,
+      "y": 521.140625,
+      "w": 14,
+      "h": 16,
+      "type": "radio",
+      "placeholder": "",
+      "value": "3",
+      "cls": "el-radio__original",
+      "near": "周期性\n变化时\n事件触发\n条件触发"
+    },
+    {
+      "i": 34,
+      "visible": true,
+      "x": 848.859375,
+      "y": 521.140625,
+      "w": 14,
+      "h": 16,
+      "type": "radio",
+      "placeholder": "",
+      "value": "4",
+      "cls": "el-radio__original",
+      "near": "周期性\n变化时\n事件触发\n条件触发"
+    },
+    {
+      "i": 35,
+      "visible": true,
+      "x": 1292,
+      "y": 547.1875,
+      "w": 90,
+      "h": 22,
+      "type": "text",
+      "placeholder": "搜索函数...",
+      "value": "",
+      "cls": "el-input__inner",
+      "near": ""
+    }
+  ],
+  "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 2 条\n<1>前往页\n\nKingFusion4.5_工程浏览器\n\n盛云_孙宇飞_假数据设备模型_0612 用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n命令语言\n\t\n\n\n第三方计算管理\n\t\n\n\n图形模型\n\t\n\n\n2D精灵图\n\t\n\n\n3D精灵图\n\t\n\n\n页面精灵图\n\t\n\n\n报表精灵图\n\t\n\n\n子模型\n\t\n\n\n形参配置\n\t\n\n多灵敏时序物\n\n暂无数据\n\n基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情\n\n函数：\n\n暂无数据\n\n条件配置\n\n时间间隔 00h 00m 00s\n\n配置",
+  "networkTail": [
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/config.js",
+      "at": "2026-06-12T04:00:19.407Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/debugger.js",
+      "at": "2026-06-12T04:00:19.407Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/runtime.beta.2026.05.14.15.js",
+      "at": "2026-06-12T04:00:19.407Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js",
+      "at": "2026-06-12T04:00:19.407Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/index.26325ec0.css",
+      "at": "2026-06-12T04:00:19.408Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/config.js",
+      "at": "2026-06-12T04:00:19.445Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/debugger.js",
+      "at": "2026-06-12T04:00:19.449Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/index.26325ec0.css",
+      "at": "2026-06-12T04:00:19.462Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/runtime.beta.2026.05.14.15.js",
+      "at": "2026-06-12T04:00:19.509Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js",
+      "at": "2026-06-12T04:00:20.336Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:20.598Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:20.642Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:20.645Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:20.645Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:20.711Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:20.711Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:20.716Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:20.871Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:20.872Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:20.922Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/62936.beta.2026.05.14.15.js",
+      "at": "2026-06-12T04:00:20.928Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/69225.beta.2026.05.14.15.js",
+      "at": "2026-06-12T04:00:20.928Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-run.24e1aadb.css",
+      "at": "2026-06-12T04:00:20.928Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js",
+      "at": "2026-06-12T04:00:20.928Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:20.930Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-run.24e1aadb.css",
+      "at": "2026-06-12T04:00:21.005Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:21.014Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/69225.beta.2026.05.14.15.js",
+      "at": "2026-06-12T04:00:21.156Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js",
+      "at": "2026-06-12T04:00:21.182Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:21.488Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:21.610Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/62936.beta.2026.05.14.15.js",
+      "at": "2026-06-12T04:00:22.128Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/fonts/element-icons.ff18efd1.woff",
+      "at": "2026-06-12T04:00:22.477Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/fonts/element-icons.ff18efd1.woff",
+      "at": "2026-06-12T04:00:22.567Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:22.884Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:23.049Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:23.049Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:23.089Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-view-App.109a4cde.css",
+      "at": "2026-06-12T04:00:23.097Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-view-App.beta.2026.05.14.15.js",
+      "at": "2026-06-12T04:00:23.097Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:23.097Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-view-App.109a4cde.css",
+      "at": "2026-06-12T04:00:23.164Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-view-App.beta.2026.05.14.15.js",
+      "at": "2026-06-12T04:00:23.165Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/65181.026e4f9f.css",
+      "at": "2026-06-12T04:00:23.168Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/65181.beta.2026.05.14.15.js",
+      "at": "2026-06-12T04:00:23.168Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:23.169Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/65181.026e4f9f.css",
+      "at": "2026-06-12T04:00:23.201Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/65181.beta.2026.05.14.15.js",
+      "at": "2026-06-12T04:00:23.202Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:23.387Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:23.420Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/public/assets/index-53e0c0ac.js",
+      "at": "2026-06-12T04:00:23.424Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/public/assets/index-53e0c0ac.js",
+      "at": "2026-06-12T04:00:23.467Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:23.468Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:23.611Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:23.612Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:23.673Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:23.674Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:23.780Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:23.780Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:23.846Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:23.847Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:24.044Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:24.045Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:24.085Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:24.085Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:24.166Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:24.502Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:24.721Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:26.438Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:26.477Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:26.479Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:26.513Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:26.515Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:26.515Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:26.524Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:26.568Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:26.593Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:26.594Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:26.595Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:26.647Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/queryResource?fuid=0&userType=2&serviceType=1&modelGuid=1c9746d4-146b-497a-afc0-8362367782d3&version=7&fileID=63",
+      "at": "2026-06-12T04:00:26.722Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:26.723Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/queryResource?fuid=0&userType=2&serviceType=1&modelGuid=1c9746d4-146b-497a-afc0-8362367782d3&version=7&fileID=63",
+      "at": "2026-06-12T04:00:26.755Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:26.779Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:26.921Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:26.957Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:26.958Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:27.018Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:27.028Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:27.085Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:27.392Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:27.437Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:27.494Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:27.525Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:30.497Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:30.532Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:33.499Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:33.574Z"
+    },
+    {
+      "type": "request",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:36.498Z"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:00:36.545Z"
+    }
+  ],
+  "screenshot": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\screenshots\\sy_member_dialog_probe2.png"
+}

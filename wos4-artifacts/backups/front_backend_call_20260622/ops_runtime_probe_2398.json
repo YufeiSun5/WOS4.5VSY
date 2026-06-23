@@ -1,0 +1,679 @@
+{
+  "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+  "globals": {
+    "Call": "function",
+    "StringMap": "function",
+    "SetRunInfo": "undefined"
+  },
+  "pages": [
+    {
+      "id": "运维部署管理_框架页面",
+      "cls": "page_view_container client_page_view_container",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页\n管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\n引滦集团\n\t\n1\n\t\n本云\n\t\narea0\n\t\n部分部署\n\t\n未启动\n\t\n撤销部署启动更新部分更新删除全部展开\n\n\n\t\n测试\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t",
+      "keys": [
+        "KMSetPageMng",
+        "initChildPageList",
+        "ShowPage",
+        "UpdatePage",
+        "ClosePage",
+        "_getSetChildByName",
+        "_isExistPage",
+        "_getPageInfoByName",
+        "GetRunMode",
+        "ShowPageByID",
+        "GetVariable",
+        "SetVariable",
+        "SetLayerVisible",
+        "_getSpaceTimeInfo",
+        "pageBeforeOpen",
+        "pageBeforeClose",
+        "SetPictureToLayout",
+        "SetPictureToAccordion",
+        "SetPictureToTab",
+        "GetChildVariable",
+        "SetChildVariable",
+        "__getCopyInfo",
+        "GetPageInfo",
+        "_getPageInfo",
+        "SetRunInfo",
+        "getPageFuGuid",
+        "KMSetChildMng",
+        "allPageList",
+        "dataLinkPageName",
+        "runParamData",
+        "pageData"
+      ],
+      "hasSetRunInfo": "function",
+      "pageInfo": {
+        "ret": 0,
+        "msg": "获取成功!",
+        "data": {
+          "id": "7205759403792794653",
+          "guid": "c72c29dc-20fe-4a1f-8fd4-c13376bf269d",
+          "type": 1025,
+          "name": "运维部署管理_框架页面",
+          "spaceTime": {
+            "id": "1152921504606851078",
+            "name": "系统服务配置",
+            "guid": "e67536e6-43df-4193-9b6d-403b193768c0",
+            "devName": "",
+            "realArea": 0,
+            "yuanArea": 0,
+            "webJsArea": 0,
+            "planArea": 0,
+            "historyArea": 0
+          }
+        }
+      },
+      "varKeys": []
+    },
+    {
+      "id": "pageView",
+      "cls": "page_view",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页\n管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\n引滦集团\n\t\n1\n\t\n本云\n\t\narea0\n\t\n部分部署\n\t\n未启动\n\t\n撤销部署启动更新部分更新删除全部展开\n\n\n\t\n测试\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t",
+      "keys": [
+        "getChildPageList",
+        "getDataSetNameList",
+        "_setVariableLinkOutPut",
+        "getChildPageListDataSet",
+        "getVariableList",
+        "getChildPageListParam",
+        "pageJump",
+        "_setPageJump",
+        "showPageCallback",
+        "updatePageData",
+        "setPageName",
+        "setComment",
+        "setVersion",
+        "setGuid",
+        "setPicSrc",
+        "setPicName",
+        "setPicID",
+        "getPageSize_width",
+        "setPageSize_width",
+        "getPageSize_height",
+        "setPageSize_height",
+        "setSizeable",
+        "setFontsizeable",
+        "setWindowStyle",
+        "setTitle",
+        "setCloseBtn",
+        "setMaximizable",
+        "setAppOrientation",
+        "setLockWidthHeight",
+        "setMinSize",
+        "setMinSize_width",
+        "setMinSize_height",
+        "setProperty",
+        "setStyleConfig",
+        "setAppLayerMode",
+        "setSubscribsRules",
+        "setAuthFlag",
+        "setCodeMode",
+        "getPageAdaptiveFlag",
+        "setPageAdaptiveFlag",
+        "setSpaceTime",
+        "pagePropertyToJson",
+        "initPageLinkMng",
+        "destoryPageLinkMng",
+        "initPagePubEvent",
+        "destoryPagePubEvent",
+        "variableMngChange",
+        "initPageVariable",
+        "_variableProxy",
+        "_variableProxyRefObject",
+        "_variableProxyDateTime",
+        "_updateVariables",
+        "listenVariableChange",
+        "setVariable",
+        "initPageAuth",
+        "initPageDataSet",
+        "initDataSet",
+        "registerDataSet",
+        "syncStoreDataSets",
+        "callBackDataSets",
+        "getDataSetProxy",
+        "RunDataSet",
+        "RunChildDataSet",
+        "variableMng",
+        "$Variable",
+        "$Dataset",
+        "setPageArray",
+        "showPageList",
+        "DataSetMng"
+      ],
+      "hasSetRunInfo": "undefined",
+      "varKeys": [],
+      "variable": {}
+    },
+    {
+      "id": "管控单元实例_页面",
+      "cls": "page_view_container client_page_view_container set_child_app component_object 管控单元实例_页面",
+      "text": "\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\n引滦集团\n\t\n1\n\t\n本云\n\t\narea0\n\t\n部分部署\n\t\n未启动\n\t\n撤销部署启动更新部分更新删除全部展开\n\n\n\t\n测试\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "keys": [
+        "KMSetPageMng",
+        "initChildPageList",
+        "ShowPage",
+        "UpdatePage",
+        "ClosePage",
+        "_getSetChildByName",
+        "_isExistPage",
+        "_getPageInfoByName",
+        "GetRunMode",
+        "ShowPageByID",
+        "GetVariable",
+        "SetVariable",
+        "SetLayerVisible",
+        "_getSpaceTimeInfo",
+        "pageBeforeOpen",
+        "pageBeforeClose",
+        "SetPictureToLayout",
+        "SetPictureToAccordion",
+        "SetPictureToTab",
+        "GetChildVariable",
+        "SetChildVariable",
+        "__getCopyInfo",
+        "GetPageInfo",
+        "_getPageInfo",
+        "SetRunInfo",
+        "getPageFuGuid",
+        "KMSetChildMng",
+        "allPageList",
+        "dataLinkPageName",
+        "runParamData",
+        "pageData"
+      ],
+      "hasSetRunInfo": "function",
+      "pageInfo": {
+        "ret": 0,
+        "msg": "获取成功!",
+        "data": {
+          "id": "1441151880758559048",
+          "guid": "b058fe0f-6865-4bd8-8ef8-a494550573b6",
+          "type": 1005,
+          "name": "管控单元实例_页面",
+          "version": 31,
+          "spaceTime": {
+            "id": "1152921504606851078",
+            "name": "系统服务配置",
+            "guid": "e67536e6-43df-4193-9b6d-403b193768c0",
+            "devName": "",
+            "realArea": 0,
+            "yuanArea": 0,
+            "webJsArea": 0,
+            "planArea": 0,
+            "historyArea": 0
+          }
+        }
+      },
+      "varKeys": []
+    },
+    {
+      "id": "pageView",
+      "cls": "page_view",
+      "text": "\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\n引滦集团\n\t\n1\n\t\n本云\n\t\narea0\n\t\n部分部署\n\t\n未启动\n\t\n撤销部署启动更新部分更新删除全部展开\n\n\n\t\n测试\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+      "keys": [
+        "getChildPageList",
+        "getDataSetNameList",
+        "_setVariableLinkOutPut",
+        "getChildPageListDataSet",
+        "getVariableList",
+        "getChildPageListParam",
+        "pageJump",
+        "_setPageJump",
+        "showPageCallback",
+        "updatePageData",
+        "setPageName",
+        "setComment",
+        "setVersion",
+        "setGuid",
+        "setPicSrc",
+        "setPicName",
+        "setPicID",
+        "getPageSize_width",
+        "setPageSize_width",
+        "getPageSize_height",
+        "setPageSize_height",
+        "setSizeable",
+        "setFontsizeable",
+        "setWindowStyle",
+        "setTitle",
+        "setCloseBtn",
+        "setMaximizable",
+        "setAppOrientation",
+        "setLockWidthHeight",
+        "setMinSize",
+        "setMinSize_width",
+        "setMinSize_height",
+        "setProperty",
+        "setStyleConfig",
+        "setAppLayerMode",
+        "setSubscribsRules",
+        "setAuthFlag",
+        "setCodeMode",
+        "getPageAdaptiveFlag",
+        "setPageAdaptiveFlag",
+        "setSpaceTime",
+        "pagePropertyToJson",
+        "initPageLinkMng",
+        "destoryPageLinkMng",
+        "initPagePubEvent",
+        "destoryPagePubEvent",
+        "variableMngChange",
+        "initPageVariable",
+        "_variableProxy",
+        "_variableProxyRefObject",
+        "_variableProxyDateTime",
+        "_updateVariables",
+        "listenVariableChange",
+        "setVariable",
+        "initPageAuth",
+        "initPageDataSet",
+        "initDataSet",
+        "registerDataSet",
+        "syncStoreDataSets",
+        "callBackDataSets",
+        "getDataSetProxy",
+        "RunDataSet",
+        "RunChildDataSet",
+        "variableMng",
+        "$Variable",
+        "$Dataset",
+        "setPageArray",
+        "showPageList",
+        "DataSetMng"
+      ],
+      "hasSetRunInfo": "undefined",
+      "varKeys": [],
+      "variable": {}
+    }
+  ],
+  "comps": [
+    {
+      "key": "KSCPageRun",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页\n管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\n引滦集团\n\t\n1\n\t\n本云\n\t\narea0\n\t\n部分部署\n\t\n未启动\n\t\n撤销部署启动更新部分更新删除全部展开\n\n\n\t\n测试\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t"
+    },
+    {
+      "key": "PageView",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页\n管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\n引滦集团\n\t\n1\n\t\n本云\n\t\narea0\n\t\n部分部署\n\t\n未启动\n\t\n撤销部署启动更新部分更新删除全部展开\n\n\n\t\n测试\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t"
+    },
+    {
+      "key": "RCol15",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页"
+    },
+    {
+      "key": "RCol2",
+      "text": "管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\n引滦集团\n\t\n1\n\t\n本云\n\t\narea0\n\t\n部分部署\n\t\n未启动\n\t\n撤销部署启动更新部分更新删除全部展开\n\n\n\t\n测试\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开"
+    },
+    {
+      "key": "RRow3",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页\n管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\n引滦集团\n\t\n1\n\t\n本云\n\t\narea0\n\t\n部分部署\n\t\n未启动\n\t\n撤销部署启动更新部分更新删除全部展开\n\n\n\t\n测试\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t"
+    },
+    {
+      "key": "RContainer1",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页\n管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\n引滦集团\n\t\n1\n\t\n本云\n\t\narea0\n\t\n部分部署\n\t\n未启动\n\t\n撤销部署启动更新部分更新删除全部展开\n\n\n\t\n测试\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t"
+    },
+    {
+      "key": "图层1",
+      "proto": "layer",
+      "ui": "图层1",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页\n管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\n引滦集团\n\t\n1\n\t\n本云\n\t\narea0\n\t\n部分部署\n\t\n未启动\n\t\n撤销部署启动更新部分更新删除全部展开\n\n\n\t\n测试\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t"
+    },
+    {
+      "key": "ElementText1",
+      "proto": "ElementText",
+      "ui": "ElementText1",
+      "id": "UI_701883",
+      "text": "工程列表"
+    },
+    {
+      "key": "RCol3",
+      "text": "工程列表"
+    },
+    {
+      "key": "RRow2",
+      "text": "工程列表"
+    },
+    {
+      "key": "工程目录表格",
+      "proto": "ElementTable",
+      "ui": "工程目录表格",
+      "text": "名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页"
+    },
+    {
+      "key": "RCol6",
+      "text": "名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页"
+    },
+    {
+      "key": "RRow4",
+      "text": "名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页"
+    },
+    {
+      "key": "RContainer2",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页"
+    },
+    {
+      "key": "页面切换按钮栏",
+      "proto": "ElementRadio",
+      "ui": "页面切换按钮栏",
+      "id": "k3f8b0c59acf62efadf8d4a139773bd7",
+      "text": "管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置"
+    },
+    {
+      "key": "RCol33",
+      "text": "管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置"
+    },
+    {
+      "key": "ElementButton1",
+      "proto": "ElementButton",
+      "ui": "ElementButton1",
+      "id": "UI_887742",
+      "text": "云管理"
+    },
+    {
+      "key": "RCol45",
+      "text": "云管理"
+    },
+    {
+      "key": "批量撤销部署按钮",
+      "proto": "ElementButton",
+      "ui": "批量撤销部署按钮",
+      "id": "UI_37567",
+      "text": "批量撤销部署"
+    },
+    {
+      "key": "RCol36",
+      "text": "批量撤销部署"
+    },
+    {
+      "key": "批量部署按钮",
+      "proto": "ElementButton",
+      "ui": "批量部署按钮",
+      "id": "UI_37567",
+      "text": "批量部署"
+    },
+    {
+      "key": "RCol37",
+      "text": "批量部署"
+    },
+    {
+      "key": "批量启动按钮",
+      "proto": "ElementButton",
+      "ui": "批量启动按钮",
+      "id": "UI_37567",
+      "text": "批量启动"
+    },
+    {
+      "key": "批量启动按钮分栏",
+      "text": "批量启动"
+    },
+    {
+      "key": "批量停止按钮",
+      "proto": "ElementButton",
+      "ui": "批量停止按钮",
+      "id": "UI_37567",
+      "text": "批量停止"
+    },
+    {
+      "key": "批量停止按钮分栏",
+      "text": "批量停止"
+    },
+    {
+      "key": "搜索输入框",
+      "proto": "ElementInput",
+      "ui": "搜索输入框",
+      "text": ""
+    },
+    {
+      "key": "RCol41",
+      "text": ""
+    },
+    {
+      "key": "ElementText6",
+      "proto": "ElementText",
+      "ui": "ElementText6",
+      "id": "UI_762932",
+      "text": ""
+    },
+    {
+      "key": "RCol43",
+      "text": ""
+    },
+    {
+      "key": "搜索按钮",
+      "proto": "ElementButton",
+      "ui": "搜索按钮",
+      "id": "UI_37567",
+      "text": ""
+    },
+    {
+      "key": "RCol44",
+      "text": ""
+    },
+    {
+      "key": "RRow10",
+      "text": ""
+    },
+    {
+      "key": "RContainer6",
+      "text": ""
+    },
+    {
+      "key": "RCol40",
+      "text": ""
+    },
+    {
+      "key": "RRow5",
+      "text": "管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止"
+    },
+    {
+      "key": "页面展示分栏",
+      "text": "\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\n引滦集团\n\t\n1\n\t\n本云\n\t\narea0\n\t\n部分部署\n\t\n未启动\n\t\n撤销部署启动更新部分更新删除全部展开\n\n\n\t\n测试\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开"
+    },
+    {
+      "key": "RRow6",
+      "text": "\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\n引滦集团\n\t\n1\n\t\n本云\n\t\narea0\n\t\n部分部署\n\t\n未启动\n\t\n撤销部署启动更新部分更新删除全部展开\n\n\n\t\n测试\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开"
+    },
+    {
+      "key": "RContainer3",
+      "text": "管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\n引滦集团\n\t\n1\n\t\n本云\n\t\narea0\n\t\n部分部署\n\t\n未启动\n\t\n撤销部署启动更新部分更新删除全部展开\n\n\n\t\n测试\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开"
+    },
+    {
+      "key": "KSCPageRun",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页\n管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\n引滦集团\n\t\n1\n\t\n本云\n\t\narea0\n\t\n部分部署\n\t\n未启动\n\t\n撤销部署启动更新部分更新删除全部展开\n\n\n\t\n测试\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t"
+    },
+    {
+      "key": "PageView",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页\n管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\n引滦集团\n\t\n1\n\t\n本云\n\t\narea0\n\t\n部分部署\n\t\n未启动\n\t\n撤销部署启动更新部分更新删除全部展开\n\n\n\t\n测试\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t"
+    },
+    {
+      "key": "RCol15",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页"
+    },
+    {
+      "key": "RCol2",
+      "text": "管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\n引滦集团\n\t\n1\n\t\n本云\n\t\narea0\n\t\n部分部署\n\t\n未启动\n\t\n撤销部署启动更新部分更新删除全部展开\n\n\n\t\n测试\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开"
+    },
+    {
+      "key": "RRow3",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页\n管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\n引滦集团\n\t\n1\n\t\n本云\n\t\narea0\n\t\n部分部署\n\t\n未启动\n\t\n撤销部署启动更新部分更新删除全部展开\n\n\n\t\n测试\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t"
+    },
+    {
+      "key": "RContainer1",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页\n管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\n引滦集团\n\t\n1\n\t\n本云\n\t\narea0\n\t\n部分部署\n\t\n未启动\n\t\n撤销部署启动更新部分更新删除全部展开\n\n\n\t\n测试\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t"
+    },
+    {
+      "key": "图层1",
+      "proto": "layer",
+      "ui": "图层1",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页\n管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\n引滦集团\n\t\n1\n\t\n本云\n\t\narea0\n\t\n部分部署\n\t\n未启动\n\t\n撤销部署启动更新部分更新删除全部展开\n\n\n\t\n测试\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t"
+    },
+    {
+      "key": "ElementText1",
+      "proto": "ElementText",
+      "ui": "ElementText1",
+      "id": "UI_701883",
+      "text": "工程列表"
+    },
+    {
+      "key": "RCol3",
+      "text": "工程列表"
+    },
+    {
+      "key": "RRow2",
+      "text": "工程列表"
+    },
+    {
+      "key": "工程目录表格",
+      "proto": "ElementTable",
+      "ui": "工程目录表格",
+      "text": "名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页"
+    },
+    {
+      "key": "RCol6",
+      "text": "名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页"
+    },
+    {
+      "key": "RRow4",
+      "text": "名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页"
+    },
+    {
+      "key": "RContainer2",
+      "text": "工程列表\n\n名称\n引滦原水处理\n\n\n测试\n\n\nmwq测试\n\n\n张测试1\n\n\n芦昆测试工程\n\n\n盛云_孙宇飞_人工测试工程\n\n\n盛云_孙宇飞_Noctiluca\n\n\n盛云_孙宇飞_CRUD工程_0620\n\n\n信息管理系统\n共 9 条\n1\n前往页"
+    },
+    {
+      "key": "页面切换按钮栏",
+      "proto": "ElementRadio",
+      "ui": "页面切换按钮栏",
+      "id": "k3f8b0c59acf62efadf8d4a139773bd7",
+      "text": "管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置"
+    },
+    {
+      "key": "RCol33",
+      "text": "管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置"
+    },
+    {
+      "key": "ElementButton1",
+      "proto": "ElementButton",
+      "ui": "ElementButton1",
+      "id": "UI_887742",
+      "text": "云管理"
+    },
+    {
+      "key": "RCol45",
+      "text": "云管理"
+    },
+    {
+      "key": "批量撤销部署按钮",
+      "proto": "ElementButton",
+      "ui": "批量撤销部署按钮",
+      "id": "UI_37567",
+      "text": "批量撤销部署"
+    },
+    {
+      "key": "RCol36",
+      "text": "批量撤销部署"
+    },
+    {
+      "key": "批量部署按钮",
+      "proto": "ElementButton",
+      "ui": "批量部署按钮",
+      "id": "UI_37567",
+      "text": "批量部署"
+    },
+    {
+      "key": "RCol37",
+      "text": "批量部署"
+    },
+    {
+      "key": "批量启动按钮",
+      "proto": "ElementButton",
+      "ui": "批量启动按钮",
+      "id": "UI_37567",
+      "text": "批量启动"
+    },
+    {
+      "key": "批量启动按钮分栏",
+      "text": "批量启动"
+    },
+    {
+      "key": "批量停止按钮",
+      "proto": "ElementButton",
+      "ui": "批量停止按钮",
+      "id": "UI_37567",
+      "text": "批量停止"
+    },
+    {
+      "key": "批量停止按钮分栏",
+      "text": "批量停止"
+    },
+    {
+      "key": "搜索输入框",
+      "proto": "ElementInput",
+      "ui": "搜索输入框",
+      "text": ""
+    },
+    {
+      "key": "RCol41",
+      "text": ""
+    },
+    {
+      "key": "ElementText6",
+      "proto": "ElementText",
+      "ui": "ElementText6",
+      "id": "UI_762932",
+      "text": ""
+    },
+    {
+      "key": "RCol43",
+      "text": ""
+    },
+    {
+      "key": "搜索按钮",
+      "proto": "ElementButton",
+      "ui": "搜索按钮",
+      "id": "UI_37567",
+      "text": ""
+    },
+    {
+      "key": "RCol44",
+      "text": ""
+    },
+    {
+      "key": "RRow10",
+      "text": ""
+    },
+    {
+      "key": "RContainer6",
+      "text": ""
+    },
+    {
+      "key": "RCol40",
+      "text": ""
+    },
+    {
+      "key": "RRow5",
+      "text": "管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止"
+    },
+    {
+      "key": "页面展示分栏",
+      "text": "\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\n引滦集团\n\t\n1\n\t\n本云\n\t\narea0\n\t\n部分部署\n\t\n未启动\n\t\n撤销部署启动更新部分更新删除全部展开\n\n\n\t\n测试\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开"
+    },
+    {
+      "key": "RRow6",
+      "text": "\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\n引滦集团\n\t\n1\n\t\n本云\n\t\narea0\n\t\n部分部署\n\t\n未启动\n\t\n撤销部署启动更新部分更新删除全部展开\n\n\n\t\n测试\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开"
+    },
+    {
+      "key": "RContainer3",
+      "text": "管控单元实例\n数字孪生可视化\n工作流实例\n系统服务配置\n云管理\n批量撤销部署\n批量部署\n批量启动\n批量停止\n\n\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\n引滦集团\n\t\n1\n\t\n本云\n\t\narea0\n\t\n部分部署\n\t\n未启动\n\t\n撤销部署启动更新部分更新删除全部展开\n\n\n\t\n测试\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开"
+    },
+    {
+      "key": "KSCPageRun",
+      "text": "\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\n引滦集团\n\t\n1\n\t\n本云\n\t\narea0\n\t\n部分部署\n\t\n未启动\n\t\n撤销部署启动更新部分更新删除全部展开\n\n\n\t\n测试\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开"
+    },
+    {
+      "key": "PageView",
+      "text": "\t实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\n引滦集团\n\t\n1\n\t\n本云\n\t\narea0\n\t\n部分部署\n\t\n未启动\n\t\n撤销部署启动更新部分更新删除全部展开\n\n\n\t\n测试\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开"
+    }
+  ]
+}

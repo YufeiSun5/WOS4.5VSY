@@ -1,0 +1,57 @@
+{
+  "previewUrl": "http://221.239.19.118:13001/public/index.html?id=6192730962611143057&parentid=0&cloudid=107&clientnumber=7710165596570601541&bs=true#/#{\"mode\":\"debugger\",\"FUType\":\"21\",\"type\":1005,\"guid\":\"\",\"id\":\"\",\"guidVersion\":{\"guid\":\"3ec744e3-46be-4bee-aaf8-959cbccfe378\",\"version\":0,\"id\":\"1441151880758559659\"},\"projectId\":\"\",\"isParamConfig\":false,\"runModelName\":\"查询列表\"}",
+  "input": {
+    "placeholder": "请输入名称或关键字",
+    "css": {
+      "width": 1149,
+      "height": 40,
+      "backgroundColor": "rgb(248, 250, 252)",
+      "color": "rgb(15, 23, 42)",
+      "borderTopColor": "rgb(203, 213, 225)",
+      "borderTopWidth": "1px",
+      "borderRadius": "6px",
+      "boxShadow": "rgba(15, 23, 42, 0.04) 0px 1px 2px 0px inset",
+      "fontSize": "14px",
+      "fontWeight": "400"
+    }
+  },
+  "button": {
+    "text": "查询",
+    "css": {
+      "width": 172,
+      "height": 86,
+      "backgroundColor": "rgb(37, 99, 235)",
+      "color": "rgb(255, 255, 255)",
+      "borderTopColor": "rgb(37, 99, 235)",
+      "borderTopWidth": "1px",
+      "borderRadius": "6px",
+      "boxShadow": "rgba(37, 99, 235, 0.18) 0px 8px 18px 0px",
+      "fontSize": "14px",
+      "fontWeight": "600"
+    }
+  },
+  "table": {
+    "rows": 0,
+    "headerText": "label2 label3 label4 操作",
+    "css": {
+      "width": 1888,
+      "height": 550,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "borderTopColor": "rgb(219, 228, 240)",
+      "borderTopWidth": "1px",
+      "borderRadius": "8px"
+    }
+  },
+  "chart": {
+    "canvasCount": 1,
+    "canvasCss": {
+      "width": 1904,
+      "height": 338,
+      "backgroundColor": "rgba(0, 0, 0, 0)"
+    }
+  },
+  "editorCapture": [
+    "保存成功"
+  ],
+  "versionSubmitStatus": "preview verified; version-submit success toast not captured in this round"
+}

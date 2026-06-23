@@ -1,0 +1,47 @@
+{
+  "date": "2026-06-19",
+  "project": "盛云_孙宇飞_Noctiluca",
+  "context": "时空对象管理平台",
+  "failed_path": {
+    "tree_node": "盛云_孙宇飞_Noctiluca_客户端",
+    "template_repo": "盛云_孙宇飞_Noctiluca_客户端",
+    "selected_template": {
+      "name": "盛云_孙宇飞_Noctiluca_客户端",
+      "languageType": "WebJS",
+      "copyId": "7205759403792795822",
+      "copyGuid": "f775fc89-0740-414c-947e-db66227e0150",
+      "modelGuid": "f5f8c456-e145-4d85-b1c3-dc3a17e7b512",
+      "modelVersion": "105"
+    },
+    "attempted_object_name": "盛云_孙宇飞_Noctiluca_客户端_对象1",
+    "iconAsset": "js_func_unit_editor_light-DMRXO09p.1774322731382.png",
+    "result": "failed",
+    "error": "失败：错误码 [654319619]，描述 [仓库不存在]"
+  },
+  "successful_path": {
+    "tree_node": "客户端1",
+    "template_repo": "客户端1",
+    "selected_template": {
+      "name": "客户端1",
+      "languageType": "WebJS",
+      "copyId": "7205759403792795788",
+      "copyGuid": "c07957c7-f573-4c43-b4d3-b1a9e24ea582",
+      "modelGuid": "f5f8c456-e145-4d85-b1c3-dc3a17e7b512",
+      "modelVersion": "105"
+    },
+    "created_object_name": "盛云_孙宇飞_Noctiluca_客户端_对象2",
+    "applicationType": "个人应用",
+    "iconAsset": "js_func_unit_editor_light-DMRXO09p.1774322731382.png",
+    "runningListClass": "data-item is-running",
+    "viewTriggeredUrl": "http://221.239.19.118:13001/public/?id=6192730962611143089&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+    "nestedRuntimeUrl": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+    "runtimeTextProbe": [
+      "ElementButton",
+      "empty",
+      "共 0 条",
+      "前往页"
+    ],
+    "result": "running"
+  },
+  "remaining_limit": "纯桌面 #/main 刷新后仍未自动出现 对象2 卡片；当前已验证入口是 时空对象管理平台 -> 我创建的 -> 视图。"
+}

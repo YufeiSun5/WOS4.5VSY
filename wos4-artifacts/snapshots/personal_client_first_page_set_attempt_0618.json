@@ -1,0 +1,28 @@
+{
+  "before": {
+    "icons": [
+      "el-icon-custom-pc-page",
+      "el-icon-custom-app-page"
+    ]
+  },
+  "after": {
+    "icons": [
+      "el-icon-custom-pc-page custom-pc-first-page",
+      "el-icon-custom-app-page custom-app-first-page"
+    ],
+    "capture": {
+      "messages": [
+        {
+          "text": "修改成功",
+          "className": "el-message el-message--success",
+          "t": 1781749522756
+        },
+        {
+          "text": "修改成功",
+          "className": "el-message el-message--success el-message-fade-enter el-message-fade-enter-active",
+          "t": 1781749522767
+        }
+      ]
+    }
+  }
+}

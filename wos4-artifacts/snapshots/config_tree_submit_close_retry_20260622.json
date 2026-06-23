@@ -1,0 +1,111 @@
+{
+  "cap": {
+    "messages": [],
+    "console": [
+      {
+        "level": "log",
+        "args": [
+          "[D] 触发了 Current-change 事件, args = ",
+          "[object Arguments]"
+        ],
+        "t": 1782100881590
+      },
+      {
+        "level": "log",
+        "args": [
+          "[D] 触发了 currentSpaceTimeRepo 改变时事件，currentSpaceTimeRepo = ",
+          "[object Object]"
+        ],
+        "t": 1782100881592
+      },
+      {
+        "level": "log",
+        "args": [
+          "[D] <实例化_框架页面> :: 变量改变时 :: updateInstanceListTable :: instanceList_ElementTable = ",
+          "[object Object]"
+        ],
+        "t": 1782100881594
+      },
+      {
+        "level": "log",
+        "args": [
+          "[D] 触发了变量改变事件 :: updateSpaceTimeRepoAttrsView"
+        ],
+        "t": 1782100881599
+      },
+      {
+        "level": "log",
+        "args": [
+          "[D] 触发了 <updateChildrenNodes> 变量改变时事件"
+        ],
+        "t": 1782100881601
+      },
+      {
+        "level": "log",
+        "args": [
+          "[D] <实例化_框架页面> fullPathGuids = ",
+          "10acca9d-f852-4dcf-b27e-35ebe8e3f671,4fa17a11-b923-4b36-b1e8-c39ca1bcf62c"
+        ],
+        "t": 1782100881604
+      },
+      {
+        "level": "log",
+        "args": [
+          "[I] 远程调用接口 <IQueryChildSpaceTimeReposList>, res = ",
+          "[object Object]"
+        ],
+        "t": 1782100881707
+      },
+      {
+        "level": "log",
+        "args": [
+          "[I] 查询子节点实例数据，datas = ",
+          ""
+        ],
+        "t": 1782100881709
+      },
+      {
+        "level": "log",
+        "args": [
+          "[I] 远程调用接口 <IQueryRootInstancesOfSpaceTimeRepo>, res = ",
+          "[object Object]"
+        ],
+        "t": 1782100881729
+      },
+      {
+        "level": "log",
+        "args": [
+          "[D] <实例化框架页面> :: updateInstanceListTable :: tableData:",
+          "[object Object],[object Object]"
+        ],
+        "t": 1782100881731
+      },
+      {
+        "level": "log",
+        "args": [
+          "[D] <实例化框架页面> :: updateInstanceListTable :: currentSelectedInstance:",
+          "[object Object]"
+        ],
+        "t": 1782100881734
+      },
+      {
+        "level": "log",
+        "args": [
+          "[D] 点击了提交版本按钮"
+        ],
+        "t": 1782100882634
+      },
+      {
+        "level": "log",
+        "args": [
+          "页面-数字孪生实例化_时空_版本说明-已经打开"
+        ],
+        "t": 1782100882636
+      }
+    ],
+    "errors": [],
+    "closed": []
+  },
+  "visible": [],
+  "body": "KingFusion4.5_工程浏览器\n\n< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除"
+}

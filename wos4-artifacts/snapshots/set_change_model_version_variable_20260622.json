@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "before": {
+    "candidateMethods": [],
+    "hasSetVariable": "function",
+    "hasGetVariable": "function"
+  },
+  "errors": [],
+  "afterDesc": {
+    "value": {
+      "timeStamp": {},
+      "description": "clean backend",
+      "displayname": "NadirBack",
+      "guid": "276cb189-67c5-47d1-94be-7e76f5f5af4e",
+      "id": "288230376151738730",
+      "instancetype": "2",
+      "modeleditenvguid": "a03d1321-03d0-481a-bac2-7d465af65ed9",
+      "modelguid": "0a91ee3b-6ea9-4296-9061-424b745cba5d",
+      "modelname": "盛云_孙宇飞_后台_CRUDDemo_0620",
+      "modelversion": "2",
+      "name": "NadirBack",
+      "parentguid": "",
+      "parentrepoguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+      "label": "NadirBack",
+      "rowIndex": "1",
+      "rowSelectStatus": true
+    },
+    "writable": true,
+    "enumerable": true,
+    "configurable": true
+  },
+  "dialogs": [
+    {
+      "i": 0,
+      "cls": "el-dialog__wrapper",
+      "text": "",
+      "style": "display: none;"
+    },
+    {
+      "i": 1,
+      "cls": "el-dialog",
+      "text": "",
+      "style": "margin-top: 15vh;"
+    },
+    {
+      "i": 2,
+      "cls": "el-dialog__wrapper",
+      "text": "",
+      "style": "display: none;"
+    },
+    {
+      "i": 3,
+      "cls": "el-dialog",
+      "text": "",
+      "style": "margin-top: 15vh;"
+    },
+    {
+      "i": 4,
+      "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_816342",
+      "text": "数字孪生实例化_时空_提交版本时空仓库版本提交进度  100% 名称GUID状态详情1NadirL24fa17a11-b923-4b36-b1e8-c39ca1bcf62c100%提交成功2NadirBack276cb189-67c5-47d1-94be-7e76f5f5af4e100%提交成功3NadirFront069aca68-d952-4a20-949f-af9784b33985100%提交成功 关闭 ",
+      "style": "display: none; background-color: rgba(0, 0, 0, 0.3); --topPadding: 10px; --bottomPadding: 10px; --leftPadding: 10px; --rightPadding: 10px; --bodyBackgroundColor: #ffffff; --headerBackgroundColor: #ffffff; --left: 300px; --headerColor: #000000; --headerHeight: 0px; --titleLine: rgba(240,243,255,1); --shadowData: 0 1px 3px rgba(0,0,0,.3); --borderRadius: 0; --borderColor: rgba(240,243,255,1); --borderWidth: 0; width: 100%; height: 100%; pointer-events: none; z-index: 2001;"
+    },
+    {
+      "i": 5,
+      "cls": "el-dialog",
+      "text": "数字孪生实例化_时空_提交版本时空仓库版本提交进度  100% 名称GUID状态详情1NadirL24fa17a11-b923-4b36-b1e8-c39ca1bcf62c100%提交成功2NadirBack276cb189-67c5-47d1-94be-7e76f5f5af4e100%提交成功3NadirFront069aca68-d952-4a20-949f-af9784b33985100%提交成功 关闭 ",
+      "style": "margin-top: 80px; width: 1220px;"
+    }
+  ],
+  "body": "<strong>We're sorry but app-master doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>KingFusion4.5_工程浏览器 <  返回工程管理 盛云_孙宇飞_CRUD工程_0620数字孪生实例配置管控单元实例配置工作流实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导入变量 导出变量 采集配置KF4.5RootNadirL1NadirL2实例列表 新建  删除  更多操作  批量提交版本名称显示名称描述模型模型版本操作NadirBackNadirBackclean backend盛云_孙宇飞_后台_CRUDDemo_0620v2 编辑 属性 切换模型版本 形参管理 提交版本 删除NadirFrontNadirFrontclean front business盛云_孙宇飞_前端_CRUDDemo_0620v2 编辑 属性 切换模型版本 形参管理 提交版本 删除\n          \n          \n          \n          body #RContainerk333979a29842a89592d3ea22b561a76 #k4859109587a99756ce5286855a2b03e p\n{\nfont-family: Source Han Sans;\nfont-size: 18px;\nfont-weight: bold;\nline-height: normal;\nletter-spacing: normal;\ncolor: #333333;\n}#RContainerk333979a29842a89592d3ea22b561a76 #k4859109587a99756ce5286855a2b03e {\n          background:rgba(255, 255, 255, 0);\n          border-width:0px;\n          border-style:null;\n          border-color:#000000;\n          text-align:left;\n          align-items:flex-start;\n      }\n      #RContainerk333979a29842a89592d3ea22b561a76 #k4859109587a99756ce5286855a2b03e p{\n          font-family:微软雅黑;\n          font-size:18px;\n      }\n      #RContainerk333979a29842a89592d3ea22b561a76 #k4859109587a99756ce5286855a2b03e label{\n          font-weight:normal;\n          font-style:normal;\n          padding-right: 0px;\n          text-decoration:none;\n      }#RContainerk333979a29842a89592d3ea22b561a76 #k4859109587a99756ce5286855a2b03e p {\n            color: #333333;\n          }#RContainerk333979a29842a89592d3ea22b561a76 #ka18c725fc00832c8b6c6963fb460db6 {\n                    background: rgba(247, 249, 252, 1);\n                    background-repeat: repeat;\n                    background-size: auto;\n                }undefined\n/*设置边框*/\n#RContainerk333979a29842a89592d3ea22b561a76 #kd20fb7ea007dda29b11b2773bde3201 {\n    border:1px solid lightgray;}\n#RContainerk333979a29842a89592d3ea22b561a76 {\n                        height: 899px;\n                        width: 1920px;\n                        border: undefinedpx solid undefined;\n                        border-radius:undefinedpx;\n                        background: ;\n                        background-repeat: repeat;\n                        background-size: auto;\n                        box-shadow:0px 0px 0px 0px rgba(0,0,0,0)\n                    }\n            \n            \n            \n            #RContainerk117ef9c44c870b8c8e4c4346fecc72e #k8f90fb78e48e0d185568cc00bbe7425 { \n                        box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);\n                    }#RContainerk117ef9c44c870b8c8e4c4346fecc72e {\n                        height: 833px;\n                        width: 1918px;\n                        border: 0px solid rgba(0,0,0,0.1);\n                        border-radius:0px;\n                        background: rgba(255, 255, 255, 1);\n                        background-image: ;\n                        background-repeat: repeat;\n                       "
+}

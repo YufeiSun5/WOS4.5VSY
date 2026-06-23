@@ -1,0 +1,148 @@
+{
+  "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\nempty\n共 0 条\n<1>前往页",
+  "inputs": [
+    {
+      "i": 0,
+      "tag": "INPUT",
+      "type": "text",
+      "placeholder": "搜索...",
+      "value": "",
+      "x": 261,
+      "y": 54,
+      "w": 207,
+      "h": 32,
+      "html": "<input tabindex=\"\" type=\"text\" autocomplete=\"off\" maxlength=\"128\" placeholder=\"搜索...\" rows=\"2\" max=\"10000000000\" min=\"-10000000000\" step=\"1\" prepend=\"\" append=\"\" class=\"el-input__inner\">"
+    },
+    {
+      "i": 1,
+      "tag": "INPUT",
+      "type": "text",
+      "placeholder": "搜索",
+      "value": "",
+      "x": 1678,
+      "y": 13,
+      "w": 186,
+      "h": 32,
+      "html": "<input tabindex=\"\" type=\"text\" autocomplete=\"off\" maxlength=\"128\" placeholder=\"搜索\" rows=\"2\" max=\"10000000000\" min=\"-10000000000\" step=\"1\" prepend=\"\" append=\"\" class=\"el-input__inner\">"
+    },
+    {
+      "i": 2,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "placeholder": null,
+      "value": "",
+      "x": 569,
+      "y": 71.875,
+      "w": 0,
+      "h": 0,
+      "html": "<input type=\"checkbox\" aria-hidden=\"false\" class=\"el-checkbox__original\" value=\"\" disabled=\"disabled\">"
+    },
+    {
+      "i": 3,
+      "tag": "INPUT",
+      "type": "text",
+      "placeholder": "请选择",
+      "value": "50条/页",
+      "x": 1517.5,
+      "y": 869,
+      "w": 100,
+      "h": 28,
+      "html": "<input type=\"text\" readonly=\"readonly\" autocomplete=\"off\" placeholder=\"请选择\" class=\"el-input__inner\">"
+    },
+    {
+      "i": 4,
+      "tag": "INPUT",
+      "type": "number",
+      "placeholder": null,
+      "value": "1",
+      "x": 1831,
+      "y": 869,
+      "w": 46,
+      "h": 28,
+      "html": "<input type=\"number\" autocomplete=\"off\" min=\"1\" max=\"1\" class=\"el-input__inner\">"
+    }
+  ],
+  "buttons": [
+    {
+      "i": 1,
+      "text": "",
+      "x": 446.234375,
+      "y": 21,
+      "w": 16,
+      "h": 16,
+      "cls": "el-button el-tooltip el-button--primary el-button--medium propertyStyle"
+    },
+    {
+      "i": 2,
+      "text": "",
+      "x": 467.109375,
+      "y": 21,
+      "w": 16,
+      "h": 16,
+      "cls": "el-button el-tooltip el-button--primary el-button--medium propertyStyle"
+    },
+    {
+      "i": 3,
+      "text": "",
+      "x": 487.984375,
+      "y": 21,
+      "w": 16,
+      "h": 16,
+      "cls": "el-button el-button--text el-button--medium el-dropdown-selfdefine"
+    },
+    {
+      "i": 4,
+      "text": "",
+      "x": 469,
+      "y": 54,
+      "w": 34,
+      "h": 32,
+      "cls": "el-button el-button--primary el-button--medium propertyStyle"
+    },
+    {
+      "i": 6,
+      "text": "新建",
+      "x": 1463,
+      "y": 10,
+      "w": 80,
+      "h": 34,
+      "cls": "el-button el-button--primary el-button--medium propertyStyle"
+    },
+    {
+      "i": 7,
+      "text": "更多操作",
+      "x": 1555,
+      "y": 10,
+      "w": 110,
+      "h": 34,
+      "cls": "el-button el-button--primary el-button--medium el-dropdown-selfdefine "
+    },
+    {
+      "i": 8,
+      "text": "",
+      "x": 1865,
+      "y": 13,
+      "w": 34,
+      "h": 32,
+      "cls": "el-button el-button--primary el-button--medium propertyStyle"
+    },
+    {
+      "i": 9,
+      "text": "<",
+      "x": 1632.5,
+      "y": 869,
+      "w": 53.5,
+      "h": 28,
+      "cls": "btn-prev"
+    },
+    {
+      "i": 10,
+      "text": ">",
+      "x": 1721.5,
+      "y": 869,
+      "w": 53.5,
+      "h": 28,
+      "cls": "btn-next"
+    }
+  ]
+}

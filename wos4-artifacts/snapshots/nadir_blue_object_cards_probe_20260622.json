@@ -1,0 +1,321 @@
+{
+  "cards": [
+    {
+      "i": 0,
+      "text": "盛云_孙宇飞_Nadir_客户端_0622_对象1",
+      "cls": "data-item card-item",
+      "rect": {
+        "x": 968,
+        "y": 152,
+        "w": 68,
+        "h": 112
+      },
+      "imgs": [
+        {
+          "src": "http://221.239.19.118:13001/assets/js_func_unit_editor_light-DMRXO09p.1774322731382.png",
+          "cls": "el-image__inner"
+        }
+      ]
+    },
+    {
+      "i": 1,
+      "text": "盛云_孙宇飞_Nadir_客户端_0622_对象1",
+      "cls": "data-item card-item is-stop",
+      "rect": {
+        "x": 1052,
+        "y": 152,
+        "w": 68,
+        "h": 112
+      },
+      "imgs": [
+        {
+          "src": "http://221.239.19.118:13001/assets/js_func_unit_editor_light-DMRXO09p.1774322731382.png",
+          "cls": "el-image__inner"
+        }
+      ]
+    },
+    {
+      "i": 2,
+      "text": "盛云_孙宇飞_Nadir_客户端_0622_对象1",
+      "cls": "data-item data-item is-running",
+      "rect": {
+        "x": 330,
+        "y": 120,
+        "w": 68,
+        "h": 111
+      },
+      "imgs": [
+        {
+          "src": "http://221.239.19.118:13001/assets/js_func_unit_editor_light-DMRXO09p.1774322731382.png",
+          "cls": "el-image__inner"
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "text": "盛云_孙宇飞_Nadir_客户端_0622_对象1",
+      "cls": "data-item",
+      "rect": {
+        "x": 423.25,
+        "y": 120,
+        "w": 68,
+        "h": 111
+      },
+      "imgs": [
+        {
+          "src": "http://221.239.19.118:13001/assets/js_func_unit_editor_light-DMRXO09p.1774322731382.png",
+          "cls": "el-image__inner"
+        }
+      ]
+    }
+  ],
+  "toolbar": [
+    {
+      "i": 0,
+      "tag": "BUTTON",
+      "text": "启动",
+      "cls": "el-button el-button--default is-disabled",
+      "disabled": true,
+      "rect": {
+        "x": 522.84375,
+        "y": 60,
+        "w": 40,
+        "h": 40
+      }
+    },
+    {
+      "i": 1,
+      "tag": "SPAN",
+      "text": "启动",
+      "cls": "",
+      "disabled": false,
+      "rect": {
+        "x": 530.84375,
+        "y": 66,
+        "w": 24,
+        "h": 28
+      }
+    },
+    {
+      "i": 2,
+      "tag": "SPAN",
+      "text": "启动",
+      "cls": "",
+      "disabled": false,
+      "rect": {
+        "x": 530.84375,
+        "y": 82,
+        "w": 24,
+        "h": 12
+      }
+    },
+    {
+      "i": 3,
+      "tag": "BUTTON",
+      "text": "停止",
+      "cls": "el-button el-button--default is-disabled",
+      "disabled": true,
+      "rect": {
+        "x": 574.84375,
+        "y": 60,
+        "w": 40,
+        "h": 40
+      }
+    },
+    {
+      "i": 4,
+      "tag": "SPAN",
+      "text": "停止",
+      "cls": "",
+      "disabled": false,
+      "rect": {
+        "x": 582.84375,
+        "y": 66,
+        "w": 24,
+        "h": 28
+      }
+    },
+    {
+      "i": 5,
+      "tag": "SPAN",
+      "text": "停止",
+      "cls": "",
+      "disabled": false,
+      "rect": {
+        "x": 582.84375,
+        "y": 82,
+        "w": 24,
+        "h": 12
+      }
+    },
+    {
+      "i": 6,
+      "tag": "BUTTON",
+      "text": "编辑",
+      "cls": "el-button el-button--default is-disabled",
+      "disabled": true,
+      "rect": {
+        "x": 702.84375,
+        "y": 60,
+        "w": 40,
+        "h": 40
+      }
+    },
+    {
+      "i": 7,
+      "tag": "SPAN",
+      "text": "编辑",
+      "cls": "",
+      "disabled": false,
+      "rect": {
+        "x": 710.84375,
+        "y": 66,
+        "w": 24,
+        "h": 28
+      }
+    },
+    {
+      "i": 8,
+      "tag": "SPAN",
+      "text": "编辑",
+      "cls": "",
+      "disabled": false,
+      "rect": {
+        "x": 710.84375,
+        "y": 82,
+        "w": 24,
+        "h": 12
+      }
+    },
+    {
+      "i": 9,
+      "tag": "DIV",
+      "text": "日志",
+      "cls": "el-dropdown run-log-dropdown",
+      "disabled": false,
+      "rect": {
+        "x": 876.84375,
+        "y": 60,
+        "w": 64,
+        "h": 45
+      }
+    },
+    {
+      "i": 10,
+      "tag": "BUTTON",
+      "text": "日志",
+      "cls": "el-button el-button--default el-tooltip__trigger",
+      "disabled": false,
+      "rect": {
+        "x": 882.84375,
+        "y": 60,
+        "w": 52,
+        "h": 45
+      }
+    },
+    {
+      "i": 11,
+      "tag": "SPAN",
+      "text": "日志",
+      "cls": "",
+      "disabled": false,
+      "rect": {
+        "x": 890.84375,
+        "y": 68,
+        "w": 36,
+        "h": 29
+      }
+    },
+    {
+      "i": 12,
+      "tag": "SPAN",
+      "text": "日志",
+      "cls": "",
+      "disabled": false,
+      "rect": {
+        "x": 890.84375,
+        "y": 84,
+        "w": 36,
+        "h": 13
+      }
+    },
+    {
+      "i": 13,
+      "tag": "BUTTON",
+      "text": "监视",
+      "cls": "el-button el-button--default is-disabled",
+      "disabled": true,
+      "rect": {
+        "x": 946.84375,
+        "y": 60,
+        "w": 40,
+        "h": 40
+      }
+    },
+    {
+      "i": 14,
+      "tag": "SPAN",
+      "text": "监视",
+      "cls": "",
+      "disabled": false,
+      "rect": {
+        "x": 954.84375,
+        "y": 66,
+        "w": 24,
+        "h": 28
+      }
+    },
+    {
+      "i": 15,
+      "tag": "SPAN",
+      "text": "监视",
+      "cls": "",
+      "disabled": false,
+      "rect": {
+        "x": 954.84375,
+        "y": 82,
+        "w": 24,
+        "h": 12
+      }
+    },
+    {
+      "i": 16,
+      "tag": "BUTTON",
+      "text": "视图",
+      "cls": "el-button el-button--default is-disabled",
+      "disabled": true,
+      "rect": {
+        "x": 998.84375,
+        "y": 60,
+        "w": 40,
+        "h": 40
+      }
+    },
+    {
+      "i": 17,
+      "tag": "SPAN",
+      "text": "视图",
+      "cls": "",
+      "disabled": false,
+      "rect": {
+        "x": 1006.84375,
+        "y": 66,
+        "w": 24,
+        "h": 28
+      }
+    },
+    {
+      "i": 18,
+      "tag": "SPAN",
+      "text": "视图",
+      "cls": "",
+      "disabled": false,
+      "rect": {
+        "x": 1006.84375,
+        "y": 82,
+        "w": 24,
+        "h": 12
+      }
+    }
+  ]
+}

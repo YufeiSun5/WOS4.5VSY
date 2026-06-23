@@ -1,0 +1,25 @@
+{
+  "createdAt": "2026-06-23T10:54:14+08:00",
+  "operator": "Codex",
+  "task": "评审修复-敏感忽略和preflight门禁",
+  "backedUpFiles": [
+    ".gitignore",
+    "AGENTS.md",
+    "README.md",
+    "AI-INTERACTION-PANEL.md",
+    "MEMORY.md",
+    ".ai/docs/backup-and-version-policy.md",
+    ".ai/docs/task-work-package-policy.md",
+    "wos4-artifacts/scripts/README.md"
+  ],
+  "newFiles": [
+    "wos4-artifacts/scripts/ai-preflight.ps1",
+    "wos4-artifacts/tasks/_template/证据清单.md",
+    "wos4-artifacts/tasks/20260623-验证蓝色客户端创建skill/证据清单.md"
+  ],
+  "reviewIssues": [
+    "浏览器 profile 未被 Git 忽略",
+    "工作区太脏缺少可执行门禁",
+    "交互面板仍混有历史主状态"
+  ]
+}

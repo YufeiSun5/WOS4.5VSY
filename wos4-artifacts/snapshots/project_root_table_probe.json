@@ -1,0 +1,88 @@
+{
+  "tableCount": 1,
+  "tableUIName": "工程目录表格",
+  "totalDataLen": 0,
+  "totalData": [],
+  "columns": [
+    {
+      "prop": "projectname",
+      "label": "工程名称",
+      "align": "left",
+      "minWidth": "24%",
+      "type": "",
+      "columnKey": "",
+      "fixed": false,
+      "plugins": [
+        {
+          "pluginType": "button",
+          "type": "",
+          "icon": "el-icon-s-flag",
+          "click": {}
+        },
+        {
+          "pluginType": "text",
+          "type": ""
+        }
+      ]
+    },
+    {
+      "prop": "projectdesc",
+      "label": "描述",
+      "align": "left",
+      "minWidth": "30%",
+      "type": "",
+      "columnKey": "",
+      "fixed": false
+    },
+    {
+      "prop": "creationtime",
+      "label": "创建时间",
+      "align": "left",
+      "minWidth": "14%",
+      "type": "",
+      "columnKey": "",
+      "fixed": false
+    },
+    {
+      "prop": "lastupdatetime",
+      "label": "上次更新时间",
+      "align": "left",
+      "minWidth": "14%",
+      "type": "",
+      "columnKey": "",
+      "fixed": false
+    },
+    {
+      "prop": "操作",
+      "label": "操作",
+      "align": "left",
+      "minWidth": "18%",
+      "type": "",
+      "columnKey": "",
+      "fixed": false,
+      "plugins": [
+        {
+          "pluginType": "button",
+          "text": "进入工程",
+          "type": "text",
+          "click": {}
+        },
+        {
+          "pluginType": "button",
+          "text": "编辑",
+          "type": "text",
+          "click": {}
+        },
+        {
+          "pluginType": "button",
+          "text": "删除",
+          "type": "text",
+          "click": {}
+        }
+      ]
+    }
+  ],
+  "detailConfig": "this.table({\r\n    cellClassName: function({\r\n        row,\r\n        column,\r\n        rowIndex,\r\n        columnIndex\r\n    }) {\r\n        if ('操作' == column.label) {\r\n            return 'cellName';\r\n        } else if ('工程名称' == column.label) {\r\n            return 'cellProjectName';\r\n        }\r\n    },\r\n    columns: [{\r\n            prop: 'projectname',\r\n            label: '工程名称',\r\n            align: \"left\",\r\n            minWidth: '24%',\r\n            type: '',\r\n            columnKey: '',\r\n            fixed: false,\r\n            plugins: [{\r\n                    pluginType: 'button',\r\n                    type: '',\r\n                    icon: 'el-icon-s-flag',\r\n                    click: function(scope) {\r\n                        if (scope.row) {\r\n                            // 设置选中工程时空仓库GUID\r\n                            $Variable.工程时空仓库GUID = scope.row.projectrepositoryguid;\r\n                            // 触发设置当前工程变量改变执行\r\n                            $Variable.setCurrentProject = !$Variable.setCurrentProject;\r\n                        }\r\n                    }\r\n                },\r\n                {\r\n                    pluginType: 'text',\r\n                    type: ''\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            prop: 'projectdesc',\r\n            label: '描述',\r\n            align: \"left\",\r\n            minWidth: '30%',\r\n            type: '',\r\n            columnKey: '',\r\n            fixed: false,\r\n        },\r\n        {\r\n            prop: 'creationtime',\r\n            label: '创建时间',\r\n            align: \"left\",\r\n            minWidth: '14%',\r\n            type: '',\r\n            columnKey: '',\r\n            fixed: false,\r\n        },\r\n        {\r\n            prop: 'lastupdatetime',\r\n            label: '上次更新时间',\r\n            align: \"left\",\r\n            minWidth: '14%',\r\n            type: '',\r\n            columnKey: '',\r\n            fixed: false,\r\n        },\r\n        {\r\n            prop: '操作',\r\n            label: '操作',\r\n            align: \"left\",\r\n            minWidth: '18%',\r\n            type: '',\r\n            columnKey: '',\r\n            fixed: false,\r\n            plugins: [{\r\n                pluginType: 'button',\r\n                text: '进入工程',\r\n                type: 'text',\r\n                click: function(scope) {\r\n                    if (scope.row) {\r\n                        // 设置选中工程信息\r\n                        $Variable.工程时空仓库名称 = scope.row.projectrepositoryname;\r\n                        $Variable.工程时空仓库ID = scope.row.projectrepositoryid;\r\n                        $Variable.工程时空仓库GUID = scope.row.projectrepositoryguid;\r\n                        $Variable.工程Root时空仓库名称 = scope.row.projectrootrepositoryname;\r\n                        $Variable.工程Root时空仓库ID = scope.row.projectrootrepositoryid;\r\n                        $Variable.工程Root时空仓库GUID = scope.row.projectrootrepositoryguid;\r\n                        // 触发进入工程变量改变执行\r\n                        $Variable.enterProject = !$Variable.enterProject;\r\n                    }\r\n                }\r\n            }, {\r\n                pluginType: 'button',\r\n                text: '编辑',\r\n                type: 'text',\r\n                click: function(scope) {\r\n\r\n                    debugger\r\n\r\n                    if (scope.row) {\r\n                        //页面名称\r\n                        const pageName = \"工程新建编辑_弹窗页面\";\r\n                        // 配置窗口 top 位置\r\n                        let windowHeight = document.body.clientHeight;\r\n                        let pageHeight = 269;\r\n                        let topPX = \"0px\";\r\n                        if ((windowHeight - pageHeight) > 0) {\r\n                            topPX = String((windowHeight - pageHeight) / 2 - 100) + \"px\";\r\n                        }\r\n                        //配置项\r\n                        const options = {\r\n                            //页面展示类型：弹出式\r\n                            type: 2,\r\n                            //弹出式样式配置\r\n                            styleOptions: {\r\n                                header: false,\r\n                                modal: true,\r\n                                width: '400',\r\n                                height: '269',\r\n                                draggable: true,\r\n                                maximizable: false,\r\n                                top: topPX\r\n                            },\r\n                            variables: [{\r\n                                name: \"操作类型\",\r\n                                value: \"编辑\"\r\n                            }, {\r\n                                name: \"spaceTimeObjectFullPath\",\r\n                                value: $Variable.配置时空对象全路径\r\n                            }, {\r\n                                name: \"spaceTimeObjectName\",\r\n                                value: $Variable.配置后台对象名称\r\n                            }, {\r\n                                name: \"cloudID\",\r\n                                value: $Variable.cloudID\r\n                            }, {\r\n                                name: '工程名称',\r\n                                value: scope.row.projectname\r\n                            }, {\r\n                                name: '工程描述',\r\n                                value: scope.row.projectdesc\r\n                            }, {\r\n                                name: '工程时空仓库GUID',\r\n                                value: scope.row.projectrepositoryguid\r\n                            }, {\r\n                                name: '工程业务物拷贝ID',\r\n                                value: scope.row.entitycopyid\r\n                            }]\r\n                        };\r\n\r\n                        ShowChild(pageName, options, (res) => {\r\n                            if (\"submit\" === res.eventName) {\r\n                                CloseChild(pageName);\r\n                                // 刷新工程目录列表\r\n                                $Variable.refreshProjectList = !$Variable.refreshProjectList;\r\n                            } else if (\"cancel\" === res.eventName) {\r\n                                CloseChild(pageName);\r\n                            }\r\n                        });\r\n                    }\r\n                }\r\n            }, {\r\n                pluginType: 'button',\r\n                text: '删除',\r\n                type: 'text',\r\n                click: function(scope) {\r\n\r\n                    debugger\r\n\r\n                    if (scope.row) {\r\n                        //页面名称\r\n                        const pageName = \"工程删除_弹窗页面\";\r\n                        // 配置窗口 top 位置\r\n                        let windowHeight = document.body.clientHeight;\r\n                        let pageHeight = 208;\r\n                        let topPX = \"0px\";\r\n                        if ((windowHeight - pageHeight) > 0) {\r\n                            topPX = String((windowHeight - pageHeight) / 2 - 100) + \"px\";\r\n                        }\r\n                        const options = {\r\n                            //页面展示类型：弹出式\r\n                            type: 2,\r\n                            //弹出式样式配置\r\n                            styleOptions: {\r\n                                header: false,\r\n                                modal: true,\r\n                                width: '400',\r\n                                height: '208',\r\n                                draggable: true,\r\n                                maximizable: false,\r\n                                top: topPX\r\n                            },\r\n                            variables: [{\r\n                                name: \"spaceTimeObjectFullPath\",\r\n                                value: $Variable.配置时空对象全路径\r\n                            }, {\r\n                                name: \"spaceTimeObjectName\",\r\n                                value: $Variable.配置后台对象名称\r\n                            }, {\r\n                                name: \"cloudID\",\r\n                                value: $Variable.cloudID\r\n                            }, {\r\n                                name: '工程时空仓库名称',\r\n                                value: scope.row.projectrepositoryname\r\n      ",
+  "pageVariableKeys": [],
+  "pageVariables": {}
+}

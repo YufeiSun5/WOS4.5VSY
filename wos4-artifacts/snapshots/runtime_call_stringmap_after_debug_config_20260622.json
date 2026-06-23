@@ -1,0 +1,31 @@
+{
+  "ok": true,
+  "hasStringMap": "function",
+  "hasVariant": "function",
+  "tests": [
+    {
+      "label": "id-v1-string-param",
+      "res": {
+        "ret": -210133,
+        "consumeTime": 189
+      },
+      "ms": 190
+    },
+    {
+      "label": "id-v1-no-param",
+      "res": {
+        "ret": -210133,
+        "consumeTime": 25
+      },
+      "ms": 25
+    },
+    {
+      "label": "name-string-param",
+      "res": {
+        "ret": -210133,
+        "consumeTime": 27
+      },
+      "ms": 27
+    }
+  ]
+}

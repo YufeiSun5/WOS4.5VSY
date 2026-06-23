@@ -1,0 +1,26 @@
+{
+  "child0": "KSCClientRun",
+  "child2": "KSCPageRun",
+  "fuObjKeys": [
+    "PUBVAR__工程管理_框架页面名称",
+    "PUBVAR__开发系统_框架页面名称",
+    "PUBVAR__switchPage",
+    "PUBVAR__工程时空仓库名称",
+    "PUBVAR__工程时空仓库ID",
+    "PUBVAR__工程Root时空仓库名称",
+    "PUBVAR__工程Root时空仓库ID",
+    "PUBVAR__工程时空仓库GUID",
+    "PUBVAR__工程Root时空仓库GUID"
+  ],
+  "values": {
+    "PUBVAR__工程管理_框架页面名称": "{\"KSCGUID\":\"k8ed8765e65d93d0a3dff334c2f47fd7\",\"varName\":\"工程管理_框架页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"工程管理_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+    "PUBVAR__开发系统_框架页面名称": "{\"KSCGUID\":\"k97f5af01368c2d5ab17a97c78eefe37\",\"varName\":\"开发系统_框架页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"开发系统_组态_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+    "PUBVAR__switchPage": "{\"KSCGUID\":\"k6b68b9323b21c189520fa2ec87849c6\",\"varName\":\"switchPage\",\"isPublic\":true,\"varDes\":\"\",\"varType\":1,\"varDefaultValue\":1,\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+    "PUBVAR__工程时空仓库名称": "{\"KSCGUID\":\"k1bed7287cec45e248904fe67be53fda\",\"varName\":\"工程时空仓库名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+    "PUBVAR__工程时空仓库ID": "{\"KSCGUID\":\"k06cb5cda39d0eb01b7dcfacff67d269\",\"varName\":\"工程时空仓库ID\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+    "PUBVAR__工程Root时空仓库名称": "{\"KSCGUID\":\"k8bfbd380d3fe8b00ebfba79558c3586\",\"varName\":\"工程Root时空仓库名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+    "PUBVAR__工程Root时空仓库ID": "{\"KSCGUID\":\"k060ac8196134615b8659c1acb91eda8\",\"varName\":\"工程Root时空仓库ID\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+    "PUBVAR__工程时空仓库GUID": "{\"KSCGUID\":\"k749c8a1213c0a4acf3e1319e8df2e3e\",\"varName\":\"工程时空仓库GUID\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+    "PUBVAR__工程Root时空仓库GUID": "{\"KSCGUID\":\"k193c635b85c22626ad9349d2b3b0eae\",\"varName\":\"工程Root时空仓库GUID\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "ok": true,
+  "rows": [
+    {
+      "name": "DataGridRow",
+      "height": 600
+    },
+    {
+      "name": "TrendChartRow",
+      "height": 340
+    }
+  ],
+  "cols": [
+    {
+      "colHeight": 598
+    },
+    {
+      "colHeight": 338
+    }
+  ]
+}
+{
+  "ok": true
+}
+{
+  "ok": true
+}
+{
+  "capture": {
+    "messages": [
+      {
+        "kind": "mutation",
+        "text": "版本提交提交说明\n          取消\n        \n          确定",
+        "extra": {
+          "className": "el-message-box__wrapper"
+        },
+        "t": 1781767959819
+      },
+      {
+        "text": "版本提交提交说明\n          取消\n        \n          确定",
+        "className": "el-message-box__wrapper",
+        "t": 1781767959820
+      },
+      {
+        "kind": "mutation",
+        "text": "保存成功",
+        "extra": {
+          "className": "el-message"
+        },
+        "t": 1781767962755
+      },
+      {
+        "text": "保存成功",
+        "className": "el-message",
+        "t": 1781767962755
+      },
+      {
+        "kind": "mutation",
+        "text": "生成历史版本成功！",
+        "extra": {
+          "className": "el-message el-message--success"
+        },
+        "t": 1781767962884
+      },
+      {
+        "text": "生成历史版本成功！",
+        "className": "el-message el-message--success",
+        "t": 1781767962884
+      }
+    ]
+  },
+  "nestedRows": [
+    {
+      "name": "DataGridRow",
+      "height": 600
+    },
+    {
+      "name": "TrendChartRow",
+      "height": 340
+    }
+  ],
+  "row5": 600,
+  "row6": 340,
+  "col20": 598,
+  "col21": 338
+}

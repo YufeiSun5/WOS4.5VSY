@@ -1,0 +1,40 @@
+{
+  "fields": [
+    "$id",
+    "$guid",
+    "$name",
+    "$type",
+    "$version",
+    "$modelguid",
+    "$modelversion",
+    "$repositoryguid",
+    "$memberlist",
+    "$spaceTimeGUID",
+    "$status",
+    "$runStatus",
+    "status",
+    "runStatus",
+    "FUType",
+    "quotedType",
+    "toFather",
+    "isHasChild",
+    "maxVersion",
+    "modelDBRepository",
+    "multiEditor",
+    "imageFolderId",
+    "jsonFileId",
+    "AUTHORITY__????"
+  ],
+  "started": 1782093789153,
+  "ms": 31,
+  "res": {
+    "ret": 536903681,
+    "output": {
+      "errorcodes": [],
+      "ret": 536903681,
+      "returndata": []
+    },
+    "traceID": "5189163763326601216",
+    "consumeTime": 30
+  }
+}

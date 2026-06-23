@@ -1,0 +1,428 @@
+{
+  "operator": "盛云_孙宇飞",
+  "namePrefix": "盛云_孙宇飞",
+  "frames": [
+    {
+      "url": "http://221.239.19.118:13001/#/main",
+      "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260514\n组态系统客户端0518\n建模系统客户端_0518\n运维部署客户端_0518\nCodex临时测试_前端视图_0611",
+      "controls": [
+        {
+          "i": 0,
+          "tag": "DIV",
+          "text": "回到桌面退出登录",
+          "cls": "el-popper is-dark el-tooltip el-popover card-popper",
+          "placeholder": null,
+          "type": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "visible": false
+        },
+        {
+          "i": 1,
+          "tag": "DIV",
+          "text": "时空功能开发关闭",
+          "cls": "el-popper is-light el-tooltip el-popover card-popper",
+          "placeholder": null,
+          "type": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "visible": false
+        },
+        {
+          "i": 2,
+          "tag": "DIV",
+          "text": "时空对象管理关闭",
+          "cls": "el-popper is-light el-tooltip el-popover card-popper",
+          "placeholder": null,
+          "type": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "visible": false
+        },
+        {
+          "i": 3,
+          "tag": "DIV",
+          "text": "时空功能开发时空对象管理建模系统客户端_0518",
+          "cls": "el-popper is-light el-tooltip el-popover more-running-popper",
+          "placeholder": null,
+          "type": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "visible": false
+        },
+        {
+          "i": 4,
+          "tag": "DIV",
+          "text": "建模系统客户端_0518收藏此应用关闭",
+          "cls": "el-popper is-light el-tooltip el-popover card-popper",
+          "placeholder": null,
+          "type": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "visible": false
+        }
+      ]
+    },
+    {
+      "url": "http://221.239.19.118:13001/public/?id=6192730962611142710&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+      "text": "",
+      "controls": []
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+      "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\nempty\n共 0 条\n<1>前往页",
+      "controls": [
+        {
+          "i": 0,
+          "tag": "DIV",
+          "text": "",
+          "cls": "el-dialog",
+          "placeholder": null,
+          "type": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "visible": false
+        },
+        {
+          "i": 1,
+          "tag": "BUTTON",
+          "text": "",
+          "cls": "el-dialog__headerbtn",
+          "placeholder": null,
+          "type": "button",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "visible": false
+        },
+        {
+          "i": 2,
+          "tag": "BUTTON",
+          "text": "",
+          "cls": "el-button el-tooltip el-button--primary el-button--medium propertyStyle",
+          "placeholder": null,
+          "type": "button",
+          "rect": {
+            "x": 372.3125,
+            "y": 39.5,
+            "w": 16,
+            "h": 16
+          },
+          "visible": true
+        },
+        {
+          "i": 3,
+          "tag": "BUTTON",
+          "text": "",
+          "cls": "el-button el-tooltip el-button--primary el-button--medium propertyStyle",
+          "placeholder": null,
+          "type": "button",
+          "rect": {
+            "x": 391.640625,
+            "y": 39.5,
+            "w": 16,
+            "h": 16
+          },
+          "visible": true
+        },
+        {
+          "i": 4,
+          "tag": "BUTTON",
+          "text": "",
+          "cls": "el-button el-button--text el-button--medium el-dropdown-selfdefine",
+          "placeholder": null,
+          "type": "button",
+          "rect": {
+            "x": 410.96875,
+            "y": 39.5,
+            "w": 16,
+            "h": 16
+          },
+          "visible": true
+        },
+        {
+          "i": 5,
+          "tag": "UL",
+          "text": "导入 导出 删除",
+          "cls": "el-dropdown-menu el-popper el-dropdown-menu--medium k63cbfc7e4859a1e4104b0fff98923a1",
+          "placeholder": null,
+          "type": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "visible": false
+        },
+        {
+          "i": 6,
+          "tag": "INPUT",
+          "text": "搜索...",
+          "cls": "el-input__inner",
+          "placeholder": "搜索...",
+          "type": "text",
+          "rect": {
+            "x": 261,
+            "y": 72,
+            "w": 130,
+            "h": 32
+          },
+          "visible": true
+        },
+        {
+          "i": 7,
+          "tag": "BUTTON",
+          "text": "",
+          "cls": "el-button el-button--primary el-button--medium propertyStyle",
+          "placeholder": null,
+          "type": "button",
+          "rect": {
+            "x": 392,
+            "y": 72,
+            "w": 34,
+            "h": 32
+          },
+          "visible": true
+        },
+        {
+          "i": 8,
+          "tag": "DIV",
+          "text": "",
+          "cls": "el-dialog",
+          "placeholder": null,
+          "type": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "visible": false
+        },
+        {
+          "i": 9,
+          "tag": "BUTTON",
+          "text": "",
+          "cls": "el-dialog__headerbtn",
+          "placeholder": null,
+          "type": "button",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "visible": false
+        },
+        {
+          "i": 10,
+          "tag": "BUTTON",
+          "text": "新建",
+          "cls": "el-button el-button--primary el-button--medium propertyStyle",
+          "placeholder": null,
+          "type": "button",
+          "rect": {
+            "x": 983,
+            "y": 10,
+            "w": 80,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 11,
+          "tag": "BUTTON",
+          "text": "更多操作",
+          "cls": "el-button el-button--primary el-button--medium el-dropdown-selfdefine",
+          "placeholder": null,
+          "type": "button",
+          "rect": {
+            "x": 1075,
+            "y": 10,
+            "w": 110,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 12,
+          "tag": "UL",
+          "text": "导入 导出 复制 粘贴 移动 删除",
+          "cls": "el-dropdown-menu el-popper el-dropdown-menu--medium k53f561cdd82c51b54ef707c39c99d65",
+          "placeholder": null,
+          "type": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "visible": false
+        },
+        {
+          "i": 13,
+          "tag": "INPUT",
+          "text": "搜索",
+          "cls": "el-input__inner",
+          "placeholder": "搜索",
+          "type": "text",
+          "rect": {
+            "x": 1198,
+            "y": 13,
+            "w": 186,
+            "h": 32
+          },
+          "visible": true
+        },
+        {
+          "i": 14,
+          "tag": "BUTTON",
+          "text": "",
+          "cls": "el-button el-button--primary el-button--medium propertyStyle",
+          "placeholder": null,
+          "type": "button",
+          "rect": {
+            "x": 1385,
+            "y": 13,
+            "w": 34,
+            "h": 32
+          },
+          "visible": true
+        },
+        {
+          "i": 15,
+          "tag": "LABEL",
+          "text": "",
+          "cls": "el-checkbox is-disabled",
+          "placeholder": null,
+          "type": null,
+          "rect": {
+            "x": 478,
+            "y": 68,
+            "w": 14,
+            "h": 23
+          },
+          "visible": true
+        },
+        {
+          "i": 16,
+          "tag": "INPUT",
+          "text": "",
+          "cls": "el-checkbox__original",
+          "placeholder": null,
+          "type": "checkbox",
+          "rect": {
+            "x": 492,
+            "y": 71.875,
+            "w": 0,
+            "h": 0
+          },
+          "visible": false
+        },
+        {
+          "i": 17,
+          "tag": "INPUT",
+          "text": "50条/页",
+          "cls": "el-input__inner",
+          "placeholder": "请选择",
+          "type": "text",
+          "rect": {
+            "x": 1037.5,
+            "y": 844,
+            "w": 100,
+            "h": 28
+          },
+          "visible": true
+        },
+        {
+          "i": 18,
+          "tag": "DIV",
+          "text": "50条/页100条/页150条/页200条/页250条/页300条/页",
+          "cls": "el-select-dropdown el-popper",
+          "placeholder": null,
+          "type": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "visible": false
+        },
+        {
+          "i": 19,
+          "tag": "BUTTON",
+          "text": "<",
+          "cls": "btn-prev",
+          "placeholder": null,
+          "type": "button",
+          "rect": {
+            "x": 1152.5,
+            "y": 844,
+            "w": 53.5,
+            "h": 28
+          },
+          "visible": true
+        },
+        {
+          "i": 20,
+          "tag": "BUTTON",
+          "text": ">",
+          "cls": "btn-next",
+          "placeholder": null,
+          "type": "button",
+          "rect": {
+            "x": 1241.5,
+            "y": 844,
+            "w": 53.5,
+            "h": 28
+          },
+          "visible": true
+        },
+        {
+          "i": 21,
+          "tag": "INPUT",
+          "text": "1",
+          "cls": "el-input__inner",
+          "placeholder": null,
+          "type": "number",
+          "rect": {
+            "x": 1351,
+            "y": 844,
+            "w": 46,
+            "h": 28
+          },
+          "visible": true
+        }
+      ]
+    }
+  ]
+}

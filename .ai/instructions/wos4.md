@@ -1,11 +1,23 @@
 # WOS4 规则
 
 - WOS4 登录、导航、布局、组件、保存、提交、预览优先使用现有 WOS4 skill。
-- 前台可见操作优先使用 Chrome MCP。
-- Chrome MCP 不能处理运行时编辑时，才退回直连 Playwright。
+- 登录阶段使用已验证的脚本注入流程或 `wos4-login` 原生 value setter，不要重复猜登录。
+- `KingStudio_V20260514` 已被用户确认为废弃入口。后续不得再进入 KingStudio，也不得继续把产品管理、产品组装作为客户端发布或页面设计当前路径。
+- 登录成功后进入仍有效的桌面客户端、建模系统、页面设计器时，必须按可见菜单层级模拟人类操作；不要把 `public/?...`、`GetFileContent/.../index.html` 或历史预览 URL 当成入口直接打开。动态 URL 只用于证据、对象 ID 校验和失败排查。
+- 页面导航优先读取并遵循 `.ai/skills/wos4-human-navigation/SKILL.md`。
+- WOS4 前台页面和嵌套 iframe 加载有延迟。所有导航点击后必须等待目标文本、目标卡片、目标 iframe 或 runtime 健康检查成立，再继续下一步；不要因为固定 sleep 结束就继续点。
+- 点击后必须结合网络请求判断是否生效。若已经发出 `/public/`、`GetFileContent` 或页面设计器相关请求，即使 DOM 暂未更新也要继续等待，不要马上退出或重复点击。
+- 登录成功后，编辑器读取、布局、组件、保存、提交、预览优先使用 Chrome MCP，保证前台可见。
+- Chrome MCP 接管前必须做 runtime 健康检查：页面必须出现 `#page_edit_view_area`，并且 `.__vue__._data.comMap.$Children` 非空。
+- 不能把 `GetFileContent/.../index.html` 当成顶层编辑入口直接操作；该页面依赖父窗口初始化，顶层打开可能只出现 `#app-master-root` 而没有编辑器 runtime。
+- Chrome MCP 打开的 `/public/?...#/running` 外壳如果只有空 `#app`、无 iframe、无 `#page_edit_view_area`，必须停止并记录为 Chrome 接管失败，不继续写布局。
+- Chrome MCP 不能处理运行时编辑时，才退回直连 Playwright；退回前要记录失败证据和原因。
+- 如果 Chrome MCP 因 profile 锁定、无法 `list_pages` 或无法新建 tab 而不可用，记录为 Chrome MCP 接管失败，不要杀浏览器进程；可退回 Playwright，并保持 `headless:false` 让操作前台可见。
 - Playwright 访问 WOS4 时使用 `--proxy-server=direct://`。
 - 页面修改不以编辑器内存状态为完成标准，必须提交并预览验证。
 - 复杂页面修改前先导出模型，再改布局和组件。
+- WOS4 页面构建必须先布局、后组件：先完成 `RContainer/RRow/RCol` 结构和尺寸策略，并重新读取 runtime 确认布局稳定后，才能放置输入框、按钮、树、表格、ECharts 等组件。
+- 禁止在行列结构仍在增删、尺寸仍未确认时向槽位放业务组件；否则容易出现组件挂到错误列、后续清列丢组件、预览高度塌陷。
 - 布局必须明确尺寸策略：顶部/过滤/底部用固定高度，主数据区用剩余空间或固定最小高度。
 - 表格和 ECharts 的父容器必须有稳定高度；测试时必须验证实际高度，不只验证组件存在。
 - 修改已有页面前必须生成 `before.json` 和修改前截图；提交后必须生成 `after.json`、预览截图和 `verify.json`。

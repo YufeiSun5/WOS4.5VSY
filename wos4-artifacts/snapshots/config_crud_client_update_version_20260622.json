@@ -1,0 +1,63 @@
+{
+  "ok": true,
+  "messages": [
+    {
+      "t": 1782115388627,
+      "text": "更新客户端弹窗",
+      "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_269074"
+    },
+    {
+      "t": 1782115388627,
+      "text": "更新客户端弹窗",
+      "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_269074"
+    },
+    {
+      "t": 1782115388791,
+      "text": "更新版本确认    确定更新选择的客户端到最新模型版本吗？ 取消  确定",
+      "cls": "page_view"
+    },
+    {
+      "t": 1782115390354,
+      "text": "更新成功",
+      "cls": "el-message el-message--success is-closable el-message-fade-enter el-message-fade-enter-active"
+    },
+    {
+      "t": 1782115390441,
+      "text": "客户端1_人工干预点_1\n\t\n编辑\n属性\n更新版本\n提交版本\n预览\n删除",
+      "cls": "el-table__row expanded"
+    }
+  ],
+  "text": "KingFusion4.5_工程浏览器\n\n< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n客户端列表\n\n新建\n更新版本\n\n\t客户端名称\t操作\n\t\n客户端1_人工干预点_1\n\t\n编辑\n属性\n更新版本\n提交版本\n预览\n删除\n共 1 条\n<1>前往页\n\n时空仓库版本提交进度\n\n100%\n\n\t名称\tGUID\t状态\t详情\n1\n\t\nNadirL2\n\t\n4fa17a11-b923-4b36-b1e8-c39ca1bcf62c\n\t\n100%\n\t\n提交成功\n\n\n2\n\t\nNadirBack\n\t\n276cb189-67c5-47d1-94be-7e76f5f5af4e\n\t\n100%\n\t\n提交成功\n\n\n3\n\t\nNadirFront\n\t\n069aca68-d952-4a20-949f-af9784b33985\n\t\n100%\n\t\n提交成功\n关闭",
+  "rows": [
+    {
+      "i": 0,
+      "cls": "",
+      "text": "客户端名称\t操作"
+    },
+    {
+      "i": 1,
+      "cls": "el-table__row expanded",
+      "text": "客户端1_人工干预点_1\n\t\n编辑\n属性\n更新版本\n提交版本\n预览\n删除"
+    },
+    {
+      "i": 2,
+      "cls": "",
+      "text": "名称\tGUID\t状态\t详情"
+    },
+    {
+      "i": 3,
+      "cls": "el-table__row expanded el-table__row--level-0",
+      "text": "1\n\t\nNadirL2\n\t\n4fa17a11-b923-4b36-b1e8-c39ca1bcf62c\n\t\n100%\n\t\n提交成功"
+    },
+    {
+      "i": 4,
+      "cls": "el-table__row el-table__row--level-1",
+      "text": "2\n\t\nNadirBack\n\t\n276cb189-67c5-47d1-94be-7e76f5f5af4e\n\t\n100%\n\t\n提交成功"
+    },
+    {
+      "i": 5,
+      "cls": "el-table__row el-table__row--level-1",
+      "text": "3\n\t\nNadirFront\n\t\n069aca68-d952-4a20-949f-af9784b33985\n\t\n100%\n\t\n提交成功"
+    }
+  ]
+}

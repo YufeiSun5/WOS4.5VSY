@@ -1,0 +1,339 @@
+{
+  "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+  "body": "KingFusion4.5_工程浏览器 < 返回工程管理 盛云_孙宇飞_前端Demo_0617 数字孪生实例配置 管控单元实例配置 工作流实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理 < 返回 盛云_孙宇飞_客户端Demo_0617 画面分组 根组 画面列表 新建 添加 画面引用器 更多操作 首页 画面名称 描述 操作 盛云_孙宇飞_画面Demo_0617 frontend demo screen: layout first, then components and transit-variable interaction 编辑属性更新删除 共 1 条 1 前往页",
+  "headers": [
+    {
+      "i": 0,
+      "text": "",
+      "cls": "el-table_3_column_9   el-table-column--selection  is-leaf el-table__cell",
+      "html": "<th colspan=\"1\" rowspan=\"1\" class=\"el-table_3_column_9   el-table-column--selection  is-leaf el-table__cell\"><div class=\"cell\"><label class=\"el-checkbox\"><span class=\"el-checkbox__input\"><span class=\"el-checkbox__inner\"></span><input type=\"checkbox\" aria-hidden=\"false\" class=\"el-checkbox__original\" value=\"\"></span><!----></label></div></th>"
+    },
+    {
+      "i": 1,
+      "text": "首页",
+      "cls": "el-table_3_column_10  is-left   is-leaf el-table__cell",
+      "html": "<th colspan=\"1\" rowspan=\"1\" class=\"el-table_3_column_10  is-left   is-leaf el-table__cell\"><div class=\"cell\"><!----><!----><span data-v-68696782=\"\"><!----></span><span data-v-68696782=\"\">首页</span></div></th>"
+    },
+    {
+      "i": 2,
+      "text": "画面名称",
+      "cls": "el-table_3_column_11  is-left   is-leaf el-table__cell",
+      "html": "<th colspan=\"1\" rowspan=\"1\" class=\"el-table_3_column_11  is-left   is-leaf el-table__cell\"><div class=\"cell\"><span data-v-68696782=\"\"><!----></span><span data-v-68696782=\"\">画面名称</span></div></th>"
+    },
+    {
+      "i": 3,
+      "text": "描述",
+      "cls": "el-table_3_column_12  is-left   is-leaf el-table__cell",
+      "html": "<th colspan=\"1\" rowspan=\"1\" class=\"el-table_3_column_12  is-left   is-leaf el-table__cell\"><div class=\"cell\"><span data-v-68696782=\"\"><!----></span><span data-v-68696782=\"\">描述</span></div></th>"
+    },
+    {
+      "i": 4,
+      "text": "操作",
+      "cls": "el-table_3_column_13  is-left   is-leaf el-table__cell",
+      "html": "<th colspan=\"1\" rowspan=\"1\" class=\"el-table_3_column_13  is-left   is-leaf el-table__cell\"><div class=\"cell\"><!----><!----><span data-v-68696782=\"\"><!----></span><span data-v-68696782=\"\">操作</span></div></th>"
+    },
+    {
+      "i": 5,
+      "text": "",
+      "cls": "el-table__cell gutter",
+      "html": "<th class=\"el-table__cell gutter\" style=\"width: 0px; display: none;\"></th>"
+    }
+  ],
+  "rows": [
+    {
+      "ri": 0,
+      "text": "盛云_孙宇飞_画面Demo_0617 frontend demo screen: layout first, then components and transit-variable interaction 编辑属性更新删除",
+      "x": 522,
+      "y": 262,
+      "w": 1397,
+      "h": 45,
+      "cells": [
+        {
+          "ci": 0,
+          "text": "",
+          "cls": "el-table_3_column_9  el-table-column--selection el-table__cell",
+          "html": "<div class=\"cell\"><label class=\"el-checkbox\"><span class=\"el-checkbox__input\"><span class=\"el-checkbox__inner\"></span><input type=\"checkbox\" aria-hidden=\"false\" class=\"el-checkbox__original\" value=\"\"></span><!----></label></div>"
+        },
+        {
+          "ci": 1,
+          "text": "",
+          "cls": "el-table_3_column_10 is-left  el-table__cell",
+          "html": "<div class=\"cell\"><button data-v-68696782=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><i class=\"el-icon-custom-pc-page\"></i><!----></button><button data-v-68696782=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><i class=\"el-icon-custom-app-page\"></i><!----></button><span data-v-68696782=\"\"></span></div>"
+        },
+        {
+          "ci": 2,
+          "text": "盛云_孙宇飞_画面Demo_0617",
+          "cls": "el-table_3_column_11 is-left  el-table__cell",
+          "html": "<div class=\"cell el-tooltip\" style=\"width: 523px;\"><!----><span data-v-68696782=\"\"><div class=\"page-name-cell-page\"><span>盛云_孙宇飞_画面Demo_0617</span></div></span></div>"
+        },
+        {
+          "ci": 3,
+          "text": "frontend demo screen: layout first, then components and transit-variable interaction",
+          "cls": "el-table_3_column_12 is-left  el-table__cell",
+          "html": "<div class=\"cell el-tooltip\" style=\"width: 522px;\"><!----><span data-v-68696782=\"\">frontend demo screen: layout first, then components and transit-variable interaction</span></div>"
+        },
+        {
+          "ci": 4,
+          "text": "编辑属性更新删除",
+          "cls": "el-table_3_column_13 is-left  el-table__cell",
+          "html": "<div class=\"cell\"><button data-v-68696782=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span><!----> 编辑</span></button><button data-v-68696782=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span><!----> 属性</span></button><button data-v-68696782=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span><!----> 更新</span></button><button data-v-68696782=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span><!----> 删除</span></button></div>"
+        }
+      ],
+      "actions": [
+        {
+          "i": 0,
+          "tag": "DIV",
+          "cls": "cell",
+          "text": "",
+          "x": 522,
+          "y": 272.5,
+          "w": 47,
+          "h": 23,
+          "html": "<div class=\"cell\"><label class=\"el-checkbox\"><span class=\"el-checkbox__input\"><span class=\"el-checkbox__inner\"></span><input type=\"checkbox\" aria-hidden=\"false\" class=\"el-checkbox__original\" value=\"\"></span><!----></label></div>"
+        },
+        {
+          "i": 1,
+          "tag": "SPAN",
+          "cls": "el-checkbox__input",
+          "text": "",
+          "x": 532,
+          "y": 276.875,
+          "w": 14,
+          "h": 16,
+          "html": "<span class=\"el-checkbox__input\"><span class=\"el-checkbox__inner\"></span><input type=\"checkbox\" aria-hidden=\"false\" class=\"el-checkbox__original\" value=\"\"></span>"
+        },
+        {
+          "i": 2,
+          "tag": "SPAN",
+          "cls": "el-checkbox__inner",
+          "text": "",
+          "x": 532,
+          "y": 276.875,
+          "w": 14,
+          "h": 14,
+          "html": "<span class=\"el-checkbox__inner\"></span>"
+        },
+        {
+          "i": 3,
+          "tag": "DIV",
+          "cls": "cell",
+          "text": "",
+          "x": 570,
+          "y": 262,
+          "w": 99,
+          "h": 44,
+          "html": "<div class=\"cell\"><button data-v-68696782=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><i class=\"el-icon-custom-pc-page\"></i><!----></button><button data-v-68696782=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><i class=\"el-icon-custom-app-page\"></i><!----></button><span data-v-68696782=\"\"></span></div>"
+        },
+        {
+          "i": 4,
+          "tag": "BUTTON",
+          "cls": "el-button el-button--text el-button--medium",
+          "text": "",
+          "x": 580,
+          "y": 262,
+          "w": 22,
+          "h": 44,
+          "html": "<button data-v-68696782=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><i class=\"el-icon-custom-pc-page\"></i><!----></button>"
+        },
+        {
+          "i": 5,
+          "tag": "I",
+          "cls": "el-icon-custom-pc-page",
+          "text": "",
+          "x": 581,
+          "y": 273,
+          "w": 20,
+          "h": 20,
+          "html": "<i class=\"el-icon-custom-pc-page\"></i>"
+        },
+        {
+          "i": 6,
+          "tag": "BUTTON",
+          "cls": "el-button el-button--text el-button--medium",
+          "text": "",
+          "x": 612,
+          "y": 262,
+          "w": 22,
+          "h": 44,
+          "html": "<button data-v-68696782=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><i class=\"el-icon-custom-app-page\"></i><!----></button>"
+        },
+        {
+          "i": 7,
+          "tag": "I",
+          "cls": "el-icon-custom-app-page",
+          "text": "",
+          "x": 613,
+          "y": 273,
+          "w": 20,
+          "h": 20,
+          "html": "<i class=\"el-icon-custom-app-page\"></i>"
+        },
+        {
+          "i": 9,
+          "tag": "DIV",
+          "cls": "cell el-tooltip",
+          "text": "盛云_孙宇飞_画面Demo_0617",
+          "x": 670,
+          "y": 272.5,
+          "w": 523,
+          "h": 23,
+          "html": "<div class=\"cell el-tooltip\" style=\"width: 523px;\"><!----><span data-v-68696782=\"\"><div class=\"page-name-cell-page\"><span>盛云_孙宇飞_画面Demo_0617</span></div></span></div>"
+        },
+        {
+          "i": 10,
+          "tag": "SPAN",
+          "cls": "",
+          "text": "盛云_孙宇飞_画面Demo_0617",
+          "x": 680,
+          "y": 272.5,
+          "w": 503,
+          "h": 23,
+          "html": "<span data-v-68696782=\"\"><div class=\"page-name-cell-page\"><span>盛云_孙宇飞_画面Demo_0617</span></div></span>"
+        },
+        {
+          "i": 11,
+          "tag": "DIV",
+          "cls": "page-name-cell-page",
+          "text": "盛云_孙宇飞_画面Demo_0617",
+          "x": 680,
+          "y": 272.5,
+          "w": 503,
+          "h": 23,
+          "html": "<div class=\"page-name-cell-page\"><span>盛云_孙宇飞_画面Demo_0617</span></div>"
+        },
+        {
+          "i": 12,
+          "tag": "SPAN",
+          "cls": "",
+          "text": "盛云_孙宇飞_画面Demo_0617",
+          "x": 710,
+          "y": 275.5,
+          "w": 189.859375,
+          "h": 16,
+          "html": "<span>盛云_孙宇飞_画面Demo_0617</span>"
+        },
+        {
+          "i": 13,
+          "tag": "DIV",
+          "cls": "cell el-tooltip",
+          "text": "frontend demo screen: layout first, then components and transit-variable interaction",
+          "x": 1195,
+          "y": 272.5,
+          "w": 522,
+          "h": 23,
+          "html": "<div class=\"cell el-tooltip\" style=\"width: 522px;\"><!----><span data-v-68696782=\"\">frontend demo screen: layout first, then components and transit-variable interaction</span></div>"
+        },
+        {
+          "i": 14,
+          "tag": "SPAN",
+          "cls": "",
+          "text": "frontend demo screen: layout first, then components and transit-variable interaction",
+          "x": 1205,
+          "y": 275.5,
+          "w": 514.390625,
+          "h": 16,
+          "html": "<span data-v-68696782=\"\">frontend demo screen: layout first, then components and transit-variable interaction</span>"
+        },
+        {
+          "i": 15,
+          "tag": "DIV",
+          "cls": "cell",
+          "text": "编辑属性更新删除",
+          "x": 1719,
+          "y": 266,
+          "w": 199,
+          "h": 36,
+          "html": "<div class=\"cell\"><button data-v-68696782=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span><!----> 编辑</span></button><button data-v-68696782=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span><!----> 属性</span></button><button data-v-68696782=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span><!----> 更新</span></button><button data-v-68696782=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span><!----> 删除</span></button></div>"
+        },
+        {
+          "i": 16,
+          "tag": "BUTTON",
+          "cls": "el-button el-button--text el-button--medium",
+          "text": "编辑",
+          "x": 1729,
+          "y": 266,
+          "w": 30,
+          "h": 36,
+          "html": "<button data-v-68696782=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span><!----> 编辑</span></button>"
+        },
+        {
+          "i": 17,
+          "tag": "SPAN",
+          "cls": "",
+          "text": "编辑",
+          "x": 1730,
+          "y": 276,
+          "w": 28,
+          "h": 16,
+          "html": "<span><!----> 编辑</span>"
+        },
+        {
+          "i": 18,
+          "tag": "BUTTON",
+          "cls": "el-button el-button--text el-button--medium",
+          "text": "属性",
+          "x": 1769,
+          "y": 266,
+          "w": 30,
+          "h": 36,
+          "html": "<button data-v-68696782=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span><!----> 属性</span></button>"
+        },
+        {
+          "i": 19,
+          "tag": "SPAN",
+          "cls": "",
+          "text": "属性",
+          "x": 1770,
+          "y": 276,
+          "w": 28,
+          "h": 16,
+          "html": "<span><!----> 属性</span>"
+        },
+        {
+          "i": 20,
+          "tag": "BUTTON",
+          "cls": "el-button el-button--text el-button--medium",
+          "text": "更新",
+          "x": 1809,
+          "y": 266,
+          "w": 30,
+          "h": 36,
+          "html": "<button data-v-68696782=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span><!----> 更新</span></button>"
+        },
+        {
+          "i": 21,
+          "tag": "SPAN",
+          "cls": "",
+          "text": "更新",
+          "x": 1810,
+          "y": 276,
+          "w": 28,
+          "h": 16,
+          "html": "<span><!----> 更新</span>"
+        },
+        {
+          "i": 22,
+          "tag": "BUTTON",
+          "cls": "el-button el-button--text el-button--medium",
+          "text": "删除",
+          "x": 1849,
+          "y": 266,
+          "w": 30,
+          "h": 36,
+          "html": "<button data-v-68696782=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span><!----> 删除</span></button>"
+        },
+        {
+          "i": 23,
+          "tag": "SPAN",
+          "cls": "",
+          "text": "删除",
+          "x": 1850,
+          "y": 276,
+          "w": 28,
+          "h": 16,
+          "html": "<span><!----> 删除</span>"
+        }
+      ]
+    }
+  ]
+}

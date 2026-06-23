@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "hasMonaco": false,
+  "keys": [
+    "MonacoEnvironment"
+  ],
+  "textareas": [
+    {
+      "i": 0,
+      "cls": "inputarea monaco-mouse-cursor-text",
+      "value": "                                            returnData[\"statisticsList\"] = statisticsList;\n                                                                                                                                                                            Trace(2, \"QueryRecords.result\", returnData);\n                                                                                                                                                                            return returnData;",
+      "placeholder": "",
+      "rect": {
+        "x": 349,
+        "y": 146,
+        "w": 1,
+        "h": 1
+      }
+    }
+  ],
+  "editors": [
+    {
+      "i": 0,
+      "cls": "monaco-editor",
+      "text": "15\n13\n14\n10\n11\n12\n8\n9\n2\n3\n4\n5\n6\n7\n1\nstring filter = strmapPara.filter;\ndebugInfo[\"functionName\"] = \"QueryRecords\";\nstring errormsg = \"\";\nreturnData[\"errormsg\"] = \"ok\";\nstringMap<var> debugInfo;\nstringMap<var> returnData;\nreturnData[\"errorcode\"] = SUCCESS_CODE;\nint32 SUCCESS_CODE = errorCodeEnum::SUCCESS_CODE;\nint32 INTERNAL_ERROR_CODE = 0 - errorCodeEnum::INTERNAL_ERROR_CODE;\nint32 cloudID = getLocalCloudID();\nstring OBJECT_NAME = \"DemoRecord\";\nATrace(2, \"QueryRecords.enter\", strmapPara);",
+      "keys": []
+    },
+    {
+      "i": 1,
+      "cls": "monaco-editor no-user-select  showUnused showDeprecated vs-dark focused",
+      "text": "15\n13\n14\n10\n11\n12\n8\n9\n2\n3\n4\n5\n6\n7\n1\nstring filter = strmapPara.filter;\ndebugInfo[\"functionName\"] = \"QueryRecords\";\nstring errormsg = \"\";\nreturnData[\"errormsg\"] = \"ok\";\nstringMap<var> debugInfo;\nstringMap<var> returnData;\nreturnData[\"errorcode\"] = SUCCESS_CODE;\nint32 SUCCESS_CODE = errorCodeEnum::SUCCESS_CODE;\nint32 INTERNAL_ERROR_CODE = 0 - errorCodeEnum::INTERNAL_ERROR_CODE;\nint32 cloudID = getLocalCloudID();\nstring OBJECT_NAME = \"DemoRecord\";\nATrace(2, \"QueryRecords.enter\", strmapPara);",
+      "keys": []
+    }
+  ],
+  "vueChain": []
+}

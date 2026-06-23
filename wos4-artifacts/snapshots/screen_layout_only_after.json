@@ -1,0 +1,179 @@
+{
+  "ops": [
+    {
+      "label": "r1 height strategy fixedsize",
+      "ok": true
+    },
+    {
+      "label": "r1 height 88",
+      "ok": true
+    },
+    {
+      "label": "r1 gap",
+      "ok": true
+    },
+    {
+      "label": "r1 cols 2",
+      "ok": true
+    },
+    {
+      "label": "r1 init cols",
+      "ok": true
+    },
+    {
+      "label": "r2 height strategy percentage",
+      "ok": true
+    },
+    {
+      "label": "r2 height 930",
+      "ok": true
+    },
+    {
+      "label": "r2 gap",
+      "ok": true
+    },
+    {
+      "label": "r2 cols 3",
+      "ok": true
+    },
+    {
+      "label": "r2 init cols",
+      "ok": true
+    }
+  ],
+  "children": {
+    "RCol11": {
+      "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+      "colHeight": 33,
+      "colHeightStrategy": "percentage",
+      "rect": {
+        "x": 326.6755676269531,
+        "y": 116.36743927001953,
+        "w": 49.2449951171875,
+        "h": 20.313560485839844
+      }
+    },
+    "RCol12": {
+      "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+      "colHeight": 33,
+      "colHeightStrategy": "percentage",
+      "rect": {
+        "x": 375.9205627441406,
+        "y": 116.36743927001953,
+        "w": 124.83413696289062,
+        "h": 20.313560485839844
+      }
+    },
+    "RCol13": {
+      "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+      "colHeight": 33,
+      "colHeightStrategy": "percentage",
+      "rect": {
+        "x": 500.75469970703125,
+        "y": 116.36743927001953,
+        "w": 49.2449951171875,
+        "h": 20.313560485839844
+      }
+    },
+    "RCol14": {
+      "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+      "colHeight": 33,
+      "colHeightStrategy": "percentage",
+      "rect": {
+        "x": 549.9996948242188,
+        "y": 116.36743927001953,
+        "w": 138.41497802734375,
+        "h": 20.313560485839844
+      }
+    },
+    "RCol9": {
+      "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+      "colHeight": 33,
+      "colHeightStrategy": "percentage",
+      "rect": {
+        "x": 1285.0966796875,
+        "y": 116.36743927001953,
+        "w": 49.2451171875,
+        "h": 20.313560485839844
+      }
+    },
+    "RCol2": {
+      "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+      "colHeight": 33,
+      "colHeightStrategy": "percentage",
+      "rect": {
+        "x": 1340.4974365234375,
+        "y": 116.36743927001953,
+        "w": 49.2449951171875,
+        "h": 20.313560485839844
+      }
+    },
+    "RCol8": {
+      "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+      "colHeight": 33,
+      "colHeightStrategy": "percentage",
+      "rect": {
+        "x": 1395.8980712890625,
+        "y": 116.36743927001953,
+        "w": 49.2449951171875,
+        "h": 20.313560485839844
+      }
+    },
+    "RCol3": {
+      "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+      "colHeight": 33,
+      "colHeightStrategy": "percentage",
+      "rect": {
+        "x": 1451.2987060546875,
+        "y": 116.36743927001953,
+        "w": 49.2449951171875,
+        "h": 20.313560485839844
+      }
+    },
+    "RRow1": {
+      "parentGUID": "k5d6aef4b94a95dad147d02b2a0f12e2",
+      "colsNumber": 8,
+      "rowHeight": 88,
+      "rowHeightStrategy": "fixedsize",
+      "rect": {
+        "x": 326.05999755859375,
+        "y": 115.75187683105469,
+        "w": 1181.880126953125,
+        "h": 21.544692993164062
+      }
+    },
+    "RCol6": {
+      "parentGUID": "kfced2d11d057076a229e74f82c42122",
+      "colHeight": 1023,
+      "colHeightStrategy": "percentage",
+      "rect": {
+        "x": 326.6755676269531,
+        "y": 144.0677490234375,
+        "w": 1180.033447265625,
+        "h": 629.720458984375
+      }
+    },
+    "RRow2": {
+      "parentGUID": "k5d6aef4b94a95dad147d02b2a0f12e2",
+      "colsNumber": 3,
+      "rowHeight": 1045,
+      "rowHeightStrategy": "percentage",
+      "rect": {
+        "x": 326.05999755859375,
+        "y": 143.45217895507812,
+        "w": 1181.880126953125,
+        "h": 630.9515380859375
+      }
+    },
+    "RContainer1": {
+      "parentGUID": "0c79c07f_d539_4808_84c5_e4f36a1ea285",
+      "rowsNumber": 0,
+      "rect": {
+        "x": 326.05999755859375,
+        "y": 109.59625244140625,
+        "w": 1181.880126953125,
+        "h": 664.8074951171875
+      }
+    }
+  }
+}

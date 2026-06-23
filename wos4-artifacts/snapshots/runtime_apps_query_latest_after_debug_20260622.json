@@ -1,0 +1,125 @@
+{
+  "pageInfo": null,
+  "vmPageInfo": {
+    "ret": 0,
+    "msg": "获取成功!",
+    "data": {
+      "id": "1441151880758559680",
+      "guid": "cfe7fe91-d320-4492-9421-1b36b8ddebf8",
+      "type": 1005,
+      "name": "查询列表",
+      "version": 3,
+      "spaceTime": {
+        "id": "",
+        "guid": "",
+        "name": ""
+      }
+    }
+  },
+  "queryNadirL2": {
+    "label": "NadirL2",
+    "res": {
+      "ret": 0,
+      "output": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": [
+          {
+            "$id": "5911255985900487000",
+            "$guid": "6782ee76-7a11-4b16-ad69-6ed60e34d712",
+            "$name": "业务内置APP@NadirBack/业务内置APP",
+            "$spacetimeguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+            "$modelguid": "4cdf8aaa-dcff-45ed-a061-ba1bd711673b",
+            "$modelversion": 22,
+            "$type": null
+          },
+          {
+            "$id": "5911255985900487001",
+            "$guid": "8420a814-1d55-4624-af94-9e04caa0e123",
+            "$name": "业务内置APP@NadirFront/业务内置APP",
+            "$spacetimeguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+            "$modelguid": "4cdf8aaa-dcff-45ed-a061-ba1bd711673b",
+            "$modelversion": 22,
+            "$type": null
+          },
+          {
+            "$id": "5911255985900487002",
+            "$guid": "aceb217d-a2d3-43bd-91a3-3061659f7228",
+            "$name": "盛云_孙宇飞_前端_CRUDDemo_0620@NadirFront",
+            "$spacetimeguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+            "$modelguid": "a739da42-6355-4085-a5e9-a1c5ec088b30",
+            "$modelversion": 2,
+            "$type": null
+          },
+          {
+            "$id": "5911255985900487003",
+            "$guid": "4288f4bb-72f0-40e7-a814-0f1fbb10d700",
+            "$name": "盛云_孙宇飞_后台_CRUDDemo_0620@NadirBack",
+            "$spacetimeguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+            "$modelguid": "5702ad4a-a934-43a9-9e14-f2ca545abb53",
+            "$modelversion": 2,
+            "$type": null
+          },
+          {
+            "$id": "5911255985900487004",
+            "$guid": "9174a4a6-3db0-40ff-93d0-997a3dae5389",
+            "$name": "业务事_运行后台@NadirBack/业务事_运行后台",
+            "$spacetimeguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+            "$modelguid": "f2cafeb2-27f2-43df-881f-0fcb6b49ab45",
+            "$modelversion": 7,
+            "$type": null
+          },
+          {
+            "$id": "5911255985900487005",
+            "$guid": "170b9322-6eeb-46ed-aebd-454a1657c828",
+            "$name": "请求式计算_HTTP服务模型@NadirBack",
+            "$spacetimeguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+            "$modelguid": "83aacd80-448a-4e0d-b79b-c57d04acb0c7",
+            "$modelversion": 1,
+            "$type": null
+          },
+          {
+            "$id": "5911255985900487006",
+            "$guid": "ac4dd4dc-2321-4dab-99cf-3dd5f57ed888",
+            "$name": "DemoCrudBackend_CUSTOMFUNC@NadirBack",
+            "$spacetimeguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+            "$modelguid": "478c5219-9a87-4038-94cb-574514ae6d82",
+            "$modelversion": 3,
+            "$type": null
+          }
+        ]
+      },
+      "traceID": "5188991008471593984",
+      "consumeTime": 40
+    }
+  },
+  "queryBlank": {
+    "label": "blank",
+    "res": {
+      "ret": 0,
+      "output": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": []
+      },
+      "traceID": "5188991166079665152",
+      "consumeTime": 170
+    }
+  },
+  "queryOmitted": {
+    "ret": 0,
+    "output": {
+      "errorcodes": [
+        0
+      ],
+      "ret": 0,
+      "returndata": []
+    },
+    "traceID": "5188991227997629440",
+    "consumeTime": 140
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "initial": [
+    {
+      "path": "top",
+      "href": "http://221.239.19.118:13001/public/index.html?id=6192730962611142709&parentid=0&cloudid=107&clientnumber=7710165594863352807&bs=true#/#{%22clientGuid%22:%22d01d4d20-79d3-4b0d-9d89-77856713e525%22,%22FUType%22:11}",
+      "title": "🐴 WellinOS4.0",
+      "text": "",
+      "frames": 1,
+      "runtime": null
+    },
+    {
+      "path": "top.0",
+      "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+      "title": "客户端运行",
+      "text": "查询全部(0)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n暂无匹配数据\n共 0 条\n1\n前往页",
+      "frames": 0,
+      "runtime": {
+        "spaceTimeId": null,
+        "pageName": null,
+        "last": null,
+        "lastErr": null
+      }
+    }
+  ],
+  "rects": [
+    {
+      "path": "top.0",
+      "idx": 26,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "查询全部(0)",
+      "x": 1709.9375,
+      "y": 37,
+      "w": 73.125,
+      "h": 14,
+      "area": 1023.75
+    },
+    {
+      "path": "top.0",
+      "idx": 20,
+      "tag": "DIV",
+      "cls": "",
+      "text": "查询全部(0)",
+      "x": 1574,
+      "y": 0,
+      "w": 345,
+      "h": 88,
+      "area": 30360
+    },
+    {
+      "path": "top.0",
+      "idx": 21,
+      "tag": "DIV",
+      "cls": "component_object_unselect",
+      "text": "查询全部(0)",
+      "x": 1574,
+      "y": 0,
+      "w": 345,
+      "h": 88,
+      "area": 30360
+    },
+    {
+      "path": "top.0",
+      "idx": 22,
+      "tag": "DIV",
+      "cls": "ui_factory",
+      "text": "查询全部(0)",
+      "x": 1574,
+      "y": 0,
+      "w": 345,
+      "h": 88,
+      "area": 30360
+    },
+    {
+      "path": "top.0",
+      "idx": 23,
+      "tag": "DIV",
+      "cls": "pointer_auto",
+      "text": "查询全部(0)",
+      "x": 1574,
+      "y": 0,
+      "w": 345,
+      "h": 88,
+      "area": 30360
+    },
+    {
+      "path": "top.0",
+      "idx": 24,
+      "tag": "DIV",
+      "cls": "component_object demo_query_button",
+      "text": "查询全部(0)",
+      "x": 1574,
+      "y": 0,
+      "w": 345,
+      "h": 88,
+      "area": 30360
+    },
+    {
+      "path": "top.0",
+      "idx": 25,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--primary el-button--medium propertyStyle",
+      "text": "查询全部(0)",
+      "x": 1574,
+      "y": 0,
+      "w": 345,
+      "h": 88,
+      "area": 30360
+    },
+    {
+      "path": "top.0",
+      "idx": 9,
+      "tag": "DIV",
+      "cls": "response_row",
+      "text": "查询全部(0)",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 88,
+      "area": 168960
+    },
+    {
+      "path": "top.0",
+      "idx": 10,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "查询全部(0)",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 88,
+      "area": 168960
+    },
+    {
+      "path": "top.0",
+      "idx": 0,
+      "tag": "DIV",
+      "cls": "client_run",
+      "text": "查询全部(0)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n暂无匹配数据\n共 0 条\n1\n前往页",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 945,
+      "area": 1814400
+    },
+    {
+      "path": "top.0",
+      "idx": 1,
+      "tag": "DIV",
+      "cls": "",
+      "text": "查询全部(0)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n暂无匹配数据\n共 0 条\n1\n前往页",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 945,
+      "area": 1814400
+    },
+    {
+      "path": "top.0",
+      "idx": 2,
+      "tag": "DIV",
+      "cls": "ksc_page_run",
+      "text": "查询全部(0)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n暂无匹配数据\n共 0 条\n1\n前往页",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 945,
+      "area": 1814400
+    },
+    {
+      "path": "top.0",
+      "idx": 3,
+      "tag": "DIV",
+      "cls": "page_running",
+      "text": "查询全部(0)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n暂无匹配数据\n共 0 条\n1\n前往页",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 945,
+      "area": 1814400
+    },
+    {
+      "path": "top.0",
+      "idx": 4,
+      "tag": "DIV",
+      "cls": "page_view_container client_page_view_container",
+      "text": "查询全部(0)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n暂无匹配数据\n共 0 条\n1\n前往页",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 945,
+      "area": 1814400
+    },
+    {
+      "path": "top.0",
+      "idx": 5,
+      "tag": "DIV",
+      "cls": "page_view",
+      "text": "查询全部(0)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n暂无匹配数据\n共 0 条\n1\n前往页",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 945,
+      "area": 1814400
+    },
+    {
+      "path": "top.0",
+      "idx": 6,
+      "tag": "DIV",
+      "cls": "layer_view",
+      "text": "查询全部(0)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n暂无匹配数据\n共 0 条\n1\n前往页",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 945,
+      "area": 1814400
+    },
+    {
+      "path": "top.0",
+      "idx": 7,
+      "tag": "DIV",
+      "cls": "layout_container containerStyle",
+      "text": "查询全部(0)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n暂无匹配数据\n共 0 条\n1\n前往页",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 945,
+      "area": 1814400
+    },
+    {
+      "path": "top.0",
+      "idx": 8,
+      "tag": "SPAN",
+      "cls": "containerrow",
+      "text": "查询全部(0)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n暂无匹配数据\n共 0 条\n1\n前往页",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 945,
+      "area": 1814400
+    }
+  ],
+  "verify": [
+    {
+      "path": "top",
+      "href": "http://221.239.19.118:13001/public/index.html?id=6192730962611142709&parentid=0&cloudid=107&clientnumber=7710165594863352807&bs=true#/#{%22clientGuid%22:%22d01d4d20-79d3-4b0d-9d89-77856713e525%22,%22FUType%22:11}",
+      "title": "🐴 WellinOS4.0",
+      "text": "",
+      "frames": 1,
+      "runtime": null
+    },
+    {
+      "path": "top.0",
+      "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+      "title": "客户端运行",
+      "text": "查询全部(0)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n暂无匹配数据\n共 0 条\n1\n前往页",
+      "frames": 0,
+      "runtime": {
+        "spaceTimeId": null,
+        "pageName": null,
+        "last": null,
+        "lastErr": null
+      }
+    }
+  ]
+}

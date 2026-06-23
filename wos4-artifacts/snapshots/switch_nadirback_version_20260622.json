@@ -1,0 +1,16 @@
+{
+  "click": {
+    "clicked": true,
+    "btnText": "切换模型版本",
+    "rowText": "\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除"
+  },
+  "summary": {
+    "dialogs": [
+      {
+        "text": "变更模型版本\n\n模型版本\n\n取消\n确定",
+        "html": "<div role=\"dialog\" aria-modal=\"true\" aria-label=\"数字孪生实例化_实例_变更模型版本\" class=\"el-dialog\" style=\"margin-top: 349.5px; width: 350px;\"><div class=\"el-dialog__header\" style=\"display: none;\"><div data-v-1eab1b7f=\"\" class=\"slot_header\"><div data-v-1eab1b7f=\"\" class=\"text_left\"><div data-v-1eab1b7f=\"\" style=\"text-align: left; display: flex; align-items: center;\"><span data-v-1eab1b7f=\"\">数字孪生实例化_实例_变更模型版本</span></div></div><div data-v-1eab1b7f=\"\" class=\"title_icon\"><!----><!----><i data-v-1eab1b7f=\"\" title=\"关闭\" class=\"i el-icon-close\" style=\"font-size: 14px;\"></i></div></div><!----></div><div class=\"el-dialog__body\"><div data-v-1eab1b7f=\"\" id=\"name_数字孪生实例化_实例_变更模型版本\" style=\"width: 330px; height: 200px;\"><div data-v-120b977f=\"\" class=\"page_view_container show_child_view_container\" childwidth=\"330\" childheight=\"200\"><div data-v-401dd8fe=\"\" data-v-120b977f=\"\" id=\"pageView\" class=\"page_view\" style=\"width: 100%; height: 100%; position: relative;\"><div data-v-4d5fa2e2=\"\" data-v-401dd8fe=\"\" class=\"layer_view\" style=\"height: 100%; width: 100%; position: absolute; overflow: hidden; pointer-events: auto; z-index: 1000;\"><div data-v-07e088b2=\"\" data-v-4d5fa2e2=\"\" id=\"RContainerkf1d7e15fbbadfd86d4ffbd0436f616a\" testid=\"RContainer1\" tabindex=\"mode === $CONSTANTS.APP_CONSTANTS.MODE.DEVELOPMENT ? '1' : ''\" class=\"layout_container containerStyle\" style=\"--top: 188px;\"><span data-v-07e088b2=\"\" class=\"containerrow\"><div data-v-0be8d4dd=\"\" data-v-07e088b2=\"\" id=\"k5eb83c45ff5911539ce6df3b4cb7e9f\" class=\"response_row\" style=\"margin: 0px; height: 50px; position: relative;\"><span data-v-0be8d4dd=\"\" style=\"display: flex; flex-wrap: wrap; flex-grow: 1; justify-content: flex-start;\"><div data-v-6868b17b=\"\" data-v-0be8d4dd=\"\" id=\"kb9340c8fdcc1acb20cf2d36b48ea2dc\" tabindex=\"\" class=\"\" style=\"height: 49px; width: 150px; margin: 0px; position: relative;\"><div data-v-6868b17b=\"\" class=\"component_object_unselect\" style=\"width: 150px; height: 49px; transform: scale(1); transform-origin: left top;\"><div data-v"
+      }
+    ],
+    "body": "KingFusion4.5_工程浏览器\n\n< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n变更模型版本\n\n模型版本\n\n取消\n确定"
+  }
+}

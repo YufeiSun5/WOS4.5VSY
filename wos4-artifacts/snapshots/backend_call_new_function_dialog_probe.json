@@ -1,0 +1,822 @@
+{
+  "rect": {
+    "x": 61,
+    "y": 82,
+    "w": 270,
+    "h": 31
+  },
+  "visible": [
+    {
+      "path": "top.0",
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default is-link",
+      "text": "仓库包",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1622.546875,
+        "y": 15.25,
+        "w": 71,
+        "h": 23.484375
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default is-link",
+      "text": "权限",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1705.546875,
+        "y": 16,
+        "w": 56,
+        "h": 22
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default is-disabled is-link",
+      "text": "镜像",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1773.546875,
+        "y": 16,
+        "w": 57.453125,
+        "h": 22
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default is-disabled is-link",
+      "text": "关于",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1843,
+        "y": 16,
+        "w": 56,
+        "h": 22
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "DIV",
+      "cls": "el-input el-input--default el-input--suffix model-function-search-input",
+      "text": "",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 61,
+        "y": 123,
+        "w": 270,
+        "h": 36
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "INPUT",
+      "cls": "el-input__inner",
+      "text": "请输入功能名称",
+      "placeholder": "请输入功能名称",
+      "value": "",
+      "rect": {
+        "x": 73,
+        "y": 126,
+        "w": 218,
+        "h": 30
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default",
+      "text": "提交",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1279,
+        "y": 74,
+        "w": 78,
+        "h": 32
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default",
+      "text": "调试配置",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1369,
+        "y": 74,
+        "w": 106,
+        "h": 32
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "FORM",
+      "cls": "el-form el-form--default el-form--label-right monaco-editor-tab-metalang-data-form",
+      "text": "名称:\n输入参数:\n返回值类型:",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 359,
+        "y": 152,
+        "w": 1178,
+        "h": 44
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "DIV",
+      "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-name wos-editor-function-name",
+      "text": "",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 402.90625,
+        "y": 157,
+        "w": 194,
+        "h": 34
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "INPUT",
+      "cls": "el-input__inner",
+      "text": "请输入功能名称",
+      "placeholder": "请输入功能名称",
+      "value": "declare",
+      "rect": {
+        "x": 414.90625,
+        "y": 159,
+        "w": 170,
+        "h": 30
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "DIV",
+      "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param",
+      "text": "",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 688.8125,
+        "y": 157,
+        "w": 205,
+        "h": 34
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "INPUT",
+      "cls": "el-input__inner",
+      "text": "参数用,隔开，如int a, int b",
+      "placeholder": "参数用,隔开，如int a, int b",
+      "value": "",
+      "rect": {
+        "x": 700.8125,
+        "y": 159,
+        "w": 170,
+        "h": 30
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "DIV",
+      "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type",
+      "text": "",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 999.71875,
+        "y": 157,
+        "w": 194,
+        "h": 34
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "INPUT",
+      "cls": "el-input__inner",
+      "text": "",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1011.71875,
+        "y": 159,
+        "w": 170,
+        "h": 30
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "TEXTAREA",
+      "cls": "inputarea monaco-mouse-cursor-text",
+      "text": "",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 432,
+        "y": 201,
+        "w": 1,
+        "h": 1
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "INPUT",
+      "cls": "el-radio-button__original-radio",
+      "text": "common.property.baseInfo",
+      "placeholder": "",
+      "value": "common.property.baseInfo",
+      "rect": {
+        "x": 1564,
+        "y": 115,
+        "w": 13,
+        "h": 13
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "FORM",
+      "cls": "el-form el-form--default el-form--label-right property-item property-item-name property-value",
+      "text": "",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1695,
+        "y": 158,
+        "w": 146,
+        "h": 36
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "DIV",
+      "cls": "el-input el-input--default",
+      "text": "",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1695,
+        "y": 161,
+        "w": 146,
+        "h": 30
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "INPUT",
+      "cls": "el-input__inner",
+      "text": "盛云_孙宇飞_元语言查询Demo_0617",
+      "placeholder": "",
+      "value": "盛云_孙宇飞_元语言查询Demo_0617",
+      "rect": {
+        "x": 1695,
+        "y": 161,
+        "w": 146,
+        "h": 30
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "FORM",
+      "cls": "el-form el-form--default el-form--label-right property-item property-item-displayname property-value",
+      "text": "",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1695,
+        "y": 195,
+        "w": 146,
+        "h": 36
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "DIV",
+      "cls": "el-input el-input--default",
+      "text": "",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1695,
+        "y": 198,
+        "w": 146,
+        "h": 30
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "INPUT",
+      "cls": "el-input__inner",
+      "text": "盛云_孙宇飞_元语言查询Demo_0617",
+      "placeholder": "",
+      "value": "盛云_孙宇飞_元语言查询Demo_0617",
+      "rect": {
+        "x": 1695,
+        "y": 198,
+        "w": 146,
+        "h": 30
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "FORM",
+      "cls": "el-form el-form--default el-form--label-right property-item property-item-description property-value",
+      "text": "95 / 128",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1695,
+        "y": 232,
+        "w": 146,
+        "h": 36
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "DIV",
+      "cls": "el-input el-input--default",
+      "text": "95 / 128",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1695,
+        "y": 235,
+        "w": 146,
+        "h": 30
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "INPUT",
+      "cls": "el-input__inner",
+      "text": "Meta-language backend demo for WOS4 smoke chain; operator SunYufei; created by browser-harness.",
+      "placeholder": "",
+      "value": "Meta-language backend demo for WOS4 smoke chain; operator SunYufei; created by browser-harness.",
+      "rect": {
+        "x": 1695,
+        "y": 235,
+        "w": 86.609375,
+        "h": 30
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "FORM",
+      "cls": "el-form el-form--default el-form--label-right property-item property-item-id property-value",
+      "text": "1441151880758559635",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1695,
+        "y": 269,
+        "w": 146,
+        "h": 36
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "FORM",
+      "cls": "el-form el-form--default el-form--label-right property-item property-item-guid property-value",
+      "text": "0eb5ff6c-93d1-481f-96a4-1c8be6646531",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1695,
+        "y": 306,
+        "w": 146,
+        "h": 36
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "FORM",
+      "cls": "el-form el-form--default el-form--label-right property-item property-item-versionstatus property-value",
+      "text": "编辑态",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1695,
+        "y": 343,
+        "w": 146,
+        "h": 36
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "FORM",
+      "cls": "el-form el-form--default el-form--label-right property-item property-item-iconinfo property-value",
+      "text": "已配置\n上传",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1695,
+        "y": 380,
+        "w": 146,
+        "h": 36
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default is-link",
+      "text": "上传",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1807,
+        "y": 389.46875,
+        "w": 34,
+        "h": 20
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "FORM",
+      "cls": "el-form el-form--default el-form--label-right property-item property-item-type property-value",
+      "text": "功能单元模型",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1695,
+        "y": 417,
+        "w": 146,
+        "h": 36
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "FORM",
+      "cls": "el-form el-form--default el-form--label-right property-item property-item-historyVersion property-value",
+      "text": "提交\n查看",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1695,
+        "y": 454,
+        "w": 146,
+        "h": 36
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default is-link",
+      "text": "提交",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1761,
+        "y": 463.46875,
+        "w": 34,
+        "h": 20
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default is-link",
+      "text": "查看",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1807,
+        "y": 463.46875,
+        "w": 34,
+        "h": 20
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "FORM",
+      "cls": "el-form el-form--default el-form--label-right property-item property-item-fullname property-value",
+      "text": "盛云_孙宇飞_仓库",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1695,
+        "y": 491,
+        "w": 146,
+        "h": 36
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "FORM",
+      "cls": "el-form el-form--default el-form--label-right property-item property-item-label1 property-value",
+      "text": "",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1695,
+        "y": 528,
+        "w": 146,
+        "h": 36
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "DIV",
+      "cls": "el-input el-input--default",
+      "text": "",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1695,
+        "y": 531,
+        "w": 146,
+        "h": 30
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "INPUT",
+      "cls": "el-input__inner",
+      "text": "",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1695,
+        "y": 531,
+        "w": 146,
+        "h": 30
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "FORM",
+      "cls": "el-form el-form--default el-form--label-right property-item property-item-label2 property-value",
+      "text": "",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1695,
+        "y": 565,
+        "w": 146,
+        "h": 36
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "DIV",
+      "cls": "el-input el-input--default",
+      "text": "",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1695,
+        "y": 568,
+        "w": 146,
+        "h": 30
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "INPUT",
+      "cls": "el-input__inner",
+      "text": "",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1695,
+        "y": 568,
+        "w": 146,
+        "h": 30
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "FORM",
+      "cls": "el-form el-form--default el-form--label-right property-item property-item-label3 property-value",
+      "text": "",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1695,
+        "y": 602,
+        "w": 146,
+        "h": 36
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "DIV",
+      "cls": "el-input el-input--default",
+      "text": "",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1695,
+        "y": 605,
+        "w": 146,
+        "h": 30
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "INPUT",
+      "cls": "el-input__inner",
+      "text": "",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1695,
+        "y": 605,
+        "w": 146,
+        "h": 30
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "DIV",
+      "cls": "el-overlay el-modal-dialog dialog-fade-enter-from dialog-fade-enter-active",
+      "text": "新建\n功能名:\n输入参数:\n返回值类型:\n取消\n确定",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 899
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "DIV",
+      "cls": "el-overlay-dialog",
+      "text": "新建\n功能名:\n输入参数:\n返回值类型:\n取消\n确定",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 899
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "DIV",
+      "cls": "el-dialog dialog-add-function",
+      "text": "新建\n功能名:\n输入参数:\n返回值类型:\n取消\n确定",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 710,
+        "y": 134.84375,
+        "w": 500,
+        "h": 274
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "BUTTON",
+      "cls": "el-dialog__headerbtn",
+      "text": "",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1166,
+        "y": 134.84375,
+        "w": 44,
+        "h": 48
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "FORM",
+      "cls": "el-form el-form--default el-form--label-right",
+      "text": "功能名:\n输入参数:\n返回值类型:",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 738,
+        "y": 200.84375,
+        "w": 454,
+        "h": 132
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "DIV",
+      "cls": "el-input el-input--default dialog-add-function-name",
+      "text": "",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 823.453125,
+        "y": 200.84375,
+        "w": 368.546875,
+        "h": 32
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "INPUT",
+      "cls": "el-input__inner",
+      "text": "请输入功能名称",
+      "placeholder": "请输入功能名称",
+      "value": "",
+      "rect": {
+        "x": 834.453125,
+        "y": 201.84375,
+        "w": 346.546875,
+        "h": 30
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "DIV",
+      "cls": "el-input el-input--default dialog-add-function-paramList",
+      "text": "",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 823.90625,
+        "y": 250.84375,
+        "w": 368.09375,
+        "h": 32
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "INPUT",
+      "cls": "el-input__inner",
+      "text": "参数用,隔开，如int a, int b",
+      "placeholder": "参数用,隔开，如int a, int b",
+      "value": "",
+      "rect": {
+        "x": 834.90625,
+        "y": 251.84375,
+        "w": 346.09375,
+        "h": 30
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "DIV",
+      "cls": "el-input el-input--default dialog-add-function-returnType",
+      "text": "",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 823.90625,
+        "y": 300.84375,
+        "w": 368.09375,
+        "h": 32
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "INPUT",
+      "cls": "el-input__inner",
+      "text": "",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 834.90625,
+        "y": 301.84375,
+        "w": 346.09375,
+        "h": 30
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default dialog-add-function-close",
+      "text": "取消",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1062,
+        "y": 360.84375,
+        "w": 60,
+        "h": 32
+      }
+    },
+    {
+      "path": "top.0",
+      "tag": "BUTTON",
+      "cls": "el-button el-button--primary el-button--default dialog-add-function-confirm",
+      "text": "确定",
+      "placeholder": "",
+      "value": "",
+      "rect": {
+        "x": 1134,
+        "y": 360.84375,
+        "w": 60,
+        "h": 32
+      }
+    }
+  ]
+}

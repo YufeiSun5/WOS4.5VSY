@@ -1,0 +1,27 @@
+{
+  "task": "敏感信息提交前清理",
+  "created_at": "2026-06-23T11:35:01",
+  "note": "before-sensitive contains local-only sensitive backups and must stay ignored; manifest does not include secret values.",
+  "file_count": 52,
+  "files": [
+    "AI-INTERACTION-PANEL.md",
+    "MEMORY.md",
+    "WOS4_deep_test_notes.md",
+    "wos4-artifacts/backups/collab-mcp-ini-policy-20260623T095819/before/AI-INTERACTION-PANEL.md",
+    "wos4-artifacts/backups/collab-mcp-ini-policy-20260623T095819/before/MEMORY.md",
+    "wos4-artifacts/backups/config-readme-ini-policy-20260623T100002/before/MEMORY.md",
+    "wos4-artifacts/backups/doc-policy-tighten-20260623T093624/before/MEMORY.md",
+    "wos4-artifacts/backups/readme-second-pass-20260623T095029/before/MEMORY.md",
+    "wos4-artifacts/backups/readme-seeding-20260623T094705/before/MEMORY.md",
+    "wos4-artifacts/docs/help-manual/manual_data.json",
+    "wos4-artifacts/docs/help-manual/manual_text.md",
+    "wos4-artifacts/docs/help-manual/static/js/file.js",
+    "wos4-artifacts/docs/wos4-help-kb/source/manual_data.json",
+    "wos4-artifacts/docs/wos4-help-kb/source/manual_text.md",
+    "wos4-artifacts/snapshots/config_variables_links_probe_20260622.json",
+    "wos4-artifacts/snapshots/debug_config_user_access_dialog_20260622.json",
+    "wos4-artifacts/snapshots/full_child_submit_pages_20260622.json",
+    "wos4-artifacts/snapshots/kingstudio_app_95/a882f412-06f7-4256-930d-571048dc3933_95_config.js_t_1778745025025",
+    "wos4-artifacts/snapshots/page_data_full_dump.json"
+  ]
+}

@@ -1,0 +1,863 @@
+{
+  "chain": [
+    {
+      "tag": "DIV",
+      "cls": "data-item",
+      "text": "盛云_孙宇飞_元语言查询Demo_0617",
+      "keys": [],
+      "vue2": null,
+      "vue3": null
+    },
+    {
+      "tag": "MAIN",
+      "cls": "el-main",
+      "text": "盛云_孙宇飞_元语言查询Demo_0617\n盛云_孙宇飞_元语言查询Demo_0617_拷贝1\n盛云_孙宇飞_元语言查询Demo_0617_拷贝2",
+      "keys": [],
+      "vue2": null,
+      "vue3": null
+    },
+    {
+      "tag": "SECTION",
+      "cls": "el-container is-vertical data-container",
+      "text": "盛云_孙宇飞_元语言查询Demo_0617\n盛云_孙宇飞_元语言查询Demo_0617_拷贝1\n盛云_孙宇飞_元语言查询Demo_0617_拷贝2\n全选\n共 3",
+      "keys": [],
+      "vue2": null,
+      "vue3": null
+    },
+    {
+      "tag": "MAIN",
+      "cls": "el-main",
+      "text": "盛云_孙宇飞_元语言查询Demo_0617\n盛云_孙宇飞_元语言查询Demo_0617_拷贝1\n盛云_孙宇飞_元语言查询Demo_0617_拷贝2\n全选\n共 3",
+      "keys": [],
+      "vue2": null,
+      "vue3": null
+    },
+    {
+      "tag": "SECTION",
+      "cls": "el-container is-vertical data-view",
+      "text": "新建\n生成拷贝\n复制\n移动\n导入\n导出\n删除\n上传资源\n打包\n名称\n本仓库-多类型\n盛云_孙宇飞_元语言查询Demo_0617\n盛云_孙宇飞_元语言查询Demo",
+      "keys": [],
+      "vue2": null,
+      "vue3": null
+    },
+    {
+      "tag": "MAIN",
+      "cls": "el-main repository-main-view",
+      "text": "新建\n生成拷贝\n复制\n移动\n导入\n导出\n删除\n上传资源\n打包\n名称\n本仓库-多类型\n盛云_孙宇飞_元语言查询Demo_0617\n盛云_孙宇飞_元语言查询Demo",
+      "keys": [],
+      "vue2": null,
+      "vue3": null
+    },
+    {
+      "tag": "SECTION",
+      "cls": "el-container",
+      "text": "时空管理\n新建\n删除\n默认数据区\nKingFusion4.5_V1\nKingStudio4.5_Beta_dataBase\nKF4.5工程\nKingStudio",
+      "keys": [],
+      "vue2": null,
+      "vue3": null
+    },
+    {
+      "tag": "DIV",
+      "cls": "work-space-layout",
+      "text": "时空管理\n新建\n删除\n默认数据区\nKingFusion4.5_V1\nKingStudio4.5_Beta_dataBase\nKF4.5工程\nKingStudio",
+      "keys": [],
+      "vue2": null,
+      "vue3": null
+    },
+    {
+      "tag": "DIV",
+      "cls": "h100",
+      "text": "时空管理\n新建\n删除\n默认数据区\nKingFusion4.5_V1\nKingStudio4.5_Beta_dataBase\nKF4.5工程\nKingStudio",
+      "keys": [],
+      "vue2": null,
+      "vue3": null
+    },
+    {
+      "tag": "MAIN",
+      "cls": "worker-space-view-main",
+      "text": "时空管理\n新建\n删除\n默认数据区\nKingFusion4.5_V1\nKingStudio4.5_Beta_dataBase\nKF4.5工程\nKingStudio",
+      "keys": [],
+      "vue2": null,
+      "vue3": null
+    },
+    {
+      "tag": "DIV",
+      "cls": "worker-space-view",
+      "text": "时空管理\n新建\n删除\n默认数据区\nKingFusion4.5_V1\nKingStudio4.5_Beta_dataBase\nKF4.5工程\nKingStudio",
+      "keys": [],
+      "vue2": null,
+      "vue3": null
+    },
+    {
+      "tag": "MAIN",
+      "cls": "el-main main-view",
+      "text": "时空管理\n新建\n删除\n默认数据区\nKingFusion4.5_V1\nKingStudio4.5_Beta_dataBase\nKF4.5工程\nKingStudio",
+      "keys": [],
+      "vue2": null,
+      "vue3": null
+    }
+  ],
+  "globals": [
+    "opener",
+    "open",
+    "__VUE_INSTANCE_SETTERS__",
+    "__VUE_SSR_SETTERS__",
+    "__VUE_I18N_FULL_INSTALL__",
+    "__VUE_I18N_LEGACY_API__",
+    "__VUE__",
+    "__vueuse_ssr_handlers__"
+  ],
+  "bodyClasses": "",
+  "menus": [
+    {
+      "cls": "el-dropdown",
+      "text": "",
+      "display": "flex",
+      "rect": {
+        "x": 442,
+        "y": 89,
+        "width": 14,
+        "height": 14,
+        "top": 89,
+        "right": 456,
+        "bottom": 103,
+        "left": 442
+      }
+    },
+    {
+      "cls": "el-dropdown",
+      "text": "",
+      "display": "flex",
+      "rect": {
+        "x": 500,
+        "y": 89,
+        "width": 14,
+        "height": 14,
+        "top": 89,
+        "right": 514,
+        "bottom": 103,
+        "left": 500
+      }
+    },
+    {
+      "cls": "el-popper is-light el-tooltip el-popover",
+      "text": "模式选择:只导出本仓库导出本仓库+数据对象只导出仓库树结构导出仓库树结构+数据对象是否开源:是否",
+      "display": "none",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-dropdown",
+      "text": "",
+      "display": "flex",
+      "rect": {
+        "x": 816,
+        "y": 89,
+        "width": 14,
+        "height": 14,
+        "top": 89,
+        "right": 830,
+        "bottom": 103,
+        "left": 816
+      }
+    },
+    {
+      "cls": "el-dropdown tool-dropdown",
+      "text": "",
+      "display": "flex",
+      "rect": {
+        "x": 830,
+        "y": 80,
+        "width": 14,
+        "height": 14,
+        "top": 80,
+        "right": 844,
+        "bottom": 94,
+        "left": 830
+      }
+    },
+    {
+      "cls": "el-popper is-pure is-light el-tooltip el-dropdown__popper",
+      "text": "新建生成拷贝生成拷贝至复制复制至移动导入导出模式选择:只导出本仓库导出本仓库+数据对象只导出仓库树结构导出仓库树结构+数据对象是否开源:是否删除上传资源打包全量打包",
+      "display": "none",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-scrollbar__view el-dropdown__list",
+      "text": "新建生成拷贝生成拷贝至复制复制至移动导入导出模式选择:只导出本仓库导出本仓库+数据对象只导出仓库树结构导出仓库树结构+数据对象是否开源:是否删除上传资源打包全量打包",
+      "display": "block",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-dropdown-menu el-dropdown-menu--default",
+      "text": "新建生成拷贝生成拷贝至复制复制至移动导入导出模式选择:只导出本仓库导出本仓库+数据对象只导出仓库树结构导出仓库树结构+数据对象是否开源:是否删除上传资源打包全量打包",
+      "display": "block",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-dropdown-menu__item",
+      "text": "新建",
+      "display": "flex",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-dropdown-menu__item is-disabled",
+      "text": "生成拷贝生成拷贝至",
+      "display": "flex",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-dropdown",
+      "text": "生成拷贝至",
+      "display": "flex",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-popper is-pure is-light el-tooltip el-dropdown__popper",
+      "text": "生成拷贝至",
+      "display": "none",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-scrollbar__view el-dropdown__list",
+      "text": "生成拷贝至",
+      "display": "block",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-dropdown-menu el-dropdown-menu--default",
+      "text": "生成拷贝至",
+      "display": "block",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-dropdown-menu__item is-disabled",
+      "text": "生成拷贝至",
+      "display": "flex",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-dropdown-menu__item is-disabled",
+      "text": "复制复制至",
+      "display": "flex",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-dropdown",
+      "text": "复制至",
+      "display": "flex",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-popper is-pure is-light el-tooltip el-dropdown__popper",
+      "text": "复制至",
+      "display": "none",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-scrollbar__view el-dropdown__list",
+      "text": "复制至",
+      "display": "block",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-dropdown-menu el-dropdown-menu--default",
+      "text": "复制至",
+      "display": "block",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-dropdown-menu__item is-disabled",
+      "text": "复制至",
+      "display": "flex",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-dropdown-menu__item is-disabled",
+      "text": "移动",
+      "display": "flex",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-dropdown-menu__item",
+      "text": "导入",
+      "display": "flex",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-dropdown-menu__item",
+      "text": "导出模式选择:只导出本仓库导出本仓库+数据对象只导出仓库树结构导出仓库树结构+数据对象是否开源:是否",
+      "display": "flex",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-popper is-light el-tooltip el-popover",
+      "text": "模式选择:只导出本仓库导出本仓库+数据对象只导出仓库树结构导出仓库树结构+数据对象是否开源:是否",
+      "display": "none",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-dropdown-menu__item is-disabled",
+      "text": "删除",
+      "display": "flex",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-dropdown-menu__item",
+      "text": "上传资源",
+      "display": "flex",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-dropdown-menu__item",
+      "text": "打包全量打包",
+      "display": "flex",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-dropdown",
+      "text": "全量打包",
+      "display": "flex",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-popper is-pure is-light el-tooltip el-dropdown__popper",
+      "text": "全量打包",
+      "display": "none",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-scrollbar__view el-dropdown__list",
+      "text": "全量打包",
+      "display": "block",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-dropdown-menu el-dropdown-menu--default",
+      "text": "全量打包",
+      "display": "block",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-dropdown-menu__item",
+      "text": "全量打包",
+      "display": "flex",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-icon-editor-property-light fu-right-menu-item",
+      "text": "",
+      "display": "flex",
+      "rect": {
+        "x": 1858,
+        "y": 79,
+        "width": 50,
+        "height": 50,
+        "top": 79,
+        "right": 1908,
+        "bottom": 129,
+        "left": 1858
+      }
+    },
+    {
+      "cls": "el-popper is-light el-tooltip el-popover",
+      "text": "时空仓库筛选全部:Label1:Label2:Label3:取消确定",
+      "display": "none",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-popper is-pure is-light el-tooltip el-dropdown__popper",
+      "text": "生成拷贝至",
+      "display": "none",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-scrollbar__view el-dropdown__list",
+      "text": "生成拷贝至",
+      "display": "block",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-dropdown-menu el-dropdown-menu--default",
+      "text": "生成拷贝至",
+      "display": "block",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-dropdown-menu__item is-disabled",
+      "text": "生成拷贝至",
+      "display": "flex",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-popper is-pure is-light el-tooltip el-dropdown__popper",
+      "text": "复制至",
+      "display": "none",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-scrollbar__view el-dropdown__list",
+      "text": "复制至",
+      "display": "block",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-dropdown-menu el-dropdown-menu--default",
+      "text": "复制至",
+      "display": "block",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-dropdown-menu__item is-disabled",
+      "text": "复制至",
+      "display": "flex",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-popper is-pure is-light el-tooltip el-dropdown__popper",
+      "text": "全量打包",
+      "display": "none",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-scrollbar__view el-dropdown__list",
+      "text": "全量打包",
+      "display": "block",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-dropdown-menu el-dropdown-menu--default",
+      "text": "全量打包",
+      "display": "block",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-dropdown-menu__item",
+      "text": "全量打包",
+      "display": "flex",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-select-dropdown",
+      "text": "名称IDGUID描述",
+      "display": "block",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-select-dropdown__wrap el-scrollbar__wrap el-scrollbar__wrap--hidden-default",
+      "text": "名称IDGUID描述",
+      "display": "block",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "cls": "el-scrollbar__view el-select-dropdown__list",
+      "text": "名称IDGUID描述",
+      "display": "block",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    }
+  ]
+}

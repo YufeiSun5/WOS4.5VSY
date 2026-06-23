@@ -1,0 +1,21 @@
+{
+  "createdAt": "2026-06-23T11:12:45+08:00",
+  "operator": "Codex",
+  "task": "去除门禁和URL硬编码",
+  "backedUpFiles": [
+    "wos4-artifacts/scripts/ai-preflight.ps1",
+    "wos4-artifacts/scripts/README.md",
+    "AGENTS.md",
+    "README.md",
+    "MEMORY.md",
+    ".ai/skills/wos4-login/SKILL.md",
+    ".ai/skills/wos4-browser-harness/SKILL.md",
+    ".ai/skills/wos4-demo-page-fullstack-skill/runbook.js",
+    ".ai/skills/wos4-demo-page-fullstack-skill/unit-tests.md",
+    ".ai/skills/wos4-create-new-page/references/new-page-flow.md",
+    ".ai/skills/wos4-meta-language-fu-create/SKILL.md",
+    "wos4-artifacts/config/wos4.local.example.ini",
+    "wos4-artifacts/config/README.md"
+  ],
+  "note": "修复 preflight 默认开发人员硬编码，并移除当前可执行 skill/runbook 中真实 WOS4 URL 硬编码。"
+}

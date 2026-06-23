@@ -1,0 +1,80 @@
+{
+  "path": "top.0",
+  "st": {
+    "spaceTime": "NadirL2",
+    "stType": 5,
+    "devName": "NadirFront",
+    "name": "NadirL2",
+    "guid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+    "id": "1152921504606851278"
+  },
+  "result": {
+    "ret": 0,
+    "output": {
+      "errorcodes": [
+        0
+      ],
+      "ret": 0,
+      "returndata": [
+        {
+          "$id": "5911255985900486967",
+          "$guid": "73e3ef20-4d45-4902-9dd7-e2d728c5428a",
+          "$name": "业务内置APP@NadirBack/业务内置APP",
+          "$type": null,
+          "futype": null,
+          "copyguid": null,
+          "copyid": null,
+          "$spacetimeguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+          "$modelguid": "4cdf8aaa-dcff-45ed-a061-ba1bd711673b",
+          "$modelversion": 22,
+          "$version": null,
+          "maxversion": null
+        },
+        {
+          "$id": "5911255985900486968",
+          "$guid": "bcbd31fa-1c9b-43f0-ac55-e3b3d0703e9f",
+          "$name": "盛云_孙宇飞_前端_CRUDDemo_0620@NadirFront",
+          "$type": null,
+          "futype": null,
+          "copyguid": null,
+          "copyid": null,
+          "$spacetimeguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+          "$modelguid": "a739da42-6355-4085-a5e9-a1c5ec088b30",
+          "$modelversion": 2,
+          "$version": null,
+          "maxversion": null
+        },
+        {
+          "$id": "5911255985900486969",
+          "$guid": "02fdf420-dc18-4121-abfd-1028614d2414",
+          "$name": "业务内置APP@NadirFront/业务内置APP",
+          "$type": null,
+          "futype": null,
+          "copyguid": null,
+          "copyid": null,
+          "$spacetimeguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+          "$modelguid": "4cdf8aaa-dcff-45ed-a061-ba1bd711673b",
+          "$modelversion": 22,
+          "$version": null,
+          "maxversion": null
+        },
+        {
+          "$id": "5911255985900486970",
+          "$guid": "4aeb7354-d29d-4969-834e-4310951bd719",
+          "$name": "盛云_孙宇飞_后台_CRUDDemo_0620@NadirBack",
+          "$type": null,
+          "futype": null,
+          "copyguid": null,
+          "copyid": null,
+          "$spacetimeguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+          "$modelguid": "5702ad4a-a934-43a9-9e14-f2ca545abb53",
+          "$modelversion": 1,
+          "$version": null,
+          "maxversion": null
+        }
+      ]
+    },
+    "traceID": "5189241935173304320",
+    "consumeTime": 30
+  }
+}

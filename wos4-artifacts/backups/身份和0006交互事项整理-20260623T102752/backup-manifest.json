@@ -1,0 +1,26 @@
+{
+  "createdAt": "2026-06-23T10:27:52+08:00",
+  "operator": "Codex",
+  "task": "身份和0006交互事项整理",
+  "files": [
+    "AI-INTERACTION-PANEL.md",
+    "MEMORY.md",
+    "wos4-artifacts/config/README.md",
+    "wos4-artifacts/config/wos4.local.ini"
+  ],
+  "newFiles": [
+    "wos4-artifacts/tasks/20260623-验证蓝色客户端创建skill/README.md",
+    "wos4-artifacts/tasks/20260623-验证蓝色客户端创建skill/01-需求说明.md",
+    "wos4-artifacts/tasks/20260623-验证蓝色客户端创建skill/02-设计布局.md",
+    "wos4-artifacts/tasks/20260623-验证蓝色客户端创建skill/03-前端逻辑.md",
+    "wos4-artifacts/tasks/20260623-验证蓝色客户端创建skill/04-后端改动.md",
+    "wos4-artifacts/tasks/20260623-验证蓝色客户端创建skill/05-测试验收.md",
+    "wos4-artifacts/tasks/20260623-验证蓝色客户端创建skill/执行日志.md",
+    "wos4-artifacts/tasks/20260623-验证蓝色客户端创建skill/assets/README.md",
+    "wos4-artifacts/tasks/20260623-验证蓝色客户端创建skill/screenshots/README.md",
+    "wos4-artifacts/tasks/20260623-验证蓝色客户端创建skill/snapshots/README.md",
+    "wos4-artifacts/tasks/20260623-验证蓝色客户端创建skill/backups/README.md"
+  ],
+  "sensitiveIniBackup": "wos4-artifacts/config/wos4.local.身份更新前-20260623T102752.ini",
+  "note": "真实 ini 备份放在 config 下的 ignored .ini 文件，不在普通备份清单中暴露内容。"
+}

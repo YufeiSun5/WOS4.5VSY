@@ -1,0 +1,1241 @@
+{
+  "outerSrc": "http://221.239.19.118:13001/public/?id=6192730962611143001&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+  "innerHref": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+  "setPage": {
+    "renderType": "setPage",
+    "pageName": "班次管理",
+    "id": "kf4a17809f95c025c058bd7711817a0f",
+    "KSCGUID": "k710b29a434692b8e422465a9ee7a30e",
+    "appType": 22,
+    "objectType": 4,
+    "pageInfo": {
+      "pageName": "班次管理",
+      "KSCGUID": "d416cdf9-495c-4845-9c17-cc1bc42a947d",
+      "parentId": "",
+      "isRecycle": "false",
+      "FUID": "7205759403792795529",
+      "testId": "",
+      "AbsPictureId": "AbsPictureId",
+      "authFlag": "close",
+      "navigateFlag": "false",
+      "FUType": "21",
+      "fuCopyId": "7205759403792795529",
+      "maxVersion": "18",
+      "$id": "7205759403792795529",
+      "$guid": "7db577b8-ac7b-463b-9467-68e0455a5d06",
+      "$name": "CLIENT_PICTURE_INFO",
+      "$repositoryGUID": "9c671df1-5b70-42d1-8650-77b89c62d711",
+      "$type": 1025,
+      "$version": null,
+      "$modelguid": "62cddf81-b419-4d86-8c08-14c82a7f28bc",
+      "$modelversion": 18,
+      "generatorType": null
+    },
+    "startParam": {
+      "child$StoreName": "$lk_客户端01__$PicManager__班次管理",
+      "fuObj": {
+        "$id": "7205759403792795529",
+        "$guid": "7db577b8-ac7b-463b-9467-68e0455a5d06",
+        "$name": "班次管理",
+        "$type": 1025,
+        "$modelguid": "62cddf81-b419-4d86-8c08-14c82a7f28bc",
+        "$modelversion": 18,
+        "$repositoryguid": "9c671df1-5b70-42d1-8650-77b89c62d711",
+        "$memberlist": [
+          {
+            "defaultenable": false,
+            "description": "成果类型",
+            "displaydigits": 20,
+            "maxvalue": null,
+            "minvalue": null,
+            "name": "FUType",
+            "notnull": false,
+            "unique": false,
+            "unit": 0,
+            "unittype": 0,
+            "updateenable": true,
+            "value": "21",
+            "valueset": "[Object]",
+            "valuetype": 13
+          },
+          {
+            "defaultenable": false,
+            "description": "回收标志位",
+            "displaydigits": 20,
+            "maxvalue": null,
+            "minvalue": null,
+            "name": "isRecycled",
+            "notnull": false,
+            "unique": false,
+            "unit": 0,
+            "unittype": 0,
+            "updateenable": true,
+            "value": "",
+            "valueset": "[Object]",
+            "valuetype": 13
+          },
+          {
+            "defaultenable": false,
+            "description": "模型私有仓库",
+            "displaydigits": 20,
+            "maxvalue": null,
+            "minvalue": null,
+            "name": "modelDBRepository",
+            "notnull": false,
+            "unique": false,
+            "unit": 0,
+            "unittype": 0,
+            "updateenable": true,
+            "value": "6a907d55-05ca-4d45-b3f9-de540fe1cf69",
+            "valueset": "[Object]",
+            "valuetype": 13
+          },
+          {
+            "defaultenable": false,
+            "description": "引用类型",
+            "displaydigits": 20,
+            "maxvalue": null,
+            "minvalue": null,
+            "name": "quotedType",
+            "notnull": false,
+            "unique": false,
+            "unit": 0,
+            "unittype": 0,
+            "updateenable": true,
+            "value": "add",
+            "valueset": "[Object]",
+            "valuetype": 13
+          },
+          {
+            "defaultenable": false,
+            "description": "在父孪生容器中的位置",
+            "displaydigits": 20,
+            "maxvalue": null,
+            "minvalue": null,
+            "name": "toFather",
+            "notnull": false,
+            "unique": false,
+            "unit": 0,
+            "unittype": 0,
+            "updateenable": true,
+            "value": "",
+            "valueset": "[Object]",
+            "valuetype": 13
+          },
+          {
+            "defaultenable": false,
+            "description": "权限是否开启标志位",
+            "displaydigits": 20,
+            "maxvalue": null,
+            "minvalue": null,
+            "name": "authFlag",
+            "notnull": false,
+            "unique": false,
+            "unit": 0,
+            "unittype": 0,
+            "updateenable": true,
+            "value": "false",
+            "valueset": "[Object]",
+            "valuetype": 13
+          },
+          {
+            "defaultenable": false,
+            "description": "时空信息",
+            "displaydigits": 20,
+            "maxvalue": null,
+            "minvalue": null,
+            "name": "spaceTime",
+            "notnull": false,
+            "unique": false,
+            "unit": 0,
+            "unittype": 0,
+            "updateenable": true,
+            "value": "",
+            "valueset": "[Object]",
+            "valuetype": 13
+          },
+          {
+            "defaultenable": false,
+            "description": "",
+            "displaydigits": 20,
+            "maxvalue": null,
+            "minvalue": null,
+            "name": "maxVersion",
+            "notnull": false,
+            "unique": false,
+            "unit": 0,
+            "unittype": 0,
+            "updateenable": true,
+            "value": "18",
+            "valueset": "[Object]",
+            "valuetype": 13
+          },
+          {
+            "defaultenable": false,
+            "description": "多人编辑信息储存",
+            "displaydigits": 20,
+            "maxvalue": null,
+            "minvalue": null,
+            "name": "multiEditor",
+            "notnull": false,
+            "unique": false,
+            "unit": 0,
+            "unittype": 0,
+            "updateenable": true,
+            "value": "",
+            "valueset": "[Object]",
+            "valuetype": 13
+          },
+          {
+            "defaultenable": false,
+            "description": "扩展域1",
+            "displaydigits": 20,
+            "maxvalue": null,
+            "minvalue": null,
+            "name": "extendField1",
+            "notnull": false,
+            "unique": false,
+            "unit": 0,
+            "unittype": 0,
+            "updateenable": true,
+            "value": "",
+            "valueset": "[Object]",
+            "valuetype": 13
+          },
+          {
+            "defaultenable": false,
+            "description": "扩展域2",
+            "displaydigits": 20,
+            "maxvalue": null,
+            "minvalue": null,
+            "name": "extendField2",
+            "notnull": false,
+            "unique": false,
+            "unit": 0,
+            "unittype": 0,
+            "updateenable": true,
+            "value": "",
+            "valueset": "[Object]",
+            "valuetype": 13
+          },
+          {
+            "defaultenable": false,
+            "description": "扩展域3",
+            "displaydigits": 20,
+            "maxvalue": null,
+            "minvalue": null,
+            "name": "extendField3",
+            "notnull": false,
+            "unique": false,
+            "unit": 0,
+            "unittype": 0,
+            "updateenable": true,
+            "value": "",
+            "valueset": "[Object]",
+            "valuetype": 13
+          },
+          {
+            "defaultenable": false,
+            "description": "扩展域4",
+            "displaydigits": 20,
+            "maxvalue": null,
+            "minvalue": null,
+            "name": "extendField4",
+            "notnull": false,
+            "unique": false,
+            "unit": 0,
+            "unittype": 0,
+            "updateenable": true,
+            "value": "",
+            "valueset": "[Object]",
+            "valuetype": 13
+          },
+          {
+            "defaultenable": false,
+            "description": "扩展域5",
+            "displaydigits": 20,
+            "maxvalue": null,
+            "minvalue": null,
+            "name": "extendField5",
+            "notnull": false,
+            "unique": false,
+            "unit": 0,
+            "unittype": 0,
+            "updateenable": true,
+            "value": "",
+            "valueset": "[Object]",
+            "valuetype": 13
+          },
+          {
+            "defaultenable": false,
+            "description": "扩展域6",
+            "displaydigits": 20,
+            "maxvalue": null,
+            "minvalue": null,
+            "name": "extendField6",
+            "notnull": false,
+            "unique": false,
+            "unit": 0,
+            "unittype": 0,
+            "updateenable": true,
+            "value": "",
+            "valueset": "[Object]",
+            "valuetype": 13
+          },
+          {
+            "defaultenable": false,
+            "description": "扩展域7",
+            "displaydigits": 20,
+            "maxvalue": null,
+            "minvalue": null,
+            "name": "extendField7",
+            "notnull": false,
+            "unique": false,
+            "unit": 0,
+            "unittype": 0,
+            "updateenable": true,
+            "value": "",
+            "valueset": "[Object]",
+            "valuetype": 13
+          },
+          {
+            "defaultenable": false,
+            "description": "扩展域8",
+            "displaydigits": 20,
+            "maxvalue": null,
+            "minvalue": null,
+            "name": "extendField8",
+            "notnull": false,
+            "unique": false,
+            "unit": 0,
+            "unittype": 0,
+            "updateenable": true,
+            "value": "",
+            "valueset": "[Object]",
+            "valuetype": 13
+          },
+          {
+            "defaultenable": false,
+            "description": "扩展域9",
+            "displaydigits": 20,
+            "maxvalue": null,
+            "minvalue": null,
+            "name": "extendField9",
+            "notnull": false,
+            "unique": false,
+            "unit": 0,
+            "unittype": 0,
+            "updateenable": true,
+            "value": "",
+            "valueset": "[Object]",
+            "valuetype": 13
+          },
+          {
+            "defaultenable": false,
+            "description": "扩展域10",
+            "displaydigits": 20,
+            "maxvalue": null,
+            "minvalue": null,
+            "name": "extendField10",
+            "notnull": false,
+            "unique": false,
+            "unit": 0,
+            "unittype": 0,
+            "updateenable": true,
+            "value": "",
+            "valueset": "[Object]",
+            "valuetype": 13
+          },
+          {
+            "defaultenable": false,
+            "description": "是否有子App",
+            "displaydigits": 20,
+            "maxvalue": null,
+            "minvalue": null,
+            "name": "isHasChild",
+            "notnull": false,
+            "unique": false,
+            "unit": 0,
+            "unittype": 0,
+            "updateenable": true,
+            "value": "false",
+            "valueset": "[Object]",
+            "valuetype": 13
+          },
+          {
+            "defaultenable": false,
+            "description": "JSON数据存储的ID",
+            "displaydigits": 20,
+            "maxvalue": null,
+            "minvalue": null,
+            "name": "jsonFileId",
+            "notnull": false,
+            "unique": false,
+            "unit": 0,
+            "unittype": 0,
+            "updateenable": true,
+            "value": "488",
+            "valueset": "[Object]",
+            "valuetype": 13
+          },
+          {
+            "defaultenable": false,
+            "description": "图片数据存储的文件夹ID",
+            "displaydigits": 20,
+            "maxvalue": null,
+            "minvalue": null,
+            "name": "imageFolderId",
+            "notnull": false,
+            "unique": false,
+            "unit": 0,
+            "unittype": 0,
+            "updateenable": true,
+            "value": "489",
+            "valueset": "[Object]",
+            "valuetype": 13
+          },
+          {
+            "defaultenable": false,
+            "description": "",
+            "displaydigits": 20,
+            "maxvalue": null,
+            "minvalue": null,
+            "name": "AUTHORITY__访问权限",
+            "notnull": false,
+            "unique": false,
+            "unit": 0,
+            "unittype": 0,
+            "updateenable": true,
+            "value": "{\"KSCGUID\":\"kb96707198054790961b5e8abdf02920\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"AbsAuthId\":\"AbsAuthId\",\"authKey\":\"\"}",
+            "valueset": "[Object]",
+            "valuetype": 13
+          },
+          {
+            "defaultenable": false,
+            "description": "",
+            "displaydigits": 20,
+            "maxvalue": null,
+            "minvalue": null,
+            "name": "PUBVAR__查询班次信息",
+            "notnull": false,
+            "unique": false,
+            "unit": 0,
+            "unittype": 0,
+            "updateenable": true,
+            "value": "{\"KSCGUID\":\"kca4c3af4323f0346807f925fb542827\",\"varDes\":\"\",\"varName\":\"查询班次信息\",\"varType\":1,\"varDefaultValue\":0,\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":0}",
+            "valueset": "[Object]",
+            "valuetype": 13
+          },
+          {
+            "defaultenable": false,
+            "description": "",
+            "displaydigits": 20,
+            "maxvalue": null,
+            "minvalue": null,
+            "name": "PUBVAR__spacetimeGUID",
+            "notnull": false,
+            "unique": false,
+            "unit": 0,
+            "unittype": 0,
+            "updateenable": true,
+            "value": "{\"KSCGUID\":\"k006818dab62f54f71b1c1d444b766a2\",\"varDes\":\"\",\"varName\":\"spacetimeGUID\",\"varType\":2,\"varDefaultValue\":\"57f96b59-b971-45e1-87b1-c742385f6adc\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"57f96b59-b971-45e1-87b1-c742385f6adc\"}",
+            "valueset": "[Object]",
+            "valuetype": 13
+          },
+          {
+            "defaultenable": false,
+            "description": "",
+            "displaydigits": 20,
+            "maxvalue": null,
+            "minvalue": null,
+            "name": "PUBVAR__APP_NAME",
+            "notnull": false,
+            "unique": false,
+            "unit": 0,
+            "unittype": 0,
+            "updateenable": true,
+            "value": "{\"KSCGUID\":\"ke70b4ba2b64d298ffff021062e0aa70\",\"varDes\":\"\",\"varName\":\"APP_NAME\",\"varType\":2,\"varDefaultValue\":\"班次管理后台_CUSTOMFUNC@班次管理\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"班次管理后台_CUSTOMFUNC@班次管理\"}",
+            "valueset": "[Object]",
+            "valuetype": 13
+          }
+        ],
+        "FUType": "21",
+        "isRecycled": "",
+        "modelDBRepository": "6a907d55-05ca-4d45-b3f9-de540fe1cf69",
+        "quotedType": "add",
+        "toFather": "",
+        "authFlag": "false",
+        "spaceTime": "",
+        "maxVersion": "18",
+        "multiEditor": "",
+        "extendField1": "",
+        "extendField2": "",
+        "extendField3": "",
+        "extendField4": "",
+        "extendField5": "",
+        "extendField6": "",
+        "extendField7": "",
+        "extendField8": "",
+        "extendField9": "",
+        "extendField10": "",
+        "isHasChild": "false",
+        "jsonFileId": "488",
+        "imageFolderId": "489",
+        "AUTHORITY__访问权限": "{\"KSCGUID\":\"kb96707198054790961b5e8abdf02920\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"AbsAuthId\":\"AbsAuthId\",\"authKey\":\"\"}",
+        "PUBVAR__查询班次信息": "{\"KSCGUID\":\"kca4c3af4323f0346807f925fb542827\",\"varDes\":\"\",\"varName\":\"查询班次信息\",\"varType\":1,\"varDefaultValue\":0,\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":0}",
+        "PUBVAR__spacetimeGUID": "{\"KSCGUID\":\"k006818dab62f54f71b1c1d444b766a2\",\"varDes\":\"\",\"varName\":\"spacetimeGUID\",\"varType\":2,\"varDefaultValue\":\"57f96b59-b971-45e1-87b1-c742385f6adc\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"57f96b59-b971-45e1-87b1-c742385f6adc\"}",
+        "PUBVAR__APP_NAME": "{\"KSCGUID\":\"ke70b4ba2b64d298ffff021062e0aa70\",\"varDes\":\"\",\"varName\":\"APP_NAME\",\"varType\":2,\"varDefaultValue\":\"班次管理后台_CUSTOMFUNC@班次管理\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"班次管理后台_CUSTOMFUNC@班次管理\"}"
+      },
+      "spaceTime": {},
+      "currentUserKeys": [],
+      "pageName": "班次管理"
+    },
+    "$testId": "",
+    "__showType": "setPage",
+    "options": {
+      "variables": [],
+      "spaceTime": {
+        "spaceTime": "",
+        "sTType": 1,
+        "devName": ""
+      }
+    },
+    "parentGUID": "a7ec6ae3-92d1-456c-87ca-88481c5488cb"
+  },
+  "memberCount": 26,
+  "members": [
+    {
+      "defaultenable": false,
+      "description": "成果类型",
+      "displaydigits": 20,
+      "maxvalue": null,
+      "minvalue": null,
+      "name": "FUType",
+      "notnull": false,
+      "unique": false,
+      "unit": 0,
+      "unittype": 0,
+      "updateenable": true,
+      "value": "21",
+      "valueset": {
+        "referencecolname": "",
+        "referenceguid": "",
+        "repoguid": ""
+      },
+      "valuetype": 13,
+      "__idx": 0
+    },
+    {
+      "defaultenable": false,
+      "description": "回收标志位",
+      "displaydigits": 20,
+      "maxvalue": null,
+      "minvalue": null,
+      "name": "isRecycled",
+      "notnull": false,
+      "unique": false,
+      "unit": 0,
+      "unittype": 0,
+      "updateenable": true,
+      "value": "",
+      "valueset": {
+        "referencecolname": "",
+        "referenceguid": "",
+        "repoguid": ""
+      },
+      "valuetype": 13,
+      "__idx": 1
+    },
+    {
+      "defaultenable": false,
+      "description": "模型私有仓库",
+      "displaydigits": 20,
+      "maxvalue": null,
+      "minvalue": null,
+      "name": "modelDBRepository",
+      "notnull": false,
+      "unique": false,
+      "unit": 0,
+      "unittype": 0,
+      "updateenable": true,
+      "value": "6a907d55-05ca-4d45-b3f9-de540fe1cf69",
+      "valueset": {
+        "referencecolname": "",
+        "referenceguid": "",
+        "repoguid": ""
+      },
+      "valuetype": 13,
+      "__idx": 2
+    },
+    {
+      "defaultenable": false,
+      "description": "引用类型",
+      "displaydigits": 20,
+      "maxvalue": null,
+      "minvalue": null,
+      "name": "quotedType",
+      "notnull": false,
+      "unique": false,
+      "unit": 0,
+      "unittype": 0,
+      "updateenable": true,
+      "value": "add",
+      "valueset": {
+        "referencecolname": "",
+        "referenceguid": "",
+        "repoguid": ""
+      },
+      "valuetype": 13,
+      "__idx": 3
+    },
+    {
+      "defaultenable": false,
+      "description": "在父孪生容器中的位置",
+      "displaydigits": 20,
+      "maxvalue": null,
+      "minvalue": null,
+      "name": "toFather",
+      "notnull": false,
+      "unique": false,
+      "unit": 0,
+      "unittype": 0,
+      "updateenable": true,
+      "value": "",
+      "valueset": {
+        "referencecolname": "",
+        "referenceguid": "",
+        "repoguid": ""
+      },
+      "valuetype": 13,
+      "__idx": 4
+    },
+    {
+      "defaultenable": false,
+      "description": "权限是否开启标志位",
+      "displaydigits": 20,
+      "maxvalue": null,
+      "minvalue": null,
+      "name": "authFlag",
+      "notnull": false,
+      "unique": false,
+      "unit": 0,
+      "unittype": 0,
+      "updateenable": true,
+      "value": "false",
+      "valueset": {
+        "referencecolname": "",
+        "referenceguid": "",
+        "repoguid": ""
+      },
+      "valuetype": 13,
+      "__idx": 5
+    },
+    {
+      "defaultenable": false,
+      "description": "时空信息",
+      "displaydigits": 20,
+      "maxvalue": null,
+      "minvalue": null,
+      "name": "spaceTime",
+      "notnull": false,
+      "unique": false,
+      "unit": 0,
+      "unittype": 0,
+      "updateenable": true,
+      "value": "",
+      "valueset": {
+        "referencecolname": "",
+        "referenceguid": "",
+        "repoguid": ""
+      },
+      "valuetype": 13,
+      "__idx": 6
+    },
+    {
+      "defaultenable": false,
+      "description": "",
+      "displaydigits": 20,
+      "maxvalue": null,
+      "minvalue": null,
+      "name": "maxVersion",
+      "notnull": false,
+      "unique": false,
+      "unit": 0,
+      "unittype": 0,
+      "updateenable": true,
+      "value": "18",
+      "valueset": {
+        "referencecolname": "",
+        "referenceguid": "",
+        "repoguid": ""
+      },
+      "valuetype": 13,
+      "__idx": 7
+    },
+    {
+      "defaultenable": false,
+      "description": "多人编辑信息储存",
+      "displaydigits": 20,
+      "maxvalue": null,
+      "minvalue": null,
+      "name": "multiEditor",
+      "notnull": false,
+      "unique": false,
+      "unit": 0,
+      "unittype": 0,
+      "updateenable": true,
+      "value": "",
+      "valueset": {
+        "referencecolname": "",
+        "referenceguid": "",
+        "repoguid": ""
+      },
+      "valuetype": 13,
+      "__idx": 8
+    },
+    {
+      "defaultenable": false,
+      "description": "扩展域1",
+      "displaydigits": 20,
+      "maxvalue": null,
+      "minvalue": null,
+      "name": "extendField1",
+      "notnull": false,
+      "unique": false,
+      "unit": 0,
+      "unittype": 0,
+      "updateenable": true,
+      "value": "",
+      "valueset": {
+        "referencecolname": "",
+        "referenceguid": "",
+        "repoguid": ""
+      },
+      "valuetype": 13,
+      "__idx": 9
+    },
+    {
+      "defaultenable": false,
+      "description": "扩展域2",
+      "displaydigits": 20,
+      "maxvalue": null,
+      "minvalue": null,
+      "name": "extendField2",
+      "notnull": false,
+      "unique": false,
+      "unit": 0,
+      "unittype": 0,
+      "updateenable": true,
+      "value": "",
+      "valueset": {
+        "referencecolname": "",
+        "referenceguid": "",
+        "repoguid": ""
+      },
+      "valuetype": 13,
+      "__idx": 10
+    },
+    {
+      "defaultenable": false,
+      "description": "扩展域3",
+      "displaydigits": 20,
+      "maxvalue": null,
+      "minvalue": null,
+      "name": "extendField3",
+      "notnull": false,
+      "unique": false,
+      "unit": 0,
+      "unittype": 0,
+      "updateenable": true,
+      "value": "",
+      "valueset": {
+        "referencecolname": "",
+        "referenceguid": "",
+        "repoguid": ""
+      },
+      "valuetype": 13,
+      "__idx": 11
+    },
+    {
+      "defaultenable": false,
+      "description": "扩展域4",
+      "displaydigits": 20,
+      "maxvalue": null,
+      "minvalue": null,
+      "name": "extendField4",
+      "notnull": false,
+      "unique": false,
+      "unit": 0,
+      "unittype": 0,
+      "updateenable": true,
+      "value": "",
+      "valueset": {
+        "referencecolname": "",
+        "referenceguid": "",
+        "repoguid": ""
+      },
+      "valuetype": 13,
+      "__idx": 12
+    },
+    {
+      "defaultenable": false,
+      "description": "扩展域5",
+      "displaydigits": 20,
+      "maxvalue": null,
+      "minvalue": null,
+      "name": "extendField5",
+      "notnull": false,
+      "unique": false,
+      "unit": 0,
+      "unittype": 0,
+      "updateenable": true,
+      "value": "",
+      "valueset": {
+        "referencecolname": "",
+        "referenceguid": "",
+        "repoguid": ""
+      },
+      "valuetype": 13,
+      "__idx": 13
+    },
+    {
+      "defaultenable": false,
+      "description": "扩展域6",
+      "displaydigits": 20,
+      "maxvalue": null,
+      "minvalue": null,
+      "name": "extendField6",
+      "notnull": false,
+      "unique": false,
+      "unit": 0,
+      "unittype": 0,
+      "updateenable": true,
+      "value": "",
+      "valueset": {
+        "referencecolname": "",
+        "referenceguid": "",
+        "repoguid": ""
+      },
+      "valuetype": 13,
+      "__idx": 14
+    },
+    {
+      "defaultenable": false,
+      "description": "扩展域7",
+      "displaydigits": 20,
+      "maxvalue": null,
+      "minvalue": null,
+      "name": "extendField7",
+      "notnull": false,
+      "unique": false,
+      "unit": 0,
+      "unittype": 0,
+      "updateenable": true,
+      "value": "",
+      "valueset": {
+        "referencecolname": "",
+        "referenceguid": "",
+        "repoguid": ""
+      },
+      "valuetype": 13,
+      "__idx": 15
+    },
+    {
+      "defaultenable": false,
+      "description": "扩展域8",
+      "displaydigits": 20,
+      "maxvalue": null,
+      "minvalue": null,
+      "name": "extendField8",
+      "notnull": false,
+      "unique": false,
+      "unit": 0,
+      "unittype": 0,
+      "updateenable": true,
+      "value": "",
+      "valueset": {
+        "referencecolname": "",
+        "referenceguid": "",
+        "repoguid": ""
+      },
+      "valuetype": 13,
+      "__idx": 16
+    },
+    {
+      "defaultenable": false,
+      "description": "扩展域9",
+      "displaydigits": 20,
+      "maxvalue": null,
+      "minvalue": null,
+      "name": "extendField9",
+      "notnull": false,
+      "unique": false,
+      "unit": 0,
+      "unittype": 0,
+      "updateenable": true,
+      "value": "",
+      "valueset": {
+        "referencecolname": "",
+        "referenceguid": "",
+        "repoguid": ""
+      },
+      "valuetype": 13,
+      "__idx": 17
+    },
+    {
+      "defaultenable": false,
+      "description": "扩展域10",
+      "displaydigits": 20,
+      "maxvalue": null,
+      "minvalue": null,
+      "name": "extendField10",
+      "notnull": false,
+      "unique": false,
+      "unit": 0,
+      "unittype": 0,
+      "updateenable": true,
+      "value": "",
+      "valueset": {
+        "referencecolname": "",
+        "referenceguid": "",
+        "repoguid": ""
+      },
+      "valuetype": 13,
+      "__idx": 18
+    },
+    {
+      "defaultenable": false,
+      "description": "是否有子App",
+      "displaydigits": 20,
+      "maxvalue": null,
+      "minvalue": null,
+      "name": "isHasChild",
+      "notnull": false,
+      "unique": false,
+      "unit": 0,
+      "unittype": 0,
+      "updateenable": true,
+      "value": "false",
+      "valueset": {
+        "referencecolname": "",
+        "referenceguid": "",
+        "repoguid": ""
+      },
+      "valuetype": 13,
+      "__idx": 19
+    },
+    {
+      "defaultenable": false,
+      "description": "JSON数据存储的ID",
+      "displaydigits": 20,
+      "maxvalue": null,
+      "minvalue": null,
+      "name": "jsonFileId",
+      "notnull": false,
+      "unique": false,
+      "unit": 0,
+      "unittype": 0,
+      "updateenable": true,
+      "value": "488",
+      "valueset": {
+        "referencecolname": "",
+        "referenceguid": "",
+        "repoguid": ""
+      },
+      "valuetype": 13,
+      "__idx": 20
+    },
+    {
+      "defaultenable": false,
+      "description": "图片数据存储的文件夹ID",
+      "displaydigits": 20,
+      "maxvalue": null,
+      "minvalue": null,
+      "name": "imageFolderId",
+      "notnull": false,
+      "unique": false,
+      "unit": 0,
+      "unittype": 0,
+      "updateenable": true,
+      "value": "489",
+      "valueset": {
+        "referencecolname": "",
+        "referenceguid": "",
+        "repoguid": ""
+      },
+      "valuetype": 13,
+      "__idx": 21
+    },
+    {
+      "defaultenable": false,
+      "description": "",
+      "displaydigits": 20,
+      "maxvalue": null,
+      "minvalue": null,
+      "name": "AUTHORITY__访问权限",
+      "notnull": false,
+      "unique": false,
+      "unit": 0,
+      "unittype": 0,
+      "updateenable": true,
+      "value": "{\"KSCGUID\":\"kb96707198054790961b5e8abdf02920\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"AbsAuthId\":\"AbsAuthId\",\"authKey\":\"\"}",
+      "valueset": {
+        "referencecolname": "",
+        "referenceguid": "",
+        "repoguid": ""
+      },
+      "valuetype": 13,
+      "__idx": 22
+    },
+    {
+      "defaultenable": false,
+      "description": "",
+      "displaydigits": 20,
+      "maxvalue": null,
+      "minvalue": null,
+      "name": "PUBVAR__查询班次信息",
+      "notnull": false,
+      "unique": false,
+      "unit": 0,
+      "unittype": 0,
+      "updateenable": true,
+      "value": "{\"KSCGUID\":\"kca4c3af4323f0346807f925fb542827\",\"varDes\":\"\",\"varName\":\"查询班次信息\",\"varType\":1,\"varDefaultValue\":0,\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":0}",
+      "valueset": {
+        "referencecolname": "",
+        "referenceguid": "",
+        "repoguid": ""
+      },
+      "valuetype": 13,
+      "__idx": 23
+    },
+    {
+      "defaultenable": false,
+      "description": "",
+      "displaydigits": 20,
+      "maxvalue": null,
+      "minvalue": null,
+      "name": "PUBVAR__spacetimeGUID",
+      "notnull": false,
+      "unique": false,
+      "unit": 0,
+      "unittype": 0,
+      "updateenable": true,
+      "value": "{\"KSCGUID\":\"k006818dab62f54f71b1c1d444b766a2\",\"varDes\":\"\",\"varName\":\"spacetimeGUID\",\"varType\":2,\"varDefaultValue\":\"57f96b59-b971-45e1-87b1-c742385f6adc\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"57f96b59-b971-45e1-87b1-c742385f6adc\"}",
+      "valueset": {
+        "referencecolname": "",
+        "referenceguid": "",
+        "repoguid": ""
+      },
+      "valuetype": 13,
+      "__idx": 24
+    },
+    {
+      "defaultenable": false,
+      "description": "",
+      "displaydigits": 20,
+      "maxvalue": null,
+      "minvalue": null,
+      "name": "PUBVAR__APP_NAME",
+      "notnull": false,
+      "unique": false,
+      "unit": 0,
+      "unittype": 0,
+      "updateenable": true,
+      "value": "{\"KSCGUID\":\"ke70b4ba2b64d298ffff021062e0aa70\",\"varDes\":\"\",\"varName\":\"APP_NAME\",\"varType\":2,\"varDefaultValue\":\"班次管理后台_CUSTOMFUNC@班次管理\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"班次管理后台_CUSTOMFUNC@班次管理\"}",
+      "valueset": {
+        "referencecolname": "",
+        "referenceguid": "",
+        "repoguid": ""
+      },
+      "valuetype": 13,
+      "__idx": 25
+    }
+  ],
+  "scripts": [
+    {
+      "path": "SetPageAPP.propData.startParam.fuObj.$memberlist[22].value",
+      "text": "{\"KSCGUID\":\"kb96707198054790961b5e8abdf02920\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"AbsAuthId\":\"AbsAuthId\",\"authKey\":\"\"}"
+    },
+    {
+      "path": "SetPageAPP.propData.startParam.fuObj.$memberlist[25].name",
+      "text": "PUBVAR__APP_NAME"
+    },
+    {
+      "path": "SetPageAPP.propData.startParam.fuObj.$memberlist[25].value",
+      "text": "{\"KSCGUID\":\"ke70b4ba2b64d298ffff021062e0aa70\",\"varDes\":\"\",\"varName\":\"APP_NAME\",\"varType\":2,\"varDefaultValue\":\"班次管理后台_CUSTOMFUNC@班次管理\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"班次管理后台_CUSTOMFUNC@班次管理\"}"
+    },
+    {
+      "path": "SetPageAPP.propData.startParam.fuObj.AUTHORITY__访问权限",
+      "text": "{\"KSCGUID\":\"kb96707198054790961b5e8abdf02920\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"AbsAuthId\":\"AbsAuthId\",\"authKey\":\"\"}"
+    },
+    {
+      "path": "SetPageAPP.propData.startParam.fuObj.PUBVAR__APP_NAME",
+      "text": "{\"KSCGUID\":\"ke70b4ba2b64d298ffff021062e0aa70\",\"varDes\":\"\",\"varName\":\"APP_NAME\",\"varType\":2,\"varDefaultValue\":\"班次管理后台_CUSTOMFUNC@班次管理\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"班次管理后台_CUSTOMFUNC@班次管理\"}"
+    },
+    {
+      "path": "vm:clientRunInstance.0.0.0.0.0.0.0.0.0.0.0.0.0:.propData.linkList[0].type",
+      "text": "script"
+    },
+    {
+      "path": "vm:clientRunInstance.0.0.0.0.0.0.0.0.0.0.0.0.0.0:ElementButton.propData.linkList[0].type",
+      "text": "script"
+    },
+    {
+      "path": "vm:clientRunInstance.0.0.0.0.0.0.0.0.0.1.0.0.0:FuFactory.propData.startParam.fuObj.$memberlist[22].value",
+      "text": "{\"KSCGUID\":\"kb96707198054790961b5e8abdf02920\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"AbsAuthId\":\"AbsAuthId\",\"authKey\":\"\"}"
+    },
+    {
+      "path": "vm:clientRunInstance.0.0.0.0.0.0.0.0.0.1.0.0.0:FuFactory.propData.startParam.fuObj.$memberlist[25].name",
+      "text": "PUBVAR__APP_NAME"
+    },
+    {
+      "path": "vm:clientRunInstance.0.0.0.0.0.0.0.0.0.1.0.0.0:FuFactory.propData.startParam.fuObj.$memberlist[25].value",
+      "text": "{\"KSCGUID\":\"ke70b4ba2b64d298ffff021062e0aa70\",\"varDes\":\"\",\"varName\":\"APP_NAME\",\"varType\":2,\"varDefaultValue\":\"班次管理后台_CUSTOMFUNC@班次管理\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"班次管理后台_CUSTOMFUNC@班次管理\"}"
+    },
+    {
+      "path": "vm:clientRunInstance.0.0.0.0.0.0.0.0.0.1.0.0.0:FuFactory.propData.startParam.fuObj.AUTHORITY__访问权限",
+      "text": "{\"KSCGUID\":\"kb96707198054790961b5e8abdf02920\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"AbsAuthId\":\"AbsAuthId\",\"authKey\":\"\"}"
+    },
+    {
+      "path": "vm:clientRunInstance.0.0.0.0.0.0.0.0.0.1.0.0.0:FuFactory.propData.startParam.fuObj.PUBVAR__APP_NAME",
+      "text": "{\"KSCGUID\":\"ke70b4ba2b64d298ffff021062e0aa70\",\"varDes\":\"\",\"varName\":\"APP_NAME\",\"varType\":2,\"varDefaultValue\":\"班次管理后台_CUSTOMFUNC@班次管理\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"班次管理后台_CUSTOMFUNC@班次管理\"}"
+    },
+    {
+      "path": "vm:clientRunInstance.0.0.0.0.0.0.0.0.0.1.0.0.0.0:SetPageAPP.propData.startParam.fuObj.$memberlist[22].value",
+      "text": "{\"KSCGUID\":\"kb96707198054790961b5e8abdf02920\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"AbsAuthId\":\"AbsAuthId\",\"authKey\":\"\"}"
+    },
+    {
+      "path": "vm:clientRunInstance.0.0.0.0.0.0.0.0.0.1.0.0.0.0:SetPageAPP.propData.startParam.fuObj.$memberlist[25].name",
+      "text": "PUBVAR__APP_NAME"
+    },
+    {
+      "path": "vm:clientRunInstance.0.0.0.0.0.0.0.0.0.1.0.0.0.0:SetPageAPP.propData.startParam.fuObj.$memberlist[25].value",
+      "text": "{\"KSCGUID\":\"ke70b4ba2b64d298ffff021062e0aa70\",\"varDes\":\"\",\"varName\":\"APP_NAME\",\"varType\":2,\"varDefaultValue\":\"班次管理后台_CUSTOMFUNC@班次管理\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"班次管理后台_CUSTOMFUNC@班次管理\"}"
+    },
+    {
+      "path": "vm:clientRunInstance.0.0.0.0.0.0.0.0.0.1.0.0.0.0:SetPageAPP.propData.startParam.fuObj.AUTHORITY__访问权限",
+      "text": "{\"KSCGUID\":\"kb96707198054790961b5e8abdf02920\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"AbsAuthId\":\"AbsAuthId\",\"authKey\":\"\"}"
+    },
+    {
+      "path": "vm:clientRunInstance.0.0.0.0.0.0.0.0.0.1.0.0.0.0:SetPageAPP.propData.startParam.fuObj.PUBVAR__APP_NAME",
+      "text": "{\"KSCGUID\":\"ke70b4ba2b64d298ffff021062e0aa70\",\"varDes\":\"\",\"varName\":\"APP_NAME\",\"varType\":2,\"varDefaultValue\":\"班次管理后台_CUSTOMFUNC@班次管理\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"班次管理后台_CUSTOMFUNC@班次管理\"}"
+    },
+    {
+      "path": "vm:clientRunInstance.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.7.0:.propData.linkList[0].type",
+      "text": "script"
+    },
+    {
+      "path": "vm:clientRunInstance.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.7.0:.propData.linkList[0].script",
+      "text": "$Variable.查询班次信息++;"
+    },
+    {
+      "path": "vm:clientRunInstance.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.7.0.0:ElementButton.propData.linkList[0].type",
+      "text": "script"
+    },
+    {
+      "path": "vm:clientRunInstance.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.7.0.0:ElementButton.propData.linkList[0].script",
+      "text": "$Variable.查询班次信息++;"
+    },
+    {
+      "path": "vm:clientRunInstance.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.8.0:.propData.linkList[0].type",
+      "text": "script"
+    },
+    {
+      "path": "vm:clientRunInstance.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.8.0.0:ElementButton.propData.linkList[0].type",
+      "text": "script"
+    },
+    {
+      "path": "vm:clientRunInstance.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0.0.1.0.0.0:.propData.linkList[0].type",
+      "text": "script"
+    },
+    {
+      "path": "vm:clientRunInstance.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0.0.1.0.0.0:.propData.linkList[0].script",
+      "text": "debugger;\n//页面名称\nvar pageName = \"新建编辑班次\";\n//配置项\nvar options = {\n    //操作类型\n    type: 2,\n    //弹出式页面样式配置\n    styleOptions: {\n        header: true,\n        title: \"新增班次\",\n        modal: true\n    },\n    //配置自定义参数：设置公开变量初值\n    variables: [{\n        //变量名\n        name: \"页面模式\",\n        //变量值\n        value: \"新增\"\n    }, {\n        name: \"选择行信息\",\n        value: {}\n    }]\n};\nShowPage(pageName, options);"
+    },
+    {
+      "path": "vm:clientRunInstance.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0.0.1.0.0.0.0:ElementButton.propData.linkList[0].type",
+      "text": "script"
+    },
+    {
+      "path": "vm:clientRunInstance.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0.0.1.0.0.0.0:ElementButton.propData.linkList[0].script",
+      "text": "debugger;\n//页面名称\nvar pageName = \"新建编辑班次\";\n//配置项\nvar options = {\n    //操作类型\n    type: 2,\n    //弹出式页面样式配置\n    styleOptions: {\n        header: true,\n        title: \"新增班次\",\n        modal: true\n    },\n    //配置自定义参数：设置公开变量初值\n    variables: [{\n        //变量名\n        name: \"页面模式\",\n        //变量值\n        value: \"新增\"\n    }, {\n        name: \"选择行信息\",\n        value: {}\n    }]\n};\nShowPage(pageName, options);"
+    },
+    {
+      "path": "vm:clientRunInstance.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0.0.2.0.0.0:.propData.detailConfig",
+      "text": "this.table({columns:[{prop:\"班次名称\",label:\"班次名称\",align:\"center\",minWidth:\"100\",type:\"\",columnKey:\"\",fixed:false,m_id:\"7cb7c541-13aa-454c-ab04-91a593723c9b\"},{prop:\"班次类型\",label:\"班次类型\",align:\"center\",minWidth:\"100\",type:\"\",columnKey:\"\",fixed:false,m_id:\"06f4b441-00ed-4a1a-b811-fd4b7f9e75e4\"},{prop:\"起始时间\",label:\"起始时间\",align:\"center\",minWidth:\"100\",type:\"\",columnKey:\"\",fixed:false,m_id:\"7f35cbe6-35f8-452a-ba56-7002db0a491f\"},{prop:\"结束时间\",label:\"结束时间\",align:\"center\",minWidth:\"100\",type:\"\",columnKey:\"\",fixed:false,m_id:\"d37cc61c-6717-48af-97a0-108e18ff79e3\"},{prop:\"车间名称\",label:\"车间名称\",align:\"center\",minWidth:\"100\",type:\"\",columnKey:\"\",fixed:false,m_id:\"ecddb7c5-f0b2-47ec-ab68-447e650e52f7\"},{prop:\"operation\",label:\"操作\",align:\"center\",minWidth:\"150\",type:\"operation\",columnKey:\"\",fixed:false,plugins:[{pluginType:\"button\",text:\"编辑\",type:\"primary\",icon:\"el-icon-edit\",backgroundColor:\"rgba(255,255,255,1)\",color:\"rgba(0,0,0,1)\",pageJumpOption:{enable:false,key:\"tree.trigger.pageJump\",method:\"pageJump\",source:[]},dataSetLinkOption:{enable:false,linkInfos:[]},variableLinkOption:{enable:false,key:\"table.trigger.paramLinkOutPut\",paramLinks:[]},click:function(e){ debugger;\nlet rowData = e.row;\n//页面名称\nvar pageName = \"新建编辑班次\";\n//配置项\nvar options = {\n  //操作类型\n  type: 2,\n  //弹出式页面样式配置\n  styleOptions: {\n    header: true,\n    title: \"编辑班次\",\n    modal: true\n  },\n  //配置自定义参数：设置公开变量初值\n  variables: [{\n    //变量名\n    name: \"页面模式\",\n    //变量值\n    value: \"编辑\"\n  }, {\n    name: \"选择行信息\",\n    value: rowData\n  }]\n};\nShowPage(pageName, options); }},{pluginType:\"button\",text:\"删除\",type:\"primary\",icon:\"el-icon-delete\",backgroundColor:\"rgba(255,255,255,1)\",color:\"rgba(0,0,0,1)\",pageJumpOption:{enable:false,key:\"tree.trigger.pageJump\",method:\"pageJump\",source:[]},dataSetLinkOption:{enable:false,linkInfos:[]},variableLinkOption:{enable:false,key:\"table.trigger.paramLinkOutPut\",paramLinks:[]},click:function(e){ let rowData = e.row;\nvar mode = 'confirm'; //MessageBox模式\nvar options = {\n  title: '提示',\n  type: 'warning',\n  message: '是否删除信息？',\n  cancelButtonText: '取消',\n  confirmButtonText: '确认'\n};\n//res是一个对象类型，它包括两个属性：action和value。（value代表input框里的值）\nShowMsgBox(mode, options, function(res) { // 展示消息提示面板\n  if (res.action === 'confirm') {\n    (async function() {\n      debugger;\n      // 切换时空\n      let spacetimeid = $Variable.spacetimeGUID;\n      const STTYPE_ID = 4; // 时空GUID\n      let runInfo = {\n        stType: STTYPE_ID,\n        spaceTime: spacetimeid\n      };\n      let changeRes = await changeSpace(runInfo);\n      // =================================================================================\n      const CLOUDID = Number(location.href.split(\"GetFileContent\")[1].split(\"/\")[1]);\n      const SUCCESS_CODE = 0;\n      const IDENTIFIERTYPE_NAME = 2; // 对象的标识类型=使用名称标识\n      const FU_OBJECT_TYPE = 21001; // APP对象\n      const APP_NAME = $Variable.APP_NAME; // 用的后台AAPP对象的名称\n      let FUNC_NAME = \"DeleteClassData\"; // 调用APP中的函数名称\n\n      // 1. 后台入参\n      let classData = [rowData];\n      // 2. 执行call\n      const param = new StringMap({\n        type: FU_OBJECT_TYPE,\n        cloudID: CLOUDID\n      });\n\n      let areaID = 0;\n      if (undefined !== areaID) {\n        param._insert(\"areaID\", areaID, \"int32\");\n      }\n\n      let inParams = new StringMap({});\n      inParams._insert(\"classData\", JSON.stringify(classData), \"string\");\n\n      let input = new StringMap({\n        identifierType: IDENTIFIERTYPE_NAME,\n        name: APP_NAME,\n        funcname: FUNC_NAME,\n        params: [new Variant(inParams)]\n        // params: []\n      });\n\n      let res = await Call(param, input);\n      if (SUCCESS_CODE !== res.ret) {\n        ShowMes('error', `后台服务异常, 删除<班次信息>失败`);\n        return;\n      }\n      let data = res.returndata;\n      let errorcode = data.errorcode;\n      if (SUCCESS_CODE !== errorcode) {\n        ShowMes('error', `删除<班次信息>失败,请检查相关时空是否正常运行`);\n        console.log(data.errormsg);\n        return;\n      }\n      ShowMes('success', `删除<班次信息>成功`);\n      // 调用主页面变量改变，更新信息\n      $Variable.查询班次信息++;\n      // 切换时空\n      function changeSpace(runInfo) {\n        return new Promise((resolve) => {\n          SetRunInfo(runInfo, function(res) {\n            resolve(res);\n          });\n        });\n      }\n      // 展示消息提示弹窗\n      function ShowMes(type, message) {\n        var options = {\n          message: message,\n          type: type,\n          offset: 20,\n          duration: 3000,\n          showClose: true\n        };\n        ShowMessage(options);\n      }\n    })();\n  }\n}); }}],hidden:false,m_id:\"c8d14ab1-c4e7-4fd6-a27b-6cbca974fcf8\"}],totalData:[]})"
+    },
+    {
+      "path": "vm:clientRunInstance.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0.0.2.0.0.0:.propData.columns[5].plugins[1].icon",
+      "text": "el-icon-delete"
+    },
+    {
+      "path": "vm:clientRunInstance.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0.0.2.0.0.0.0:ElementTable.propData.detailConfig",
+      "text": "this.table({columns:[{prop:\"班次名称\",label:\"班次名称\",align:\"center\",minWidth:\"100\",type:\"\",columnKey:\"\",fixed:false,m_id:\"7cb7c541-13aa-454c-ab04-91a593723c9b\"},{prop:\"班次类型\",label:\"班次类型\",align:\"center\",minWidth:\"100\",type:\"\",columnKey:\"\",fixed:false,m_id:\"06f4b441-00ed-4a1a-b811-fd4b7f9e75e4\"},{prop:\"起始时间\",label:\"起始时间\",align:\"center\",minWidth:\"100\",type:\"\",columnKey:\"\",fixed:false,m_id:\"7f35cbe6-35f8-452a-ba56-7002db0a491f\"},{prop:\"结束时间\",label:\"结束时间\",align:\"center\",minWidth:\"100\",type:\"\",columnKey:\"\",fixed:false,m_id:\"d37cc61c-6717-48af-97a0-108e18ff79e3\"},{prop:\"车间名称\",label:\"车间名称\",align:\"center\",minWidth:\"100\",type:\"\",columnKey:\"\",fixed:false,m_id:\"ecddb7c5-f0b2-47ec-ab68-447e650e52f7\"},{prop:\"operation\",label:\"操作\",align:\"center\",minWidth:\"150\",type:\"operation\",columnKey:\"\",fixed:false,plugins:[{pluginType:\"button\",text:\"编辑\",type:\"primary\",icon:\"el-icon-edit\",backgroundColor:\"rgba(255,255,255,1)\",color:\"rgba(0,0,0,1)\",pageJumpOption:{enable:false,key:\"tree.trigger.pageJump\",method:\"pageJump\",source:[]},dataSetLinkOption:{enable:false,linkInfos:[]},variableLinkOption:{enable:false,key:\"table.trigger.paramLinkOutPut\",paramLinks:[]},click:function(e){ debugger;\nlet rowData = e.row;\n//页面名称\nvar pageName = \"新建编辑班次\";\n//配置项\nvar options = {\n  //操作类型\n  type: 2,\n  //弹出式页面样式配置\n  styleOptions: {\n    header: true,\n    title: \"编辑班次\",\n    modal: true\n  },\n  //配置自定义参数：设置公开变量初值\n  variables: [{\n    //变量名\n    name: \"页面模式\",\n    //变量值\n    value: \"编辑\"\n  }, {\n    name: \"选择行信息\",\n    value: rowData\n  }]\n};\nShowPage(pageName, options); }},{pluginType:\"button\",text:\"删除\",type:\"primary\",icon:\"el-icon-delete\",backgroundColor:\"rgba(255,255,255,1)\",color:\"rgba(0,0,0,1)\",pageJumpOption:{enable:false,key:\"tree.trigger.pageJump\",method:\"pageJump\",source:[]},dataSetLinkOption:{enable:false,linkInfos:[]},variableLinkOption:{enable:false,key:\"table.trigger.paramLinkOutPut\",paramLinks:[]},click:function(e){ let rowData = e.row;\nvar mode = 'confirm'; //MessageBox模式\nvar options = {\n  title: '提示',\n  type: 'warning',\n  message: '是否删除信息？',\n  cancelButtonText: '取消',\n  confirmButtonText: '确认'\n};\n//res是一个对象类型，它包括两个属性：action和value。（value代表input框里的值）\nShowMsgBox(mode, options, function(res) { // 展示消息提示面板\n  if (res.action === 'confirm') {\n    (async function() {\n      debugger;\n      // 切换时空\n      let spacetimeid = $Variable.spacetimeGUID;\n      const STTYPE_ID = 4; // 时空GUID\n      let runInfo = {\n        stType: STTYPE_ID,\n        spaceTime: spacetimeid\n      };\n      let changeRes = await changeSpace(runInfo);\n      // =================================================================================\n      const CLOUDID = Number(location.href.split(\"GetFileContent\")[1].split(\"/\")[1]);\n      const SUCCESS_CODE = 0;\n      const IDENTIFIERTYPE_NAME = 2; // 对象的标识类型=使用名称标识\n      const FU_OBJECT_TYPE = 21001; // APP对象\n      const APP_NAME = $Variable.APP_NAME; // 用的后台AAPP对象的名称\n      let FUNC_NAME = \"DeleteClassData\"; // 调用APP中的函数名称\n\n      // 1. 后台入参\n      let classData = [rowData];\n      // 2. 执行call\n      const param = new StringMap({\n        type: FU_OBJECT_TYPE,\n        cloudID: CLOUDID\n      });\n\n      let areaID = 0;\n      if (undefined !== areaID) {\n        param._insert(\"areaID\", areaID, \"int32\");\n      }\n\n      let inParams = new StringMap({});\n      inParams._insert(\"classData\", JSON.stringify(classData), \"string\");\n\n      let input = new StringMap({\n        identifierType: IDENTIFIERTYPE_NAME,\n        name: APP_NAME,\n        funcname: FUNC_NAME,\n        params: [new Variant(inParams)]\n        // params: []\n      });\n\n      let res = await Call(param, input);\n      if (SUCCESS_CODE !== res.ret) {\n        ShowMes('error', `后台服务异常, 删除<班次信息>失败`);\n        return;\n      }\n      let data = res.returndata;\n      let errorcode = data.errorcode;\n      if (SUCCESS_CODE !== errorcode) {\n        ShowMes('error', `删除<班次信息>失败,请检查相关时空是否正常运行`);\n        console.log(data.errormsg);\n        return;\n      }\n      ShowMes('success', `删除<班次信息>成功`);\n      // 调用主页面变量改变，更新信息\n      $Variable.查询班次信息++;\n      // 切换时空\n      function changeSpace(runInfo) {\n        return new Promise((resolve) => {\n          SetRunInfo(runInfo, function(res) {\n            resolve(res);\n          });\n        });\n      }\n      // 展示消息提示弹窗\n      function ShowMes(type, message) {\n        var options = {\n          message: message,\n          type: type,\n          offset: 20,\n          duration: 3000,\n          showClose: true\n        };\n        ShowMessage(options);\n      }\n    })();\n  }\n}); }}],hidden:false,m_id:\"c8d14ab1-c4e7-4fd6-a27b-6cbca974fcf8\"}],totalData:[]})"
+    },
+    {
+      "path": "vm:clientRunInstance.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0.0.2.0.0.0.0:ElementTable.propData.columns[5].plugins[1].icon",
+      "text": "el-icon-delete"
+    }
+  ],
+  "clientCurrent": {
+    "showPageList": [
+      {
+        "KSCGUID": "k00c97c59-4a3c-4bd7-ab5c-72502ba2ce8b",
+        "pageName": "框架页面",
+        "zIndex": 0,
+        "runParamData": {
+          "mode": "production",
+          "FUType": "21",
+          "type": 1025,
+          "guid": "b80abe74-020f-4c5d-874e-f3953311ff20",
+          "id": "7205759403792795346",
+          "guidVersion": {
+            "guid": "b2383581-2b46-40a3-951a-6eb5c6841c8c",
+            "id": "",
+            "version": 1
+          }
+        },
+        "options": {
+          "type": 1,
+          "styleOptions": {},
+          "variables": [],
+          "events": [],
+          "spaceTime": {
+            "spaceTime": "",
+            "sTType": 1,
+            "devName": ""
+          }
+        }
+      }
+    ],
+    "currentShow": {
+      "KSCGUID": "k00c97c59-4a3c-4bd7-ab5c-72502ba2ce8b",
+      "pageName": "框架页面",
+      "zIndex": 0,
+      "runParamData": {
+        "mode": "production",
+        "FUType": "21",
+        "type": 1025,
+        "guid": "b80abe74-020f-4c5d-874e-f3953311ff20",
+        "id": "7205759403792795346",
+        "guidVersion": {
+          "guid": "",
+          "id": "",
+          "version": 0
+        }
+      },
+      "options": {
+        "type": 1,
+        "styleOptions": {},
+        "variables": [],
+        "events": [],
+        "spaceTime": {
+          "spaceTime": "",
+          "sTType": 1,
+          "devName": ""
+        }
+      }
+    }
+  },
+  "captured_at": "2026-06-18 08:58:34"
+}

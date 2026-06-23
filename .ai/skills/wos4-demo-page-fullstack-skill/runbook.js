@@ -60,12 +60,14 @@ function readIni(file) {
 
 const LOCAL_INI = path.join(ROOT_DIR, "wos4-artifacts", "config", "wos4.local.ini");
 const WOS_CONFIG = readIni(LOCAL_INI).wos4 || {};
-const LOGIN_URL = process.env.WOS4_LOGIN_URL || WOS_CONFIG.url || "http://221.239.19.118:13001/#/login";
-const EDITOR_URL =
-  process.env.WOS4_EDITOR_URL ||
-  "http://221.239.19.118:13001/public/?id=6192730962611142864&parentid=0&cloudid=107&clientnumber=7710165597571436705&bs=true#/running";
-const USER = process.env.WOS4_USER || WOS_CONFIG.username || "孙宇飞";
+const LOGIN_URL = process.env.WOS4_LOGIN_URL || WOS_CONFIG.url;
+const EDITOR_URL = process.env.WOS4_EDITOR_URL || WOS_CONFIG.editor_url;
+const USER = process.env.WOS4_USER || WOS_CONFIG.username;
 const PASSWORD = process.env.WOS4_PASS || WOS_CONFIG.password;
+if (!LOGIN_URL) throw new Error("Missing WOS4 login URL. Set [wos4] url in wos4.local.ini or WOS4_LOGIN_URL.");
+if (!EDITOR_URL) throw new Error("Missing WOS4 editor URL. Set [wos4] editor_url in wos4.local.ini or WOS4_EDITOR_URL.");
+if (!USER) throw new Error("Missing WOS4 username. Set [wos4] username in wos4.local.ini or WOS4_USER.");
+if (!PASSWORD) throw new Error("Missing WOS4 password. Set [wos4] password in wos4.local.ini or WOS4_PASS.");
 const PREVIEW_TIMEOUT_MS = Number(process.env.WOS4_PREVIEW_WAIT_MS || 16000);
 const WAIT_MS = Number(process.env.WOS4_STABILIZE_MS || 1200);
 function normalizeProxy(value) {
@@ -553,7 +555,7 @@ function updateUnitTestMarkdown(unitPath, statusMap) {
         t("text"),
         "demo_title",
         (ins) => {
-          setProp(ins, "value", "Codex 前端演示页面（可读布局）");
+          setProp(ins, "value", "WOS4 前端演示页面（可读布局）");
         }
       );
       const leftTree = addIntoCol(
@@ -732,8 +734,8 @@ function updateUnitTestMarkdown(unitPath, statusMap) {
         return text;
       };
 
-      page.__codexDemoState = state;
-      page.__codexDemo = {
+      page.__wos4DemoState = state;
+      page.__wos4Demo = {
         refreshTable,
         refreshChart,
         updateStatus,
@@ -761,19 +763,19 @@ function updateUnitTestMarkdown(unitPath, statusMap) {
         const status = updateStatus("timer");
         return { rows, source, status };
       };
-      page.__codexButtonAction = doButton;
-      page.__codexTimerAction = doTimer;
+      page.__wos4ButtonAction = doButton;
+      page.__wos4TimerAction = doTimer;
 
       // 绑定按钮点击（防止重复绑定）
       const btnDom = actionButton?.$el?.querySelector?.("button");
-      if (btnDom && !btnDom.__codexBound) {
+      if (btnDom && !btnDom.__wos4Bound) {
         btnDom.addEventListener("click", () => doButton());
-        btnDom.__codexBound = true;
+        btnDom.__wos4Bound = true;
       }
 
       // 启动定时器（用于定时刷新验证）
-      if (page.__codexDemoTimerId) clearInterval(page.__codexDemoTimerId);
-      page.__codexDemoTimerId = setInterval(doTimer, 1800);
+      if (page.__wos4DemoTimerId) clearInterval(page.__wos4DemoTimerId);
+      page.__wos4DemoTimerId = setInterval(doTimer, 1800);
 
       result.interaction.before = {
         filter: getVar(),
@@ -805,7 +807,7 @@ function updateUnitTestMarkdown(unitPath, statusMap) {
         gapSet: !!safeGet(getRows()[1], "getColGap"),
         textUpdated: (() => {
           try {
-            return typeof titleComp?.getProperty === "function" && normalizeLine(titleComp.getProperty("value")).includes("Codex 前端演示页面");
+            return typeof titleComp?.getProperty === "function" && normalizeLine(titleComp.getProperty("value")).includes("WOS4 前端演示页面");
           } catch (e) {
             return false;
           }
@@ -819,7 +821,7 @@ function updateUnitTestMarkdown(unitPath, statusMap) {
           setProp(filterSelect, "setProperty", "value", "ALL");
           return getVar() === getVar();
         })(),
-        timerStarted: !!page.__codexDemoTimerId
+        timerStarted: !!page.__wos4DemoTimerId
       };
 
       return result;
@@ -838,9 +840,9 @@ function updateUnitTestMarkdown(unitPath, statusMap) {
     // 直接触发按钮脚本并观察交互
     const beforeButton = await editorFrame.evaluate(() => {
       const p = document.getElementById("page_edit_view_area")?.__vue__?._data?.comMap?.$Children?.PageView;
-      const st = p?.__codexDemoState || {};
-      const t = p?.__codexDemo?.refreshTable?.() || [];
-      const chart = p?.__codexDemo?.refreshChart?.("check-before") || [];
+      const st = p?.__wos4DemoState || {};
+      const t = p?.__wos4Demo?.refreshTable?.() || [];
+      const chart = p?.__wos4Demo?.refreshChart?.("check-before") || [];
       return {
         beforeClick: st,
         tableRows: t.length,
@@ -851,21 +853,21 @@ function updateUnitTestMarkdown(unitPath, statusMap) {
 
     const buttonActionResult = await editorFrame.evaluate(() => {
       const page = document.getElementById("page_edit_view_area")?.__vue__?._data?.comMap?.$Children?.PageView;
-      if (page?.__codexButtonAction) return page.__codexButtonAction();
+      if (page?.__wos4ButtonAction) return page.__wos4ButtonAction();
       return null;
     });
     await page.waitForTimeout(900);
     const afterButton = await editorFrame.evaluate(() => {
       const p = document.getElementById("page_edit_view_area")?.__vue__?._data?.comMap?.$Children?.PageView;
-      const st = p?.__codexDemoState || {};
+      const st = p?.__wos4DemoState || {};
       const tab = p?.$Variable?.filterKey;
-      const table = p?.__codexDemo?.refreshTable?.("ui-check");
+      const table = p?.__wos4Demo?.refreshTable?.("ui-check");
       return {
         afterClick: st,
         variable: tab,
         tableRows: Array.isArray(table) ? table.length : 0,
-        statusText: p?.__codexDemo?.updateStatus?.("check") || "",
-        actionResult: (p?.__codexDemoState || null)
+        statusText: p?.__wos4Demo?.updateStatus?.("check") || "",
+        actionResult: (p?.__wos4DemoState || null)
       };
     });
     report.evidence.push(await shoot(await page.mainFrame(), toShot("editor_after_button_refresh")));
@@ -873,9 +875,9 @@ function updateUnitTestMarkdown(unitPath, statusMap) {
 
     await editorFrame.evaluate(async () => {
       const page = document.getElementById("page_edit_view_area")?.__vue__?._data?.comMap?.$Children?.PageView;
-      if (page?.__codexTimerAction) {
+      if (page?.__wos4TimerAction) {
         await new Promise((r) => setTimeout(r, 2200));
-        return page.__codexTimerAction();
+        return page.__wos4TimerAction();
       }
       return null;
     });
@@ -883,8 +885,8 @@ function updateUnitTestMarkdown(unitPath, statusMap) {
     const afterTimer = await editorFrame.evaluate(() => {
       const p = document.getElementById("page_edit_view_area")?.__vue__?._data?.comMap?.$Children?.PageView;
       return {
-        state: p?.__codexDemoState || {},
-        statusText: p?.__codexDemo?.updateStatus?.("ui-check") || ""
+        state: p?.__wos4DemoState || {},
+        statusText: p?.__wos4Demo?.updateStatus?.("ui-check") || ""
       };
     });
     report.evidence.push(await shoot(await page.mainFrame(), toShot("editor_after_timer")));
@@ -982,7 +984,7 @@ function updateUnitTestMarkdown(unitPath, statusMap) {
     Object.entries(layoutTests).forEach(([k, v]) => markStep(report.steps, `tc_${k}`, v === "已通过", `status=${v}`));
     markStep(report.steps, "unit_tests_result", Object.values(layoutTests).every((x) => x === "已通过"), JSON.stringify(layoutTests));
 
-    const unitFile = path.join(ROOT_DIR, "wos4-demo-page-fullstack-skill", "unit-tests.md");
+    const unitFile = path.join(ROOT_DIR, ".ai", "skills", "wos4-demo-page-fullstack-skill", "unit-tests.md");
     updateUnitTestMarkdown(unitFile, layoutTests);
 
     await popup.close().catch(() => {});

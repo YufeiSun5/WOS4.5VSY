@@ -1,0 +1,24 @@
+{
+  "at": "2026-06-12T00:54:31.693Z",
+  "steps": [
+    {
+      "name": "login_and_card_ready",
+      "frames": [
+        {
+          "i": 0,
+          "url": "http://221.239.19.118:13001/#/main",
+          "text": "时空功能开发 时空对象管理 系统运维 安全管理 审计管理 亚控云商城 KingStudio_V20260514 组态系统客户端0518 建模系统客户端_0518 运维部署客户端_0518 Codex临时测试_前端视图_0611"
+        }
+      ]
+    }
+  ],
+  "ok": false,
+  "error": "Error: frame text not ready: 产品管理 / 升级拷贝1 / 进入\n    at waitFrameText ([stdin]:5:307)\n    at async [stdin]:7:644",
+  "frames": [
+    {
+      "i": 0,
+      "url": "http://221.239.19.118:13001/#/main",
+      "text": "时空功能开发 时空对象管理 系统运维 安全管理 审计管理 亚控云商城 KingStudio_V20260514 组态系统客户端0518 建模系统客户端_0518 运维部署客户端_0518 Codex临时测试_前端视图_0611"
+    }
+  ]
+}

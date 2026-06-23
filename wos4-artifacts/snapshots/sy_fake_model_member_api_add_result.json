@@ -1,0 +1,2873 @@
+{
+  "startedAt": "2026-06-12T04:30:28.715Z",
+  "operator": "盛云_孙宇飞",
+  "modelName": "盛云_孙宇飞_假数据设备模型_0612",
+  "members": [
+    {
+      "name": "temperature",
+      "type": 10,
+      "value": "23.6",
+      "description": "假数据温度，单位摄氏度"
+    },
+    {
+      "name": "pressure",
+      "type": 10,
+      "value": "0.42",
+      "description": "假数据压力，单位MPa"
+    },
+    {
+      "name": "flow_rate",
+      "type": 10,
+      "value": "128.5",
+      "description": "假数据瞬时流量"
+    },
+    {
+      "name": "status_code",
+      "type": 4,
+      "value": "1",
+      "description": "假数据状态码：1运行，0停止"
+    },
+    {
+      "name": "alarm_flag",
+      "type": 1,
+      "value": "false",
+      "description": "假数据报警标志"
+    }
+  ],
+  "modelFromRequest": {
+    "guid": "1c9746d4-146b-497a-afc0-8362367782d3",
+    "version": 7
+  },
+  "apiResult": {
+    "model": {
+      "guid": "1c9746d4-146b-497a-afc0-8362367782d3",
+      "version": 7
+    },
+    "enums": {
+      "TYPE_FUNCTIONUNITMODEL": 1005,
+      "TYPE_NONESENSITIVEMEMBER": 1105,
+      "GUID": 5
+    },
+    "before": {
+      "ret": 0,
+      "list": [
+        {
+          "$id": "1441151880758558784",
+          "$name": "数字孪生模型编辑_框架页面",
+          "$guid": "1c9746d4-146b-497a-afc0-8362367782d3",
+          "$version": 7,
+          "$memberlist": [
+            {
+              "defaultenable": false,
+              "description": "成果类型",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "FUType",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "21",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "回收标志位",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "isRecycled",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "模型私有仓库",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "modelDBRepository",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "引用类型",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "quotedType",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "在父孪生容器中的位置",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "toFather",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "权限是否开启标志位",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "authFlag",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "false",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "时空信息",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "spaceTime",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "maxVersion",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "6",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "多人编辑信息储存",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "multiEditor",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "扩展域1",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "extendField1",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "扩展域2",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "extendField2",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "扩展域3",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "extendField3",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "扩展域4",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "extendField4",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "扩展域5",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "extendField5",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "扩展域6",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "extendField6",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "扩展域7",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "extendField7",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "扩展域8",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "extendField8",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "扩展域9",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "extendField9",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "扩展域10",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "extendField10",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__数字孪生建模时空仓库Name",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"kc58c121a14fe6a4aa3f87842fe6b708\",\"varName\":\"数字孪生建模时空仓库Name\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__数字孪生建模时空仓库ID",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k819ca681f21d27e91ab614dbab8b0b2\",\"varName\":\"数字孪生建模时空仓库ID\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__数字孪生建模时空仓库GUID",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k18eeabc47c8b470952a2fffa5200d9b\",\"varName\":\"数字孪生建模时空仓库GUID\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__配置后台对象名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"kb679154f82e0b5f155c7d31479b89bb\",\"varName\":\"配置后台对象名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__多灵敏时序物_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k726a0354bf8732bcc8899d9857d41cf\",\"varName\":\"多灵敏时序物_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"多灵敏时序物建模_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__单灵敏时序物_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k8b53a40d154823751ef62f0185d1d87\",\"varName\":\"单灵敏时序物_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"建模_单灵敏时序物_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__业务物_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k49aa4ceb759a45c2a139b8e51f5540d\",\"varName\":\"业务物_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"业务物建模_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__时序事_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"kd7e54ab51af0223db17fe8cfef18ff6\",\"varName\":\"时序事_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"时序事建模_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__业务事_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"kbcefa52e2371ede1b76b113d76decb3\",\"varName\":\"业务事_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"业务事建模_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__组织_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"ka64189a618e074f4aa2699f4869d317\",\"varName\":\"组织_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"组织建模_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__空间管理_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"ke1ed7189290e6a0db8b92915bac610a\",\"varName\":\"空间管理_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"空间管理建模_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__工作流配置_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k6913f9b6300a2c8397ba57f75608487\",\"varName\":\"工作流配置_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"工作流配置建模_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__多灵敏数据报警转发_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k3dc59f9c958b4132783682b9ed4a19d\",\"varName\":\"多灵敏数据报警转发_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"多灵敏数据报警转发建模_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__报警规则配置_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"kc19411d08eb59009845efc857e6b613\",\"varName\":\"报警规则配置_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"报警规则建模_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__当前页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"ka8ec18eee82e79aea93280af233fcb9\",\"varName\":\"当前页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__工厂模型根仓库ID",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"ka33bfde709ee022074778e6bcad4976\",\"varName\":\"工厂模型根仓库ID\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__工厂模型根仓库名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k29d837f5d6dfbd3411529675e60a362\",\"varName\":\"工厂模型根仓库名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__未启用名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k82df5a15fc6887c94d3bd258d010fd5\",\"varName\":\"未启用名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"factoryAlarmForwardDisplayEnable,tagAlarmForwardDisplayEnable,customAlarmDisplayEnable,customCalDisplayEnable\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__单灵敏数据报警转发_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"ke30db5bcbc3ec7e3bc55ddf8f677ae3\",\"varName\":\"单灵敏数据报警转发_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"单灵敏数据报警转发建模_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__命令语言_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k52c9687d7de9a020a6e6180fda76735\",\"varName\":\"命令语言_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"后台命令语言建模_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__自定义报警_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k3a29788c24322a7d7dca39870181622\",\"varName\":\"自定义报警_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"自定义报警建模_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__自定义计算_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k27fe50bd9e05f9889b2ce008292a80f\",\"varName\":\"自定义计算_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"自定义计算建模_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__第三方计算管理_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"kb03550fc404657e1b5b86002dda60be\",\"varName\":\"第三方计算管理_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"第三方计算管理建模_页面名称\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__二D精灵图_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k0c51e5c15cfc9c62fa80d4e9c6a5e94\",\"varName\":\"二D精灵图_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"精灵图2D管理_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__三D精灵图_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"kfa537547ce3510044eafc420d797e74\",\"varName\":\"三D精灵图_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"精灵图3D管理_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__页面精灵图_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k4089ae332f868fa231b6b0fcbe863ab\",\"varName\":\"页面精灵图_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"页面精灵图管理_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__报表精灵图_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k538a35689ed026e896f441a01fd5ca1\",\"varName\":\"报表精灵图_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"报表精灵图管理_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__GIS精灵图_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"kf901ec39349fb096a74d7a1ce7caa6c\",\"varName\":\"GIS精灵图_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"GIS精灵图建模_页面名称\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__模型根时空仓库GUID",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k63dc7884547e0a4feb02457d6d9da25\",\"varName\":\"模型根时空仓库GUID\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__工程时空仓库名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k8877cce6c7e5d39e3d4f8cc9f4cbac5\",\"varName\":\"工程时空仓库名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__工程时空仓库ID",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"kf6a2aa3700c77eeea7978ba8024ff97\",\"varName\":\"工程时空仓库ID\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__工程时空仓库GUID",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"kc52512977184e82da164588a55d0194\",\"varName\":\"工程时空仓库GUID\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__工程Root时空仓库名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"ke066198ca6b40e43502f441ad62eedd\",\"varName\":\"工程Root时空仓库名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__工程Root时空仓库ID",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k791c291d0060e97ada36d957c247856\",\"varName\":\"工程Root时空仓库ID\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__工程Root时空仓库GUID",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k63dd918b8eaaf4f745b725398c96704\",\"varName\":\"工程Root时空仓库GUID\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__配置后台时空对象全路径",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k13b5588025b5fbb47a085d031833276\",\"varName\":\"配置后台时空对象全路径\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__分组GUID",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k08a4c452ff449d2a8af835d176215f2\",\"varName\":\"分组GUID\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__子模型_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k86c36e194b254d4d496a858ef05f508\",\"varName\":\"子模型_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"子模型_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__模型描述",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k4f12ecc66c822bdbcdcff25dcc7ec20\",\"varName\":\"模型描述\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "AUTHORITY__访问权限",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k0b88702311279df85e84c06def412fa\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"authKey\":\"\",\"AbsAuthId\":\"AbsAuthId\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__形参配置_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k74ab626cd616dd3fbb3a1d8bef689f4\",\"varName\":\"形参配置_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"形参列表_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__岗位_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k2971ca8a4891b77c954bd88918ce50a\",\"varName\":\"岗位_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"岗位建模_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__人员_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"kba2c772d6fbad1851d9e7172f08aed0\",\"varName\":\"人员_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            }
+          ]
+        }
+      ]
+    },
+    "beforeMemberNames": [
+      "FUType",
+      "isRecycled",
+      "modelDBRepository",
+      "quotedType",
+      "toFather",
+      "authFlag",
+      "spaceTime",
+      "maxVersion",
+      "multiEditor",
+      "extendField1",
+      "extendField2",
+      "extendField3",
+      "extendField4",
+      "extendField5",
+      "extendField6",
+      "extendField7",
+      "extendField8",
+      "extendField9",
+      "extendField10",
+      "PUBVAR__数字孪生建模时空仓库Name",
+      "PUBVAR__数字孪生建模时空仓库ID",
+      "PUBVAR__数字孪生建模时空仓库GUID",
+      "PUBVAR__配置后台对象名称",
+      "PUBVAR__多灵敏时序物_页面名称",
+      "PUBVAR__单灵敏时序物_页面名称",
+      "PUBVAR__业务物_页面名称",
+      "PUBVAR__时序事_页面名称",
+      "PUBVAR__业务事_页面名称",
+      "PUBVAR__组织_页面名称",
+      "PUBVAR__空间管理_页面名称",
+      "PUBVAR__工作流配置_页面名称",
+      "PUBVAR__多灵敏数据报警转发_页面名称",
+      "PUBVAR__报警规则配置_页面名称",
+      "PUBVAR__当前页面名称",
+      "PUBVAR__工厂模型根仓库ID",
+      "PUBVAR__工厂模型根仓库名称",
+      "PUBVAR__未启用名称",
+      "PUBVAR__单灵敏数据报警转发_页面名称",
+      "PUBVAR__命令语言_页面名称",
+      "PUBVAR__自定义报警_页面名称",
+      "PUBVAR__自定义计算_页面名称",
+      "PUBVAR__第三方计算管理_页面名称",
+      "PUBVAR__二D精灵图_页面名称",
+      "PUBVAR__三D精灵图_页面名称",
+      "PUBVAR__页面精灵图_页面名称",
+      "PUBVAR__报表精灵图_页面名称",
+      "PUBVAR__GIS精灵图_页面名称",
+      "PUBVAR__模型根时空仓库GUID",
+      "PUBVAR__工程时空仓库名称",
+      "PUBVAR__工程时空仓库ID",
+      "PUBVAR__工程时空仓库GUID",
+      "PUBVAR__工程Root时空仓库名称",
+      "PUBVAR__工程Root时空仓库ID",
+      "PUBVAR__工程Root时空仓库GUID",
+      "PUBVAR__配置后台时空对象全路径",
+      "PUBVAR__分组GUID",
+      "PUBVAR__子模型_页面名称",
+      "PUBVAR__模型描述",
+      "AUTHORITY__访问权限",
+      "PUBVAR__形参配置_页面名称",
+      "PUBVAR__岗位_页面名称",
+      "PUBVAR__人员_页面名称"
+    ],
+    "toAdd": [
+      {
+        "name": "temperature",
+        "type": 10,
+        "value": "23.6",
+        "description": "假数据温度，单位摄氏度"
+      },
+      {
+        "name": "pressure",
+        "type": 10,
+        "value": "0.42",
+        "description": "假数据压力，单位MPa"
+      },
+      {
+        "name": "flow_rate",
+        "type": 10,
+        "value": "128.5",
+        "description": "假数据瞬时流量"
+      },
+      {
+        "name": "status_code",
+        "type": 4,
+        "value": "1",
+        "description": "假数据状态码：1运行，0停止"
+      },
+      {
+        "name": "alarm_flag",
+        "type": 1,
+        "value": "false",
+        "description": "假数据报警标志"
+      }
+    ],
+    "create": {
+      "ret": -19867,
+      "output": {
+        "keyValueList": [
+          {
+            "key": "errorcodes",
+            "value": {
+              "int32ArrayValue": {
+                "int32Array": [
+                  -19499
+                ]
+              }
+            }
+          },
+          {
+            "key": "ids",
+            "value": {
+              "uint64ArrayValue": {
+                "uint64Array": []
+              }
+            }
+          },
+          {
+            "key": "ret",
+            "value": {
+              "int32Value": -19867
+            }
+          }
+        ]
+      }
+    },
+    "after": {
+      "ret": 0,
+      "list": [
+        {
+          "$id": "1441151880758558784",
+          "$name": "数字孪生模型编辑_框架页面",
+          "$guid": "1c9746d4-146b-497a-afc0-8362367782d3",
+          "$version": 7,
+          "$memberlist": [
+            {
+              "defaultenable": false,
+              "description": "成果类型",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "FUType",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "21",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "回收标志位",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "isRecycled",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "模型私有仓库",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "modelDBRepository",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "引用类型",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "quotedType",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "在父孪生容器中的位置",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "toFather",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "权限是否开启标志位",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "authFlag",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "false",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "时空信息",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "spaceTime",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "maxVersion",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "6",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "多人编辑信息储存",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "multiEditor",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "扩展域1",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "extendField1",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "扩展域2",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "extendField2",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "扩展域3",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "extendField3",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "扩展域4",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "extendField4",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "扩展域5",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "extendField5",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "扩展域6",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "extendField6",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "扩展域7",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "extendField7",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "扩展域8",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "extendField8",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "扩展域9",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "extendField9",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "扩展域10",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "extendField10",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__数字孪生建模时空仓库Name",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"kc58c121a14fe6a4aa3f87842fe6b708\",\"varName\":\"数字孪生建模时空仓库Name\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__数字孪生建模时空仓库ID",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k819ca681f21d27e91ab614dbab8b0b2\",\"varName\":\"数字孪生建模时空仓库ID\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__数字孪生建模时空仓库GUID",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k18eeabc47c8b470952a2fffa5200d9b\",\"varName\":\"数字孪生建模时空仓库GUID\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__配置后台对象名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"kb679154f82e0b5f155c7d31479b89bb\",\"varName\":\"配置后台对象名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__多灵敏时序物_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k726a0354bf8732bcc8899d9857d41cf\",\"varName\":\"多灵敏时序物_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"多灵敏时序物建模_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__单灵敏时序物_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k8b53a40d154823751ef62f0185d1d87\",\"varName\":\"单灵敏时序物_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"建模_单灵敏时序物_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__业务物_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k49aa4ceb759a45c2a139b8e51f5540d\",\"varName\":\"业务物_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"业务物建模_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__时序事_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"kd7e54ab51af0223db17fe8cfef18ff6\",\"varName\":\"时序事_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"时序事建模_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__业务事_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"kbcefa52e2371ede1b76b113d76decb3\",\"varName\":\"业务事_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"业务事建模_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__组织_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"ka64189a618e074f4aa2699f4869d317\",\"varName\":\"组织_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"组织建模_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__空间管理_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"ke1ed7189290e6a0db8b92915bac610a\",\"varName\":\"空间管理_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"空间管理建模_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__工作流配置_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k6913f9b6300a2c8397ba57f75608487\",\"varName\":\"工作流配置_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"工作流配置建模_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__多灵敏数据报警转发_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k3dc59f9c958b4132783682b9ed4a19d\",\"varName\":\"多灵敏数据报警转发_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"多灵敏数据报警转发建模_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__报警规则配置_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"kc19411d08eb59009845efc857e6b613\",\"varName\":\"报警规则配置_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"报警规则建模_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__当前页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"ka8ec18eee82e79aea93280af233fcb9\",\"varName\":\"当前页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__工厂模型根仓库ID",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"ka33bfde709ee022074778e6bcad4976\",\"varName\":\"工厂模型根仓库ID\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__工厂模型根仓库名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k29d837f5d6dfbd3411529675e60a362\",\"varName\":\"工厂模型根仓库名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__未启用名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k82df5a15fc6887c94d3bd258d010fd5\",\"varName\":\"未启用名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"factoryAlarmForwardDisplayEnable,tagAlarmForwardDisplayEnable,customAlarmDisplayEnable,customCalDisplayEnable\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__单灵敏数据报警转发_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"ke30db5bcbc3ec7e3bc55ddf8f677ae3\",\"varName\":\"单灵敏数据报警转发_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"单灵敏数据报警转发建模_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__命令语言_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k52c9687d7de9a020a6e6180fda76735\",\"varName\":\"命令语言_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"后台命令语言建模_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__自定义报警_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k3a29788c24322a7d7dca39870181622\",\"varName\":\"自定义报警_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"自定义报警建模_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__自定义计算_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k27fe50bd9e05f9889b2ce008292a80f\",\"varName\":\"自定义计算_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"自定义计算建模_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__第三方计算管理_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"kb03550fc404657e1b5b86002dda60be\",\"varName\":\"第三方计算管理_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"第三方计算管理建模_页面名称\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__二D精灵图_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k0c51e5c15cfc9c62fa80d4e9c6a5e94\",\"varName\":\"二D精灵图_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"精灵图2D管理_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__三D精灵图_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"kfa537547ce3510044eafc420d797e74\",\"varName\":\"三D精灵图_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"精灵图3D管理_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__页面精灵图_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k4089ae332f868fa231b6b0fcbe863ab\",\"varName\":\"页面精灵图_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"页面精灵图管理_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__报表精灵图_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k538a35689ed026e896f441a01fd5ca1\",\"varName\":\"报表精灵图_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"报表精灵图管理_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__GIS精灵图_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"kf901ec39349fb096a74d7a1ce7caa6c\",\"varName\":\"GIS精灵图_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"GIS精灵图建模_页面名称\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__模型根时空仓库GUID",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k63dc7884547e0a4feb02457d6d9da25\",\"varName\":\"模型根时空仓库GUID\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__工程时空仓库名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k8877cce6c7e5d39e3d4f8cc9f4cbac5\",\"varName\":\"工程时空仓库名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__工程时空仓库ID",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"kf6a2aa3700c77eeea7978ba8024ff97\",\"varName\":\"工程时空仓库ID\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__工程时空仓库GUID",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"kc52512977184e82da164588a55d0194\",\"varName\":\"工程时空仓库GUID\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__工程Root时空仓库名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"ke066198ca6b40e43502f441ad62eedd\",\"varName\":\"工程Root时空仓库名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__工程Root时空仓库ID",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k791c291d0060e97ada36d957c247856\",\"varName\":\"工程Root时空仓库ID\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__工程Root时空仓库GUID",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k63dd918b8eaaf4f745b725398c96704\",\"varName\":\"工程Root时空仓库GUID\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__配置后台时空对象全路径",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k13b5588025b5fbb47a085d031833276\",\"varName\":\"配置后台时空对象全路径\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__分组GUID",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k08a4c452ff449d2a8af835d176215f2\",\"varName\":\"分组GUID\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__子模型_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k86c36e194b254d4d496a858ef05f508\",\"varName\":\"子模型_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"子模型_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__模型描述",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k4f12ecc66c822bdbcdcff25dcc7ec20\",\"varName\":\"模型描述\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "AUTHORITY__访问权限",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k0b88702311279df85e84c06def412fa\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"authKey\":\"\",\"AbsAuthId\":\"AbsAuthId\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__形参配置_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k74ab626cd616dd3fbb3a1d8bef689f4\",\"varName\":\"形参配置_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"形参列表_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__岗位_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"k2971ca8a4891b77c954bd88918ce50a\",\"varName\":\"岗位_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"岗位建模_框架页面\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            },
+            {
+              "defaultenable": false,
+              "description": "",
+              "displaydigits": 20,
+              "maxvalue": null,
+              "minvalue": null,
+              "name": "PUBVAR__人员_页面名称",
+              "notnull": false,
+              "unique": false,
+              "unit": 0,
+              "unittype": 0,
+              "updateenable": true,
+              "value": "{\"KSCGUID\":\"kba2c772d6fbad1851d9e7172f08aed0\",\"varName\":\"人员_页面名称\",\"isPublic\":true,\"varDes\":\"\",\"varType\":2,\"varDefaultValue\":\"\",\"parentGUID\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"RefObject\":{},\"returnFormat\":0,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjName\":\"\",\"relateInfo\":\"\"}",
+              "valueset": {
+                "referencecolname": "",
+                "referenceguid": "",
+                "repoguid": ""
+              },
+              "valuetype": 13
+            }
+          ]
+        }
+      ]
+    },
+    "afterMemberNames": [
+      "FUType",
+      "isRecycled",
+      "modelDBRepository",
+      "quotedType",
+      "toFather",
+      "authFlag",
+      "spaceTime",
+      "maxVersion",
+      "multiEditor",
+      "extendField1",
+      "extendField2",
+      "extendField3",
+      "extendField4",
+      "extendField5",
+      "extendField6",
+      "extendField7",
+      "extendField8",
+      "extendField9",
+      "extendField10",
+      "PUBVAR__数字孪生建模时空仓库Name",
+      "PUBVAR__数字孪生建模时空仓库ID",
+      "PUBVAR__数字孪生建模时空仓库GUID",
+      "PUBVAR__配置后台对象名称",
+      "PUBVAR__多灵敏时序物_页面名称",
+      "PUBVAR__单灵敏时序物_页面名称",
+      "PUBVAR__业务物_页面名称",
+      "PUBVAR__时序事_页面名称",
+      "PUBVAR__业务事_页面名称",
+      "PUBVAR__组织_页面名称",
+      "PUBVAR__空间管理_页面名称",
+      "PUBVAR__工作流配置_页面名称",
+      "PUBVAR__多灵敏数据报警转发_页面名称",
+      "PUBVAR__报警规则配置_页面名称",
+      "PUBVAR__当前页面名称",
+      "PUBVAR__工厂模型根仓库ID",
+      "PUBVAR__工厂模型根仓库名称",
+      "PUBVAR__未启用名称",
+      "PUBVAR__单灵敏数据报警转发_页面名称",
+      "PUBVAR__命令语言_页面名称",
+      "PUBVAR__自定义报警_页面名称",
+      "PUBVAR__自定义计算_页面名称",
+      "PUBVAR__第三方计算管理_页面名称",
+      "PUBVAR__二D精灵图_页面名称",
+      "PUBVAR__三D精灵图_页面名称",
+      "PUBVAR__页面精灵图_页面名称",
+      "PUBVAR__报表精灵图_页面名称",
+      "PUBVAR__GIS精灵图_页面名称",
+      "PUBVAR__模型根时空仓库GUID",
+      "PUBVAR__工程时空仓库名称",
+      "PUBVAR__工程时空仓库ID",
+      "PUBVAR__工程时空仓库GUID",
+      "PUBVAR__工程Root时空仓库名称",
+      "PUBVAR__工程Root时空仓库ID",
+      "PUBVAR__工程Root时空仓库GUID",
+      "PUBVAR__配置后台时空对象全路径",
+      "PUBVAR__分组GUID",
+      "PUBVAR__子模型_页面名称",
+      "PUBVAR__模型描述",
+      "AUTHORITY__访问权限",
+      "PUBVAR__形参配置_页面名称",
+      "PUBVAR__岗位_页面名称",
+      "PUBVAR__人员_页面名称"
+    ]
+  },
+  "visibleNames": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 2 条\n<1>前往页\n\nKingFusion4.5_工程浏览器\n\n盛云_孙宇飞_假数据设备模型_0612 用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n命令语言\n\t\n\n\n第三方计算管理\n\t\n\n\n图形模型\n\t\n\n\n2D精灵图\n\t\n\n\n3D精灵图\n\t\n\n\n页面精灵图\n\t\n\n\n报表精灵图\n\t\n\n\n子模型\n\t\n\n\n形参配置\n\t\n\n多灵敏时序物\n\n暂无数据\n\n基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情\n\n函数：\n\n暂无数据\n\n条件配置\n\n时间间隔 00h 00m 00s\n\n配置",
+  "requestsTail": [
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:33.643Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:34.669Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:34.801Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:34.852Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:35.130Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:35.239Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:35.287Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:35.333Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:35.368Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:35.415Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:35.453Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:35.498Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:35.975Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:36.015Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:36.076Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:36.076Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:36.081Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:36.212Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:36.256Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/queryResource?fuid=0&userType=2&serviceType=1&modelGuid=1c9746d4-146b-497a-afc0-8362367782d3&version=7&fileID=63",
+      "at": "2026-06-12T04:30:36.384Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:36.385Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:36.604Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:36.678Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:36.738Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:37.045Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:39.263Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:42.261Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:45.271Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:45.995Z"
+    },
+    {
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "at": "2026-06-12T04:30:47.666Z"
+    }
+  ],
+  "screenshot": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\screenshots\\sy_fake_model_member_api_add_result.png"
+}

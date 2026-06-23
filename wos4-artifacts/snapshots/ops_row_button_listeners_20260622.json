@@ -1,0 +1,852 @@
+{
+  "buttons": [
+    {
+      "idx": 241,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--text el-button--medium",
+      "text": "更新",
+      "rect": {
+        "x": 1474,
+        "y": 112,
+        "w": 30,
+        "h": 36
+      },
+      "hasVue": true,
+      "comp": "ElButton",
+      "listeners": [
+        "click"
+      ],
+      "nativeOn": [],
+      "on": [],
+      "props": {
+        "type": "text",
+        "icon": "",
+        "nativeType": "button",
+        "plain": false
+      },
+      "chain": [
+        {
+          "tag": "DIV",
+          "cls": "cell",
+          "text": "撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "TD",
+          "cls": "el-table_2_column_9 is-left  cellName el-table__cell",
+          "text": "撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "TR",
+          "cls": "el-table__row el-table__row--level-0",
+          "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "comp": "ElTableRow",
+          "listeners": [],
+          "on": [
+            "dblclick",
+            "click",
+            "contextmenu",
+            "mouseenter",
+            "mouseleave"
+          ]
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "TABLE",
+          "cls": "el-table__body",
+          "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "comp": "ElTableBody",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "DIV",
+          "cls": "el-table__body-wrapper is-scrolling-none",
+          "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "DIV",
+          "cls": "el-table el-table--fit el-table--enable-row-hover el-table--enable-row-transition el-table--medium",
+          "text": "实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部",
+          "comp": "ElTable",
+          "listeners": [
+            "select",
+            "select-all",
+            "selection-change",
+            "cell-mouse-enter",
+            "cell-mouse-leave",
+            "cell-click",
+            "cell-dblclick",
+            "row-click",
+            "row-contextmenu",
+            "row-dblclick",
+            "header-click",
+            "sort-change",
+            "filter-change",
+            "current-change",
+            "header-dragend",
+            "expand-change"
+          ],
+          "on": []
+        },
+        {
+          "tag": "DIV",
+          "cls": "PCUI_ElementTable component_object 生产单元实例表格",
+          "text": "实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部",
+          "comp": "ElementTable",
+          "listeners": [
+            "handleSelectItem"
+          ],
+          "on": []
+        }
+      ]
+    },
+    {
+      "idx": 242,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "更新",
+      "rect": {
+        "x": 1475,
+        "y": 122,
+        "w": 28,
+        "h": 16
+      },
+      "hasVue": false,
+      "chain": [
+        {
+          "tag": "BUTTON",
+          "cls": "el-button el-button--text el-button--medium",
+          "text": "更新",
+          "comp": "ElButton",
+          "listeners": [
+            "click"
+          ],
+          "on": []
+        },
+        {
+          "tag": "DIV",
+          "cls": "cell",
+          "text": "撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "TD",
+          "cls": "el-table_2_column_9 is-left  cellName el-table__cell",
+          "text": "撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "TR",
+          "cls": "el-table__row el-table__row--level-0",
+          "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "comp": "ElTableRow",
+          "listeners": [],
+          "on": [
+            "dblclick",
+            "click",
+            "contextmenu",
+            "mouseenter",
+            "mouseleave"
+          ]
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "TABLE",
+          "cls": "el-table__body",
+          "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "comp": "ElTableBody",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "DIV",
+          "cls": "el-table__body-wrapper is-scrolling-none",
+          "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "DIV",
+          "cls": "el-table el-table--fit el-table--enable-row-hover el-table--enable-row-transition el-table--medium",
+          "text": "实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部",
+          "comp": "ElTable",
+          "listeners": [
+            "select",
+            "select-all",
+            "selection-change",
+            "cell-mouse-enter",
+            "cell-mouse-leave",
+            "cell-click",
+            "cell-dblclick",
+            "row-click",
+            "row-contextmenu",
+            "row-dblclick",
+            "header-click",
+            "sort-change",
+            "filter-change",
+            "current-change",
+            "header-dragend",
+            "expand-change"
+          ],
+          "on": []
+        }
+      ]
+    },
+    {
+      "idx": 243,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--text el-button--medium",
+      "text": "部分更新",
+      "rect": {
+        "x": 1514,
+        "y": 112,
+        "w": 58,
+        "h": 36
+      },
+      "hasVue": true,
+      "comp": "ElButton",
+      "listeners": [
+        "click"
+      ],
+      "nativeOn": [],
+      "on": [],
+      "props": {
+        "type": "text",
+        "icon": "",
+        "nativeType": "button",
+        "plain": false
+      },
+      "chain": [
+        {
+          "tag": "DIV",
+          "cls": "cell",
+          "text": "撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "TD",
+          "cls": "el-table_2_column_9 is-left  cellName el-table__cell",
+          "text": "撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "TR",
+          "cls": "el-table__row el-table__row--level-0",
+          "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "comp": "ElTableRow",
+          "listeners": [],
+          "on": [
+            "dblclick",
+            "click",
+            "contextmenu",
+            "mouseenter",
+            "mouseleave"
+          ]
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "TABLE",
+          "cls": "el-table__body",
+          "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "comp": "ElTableBody",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "DIV",
+          "cls": "el-table__body-wrapper is-scrolling-none",
+          "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "DIV",
+          "cls": "el-table el-table--fit el-table--enable-row-hover el-table--enable-row-transition el-table--medium",
+          "text": "实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部",
+          "comp": "ElTable",
+          "listeners": [
+            "select",
+            "select-all",
+            "selection-change",
+            "cell-mouse-enter",
+            "cell-mouse-leave",
+            "cell-click",
+            "cell-dblclick",
+            "row-click",
+            "row-contextmenu",
+            "row-dblclick",
+            "header-click",
+            "sort-change",
+            "filter-change",
+            "current-change",
+            "header-dragend",
+            "expand-change"
+          ],
+          "on": []
+        },
+        {
+          "tag": "DIV",
+          "cls": "PCUI_ElementTable component_object 生产单元实例表格",
+          "text": "实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部",
+          "comp": "ElementTable",
+          "listeners": [
+            "handleSelectItem"
+          ],
+          "on": []
+        }
+      ]
+    },
+    {
+      "idx": 244,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "部分更新",
+      "rect": {
+        "x": 1515,
+        "y": 122,
+        "w": 56,
+        "h": 16
+      },
+      "hasVue": false,
+      "chain": [
+        {
+          "tag": "BUTTON",
+          "cls": "el-button el-button--text el-button--medium",
+          "text": "部分更新",
+          "comp": "ElButton",
+          "listeners": [
+            "click"
+          ],
+          "on": []
+        },
+        {
+          "tag": "DIV",
+          "cls": "cell",
+          "text": "撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "TD",
+          "cls": "el-table_2_column_9 is-left  cellName el-table__cell",
+          "text": "撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "TR",
+          "cls": "el-table__row el-table__row--level-0",
+          "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "comp": "ElTableRow",
+          "listeners": [],
+          "on": [
+            "dblclick",
+            "click",
+            "contextmenu",
+            "mouseenter",
+            "mouseleave"
+          ]
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "TABLE",
+          "cls": "el-table__body",
+          "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "comp": "ElTableBody",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "DIV",
+          "cls": "el-table__body-wrapper is-scrolling-none",
+          "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "DIV",
+          "cls": "el-table el-table--fit el-table--enable-row-hover el-table--enable-row-transition el-table--medium",
+          "text": "实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部",
+          "comp": "ElTable",
+          "listeners": [
+            "select",
+            "select-all",
+            "selection-change",
+            "cell-mouse-enter",
+            "cell-mouse-leave",
+            "cell-click",
+            "cell-dblclick",
+            "row-click",
+            "row-contextmenu",
+            "row-dblclick",
+            "header-click",
+            "sort-change",
+            "filter-change",
+            "current-change",
+            "header-dragend",
+            "expand-change"
+          ],
+          "on": []
+        }
+      ]
+    },
+    {
+      "idx": 271,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--text el-button--medium",
+      "text": "更新",
+      "rect": {
+        "x": 1474,
+        "y": 149,
+        "w": 30,
+        "h": 36
+      },
+      "hasVue": true,
+      "comp": "ElButton",
+      "listeners": [
+        "click"
+      ],
+      "nativeOn": [],
+      "on": [],
+      "props": {
+        "type": "text",
+        "icon": "",
+        "nativeType": "button",
+        "plain": false
+      },
+      "chain": [
+        {
+          "tag": "DIV",
+          "cls": "cell",
+          "text": "撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "TD",
+          "cls": "el-table_2_column_9 is-left  cellName el-table__cell",
+          "text": "撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "TR",
+          "cls": "el-table__row el-table__row--level-1",
+          "text": "NadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "comp": "ElTableRow",
+          "listeners": [],
+          "on": [
+            "dblclick",
+            "click",
+            "contextmenu",
+            "mouseenter",
+            "mouseleave"
+          ]
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "TABLE",
+          "cls": "el-table__body",
+          "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "comp": "ElTableBody",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "DIV",
+          "cls": "el-table__body-wrapper is-scrolling-none",
+          "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "DIV",
+          "cls": "el-table el-table--fit el-table--enable-row-hover el-table--enable-row-transition el-table--medium",
+          "text": "实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部",
+          "comp": "ElTable",
+          "listeners": [
+            "select",
+            "select-all",
+            "selection-change",
+            "cell-mouse-enter",
+            "cell-mouse-leave",
+            "cell-click",
+            "cell-dblclick",
+            "row-click",
+            "row-contextmenu",
+            "row-dblclick",
+            "header-click",
+            "sort-change",
+            "filter-change",
+            "current-change",
+            "header-dragend",
+            "expand-change"
+          ],
+          "on": []
+        },
+        {
+          "tag": "DIV",
+          "cls": "PCUI_ElementTable component_object 生产单元实例表格",
+          "text": "实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部",
+          "comp": "ElementTable",
+          "listeners": [
+            "handleSelectItem"
+          ],
+          "on": []
+        }
+      ]
+    },
+    {
+      "idx": 272,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "更新",
+      "rect": {
+        "x": 1475,
+        "y": 159,
+        "w": 28,
+        "h": 16
+      },
+      "hasVue": false,
+      "chain": [
+        {
+          "tag": "BUTTON",
+          "cls": "el-button el-button--text el-button--medium",
+          "text": "更新",
+          "comp": "ElButton",
+          "listeners": [
+            "click"
+          ],
+          "on": []
+        },
+        {
+          "tag": "DIV",
+          "cls": "cell",
+          "text": "撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "TD",
+          "cls": "el-table_2_column_9 is-left  cellName el-table__cell",
+          "text": "撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "TR",
+          "cls": "el-table__row el-table__row--level-1",
+          "text": "NadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "comp": "ElTableRow",
+          "listeners": [],
+          "on": [
+            "dblclick",
+            "click",
+            "contextmenu",
+            "mouseenter",
+            "mouseleave"
+          ]
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "TABLE",
+          "cls": "el-table__body",
+          "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "comp": "ElTableBody",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "DIV",
+          "cls": "el-table__body-wrapper is-scrolling-none",
+          "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "DIV",
+          "cls": "el-table el-table--fit el-table--enable-row-hover el-table--enable-row-transition el-table--medium",
+          "text": "实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部",
+          "comp": "ElTable",
+          "listeners": [
+            "select",
+            "select-all",
+            "selection-change",
+            "cell-mouse-enter",
+            "cell-mouse-leave",
+            "cell-click",
+            "cell-dblclick",
+            "row-click",
+            "row-contextmenu",
+            "row-dblclick",
+            "header-click",
+            "sort-change",
+            "filter-change",
+            "current-change",
+            "header-dragend",
+            "expand-change"
+          ],
+          "on": []
+        }
+      ]
+    },
+    {
+      "idx": 273,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--text el-button--medium",
+      "text": "部分更新",
+      "rect": {
+        "x": 1514,
+        "y": 149,
+        "w": 58,
+        "h": 36
+      },
+      "hasVue": true,
+      "comp": "ElButton",
+      "listeners": [
+        "click"
+      ],
+      "nativeOn": [],
+      "on": [],
+      "props": {
+        "type": "text",
+        "icon": "",
+        "nativeType": "button",
+        "plain": false
+      },
+      "chain": [
+        {
+          "tag": "DIV",
+          "cls": "cell",
+          "text": "撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "TD",
+          "cls": "el-table_2_column_9 is-left  cellName el-table__cell",
+          "text": "撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "TR",
+          "cls": "el-table__row el-table__row--level-1",
+          "text": "NadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "comp": "ElTableRow",
+          "listeners": [],
+          "on": [
+            "dblclick",
+            "click",
+            "contextmenu",
+            "mouseenter",
+            "mouseleave"
+          ]
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "TABLE",
+          "cls": "el-table__body",
+          "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "comp": "ElTableBody",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "DIV",
+          "cls": "el-table__body-wrapper is-scrolling-none",
+          "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "DIV",
+          "cls": "el-table el-table--fit el-table--enable-row-hover el-table--enable-row-transition el-table--medium",
+          "text": "实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部",
+          "comp": "ElTable",
+          "listeners": [
+            "select",
+            "select-all",
+            "selection-change",
+            "cell-mouse-enter",
+            "cell-mouse-leave",
+            "cell-click",
+            "cell-dblclick",
+            "row-click",
+            "row-contextmenu",
+            "row-dblclick",
+            "header-click",
+            "sort-change",
+            "filter-change",
+            "current-change",
+            "header-dragend",
+            "expand-change"
+          ],
+          "on": []
+        },
+        {
+          "tag": "DIV",
+          "cls": "PCUI_ElementTable component_object 生产单元实例表格",
+          "text": "实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部",
+          "comp": "ElementTable",
+          "listeners": [
+            "handleSelectItem"
+          ],
+          "on": []
+        }
+      ]
+    },
+    {
+      "idx": 274,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "部分更新",
+      "rect": {
+        "x": 1515,
+        "y": 159,
+        "w": 56,
+        "h": 16
+      },
+      "hasVue": false,
+      "chain": [
+        {
+          "tag": "BUTTON",
+          "cls": "el-button el-button--text el-button--medium",
+          "text": "部分更新",
+          "comp": "ElButton",
+          "listeners": [
+            "click"
+          ],
+          "on": []
+        },
+        {
+          "tag": "DIV",
+          "cls": "cell",
+          "text": "撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "TD",
+          "cls": "el-table_2_column_9 is-left  cellName el-table__cell",
+          "text": "撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "TR",
+          "cls": "el-table__row el-table__row--level-1",
+          "text": "NadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "comp": "ElTableRow",
+          "listeners": [],
+          "on": [
+            "dblclick",
+            "click",
+            "contextmenu",
+            "mouseenter",
+            "mouseleave"
+          ]
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "TABLE",
+          "cls": "el-table__body",
+          "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "comp": "ElTableBody",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "DIV",
+          "cls": "el-table__body-wrapper is-scrolling-none",
+          "text": "NadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开",
+          "listeners": [],
+          "on": []
+        },
+        {
+          "tag": "DIV",
+          "cls": "el-table el-table--fit el-table--enable-row-hover el-table--enable-row-transition el-table--medium",
+          "text": "实例名称\t版本\t云\t数据区\t部署状态\t运行状态\t操作\n\t\nNadirL1\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部署\n\t\n已启动\n\t\n撤销部署停止更新部分更新删除全部展开\n\n\n\t\nNadirL2\n\t\n1\n\t\n本云\n\t\narea0\n\t\n已部",
+          "comp": "ElTable",
+          "listeners": [
+            "select",
+            "select-all",
+            "selection-change",
+            "cell-mouse-enter",
+            "cell-mouse-leave",
+            "cell-click",
+            "cell-dblclick",
+            "row-click",
+            "row-contextmenu",
+            "row-dblclick",
+            "header-click",
+            "sort-change",
+            "filter-change",
+            "current-change",
+            "header-dragend",
+            "expand-change"
+          ],
+          "on": []
+        }
+      ]
+    }
+  ]
+}

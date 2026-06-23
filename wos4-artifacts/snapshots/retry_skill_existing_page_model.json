@@ -1,0 +1,938 @@
+{
+  "hasEdit": true,
+  "keys": [
+    "PageView",
+    "RCol11",
+    "RCol12",
+    "RCol13",
+    "RCol14",
+    "RCol9",
+    "RCol2",
+    "RCol8",
+    "RCol3",
+    "RRow1",
+    "RCol6",
+    "RRow2",
+    "RContainer1",
+    "图层1",
+    "currentSelectItem"
+  ],
+  "rows": [],
+  "toolkits": [
+    {
+      "id": "responsecontainer",
+      "proto": "RContainer",
+      "text": "布局"
+    },
+    {
+      "id": "button",
+      "proto": "ElementButton",
+      "text": "按钮"
+    },
+    {
+      "id": "table",
+      "proto": "ElementTable",
+      "text": "表格"
+    },
+    {
+      "id": "input",
+      "proto": "ElementInput",
+      "text": "输入框"
+    },
+    {
+      "id": "text",
+      "proto": "ElementText",
+      "text": "文本"
+    },
+    {
+      "id": "tree",
+      "proto": "ElementTree",
+      "text": "树"
+    },
+    {
+      "id": "button",
+      "proto": "ElementButton",
+      "text": "按钮"
+    },
+    {
+      "id": "table",
+      "proto": "ElementTable",
+      "text": "表格"
+    },
+    {
+      "id": "input",
+      "proto": "ElementInput",
+      "text": "输入框"
+    },
+    {
+      "id": "text",
+      "proto": "ElementText",
+      "text": "文本"
+    },
+    {
+      "id": "tree",
+      "proto": "ElementTree",
+      "text": "树"
+    },
+    {
+      "id": "table",
+      "proto": "ElementTable",
+      "text": "表格"
+    },
+    {
+      "id": "input",
+      "proto": "ElementInput",
+      "text": "输入框"
+    },
+    {
+      "id": "button",
+      "proto": "ElementButton",
+      "text": "按钮"
+    },
+    {
+      "id": "text",
+      "proto": "ElementText",
+      "text": "文本"
+    },
+    {
+      "id": "chart/自定义图表",
+      "proto": "ElementChart",
+      "text": "自定义图表"
+    },
+    {
+      "id": "chart/普通柱状图",
+      "proto": "ElementChart",
+      "text": "普通柱状图"
+    },
+    {
+      "id": "chart/渐变柱状图",
+      "proto": "ElementChart",
+      "text": "多系列柱状图"
+    },
+    {
+      "id": "chart/柱状图表",
+      "proto": "ElementChart",
+      "text": "普通柱状图"
+    },
+    {
+      "id": "chart/堆叠柱状图",
+      "proto": "ElementChart",
+      "text": "堆叠柱状图"
+    },
+    {
+      "id": "chart/曲顶柱状图",
+      "proto": "ElementChart",
+      "text": "曲顶柱状图"
+    },
+    {
+      "id": "chart/象形柱状图",
+      "proto": "ElementChart",
+      "text": "象形柱状图"
+    },
+    {
+      "id": "chart/伪立体柱状图",
+      "proto": "ElementChart",
+      "text": "立体柱状图"
+    },
+    {
+      "id": "chart/双立体柱状图",
+      "proto": "ElementChart",
+      "text": "多系列立体柱状图"
+    },
+    {
+      "id": "chart/立体柱状图",
+      "proto": "ElementChart",
+      "text": "立体柱状图"
+    },
+    {
+      "id": "chart/光圈柱状图",
+      "proto": "ElementChart",
+      "text": "光圈柱状图"
+    },
+    {
+      "id": "chart/3D立体渐变柱状图",
+      "proto": "ElementChart",
+      "text": "多系列立体柱状图"
+    },
+    {
+      "id": "chart/多色立体柱状图",
+      "proto": "ElementChart",
+      "text": "立体柱状图1"
+    },
+    {
+      "id": "chart/伪立体柱状图1",
+      "proto": "ElementChart",
+      "text": "光圈立体柱状图"
+    },
+    {
+      "id": "chart/伪3D组合柱子",
+      "proto": "ElementChart",
+      "text": "横向渐变柱状图"
+    },
+    {
+      "id": "chart/横向立体柱状图",
+      "proto": "ElementChart",
+      "text": "横向立体柱状图"
+    },
+    {
+      "id": "chart/多色横向柱状图",
+      "proto": "ElementChart",
+      "text": "横向柱状图"
+    },
+    {
+      "id": "chart/渐变横向柱状图",
+      "proto": "ElementChart",
+      "text": "横向柱状图"
+    },
+    {
+      "id": "chart/横向象形柱状图",
+      "proto": "ElementChart",
+      "text": "象形柱状图"
+    },
+    {
+      "id": "chart/横向柱状图及排名",
+      "proto": "ElementChart",
+      "text": "横向柱状图及排名"
+    },
+    {
+      "id": "chart/重叠横向柱状图",
+      "proto": "ElementChart",
+      "text": "横向柱状图1"
+    },
+    {
+      "id": "chart/电池-进度柱状图",
+      "proto": "ElementChart",
+      "text": "电池-进度柱状图"
+    },
+    {
+      "id": "chart/横排分隔形柱状图",
+      "proto": "ElementChart",
+      "text": "横排分隔形柱状图"
+    },
+    {
+      "id": "chart/折线图",
+      "proto": "ElementChart",
+      "text": "折线图"
+    },
+    {
+      "id": "chart/渐变折线图",
+      "proto": "ElementChart",
+      "text": "渐变折线图"
+    },
+    {
+      "id": "chart/多线图1",
+      "proto": "ElementChart",
+      "text": "多线图"
+    },
+    {
+      "id": "chart/多线图",
+      "proto": "ElementChart",
+      "text": "多线图"
+    },
+    {
+      "id": "chart/销售水量占比",
+      "proto": "ElementChart",
+      "text": "折现堆叠图"
+    },
+    {
+      "id": "chart/多色渐变折线图",
+      "proto": "ElementChart",
+      "text": "多线图"
+    },
+    {
+      "id": "chart/混合柱状图",
+      "proto": "ElementChart",
+      "text": "立体混合图"
+    },
+    {
+      "id": "chart/混合立体柱状图",
+      "proto": "ElementChart",
+      "text": "立体混合图"
+    },
+    {
+      "id": "chart/混合渐变图",
+      "proto": "ElementChart",
+      "text": "同数据混合图"
+    },
+    {
+      "id": "chart/渐变折线柱状图",
+      "proto": "ElementChart",
+      "text": "渐变混合图"
+    },
+    {
+      "id": "chart/标注气泡图",
+      "proto": "ElementChart",
+      "text": "气泡混合图"
+    },
+    {
+      "id": "chart/蓝色饼图",
+      "proto": "ElementChart",
+      "text": "普通饼图"
+    },
+    {
+      "id": "chart/南丁格尔玫瑰图",
+      "proto": "ElementChart",
+      "text": "南丁格尔玫瑰图"
+    },
+    {
+      "id": "chart/交通方式",
+      "proto": "ElementChart",
+      "text": "光圈饼图"
+    },
+    {
+      "id": "chart/断开环形图",
+      "proto": "ElementChart",
+      "text": "断开环形图"
+    },
+    {
+      "id": "chart/动画装饰仪表盘",
+      "proto": "ElementChart",
+      "text": "动画装饰仪表盘"
+    },
+    {
+      "id": "chart/炫酷饼图",
+      "proto": "ElementChart",
+      "text": "普通饼图"
+    },
+    {
+      "id": "chart/饼图（常规）",
+      "proto": "ElementChart",
+      "text": "普通饼图"
+    },
+    {
+      "id": "chart/占比饼图",
+      "proto": "ElementChart",
+      "text": "占比饼图"
+    },
+    {
+      "id": "chart/用户分析健康评分",
+      "proto": "ElementChart",
+      "text": "仪表饼图"
+    },
+    {
+      "id": "chart/正面评论",
+      "proto": "ElementChart",
+      "text": "多系列饼图"
+    },
+    {
+      "id": "chart/嵌套饼图",
+      "proto": "ElementChart",
+      "text": "立体饼图"
+    },
+    {
+      "id": "chart/SPEED",
+      "proto": "ElementChart",
+      "text": "普通饼图"
+    },
+    {
+      "id": "chart/CPU分配率",
+      "proto": "ElementChart",
+      "text": "普通饼图"
+    },
+    {
+      "id": "chart/GOAL",
+      "proto": "ElementChart",
+      "text": "炫酷饼图"
+    },
+    {
+      "id": "chart/24",
+      "proto": "ElementChart",
+      "text": "普通饼图"
+    },
+    {
+      "id": "chart/超期率",
+      "proto": "ElementChart",
+      "text": "普通饼图"
+    },
+    {
+      "id": "chart/仪表盘带进度条",
+      "proto": "ElementChart",
+      "text": "仪表盘"
+    },
+    {
+      "id": "chart/仪表盘",
+      "proto": "ElementChart",
+      "text": "仪表盘"
+    },
+    {
+      "id": "chart/分段渐变仪表盘",
+      "proto": "ElementChart",
+      "text": "分段渐变仪表盘"
+    },
+    {
+      "id": "chart/仪表盘1",
+      "proto": "ElementChart",
+      "text": "仪表盘"
+    },
+    {
+      "id": "chart/仪表盘2",
+      "proto": "ElementChart",
+      "text": "炫酷仪表盘"
+    },
+    {
+      "id": "chart/噪音仪表盘",
+      "proto": "ElementChart",
+      "text": "噪音仪表盘"
+    },
+    {
+      "id": "chart/仪表盘3",
+      "proto": "ElementChart",
+      "text": "噪音仪表盘"
+    },
+    {
+      "id": "chart/仪表盘-有进度条-指针会动",
+      "proto": "ElementChart",
+      "text": "仪表盘"
+    },
+    {
+      "id": "chart/雷达图",
+      "proto": "ElementChart",
+      "text": "雷达图"
+    },
+    {
+      "id": "chart/渐变色雷达图",
+      "proto": "ElementChart",
+      "text": "k_mzubq6"
+    },
+    {
+      "id": "chart/雷达图-tooltip显示单轴数据",
+      "proto": "ElementChart",
+      "text": "雷达图"
+    },
+    {
+      "id": "chart/卫星坐标（雷达图）",
+      "proto": "ElementChart",
+      "text": "卫星坐标雷达图"
+    },
+    {
+      "id": "chart/闪点气泡图",
+      "proto": "ElementChart",
+      "text": "普通气泡图"
+    },
+    {
+      "id": "chart/气泡图 Y轴变汉字中文",
+      "proto": "ElementChart",
+      "text": "普通气泡图"
+    },
+    {
+      "id": "chart/散点图",
+      "proto": "ElementChart",
+      "text": "散点图"
+    },
+    {
+      "id": "chart/Echarts 气泡图",
+      "proto": "ElementChart",
+      "text": "普通气泡图"
+    },
+    {
+      "id": "chart/漏斗图",
+      "proto": "ElementChart",
+      "text": "漏斗图"
+    },
+    {
+      "id": "chart/前后漏斗对比",
+      "proto": "ElementChart",
+      "text": "前后对比漏斗图"
+    },
+    {
+      "id": "chart/左右漏斗图对比",
+      "proto": "ElementChart",
+      "text": "左右对比漏斗图"
+    },
+    {
+      "id": "chart/漏斗图1",
+      "proto": "ElementChart",
+      "text": "向下漏斗图"
+    },
+    {
+      "id": "chart/漏斗图2",
+      "proto": "ElementChart",
+      "text": "向上漏斗图"
+    },
+    {
+      "id": "chart/项目各阶段进度甘特图",
+      "proto": "ElementChart",
+      "text": "普通甘特图"
+    },
+    {
+      "id": "chart/甘特图例子",
+      "proto": "ElementChart",
+      "text": "普通甘特图"
+    },
+    {
+      "id": "chart/test",
+      "proto": "ElementChart",
+      "text": "水波图"
+    },
+    {
+      "id": "chart/水球图",
+      "proto": "ElementChart",
+      "text": "水球图"
+    },
+    {
+      "id": "chart/水球比例图",
+      "proto": "ElementChart",
+      "text": "水球图"
+    },
+    {
+      "id": "chart/好看环形百分比图",
+      "proto": "ElementChart",
+      "text": "圆环百分比"
+    },
+    {
+      "id": "chart/圆环百分比",
+      "proto": "ElementChart",
+      "text": "圆环百分比"
+    },
+    {
+      "id": "chart/百分比进度条",
+      "proto": "ElementChart",
+      "text": "百分比进度条"
+    },
+    {
+      "id": "chart/3D环饼图",
+      "proto": "ElementChart",
+      "text": "立体环饼图"
+    },
+    {
+      "id": "chart/3D环形图",
+      "proto": "ElementChart",
+      "text": "立体环形图"
+    },
+    {
+      "id": "chart/伪3d环形图",
+      "proto": "ElementChart",
+      "text": "立体环形图"
+    },
+    {
+      "id": "chart/模拟3D地图——迁徙图",
+      "proto": "ElementChart",
+      "text": "地图流向图"
+    },
+    {
+      "id": "chart/地图时间轴多样",
+      "proto": "ElementChart",
+      "text": "地图气泡图"
+    },
+    {
+      "id": "chart/普通柱状图",
+      "proto": "ElementChart",
+      "text": "普通柱状图"
+    },
+    {
+      "id": "chart/渐变柱状图",
+      "proto": "ElementChart",
+      "text": "多系列柱状图"
+    },
+    {
+      "id": "chart/柱状图表",
+      "proto": "ElementChart",
+      "text": "普通柱状图"
+    },
+    {
+      "id": "chart/堆叠柱状图",
+      "proto": "ElementChart",
+      "text": "堆叠柱状图"
+    },
+    {
+      "id": "chart/曲顶柱状图",
+      "proto": "ElementChart",
+      "text": "曲顶柱状图"
+    },
+    {
+      "id": "chart/象形柱状图",
+      "proto": "ElementChart",
+      "text": "象形柱状图"
+    },
+    {
+      "id": "chart/伪立体柱状图",
+      "proto": "ElementChart",
+      "text": "立体柱状图"
+    },
+    {
+      "id": "chart/双立体柱状图",
+      "proto": "ElementChart",
+      "text": "多系列立体柱状图"
+    },
+    {
+      "id": "chart/立体柱状图",
+      "proto": "ElementChart",
+      "text": "立体柱状图"
+    },
+    {
+      "id": "chart/光圈柱状图",
+      "proto": "ElementChart",
+      "text": "光圈柱状图"
+    },
+    {
+      "id": "chart/3D立体渐变柱状图",
+      "proto": "ElementChart",
+      "text": "多系列立体柱状图"
+    },
+    {
+      "id": "chart/多色立体柱状图",
+      "proto": "ElementChart",
+      "text": "立体柱状图1"
+    },
+    {
+      "id": "chart/伪立体柱状图1",
+      "proto": "ElementChart",
+      "text": "光圈立体柱状图"
+    },
+    {
+      "id": "chart/伪3D组合柱子",
+      "proto": "ElementChart",
+      "text": "横向渐变柱状图"
+    },
+    {
+      "id": "chart/横向立体柱状图",
+      "proto": "ElementChart",
+      "text": "横向立体柱状图"
+    },
+    {
+      "id": "chart/多色横向柱状图",
+      "proto": "ElementChart",
+      "text": "横向柱状图"
+    },
+    {
+      "id": "chart/渐变横向柱状图",
+      "proto": "ElementChart",
+      "text": "横向柱状图"
+    },
+    {
+      "id": "chart/横向象形柱状图",
+      "proto": "ElementChart",
+      "text": "象形柱状图"
+    },
+    {
+      "id": "chart/横向柱状图及排名",
+      "proto": "ElementChart",
+      "text": "横向柱状图及排名"
+    },
+    {
+      "id": "chart/重叠横向柱状图",
+      "proto": "ElementChart",
+      "text": "横向柱状图1"
+    },
+    {
+      "id": "chart/电池-进度柱状图",
+      "proto": "ElementChart",
+      "text": "电池-进度柱状图"
+    },
+    {
+      "id": "chart/横排分隔形柱状图",
+      "proto": "ElementChart",
+      "text": "横排分隔形柱状图"
+    },
+    {
+      "id": "chart/折线图",
+      "proto": "ElementChart",
+      "text": "折线图"
+    },
+    {
+      "id": "chart/渐变折线图",
+      "proto": "ElementChart",
+      "text": "渐变折线图"
+    },
+    {
+      "id": "chart/多线图1",
+      "proto": "ElementChart",
+      "text": "多线图"
+    },
+    {
+      "id": "chart/多线图",
+      "proto": "ElementChart",
+      "text": "多线图"
+    },
+    {
+      "id": "chart/销售水量占比",
+      "proto": "ElementChart",
+      "text": "折现堆叠图"
+    },
+    {
+      "id": "chart/多色渐变折线图",
+      "proto": "ElementChart",
+      "text": "多线图"
+    },
+    {
+      "id": "chart/混合柱状图",
+      "proto": "ElementChart",
+      "text": "立体混合图"
+    },
+    {
+      "id": "chart/混合立体柱状图",
+      "proto": "ElementChart",
+      "text": "立体混合图"
+    },
+    {
+      "id": "chart/混合渐变图",
+      "proto": "ElementChart",
+      "text": "同数据混合图"
+    },
+    {
+      "id": "chart/渐变折线柱状图",
+      "proto": "ElementChart",
+      "text": "渐变混合图"
+    },
+    {
+      "id": "chart/标注气泡图",
+      "proto": "ElementChart",
+      "text": "气泡混合图"
+    },
+    {
+      "id": "chart/蓝色饼图",
+      "proto": "ElementChart",
+      "text": "普通饼图"
+    },
+    {
+      "id": "chart/南丁格尔玫瑰图",
+      "proto": "ElementChart",
+      "text": "南丁格尔玫瑰图"
+    },
+    {
+      "id": "chart/交通方式",
+      "proto": "ElementChart",
+      "text": "光圈饼图"
+    },
+    {
+      "id": "chart/断开环形图",
+      "proto": "ElementChart",
+      "text": "断开环形图"
+    },
+    {
+      "id": "chart/动画装饰仪表盘",
+      "proto": "ElementChart",
+      "text": "动画装饰仪表盘"
+    },
+    {
+      "id": "chart/炫酷饼图",
+      "proto": "ElementChart",
+      "text": "普通饼图"
+    },
+    {
+      "id": "chart/饼图（常规）",
+      "proto": "ElementChart",
+      "text": "普通饼图"
+    },
+    {
+      "id": "chart/占比饼图",
+      "proto": "ElementChart",
+      "text": "占比饼图"
+    },
+    {
+      "id": "chart/用户分析健康评分",
+      "proto": "ElementChart",
+      "text": "仪表饼图"
+    },
+    {
+      "id": "chart/正面评论",
+      "proto": "ElementChart",
+      "text": "多系列饼图"
+    },
+    {
+      "id": "chart/嵌套饼图",
+      "proto": "ElementChart",
+      "text": "立体饼图"
+    },
+    {
+      "id": "chart/SPEED",
+      "proto": "ElementChart",
+      "text": "普通饼图"
+    },
+    {
+      "id": "chart/CPU分配率",
+      "proto": "ElementChart",
+      "text": "普通饼图"
+    },
+    {
+      "id": "chart/GOAL",
+      "proto": "ElementChart",
+      "text": "炫酷饼图"
+    },
+    {
+      "id": "chart/24",
+      "proto": "ElementChart",
+      "text": "普通饼图"
+    },
+    {
+      "id": "chart/超期率",
+      "proto": "ElementChart",
+      "text": "普通饼图"
+    },
+    {
+      "id": "chart/仪表盘带进度条",
+      "proto": "ElementChart",
+      "text": "仪表盘"
+    },
+    {
+      "id": "chart/仪表盘",
+      "proto": "ElementChart",
+      "text": "仪表盘"
+    },
+    {
+      "id": "chart/分段渐变仪表盘",
+      "proto": "ElementChart",
+      "text": "分段渐变仪表盘"
+    },
+    {
+      "id": "chart/仪表盘1",
+      "proto": "ElementChart",
+      "text": "仪表盘"
+    },
+    {
+      "id": "chart/仪表盘2",
+      "proto": "ElementChart",
+      "text": "炫酷仪表盘"
+    },
+    {
+      "id": "chart/噪音仪表盘",
+      "proto": "ElementChart",
+      "text": "噪音仪表盘"
+    },
+    {
+      "id": "chart/仪表盘3",
+      "proto": "ElementChart",
+      "text": "噪音仪表盘"
+    },
+    {
+      "id": "chart/仪表盘-有进度条-指针会动",
+      "proto": "ElementChart",
+      "text": "仪表盘"
+    },
+    {
+      "id": "chart/雷达图",
+      "proto": "ElementChart",
+      "text": "雷达图"
+    },
+    {
+      "id": "chart/渐变色雷达图",
+      "proto": "ElementChart",
+      "text": "k_mzubq6"
+    },
+    {
+      "id": "chart/雷达图-tooltip显示单轴数据",
+      "proto": "ElementChart",
+      "text": "雷达图"
+    },
+    {
+      "id": "chart/卫星坐标（雷达图）",
+      "proto": "ElementChart",
+      "text": "卫星坐标雷达图"
+    },
+    {
+      "id": "chart/闪点气泡图",
+      "proto": "ElementChart",
+      "text": "普通气泡图"
+    },
+    {
+      "id": "chart/气泡图 Y轴变汉字中文",
+      "proto": "ElementChart",
+      "text": "普通气泡图"
+    },
+    {
+      "id": "chart/散点图",
+      "proto": "ElementChart",
+      "text": "散点图"
+    },
+    {
+      "id": "chart/Echarts 气泡图",
+      "proto": "ElementChart",
+      "text": "普通气泡图"
+    },
+    {
+      "id": "chart/漏斗图",
+      "proto": "ElementChart",
+      "text": "漏斗图"
+    },
+    {
+      "id": "chart/前后漏斗对比",
+      "proto": "ElementChart",
+      "text": "前后对比漏斗图"
+    },
+    {
+      "id": "chart/左右漏斗图对比",
+      "proto": "ElementChart",
+      "text": "左右对比漏斗图"
+    },
+    {
+      "id": "chart/漏斗图1",
+      "proto": "ElementChart",
+      "text": "向下漏斗图"
+    },
+    {
+      "id": "chart/漏斗图2",
+      "proto": "ElementChart",
+      "text": "向上漏斗图"
+    },
+    {
+      "id": "chart/项目各阶段进度甘特图",
+      "proto": "ElementChart",
+      "text": "普通甘特图"
+    },
+    {
+      "id": "chart/甘特图例子",
+      "proto": "ElementChart",
+      "text": "普通甘特图"
+    },
+    {
+      "id": "chart/test",
+      "proto": "ElementChart",
+      "text": "水波图"
+    },
+    {
+      "id": "chart/水球图",
+      "proto": "ElementChart",
+      "text": "水球图"
+    },
+    {
+      "id": "chart/水球比例图",
+      "proto": "ElementChart",
+      "text": "水球图"
+    },
+    {
+      "id": "chart/好看环形百分比图",
+      "proto": "ElementChart",
+      "text": "圆环百分比"
+    },
+    {
+      "id": "chart/圆环百分比",
+      "proto": "ElementChart",
+      "text": "圆环百分比"
+    },
+    {
+      "id": "chart/百分比进度条",
+      "proto": "ElementChart",
+      "text": "百分比进度条"
+    },
+    {
+      "id": "chart/3D环饼图",
+      "proto": "ElementChart",
+      "text": "立体环饼图"
+    },
+    {
+      "id": "chart/3D环形图",
+      "proto": "ElementChart",
+      "text": "立体环形图"
+    },
+    {
+      "id": "chart/伪3d环形图",
+      "proto": "ElementChart",
+      "text": "立体环形图"
+    },
+    {
+      "id": "chart/模拟3D地图——迁徙图",
+      "proto": "ElementChart",
+      "text": "地图流向图"
+    },
+    {
+      "id": "chart/地图时间轴多样",
+      "proto": "ElementChart",
+      "text": "地图气泡图"
+    },
+    {
+      "id": "chart/自定义图表",
+      "proto": "ElementChart",
+      "text": "自定义图表"
+    }
+  ]
+}

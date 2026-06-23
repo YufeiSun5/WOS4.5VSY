@@ -1,0 +1,187 @@
+{
+  "at": "2026-06-12T04:40:01.967Z",
+  "info": [
+    {
+      "tag": "HTML",
+      "cls": "dark",
+      "id": "",
+      "title": null,
+      "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260514\n组态系统客户端0518\n建模系统客户端_0518\n运维部署客户端_0518\nCodex临时测试_前端视图_0611",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 900
+      },
+      "html": "<html lang=\"en\" class=\"dark\"><head><meta charset=\"UTF-8\"><link rel=\"icon\" href=\"./favicon.png\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>WellinOS4.5</title><script>const pathName = location.pathname.endsWith('/') ? location.pathname : location.pathname + '/';\n      if (pathName.endsWith('/run/')) {\n        sessionStorage.setItem('proxy_pathname', pathName.replace('/run/', '/'));\n      } else {\n        sessionStorage.setItem('proxy_pathname', pathName);\n      }\n\n      const request = new XMLHttpRequest();\n      request.open('GET', 'config.json', false);\n\n      try {\n        request.send(null);\n        window.CONFIG = JSON.parse(request.responseText);\n      } catch (e) {\n        window.CONFIG = {\n          SSL_GATEWAY: false,\n          IS_BS: false,\n          "
+    },
+    {
+      "tag": "BODY",
+      "cls": "",
+      "id": "",
+      "title": null,
+      "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260514\n组态系统客户端0518\n建模系统客户端_0518\n运维部署客户端_0518\nCodex临时测试_前端视图_0611",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 900
+      },
+      "html": "<body class=\"\"><div id=\"app\" data-v-app=\"\"><div data-v-313a37aa=\"\" class=\"desktop-main\"><div data-v-b05adf7e=\"\" data-v-313a37aa=\"\" class=\"window-main desktop-window\"><div data-v-b05adf7e=\"\" class=\"window-item is-cur\" style=\"z-index: 0;\"><!----><div data-v-9ba6a1dd=\"\" data-v-73b6eafa=\"\" data-v-b05adf7e=\"\" class=\"built-home view-home built-item window-content\" style=\"--card-width: 68px; --card-height: 112px; --card-col-gap: 6px; --card-row-gap: 16px;\"><div data-v-9ba6a1dd=\"\" class=\"el-scrollbar card-scroll\"><div class=\"el-scrollbar__wrap el-scrollbar__wrap--hidden-default\" style=\"height: 100%;\"><div class=\"el-scrollbar__view\" style=\"\"><div data-v-9ba6a1dd=\"\" class=\"card-main\"><div data-v-aa24f155=\"\" data-v-9ba6a1dd=\"\" class=\"data-item card-item\" title=\"时空功能开发\"><!----><div data-v-aa24f155=\"\" "
+    },
+    {
+      "tag": "DIV",
+      "cls": "",
+      "id": "app",
+      "title": null,
+      "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260514\n组态系统客户端0518\n建模系统客户端_0518\n运维部署客户端_0518\nCodex临时测试_前端视图_0611",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 900
+      },
+      "html": "<div id=\"app\" data-v-app=\"\"><div data-v-313a37aa=\"\" class=\"desktop-main\"><div data-v-b05adf7e=\"\" data-v-313a37aa=\"\" class=\"window-main desktop-window\"><div data-v-b05adf7e=\"\" class=\"window-item is-cur\" style=\"z-index: 0;\"><!----><div data-v-9ba6a1dd=\"\" data-v-73b6eafa=\"\" data-v-b05adf7e=\"\" class=\"built-home view-home built-item window-content\" style=\"--card-width: 68px; --card-height: 112px; --card-col-gap: 6px; --card-row-gap: 16px;\"><div data-v-9ba6a1dd=\"\" class=\"el-scrollbar card-scroll\"><div class=\"el-scrollbar__wrap el-scrollbar__wrap--hidden-default\" style=\"height: 100%;\"><div class=\"el-scrollbar__view\" style=\"\"><div data-v-9ba6a1dd=\"\" class=\"card-main\"><div data-v-aa24f155=\"\" data-v-9ba6a1dd=\"\" class=\"data-item card-item\" title=\"时空功能开发\"><!----><div data-v-aa24f155=\"\" class=\"running-"
+    },
+    {
+      "tag": "DIV",
+      "cls": "desktop-main",
+      "id": "",
+      "title": null,
+      "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260514\n组态系统客户端0518\n建模系统客户端_0518\n运维部署客户端_0518\nCodex临时测试_前端视图_0611",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 900
+      },
+      "html": "<div data-v-313a37aa=\"\" class=\"desktop-main\"><div data-v-b05adf7e=\"\" data-v-313a37aa=\"\" class=\"window-main desktop-window\"><div data-v-b05adf7e=\"\" class=\"window-item is-cur\" style=\"z-index: 0;\"><!----><div data-v-9ba6a1dd=\"\" data-v-73b6eafa=\"\" data-v-b05adf7e=\"\" class=\"built-home view-home built-item window-content\" style=\"--card-width: 68px; --card-height: 112px; --card-col-gap: 6px; --card-row-gap: 16px;\"><div data-v-9ba6a1dd=\"\" class=\"el-scrollbar card-scroll\"><div class=\"el-scrollbar__wrap el-scrollbar__wrap--hidden-default\" style=\"height: 100%;\"><div class=\"el-scrollbar__view\" style=\"\"><div data-v-9ba6a1dd=\"\" class=\"card-main\"><div data-v-aa24f155=\"\" data-v-9ba6a1dd=\"\" class=\"data-item card-item\" title=\"时空功能开发\"><!----><div data-v-aa24f155=\"\" class=\"running-abnormal\" style=\"display: no"
+    },
+    {
+      "tag": "DIV",
+      "cls": "window-main desktop-window",
+      "id": "",
+      "title": null,
+      "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260514\n组态系统客户端0518\n建模系统客户端_0518\n运维部署客户端_0518\nCodex临时测试_前端视图_0611",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 854
+      },
+      "html": "<div data-v-b05adf7e=\"\" data-v-313a37aa=\"\" class=\"window-main desktop-window\"><div data-v-b05adf7e=\"\" class=\"window-item is-cur\" style=\"z-index: 0;\"><!----><div data-v-9ba6a1dd=\"\" data-v-73b6eafa=\"\" data-v-b05adf7e=\"\" class=\"built-home view-home built-item window-content\" style=\"--card-width: 68px; --card-height: 112px; --card-col-gap: 6px; --card-row-gap: 16px;\"><div data-v-9ba6a1dd=\"\" class=\"el-scrollbar card-scroll\"><div class=\"el-scrollbar__wrap el-scrollbar__wrap--hidden-default\" style=\"height: 100%;\"><div class=\"el-scrollbar__view\" style=\"\"><div data-v-9ba6a1dd=\"\" class=\"card-main\"><div data-v-aa24f155=\"\" data-v-9ba6a1dd=\"\" class=\"data-item card-item\" title=\"时空功能开发\"><!----><div data-v-aa24f155=\"\" class=\"running-abnormal\" style=\"display: none;\"><i data-v-aa24f155=\"\" class=\"el-icon\"><s"
+    },
+    {
+      "tag": "DIV",
+      "cls": "window-item is-cur",
+      "id": "",
+      "title": null,
+      "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260514\n组态系统客户端0518\n建模系统客户端_0518\n运维部署客户端_0518\nCodex临时测试_前端视图_0611",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 854
+      },
+      "html": "<div data-v-b05adf7e=\"\" class=\"window-item is-cur\" style=\"z-index: 0;\"><!----><div data-v-9ba6a1dd=\"\" data-v-73b6eafa=\"\" data-v-b05adf7e=\"\" class=\"built-home view-home built-item window-content\" style=\"--card-width: 68px; --card-height: 112px; --card-col-gap: 6px; --card-row-gap: 16px;\"><div data-v-9ba6a1dd=\"\" class=\"el-scrollbar card-scroll\"><div class=\"el-scrollbar__wrap el-scrollbar__wrap--hidden-default\" style=\"height: 100%;\"><div class=\"el-scrollbar__view\" style=\"\"><div data-v-9ba6a1dd=\"\" class=\"card-main\"><div data-v-aa24f155=\"\" data-v-9ba6a1dd=\"\" class=\"data-item card-item\" title=\"时空功能开发\"><!----><div data-v-aa24f155=\"\" class=\"running-abnormal\" style=\"display: none;\"><i data-v-aa24f155=\"\" class=\"el-icon\"><svg data-v-aa24f155=\"\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1024 102"
+    },
+    {
+      "tag": "DIV",
+      "cls": "built-home view-home built-item window-content",
+      "id": "",
+      "title": null,
+      "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260514\n组态系统客户端0518\n建模系统客户端_0518\n运维部署客户端_0518\nCodex临时测试_前端视图_0611",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 854
+      },
+      "html": "<div data-v-9ba6a1dd=\"\" data-v-73b6eafa=\"\" data-v-b05adf7e=\"\" class=\"built-home view-home built-item window-content\" style=\"--card-width: 68px; --card-height: 112px; --card-col-gap: 6px; --card-row-gap: 16px;\"><div data-v-9ba6a1dd=\"\" class=\"el-scrollbar card-scroll\"><div class=\"el-scrollbar__wrap el-scrollbar__wrap--hidden-default\" style=\"height: 100%;\"><div class=\"el-scrollbar__view\" style=\"\"><div data-v-9ba6a1dd=\"\" class=\"card-main\"><div data-v-aa24f155=\"\" data-v-9ba6a1dd=\"\" class=\"data-item card-item\" title=\"时空功能开发\"><!----><div data-v-aa24f155=\"\" class=\"running-abnormal\" style=\"display: none;\"><i data-v-aa24f155=\"\" class=\"el-icon\"><svg data-v-aa24f155=\"\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1024 1024\"><path fill=\"currentColor\" d=\"M512 64a448 448 0 1 1 0 896 448 448 0 0 1 0-89"
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-scrollbar card-scroll",
+      "id": "",
+      "title": null,
+      "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260514\n组态系统客户端0518\n建模系统客户端_0518\n运维部署客户端_0518\nCodex临时测试_前端视图_0611",
+      "rect": {
+        "x": 10,
+        "y": 34,
+        "w": 1420,
+        "h": 786
+      },
+      "html": "<div data-v-9ba6a1dd=\"\" class=\"el-scrollbar card-scroll\"><div class=\"el-scrollbar__wrap el-scrollbar__wrap--hidden-default\" style=\"height: 100%;\"><div class=\"el-scrollbar__view\" style=\"\"><div data-v-9ba6a1dd=\"\" class=\"card-main\"><div data-v-aa24f155=\"\" data-v-9ba6a1dd=\"\" class=\"data-item card-item\" title=\"时空功能开发\"><!----><div data-v-aa24f155=\"\" class=\"running-abnormal\" style=\"display: none;\"><i data-v-aa24f155=\"\" class=\"el-icon\"><svg data-v-aa24f155=\"\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1024 1024\"><path fill=\"currentColor\" d=\"M512 64a448 448 0 1 1 0 896 448 448 0 0 1 0-896m0 192a58.43 58.43 0 0 0-58.24 63.744l23.36 256.384a35.072 35.072 0 0 0 69.76 0l23.296-256.384A58.43 58.43 0 0 0 512 256m0 512a51.2 51.2 0 1 0 0-102.4 51.2 51.2 0 0 0 0 102.4\"></path></svg></i></div><div data-"
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-scrollbar__wrap el-scrollbar__wrap--hidden-default",
+      "id": "",
+      "title": null,
+      "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260514\n组态系统客户端0518\n建模系统客户端_0518\n运维部署客户端_0518\nCodex临时测试_前端视图_0611",
+      "rect": {
+        "x": 10,
+        "y": 34,
+        "w": 1420,
+        "h": 786
+      },
+      "html": "<div class=\"el-scrollbar__wrap el-scrollbar__wrap--hidden-default\" style=\"height: 100%;\"><div class=\"el-scrollbar__view\" style=\"\"><div data-v-9ba6a1dd=\"\" class=\"card-main\"><div data-v-aa24f155=\"\" data-v-9ba6a1dd=\"\" class=\"data-item card-item\" title=\"时空功能开发\"><!----><div data-v-aa24f155=\"\" class=\"running-abnormal\" style=\"display: none;\"><i data-v-aa24f155=\"\" class=\"el-icon\"><svg data-v-aa24f155=\"\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1024 1024\"><path fill=\"currentColor\" d=\"M512 64a448 448 0 1 1 0 896 448 448 0 0 1 0-896m0 192a58.43 58.43 0 0 0-58.24 63.744l23.36 256.384a35.072 35.072 0 0 0 69.76 0l23.296-256.384A58.43 58.43 0 0 0 512 256m0 512a51.2 51.2 0 1 0 0-102.4 51.2 51.2 0 0 0 0 102.4\"></path></svg></i></div><div data-v-aa24f155=\"\" class=\"image-container\" style=\"width: 48px;"
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-scrollbar__view",
+      "id": "",
+      "title": null,
+      "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260514\n组态系统客户端0518\n建模系统客户端_0518\n运维部署客户端_0518\nCodex临时测试_前端视图_0611",
+      "rect": {
+        "x": 10,
+        "y": 34,
+        "w": 1420,
+        "h": 230
+      },
+      "html": "<div class=\"el-scrollbar__view\" style=\"\"><div data-v-9ba6a1dd=\"\" class=\"card-main\"><div data-v-aa24f155=\"\" data-v-9ba6a1dd=\"\" class=\"data-item card-item\" title=\"时空功能开发\"><!----><div data-v-aa24f155=\"\" class=\"running-abnormal\" style=\"display: none;\"><i data-v-aa24f155=\"\" class=\"el-icon\"><svg data-v-aa24f155=\"\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1024 1024\"><path fill=\"currentColor\" d=\"M512 64a448 448 0 1 1 0 896 448 448 0 0 1 0-896m0 192a58.43 58.43 0 0 0-58.24 63.744l23.36 256.384a35.072 35.072 0 0 0 69.76 0l23.296-256.384A58.43 58.43 0 0 0 512 256m0 512a51.2 51.2 0 1 0 0-102.4 51.2 51.2 0 0 0 0 102.4\"></path></svg></i></div><div data-v-aa24f155=\"\" class=\"image-container\" style=\"width: 48px; height: 48px;\"><div data-v-aa24f155=\"\" class=\"el-image\"><img src=\"http://221.239.19.118:"
+    },
+    {
+      "tag": "DIV",
+      "cls": "card-main",
+      "id": "",
+      "title": null,
+      "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260514\n组态系统客户端0518\n建模系统客户端_0518\n运维部署客户端_0518\nCodex临时测试_前端视图_0611",
+      "rect": {
+        "x": 10,
+        "y": 34,
+        "w": 1420,
+        "h": 230
+      },
+      "html": "<div data-v-9ba6a1dd=\"\" class=\"card-main\"><div data-v-aa24f155=\"\" data-v-9ba6a1dd=\"\" class=\"data-item card-item\" title=\"时空功能开发\"><!----><div data-v-aa24f155=\"\" class=\"running-abnormal\" style=\"display: none;\"><i data-v-aa24f155=\"\" class=\"el-icon\"><svg data-v-aa24f155=\"\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1024 1024\"><path fill=\"currentColor\" d=\"M512 64a448 448 0 1 1 0 896 448 448 0 0 1 0-896m0 192a58.43 58.43 0 0 0-58.24 63.744l23.36 256.384a35.072 35.072 0 0 0 69.76 0l23.296-256.384A58.43 58.43 0 0 0 512 256m0 512a51.2 51.2 0 1 0 0-102.4 51.2 51.2 0 0 0 0 102.4\"></path></svg></i></div><div data-v-aa24f155=\"\" class=\"image-container\" style=\"width: 48px; height: 48px;\"><div data-v-aa24f155=\"\" class=\"el-image\"><img src=\"http://221.239.19.118:13001/assets/img_FUBuilder-bVNyB-5T.17743"
+    },
+    {
+      "tag": "DIV",
+      "cls": "data-item card-item",
+      "id": "",
+      "title": "建模系统客户端_0518",
+      "text": "建模系统客户端_0518",
+      "rect": {
+        "x": 182,
+        "y": 152,
+        "w": 68,
+        "h": 112
+      },
+      "html": "<div data-v-aa24f155=\"\" data-v-9ba6a1dd=\"\" class=\"data-item card-item\" title=\"建模系统客户端_0518\" draggable=\"true\"><!----><div data-v-aa24f155=\"\" class=\"running-abnormal\" style=\"display: none;\"><i data-v-aa24f155=\"\" class=\"el-icon\"><svg data-v-aa24f155=\"\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1024 1024\"><path fill=\"currentColor\" d=\"M512 64a448 448 0 1 1 0 896 448 448 0 0 1 0-896m0 192a58.43 58.43 0 0 0-58.24 63.744l23.36 256.384a35.072 35.072 0 0 0 69.76 0l23.296-256.384A58.43 58.43 0 0 0 512 256m0 512a51.2 51.2 0 1 0 0-102.4 51.2 51.2 0 0 0 0 102.4\"></path></svg></i></div><div data-v-aa24f155=\"\" class=\"image-container\" style=\"width: 48px; height: 48px;\"><div data-v-aa24f155=\"\" class=\"el-image\"><img src=\"http://221.239.19.118:13001/assets/js_func_unit_editor_light-DMRXO09p.177432273138"
+    },
+    {
+      "tag": "SPAN",
+      "cls": "span-label",
+      "id": "",
+      "title": null,
+      "text": "建模系统客户端_0518",
+      "rect": {
+        "x": 182,
+        "y": 230,
+        "w": 68,
+        "h": 34
+      },
+      "html": "<span data-v-aa24f155=\"\" class=\"span-label\">建模系统客户端_0518</span>"
+    }
+  ]
+}

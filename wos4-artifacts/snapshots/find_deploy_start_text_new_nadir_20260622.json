@@ -1,0 +1,74 @@
+[
+  {
+    "path": "top.0.0",
+    "i": 359,
+    "tag": "TD",
+    "cls": "el-table_3_column_15 is-left  cellName el-table__cell",
+    "txt": "部署启动",
+    "x": 1597,
+    "y": 149,
+    "w": 303,
+    "h": 37,
+    "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_3_column_15 is-left  cellName el-table__cell\"><div class=\"cell\"><button data-v-68696782=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span style=\"color: rgb(0, 118, 255);\">部署</span></button><button data-v-68696782=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span style=\"color: rgb(164, 171, 188);\">启动</span></button></div></td>"
+  },
+  {
+    "path": "top.0.0",
+    "i": 360,
+    "tag": "DIV",
+    "cls": "cell",
+    "txt": "部署启动",
+    "x": 1597,
+    "y": 149,
+    "w": 303,
+    "h": 36,
+    "html": "<div class=\"cell\"><button data-v-68696782=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span style=\"color: rgb(0, 118, 255);\">部署</span></button><button data-v-68696782=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span style=\"color: rgb(164, 171, 188);\">启动</span></button></div>"
+  },
+  {
+    "path": "top.0.0",
+    "i": 361,
+    "tag": "BUTTON",
+    "cls": "el-button el-button--text el-button--medium",
+    "txt": "部署",
+    "x": 1607,
+    "y": 149,
+    "w": 60,
+    "h": 36,
+    "html": "<button data-v-68696782=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span style=\"color: rgb(0, 118, 255);\">部署</span></button>"
+  },
+  {
+    "path": "top.0.0",
+    "i": 362,
+    "tag": "SPAN",
+    "cls": "",
+    "txt": "部署",
+    "x": 1623,
+    "y": 159,
+    "w": 28,
+    "h": 16,
+    "html": "<span style=\"color: rgb(0, 118, 255);\">部署</span>"
+  },
+  {
+    "path": "top.0.0",
+    "i": 363,
+    "tag": "BUTTON",
+    "cls": "el-button el-button--text el-button--medium",
+    "txt": "启动",
+    "x": 1677,
+    "y": 149,
+    "w": 30,
+    "h": 36,
+    "html": "<button data-v-68696782=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span style=\"color: rgb(164, 171, 188);\">启动</span></button>"
+  },
+  {
+    "path": "top.0.0",
+    "i": 364,
+    "tag": "SPAN",
+    "cls": "",
+    "txt": "启动",
+    "x": 1678,
+    "y": 159,
+    "w": 28,
+    "h": 16,
+    "html": "<span style=\"color: rgb(164, 171, 188);\">启动</span>"
+  }
+]

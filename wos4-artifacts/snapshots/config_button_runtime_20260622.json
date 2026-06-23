@@ -1,0 +1,1712 @@
+{
+  "byId": [
+    {
+      "id": "k4fb99023678d9d3059035f20b4f57c6",
+      "cls": "component_object create_ElementButton",
+      "text": "",
+      "rect": {
+        "x": 466,
+        "y": 87.5,
+        "w": 20,
+        "h": 18
+      },
+      "vue": {
+        "keys": [
+          "_uid",
+          "_isVue",
+          "__v_skip",
+          "_scope",
+          "$options",
+          "_renderProxy",
+          "_self",
+          "$parent",
+          "$root",
+          "$children",
+          "$refs",
+          "_provided",
+          "_watcher",
+          "_inactive",
+          "_directInactive",
+          "_isMounted",
+          "_isDestroyed",
+          "_isBeingDestroyed",
+          "_events",
+          "_hasHookEvent",
+          "_vnode",
+          "_staticTrees",
+          "$vnode",
+          "$slots",
+          "$scopedSlots",
+          "_c",
+          "$createElement",
+          "$attrs",
+          "$listeners",
+          "_i18n",
+          "$store",
+          "storeName",
+          "KMComponentsMng",
+          "mode",
+          "getStoreNameEnum",
+          "useConfigHook",
+          "_props",
+          "initLinkMngUi",
+          "getFontStyle",
+          "getVariableList",
+          "hasActionAuth",
+          "getLinkAnimate",
+          "setLinkAnimate",
+          "evalUiInputLinkBase",
+          "triggerUiToOtherModule",
+          "registerUiInputLink",
+          "uiRunDataSet",
+          "_pageJump",
+          "currentTab",
+          "getUIAuthKey",
+          "updateRenderComs",
+          "setComponentProperty",
+          "removeInKMComponentsMng",
+          "defineScriptProperty",
+          "getGUID",
+          "initGlobalTheme",
+          "evalStyleConfig",
+          "getColor",
+          "getColors",
+          "removeStyleConfig",
+          "removePropertyStyleConfig",
+          "evalDetailConfig",
+          "evalFun",
+          "getLangRes",
+          "getProperty",
+          "getAuthName",
+          "multiSetProperty",
+          "setColor",
+          "setBackgroundColor",
+          "getBackgroundColor",
+          "setBorderColor",
+          "setProperty",
+          "upDateLink",
+          "diffData",
+          "setSelectStatus",
+          "basePropertyTojson",
+          "linkToPropertyJson",
+          "setChildren",
+          "setOption",
+          "getOption"
+        ],
+        "dataKeys": [
+          "eventArray",
+          "defaultData",
+          "propertyStyle",
+          "UIType",
+          "linkList",
+          "times"
+        ],
+        "props": [
+          "propData",
+          "containerGUID",
+          "objectPosition",
+          "childHeight",
+          "childWidth",
+          "index",
+          "parentName"
+        ],
+        "propData": {
+          "UIName": "create_ElementButton",
+          "groupName": "其他",
+          "icon": "",
+          "authName": "",
+          "isConfigAuth": false,
+          "elementuiType": "ElementButton",
+          "objectType": 2,
+          "prototypeName": "ElementButton",
+          "id": "UI_910039",
+          "KSCGUID": "k4fb99023678d9d3059035f20b4f57c6",
+          "leftTopPt": {
+            "x": 0,
+            "y": 0
+          },
+          "content": "",
+          "badgeColor": "#ee0a24",
+          "color": "rgba(255, 0, 0, 1)",
+          "backgroundColor": "rgba(255, 0, 0, 1)",
+          "dot": false,
+          "max": null,
+          "accessable": true,
+          "UIDesc": "",
+          "locationX": "223",
+          "locationY": "25",
+          "lock": false,
+          "visible": true,
+          "runVisible": true,
+          "operable": true,
+          "tooltipDisable": true,
+          "disabled": false,
+          "plain": false,
+          "round": false,
+          "circle": false,
+          "loading": false,
+          "text": "",
+          "detailConfig": "",
+          "styleConfig": "#domId button {\n    background-image: url('data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBmaWxsPSJub25lIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48Zz48Zz48cGF0aCBkPSJNMTIuMzM3MzUyLDBMMy42NjI2NTExLDBDMS42NDMwNjUyLDAsMCwxLjY0MzA2NTIsMCwzLjY2MjY1MTFMMCwxMi4zMzczNTJDMCwxNC4zNTY5NTYsMS42NDMwNjUyLDE2LDMuNjYyNjUxMSwxNkwxMi4zMzczNTIsMTZDMTQuMzU2OTU2LDE2LDE2LDE0LjM1Njk1NiwxNiwxMi4zMzczNTJMMTYsMy42NjI2NTExQzE2LDEuNjQzMDY1MiwxNC4zNTY5NTYsMCwxMi4zMzczNTIsMFpNMTQuODQzMzc2LDEyLjMzNzM1MkMxNC44NDE4MTUsMTMuNzIwNzQ0LDEzLjcyMDc0NCwxNC44NDE4MTUsMTIuMzM3MzUyLDE0Ljg0MzM3NkwzLjY2MjY1MTEsMTQuODQzMzc2QzIuMjc5MjU5NCwxNC44NDE4MTUsMS4xNTgxODc5LDEzLjcyMDc0NCwxLjE1NjYyNjYsMTIuMzM3MzUyTDEuMTU2NjI2NiwzLjY2MjY1MTFDMS4xNTgxODc5LDIuMjc5MjU5NCwyLjI3OTI1ODcsMS4xNTgxODc5LDMuNjYyNjUxMSwxLjE1NjYyNjZMMTIuMzM3MzUyLDEuMTU2NjI2NkMxMy43MjA3NDQsMS4xNTgxODc5LDE0Ljg0MTgxNSwyLjI3OTI1OTQsMTQuODQzMzc2LDMuNjYyNjUxMUwxNC44NDMzNzYsMTIuMzM3MzUyWiIgZmlsbD0iIzk5OTk5OSIgZmlsbC1vcGFjaXR5PSIxIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6cGFzc3Rocm91Z2giLz48L2c+PGc+PHBhdGggZD0iTTguNTg3OTU1OTQ3MjEwNjkzLDQuMzA3Njk0NTI4TDcuNDMxMzI5OTQ3MjEwNjk0LDQuMzA0Njg3NUw3LjQyMzE5NTE0NzIxMDY5Myw3LjQyNzU3ODlMNC4zMDAzMDMwNzU3MTA2OTMsNy40MTk0NDQxTDQuMjk3Mjk2MDQ3MjEwNjkzLDguNTc2MDcwOEw3LjQyMDE4Nzk0NzIxMDY5Myw4LjU4NDIwNTZMNy40MTIwNTMxNDcyMTA2OTQsMTEuNzA3MDk3MUw4LjU2ODY4MDI0NzIxMDY5MywxMS43MTAxMDQwMDAwMDAwMDFMOC41NzY4MTQxNDcyMTA2OTQsOC41ODcyMTI2TDExLjY5OTcwNjU0NzIxMDY5NCw4LjU5NTM0NjlMMTEuNzAyNzEzNDQ3MjEwNjk0LDcuNDM4NzJMOC41Nzk4MjE1NDcyMTA2OTQsNy40MzA1ODU2MDAwMDAwMDFMOC41ODc5NTU5NDcyMTA2OTMsNC4zMDc2OTQ1MjhaIiBmaWxsPSIjOTk5OTk5IiBmaWxsLW9wYWNpdHk9IjEiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTpwYXNzdGhyb3VnaCIvPjwvZz48L2c+PC9zdmc+');\n    background-position: center;\n    background-repeat: no-repeat;\n    background-size: contain;\n    background-color: transparent;\n    border: none;\n    border-radius: 0px;\n}\n\n#domId button.is-disabled {\n    opacity: 0.6;\n}",
+          "tooltip": {
+            "effect": "dark",
+            "content": "",
+            "placement": "bottom",
+            "disabled": true,
+            "offset": 0,
+            "transition": "el-fade-in-linear",
+            "visibleArrow": true,
+            "openDelay": 0,
+            "manual": false,
+            "enterable": true,
+            "hideAfter": 0
+          },
+          "parentGUID": "k7d0c6ff5f8808bf4e73836ba1bfd2a6",
+          "isCloseCurPage": false,
+          "throttleTime": 500,
+          "uiInputLinkList": [
+            {
+              "enable": false,
+              "key": "button.trigger.data",
+              "method": "setButtonLinkData",
+              "source": [
+                {
+                  "id": "e914b0e2-b789-41d8-b999-9299c73d89b5",
+                  "name": "otherConfig",
+                  "guid": "",
+                  "dataSourceType": 0,
+                  "belongedPage": "",
+                  "options": {
+                    "content": ""
+                  }
+                }
+              ]
+            }
+          ],
+          "uiOutputLinkList": [
+            {
+              "enable": false,
+              "key": "button.trigger.dataSetOutput",
+              "method": "setButtonOutputData",
+              "source": [
+                {
+                  "id": "c6f4f1dd-af0d-43b5-b3fb-e8ac95b1877a",
+                  "name": "dataSetLink",
+                  "guid": "",
+                  "belongedPage": "",
+                  "options": {
+                    "dataSetID": ""
+                  }
+                }
+              ]
+            },
+            {
+              "enable": false,
+              "key": "button.trigger.paramLinkOutput",
+              "method": "setButtonOutputData",
+              "source": [
+                {
+                  "id": "1e7d4d76-95da-46f6-9e96-6ec5ff739501",
+                  "name": "paramLink",
+                  "guid": "",
+                  "belongedPage": "",
+                  "options": {
+                    "paramSelectValue": "",
+                    "paramDefaultValue": ""
+                  }
+                }
+              ]
+            },
+            {
+              "enable": true,
+              "key": "button.trigger.pageJump",
+              "method": "pageJump",
+              "source": []
+            }
+          ],
+          "langKeys": [],
+          "linkList": [
+            {
+              "name": "onClick",
+              "property": "upDateLink",
+              "type": "script",
+              "enable": true,
+              "script": "$Variable.createSpaceTimeRepo = !$Variable.createSpaceTimeRepo;",
+              "linkId": 200001,
+              "KSCGUID": "kc0d153216313f7094f067b140acce2a"
+            }
+          ],
+          "styleOption": {}
+        },
+        "linkList": [
+          {
+            "name": "onClick",
+            "property": "upDateLink",
+            "type": "script",
+            "enable": true,
+            "script": "$Variable.createSpaceTimeRepo = !$Variable.createSpaceTimeRepo;",
+            "linkId": 200001,
+            "KSCGUID": "kc0d153216313f7094f067b140acce2a"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ka51aa087ef08f67a9cf6c1792cd4f62",
+      "cls": "component_object delete_ElementButton",
+      "text": "",
+      "rect": {
+        "x": 496,
+        "y": 87.5,
+        "w": 20,
+        "h": 18
+      },
+      "vue": {
+        "keys": [
+          "_uid",
+          "_isVue",
+          "__v_skip",
+          "_scope",
+          "$options",
+          "_renderProxy",
+          "_self",
+          "$parent",
+          "$root",
+          "$children",
+          "$refs",
+          "_provided",
+          "_watcher",
+          "_inactive",
+          "_directInactive",
+          "_isMounted",
+          "_isDestroyed",
+          "_isBeingDestroyed",
+          "_events",
+          "_hasHookEvent",
+          "_vnode",
+          "_staticTrees",
+          "$vnode",
+          "$slots",
+          "$scopedSlots",
+          "_c",
+          "$createElement",
+          "$attrs",
+          "$listeners",
+          "_i18n",
+          "$store",
+          "storeName",
+          "KMComponentsMng",
+          "mode",
+          "getStoreNameEnum",
+          "useConfigHook",
+          "_props",
+          "initLinkMngUi",
+          "getFontStyle",
+          "getVariableList",
+          "hasActionAuth",
+          "getLinkAnimate",
+          "setLinkAnimate",
+          "evalUiInputLinkBase",
+          "triggerUiToOtherModule",
+          "registerUiInputLink",
+          "uiRunDataSet",
+          "_pageJump",
+          "currentTab",
+          "getUIAuthKey",
+          "updateRenderComs",
+          "setComponentProperty",
+          "removeInKMComponentsMng",
+          "defineScriptProperty",
+          "getGUID",
+          "initGlobalTheme",
+          "evalStyleConfig",
+          "getColor",
+          "getColors",
+          "removeStyleConfig",
+          "removePropertyStyleConfig",
+          "evalDetailConfig",
+          "evalFun",
+          "getLangRes",
+          "getProperty",
+          "getAuthName",
+          "multiSetProperty",
+          "setColor",
+          "setBackgroundColor",
+          "getBackgroundColor",
+          "setBorderColor",
+          "setProperty",
+          "upDateLink",
+          "diffData",
+          "setSelectStatus",
+          "basePropertyTojson",
+          "linkToPropertyJson",
+          "setChildren",
+          "setOption",
+          "getOption"
+        ],
+        "dataKeys": [
+          "eventArray",
+          "defaultData",
+          "propertyStyle",
+          "UIType",
+          "linkList",
+          "times"
+        ],
+        "props": [
+          "propData",
+          "containerGUID",
+          "objectPosition",
+          "childHeight",
+          "childWidth",
+          "index",
+          "parentName"
+        ],
+        "propData": {
+          "UIName": "delete_ElementButton",
+          "groupName": "其他",
+          "icon": "",
+          "authName": "",
+          "isConfigAuth": false,
+          "elementuiType": "ElementButton",
+          "objectType": 2,
+          "prototypeName": "ElementButton",
+          "id": "UI_910039",
+          "KSCGUID": "ka51aa087ef08f67a9cf6c1792cd4f62",
+          "leftTopPt": {
+            "x": 0,
+            "y": 0
+          },
+          "content": "",
+          "badgeColor": "#ee0a24",
+          "color": "",
+          "backgroundColor": "",
+          "dot": false,
+          "max": null,
+          "accessable": true,
+          "UIDesc": "",
+          "locationX": "253",
+          "locationY": "25",
+          "lock": false,
+          "visible": true,
+          "runVisible": true,
+          "operable": true,
+          "tooltipDisable": true,
+          "disabled": false,
+          "plain": false,
+          "round": false,
+          "circle": false,
+          "loading": false,
+          "text": "",
+          "detailConfig": "",
+          "styleConfig": "\n#domId button {\n    /*background-repeat: no-repeat;*/\n    /*background-position: 15px 48%;*/\n    background-image: url('data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBmaWxsPSJub25lIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48ZGVmcz48Y2xpcFBhdGggaWQ9Im1hc3Rlcl9zdmcwXzI2MzFfMDYwNzM3LzI2MzFfMDU4OTI3Ij48cmVjdCB4PSI0IiB5PSI1IiB3aWR0aD0iNyIgaGVpZ2h0PSI3IiByeD0iMCIvPjwvY2xpcFBhdGg+PC9kZWZzPjxnPjxnPjxwYXRoIGQ9Ik0xMi4zMzczNTIsMEwzLjY2MjY1MTEsMEMxLjY0MzA2NTIsMCwwLDEuNjQzMDY1MiwwLDMuNjYyNjUxMUwwLDEyLjMzNzM1MkMwLDE0LjM1Njk1NiwxLjY0MzA2NTIsMTYsMy42NjI2NTExLDE2TDEyLjMzNzM1MiwxNkMxNC4zNTY5NTYsMTYsMTYsMTQuMzU2OTU2LDE2LDEyLjMzNzM1MkwxNiwzLjY2MjY1MTFDMTYsMS42NDMwNjUyLDE0LjM1Njk1NiwwLDEyLjMzNzM1MiwwWk0xNC44NDMzNzYsMTIuMzM3MzUyQzE0Ljg0MTgxNSwxMy43MjA3NDQsMTMuNzIwNzQ0LDE0Ljg0MTgxNSwxMi4zMzczNTIsMTQuODQzMzc2TDMuNjYyNjUxMSwxNC44NDMzNzZDMi4yNzkyNTk0LDE0Ljg0MTgxNSwxLjE1ODE4NzksMTMuNzIwNzQ0LDEuMTU2NjI2NiwxMi4zMzczNTJMMS4xNTY2MjY2LDMuNjYyNjUxMUMxLjE1ODE4NzksMi4yNzkyNTk0LDIuMjc5MjU4NywxLjE1ODE4NzksMy42NjI2NTExLDEuMTU2NjI2NkwxMi4zMzczNTIsMS4xNTY2MjY2QzEzLjcyMDc0NCwxLjE1ODE4NzksMTQuODQxODE1LDIuMjc5MjU5NCwxNC44NDMzNzYsMy42NjI2NTExTDE0Ljg0MzM3NiwxMi4zMzczNTJaIiBmaWxsPSIjOTk5OTk5IiBmaWxsLW9wYWNpdHk9IjEiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTpwYXNzdGhyb3VnaCIvPjwvZz48ZyBjbGlwLXBhdGg9InVybCgjbWFzdGVyX3N2ZzBfMjYzMV8wNjA3MzcvMjYzMV8wNTg5MjcpIj48Zz48cGF0aCBkPSJNMTAuOTMzNzE4NzI1LDUuNzc5MDcxMzNRMTAuOTYxNTkzMTI1LDUuODQxNzkxNTcsMTAuOTc5MDE1ODI1MDAwMDAxLDUuOTI1NDE4NjdRMTAuOTk2NDM4MDI1LDYuMDA5MDQ1OTYsMTAuOTk2NDM4MDI1LDYuMDk5NjQyUTEwLjk5NjQzODAyNSw2LjE5MDIzOCwxMC45NjE1OTMxMjUsNi4yODA4MzQyUTEwLjkyNjc0ODMyNSw2LjM3MTQzMDM5OTk5OTk5OTUsMTAuODUwMDkwNTI0OTk5OTk5LDYuNDU1MDU3NFExMC43NjY0NjM3MjUwMDAwMDEsNi41Mzg2ODQ1MDAwMDAwMDA1LDEwLjcwMDI1OTcyNSw2LjYwMTQwNVExMC42MzQwNTQyMjUsNi42NjQxMjU0LDEwLjU4NTI3MTMyNSw2LjcxMjkwNzlRMTAuNTI5NTIwNTI0OTk5OTk5LDYuNzY4NjU5NSwxMC40ODA3Mzg2MjUsNi44MTA0NzNMOS4xNzc1NDc5MjQ5OTk5OTksNS41MDcyODI5NFE5LjI2MTE3NDcyNSw1LjQzMDYyNDc1LDkuMzc2MTYzMDI1LDUuMzIyNjA2MzhROS40OTExNDk5MjUsNS4yMTQ1ODc5Niw5LjU2NzgwODEyNDk5OTk5OSw1LjE1MTg2NzU3UTkuNjY1MzcyODI1LDUuMDc1MjA5MzM4LDkuNzY5OTA3MDI1LDUuMDQzODQ5MTU3UTkuODc0NDQwNjI1LDUuMDEyNDg4OTgwNSw5Ljk3NTQ5MDEyNSw1LjAxNTk3MzQ0NDgyUTEwLjA3NjU0MDAyNSw1LjAxOTQ1NzkwOSwxMC4xNzA2MTk1MjUsNS4wNDczMzM2MjhRMTAuMjY0Njk5OTI1LDUuMDc1MjA5MzQ2LDEwLjMzNDM5MDEyNDk5OTk5OSw1LjExMDA1NDAwMVExMC40ODA3MzY3MjUsNS4xODY3MTIyMSwxMC42NTg0NDUzMjQ5OTk5OTksNS4zNzgzNTc4M1ExMC44MzYxNTQwMjQ5OTk5OTksNS41NzAwMDMzOSwxMC45MzM3MTg3MjUsNS43NzkwNzEzM1pNNS41MDQ5MjEzMTUsOS4xNzk5MDkyUTUuNTQ2NzM0NzU1LDkuMTM4MDk1NDAwMDAwMDAxLDUuNzAwMDUxMzY1LDguOTgxMjk0MlE1Ljg1MzM2Nzg2NSw4LjgyNDQ5MzIsNi4wODMzNDI1MjUsOC41OTQ1MTkxTDYuNTkyMDc0NDI1LDguMDg1Nzg3MTAwMDAwMDAxTDcuMTU2NTU4MDI1LDcuNTIxMzAzN0w4LjY1NDg3NzQyNSw2LjAyMjk4MzlMOS45NTgwNjc0MjUsNy4zMzMxNDNMOC40NTk3NDc4MjUsOC44MzE0NjI0TDcuOTAyMjMzMzI1LDkuMzk1OTQ2UTcuNjIzNDc2NTI1LDkuNjY3NzM0MSw3LjQwMDQ3MDcyNSw5Ljg5NDIyMzcwMDAwMDAwMVE3LjE3NzQ2NDcyNSwxMC4xMjA3MTQyLDcuMDMxMTE3NDI1LDEwLjI2NzA2MjJRNi44ODQ3Njk5MjUwMDAwMDA1LDEwLjQxMzQwOTY5OTk5OTk5OSw2Ljg1Njg5NDEyNSwxMC40MzQzMTYyUTYuNzg3MjA0NzI1MDAwMDAwNSwxMC40OTcwMzY5MDAwMDAwMDEsNi42OTY2MDg2MjUsMTAuNTY2NzI1N1E2LjYwNjAxMjQyNSwxMC42MzY0MTU1LDYuNTA4NDQ3NDI1LDEwLjY3ODIyODlRNi40MTA4ODI2MjUsMTAuNzI3MDExNyw2LjIyMjcyMTEyNSwxMC43OTY3MDA5OTk5OTk5OTlRNi4wMzQ1NjAxMjUwMDAwMDA1LDEwLjg2NjM5MDcsNS44Mjg5NzY3NTUsMTAuOTMyNTk1M1E1LjYyMzM5MzQxNSwxMC45OTg4MDAzLDUuNDM4NzE2NzA1LDExLjA0NzU4MzFRNS4yNTQwMzk5MTUsMTEuMDk2MzY0MDAwMDAwMDAxLDUuMTYzNDQzOTg1LDExLjExMDMwMjlRNC45NzUyODI4MDUsMTEuMTMxMjA5OSw0LjkxMjU2MjQ0NSwxMS4wNTQ1NTE2UTQuODQ5ODQyMDk2LDEwLjk3Nzg5MzQsNC44Nzc3MTc3Njg4LDEwLjc5NjcwMDk5OTk5OTk5OVE0Ljg5MTY1NTYwMywxMC42OTkxMzYzLDQuOTQzOTIyNTc5LDEwLjUxNDQ1OTZRNC45OTYxODk1NDUsMTAuMzI5NzgyNSw1LjA1NTQyNTQ1NSwxMC4xMzExNjg0UTUuMTE0NjYxMzM1LDkuOTMyNTU0Miw1LjE3MDQxMjc3NSw5Ljc2NTI5ODhRNS4yMjYxNjQyNTUsOS41OTgwNDQ0LDUuMjYxMDA4ODU1LDkuNTM1MzI1MVE1LjMwMjgyMjQ3NSw5LjQzNzc1OTQwMDAwMDAwMSw1LjM1NTA4OTQyNSw5LjM1NzYxNjlRNS40MDczNTY0NDUsOS4yNzc0NzM5LDUuNTA0OTIxMzE1LDkuMTc5OTA5MloiIGZpbGw9IiM5OTk5OTkiIGZpbGwtb3BhY2l0eT0iMSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOnBhc3N0aHJvdWdoIi8+PC9nPjwvZz48L2c+PC9zdmc+');\n    background-position: center;\n    background-repeat: no-repeat;\n    background-size: contain;\n    background-color: transparent;\n    border: none;\n    border-radius: 0px;\n}\n\n\n#domId button.is-disabled {\n    opacity: 0.6;\n}\n",
+          "tooltip": {
+            "effect": "dark",
+            "content": "",
+            "placement": "bottom",
+            "disabled": true,
+            "offset": 0,
+            "transition": "el-fade-in-linear",
+            "visibleArrow": true,
+            "openDelay": 0,
+            "manual": false,
+            "enterable": true,
+            "hideAfter": 0
+          },
+          "parentGUID": "k0902642afa859734a14919b3fd5a40c",
+          "isCloseCurPage": false,
+          "throttleTime": 500,
+          "uiInputLinkList": [
+            {
+              "enable": false,
+              "key": "button.trigger.data",
+              "method": "setButtonLinkData",
+              "source": [
+                {
+                  "id": "912037e9-61e1-4b6a-8652-08389502062e",
+                  "name": "otherConfig",
+                  "guid": "",
+                  "dataSourceType": 0,
+                  "belongedPage": "",
+                  "options": {
+                    "content": ""
+                  }
+                }
+              ]
+            }
+          ],
+          "uiOutputLinkList": [
+            {
+              "enable": false,
+              "key": "button.trigger.dataSetOutput",
+              "method": "setButtonOutputData",
+              "source": [
+                {
+                  "id": "531d77e3-0a13-4b91-8034-f69cdf5f5c37",
+                  "name": "dataSetLink",
+                  "guid": "",
+                  "belongedPage": "",
+                  "options": {
+                    "dataSetID": ""
+                  }
+                }
+              ]
+            },
+            {
+              "enable": false,
+              "key": "button.trigger.paramLinkOutput",
+              "method": "setButtonOutputData",
+              "source": [
+                {
+                  "id": "6973f2e4-0546-450a-93c2-7b3517a14439",
+                  "name": "paramLink",
+                  "guid": "",
+                  "belongedPage": "",
+                  "options": {
+                    "paramSelectValue": "",
+                    "paramDefaultValue": ""
+                  }
+                }
+              ]
+            },
+            {
+              "enable": true,
+              "key": "button.trigger.pageJump",
+              "method": "pageJump",
+              "source": []
+            }
+          ],
+          "langKeys": [],
+          "linkList": [
+            {
+              "linkId": 200001,
+              "enable": true,
+              "KSCGUID": "k16bfb713711ed077cb3c26222c20b64",
+              "script": "console.log(\"[D] 点击了编辑按钮\");\r\n\r\n$Variable.modifySpaceTimeRepo = !$Variable.modifySpaceTimeRepo;\r\n\r\n// debugger;\r\n\r\n\r\n// main();\r\n\r\nfunction main()\r\n{\r\n    const currentData = $Variable.currentSpaceTimeRepo;\r\n    if (Object.keys(currentData).length === 0)\r\n    {\r\n        _showMessage(\"请选择想要删除的实例\", \"warning\");\r\n        return;\r\n    }\r\n\r\n    if (currentData.guid === $Variable.工程Root时空仓库GUID)\r\n    {\r\n        _showMessage(\"实例根仓库不允许删除\", \"warning\");\r\n        return;\r\n    }\r\n    \r\n    if(currentData.instancetype === \"1\")\r\n    {\r\n        _showMessage(\"子实例不允许删除\", \"warning\");\r\n        return;\r\n    }\r\n\r\n    showChildPage();\r\n}\r\n\r\n\r\n\r\nfunction showChildPage()\r\n{\r\n\r\n    debugger;\r\n\r\n    const clientHeight = document.body.clientHeight;\r\n    const clientWidth = document.body.clientWidth;\r\n\r\n    const pageHeight = 200;\r\n    const pageWidth = 400;\r\n\r\n    const pageLeft = (clientWidth - pageWidth) / 2;\r\n    const pageTop = (clientHeight - pageHeight) / 2 - 100;\r\n\r\n    const styleOptions = {\r\n        width: pageWidth,\r\n        height: pageHeight,\r\n        left: pageLeft,\r\n        top: pageTop,\r\n        draggable: false,\r\n        header: false,\r\n        // title: pageTitle,\r\n        closable: true,\r\n        resizable: false,\r\n        maximizable: false,\r\n    };\r\n\r\n    const pageName = $Variable.删除实例页面名称;\r\n\r\n    const variables = [\r\n        {\r\n            name: \"配置后台时空对象全路径\",\r\n            value: $Variable.配置后台时空对象全路径\r\n        },\r\n        {\r\n            name: \"配置后台APP对象名称\",\r\n            value: $Variable.配置后台APP对象名称\r\n        },\r\n        {\r\n            name: \"cloudId\",\r\n            value: $Variable.cloudId\r\n        },\r\n        {\r\n            name: \"实例信息\",\r\n            value: $Variable.currentSpaceTimeRepo\r\n        },\r\n        {\r\n            name: \"实例根仓库GUID\",\r\n            value: $Variable.工程Root时空仓库GUID\r\n        }\r\n    ];\r\n\r\n    const options = {\r\n        styleOptions,\r\n        variables,\r\n        stType: 5, // 2：FULLNAME\r\n        spaceTime: $Variable.配置后台时空对象全路径\r\n    };\r\n\r\n    debugger;\r\n\r\n    ShowChild(pageName, options, function (transferData)\r\n    {\r\n        publicEventHanlder(pageName, transferData);\r\n    });\r\n}\r\n\r\nfunction publicEventHanlder(pageName, transferData)\r\n{\r\n    console.log(`[D] <实例化框架页面> 接收到 <${pageName}> 传递来的公开事件 transferData = `, transferData);\r\n\r\n    const {\r\n        eventName,\r\n        eventParam\r\n    } = transferData;\r\n\r\n\r\n    if (eventName === \"Cancel\")\r\n    {\r\n        CloseChild(pageName);\r\n        return;\r\n    }\r\n    else if (eventName === \"Confirm\")\r\n    {\r\n        // $Variable.isUpdateViewTable = !$Variable.isUpdateViewTable;\r\n        // $Variable.updateInstanceTreeView = !$Variable.updateInstanceTreeView;\r\n        debugger;\r\n\r\n        if ($Variable.spaceTimeRepoKeyWords.length === 0)\r\n        {\r\n            const parentNodeGuid = $Variable.currentSpaceTimeRepo.parentguid;\r\n            console.log(\"[D] 被删除节点的父节点 guid = \", parentNodeGuid);\r\n            spaceTimeRepo_ElementTree.SetCurrentKey(parentNodeGuid);\r\n            const parentNode = spaceTimeRepo_ElementTree.GetCurrentNode();\r\n            console.log(\"[D] 获取到当前选中的节点 parentNode = \", parentNode);\r\n            $Variable.currentSpaceTimeRepo = { ...parentNode };\r\n        }\r\n        else\r\n        {\r\n            $Variable.currentSpaceTimeRepo = {};\r\n            $Variable.updateTreeByFilter = !$Variable.updateTreeByFilter;\r\n        }\r\n        CloseChild(pageName);\r\n        return;\r\n    }\r\n}\r\n\r\n\r\nfunction _showMessage(massage, type = \"error\")\r\n{\r\n    var options = {\r\n        message: massage,\r\n        type: type,\r\n        duration: 3000,\r\n        showClose: true,\r\n    };\r\n    ShowMessage(options);\r\n}",
+              "KSCLINKGUID": "ka51aa087ef08f67a9cf6c1792cd4f62",
+              "linkName": "onClick"
+            }
+          ],
+          "styleOption": {}
+        },
+        "linkList": [
+          {
+            "linkId": 200001,
+            "enable": true,
+            "KSCGUID": "k16bfb713711ed077cb3c26222c20b64",
+            "script": "console.log(\"[D] 点击了编辑按钮\");\r\n\r\n$Variable.modifySpaceTimeRepo = !$Variable.modifySpaceTimeRepo;\r\n\r\n// debugger;\r\n\r\n\r\n// main();\r\n\r\nfunction main()\r\n{\r\n    const currentData = $Variable.currentSpaceTimeRepo;\r\n    if (Object.keys(currentData).length === 0)\r\n    {\r\n        _showMessage(\"请选择想要删除的实例\", \"warning\");\r\n        return;\r\n    }\r\n\r\n    if (currentData.guid === $Variable.工程Root时空仓库GUID)\r\n    {\r\n        _showMessage(\"实例根仓库不允许删除\", \"warning\");\r\n        return;\r\n    }\r\n    \r\n    if(currentData.instancetype === \"1\")\r\n    {\r\n        _showMessage(\"子实例不允许删除\", \"warning\");\r\n        return;\r\n    }\r\n\r\n    showChildPage();\r\n}\r\n\r\n\r\n\r\nfunction showChildPage()\r\n{\r\n\r\n    debugger;\r\n\r\n    const clientHeight = document.body.clientHeight;\r\n    const clientWidth = document.body.clientWidth;\r\n\r\n    const pageHeight = 200;\r\n    const pageWidth = 400;\r\n\r\n    const pageLeft = (clientWidth - pageWidth) / 2;\r\n    const pageTop = (clientHeight - pageHeight) / 2 - 100;\r\n\r\n    const styleOptions = {\r\n        width: pageWidth,\r\n        height: pageHeight,\r\n        left: pageLeft,\r\n        top: pageTop,\r\n        draggable: false,\r\n        header: false,\r\n        // title: pageTitle,\r\n        closable: true,\r\n        resizable: false,\r\n        maximizable: false,\r\n    };\r\n\r\n    const pageName = $Variable.删除实例页面名称;\r\n\r\n    const variables = [\r\n        {\r\n            name: \"配置后台时空对象全路径\",\r\n            value: $Variable.配置后台时空对象全路径\r\n        },\r\n        {\r\n            name: \"配置后台APP对象名称\",\r\n            value: $Variable.配置后台APP对象名称\r\n        },\r\n        {\r\n            name: \"cloudId\",\r\n            value: $Variable.cloudId\r\n        },\r\n        {\r\n            name: \"实例信息\",\r\n            value: $Variable.currentSpaceTimeRepo\r\n        },\r\n        {\r\n            name: \"实例根仓库GUID\",\r\n            value: $Variable.工程Root时空仓库GUID\r\n        }\r\n    ];\r\n\r\n    const options = {\r\n        styleOptions,\r\n        variables,\r\n        stType: 5, // 2：FULLNAME\r\n        spaceTime: $Variable.配置后台时空对象全路径\r\n    };\r\n\r\n    debugger;\r\n\r\n    ShowChild(pageName, options, function (transferData)\r\n    {\r\n        publicEventHanlder(pageName, transferData);\r\n    });\r\n}\r\n\r\nfunction publicEventHanlder(pageName, transferData)\r\n{\r\n    console.log(`[D] <实例化框架页面> 接收到 <${pageName}> 传递来的公开事件 transferData = `, transferData);\r\n\r\n    const {\r\n        eventName,\r\n        eventParam\r\n    } = transferData;\r\n\r\n\r\n    if (eventName === \"Cancel\")\r\n    {\r\n        CloseChild(pageName);\r\n        return;\r\n    }\r\n    else if (eventName === \"Confirm\")\r\n    {\r\n        // $Variable.isUpdateViewTable = !$Variable.isUpdateViewTable;\r\n        // $Variable.updateInstanceTreeView = !$Variable.updateInstanceTreeView;\r\n        debugger;\r\n\r\n        if ($Variable.spaceTimeRepoKeyWords.length === 0)\r\n        {\r\n            const parentNodeGuid = $Variable.currentSpaceTimeRepo.parentguid;\r\n            console.log(\"[D] 被删除节点的父节点 guid = \", parentNodeGuid);\r\n            spaceTimeRepo_ElementTree.SetCurrentKey(parentNodeGuid);\r\n            const parentNode = spaceTimeRepo_ElementTree.GetCurrentNode();\r\n            console.log(\"[D] 获取到当前选中的节点 parentNode = \", parentNode);\r\n            $Variable.currentSpaceTimeRepo = { ...parentNode };\r\n        }\r\n        else\r\n        {\r\n            $Variable.currentSpaceTimeRepo = {};\r\n            $Variable.updateTreeByFilter = !$Variable.updateTreeByFilter;\r\n        }\r\n        CloseChild(pageName);\r\n        return;\r\n    }\r\n}\r\n\r\n\r\nfunction _showMessage(massage, type = \"error\")\r\n{\r\n    var options = {\r\n        message: massage,\r\n        type: type,\r\n        duration: 3000,\r\n        showClose: true,\r\n    };\r\n    ShowMessage(options);\r\n}",
+            "KSCLINKGUID": "ka51aa087ef08f67a9cf6c1792cd4f62",
+            "linkName": "onClick"
+          }
+        ]
+      }
+    },
+    {
+      "id": "k3cddb4f2ce7a7dea3112f191932163f",
+      "cls": "component_object ElementButton3",
+      "text": "",
+      "rect": {
+        "x": 526,
+        "y": 87.5,
+        "w": 20,
+        "h": 18
+      },
+      "vue": {
+        "keys": [
+          "_uid",
+          "_isVue",
+          "__v_skip",
+          "_scope",
+          "$options",
+          "_renderProxy",
+          "_self",
+          "$parent",
+          "$root",
+          "$children",
+          "$refs",
+          "_provided",
+          "_watcher",
+          "_inactive",
+          "_directInactive",
+          "_isMounted",
+          "_isDestroyed",
+          "_isBeingDestroyed",
+          "_events",
+          "_hasHookEvent",
+          "_vnode",
+          "_staticTrees",
+          "$vnode",
+          "$slots",
+          "$scopedSlots",
+          "_c",
+          "$createElement",
+          "$attrs",
+          "$listeners",
+          "_i18n",
+          "$store",
+          "storeName",
+          "KMComponentsMng",
+          "mode",
+          "getStoreNameEnum",
+          "useConfigHook",
+          "_props",
+          "initLinkMngUi",
+          "getFontStyle",
+          "getVariableList",
+          "hasActionAuth",
+          "getLinkAnimate",
+          "setLinkAnimate",
+          "evalUiInputLinkBase",
+          "triggerUiToOtherModule",
+          "registerUiInputLink",
+          "uiRunDataSet",
+          "_pageJump",
+          "currentTab",
+          "getUIAuthKey",
+          "updateRenderComs",
+          "setComponentProperty",
+          "removeInKMComponentsMng",
+          "defineScriptProperty",
+          "getGUID",
+          "initGlobalTheme",
+          "evalStyleConfig",
+          "getColor",
+          "getColors",
+          "removeStyleConfig",
+          "removePropertyStyleConfig",
+          "evalDetailConfig",
+          "evalFun",
+          "getLangRes",
+          "getProperty",
+          "getAuthName",
+          "multiSetProperty",
+          "setColor",
+          "setBackgroundColor",
+          "getBackgroundColor",
+          "setBorderColor",
+          "setProperty",
+          "upDateLink",
+          "diffData",
+          "setSelectStatus",
+          "basePropertyTojson",
+          "linkToPropertyJson",
+          "setChildren",
+          "setOption",
+          "getOption"
+        ],
+        "dataKeys": [
+          "eventArray",
+          "defaultData",
+          "propertyStyle",
+          "UIType",
+          "linkList",
+          "times"
+        ],
+        "props": [
+          "propData",
+          "containerGUID",
+          "objectPosition",
+          "childHeight",
+          "childWidth",
+          "index",
+          "parentName"
+        ],
+        "propData": {
+          "UIName": "ElementButton3",
+          "groupName": "其他",
+          "icon": "",
+          "authName": "",
+          "isConfigAuth": false,
+          "elementuiType": "ElementButton",
+          "objectType": 2,
+          "prototypeName": "ElementButton",
+          "id": "UI_910039",
+          "KSCGUID": "k3cddb4f2ce7a7dea3112f191932163f",
+          "leftTopPt": {
+            "x": 0,
+            "y": 0
+          },
+          "content": "",
+          "badgeColor": "#ee0a24",
+          "color": "",
+          "backgroundColor": "",
+          "dot": false,
+          "max": null,
+          "accessable": true,
+          "UIDesc": "",
+          "locationX": "283",
+          "locationY": "25",
+          "lock": false,
+          "visible": true,
+          "runVisible": true,
+          "operable": true,
+          "tooltipDisable": true,
+          "disabled": false,
+          "plain": false,
+          "round": false,
+          "circle": false,
+          "loading": false,
+          "text": "",
+          "detailConfig": "",
+          "styleConfig": "\n#domId button {\n    /*background-repeat: no-repeat;*/\n    /*background-position: 15px 48%;*/\n    background-image: url('data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBmaWxsPSJub25lIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIwIDIwIj48ZGVmcz48Y2xpcFBhdGggaWQ9Im1hc3Rlcl9zdmcwXzI2MzFfMDYwNzM3LzI2MzFfMDU4ODEwIj48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHJ4PSIwIi8+PC9jbGlwUGF0aD48L2RlZnM+PGcgY2xpcC1wYXRoPSJ1cmwoI21hc3Rlcl9zdmcwXzI2MzFfMDYwNzM3LzI2MzFfMDU4ODEwKSI+PGc+PHBhdGggZD0iTTExLjgzNDE2ODQwOTM3NSwxNy41MTcxMTUxMjVDMTEuNjMxMzAwOTA5Mzc1LDE3LjUxNzA1OTEyNSwxMS40NDI4OTY4MDkzNzUsMTcuNDEyMDcxMTI1LDExLjMzNjEyMTUwOTM3NSwxNy4yMzk1NzcxMjVMOC4wNzIwNTkxMDkzNzUwMDEsMTEuOTY2MTM5ODI1QzcuOTMwNjAxNjA5Mzc1LDExLjczNzU3MTcyNSw3Ljk2MjgwOTEwOTM3NSwxMS40NDIwNzAwMjUsOC4xNTAxODQxMDkzNzUwMDEsMTEuMjQ5MzQyOTI1TDE2LjA4Mzc3NzYwOTM3NDk5OCwzLjA4ODAxNDYwNUMxNi4yNzUyMzk2MDkzNzUsMi44OTEwMDg5NTEsMTYuNTc3ODY3NjA5Mzc0OTk4LDIuODUzNDczNDcyOSwxNi44MTE2NTc2MDkzNzUsMi45OTc3MzQwNjVDMTcuMDQ1NDQ4NjA5Mzc1LDMuMTQxOTk0ODY1LDE3LjE0NzYyMjYwOTM3NSwzLjQyOTMxNDQzNSwxNy4wNTc0MTA2MDkzNzQ5OTgsMy42ODg3OTU4NjVMMTIuMzg3ODc5NDA5Mzc1LDE3LjEyMzU2MTEyNTAwMDAwMkMxMi4zMTQwMDY4MDkzNzUsMTcuMzM2OTkzMTI1LDEyLjEyNDA0MTUwOTM3NSwxNy40ODg5NjcxMjUwMDAwMDIsMTEuODk5NTk4MTA5Mzc1LDE3LjUxNDE4NjEyNTAwMDAwMkMxMS44Nzc4NTgyMDkzNzUsMTcuNTE2MzY1MTI1LDExLjg1NjAxNTIwOTM3NSwxNy41MTczNDMxMjUsMTEuODM0MTY4NDA5Mzc1LDE3LjUxNzExNTEyNVpNOS4zMDkxNjgzMDkzNzUsMTEuNzM4Nzk1MzI1TDExLjY4NDk0OTkwOTM3NSwxNS41NzY0OTExMjVMMTUuMDgzMzg3NjA5Mzc1LDUuNzk4MzY2MzI1TDkuMzA5MTY4MzA5Mzc1LDExLjczODc5NTMyNVpNOC4zNDI3NjIwMDkzNzUsMTIuMDE4Njc4NjI1QzguMjM0NjM1ODA5Mzc1LDEyLjAxODc1NDkyNSw4LjEyODYxMjUwOTM3NSwxMS45ODg4MDAwMjUsOC4wMzY1MTE5MDkzNzUwMDEsMTEuOTMyMTU0NjI1TDIuNzc1Mzc4OTk5Mzc1LDguNzA0NDIxMDI1QzIuNTgzMTc3NzYwMzc1LDguNTg2NDk4NzI1LDIuNDc1Njk5ODA2Mzc1LDguMzY4NzQ0MzI1LDIuNDk4OTk1MjA4ODc1LDguMTQ0NDU4MzI1QzIuNTIyMjkwNjExMzc1LDcuOTIwMTcyNzI1LDIuNjcyMjI1Mzg5Mzc1LDcuNzI5MTU0NjI1LDIuODg0NTU4Njc5Mzc1LDcuNjUzMjQ5MjI1TDE2LjI0MDgwODYwOTM3NSwyLjg3OTgxMTQ3N0MxNi40OTk0NDk2MDkzNzUsMi43ODc1NzExNDMsMTYuNzg3NDU0NjA5Mzc1LDIuODg3MzIxNDcyLDE2LjkzMzYzODYwOTM3NTAwMiwzLjExOTc3MjM0NUMxNy4wNzk4MjE2MDkzNzUsMy4zNTIyMjMyMTUsMTcuMDQ0OTY3NjA5Mzc1LDMuNjU1MDE0MDM0OTk5OTk5OCwxNi44NDk3OTI2MDkzNzUsMy44NDgxNzA5MjVMOC43NTQ4NzE0MDkzNzUsMTEuODQ5NTM3ODI1QzguNjQ1MTI2MzA5Mzc1LDExLjk1Nzk3NjMyNSw4LjQ5NzA0MjIwOTM3NSwxMi4wMTg3NTMwMjUsOC4zNDI3NjIwMDkzNzUsMTIuMDE4Njc4NjI1Wk00LjQzMDY1MjUwOTM3NSw4LjM0NTA0NjAyNUw4LjI1ODc3NzYwOTM3NDk5OSwxMC42OTMwOTIzMjVMMTQuMTQ3MjUzNjA5Mzc1LDQuODcyNzgwMzI1TDQuNDMwNjUyNTA5Mzc1LDguMzQ1MDQ2MDI1WiIgZmlsbD0iIzk5OTk5OSIgZmlsbC1vcGFjaXR5PSIxIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6cGFzc3Rocm91Z2giLz48L2c+PC9nPjwvc3ZnPg==');\n    background-position: center;\n    background-repeat: no-repeat;\n    background-size: contain;\n    background-color: transparent;\n    border: none;\n    border-radius: 0px;\n}\n\n\n#domId button.is-disabled {\n    opacity: 0.6;\n}\n",
+          "tooltip": {
+            "effect": "dark",
+            "content": "",
+            "placement": "bottom",
+            "disabled": true,
+            "offset": 0,
+            "transition": "el-fade-in-linear",
+            "visibleArrow": true,
+            "openDelay": 0,
+            "manual": false,
+            "enterable": true,
+            "hideAfter": 0
+          },
+          "parentGUID": "k41779dac077d4ec672bd6a3674e7573",
+          "isCloseCurPage": false,
+          "throttleTime": 500,
+          "uiInputLinkList": [
+            {
+              "enable": false,
+              "key": "button.trigger.data",
+              "method": "setButtonLinkData",
+              "source": [
+                {
+                  "id": "912037e9-61e1-4b6a-8652-08389502062e",
+                  "name": "otherConfig",
+                  "guid": "",
+                  "dataSourceType": 0,
+                  "belongedPage": "",
+                  "options": {
+                    "content": ""
+                  }
+                }
+              ]
+            }
+          ],
+          "uiOutputLinkList": [
+            {
+              "enable": false,
+              "key": "button.trigger.dataSetOutput",
+              "method": "setButtonOutputData",
+              "source": [
+                {
+                  "id": "531d77e3-0a13-4b91-8034-f69cdf5f5c37",
+                  "name": "dataSetLink",
+                  "guid": "",
+                  "belongedPage": "",
+                  "options": {
+                    "dataSetID": ""
+                  }
+                }
+              ]
+            },
+            {
+              "enable": false,
+              "key": "button.trigger.paramLinkOutput",
+              "method": "setButtonOutputData",
+              "source": [
+                {
+                  "id": "6973f2e4-0546-450a-93c2-7b3517a14439",
+                  "name": "paramLink",
+                  "guid": "",
+                  "belongedPage": "",
+                  "options": {
+                    "paramSelectValue": "",
+                    "paramDefaultValue": ""
+                  }
+                }
+              ]
+            },
+            {
+              "enable": true,
+              "key": "button.trigger.pageJump",
+              "method": "pageJump",
+              "source": []
+            }
+          ],
+          "langKeys": [],
+          "linkList": [
+            {
+              "linkId": 200001,
+              "enable": true,
+              "KSCGUID": "k9307a0dd4bece28dff36e0601fe1ea0",
+              "script": "console.log(\"[D] 点击了提交版本按钮\");\r\n\r\ndebugger;\r\n\r\n\r\nmain();\r\n\r\nasync function main()\r\n{\r\n    const currentData = $Variable.currentSpaceTimeRepo;\r\n    if (Object.keys(currentData).length === 0)\r\n    {\r\n        _showMessage(\"请选择时空仓库\", \"warning\");\r\n        return;\r\n    }\r\n\r\n    if (currentData.guid === $Variable.工程Root时空仓库GUID)\r\n    {\r\n        _showMessage(\"实例根仓库不允许提交\", \"warning\");\r\n        return;\r\n    }\r\n\r\n    const instructionPageName = $Variable.时空仓库版本提交说明页面名称;\r\n    if (instructionPageName.length == 0)\r\n    {\r\n        _showMessage(\"时空仓库版本提交说明页面名称 为空\", \"warning\");\r\n        return\r\n    }\r\n\r\n\r\n    const versionInstruction = await _showInstructionPage(instructionPageName);\r\n    if (!versionInstruction)\r\n    {\r\n        return;\r\n    }\r\n\r\n    $Variable.submitSpaceTimeRepos = {\r\n        spaceTimeRepoGuids: [currentData.guid],\r\n        versionInstruction: versionInstruction,\r\n    };\r\n\r\n\r\n\r\n}\r\n\r\nasync function _showInstructionPage(pageName)\r\n{\r\n    const clientHeight = document.body.clientHeight;\r\n    const clientWidth = document.body.clientWidth;\r\n\r\n    const pageHeight = 250;\r\n    const pageWidth = 550;\r\n\r\n    const pageLeft = (clientWidth - pageWidth) / 2;\r\n    const pageTop = (clientHeight - pageHeight) / 2;\r\n\r\n    const styleOptions = {\r\n        width: pageWidth,\r\n        height: pageHeight,\r\n        left: pageLeft,\r\n        top: pageTop,\r\n        draggable: false,\r\n        header: false,\r\n        // title: pageTitle,\r\n        closable: true,\r\n        resizable: false,\r\n        maximizable: false,\r\n    };\r\n\r\n    const variables = [];\r\n    const options = {\r\n        styleOptions,\r\n        variables,\r\n        stType: 5, // 2：FULLNAME\r\n        spaceTime: $Variable.配置后台时空对象全路径\r\n    };\r\n    return new Promise(resolve =>\r\n    {\r\n        ShowChild(pageName, options, function (transferData)\r\n        {\r\n            console.log(`[D] <实例化框架页面> :: 接收到 <${pageName}> 传递来的公开事件 transferData = `, transferData);\r\n            const { eventName, eventParam } = transferData;\r\n            if (eventName == \"Confirm\")\r\n            {\r\n                resolve(eventParam[0]);\r\n                CloseChild(pageName);\r\n                return;\r\n            }\r\n            if (eventName === \"Cancel\")\r\n            {\r\n                resolve();\r\n                CloseChild(pageName);\r\n                return;\r\n            }\r\n        });\r\n    });\r\n}\r\n\r\nasync function _showSubmitPage(pageName, spaceTimeRepoGuids, versionInstruction)\r\n{\r\n    const clientWidth = document.body.clientWidth;\r\n    const clientHeight = document.body.clientHeight;\r\n\r\n    // let pageHeight = 230 + instanceGuids.length * 38;\r\n    // if (clientHeight < pageHeight)\r\n    // {\r\n    //     pageHeight = clientHeight * 0.8;\r\n    // }\r\n    const pageWidth = clientWidth > 1200 ? 1200 : clientWidth * 0.9;\r\n    const pageHeight = clientHeight > 700 ? 700 : clientHeight * 0.8;\r\n\r\n    const pageLeft = (clientWidth - pageWidth) / 2;\r\n    const pageTop = (clientHeight - pageHeight) / 2;\r\n\r\n    const styleOptions = {\r\n        width: pageWidth,\r\n        height: pageHeight,\r\n        left: pageLeft,\r\n        top: pageTop,\r\n        draggable: false,\r\n        header: false,\r\n        // title: pageTitle,\r\n        closable: true,\r\n        resizable: false,\r\n        maximizable: false,\r\n    };\r\n\r\n    const variables = [\r\n        {\r\n            name: \"spaceTimeRepoGuids\",\r\n            value: spaceTimeRepoGuids\r\n        },\r\n        {\r\n            name: \"versionInstruction\",\r\n            value: versionInstruction\r\n        },\r\n    ];\r\n\r\n    const options = {\r\n        styleOptions,\r\n        variables,\r\n        stType: 5, // 2：FULLNAME\r\n        spaceTime: $Variable.配置后台时空对象全路径\r\n    };\r\n\r\n    return new Promise(resolve =>\r\n    {\r\n        ShowChild(pageName, options, function (transferData)\r\n        {\r\n            console.log(`[D] <实例化框架页面> :: submitInstances :: 接收到 <${pageName}> 传递来的公开事件 transferData = `, transferData);\r\n            const eventName = transferData.eventName;\r\n            if (eventName === \"Confirm\" || eventName === \"Cancel\")\r\n            {\r\n                CloseChild(pageName);\r\n                resolve();\r\n            }\r\n        });\r\n    });\r\n}\r\n\r\nfunction _showMessage(massage, type = \"error\")\r\n{\r\n    const options = {\r\n        message: massage,\r\n        type: type,\r\n        duration: 3000,\r\n        showClose: true,\r\n    };\r\n    ShowMessage(options);\r\n}",
+              "KSCLINKGUID": "k3cddb4f2ce7a7dea3112f191932163f",
+              "linkName": "onClick"
+            }
+          ],
+          "styleOption": {}
+        },
+        "linkList": [
+          {
+            "linkId": 200001,
+            "enable": true,
+            "KSCGUID": "k9307a0dd4bece28dff36e0601fe1ea0",
+            "script": "console.log(\"[D] 点击了提交版本按钮\");\r\n\r\ndebugger;\r\n\r\n\r\nmain();\r\n\r\nasync function main()\r\n{\r\n    const currentData = $Variable.currentSpaceTimeRepo;\r\n    if (Object.keys(currentData).length === 0)\r\n    {\r\n        _showMessage(\"请选择时空仓库\", \"warning\");\r\n        return;\r\n    }\r\n\r\n    if (currentData.guid === $Variable.工程Root时空仓库GUID)\r\n    {\r\n        _showMessage(\"实例根仓库不允许提交\", \"warning\");\r\n        return;\r\n    }\r\n\r\n    const instructionPageName = $Variable.时空仓库版本提交说明页面名称;\r\n    if (instructionPageName.length == 0)\r\n    {\r\n        _showMessage(\"时空仓库版本提交说明页面名称 为空\", \"warning\");\r\n        return\r\n    }\r\n\r\n\r\n    const versionInstruction = await _showInstructionPage(instructionPageName);\r\n    if (!versionInstruction)\r\n    {\r\n        return;\r\n    }\r\n\r\n    $Variable.submitSpaceTimeRepos = {\r\n        spaceTimeRepoGuids: [currentData.guid],\r\n        versionInstruction: versionInstruction,\r\n    };\r\n\r\n\r\n\r\n}\r\n\r\nasync function _showInstructionPage(pageName)\r\n{\r\n    const clientHeight = document.body.clientHeight;\r\n    const clientWidth = document.body.clientWidth;\r\n\r\n    const pageHeight = 250;\r\n    const pageWidth = 550;\r\n\r\n    const pageLeft = (clientWidth - pageWidth) / 2;\r\n    const pageTop = (clientHeight - pageHeight) / 2;\r\n\r\n    const styleOptions = {\r\n        width: pageWidth,\r\n        height: pageHeight,\r\n        left: pageLeft,\r\n        top: pageTop,\r\n        draggable: false,\r\n        header: false,\r\n        // title: pageTitle,\r\n        closable: true,\r\n        resizable: false,\r\n        maximizable: false,\r\n    };\r\n\r\n    const variables = [];\r\n    const options = {\r\n        styleOptions,\r\n        variables,\r\n        stType: 5, // 2：FULLNAME\r\n        spaceTime: $Variable.配置后台时空对象全路径\r\n    };\r\n    return new Promise(resolve =>\r\n    {\r\n        ShowChild(pageName, options, function (transferData)\r\n        {\r\n            console.log(`[D] <实例化框架页面> :: 接收到 <${pageName}> 传递来的公开事件 transferData = `, transferData);\r\n            const { eventName, eventParam } = transferData;\r\n            if (eventName == \"Confirm\")\r\n            {\r\n                resolve(eventParam[0]);\r\n                CloseChild(pageName);\r\n                return;\r\n            }\r\n            if (eventName === \"Cancel\")\r\n            {\r\n                resolve();\r\n                CloseChild(pageName);\r\n                return;\r\n            }\r\n        });\r\n    });\r\n}\r\n\r\nasync function _showSubmitPage(pageName, spaceTimeRepoGuids, versionInstruction)\r\n{\r\n    const clientWidth = document.body.clientWidth;\r\n    const clientHeight = document.body.clientHeight;\r\n\r\n    // let pageHeight = 230 + instanceGuids.length * 38;\r\n    // if (clientHeight < pageHeight)\r\n    // {\r\n    //     pageHeight = clientHeight * 0.8;\r\n    // }\r\n    const pageWidth = clientWidth > 1200 ? 1200 : clientWidth * 0.9;\r\n    const pageHeight = clientHeight > 700 ? 700 : clientHeight * 0.8;\r\n\r\n    const pageLeft = (clientWidth - pageWidth) / 2;\r\n    const pageTop = (clientHeight - pageHeight) / 2;\r\n\r\n    const styleOptions = {\r\n        width: pageWidth,\r\n        height: pageHeight,\r\n        left: pageLeft,\r\n        top: pageTop,\r\n        draggable: false,\r\n        header: false,\r\n        // title: pageTitle,\r\n        closable: true,\r\n        resizable: false,\r\n        maximizable: false,\r\n    };\r\n\r\n    const variables = [\r\n        {\r\n            name: \"spaceTimeRepoGuids\",\r\n            value: spaceTimeRepoGuids\r\n        },\r\n        {\r\n            name: \"versionInstruction\",\r\n            value: versionInstruction\r\n        },\r\n    ];\r\n\r\n    const options = {\r\n        styleOptions,\r\n        variables,\r\n        stType: 5, // 2：FULLNAME\r\n        spaceTime: $Variable.配置后台时空对象全路径\r\n    };\r\n\r\n    return new Promise(resolve =>\r\n    {\r\n        ShowChild(pageName, options, function (transferData)\r\n        {\r\n            console.log(`[D] <实例化框架页面> :: submitInstances :: 接收到 <${pageName}> 传递来的公开事件 transferData = `, transferData);\r\n            const eventName = transferData.eventName;\r\n            if (eventName === \"Confirm\" || eventName === \"Cancel\")\r\n            {\r\n                CloseChild(pageName);\r\n                resolve();\r\n            }\r\n        });\r\n    });\r\n}\r\n\r\nfunction _showMessage(massage, type = \"error\")\r\n{\r\n    const options = {\r\n        message: massage,\r\n        type: type,\r\n        duration: 3000,\r\n        showClose: true,\r\n    };\r\n    ShowMessage(options);\r\n}",
+            "KSCLINKGUID": "k3cddb4f2ce7a7dea3112f191932163f",
+            "linkName": "onClick"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kd0826aaef1604479f59b70fa259147e",
+      "cls": "el-tooltip component_object moreOperation_ElementDropdown1",
+      "text": "",
+      "rect": {
+        "x": 556,
+        "y": 87.5,
+        "w": 20,
+        "h": 18
+      },
+      "vue": {
+        "keys": [
+          "_uid",
+          "_isVue",
+          "__v_skip",
+          "_scope",
+          "$options",
+          "_renderProxy",
+          "_self",
+          "$parent",
+          "$root",
+          "$children",
+          "$refs",
+          "_provided",
+          "_watcher",
+          "_inactive",
+          "_directInactive",
+          "_isMounted",
+          "_isDestroyed",
+          "_isBeingDestroyed",
+          "_events",
+          "_hasHookEvent",
+          "_vnode",
+          "_staticTrees",
+          "$vnode",
+          "$slots",
+          "$scopedSlots",
+          "_c",
+          "$createElement",
+          "$attrs",
+          "$listeners",
+          "_i18n",
+          "$store",
+          "popperVM",
+          "debounceClose",
+          "_props",
+          "createPopper",
+          "updatePopper",
+          "doDestroy",
+          "destroyPopper",
+          "resetTransformOrigin",
+          "appendArrow",
+          "show",
+          "hide",
+          "handleFocus",
+          "handleBlur",
+          "removeFocusing",
+          "addTooltipClass",
+          "handleShowPopper",
+          "handleClosePopper",
+          "setExpectedState",
+          "getFirstElement",
+          "_data",
+          "currentPlacement",
+          "showPopper",
+          "focusing",
+          "timeoutPending",
+          "tooltipId",
+          "$el",
+          "_subscribing",
+          "referenceElm"
+        ],
+        "dataKeys": [
+          "tooltipId",
+          "timeoutPending",
+          "focusing",
+          "showPopper",
+          "currentPlacement"
+        ],
+        "props": [
+          "transformOrigin",
+          "placement",
+          "boundariesPadding",
+          "reference",
+          "popper",
+          "offset",
+          "value",
+          "visibleArrow",
+          "arrowOffset",
+          "appendToBody",
+          "popperOptions",
+          "openDelay",
+          "disabled",
+          "manual",
+          "effect",
+          "popperClass",
+          "content",
+          "transition",
+          "enterable",
+          "hideAfter",
+          "tabindex"
+        ]
+      }
+    }
+  ],
+  "nearby": [
+    {
+      "id": "k4fb99023678d9d3059035f20b4f57c6",
+      "cls": "component_object create_ElementButton",
+      "text": "",
+      "rect": {
+        "x": 466,
+        "y": 87.5,
+        "w": 20,
+        "h": 18
+      },
+      "vue": {
+        "keys": [
+          "_uid",
+          "_isVue",
+          "__v_skip",
+          "_scope",
+          "$options",
+          "_renderProxy",
+          "_self",
+          "$parent",
+          "$root",
+          "$children",
+          "$refs",
+          "_provided",
+          "_watcher",
+          "_inactive",
+          "_directInactive",
+          "_isMounted",
+          "_isDestroyed",
+          "_isBeingDestroyed",
+          "_events",
+          "_hasHookEvent",
+          "_vnode",
+          "_staticTrees",
+          "$vnode",
+          "$slots",
+          "$scopedSlots",
+          "_c",
+          "$createElement",
+          "$attrs",
+          "$listeners",
+          "_i18n",
+          "$store",
+          "storeName",
+          "KMComponentsMng",
+          "mode",
+          "getStoreNameEnum",
+          "useConfigHook",
+          "_props",
+          "initLinkMngUi",
+          "getFontStyle",
+          "getVariableList",
+          "hasActionAuth",
+          "getLinkAnimate",
+          "setLinkAnimate",
+          "evalUiInputLinkBase",
+          "triggerUiToOtherModule",
+          "registerUiInputLink",
+          "uiRunDataSet",
+          "_pageJump",
+          "currentTab",
+          "getUIAuthKey",
+          "updateRenderComs",
+          "setComponentProperty",
+          "removeInKMComponentsMng",
+          "defineScriptProperty",
+          "getGUID",
+          "initGlobalTheme",
+          "evalStyleConfig",
+          "getColor",
+          "getColors",
+          "removeStyleConfig",
+          "removePropertyStyleConfig",
+          "evalDetailConfig",
+          "evalFun",
+          "getLangRes",
+          "getProperty",
+          "getAuthName",
+          "multiSetProperty",
+          "setColor",
+          "setBackgroundColor",
+          "getBackgroundColor",
+          "setBorderColor",
+          "setProperty",
+          "upDateLink",
+          "diffData",
+          "setSelectStatus",
+          "basePropertyTojson",
+          "linkToPropertyJson",
+          "setChildren",
+          "setOption",
+          "getOption"
+        ],
+        "dataKeys": [
+          "eventArray",
+          "defaultData",
+          "propertyStyle",
+          "UIType",
+          "linkList",
+          "times"
+        ],
+        "props": [
+          "propData",
+          "containerGUID",
+          "objectPosition",
+          "childHeight",
+          "childWidth",
+          "index",
+          "parentName"
+        ],
+        "propData": {
+          "UIName": "create_ElementButton",
+          "groupName": "其他",
+          "icon": "",
+          "authName": "",
+          "isConfigAuth": false,
+          "elementuiType": "ElementButton",
+          "objectType": 2,
+          "prototypeName": "ElementButton",
+          "id": "UI_910039",
+          "KSCGUID": "k4fb99023678d9d3059035f20b4f57c6",
+          "leftTopPt": {
+            "x": 0,
+            "y": 0
+          },
+          "content": "",
+          "badgeColor": "#ee0a24",
+          "color": "rgba(255, 0, 0, 1)",
+          "backgroundColor": "rgba(255, 0, 0, 1)",
+          "dot": false,
+          "max": null,
+          "accessable": true,
+          "UIDesc": "",
+          "locationX": "223",
+          "locationY": "25",
+          "lock": false,
+          "visible": true,
+          "runVisible": true,
+          "operable": true,
+          "tooltipDisable": true,
+          "disabled": false,
+          "plain": false,
+          "round": false,
+          "circle": false,
+          "loading": false,
+          "text": "",
+          "detailConfig": "",
+          "styleConfig": "#domId button {\n    background-image: url('data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBmaWxsPSJub25lIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48Zz48Zz48cGF0aCBkPSJNMTIuMzM3MzUyLDBMMy42NjI2NTExLDBDMS42NDMwNjUyLDAsMCwxLjY0MzA2NTIsMCwzLjY2MjY1MTFMMCwxMi4zMzczNTJDMCwxNC4zNTY5NTYsMS42NDMwNjUyLDE2LDMuNjYyNjUxMSwxNkwxMi4zMzczNTIsMTZDMTQuMzU2OTU2LDE2LDE2LDE0LjM1Njk1NiwxNiwxMi4zMzczNTJMMTYsMy42NjI2NTExQzE2LDEuNjQzMDY1MiwxNC4zNTY5NTYsMCwxMi4zMzczNTIsMFpNMTQuODQzMzc2LDEyLjMzNzM1MkMxNC44NDE4MTUsMTMuNzIwNzQ0LDEzLjcyMDc0NCwxNC44NDE4MTUsMTIuMzM3MzUyLDE0Ljg0MzM3NkwzLjY2MjY1MTEsMTQuODQzMzc2QzIuMjc5MjU5NCwxNC44NDE4MTUsMS4xNTgxODc5LDEzLjcyMDc0NCwxLjE1NjYyNjYsMTIuMzM3MzUyTDEuMTU2NjI2NiwzLjY2MjY1MTFDMS4xNTgxODc5LDIuMjc5MjU5NCwyLjI3OTI1ODcsMS4xNTgxODc5LDMuNjYyNjUxMSwxLjE1NjYyNjZMMTIuMzM3MzUyLDEuMTU2NjI2NkMxMy43MjA3NDQsMS4xNTgxODc5LDE0Ljg0MTgxNSwyLjI3OTI1OTQsMTQuODQzMzc2LDMuNjYyNjUxMUwxNC44NDMzNzYsMTIuMzM3MzUyWiIgZmlsbD0iIzk5OTk5OSIgZmlsbC1vcGFjaXR5PSIxIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6cGFzc3Rocm91Z2giLz48L2c+PGc+PHBhdGggZD0iTTguNTg3OTU1OTQ3MjEwNjkzLDQuMzA3Njk0NTI4TDcuNDMxMzI5OTQ3MjEwNjk0LDQuMzA0Njg3NUw3LjQyMzE5NTE0NzIxMDY5Myw3LjQyNzU3ODlMNC4zMDAzMDMwNzU3MTA2OTMsNy40MTk0NDQxTDQuMjk3Mjk2MDQ3MjEwNjkzLDguNTc2MDcwOEw3LjQyMDE4Nzk0NzIxMDY5Myw4LjU4NDIwNTZMNy40MTIwNTMxNDcyMTA2OTQsMTEuNzA3MDk3MUw4LjU2ODY4MDI0NzIxMDY5MywxMS43MTAxMDQwMDAwMDAwMDFMOC41NzY4MTQxNDcyMTA2OTQsOC41ODcyMTI2TDExLjY5OTcwNjU0NzIxMDY5NCw4LjU5NTM0NjlMMTEuNzAyNzEzNDQ3MjEwNjk0LDcuNDM4NzJMOC41Nzk4MjE1NDcyMTA2OTQsNy40MzA1ODU2MDAwMDAwMDFMOC41ODc5NTU5NDcyMTA2OTMsNC4zMDc2OTQ1MjhaIiBmaWxsPSIjOTk5OTk5IiBmaWxsLW9wYWNpdHk9IjEiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTpwYXNzdGhyb3VnaCIvPjwvZz48L2c+PC9zdmc+');\n    background-position: center;\n    background-repeat: no-repeat;\n    background-size: contain;\n    background-color: transparent;\n    border: none;\n    border-radius: 0px;\n}\n\n#domId button.is-disabled {\n    opacity: 0.6;\n}",
+          "tooltip": {
+            "effect": "dark",
+            "content": "",
+            "placement": "bottom",
+            "disabled": true,
+            "offset": 0,
+            "transition": "el-fade-in-linear",
+            "visibleArrow": true,
+            "openDelay": 0,
+            "manual": false,
+            "enterable": true,
+            "hideAfter": 0
+          },
+          "parentGUID": "k7d0c6ff5f8808bf4e73836ba1bfd2a6",
+          "isCloseCurPage": false,
+          "throttleTime": 500,
+          "uiInputLinkList": [
+            {
+              "enable": false,
+              "key": "button.trigger.data",
+              "method": "setButtonLinkData",
+              "source": [
+                {
+                  "id": "e914b0e2-b789-41d8-b999-9299c73d89b5",
+                  "name": "otherConfig",
+                  "guid": "",
+                  "dataSourceType": 0,
+                  "belongedPage": "",
+                  "options": {
+                    "content": ""
+                  }
+                }
+              ]
+            }
+          ],
+          "uiOutputLinkList": [
+            {
+              "enable": false,
+              "key": "button.trigger.dataSetOutput",
+              "method": "setButtonOutputData",
+              "source": [
+                {
+                  "id": "c6f4f1dd-af0d-43b5-b3fb-e8ac95b1877a",
+                  "name": "dataSetLink",
+                  "guid": "",
+                  "belongedPage": "",
+                  "options": {
+                    "dataSetID": ""
+                  }
+                }
+              ]
+            },
+            {
+              "enable": false,
+              "key": "button.trigger.paramLinkOutput",
+              "method": "setButtonOutputData",
+              "source": [
+                {
+                  "id": "1e7d4d76-95da-46f6-9e96-6ec5ff739501",
+                  "name": "paramLink",
+                  "guid": "",
+                  "belongedPage": "",
+                  "options": {
+                    "paramSelectValue": "",
+                    "paramDefaultValue": ""
+                  }
+                }
+              ]
+            },
+            {
+              "enable": true,
+              "key": "button.trigger.pageJump",
+              "method": "pageJump",
+              "source": []
+            }
+          ],
+          "langKeys": [],
+          "linkList": [
+            {
+              "name": "onClick",
+              "property": "upDateLink",
+              "type": "script",
+              "enable": true,
+              "script": "$Variable.createSpaceTimeRepo = !$Variable.createSpaceTimeRepo;",
+              "linkId": 200001,
+              "KSCGUID": "kc0d153216313f7094f067b140acce2a"
+            }
+          ],
+          "styleOption": {}
+        },
+        "linkList": [
+          {
+            "name": "onClick",
+            "property": "upDateLink",
+            "type": "script",
+            "enable": true,
+            "script": "$Variable.createSpaceTimeRepo = !$Variable.createSpaceTimeRepo;",
+            "linkId": 200001,
+            "KSCGUID": "kc0d153216313f7094f067b140acce2a"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ka51aa087ef08f67a9cf6c1792cd4f62",
+      "cls": "component_object delete_ElementButton",
+      "text": "",
+      "rect": {
+        "x": 496,
+        "y": 87.5,
+        "w": 20,
+        "h": 18
+      },
+      "vue": {
+        "keys": [
+          "_uid",
+          "_isVue",
+          "__v_skip",
+          "_scope",
+          "$options",
+          "_renderProxy",
+          "_self",
+          "$parent",
+          "$root",
+          "$children",
+          "$refs",
+          "_provided",
+          "_watcher",
+          "_inactive",
+          "_directInactive",
+          "_isMounted",
+          "_isDestroyed",
+          "_isBeingDestroyed",
+          "_events",
+          "_hasHookEvent",
+          "_vnode",
+          "_staticTrees",
+          "$vnode",
+          "$slots",
+          "$scopedSlots",
+          "_c",
+          "$createElement",
+          "$attrs",
+          "$listeners",
+          "_i18n",
+          "$store",
+          "storeName",
+          "KMComponentsMng",
+          "mode",
+          "getStoreNameEnum",
+          "useConfigHook",
+          "_props",
+          "initLinkMngUi",
+          "getFontStyle",
+          "getVariableList",
+          "hasActionAuth",
+          "getLinkAnimate",
+          "setLinkAnimate",
+          "evalUiInputLinkBase",
+          "triggerUiToOtherModule",
+          "registerUiInputLink",
+          "uiRunDataSet",
+          "_pageJump",
+          "currentTab",
+          "getUIAuthKey",
+          "updateRenderComs",
+          "setComponentProperty",
+          "removeInKMComponentsMng",
+          "defineScriptProperty",
+          "getGUID",
+          "initGlobalTheme",
+          "evalStyleConfig",
+          "getColor",
+          "getColors",
+          "removeStyleConfig",
+          "removePropertyStyleConfig",
+          "evalDetailConfig",
+          "evalFun",
+          "getLangRes",
+          "getProperty",
+          "getAuthName",
+          "multiSetProperty",
+          "setColor",
+          "setBackgroundColor",
+          "getBackgroundColor",
+          "setBorderColor",
+          "setProperty",
+          "upDateLink",
+          "diffData",
+          "setSelectStatus",
+          "basePropertyTojson",
+          "linkToPropertyJson",
+          "setChildren",
+          "setOption",
+          "getOption"
+        ],
+        "dataKeys": [
+          "eventArray",
+          "defaultData",
+          "propertyStyle",
+          "UIType",
+          "linkList",
+          "times"
+        ],
+        "props": [
+          "propData",
+          "containerGUID",
+          "objectPosition",
+          "childHeight",
+          "childWidth",
+          "index",
+          "parentName"
+        ],
+        "propData": {
+          "UIName": "delete_ElementButton",
+          "groupName": "其他",
+          "icon": "",
+          "authName": "",
+          "isConfigAuth": false,
+          "elementuiType": "ElementButton",
+          "objectType": 2,
+          "prototypeName": "ElementButton",
+          "id": "UI_910039",
+          "KSCGUID": "ka51aa087ef08f67a9cf6c1792cd4f62",
+          "leftTopPt": {
+            "x": 0,
+            "y": 0
+          },
+          "content": "",
+          "badgeColor": "#ee0a24",
+          "color": "",
+          "backgroundColor": "",
+          "dot": false,
+          "max": null,
+          "accessable": true,
+          "UIDesc": "",
+          "locationX": "253",
+          "locationY": "25",
+          "lock": false,
+          "visible": true,
+          "runVisible": true,
+          "operable": true,
+          "tooltipDisable": true,
+          "disabled": false,
+          "plain": false,
+          "round": false,
+          "circle": false,
+          "loading": false,
+          "text": "",
+          "detailConfig": "",
+          "styleConfig": "\n#domId button {\n    /*background-repeat: no-repeat;*/\n    /*background-position: 15px 48%;*/\n    background-image: url('data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBmaWxsPSJub25lIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48ZGVmcz48Y2xpcFBhdGggaWQ9Im1hc3Rlcl9zdmcwXzI2MzFfMDYwNzM3LzI2MzFfMDU4OTI3Ij48cmVjdCB4PSI0IiB5PSI1IiB3aWR0aD0iNyIgaGVpZ2h0PSI3IiByeD0iMCIvPjwvY2xpcFBhdGg+PC9kZWZzPjxnPjxnPjxwYXRoIGQ9Ik0xMi4zMzczNTIsMEwzLjY2MjY1MTEsMEMxLjY0MzA2NTIsMCwwLDEuNjQzMDY1MiwwLDMuNjYyNjUxMUwwLDEyLjMzNzM1MkMwLDE0LjM1Njk1NiwxLjY0MzA2NTIsMTYsMy42NjI2NTExLDE2TDEyLjMzNzM1MiwxNkMxNC4zNTY5NTYsMTYsMTYsMTQuMzU2OTU2LDE2LDEyLjMzNzM1MkwxNiwzLjY2MjY1MTFDMTYsMS42NDMwNjUyLDE0LjM1Njk1NiwwLDEyLjMzNzM1MiwwWk0xNC44NDMzNzYsMTIuMzM3MzUyQzE0Ljg0MTgxNSwxMy43MjA3NDQsMTMuNzIwNzQ0LDE0Ljg0MTgxNSwxMi4zMzczNTIsMTQuODQzMzc2TDMuNjYyNjUxMSwxNC44NDMzNzZDMi4yNzkyNTk0LDE0Ljg0MTgxNSwxLjE1ODE4NzksMTMuNzIwNzQ0LDEuMTU2NjI2NiwxMi4zMzczNTJMMS4xNTY2MjY2LDMuNjYyNjUxMUMxLjE1ODE4NzksMi4yNzkyNTk0LDIuMjc5MjU4NywxLjE1ODE4NzksMy42NjI2NTExLDEuMTU2NjI2NkwxMi4zMzczNTIsMS4xNTY2MjY2QzEzLjcyMDc0NCwxLjE1ODE4NzksMTQuODQxODE1LDIuMjc5MjU5NCwxNC44NDMzNzYsMy42NjI2NTExTDE0Ljg0MzM3NiwxMi4zMzczNTJaIiBmaWxsPSIjOTk5OTk5IiBmaWxsLW9wYWNpdHk9IjEiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTpwYXNzdGhyb3VnaCIvPjwvZz48ZyBjbGlwLXBhdGg9InVybCgjbWFzdGVyX3N2ZzBfMjYzMV8wNjA3MzcvMjYzMV8wNTg5MjcpIj48Zz48cGF0aCBkPSJNMTAuOTMzNzE4NzI1LDUuNzc5MDcxMzNRMTAuOTYxNTkzMTI1LDUuODQxNzkxNTcsMTAuOTc5MDE1ODI1MDAwMDAxLDUuOTI1NDE4NjdRMTAuOTk2NDM4MDI1LDYuMDA5MDQ1OTYsMTAuOTk2NDM4MDI1LDYuMDk5NjQyUTEwLjk5NjQzODAyNSw2LjE5MDIzOCwxMC45NjE1OTMxMjUsNi4yODA4MzQyUTEwLjkyNjc0ODMyNSw2LjM3MTQzMDM5OTk5OTk5OTUsMTAuODUwMDkwNTI0OTk5OTk5LDYuNDU1MDU3NFExMC43NjY0NjM3MjUwMDAwMDEsNi41Mzg2ODQ1MDAwMDAwMDA1LDEwLjcwMDI1OTcyNSw2LjYwMTQwNVExMC42MzQwNTQyMjUsNi42NjQxMjU0LDEwLjU4NTI3MTMyNSw2LjcxMjkwNzlRMTAuNTI5NTIwNTI0OTk5OTk5LDYuNzY4NjU5NSwxMC40ODA3Mzg2MjUsNi44MTA0NzNMOS4xNzc1NDc5MjQ5OTk5OTksNS41MDcyODI5NFE5LjI2MTE3NDcyNSw1LjQzMDYyNDc1LDkuMzc2MTYzMDI1LDUuMzIyNjA2MzhROS40OTExNDk5MjUsNS4yMTQ1ODc5Niw5LjU2NzgwODEyNDk5OTk5OSw1LjE1MTg2NzU3UTkuNjY1MzcyODI1LDUuMDc1MjA5MzM4LDkuNzY5OTA3MDI1LDUuMDQzODQ5MTU3UTkuODc0NDQwNjI1LDUuMDEyNDg4OTgwNSw5Ljk3NTQ5MDEyNSw1LjAxNTk3MzQ0NDgyUTEwLjA3NjU0MDAyNSw1LjAxOTQ1NzkwOSwxMC4xNzA2MTk1MjUsNS4wNDczMzM2MjhRMTAuMjY0Njk5OTI1LDUuMDc1MjA5MzQ2LDEwLjMzNDM5MDEyNDk5OTk5OSw1LjExMDA1NDAwMVExMC40ODA3MzY3MjUsNS4xODY3MTIyMSwxMC42NTg0NDUzMjQ5OTk5OTksNS4zNzgzNTc4M1ExMC44MzYxNTQwMjQ5OTk5OTksNS41NzAwMDMzOSwxMC45MzM3MTg3MjUsNS43NzkwNzEzM1pNNS41MDQ5MjEzMTUsOS4xNzk5MDkyUTUuNTQ2NzM0NzU1LDkuMTM4MDk1NDAwMDAwMDAxLDUuNzAwMDUxMzY1LDguOTgxMjk0MlE1Ljg1MzM2Nzg2NSw4LjgyNDQ5MzIsNi4wODMzNDI1MjUsOC41OTQ1MTkxTDYuNTkyMDc0NDI1LDguMDg1Nzg3MTAwMDAwMDAxTDcuMTU2NTU4MDI1LDcuNTIxMzAzN0w4LjY1NDg3NzQyNSw2LjAyMjk4MzlMOS45NTgwNjc0MjUsNy4zMzMxNDNMOC40NTk3NDc4MjUsOC44MzE0NjI0TDcuOTAyMjMzMzI1LDkuMzk1OTQ2UTcuNjIzNDc2NTI1LDkuNjY3NzM0MSw3LjQwMDQ3MDcyNSw5Ljg5NDIyMzcwMDAwMDAwMVE3LjE3NzQ2NDcyNSwxMC4xMjA3MTQyLDcuMDMxMTE3NDI1LDEwLjI2NzA2MjJRNi44ODQ3Njk5MjUwMDAwMDA1LDEwLjQxMzQwOTY5OTk5OTk5OSw2Ljg1Njg5NDEyNSwxMC40MzQzMTYyUTYuNzg3MjA0NzI1MDAwMDAwNSwxMC40OTcwMzY5MDAwMDAwMDEsNi42OTY2MDg2MjUsMTAuNTY2NzI1N1E2LjYwNjAxMjQyNSwxMC42MzY0MTU1LDYuNTA4NDQ3NDI1LDEwLjY3ODIyODlRNi40MTA4ODI2MjUsMTAuNzI3MDExNyw2LjIyMjcyMTEyNSwxMC43OTY3MDA5OTk5OTk5OTlRNi4wMzQ1NjAxMjUwMDAwMDA1LDEwLjg2NjM5MDcsNS44Mjg5NzY3NTUsMTAuOTMyNTk1M1E1LjYyMzM5MzQxNSwxMC45OTg4MDAzLDUuNDM4NzE2NzA1LDExLjA0NzU4MzFRNS4yNTQwMzk5MTUsMTEuMDk2MzY0MDAwMDAwMDAxLDUuMTYzNDQzOTg1LDExLjExMDMwMjlRNC45NzUyODI4MDUsMTEuMTMxMjA5OSw0LjkxMjU2MjQ0NSwxMS4wNTQ1NTE2UTQuODQ5ODQyMDk2LDEwLjk3Nzg5MzQsNC44Nzc3MTc3Njg4LDEwLjc5NjcwMDk5OTk5OTk5OVE0Ljg5MTY1NTYwMywxMC42OTkxMzYzLDQuOTQzOTIyNTc5LDEwLjUxNDQ1OTZRNC45OTYxODk1NDUsMTAuMzI5NzgyNSw1LjA1NTQyNTQ1NSwxMC4xMzExNjg0UTUuMTE0NjYxMzM1LDkuOTMyNTU0Miw1LjE3MDQxMjc3NSw5Ljc2NTI5ODhRNS4yMjYxNjQyNTUsOS41OTgwNDQ0LDUuMjYxMDA4ODU1LDkuNTM1MzI1MVE1LjMwMjgyMjQ3NSw5LjQzNzc1OTQwMDAwMDAwMSw1LjM1NTA4OTQyNSw5LjM1NzYxNjlRNS40MDczNTY0NDUsOS4yNzc0NzM5LDUuNTA0OTIxMzE1LDkuMTc5OTA5MloiIGZpbGw9IiM5OTk5OTkiIGZpbGwtb3BhY2l0eT0iMSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOnBhc3N0aHJvdWdoIi8+PC9nPjwvZz48L2c+PC9zdmc+');\n    background-position: center;\n    background-repeat: no-repeat;\n    background-size: contain;\n    background-color: transparent;\n    border: none;\n    border-radius: 0px;\n}\n\n\n#domId button.is-disabled {\n    opacity: 0.6;\n}\n",
+          "tooltip": {
+            "effect": "dark",
+            "content": "",
+            "placement": "bottom",
+            "disabled": true,
+            "offset": 0,
+            "transition": "el-fade-in-linear",
+            "visibleArrow": true,
+            "openDelay": 0,
+            "manual": false,
+            "enterable": true,
+            "hideAfter": 0
+          },
+          "parentGUID": "k0902642afa859734a14919b3fd5a40c",
+          "isCloseCurPage": false,
+          "throttleTime": 500,
+          "uiInputLinkList": [
+            {
+              "enable": false,
+              "key": "button.trigger.data",
+              "method": "setButtonLinkData",
+              "source": [
+                {
+                  "id": "912037e9-61e1-4b6a-8652-08389502062e",
+                  "name": "otherConfig",
+                  "guid": "",
+                  "dataSourceType": 0,
+                  "belongedPage": "",
+                  "options": {
+                    "content": ""
+                  }
+                }
+              ]
+            }
+          ],
+          "uiOutputLinkList": [
+            {
+              "enable": false,
+              "key": "button.trigger.dataSetOutput",
+              "method": "setButtonOutputData",
+              "source": [
+                {
+                  "id": "531d77e3-0a13-4b91-8034-f69cdf5f5c37",
+                  "name": "dataSetLink",
+                  "guid": "",
+                  "belongedPage": "",
+                  "options": {
+                    "dataSetID": ""
+                  }
+                }
+              ]
+            },
+            {
+              "enable": false,
+              "key": "button.trigger.paramLinkOutput",
+              "method": "setButtonOutputData",
+              "source": [
+                {
+                  "id": "6973f2e4-0546-450a-93c2-7b3517a14439",
+                  "name": "paramLink",
+                  "guid": "",
+                  "belongedPage": "",
+                  "options": {
+                    "paramSelectValue": "",
+                    "paramDefaultValue": ""
+                  }
+                }
+              ]
+            },
+            {
+              "enable": true,
+              "key": "button.trigger.pageJump",
+              "method": "pageJump",
+              "source": []
+            }
+          ],
+          "langKeys": [],
+          "linkList": [
+            {
+              "linkId": 200001,
+              "enable": true,
+              "KSCGUID": "k16bfb713711ed077cb3c26222c20b64",
+              "script": "console.log(\"[D] 点击了编辑按钮\");\r\n\r\n$Variable.modifySpaceTimeRepo = !$Variable.modifySpaceTimeRepo;\r\n\r\n// debugger;\r\n\r\n\r\n// main();\r\n\r\nfunction main()\r\n{\r\n    const currentData = $Variable.currentSpaceTimeRepo;\r\n    if (Object.keys(currentData).length === 0)\r\n    {\r\n        _showMessage(\"请选择想要删除的实例\", \"warning\");\r\n        return;\r\n    }\r\n\r\n    if (currentData.guid === $Variable.工程Root时空仓库GUID)\r\n    {\r\n        _showMessage(\"实例根仓库不允许删除\", \"warning\");\r\n        return;\r\n    }\r\n    \r\n    if(currentData.instancetype === \"1\")\r\n    {\r\n        _showMessage(\"子实例不允许删除\", \"warning\");\r\n        return;\r\n    }\r\n\r\n    showChildPage();\r\n}\r\n\r\n\r\n\r\nfunction showChildPage()\r\n{\r\n\r\n    debugger;\r\n\r\n    const clientHeight = document.body.clientHeight;\r\n    const clientWidth = document.body.clientWidth;\r\n\r\n    const pageHeight = 200;\r\n    const pageWidth = 400;\r\n\r\n    const pageLeft = (clientWidth - pageWidth) / 2;\r\n    const pageTop = (clientHeight - pageHeight) / 2 - 100;\r\n\r\n    const styleOptions = {\r\n        width: pageWidth,\r\n        height: pageHeight,\r\n        left: pageLeft,\r\n        top: pageTop,\r\n        draggable: false,\r\n        header: false,\r\n        // title: pageTitle,\r\n        closable: true,\r\n        resizable: false,\r\n        maximizable: false,\r\n    };\r\n\r\n    const pageName = $Variable.删除实例页面名称;\r\n\r\n    const variables = [\r\n        {\r\n            name: \"配置后台时空对象全路径\",\r\n            value: $Variable.配置后台时空对象全路径\r\n        },\r\n        {\r\n            name: \"配置后台APP对象名称\",\r\n            value: $Variable.配置后台APP对象名称\r\n        },\r\n        {\r\n            name: \"cloudId\",\r\n            value: $Variable.cloudId\r\n        },\r\n        {\r\n            name: \"实例信息\",\r\n            value: $Variable.currentSpaceTimeRepo\r\n        },\r\n        {\r\n            name: \"实例根仓库GUID\",\r\n            value: $Variable.工程Root时空仓库GUID\r\n        }\r\n    ];\r\n\r\n    const options = {\r\n        styleOptions,\r\n        variables,\r\n        stType: 5, // 2：FULLNAME\r\n        spaceTime: $Variable.配置后台时空对象全路径\r\n    };\r\n\r\n    debugger;\r\n\r\n    ShowChild(pageName, options, function (transferData)\r\n    {\r\n        publicEventHanlder(pageName, transferData);\r\n    });\r\n}\r\n\r\nfunction publicEventHanlder(pageName, transferData)\r\n{\r\n    console.log(`[D] <实例化框架页面> 接收到 <${pageName}> 传递来的公开事件 transferData = `, transferData);\r\n\r\n    const {\r\n        eventName,\r\n        eventParam\r\n    } = transferData;\r\n\r\n\r\n    if (eventName === \"Cancel\")\r\n    {\r\n        CloseChild(pageName);\r\n        return;\r\n    }\r\n    else if (eventName === \"Confirm\")\r\n    {\r\n        // $Variable.isUpdateViewTable = !$Variable.isUpdateViewTable;\r\n        // $Variable.updateInstanceTreeView = !$Variable.updateInstanceTreeView;\r\n        debugger;\r\n\r\n        if ($Variable.spaceTimeRepoKeyWords.length === 0)\r\n        {\r\n            const parentNodeGuid = $Variable.currentSpaceTimeRepo.parentguid;\r\n            console.log(\"[D] 被删除节点的父节点 guid = \", parentNodeGuid);\r\n            spaceTimeRepo_ElementTree.SetCurrentKey(parentNodeGuid);\r\n            const parentNode = spaceTimeRepo_ElementTree.GetCurrentNode();\r\n            console.log(\"[D] 获取到当前选中的节点 parentNode = \", parentNode);\r\n            $Variable.currentSpaceTimeRepo = { ...parentNode };\r\n        }\r\n        else\r\n        {\r\n            $Variable.currentSpaceTimeRepo = {};\r\n            $Variable.updateTreeByFilter = !$Variable.updateTreeByFilter;\r\n        }\r\n        CloseChild(pageName);\r\n        return;\r\n    }\r\n}\r\n\r\n\r\nfunction _showMessage(massage, type = \"error\")\r\n{\r\n    var options = {\r\n        message: massage,\r\n        type: type,\r\n        duration: 3000,\r\n        showClose: true,\r\n    };\r\n    ShowMessage(options);\r\n}",
+              "KSCLINKGUID": "ka51aa087ef08f67a9cf6c1792cd4f62",
+              "linkName": "onClick"
+            }
+          ],
+          "styleOption": {}
+        },
+        "linkList": [
+          {
+            "linkId": 200001,
+            "enable": true,
+            "KSCGUID": "k16bfb713711ed077cb3c26222c20b64",
+            "script": "console.log(\"[D] 点击了编辑按钮\");\r\n\r\n$Variable.modifySpaceTimeRepo = !$Variable.modifySpaceTimeRepo;\r\n\r\n// debugger;\r\n\r\n\r\n// main();\r\n\r\nfunction main()\r\n{\r\n    const currentData = $Variable.currentSpaceTimeRepo;\r\n    if (Object.keys(currentData).length === 0)\r\n    {\r\n        _showMessage(\"请选择想要删除的实例\", \"warning\");\r\n        return;\r\n    }\r\n\r\n    if (currentData.guid === $Variable.工程Root时空仓库GUID)\r\n    {\r\n        _showMessage(\"实例根仓库不允许删除\", \"warning\");\r\n        return;\r\n    }\r\n    \r\n    if(currentData.instancetype === \"1\")\r\n    {\r\n        _showMessage(\"子实例不允许删除\", \"warning\");\r\n        return;\r\n    }\r\n\r\n    showChildPage();\r\n}\r\n\r\n\r\n\r\nfunction showChildPage()\r\n{\r\n\r\n    debugger;\r\n\r\n    const clientHeight = document.body.clientHeight;\r\n    const clientWidth = document.body.clientWidth;\r\n\r\n    const pageHeight = 200;\r\n    const pageWidth = 400;\r\n\r\n    const pageLeft = (clientWidth - pageWidth) / 2;\r\n    const pageTop = (clientHeight - pageHeight) / 2 - 100;\r\n\r\n    const styleOptions = {\r\n        width: pageWidth,\r\n        height: pageHeight,\r\n        left: pageLeft,\r\n        top: pageTop,\r\n        draggable: false,\r\n        header: false,\r\n        // title: pageTitle,\r\n        closable: true,\r\n        resizable: false,\r\n        maximizable: false,\r\n    };\r\n\r\n    const pageName = $Variable.删除实例页面名称;\r\n\r\n    const variables = [\r\n        {\r\n            name: \"配置后台时空对象全路径\",\r\n            value: $Variable.配置后台时空对象全路径\r\n        },\r\n        {\r\n            name: \"配置后台APP对象名称\",\r\n            value: $Variable.配置后台APP对象名称\r\n        },\r\n        {\r\n            name: \"cloudId\",\r\n            value: $Variable.cloudId\r\n        },\r\n        {\r\n            name: \"实例信息\",\r\n            value: $Variable.currentSpaceTimeRepo\r\n        },\r\n        {\r\n            name: \"实例根仓库GUID\",\r\n            value: $Variable.工程Root时空仓库GUID\r\n        }\r\n    ];\r\n\r\n    const options = {\r\n        styleOptions,\r\n        variables,\r\n        stType: 5, // 2：FULLNAME\r\n        spaceTime: $Variable.配置后台时空对象全路径\r\n    };\r\n\r\n    debugger;\r\n\r\n    ShowChild(pageName, options, function (transferData)\r\n    {\r\n        publicEventHanlder(pageName, transferData);\r\n    });\r\n}\r\n\r\nfunction publicEventHanlder(pageName, transferData)\r\n{\r\n    console.log(`[D] <实例化框架页面> 接收到 <${pageName}> 传递来的公开事件 transferData = `, transferData);\r\n\r\n    const {\r\n        eventName,\r\n        eventParam\r\n    } = transferData;\r\n\r\n\r\n    if (eventName === \"Cancel\")\r\n    {\r\n        CloseChild(pageName);\r\n        return;\r\n    }\r\n    else if (eventName === \"Confirm\")\r\n    {\r\n        // $Variable.isUpdateViewTable = !$Variable.isUpdateViewTable;\r\n        // $Variable.updateInstanceTreeView = !$Variable.updateInstanceTreeView;\r\n        debugger;\r\n\r\n        if ($Variable.spaceTimeRepoKeyWords.length === 0)\r\n        {\r\n            const parentNodeGuid = $Variable.currentSpaceTimeRepo.parentguid;\r\n            console.log(\"[D] 被删除节点的父节点 guid = \", parentNodeGuid);\r\n            spaceTimeRepo_ElementTree.SetCurrentKey(parentNodeGuid);\r\n            const parentNode = spaceTimeRepo_ElementTree.GetCurrentNode();\r\n            console.log(\"[D] 获取到当前选中的节点 parentNode = \", parentNode);\r\n            $Variable.currentSpaceTimeRepo = { ...parentNode };\r\n        }\r\n        else\r\n        {\r\n            $Variable.currentSpaceTimeRepo = {};\r\n            $Variable.updateTreeByFilter = !$Variable.updateTreeByFilter;\r\n        }\r\n        CloseChild(pageName);\r\n        return;\r\n    }\r\n}\r\n\r\n\r\nfunction _showMessage(massage, type = \"error\")\r\n{\r\n    var options = {\r\n        message: massage,\r\n        type: type,\r\n        duration: 3000,\r\n        showClose: true,\r\n    };\r\n    ShowMessage(options);\r\n}",
+            "KSCLINKGUID": "ka51aa087ef08f67a9cf6c1792cd4f62",
+            "linkName": "onClick"
+          }
+        ]
+      }
+    },
+    {
+      "id": "k3cddb4f2ce7a7dea3112f191932163f",
+      "cls": "component_object ElementButton3",
+      "text": "",
+      "rect": {
+        "x": 526,
+        "y": 87.5,
+        "w": 20,
+        "h": 18
+      },
+      "vue": {
+        "keys": [
+          "_uid",
+          "_isVue",
+          "__v_skip",
+          "_scope",
+          "$options",
+          "_renderProxy",
+          "_self",
+          "$parent",
+          "$root",
+          "$children",
+          "$refs",
+          "_provided",
+          "_watcher",
+          "_inactive",
+          "_directInactive",
+          "_isMounted",
+          "_isDestroyed",
+          "_isBeingDestroyed",
+          "_events",
+          "_hasHookEvent",
+          "_vnode",
+          "_staticTrees",
+          "$vnode",
+          "$slots",
+          "$scopedSlots",
+          "_c",
+          "$createElement",
+          "$attrs",
+          "$listeners",
+          "_i18n",
+          "$store",
+          "storeName",
+          "KMComponentsMng",
+          "mode",
+          "getStoreNameEnum",
+          "useConfigHook",
+          "_props",
+          "initLinkMngUi",
+          "getFontStyle",
+          "getVariableList",
+          "hasActionAuth",
+          "getLinkAnimate",
+          "setLinkAnimate",
+          "evalUiInputLinkBase",
+          "triggerUiToOtherModule",
+          "registerUiInputLink",
+          "uiRunDataSet",
+          "_pageJump",
+          "currentTab",
+          "getUIAuthKey",
+          "updateRenderComs",
+          "setComponentProperty",
+          "removeInKMComponentsMng",
+          "defineScriptProperty",
+          "getGUID",
+          "initGlobalTheme",
+          "evalStyleConfig",
+          "getColor",
+          "getColors",
+          "removeStyleConfig",
+          "removePropertyStyleConfig",
+          "evalDetailConfig",
+          "evalFun",
+          "getLangRes",
+          "getProperty",
+          "getAuthName",
+          "multiSetProperty",
+          "setColor",
+          "setBackgroundColor",
+          "getBackgroundColor",
+          "setBorderColor",
+          "setProperty",
+          "upDateLink",
+          "diffData",
+          "setSelectStatus",
+          "basePropertyTojson",
+          "linkToPropertyJson",
+          "setChildren",
+          "setOption",
+          "getOption"
+        ],
+        "dataKeys": [
+          "eventArray",
+          "defaultData",
+          "propertyStyle",
+          "UIType",
+          "linkList",
+          "times"
+        ],
+        "props": [
+          "propData",
+          "containerGUID",
+          "objectPosition",
+          "childHeight",
+          "childWidth",
+          "index",
+          "parentName"
+        ],
+        "propData": {
+          "UIName": "ElementButton3",
+          "groupName": "其他",
+          "icon": "",
+          "authName": "",
+          "isConfigAuth": false,
+          "elementuiType": "ElementButton",
+          "objectType": 2,
+          "prototypeName": "ElementButton",
+          "id": "UI_910039",
+          "KSCGUID": "k3cddb4f2ce7a7dea3112f191932163f",
+          "leftTopPt": {
+            "x": 0,
+            "y": 0
+          },
+          "content": "",
+          "badgeColor": "#ee0a24",
+          "color": "",
+          "backgroundColor": "",
+          "dot": false,
+          "max": null,
+          "accessable": true,
+          "UIDesc": "",
+          "locationX": "283",
+          "locationY": "25",
+          "lock": false,
+          "visible": true,
+          "runVisible": true,
+          "operable": true,
+          "tooltipDisable": true,
+          "disabled": false,
+          "plain": false,
+          "round": false,
+          "circle": false,
+          "loading": false,
+          "text": "",
+          "detailConfig": "",
+          "styleConfig": "\n#domId button {\n    /*background-repeat: no-repeat;*/\n    /*background-position: 15px 48%;*/\n    background-image: url('data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBmaWxsPSJub25lIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIwIDIwIj48ZGVmcz48Y2xpcFBhdGggaWQ9Im1hc3Rlcl9zdmcwXzI2MzFfMDYwNzM3LzI2MzFfMDU4ODEwIj48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHJ4PSIwIi8+PC9jbGlwUGF0aD48L2RlZnM+PGcgY2xpcC1wYXRoPSJ1cmwoI21hc3Rlcl9zdmcwXzI2MzFfMDYwNzM3LzI2MzFfMDU4ODEwKSI+PGc+PHBhdGggZD0iTTExLjgzNDE2ODQwOTM3NSwxNy41MTcxMTUxMjVDMTEuNjMxMzAwOTA5Mzc1LDE3LjUxNzA1OTEyNSwxMS40NDI4OTY4MDkzNzUsMTcuNDEyMDcxMTI1LDExLjMzNjEyMTUwOTM3NSwxNy4yMzk1NzcxMjVMOC4wNzIwNTkxMDkzNzUwMDEsMTEuOTY2MTM5ODI1QzcuOTMwNjAxNjA5Mzc1LDExLjczNzU3MTcyNSw3Ljk2MjgwOTEwOTM3NSwxMS40NDIwNzAwMjUsOC4xNTAxODQxMDkzNzUwMDEsMTEuMjQ5MzQyOTI1TDE2LjA4Mzc3NzYwOTM3NDk5OCwzLjA4ODAxNDYwNUMxNi4yNzUyMzk2MDkzNzUsMi44OTEwMDg5NTEsMTYuNTc3ODY3NjA5Mzc0OTk4LDIuODUzNDczNDcyOSwxNi44MTE2NTc2MDkzNzUsMi45OTc3MzQwNjVDMTcuMDQ1NDQ4NjA5Mzc1LDMuMTQxOTk0ODY1LDE3LjE0NzYyMjYwOTM3NSwzLjQyOTMxNDQzNSwxNy4wNTc0MTA2MDkzNzQ5OTgsMy42ODg3OTU4NjVMMTIuMzg3ODc5NDA5Mzc1LDE3LjEyMzU2MTEyNTAwMDAwMkMxMi4zMTQwMDY4MDkzNzUsMTcuMzM2OTkzMTI1LDEyLjEyNDA0MTUwOTM3NSwxNy40ODg5NjcxMjUwMDAwMDIsMTEuODk5NTk4MTA5Mzc1LDE3LjUxNDE4NjEyNTAwMDAwMkMxMS44Nzc4NTgyMDkzNzUsMTcuNTE2MzY1MTI1LDExLjg1NjAxNTIwOTM3NSwxNy41MTczNDMxMjUsMTEuODM0MTY4NDA5Mzc1LDE3LjUxNzExNTEyNVpNOS4zMDkxNjgzMDkzNzUsMTEuNzM4Nzk1MzI1TDExLjY4NDk0OTkwOTM3NSwxNS41NzY0OTExMjVMMTUuMDgzMzg3NjA5Mzc1LDUuNzk4MzY2MzI1TDkuMzA5MTY4MzA5Mzc1LDExLjczODc5NTMyNVpNOC4zNDI3NjIwMDkzNzUsMTIuMDE4Njc4NjI1QzguMjM0NjM1ODA5Mzc1LDEyLjAxODc1NDkyNSw4LjEyODYxMjUwOTM3NSwxMS45ODg4MDAwMjUsOC4wMzY1MTE5MDkzNzUwMDEsMTEuOTMyMTU0NjI1TDIuNzc1Mzc4OTk5Mzc1LDguNzA0NDIxMDI1QzIuNTgzMTc3NzYwMzc1LDguNTg2NDk4NzI1LDIuNDc1Njk5ODA2Mzc1LDguMzY4NzQ0MzI1LDIuNDk4OTk1MjA4ODc1LDguMTQ0NDU4MzI1QzIuNTIyMjkwNjExMzc1LDcuOTIwMTcyNzI1LDIuNjcyMjI1Mzg5Mzc1LDcuNzI5MTU0NjI1LDIuODg0NTU4Njc5Mzc1LDcuNjUzMjQ5MjI1TDE2LjI0MDgwODYwOTM3NSwyLjg3OTgxMTQ3N0MxNi40OTk0NDk2MDkzNzUsMi43ODc1NzExNDMsMTYuNzg3NDU0NjA5Mzc1LDIuODg3MzIxNDcyLDE2LjkzMzYzODYwOTM3NTAwMiwzLjExOTc3MjM0NUMxNy4wNzk4MjE2MDkzNzUsMy4zNTIyMjMyMTUsMTcuMDQ0OTY3NjA5Mzc1LDMuNjU1MDE0MDM0OTk5OTk5OCwxNi44NDk3OTI2MDkzNzUsMy44NDgxNzA5MjVMOC43NTQ4NzE0MDkzNzUsMTEuODQ5NTM3ODI1QzguNjQ1MTI2MzA5Mzc1LDExLjk1Nzk3NjMyNSw4LjQ5NzA0MjIwOTM3NSwxMi4wMTg3NTMwMjUsOC4zNDI3NjIwMDkzNzUsMTIuMDE4Njc4NjI1Wk00LjQzMDY1MjUwOTM3NSw4LjM0NTA0NjAyNUw4LjI1ODc3NzYwOTM3NDk5OSwxMC42OTMwOTIzMjVMMTQuMTQ3MjUzNjA5Mzc1LDQuODcyNzgwMzI1TDQuNDMwNjUyNTA5Mzc1LDguMzQ1MDQ2MDI1WiIgZmlsbD0iIzk5OTk5OSIgZmlsbC1vcGFjaXR5PSIxIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6cGFzc3Rocm91Z2giLz48L2c+PC9nPjwvc3ZnPg==');\n    background-position: center;\n    background-repeat: no-repeat;\n    background-size: contain;\n    background-color: transparent;\n    border: none;\n    border-radius: 0px;\n}\n\n\n#domId button.is-disabled {\n    opacity: 0.6;\n}\n",
+          "tooltip": {
+            "effect": "dark",
+            "content": "",
+            "placement": "bottom",
+            "disabled": true,
+            "offset": 0,
+            "transition": "el-fade-in-linear",
+            "visibleArrow": true,
+            "openDelay": 0,
+            "manual": false,
+            "enterable": true,
+            "hideAfter": 0
+          },
+          "parentGUID": "k41779dac077d4ec672bd6a3674e7573",
+          "isCloseCurPage": false,
+          "throttleTime": 500,
+          "uiInputLinkList": [
+            {
+              "enable": false,
+              "key": "button.trigger.data",
+              "method": "setButtonLinkData",
+              "source": [
+                {
+                  "id": "912037e9-61e1-4b6a-8652-08389502062e",
+                  "name": "otherConfig",
+                  "guid": "",
+                  "dataSourceType": 0,
+                  "belongedPage": "",
+                  "options": {
+                    "content": ""
+                  }
+                }
+              ]
+            }
+          ],
+          "uiOutputLinkList": [
+            {
+              "enable": false,
+              "key": "button.trigger.dataSetOutput",
+              "method": "setButtonOutputData",
+              "source": [
+                {
+                  "id": "531d77e3-0a13-4b91-8034-f69cdf5f5c37",
+                  "name": "dataSetLink",
+                  "guid": "",
+                  "belongedPage": "",
+                  "options": {
+                    "dataSetID": ""
+                  }
+                }
+              ]
+            },
+            {
+              "enable": false,
+              "key": "button.trigger.paramLinkOutput",
+              "method": "setButtonOutputData",
+              "source": [
+                {
+                  "id": "6973f2e4-0546-450a-93c2-7b3517a14439",
+                  "name": "paramLink",
+                  "guid": "",
+                  "belongedPage": "",
+                  "options": {
+                    "paramSelectValue": "",
+                    "paramDefaultValue": ""
+                  }
+                }
+              ]
+            },
+            {
+              "enable": true,
+              "key": "button.trigger.pageJump",
+              "method": "pageJump",
+              "source": []
+            }
+          ],
+          "langKeys": [],
+          "linkList": [
+            {
+              "linkId": 200001,
+              "enable": true,
+              "KSCGUID": "k9307a0dd4bece28dff36e0601fe1ea0",
+              "script": "console.log(\"[D] 点击了提交版本按钮\");\r\n\r\ndebugger;\r\n\r\n\r\nmain();\r\n\r\nasync function main()\r\n{\r\n    const currentData = $Variable.currentSpaceTimeRepo;\r\n    if (Object.keys(currentData).length === 0)\r\n    {\r\n        _showMessage(\"请选择时空仓库\", \"warning\");\r\n        return;\r\n    }\r\n\r\n    if (currentData.guid === $Variable.工程Root时空仓库GUID)\r\n    {\r\n        _showMessage(\"实例根仓库不允许提交\", \"warning\");\r\n        return;\r\n    }\r\n\r\n    const instructionPageName = $Variable.时空仓库版本提交说明页面名称;\r\n    if (instructionPageName.length == 0)\r\n    {\r\n        _showMessage(\"时空仓库版本提交说明页面名称 为空\", \"warning\");\r\n        return\r\n    }\r\n\r\n\r\n    const versionInstruction = await _showInstructionPage(instructionPageName);\r\n    if (!versionInstruction)\r\n    {\r\n        return;\r\n    }\r\n\r\n    $Variable.submitSpaceTimeRepos = {\r\n        spaceTimeRepoGuids: [currentData.guid],\r\n        versionInstruction: versionInstruction,\r\n    };\r\n\r\n\r\n\r\n}\r\n\r\nasync function _showInstructionPage(pageName)\r\n{\r\n    const clientHeight = document.body.clientHeight;\r\n    const clientWidth = document.body.clientWidth;\r\n\r\n    const pageHeight = 250;\r\n    const pageWidth = 550;\r\n\r\n    const pageLeft = (clientWidth - pageWidth) / 2;\r\n    const pageTop = (clientHeight - pageHeight) / 2;\r\n\r\n    const styleOptions = {\r\n        width: pageWidth,\r\n        height: pageHeight,\r\n        left: pageLeft,\r\n        top: pageTop,\r\n        draggable: false,\r\n        header: false,\r\n        // title: pageTitle,\r\n        closable: true,\r\n        resizable: false,\r\n        maximizable: false,\r\n    };\r\n\r\n    const variables = [];\r\n    const options = {\r\n        styleOptions,\r\n        variables,\r\n        stType: 5, // 2：FULLNAME\r\n        spaceTime: $Variable.配置后台时空对象全路径\r\n    };\r\n    return new Promise(resolve =>\r\n    {\r\n        ShowChild(pageName, options, function (transferData)\r\n        {\r\n            console.log(`[D] <实例化框架页面> :: 接收到 <${pageName}> 传递来的公开事件 transferData = `, transferData);\r\n            const { eventName, eventParam } = transferData;\r\n            if (eventName == \"Confirm\")\r\n            {\r\n                resolve(eventParam[0]);\r\n                CloseChild(pageName);\r\n                return;\r\n            }\r\n            if (eventName === \"Cancel\")\r\n            {\r\n                resolve();\r\n                CloseChild(pageName);\r\n                return;\r\n            }\r\n        });\r\n    });\r\n}\r\n\r\nasync function _showSubmitPage(pageName, spaceTimeRepoGuids, versionInstruction)\r\n{\r\n    const clientWidth = document.body.clientWidth;\r\n    const clientHeight = document.body.clientHeight;\r\n\r\n    // let pageHeight = 230 + instanceGuids.length * 38;\r\n    // if (clientHeight < pageHeight)\r\n    // {\r\n    //     pageHeight = clientHeight * 0.8;\r\n    // }\r\n    const pageWidth = clientWidth > 1200 ? 1200 : clientWidth * 0.9;\r\n    const pageHeight = clientHeight > 700 ? 700 : clientHeight * 0.8;\r\n\r\n    const pageLeft = (clientWidth - pageWidth) / 2;\r\n    const pageTop = (clientHeight - pageHeight) / 2;\r\n\r\n    const styleOptions = {\r\n        width: pageWidth,\r\n        height: pageHeight,\r\n        left: pageLeft,\r\n        top: pageTop,\r\n        draggable: false,\r\n        header: false,\r\n        // title: pageTitle,\r\n        closable: true,\r\n        resizable: false,\r\n        maximizable: false,\r\n    };\r\n\r\n    const variables = [\r\n        {\r\n            name: \"spaceTimeRepoGuids\",\r\n            value: spaceTimeRepoGuids\r\n        },\r\n        {\r\n            name: \"versionInstruction\",\r\n            value: versionInstruction\r\n        },\r\n    ];\r\n\r\n    const options = {\r\n        styleOptions,\r\n        variables,\r\n        stType: 5, // 2：FULLNAME\r\n        spaceTime: $Variable.配置后台时空对象全路径\r\n    };\r\n\r\n    return new Promise(resolve =>\r\n    {\r\n        ShowChild(pageName, options, function (transferData)\r\n        {\r\n            console.log(`[D] <实例化框架页面> :: submitInstances :: 接收到 <${pageName}> 传递来的公开事件 transferData = `, transferData);\r\n            const eventName = transferData.eventName;\r\n            if (eventName === \"Confirm\" || eventName === \"Cancel\")\r\n            {\r\n                CloseChild(pageName);\r\n                resolve();\r\n            }\r\n        });\r\n    });\r\n}\r\n\r\nfunction _showMessage(massage, type = \"error\")\r\n{\r\n    const options = {\r\n        message: massage,\r\n        type: type,\r\n        duration: 3000,\r\n        showClose: true,\r\n    };\r\n    ShowMessage(options);\r\n}",
+              "KSCLINKGUID": "k3cddb4f2ce7a7dea3112f191932163f",
+              "linkName": "onClick"
+            }
+          ],
+          "styleOption": {}
+        },
+        "linkList": [
+          {
+            "linkId": 200001,
+            "enable": true,
+            "KSCGUID": "k9307a0dd4bece28dff36e0601fe1ea0",
+            "script": "console.log(\"[D] 点击了提交版本按钮\");\r\n\r\ndebugger;\r\n\r\n\r\nmain();\r\n\r\nasync function main()\r\n{\r\n    const currentData = $Variable.currentSpaceTimeRepo;\r\n    if (Object.keys(currentData).length === 0)\r\n    {\r\n        _showMessage(\"请选择时空仓库\", \"warning\");\r\n        return;\r\n    }\r\n\r\n    if (currentData.guid === $Variable.工程Root时空仓库GUID)\r\n    {\r\n        _showMessage(\"实例根仓库不允许提交\", \"warning\");\r\n        return;\r\n    }\r\n\r\n    const instructionPageName = $Variable.时空仓库版本提交说明页面名称;\r\n    if (instructionPageName.length == 0)\r\n    {\r\n        _showMessage(\"时空仓库版本提交说明页面名称 为空\", \"warning\");\r\n        return\r\n    }\r\n\r\n\r\n    const versionInstruction = await _showInstructionPage(instructionPageName);\r\n    if (!versionInstruction)\r\n    {\r\n        return;\r\n    }\r\n\r\n    $Variable.submitSpaceTimeRepos = {\r\n        spaceTimeRepoGuids: [currentData.guid],\r\n        versionInstruction: versionInstruction,\r\n    };\r\n\r\n\r\n\r\n}\r\n\r\nasync function _showInstructionPage(pageName)\r\n{\r\n    const clientHeight = document.body.clientHeight;\r\n    const clientWidth = document.body.clientWidth;\r\n\r\n    const pageHeight = 250;\r\n    const pageWidth = 550;\r\n\r\n    const pageLeft = (clientWidth - pageWidth) / 2;\r\n    const pageTop = (clientHeight - pageHeight) / 2;\r\n\r\n    const styleOptions = {\r\n        width: pageWidth,\r\n        height: pageHeight,\r\n        left: pageLeft,\r\n        top: pageTop,\r\n        draggable: false,\r\n        header: false,\r\n        // title: pageTitle,\r\n        closable: true,\r\n        resizable: false,\r\n        maximizable: false,\r\n    };\r\n\r\n    const variables = [];\r\n    const options = {\r\n        styleOptions,\r\n        variables,\r\n        stType: 5, // 2：FULLNAME\r\n        spaceTime: $Variable.配置后台时空对象全路径\r\n    };\r\n    return new Promise(resolve =>\r\n    {\r\n        ShowChild(pageName, options, function (transferData)\r\n        {\r\n            console.log(`[D] <实例化框架页面> :: 接收到 <${pageName}> 传递来的公开事件 transferData = `, transferData);\r\n            const { eventName, eventParam } = transferData;\r\n            if (eventName == \"Confirm\")\r\n            {\r\n                resolve(eventParam[0]);\r\n                CloseChild(pageName);\r\n                return;\r\n            }\r\n            if (eventName === \"Cancel\")\r\n            {\r\n                resolve();\r\n                CloseChild(pageName);\r\n                return;\r\n            }\r\n        });\r\n    });\r\n}\r\n\r\nasync function _showSubmitPage(pageName, spaceTimeRepoGuids, versionInstruction)\r\n{\r\n    const clientWidth = document.body.clientWidth;\r\n    const clientHeight = document.body.clientHeight;\r\n\r\n    // let pageHeight = 230 + instanceGuids.length * 38;\r\n    // if (clientHeight < pageHeight)\r\n    // {\r\n    //     pageHeight = clientHeight * 0.8;\r\n    // }\r\n    const pageWidth = clientWidth > 1200 ? 1200 : clientWidth * 0.9;\r\n    const pageHeight = clientHeight > 700 ? 700 : clientHeight * 0.8;\r\n\r\n    const pageLeft = (clientWidth - pageWidth) / 2;\r\n    const pageTop = (clientHeight - pageHeight) / 2;\r\n\r\n    const styleOptions = {\r\n        width: pageWidth,\r\n        height: pageHeight,\r\n        left: pageLeft,\r\n        top: pageTop,\r\n        draggable: false,\r\n        header: false,\r\n        // title: pageTitle,\r\n        closable: true,\r\n        resizable: false,\r\n        maximizable: false,\r\n    };\r\n\r\n    const variables = [\r\n        {\r\n            name: \"spaceTimeRepoGuids\",\r\n            value: spaceTimeRepoGuids\r\n        },\r\n        {\r\n            name: \"versionInstruction\",\r\n            value: versionInstruction\r\n        },\r\n    ];\r\n\r\n    const options = {\r\n        styleOptions,\r\n        variables,\r\n        stType: 5, // 2：FULLNAME\r\n        spaceTime: $Variable.配置后台时空对象全路径\r\n    };\r\n\r\n    return new Promise(resolve =>\r\n    {\r\n        ShowChild(pageName, options, function (transferData)\r\n        {\r\n            console.log(`[D] <实例化框架页面> :: submitInstances :: 接收到 <${pageName}> 传递来的公开事件 transferData = `, transferData);\r\n            const eventName = transferData.eventName;\r\n            if (eventName === \"Confirm\" || eventName === \"Cancel\")\r\n            {\r\n                CloseChild(pageName);\r\n                resolve();\r\n            }\r\n        });\r\n    });\r\n}\r\n\r\nfunction _showMessage(massage, type = \"error\")\r\n{\r\n    const options = {\r\n        message: massage,\r\n        type: type,\r\n        duration: 3000,\r\n        showClose: true,\r\n    };\r\n    ShowMessage(options);\r\n}",
+            "KSCLINKGUID": "k3cddb4f2ce7a7dea3112f191932163f",
+            "linkName": "onClick"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kd0826aaef1604479f59b70fa259147e",
+      "cls": "el-tooltip component_object moreOperation_ElementDropdown1",
+      "text": "",
+      "rect": {
+        "x": 556,
+        "y": 87.5,
+        "w": 20,
+        "h": 18
+      },
+      "vue": {
+        "keys": [
+          "_uid",
+          "_isVue",
+          "__v_skip",
+          "_scope",
+          "$options",
+          "_renderProxy",
+          "_self",
+          "$parent",
+          "$root",
+          "$children",
+          "$refs",
+          "_provided",
+          "_watcher",
+          "_inactive",
+          "_directInactive",
+          "_isMounted",
+          "_isDestroyed",
+          "_isBeingDestroyed",
+          "_events",
+          "_hasHookEvent",
+          "_vnode",
+          "_staticTrees",
+          "$vnode",
+          "$slots",
+          "$scopedSlots",
+          "_c",
+          "$createElement",
+          "$attrs",
+          "$listeners",
+          "_i18n",
+          "$store",
+          "popperVM",
+          "debounceClose",
+          "_props",
+          "createPopper",
+          "updatePopper",
+          "doDestroy",
+          "destroyPopper",
+          "resetTransformOrigin",
+          "appendArrow",
+          "show",
+          "hide",
+          "handleFocus",
+          "handleBlur",
+          "removeFocusing",
+          "addTooltipClass",
+          "handleShowPopper",
+          "handleClosePopper",
+          "setExpectedState",
+          "getFirstElement",
+          "_data",
+          "currentPlacement",
+          "showPopper",
+          "focusing",
+          "timeoutPending",
+          "tooltipId",
+          "$el",
+          "_subscribing",
+          "referenceElm"
+        ],
+        "dataKeys": [
+          "tooltipId",
+          "timeoutPending",
+          "focusing",
+          "showPopper",
+          "currentPlacement"
+        ],
+        "props": [
+          "transformOrigin",
+          "placement",
+          "boundariesPadding",
+          "reference",
+          "popper",
+          "offset",
+          "value",
+          "visibleArrow",
+          "arrowOffset",
+          "appendToBody",
+          "popperOptions",
+          "openDelay",
+          "disabled",
+          "manual",
+          "effect",
+          "popperClass",
+          "content",
+          "transition",
+          "enterable",
+          "hideAfter",
+          "tabindex"
+        ]
+      }
+    }
+  ]
+}

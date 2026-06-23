@@ -1,0 +1,26 @@
+[
+  {
+    "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/4310",
+    "status": 200,
+    "contentType": "application/json; charset=utf-8",
+    "text": "{\"header\":{\"commandID\": 459072, \"requestID\":0, \"cloudID\":0, \"userType\":2, \"packetType\":2, \"transactionID\": \"0\", \"clientID\":3758096385, \"serviceType\":0, \"traceID\": \"0\"}, \"data\":{\"ret\": -180999}}"
+  },
+  {
+    "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/4310",
+    "status": 400,
+    "contentType": "application/json; charset=utf-8",
+    "text": "{\"ret\": 0}"
+  },
+  {
+    "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/4310/index.html",
+    "status": 200,
+    "contentType": "application/json; charset=utf-8",
+    "text": "{\"header\":{\"commandID\": 459072, \"requestID\":0, \"cloudID\":0, \"userType\":2, \"packetType\":2, \"transactionID\": \"0\", \"clientID\":3758096387, \"serviceType\":0, \"traceID\": \"5188934307856456704\"}, \"data\":{\"ret\": 536903681}}"
+  },
+  {
+    "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/4310.json",
+    "status": 200,
+    "contentType": "application/json; charset=utf-8",
+    "text": "{\"header\":{\"commandID\": 459072, \"requestID\":0, \"cloudID\":0, \"userType\":2, \"packetType\":2, \"transactionID\": \"0\", \"clientID\":3758096386, \"serviceType\":0, \"traceID\": \"0\"}, \"data\":{\"ret\": -180999}}"
+  }
+]

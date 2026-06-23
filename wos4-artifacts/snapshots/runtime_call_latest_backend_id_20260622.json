@@ -1,0 +1,36 @@
+{
+  "tests": [
+    {
+      "label": "customfunc-latest-id-string-param",
+      "res": {
+        "ret": -210139,
+        "consumeTime": 30
+      },
+      "ms": 31
+    },
+    {
+      "label": "customfunc-latest-id-no-param",
+      "res": {
+        "ret": -210139,
+        "consumeTime": 26
+      },
+      "ms": 27
+    },
+    {
+      "label": "customfunc-latest-name-string-param",
+      "res": {
+        "ret": -210133,
+        "consumeTime": 27
+      },
+      "ms": 28
+    },
+    {
+      "label": "model-name-latest-id-string-param",
+      "res": {
+        "ret": -210139,
+        "consumeTime": 26
+      },
+      "ms": 26
+    }
+  ]
+}

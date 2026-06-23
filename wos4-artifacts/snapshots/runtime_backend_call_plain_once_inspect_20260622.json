@@ -1,0 +1,28 @@
+{
+  "path": "top.0",
+  "resultInspect": {
+    "type": "object",
+    "string": "TypeError: t._containsKey is not a function",
+    "own": [
+      "stack",
+      "message"
+    ],
+    "proto": [
+      "constructor",
+      "name",
+      "message"
+    ],
+    "keys": [],
+    "json": {}
+  },
+  "outputInspect": {
+    "type": "undefined",
+    "string": "undefined",
+    "own": [],
+    "proto": [],
+    "keys": [],
+    "ownErr": "TypeError: Cannot convert undefined or null to object",
+    "keysErr": "TypeError: Cannot convert undefined or null to object",
+    "jsonErr": "SyntaxError: \"undefined\" is not valid JSON"
+  }
+}

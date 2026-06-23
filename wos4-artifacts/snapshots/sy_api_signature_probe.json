@@ -1,0 +1,965 @@
+{
+  "at": "2026-06-12T04:43:42.625Z",
+  "log": [
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:31.919Z",
+      "url": "http://221.239.19.118:13001/api/v1/wellinos/loginsvcuserbyrole"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:31.961Z",
+      "url": "http://221.239.19.118:13001/api/v1/wellinos/loginsvcuserbyrole",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:31.965Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:32.007Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:32.522Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:32.522Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:32.522Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:32.630Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:32.631Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:32.657Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:32.672Z",
+      "url": "http://221.239.19.118:13001/api/v1/Update"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:32.672Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:32.706Z",
+      "url": "http://221.239.19.118:13001/api/v1/Update",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:32.706Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:33.067Z",
+      "url": "http://221.239.19.118:13001/public/?id=6192730962611142710&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:33.098Z",
+      "url": "http://221.239.19.118:13001/public/?id=6192730962611142710&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:33.101Z",
+      "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:33.101Z",
+      "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:33.101Z",
+      "url": "http://221.239.19.118:13001/public/config.json"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:33.168Z",
+      "url": "http://221.239.19.118:13001/public/config.json",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:33.168Z",
+      "url": "http://221.239.19.118:13001/public/assets/index-c248d495.css",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:33.513Z",
+      "url": "http://221.239.19.118:13001/public/assets/index-87d8f399.js",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:33.516Z",
+      "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:33.536Z",
+      "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:33.537Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:33.550Z",
+      "url": "http://221.239.19.118:13001/public/assets/subScribePoll-b9cee9b0.js",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:33.567Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:33.573Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:33.579Z",
+      "url": "http://221.239.19.118:13001/public/assets/heartbeat-6bc5e913.js",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:33.631Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:33.634Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/config.js"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:33.635Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/debugger.js"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:33.635Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/runtime.beta.2026.05.14.15.js"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:33.635Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:33.635Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/index.26325ec0.css"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:33.711Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/config.js",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:33.711Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/debugger.js",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:33.724Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/index.26325ec0.css",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:33.804Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/runtime.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:34.652Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:34.874Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:34.920Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:34.923Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:34.923Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:34.986Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:34.986Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:34.993Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:35.036Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:35.037Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:35.076Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:35.083Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/62936.beta.2026.05.14.15.js"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:35.083Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/69225.beta.2026.05.14.15.js"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:35.083Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-run.24e1aadb.css"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:35.083Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:35.084Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:35.129Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-run.24e1aadb.css",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:35.129Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:35.291Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-run.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:35.406Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/62936.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:35.496Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/69225.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:35.774Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/fonts/element-icons.ff18efd1.woff"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:35.780Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:35.836Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:35.930Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/fonts/element-icons.ff18efd1.woff",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:36.179Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:36.214Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:36.215Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:36.249Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:36.253Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-view-App.109a4cde.css"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:36.253Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-view-App.beta.2026.05.14.15.js"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:36.254Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:36.285Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/page-view-App.109a4cde.css",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:36.290Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/page-view-App.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:36.291Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/65181.026e4f9f.css"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:36.291Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/65181.beta.2026.05.14.15.js"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:36.297Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:36.329Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/css/65181.026e4f9f.css",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:36.329Z",
+      "url": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/65181.beta.2026.05.14.15.js",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:36.452Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:36.490Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:36.493Z",
+      "url": "http://221.239.19.118:13001/public/assets/index-53e0c0ac.js"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:36.553Z",
+      "url": "http://221.239.19.118:13001/public/assets/index-53e0c0ac.js",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:36.553Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:36.588Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:36.590Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:36.630Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:36.631Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:36.663Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:36.664Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:36.701Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:36.702Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:36.738Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:36.740Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:36.776Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:36.777Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:36.817Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:38.673Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:38.707Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:38.894Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:38.944Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:38.945Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:38.977Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:38.979Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:38.979Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:38.984Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:39.012Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:39.023Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:39.024Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:39.076Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:39.078Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:39.228Z",
+      "url": "http://221.239.19.118:13001/api/v1/queryResource?fuid=0&userType=2&serviceType=1&modelGuid=1c9746d4-146b-497a-afc0-8362367782d3&version=7&fileID=63"
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:39.229Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:39.265Z",
+      "url": "http://221.239.19.118:13001/api/v1/queryResource?fuid=0&userType=2&serviceType=1&modelGuid=1c9746d4-146b-497a-afc0-8362367782d3&version=7&fileID=63",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:39.265Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:39.398Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:39.433Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:39.440Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:39.478Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:39.486Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:39.536Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:39.770Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:39.810Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:41.677Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:41.837Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:42.294Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:42.345Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:42.346Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:42.391Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:42.391Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:42.458Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:42.458Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:42.492Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "at": "2026-06-12T04:43:42.492Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query"
+    },
+    {
+      "type": "response",
+      "at": "2026-06-12T04:43:42.550Z",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "status": 200
+    }
+  ],
+  "result": {
+    "keys": [
+      "GetFuModelPropertyByGuidVersions",
+      "GetFuModelPropertyByGuidVersion",
+      "GetFuCopyPropertyByGUIDs",
+      "GetFuCopyPropertyByIDs",
+      "GetInRepositoryByGUIDs",
+      "GetInRepositoryByIDs",
+      "GetFileListByFuModel",
+      "GetFuModelFileData",
+      "GetFileListByFolderId",
+      "GetFuModelPropertyByIdVersion",
+      "GetFuModelVersionList",
+      "GetCopyInRepoByModelInfo",
+      "GetFuModelVersionListByGUIDS",
+      "GetMDBIdByGUID",
+      "GetRepositoryInfoByGuiDs",
+      "GetFuModelsInfo",
+      "GetFuCopyPropertyByGuiDs",
+      "GetRepositoryList",
+      "GetObjectDataBySpaceTime",
+      "GetSpaceListById",
+      "GetInRepositoryByFullNames",
+      "GetDataCopyPropertyByGuiDs",
+      "QueryTemporalData",
+      "getPropertyByObjectIds",
+      "queryDataByRecordId",
+      "getPropertyByCopyId",
+      "GetModelDBSpaceListById",
+      "GetChildSpaceTimeListInMDB",
+      "getidByGUID",
+      "getMemberListByModelGuid",
+      "getObjectPropByName",
+      "CreateFuModelFile",
+      "CreateFuModelMemberList",
+      "CreateFuModel",
+      "CopyFuCopy",
+      "CreateFuCopy",
+      "CreateRepository",
+      "CreateFuModelVersion",
+      "StartFuByCopy",
+      "AsyncImportFuCopyToEngine",
+      "AsyncImportFuModelToEngine",
+      "CreateFuCopyByModelGuid",
+      "CreateFuCopyByFieldValues",
+      "ModifyFuCopyMemberList",
+      "ModifyFuModelMemberList",
+      "UpdateFuIconInfo",
+      "UpdateFuModelFileData",
+      "UpdateFuCopyMemberList",
+      "UpdateFuCopyRepository",
+      "UpdateModelDBObject",
+      "UpdateFuCopyRepositoryList",
+      "DeleteFuModelMemberList",
+      "DeleteFileListByFuModel",
+      "DeleteCopyByIds",
+      "DeleteRepositoryByGuiDs",
+      "DeleteMDBObjectByGuids",
+      "DeleteFuModelHistoryVersion",
+      "SubscribeFu",
+      "GetStudioSameNameRepId",
+      "imgQueryResource",
+      "imgQueryResourceUrl",
+      "UpdateSpriteVersion",
+      "UpdateFuModelRepository",
+      "RealtimeSubscribeTSThingRecord",
+      "RealtimeUnSubscribeTSThingRecord",
+      "createResources",
+      "updateResource",
+      "queryResourceData",
+      "queryResourceDataById",
+      "deleteHisPlanResourceObj",
+      "GetRealTimeObjectMemberList",
+      "GetRealTimeObjectRecord",
+      "GetRealTimeObjectRecordByRecordIds",
+      "GetSelectRealTimeObjectRecords",
+      "AddRealTimeObjectRecord",
+      "ModifyRealTimeObjectRecord",
+      "DeleteRealTimeObjectRecord",
+      "SubscribeRealTimeObjectRecord",
+      "UnSubscribeRealTimeObjectRecord",
+      "GetInSpaceTimeRepoByIDs",
+      "GetInSpaceTimeRepoByGuids",
+      "GetRealTimeObjectById",
+      "GetTSEntityCopyProperty",
+      "GetMTSEntityCopyProperty",
+      "GetEntityCopyProperty",
+      "createVideoObject",
+      "queryVideoObject",
+      "queryVideoObjectById",
+      "startPlay",
+      "stopPlay",
+      "setCameraAngle",
+      "GetSpaceTimeId",
+      "getDataByRepositoryId",
+      "GetRealtimeSpaceListById",
+      "QueryMixHistoryAllRecords",
+      "QueryMixHistoryIntervalRecords",
+      "QueryMixHistoryTrendRecords",
+      "GetHistoryObjectByIds",
+      "GetSpaceTimeRepBySpaceTimeGuid",
+      "GetSpaceTimeRepBySpaceTimeNames",
+      "GetSpaceTimeRepoByFullName",
+      "GetAllObjectByModel",
+      "AddHisPlanObjectRecord",
+      "ModifyHisPlanObjectRecord",
+      "DeleteHisPlanObjectRecord",
+      "GetHisPlanObjectRecord",
+      "GetSelectHisPlanObjectRecords",
+      "QueryPropertyByGuid",
+      "QueryDataObjRecordsJoin",
+      "CreateFuModelWebJs",
+      "CreateFuModelMemberListWebJs",
+      "CreateRepositoryWebJs",
+      "CreateFuModelFileWebJs",
+      "CreateFuCopyByModelGuidWebJs",
+      "UpdateFuCopyRepositoryWebJs",
+      "GetLoginUser",
+      "QueryModelDBIdByGUID",
+      "getFuCopyProperty",
+      "getMdbRepositoryInfo",
+      "GetFileListByFuModelByGuidVersion",
+      "GetFuModelFileDataByGuidVersion",
+      "StopFUByID",
+      "GetModelPropertyByGuidVersion",
+      "GetObjectDataBySpaceTimeGUID"
+    ],
+    "fn": {
+      "CreateFuModelMemberListWebJs": "async function dt(e){const t=new StringMap({modelType:a.z8.TYPE_FUNCTIONUNITMODEL,createmode:1,identifierType:1,modelId:e.id,version:e.version,datafields:[\"$valuetype\",\"$name\",\"$value\",\"$description\"],datavalues:e.members.map((e=>[new Variant(e.type),new Variant(e.name),new Variant(e.value),new Variant(e.description)]))}),n=new StringMap({type:a.z8.TYPE_NONESENSITIVEMEMBER,areaid:s.GetAreaId(e),transactionID:e.transactionId||0}),i=await window.Create(n,t);return i}",
+      "CreateFuModelMemberList": "async function b(e){const t={keyValueList:[{key:\"modelType\",value:{int32Value:a.z8.TYPE_FUNCTIONUNITMODEL}},{key:\"createmode\",value:{int32Value:1}},{key:\"identifierType\",value:{int32Value:1}},{key:\"modelId\",value:{uint64Value:e.id}},{key:\"version\",value:{int32Value:e.version}},{key:\"datafields\",value:{stringArrayValue:{stringArray:[\"$valuetype\",\"$name\",\"$value\",\"$description\"]}}},{key:\"datavalues\",value:{valueArray2DValue:{arrays:e.members.map((e=>({values:[{int32Value:e.type},{stringValue:e.name},{stringValue:e.value},{stringValue:e.description}]})))}}}]},n={keyValueList:[{key:\"type\",value:{int32Value:a.z8.TYPE_NONESENSITIVEMEMBER}},{key:\"areaid\",value:{int32Value:s.GetAreaId(e)}}]},i=await window.KGSInterFace.Create(n,t);return i}",
+      "GetModelPropertyByGuidVersion": "async function kt(e){const t={keyValueList:[{key:\"kind\",value:{int32ArrayValue:{int32Array:[2]}}},{key:\"identifierType\",value:{int32Value:5}},{key:\"guids\",value:{stringArrayValue:{stringArray:[e.guid]}}},{key:\"versions\",value:{int32ArrayValue:{int32Array:[e.version]}}},{key:\"returnFields\",value:{stringArrayValue:{stringArray:e.fields}}},{key:\"querymode\",value:{int32Value:1}},{key:\"returnMode\",value:{int32Value:1}}]},n={keyValueList:[{key:\"areaid\",value:{int32Value:s.GetAreaId(e)}},{key:\"type\",value:{int32Value:e.type}}]},i=await window.KGSInterFace.Query(n,t),a=(0,r.RH)(i);return a}",
+      "getMemberListByModelGuid": "async function Rt(e,t){const n=(0,r.YP)({type:t},{type:\"int32Value\"}),i=(0,r.YP)({identifierType:5,guids:[e],versions:[0],returnFields:[\"$id\",\"$name\",\"$memberlist\"],querymode:1,returnMode:1},{identifierType:\"int32Value\",querymode:\"int32Value\",returnMode:\"int32Value\",guids:\"stringArrayValue\",versions:\"int32ArrayValue\",returnFields:\"stringArrayValue\"}),a=await window.KGSInterFace.Query(n,i);if(0!==a.ret)return a;const o=(0,r.RH)(a);return o}",
+      "QueryModelDBIdByGUID": "async function Tt(e,t){const n={keyValueList:[{key:\"type\",value:{int32Value:e}}]};let i={keyValueList:[{key:\"cmdcode\",value:{int32Value:2}},{key:\"guid\",value:{stringArrayValue:{stringArray:t}}}]};const r=await window.KGSInterFace.Query(n,i);if(0!==r.ret)return r;const a=r.output.keyValueList.find((e=>\"id\"===e.key)),o=a.value.uint64ArrayValue.uint64Array;return{ret:r.ret,list:o}}",
+      "GetModelDBSpaceListById": "async function St(e){const t=(0,r.YP)({type:1004},{type:\"int32Value\"}),n=(0,r.YP)({mode:12,returnmode:1,returnfields:[\"$id\",\"$guid\",\"$name\",\"$deploysystems\",\"$deployarea\"],spacetimeidentifiertype:5,spacetimeguids:e},{returnmode:\"int32Value\",returnfields:\"stringArrayValue\",ids:\"uint64ArrayValue\",fullnames:\"stringArrayValue\",aliases:\"stringArrayValue\",spacetimeguids:\"stringArrayValue\",mode:\"int32Value\",spacetimeidentifiertype:\"int32Value\",querymode:\"int32Value\",names:\"stringArrayValue\"}),i=await window.KGSInterFace.Query(t,n);if(0!==i.ret&&-210098!==i.ret)return i;const a=(0,r.RH)(i);let o=[];for(const r of i.output.keyValueList)\"errorcodes\"===r.key&&(o=r.value.int32ArrayValue.int32Array);const s={21:\"yuan\",22:\"web\",2:\"real\",3:\"history\",4:\"plan\"};if(a.list.length>0){const e=a.list.map((e=>{const t={};for(const n of Object.keys(e))if(\"$deploysystems\"===n)e[n].forEach(((n,i)=>{t[s[n]+\"Area\"]=e[\"$deployarea\"][i]}));else{if(\"$deployarea\"===n)continue;t[n.replace(\"$\",\"\")]=e[n]}return t}));a.list=e,a.errorCode=o}return a}"
+    },
+    "calls": [
+      {
+        "label": "QueryModelDBIdByGUID [1009,[\"90a60f87-961b-474d-8aec-6dc7e89dcae3\"]]",
+        "ok": true,
+        "result": {
+          "ret": -19667,
+          "output": {
+            "keyValueList": [
+              {
+                "key": "errorcodes",
+                "value": {
+                  "int32ArrayValue": {
+                    "int32Array": []
+                  }
+                }
+              },
+              {
+                "key": "ret",
+                "value": {
+                  "int32Value": -19667
+                }
+              },
+              {
+                "key": "returndata",
+                "value": {
+                  "dataSet": {
+                    "fieldNames": [],
+                    "fieldValues": []
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "label": "QueryModelDBIdByGUID {\"type\":1009,\"guids\":[\"90a60f87-961b-474d-8aec-6dc7e89dcae3\"]}",
+        "ok": false,
+        "error": "Cannot read properties of undefined (reading 'getItem')",
+        "stack": "TypeError: Cannot read properties of undefined (reading 'getItem')\n    at dp (http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js:9:1574642)\n    at Ep (http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js:9:1575171)\n    at r.<computed> [as Query] (http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js:26:6471)\n    at Object.Tt [as QueryModelDBIdByGUID] (http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js:9:1039325)\n    at eval (eval at evaluate (:302:30), <anonymous>:4:229)\n    at call ("
+      },
+      {
+        "label": "QueryModelDBIdByGUID {\"guid\":\"90a60f87-961b-474d-8aec-6dc7e89dcae3\",\"type\":1009}",
+        "ok": false,
+        "error": "Cannot read properties of undefined (reading 'getItem')",
+        "stack": "TypeError: Cannot read properties of undefined (reading 'getItem')\n    at dp (http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js:9:1574642)\n    at Ep (http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js:9:1575171)\n    at r.<computed> [as Query] (http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js:26:6471)\n    at Object.Tt [as QueryModelDBIdByGUID] (http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js:9:1039325)\n    at eval (eval at evaluate (:302:30), <anonymous>:4:229)\n    at call ("
+      },
+      {
+        "label": "QueryModelDBIdByGUID [\"90a60f87-961b-474d-8aec-6dc7e89dcae3\",1009]",
+        "ok": false,
+        "error": "Cannot read properties of undefined (reading 'getItem')",
+        "stack": "TypeError: Cannot read properties of undefined (reading 'getItem')\n    at dp (http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js:9:1574642)\n    at Ep (http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js:9:1575171)\n    at r.<computed> [as Query] (http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js:26:6471)\n    at Object.Tt [as QueryModelDBIdByGUID] (http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/js/index.beta.2026.05.14.15.js:9:1039325)\n    at eval (eval at evaluate (:302:30), <anonymous>:4:195)\n    at call ("
+      },
+      {
+        "label": "GetModelPropertyByGuidVersion {\"guid\":\"90a60f87-961b-474d-8aec-6dc7e89dcae3\",\"version\":0,\"type\":1009}",
+        "ok": true,
+        "result": {
+          "ret": -10002,
+          "list": []
+        }
+      },
+      {
+        "label": "GetModelPropertyByGuidVersion {\"guid\":\"90a60f87-961b-474d-8aec-6dc7e89dcae3\",\"version\":-1,\"type\":1009}",
+        "ok": true,
+        "result": {
+          "ret": -10002,
+          "list": []
+        }
+      },
+      {
+        "label": "GetModelPropertyByGuidVersion {\"guids\":[\"90a60f87-961b-474d-8aec-6dc7e89dcae3\"],\"versions\":[-1],\"type\":1009}",
+        "ok": true,
+        "result": {
+          "ret": -10002,
+          "list": []
+        }
+      },
+      {
+        "label": "GetModelPropertyByGuidVersion {\"id\":\"288230376151738029\",\"version\":\"1\",\"type\":1009}",
+        "ok": true,
+        "result": {
+          "ret": -10002,
+          "list": []
+        }
+      }
+    ]
+  },
+  "screenshot": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\screenshots\\sy_api_signature_probe.png"
+}

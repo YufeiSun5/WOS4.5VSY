@@ -1,0 +1,697 @@
+{
+  "result22001": {
+    "status": 200,
+    "body": {
+      "header": {
+        "cloudID": 107,
+        "commandID": 516,
+        "serviceType": 22,
+        "clientID": 0,
+        "usertype": 2,
+        "desDataAreaID": 0,
+        "transactionID": "0",
+        "fuid": "0",
+        "dataType": 22001,
+        "clientNumber": "7710165598192543459"
+      },
+      "data": {
+        "param": {
+          "keyValueList": [
+            {
+              "key": "cloudid",
+              "value": {
+                "int32Value": 107
+              }
+            },
+            {
+              "key": "areaid",
+              "value": {
+                "int32Value": 0
+              }
+            },
+            {
+              "key": "type",
+              "value": {
+                "int32Value": 22001
+              }
+            }
+          ]
+        },
+        "input": {
+          "keyValueList": [
+            {
+              "key": "appspacetimeguid",
+              "value": {
+                "stringValue": ""
+              }
+            },
+            {
+              "key": "mode",
+              "value": {
+                "int32Value": 1
+              }
+            },
+            {
+              "key": "identifierType",
+              "value": {
+                "int32Value": 1
+              }
+            },
+            {
+              "key": "ids",
+              "value": {
+                "uint64ArrayValue": {
+                  "uint64Array": [
+                    "6192730962611142975",
+                    "6192730962611143001"
+                  ]
+                }
+              }
+            },
+            {
+              "key": "returnfields",
+              "value": {
+                "stringArrayValue": {
+                  "stringArray": [
+                    "$guid",
+                    "$id",
+                    "$name",
+                    "$type",
+                    "$version",
+                    "$modelguid",
+                    "$modelversion",
+                    "$repositoryguid",
+                    "$runstatus",
+                    "FUType",
+                    "isRecycled",
+                    "modelDBRepository",
+                    "quotedType",
+                    "toFather",
+                    "authFlag",
+                    "spaceTime",
+                    "maxVersion",
+                    "multiEditor",
+                    "extendField1",
+                    "extendField2",
+                    "extendField3",
+                    "extendField4",
+                    "extendField5",
+                    "extendField6",
+                    "extendField7",
+                    "extendField8",
+                    "extendField9",
+                    "extendField10",
+                    "isHasChild",
+                    "jsonFileId",
+                    "imageFolderId",
+                    "AUTHORITY__????",
+                    "PUBVAR__??????",
+                    "PUBVAR__spacetimeGUID",
+                    "PUBVAR__APP_NAME"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "response": {
+      "data": {
+        "output": {
+          "keyValueList": [
+            {
+              "key": "errorcodes",
+              "value": {
+                "int32ArrayValue": {
+                  "int32Array": [
+                    536903688,
+                    536903688
+                  ]
+                }
+              }
+            },
+            {
+              "key": "ret",
+              "value": {
+                "int32Value": 0
+              }
+            },
+            {
+              "key": "returndata",
+              "value": {
+                "dataSet": {
+                  "fieldNames": [],
+                  "fieldValues": []
+                }
+              }
+            }
+          ]
+        }
+      },
+      "header": {
+        "commandID": 516,
+        "requestID": 268941875,
+        "cloudID": 0,
+        "userType": 2,
+        "packetType": 2,
+        "transactionID": "0",
+        "clientID": 0,
+        "serviceType": 22,
+        "traceID": "5189016393149531136",
+        "fuid": "0"
+      }
+    }
+  },
+  "result21001": {
+    "status": 200,
+    "body": {
+      "header": {
+        "cloudID": 107,
+        "commandID": 516,
+        "serviceType": 21,
+        "clientID": 0,
+        "usertype": 2,
+        "desDataAreaID": 0,
+        "transactionID": "0",
+        "fuid": "0",
+        "dataType": 21001,
+        "clientNumber": "7710165598192543459"
+      },
+      "data": {
+        "param": {
+          "keyValueList": [
+            {
+              "key": "cloudid",
+              "value": {
+                "int32Value": 107
+              }
+            },
+            {
+              "key": "areaid",
+              "value": {
+                "int32Value": 0
+              }
+            },
+            {
+              "key": "type",
+              "value": {
+                "int32Value": 21001
+              }
+            }
+          ]
+        },
+        "input": {
+          "keyValueList": [
+            {
+              "key": "appspacetimeguid",
+              "value": {
+                "stringValue": ""
+              }
+            },
+            {
+              "key": "mode",
+              "value": {
+                "int32Value": 1
+              }
+            },
+            {
+              "key": "identifierType",
+              "value": {
+                "int32Value": 1
+              }
+            },
+            {
+              "key": "ids",
+              "value": {
+                "uint64ArrayValue": {
+                  "uint64Array": [
+                    "5911255985900486740",
+                    "5911255985900486895",
+                    "5911255985900486904"
+                  ]
+                }
+              }
+            },
+            {
+              "key": "returnfields",
+              "value": {
+                "stringArrayValue": {
+                  "stringArray": [
+                    "$guid",
+                    "$id",
+                    "$name",
+                    "$type",
+                    "$version",
+                    "$modelguid",
+                    "$modelversion",
+                    "$repositoryguid",
+                    "$runstatus",
+                    "FUType",
+                    "isRecycled",
+                    "modelDBRepository",
+                    "quotedType",
+                    "toFather",
+                    "authFlag",
+                    "spaceTime",
+                    "maxVersion",
+                    "multiEditor",
+                    "extendField1",
+                    "extendField2",
+                    "extendField3",
+                    "extendField4",
+                    "extendField5",
+                    "extendField6",
+                    "extendField7",
+                    "extendField8",
+                    "extendField9",
+                    "extendField10",
+                    "isHasChild",
+                    "jsonFileId",
+                    "imageFolderId",
+                    "AUTHORITY__????",
+                    "PUBVAR__??????",
+                    "PUBVAR__spacetimeGUID",
+                    "PUBVAR__APP_NAME"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "response": {
+      "data": {
+        "output": {
+          "keyValueList": [
+            {
+              "key": "errorcodes",
+              "value": {
+                "int32ArrayValue": {
+                  "int32Array": [
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              }
+            },
+            {
+              "key": "ret",
+              "value": {
+                "int32Value": 0
+              }
+            },
+            {
+              "key": "returndata",
+              "value": {
+                "dataSet": {
+                  "fieldNames": [
+                    "$guid",
+                    "$id",
+                    "$name",
+                    "$type",
+                    "$version",
+                    "$modelguid",
+                    "$modelversion",
+                    "$repositoryguid",
+                    "$runstatus",
+                    "FUType",
+                    "isRecycled",
+                    "modelDBRepository",
+                    "quotedType",
+                    "toFather",
+                    "authFlag",
+                    "spaceTime",
+                    "maxVersion",
+                    "multiEditor",
+                    "extendField1",
+                    "extendField2",
+                    "extendField3",
+                    "extendField4",
+                    "extendField5",
+                    "extendField6",
+                    "extendField7",
+                    "extendField8",
+                    "extendField9",
+                    "extendField10",
+                    "isHasChild",
+                    "jsonFileId",
+                    "imageFolderId",
+                    "AUTHORITY__????",
+                    "PUBVAR__??????",
+                    "PUBVAR__spacetimeGUID",
+                    "PUBVAR__APP_NAME"
+                  ],
+                  "fieldValues": [
+                    {
+                      "values": [
+                        {
+                          "stringValue": "a63a00e0-05bd-4300-b0bc-b2fe76f938d6"
+                        },
+                        {
+                          "uint64Value": "5911255985900486740"
+                        },
+                        {
+                          "stringValue": "Codex临时测试_前端视图_0611"
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "stringValue": "4cdf8aaa-dcff-45ed-a061-ba1bd711673b"
+                        },
+                        {
+                          "int32Value": 22
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "int32Value": 2
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        }
+                      ]
+                    },
+                    {
+                      "values": [
+                        {
+                          "stringValue": "8f82e24a-ab8a-4161-94e6-0b30cf79222c"
+                        },
+                        {
+                          "uint64Value": "5911255985900486895"
+                        },
+                        {
+                          "stringValue": "盛云_孙宇飞_TraceDemo_0617"
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "stringValue": "0eb5ff6c-93d1-481f-96a4-1c8be6646531"
+                        },
+                        {
+                          "int32Value": 2
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "int32Value": 2
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        }
+                      ]
+                    },
+                    {
+                      "values": [
+                        {
+                          "stringValue": "1a6f5f08-af02-4d85-b1df-72f0dd02b62f"
+                        },
+                        {
+                          "uint64Value": "5911255985900486904"
+                        },
+                        {
+                          "stringValue": "盛云_孙宇飞_QueryDemo_0617"
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "stringValue": "0eb5ff6c-93d1-481f-96a4-1c8be6646531"
+                        },
+                        {
+                          "int32Value": 3
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "int32Value": 2
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        },
+                        {
+                          "invalidValue": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      "header": {
+        "commandID": 516,
+        "requestID": 268941876,
+        "cloudID": 0,
+        "userType": 2,
+        "packetType": 2,
+        "transactionID": "0",
+        "clientID": 0,
+        "serviceType": 21,
+        "traceID": "5189016436528579584",
+        "fuid": "0"
+      }
+    }
+  },
+  "captured_at": "2026-06-18 09:11:43"
+}

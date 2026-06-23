@@ -1,0 +1,22 @@
+{
+  "task": "repo_package_dialog_search_desc",
+  "tool": "browser-harness",
+  "module": "时空功能开发",
+  "dialog": "仓库数据包管理",
+  "verifiedAt": "2026-06-17T11:52:52+08:00",
+  "search": {
+    "field": "描述",
+    "value": "meta-language-demo-0617-package-1",
+    "note": "包管理弹窗自己的筛选输入框位于 y≈205；y≈72 的名称搜索框属于主仓库列表，不属于仓库包表格。"
+  },
+  "row": {
+    "name": "盛云_孙宇飞_仓库",
+    "description": "meta-language-demo-0617-package-1",
+    "guid": "ad547dd3-dede-4192-9efd-638377876e8c",
+    "submitTime": "2026-06-17 11:52:52",
+    "version": "1",
+    "operation": "删除"
+  },
+  "result": "verified",
+  "screenshot": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\screenshots\\repo_package_dialog_search_desc.png"
+}

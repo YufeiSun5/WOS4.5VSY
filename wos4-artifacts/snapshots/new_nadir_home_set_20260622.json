@@ -1,0 +1,368 @@
+{
+  "ok": true,
+  "rows": [
+    {
+      "i": 0,
+      "cls": "",
+      "text": "首页\t画面名称\t描述\t操作"
+    },
+    {
+      "i": 1,
+      "cls": "el-table__row expanded",
+      "text": "查询列表\n\n添加画面\n\n\t\nCRUD front page 06查询列表20\n\t\n编辑属性更新删除"
+    },
+    {
+      "i": 2,
+      "cls": "",
+      "text": "名称GUID状态详情"
+    },
+    {
+      "i": 3,
+      "cls": "el-table__row expanded el-table__row--level-0",
+      "text": "1NadirL24fa17a11-b923-4b36-b1e8-c39ca1bcf62c100%提交成功"
+    },
+    {
+      "i": 4,
+      "cls": "el-table__row el-table__row--level-1",
+      "text": "2NadirBack276cb189-67c5-47d1-94be-7e76f5f5af4e100%提交成功"
+    },
+    {
+      "i": 5,
+      "cls": "el-table__row el-table__row--level-1",
+      "text": "3NadirFront069aca68-d952-4a20-949f-af9784b33985100%提交成功"
+    }
+  ],
+  "icons": [
+    {
+      "i": 0,
+      "tag": "TD",
+      "cls": "el-table_7_column_31  el-table-column--selection el-table__cell",
+      "style": "",
+      "x": 522,
+      "y": 262,
+      "w": 48,
+      "h": 45,
+      "text": ""
+    },
+    {
+      "i": 1,
+      "tag": "DIV",
+      "cls": "cell",
+      "style": "",
+      "x": 522,
+      "y": 272.5,
+      "w": 47,
+      "h": 23,
+      "text": ""
+    },
+    {
+      "i": 2,
+      "tag": "LABEL",
+      "cls": "el-checkbox",
+      "style": "",
+      "x": 532,
+      "y": 272.5,
+      "w": 14,
+      "h": 23,
+      "text": ""
+    },
+    {
+      "i": 3,
+      "tag": "SPAN",
+      "cls": "el-checkbox__input",
+      "style": "",
+      "x": 532,
+      "y": 276.875,
+      "w": 14,
+      "h": 16,
+      "text": ""
+    },
+    {
+      "i": 4,
+      "tag": "SPAN",
+      "cls": "el-checkbox__inner",
+      "style": "",
+      "x": 532,
+      "y": 276.875,
+      "w": 14,
+      "h": 14,
+      "text": ""
+    },
+    {
+      "i": 6,
+      "tag": "TD",
+      "cls": "el-table_7_column_32 is-left  el-table__cell",
+      "style": "",
+      "x": 570,
+      "y": 262,
+      "w": 100,
+      "h": 45,
+      "text": ""
+    },
+    {
+      "i": 7,
+      "tag": "DIV",
+      "cls": "cell",
+      "style": "",
+      "x": 570,
+      "y": 262,
+      "w": 99,
+      "h": 44,
+      "text": ""
+    },
+    {
+      "i": 8,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--text el-button--medium",
+      "style": "",
+      "x": 580,
+      "y": 262,
+      "w": 22,
+      "h": 44,
+      "text": ""
+    },
+    {
+      "i": 9,
+      "tag": "I",
+      "cls": "el-icon-custom-pc-page custom-pc-first-page",
+      "style": "",
+      "x": 581,
+      "y": 273,
+      "w": 20,
+      "h": 20,
+      "text": ""
+    },
+    {
+      "i": 10,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--text el-button--medium",
+      "style": "",
+      "x": 612,
+      "y": 262,
+      "w": 22,
+      "h": 44,
+      "text": ""
+    },
+    {
+      "i": 11,
+      "tag": "I",
+      "cls": "el-icon-custom-app-page custom-app-first-page",
+      "style": "",
+      "x": 613,
+      "y": 273,
+      "w": 20,
+      "h": 20,
+      "text": ""
+    },
+    {
+      "i": 13,
+      "tag": "TD",
+      "cls": "el-table_7_column_33 is-left  el-table__cell",
+      "style": "",
+      "x": 670,
+      "y": 262,
+      "w": 525,
+      "h": 45,
+      "text": "查询列表\n\n添加画面"
+    },
+    {
+      "i": 14,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "style": "width: 523px;",
+      "x": 670,
+      "y": 272.5,
+      "w": 523,
+      "h": 23,
+      "text": "查询列表\n\n添加画面"
+    },
+    {
+      "i": 15,
+      "tag": "SPAN",
+      "cls": "",
+      "style": "",
+      "x": 680,
+      "y": 272.5,
+      "w": 503,
+      "h": 23,
+      "text": "查询列表\n\n添加画面"
+    },
+    {
+      "i": 16,
+      "tag": "DIV",
+      "cls": "page-name-cell-page",
+      "style": "",
+      "x": 680,
+      "y": 272.5,
+      "w": 503,
+      "h": 23,
+      "text": "查询列表\n\n添加画面"
+    },
+    {
+      "i": 17,
+      "tag": "SPAN",
+      "cls": "",
+      "style": "",
+      "x": 710,
+      "y": 275.5,
+      "w": 56,
+      "h": 16,
+      "text": "查询列表"
+    },
+    {
+      "i": 18,
+      "tag": "P",
+      "cls": "page-name-add",
+      "style": "",
+      "x": 1135,
+      "y": 284.5,
+      "w": 48,
+      "h": 18,
+      "text": "添加画面"
+    },
+    {
+      "i": 19,
+      "tag": "TD",
+      "cls": "el-table_7_column_34 is-left  el-table__cell",
+      "style": "",
+      "x": 1195,
+      "y": 262,
+      "w": 524,
+      "h": 45,
+      "text": "CRUD front page 06查询列表20"
+    },
+    {
+      "i": 20,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "style": "width: 522px;",
+      "x": 1195,
+      "y": 272.5,
+      "w": 522,
+      "h": 23,
+      "text": "CRUD front page 06查询列表20"
+    },
+    {
+      "i": 21,
+      "tag": "SPAN",
+      "cls": "",
+      "style": "",
+      "x": 1205,
+      "y": 275.5,
+      "w": 198.421875,
+      "h": 16,
+      "text": "CRUD front page 06查询列表20"
+    },
+    {
+      "i": 22,
+      "tag": "TD",
+      "cls": "el-table_7_column_35 is-left  el-table__cell",
+      "style": "",
+      "x": 1719,
+      "y": 262,
+      "w": 200,
+      "h": 45,
+      "text": "编辑属性更新删除"
+    },
+    {
+      "i": 23,
+      "tag": "DIV",
+      "cls": "cell",
+      "style": "",
+      "x": 1719,
+      "y": 266,
+      "w": 199,
+      "h": 36,
+      "text": "编辑属性更新删除"
+    },
+    {
+      "i": 24,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--text el-button--medium",
+      "style": "",
+      "x": 1729,
+      "y": 266,
+      "w": 30,
+      "h": 36,
+      "text": "编辑"
+    },
+    {
+      "i": 25,
+      "tag": "SPAN",
+      "cls": "",
+      "style": "",
+      "x": 1730,
+      "y": 276,
+      "w": 28,
+      "h": 16,
+      "text": "编辑"
+    },
+    {
+      "i": 26,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--text el-button--medium",
+      "style": "",
+      "x": 1769,
+      "y": 266,
+      "w": 30,
+      "h": 36,
+      "text": "属性"
+    },
+    {
+      "i": 27,
+      "tag": "SPAN",
+      "cls": "",
+      "style": "",
+      "x": 1770,
+      "y": 276,
+      "w": 28,
+      "h": 16,
+      "text": "属性"
+    },
+    {
+      "i": 28,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--text el-button--medium",
+      "style": "",
+      "x": 1809,
+      "y": 266,
+      "w": 30,
+      "h": 36,
+      "text": "更新"
+    },
+    {
+      "i": 29,
+      "tag": "SPAN",
+      "cls": "",
+      "style": "",
+      "x": 1810,
+      "y": 276,
+      "w": 28,
+      "h": 16,
+      "text": "更新"
+    },
+    {
+      "i": 30,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--text el-button--medium",
+      "style": "",
+      "x": 1849,
+      "y": 266,
+      "w": 30,
+      "h": 36,
+      "text": "删除"
+    },
+    {
+      "i": 31,
+      "tag": "SPAN",
+      "cls": "",
+      "style": "",
+      "x": 1850,
+      "y": 276,
+      "w": 28,
+      "h": 16,
+      "text": "删除"
+    }
+  ],
+  "body": "KingFusion4.5_工程浏览器\n\n< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n< 返回 盛云_孙宇飞_Nadir_客户端_0622\n\n画面分组\n\n根组\n\n画面列表\n\n新建\n添加\n画面引用器\n更多操作 \n\t首页\t画面名称\t描述\t操作\n\t\n\t\n查询列表\n\n添加画面\n\n\t\nCRUD front page 06查询列表20\n\t\n编辑属性更新删除\n共 1 条\n1\n前往页\n\n修改成功\n\n修改成功"
+}

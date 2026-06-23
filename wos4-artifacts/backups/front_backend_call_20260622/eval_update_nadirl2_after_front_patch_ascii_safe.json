@@ -1,0 +1,787 @@
+{
+  "started": true,
+  "t": 1782113229142,
+  "steps": [
+    {
+      "funcname": "IQueryRepoPacketsList",
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "appName": "运维部署管理_配置后台",
+      "stFullPath": "系统服务配置",
+      "t": 1782113229216,
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": {
+          "errorcode": 0,
+          "errormsg": "success",
+          "repopktversionlist": [
+            1,
+            2,
+            3
+          ]
+        },
+        "traceID": "5188804350031064064",
+        "consumeTime": 125
+      }
+    },
+    {
+      "funcname": "IUpdatePUInstance",
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "appName": "运维部署管理_配置后台",
+      "stFullPath": "系统服务配置",
+      "t": 1782113229386,
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": {
+          "errorcode": 0,
+          "errormsg": "success"
+        },
+        "traceID": "5188804517498098688",
+        "consumeTime": 1716
+      }
+    },
+    {
+      "funcname": "IQuerySTRepoCfgInfo",
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "appName": "运维部署管理_配置后台",
+      "stFullPath": "系统服务配置",
+      "t": 1782113232646,
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": {
+          "errorcode": 0,
+          "errormsg": "success",
+          "strepocfglist": [
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "069aca68-d952-4a20-949f-af9784b33985",
+              "strepocfgname": "NadirFront",
+              "strepocfgver": 3
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "1d6d69eb-b072-4419-9a1d-980ebbe1396e",
+              "strepocfgname": "业务内置APP",
+              "strepocfgver": 4
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "276cb189-67c5-47d1-94be-7e76f5f5af4e",
+              "strepocfgname": "NadirBack",
+              "strepocfgver": 5
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "5bf54c1d-7ecd-4127-8bf5-a47b23ac31b7",
+              "strepocfgname": "业务内置APP",
+              "strepocfgver": 3
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "a934b08f-695f-4067-8c4c-98aa434047ce",
+              "strepocfgname": "业务事_运行后台",
+              "strepocfgver": 4
+            }
+          ]
+        },
+        "traceID": "5188807858235560960",
+        "consumeTime": 73
+      }
+    },
+    {
+      "funcname": "IQuerySTObjectInfo",
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "appName": "运维部署管理_配置后台",
+      "stFullPath": "系统服务配置",
+      "t": 1782113232790,
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": {
+          "errorcode": 0,
+          "errormsg": "success",
+          "stobjectlist": [
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "stobjectguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+              "stobjectname": "NadirL2"
+            }
+          ]
+        },
+        "traceID": "5188808017813204992",
+        "consumeTime": 120
+      }
+    },
+    {
+      "funcname": "IQuerySTRepoCfgInfo",
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "appName": "运维部署管理_配置后台",
+      "stFullPath": "系统服务配置",
+      "t": 1782113234449,
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": {
+          "errorcode": 0,
+          "errormsg": "success",
+          "strepocfglist": [
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "069aca68-d952-4a20-949f-af9784b33985",
+              "strepocfgname": "NadirFront",
+              "strepocfgver": 3
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "1d6d69eb-b072-4419-9a1d-980ebbe1396e",
+              "strepocfgname": "业务内置APP",
+              "strepocfgver": 4
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "276cb189-67c5-47d1-94be-7e76f5f5af4e",
+              "strepocfgname": "NadirBack",
+              "strepocfgver": 5
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "5bf54c1d-7ecd-4127-8bf5-a47b23ac31b7",
+              "strepocfgname": "业务内置APP",
+              "strepocfgver": 3
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "a934b08f-695f-4067-8c4c-98aa434047ce",
+              "strepocfgname": "业务事_运行后台",
+              "strepocfgver": 4
+            }
+          ]
+        },
+        "traceID": "5188809693628429312",
+        "consumeTime": 66
+      }
+    },
+    {
+      "funcname": "IQuerySTObjectInfo",
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "appName": "运维部署管理_配置后台",
+      "stFullPath": "系统服务配置",
+      "t": 1782113234554,
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": {
+          "errorcode": 0,
+          "errormsg": "success",
+          "stobjectlist": [
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "stobjectguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+              "stobjectname": "NadirL2"
+            }
+          ]
+        },
+        "traceID": "5188809799558552576",
+        "consumeTime": 121
+      }
+    },
+    {
+      "funcname": "IQuerySTRepoCfgInfo",
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "appName": "运维部署管理_配置后台",
+      "stFullPath": "系统服务配置",
+      "t": 1782113236296,
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": {
+          "errorcode": 0,
+          "errormsg": "success",
+          "strepocfglist": [
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "069aca68-d952-4a20-949f-af9784b33985",
+              "strepocfgname": "NadirFront",
+              "strepocfgver": 3
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "1d6d69eb-b072-4419-9a1d-980ebbe1396e",
+              "strepocfgname": "业务内置APP",
+              "strepocfgver": 4
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "276cb189-67c5-47d1-94be-7e76f5f5af4e",
+              "strepocfgname": "NadirBack",
+              "strepocfgver": 5
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "5bf54c1d-7ecd-4127-8bf5-a47b23ac31b7",
+              "strepocfgname": "业务内置APP",
+              "strepocfgver": 3
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "a934b08f-695f-4067-8c4c-98aa434047ce",
+              "strepocfgname": "业务事_运行后台",
+              "strepocfgver": 4
+            }
+          ]
+        },
+        "traceID": "5188811582297988096",
+        "consumeTime": 57
+      }
+    },
+    {
+      "funcname": "IQuerySTObjectInfo",
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "appName": "运维部署管理_配置后台",
+      "stFullPath": "系统服务配置",
+      "t": 1782113236395,
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": {
+          "errorcode": 0,
+          "errormsg": "success",
+          "stobjectlist": [
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "stobjectguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+              "stobjectname": "NadirL2"
+            }
+          ]
+        },
+        "traceID": "5188811753987975168",
+        "consumeTime": 196
+      }
+    },
+    {
+      "funcname": "IQuerySTRepoCfgInfo",
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "appName": "运维部署管理_配置后台",
+      "stFullPath": "系统服务配置",
+      "t": 1782113238133,
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": {
+          "errorcode": 0,
+          "errormsg": "success",
+          "strepocfglist": [
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "069aca68-d952-4a20-949f-af9784b33985",
+              "strepocfgname": "NadirFront",
+              "strepocfgver": 3
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "1d6d69eb-b072-4419-9a1d-980ebbe1396e",
+              "strepocfgname": "业务内置APP",
+              "strepocfgver": 4
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "276cb189-67c5-47d1-94be-7e76f5f5af4e",
+              "strepocfgname": "NadirBack",
+              "strepocfgver": 5
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "5bf54c1d-7ecd-4127-8bf5-a47b23ac31b7",
+              "strepocfgname": "业务内置APP",
+              "strepocfgver": 3
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "a934b08f-695f-4067-8c4c-98aa434047ce",
+              "strepocfgname": "业务事_运行后台",
+              "strepocfgver": 4
+            }
+          ]
+        },
+        "traceID": "5188813509535264768",
+        "consumeTime": 101
+      }
+    },
+    {
+      "funcname": "IQuerySTObjectInfo",
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "appName": "运维部署管理_配置后台",
+      "stFullPath": "系统服务配置",
+      "t": 1782113238275,
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": {
+          "errorcode": 0,
+          "errormsg": "success",
+          "stobjectlist": [
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "stobjectguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+              "stobjectname": "NadirL2"
+            }
+          ]
+        },
+        "traceID": "5188813611515673600",
+        "consumeTime": 104
+      }
+    },
+    {
+      "funcname": "IQuerySTRepoCfgInfo",
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "appName": "运维部署管理_配置后台",
+      "stFullPath": "系统服务配置",
+      "t": 1782113239927,
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": {
+          "errorcode": 0,
+          "errormsg": "success",
+          "strepocfglist": [
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "069aca68-d952-4a20-949f-af9784b33985",
+              "strepocfgname": "NadirFront",
+              "strepocfgver": 3
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "1d6d69eb-b072-4419-9a1d-980ebbe1396e",
+              "strepocfgname": "业务内置APP",
+              "strepocfgver": 4
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "276cb189-67c5-47d1-94be-7e76f5f5af4e",
+              "strepocfgname": "NadirBack",
+              "strepocfgver": 5
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "5bf54c1d-7ecd-4127-8bf5-a47b23ac31b7",
+              "strepocfgname": "业务内置APP",
+              "strepocfgver": 3
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "a934b08f-695f-4067-8c4c-98aa434047ce",
+              "strepocfgname": "业务事_运行后台",
+              "strepocfgver": 4
+            }
+          ]
+        },
+        "traceID": "5188815300590764032",
+        "consumeTime": 60
+      }
+    },
+    {
+      "funcname": "IQuerySTObjectInfo",
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "appName": "运维部署管理_配置后台",
+      "stFullPath": "系统服务配置",
+      "t": 1782113240027,
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": {
+          "errorcode": 0,
+          "errormsg": "success",
+          "stobjectlist": [
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "stobjectguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+              "stobjectname": "NadirL2"
+            }
+          ]
+        },
+        "traceID": "5188815403046654976",
+        "consumeTime": 105
+      }
+    },
+    {
+      "funcname": "IQuerySTRepoCfgInfo",
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "appName": "运维部署管理_配置后台",
+      "stFullPath": "系统服务配置",
+      "t": 1782113241688,
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": {
+          "errorcode": 0,
+          "errormsg": "success",
+          "strepocfglist": [
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "069aca68-d952-4a20-949f-af9784b33985",
+              "strepocfgname": "NadirFront",
+              "strepocfgver": 3
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "1d6d69eb-b072-4419-9a1d-980ebbe1396e",
+              "strepocfgname": "业务内置APP",
+              "strepocfgver": 4
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "276cb189-67c5-47d1-94be-7e76f5f5af4e",
+              "strepocfgname": "NadirBack",
+              "strepocfgver": 5
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "5bf54c1d-7ecd-4127-8bf5-a47b23ac31b7",
+              "strepocfgname": "业务内置APP",
+              "strepocfgver": 3
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "a934b08f-695f-4067-8c4c-98aa434047ce",
+              "strepocfgname": "业务事_运行后台",
+              "strepocfgver": 4
+            }
+          ]
+        },
+        "traceID": "5188817135962939392",
+        "consumeTime": 95
+      }
+    },
+    {
+      "funcname": "IQuerySTObjectInfo",
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "appName": "运维部署管理_配置后台",
+      "stFullPath": "系统服务配置",
+      "t": 1782113241827,
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": {
+          "errorcode": 0,
+          "errormsg": "success",
+          "stobjectlist": [
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "stobjectguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+              "stobjectname": "NadirL2"
+            }
+          ]
+        },
+        "traceID": "5188817290110018560",
+        "consumeTime": 153
+      }
+    },
+    {
+      "funcname": "IQuerySTRepoCfgInfo",
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "appName": "运维部署管理_配置后台",
+      "stFullPath": "系统服务配置",
+      "t": 1782113243539,
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": {
+          "errorcode": 0,
+          "errormsg": "success",
+          "strepocfglist": [
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "069aca68-d952-4a20-949f-af9784b33985",
+              "strepocfgname": "NadirFront",
+              "strepocfgver": 3
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "1d6d69eb-b072-4419-9a1d-980ebbe1396e",
+              "strepocfgname": "业务内置APP",
+              "strepocfgver": 4
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "276cb189-67c5-47d1-94be-7e76f5f5af4e",
+              "strepocfgname": "NadirBack",
+              "strepocfgver": 5
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "5bf54c1d-7ecd-4127-8bf5-a47b23ac31b7",
+              "strepocfgname": "业务内置APP",
+              "strepocfgver": 3
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "a934b08f-695f-4067-8c4c-98aa434047ce",
+              "strepocfgname": "业务事_运行后台",
+              "strepocfgver": 4
+            }
+          ]
+        },
+        "traceID": "5188819004285835264",
+        "consumeTime": 70
+      }
+    },
+    {
+      "funcname": "IQuerySTObjectInfo",
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "appName": "运维部署管理_配置后台",
+      "stFullPath": "系统服务配置",
+      "t": 1782113243654,
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": {
+          "errorcode": 0,
+          "errormsg": "success",
+          "stobjectlist": [
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "stobjectguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+              "stobjectname": "NadirL2"
+            }
+          ]
+        },
+        "traceID": "5188819184447291392",
+        "consumeTime": 190
+      }
+    },
+    {
+      "funcname": "IQuerySTRepoCfgInfo",
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "appName": "运维部署管理_配置后台",
+      "stFullPath": "系统服务配置",
+      "t": 1782113245396,
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": {
+          "errorcode": 0,
+          "errormsg": "success",
+          "strepocfglist": [
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "069aca68-d952-4a20-949f-af9784b33985",
+              "strepocfgname": "NadirFront",
+              "strepocfgver": 3
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "1d6d69eb-b072-4419-9a1d-980ebbe1396e",
+              "strepocfgname": "业务内置APP",
+              "strepocfgver": 4
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "276cb189-67c5-47d1-94be-7e76f5f5af4e",
+              "strepocfgname": "NadirBack",
+              "strepocfgver": 5
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "5bf54c1d-7ecd-4127-8bf5-a47b23ac31b7",
+              "strepocfgname": "业务内置APP",
+              "strepocfgver": 3
+            },
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "a934b08f-695f-4067-8c4c-98aa434047ce",
+              "strepocfgname": "业务事_运行后台",
+              "strepocfgver": 4
+            }
+          ]
+        },
+        "traceID": "5188820913627977728",
+        "consumeTime": 75
+      }
+    },
+    {
+      "funcname": "IQuerySTObjectInfo",
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "appName": "运维部署管理_配置后台",
+      "stFullPath": "系统服务配置",
+      "t": 1782113245512,
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": {
+          "errorcode": 0,
+          "errormsg": "success",
+          "stobjectlist": [
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "stobjectguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+              "stobjectname": "NadirL2"
+            }
+          ]
+        },
+        "traceID": "5188821066209675264",
+        "consumeTime": 148
+      }
+    }
+  ],
+  "versions": [
+    1,
+    2,
+    3
+  ],
+  "latest": 3,
+  "updateRet": {
+    "errorcodes": [
+      0
+    ],
+    "ret": 0,
+    "returndata": {
+      "errorcode": 0,
+      "errormsg": "success"
+    },
+    "traceID": "5188804517498098688",
+    "consumeTime": 1716
+  },
+  "done": true,
+  "finishedAt": 1782113245660
+}

@@ -1,0 +1,5 @@
+{
+  "startedAt": "2026-06-12T04:28:14.626Z",
+  "modelName": "盛云_孙宇飞_假数据设备模型_0612",
+  "error": "frame.evaluate: TypeError: Cannot convert undefined or null to object\n    at Object.keys (<anonymous>)\n    at eval (eval at evaluate (:302:30), <anonymous>:1:176)\n    at UtilityScript.evaluate (<anonymous>:304:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at [stdin]:7:338"
+}

@@ -19,9 +19,21 @@ wos4-artifacts/config/*.ini
 # Large browser/runtime caches
 playwright-report/
 test-results/
+wos4-artifacts/config/browser-harness-chrome-profile/
+wos4-artifacts/config/*chrome-profile*/
+wos4-artifacts/config/**/Cookies*
+wos4-artifacts/config/**/Login Data*
+wos4-artifacts/config/**/History*
+wos4-artifacts/config/**/Web Data*
+wos4-artifacts/config/**/Local State
+wos4-artifacts/config/**/LOCK
 
 # Captured network payloads may contain runtime identifiers or sensitive request data.
 network/
+
+# Local delete/migration backups may contain old scripts, screenshots, or captured payloads.
+wos4-artifacts/backups/workspace-cleanup-*/before-delete/
+wos4-artifacts/backups/*/before-sensitive/
 
 # Old scratch probes are kept locally until cleaned and migrated.
 probe*.js

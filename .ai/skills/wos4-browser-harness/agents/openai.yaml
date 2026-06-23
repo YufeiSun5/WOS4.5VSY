@@ -1,0 +1,4 @@
+interface:
+  display_name: "WOS4 Browser Harness"
+  short_description: "Use browser-harness to operate WOS4 in local Chrome"
+  default_prompt: "Use browser-harness to connect to local Chrome, open WOS4 by human-visible paths, inspect nested iframes, and save evidence."

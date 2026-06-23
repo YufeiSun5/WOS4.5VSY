@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "callType": "function",
+  "methodStr": "(t,a)=>{const i=this._getPageInfo();if(0===i.ret&&i.data.spaceTime&&i.data.spaceTime.guid){if(!t._containsKey(\"areaId\")){const e=this.getAreaId(t.type,i.data.spaceTime);e&&t._insert(\"areaId\",e,\"int32\")}a._insert(\"appspacetimeguid\",i.data.spaceTime.guid)}else console.log(\"initWebJsFuncList,GetPageInfo,获取页面信息失败\");return window[e](t,a)}",
+  "results": [
+    {
+      "label": "vm.Call full callback",
+      "ret": {
+        "promise": {}
+      },
+      "ms": 2
+    },
+    {
+      "label": "vm.Call short callback",
+      "ret": {
+        "promise": {}
+      },
+      "ms": 0
+    },
+    {
+      "label": "vm.Call full stringparam callback",
+      "ret": {
+        "promise": {}
+      },
+      "ms": 1
+    }
+  ]
+}

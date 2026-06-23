@@ -1,0 +1,163 @@
+{
+    "status":  "pass",
+    "repoRoot":  "D:/DEV_D/WOS4.5",
+    "dirtyCount":  2681,
+    "configPath":  "wos4-artifacts/config/wos4.local.ini",
+    "expectedDeveloperEnforced":  false,
+    "expectedUrlEnforced":  false,
+    "taskPath":  "wos4-artifacts/tasks/20260623-新测试页左右菜单CRUD弹窗设计",
+    "wos4Mode":  true,
+    "requireClean":  false,
+    "results":  [
+                    {
+                        "name":  "git.dirty",
+                        "status":  "warn",
+                        "message":  "Git workspace has 2681 changed or untracked items. Confirm commit scope before staging."
+                    },
+                    {
+                        "name":  "gitignore.browserProfile",
+                        "status":  "pass",
+                        "message":  "wos4-artifacts/config/browser-harness-chrome-profile/ is ignored by Git."
+                    },
+                    {
+                        "name":  "git.trackedSensitive",
+                        "status":  "pass",
+                        "message":  "No tracked browser profile, cookie, history, login data, web data, or real ini files found."
+                    },
+                    {
+                        "name":  "ini.identity",
+                        "status":  "pass",
+                        "message":  "developer_name is present. No expected developer was supplied."
+                    },
+                    {
+                        "name":  "ini.workspace",
+                        "status":  "pass",
+                        "message":  "workspace_name is present."
+                    },
+                    {
+                        "name":  "ini.wos4",
+                        "status":  "pass",
+                        "message":  "wos4 url, username, and password are present. Secret values are not printed."
+                    },
+                    {
+                        "name":  "file.AGENTS.md",
+                        "status":  "pass",
+                        "message":  "AGENTS.md exists."
+                    },
+                    {
+                        "name":  "file.README.md",
+                        "status":  "pass",
+                        "message":  "README.md exists."
+                    },
+                    {
+                        "name":  "file.MEMORY.md",
+                        "status":  "pass",
+                        "message":  "MEMORY.md exists."
+                    },
+                    {
+                        "name":  "file.AI-INTERACTION-PANEL.md",
+                        "status":  "pass",
+                        "message":  "AI-INTERACTION-PANEL.md exists."
+                    },
+                    {
+                        "name":  "agent..ai/agents/design-ai.md",
+                        "status":  "pass",
+                        "message":  ".ai/agents/design-ai.md exists."
+                    },
+                    {
+                        "name":  "agent..ai/agents/frontend-ai.md",
+                        "status":  "pass",
+                        "message":  ".ai/agents/frontend-ai.md exists."
+                    },
+                    {
+                        "name":  "agent..ai/agents/code-ai.md",
+                        "status":  "pass",
+                        "message":  ".ai/agents/code-ai.md exists."
+                    },
+                    {
+                        "name":  "agent..ai/agents/test-ai.md",
+                        "status":  "pass",
+                        "message":  ".ai/agents/test-ai.md exists."
+                    },
+                    {
+                        "name":  "agent..ai/agents/review-ai.md",
+                        "status":  "pass",
+                        "message":  ".ai/agents/review-ai.md exists."
+                    },
+                    {
+                        "name":  "skill..ai/skills/wos4-login/SKILL.md",
+                        "status":  "pass",
+                        "message":  ".ai/skills/wos4-login/SKILL.md exists."
+                    },
+                    {
+                        "name":  "skill..ai/skills/wos4-human-navigation/SKILL.md",
+                        "status":  "pass",
+                        "message":  ".ai/skills/wos4-human-navigation/SKILL.md exists."
+                    },
+                    {
+                        "name":  "skill..ai/skills/wos4-browser-harness/SKILL.md",
+                        "status":  "pass",
+                        "message":  ".ai/skills/wos4-browser-harness/SKILL.md exists."
+                    },
+                    {
+                        "name":  "skill..ai/skills/wos4-layout-devtools-skill/SKILL.md",
+                        "status":  "pass",
+                        "message":  ".ai/skills/wos4-layout-devtools-skill/SKILL.md exists."
+                    },
+                    {
+                        "name":  "skill..ai/skills/wos4-component-persistence/SKILL.md",
+                        "status":  "pass",
+                        "message":  ".ai/skills/wos4-component-persistence/SKILL.md exists."
+                    },
+                    {
+                        "name":  "skill..ai/skills/wos4-blue-client-publish-flow/SKILL.md",
+                        "status":  "pass",
+                        "message":  ".ai/skills/wos4-blue-client-publish-flow/SKILL.md exists."
+                    },
+                    {
+                        "name":  "task.exists",
+                        "status":  "pass",
+                        "message":  "wos4-artifacts/tasks/20260623-新测试页左右菜单CRUD弹窗设计 exists."
+                    },
+                    {
+                        "name":  "task.README.md",
+                        "status":  "pass",
+                        "message":  "README.md exists."
+                    },
+                    {
+                        "name":  "task.01-需求说明.md",
+                        "status":  "pass",
+                        "message":  "01-需求说明.md exists."
+                    },
+                    {
+                        "name":  "task.02-设计布局.md",
+                        "status":  "pass",
+                        "message":  "02-设计布局.md exists."
+                    },
+                    {
+                        "name":  "task.03-前端逻辑.md",
+                        "status":  "pass",
+                        "message":  "03-前端逻辑.md exists."
+                    },
+                    {
+                        "name":  "task.04-后端改动.md",
+                        "status":  "pass",
+                        "message":  "04-后端改动.md exists."
+                    },
+                    {
+                        "name":  "task.05-测试验收.md",
+                        "status":  "pass",
+                        "message":  "05-测试验收.md exists."
+                    },
+                    {
+                        "name":  "task.证据清单.md",
+                        "status":  "pass",
+                        "message":  "证据清单.md exists."
+                    },
+                    {
+                        "name":  "task.执行日志.md",
+                        "status":  "pass",
+                        "message":  "执行日志.md exists."
+                    }
+                ]
+}

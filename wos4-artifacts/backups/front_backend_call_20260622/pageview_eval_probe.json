@@ -1,0 +1,70 @@
+[
+  {
+    "idx": 0,
+    "methods": [
+      "_setVariableLinkOutPut",
+      "getVariableList",
+      "showPageCallback",
+      "eval",
+      "evalCallBackFun",
+      "addUIOutputLinkList",
+      "registUIOutputLink",
+      "evalStyleConfig",
+      "initPageLinkMng",
+      "initLinkMng",
+      "restructLink",
+      "registerLink",
+      "upDateLink",
+      "destoryPageLinkMng",
+      "initPageVariable",
+      "_updateVariables",
+      "listenVariableChange",
+      "setVariable",
+      "initialQueryCall",
+      "$Variable",
+      "$DataLink",
+      "d_uiOutputLinkList",
+      "evalCreatedFlag"
+    ],
+    "probe": {
+      "hasSetRunInfo": "function",
+      "hasVariable": "object",
+      "keys": [],
+      "hasCall": "function"
+    }
+  },
+  {
+    "idx": 1,
+    "methods": [
+      "_setVariableLinkOutPut",
+      "getVariableList",
+      "showPageCallback",
+      "eval",
+      "evalCallBackFun",
+      "addUIOutputLinkList",
+      "registUIOutputLink",
+      "evalStyleConfig",
+      "initPageLinkMng",
+      "initLinkMng",
+      "restructLink",
+      "registerLink",
+      "upDateLink",
+      "destoryPageLinkMng",
+      "initPageVariable",
+      "_updateVariables",
+      "listenVariableChange",
+      "setVariable",
+      "initialQueryCall",
+      "$Variable",
+      "$DataLink",
+      "d_uiOutputLinkList",
+      "evalCreatedFlag"
+    ],
+    "probe": {
+      "hasSetRunInfo": "function",
+      "hasVariable": "object",
+      "keys": [],
+      "hasCall": "function"
+    }
+  }
+]

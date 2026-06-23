@@ -1,0 +1,94 @@
+{
+  "path": "top.1.0",
+  "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+  "spaceTimeId": {
+    "spaceTime": "NadirL2",
+    "stType": 5,
+    "devName": "NadirBack",
+    "name": "NadirL2",
+    "guid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+    "id": "1152921504606851278"
+  },
+  "typeofs": {
+    "Call": "function",
+    "Query": "function",
+    "SetRunInfo": "undefined",
+    "StringMap": "function",
+    "Variant": "function",
+    "getLocalCloudID": "function",
+    "pvEval": "function",
+    "pvEvalFun": "undefined"
+  },
+  "tests": [
+    {
+      "label": "name stType4 guid",
+      "runInfo": {
+        "stType": 4,
+        "spaceTime": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c"
+      },
+      "setRun": {
+        "skip": "no SetRunInfo"
+      },
+      "elapsed": 45,
+      "res": {
+        "ret": -210133,
+        "consumeTime": 45
+      }
+    },
+    {
+      "label": "name stType5 NadirL2 NadirBack",
+      "runInfo": {
+        "stType": 5,
+        "spaceTime": "NadirL2",
+        "devName": "NadirBack"
+      },
+      "setRun": {
+        "skip": "no SetRunInfo"
+      },
+      "elapsed": 39,
+      "res": {
+        "ret": -210133,
+        "consumeTime": 39
+      }
+    },
+    {
+      "label": "name stType5 guid NadirBack",
+      "runInfo": {
+        "stType": 5,
+        "spaceTime": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+        "devName": "NadirBack"
+      },
+      "setRun": {
+        "skip": "no SetRunInfo"
+      },
+      "elapsed": 34,
+      "res": {
+        "ret": -210133,
+        "consumeTime": 34
+      }
+    },
+    {
+      "label": "id latest known stType4 guid",
+      "runInfo": {
+        "stType": 4,
+        "spaceTime": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c"
+      },
+      "setRun": {
+        "skip": "no SetRunInfo"
+      },
+      "elapsed": 34,
+      "res": {
+        "ret": -210133,
+        "consumeTime": 34
+      }
+    }
+  ],
+  "afterSpaceTimeId": {
+    "spaceTime": "NadirL2",
+    "stType": 5,
+    "devName": "NadirBack",
+    "name": "NadirL2",
+    "guid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+    "id": "1152921504606851278"
+  }
+}

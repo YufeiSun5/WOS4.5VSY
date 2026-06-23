@@ -1,0 +1,27 @@
+{
+  "editor": {
+    "variableRaw": [
+      {"KSCGUID":"pilot_seedData_0620","varName":"seedData","varType":2},
+      {"KSCGUID":"pilot_filterKey_0620","varName":"filterKey","varType":2},
+      {"KSCGUID":"pilot_refreshCounter_0620","varName":"refreshCounter","varType":1}
+    ],
+    "buttonLinkPath": ["btn.linkList[0]","btn.propData.linkList[0]"],
+    "pageBaseLinkPath": "page.data.linkMng.linkList",
+    "pageBaseLinkIds": [0,2,4],
+    "notes": [
+      "current working editor page shows enabled click script on btn.linkList and btn.propData.linkList",
+      "page.data.linkMng only exposes base page links in current probe"
+    ]
+  },
+  "preview": {
+    "buttonTextBefore": "查询全部(4)",
+    "inputValueAfter": "B-01",
+    "buttonTextAfter": "查询：B-01(0)",
+    "rowsAfter": [],
+    "emptyTextSeen": true
+  },
+  "evidence": {
+    "screenshot": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\screenshots\\preview_button_filter_success_0620.png",
+    "runtimeDump": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\snapshots\\preview_button_filter_success_0620.json"
+  }
+}

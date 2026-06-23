@@ -1,0 +1,32 @@
+{
+  "hasPv": true,
+  "res": {
+    "setRunInfo": {
+      "ret": 0,
+      "msg": "修改成功!"
+    },
+    "res": {
+      "errorcodes": [
+        0
+      ],
+      "ret": 0,
+      "returndata": {
+        "errorcode": 0,
+        "errormsg": "success",
+        "repopktversionlist": [
+          1,
+          2
+        ]
+      },
+      "traceID": "5188993920028128256",
+      "consumeTime": 94
+    }
+  },
+  "error": null,
+  "console": [
+    [
+      "AI_PACKET_QUERY_RESULT2",
+      "{\"setRunInfo\":{\"ret\":0,\"msg\":\"修改成功!\"},\"res\":{\"errorcodes\":[0],\"ret\":0,\"returndata\":{\"errorcode\":0,\"errormsg\":\"success\",\"repopktversionlist\":[1,2]},\"traceID\":\"5188993920028128256\",\"consumeTime\":94}}"
+    ]
+  ]
+}

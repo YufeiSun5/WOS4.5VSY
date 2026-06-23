@@ -1,0 +1,685 @@
+{
+  "ok": true,
+  "cols": {
+    "RCol12": {
+      "exists": true,
+      "name": "demo_filter_input",
+      "proto": "ElementInput",
+      "detailConfig": "options.placeholder='\\u8f93\\u5165\\u7ad9\\u70b9\\u6216\\u533a\\u57df\\u5173\\u952e\\u5b57';options.clearable=true;options.disabled=false;options.value='A'",
+      "linkList": [
+        {
+          "linkId": 200001,
+          "enable": false,
+          "KSCGUID": "kb931832931e129e1207c980345f80e3",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Focus"
+        },
+        {
+          "linkId": 200002,
+          "enable": false,
+          "KSCGUID": "k56732ecee96712224379ac4c9eca46c",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Blur"
+        },
+        {
+          "linkId": 200003,
+          "enable": false,
+          "KSCGUID": "k93214ca173305d760c0d73b4cde52dc",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Change"
+        },
+        {
+          "linkId": 200004,
+          "enable": false,
+          "KSCGUID": "keb6e60f8f1028fa9196b874fca507c7",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Input"
+        },
+        {
+          "linkId": 200005,
+          "enable": false,
+          "KSCGUID": "kbfb94da2734afc57d1e866fb62ff75c",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Clear"
+        },
+        {
+          "linkId": 200006,
+          "enable": false,
+          "KSCGUID": "k23e418eebe67362f8330cd85f40989b",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Select"
+        }
+      ],
+      "keys": [
+        "UIName",
+        "groupName",
+        "icon",
+        "KSCGUID",
+        "elementuiType",
+        "lock",
+        "visible",
+        "runVisible",
+        "objectType",
+        "prototypeName",
+        "value",
+        "detailConfig",
+        "styleConfig",
+        "debounce",
+        "placement",
+        "triggeronFocus",
+        "selectWhenUnmatched",
+        "hideLoading",
+        "highlightFirstItem",
+        "custom",
+        "autocomplete",
+        "maxlength",
+        "showWordLimit",
+        "clearable",
+        "placeholder",
+        "showPassword",
+        "disabled",
+        "size",
+        "prefixIcon",
+        "suffixIcon",
+        "type",
+        "rows",
+        "readonly",
+        "max",
+        "min",
+        "step",
+        "prepend",
+        "append",
+        "tabindex",
+        "styleOption",
+        "uiInputLinkList",
+        "uiOutputLinkList",
+        "langKeys",
+        "linkList",
+        "id",
+        "parentGUID",
+        "locationY",
+        "locationX",
+        "dataConfig"
+      ]
+    },
+    "RCol14": {
+      "exists": true,
+      "name": "demo_query_button",
+      "proto": "ElementButton",
+      "detailConfig": "this.button({text:'\\u67e5\\u8be2'})",
+      "linkList": [
+        {
+          "enable": true,
+          "script": "var page=this.KMComponentsMng.get('PageView');var kids=this.KMComponentsMng.$Children||{};var all=Object.values(kids);function pd(o){return o&&(o._props&&o._props.propData||o.propData||o);}function byName(n){return all.find(function(v){return v&&(v.UIName===n||v.name===n);});}var table=byName('demo_table');var chart=byName('demo_chart');var btn=byName('demo_query_button')||this;var st=page.__codexInteractionState||(page.__codexInteractionState={filter:'A',clickCount:0});st.clickCount+=1;st.filter=st.filter==='A'?'B':(st.filter==='B'?'ALL':'A');page.$Variable=page.$Variable||{};page.$Variable.filterKey=st.filter;page.$Variable.clickCount=st.clickCount;var rows=[{\"station\":\"A-01\",\"area\":\"A\",\"status\":\"online\",\"flow\":128,\"pressure\":0.62,\"trend\":18},{\"station\":\"A-02\",\"area\":\"A\",\"status\":\"standby\",\"flow\":96,\"pressure\":0.58,\"trend\":22},{\"station\":\"B-01\",\"area\":\"B\",\"status\":\"online\",\"flow\":141,\"pressure\":0.67,\"trend\":16},{\"station\":\"B-02\",\"area\":\"B\",\"status\":\"alarm\",\"flow\":73,\"pressure\":0.49,\"trend\":12}];var cols=[{\"prop\":\"station\",\"label\":\"站点\",\"minWidth\":\"130\",\"align\":\"left\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"area\",\"label\":\"区域\",\"minWidth\":\"80\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"status\",\"label\":\"状态\",\"minWidth\":\"100\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"flow\",\"label\":\"流量\",\"minWidth\":\"90\",\"align\":\"right\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"pressure\",\"label\":\"压力\",\"minWidth\":\"90\",\"align\":\"right\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false}];var rs=rows.filter(function(r){return st.filter==='ALL'||r.area===st.filter;});if(table&&table.table)table.table({border:true,fit:true,showHeader:true,emptyText:'no data',columns:cols,totalData:rs});var opt={color:['#2f80ed','#27ae60'],tooltip:{trigger:'axis'},grid:{left:38,right:18,top:36,bottom:32},xAxis:{type:'category',data:rs.map(function(r){return r.station;})},yAxis:{type:'value'},series:[{name:'trend',type:'line',smooth:true,symbol:'circle',symbolSize:7,lineStyle:{width:3},areaStyle:{opacity:0.12},data:rs.map(function(r){return r.trend+st.clickCount*3;})}]};if(chart&&chart.SetOption)chart.SetOption(opt,true);if(chart&&pd(chart))pd(chart).detailConfig='option='+JSON.stringify(opt);if(btn&&btn.button)btn.button({text:'filter '+st.filter+' / '+st.clickCount});page.__codexLastInteraction={filter:st.filter,clickCount:st.clickCount,rows:rs.length};"
+        }
+      ],
+      "keys": [
+        "UIName",
+        "groupName",
+        "icon",
+        "authName",
+        "isConfigAuth",
+        "elementuiType",
+        "objectType",
+        "prototypeName",
+        "id",
+        "KSCGUID",
+        "leftTopPt",
+        "content",
+        "badgeColor",
+        "color",
+        "backgroundColor",
+        "dot",
+        "max",
+        "accessable",
+        "UIDesc",
+        "locationX",
+        "locationY",
+        "lock",
+        "visible",
+        "runVisible",
+        "operable",
+        "tooltipDisable",
+        "disabled",
+        "plain",
+        "round",
+        "circle",
+        "loading",
+        "text",
+        "detailConfig",
+        "styleConfig",
+        "tooltip",
+        "parentGUID",
+        "isCloseCurPage",
+        "throttleTime",
+        "uiInputLinkList",
+        "uiOutputLinkList",
+        "langKeys",
+        "linkList",
+        "styleOption"
+      ]
+    },
+    "RCol6": {
+      "exists": true,
+      "name": "demo_area_tree",
+      "proto": "ElementTree",
+      "detailConfig": "options.data=[{\"label\":\"全部区域\",\"children\":[{\"label\":\"A 区\"},{\"label\":\"B 区\"}]}];options.showSearch=true",
+      "linkList": [
+        {
+          "linkId": 200001,
+          "enable": false,
+          "KSCGUID": "kc405821e1545d24762bce08fd3c7a4f",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "NodeClick"
+        },
+        {
+          "linkId": 200002,
+          "enable": false,
+          "KSCGUID": "k21a71461bb3450161ae8a6fce125ecb",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "NodeContextmenu"
+        },
+        {
+          "linkId": 200003,
+          "enable": false,
+          "KSCGUID": "kce184d05e62f7ce38490e2b3af2e0a0",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CheckChange"
+        },
+        {
+          "linkId": 200004,
+          "enable": false,
+          "KSCGUID": "k645f9bbfdff8e7e421ae1c90b04433e",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Check"
+        },
+        {
+          "linkId": 200005,
+          "enable": false,
+          "KSCGUID": "k4c5f9e2a41c8340931476166bf7ee18",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CurrentChange"
+        },
+        {
+          "linkId": 200006,
+          "enable": false,
+          "KSCGUID": "k194a71215dac34f34786c29ce8d7d0c",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "NodeExpand"
+        },
+        {
+          "linkId": 200007,
+          "enable": false,
+          "KSCGUID": "k035ad4493c920e2d227581bc9547383",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "NodeCollapse"
+        },
+        {
+          "linkId": 200008,
+          "enable": false,
+          "KSCGUID": "k50defb0d615d887c1e16258577e8cff",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "NodeDragStart"
+        },
+        {
+          "linkId": 200009,
+          "enable": false,
+          "KSCGUID": "kccc9766d96f93a4b048f17fdf482994",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "NodeDragEnter"
+        },
+        {
+          "linkId": 200010,
+          "enable": false,
+          "KSCGUID": "k88c957c8ac447175c12a1f54cfa76d4",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "NodeDragLeave"
+        },
+        {
+          "linkId": 200011,
+          "enable": false,
+          "KSCGUID": "k5897afc0ba3a7d7437348cafab9d3ad",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "NodeDragOver"
+        },
+        {
+          "linkId": 200012,
+          "enable": false,
+          "KSCGUID": "kc02f5dd46fde783eb7cd805e84c4575",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "NodeDragEnd"
+        },
+        {
+          "linkId": 200013,
+          "enable": false,
+          "KSCGUID": "kea8d7f70d86f57c92b554a7ae86584e",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "NodeDrop"
+        },
+        {
+          "linkId": 200014,
+          "enable": false,
+          "KSCGUID": "kd7a34e3058ad66ec69e325c53535c9b",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "AfterEdit"
+        }
+      ],
+      "keys": [
+        "UIName",
+        "groupName",
+        "icon",
+        "elementuiType",
+        "prototypeName",
+        "objectType",
+        "KSCGUID",
+        "leftTopPt",
+        "detailConfig",
+        "styleConfig",
+        "lock",
+        "visible",
+        "runVisible",
+        "operable",
+        "nodeKey",
+        "props",
+        "data",
+        "customButtonContent",
+        "show",
+        "highlightCurrent",
+        "defaultExpandAll",
+        "expandOnClickNode",
+        "checkOnClickNode",
+        "autoExpandParent",
+        "defaultExpandedKeys",
+        "showCheckbox",
+        "checkStrictly",
+        "defaultCheckedKeys",
+        "currentNodeKey",
+        "dblLight",
+        "defaultExpandChild",
+        "accordion",
+        "indent",
+        "iconClass",
+        "lazy",
+        "dblclickEditNode",
+        "draggable",
+        "displayMode",
+        "linkList",
+        "id",
+        "showSearch",
+        "parentGUID",
+        "uiInputLinkList",
+        "uiOutputLinkList",
+        "filterNodeMethod",
+        "locationY",
+        "locationX",
+        "langKeys"
+      ]
+    },
+    "RCol15": {
+      "exists": true,
+      "name": "demo_table",
+      "proto": "ElementTable",
+      "detailConfig": "this.table({\"border\":true,\"fit\":true,\"showHeader\":true,\"emptyText\":\"暂无匹配数据\",\"columns\":[{\"prop\":\"station\",\"label\":\"站点\",\"minWidth\":\"130\",\"align\":\"left\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"area\",\"label\":\"区域\",\"minWidth\":\"80\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"status\",\"label\":\"状态\",\"minWidth\":\"100\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"flow\",\"label\":\"流量\",\"minWidth\":\"90\",\"align\":\"right\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"pressure\",\"label\":\"压力\",\"minWidth\":\"90\",\"align\":\"right\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false}],\"totalData\":[{\"station\":\"A-01\",\"area\":\"A\",\"status\":\"online\",\"flow\":128,\"pressure\":0.62,\"trend\":18},{\"station\":\"A-02\",\"area\":\"A\",\"status\":\"standby\",\"flow\":96,\"pressure\":0.58,\"trend\":22}]})",
+      "linkList": [
+        {
+          "linkId": 200001,
+          "enable": false,
+          "KSCGUID": "k5cf4a3f8d9b7a7cdbb50a7804efe5ed",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Select"
+        },
+        {
+          "linkId": 200002,
+          "enable": false,
+          "KSCGUID": "k1090816ade9e1b9a30e104447b47dde",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "SelectAll"
+        },
+        {
+          "linkId": 200003,
+          "enable": false,
+          "KSCGUID": "kf75957791326701de9951a58395d6b6",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "SelectionChange"
+        },
+        {
+          "linkId": 200004,
+          "enable": false,
+          "KSCGUID": "k589f912c4c05be7e12308529ad48816",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CellMouseEnter"
+        },
+        {
+          "linkId": 200005,
+          "enable": false,
+          "KSCGUID": "k944744426baada56b700da31f8d01be",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CellMouseLeave"
+        },
+        {
+          "linkId": 200006,
+          "enable": false,
+          "KSCGUID": "k8613c5cf1377c3efa50868231f17e70",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CellClick"
+        },
+        {
+          "linkId": 200007,
+          "enable": false,
+          "KSCGUID": "ke17ee3c45548693115f60b278086653",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CellDbclick"
+        },
+        {
+          "linkId": 200008,
+          "enable": false,
+          "KSCGUID": "k0e69f3613e1b8949c5a2a3baff689ae",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "RowClick"
+        },
+        {
+          "linkId": 200009,
+          "enable": false,
+          "KSCGUID": "k4dda29deac9eb09e89a873da1c1e8be",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "RowContextmenu"
+        },
+        {
+          "linkId": 200010,
+          "enable": false,
+          "KSCGUID": "kebc1f5fb692a4561a2df07c4c1e7a87",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "RowDbclick"
+        },
+        {
+          "linkId": 200011,
+          "enable": false,
+          "KSCGUID": "kfc1f23f4b25121258b56519c4de2fab",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "HeaderClick"
+        },
+        {
+          "linkId": 200012,
+          "enable": false,
+          "KSCGUID": "k61d7b4ff3278662665f5fe82d4144b8",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "SortChange"
+        },
+        {
+          "linkId": 200013,
+          "enable": false,
+          "KSCGUID": "k833f01d29ee3275f8465f975ef414ba",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "FilterChange"
+        },
+        {
+          "linkId": 200014,
+          "enable": false,
+          "KSCGUID": "kf2765289dae9d506e8d4f6b62d7f36a",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CurrentChange"
+        },
+        {
+          "linkId": 200015,
+          "enable": false,
+          "KSCGUID": "k4cb1e8556999504f5eed1edc6569f32",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "HeaderDragend"
+        },
+        {
+          "linkId": 200016,
+          "enable": false,
+          "KSCGUID": "ka231ef78c47620c05b2e85fabc83b36",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "ExpandChange"
+        },
+        {
+          "linkId": 200017,
+          "enable": false,
+          "KSCGUID": "k1a24c7224e8344ff5b6f384dabf400b",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CurrentPageChange"
+        },
+        {
+          "linkId": 200018,
+          "enable": false,
+          "KSCGUID": "kf756272ce24ba33c86077193837f520",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "OnLoadSuccess"
+        },
+        {
+          "linkId": 200019,
+          "enable": false,
+          "KSCGUID": "k00d4aebaecd5785e7a7719c4ead4908",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "OnBeforeEdit"
+        },
+        {
+          "linkId": 200020,
+          "enable": false,
+          "KSCGUID": "k108d4f63f757478118bfa7607ff8881",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "OnAfterEdit"
+        },
+        {
+          "linkId": 200021,
+          "enable": false,
+          "KSCGUID": "ka28994da8895837ca830b2ae51da49a",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "PageSizeChange"
+        }
+      ],
+      "keys": [
+        "UIName",
+        "groupName",
+        "icon",
+        "prototypeName",
+        "elementuiType",
+        "objectType",
+        "KSCGUID",
+        "leftTopPt",
+        "showCustomLabel",
+        "customLabel",
+        "expands",
+        "detailConfig",
+        "styleConfig",
+        "dblLight",
+        "operable",
+        "lock",
+        "visible",
+        "expandRowKeys",
+        "runVisible",
+        "checkStateSave",
+        "show",
+        "data",
+        "stripe",
+        "border",
+        "treeProps",
+        "showHeader",
+        "fit",
+        "highlightCurrentRow",
+        "emptyText",
+        "showSummary",
+        "sumText",
+        "pagination",
+        "pageSizes",
+        "currentPage",
+        "pageSize",
+        "defaultExpandAll",
+        "lazyLoad",
+        "paginationLayout",
+        "customPagination",
+        "paginationBackground",
+        "isVirtualScroll",
+        "totalData",
+        "totalLength",
+        "pagerCount",
+        "height",
+        "styleOption",
+        "langKeys",
+        "rowStyleConditions",
+        "cellStyleConditions",
+        "locationY",
+        "locationX",
+        "singleSelect",
+        "columns",
+        "linkList",
+        "uiInputLinkList",
+        "uiOutputLinkList",
+        "parentGUID",
+        "spanMethodConfig",
+        "id",
+        "currentRow"
+      ]
+    },
+    "RCol16": {
+      "exists": true,
+      "name": "demo_chart",
+      "proto": "ElementChart",
+      "detailConfig": "option={\"color\":[\"#2f80ed\",\"#27ae60\"],\"tooltip\":{\"trigger\":\"axis\"},\"grid\":{\"left\":38,\"right\":18,\"top\":36,\"bottom\":32},\"xAxis\":{\"type\":\"category\",\"data\":[\"A-01\",\"A-02\"]},\"yAxis\":{\"type\":\"value\"},\"series\":[{\"name\":\"趋势\",\"type\":\"line\",\"smooth\":true,\"symbol\":\"circle\",\"symbolSize\":7,\"lineStyle\":{\"width\":3},\"areaStyle\":{\"opacity\":0.12},\"data\":[18,22]}]}",
+      "linkList": [
+        {
+          "linkId": 200001,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Click",
+          "KSCGUID": "kc10b2f0cc0901888fc0ba2dd3aad83f"
+        },
+        {
+          "linkId": 200002,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Dblclick",
+          "KSCGUID": "k41e25b1d91d3dd4976d7d9970a1dcdd"
+        },
+        {
+          "linkId": 200003,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Mousedown",
+          "KSCGUID": "k3421ffc01dd0ad3122ed95b5321f496"
+        },
+        {
+          "linkId": 200004,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Mousemove",
+          "KSCGUID": "k3338953b6bee115d8c1c2d487070c0a"
+        },
+        {
+          "linkId": 200005,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Mouseup",
+          "KSCGUID": "kf370d04ad59c051d3cd7650cf7165cf"
+        },
+        {
+          "linkId": 200006,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Mouseover",
+          "KSCGUID": "kc747c1aef1dcf86fe717e55759993a0"
+        },
+        {
+          "linkId": 200007,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Mouseout",
+          "KSCGUID": "k5994d16949c57b8e4e00f7824faec5c"
+        },
+        {
+          "linkId": 200008,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Globalout",
+          "KSCGUID": "kd3189208c45d33b8aaa89544a5aba8e"
+        },
+        {
+          "linkId": 200009,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Contextmenu",
+          "KSCGUID": "ka745828b261a77a289d8e5cbdcb81fd"
+        }
+      ],
+      "keys": [
+        "isMockChart",
+        "chartName",
+        "groupName",
+        "elementuiType",
+        "objectType",
+        "id",
+        "KSCGUID",
+        "leftTopPt",
+        "prototypeName",
+        "icon",
+        "UIName",
+        "accessable",
+        "description",
+        "textDecoration",
+        "detailConfig",
+        "lock",
+        "visible",
+        "runVisible",
+        "showBorder",
+        "resourceMng",
+        "linkList",
+        "uiInputLinkList",
+        "option",
+        "parentGUID",
+        "locationY",
+        "locationX"
+      ]
+    }
+  }
+}

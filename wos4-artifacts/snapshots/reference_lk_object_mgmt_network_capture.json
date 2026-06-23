@@ -1,0 +1,432 @@
+{
+  "capture": [
+    {
+      "kind": "fetch",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "body": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":22,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":22001,\"clientNumber\":\"7710165598192543459\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":22001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"6192730962611142708\",\"6192730962611142709\",\"6192730962611142710\",\"6192730962611142711\",\"6192730962611142975\",\"6192730962611143001\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}",
+      "t": 1781744909130,
+      "status": 200,
+      "responseText": "{\"data\":{\"output\":{\"keyValueList\":[{\"key\":\"errorcodes\",\"value\":{\"int32ArrayValue\":{\"int32Array\":[0,0,0,0,0,0]}}},{\"key\":\"ret\",\"value\":{\"int32Value\":0}},{\"key\":\"returndata\",\"value\":{\"dataSet\":{\"fieldNames\":[\"$guid\",\"$id\",\"$runstatus\"],\"fieldValues\":[{\"values\":[{\"stringValue\":\"ceeaa811-9f42-4bec-918a-b4f20f985daa\"},{\"uint64Value\":\"6192730962611142708\"},{\"int32Value\":2}]},{\"values\":[{\"stringValue\":\"733e52a8-9f48-4637-8d76-2bbd8b9de79d\"},{\"uint64Value\":\"6192730962611142709\"},{\"int32Value\":2}]},{\"values\":[{\"stringValue\":\"db76201a-b40a-43cf-b5f7-32682246fb96\"},{\"uint64Value\":\"6192730962611142710\"},{\"int32Value\":2}]},{\"values\":[{\"stringValue\":\"4f04e312-f884-464d-a1d4-1426e88d1042\"},{\"uint64Value\":\"6192730962611142711\"},{\"int32Value\":2}]},{\"values\":[{\"stringValue\":\"aa1773bf-c7cb-4107-aea9-31b2cf7b2fac\"},{\"uint64Value\":\"6192730962611142975\"},{\"int32Value\":2}]},{\"values\":[{\"stringValue\":\"482bced7-e5e8-4885-ad3f-6f787d657980\"},{\"uint64Value\":\"6192730962611143001\"},{\"int32Value\":2}]}]}}}]}},\"header\":{\"commandID\": 516, \"requestID\":268941423, \"cloudID\":0, \"userType\":2, \"packetType\":2, \"transactionID\": \"0\", \"clientID\":0, \"serviceType\":22, \"traceID\": \"5188817363004518400\", \"fuid\": \"0\"}}"
+    },
+    {
+      "kind": "fetch",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "body": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21001,\"clientNumber\":\"7710165598192543459\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":21001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"5911255985900486740\",\"5911255985900486895\",\"5911255985900486904\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}",
+      "t": 1781744909130,
+      "status": 200,
+      "responseText": "{\"data\":{\"output\":{\"keyValueList\":[{\"key\":\"errorcodes\",\"value\":{\"int32ArrayValue\":{\"int32Array\":[0,0,0]}}},{\"key\":\"ret\",\"value\":{\"int32Value\":0}},{\"key\":\"returndata\",\"value\":{\"dataSet\":{\"fieldNames\":[\"$guid\",\"$id\",\"$runstatus\"],\"fieldValues\":[{\"values\":[{\"stringValue\":\"a63a00e0-05bd-4300-b0bc-b2fe76f938d6\"},{\"uint64Value\":\"5911255985900486740\"},{\"int32Value\":2}]},{\"values\":[{\"stringValue\":\"8f82e24a-ab8a-4161-94e6-0b30cf79222c\"},{\"uint64Value\":\"5911255985900486895\"},{\"int32Value\":2}]},{\"values\":[{\"stringValue\":\"1a6f5f08-af02-4d85-b1df-72f0dd02b62f\"},{\"uint64Value\":\"5911255985900486904\"},{\"int32Value\":2}]}]}}}]}},\"header\":{\"commandID\": 516, \"requestID\":268941421, \"cloudID\":0, \"userType\":2, \"packetType\":2, \"transactionID\": \"0\", \"clientID\":0, \"serviceType\":21, \"traceID\": \"5188817362419458048\", \"fuid\": \"0\"}}"
+    },
+    {
+      "kind": "fetch",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "body": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":22,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":22001,\"clientNumber\":\"7710165598192543459\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":22001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"6192730962611142708\",\"6192730962611142709\",\"6192730962611142710\",\"6192730962611142711\",\"6192730962611142975\",\"6192730962611143001\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}",
+      "t": 1781744911139,
+      "status": 200,
+      "responseText": "{\"data\":{\"output\":{\"keyValueList\":[{\"key\":\"errorcodes\",\"value\":{\"int32ArrayValue\":{\"int32Array\":[0,0,0,0,0,0]}}},{\"key\":\"ret\",\"value\":{\"int32Value\":0}},{\"key\":\"returndata\",\"value\":{\"dataSet\":{\"fieldNames\":[\"$guid\",\"$id\",\"$runstatus\"],\"fieldValues\":[{\"values\":[{\"stringValue\":\"ceeaa811-9f42-4bec-918a-b4f20f985daa\"},{\"uint64Value\":\"6192730962611142708\"},{\"int32Value\":2}]},{\"values\":[{\"stringValue\":\"733e52a8-9f48-4637-8d76-2bbd8b9de79d\"},{\"uint64Value\":\"6192730962611142709\"},{\"int32Value\":2}]},{\"values\":[{\"stringValue\":\"db76201a-b40a-43cf-b5f7-32682246fb96\"},{\"uint64Value\":\"6192730962611142710\"},{\"int32Value\":2}]},{\"values\":[{\"stringValue\":\"4f04e312-f884-464d-a1d4-1426e88d1042\"},{\"uint64Value\":\"6192730962611142711\"},{\"int32Value\":2}]},{\"values\":[{\"stringValue\":\"aa1773bf-c7cb-4107-aea9-31b2cf7b2fac\"},{\"uint64Value\":\"6192730962611142975\"},{\"int32Value\":2}]},{\"values\":[{\"stringValue\":\"482bced7-e5e8-4885-ad3f-6f787d657980\"},{\"uint64Value\":\"6192730962611143001\"},{\"int32Value\":2}]}]}}}]}},\"header\":{\"commandID\": 516, \"requestID\":268941427, \"cloudID\":0, \"userType\":2, \"packetType\":2, \"transactionID\": \"0\", \"clientID\":0, \"serviceType\":22, \"traceID\": \"5188819426071081984\", \"fuid\": \"0\"}}"
+    },
+    {
+      "kind": "fetch",
+      "url": "http://221.239.19.118:13001/api/v1/Query",
+      "method": "POST",
+      "body": "{\"header\":{\"cloudID\":107,\"commandID\":516,\"serviceType\":21,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":21001,\"clientNumber\":\"7710165598192543459\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":107}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":21001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"5911255985900486740\",\"5911255985900486895\",\"5911255985900486904\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}",
+      "t": 1781744911139,
+      "status": 200,
+      "responseText": "{\"data\":{\"output\":{\"keyValueList\":[{\"key\":\"errorcodes\",\"value\":{\"int32ArrayValue\":{\"int32Array\":[0,0,0]}}},{\"key\":\"ret\",\"value\":{\"int32Value\":0}},{\"key\":\"returndata\",\"value\":{\"dataSet\":{\"fieldNames\":[\"$guid\",\"$id\",\"$runstatus\"],\"fieldValues\":[{\"values\":[{\"stringValue\":\"a63a00e0-05bd-4300-b0bc-b2fe76f938d6\"},{\"uint64Value\":\"5911255985900486740\"},{\"int32Value\":2}]},{\"values\":[{\"stringValue\":\"8f82e24a-ab8a-4161-94e6-0b30cf79222c\"},{\"uint64Value\":\"5911255985900486895\"},{\"int32Value\":2}]},{\"values\":[{\"stringValue\":\"1a6f5f08-af02-4d85-b1df-72f0dd02b62f\"},{\"uint64Value\":\"5911255985900486904\"},{\"int32Value\":2}]}]}}}]}},\"header\":{\"commandID\": 516, \"requestID\":268941425, \"cloudID\":0, \"userType\":2, \"packetType\":2, \"transactionID\": \"0\", \"clientID\":0, \"serviceType\":21, \"traceID\": \"5188819425411220480\", \"fuid\": \"0\"}}"
+    }
+  ],
+  "body": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260514\n组态系统客户端0518\n建模系统客户端_0518\n运维部署客户端_0518\nlk_客户端01\nlk_客户端01_对象1\nCodex临时测试_前端视图_0611\n盛云_孙宇飞_TraceDemo_0617\n盛云_孙宇飞_QueryDemo_0617\n时空对象管理平台\n本云(0)\n开发系统\n生成器时空\n客户端工程\n引滦集团\n测试\n报警转发\n测试1\nlk测试客户端1\n测试客户端\nlk_工厂\nlk_客户端01\n盛云_孙宇飞_时空_0617\n盛云_孙宇飞_时空_0617_TOPV2\n盛云_孙宇飞_时空_0617_TOPV3\n功能\n实时\n历史\n计划\n连接\n三方APP\n权限\n镜像\n关于\n我创建的\n|\n全部\n创建\n启动\n停止\n强制停止\n编辑\n删除\n强制删除\n日志\n监视\n视图\n模型管理\n名称\n全部\nlk_客户端01\nlk_客户端01_对象1\n全选\n共 2 条\n1\n前往\n页",
+  "selected": [
+    {
+      "i": 382,
+      "tag": "DIV",
+      "cls": "el-tree-node is-current is-focusable",
+      "title": "",
+      "text": "lk_客户端01",
+      "x": 0,
+      "y": 440,
+      "w": 300,
+      "h": 30
+    },
+    {
+      "i": 497,
+      "tag": "LI",
+      "cls": "el-menu-item is-active",
+      "title": "",
+      "text": "功能",
+      "x": 394,
+      "y": 10,
+      "w": 97,
+      "h": 40
+    },
+    {
+      "i": 545,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default is-active",
+      "title": "",
+      "text": "全部",
+      "x": 400.84375,
+      "y": 60,
+      "w": 46,
+      "h": 40
+    },
+    {
+      "i": 614,
+      "tag": "DIV",
+      "cls": "el-select__selected-item el-select__input-wrapper is-hidden",
+      "title": "",
+      "text": "",
+      "x": 1447,
+      "y": 68,
+      "w": 36,
+      "h": 24
+    },
+    {
+      "i": 616,
+      "tag": "DIV",
+      "cls": "el-select__selected-item el-select__placeholder",
+      "title": "",
+      "text": "名称",
+      "x": 1447,
+      "y": 68,
+      "w": 36,
+      "h": 24
+    },
+    {
+      "i": 769,
+      "tag": "LI",
+      "cls": "is-active number",
+      "title": "",
+      "text": "1",
+      "x": 1728,
+      "y": 855,
+      "w": 24,
+      "h": 24
+    },
+    {
+      "i": 826,
+      "tag": "DIV",
+      "cls": "card cursor-pointer is-current frame-AppCard el-tooltip__trigger el-tooltip__trigger",
+      "title": "",
+      "text": "",
+      "x": 110,
+      "y": 899,
+      "w": 55,
+      "h": 46
+    }
+  ],
+  "main": [
+    {
+      "i": 162,
+      "tag": "DIV",
+      "cls": "data-item card-item",
+      "title": "lk_客户端01",
+      "text": "lk_客户端01",
+      "x": 380,
+      "y": 152,
+      "w": 68,
+      "h": 112
+    },
+    {
+      "i": 170,
+      "tag": "SPAN",
+      "cls": "span-label",
+      "title": "",
+      "text": "lk_客户端01",
+      "x": 380,
+      "y": 230,
+      "w": 68,
+      "h": 34
+    },
+    {
+      "i": 171,
+      "tag": "DIV",
+      "cls": "data-item card-item",
+      "title": "lk_客户端01_对象1",
+      "text": "lk_客户端01_对象1",
+      "x": 464,
+      "y": 152,
+      "w": 68,
+      "h": 112
+    },
+    {
+      "i": 179,
+      "tag": "SPAN",
+      "cls": "span-label",
+      "title": "",
+      "text": "lk_客户端01_对象1",
+      "x": 464,
+      "y": 230,
+      "w": 68,
+      "h": 34
+    },
+    {
+      "i": 180,
+      "tag": "DIV",
+      "cls": "data-item card-item",
+      "title": "Codex临时测试_前端视图_0611",
+      "text": "Codex临时测试_前端视图_0611",
+      "x": 548,
+      "y": 152,
+      "w": 68,
+      "h": 112
+    },
+    {
+      "i": 189,
+      "tag": "DIV",
+      "cls": "data-item card-item",
+      "title": "盛云_孙宇飞_TraceDemo_0617",
+      "text": "盛云_孙宇飞_TraceDemo_0617",
+      "x": 632,
+      "y": 152,
+      "w": 68,
+      "h": 112
+    },
+    {
+      "i": 198,
+      "tag": "DIV",
+      "cls": "data-item card-item",
+      "title": "盛云_孙宇飞_QueryDemo_0617",
+      "text": "盛云_孙宇飞_QueryDemo_0617",
+      "x": 716,
+      "y": 152,
+      "w": 68,
+      "h": 112
+    },
+    {
+      "i": 634,
+      "tag": "MAIN",
+      "cls": "el-main main",
+      "title": "",
+      "text": "lk_客户端01 lk_客户端01_对象1 全选 共 2 条 1 前往 页",
+      "x": 320,
+      "y": 110,
+      "w": 1580,
+      "h": 769
+    },
+    {
+      "i": 635,
+      "tag": "DIV",
+      "cls": "data-container",
+      "title": "",
+      "text": "lk_客户端01 lk_客户端01_对象1",
+      "x": 320,
+      "y": 110,
+      "w": 1580,
+      "h": 745
+    },
+    {
+      "i": 636,
+      "tag": "DIV",
+      "cls": "data-item data-item is-running",
+      "title": "",
+      "text": "lk_客户端01",
+      "x": 330,
+      "y": 120,
+      "w": 68,
+      "h": 111
+    },
+    {
+      "i": 640,
+      "tag": "SPAN",
+      "cls": "span_label",
+      "title": "lk_客户端01",
+      "text": "lk_客户端01",
+      "x": 329,
+      "y": 211,
+      "w": 70,
+      "h": 18
+    },
+    {
+      "i": 641,
+      "tag": "DIV",
+      "cls": "data-item data-item is-running",
+      "title": "",
+      "text": "lk_客户端01_对象1",
+      "x": 423.25,
+      "y": 120,
+      "w": 68,
+      "h": 111
+    },
+    {
+      "i": 645,
+      "tag": "SPAN",
+      "cls": "span_label",
+      "title": "lk_客户端01_对象1",
+      "text": "lk_客户端01_对象1",
+      "x": 422.25,
+      "y": 198,
+      "w": 70,
+      "h": 31
+    },
+    {
+      "i": 646,
+      "tag": "DIV",
+      "cls": "data-item",
+      "title": "",
+      "text": "",
+      "x": 516.5,
+      "y": 120,
+      "w": 68,
+      "h": 111
+    },
+    {
+      "i": 647,
+      "tag": "DIV",
+      "cls": "data-item",
+      "title": "",
+      "text": "",
+      "x": 609.75,
+      "y": 120,
+      "w": 68,
+      "h": 111
+    },
+    {
+      "i": 648,
+      "tag": "DIV",
+      "cls": "data-item",
+      "title": "",
+      "text": "",
+      "x": 703,
+      "y": 120,
+      "w": 68,
+      "h": 111
+    },
+    {
+      "i": 649,
+      "tag": "DIV",
+      "cls": "data-item",
+      "title": "",
+      "text": "",
+      "x": 796.25,
+      "y": 120,
+      "w": 68,
+      "h": 111
+    },
+    {
+      "i": 650,
+      "tag": "DIV",
+      "cls": "data-item",
+      "title": "",
+      "text": "",
+      "x": 889.5,
+      "y": 120,
+      "w": 68,
+      "h": 111
+    },
+    {
+      "i": 651,
+      "tag": "DIV",
+      "cls": "data-item",
+      "title": "",
+      "text": "",
+      "x": 982.75,
+      "y": 120,
+      "w": 68,
+      "h": 111
+    },
+    {
+      "i": 652,
+      "tag": "DIV",
+      "cls": "data-item",
+      "title": "",
+      "text": "",
+      "x": 1076,
+      "y": 120,
+      "w": 68,
+      "h": 111
+    },
+    {
+      "i": 653,
+      "tag": "DIV",
+      "cls": "data-item",
+      "title": "",
+      "text": "",
+      "x": 1169.25,
+      "y": 120,
+      "w": 68,
+      "h": 111
+    },
+    {
+      "i": 654,
+      "tag": "DIV",
+      "cls": "data-item",
+      "title": "",
+      "text": "",
+      "x": 1262.5,
+      "y": 120,
+      "w": 68,
+      "h": 111
+    },
+    {
+      "i": 655,
+      "tag": "DIV",
+      "cls": "data-item",
+      "title": "",
+      "text": "",
+      "x": 1355.75,
+      "y": 120,
+      "w": 68,
+      "h": 111
+    },
+    {
+      "i": 656,
+      "tag": "DIV",
+      "cls": "data-item",
+      "title": "",
+      "text": "",
+      "x": 1449,
+      "y": 120,
+      "w": 68,
+      "h": 111
+    },
+    {
+      "i": 657,
+      "tag": "DIV",
+      "cls": "data-item",
+      "title": "",
+      "text": "",
+      "x": 1542.25,
+      "y": 120,
+      "w": 68,
+      "h": 111
+    },
+    {
+      "i": 658,
+      "tag": "DIV",
+      "cls": "data-item",
+      "title": "",
+      "text": "",
+      "x": 1635.5,
+      "y": 120,
+      "w": 68,
+      "h": 111
+    },
+    {
+      "i": 659,
+      "tag": "DIV",
+      "cls": "data-item",
+      "title": "",
+      "text": "",
+      "x": 1728.75,
+      "y": 120,
+      "w": 68,
+      "h": 111
+    },
+    {
+      "i": 660,
+      "tag": "DIV",
+      "cls": "data-item",
+      "title": "",
+      "text": "",
+      "x": 1822,
+      "y": 120,
+      "w": 68,
+      "h": 111
+    }
+  ],
+  "screenshot": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\screenshots\\reference_lk_object_mgmt_network_capture.png",
+  "captured_at": "2026-06-18 09:08:35"
+}

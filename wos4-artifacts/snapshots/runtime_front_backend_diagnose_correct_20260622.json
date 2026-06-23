@@ -1,0 +1,154 @@
+{
+  "t": 1782094196070,
+  "href": "http://221.239.19.118:13001/public/index.html?id=6192730962611142709&parentid=0&cloudid=107&clientnumber=7710165594863352807&bs=true#/#{%22clientGuid%22:%22d01d4d20-79d3-4b0d-9d89-77856713e525%22,%22FUType%22:11}",
+  "title": "🐴 WellinOS4.0",
+  "frames": [
+    {
+      "path": "top",
+      "href": "http://221.239.19.118:13001/public/index.html?id=6192730962611142709&parentid=0&cloudid=107&clientnumber=7710165594863352807&bs=true#/#{%22clientGuid%22:%22d01d4d20-79d3-4b0d-9d89-77856713e525%22,%22FUType%22:11}",
+      "title": "🐴 WellinOS4.0",
+      "hasPage": false,
+      "text": ""
+    },
+    {
+      "path": "top.0",
+      "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+      "title": "客户端运行",
+      "hasPage": true,
+      "text": "查询全部(4)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n泵站A-01\n\t\nA\n\t\n正常\n\t\n128\n\t\n0.62\n\n\n泵站A-02\n\t\nA\n\t\n待机\n\t\n96\n\t\n0.58\n\n\n泵站B-01\n\t\nB\n\t\n正常\n\t\n141\n\t\n0.67\n\n\n泵站B-02\n\t\nB\n\t\n报警\n\t\n73\n\t\n0.49\n共 4 条\n1\n前往页"
+    }
+  ],
+  "roots": {
+    "ret": 0,
+    "output": {
+      "errorcodes": [
+        0
+      ],
+      "ret": 0,
+      "returndata": [
+        {
+          "$id": "5911255985900486967",
+          "$guid": "73e3ef20-4d45-4902-9dd7-e2d728c5428a",
+          "$name": "业务内置APP@NadirBack/业务内置APP",
+          "$modelguid": "4cdf8aaa-dcff-45ed-a061-ba1bd711673b",
+          "$modelversion": 22,
+          "$spacetimeguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c"
+        },
+        {
+          "$id": "5911255985900486968",
+          "$guid": "bcbd31fa-1c9b-43f0-ac55-e3b3d0703e9f",
+          "$name": "盛云_孙宇飞_前端_CRUDDemo_0620@NadirFront",
+          "$modelguid": "a739da42-6355-4085-a5e9-a1c5ec088b30",
+          "$modelversion": 2,
+          "$spacetimeguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c"
+        },
+        {
+          "$id": "5911255985900486969",
+          "$guid": "02fdf420-dc18-4121-abfd-1028614d2414",
+          "$name": "业务内置APP@NadirFront/业务内置APP",
+          "$modelguid": "4cdf8aaa-dcff-45ed-a061-ba1bd711673b",
+          "$modelversion": 22,
+          "$spacetimeguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c"
+        },
+        {
+          "$id": "5911255985900486970",
+          "$guid": "4aeb7354-d29d-4969-834e-4310951bd719",
+          "$name": "盛云_孙宇飞_后台_CRUDDemo_0620@NadirBack",
+          "$modelguid": "5702ad4a-a934-43a9-9e14-f2ca545abb53",
+          "$modelversion": 1,
+          "$spacetimeguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c"
+        }
+      ]
+    },
+    "traceID": "5189017501354099712",
+    "consumeTime": 38
+  },
+  "calls": [
+    {
+      "kind": "query-name",
+      "name": "DemoCrudBackend_CUSTOMFUNC@NadirBack",
+      "res": {
+        "ret": 536903688,
+        "output": {
+          "errorcodes": [],
+          "ret": 536903688,
+          "returndata": []
+        },
+        "traceID": "5189017538034188288",
+        "consumeTime": 34
+      }
+    },
+    {
+      "kind": "query-name",
+      "name": "DemoCrudBackend@NadirBack",
+      "res": {
+        "ret": 536903688,
+        "output": {
+          "errorcodes": [],
+          "ret": 536903688,
+          "returndata": []
+        },
+        "traceID": "5189017585157780480",
+        "consumeTime": 46
+      }
+    },
+    {
+      "kind": "call",
+      "name": "DemoCrudBackend_CUSTOMFUNC@NadirBack",
+      "paramKind": "string",
+      "started": 1782094196189,
+      "res": {
+        "consumeTime": 1201,
+        "returnData": null,
+        "errorcodes": [
+          -220006
+        ],
+        "ret": -220006,
+        "traceID": "0"
+      },
+      "ms": 1951
+    },
+    {
+      "kind": "call",
+      "name": "??_???_??_CRUDDemo_0620@NadirBack",
+      "paramKind": "string",
+      "started": 1782094198140,
+      "res": {
+        "consumeTime": 1201,
+        "returnData": null,
+        "errorcodes": [
+          -220006
+        ],
+        "ret": -220006,
+        "traceID": "0"
+      },
+      "ms": 1995
+    }
+  ],
+  "pageFound": true,
+  "pagePath": "top.0",
+  "spaceTimeId": {
+    "spaceTime": "NadirL2",
+    "stType": 5,
+    "devName": "NadirFront",
+    "name": "NadirL2",
+    "guid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+    "id": "1152921504606851278"
+  },
+  "spaceTimeIdShallow": {
+    "spaceTime": "NadirL2",
+    "stType": 5,
+    "devName": "NadirFront",
+    "name": "NadirL2",
+    "guid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+    "id": "1152921504606851278"
+  },
+  "variables": {},
+  "apiTypes": {
+    "StringMap": "function",
+    "Variant": "function",
+    "Query": "function",
+    "Call": "function",
+    "SetRunInfo": "undefined"
+  }
+}

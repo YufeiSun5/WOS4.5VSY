@@ -1,0 +1,90 @@
+{
+  "capturedAt": "2026-06-11T19:40:43.645Z",
+  "stage": "before-edit",
+  "page": {
+    "hasPageView": true,
+    "pageProperty": {
+      "name": "Codex临时功能单元_Node_0611",
+      "comment": "",
+      "GUID": "k3be785a0-e8af-4c65-98f5-cf22b66c08c3",
+      "backColor": "",
+      "picName": "",
+      "picId": "",
+      "pageSize": {
+        "width": 1920,
+        "height": 1080
+      },
+      "windowStyle": "ratating",
+      "showPage": {
+        "closable": true,
+        "maximizable": true,
+        "styleConfig": ""
+      },
+      "sizeable": true,
+      "fontsizeable": false,
+      "appOrientation": true,
+      "lockWidthHeight": false,
+      "minSize": false,
+      "minSize_width": "600px",
+      "minSize_height": "100px",
+      "authFlag": "close",
+      "pageAdaptiveFlag": "close"
+    },
+    "variables": [
+      {
+        "KSCGUID": "codex_filterKey",
+        "varDes": "当前区域",
+        "varName": "filterKey",
+        "varType": 13,
+        "varDefaultValue": "A",
+        "AbsVariableId": "AbsVariableId",
+        "isPublic": false,
+        "relateInfo": "",
+        "isLinkDataObj": false,
+        "linkDataObjInfo": {},
+        "linkDataObjInfos": [],
+        "linkDataObjName": "",
+        "returnFormat": 0,
+        "isShowRealTimeClock": false,
+        "concreteFormat": "yyyy-MM-dd HH:mm:ss",
+        "varValue": "A"
+      },
+      {
+        "KSCGUID": "codex_clickCount",
+        "varDes": "点击次数",
+        "varName": "clickCount",
+        "varType": 3,
+        "varDefaultValue": 0,
+        "AbsVariableId": "AbsVariableId",
+        "isPublic": false,
+        "relateInfo": "",
+        "isLinkDataObj": false,
+        "linkDataObjInfo": {},
+        "linkDataObjInfos": [],
+        "linkDataObjName": "",
+        "returnFormat": 0,
+        "isShowRealTimeClock": false,
+        "concreteFormat": "yyyy-MM-dd HH:mm:ss",
+        "varValue": "0"
+      }
+    ],
+    "linkCount": 5
+  },
+  "root": null,
+  "layout": [],
+  "componentKeys": [
+    "文本",
+    "RCol11",
+    "按钮",
+    "RCol12",
+    "RRow1",
+    "表格",
+    "RCol6",
+    "RCol15",
+    "RRow2",
+    "RContainer1",
+    "图层1",
+    "currentSelectItem",
+    "自定义图表"
+  ]
+}

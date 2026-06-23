@@ -1,0 +1,609 @@
+{
+  "ok": true,
+  "componentItems": [
+    {
+      "id": "responsecontainer",
+      "text": "布局"
+    },
+    {
+      "id": "responsecontainer",
+      "text": "分栏*1"
+    },
+    {
+      "id": "responsecontainer",
+      "text": "分栏*2"
+    },
+    {
+      "id": "responsecontainer",
+      "text": "分栏*4"
+    },
+    {
+      "id": "button",
+      "text": "按钮"
+    },
+    {
+      "id": "table",
+      "text": "表格"
+    },
+    {
+      "id": "input",
+      "text": "输入框"
+    },
+    {
+      "id": "select",
+      "text": "选择器"
+    },
+    {
+      "id": "text",
+      "text": "文本"
+    },
+    {
+      "id": "datepicker",
+      "text": "日期时间选择器"
+    },
+    {
+      "id": "navmenu",
+      "text": "导航菜单"
+    },
+    {
+      "id": "tree",
+      "text": "树"
+    },
+    {
+      "id": "image",
+      "text": "图片"
+    },
+    {
+      "id": "element_upload",
+      "text": "上传"
+    },
+    {
+      "id": "tabs",
+      "text": "标签页"
+    },
+    {
+      "id": "radiobox",
+      "text": "单选框"
+    },
+    {
+      "id": "checkbox",
+      "text": "多选框"
+    },
+    {
+      "id": "switch",
+      "text": "开关"
+    },
+    {
+      "id": "timepicker",
+      "text": "时间选择器"
+    },
+    {
+      "id": "card",
+      "text": "卡片"
+    },
+    {
+      "id": "minicard",
+      "text": "业务卡片"
+    },
+    {
+      "id": "collapse",
+      "text": "折叠面板"
+    },
+    {
+      "id": "dropdown",
+      "text": "下拉菜单"
+    },
+    {
+      "id": "cascader",
+      "text": "级联选择器"
+    },
+    {
+      "id": "webcontainer",
+      "text": "网页容器"
+    },
+    {
+      "id": "tag",
+      "text": "标签"
+    },
+    {
+      "id": "cross",
+      "text": "穿梭框"
+    },
+    {
+      "id": "counter",
+      "text": "计数器"
+    },
+    {
+      "id": "timeline",
+      "text": "时间线"
+    },
+    {
+      "id": "steps",
+      "text": "步骤条"
+    },
+    {
+      "id": "slider",
+      "text": "滑块"
+    },
+    {
+      "id": "rate",
+      "text": "评分"
+    },
+    {
+      "id": "carousel",
+      "text": "轮播组件"
+    },
+    {
+      "id": "imagecarsuel",
+      "text": "自定义轮播"
+    },
+    {
+      "id": "calendar",
+      "text": "日历"
+    },
+    {
+      "id": "signature",
+      "text": "电子签名"
+    },
+    {
+      "id": "KSCQRorBarCode",
+      "text": "条形码"
+    },
+    {
+      "id": "ScriptEditor",
+      "text": "脚本编辑器"
+    },
+    {
+      "id": "pagination",
+      "text": "分页"
+    },
+    {
+      "id": "BigDataTable",
+      "text": "大数据表格"
+    },
+    {
+      "id": "vant_input",
+      "text": "移动端_输入框"
+    },
+    {
+      "id": "vant_upload",
+      "text": "移动端_文件上传"
+    },
+    {
+      "id": "progressbar",
+      "text": "移动端_进度条"
+    },
+    {
+      "id": "grid",
+      "text": "移动端_宫格"
+    },
+    {
+      "id": "navigationbar",
+      "text": "移动端_导航栏"
+    },
+    {
+      "id": "labelbar",
+      "text": "移动端_标签栏"
+    },
+    {
+      "id": "dropdownmenu",
+      "text": "移动端_下拉菜单"
+    },
+    {
+      "id": "list",
+      "text": "移动端_列表"
+    },
+    {
+      "id": "vantTreeSelect",
+      "text": "移动端_分类选择"
+    },
+    {
+      "id": "form",
+      "text": "移动端_表单"
+    },
+    {
+      "id": "chart/多对象表格",
+      "text": "多对象表格"
+    },
+    {
+      "id": "chart/实时表格",
+      "text": "实时表格"
+    },
+    {
+      "id": "chart/历史表格",
+      "text": "历史表格"
+    },
+    {
+      "id": "chart/计划表格",
+      "text": "计划表格"
+    },
+    {
+      "id": "chart/历史趋势曲线",
+      "text": "趋势曲线"
+    },
+    {
+      "id": "chart/自定义图表",
+      "text": "自定义图表"
+    },
+    {
+      "id": "chart/流程查看器",
+      "text": "流程查看器"
+    },
+    {
+      "id": "chart/流程编辑器",
+      "text": "流程编辑器"
+    },
+    {
+      "id": "chart/报警窗",
+      "text": "报警窗"
+    },
+    {
+      "id": "chart/甘特图",
+      "text": "甘特图"
+    },
+    {
+      "id": "chart/普通柱状图",
+      "text": "普通柱状图"
+    },
+    {
+      "id": "chart/渐变柱状图",
+      "text": "多系列柱状图"
+    },
+    {
+      "id": "chart/柱状图表",
+      "text": "普通柱状图"
+    },
+    {
+      "id": "chart/堆叠柱状图",
+      "text": "堆叠柱状图"
+    },
+    {
+      "id": "chart/曲顶柱状图",
+      "text": "曲顶柱状图"
+    },
+    {
+      "id": "chart/象形柱状图",
+      "text": "象形柱状图"
+    },
+    {
+      "id": "chart/伪立体柱状图",
+      "text": "立体柱状图"
+    },
+    {
+      "id": "chart/双立体柱状图",
+      "text": "多系列立体柱状图"
+    },
+    {
+      "id": "chart/立体柱状图",
+      "text": "立体柱状图"
+    },
+    {
+      "id": "chart/光圈柱状图",
+      "text": "光圈柱状图"
+    },
+    {
+      "id": "chart/3D立体渐变柱状图",
+      "text": "多系列立体柱状图"
+    },
+    {
+      "id": "chart/多色立体柱状图",
+      "text": "立体柱状图1"
+    },
+    {
+      "id": "chart/伪立体柱状图1",
+      "text": "光圈立体柱状图"
+    },
+    {
+      "id": "chart/伪3D组合柱子",
+      "text": "横向渐变柱状图"
+    },
+    {
+      "id": "chart/横向立体柱状图",
+      "text": "横向立体柱状图"
+    },
+    {
+      "id": "chart/多色横向柱状图",
+      "text": "横向柱状图"
+    },
+    {
+      "id": "chart/渐变横向柱状图",
+      "text": "横向柱状图"
+    },
+    {
+      "id": "chart/横向象形柱状图",
+      "text": "象形柱状图"
+    },
+    {
+      "id": "chart/横向柱状图及排名",
+      "text": "横向柱状图及排名"
+    },
+    {
+      "id": "chart/重叠横向柱状图",
+      "text": "横向柱状图1"
+    },
+    {
+      "id": "chart/电池-进度柱状图",
+      "text": "电池-进度柱状图"
+    },
+    {
+      "id": "chart/横排分隔形柱状图",
+      "text": "横排分隔形柱状图"
+    },
+    {
+      "id": "chart/折线图",
+      "text": "折线图"
+    },
+    {
+      "id": "chart/渐变折线图",
+      "text": "渐变折线图"
+    },
+    {
+      "id": "chart/多线图1",
+      "text": "多线图"
+    },
+    {
+      "id": "chart/多线图",
+      "text": "多线图"
+    },
+    {
+      "id": "chart/销售水量占比",
+      "text": "折现堆叠图"
+    },
+    {
+      "id": "chart/多色渐变折线图",
+      "text": "多线图"
+    },
+    {
+      "id": "chart/混合柱状图",
+      "text": "立体混合图"
+    },
+    {
+      "id": "chart/混合立体柱状图",
+      "text": "立体混合图"
+    },
+    {
+      "id": "chart/混合渐变图",
+      "text": "同数据混合图"
+    },
+    {
+      "id": "chart/渐变折线柱状图",
+      "text": "渐变混合图"
+    },
+    {
+      "id": "chart/标注气泡图",
+      "text": "气泡混合图"
+    },
+    {
+      "id": "chart/蓝色饼图",
+      "text": "普通饼图"
+    },
+    {
+      "id": "chart/南丁格尔玫瑰图",
+      "text": "南丁格尔玫瑰图"
+    },
+    {
+      "id": "chart/交通方式",
+      "text": "光圈饼图"
+    },
+    {
+      "id": "chart/断开环形图",
+      "text": "断开环形图"
+    },
+    {
+      "id": "chart/动画装饰仪表盘",
+      "text": "动画装饰仪表盘"
+    },
+    {
+      "id": "chart/炫酷饼图",
+      "text": "普通饼图"
+    },
+    {
+      "id": "chart/饼图（常规）",
+      "text": "普通饼图"
+    },
+    {
+      "id": "chart/占比饼图",
+      "text": "占比饼图"
+    },
+    {
+      "id": "chart/用户分析健康评分",
+      "text": "仪表饼图"
+    },
+    {
+      "id": "chart/正面评论",
+      "text": "多系列饼图"
+    },
+    {
+      "id": "chart/嵌套饼图",
+      "text": "立体饼图"
+    },
+    {
+      "id": "chart/SPEED",
+      "text": "普通饼图"
+    },
+    {
+      "id": "chart/CPU分配率",
+      "text": "普通饼图"
+    },
+    {
+      "id": "chart/GOAL",
+      "text": "炫酷饼图"
+    },
+    {
+      "id": "chart/24",
+      "text": "普通饼图"
+    },
+    {
+      "id": "chart/超期率",
+      "text": "普通饼图"
+    },
+    {
+      "id": "chart/仪表盘带进度条",
+      "text": "仪表盘"
+    },
+    {
+      "id": "chart/仪表盘",
+      "text": "仪表盘"
+    },
+    {
+      "id": "chart/分段渐变仪表盘",
+      "text": "分段渐变仪表盘"
+    },
+    {
+      "id": "chart/仪表盘1",
+      "text": "仪表盘"
+    },
+    {
+      "id": "chart/仪表盘2",
+      "text": "炫酷仪表盘"
+    },
+    {
+      "id": "chart/噪音仪表盘",
+      "text": "噪音仪表盘"
+    },
+    {
+      "id": "chart/仪表盘3",
+      "text": "噪音仪表盘"
+    },
+    {
+      "id": "chart/仪表盘-有进度条-指针会动",
+      "text": "仪表盘"
+    },
+    {
+      "id": "chart/雷达图",
+      "text": "雷达图"
+    },
+    {
+      "id": "chart/渐变色雷达图",
+      "text": "k_mzubq6"
+    },
+    {
+      "id": "chart/雷达图-tooltip显示单轴数据",
+      "text": "雷达图"
+    },
+    {
+      "id": "chart/卫星坐标（雷达图）",
+      "text": "卫星坐标雷达图"
+    },
+    {
+      "id": "chart/闪点气泡图",
+      "text": "普通气泡图"
+    },
+    {
+      "id": "chart/气泡图 Y轴变汉字中文",
+      "text": "普通气泡图"
+    },
+    {
+      "id": "chart/散点图",
+      "text": "散点图"
+    },
+    {
+      "id": "chart/Echarts 气泡图",
+      "text": "普通气泡图"
+    },
+    {
+      "id": "chart/漏斗图",
+      "text": "漏斗图"
+    },
+    {
+      "id": "chart/前后漏斗对比",
+      "text": "前后对比漏斗图"
+    },
+    {
+      "id": "chart/左右漏斗图对比",
+      "text": "左右对比漏斗图"
+    },
+    {
+      "id": "chart/漏斗图1",
+      "text": "向下漏斗图"
+    },
+    {
+      "id": "chart/漏斗图2",
+      "text": "向上漏斗图"
+    },
+    {
+      "id": "chart/项目各阶段进度甘特图",
+      "text": "普通甘特图"
+    },
+    {
+      "id": "chart/甘特图例子",
+      "text": "普通甘特图"
+    },
+    {
+      "id": "chart/test",
+      "text": "水波图"
+    },
+    {
+      "id": "chart/水球图",
+      "text": "水球图"
+    },
+    {
+      "id": "chart/水球比例图",
+      "text": "水球图"
+    },
+    {
+      "id": "chart/好看环形百分比图",
+      "text": "圆环百分比"
+    },
+    {
+      "id": "chart/圆环百分比",
+      "text": "圆环百分比"
+    },
+    {
+      "id": "chart/百分比进度条",
+      "text": "百分比进度条"
+    },
+    {
+      "id": "chart/3D环饼图",
+      "text": "立体环饼图"
+    },
+    {
+      "id": "chart/3D环形图",
+      "text": "立体环形图"
+    },
+    {
+      "id": "chart/伪3d环形图",
+      "text": "立体环形图"
+    },
+    {
+      "id": "chart/模拟3D地图——迁徙图",
+      "text": "地图流向图"
+    },
+    {
+      "id": "chart/地图时间轴多样",
+      "text": "地图气泡图"
+    }
+  ],
+  "tabs": [
+    "全部",
+    "常用",
+    "导航",
+    "数据",
+    "选择",
+    "输入",
+    "媒体",
+    "其他",
+    "全部",
+    "业务表格",
+    "趋势曲线",
+    "柱状图",
+    "立体柱状图",
+    "条形图",
+    "折线图",
+    "混合图",
+    "饼图",
+    "仪表",
+    "雷达图",
+    "气泡图",
+    "漏斗图",
+    "甘特图",
+    "水波图",
+    "百分比图",
+    "3D饼图",
+    "地图",
+    "其他",
+    "查询列表",
+    "对象",
+    "图层"
+  ]
+}

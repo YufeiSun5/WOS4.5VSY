@@ -1,0 +1,2815 @@
+{
+  "url": "http://221.239.19.118:13001/desktop-frame/index.html?cloud=107#/main/worker-space-model",
+  "candidates": [
+    {
+      "tag": "DIV",
+      "cls": "worker-space-tabs-view w100 h100",
+      "id": "",
+      "text": "时空开发\n部署管理\n盛云_孙宇飞_元语言查询Demo_0617",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 199,
+        "y": 20,
+        "w": 1413.546875,
+        "h": 34
+      },
+      "visible": true
+    },
+    {
+      "tag": "UL",
+      "cls": "worker-space-tabs w100 h100",
+      "id": "",
+      "text": "时空开发\n部署管理\n盛云_孙宇飞_元语言查询Demo_0617",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 199,
+        "y": 20,
+        "w": 1413.546875,
+        "h": 34
+      },
+      "visible": true
+    },
+    {
+      "tag": "LI",
+      "cls": "worker-space-tab-item index cursor-pointer",
+      "id": "",
+      "text": "时空开发",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 211,
+        "y": 20,
+        "w": 87,
+        "h": 34
+      },
+      "visible": true
+    },
+    {
+      "tag": "I",
+      "cls": "icon iconfont-WOS45 icon-WOS45-home",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 216,
+        "y": 29,
+        "w": 16,
+        "h": 16
+      },
+      "visible": true
+    },
+    {
+      "tag": "LI",
+      "cls": "worker-space-tab-item index cursor-pointer",
+      "id": "",
+      "text": "部署管理",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 322,
+        "y": 20,
+        "w": 87,
+        "h": 34
+      },
+      "visible": true
+    },
+    {
+      "tag": "I",
+      "cls": "icon iconfont-WOS45 icon-WOS45-kechengtixi",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 327,
+        "y": 29,
+        "w": 16,
+        "h": 16
+      },
+      "visible": true
+    },
+    {
+      "tag": "LI",
+      "cls": "worker-space-tab-item tab cursor-pointer is-active",
+      "id": "",
+      "text": "盛云_孙宇飞_元语言查询Demo_0617",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 421,
+        "y": 19.5,
+        "w": 164,
+        "h": 35
+      },
+      "visible": true
+    },
+    {
+      "tag": "I",
+      "cls": "el-icon worker-space-tab-item-close cursor-pointer",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 567,
+        "y": 31.5,
+        "w": 12,
+        "h": 12
+      },
+      "visible": true
+    },
+    {
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 567,
+        "y": 31.5,
+        "w": 12,
+        "h": 12
+      },
+      "visible": true
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default is-link",
+      "id": "",
+      "text": "仓库包",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1622.546875,
+        "y": 15.25,
+        "w": 71,
+        "h": 23.484375
+      },
+      "visible": true
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default is-link",
+      "id": "",
+      "text": "权限",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1705.546875,
+        "y": 16,
+        "w": 56,
+        "h": 22
+      },
+      "visible": true
+    },
+    {
+      "tag": "I",
+      "cls": "icon iconfont-WOS45 icon-WOS45-quanxian",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1708.546875,
+        "y": 19,
+        "w": 16,
+        "h": 16
+      },
+      "visible": true
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default is-disabled is-link",
+      "id": "",
+      "text": "镜像",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1773.546875,
+        "y": 16,
+        "w": 57.453125,
+        "h": 22
+      },
+      "visible": true
+    },
+    {
+      "tag": "I",
+      "cls": "icon iconfont-WOS45 icon-WOS45-jingxiang",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1776.546875,
+        "y": 19,
+        "w": 17.453125,
+        "h": 16
+      },
+      "visible": true
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default is-disabled is-link",
+      "id": "",
+      "text": "关于",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1843,
+        "y": 16,
+        "w": 56,
+        "h": 22
+      },
+      "visible": true
+    },
+    {
+      "tag": "I",
+      "cls": "icon iconfont-WOS45 icon-WOS45-guanyu",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1846,
+        "y": 19,
+        "w": 16,
+        "h": 16
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "menu-item wos-script-editor-function-mng is-active",
+      "id": "",
+      "text": "编辑",
+      "title": "编辑",
+      "role": "",
+      "rect": {
+        "x": 6,
+        "y": 67,
+        "w": 40,
+        "h": 40
+      },
+      "visible": true
+    },
+    {
+      "tag": "I",
+      "cls": "el-icon item-icon",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 16,
+        "y": 77,
+        "w": 20,
+        "h": 20
+      },
+      "visible": true
+    },
+    {
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 16,
+        "y": 77,
+        "w": 20,
+        "h": 20
+      },
+      "visible": true
+    },
+    {
+      "tag": "I",
+      "cls": "el-icon item-icon",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 16,
+        "y": 117,
+        "w": 20,
+        "h": 20
+      },
+      "visible": true
+    },
+    {
+      "tag": "I",
+      "cls": "icon iconfont icon-zaixiantiaoshi",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 16.34375,
+        "y": 117,
+        "w": 19.296875,
+        "h": 20
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-collapse-item__header",
+      "id": "el-collapse-head-295",
+      "text": "变量",
+      "title": "",
+      "role": "button",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "visible": false
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-tree variable-tree",
+      "id": "",
+      "text": "暂无数据",
+      "title": "",
+      "role": "tree",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "visible": false
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-tree__empty-block",
+      "id": "",
+      "text": "暂无数据",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "visible": false
+    },
+    {
+      "tag": "SPAN",
+      "cls": "el-tree__empty-text",
+      "id": "",
+      "text": "暂无数据",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "visible": false
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-collapse-item__header",
+      "id": "el-collapse-head-296",
+      "text": "监视",
+      "title": "",
+      "role": "button",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "visible": false
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-collapse-item__header",
+      "id": "el-collapse-head-297",
+      "text": "堆栈",
+      "title": "",
+      "role": "button",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "visible": false
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-collapse-item__header",
+      "id": "el-collapse-head-298",
+      "text": "断点",
+      "title": "",
+      "role": "button",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "visible": false
+    },
+    {
+      "tag": "DIV",
+      "cls": "code-editor-metalang-model-function function-mng-panel w100 metalang-script-editor-model-functions",
+      "id": "",
+      "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 46,
+        "y": 67,
+        "w": 300,
+        "h": 808
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "model-function-header",
+      "id": "",
+      "text": "新建",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 61,
+        "y": 82,
+        "w": 280,
+        "h": 92
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "function-add",
+      "id": "",
+      "text": "新建",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 61,
+        "y": 82,
+        "w": 270,
+        "h": 31
+      },
+      "visible": true
+    },
+    {
+      "tag": "SPAN",
+      "cls": "model-function-add-text",
+      "id": "",
+      "text": "新建",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 61,
+        "y": 87,
+        "w": 153,
+        "h": 21
+      },
+      "visible": true
+    },
+    {
+      "tag": "SPAN",
+      "cls": "icon iconfont icon-model-function-add cursor-pointer",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 156,
+        "y": 90,
+        "w": 16,
+        "h": 16
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "function-search",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 61,
+        "y": 123,
+        "w": 270,
+        "h": 36
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-input el-input--default el-input--suffix model-function-search-input",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 61,
+        "y": 123,
+        "w": 270,
+        "h": 36
+      },
+      "visible": true
+    },
+    {
+      "tag": "I",
+      "cls": "icon iconfont cursor-pointer wos-editor-search",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 299,
+        "y": 126,
+        "w": 20,
+        "h": 30
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-scrollbar model-function-list",
+      "id": "",
+      "text": "declare\n\nonCreate\n\nonDestroy\n\nonException",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 61,
+        "y": 174,
+        "w": 280,
+        "h": 686
+      },
+      "visible": true
+    },
+    {
+      "tag": "P",
+      "cls": "model-function-list-item cursor-pointer function-list-item active",
+      "id": "",
+      "text": "declare",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 61,
+        "y": 174,
+        "w": 280,
+        "h": 30
+      },
+      "visible": true
+    },
+    {
+      "tag": "SPAN",
+      "cls": "model-function-list-item-text",
+      "id": "",
+      "text": "declare",
+      "title": "declare",
+      "role": "",
+      "rect": {
+        "x": 76,
+        "y": 174,
+        "w": 250,
+        "h": 30
+      },
+      "visible": true
+    },
+    {
+      "tag": "P",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "id": "",
+      "text": "onCreate",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 61,
+        "y": 204,
+        "w": 280,
+        "h": 30
+      },
+      "visible": true
+    },
+    {
+      "tag": "SPAN",
+      "cls": "model-function-list-item-text",
+      "id": "",
+      "text": "onCreate",
+      "title": "onCreate",
+      "role": "",
+      "rect": {
+        "x": 76,
+        "y": 204,
+        "w": 250,
+        "h": 30
+      },
+      "visible": true
+    },
+    {
+      "tag": "P",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "id": "",
+      "text": "onDestroy",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 61,
+        "y": 234,
+        "w": 280,
+        "h": 30
+      },
+      "visible": true
+    },
+    {
+      "tag": "SPAN",
+      "cls": "model-function-list-item-text",
+      "id": "",
+      "text": "onDestroy",
+      "title": "onDestroy",
+      "role": "",
+      "rect": {
+        "x": 76,
+        "y": 234,
+        "w": 250,
+        "h": 30
+      },
+      "visible": true
+    },
+    {
+      "tag": "P",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "id": "",
+      "text": "onException",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 61,
+        "y": 264,
+        "w": 280,
+        "h": 30
+      },
+      "visible": true
+    },
+    {
+      "tag": "SPAN",
+      "cls": "model-function-list-item-text",
+      "id": "",
+      "text": "onException",
+      "title": "onException",
+      "role": "",
+      "rect": {
+        "x": 76,
+        "y": 264,
+        "w": 250,
+        "h": 30
+      },
+      "visible": true
+    },
+    {
+      "tag": "SPAN",
+      "cls": "icon iconfont cursor-pointer wos-editor-save el-tooltip__trigger el-tooltip__trigger",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 359,
+        "y": 62.5,
+        "w": 20,
+        "h": 55
+      },
+      "visible": true
+    },
+    {
+      "tag": "I",
+      "cls": "el-icon icon cursor-pointer wos-editor-debug-start el-tooltip__trigger el-tooltip__trigger",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 573,
+        "y": 80,
+        "w": 20,
+        "h": 20
+      },
+      "visible": true
+    },
+    {
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 573,
+        "y": 80,
+        "w": 20,
+        "h": 20
+      },
+      "visible": true
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default",
+      "id": "",
+      "text": "提交",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1279,
+        "y": 74,
+        "w": 78,
+        "h": 32
+      },
+      "visible": true
+    },
+    {
+      "tag": "I",
+      "cls": "el-icon",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1294,
+        "y": 83,
+        "w": 14,
+        "h": 14
+      },
+      "visible": true
+    },
+    {
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1294,
+        "y": 83,
+        "w": 14,
+        "h": 14
+      },
+      "visible": true
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default",
+      "id": "",
+      "text": "调试配置",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1369,
+        "y": 74,
+        "w": 106,
+        "h": 32
+      },
+      "visible": true
+    },
+    {
+      "tag": "I",
+      "cls": "el-icon",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1384,
+        "y": 83,
+        "w": 14,
+        "h": 14
+      },
+      "visible": true
+    },
+    {
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1384,
+        "y": 83,
+        "w": 14,
+        "h": 14
+      },
+      "visible": true
+    },
+    {
+      "tag": "I",
+      "cls": "el-icon icon cursor-pointer wos-editor-change-theme el-tooltip__trigger el-tooltip__trigger",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1485,
+        "y": 82,
+        "w": 16,
+        "h": 16
+      },
+      "visible": true
+    },
+    {
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1485,
+        "y": 82,
+        "w": 16,
+        "h": 16
+      },
+      "visible": true
+    },
+    {
+      "tag": "I",
+      "cls": "el-icon icon cursor-pointer wos-editor-fullScreen el-tooltip__trigger el-tooltip__trigger",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1511,
+        "y": 82,
+        "w": 16,
+        "h": 16
+      },
+      "visible": true
+    },
+    {
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1511,
+        "y": 82,
+        "w": 16,
+        "h": 16
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-tabs el-tabs--top el-tabs--card monaco-editor-tabs",
+      "id": "",
+      "text": "declare\n名称:\n输入参数:\n返回值类型:",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 349,
+        "y": 122,
+        "w": 1188,
+        "h": 74
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-tabs__header is-top",
+      "id": "",
+      "text": "declare",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 349,
+        "y": 122,
+        "w": 1188,
+        "h": 30
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-tabs__nav-wrap is-top",
+      "id": "",
+      "text": "declare",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 359,
+        "y": 122.5,
+        "w": 1178,
+        "h": 29
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-tabs__nav-scroll",
+      "id": "",
+      "text": "declare",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 359,
+        "y": 122.5,
+        "w": 1178,
+        "h": 29
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-tabs__nav is-top",
+      "id": "",
+      "text": "declare",
+      "title": "",
+      "role": "tablist",
+      "rect": {
+        "x": 359,
+        "y": 122.5,
+        "w": 117,
+        "h": 29
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-tabs__item is-top is-active",
+      "id": "tab-declare",
+      "text": "declare",
+      "title": "",
+      "role": "tab",
+      "rect": {
+        "x": 359,
+        "y": 121.5,
+        "w": 117,
+        "h": 30
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-tabs__content",
+      "id": "",
+      "text": "名称:\n输入参数:\n返回值类型:",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 349,
+        "y": 152,
+        "w": 1188,
+        "h": 44
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-tab-pane",
+      "id": "pane-declare",
+      "text": "名称:\n输入参数:\n返回值类型:",
+      "title": "",
+      "role": "tabpanel",
+      "rect": {
+        "x": 349,
+        "y": 152,
+        "w": 1188,
+        "h": 44
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "monaco-editor-tab-metalang-data",
+      "id": "",
+      "text": "名称:\n输入参数:\n返回值类型:",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 349,
+        "y": 152,
+        "w": 1188,
+        "h": 44
+      },
+      "visible": true
+    },
+    {
+      "tag": "FORM",
+      "cls": "el-form el-form--default el-form--label-right monaco-editor-tab-metalang-data-form",
+      "id": "",
+      "text": "名称:\n输入参数:\n返回值类型:",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 359,
+        "y": 152,
+        "w": 1178,
+        "h": 44
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-name wos-editor-function-name",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 402.90625,
+        "y": 157,
+        "w": 194,
+        "h": 34
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 688.8125,
+        "y": 157,
+        "w": 205,
+        "h": 34
+      },
+      "visible": true
+    },
+    {
+      "tag": "I",
+      "cls": "el-icon param-list-icon cursor-pointer",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 874.8125,
+        "y": 167,
+        "w": 14,
+        "h": 14
+      },
+      "visible": true
+    },
+    {
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 874.8125,
+        "y": 167,
+        "w": 14,
+        "h": 14
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 999.71875,
+        "y": 157,
+        "w": 194,
+        "h": 34
+      },
+      "visible": true
+    },
+    {
+      "tag": "SPAN",
+      "cls": "code-editor-footer-tab-size code-editor-footer-item el-tooltip__trigger el-tooltip__trigger",
+      "id": "el-id-5665-309",
+      "text": "空格：4",
+      "title": "",
+      "role": "button",
+      "rect": {
+        "x": 1415.953125,
+        "y": 875,
+        "w": 43.046875,
+        "h": 24
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "editor-aside function-editor-property",
+      "id": "",
+      "text": "属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0eb5ff6c-93d1-481f-96a4-1c8be6646531\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\n盛云_孙宇飞_仓库\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1543,
+        "y": 55,
+        "w": 377,
+        "h": 844
+      },
+      "visible": true
+    },
+    {
+      "tag": "I",
+      "cls": "el-icon fold-btn cursor-pointer",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1841,
+        "y": 77.5,
+        "w": 13,
+        "h": 13
+      },
+      "visible": true
+    },
+    {
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1841,
+        "y": 77.5,
+        "w": 13,
+        "h": 13
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-table--fit el-table--enable-row-hover el-table--enable-row-transition el-table--default el-table el-table--layout-fixed is-scrolling-none",
+      "id": "",
+      "text": "名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0eb5ff6c-93d1-481f-96a4-1c8be6646531\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\n盛云_孙宇飞_仓库\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 158,
+        "w": 295,
+        "h": 481
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-table__inner-wrapper",
+      "id": "",
+      "text": "名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0eb5ff6c-93d1-481f-96a4-1c8be6646531\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\n盛云_孙宇飞_仓库\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 158,
+        "w": 295,
+        "h": 481
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-table__body-wrapper",
+      "id": "",
+      "text": "名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0eb5ff6c-93d1-481f-96a4-1c8be6646531\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\n盛云_孙宇飞_仓库\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 158,
+        "w": 295,
+        "h": 481
+      },
+      "visible": true
+    },
+    {
+      "tag": "TABLE",
+      "cls": "el-table__body",
+      "id": "",
+      "text": "名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0eb5ff6c-93d1-481f-96a4-1c8be6646531\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\n盛云_孙宇飞_仓库\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 158,
+        "w": 295,
+        "h": 481
+      },
+      "visible": true
+    },
+    {
+      "tag": "TR",
+      "cls": "el-table__row",
+      "id": "",
+      "text": "名称:",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 158,
+        "w": 1,
+        "h": 36
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table_8_column_22 is-left el-table__cell",
+      "id": "",
+      "text": "名称:",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 164.5,
+        "w": 128,
+        "h": 23
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table_8_column_23 is-right el-table__cell",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1687,
+        "y": 158,
+        "w": 162,
+        "h": 36
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table__cell el-table__expanded-cell",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 194,
+        "w": 295,
+        "h": 1
+      },
+      "visible": true
+    },
+    {
+      "tag": "TR",
+      "cls": "el-table__row",
+      "id": "",
+      "text": "显示名称:",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 195,
+        "w": 1,
+        "h": 36
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table_8_column_22 is-left el-table__cell",
+      "id": "",
+      "text": "显示名称:",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 201.5,
+        "w": 128,
+        "h": 23
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table_8_column_23 is-right el-table__cell",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1687,
+        "y": 195,
+        "w": 162,
+        "h": 36
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table__cell el-table__expanded-cell",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 231,
+        "w": 295,
+        "h": 1
+      },
+      "visible": true
+    },
+    {
+      "tag": "TR",
+      "cls": "el-table__row",
+      "id": "",
+      "text": "描述:\n95 / 128",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 232,
+        "w": 1,
+        "h": 36
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table_8_column_22 is-left el-table__cell",
+      "id": "",
+      "text": "描述:",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 238.5,
+        "w": 128,
+        "h": 23
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table_8_column_23 is-right el-table__cell",
+      "id": "",
+      "text": "95 / 128",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1687,
+        "y": 232,
+        "w": 162,
+        "h": 36
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table__cell el-table__expanded-cell",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 268,
+        "w": 295,
+        "h": 1
+      },
+      "visible": true
+    },
+    {
+      "tag": "TR",
+      "cls": "el-table__row",
+      "id": "",
+      "text": "ID:\n1441151880758559635",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 269,
+        "w": 1,
+        "h": 36
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table_8_column_22 is-left el-table__cell",
+      "id": "",
+      "text": "ID:",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 275.5,
+        "w": 128,
+        "h": 23
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table_8_column_23 is-right el-table__cell",
+      "id": "",
+      "text": "1441151880758559635",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1687,
+        "y": 269,
+        "w": 162,
+        "h": 36
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table__cell el-table__expanded-cell",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 305,
+        "w": 295,
+        "h": 1
+      },
+      "visible": true
+    },
+    {
+      "tag": "TR",
+      "cls": "el-table__row",
+      "id": "",
+      "text": "GUID:\n0eb5ff6c-93d1-481f-96a4-1c8be6646531",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 306,
+        "w": 1,
+        "h": 36
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table_8_column_22 is-left el-table__cell",
+      "id": "",
+      "text": "GUID:",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 312.5,
+        "w": 128,
+        "h": 23
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table_8_column_23 is-right el-table__cell",
+      "id": "",
+      "text": "0eb5ff6c-93d1-481f-96a4-1c8be6646531",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1687,
+        "y": 306,
+        "w": 162,
+        "h": 36
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table__cell el-table__expanded-cell",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 342,
+        "w": 295,
+        "h": 1
+      },
+      "visible": true
+    },
+    {
+      "tag": "TR",
+      "cls": "el-table__row",
+      "id": "",
+      "text": "版本状态:\n编辑态",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 343,
+        "w": 1,
+        "h": 36
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table_8_column_22 is-left el-table__cell",
+      "id": "",
+      "text": "版本状态:",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 349.5,
+        "w": 128,
+        "h": 23
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table_8_column_23 is-right el-table__cell",
+      "id": "",
+      "text": "编辑态",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1687,
+        "y": 343,
+        "w": 162,
+        "h": 36
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table__cell el-table__expanded-cell",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 379,
+        "w": 295,
+        "h": 1
+      },
+      "visible": true
+    },
+    {
+      "tag": "TR",
+      "cls": "el-table__row",
+      "id": "",
+      "text": "上传图标:\n已配置\n上传",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 380,
+        "w": 1,
+        "h": 36
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table_8_column_22 is-left el-table__cell",
+      "id": "",
+      "text": "上传图标:",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 386.5,
+        "w": 128,
+        "h": 23
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table_8_column_23 is-right el-table__cell",
+      "id": "",
+      "text": "已配置\n上传",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1687,
+        "y": 380,
+        "w": 162,
+        "h": 36
+      },
+      "visible": true
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default is-link",
+      "id": "",
+      "text": "上传",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1807,
+        "y": 389.46875,
+        "w": 34,
+        "h": 20
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table__cell el-table__expanded-cell",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 416,
+        "w": 295,
+        "h": 1
+      },
+      "visible": true
+    },
+    {
+      "tag": "TR",
+      "cls": "el-table__row",
+      "id": "",
+      "text": "对象类型:\n功能单元模型",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 417,
+        "w": 1,
+        "h": 36
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table_8_column_22 is-left el-table__cell",
+      "id": "",
+      "text": "对象类型:",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 423.5,
+        "w": 128,
+        "h": 23
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table_8_column_23 is-right el-table__cell",
+      "id": "",
+      "text": "功能单元模型",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1687,
+        "y": 417,
+        "w": 162,
+        "h": 36
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table__cell el-table__expanded-cell",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 453,
+        "w": 295,
+        "h": 1
+      },
+      "visible": true
+    },
+    {
+      "tag": "TR",
+      "cls": "el-table__row",
+      "id": "",
+      "text": "历史版本:\n提交\n查看",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 454,
+        "w": 1,
+        "h": 36
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table_8_column_22 is-left el-table__cell",
+      "id": "",
+      "text": "历史版本:",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 460.5,
+        "w": 128,
+        "h": 23
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table_8_column_23 is-right el-table__cell",
+      "id": "",
+      "text": "提交\n查看",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1687,
+        "y": 454,
+        "w": 162,
+        "h": 36
+      },
+      "visible": true
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default is-link",
+      "id": "",
+      "text": "提交",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1761,
+        "y": 463.46875,
+        "w": 34,
+        "h": 20
+      },
+      "visible": true
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default is-link",
+      "id": "",
+      "text": "查看",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1807,
+        "y": 463.46875,
+        "w": 34,
+        "h": 20
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table__cell el-table__expanded-cell",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 490,
+        "w": 295,
+        "h": 1
+      },
+      "visible": true
+    },
+    {
+      "tag": "TR",
+      "cls": "el-table__row",
+      "id": "",
+      "text": "仓库路径:\n盛云_孙宇飞_仓库",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 491,
+        "w": 1,
+        "h": 36
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table_8_column_22 is-left el-table__cell",
+      "id": "",
+      "text": "仓库路径:",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 497.5,
+        "w": 128,
+        "h": 23
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table_8_column_23 is-right el-table__cell",
+      "id": "",
+      "text": "盛云_孙宇飞_仓库",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1687,
+        "y": 491,
+        "w": 162,
+        "h": 36
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table__cell el-table__expanded-cell",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 527,
+        "w": 295,
+        "h": 1
+      },
+      "visible": true
+    },
+    {
+      "tag": "TR",
+      "cls": "el-table__row",
+      "id": "",
+      "text": "分类标签1:",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 528,
+        "w": 1,
+        "h": 36
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table_8_column_22 is-left el-table__cell",
+      "id": "",
+      "text": "分类标签1:",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 534.5,
+        "w": 128,
+        "h": 23
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table_8_column_23 is-right el-table__cell",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1687,
+        "y": 528,
+        "w": 162,
+        "h": 36
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table__cell el-table__expanded-cell",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 564,
+        "w": 295,
+        "h": 1
+      },
+      "visible": true
+    },
+    {
+      "tag": "TR",
+      "cls": "el-table__row",
+      "id": "",
+      "text": "分类标签2:",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 565,
+        "w": 1,
+        "h": 36
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table_8_column_22 is-left el-table__cell",
+      "id": "",
+      "text": "分类标签2:",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 571.5,
+        "w": 128,
+        "h": 23
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table_8_column_23 is-right el-table__cell",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1687,
+        "y": 565,
+        "w": 162,
+        "h": 36
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table__cell el-table__expanded-cell",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 601,
+        "w": 295,
+        "h": 1
+      },
+      "visible": true
+    },
+    {
+      "tag": "TR",
+      "cls": "el-table__row",
+      "id": "",
+      "text": "分类标签3:",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 602,
+        "w": 1,
+        "h": 36
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table_8_column_22 is-left el-table__cell",
+      "id": "",
+      "text": "分类标签3:",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 608.5,
+        "w": 128,
+        "h": 23
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table_8_column_23 is-right el-table__cell",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1687,
+        "y": 602,
+        "w": 162,
+        "h": 36
+      },
+      "visible": true
+    },
+    {
+      "tag": "TD",
+      "cls": "el-table__cell el-table__expanded-cell",
+      "id": "",
+      "text": "",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 1559,
+        "y": 638,
+        "w": 295,
+        "h": 1
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-table--fit el-table--scrollable-x el-table--enable-row-hover el-table--default el-table el-table--layout-fixed is-scrolling-right",
+      "id": "",
+      "text": "成员名称成员值暂无数据",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "visible": false
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-table__inner-wrapper",
+      "id": "",
+      "text": "成员名称成员值暂无数据",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "visible": false
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-table__header-wrapper",
+      "id": "",
+      "text": "成员名称成员值",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "visible": false
+    },
+    {
+      "tag": "TABLE",
+      "cls": "el-table__header",
+      "id": "",
+      "text": "成员名称成员值",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "visible": false
+    },
+    {
+      "tag": "TH",
+      "cls": "el-table_7_column_19 is-left is-leaf el-table__cell",
+      "id": "",
+      "text": "成员名称",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "visible": false
+    },
+    {
+      "tag": "TH",
+      "cls": "el-table_7_column_20 is-left is-leaf el-table__cell",
+      "id": "",
+      "text": "成员值",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "visible": false
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-table__body-wrapper",
+      "id": "",
+      "text": "暂无数据",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "visible": false
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-table__empty-block",
+      "id": "",
+      "text": "暂无数据",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "visible": false
+    },
+    {
+      "tag": "SPAN",
+      "cls": "el-table__empty-text",
+      "id": "",
+      "text": "暂无数据",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "visible": false
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default el-button--default",
+      "id": "",
+      "text": "取消",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "visible": false
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "el-button el-button--primary el-button--default",
+      "id": "",
+      "text": "确定",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "visible": false
+    }
+  ],
+  "monaco": [
+    {
+      "tag": "DIV",
+      "cls": "monaco-editor",
+      "id": "",
+      "text": "1",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 349,
+        "y": 201,
+        "w": 1188,
+        "h": 671
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "monaco-editor no-user-select  showUnused showDeprecated vs-dark focused",
+      "id": "",
+      "text": "1",
+      "title": "",
+      "role": "code",
+      "rect": {
+        "x": 349,
+        "y": 201,
+        "w": 1188,
+        "h": 671
+      },
+      "visible": true
+    }
+  ],
+  "tabs": [
+    {
+      "tag": "HTML",
+      "cls": "",
+      "id": "",
+      "text": "时空功能开发平台\n\nTime Space Platform\n\n时空开发\n部署管理\n盛云_孙宇飞_元语言查询Demo_0617\n仓库包\n权限\n镜像\n关于\n新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\n名称:\n输入参数:\n返回值类型:\n1\n行：1，列：1，\n空格：4",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 899
+      },
+      "visible": true
+    },
+    {
+      "tag": "BODY",
+      "cls": "enable-motion underline-links",
+      "id": "",
+      "text": "时空功能开发平台\n\nTime Space Platform\n\n时空开发\n部署管理\n盛云_孙宇飞_元语言查询Demo_0617\n仓库包\n权限\n镜像\n关于\n新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\n名称:\n输入参数:\n返回值类型:\n1\n行：1，列：1，\n空格：4",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 899
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "wos-root-app",
+      "id": "desktop-frame",
+      "text": "时空功能开发平台\n\nTime Space Platform\n\n时空开发\n部署管理\n盛云_孙宇飞_元语言查询Demo_0617\n仓库包\n权限\n镜像\n关于\n新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\n名称:\n输入参数:\n返回值类型:\n1\n行：1，列：1，\n空格：4",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 899
+      },
+      "visible": true
+    },
+    {
+      "tag": "SECTION",
+      "cls": "el-container is-vertical desktop-frame-view w100 h100",
+      "id": "",
+      "text": "时空功能开发平台\n\nTime Space Platform\n\n时空开发\n部署管理\n盛云_孙宇飞_元语言查询Demo_0617\n仓库包\n权限\n镜像\n关于\n新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\n名称:\n输入参数:\n返回值类型:\n1\n行：1，列：1，\n空格：4",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 899
+      },
+      "visible": true
+    },
+    {
+      "tag": "SECTION",
+      "cls": "el-container view-main",
+      "id": "",
+      "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\n名称:\n输入参数:\n返回值类型:\n1\n行：1，列：1，\n空格：4\n元语言\n属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0e",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 0,
+        "y": 55,
+        "w": 1920,
+        "h": 844
+      },
+      "visible": true
+    },
+    {
+      "tag": "MAIN",
+      "cls": "el-main main-view",
+      "id": "",
+      "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\n名称:\n输入参数:\n返回值类型:\n1\n行：1，列：1，\n空格：4\n元语言\n属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0e",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 0,
+        "y": 55,
+        "w": 1920,
+        "h": 844
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "worker-space-view",
+      "id": "",
+      "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\n名称:\n输入参数:\n返回值类型:\n1\n行：1，列：1，\n空格：4\n元语言\n属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0e",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 0,
+        "y": 55,
+        "w": 1920,
+        "h": 844
+      },
+      "visible": true
+    },
+    {
+      "tag": "MAIN",
+      "cls": "worker-space-view-main",
+      "id": "",
+      "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\n名称:\n输入参数:\n返回值类型:\n1\n行：1，列：1，\n空格：4\n元语言\n属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0e",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 0,
+        "y": 55,
+        "w": 1920,
+        "h": 844
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "editor-container fu-editor-container",
+      "id": "",
+      "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\n名称:\n输入参数:\n返回值类型:\n1\n行：1，列：1，\n空格：4\n元语言\n属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n95 / 128\n\n\nID:\n1441151880758559635\n\n\nGUID:\n0e",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 0,
+        "y": 55,
+        "w": 1920,
+        "h": 844
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "editor-main",
+      "id": "",
+      "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\n名称:\n输入参数:\n返回值类型:\n1\n行：1，列：1，\n空格：4\n元语言",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 0,
+        "y": 55,
+        "w": 1543,
+        "h": 844
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "editor-aside editor-aside-main",
+      "id": "",
+      "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\n名称:\n输入参数:\n返回值类型:\n1\n行：1，列：1，\n空格：4\n元语言",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 0,
+        "y": 55,
+        "w": 1543,
+        "h": 844
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "editor-aside-comp-container",
+      "id": "",
+      "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\n名称:\n输入参数:\n返回值类型:\n1\n行：1，列：1，\n空格：4\n元语言",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 6,
+        "y": 67,
+        "w": 1531,
+        "h": 832
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "editor-aside-comp-item",
+      "id": "",
+      "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\n名称:\n输入参数:\n返回值类型:\n1\n行：1，列：1，\n空格：4\n元语言",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 6,
+        "y": 67,
+        "w": 1531,
+        "h": 832
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "editor-main",
+      "id": "",
+      "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\n名称:\n输入参数:\n返回值类型:\n1\n行：1，列：1，\n空格：4\n元语言",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 6,
+        "y": 67,
+        "w": 1531,
+        "h": 832
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-row",
+      "id": "",
+      "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\n名称:\n输入参数:\n返回值类型:\n1\n行：1，列：1，\n空格：4\n元语言",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 6,
+        "y": 67,
+        "w": 1531,
+        "h": 832
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "app-model-editor code-editor w100 h100 code-editor",
+      "id": "",
+      "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\n名称:\n输入参数:\n返回值类型:\n1\n行：1，列：1，\n空格：4\n元语言",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 6,
+        "y": 67,
+        "w": 1531,
+        "h": 832
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "metalang-script-editor w100 h100",
+      "id": "",
+      "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\n当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\n名称:\n输入参数:\n返回值类型:\n1",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 46,
+        "y": 67,
+        "w": 1491,
+        "h": 808
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "code-editor-metalang-model-function function-mng-panel w100 metalang-script-editor-model-functions",
+      "id": "",
+      "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 46,
+        "y": 67,
+        "w": 300,
+        "h": 808
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-scrollbar model-function-list",
+      "id": "",
+      "text": "declare\n\nonCreate\n\nonDestroy\n\nonException",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 61,
+        "y": 174,
+        "w": 280,
+        "h": 686
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-scrollbar__wrap el-scrollbar__wrap--hidden-default",
+      "id": "",
+      "text": "declare\n\nonCreate\n\nonDestroy\n\nonException",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 61,
+        "y": 174,
+        "w": 280,
+        "h": 686
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-scrollbar__view",
+      "id": "",
+      "text": "declare\n\nonCreate\n\nonDestroy\n\nonException",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 61,
+        "y": 174,
+        "w": 280,
+        "h": 120
+      },
+      "visible": true
+    },
+    {
+      "tag": "P",
+      "cls": "model-function-list-item cursor-pointer function-list-item active",
+      "id": "",
+      "text": "declare",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 61,
+        "y": 174,
+        "w": 280,
+        "h": 30
+      },
+      "visible": true
+    },
+    {
+      "tag": "SPAN",
+      "cls": "model-function-list-item-text",
+      "id": "",
+      "text": "declare",
+      "title": "declare",
+      "role": "",
+      "rect": {
+        "x": 76,
+        "y": 174,
+        "w": 250,
+        "h": 30
+      },
+      "visible": true
+    },
+    {
+      "tag": "P",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "id": "",
+      "text": "onCreate",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 61,
+        "y": 204,
+        "w": 280,
+        "h": 30
+      },
+      "visible": true
+    },
+    {
+      "tag": "SPAN",
+      "cls": "model-function-list-item-text",
+      "id": "",
+      "text": "onCreate",
+      "title": "onCreate",
+      "role": "",
+      "rect": {
+        "x": 76,
+        "y": 204,
+        "w": 250,
+        "h": 30
+      },
+      "visible": true
+    },
+    {
+      "tag": "P",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "id": "",
+      "text": "onDestroy",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 61,
+        "y": 234,
+        "w": 280,
+        "h": 30
+      },
+      "visible": true
+    },
+    {
+      "tag": "SPAN",
+      "cls": "model-function-list-item-text",
+      "id": "",
+      "text": "onDestroy",
+      "title": "onDestroy",
+      "role": "",
+      "rect": {
+        "x": 76,
+        "y": 234,
+        "w": 250,
+        "h": 30
+      },
+      "visible": true
+    },
+    {
+      "tag": "P",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "id": "",
+      "text": "onException",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 61,
+        "y": 264,
+        "w": 280,
+        "h": 30
+      },
+      "visible": true
+    },
+    {
+      "tag": "SPAN",
+      "cls": "model-function-list-item-text",
+      "id": "",
+      "text": "onException",
+      "title": "onException",
+      "role": "",
+      "rect": {
+        "x": 76,
+        "y": 264,
+        "w": 250,
+        "h": 30
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "monaco-editor-view w100 h100 metalang-monaco-editor monaco-editor-panel",
+      "id": "",
+      "text": "当前模型: 盛云_孙宇飞_元语言查询Demo_0617\n提交\n调试配置\ndeclare\n名称:\n输入参数:\n返回值类型:\n1",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 349,
+        "y": 67,
+        "w": 1188,
+        "h": 808
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "code-editor-body",
+      "id": "",
+      "text": "declare\n名称:\n输入参数:\n返回值类型:\n1",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 349,
+        "y": 122,
+        "w": 1188,
+        "h": 753
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-tabs el-tabs--top el-tabs--card monaco-editor-tabs",
+      "id": "",
+      "text": "declare\n名称:\n输入参数:\n返回值类型:",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 349,
+        "y": 122,
+        "w": 1188,
+        "h": 74
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-tabs__header is-top",
+      "id": "",
+      "text": "declare",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 349,
+        "y": 122,
+        "w": 1188,
+        "h": 30
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-tabs__nav-wrap is-top",
+      "id": "",
+      "text": "declare",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 359,
+        "y": 122.5,
+        "w": 1178,
+        "h": 29
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-tabs__nav-scroll",
+      "id": "",
+      "text": "declare",
+      "title": "",
+      "role": "",
+      "rect": {
+        "x": 359,
+        "y": 122.5,
+        "w": 1178,
+        "h": 29
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-tabs__nav is-top",
+      "id": "",
+      "text": "declare",
+      "title": "",
+      "role": "tablist",
+      "rect": {
+        "x": 359,
+        "y": 122.5,
+        "w": 117,
+        "h": 29
+      },
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-tabs__item is-top is-active",
+      "id": "tab-declare",
+      "text": "declare",
+      "title": "",
+      "role": "tab",
+      "rect": {
+        "x": 359,
+        "y": 121.5,
+        "w": 117,
+        "h": 30
+      },
+      "visible": true
+    },
+    {
+      "tag": "SPAN",
+      "cls": "title",
+      "id": "",
+      "text": "declare",
+      "title": "declare",
+      "role": "",
+      "rect": {
+        "x": 379,
+        "y": 129.5,
+        "w": 77,
+        "h": 14
+      },
+      "visible": true
+    }
+  ],
+  "models": null
+}

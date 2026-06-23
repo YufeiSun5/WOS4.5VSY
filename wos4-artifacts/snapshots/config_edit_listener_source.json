@@ -1,0 +1,290 @@
+{
+  "listenerSource": "function n(){var e=n.fns;if(!r(e))return Ai(e,null,arguments,t,\"v-on handler\");for(var i=e.slice(),a=0;a<i.length;a++)Ai(i[a],null,arguments,t,\"v-on handler\")}",
+  "row": {
+    "id": "7205759403792795542",
+    "modelname": "盛云_孙宇飞_客户端Demo_0617",
+    "guid": "a3be34ff-b0cf-4f31-91a9-06654e6893d6",
+    "repositoryname": "客户端1",
+    "repositoryid": "288230376151738394",
+    "repositoryguid": "414d2cf2-dd75-4801-a1f4-7ccaa5dbb6e4",
+    "rowIndex": "1"
+  },
+  "chain": [
+    {
+      "i": 0,
+      "name": "ElButton",
+      "uid": 629,
+      "methods": [],
+      "allMethodCount": 1,
+      "dataKeys": []
+    },
+    {
+      "i": 1,
+      "name": "ElTableRow",
+      "uid": 627,
+      "methods": [],
+      "allMethodCount": 0,
+      "dataKeys": []
+    },
+    {
+      "i": 2,
+      "name": "ElTableBody",
+      "uid": 618,
+      "methods": [],
+      "allMethodCount": 20,
+      "dataKeys": [
+        "tooltipContent"
+      ]
+    },
+    {
+      "i": 3,
+      "name": "ElTable",
+      "uid": 612,
+      "methods": [
+        "updateScrollY"
+      ],
+      "allMethodCount": 21,
+      "dataKeys": [
+        "layout",
+        "isHidden",
+        "renderExpanded",
+        "resizeProxyVisible",
+        "resizeState",
+        "isGroup",
+        "scrollPosition"
+      ]
+    },
+    {
+      "i": 4,
+      "name": "ElementTable",
+      "uid": 585,
+      "methods": [
+        "_pageJump",
+        "updateRenderComs",
+        "upDateLink",
+        "updateVisibleItems",
+        "beginRowEdit",
+        "endRowEdit",
+        "beginEditCell",
+        "endEdit",
+        "currentPageChange",
+        "onBeforeEdit",
+        "onAfterEdit",
+        "UpdateRow",
+        "GetCurrentPageData",
+        "_updateColFilterConfig",
+        "executePageJump"
+      ],
+      "allMethodCount": 210,
+      "dataKeys": [
+        "tableDataCopy",
+        "dynamicRow",
+        "isRowEdit",
+        "editRowIndex",
+        "multipleSelectionRow",
+        "filterFlag",
+        "filterTotalData",
+        "inputSearchValue",
+        "searchTotalData",
+        "filterData",
+        "searchData",
+        "cellTooltipOption",
+        "cellPositionInfo",
+        "disabled",
+        "startIndex",
+        "scrollEventFlag",
+        "pluginCheckboxValues",
+        "parentSelectStatus",
+        "expandsRow",
+        "checkList",
+        "filterisShow",
+        "filterShowProp",
+        "filterList",
+        "filterIcon",
+        "lastProp",
+        "imgList",
+        "selectEventData",
+        "multupleToolTips",
+        "d_objColFilterConfig",
+        "d_arrColFilterData",
+        "UIType",
+        "linkList",
+        "times"
+      ]
+    },
+    {
+      "i": 5,
+      "uid": 584,
+      "methods": [
+        "updateLinkScript",
+        "openLinkEditor"
+      ],
+      "allMethodCount": 9,
+      "dataKeys": [
+        "selectSrc",
+        "linkEditorFlag"
+      ]
+    },
+    {
+      "i": 6,
+      "name": "LayoutResponseCol",
+      "uid": 583,
+      "methods": [
+        "getPageJumpOption",
+        "setPageJumpConfig",
+        "onParamPopOpen",
+        "updateViewStore",
+        "updateOverItem",
+        "updatePasteFlag",
+        "updateRenderComs",
+        "updateSelectFlag",
+        "UPDATE_POINTERFLAG",
+        "setPage",
+        "processSetPageQueue",
+        "endSetPageQueue",
+        "_setPage",
+        "setPageByID",
+        "closePage",
+        "initChildPageList",
+        "_isExistPage",
+        "_getPageInfoByName",
+        "_isHasPage",
+        "_pageJump"
+      ],
+      "allMethodCount": 146,
+      "dataKeys": [
+        "setPageQueue",
+        "isSetPageProcessing",
+        "currentPageName",
+        "currentObject",
+        "paramConfigFlag",
+        "objectPosition",
+        "UIType",
+        "colSelectFlag",
+        "colWidth",
+        "componentName",
+        "dragDisabled",
+        "componentClass",
+        "lockhieght",
+        "offsetEditStatus",
+        "isNewObject",
+        "colTip",
+        "leftAddLine",
+        "rightAddLine",
+        "pageInstance",
+        "colLocationX",
+        "colLocationY",
+        "lastOffset",
+        "lastComponent",
+        "pasteBgFlag",
+        "childPageList",
+        "scale",
+        "initialOffset"
+      ]
+    },
+    {
+      "i": 7,
+      "uid": 582,
+      "methods": [],
+      "allMethodCount": 1,
+      "dataKeys": []
+    },
+    {
+      "i": 8,
+      "name": "LayoutResponseRow",
+      "uid": 581,
+      "methods": [
+        "updateRowHeight",
+        "updateSelectItem",
+        "updatePasteFlag",
+        "updateRenderComs",
+        "updateSelectFlag",
+        "updateOverRowItem"
+      ],
+      "allMethodCount": 126,
+      "dataKeys": [
+        "objectPosition",
+        "UIType",
+        "colsNumber",
+        "rowSelectFlag",
+        "backgroundImageRow",
+        "dragDisabled",
+        "rowTip",
+        "topAddLine",
+        "bottomAddLine",
+        "composingMod",
+        "lastRowGapLeft",
+        "lastRowGapRight",
+        "lastColsGap",
+        "leftScale",
+        "rightScale",
+        "oldRowMargin",
+        "backgroundImgFlag"
+      ]
+    },
+    {
+      "i": 9,
+      "uid": 544,
+      "methods": [],
+      "allMethodCount": 1,
+      "dataKeys": []
+    },
+    {
+      "i": 10,
+      "name": "LayoutResponseContainer",
+      "uid": 543,
+      "methods": [
+        "selectedItemPointLeft",
+        "selectedItemPointRight",
+        "selectedItemPointDown",
+        "selectedItemPointUp",
+        "updateRenderComs",
+        "updateSelectFlag",
+        "updateOverRowItem",
+        "updateSelectContainer",
+        "updateContainerList",
+        "selectedPage"
+      ],
+      "allMethodCount": 90,
+      "dataKeys": [
+        "containerElement",
+        "UIType",
+        "rowsNumber",
+        "contanierSelectFlag",
+        "isShowContextMenu",
+        "selectedItems",
+        "copiedItems",
+        "backgroundImageData",
+        "theContextMenuItem",
+        "dragDisabled",
+        "containerSubscriptTop",
+        "responseWidth",
+        "resizeObserver",
+        "contextmenuInstance",
+        "scrollFlag",
+        "borderWSize",
+        "borderHSize",
+        "isScroll",
+        "containerList",
+        "showContainerList",
+        "prevWidth",
+        "prevHeight",
+        "mountRow",
+        "containerStyle"
+      ]
+    },
+    {
+      "i": 11,
+      "uid": 542,
+      "methods": [
+        "updateLinkScript",
+        "openLinkEditor"
+      ],
+      "allMethodCount": 9,
+      "dataKeys": [
+        "selectSrc",
+        "linkEditorFlag"
+      ]
+    }
+  ]
+}

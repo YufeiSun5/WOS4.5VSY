@@ -1,0 +1,62 @@
+{
+  "confirm": {
+    "clicked": true,
+    "text": "确定",
+    "inputValue": "backend-parent-submit-after-customfunc-20260622",
+    "candidates": [
+      {
+        "tag": "DIV",
+        "text": "确定",
+        "cls": ""
+      },
+      {
+        "tag": "DIV",
+        "text": "确定",
+        "cls": "component_object_unselect"
+      },
+      {
+        "tag": "DIV",
+        "text": "确定",
+        "cls": "ui_factory"
+      },
+      {
+        "tag": "DIV",
+        "text": "确定",
+        "cls": "pointer_auto"
+      },
+      {
+        "tag": "DIV",
+        "text": "确定",
+        "cls": "component_object 分组新建确定按钮"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "确定",
+        "cls": "el-button el-button--primary el-button--medium propertyStyle"
+      },
+      {
+        "tag": "SPAN",
+        "text": "确定",
+        "cls": ""
+      }
+    ]
+  },
+  "messages": [
+    {
+      "t": 1782095335087,
+      "txt": "数字孪生模型提交版本",
+      "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_126865"
+    },
+    {
+      "t": 1782095335087,
+      "txt": "数字孪生模型提交版本",
+      "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_126865"
+    },
+    {
+      "t": 1782095365081,
+      "txt": "提交版本成功！",
+      "cls": "el-message el-message--success is-closable el-message-fade-enter el-message-fade-enter-active"
+    }
+  ],
+  "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 7 条\n<1>前往页\n\nKingFusion4.5_工程浏览器\n\n盛云_孙宇飞_后台_CRUDDemo_0620 clean restart backend CRUD model 0620\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n命令语言\n\t\n\n\n第三方计算管理\n\t\n\n\n图形模型\n\t\n\n\n2D精灵图\n\t\n\n\n3D精灵图\n\t\n\n\n页面精灵图\n\t\n\n\n报表精灵图\n\t\n\n\n子模型\n\t\n\n\n形参配置\n\t\n\n自定义计算模型\n\n新建\n更多操作 \n\t模型名称\t触发类型\t触发条件\t操作\n\t\nDemoCrudBackend\n\t\n自定义函数\n\t\n\t\n编辑\n属性\n删除\n共 1 条\n1\n前往页\n\nDemoCrudBackend脚本编辑器"
+}

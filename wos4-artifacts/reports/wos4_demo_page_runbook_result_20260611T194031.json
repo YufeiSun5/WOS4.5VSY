@@ -1,0 +1,59 @@
+{
+  "startAt": "2026-06-11T19:40:31.069Z",
+  "backupDir": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\backups\\wos4-demo-fullstack-20260611T194031",
+  "config": {
+    "loginUrl": "http://221.239.19.118:13001/#/login",
+    "editorUrl": "http://221.239.19.118:13001/public/?id=6192730962611142864&parentid=0&cloudid=107&clientnumber=7710165597571436705&bs=true#/running",
+    "user": "孙宇飞",
+    "proxy": "direct://",
+    "iniLoaded": true
+  },
+  "steps": [
+    {
+      "name": "backup_preflight",
+      "ok": true,
+      "detail": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\backups\\wos4-demo-fullstack-20260611T194031\\preflight.json",
+      "at": "2026-06-11T19:40:31.070Z"
+    },
+    {
+      "name": "login",
+      "ok": true,
+      "detail": "http://221.239.19.118:13001/#/main",
+      "at": "2026-06-11T19:40:34.091Z"
+    },
+    {
+      "name": "editor_open",
+      "ok": true,
+      "detail": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_107/index.html",
+      "at": "2026-06-11T19:40:43.640Z"
+    },
+    {
+      "name": "backup_before_edit",
+      "ok": true,
+      "detail": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\backups\\wos4-demo-fullstack-20260611T194031\\before-edit.json",
+      "at": "2026-06-11T19:40:43.648Z"
+    },
+    {
+      "name": "layout_and_components",
+      "ok": false,
+      "detail": "{\"ok\":false,\"errors\":[\"root or PageView missing\"],\"components\":{}}",
+      "at": "2026-06-11T19:40:43.653Z"
+    },
+    {
+      "name": "runtime_error",
+      "ok": false,
+      "detail": "Error: layout/build failed: root or PageView missing\n    at D:\\DEV_D\\WOS4.5\\wos4-demo-page-fullstack-skill\\runbook.js:817:33",
+      "at": "2026-06-11T19:40:43.653Z"
+    }
+  ],
+  "errors": [
+    "Error: layout/build failed: root or PageView missing\n    at D:\\DEV_D\\WOS4.5\\wos4-demo-page-fullstack-skill\\runbook.js:817:33"
+  ],
+  "evidence": [
+    "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\backups\\wos4-demo-fullstack-20260611T194031\\preflight.json",
+    "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\screenshots\\wos4_login_ok_20260611T194034.png",
+    "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\screenshots\\wos4_editor_shell_20260611T194043.png",
+    "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\backups\\wos4-demo-fullstack-20260611T194031\\before-edit.json"
+  ],
+  "testCases": {}
+}

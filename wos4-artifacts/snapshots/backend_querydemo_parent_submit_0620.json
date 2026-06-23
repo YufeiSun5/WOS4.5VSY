@@ -1,0 +1,35 @@
+{
+  "capture": {
+    "messages": [
+      {
+        "kind": "mutation",
+        "text": "提交版本中，请稍候......",
+        "extra": {
+          "className": "el-loading-mask is-fullscreen"
+        },
+        "t": 1781920643553
+      },
+      {
+        "kind": "mutation",
+        "text": "提交版本成功！",
+        "extra": {
+          "className": "el-message el-message--success is-closable el-message-fade-enter el-message-fade-enter-active"
+        },
+        "t": 1781920644399
+      }
+    ],
+    "console": []
+  },
+  "dialogs": [
+    {
+      "i": 4,
+      "text": "提交版本\n\n提交说明\n\n取消\n确定",
+      "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_186760"
+    },
+    {
+      "i": 5,
+      "text": "提交版本\n\n提交说明\n\n取消\n确定",
+      "cls": "el-dialog"
+    }
+  ]
+}

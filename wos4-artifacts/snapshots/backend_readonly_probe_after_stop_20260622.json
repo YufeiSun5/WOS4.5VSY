@@ -1,0 +1,188 @@
+{
+  "href": "http://221.239.19.118:13001/worker-space/index.html?guid=478c5219-9a87-4038-94cb-574514ae6d82&version=0&areaid=0&parentid=0&cloudid=107&type=1005",
+  "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\nQueryRecords\n\nInsertRecord\n\nUpdateRecord\n\n当前模型: DemoCrudBackend_CUSTOMFUNC\n提交\n调试配置\ndeclare\nQueryRecords\nUpdateRecord\n名称:\n输入参数:\n返回值类型:\n1\nTrace(2, \"QueryRecords.enter\", filterKey); return \"[{\\\"stationName\\\":\\\"S1\\\",\\\"areaName\\\":\\\"A1\\\",\\\"statusText\\\":\\\"RUN\\\",\\\"flowValue\\\":\\\"12.3\\\",\\\"pressureValue\\\":\\\"0.45\\\",\\\"filterKey\\\":\\\"\" + filterKey + \"\\\"}]\";}]\"\n编译信息\nxxxxxxxxxxxxxx 编译成功 13:41:34 xxxxxxxxxxxxxx\n行：1，列：209，\n空格：4\n元语言\n属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n0 / 128\n\n\nID:\n1441151880758559679\n\n\nGUID:\n478c5219-9a87-4038-94cb-574514ae6d82\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\nKingFusion4.5_V1/产品仓库/KF4.5产品/KF4.5数字孪生模型/管控单元模型/盛云_孙宇飞_后台_CRUDDemo_0620\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:\n开始调试\n无法在只读编辑器中编辑",
+  "winKeys": [
+    "MonacoEnvironment"
+  ],
+  "ta": [
+    {
+      "i": 0,
+      "value": "Trace(2, \"QueryRecords.enter\", filterKey); return \"[{\\\"stationName\\\":\\\"S1\\\",\\\"areaName\\\":\\\"A1\\\",\\\"statusText\\\":\\\"RUN\\\",\\\"flowValue\\\":\\\"12.3\\\",\\\"pressureValue\\\":\\\"0.45\\\",\\\"filterKey\\\":\\\"\" + filterKey + \"\\\"}]\";}]\"",
+      "readonly": false,
+      "disabled": false,
+      "aria": null,
+      "cls": "inputarea monaco-mouse-cursor-text"
+    }
+  ],
+  "allButtons": [
+    {
+      "i": 23,
+      "tag": "I",
+      "cls": "icon iconfont cursor-pointer wos-editor-search",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 299,
+        "y": 71,
+        "w": 20,
+        "h": 30
+      }
+    },
+    {
+      "i": 34,
+      "tag": "SPAN",
+      "cls": "icon iconfont cursor-pointer wos-editor-save el-tooltip__trigger el-tooltip__trigger",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 359,
+        "y": 7.5,
+        "w": 20,
+        "h": 55
+      }
+    },
+    {
+      "i": 35,
+      "tag": "SPAN",
+      "cls": "icon iconfont cursor-pointer wos-editor-undo el-tooltip__trigger el-tooltip__trigger",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 389,
+        "y": 7.5,
+        "w": 20,
+        "h": 55
+      }
+    },
+    {
+      "i": 36,
+      "tag": "SPAN",
+      "cls": "icon iconfont cursor-pointer wos-editor-redo el-tooltip__trigger el-tooltip__trigger",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 419,
+        "y": 7.5,
+        "w": 20,
+        "h": 55
+      }
+    },
+    {
+      "i": 37,
+      "tag": "SPAN",
+      "cls": "icon iconfont cursor-pointer wos-editor-search el-tooltip__trigger el-tooltip__trigger",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 449,
+        "y": 7.5,
+        "w": 20,
+        "h": 55
+      }
+    },
+    {
+      "i": 38,
+      "tag": "SPAN",
+      "cls": "icon iconfont cursor-pointer wos-editor-copy el-tooltip__trigger el-tooltip__trigger",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 479,
+        "y": 7.5,
+        "w": 20,
+        "h": 55
+      }
+    },
+    {
+      "i": 40,
+      "tag": "SPAN",
+      "cls": "icon iconfont cursor-pointer wos-editor-complie el-tooltip__trigger el-tooltip__trigger",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 543,
+        "y": 7.5,
+        "w": 20,
+        "h": 55
+      }
+    },
+    {
+      "i": 41,
+      "tag": "I",
+      "cls": "el-icon icon cursor-pointer wos-editor-debug-start el-tooltip__trigger el-tooltip__trigger",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 573,
+        "y": 25,
+        "w": 20,
+        "h": 20
+      }
+    },
+    {
+      "i": 42,
+      "tag": "SPAN",
+      "cls": "icon text wos-editor-edit-model",
+      "text": "当前模型: DemoCrudBackend_CUSTOMFUNC",
+      "title": "DemoCrudBackend_CUSTOMFUNC",
+      "rect": {
+        "x": 603,
+        "y": 7.5,
+        "w": 200,
+        "h": 55
+      }
+    },
+    {
+      "i": 49,
+      "tag": "I",
+      "cls": "el-icon icon cursor-pointer wos-editor-change-theme el-tooltip__trigger el-tooltip__trigger",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 1177,
+        "y": 27,
+        "w": 16,
+        "h": 16
+      }
+    },
+    {
+      "i": 50,
+      "tag": "I",
+      "cls": "el-icon icon cursor-pointer wos-editor-fullScreen el-tooltip__trigger el-tooltip__trigger",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 1203,
+        "y": 27,
+        "w": 16,
+        "h": 16
+      }
+    },
+    {
+      "i": 53,
+      "tag": "I",
+      "cls": "tab-un-save wos-editor-function-tab-close",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 485,
+        "y": 78.5,
+        "w": 6,
+        "h": 6
+      }
+    },
+    {
+      "i": 92,
+      "tag": "SPAN",
+      "cls": "code-editor-footer-tab-size code-editor-footer-item el-tooltip__trigger el-tooltip__trigger",
+      "text": "空格：4",
+      "title": "",
+      "rect": {
+        "x": 1107.953125,
+        "y": 724,
+        "w": 43.046875,
+        "h": 24
+      }
+    }
+  ]
+}

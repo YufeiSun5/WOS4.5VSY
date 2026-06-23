@@ -1,0 +1,188 @@
+uid=1_0 RootWebArea "WellinOS4.5" url="http://221.239.19.118:13001/#/main"
+  uid=2_16 StaticText "时空功能开发"
+  uid=2_23 StaticText "时空对象管理"
+  uid=2_29 StaticText "系统运维"
+  uid=2_35 StaticText "安全管理"
+  uid=2_41 StaticText "审计管理"
+  uid=2_47 StaticText "亚控云商城"
+  uid=2_57 StaticText "KingStudio_V20260514"
+  uid=2_63 StaticText "组态系统客户端0518"
+  uid=2_69 StaticText "建模系统客户端_0518"
+  uid=2_75 StaticText "运维部署客户端_0518"
+  uid=2_81 StaticText "Codex临时测试_前端视图_0611"
+  uid=3_0 Iframe
+    uid=3_1 RootWebArea "WellinOS4.0" url="http://221.239.19.118:13001/public/?id=6192730962611142708&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true"
+      uid=3_2 Iframe
+        uid=3_3 RootWebArea "KingStudio4.5" url="http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_95/index.html#/running"
+          uid=3_4 StaticText "KingStudio"
+          uid=3_5 button "简体中文" expandable haspopup="menu"
+          uid=3_6 button "关于"
+          uid=3_7 StaticText "产品管理"
+          uid=3_8 StaticText "升级拷贝1"
+          uid=3_9 StaticText "页面编辑器"
+          uid=3_10 main
+            uid=3_11 Iframe
+              uid=3_12 RootWebArea "KingStudio4.5" url="http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_107/index.html"
+                uid=3_13 button "文件(F)"
+                uid=3_14 button
+                uid=3_15 button
+                uid=3_16 button
+                uid=3_17 button
+                uid=3_18 button
+                uid=3_19 button
+                uid=3_20 button
+                uid=3_21 button ""
+                uid=3_22 button ""
+                uid=3_23 button
+                uid=3_24 button
+                uid=3_25 button
+                uid=3_26 button
+                uid=3_27 button
+                uid=3_28 button
+                uid=3_29 button
+                uid=3_30 button
+                uid=3_31 button
+                uid=3_32 button
+                uid=3_33 button
+                uid=3_34 button
+                uid=3_35 button
+                uid=3_36 button "提交"
+                uid=3_37 button "预览" description="预览" focusable focused
+                uid=3_38 main
+                  uid=3_39 image description="布局容器 UI组件 图表组件 流程图 生成器 精灵图库" url="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAALCAYAAACgR9dcAAAAn0lEQVQokZ3QvwrBYRjF8Y/8SVEW5RaUxeAKlFswGW1ugtWmXACTMsod2I1mYbGyEj31yyivMzw9vW/fznNObjAcbVCXphwOBexRwysBz+MY8DjR9aPCn1wbzYBbKOP5xeCMK0roYIZ7fCx/cIpoW/Qwyd7OAc9R+VJYlHPK9h3W6KMR8CIh6w3TLEbr38JWMQLuoopHAlzEJeA4I11c3ykVGpkPe5TjAAAAAElFTkSuQmCC"
+                  uid=3_40 StaticText "组件"
+                  uid=3_41 StaticText ""
+                  uid=3_41 StaticText ""
+                  uid=3_42 tab "布局容器  " description="布局 分栏*1 分栏*2 分栏*4"
+                    uid=3_43 button "布局容器  "
+                      uid=3_44 button
+                  uid=3_45 tab "UI组件  " description="全部 常用 导航 数据 选择 输入 媒体 其他 按钮 表格 输入框 选择器 文本 日期时间选择器 导航菜单 树 图片 上传"
+                    uid=3_46 button "UI组件  "
+                      uid=3_47 button
+                  uid=3_48 tab "图表组件  " description="全部 业务表格 趋势曲线 柱状图 立体柱状图 条形图 折线图 混合图 饼图 仪表 雷达图 气泡图 漏斗图 甘特图 水波图 百分比图 3D饼图 地图 其他 多对象表格 实时表格 历史表格 计划表格 趋势曲线 自定义图表 流程查看器"
+                    uid=3_49 button "图表组件  "
+                      uid=3_50 button
+                  uid=3_51 tab "流程图  " description="FLOW2D流程图 FLOW3D流程图 报表流程图"
+                    uid=3_52 button "流程图  "
+                      uid=3_53 button
+                  uid=3_54 tab "生成器  " description="客户端生成器 页面生成器 Flow2D生成器 Flow3D生成器 报表生成器"
+                    uid=3_55 button "生成器  "
+                      uid=3_56 button
+                  uid=3_57 tab "精灵图库  " description="建模仓库 请输入需要筛选的名称! Codex临时功能单元_Node_0611"
+                    uid=3_58 button "精灵图库  "
+                  uid=3_59 tab "CodexSkill全链路_0612003159 " selectable selected
+                  uid=3_60 generic
+                    uid=3_61 generic
+                      uid=3_62 generic
+                        uid=3_63 generic
+                          uid=3_64 textbox "请输入站点或区域" value="A"
+                      uid=3_65 generic
+                        uid=3_66 generic
+                          uid=3_67 button "切换数据：A / 0"
+                      uid=3_68 generic
+                      uid=3_93 generic
+                      uid=3_95 generic
+                      uid=3_96 generic
+                      uid=3_97 generic
+                      uid=3_98 generic
+                      uid=3_99 generic
+                        uid=5_0 generic
+                          uid=5_1 tree orientation="vertical"
+                            uid=5_2 treeitem " 全部区域" expandable expanded level="1" selectable
+                              uid=5_3 treeitem " A 区域" expandable expanded level="2" selectable
+                              uid=5_4 treeitem " B 区域" expandable expanded level="2" selectable
+                      uid=5_5 generic
+                        uid=5_6 generic
+                          uid=5_7 StaticText "站点"
+                          uid=5_8 StaticText "区域"
+                          uid=5_9 StaticText "状态"
+                          uid=5_10 StaticText "流量"
+                          uid=5_11 StaticText "压力"
+                          uid=5_12 StaticText "泵站A"
+                          uid=5_13 StaticText "A"
+                          uid=5_14 StaticText "正常"
+                          uid=5_15 StaticText "128"
+                          uid=5_16 StaticText "0.62"
+                          uid=5_17 StaticText "泵站C"
+                          uid=5_18 StaticText "A"
+                          uid=5_19 StaticText "正常"
+                          uid=5_20 StaticText "143"
+                          uid=5_21 StaticText "0.65"
+                          uid=5_22 StaticText "共 2 条"
+                          uid=5_23 textbox "请选择" readonly value="10条/页"
+                          uid=3_41 StaticText ""
+                          uid=5_24 button "" disableable disabled
+                          uid=5_25 StaticText "1"
+                          uid=5_26 button "" disableable disabled
+                          uid=5_27 StaticText "前往"
+                          uid=5_28 spinbutton value="1" valuemax="1" valuemin="1" valuetext="1"
+                          uid=5_29 StaticText "页"
+                      uid=5_30 generic
+                        uid=5_31 generic
+                  uid=3_105 StaticText "属性"
+                  uid=3_106 button ""
+                  uid=3_107 button
+                  uid=3_108 StaticText "基本"
+                  uid=3_109 StaticText "名称"
+                  uid=3_110 textbox value="自定义图表"
+                  uid=3_111 StaticText "类型"
+                  uid=3_112 generic
+                    uid=3_113 StaticText "ElementChart"
+                  uid=5_32 StaticText "描述"
+                  uid=5_33 textbox
+                  uid=5_34 button
+                  uid=5_35 StaticText "位置"
+                  uid=5_36 StaticText "横坐标"
+                  uid=5_37 generic
+                    uid=5_38 StaticText "1296"
+                  uid=5_39 StaticText "纵坐标"
+                  uid=5_40 generic
+                    uid=5_41 StaticText "209"
+                  uid=5_42 button
+                  uid=5_43 StaticText "配置"
+                  uid=5_44 StaticText "数据配置"
+                  uid=5_45 button "配置"
+                  uid=5_46 StaticText "样式配置"
+                  uid=5_47 button "配置"
+                  uid=3_130 button
+                  uid=3_131 StaticText "其他"
+                  uid=3_132 StaticText "是否被锁住"
+                  uid=3_133 textbox "请选择" readonly value="否"
+                  uid=3_41 StaticText ""
+                  uid=3_134 StaticText "是否显示"
+                  uid=3_135 textbox "请选择" readonly value="是"
+                  uid=3_41 StaticText ""
+                  uid=3_136 StaticText "运行是否显示"
+                  uid=3_137 textbox "请选择" readonly value="是"
+                  uid=3_41 StaticText ""
+                  uid=3_138 tab "对象" selectable selected
+                  uid=3_139 tab "图层"
+                  uid=3_140 tree orientation="vertical"
+                    uid=5_48 treeitem " 图层1" level="1" selectable
+                  uid=3_141 textbox "输入关键字进行过滤" value="Codex会话连续性测试：布局组件联动后提交"
+                  uid=3_142 button ""
+                  uid=3_143 menubar orientation="horizontal"
+                    uid=3_144 menuitem
+                      uid=3_145 generic
+                    uid=3_146 menuitem
+                      uid=3_147 generic
+                    uid=3_148 menuitem
+                      uid=3_149 generic
+                    uid=3_150 menuitem
+                      uid=3_151 generic
+                    uid=3_152 menuitem
+                      uid=3_153 generic
+                uid=3_154 StaticText "鼠标位置：0, 0"
+                uid=3_155 StaticText "所选对象位置： 1296, 209"
+                uid=3_156 StaticText "选择对象类型: UI组件 , 位于"
+                uid=3_157 StaticText "共 0 个对象, 已选 1 个对象"
+                uid=3_158 StaticText "选择对象名称: "
+                uid=3_159 generic
+                  uid=3_160 StaticText "自定义图表"
+                uid=3_41 StaticText ""
+                uid=3_161 slider "slider between 10 and 500" orientation="horizontal" value="255" valuemax="500" valuemin="10" valuetext="100"
+                uid=3_41 StaticText ""
+                uid=3_162 button "16%"
+                uid=3_163 button ""
+  uid=2_17 StaticText ""
+  uid=2_17 StaticText ""

@@ -1,0 +1,138 @@
+[
+  {
+    "path": "top.0",
+    "text": "新建\n名称:\n类型:\n功能单元\n数据模型\n安全模型\n其他\n\n元语言\n\nwebJS\n\nnodeJS\n\n第三方\n\nAppModule\n\n描述:\n取消\n创建\n创建并打开",
+    "cards": [
+      {
+        "text": "元语言",
+        "cls": "create-card"
+      },
+      {
+        "text": "webJS",
+        "cls": "create-card"
+      },
+      {
+        "text": "nodeJS",
+        "cls": "create-card"
+      },
+      {
+        "text": "第三方",
+        "cls": "create-card"
+      },
+      {
+        "text": "AppModule",
+        "cls": "create-card"
+      },
+      {
+        "text": "业务物",
+        "cls": "create-card"
+      },
+      {
+        "text": "单灵敏时序物",
+        "cls": "create-card"
+      },
+      {
+        "text": "多灵敏时序物",
+        "cls": "create-card"
+      },
+      {
+        "text": "业务事",
+        "cls": "create-card"
+      },
+      {
+        "text": "时序事",
+        "cls": "create-card"
+      },
+      {
+        "text": "关系",
+        "cls": "create-card"
+      },
+      {
+        "text": "组织",
+        "cls": "create-card"
+      },
+      {
+        "text": "岗位",
+        "cls": "create-card"
+      },
+      {
+        "text": "人员",
+        "cls": "create-card"
+      },
+      {
+        "text": "安全策略",
+        "cls": "create-card"
+      },
+      {
+        "text": "审计策略",
+        "cls": "create-card"
+      },
+      {
+        "text": "机密性",
+        "cls": "create-card"
+      },
+      {
+        "text": "完整性",
+        "cls": "create-card"
+      },
+      {
+        "text": "锁",
+        "cls": "create-card"
+      },
+      {
+        "text": "用户",
+        "cls": "create-card"
+      },
+      {
+        "text": "用户组",
+        "cls": "create-card"
+      },
+      {
+        "text": "角色",
+        "cls": "create-card"
+      },
+      {
+        "text": "域型",
+        "cls": "create-card"
+      },
+      {
+        "text": "域型交互表",
+        "cls": "create-card"
+      },
+      {
+        "text": "二进制",
+        "cls": "create-card"
+      },
+      {
+        "text": "table",
+        "cls": "create-card"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "",
+        "disabled": false,
+        "aria": null,
+        "cls": "el-dialog__headerbtn"
+      },
+      {
+        "text": "取消",
+        "disabled": false,
+        "aria": "false",
+        "cls": "el-button el-button--default workspace-new-model-cancel-bt create-button"
+      },
+      {
+        "text": "创建",
+        "disabled": false,
+        "aria": "false",
+        "cls": "el-button el-button--primary el-button--default workspace-new-model-confirm-bt create-button"
+      },
+      {
+        "text": "创建并打开",
+        "disabled": false,
+        "aria": "false",
+        "cls": "el-button el-button--warning el-button--default workspace-new-model-confirm-bt create-button"
+      }
+    ]
+  }
+]

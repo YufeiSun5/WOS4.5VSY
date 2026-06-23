@@ -1,0 +1,53 @@
+{
+  "demo_filter_input": {
+    "prototypeName": "ElementInput",
+    "detailConfig": "",
+    "styleConfig": "",
+    "styleOption": {},
+    "placeholder": "",
+    "clearable": false
+  },
+  "demo_query_button": {
+    "prototypeName": "ElementButton",
+    "detailConfig": "",
+    "styleConfig": "",
+    "styleOption": {},
+    "text": "ElementButton"
+  },
+  "demo_table": {
+    "prototypeName": "ElementTable",
+    "detailConfig": "this.table({columns:[{prop:\"prop1\",label:\"label1\",align:\"center\",minWidth:\"100\",type:\"group\",columnKey:\"\",fixed:false,m_id:\"58eba38d-e51f-492a-a205-acd245747e53\",children:[],linkDataSetPath:\"\",sortable:false},{prop:\"prop2\",label:\"label2\",align:\"center\",minWidth:\"100\",type:\"\",columnKey:\"\",fixed:false,m_id:\"f7f79ead-dc14-4a61-9210-d2ef3bcb8faa\",resizable:true},{prop:\"prop3\",label:\"label3\",align:\"center\",minWidth:\"100\",type:\"\",columnKey:\"\",fixed:false,m_id:\"1e7c526b-21e3-4fe2-96b5-29bcd53b4d73\",showTooltip:true},{prop:\"prop4\",label:\"label4\",align:\"center\",minWidth:\"100\",type:\"\",columnKey:\"\",fixed:false,m_id:\"6b3491c6-6aed-4a53-88f4-f1266040b6ef\",sortable:true},{prop:\"operation\",label:\"操作\",align:\"center\",minWidth:\"250\",type:\"operation\",columnKey:\"\",fixed:false,plugins:[],hidden:false,m_id:\"14a28be5-42e6-4416-add8-e647db921c47\"}]})",
+    "styleConfig": "",
+    "styleOption": {}
+  },
+  "demo_chart": {
+    "prototypeName": "ElementChart",
+    "detailConfig": "option = {\"xAxis\":{\"type\":\"category\",\"data\":[\"Mon\",\"Tue\",\"Wed\",\"Thu\",\"Fri\",\"Sat\",\"Sun\"]},\"yAxis\":{\"type\":\"value\"},\"series\":[{\"data\":[120,200,150,80,70,110,130],\"type\":\"bar\"}]}",
+    "styleConfig": "",
+    "styleOption": {
+      "backgroundColor": {
+        "color": "rgba(255,255,255,1)",
+        "type": "solid-color"
+      },
+      "borderColor": {
+        "color": "rgba(220,223,230,1)",
+        "type": "solid-color"
+      },
+      "borderRadius": 4,
+      "borderWidth": 1,
+      "shadow": {
+        "enable": false,
+        "show": true,
+        "type": "unset",
+        "offsetX": 0,
+        "offsetY": 2,
+        "blueRadius": 10,
+        "spreadRadius": 0,
+        "color": {
+          "color": "rgba(0,0,0,0.1)",
+          "type": "solid-color"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "body": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n计划部\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n前端_班次管理\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n后台_班次管理\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n前端_框架\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 3 条\n<1>前往页\n\nKingFusion4.5_工程浏览器\n\n后台_班次管理\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n命令语言\n\t\n\n\n第三方计算管理\n\t\n\n\n图形模型\n\t\n\n\n2D精灵图\n\t\n\n\n3D精灵图\n\t\n\n\n页面精灵图\n\t\n\n\n报表精灵图\n\t\n\n\n子模型\n\t\n\n\n形参配置\n\t\n\n多灵敏时序物\n\n暂无数据\n\n基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情\n\n函数：\n\n暂无数据\n\n条件配置\n\n时间间隔 00h 00m 00s\n\n配置",
+  "rows": [
+    {
+      "text": "数据模型",
+      "rowClass": "el-table__row current-row expanded el-table__row--level-0",
+      "expanded": true,
+      "hasSwitch": false,
+      "switchChecked": null,
+      "switchClass": null
+    },
+    {
+      "text": "物",
+      "rowClass": "el-table__row el-table__row--level-1",
+      "expanded": true,
+      "hasSwitch": false,
+      "switchChecked": null,
+      "switchClass": null
+    },
+    {
+      "text": "多灵敏时序物",
+      "rowClass": "el-table__row el-table__row--level-2",
+      "expanded": false,
+      "hasSwitch": true,
+      "switchChecked": false,
+      "switchClass": "el-switch"
+    },
+    {
+      "text": "单灵敏时序物",
+      "rowClass": "el-table__row el-table__row--level-2",
+      "expanded": false,
+      "hasSwitch": true,
+      "switchChecked": false,
+      "switchClass": "el-switch"
+    },
+    {
+      "text": "业务物",
+      "rowClass": "el-table__row el-table__row--level-2",
+      "expanded": false,
+      "hasSwitch": true,
+      "switchChecked": false,
+      "switchClass": "el-switch"
+    },
+    {
+      "text": "事",
+      "rowClass": "el-table__row el-table__row--level-1",
+      "expanded": true,
+      "hasSwitch": false,
+      "switchChecked": null,
+      "switchClass": null
+    },
+    {
+      "text": "时序事",
+      "rowClass": "el-table__row el-table__row--level-2",
+      "expanded": false,
+      "hasSwitch": true,
+      "switchChecked": false,
+      "switchClass": "el-switch"
+    },
+    {
+      "text": "业务事",
+      "rowClass": "el-table__row el-table__row--level-2",
+      "expanded": false,
+      "hasSwitch": true,
+      "switchChecked": true,
+      "switchClass": "el-switch is-checked"
+    },
+    {
+      "text": "岗位",
+      "rowClass": "el-table__row el-table__row--level-1",
+      "expanded": false,
+      "hasSwitch": true,
+      "switchChecked": false,
+      "switchClass": "el-switch"
+    },
+    {
+      "text": "组织",
+      "rowClass": "el-table__row el-table__row--level-1",
+      "expanded": false,
+      "hasSwitch": true,
+      "switchChecked": false,
+      "switchClass": "el-switch"
+    },
+    {
+      "text": "逻辑模型",
+      "rowClass": "el-table__row expanded el-table__row--level-0",
+      "expanded": true,
+      "hasSwitch": false,
+      "switchChecked": null,
+      "switchClass": null
+    },
+    {
+      "text": "报警规则配置",
+      "rowClass": "el-table__row el-table__row--level-1",
+      "expanded": false,
+      "hasSwitch": true,
+      "switchChecked": false,
+      "switchClass": "el-switch"
+    },
+    {
+      "text": "多灵敏数据报警转发",
+      "rowClass": "el-table__row el-table__row--level-1",
+      "expanded": false,
+      "hasSwitch": true,
+      "switchChecked": false,
+      "switchClass": "el-switch"
+    },
+    {
+      "text": "单灵敏数据报警转发",
+      "rowClass": "el-table__row el-table__row--level-1",
+      "expanded": false,
+      "hasSwitch": true,
+      "switchChecked": false,
+      "switchClass": "el-switch"
+    },
+    {
+      "text": "自定义计算",
+      "rowClass": "el-table__row el-table__row--level-1",
+      "expanded": false,
+      "hasSwitch": true,
+      "switchChecked": true,
+      "switchClass": "el-switch is-checked"
+    },
+    {
+      "text": "命令语言",
+      "rowClass": "el-table__row el-table__row--level-1",
+      "expanded": false,
+      "hasSwitch": true,
+      "switchChecked": true,
+      "switchClass": "el-switch is-checked"
+    },
+    {
+      "text": "第三方计算管理",
+      "rowClass": "el-table__row el-table__row--level-1",
+      "expanded": false,
+      "hasSwitch": true,
+      "switchChecked": false,
+      "switchClass": "el-switch"
+    },
+    {
+      "text": "图形模型",
+      "rowClass": "el-table__row expanded el-table__row--level-0",
+      "expanded": true,
+      "hasSwitch": false,
+      "switchChecked": null,
+      "switchClass": null
+    },
+    {
+      "text": "2D精灵图",
+      "rowClass": "el-table__row el-table__row--level-1",
+      "expanded": false,
+      "hasSwitch": false,
+      "switchChecked": null,
+      "switchClass": null
+    },
+    {
+      "text": "3D精灵图",
+      "rowClass": "el-table__row el-table__row--level-1",
+      "expanded": false,
+      "hasSwitch": false,
+      "switchChecked": null,
+      "switchClass": null
+    },
+    {
+      "text": "页面精灵图",
+      "rowClass": "el-table__row el-table__row--level-1",
+      "expanded": false,
+      "hasSwitch": false,
+      "switchChecked": null,
+      "switchClass": null
+    },
+    {
+      "text": "报表精灵图",
+      "rowClass": "el-table__row el-table__row--level-1",
+      "expanded": false,
+      "hasSwitch": false,
+      "switchChecked": null,
+      "switchClass": null
+    }
+  ],
+  "title": "客户端运行"
+}

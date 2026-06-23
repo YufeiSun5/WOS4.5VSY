@@ -1,0 +1,34 @@
+{
+  "task": "deploy_start_result",
+  "tool": "browser-harness",
+  "module": "时空功能开发 / 部署管理",
+  "verifiedAt": "2026-06-17T12:25:00+08:00",
+  "timeSpace": {
+    "name": "盛云_孙宇飞_时空_0617",
+    "created": true,
+    "statusAfterDeploy": "已部署",
+    "statusAfterStart": "运行"
+  },
+  "repositoryPackage": {
+    "repositoryName": "盛云_孙宇飞_仓库",
+    "packageDescription": "meta-language-demo-0617-package-1",
+    "version": "V1",
+    "statusAfterAdd": "未部署",
+    "statusAfterDeploy": "已部署",
+    "statusAfterStart": "运行"
+  },
+  "runtimeCheck": {
+    "client": "时空对象管理",
+    "timeSpaceVisible": true,
+    "functionList": "empty",
+    "note": "当前 FU 是空模板，运行态功能列表为空不能证明业务函数可用；后续需要写入元语言逻辑后再验证函数或对象。"
+  },
+  "screenshots": [
+    "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\screenshots\\deploy_create_own_spacetime_result.png",
+    "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\screenshots\\deploy_add_package_confirm_result.png",
+    "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\screenshots\\deploy_spacetime_result.png",
+    "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\screenshots\\start_spacetime_result.png",
+    "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\screenshots\\object_management_after_start.png"
+  ],
+  "result": "deployed_and_started"
+}

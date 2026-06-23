@@ -1,0 +1,402 @@
+[
+  {
+    "i": 0,
+    "id": "工程浏览器_框架页面",
+    "cls": "page_view_container client_page_view_container",
+    "pageName": "",
+    "text": "KingFusion4.5_工程浏览器 <  返回工程管理 盛云_孙宇飞_CRUD工程_0620数字孪生实例配置管控单元实例配置工作流实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导入变",
+    "linkCount": 10,
+    "links": [
+      {
+        "linkId": 200001,
+        "linkName": "onClick",
+        "enable": true,
+        "ksc": "k842338b4b3d365eea3710e84b43458f",
+        "scriptHead": "debugger;\r\n\r\nconst 工程管理_后台程序_元语言FU对象ID = $Variable.工程管理_后台程序_元语言FU对象ID;\r\n\r\nconst 工程信息     = $Variable.工程信息;\r\nconst 操作类型     = $Variable.操作类型;\r\n    //   操作类型     = \"新建\";\r\n\r\nmain();\r"
+      },
+      {
+        "linkId": 200001,
+        "linkName": "onClick",
+        "enable": true,
+        "ksc": "kddf1b335416f9b1d7a94e727b47a948",
+        "scriptHead": "\r\nmain();\r\n\r\nasync function main() {\r\n\r\n    const pageName = \"工程部署\";\r\n    //配置项\r\n    const options = {\r\n        styleOptions: {\r\n            header     : false,\r\n            modal "
+      },
+      {
+        "linkId": 200010,
+        "linkName": "Row-dbclick",
+        "enable": true,
+        "ksc": "k1a6abb9a2af1e8fddd7691b6cf240a1",
+        "scriptHead": "var B = arguments\r\nlet currentProjectCopyId = B[1].row.projectcopyid;\r\n\r\ndebugger;\r\n// let currentProjectCopyId                = $Variable.currentProjectCopyId;\r\nlet projectManageP"
+      },
+      {
+        "linkId": 1001,
+        "linkName": "switchPage",
+        "enable": true,
+        "ksc": "k337158d65e10c5b7dc3f60e750a9f34",
+        "scriptHead": "/*\n * 创建人：贾松达\n * 函数名：switchPage\n * 描述：切换页面显示\n * 步骤：\n    1.判断switchPage的值\n        1.1.值为1,打开-工程管理_框架页面\n        1.2.值为2,打开-开发系统_框架页面,打开此页面时需要传参\n * 参数：\n * 返回值：\n */\n debugger;\n\nif ($Va"
+      },
+      {
+        "linkId": 0,
+        "enable": true,
+        "ksc": "k16753e417c273b2eced42b672806d29",
+        "scriptHead": "/*\n * 创建人：贾松达\n * 函数名：创建时\n * 描述：工程浏览器页面初始化\n * 步骤：\n    1.打开-工程管理_框架页面\n * 参数：\n * 返回值：\n */\n \n//打开-工程管理_框架页面\nlet projectManagePageName = $Variable.工程管理_框架页面名称;\n浏览器分栏.setPage(projectMana"
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "id": "pageView",
+    "cls": "page_view",
+    "pageName": "",
+    "text": "KingFusion4.5_工程浏览器 <  返回工程管理 盛云_孙宇飞_CRUD工程_0620数字孪生实例配置管控单元实例配置工作流实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导入变",
+    "linkCount": 0,
+    "links": []
+  },
+  {
+    "i": 2,
+    "id": "开发系统_组态_框架页面",
+    "cls": "page_view_container client_page_view_container set_page_app component_object 开发系统_组态_框架页面",
+    "pageName": "",
+    "text": " <  返回工程管理 盛云_孙宇飞_CRUD工程_0620数字孪生实例配置管控单元实例配置工作流实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导入变量 导出变量 采集配置KF4.5Roo",
+    "linkCount": 8,
+    "links": [
+      {
+        "linkId": 1002,
+        "linkName": "updateMenuTree",
+        "enable": true,
+        "ksc": "k5162b37c0799555b7545f52016a99a8",
+        "scriptHead": "/*\n * 创建人：贾松达\n * 函数名：updateMenuTree\n * 描述：更新树组件\n * 步骤：\n *    1.获取数字孪生可视化信息\n *    2.填充树组件\n * 参数：\n * 返回值：\n */\n\ndebugger;\n\n// 获取人机界面信息\n// let treeData = JSON.parse($Variable.数字孪生可视化信息"
+      },
+      {
+        "linkId": 1003,
+        "linkName": "queryClients",
+        "enable": true,
+        "ksc": "kca39783fdf348ae98f8669cc65a06a2",
+        "scriptHead": "/*\n * 创建人：贾松达\n * 函数名：queryClients\n * 描述：查询客户端列表\n * 步骤：\n *    1.获取工程时空仓库GUID\n *    2.调用后台查客户端拷贝列表\n * 参数：\n * 返回值：\n */\n\ndebugger;\nconst FUNCTIONAL_VIEW               = 1;\nconst CALL_B"
+      },
+      {
+        "linkId": 1004,
+        "linkName": "switchPage",
+        "enable": true,
+        "ksc": "k65f0d41491d86fd7392c03ca94d6b69",
+        "scriptHead": "debugger;\nconsole.log(\"a\");\nif ($Variable.switchPage == 1) {\n    //打开-数字孪生可视化_框架页面\n    let options = {\n        variables: [{\n            name: \"工程时空仓库名称\",\n            value: $Varia"
+      },
+      {
+        "linkId": 0,
+        "enable": true,
+        "ksc": "k4c4bce25229825fdce631202121a0b6",
+        "scriptHead": "/*\n * 创建人：贾松达\n * 函数名：创建时\n * 描述：开发系统框架页面初始化\n * 步骤：\n *    1.定义入参\n *    2.填充工程名称文本\n *    3.执行主函数\n *        3.1根据时空对象全路径，切换时空对象\n\n *        3.3根据配置后台对象名称，调用内部函数`updateMenuTree`查询客户端,并更新"
+      }
+    ]
+  },
+  {
+    "i": 3,
+    "id": "pageView",
+    "cls": "page_view",
+    "pageName": "",
+    "text": " <  返回工程管理 盛云_孙宇飞_CRUD工程_0620数字孪生实例配置管控单元实例配置工作流实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导入变量 导出变量 采集配置KF4.5Roo",
+    "linkCount": 0,
+    "links": []
+  },
+  {
+    "i": 4,
+    "id": "数字孪生实例化_框架页面",
+    "cls": "page_view_container client_page_view_container set_page_app component_object 数字孪生实例化_框架页面",
+    "pageName": "",
+    "text": "时空列表         导入 导出 删除 移动 批量提交 导入变量 导出变量 采集配置KF4.5RootNadirL1NadirL2实例列表 新建  删除  更多操作  批量提交版本名称显示名称描述模型模型版本操作NadirBackNadirBackclean backend盛",
+    "linkCount": 41,
+    "links": [
+      {
+        "linkId": 1001,
+        "linkName": "showEditEnvPage",
+        "enable": true,
+        "ksc": "kbb35ae480fdbae9dd8a15f3bd3acee9",
+        "scriptHead": "console.log(\"[D] 触发了 $Variable.showEditEnvPage\");\r\n\r\n_showDrawerPage();\r\n\r\nfunction _showDrawerPage()\r\n{\r\n    const currentSpaceTimeRepo = $Variable.currentSpaceTimeRepo;\r\n    if ("
+      },
+      {
+        "linkId": 1003,
+        "linkName": "instanceBasicInfo",
+        "enable": true,
+        "ksc": "kae6df3e4c9b56886831f652d680d3e3",
+        "scriptHead": "/**\r\n * 功能：因输入框中的输入信息发生变化，远程调用接口更新实例对应信息\r\n */\r\nconsole.log(\"[D] 实例的基本信息发生变化，远程调用接口进行存储，$Variable.instanceBasicInfo = \", $Variable.instanceBasicInfo);\r\n\r\nconst cloudId = $Variable.c"
+      },
+      {
+        "linkId": 1007,
+        "linkName": "updateTreeByFilter",
+        "enable": true,
+        "ksc": "k5de8040d7586f03b2b5af1cd75062a6",
+        "scriptHead": "\r\nconst cloudId = $Variable.cloudId;\r\nconst SUCCESS_CODE = 0;\r\nconst TYPE_META_FU_OBJECT = 21001;\r\nconst IDENTIFIER_TYPE_ENUM = {\r\n    ID: 1,\r\n    NAME: 2,\r\n    FULL_NAME: 3,\r\n    "
+      },
+      {
+        "linkId": 1008,
+        "linkName": "updateChildrenNodes",
+        "enable": true,
+        "ksc": "k065f3ac10124816493a54b46d3dbbd8",
+        "scriptHead": "console.log(\"[D] 触发了 <updateChildrenNodes> 变量改变时事件\");\r\n\r\nconst cloudId = $Variable.cloudId;\r\nconst SUCCESS_CODE = 0;\r\nconst TYPE_META_FU_OBJECT = 21001;\r\nconst IDENTIFIER_TYPE_ENUM"
+      },
+      {
+        "linkId": 1009,
+        "linkName": "initTreeView",
+        "enable": true,
+        "ksc": "k84469aa22fa2feb8db93657aea1f806",
+        "scriptHead": "\r\nmain();\r\n\r\n\r\nfunction main()\r\n{\r\n\r\n    const keyWords = $Variable.spaceTimeRepoKeyWords;\r\n\r\n    if (0 !== keyWords.length)\r\n    {\r\n        $Variable.updateTreeByFilter = !$Variab"
+      },
+      {
+        "linkId": 1010,
+        "linkName": "updateAttrsView",
+        "enable": true,
+        "ksc": "k4662107db6021b6cff01ee1d09e146c",
+        "scriptHead": "console.log(\"[D] 触发了 updateAttrsView 改变时事件\");\r\n\r\nconst cloudId = $Variable.cloudId;\r\nconst SUCCESS_CODE = 0;\r\nconst IDENTIFIER_TYPE_ENUM = {\r\n    ID: 1,\r\n    NAME: 2,\r\n    FULL_NAM"
+      },
+      {
+        "linkId": 1011,
+        "linkName": "initTreeViewByAllData",
+        "enable": true,
+        "ksc": "k4424d77a07d1e98d6ea7430efcd7211",
+        "scriptHead": "const cloudId = $Variable.cloudId;\r\nconst SUCCESS_CODE = 0;\r\nconst TYPE_META_FU_OBJECT = 21001;\r\n\r\nconst currentSelectedInstance = $Variable.currentSpaceTimeRepo;\r\nconst keyWords ="
+      },
+      {
+        "linkId": 1012,
+        "linkName": "initTreeViewByEachLevel",
+        "enable": true,
+        "ksc": "k4f0e91659ec6825cac822741e96d1bc",
+        "scriptHead": "\r\nmain();\r\nasync function main()\r\n{\r\n    const keyWords = $Variable.spaceTimeRepoKeyWords;\r\n\r\n    // 如果没有搜索关键字，则直接初始化树结构\r\n    if (keyWords.length === 0)\r\n    {\r\n        await _init"
+      },
+      {
+        "linkId": 1014,
+        "linkName": "initTreeViewByFullPath",
+        "enable": true,
+        "ksc": "k013234b218b9fc5e49414ba06ccf3dd",
+        "scriptHead": "const cloudId = $Variable.cloudId;\r\nconst SUCCESS_CODE = 0;\r\nconst TYPE_META_FU_OBJECT = 21001;\r\nconst IDENTIFIER_TYPE_ENUM = {\r\n    ID: 1,\r\n    NAME: 2,\r\n    FULL_NAME: 3,\r\n    AL"
+      },
+      {
+        "linkId": 1015,
+        "linkName": "updateCurrentNode",
+        "enable": true,
+        "ksc": "ka40a405722042b25882c0f838ee93dd",
+        "scriptHead": "console.log(\"[D] 触发了 updateCurrentNode 变量改变时事件\");\r\n\r\nconst cloudId = $Variable.cloudId;\r\nconst SUCCESS_CODE = 0;\r\nconst TYPE_META_FU_OBJECT = 21001;\r\nconst IDENTIFIER_TYPE_ENUM = {"
+      },
+      {
+        "linkId": 1021,
+        "linkName": "updateChildrenInstanceTree",
+        "enable": true,
+        "ksc": "k7a3c4541724bb22a2b40c54c0f9e9a1",
+        "scriptHead": "\r\nconsole.log(\"[D] 触发了 updateChildrenInstanceTree 改变时事件\");\r\n\r\nconst cloudId = $Variable.cloudId;\r\nconst SUCCESS_CODE = 0;\r\nconst TYPE_META_FU_OBJECT = 21001;\r\n\r\nconst IDENTIFIER_TY"
+      },
+      {
+        "linkId": 1023,
+        "linkName": "switchOperationStatus",
+        "enable": true,
+        "ksc": "k6f8795e5f109772d1514e577140b3de",
+        "scriptHead": "main();\r\n\r\nfunction main()\r\n{\r\n    // const isRootInstance = $Variable.isRootInstance;\r\n    const currentSelectedInstance = $Variable.currentSpaceTimeRepo;\r\n    let isDisabled = fa"
+      },
+      {
+        "linkId": 1025,
+        "linkName": "currentSpaceTimeRepo",
+        "enable": true,
+        "ksc": "k4fd127a0d05af9e524d5672c450cd0c",
+        "scriptHead": "/**\r\n * @description 因左侧选中树节点产生变化，根据变化确定是否展示右侧编辑组件\r\n */\r\n\r\nconsole.log(\"[D] 触发了 currentSpaceTimeRepo 改变时事件，currentSpaceTimeRepo = \", $Variable.currentSpaceTimeRepo);\r\n\r\nmain();\r\n\r\n"
+      },
+      {
+        "linkId": 1026,
+        "linkName": "updateSpaceTimeRepoAttrsView",
+        "enable": true,
+        "ksc": "k091f04ce5d252ee2514d5fedf2078cf",
+        "scriptHead": "console.log(\"[D] 触发了变量改变事件 :: updateSpaceTimeRepoAttrsView\");\r\n\r\ndebugger\r\nmain();\r\nfunction main()\r\n{\r\n    const pageName = $Variable.编辑时空页面名称;\r\n    if (window[pageName])\r\n    {\r\n"
+      },
+      {
+        "linkId": 1027,
+        "linkName": "updateInstanceListTable",
+        "enable": true,
+        "ksc": "ka057bde8f1c7196402413eb3ce9a632",
+        "scriptHead": "\r\nconsole.log(`[D] <实例化_框架页面> :: 变量改变时 :: updateInstanceListTable :: instanceList_ElementTable = `, instanceList_ElementTable);\r\n\r\nconst SUCCESS_CODE = 0;\r\nconst TYPE_META_FU_OBJEC"
+      },
+      {
+        "linkId": 1028,
+        "linkName": "spaceTimeRepoKeyWords",
+        "enable": true,
+        "ksc": "kfa4a7010a70837b32680da7a85b50a4",
+        "scriptHead": "console.log(\"[D] 搜索框触发 keyWords 改变事件, keyWords = \", $Variable.spaceTimeRepoKeyWords);\r\n\r\nlet keyWords = $Variable.spaceTimeRepoKeyWords;\r\n\r\nkeyWords = keyWords.replaceAll(/\\s/g, \"\""
+      },
+      {
+        "linkId": 1029,
+        "linkName": "createSpaceTimeRepo",
+        "enable": true,
+        "ksc": "k37b9c39f21ab893be3fc36b6ae63868",
+        "scriptHead": "console.log(\"[D] <实例化_框架页面> 点击了新建时空仓库按钮\");\r\n\r\nmain();\r\n\r\nasync function main()\r\n{\r\n    if (Object.keys($Variable.currentSpaceTimeRepo).length === 0)\r\n    {\r\n        _showMessage(\"请"
+      },
+      {
+        "linkId": 1030,
+        "linkName": "modifySpaceTimeRepo",
+        "enable": true,
+        "ksc": "k5a345246ee8cdc47702a178bc57d180",
+        "scriptHead": "console.log(\"[D] <实例化_框架页面> 点击了编辑时空仓库按钮\");\r\nconsole.log(\"[D] RContainer1 = \", RContainer1)\r\n\r\nmain();\r\n\r\nasync function main()\r\n{\r\n    if (Object.keys($Variable.currentSpaceTimeRep"
+      },
+      {
+        "linkId": 1031,
+        "linkName": "deleteSpaceTimeRepo",
+        "enable": true,
+        "ksc": "k28d661d3cbdc035b92f91b6cd61fd09",
+        "scriptHead": "console.log(\"[D] 点击了时空仓库删除按钮\");\r\n\r\ndebugger;\r\n\r\n\r\nmain();\r\n\r\nasync function main()\r\n{\r\n    const currentData = $Variable.currentSpaceTimeRepo;\r\n    if (Object.keys(currentData).len"
+      },
+      {
+        "linkId": 1032,
+        "linkName": "changeModelVersion",
+        "enable": true,
+        "ksc": "kc2ad4edffe39799de33525499ae6864",
+        "scriptHead": "console.log(\"[D] <实例化_框架页面> 点击了模型版本切换按钮\");\r\n\r\nmain();\r\n\r\nasync function main()\r\n{\r\n\r\n    const currentSelectedInstance = $Variable.changeModelVersion;\r\n    if (Object.keys(currentS"
+      },
+      {
+        "linkId": 1033,
+        "linkName": "modifyInstance",
+        "enable": true,
+        "ksc": "kb9cb9b9db2bf99f5501faa35032f6c4",
+        "scriptHead": "\r\nmain();\r\n\r\nasync function main()\r\n{\r\n    const currentData = $Variable.modifyInstance;\r\n    if (Object.keys(currentData).length == 0)\r\n    {\r\n        _showMessage(\"请选择想要修改的实例\", \""
+      },
+      {
+        "linkId": 1034,
+        "linkName": "manageFormalParams",
+        "enable": true,
+        "ksc": "k63d4cfcbede4baba5ef1e7f2d155da6",
+        "scriptHead": "\r\nconsole.log(\"[D] <实例化_框架页面> 点击了形参管理按钮\");\r\n\r\nmain();\r\n\r\nasync function main()\r\n{\r\n\r\n    const currentSelectedInstance = $Variable.manageFormalParams;\r\n    if (Object.keys(currentS"
+      },
+      {
+        "linkId": 1035,
+        "linkName": "submitInstances",
+        "enable": true,
+        "ksc": "k7df5d4ebb031691860f456041dd7f38",
+        "scriptHead": "\r\nconst SUCCESS_CODE = 0;\r\nconst TYPE_META_FU_OBJECT = 21001;\r\nconst IDENTIFIER_TYPE_ENUM = {\r\n    ID: 1,\r\n    NAME: 2,\r\n    FULL_NAME: 3,\r\n    ALLIAS: 4, // 别名\r\n    GUID: 5  // GU"
+      },
+      {
+        "linkId": 1036,
+        "linkName": "deleteInstances",
+        "enable": true,
+        "ksc": "k21c4d16493a18710fbc90e715c8c062",
+        "scriptHead": "console.log(\"[D] 触发了变量改变时 :: deleteInstances\");\r\ndebugger;\r\n\r\nmain();\r\n\r\nasync function main()\r\n{\r\n    const instanceList = $Variable.deleteInstances;\r\n    if (instanceList.length "
+      },
+      {
+        "linkId": 1037,
+        "linkName": "instanceRepoKeyWords",
+        "enable": true,
+        "ksc": "ka1572b7e427fcab63ea770e0f895669",
+        "scriptHead": "$Variable.updateInstanceListTable = !$Variable.updateInstanceListTable;"
+      },
+      {
+        "linkId": 1038,
+        "linkName": "createInstance",
+        "enable": true,
+        "ksc": "k8c58c59e10a367bad8793c6cdfd9682",
+        "scriptHead": "console.log(\"[D] <实例化_框架页面> 点击了新建按钮\");\r\n\r\nconst Enum_InstanceType = {\r\n    DCE_INSTANCE: \"3\",            // 采集设备实例\r\n    MCM_INSTANCE: \"2\",            // 管控单元实例\r\n};\r\n// 数字孪生实例化_实例_选"
+      },
+      {
+        "linkId": 1044,
+        "linkName": "submitInstancesSignal",
+        "enable": true,
+        "ksc": "k320b9470069f062c47bf61b764197de",
+        "scriptHead": "debugger;\r\nconsole.log(\"[D] <实例化框架页面> 触发了 batchCommiInstancesSignal 变量改变时\");\r\n\r\nmain();\r\n\r\nfunction main()\r\n{\r\n    const selections = instanceList_ElementTable.GetMultipleSelection"
+      },
+      {
+        "linkId": 1045,
+        "linkName": "submitSpaceTimeRepos",
+        "enable": true,
+        "ksc": "kf0a8cb68a65137605402f77e865ab64",
+        "scriptHead": "\r\nconst SUCCESS_CODE = 0;\r\nconst TYPE_META_FU_OBJECT = 21001;\r\nconst IDENTIFIER_TYPE_ENUM = {\r\n    ID: 1,\r\n    NAME: 2,\r\n    FULL_NAME: 3,\r\n    ALLIAS: 4, // 别名\r\n    GUID: 5  // GU"
+      },
+      {
+        "linkId": 1047,
+        "linkName": "selectSpaceTimeReposToSubmit",
+        "enable": true,
+        "ksc": "k1bab4a731305355b7963522808ba954",
+        "scriptHead": "console.log(\"[D] 点击了提交版本按钮\");\r\n\r\ndebugger;\r\n\r\n\r\nmain();\r\n\r\nasync function main()\r\n{\r\n\r\n    const childPageName = $Variable.选择提交版本时空仓库页面名称;\r\n    if (childPageName.length == 0)\r\n    "
+      },
+      {
+        "linkId": 1048,
+        "linkName": "moveSpaceTimeRepos",
+        "enable": true,
+        "ksc": "k652235a40695dd2fbff3ec5903946a3",
+        "scriptHead": "debugger;\r\nconsole.log(\"[D] <实例化框架页面> 触发了 moveSpaceTimeRepos 变量改变时\");\r\n\r\nconst cloudId = $Variable.cloudId;\r\nconst SUCCESS_CODE = 0;\r\nconst TYPE_META_FU_OBJECT = 21001;\r\nconst IDEN"
+      },
+      {
+        "linkId": 1050,
+        "linkName": "exportTagsSignal",
+        "enable": true,
+        "ksc": "k7a752d716521705a61f7263b5a37934",
+        "scriptHead": "debugger;\r\nconsole.log(\"[D] <实例化框架页面> 触发了 exportTagsSignal 变量改变时\");\r\n\r\nmain();\r\n\r\n// 打开选择实例的弹窗\r\nasync function main()\r\n{\r\n    const pageName = $Variable.选择时空导出变量页面名称;\r\n    if (!pag"
+      },
+      {
+        "linkId": 1051,
+        "linkName": "configureDataCollectionType",
+        "enable": true,
+        "ksc": "keb5890e2fa57c273c9081cd2abf0a9c",
+        "scriptHead": "console.log(\"[D] 点击了采集配置按钮\");\r\n\r\ndebugger;\r\n\r\n\r\nmain();\r\n\r\nasync function main()\r\n{\r\n    const currentData = $Variable.currentSpaceTimeRepo;\r\n    if (Object.keys(currentData).lengt"
+      },
+      {
+        "linkId": 1052,
+        "linkName": "importData",
+        "enable": true,
+        "ksc": "k42445a305e9b7df0dc3956520b9a192",
+        "scriptHead": "\r\n// 打开数据类型选择页面\r\n// 选择导入的数据文件，获取导入数据\r\n// 根据选中的数据类型，打开对应的数据导入页面\r\n// 根据导入页面的返回结果 + 导入的数据类型，更新树结构或者实例列表\r\n\r\nconsole.log(\"[D] <框架页面> :: 变量改变时 :: importData\");\r\n\r\ndebugger;\r\n\r\n// 实例配置数据类"
+      },
+      {
+        "linkId": 1053,
+        "linkName": "exportData",
+        "enable": true,
+        "ksc": "k831c0e2e4ae922c072f396e9285d463",
+        "scriptHead": "console.log(\"[D] 触发了变量改变时 :: exportData\");\r\ndebugger;\r\n\r\nmain();\r\n\r\nasync function main()\r\n{\r\n    let currentSpaceTimeRepo = $Variable.currentSpaceTimeRepo;\r\n    if (!currentSpaceT"
+      },
+      {
+        "linkId": 0,
+        "enable": true,
+        "ksc": "k7a0f15ee75760cf06c9a778029bb555",
+        "scriptHead": "/**\r\n * 步骤：\r\n *  1. 初始化页面参数\r\n *  2. 修改参数以触发树结构组件的更新\r\n */\r\nconsole.log(\"[D] <数字孪生实例化_框架页面> 开始初始化\");\r\n\r\nconst SUCCESS_CODE = 0;\r\nconst cloudId = getLocalCloudID();\r\nconst TYPE_META_F"
+      },
+      {
+        "linkId": 4,
+        "enable": true,
+        "ksc": "k05ef5867aeee4484f81a338d2b0e75e",
+        "scriptHead": "\r\nmain();\r\n\r\nfunction main()\r\n{\r\n    const currentSelectedInstance = $Variable.currentSpaceTimeRepo;\r\n    const fullPathIds = _getFullPathIds(currentSelectedInstance);\r\n    console"
+      }
+    ]
+  },
+  {
+    "i": 5,
+    "id": "pageView",
+    "cls": "page_view",
+    "pageName": "",
+    "text": "时空列表         导入 导出 删除 移动 批量提交 导入变量 导出变量 采集配置KF4.5RootNadirL1NadirL2实例列表 新建  删除  更多操作  批量提交版本名称显示名称描述模型模型版本操作NadirBackNadirBackclean backend盛",
+    "linkCount": 0,
+    "links": []
+  },
+  {
+    "i": 6,
+    "id": "",
+    "cls": "page_view_container show_child_view_container",
+    "pageName": "",
+    "text": "时空仓库版本提交进度  100% 名称GUID状态详情1NadirL24fa17a11-b923-4b36-b1e8-c39ca1bcf62c100%提交成功2NadirBack276cb189-67c5-47d1-94be-7e76f5f5af4e100%提交成功3NadirF",
+    "linkCount": 9,
+    "links": [
+      {
+        "linkId": 1004,
+        "linkName": "init",
+        "enable": true,
+        "ksc": "k6b5825bc9ce0ed15bc55ad6d7649831",
+        "scriptHead": "// 声明 repoGuidAndInfoMap;\r\n// 声明 packetGuidAndVersionMap;\r\n// 声明 guidsToBeDeleted; 存储待删除的仓库包 guids\r\n// 声明 guidAndErrorInfoMap; 存储guid和错误码\r\n\r\n// 根据传入的guids获取根实例的仓库信息（guid、name），组装 r"
+      },
+      {
+        "linkId": 0,
+        "enable": true,
+        "ksc": "kdb0af2a47001b168b220e074d90f1c0",
+        "scriptHead": "\r\n\r\n\r\nsetTimeout(function() {\r\n    \r\n    \r\n    console.log(\"taskProgress_VantProgress = \", taskProgress_VantProgress);\r\n    // taskProgress_VantProgress.propData.percentage = 40;\r\n"
+      }
+    ]
+  },
+  {
+    "i": 7,
+    "id": "pageView",
+    "cls": "page_view",
+    "pageName": "",
+    "text": "时空仓库版本提交进度  100% 名称GUID状态详情1NadirL24fa17a11-b923-4b36-b1e8-c39ca1bcf62c100%提交成功2NadirBack276cb189-67c5-47d1-94be-7e76f5f5af4e100%提交成功3NadirF",
+    "linkCount": 0,
+    "links": []
+  }
+]

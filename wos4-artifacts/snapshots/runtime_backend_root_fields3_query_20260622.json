@@ -1,0 +1,59 @@
+{
+  "fields": [
+    "$id",
+    "$guid",
+    "$name",
+    "$type",
+    "$version",
+    "$modelguid",
+    "$modelversion",
+    "$repositoryguid",
+    "$memberlist",
+    "$spaceTimeGUID",
+    "FUType",
+    "quotedType",
+    "toFather",
+    "isHasChild",
+    "maxVersion",
+    "modelDBRepository",
+    "multiEditor",
+    "imageFolderId",
+    "jsonFileId"
+  ],
+  "started": 1782093840667,
+  "ms": 96,
+  "res": {
+    "ret": 0,
+    "output": {
+      "errorcodes": [
+        0
+      ],
+      "ret": 0,
+      "returndata": [
+        {
+          "$id": "5911255985900486970",
+          "$guid": "4aeb7354-d29d-4969-834e-4310951bd719",
+          "$name": "盛云_孙宇飞_后台_CRUDDemo_0620@NadirBack",
+          "$type": null,
+          "$version": null,
+          "$modelguid": "5702ad4a-a934-43a9-9e14-f2ca545abb53",
+          "$modelversion": 1,
+          "$repositoryguid": null,
+          "$memberlist": null,
+          "$spacetimeguid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+          "futype": null,
+          "quotedtype": null,
+          "tofather": null,
+          "ishaschild": null,
+          "maxversion": null,
+          "modeldbrepository": null,
+          "multieditor": null,
+          "imagefolderid": null,
+          "jsonfileid": null
+        }
+      ]
+    },
+    "traceID": "5189216550731323392",
+    "consumeTime": 96
+  }
+}

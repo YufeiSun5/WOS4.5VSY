@@ -1,0 +1,56 @@
+{
+  "rootName": "RootLayout",
+  "rows": [
+    {
+      "name": "TopBarRow",
+      "heightStrategy": "fixedsize",
+      "height": 88,
+      "autoHeight": 8.15,
+      "cols": [
+        {
+          "name": "SearchInputCol",
+          "widthStrategy": "percentage",
+          "lgWidth": 82,
+          "xlWidth": 82,
+          "heightStrategy": "percentage"
+        },
+        {
+          "name": "SearchButtonCol",
+          "widthStrategy": "percentage",
+          "lgWidth": 18,
+          "xlWidth": 18,
+          "heightStrategy": "percentage"
+        }
+      ]
+    },
+    {
+      "name": "MainContentRow",
+      "heightStrategy": "autosize",
+      "height": 1025,
+      "autoHeight": 91.85,
+      "cols": [
+        {
+          "name": "LeftTreeCol",
+          "widthStrategy": "percentage",
+          "lgWidth": 18,
+          "xlWidth": 18,
+          "heightStrategy": "percentage"
+        },
+        {
+          "name": "CenterTableCol",
+          "widthStrategy": "percentage",
+          "lgWidth": 47,
+          "xlWidth": 47,
+          "heightStrategy": "percentage"
+        },
+        {
+          "name": "RightChartCol",
+          "widthStrategy": "percentage",
+          "lgWidth": 35,
+          "xlWidth": 35,
+          "heightStrategy": "percentage"
+        }
+      ]
+    }
+  ]
+}

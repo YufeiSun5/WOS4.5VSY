@@ -1,0 +1,538 @@
+{
+  "dialog": "添加时空仓库\n时空仓库\n默认数据区\n仓库数据包\n\n暂无历史版本\n\n预添加仓库数据包\n\n暂无选中版本\n\n已选仓库包 0 项\n取消\n确认",
+  "els": [
+    {
+      "tag": "SPAN",
+      "cls": "el-dialog__title",
+      "text": "添加时空仓库",
+      "title": "",
+      "rect": {
+        "x": 480,
+        "y": 146.84375,
+        "w": 96,
+        "h": 24
+      },
+      "html": "<span role=\"heading\" aria-level=\"2\" class=\"el-dialog__title\">添加时空仓库</span>"
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "el-dialog__headerbtn",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 1416,
+        "y": 134.84375,
+        "w": 44,
+        "h": 48
+      },
+      "html": "<button aria-label=\"关闭此对话框\" class=\"el-dialog__headerbtn\" type=\"button\"><i class=\"el-icon el-dialog__close\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1024 1024\"><path fill=\"currentColor\" d=\"M764.288 214.592 512 466.88 259.712 214.592a31.936"
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-dialog__body",
+      "text": "时空仓库\n默认数据区\n仓库数据包\n\n暂无历史版本\n\n预添加仓库数据包\n\n暂无选中版本",
+      "title": "",
+      "rect": {
+        "x": 460,
+        "y": 178.84375,
+        "w": 1000,
+        "h": 506
+      },
+      "html": "<div id=\"el-id-5665-585\" class=\"el-dialog__body\"><div data-v-0a22d34b=\"\" class=\"el-divider el-divider--horizontal\" role=\"separator\" style=\"--el-border-style: solid; margin: 0px 0px 8px;\"><!--v-if--></div><div data-v-0a22d34b=\"\" class=\"select-containe"
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-divider el-divider--horizontal",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 488,
+        "y": 178.84375,
+        "w": 954,
+        "h": 2
+      },
+      "html": "<div data-v-0a22d34b=\"\" class=\"el-divider el-divider--horizontal\" role=\"separator\" style=\"--el-border-style: solid; margin: 0px 0px 8px;\"><!--v-if--></div>"
+    },
+    {
+      "tag": "DIV",
+      "cls": "select-container",
+      "text": "时空仓库\n默认数据区\n仓库数据包\n\n暂无历史版本\n\n预添加仓库数据包\n\n暂无选中版本",
+      "title": "",
+      "rect": {
+        "x": 488,
+        "y": 188.84375,
+        "w": 954,
+        "h": 480
+      },
+      "html": "<div data-v-0a22d34b=\"\" class=\"select-container\"><div data-v-0a22d34b=\"\" class=\"source\"><section data-v-0a22d34b=\"\" class=\"el-container is-vertical left\"><header data-v-0a22d34b=\"\" class=\"el-header title\" style=\"--el-header-height: 32px;\">时空仓库</heade"
+    },
+    {
+      "tag": "DIV",
+      "cls": "source",
+      "text": "时空仓库\n默认数据区\n仓库数据包\n\n暂无历史版本",
+      "title": "",
+      "rect": {
+        "x": 488,
+        "y": 188.84375,
+        "w": 540,
+        "h": 480
+      },
+      "html": "<div data-v-0a22d34b=\"\" class=\"source\"><section data-v-0a22d34b=\"\" class=\"el-container is-vertical left\"><header data-v-0a22d34b=\"\" class=\"el-header title\" style=\"--el-header-height: 32px;\">时空仓库</header><header data-v-0a22d34b=\"\" class=\"el-header\" st"
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-input el-input--small el-input--prefix",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 498,
+        "y": 234.84375,
+        "w": 251,
+        "h": 24
+      },
+      "html": "<div data-v-0a22d34b=\"\" class=\"el-input el-input--small el-input--prefix\"><!-- input --><!-- prepend slot --><!--v-if--><div class=\"el-input__wrapper\" tabindex=\"-1\"><!-- prefix slot --><span class=\"el-input__prefix\"><span class=\"el-input__prefix-inne"
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-input__wrapper",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 498,
+        "y": 234.84375,
+        "w": 251,
+        "h": 24
+      },
+      "html": "<div class=\"el-input__wrapper\" tabindex=\"-1\"><!-- prefix slot --><span class=\"el-input__prefix\"><span class=\"el-input__prefix-inner\"><i class=\"el-icon el-input__icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1024 1024\"><path fill=\"current"
+    },
+    {
+      "tag": "SPAN",
+      "cls": "el-input__prefix",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 505,
+        "y": 235.84375,
+        "w": 20,
+        "h": 22
+      },
+      "html": "<span class=\"el-input__prefix\"><span class=\"el-input__prefix-inner\"><i class=\"el-icon el-input__icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1024 1024\"><path fill=\"currentColor\" d=\"m795.904 750.72 124.992 124.928a32 32 0 0 1-45.248 45.2"
+    },
+    {
+      "tag": "SPAN",
+      "cls": "el-input__prefix-inner",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 505,
+        "y": 235.84375,
+        "w": 20,
+        "h": 22
+      },
+      "html": "<span class=\"el-input__prefix-inner\"><i class=\"el-icon el-input__icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1024 1024\"><path fill=\"currentColor\" d=\"m795.904 750.72 124.992 124.928a32 32 0 0 1-45.248 45.248L750.656 795.904a416 416 0 1 "
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-scrollbar",
+      "text": "默认数据区",
+      "title": "",
+      "rect": {
+        "x": 498,
+        "y": 262.84375,
+        "w": 251,
+        "h": 396
+      },
+      "html": "<div data-v-0a22d34b=\"\" class=\"el-scrollbar\"><div class=\"el-scrollbar__wrap el-scrollbar__wrap--hidden-default\" style=\"height: 100%;\"><div class=\"el-scrollbar__view\" style=\"\"><div data-v-0a22d34b=\"\" class=\"el-tree el-tree--highlight-current\" role=\"tr"
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-scrollbar__wrap el-scrollbar__wrap--hidden-default",
+      "text": "默认数据区",
+      "title": "",
+      "rect": {
+        "x": 498,
+        "y": 262.84375,
+        "w": 251,
+        "h": 396
+      },
+      "html": "<div class=\"el-scrollbar__wrap el-scrollbar__wrap--hidden-default\" style=\"height: 100%;\"><div class=\"el-scrollbar__view\" style=\"\"><div data-v-0a22d34b=\"\" class=\"el-tree el-tree--highlight-current\" role=\"tree\"><div class=\"el-tree-node is-focusable\" ro"
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-scrollbar__view",
+      "text": "默认数据区",
+      "title": "",
+      "rect": {
+        "x": 498,
+        "y": 262.84375,
+        "w": 251,
+        "h": 26
+      },
+      "html": "<div class=\"el-scrollbar__view\" style=\"\"><div data-v-0a22d34b=\"\" class=\"el-tree el-tree--highlight-current\" role=\"tree\"><div class=\"el-tree-node is-focusable\" role=\"treeitem\" tabindex=\"0\" aria-expanded=\"false\" aria-disabled=\"\" aria-checked=\"false\" dr"
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-tree el-tree--highlight-current",
+      "text": "默认数据区",
+      "title": "",
+      "rect": {
+        "x": 498,
+        "y": 262.84375,
+        "w": 251,
+        "h": 26
+      },
+      "html": "<div data-v-0a22d34b=\"\" class=\"el-tree el-tree--highlight-current\" role=\"tree\"><div class=\"el-tree-node is-focusable\" role=\"treeitem\" tabindex=\"0\" aria-expanded=\"false\" aria-disabled=\"\" aria-checked=\"false\" draggable=\"false\" data-key=\"\"><div class=\"e"
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-tree-node is-focusable",
+      "text": "默认数据区",
+      "title": "",
+      "rect": {
+        "x": 498,
+        "y": 262.84375,
+        "w": 251,
+        "h": 26
+      },
+      "html": "<div class=\"el-tree-node is-focusable\" role=\"treeitem\" tabindex=\"0\" aria-expanded=\"false\" aria-disabled=\"\" aria-checked=\"false\" draggable=\"false\" data-key=\"\"><div class=\"el-tree-node__content\" style=\"padding-left: 0px;\"><i class=\"el-icon el-tree-node"
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-tree-node__content",
+      "text": "默认数据区",
+      "title": "",
+      "rect": {
+        "x": 498,
+        "y": 262.84375,
+        "w": 251,
+        "h": 26
+      },
+      "html": "<div class=\"el-tree-node__content\" style=\"padding-left: 0px;\"><i class=\"el-icon el-tree-node__expand-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1024 1024\"><path fill=\"currentColor\" d=\"M384 192v640l384-320.064z\"></path></svg></i><!--v-"
+    },
+    {
+      "tag": "I",
+      "cls": "el-icon el-tree-node__expand-icon",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 498,
+        "y": 263.84375,
+        "w": 24,
+        "h": 24
+      },
+      "html": "<i class=\"el-icon el-tree-node__expand-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1024 1024\"><path fill=\"currentColor\" d=\"M384 192v640l384-320.064z\"></path></svg></i>"
+    },
+    {
+      "tag": "DIV",
+      "cls": "tree-node",
+      "text": "默认数据区",
+      "title": "",
+      "rect": {
+        "x": 522,
+        "y": 262.84375,
+        "w": 227,
+        "h": 26
+      },
+      "html": "<div data-v-0a22d34b=\"\" class=\"tree-node\"><i data-v-0a22d34b=\"\" class=\"icon iconfont-WOS45 icon-WOS45-wuliziyuan\"></i><span data-v-0a22d34b=\"\">默认数据区</span></div>"
+    },
+    {
+      "tag": "SPAN",
+      "cls": "",
+      "text": "默认数据区",
+      "title": "",
+      "rect": {
+        "x": 541,
+        "y": 266.84375,
+        "w": 190.90625,
+        "h": 18
+      },
+      "html": "<span data-v-0a22d34b=\"\">默认数据区</span>"
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-divider el-divider--vertical",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 757,
+        "y": 198.84375,
+        "w": 2,
+        "h": 460
+      },
+      "html": "<div data-v-0a22d34b=\"\" class=\"el-divider el-divider--vertical\" role=\"separator\" style=\"--el-border-style: solid;\"><!--v-if--></div>"
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-scrollbar package-scrollbar",
+      "text": "暂无历史版本",
+      "title": "",
+      "rect": {
+        "x": 767,
+        "y": 230.84375,
+        "w": 251,
+        "h": 428
+      },
+      "html": "<div data-v-0a22d34b=\"\" class=\"el-scrollbar package-scrollbar\"><div class=\"el-scrollbar__wrap el-scrollbar__wrap--hidden-default\" style=\"height: 100%;\"><div class=\"el-scrollbar__view\" style=\"\"><div data-v-0a22d34b=\"\" class=\"el-empty\"><div class=\"el-e"
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-scrollbar__wrap el-scrollbar__wrap--hidden-default",
+      "text": "暂无历史版本",
+      "title": "",
+      "rect": {
+        "x": 767,
+        "y": 230.84375,
+        "w": 239,
+        "h": 428
+      },
+      "html": "<div class=\"el-scrollbar__wrap el-scrollbar__wrap--hidden-default\" style=\"height: 100%;\"><div class=\"el-scrollbar__view\" style=\"\"><div data-v-0a22d34b=\"\" class=\"el-empty\"><div class=\"el-empty__image\"><svg viewBox=\"0 0 79 86\" version=\"1.1\" xmlns=\"http"
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-scrollbar__view",
+      "text": "暂无历史版本",
+      "title": "",
+      "rect": {
+        "x": 767,
+        "y": 230.84375,
+        "w": 239,
+        "h": 288.171875
+      },
+      "html": "<div class=\"el-scrollbar__view\" style=\"\"><div data-v-0a22d34b=\"\" class=\"el-empty\"><div class=\"el-empty__image\"><svg viewBox=\"0 0 79 86\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><defs><linearGradient "
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-empty",
+      "text": "暂无历史版本",
+      "title": "",
+      "rect": {
+        "x": 767,
+        "y": 230.84375,
+        "w": 239,
+        "h": 288.171875
+      },
+      "html": "<div data-v-0a22d34b=\"\" class=\"el-empty\"><div class=\"el-empty__image\"><svg viewBox=\"0 0 79 86\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><defs><linearGradient id=\"linearGradient-1-el-id-5665-586\" x1=\""
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-empty__image",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 806.5,
+        "y": 270.84375,
+        "w": 160,
+        "h": 174.171875
+      },
+      "html": "<div class=\"el-empty__image\"><svg viewBox=\"0 0 79 86\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><defs><linearGradient id=\"linearGradient-1-el-id-5665-586\" x1=\"38.8503086%\" y1=\"0%\" x2=\"61.1496914%\" y2="
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-empty__description",
+      "text": "暂无历史版本",
+      "title": "",
+      "rect": {
+        "x": 844.5,
+        "y": 465.015625,
+        "w": 84,
+        "h": 14
+      },
+      "html": "<div class=\"el-empty__description\"><p>暂无历史版本</p></div>"
+    },
+    {
+      "tag": "DIV",
+      "cls": "operate",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 1028,
+        "y": 188.84375,
+        "w": 94,
+        "h": 480
+      },
+      "html": "<div data-v-0a22d34b=\"\" class=\"operate\"><button data-v-0a22d34b=\"\" aria-disabled=\"false\" type=\"button\" class=\"el-button el-button--default\"><i class=\"el-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1024 1024\"><path fill=\"currentColor\" d"
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 1052,
+        "y": 405.84375,
+        "w": 46,
+        "h": 46
+      },
+      "html": "<button data-v-0a22d34b=\"\" aria-disabled=\"false\" type=\"button\" class=\"el-button el-button--default\"><i class=\"el-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1024 1024\"><path fill=\"currentColor\" d=\"M340.864 149.312a30.59 30.59 0 0 0 0 4"
+    },
+    {
+      "tag": "DIV",
+      "cls": "selected",
+      "text": "预添加仓库数据包\n\n暂无选中版本",
+      "title": "",
+      "rect": {
+        "x": 1122,
+        "y": 188.84375,
+        "w": 320,
+        "h": 480
+      },
+      "html": "<div data-v-0a22d34b=\"\" class=\"selected\"><section data-v-0a22d34b=\"\" class=\"el-container is-vertical right\"><header data-v-0a22d34b=\"\" class=\"el-header title\" style=\"--el-header-height: 32px;\">预添加仓库数据包</header><main data-v-0a22d34b=\"\" class=\"el-main\""
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-scrollbar package-scrollbar",
+      "text": "暂无选中版本",
+      "title": "",
+      "rect": {
+        "x": 1132,
+        "y": 230.84375,
+        "w": 300,
+        "h": 428
+      },
+      "html": "<div data-v-0a22d34b=\"\" class=\"el-scrollbar package-scrollbar\"><div class=\"el-scrollbar__wrap el-scrollbar__wrap--hidden-default\" style=\"height: 100%;\"><div class=\"el-scrollbar__view\" style=\"\"><div data-v-0a22d34b=\"\" class=\"el-empty\"><div class=\"el-e"
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-scrollbar__wrap el-scrollbar__wrap--hidden-default",
+      "text": "暂无选中版本",
+      "title": "",
+      "rect": {
+        "x": 1132,
+        "y": 230.84375,
+        "w": 288,
+        "h": 428
+      },
+      "html": "<div class=\"el-scrollbar__wrap el-scrollbar__wrap--hidden-default\" style=\"height: 100%;\"><div class=\"el-scrollbar__view\" style=\"\"><div data-v-0a22d34b=\"\" class=\"el-empty\"><div class=\"el-empty__image\"><svg viewBox=\"0 0 79 86\" version=\"1.1\" xmlns=\"http"
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-scrollbar__view",
+      "text": "暂无选中版本",
+      "title": "",
+      "rect": {
+        "x": 1132,
+        "y": 230.84375,
+        "w": 288,
+        "h": 288.171875
+      },
+      "html": "<div class=\"el-scrollbar__view\" style=\"\"><div data-v-0a22d34b=\"\" class=\"el-empty\"><div class=\"el-empty__image\"><svg viewBox=\"0 0 79 86\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><defs><linearGradient "
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-empty",
+      "text": "暂无选中版本",
+      "title": "",
+      "rect": {
+        "x": 1132,
+        "y": 230.84375,
+        "w": 288,
+        "h": 288.171875
+      },
+      "html": "<div data-v-0a22d34b=\"\" class=\"el-empty\"><div class=\"el-empty__image\"><svg viewBox=\"0 0 79 86\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><defs><linearGradient id=\"linearGradient-1-el-id-5665-587\" x1=\""
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-empty__image",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 1196,
+        "y": 270.84375,
+        "w": 160,
+        "h": 174.171875
+      },
+      "html": "<div class=\"el-empty__image\"><svg viewBox=\"0 0 79 86\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><defs><linearGradient id=\"linearGradient-1-el-id-5665-587\" x1=\"38.8503086%\" y1=\"0%\" x2=\"61.1496914%\" y2="
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-empty__description",
+      "text": "暂无选中版本",
+      "title": "",
+      "rect": {
+        "x": 1234,
+        "y": 465.015625,
+        "w": 84,
+        "h": 14
+      },
+      "html": "<div class=\"el-empty__description\"><p>暂无选中版本</p></div>"
+    },
+    {
+      "tag": "DIV",
+      "cls": "el-divider el-divider--horizontal",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 488,
+        "y": 682.84375,
+        "w": 954,
+        "h": 2
+      },
+      "html": "<div data-v-0a22d34b=\"\" class=\"el-divider el-divider--horizontal\" role=\"separator\" style=\"--el-border-style: solid; margin-top: 14px; margin-bottom: 8px;\"><!--v-if--></div>"
+    },
+    {
+      "tag": "SPAN",
+      "cls": "footer-span",
+      "text": "已选仓库包 0 项",
+      "title": "",
+      "rect": {
+        "x": 476,
+        "y": 702.84375,
+        "w": 98.046875,
+        "h": 32
+      },
+      "html": "<span data-v-0a22d34b=\"\" class=\"footer-span\">已选仓库包 0 项</span>"
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default",
+      "text": "取消",
+      "title": "",
+      "rect": {
+        "x": 1312,
+        "y": 702.84375,
+        "w": 60,
+        "h": 32
+      },
+      "html": "<button data-v-0a22d34b=\"\" aria-disabled=\"false\" type=\"button\" class=\"el-button el-button--default\"><!--v-if--><span class=\"\">取消</span></button>"
+    },
+    {
+      "tag": "SPAN",
+      "cls": "",
+      "text": "取消",
+      "title": "",
+      "rect": {
+        "x": 1328,
+        "y": 711.84375,
+        "w": 28,
+        "h": 14
+      },
+      "html": "<span class=\"\">取消</span>"
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "el-button el-button--primary el-button--default is-disabled",
+      "text": "确认",
+      "title": "",
+      "rect": {
+        "x": 1384,
+        "y": 702.84375,
+        "w": 60,
+        "h": 32
+      },
+      "html": "<button data-v-0a22d34b=\"\" aria-disabled=\"true\" disabled=\"\" type=\"button\" class=\"el-button el-button--primary el-button--default is-disabled\"><!--v-if--><span class=\"\">确认</span></button>"
+    },
+    {
+      "tag": "SPAN",
+      "cls": "",
+      "text": "确认",
+      "title": "",
+      "rect": {
+        "x": 1400,
+        "y": 711.84375,
+        "w": 28,
+        "h": 14
+      },
+      "html": "<span class=\"\">确认</span>"
+    }
+  ]
+}

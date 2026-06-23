@@ -1,0 +1,120 @@
+{
+  "exact": [
+    {
+      "i": 0,
+      "tag": "DIV",
+      "text": "盛云_孙宇飞_Nadir_客户端_0622",
+      "own": "",
+      "cls": "el-tree-node is-focusable",
+      "rect": {
+        "x": 0,
+        "y": 920,
+        "w": 300,
+        "h": 30
+      }
+    },
+    {
+      "i": 1,
+      "tag": "DIV",
+      "text": "盛云_孙宇飞_Nadir_客户端_0622",
+      "own": "",
+      "cls": "el-tree-node__content",
+      "rect": {
+        "x": 0,
+        "y": 920,
+        "w": 300,
+        "h": 30
+      }
+    },
+    {
+      "i": 2,
+      "tag": "DIV",
+      "text": "盛云_孙宇飞_Nadir_客户端_0622",
+      "own": "",
+      "cls": "custom-node",
+      "rect": {
+        "x": 32,
+        "y": 926,
+        "w": 268,
+        "h": 18
+      }
+    },
+    {
+      "i": 3,
+      "tag": "SPAN",
+      "text": "盛云_孙宇飞_Nadir_客户端_0622",
+      "own": "盛云_孙宇飞_Nadir_客户端_0622",
+      "cls": "",
+      "rect": {
+        "x": 50,
+        "y": 926,
+        "w": 210.359375,
+        "h": 18
+      }
+    }
+  ],
+  "current": [
+    {
+      "i": 0,
+      "tag": "DIV",
+      "text": "开发系统",
+      "cls": "el-tree-node is-current is-focusable",
+      "rect": {
+        "x": 0,
+        "y": 140,
+        "w": 300,
+        "h": 30
+      }
+    },
+    {
+      "i": 1,
+      "tag": "DIV",
+      "text": "",
+      "cls": "card cursor-pointer is-current frame-AppCard el-tooltip__trigger el-tooltip__trigger",
+      "rect": {
+        "x": 110,
+        "y": 899,
+        "w": 55,
+        "h": 46
+      }
+    }
+  ],
+  "creates": [
+    {
+      "i": 0,
+      "tag": "BUTTON",
+      "text": "创建",
+      "cls": "el-button el-button--default",
+      "rect": {
+        "x": 470.84375,
+        "y": 60,
+        "w": 40,
+        "h": 40
+      }
+    },
+    {
+      "i": 1,
+      "tag": "SPAN",
+      "text": "创建",
+      "cls": "",
+      "rect": {
+        "x": 478.84375,
+        "y": 66,
+        "w": 24,
+        "h": 28
+      }
+    },
+    {
+      "i": 2,
+      "tag": "SPAN",
+      "text": "创建",
+      "cls": "",
+      "rect": {
+        "x": 478.84375,
+        "y": 82,
+        "w": 24,
+        "h": 12
+      }
+    }
+  ]
+}

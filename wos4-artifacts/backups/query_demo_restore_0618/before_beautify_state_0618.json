@@ -1,0 +1,135 @@
+{
+  "ok": true,
+  "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_107/index.html",
+  "root": {
+    "name": "RootLayout",
+    "backgroundColor": "",
+    "borderWidth": 0,
+    "borderColor": "rgba(0,0,0,0.1)",
+    "borderRadius": 0,
+    "isShowBorder": false,
+    "rows": [
+      {
+        "name": "TopBarRow",
+        "height": 88,
+        "heightStrategy": "fixedsize",
+        "cols": [
+          {
+            "name": "TitleCol",
+            "lgWidth": 25,
+            "xlWidth": 260,
+            "widthStrategy": "fixedsize",
+            "visible": true,
+            "colHeight": 86,
+            "heightStrategy": "percentage",
+            "objects": []
+          },
+          {
+            "name": "SearchInputCol",
+            "lgWidth": 25,
+            "xlWidth": 1236,
+            "widthStrategy": "fixedsize",
+            "visible": true,
+            "colHeight": 86,
+            "heightStrategy": "percentage",
+            "objects": []
+          },
+          {
+            "name": "SearchButtonCol",
+            "lgWidth": 25,
+            "xlWidth": 180,
+            "widthStrategy": "fixedsize",
+            "visible": true,
+            "colHeight": 86,
+            "heightStrategy": "percentage",
+            "objects": []
+          },
+          {
+            "name": "ReserveCol",
+            "lgWidth": 25,
+            "xlWidth": 241,
+            "widthStrategy": "fixedsize",
+            "visible": true,
+            "colHeight": 86,
+            "heightStrategy": "percentage",
+            "objects": []
+          }
+        ]
+      },
+      {
+        "name": "ContentStackRow",
+        "height": 992,
+        "heightStrategy": "autosize",
+        "cols": [
+          {
+            "name": "ContentHostCol",
+            "lgWidth": 100,
+            "xlWidth": 1917,
+            "widthStrategy": "autosize",
+            "visible": true,
+            "colHeight": 990,
+            "heightStrategy": "percentage",
+            "objects": [
+              {
+                "name": "MainContentContainer",
+                "prototypeName": "RContainer"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "nested": {
+    "name": "MainContentContainer",
+    "backgroundColor": "",
+    "borderWidth": 0,
+    "borderColor": "rgba(0,0,0,0.1)",
+    "borderRadius": 0,
+    "isShowBorder": false,
+    "rows": [
+      {
+        "name": "TableAreaRow",
+        "height": 560,
+        "heightStrategy": "fixedsize",
+        "cols": [
+          {
+            "name": "TableAreaCol",
+            "lgWidth": 100,
+            "xlWidth": 1902,
+            "widthStrategy": "autosize",
+            "visible": true,
+            "colHeight": 558,
+            "heightStrategy": "percentage",
+            "objects": []
+          }
+        ]
+      },
+      {
+        "name": "ChartAreaRow",
+        "height": 430,
+        "heightStrategy": "fixedsize",
+        "cols": [
+          {
+            "name": "ChartAreaCol",
+            "lgWidth": 100,
+            "xlWidth": 1902,
+            "widthStrategy": "autosize",
+            "visible": true,
+            "colHeight": 428,
+            "heightStrategy": "percentage",
+            "objects": []
+          }
+        ]
+      }
+    ]
+  },
+  "reservedNames": {
+    "RCol13": "",
+    "RCol14": "",
+    "RCol9": "",
+    "RCol2": "",
+    "RCol8": "",
+    "RCol3": ""
+  }
+}

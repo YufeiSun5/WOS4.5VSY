@@ -1,0 +1,35 @@
+{
+  "createdAt": "2026-06-12T00:00:00+08:00",
+  "operator": "盛云_孙宇飞",
+  "task": "从建模到客户端发布：手册依据转实际操作假设",
+  "skillUsed": [
+    ".ai/skills/wos4-manual-to-skill/SKILL.md",
+    ".ai/skills/wos4-human-navigation/SKILL.md",
+    ".ai/skills/wos4-login/SKILL.md"
+  ],
+  "manualSources": [
+    {
+      "path": "wos4-artifacts/docs/wos4-help-kb/system-introduction/App引擎介绍.md",
+      "claim": "App引擎负责App对象的创建、删除、查询、修改、调试、调用等；WebJS App通过WebJS App引擎和浏览器运行。"
+    },
+    {
+      "path": "wos4-artifacts/docs/wos4-help-kb/system-introduction/App引擎介绍.md",
+      "claim": "在App引擎中创建App对象时，需要使用引擎中存在的App拷贝创建；创建App对象即启动运行。"
+    },
+    {
+      "path": "wos4-artifacts/docs/wos4-help-kb/function-reference/meta-language-functions/元语言函数_App引擎.md",
+      "claim": "Create(param,input,output) 可根据App拷贝创建根App对象；param.type为21001；input.mode为ROOT；fieldValues包含copyGUID和initialFields。创建为异步操作。"
+    }
+  ],
+  "operationHypothesis": {
+    "entryPath": "桌面 -> KingStudio_V20260514 -> 产品管理卡片[升级拷贝1] -> 进入 -> 产品组装",
+    "uiExpectation": "产品组装页应存在与App模型/拷贝导入、运行、发布、预览或客户端生成相关的按钮或菜单。",
+    "runtimeExpectation": "发布客户端不应依赖动态URL作为入口；UI最终应触发模型/拷贝导入到App引擎，或创建WebJS根App对象，随后可通过预览/运行入口验证。",
+    "networkExpectation": "从桌面双击KingStudio后应出现/public/、GetFileContent或等价应用资源请求；若只有/api/v1/Query轮询，说明入口未真正打开。",
+    "safety": "发布或删除类按钮先只打开弹窗并截图，不直接确认破坏性操作。"
+  },
+  "verified": false,
+  "invalidatedAt": "2026-06-12T00:00:00+08:00",
+  "invalidatedReason": "用户明确说明 KingStudio_V20260514 是废弃入口，不许再进入。该 UI 假设作废，只保留手册依据和历史探针证据。",
+  "skillDecision": "不得基于 KingStudio/产品组装创建 wos4-client-publish skill；需要从当前有效入口重新形成并验证操作假设。"
+}

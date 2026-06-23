@@ -1,0 +1,111 @@
+{
+  "ok": true,
+  "tableAdd": {
+    "ok": true,
+    "instName": "demo_table",
+    "proto": "ElementTable"
+  },
+  "objects": [
+    {
+      "col": "RCol16",
+      "obj": "demo_filter_input",
+      "proto": "ElementInput",
+      "placeholder": "请输入关键字"
+    },
+    {
+      "col": "RCol18",
+      "obj": "demo_query_button",
+      "proto": "ElementButton",
+      "detailConfig": "this.button({ text: '查询' })"
+    },
+    {
+      "col": "RCol20",
+      "obj": "demo_table",
+      "proto": "ElementTable",
+      "detailLen": 841
+    },
+    {
+      "col": "RCol21",
+      "obj": "demo_chart",
+      "proto": "ElementChart",
+      "detailLen": 270
+    }
+  ]
+}
+{
+  "ok": true
+}
+{
+  "ok": true
+}
+{
+  "capture": {
+    "messages": [
+      {
+        "kind": "mutation",
+        "text": "版本提交提交说明\n          取消\n        \n          确定",
+        "extra": {
+          "className": "el-message-box__wrapper"
+        },
+        "t": 1781769735868
+      },
+      {
+        "text": "版本提交提交说明\n          取消\n        \n          确定",
+        "className": "el-message-box__wrapper",
+        "t": 1781769735868
+      },
+      {
+        "kind": "mutation",
+        "text": "保存成功",
+        "extra": {
+          "className": "el-message"
+        },
+        "t": 1781769738899
+      },
+      {
+        "text": "保存成功",
+        "className": "el-message",
+        "t": 1781769738899
+      },
+      {
+        "kind": "mutation",
+        "text": "生成历史版本成功！",
+        "extra": {
+          "className": "el-message el-message--success"
+        },
+        "t": 1781769739012
+      },
+      {
+        "text": "生成历史版本成功！",
+        "className": "el-message el-message--success",
+        "t": 1781769739012
+      }
+    ]
+  },
+  "cols": [
+    {
+      "col": "RCol16",
+      "obj": "demo_filter_input",
+      "proto": "ElementInput",
+      "placeholder": "请输入关键字"
+    },
+    {
+      "col": "RCol18",
+      "obj": "demo_query_button",
+      "proto": "ElementButton",
+      "detailConfig": "this.button({ text: '查询' })"
+    },
+    {
+      "col": "RCol20",
+      "obj": "demo_table",
+      "proto": "ElementTable",
+      "detailLen": 841
+    },
+    {
+      "col": "RCol21",
+      "obj": "demo_chart",
+      "proto": "ElementChart",
+      "detailLen": 270
+    }
+  ]
+}

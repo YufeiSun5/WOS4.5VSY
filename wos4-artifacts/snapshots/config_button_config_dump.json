@@ -1,0 +1,447 @@
+{
+  "elementTable": {
+    "uid": 585,
+    "name": "ElementTable",
+    "data": {
+      "tableDataCopy": [],
+      "dynamicRow": {
+        "show": false
+      },
+      "isRowEdit": false,
+      "editRowIndex": "null",
+      "multipleSelectionRow": [],
+      "filterFlag": "",
+      "filterTotalData": [],
+      "inputSearchValue": "",
+      "searchTotalData": [],
+      "filterData": [],
+      "searchData": [],
+      "cellTooltipOption": {
+        "effect": "dark",
+        "content": "",
+        "placement": "bottom",
+        "offset": 0,
+        "visibleArrow": true,
+        "openDelay": 0,
+        "enterable": true,
+        "tabindex": 0,
+        "show": false
+      },
+      "cellPositionInfo": {
+        "rowIndex": "",
+        "colIndex": ""
+      },
+      "disabled": true,
+      "startIndex": 0,
+      "scrollEventFlag": false,
+      "pluginCheckboxValues": [],
+      "parentSelectStatus": "",
+      "expandsRow": [],
+      "checkList": [],
+      "filterisShow": false,
+      "filterShowProp": "",
+      "filterList": [],
+      "filterIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAADwikbvAAABeElEQVQokX3Sz0sXURQF8M83v2UtBLOdO3cVtAiEIIr2/cCgNhLYIhyoBuZfyLYSNDRQzaqFGwmCdoIU6CICkUCEIAha5CbIVBKU0uLak6Yv2oUHM/fde865577Ww0dPp3ABW2j5Ey9xD2OYxA8c8De68KWNcxjBGxzFNo7jBeYxgYP+jSBZCrRviflykWeL2EyMz4o8u4mhdK40zlVcbyeU13hQVvUZnMR39AZXkWev7BMx8wr6GlKD9S4C+BpmkuxfDYhQ/CkKVpP0lTTvOI5hGOuYS0DNCMM+RPIE7qAfP1PFRJFnC+l7eD/Zu9Ju4HCSFh704HZZ1YdwurHCpuzlmHkN4fLHVNSNS2EgnqcVtjtmDtmfI7lR5NnZJmxZ1W9xMZl3vuOB7DKvR/N2WdV9RZ4td1zGmsKDd/+budXRGBGuB+gAZvdYVfzvuH2krOppvE+MkTuFx/iKePthXLM5anb2/AS3MJguwrRY0/0iz8LM0T014zdnRWN1rzDIGQAAAABJRU5ErkJggg==",
+      "lastProp": "",
+      "imgList": [],
+      "selectEventData": {
+        "type": true,
+        "selectRow": [],
+        "selection": [],
+        "unselectRow": []
+      },
+      "multupleToolTips": {},
+      "d_objColFilterConfig": {},
+      "d_arrColFilterData": [],
+      "UIType": "comp",
+      "linkList": [
+        {
+          "linkId": 200001,
+          "enable": false,
+          "KSCGUID": "k4f1af882ea9757ae4bb12f7c8ef90dd",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Select"
+        },
+        {
+          "linkId": 200002,
+          "enable": false,
+          "KSCGUID": "kfeba9a8601f5424592562d6e1c9cbc7",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "SelectAll"
+        },
+        {
+          "linkId": 200003,
+          "enable": false,
+          "KSCGUID": "kb833f54cfabfb63d6784f12f0786c90",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "SelectionChange"
+        },
+        {
+          "linkId": 200004,
+          "enable": false,
+          "KSCGUID": "k909cca4fe842308b020152f37555de1",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CellMouseEnter"
+        },
+        {
+          "linkId": 200005,
+          "enable": false,
+          "KSCGUID": "k759c3df531f8f091e7cbe1ccd1127be",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CellMouseLeave"
+        },
+        {
+          "linkId": 200006,
+          "enable": false,
+          "KSCGUID": "kc9d18101f5c98cc0a8ff0852075bb3d",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CellClick"
+        },
+        {
+          "linkId": 200007,
+          "enable": false,
+          "KSCGUID": "k6223fdddadd8ac84b88de3b6dd93cd4",
+          "script": "debugger\nlet col = arguments[1].column.label;\nif(col === \"名称\") {\n    let row = arguments[1].row;\n    showEditFramePageDialog(row);\n}\n\nfunction showEditFramePageDialog(row) {\n    debugger;\n    const pageName = $Variable.模型编辑_框架页面_页面名称;\n    const options = {\n        type: 0, //替换式页面样式配置\n        sTType: 2,\n        spaceTime: $Variable.配置后台时空对象全路径, \n        variables: [{\n                name: \"配置后台对象名称\",\n                value: $Variable.配置后台对象名称\n            },\n            {\n                name: \"数字孪生建模时空仓库Name\", //当前选中模型\n                value: row.modelname\n            },\n            {\n                name: \"数字孪生建模时空仓库ID\", //当前选中模型\n                value: row.modelid\n            },\n            {\n                name: \"数字孪生建模时空仓库GUID\", //当前选中模型\n                value: row.modelguid\n            },\n            {\n                name: \"当前页面名称\", //当前选中模型\n                value: $Variable.模型编辑_框架页面_页面名称\n            },\n            {\n                name: \"工程时空仓库名称\",\n                value: $Variable.工程时空仓库名称\n            },\n            {\n                name: \"工程时空仓库ID\",\n                value: $Variable.工程时空仓库ID\n            },\n            {\n                name: \"工程时空仓库GUID\",\n                value: $Variable.工程时空仓库GUID\n            },\n            {\n                name: \"工程Root时空仓库名称\",\n                value: $Variable.工程Root时空仓库名称\n            },\n            {\n                name: \"工程Root时空仓库ID\",\n                value: $Variable.工程Root时空仓库ID\n            },\n            {\n                name: \"工程Root时空仓库GUID\",\n                value: $Variable.工程Root时空仓库GUID\n            }, \n            {\n                name: \"配置后台时空对象全路径\",\n                value: $Variable.配置后台时空对象全路径\n            },            \n            {\n                name: \"模型根时空仓库GUID\", \n                value: $Variable.模型根时空仓库GUID\n            },\n            // {\n            //     name: \"工厂模型根仓库名称\", //当前选中模型\n            //     value: $Variable.工厂模型根_时空仓库名称\n            // },\n        ]\n    };\n    ShowPage(pageName, options);\n}",
+          "KSCLINKGUID": "k7460dc82c90da64786ea0558d0ca232",
+          "linkName": "Cell-dbclick"
+        },
+        {
+          "linkId": 200008,
+          "enable": false,
+          "KSCGUID": "k0ab67ee0211b8b89bb2ba8e47a38df3",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "RowClick"
+        },
+        {
+          "linkId": 200009,
+          "enable": false,
+          "KSCGUID": "k866c3d56ff3925c4e8bf7aa233a355e",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "RowContextmenu"
+        },
+        {
+          "linkId": 200010,
+          "enable": true,
+          "KSCGUID": "k395c9fff3f25be936d4355cd8d85bc2",
+          "script": "debugger\nlet col = arguments[1].column.label;\nif(col === \"客户端名称\") {\n    let row = arguments[1].row;\n    showEditFramePageDialog(row);\n}\n\nfunction showEditFramePageDialog(row) {\n    debugger;\n    $Variable.选中人机界面客户端 = JSON.stringify(row);\n    SetVariable('开发系统_组态_框架页面', '选中人机界面客户端', $Variable.选中人机界面客户端);\n    SetVariable('开发系统_组态_框架页面', 'switchPage', 2);\n    // const pageName = $Variable.画面管理页面名称;\n    // const options = {\n    //     type: 0, //替换式页面样式配置\n    //     variables: [{\n    //             name: \"工程时空仓库名称\",\n    //             value: $Variable.工程时空仓库名称\n    //         },\n    //         {\n    //             name: \"工程时空仓库ID\",\n    //             value: $Variable.工程时空仓库ID\n    //         },\n    //         {\n    //             name: \"工程时空仓库GUID\",\n    //             value: $Variable.工程时空仓库GUID\n    //         },\n    //         {\n    //             name: \"工程Root时空仓库名称\",\n    //             value: $Variable.工程Root时空仓库名称\n    //         },\n    //         {\n    //             name: \"工程Root时空仓库ID\",\n    //             value: $Variable.工程Root时空仓库ID\n    //         },\n    //         {\n    //             name: \"根私有仓库全路径\",\n    //             value: `${$Variable.工程Root时空仓库名称}`+\"/\"+`${$Variable.工程时空仓库名称}`+\"/\"+\n    //             `${row.repositoryname}`+\"/私有根组\"\n    //         },\n    //         {\n    //             name: \"客户端仓库GUID\",\n    //             value: row.repositoryguid\n    //         },\n    //         {\n    //             name: \"客户端拷贝GUID\",\n    //             value: row.guid\n    //         },\n    //         {\n    //             name: \"客户端仓库模型ID\",\n    //             value: row.repositoryid\n    //         }]\n    // };\n\n    // $Variable.展示画面管理 =! $Variable.展示画面管理\n    // ShowPage(pageName, options);\n    // RCol7.setPage(pageName, options);\n}",
+          "KSCLINKGUID": "k7460dc82c90da64786ea0558d0ca232",
+          "linkName": "Row-dbclick"
+        },
+        {
+          "linkId": 200011,
+          "enable": false,
+          "KSCGUID": "k1b0dffe7161c5c3c957e6b4efc2d844",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "HeaderClick"
+        },
+        {
+          "linkId": 200012,
+          "enable": false,
+          "KSCGUID": "k2cc239428ba503dd001499378a29f01",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "SortChange"
+        },
+        {
+          "linkId": 200013,
+          "enable": false,
+          "KSCGUID": "k1f6809b231aff8cac91d2869392480d",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "FilterChange"
+        },
+        {
+          "linkId": 200014,
+          "enable": false,
+          "KSCGUID": "k842049691104e9cc18867231835b83b",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CurrentChange"
+        },
+        {
+          "linkId": 200015,
+          "enable": false,
+          "KSCGUID": "k7440ad163098b10531806a0051e3e23",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "HeaderDragend"
+        },
+        {
+          "linkId": 200016,
+          "enable": false,
+          "KSCGUID": "k3572d6874901b4a84604b57b0f6b63e",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "ExpandChange"
+        },
+        {
+          "linkId": 200017,
+          "enable": false,
+          "KSCGUID": "k3d2791fbe59fc9e74b4e3b47568dcf0",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CurrentPageChange"
+        },
+        {
+          "linkId": 200018,
+          "enable": false,
+          "KSCGUID": "kf68817dffa9afc3b2031436669fb749",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "OnLoadSuccess"
+        },
+        {
+          "linkId": 200019,
+          "enable": false,
+          "KSCGUID": "k5c1ff1e0f96c48d3f27b62712abd50c",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "OnBeforeEdit"
+        },
+        {
+          "linkId": 200020,
+          "enable": false,
+          "KSCGUID": "k6e84219bc6a92c146eca4e865b9e9d0",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "OnAfterEdit"
+        },
+        {
+          "linkId": 200021,
+          "enable": false,
+          "KSCGUID": "k6feddcbbebab9da8772e29b992dfec3",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "PageSizeChange"
+        }
+      ],
+      "times": 1781677773342
+    },
+    "props": {
+      "propData": {
+        "UIName": "模型列表",
+        "groupName": "数据",
+        "icon": "table",
+        "prototypeName": "ElementTable",
+        "elementuiType": "ElementTable",
+        "objectType": 2,
+        "KSCGUID": "k7460dc82c90da64786ea0558d0ca232",
+        "leftTopPt": {
+          "x": 0,
+          "y": 0
+        },
+        "showCustomLabel": false,
+        "customLabel": "",
+        "expands": [],
+        "detailConfig": "this.table({\n  cellClassName: function({\n    row,\n    column,\n    rowIndex,\n    columnIndex\n  }) {\n    if (column.label == '操作' || column.label == '编辑环境') {\n      return 'cellName'\n    }\n  },\n  columns: [{\n    prop: \"select\",\n    type: \"selection\",\n    align: \"center\",\n    width: \"40\",\n    m_id: \"b6a5553f-89b1-4656-999b-a63f91567eb0\"\n  }, {\n    prop: \"modelname\",\n    label: \"客户端名称\",\n    align: \"left\",\n    minWidth: \"120\",\n    type: \"\",\n    columnKey: \"\",\n    m_id: \"83d963e8-ddab-41c2-845b-6c759538e245\"\n  }, {\n    prop: \"operation\",\n    label: \"操作\",\n    align: \"left\",\n    minWidth: \"280\",\n    type: \"operation\",\n    columnKey: \"\",\n    fixed: false,\n    plugins: [{\n      pluginType: \"button\",\n      text: \"编辑\",\n      type: \"text\",\n      click: function(scope) {\n        showEditFramePageDialog(scope);\n      }\n    }, {\n      pluginType: \"button\",\n      text: \"属性\",\n      type: \"text\",\n      click: function(scope) {\n        showEditModelDialog(scope);\n      }\n    }, {\n      pluginType: \"button\",\n      text: \"更新版本\",\n      type: \"text\",\n      click: function(scope) {\n        updateVer(scope);\n      }\n    }, {\n      pluginType: \"button\",\n      text: \"提交版本\",\n      type: \"text\",\n      click: function(scope) {\n        // $Variable.删除模型 = JSON.stringify([scope.row]);\n        showSubmit(scope);\n      }\n    }, {\n      pluginType: \"button\",\n      text: \"预览\",\n      type: \"text\",\n      click: function(scope) {\n        // $Variable.删除模型 = JSON.stringify([scope.row]);\n        preShow(scope);\n      }\n    }, {\n      pluginType: \"button\",\n      text: \"删除\",\n      type: \"text\",\n      color: \"rgba(255, 91, 81, 1)\",\n      click: function(scope) {\n        // $Variable.删除模型 = JSON.stringify([scope.row]);\n        showDeleteModelDialog(scope);\n      }\n    }],\n    m_id: \"5ee91e17-3311-4b68-aa79-44bb3612403c\"\n  }],\n  totalData: []\n})\n\nconst MESSAGE_BOX_WIDTH = 60;\nconst MESSAGE_BOX_HEIGHT = 40;\n//打开<工厂模型新建编辑_精灵图>\nfunction showEditModelDialog(scope) {\n  let clientInfomation = {\n    clientGUID: \"\",\n    clientName: \"\",\n    repositoryName: \"\",\n    repositoryGUID: \"\",\n  };\n  clientInfomation[\"clientGUID\"] = scope.row.guid;\n  clientInfomation[\"clientName\"] = scope.row.modelname;\n  clientInfomation[\"repositoryName\"] = scope.row.repositoryname;\n  clientInfomation[\"repositoryGUID\"] = scope.row.repositoryguid;\n  $Variable.选中人机界面客户端 = JSON.stringify(clientInfomation);\n\n  const pageName = \"编辑人机界面弹窗\";\n  const options = {\n    type: 2, //弹出式页面样式配置\n    styleOptions: {\n      header: false,\n      width: '500',\n      height: '180',\n      top: '300px',\n    },\n    sTType: 5,\n    spaceTime: $Variable.配置后台时空全路径,\n    variables: [{\n        name: \"选中人机界面客户端\",\n        value: $Variable.选中人机界面客户端\n      },\n      {\n        name: \"操作类型\", // 操作类型\n        value: \"update\"\n      },\n      {\n        name: \"配置后台对象名称\",\n        value: $Variable.配置后台名称\n      },\n      {\n        name: \"配置后台时空全路径\",\n        value: $Variable.配置后台时空全路径\n      }\n    ]\n  };\n\n  ShowChild(pageName, options, (res) => {\n    debugger;\n    if (res.eventName == \"submit\") {\n      if (res.eventParam.length && res.eventParam[0].code === 0) {\n        CloseChild(pageName);\n        $Variable.queryClients = !$Variable.queryClients;\n        $Variable.选中人机界面客户端 = \"\";\n      }\n    }\n    if (res.eventName == \"cancel\") {\n      CloseChild(pageName);\n      $Variable.选中人机界面客户端 = \"\";\n    }\n  });\n}\n\n//打开<工厂模型编辑_框架页面_精灵图>\nfunction showEditFramePageDialog(scope) {\n  debugger;\n  $Variable.选中人机界面客户端 = JSON.stringify(scope.row);\n  SetVariable('开发系统_框架页面', '选中人机界面客户端', $Variable.选中人机界面客户端);\n  SetVariable('开发系统_框架页面', 'switchPage', 2);\n  // const pageName = $Variable.画面管理页面名称;\n  // const options = {\n  //     // type: 0, //替换式页面样式配置\n  //     variables: [{\n  //             name: \"工程时空仓库名称\",\n  //             value: $Variable.工程时空仓库名称\n  //         },\n  //         {\n  //             name: \"工程时空仓库ID\",\n  //             value: $Variable.工程时空仓库ID\n  //         },\n  //         {\n  //             name: \"工程时空仓库GUID\",\n  //             value: $Variable.工程时空仓库GUID\n  //         },\n  //         {\n  //             name: \"工程Root时空仓库名称\",\n  //             value: $Variable.工程Root时空仓库名称\n  //         },\n  //         {\n  //             name: \"工程Root时空仓库ID\",\n  //             value: $Variable.工程Root时空仓库ID\n  //         },\n  //         {\n  //             name: \"根私有仓库全路径\",\n  //             value: `${$Variable.工程Root时空仓库名称}`+\"/\"+`${$Variable.工程时空仓库名称}`+\"/\"+\n  //             `${scope.row.repositoryname}`+\"/私有根组\"\n  //         },\n  //         {\n  //             name: \"客户端仓库GUID\",\n  //             value: scope.row.repositoryguid\n  //         },\n  //         {\n  //             name: \"客户端拷贝GUID\",\n  //             value: scope.row.guid\n  //         },\n  //         {\n  //             name: \"客户端仓库模型ID\",\n  //             value: scope.row.repositoryid\n  //         }]\n  // };\n  // RCol7.setPage(pageName, options);\n  // $Variable.展示画面管理 =! $Variable.展示画面管理\n  // ShowPage(pageName, options);\n}\n\n//打开<数字孪生模型删除_精灵图>\nfunction showDeleteModelDialog(scope) {\n  debugger;\n  let clientInfomation = {\n    clientGUID: \"\",\n    clientName: \"\",\n    repositoryName: \"\",\n    repositoryGUID: \"\",\n  };\n  clientInfomation[\"clientGUID\"] = scope.row.guid;\n  clientInfomation[\"clientName\"] = scope.row.modelname;\n  clientInfomation[\"repositoryName\"] = scope.row.repositoryname;\n  clientInfomation[\"repositoryGUID\"] = scope.row.repositoryguid;\n  $Variable.选中人机界面客户端 = JSON.stringify(clientInfomation);\n  const pageName = \"删除人机界面弹窗\";\n  const options = {\n    type: 2, //弹出式页面样式配置\n    styleOptions: {\n      header: false,\n      width: '400',\n      height: '208',\n      top: '300px',\n    },\n    sTType: 5,\n    spaceTime: $Variable.配置后台时空全路径,\n    variables: [{\n        name: \"选中人机界面客户端\",\n        value: $Variable.选中人机界面客户端\n      },\n      {\n        name: \"配置后台对象名称\",\n        value: $Variable.配置后台名称\n      },\n      {\n        name: \"配置后台时空全路径\",\n        value: $Variable.配置后台时空全路径\n      }\n    ]\n  };\n\n  ShowChild(pageName, options, (res) => {\n    debugger;\n    if (res.eventName == \"submit\") {\n      if (res.eventParam.length && res.eventParam[0].code === 0) {\n        CloseChild(pageName);\n        $Variable.queryClients = !$Variable.queryClients;\n        $Variable.选中人机界面客户端 = \"\";\n      }\n    }\n    if (res.eventName == \"cancel\") {\n      CloseChild(pageName);\n      $Variable.选中人机界面客户端 = \"\";\n    }\n  });\n}\n\nfunction updateVer(scope) {\n  debugger;\n  let clientInfomation = {\n    clientID: \"\",\n    clientGUID: \"\",\n    clientName: \"\",\n    repositoryName: \"\",\n    repositoryGUID: \"\",\n  };\n  clientInfomation[\"clientID\"] = scope.row.id;\n  clientInfomation[\"clientGUID\"] = scope.row.guid;\n  clientInfomation[\"clientName\"] = scope.row.modelname;\n  clientInfomation[\"repositoryName\"] = scope.row.repositoryname;\n  clientInfomation[\"repositoryGUID\"] = scope.row.repositoryguid;\n  $Variable.选中人机界面客户端 = JSON.stringify([clientInfomation]);\n  const pageName = \"更新客户端弹窗\";\n  const options = {\n    type: 2, //弹出式页面样式配置\n    styleOptions: {\n      header: false,\n      width: '400',\n      height: '208',\n      top: '300px',\n    },\n    sTType: 5,\n    spaceTime: $Variable.配置后台时空全路径,\n    variables: [{\n        name: \"选中人机界面客户端\",\n        value: $Variable.选中人机界面客户端\n      },\n      {\n        name: \"配置后台对象名称\",\n        value: $Variable.配置后台名称\n      },\n      {\n        name: \"配置后台时空全路径\",\n        value: $Variable.配置后台时空全路径\n      }\n    ]\n  };\n\n  ShowChild(pageName, options, (res) => {\n    debugger;\n    if (res.eventName == \"submit\") {\n      if (res.eventParam.length && res.eventParam[0].code === 0) {\n        CloseChild(pageName);\n        $Variable.queryClients = !$Variable.queryClients;\n        $Variable.选中人机界面客户端 = \"\";\n      }\n    }\n    if (res.eventName == \"cancel\") {\n      CloseChild(pageName);\n      $Variable.选中人机界面客户端 = \"\";\n    }\n  });\n}\n\nfunction showSubmit(scope) {\n  debugger;\n  const pageName = $Variable.提交客户端版本弹窗;\n  const options = {\n    type: 2, //弹出式页面样式配置\n    styleOptions: {\n      header: false,\n      width: '400',\n      height: '208',\n      top: '300px',\n    },\n    sTType: 5,\n    spaceTime: $Variable.配置后台时空全路径,\n    variables: [{\n        name: \"提交版本客户端仓库\",\n        value: JSON.stringify([scope.row.repositoryguid])\n      },\n      {\n        name: \"配置后台对象名称\",\n        value: $Variable.配置后台名称\n      },\n      {\n        name: \"配置后台时空全路径\",\n        value: $Variable.配置后台时空全路径\n      }\n    ]\n  };\n\n  ShowChild(pageName, options, (res) => {\n    debugger;\n    if (res.eventName == \"submit\") {\n      if (res.eventParam.length && res.eventParam[0].code === 0) {\n        CloseChild(pageName);\n        $Variable.queryClients = !$Variable.queryClients;\n      }\n    }\n    if (res.eventName == \"cancel\") {\n      CloseChild(pageName);\n    }\n  });\n}\n\n// 预览\nfunction preShow(scope) {\n  debugger;\n  const pageName = \"预览_弹窗\";\n  const options = {\n    type: 2, //弹出式页面样式配置\n    styleOptions: {\n      header: false,\n      width: '400',\n      height: '208',\n      top: '300px',\n    },\n    sTType: 5,\n    spaceTime: $Variable.配置后台时空全路径,\n    variables: [{\n        name: \"客户端guid\",\n        value: scope.row.guid\n      },\n      {\n        name: \"配置后台对象名称\",\n        value: $Variable.配置后台名称\n      },\n      {\n        name: \"配置后台时空全路径\",\n        value: $Variable.配置后台时空全路径\n      }\n    ]\n  };\n\n  ShowChild(pageName, options, (res) => {\n    debugger;\n    if (res.eventName == \"submit\") {\n      if (res.eventParam.length && res.eventParam[0].code === 0) {\n        CloseChild(pageName);\n        $Variable.queryClients = !$Variable.queryClients;\n      }\n    }\n    if (res.eventName == \"cancel\") {\n      CloseChild(pageName);\n    }\n  });\n}",
+        "styleConfig": "#domId .cellName .el-button:not(:last-child) {\r\n    color: rgba(0, 118, 255, 1);\r\n    border: 0px;\r\n}\r\n\r\n#domId .cellName .el-button:last-child {\r\n    color: #FF5B51;\r\n    border: 0px;\r\n}\r\n\r\n#domId .pageNameStyle .el-button:last-child {\r\n    margin-left: -5px;\r\n}\r\n\r\n#domId .pageNameStyle .el-button:first-child{\r\n    margin-left: -5px;\r\n}\r\n\r\n\r\n#domId .el-button {\r\n    padding: 0px 0px;\r\n    height: 50px;\r\n    /*width: 30px;*/\r\n    color: rgba(153, 153, 153, 1);\r\n    border: 0px solid #dcdfe6;\r\n    background-Color: rgba(153, 153, 153, 0);\r\n}\r\n\r\n/*表格header的背景色*/\r\n#domId .el-table__header th,\r\n#domId .el-table__header tr {\r\n    background-color: rgba(248, 248, 248, 1);\r\n    color: black;\r\n}\r\n\r\n#domId .active {\r\n    color: blue;\r\n}\r\n\r\n#domId thead span{\r\n    font-family: Source Han Sans;\r\n    font-size: 12px;\r\n    font-weight: 350;\r\n    line-height: normal;\r\n    letter-spacing: normal;\r\n    color: #333333;\r\n}\r\n\r\n#domId tbody>tr>td:not(:last-child) span{\r\n    font-family: Source Han Sans;\r\n    font-size: 14px;\r\n    font-weight: 350;\r\n    line-height: normal;\r\n    letter-spacing: normal;\r\n    color: #333333;\r\n}\r\n\r\n#domId .el-button+.el-button {\r\n    margin-left: 12px;\r\n}\r\n\r\n#domId tbody .cell {\r\n    display: flex;\r\n}\r\n\r\n#domId tr > td:nth-child(3) span:hover {\r\n    cursor: default;\r\n    color: #0076FF;\r\n}",
+        "dblLight": true,
+        "operable": true,
+        "lock": false,
+        "visible": true,
+        "expandRowKeys": [],
+        "runVisible": true,
+        "checkStateSave": true,
+        "show": true,
+        "data": [
+          "[Object id,modelname,guid,repositoryname,repositoryid,repositoryguid,rowIndex]"
+        ],
+        "stripe": false,
+        "border": false,
+        "treeProps": {
+          "children": "children",
+          "hasChildren": "hasChildren"
+        },
+        "showHeader": true,
+        "fit": true,
+        "highlightCurrentRow": false,
+        "emptyText": "empty",
+        "showSummary": false,
+        "sumText": "sumText",
+        "pagination": false,
+        "pageSizes": [
+          10,
+          20,
+          30
+        ],
+        "currentPage": 1,
+        "pageSize": 10,
+        "defaultExpandAll": true,
+        "lazyLoad": false,
+        "paginationLayout": "total,sizes,prev,pager,next,jumper",
+        "paginationBackground": false,
+        "isVirtualScroll": false,
+        "totalData": [],
+        "totalLength": 1,
+        "pagerCount": 7,
+        "height": "100%",
+        "styleOption": {},
+        "langKeys": [
+          "empty",
+          "sumText",
+          "客户端名称",
+          "操作"
+        ],
+        "rowStyleConditions": [],
+        "cellStyleConditions": [],
+        "locationY": "60",
+        "locationX": "42",
+        "singleSelect": false,
+        "columns": [
+          "[Object prop,type,align,width,m_id]",
+          "[Object prop,label,align,minWidth,type,columnKey,m_id]",
+          "[Object prop,label,align,minWidth,type,columnKey,fixed,plugins,m_id]"
+        ],
+        "linkList": [
+          "[Object linkId,enable,KSCGUID,script,KSCLINKGUID,linkName]",
+          "[Object linkId,enable,KSCGUID,script,KSCLINKGUID,linkName]",
+          "[Object linkId,enable,KSCGUID,script,KSCLINKGUID,linkName]",
+          "[Object linkId,enable,KSCGUID,script,KSCLINKGUID,linkName]",
+          "[Object linkId,enable,KSCGUID,script,KSCLINKGUID,linkName]",
+          "[Object linkId,enable,KSCGUID,script,KSCLINKGUID,linkName]",
+          "[Object linkId,enable,KSCGUID,script,KSCLINKGUID,linkName]",
+          "[Object linkId,enable,KSCGUID,script,KSCLINKGUID,linkName]",
+          "[Object linkId,enable,KSCGUID,script,KSCLINKGUID,linkName]",
+          "[Object linkId,enable,KSCGUID,script,KSCLINKGUID,linkName]",
+          "[Object linkId,enable,KSCGUID,script,KSCLINKGUID,linkName]",
+          "[Object linkId,enable,KSCGUID,script,KSCLINKGUID,linkName]",
+          "[Object linkId,enable,KSCGUID,script,KSCLINKGUID,linkName]",
+          "[Object linkId,enable,KSCGUID,script,KSCLINKGUID,linkName]",
+          "[Object linkId,enable,KSCGUID,script,KSCLINKGUID,linkName]",
+          "[Object linkId,enable,KSCGUID,script,KSCLINKGUID,linkName]",
+          "[Object linkId,enable,KSCGUID,script,KSCLINKGUID,linkName]",
+          "[Object linkId,enable,KSCGUID,script,KSCLINKGUID,linkName]",
+          "[Object linkId,enable,KSCGUID,script,KSCLINKGUID,linkName]",
+          "[Object linkId,enable,KSCGUID,script,KSCLINKGUID,linkName]",
+          "[Object linkId,enable,KSCGUID,script,KSCLINKGUID,linkName]"
+        ],
+        "uiInputLinkList": [],
+        "uiOutputLinkList": [],
+        "parentGUID": "ka9a24fffcac3a18725c7872260f2d02",
+        "spanMethodConfig": {
+          "enable": false,
+          "list": "[Array 0]"
+        },
+        "cellClassName": "[Function cellClassName]",
+        "currentRow": null
+      },
+      "containerGUID": "k27f14d0abd5fa1546f67dd3602daa3c",
+      "objectPosition": "OBJ_2_1",
+      "childHeight": 743,
+      "childWidth": 1618,
+      "parentName": "RCol169"
+    }
+  },
+  "buttonVm": {
+    "data": {},
+    "props": {
+      "type": "text",
+      "icon": "",
+      "nativeType": "button",
+      "plain": false
+    },
+    "listeners": [
+      "click"
+    ]
+  },
+  "row": {
+    "id": "7205759403792795542",
+    "modelname": "盛云_孙宇飞_客户端Demo_0617",
+    "guid": "a3be34ff-b0cf-4f31-91a9-06654e6893d6",
+    "repositoryname": "客户端1",
+    "repositoryid": "288230376151738394",
+    "repositoryguid": "414d2cf2-dd75-4801-a1f4-7ccaa5dbb6e4",
+    "rowIndex": "1"
+  },
+  "column": [
+    {
+      "width": 40,
+      "minWidth": 48,
+      "realWidth": null,
+      "order": "",
+      "className": "el-table-column--selection",
+      "id": "el-table_4_column_16",
+      "type": "selection",
+      "align": null,
+      "headerAlign": null,
+      "showOverflowTooltip": false,
+      "filteredValue": "[Array 0]",
+      "filterPlacement": "",
+      "isColumnGroup": false,
+      "filterOpened": false,
+      "sortable": false,
+      "resizable": false,
+      "sortOrders": "[Array 3]",
+      "reserveSelection": true,
+      "filterMultiple": true,
+      "renderHeader": "[Function renderHeader]",
+      "renderCell": "[Function ]",
+      "level": 1,
+      "colSpan": 1,
+      "rowSpan": 1
+    },
+    {
+      "order": "",
+      "id": "el-table_4_column_17",
+      "type": "default",
+      "property": "modelname",
+      "align": "is-left",
+      "headerAlign": "is-left",
+      "showOverflowTooltip": true,
+      "filteredValue": "[Array 0]",
+      "filterPlacement": "",
+      "isColumnGroup": false,
+      "filterOpened": false,
+      "sortable": false,
+      "columnKey": "",
+      "label": "客户端名称",
+      "resizable": true,
+      "sortOrders": "[Array 3]",
+      "reserveSelection": false,
+      "filterMultiple": true,
+      "minWidth": 120,
+      "realWidth": 474,
+      "renderHeader": "[Function ]",
+      "renderCell": "[Function ]",
+      "level": 1,
+      "colSpan": 1,
+      "rowSpan": 1
+    },
+    {
+      "id": "el-table_4_column_18",
+      "type": "button",
+      "property": "operation",
+      "align": "is-left",
+      "headerAlign": "is-left",
+      "showOverflowTooltip": false,
+      "filteredValue": "[Array 0]",
+      "filterPlacement": "",
+      "isColumnGroup": false,
+      "filterOpened": false,
+      "sortable": false,
+      "columnKey": "",
+      "label": "操作",
+      "fixed": false,
+      "resizable": true,
+      "sortOrders": "[Array 3]",
+      "reserveSelection": false,
+      "filterMultiple": true,
+      "minWidth": 280,
+      "realWidth": 1104,
+      "renderHeader": "[Function ]",
+      "renderCell": "[Function ]",
+      "level": 1,
+      "colSpan": 1,
+      "rowSpan": 1
+    }
+  ]
+}

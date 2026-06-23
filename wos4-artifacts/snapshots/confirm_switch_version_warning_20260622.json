@@ -1,0 +1,64 @@
+{
+  "confirm": {
+    "clicked": true,
+    "text": "确定",
+    "cands": [
+      {
+        "tag": "BUTTON",
+        "cls": "el-button el-button--default el-button--small el-button--primary ",
+        "text": "确定",
+        "x": 1098,
+        "y": 501.5,
+        "w": 56,
+        "h": 32
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "确定",
+        "x": 1114,
+        "y": 508.5,
+        "w": 24,
+        "h": 17
+      }
+    ]
+  },
+  "messages": [
+    {
+      "t": 1782095660279,
+      "txt": "数字孪生实例化_实例_变更模型版本",
+      "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_549419"
+    },
+    {
+      "t": 1782095660279,
+      "txt": "数字孪生实例化_实例_变更模型版本",
+      "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_549419"
+    },
+    {
+      "t": 1782095726392,
+      "txt": "确定",
+      "cls": "el-message-box__wrapper"
+    },
+    {
+      "t": 1782095726393,
+      "txt": "确定要更新该实例的模型版本么？\n一旦更新，实例中所有的配置，将丢失、且不可恢复，请谨慎操作！",
+      "cls": "el-message-box__message"
+    },
+    {
+      "t": 1782095754065,
+      "txt": "数据实例化_KIO变量删除页面",
+      "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_468489"
+    },
+    {
+      "t": 1782095754065,
+      "txt": "数据实例化_KIO变量删除页面",
+      "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_468489"
+    },
+    {
+      "t": 1782095754913,
+      "txt": "切换成功",
+      "cls": "el-message el-message--success is-closable el-message-fade-enter el-message-fade-enter-active"
+    }
+  ],
+  "text": "KingFusion4.5_工程浏览器\n\n< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nNadirL1\nNadirL2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\nNadirFront\n\t\nNadirFront\n\t\nclean front business\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nv2\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n切换成功"
+}

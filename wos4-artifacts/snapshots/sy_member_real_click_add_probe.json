@@ -1,0 +1,82 @@
+{
+  "startedAt": "2026-06-12T04:07:47.614Z",
+  "modelName": "盛云_孙宇飞_假数据设备模型_0612",
+  "rects": {
+    "inputs": [
+      {
+        "x": 627.5,
+        "y": 247.5,
+        "w": 275,
+        "h": 34,
+        "placeholder": "请输入名称"
+      },
+      {
+        "x": 627.5,
+        "y": 305.5,
+        "w": 275,
+        "h": 34,
+        "placeholder": "请选择"
+      },
+      {
+        "x": 627.5,
+        "y": 363.5,
+        "w": 275,
+        "h": 34,
+        "placeholder": "请输入"
+      },
+      {
+        "x": 627.5,
+        "y": 421.5,
+        "w": 275,
+        "h": 34,
+        "placeholder": "请输入描述信息"
+      }
+    ],
+    "btns": [
+      {
+        "text": "",
+        "x": 886.5,
+        "y": 182,
+        "w": 16,
+        "h": 16,
+        "cls": "el-button el-button--primary el-button--medium propertyStyle"
+      },
+      {
+        "text": "取消",
+        "x": 730.5,
+        "y": 487.5,
+        "w": 76,
+        "h": 34,
+        "cls": "el-button el-button--primary el-button--medium propertyStyle"
+      },
+      {
+        "text": "确定",
+        "x": 826.5,
+        "y": 487.5,
+        "w": 76,
+        "h": 34,
+        "cls": "el-button el-button--primary el-button--medium propertyStyle"
+      }
+    ]
+  },
+  "opt": {
+    "x": 629,
+    "y": 664,
+    "w": 273,
+    "h": 34,
+    "text": "Float"
+  },
+  "okBtn": {
+    "text": "确定",
+    "x": 826.5,
+    "y": 487.5,
+    "w": 76,
+    "h": 34,
+    "cls": "el-button el-button--primary el-button--medium propertyStyle"
+  },
+  "visible": false,
+  "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n收球筒\n\t\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_假数据设备模型_0612\n\t\n用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 2 条\n<1>前往页\n\nKingFusion4.5_工程浏览器\n\n盛云_孙宇飞_假数据设备模型_0612 用于无采集点场景的假数据设备模型；操作者：盛云_孙宇飞；后续用于客户端页面表格、树和曲线模拟。\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n命令语言\n\t\n\n\n第三方计算管理\n\t\n\n\n图形模型\n\t\n\n\n2D精灵图\n\t\n\n\n3D精灵图\n\t\n\n\n页面精灵图\n\t\n\n\n报表精灵图\n\t\n\n\n子模型\n\t\n\n\n形参配置\n\t\n\n多灵敏时序物\n\n暂无数据\n\n基础信息\n\n名称\n\n描述\n\n存历史\n\n间隔时间\n\nS\n\n新建成员\n非灵敏成员灵敏成员\n名称\t类型\t值\t描述\t操作\n暂无数据\n共 0 条\n1\n前往页\n\n计算规则\n\n分析类型\n\n表达式分析\n汇总分析\n\n分析计划\n\n周期性\n变化时\n事件触发\n条件触发\n\nText\n\n变量列表\n\n创建一个新的变量\n名字\t表达式\t操作\n暂无数据\n\n编译成功！\n\n查看详情\n\n函数：\n\n暂无数据\n\n条件配置\n\n时间间隔 00h 00m 00s\n\n配置\n\n新建成员\n\n名称\n\n类型\n\n值\n\n描述\n\n取消\n确定",
+  "dialogVisible": true,
+  "messages": [],
+  "screenshot": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\screenshots\\sy_member_real_click_add_probe.png"
+}

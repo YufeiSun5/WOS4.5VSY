@@ -1,0 +1,110 @@
+{
+  "cap": {
+    "messages": [],
+    "console": [
+      {
+        "level": "log",
+        "args": [
+          "[D] 触发了 Current-change 事件, args = ",
+          "[object Arguments]"
+        ],
+        "t": 1782100774714
+      },
+      {
+        "level": "log",
+        "args": [
+          "[D] 触发了 currentSpaceTimeRepo 改变时事件，currentSpaceTimeRepo = ",
+          "[object Object]"
+        ],
+        "t": 1782100774717
+      },
+      {
+        "level": "log",
+        "args": [
+          "[D] <实例化_框架页面> :: 变量改变时 :: updateInstanceListTable :: instanceList_ElementTable = ",
+          "[object Object]"
+        ],
+        "t": 1782100774719
+      },
+      {
+        "level": "log",
+        "args": [
+          "[D] 触发了变量改变事件 :: updateSpaceTimeRepoAttrsView"
+        ],
+        "t": 1782100774723
+      },
+      {
+        "level": "log",
+        "args": [
+          "[D] 触发了 <updateChildrenNodes> 变量改变时事件"
+        ],
+        "t": 1782100774726
+      },
+      {
+        "level": "log",
+        "args": [
+          "[D] <实例化_框架页面> fullPathGuids = ",
+          "10acca9d-f852-4dcf-b27e-35ebe8e3f671,4fa17a11-b923-4b36-b1e8-c39ca1bcf62c"
+        ],
+        "t": 1782100774729
+      },
+      {
+        "level": "log",
+        "args": [
+          "[D] 点击了提交版本按钮"
+        ],
+        "t": 1782100774775
+      },
+      {
+        "level": "log",
+        "args": [
+          "页面-数字孪生实例化_时空_版本说明-已经打开"
+        ],
+        "t": 1782100774778
+      },
+      {
+        "level": "log",
+        "args": [
+          "[I] 远程调用接口 <IQueryChildSpaceTimeReposList>, res = ",
+          "[object Object]"
+        ],
+        "t": 1782100774810
+      },
+      {
+        "level": "log",
+        "args": [
+          "[I] 查询子节点实例数据，datas = ",
+          ""
+        ],
+        "t": 1782100774812
+      },
+      {
+        "level": "log",
+        "args": [
+          "[I] 远程调用接口 <IQueryRootInstancesOfSpaceTimeRepo>, res = ",
+          "[object Object]"
+        ],
+        "t": 1782100774834
+      },
+      {
+        "level": "log",
+        "args": [
+          "[D] <实例化框架页面> :: updateInstanceListTable :: tableData:",
+          "[object Object],[object Object]"
+        ],
+        "t": 1782100774836
+      },
+      {
+        "level": "log",
+        "args": [
+          "[D] <实例化框架页面> :: updateInstanceListTable :: currentSelectedInstance:",
+          "[object Object]"
+        ],
+        "t": 1782100774839
+      }
+    ],
+    "errors": [],
+    "clicks": []
+  },
+  "visible": []
+}

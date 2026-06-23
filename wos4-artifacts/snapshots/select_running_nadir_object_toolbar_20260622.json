@@ -1,0 +1,107 @@
+{
+  "select": {
+    "clicked": true,
+    "text": "盛云_孙宇飞_Nadir_客户端_0622_对象1",
+    "cls": "data-item data-item is-running"
+  },
+  "after": {
+    "toolbar": [
+      {
+        "i": 0,
+        "text": "启动",
+        "cls": "el-button el-button--default is-disabled",
+        "disabled": true,
+        "rect": {
+          "x": 522.84375,
+          "y": 60,
+          "w": 40,
+          "h": 40
+        }
+      },
+      {
+        "i": 1,
+        "text": "停止",
+        "cls": "el-button el-button--default",
+        "disabled": false,
+        "rect": {
+          "x": 574.84375,
+          "y": 60,
+          "w": 40,
+          "h": 40
+        }
+      },
+      {
+        "i": 2,
+        "text": "编辑",
+        "cls": "el-button el-button--default",
+        "disabled": false,
+        "rect": {
+          "x": 702.84375,
+          "y": 60,
+          "w": 40,
+          "h": 40
+        }
+      },
+      {
+        "i": 3,
+        "text": "日志",
+        "cls": "el-button el-button--default el-tooltip__trigger",
+        "disabled": false,
+        "rect": {
+          "x": 882.84375,
+          "y": 60,
+          "w": 52,
+          "h": 45
+        }
+      },
+      {
+        "i": 4,
+        "text": "监视",
+        "cls": "el-button el-button--default",
+        "disabled": false,
+        "rect": {
+          "x": 946.84375,
+          "y": 60,
+          "w": 40,
+          "h": 40
+        }
+      },
+      {
+        "i": 5,
+        "text": "视图",
+        "cls": "el-button el-button--default",
+        "disabled": false,
+        "rect": {
+          "x": 998.84375,
+          "y": 60,
+          "w": 40,
+          "h": 40
+        }
+      }
+    ],
+    "current": [
+      {
+        "i": 0,
+        "text": "盛云_孙宇飞_Nadir_客户端_0622",
+        "cls": "el-tree-node is-current is-focusable",
+        "rect": {
+          "x": 0,
+          "y": 869,
+          "w": 300,
+          "h": 30
+        }
+      },
+      {
+        "i": 1,
+        "text": "",
+        "cls": "card cursor-pointer is-current frame-AppCard el-tooltip__trigger el-tooltip__trigger",
+        "rect": {
+          "x": 110,
+          "y": 899,
+          "w": 55,
+          "h": 46
+        }
+      }
+    ]
+  }
+}

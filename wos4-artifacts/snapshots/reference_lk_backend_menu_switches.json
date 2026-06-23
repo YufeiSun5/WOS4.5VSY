@@ -1,0 +1,1190 @@
+{
+  "rows": [
+    {
+      "text": "菜单 实例显示",
+      "rect": {
+        "x": 20,
+        "y": 80,
+        "w": 257,
+        "h": 40
+      },
+      "className": "response_row",
+      "level": null,
+      "expanded": true,
+      "icon": {
+        "className": "el-table__expand-icon el-table__expand-icon--expanded",
+        "x": 25,
+        "y": 41,
+        "w": 20,
+        "h": 20,
+        "transform": "matrix(0, 1, -1, 0, 0, 0)"
+      },
+      "switch": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      }
+    },
+    {
+      "text": "多灵敏时序物",
+      "rect": {
+        "x": 20,
+        "y": 107,
+        "w": 249,
+        "h": 36
+      },
+      "className": "el-table__row el-table__row--level-2",
+      "level": 2,
+      "expanded": true,
+      "icon": {
+        "className": "el-table__expand-icon el-table__expand-icon--expanded",
+        "x": 25,
+        "y": 41,
+        "w": 20,
+        "h": 20,
+        "transform": "matrix(0, 1, -1, 0, 0, 0)"
+      },
+      "switch": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      }
+    },
+    {
+      "text": "多灵敏时序物",
+      "rect": {
+        "x": 20,
+        "y": 113,
+        "w": 197,
+        "h": 23
+      },
+      "className": "cell el-tooltip",
+      "level": null,
+      "expanded": null,
+      "icon": null,
+      "switch": null
+    },
+    {
+      "text": "单灵敏时序物",
+      "rect": {
+        "x": 20,
+        "y": 143,
+        "w": 249,
+        "h": 36
+      },
+      "className": "el-table__row el-table__row--level-2",
+      "level": 2,
+      "expanded": true,
+      "icon": {
+        "className": "el-table__expand-icon el-table__expand-icon--expanded",
+        "x": 25,
+        "y": 41,
+        "w": 20,
+        "h": 20,
+        "transform": "matrix(0, 1, -1, 0, 0, 0)"
+      },
+      "switch": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      }
+    },
+    {
+      "text": "单灵敏时序物",
+      "rect": {
+        "x": 20,
+        "y": 149,
+        "w": 197,
+        "h": 23
+      },
+      "className": "cell el-tooltip",
+      "level": null,
+      "expanded": null,
+      "icon": null,
+      "switch": null
+    },
+    {
+      "text": "业务物",
+      "rect": {
+        "x": 20,
+        "y": 179,
+        "w": 249,
+        "h": 36
+      },
+      "className": "el-table__row el-table__row--level-2",
+      "level": 2,
+      "expanded": true,
+      "icon": {
+        "className": "el-table__expand-icon el-table__expand-icon--expanded",
+        "x": 25,
+        "y": 41,
+        "w": 20,
+        "h": 20,
+        "transform": "matrix(0, 1, -1, 0, 0, 0)"
+      },
+      "switch": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      }
+    },
+    {
+      "text": "业务物",
+      "rect": {
+        "x": 20,
+        "y": 185,
+        "w": 197,
+        "h": 23
+      },
+      "className": "cell el-tooltip",
+      "level": null,
+      "expanded": null,
+      "icon": null,
+      "switch": null
+    },
+    {
+      "text": "事",
+      "rect": {
+        "x": 20,
+        "y": 215,
+        "w": 249,
+        "h": 36
+      },
+      "className": "el-table__row el-table__row--level-1",
+      "level": 1,
+      "expanded": true,
+      "icon": {
+        "className": "el-table__expand-icon el-table__expand-icon--expanded",
+        "x": 41,
+        "y": 221,
+        "w": 20,
+        "h": 20,
+        "transform": "matrix(0, 1, -1, 0, 0, 0)"
+      },
+      "switch": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      }
+    },
+    {
+      "text": "事",
+      "rect": {
+        "x": 20,
+        "y": 221,
+        "w": 197,
+        "h": 23
+      },
+      "className": "cell el-tooltip",
+      "level": null,
+      "expanded": true,
+      "icon": {
+        "className": "el-table__expand-icon el-table__expand-icon--expanded",
+        "x": 41,
+        "y": 221,
+        "w": 20,
+        "h": 20,
+        "transform": "matrix(0, 1, -1, 0, 0, 0)"
+      },
+      "switch": null
+    },
+    {
+      "text": "时序事",
+      "rect": {
+        "x": 20,
+        "y": 251,
+        "w": 249,
+        "h": 36
+      },
+      "className": "el-table__row el-table__row--level-2",
+      "level": 2,
+      "expanded": true,
+      "icon": {
+        "className": "el-table__expand-icon el-table__expand-icon--expanded",
+        "x": 25,
+        "y": 41,
+        "w": 20,
+        "h": 20,
+        "transform": "matrix(0, 1, -1, 0, 0, 0)"
+      },
+      "switch": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      }
+    },
+    {
+      "text": "时序事",
+      "rect": {
+        "x": 20,
+        "y": 257,
+        "w": 197,
+        "h": 23
+      },
+      "className": "cell el-tooltip",
+      "level": null,
+      "expanded": null,
+      "icon": null,
+      "switch": null
+    },
+    {
+      "text": "业务事",
+      "rect": {
+        "x": 20,
+        "y": 287,
+        "w": 249,
+        "h": 36
+      },
+      "className": "el-table__row el-table__row--level-2",
+      "level": 2,
+      "expanded": true,
+      "icon": {
+        "className": "el-table__expand-icon el-table__expand-icon--expanded",
+        "x": 25,
+        "y": 41,
+        "w": 20,
+        "h": 20,
+        "transform": "matrix(0, 1, -1, 0, 0, 0)"
+      },
+      "switch": {
+        "className": "el-switch is-checked",
+        "checked": true,
+        "ariaChecked": "true",
+        "inputChecked": true,
+        "disabled": false
+      }
+    },
+    {
+      "text": "业务事",
+      "rect": {
+        "x": 20,
+        "y": 293,
+        "w": 197,
+        "h": 23
+      },
+      "className": "cell el-tooltip",
+      "level": null,
+      "expanded": null,
+      "icon": null,
+      "switch": null
+    },
+    {
+      "text": "岗位",
+      "rect": {
+        "x": 20,
+        "y": 323,
+        "w": 249,
+        "h": 36
+      },
+      "className": "el-table__row el-table__row--level-1",
+      "level": 1,
+      "expanded": true,
+      "icon": {
+        "className": "el-table__expand-icon el-table__expand-icon--expanded",
+        "x": 25,
+        "y": 41,
+        "w": 20,
+        "h": 20,
+        "transform": "matrix(0, 1, -1, 0, 0, 0)"
+      },
+      "switch": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      }
+    },
+    {
+      "text": "岗位",
+      "rect": {
+        "x": 20,
+        "y": 329,
+        "w": 197,
+        "h": 23
+      },
+      "className": "cell el-tooltip",
+      "level": null,
+      "expanded": null,
+      "icon": null,
+      "switch": null
+    },
+    {
+      "text": "组织",
+      "rect": {
+        "x": 20,
+        "y": 359,
+        "w": 249,
+        "h": 36
+      },
+      "className": "el-table__row el-table__row--level-1",
+      "level": 1,
+      "expanded": true,
+      "icon": {
+        "className": "el-table__expand-icon el-table__expand-icon--expanded",
+        "x": 25,
+        "y": 41,
+        "w": 20,
+        "h": 20,
+        "transform": "matrix(0, 1, -1, 0, 0, 0)"
+      },
+      "switch": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      }
+    },
+    {
+      "text": "组织",
+      "rect": {
+        "x": 20,
+        "y": 365,
+        "w": 197,
+        "h": 23
+      },
+      "className": "cell el-tooltip",
+      "level": null,
+      "expanded": null,
+      "icon": null,
+      "switch": null
+    },
+    {
+      "text": "逻辑模型",
+      "rect": {
+        "x": 20,
+        "y": 395,
+        "w": 249,
+        "h": 36
+      },
+      "className": "el-table__row expanded el-table__row--level-0",
+      "level": 0,
+      "expanded": true,
+      "icon": {
+        "className": "el-table__expand-icon el-table__expand-icon--expanded",
+        "x": 25,
+        "y": 401,
+        "w": 20,
+        "h": 20,
+        "transform": "matrix(0, 1, -1, 0, 0, 0)"
+      },
+      "switch": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      }
+    },
+    {
+      "text": "逻辑模型",
+      "rect": {
+        "x": 20,
+        "y": 401,
+        "w": 197,
+        "h": 23
+      },
+      "className": "cell el-tooltip",
+      "level": null,
+      "expanded": true,
+      "icon": {
+        "className": "el-table__expand-icon el-table__expand-icon--expanded",
+        "x": 25,
+        "y": 401,
+        "w": 20,
+        "h": 20,
+        "transform": "matrix(0, 1, -1, 0, 0, 0)"
+      },
+      "switch": null
+    },
+    {
+      "text": "报警规则配置",
+      "rect": {
+        "x": 20,
+        "y": 431,
+        "w": 249,
+        "h": 36
+      },
+      "className": "el-table__row el-table__row--level-1",
+      "level": 1,
+      "expanded": true,
+      "icon": {
+        "className": "el-table__expand-icon el-table__expand-icon--expanded",
+        "x": 25,
+        "y": 41,
+        "w": 20,
+        "h": 20,
+        "transform": "matrix(0, 1, -1, 0, 0, 0)"
+      },
+      "switch": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      }
+    },
+    {
+      "text": "报警规则配置",
+      "rect": {
+        "x": 20,
+        "y": 437,
+        "w": 197,
+        "h": 23
+      },
+      "className": "cell el-tooltip",
+      "level": null,
+      "expanded": null,
+      "icon": null,
+      "switch": null
+    },
+    {
+      "text": "多灵敏数据报警转发",
+      "rect": {
+        "x": 20,
+        "y": 467,
+        "w": 249,
+        "h": 36
+      },
+      "className": "el-table__row el-table__row--level-1",
+      "level": 1,
+      "expanded": true,
+      "icon": {
+        "className": "el-table__expand-icon el-table__expand-icon--expanded",
+        "x": 25,
+        "y": 41,
+        "w": 20,
+        "h": 20,
+        "transform": "matrix(0, 1, -1, 0, 0, 0)"
+      },
+      "switch": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      }
+    },
+    {
+      "text": "多灵敏数据报警转发",
+      "rect": {
+        "x": 20,
+        "y": 473,
+        "w": 197,
+        "h": 23
+      },
+      "className": "cell el-tooltip",
+      "level": null,
+      "expanded": null,
+      "icon": null,
+      "switch": null
+    },
+    {
+      "text": "单灵敏数据报警转发",
+      "rect": {
+        "x": 20,
+        "y": 503,
+        "w": 249,
+        "h": 36
+      },
+      "className": "el-table__row el-table__row--level-1",
+      "level": 1,
+      "expanded": true,
+      "icon": {
+        "className": "el-table__expand-icon el-table__expand-icon--expanded",
+        "x": 25,
+        "y": 41,
+        "w": 20,
+        "h": 20,
+        "transform": "matrix(0, 1, -1, 0, 0, 0)"
+      },
+      "switch": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      }
+    },
+    {
+      "text": "单灵敏数据报警转发",
+      "rect": {
+        "x": 20,
+        "y": 509,
+        "w": 197,
+        "h": 23
+      },
+      "className": "cell el-tooltip",
+      "level": null,
+      "expanded": null,
+      "icon": null,
+      "switch": null
+    },
+    {
+      "text": "自定义计算",
+      "rect": {
+        "x": 20,
+        "y": 539,
+        "w": 249,
+        "h": 36
+      },
+      "className": "el-table__row el-table__row--level-1",
+      "level": 1,
+      "expanded": true,
+      "icon": {
+        "className": "el-table__expand-icon el-table__expand-icon--expanded",
+        "x": 25,
+        "y": 41,
+        "w": 20,
+        "h": 20,
+        "transform": "matrix(0, 1, -1, 0, 0, 0)"
+      },
+      "switch": {
+        "className": "el-switch is-checked",
+        "checked": true,
+        "ariaChecked": "true",
+        "inputChecked": true,
+        "disabled": false
+      }
+    },
+    {
+      "text": "自定义计算",
+      "rect": {
+        "x": 20,
+        "y": 545,
+        "w": 197,
+        "h": 23
+      },
+      "className": "cell el-tooltip",
+      "level": null,
+      "expanded": null,
+      "icon": null,
+      "switch": null
+    },
+    {
+      "text": "命令语言",
+      "rect": {
+        "x": 20,
+        "y": 575,
+        "w": 249,
+        "h": 36
+      },
+      "className": "el-table__row el-table__row--level-1",
+      "level": 1,
+      "expanded": true,
+      "icon": {
+        "className": "el-table__expand-icon el-table__expand-icon--expanded",
+        "x": 25,
+        "y": 41,
+        "w": 20,
+        "h": 20,
+        "transform": "matrix(0, 1, -1, 0, 0, 0)"
+      },
+      "switch": {
+        "className": "el-switch is-checked",
+        "checked": true,
+        "ariaChecked": "true",
+        "inputChecked": true,
+        "disabled": false
+      }
+    },
+    {
+      "text": "命令语言",
+      "rect": {
+        "x": 20,
+        "y": 581,
+        "w": 197,
+        "h": 23
+      },
+      "className": "cell el-tooltip",
+      "level": null,
+      "expanded": null,
+      "icon": null,
+      "switch": null
+    },
+    {
+      "text": "第三方计算管理",
+      "rect": {
+        "x": 20,
+        "y": 611,
+        "w": 249,
+        "h": 36
+      },
+      "className": "el-table__row el-table__row--level-1",
+      "level": 1,
+      "expanded": true,
+      "icon": {
+        "className": "el-table__expand-icon el-table__expand-icon--expanded",
+        "x": 25,
+        "y": 41,
+        "w": 20,
+        "h": 20,
+        "transform": "matrix(0, 1, -1, 0, 0, 0)"
+      },
+      "switch": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      }
+    },
+    {
+      "text": "第三方计算管理",
+      "rect": {
+        "x": 20,
+        "y": 617,
+        "w": 197,
+        "h": 23
+      },
+      "className": "cell el-tooltip",
+      "level": null,
+      "expanded": null,
+      "icon": null,
+      "switch": null
+    },
+    {
+      "text": "图形模型",
+      "rect": {
+        "x": 20,
+        "y": 647,
+        "w": 249,
+        "h": 36
+      },
+      "className": "el-table__row expanded el-table__row--level-0",
+      "level": 0,
+      "expanded": true,
+      "icon": {
+        "className": "el-table__expand-icon el-table__expand-icon--expanded",
+        "x": 25,
+        "y": 653,
+        "w": 20,
+        "h": 20,
+        "transform": "matrix(0, 1, -1, 0, 0, 0)"
+      },
+      "switch": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      }
+    },
+    {
+      "text": "图形模型",
+      "rect": {
+        "x": 20,
+        "y": 653,
+        "w": 197,
+        "h": 23
+      },
+      "className": "cell el-tooltip",
+      "level": null,
+      "expanded": true,
+      "icon": {
+        "className": "el-table__expand-icon el-table__expand-icon--expanded",
+        "x": 25,
+        "y": 653,
+        "w": 20,
+        "h": 20,
+        "transform": "matrix(0, 1, -1, 0, 0, 0)"
+      },
+      "switch": null
+    },
+    {
+      "text": "2D精灵图",
+      "rect": {
+        "x": 20,
+        "y": 683,
+        "w": 249,
+        "h": 36
+      },
+      "className": "el-table__row el-table__row--level-1",
+      "level": 1,
+      "expanded": true,
+      "icon": {
+        "className": "el-table__expand-icon el-table__expand-icon--expanded",
+        "x": 25,
+        "y": 41,
+        "w": 20,
+        "h": 20,
+        "transform": "matrix(0, 1, -1, 0, 0, 0)"
+      },
+      "switch": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      }
+    },
+    {
+      "text": "2D精灵图",
+      "rect": {
+        "x": 20,
+        "y": 689,
+        "w": 197,
+        "h": 23
+      },
+      "className": "cell el-tooltip",
+      "level": null,
+      "expanded": null,
+      "icon": null,
+      "switch": null
+    },
+    {
+      "text": "3D精灵图",
+      "rect": {
+        "x": 20,
+        "y": 719,
+        "w": 249,
+        "h": 36
+      },
+      "className": "el-table__row el-table__row--level-1",
+      "level": 1,
+      "expanded": true,
+      "icon": {
+        "className": "el-table__expand-icon el-table__expand-icon--expanded",
+        "x": 25,
+        "y": 41,
+        "w": 20,
+        "h": 20,
+        "transform": "matrix(0, 1, -1, 0, 0, 0)"
+      },
+      "switch": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      }
+    },
+    {
+      "text": "3D精灵图",
+      "rect": {
+        "x": 20,
+        "y": 725,
+        "w": 197,
+        "h": 23
+      },
+      "className": "cell el-tooltip",
+      "level": null,
+      "expanded": null,
+      "icon": null,
+      "switch": null
+    },
+    {
+      "text": "页面精灵图",
+      "rect": {
+        "x": 20,
+        "y": 755,
+        "w": 249,
+        "h": 36
+      },
+      "className": "el-table__row current-row el-table__row--level-1",
+      "level": 1,
+      "expanded": true,
+      "icon": {
+        "className": "el-table__expand-icon el-table__expand-icon--expanded",
+        "x": 25,
+        "y": 41,
+        "w": 20,
+        "h": 20,
+        "transform": "matrix(0, 1, -1, 0, 0, 0)"
+      },
+      "switch": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      }
+    },
+    {
+      "text": "页面精灵图",
+      "rect": {
+        "x": 20,
+        "y": 761,
+        "w": 197,
+        "h": 23
+      },
+      "className": "cell el-tooltip",
+      "level": null,
+      "expanded": null,
+      "icon": null,
+      "switch": null
+    },
+    {
+      "text": "报表精灵图",
+      "rect": {
+        "x": 20,
+        "y": 791,
+        "w": 249,
+        "h": 36
+      },
+      "className": "el-table__row el-table__row--level-1",
+      "level": 1,
+      "expanded": true,
+      "icon": {
+        "className": "el-table__expand-icon el-table__expand-icon--expanded",
+        "x": 25,
+        "y": 41,
+        "w": 20,
+        "h": 20,
+        "transform": "matrix(0, 1, -1, 0, 0, 0)"
+      },
+      "switch": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      }
+    },
+    {
+      "text": "报表精灵图",
+      "rect": {
+        "x": 20,
+        "y": 797,
+        "w": 197,
+        "h": 23
+      },
+      "className": "cell el-tooltip",
+      "level": null,
+      "expanded": null,
+      "icon": null,
+      "switch": null
+    },
+    {
+      "text": "子模型",
+      "rect": {
+        "x": 20,
+        "y": 827,
+        "w": 249,
+        "h": 36
+      },
+      "className": "el-table__row expanded",
+      "level": null,
+      "expanded": true,
+      "icon": {
+        "className": "el-table__expand-icon el-table__expand-icon--expanded",
+        "x": 25,
+        "y": 41,
+        "w": 20,
+        "h": 20,
+        "transform": "matrix(0, 1, -1, 0, 0, 0)"
+      },
+      "switch": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      }
+    },
+    {
+      "text": "子模型",
+      "rect": {
+        "x": 20,
+        "y": 833,
+        "w": 197,
+        "h": 23
+      },
+      "className": "cell el-tooltip",
+      "level": null,
+      "expanded": null,
+      "icon": null,
+      "switch": null
+    },
+    {
+      "text": "形参配置",
+      "rect": {
+        "x": 20,
+        "y": 863,
+        "w": 249,
+        "h": 36
+      },
+      "className": "el-table__row expanded",
+      "level": null,
+      "expanded": true,
+      "icon": {
+        "className": "el-table__expand-icon el-table__expand-icon--expanded",
+        "x": 25,
+        "y": 41,
+        "w": 20,
+        "h": 20,
+        "transform": "matrix(0, 1, -1, 0, 0, 0)"
+      },
+      "switch": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      }
+    },
+    {
+      "text": "形参配置",
+      "rect": {
+        "x": 20,
+        "y": 869,
+        "w": 197,
+        "h": 23
+      },
+      "className": "cell el-tooltip",
+      "level": null,
+      "expanded": null,
+      "icon": null,
+      "switch": null
+    }
+  ],
+  "switches": [
+    {
+      "i": 0,
+      "rect": {
+        "x": 233,
+        "y": 120.203125,
+        "w": 22,
+        "h": 12
+      },
+      "state": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      },
+      "nearestText": "多灵敏时序物",
+      "rowClass": "el-table__row el-table__row--level-2"
+    },
+    {
+      "i": 1,
+      "rect": {
+        "x": 233,
+        "y": 156.203125,
+        "w": 22,
+        "h": 12
+      },
+      "state": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      },
+      "nearestText": "单灵敏时序物",
+      "rowClass": "el-table__row el-table__row--level-2"
+    },
+    {
+      "i": 2,
+      "rect": {
+        "x": 233,
+        "y": 192.203125,
+        "w": 22,
+        "h": 12
+      },
+      "state": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      },
+      "nearestText": "业务物",
+      "rowClass": "el-table__row el-table__row--level-2"
+    },
+    {
+      "i": 3,
+      "rect": {
+        "x": 233,
+        "y": 264.203125,
+        "w": 22,
+        "h": 12
+      },
+      "state": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      },
+      "nearestText": "时序事",
+      "rowClass": "el-table__row el-table__row--level-2"
+    },
+    {
+      "i": 4,
+      "rect": {
+        "x": 233,
+        "y": 300.203125,
+        "w": 22,
+        "h": 12
+      },
+      "state": {
+        "className": "el-switch is-checked",
+        "checked": true,
+        "ariaChecked": "true",
+        "inputChecked": true,
+        "disabled": false
+      },
+      "nearestText": "业务事",
+      "rowClass": "el-table__row el-table__row--level-2"
+    },
+    {
+      "i": 5,
+      "rect": {
+        "x": 233,
+        "y": 336.203125,
+        "w": 22,
+        "h": 12
+      },
+      "state": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      },
+      "nearestText": "岗位",
+      "rowClass": "el-table__row el-table__row--level-1"
+    },
+    {
+      "i": 6,
+      "rect": {
+        "x": 233,
+        "y": 372.203125,
+        "w": 22,
+        "h": 12
+      },
+      "state": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      },
+      "nearestText": "组织",
+      "rowClass": "el-table__row el-table__row--level-1"
+    },
+    {
+      "i": 7,
+      "rect": {
+        "x": 233,
+        "y": 444.203125,
+        "w": 22,
+        "h": 12
+      },
+      "state": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      },
+      "nearestText": "报警规则配置",
+      "rowClass": "el-table__row el-table__row--level-1"
+    },
+    {
+      "i": 8,
+      "rect": {
+        "x": 233,
+        "y": 480.203125,
+        "w": 22,
+        "h": 12
+      },
+      "state": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      },
+      "nearestText": "多灵敏数据报警转发",
+      "rowClass": "el-table__row el-table__row--level-1"
+    },
+    {
+      "i": 9,
+      "rect": {
+        "x": 233,
+        "y": 516.203125,
+        "w": 22,
+        "h": 12
+      },
+      "state": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      },
+      "nearestText": "单灵敏数据报警转发",
+      "rowClass": "el-table__row el-table__row--level-1"
+    },
+    {
+      "i": 10,
+      "rect": {
+        "x": 233,
+        "y": 552.203125,
+        "w": 22,
+        "h": 12
+      },
+      "state": {
+        "className": "el-switch is-checked",
+        "checked": true,
+        "ariaChecked": "true",
+        "inputChecked": true,
+        "disabled": false
+      },
+      "nearestText": "自定义计算",
+      "rowClass": "el-table__row el-table__row--level-1"
+    },
+    {
+      "i": 11,
+      "rect": {
+        "x": 233,
+        "y": 588.203125,
+        "w": 22,
+        "h": 12
+      },
+      "state": {
+        "className": "el-switch is-checked",
+        "checked": true,
+        "ariaChecked": "true",
+        "inputChecked": true,
+        "disabled": false
+      },
+      "nearestText": "命令语言",
+      "rowClass": "el-table__row el-table__row--level-1"
+    },
+    {
+      "i": 12,
+      "rect": {
+        "x": 233,
+        "y": 624.203125,
+        "w": 22,
+        "h": 12
+      },
+      "state": {
+        "className": "el-switch",
+        "checked": false,
+        "ariaChecked": null,
+        "inputChecked": false,
+        "disabled": false
+      },
+      "nearestText": "第三方计算管理",
+      "rowClass": "el-table__row el-table__row--level-1"
+    }
+  ]
+}

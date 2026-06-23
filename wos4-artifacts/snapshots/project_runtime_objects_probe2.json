@@ -1,0 +1,35 @@
+{
+  "criData": {},
+  "criMethods": [],
+  "storeStateKeys": [
+    "I18N",
+    "CLIENTRUN_KSCCLIENTFU",
+    "CLIENTRUN_KSCPAGEMNG",
+    "CLIENTRUN_KSCVARIABLEGROUP",
+    "CLIENTRUN_KSCSCRIPTMNG",
+    "CLIENT_SHOW_PAGE_STORE_工程浏览器_框架页面_63604",
+    "PageRun_IDataStore_9889706",
+    "PageRun_IViewStore_8643275",
+    "PageRun_IScriptStore_495467",
+    "CLIENT_SET_PAGE_STORE_工程管理_框架页面_8795",
+    "PageRun_IDataStore_8609307",
+    "PageRun_IViewStore_4357936",
+    "PageRun_IScriptStore_4053958"
+  ],
+  "storeState": {
+    "I18N": "[Object lang,langArr]",
+    "CLIENTRUN_KSCCLIENTFU": "[Object storeNameEnum,RUN_PARAM_DATA,property,dataList,fuList,paramList,rootConfig,clientDataObj,userOrgRoleInfos,userEvent]",
+    "CLIENTRUN_KSCPAGEMNG": "[Object storeNameEnum,RUN_PARAM_DATA,FU_USER_CLICK,groupTree,showPageList,allDataList,homePage,appHomePage,currentUserKeys]",
+    "CLIENTRUN_KSCVARIABLEGROUP": "[Object storeNameEnum,groupTree,variableList,d_strResourceGuid]",
+    "CLIENTRUN_KSCSCRIPTMNG": "[Object FU_USER_CLICK,showScriptData,storeNameEnum,groupTree,data,name,d_strResourceGuid]",
+    "CLIENT_SHOW_PAGE_STORE_工程浏览器_框架页面_63604": "[Object storeNameEnum,fuObj,fuList,dataList,pageResource,paramList,dataLinkList,variableList,constraintList,eventList]",
+    "PageRun_IDataStore_9889706": "[Object achievements,storeNameEnum,property,paramList,fuList,dataList,rootConfig,mode,scriptFlag,PARENT_STORE_PARAM]",
+    "PageRun_IViewStore_8643275": "[Object storeNameEnum,tookitDragFlag,mousePos,scaleRate,dragObj,showGrid,showRuler,saveTime,showRight,showLeft]",
+    "PageRun_IScriptStore_495467": "[Object storeNameEnum,scriptMap,scriptSourceId,childPubEventMap,childPubEventSourceId]",
+    "CLIENT_SET_PAGE_STORE_工程管理_框架页面_8795": "[Object storeNameEnum,fuObj,fuList,dataList,pageResource,paramList,dataLinkList,variableList,constraintList,eventList]",
+    "PageRun_IDataStore_8609307": "[Object achievements,storeNameEnum,property,paramList,fuList,dataList,rootConfig,mode,scriptFlag,PARENT_STORE_PARAM]",
+    "PageRun_IViewStore_4357936": "[Object storeNameEnum,tookitDragFlag,mousePos,scaleRate,dragObj,showGrid,showRuler,saveTime,showRight,showLeft]",
+    "PageRun_IScriptStore_4053958": "[Object storeNameEnum,scriptMap,scriptSourceId,childPubEventMap,childPubEventSourceId]"
+  },
+  "refs": []
+}

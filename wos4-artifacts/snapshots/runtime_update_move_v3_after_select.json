@@ -1,0 +1,53 @@
+{
+  "dialog": "添加时空仓库\n时空仓库\n默认数据区\nKingFusion4.5_V1\nKingStudio4.5_Beta_dataBase\nKF4.5工程\nKingStudio4.5_Beta\n个人仓库\n盛云_孙宇飞_仓库\n仓库数据包\nV3\n\n描述: meta-language-demo-0617-package-v3-query-demo-data\n\n时间: 2026-06-17 17:03:16\n\nV2\n\n描述: meta-language-demo-0617-package-v2-oncreate-trace\n\n时间: 2026-06-17 13:10:49\n\nV1\n\n描述: meta-language-demo-0617-package-1\n\n时间: 2026-06-17 11:52:52\n\n预添加仓库数据包\nV3\n\n名称: 盛云_孙宇飞_仓库\n\n描述: meta-language-demo-0617-package-v3-query-demo-data\n\n已选仓库包 1 项\n取消\n确认",
+  "buttons": [
+    {
+      "tag": "BUTTON",
+      "cls": "el-dialog__headerbtn",
+      "text": "",
+      "rect": {
+        "x": 1416,
+        "y": 134.84375,
+        "w": 44,
+        "h": 48
+      },
+      "disabled": false
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default",
+      "text": "",
+      "rect": {
+        "x": 1089.203125,
+        "y": 405.84375,
+        "w": 46,
+        "h": 46
+      },
+      "disabled": false
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "el-button el-button--default",
+      "text": "取消",
+      "rect": {
+        "x": 1312,
+        "y": 702.84375,
+        "w": 60,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "el-button el-button--primary el-button--default",
+      "text": "确认",
+      "rect": {
+        "x": 1384,
+        "y": 702.84375,
+        "w": 60,
+        "h": 32
+      },
+      "disabled": false
+    }
+  ]
+}

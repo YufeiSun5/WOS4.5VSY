@@ -1,0 +1,71 @@
+{
+  "foundPage": true,
+  "probes": [
+    {
+      "label": "cloud107-mode2-stguid",
+      "ms": 39,
+      "ret": -180985,
+      "plain": {
+        "ret": -180985,
+        "output": {
+          "errorcodes": [
+            -180985
+          ]
+        },
+        "traceID": "0",
+        "consumeTime": 39
+      }
+    },
+    {
+      "label": "localCloud-mode2-stguid",
+      "ms": 47,
+      "ret": -180985,
+      "plain": {
+        "ret": -180985,
+        "output": {
+          "errorcodes": [
+            -180985
+          ]
+        },
+        "traceID": "0",
+        "consumeTime": 47
+      }
+    },
+    {
+      "label": "cloud107-mode2-no-stguid",
+      "ms": 35,
+      "ret": -180985,
+      "plain": {
+        "ret": -180985,
+        "output": {
+          "errorcodes": [
+            -180985
+          ]
+        },
+        "traceID": "0",
+        "consumeTime": 35
+      }
+    }
+  ],
+  "text": "查询全部(0)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n暂无匹配数据\n共 0 条\n1\n前往页",
+  "page": {
+    "spaceTimeId": {
+      "spaceTime": "NadirL2",
+      "stType": 5,
+      "devName": "NadirFront",
+      "name": "NadirL2",
+      "guid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+      "id": "1152921504606851278"
+    },
+    "pageInfo": null
+  },
+  "has": {
+    "StringMap": true,
+    "Variant": true,
+    "Query": true,
+    "Call": true,
+    "getLocalCloudID": true,
+    "SetRunInfo": false
+  },
+  "localCloudID": 107
+}

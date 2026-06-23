@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "HTML",
+    "cls": "",
+    "text": "desktop-frameconst request = new XMLHttpRequest();\n      request.open('GET', 'config.json', false);\n      try {\n        request.send(null);\n        window.CONFIG = JSON.parse(request.responseText);\n      } catch (e) {\n        window.CONFIG = {\n          SSL_GATEWAY: false,\n          IS_BS: false,\n  ",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0
+    },
+    "disp": "block"
+  },
+  {
+    "tag": "BODY",
+    "cls": "enable-motion underline-links",
+    "text": "时空功能开发平台Time Space Platform时空开发部署管理 盛云_孙宇飞_元语言查询Demo_0617 仓库包 权限 镜像 关于时空管理 新建 删除默认数据区KingFusion4.5_V1KingStudio4.5_Beta_dataBaseKF4.5工程KingStudio4.5_Beta个人仓库盛云_孙宇飞_仓库新建生成拷贝复制移动导入导出模式选择:只导出本仓库导出本仓库+数据对象只导出仓库树结构导出仓库树结构+数据对象是否开源:是否删除上传资源打包新建生成拷贝生成拷贝至复制复制至移动导入导出模式选择:只导出本仓库导出本仓库+数据对象只导出仓库树结构导出仓库树结构+数据对象是",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0
+    },
+    "disp": "block"
+  },
+  {
+    "tag": "DIV",
+    "cls": "wos-root-app",
+    "text": "时空功能开发平台Time Space Platform时空开发部署管理 盛云_孙宇飞_元语言查询Demo_0617 仓库包 权限 镜像 关于时空管理 新建 删除默认数据区KingFusion4.5_V1KingStudio4.5_Beta_dataBaseKF4.5工程KingStudio4.5_Beta个人仓库盛云_孙宇飞_仓库新建生成拷贝复制移动导入导出模式选择:只导出本仓库导出本仓库+数据对象只导出仓库树结构导出仓库树结构+数据对象是否开源:是否删除上传资源打包新建生成拷贝生成拷贝至复制复制至移动导入导出模式选择:只导出本仓库导出本仓库+数据对象只导出仓库树结构导出仓库树结构+数据对象是",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0
+    },
+    "disp": "block"
+  },
+  {
+    "tag": "SECTION",
+    "cls": "el-container is-vertical desktop-frame-view w100 h100",
+    "text": "时空功能开发平台Time Space Platform时空开发部署管理 盛云_孙宇飞_元语言查询Demo_0617 仓库包 权限 镜像 关于时空管理 新建 删除默认数据区KingFusion4.5_V1KingStudio4.5_Beta_dataBaseKF4.5工程KingStudio4.5_Beta个人仓库盛云_孙宇飞_仓库新建生成拷贝复制移动导入导出模式选择:只导出本仓库导出本仓库+数据对象只导出仓库树结构导出仓库树结构+数据对象是否开源:是否删除上传资源打包新建生成拷贝生成拷贝至复制复制至移动导入导出模式选择:只导出本仓库导出本仓库+数据对象只导出仓库树结构导出仓库树结构+数据对象是",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0
+    },
+    "disp": "flex"
+  },
+  {
+    "tag": "HEADER",
+    "cls": "el-header view-header",
+    "text": "时空功能开发平台Time Space Platform时空开发部署管理 盛云_孙宇飞_元语言查询Demo_0617 仓库包 权限 镜像 关于",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0
+    },
+    "disp": "flex"
+  },
+  {
+    "tag": "DIV",
+    "cls": "mid",
+    "text": "时空开发部署管理 盛云_孙宇飞_元语言查询Demo_0617",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0
+    },
+    "disp": "block"
+  },
+  {
+    "tag": "DIV",
+    "cls": "worker-space-tabs-view w100 h100",
+    "text": "时空开发部署管理 盛云_孙宇飞_元语言查询Demo_0617",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0
+    },
+    "disp": "flex"
+  },
+  {
+    "tag": "UL",
+    "cls": "worker-space-tabs w100 h100",
+    "text": "时空开发部署管理 盛云_孙宇飞_元语言查询Demo_0617",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0
+    },
+    "disp": "flex"
+  },
+  {
+    "tag": "LI",
+    "cls": "worker-space-tab-item tab cursor-pointer",
+    "text": "盛云_孙宇飞_元语言查询Demo_0617",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0
+    },
+    "disp": "flex"
+  },
+  {
+    "tag": "SPAN",
+    "cls": "title",
+    "text": "盛云_孙宇飞_元语言查询Demo_0617",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0
+    },
+    "disp": "flex"
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+  "text": "查询全部(0)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n暂无匹配数据\n共 0 条\n1\n前往页",
+  "pageInfo": {
+    "ret": 0,
+    "msg": "获取成功!",
+    "data": {
+      "id": "7205759403792795862",
+      "guid": "e430ebe9-3848-4941-9841-e08ddc5e511f",
+      "type": 1025,
+      "name": "查询列表",
+      "spaceTime": {
+        "spaceTime": "NadirL2",
+        "stType": 5,
+        "devName": "NadirFront",
+        "name": "NadirL2",
+        "guid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+        "id": "1152921504606851278"
+      }
+    }
+  },
+  "st": {
+    "spaceTime": "NadirL2",
+    "stType": 5,
+    "devName": "NadirFront",
+    "name": "NadirL2",
+    "guid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+    "id": "1152921504606851278"
+  },
+  "callWithParam": {
+    "consumeTime": 1201,
+    "returnData": null,
+    "errorcodes": [
+      -220006
+    ],
+    "ret": -220006,
+    "traceID": "0"
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "click": {
+    "before": 250,
+    "info": {
+      "text": "默认启动",
+      "cls": "el-button el-button--default config-icon is-default-start",
+      "disabled": false
+    }
+  },
+  "result": {
+    "body": "时空功能开发平台\n\nTime Space Platform\n\n时空开发\n部署管理\n本云(0)\n盛云_孙宇飞_元语言查询Demo_0617\n仓库包\n权限\n镜像\n关于\n时空对象管理\n原始时空\n开发系统\n生成器时空\n客户端工程\n引滦集团\n测试\n报警转发\n测试1\nlk测试客户端1\n测试客户端\nlk_工厂\nlk_客户端01\n盛云_孙宇飞_时空_0617\n镜像时空\n时空对象管理\n创建\n移动\n删除\n强制删除\n部署\n反部署\n启动\n停止\n日志\n任务\n\n暂无数据\n\n全选\n共 0 条\n1\n前往\n页\n时空仓库管理\n添加\n移动\n删除\n部署\n反部署\n启动\n停止\n日志\n任务\n默认启动\nV1\n\n盛云_孙宇飞_仓库\n\n状态: 运行\n\nV2\n\n盛云_孙宇飞_仓库\n\n状态: 已部署\n\n全选\n共 2 条\n1\n前往\n页",
+    "dialogs": [
+      {
+        "cls": "el-popper is-pure is-light el-tooltip el-dropdown__popper",
+        "text": "生成拷贝至",
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "cls": "el-popper is-pure is-light el-tooltip el-dropdown__popper",
+        "text": "复制至",
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "cls": "el-popper is-pure is-light el-tooltip el-dropdown__popper",
+        "text": "全量打包",
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "cls": "el-popper is-pure is-light el-tooltip el-select__popper",
+        "text": "名称IDGUID描述",
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "cls": "el-popper is-light el-tooltip el-popover",
+        "text": "按本仓库查看按仓库树查看全部功能单元第三方APPapp模块业务物单灵敏时序物多灵敏时序物业务事时序事关系组织岗位人员安全策略审计策略机密性完整性锁用户用户组角色域型域型交互表资源别名",
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "cls": "el-popper is-light el-tooltip el-popover",
+        "text": "时空仓库筛选全部:Label1:Label2:Label3:取消确定",
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "cls": "el-popper is-pure is-light el-tooltip el-dropdown__popper",
+        "text": "12345678",
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    ],
+    "resources": [
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 44.20000000298023,
+        "startTime": 267947.59999999404
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 37.900000005960464,
+        "startTime": 270933.39999999106
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 29.100000008940697,
+        "startTime": 270933.89999999106
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 38.19999998807907,
+        "startTime": 273938.200000003
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 32.900000005960464,
+        "startTime": 273938.59999999404
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 37,
+        "startTime": 276944.59999999404
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 29.899999991059303,
+        "startTime": 276945.200000003
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 38.599999994039536,
+        "startTime": 279947.5
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 27.900000005960464,
+        "startTime": 279947.89999999106
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 39.6000000089407,
+        "startTime": 282936.89999999106
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 31.900000005960464,
+        "startTime": 282937.39999999106
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 39,
+        "startTime": 285940.09999999404
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 29.600000008940697,
+        "startTime": 285940.59999999404
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 80.90000000596046,
+        "startTime": 288943.799999997
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 74.29999999701977,
+        "startTime": 288944.200000003
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 35.099999994039536,
+        "startTime": 291942
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 27.5,
+        "startTime": 291942.39999999106
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 39,
+        "startTime": 294943.299999997
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 30.5,
+        "startTime": 294943.799999997
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 37.400000005960464,
+        "startTime": 297934.39999999106
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 28.69999998807907,
+        "startTime": 297934.700000003
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 34.900000005960464,
+        "startTime": 300943.799999997
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 26.899999991059303,
+        "startTime": 300944
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 41.400000005960464,
+        "startTime": 303948.299999997
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 33.599999994039536,
+        "startTime": 303948.700000003
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 37.79999999701977,
+        "startTime": 306943.59999999404
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 29,
+        "startTime": 306943.89999999106
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 68.5,
+        "startTime": 309946.700000003
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 59.400000005960464,
+        "startTime": 309947.299999997
+      },
+      {
+        "name": "http://221.239.19.118:13001/api/v1/Query",
+        "initiatorType": "fetch",
+        "duration": 29.599999994039536,
+        "startTime": 312942
+      }
+    ]
+  }
+}

@@ -88,8 +88,10 @@ const path = require("path");
   const browser = await chromium.launch({ headless: false });
   const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
 
-  await page.goto("http://221.239.19.118:13001/#/login", { waitUntil: "domcontentloaded" });
-  await page.fill("#desktop-login-input-name", process.env.WOS4_USER || "孙宇飞");
+  if (!process.env.WOS4_LOGIN_URL) throw new Error("需要通过 WOS4_LOGIN_URL 或 wos4.local.ini 传入登录 URL");
+  if (!process.env.WOS4_USER) throw new Error("需要通过 WOS4_USER 或 wos4.local.ini 传入用户名");
+  await page.goto(process.env.WOS4_LOGIN_URL, { waitUntil: "domcontentloaded" });
+  await page.fill("#desktop-login-input-name", process.env.WOS4_USER);
   if (!process.env.WOS4_PASS) throw new Error("需要通过 WOS4_PASS 环境变量传入密码");
   await page.fill("#desktop-login-input-password", process.env.WOS4_PASS);
   await page.click("button:has-text('登录')");

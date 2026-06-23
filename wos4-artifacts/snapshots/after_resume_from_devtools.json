@@ -1,0 +1,32 @@
+{
+  "info": {
+    "url": "http://221.239.19.118:13001/#/main",
+    "title": "🐴 WellinOS4.5",
+    "w": 1920,
+    "h": 945,
+    "sx": 0,
+    "sy": 0,
+    "pw": 1920,
+    "ph": 945
+  },
+  "tabs": [
+    {
+      "targetId": "B59F7ED686BB04CF0B9B4FF413214B4A",
+      "title": "WellinOS4.5",
+      "url": "http://221.239.19.118:13001/#/main"
+    },
+    {
+      "targetId": "7094A1ABAC7691EA132C3DED0EDAA54E",
+      "title": "DevTools - 221.239.19.118:13001/",
+      "url": "devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@5be7af702aa73ed64f47858cecc86290e42f2a20/&targetType=tab&can_dock=true"
+    },
+    {
+      "targetId": "AA5DB9435E3BC83C5FBE985E40ECC528",
+      "title": "DevTools",
+      "url": "devtools://devtools/bundled/device_mode_emulation_frame.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@5be7af702aa73ed64f47858cecc86290e42f2a20/&targetType=tab&can_dock=true"
+    }
+  ],
+  "main_id": "B59F7ED686BB04CF0B9B4FF413214B4A",
+  "dev_id": "7094A1ABAC7691EA132C3DED0EDAA54E",
+  "screenshot": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\screenshots\\after_resume_from_devtools.png"
+}

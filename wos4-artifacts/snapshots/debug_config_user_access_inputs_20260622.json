@@ -1,0 +1,1417 @@
+{
+  "ok": true,
+  "text": "调试配置\n添加用户访问信息:\n点击添加\n添加时空访问信息:\n点击添加\n时空信息:\n默认数据区\n测试\n工厂\nNadirL1\nNadirL2\nlk测试客户端1\nlk_客户端01\n管理员客户端\n产品生成器功能客户端\n开发系统\n测试客户端\n测试时空-工厂\nlk_工厂\n测试1\n菜单\n客户端工程\n生成器时空\n管理员\n客户端1_人工干预点_1\n盛云_孙宇飞_时空_0617\n手工层级1\n盛云_孙宇飞_Noctiluca_客户端\n盛云_孙宇飞_时空_0617_TOPV2\n客户端1\nEidolon手工层级1\n引滦集团\n已选信息:\n\t\nNadirL2\n取消\n确定",
+  "inputs": [
+    {
+      "j": 0,
+      "type": "text",
+      "placeholder": "请输入搜索内容",
+      "aria": "",
+      "cls": "el-input__inner",
+      "visible": true,
+      "x": 568.90625,
+      "y": 296.1875,
+      "w": 246,
+      "h": 30,
+      "valueLen": 0,
+      "valueSample": ""
+    },
+    {
+      "j": 1,
+      "type": "checkbox",
+      "placeholder": "",
+      "aria": "",
+      "cls": "el-checkbox__original",
+      "visible": false,
+      "x": 596.90625,
+      "y": 358.1875,
+      "w": 0,
+      "h": 0,
+      "valueLen": 2,
+      "valueSample": "on"
+    },
+    {
+      "j": 2,
+      "type": "checkbox",
+      "placeholder": "",
+      "aria": "",
+      "cls": "el-checkbox__original",
+      "visible": false,
+      "x": 614.90625,
+      "y": 384.1875,
+      "w": 0,
+      "h": 0,
+      "valueLen": 2,
+      "valueSample": "on"
+    },
+    {
+      "j": 3,
+      "type": "checkbox",
+      "placeholder": "",
+      "aria": "",
+      "cls": "el-checkbox__original",
+      "visible": false,
+      "x": 614.90625,
+      "y": 410.1875,
+      "w": 0,
+      "h": 0,
+      "valueLen": 2,
+      "valueSample": "on"
+    },
+    {
+      "j": 4,
+      "type": "checkbox",
+      "placeholder": "",
+      "aria": "",
+      "cls": "el-checkbox__original",
+      "visible": false,
+      "x": 614.90625,
+      "y": 436.1875,
+      "w": 0,
+      "h": 0,
+      "valueLen": 2,
+      "valueSample": "on"
+    },
+    {
+      "j": 5,
+      "type": "checkbox",
+      "placeholder": "",
+      "aria": "",
+      "cls": "el-checkbox__original",
+      "visible": false,
+      "x": 632.90625,
+      "y": 462.1875,
+      "w": 0,
+      "h": 0,
+      "valueLen": 2,
+      "valueSample": "on"
+    },
+    {
+      "j": 6,
+      "type": "checkbox",
+      "placeholder": "",
+      "aria": "",
+      "cls": "el-checkbox__original",
+      "visible": false,
+      "x": 614.90625,
+      "y": 488.1875,
+      "w": 0,
+      "h": 0,
+      "valueLen": 2,
+      "valueSample": "on"
+    },
+    {
+      "j": 7,
+      "type": "checkbox",
+      "placeholder": "",
+      "aria": "",
+      "cls": "el-checkbox__original",
+      "visible": false,
+      "x": 614.90625,
+      "y": 514.1875,
+      "w": 0,
+      "h": 0,
+      "valueLen": 2,
+      "valueSample": "on"
+    },
+    {
+      "j": 8,
+      "type": "checkbox",
+      "placeholder": "",
+      "aria": "",
+      "cls": "el-checkbox__original",
+      "visible": false,
+      "x": 614.90625,
+      "y": 540.1875,
+      "w": 0,
+      "h": 0,
+      "valueLen": 2,
+      "valueSample": "on"
+    },
+    {
+      "j": 9,
+      "type": "checkbox",
+      "placeholder": "",
+      "aria": "",
+      "cls": "el-checkbox__original",
+      "visible": false,
+      "x": 614.90625,
+      "y": 566.1875,
+      "w": 0,
+      "h": 0,
+      "valueLen": 2,
+      "valueSample": "on"
+    },
+    {
+      "j": 10,
+      "type": "checkbox",
+      "placeholder": "",
+      "aria": "",
+      "cls": "el-checkbox__original",
+      "visible": false,
+      "x": 614.90625,
+      "y": 592.1875,
+      "w": 0,
+      "h": 0,
+      "valueLen": 2,
+      "valueSample": "on"
+    },
+    {
+      "j": 11,
+      "type": "checkbox",
+      "placeholder": "",
+      "aria": "",
+      "cls": "el-checkbox__original",
+      "visible": false,
+      "x": 614.90625,
+      "y": 618.1875,
+      "w": 0,
+      "h": 0,
+      "valueLen": 2,
+      "valueSample": "on"
+    },
+    {
+      "j": 12,
+      "type": "checkbox",
+      "placeholder": "",
+      "aria": "",
+      "cls": "el-checkbox__original",
+      "visible": false,
+      "x": 614.90625,
+      "y": 644.1875,
+      "w": 0,
+      "h": 0,
+      "valueLen": 2,
+      "valueSample": "on"
+    },
+    {
+      "j": 13,
+      "type": "checkbox",
+      "placeholder": "",
+      "aria": "",
+      "cls": "el-checkbox__original",
+      "visible": false,
+      "x": 614.90625,
+      "y": 670.1875,
+      "w": 0,
+      "h": 0,
+      "valueLen": 2,
+      "valueSample": "on"
+    },
+    {
+      "j": 14,
+      "type": "checkbox",
+      "placeholder": "",
+      "aria": "",
+      "cls": "el-checkbox__original",
+      "visible": false,
+      "x": 614.90625,
+      "y": 696.1875,
+      "w": 0,
+      "h": 0,
+      "valueLen": 2,
+      "valueSample": "on"
+    },
+    {
+      "j": 15,
+      "type": "checkbox",
+      "placeholder": "",
+      "aria": "",
+      "cls": "el-checkbox__original",
+      "visible": false,
+      "x": 614.90625,
+      "y": 722.1875,
+      "w": 0,
+      "h": 0,
+      "valueLen": 2,
+      "valueSample": "on"
+    },
+    {
+      "j": 16,
+      "type": "checkbox",
+      "placeholder": "",
+      "aria": "",
+      "cls": "el-checkbox__original",
+      "visible": false,
+      "x": 614.90625,
+      "y": 748.1875,
+      "w": 0,
+      "h": 0,
+      "valueLen": 2,
+      "valueSample": "on"
+    },
+    {
+      "j": 17,
+      "type": "checkbox",
+      "placeholder": "",
+      "aria": "",
+      "cls": "el-checkbox__original",
+      "visible": false,
+      "x": 614.90625,
+      "y": 774.1875,
+      "w": 0,
+      "h": 0,
+      "valueLen": 2,
+      "valueSample": "on"
+    },
+    {
+      "j": 18,
+      "type": "checkbox",
+      "placeholder": "",
+      "aria": "",
+      "cls": "el-checkbox__original",
+      "visible": false,
+      "x": 614.90625,
+      "y": 800.1875,
+      "w": 0,
+      "h": 0,
+      "valueLen": 2,
+      "valueSample": "on"
+    },
+    {
+      "j": 19,
+      "type": "checkbox",
+      "placeholder": "",
+      "aria": "",
+      "cls": "el-checkbox__original",
+      "visible": false,
+      "x": 614.90625,
+      "y": 826.1875,
+      "w": 0,
+      "h": 0,
+      "valueLen": 2,
+      "valueSample": "on"
+    },
+    {
+      "j": 20,
+      "type": "checkbox",
+      "placeholder": "",
+      "aria": "",
+      "cls": "el-checkbox__original",
+      "visible": false,
+      "x": 614.90625,
+      "y": 852.1875,
+      "w": 0,
+      "h": 0,
+      "valueLen": 2,
+      "valueSample": "on"
+    },
+    {
+      "j": 21,
+      "type": "checkbox",
+      "placeholder": "",
+      "aria": "",
+      "cls": "el-checkbox__original",
+      "visible": false,
+      "x": 614.90625,
+      "y": 878.1875,
+      "w": 0,
+      "h": 0,
+      "valueLen": 2,
+      "valueSample": "on"
+    },
+    {
+      "j": 22,
+      "type": "checkbox",
+      "placeholder": "",
+      "aria": "",
+      "cls": "el-checkbox__original",
+      "visible": false,
+      "x": 614.90625,
+      "y": 904.1875,
+      "w": 0,
+      "h": 0,
+      "valueLen": 2,
+      "valueSample": "on"
+    },
+    {
+      "j": 23,
+      "type": "checkbox",
+      "placeholder": "",
+      "aria": "",
+      "cls": "el-checkbox__original",
+      "visible": false,
+      "x": 614.90625,
+      "y": 930.1875,
+      "w": 0,
+      "h": 0,
+      "valueLen": 2,
+      "valueSample": "on"
+    },
+    {
+      "j": 24,
+      "type": "checkbox",
+      "placeholder": "",
+      "aria": "",
+      "cls": "el-checkbox__original",
+      "visible": false,
+      "x": 614.90625,
+      "y": 956.1875,
+      "w": 0,
+      "h": 0,
+      "valueLen": 2,
+      "valueSample": "on"
+    },
+    {
+      "j": 25,
+      "type": "checkbox",
+      "placeholder": "",
+      "aria": "",
+      "cls": "el-checkbox__original",
+      "visible": false,
+      "x": 614.90625,
+      "y": 982.1875,
+      "w": 0,
+      "h": 0,
+      "valueLen": 2,
+      "valueSample": "on"
+    },
+    {
+      "j": 26,
+      "type": "checkbox",
+      "placeholder": "",
+      "aria": "",
+      "cls": "el-checkbox__original",
+      "visible": false,
+      "x": 614.90625,
+      "y": 1008.1875,
+      "w": 0,
+      "h": 0,
+      "valueLen": 2,
+      "valueSample": "on"
+    },
+    {
+      "j": 27,
+      "type": "checkbox",
+      "placeholder": "",
+      "aria": "",
+      "cls": "el-checkbox__original",
+      "visible": false,
+      "x": 932.90625,
+      "y": 322.6875,
+      "w": 0,
+      "h": 0,
+      "valueLen": 2,
+      "valueSample": "on"
+    }
+  ],
+  "labels": [
+    {
+      "j": 0,
+      "cls": "el-dialog__title",
+      "text": "调试配置",
+      "x": 543.90625,
+      "y": 124.1875,
+      "w": 64,
+      "h": 24
+    },
+    {
+      "j": 1,
+      "cls": "el-dialog__body",
+      "text": "添加用户访问信息:\n点击添加\n添加时空访问信息:\n点击添加\n时空信息:\n默认数据区\n测试\n工厂\nNadirL1\nNadirL2\nlk测试客户端1\nlk_客户端01\n管理员客户端\n产品生成器功能客户端\n",
+      "x": 523.90625,
+      "y": 156.1875,
+      "w": 564.1875,
+      "h": 430
+    },
+    {
+      "j": 2,
+      "cls": "content",
+      "text": "添加用户访问信息:\n点击添加\n添加时空访问信息:\n点击添加\n时空信息:\n默认数据区\n测试\n工厂\nNadirL1\nNadirL2\nlk测试客户端1\nlk_客户端01\n管理员客户端\n产品生成器功能客户端\n",
+      "x": 551.90625,
+      "y": 156.1875,
+      "w": 518.1875,
+      "h": 430
+    },
+    {
+      "j": 3,
+      "cls": "top-view",
+      "text": "添加用户访问信息:\n点击添加\n添加时空访问信息:\n点击添加",
+      "x": 551.90625,
+      "y": 156.1875,
+      "w": 518.1875,
+      "h": 100
+    },
+    {
+      "j": 4,
+      "cls": "el-row",
+      "text": "添加用户访问信息:\n点击添加",
+      "x": 551.90625,
+      "y": 156.1875,
+      "w": 518.1875,
+      "h": 50
+    },
+    {
+      "j": 5,
+      "cls": "el-form-item el-form-item--default asterisk-left el-form-item--label-right",
+      "text": "添加用户访问信息:\n点击添加",
+      "x": 551.90625,
+      "y": 156.1875,
+      "w": 189.90625,
+      "h": 32
+    },
+    {
+      "j": 6,
+      "cls": "el-form-item__label-wrap",
+      "text": "添加用户访问信息:",
+      "x": 551.90625,
+      "y": 156.1875,
+      "w": 127.90625,
+      "h": 32
+    },
+    {
+      "j": 7,
+      "cls": "el-form-item__label",
+      "text": "添加用户访问信息:",
+      "x": 551.90625,
+      "y": 156.1875,
+      "w": 127.90625,
+      "h": 32
+    },
+    {
+      "j": 8,
+      "cls": "el-form-item__content",
+      "text": "点击添加",
+      "x": 679.8125,
+      "y": 156.1875,
+      "w": 62,
+      "h": 32
+    },
+    {
+      "j": 9,
+      "cls": "",
+      "text": "点击添加",
+      "x": 682.8125,
+      "y": 165.1875,
+      "w": 56,
+      "h": 14
+    },
+    {
+      "j": 10,
+      "cls": "el-row",
+      "text": "添加时空访问信息:\n点击添加",
+      "x": 551.90625,
+      "y": 206.1875,
+      "w": 518.1875,
+      "h": 50
+    },
+    {
+      "j": 11,
+      "cls": "el-form-item el-form-item--default asterisk-left el-form-item--label-right",
+      "text": "添加时空访问信息:\n点击添加",
+      "x": 551.90625,
+      "y": 206.1875,
+      "w": 189.90625,
+      "h": 32
+    },
+    {
+      "j": 12,
+      "cls": "el-form-item__label-wrap",
+      "text": "添加时空访问信息:",
+      "x": 551.90625,
+      "y": 206.1875,
+      "w": 127.90625,
+      "h": 32
+    },
+    {
+      "j": 13,
+      "cls": "el-form-item__label",
+      "text": "添加时空访问信息:",
+      "x": 551.90625,
+      "y": 206.1875,
+      "w": 127.90625,
+      "h": 32
+    },
+    {
+      "j": 14,
+      "cls": "el-form-item__content",
+      "text": "点击添加",
+      "x": 679.8125,
+      "y": 206.1875,
+      "w": 62,
+      "h": 32
+    },
+    {
+      "j": 15,
+      "cls": "",
+      "text": "点击添加",
+      "x": 682.8125,
+      "y": 215.1875,
+      "w": 56,
+      "h": 14
+    },
+    {
+      "j": 19,
+      "cls": "el-scrollbar",
+      "text": "默认数据区\n测试\n工厂\nNadirL1\nNadirL2\nlk测试客户端1\nlk_客户端01\n管理员客户端\n产品生成器功能客户端\n开发系统\n测试客户端\n测试时空-工厂\nlk_工厂\n测试1\n菜单\n客户端工",
+      "x": 572.90625,
+      "y": 352.1875,
+      "w": 238,
+      "h": 213
+    },
+    {
+      "j": 20,
+      "cls": "el-scrollbar__wrap el-scrollbar__wrap--hidden-default",
+      "text": "默认数据区\n测试\n工厂\nNadirL1\nNadirL2\nlk测试客户端1\nlk_客户端01\n管理员客户端\n产品生成器功能客户端\n开发系统\n测试客户端\n测试时空-工厂\nlk_工厂\n测试1\n菜单\n客户端工",
+      "x": 572.90625,
+      "y": 352.1875,
+      "w": 238,
+      "h": 213
+    },
+    {
+      "j": 21,
+      "cls": "el-scrollbar__view",
+      "text": "默认数据区\n测试\n工厂\nNadirL1\nNadirL2\nlk测试客户端1\nlk_客户端01\n管理员客户端\n产品生成器功能客户端\n开发系统\n测试客户端\n测试时空-工厂\nlk_工厂\n测试1\n菜单\n客户端工",
+      "x": 572.90625,
+      "y": 352.1875,
+      "w": 238,
+      "h": 676
+    },
+    {
+      "j": 22,
+      "cls": "el-tree",
+      "text": "默认数据区\n测试\n工厂\nNadirL1\nNadirL2\nlk测试客户端1\nlk_客户端01\n管理员客户端\n产品生成器功能客户端\n开发系统\n测试客户端\n测试时空-工厂\nlk_工厂\n测试1\n菜单\n客户端工",
+      "x": 572.90625,
+      "y": 352.1875,
+      "w": 238,
+      "h": 676
+    },
+    {
+      "j": 23,
+      "cls": "el-tree-node is-expanded",
+      "text": "默认数据区\n测试\n工厂\nNadirL1\nNadirL2\nlk测试客户端1\nlk_客户端01\n管理员客户端\n产品生成器功能客户端\n开发系统\n测试客户端\n测试时空-工厂\nlk_工厂\n测试1\n菜单\n客户端工",
+      "x": 572.90625,
+      "y": 352.1875,
+      "w": 238,
+      "h": 676
+    },
+    {
+      "j": 24,
+      "cls": "el-tree-node__content",
+      "text": "默认数据区",
+      "x": 572.90625,
+      "y": 352.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 28,
+      "cls": "el-text el-text--default is-truncated el-tree-node__label",
+      "text": "默认数据区",
+      "x": 618.90625,
+      "y": 358.1875,
+      "w": 70,
+      "h": 14
+    },
+    {
+      "j": 29,
+      "cls": "el-tree-node__children",
+      "text": "测试\n工厂\nNadirL1\nNadirL2\nlk测试客户端1\nlk_客户端01\n管理员客户端\n产品生成器功能客户端\n开发系统\n测试客户端\n测试时空-工厂\nlk_工厂\n测试1\n菜单\n客户端工程\n生成器时",
+      "x": 572.90625,
+      "y": 378.1875,
+      "w": 238,
+      "h": 650
+    },
+    {
+      "j": 30,
+      "cls": "el-tree-node is-focusable",
+      "text": "测试",
+      "x": 572.90625,
+      "y": 378.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 31,
+      "cls": "el-tree-node__content",
+      "text": "测试",
+      "x": 572.90625,
+      "y": 378.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 35,
+      "cls": "el-text el-text--default is-truncated el-tree-node__label",
+      "text": "测试",
+      "x": 636.90625,
+      "y": 384.1875,
+      "w": 28,
+      "h": 14
+    },
+    {
+      "j": 36,
+      "cls": "el-tree-node is-focusable",
+      "text": "工厂",
+      "x": 572.90625,
+      "y": 404.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 37,
+      "cls": "el-tree-node__content",
+      "text": "工厂",
+      "x": 572.90625,
+      "y": 404.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 41,
+      "cls": "el-text el-text--default is-truncated el-tree-node__label",
+      "text": "工厂",
+      "x": 636.90625,
+      "y": 410.1875,
+      "w": 28,
+      "h": 14
+    },
+    {
+      "j": 42,
+      "cls": "el-tree-node is-expanded is-focusable",
+      "text": "NadirL1\nNadirL2",
+      "x": 572.90625,
+      "y": 430.1875,
+      "w": 238,
+      "h": 52
+    },
+    {
+      "j": 43,
+      "cls": "el-tree-node__content",
+      "text": "NadirL1",
+      "x": 572.90625,
+      "y": 430.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 47,
+      "cls": "el-text el-text--default is-truncated el-tree-node__label",
+      "text": "NadirL1",
+      "x": 636.90625,
+      "y": 436.1875,
+      "w": 51.34375,
+      "h": 14
+    },
+    {
+      "j": 48,
+      "cls": "el-tree-node__children",
+      "text": "NadirL2",
+      "x": 572.90625,
+      "y": 456.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 49,
+      "cls": "el-tree-node is-focusable",
+      "text": "NadirL2",
+      "x": 572.90625,
+      "y": 456.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 50,
+      "cls": "el-tree-node__content",
+      "text": "NadirL2",
+      "x": 572.90625,
+      "y": 456.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 54,
+      "cls": "el-text el-text--default is-truncated el-tree-node__label",
+      "text": "NadirL2",
+      "x": 654.90625,
+      "y": 462.1875,
+      "w": 51.34375,
+      "h": 14
+    },
+    {
+      "j": 55,
+      "cls": "el-tree-node is-focusable",
+      "text": "lk测试客户端1",
+      "x": 572.90625,
+      "y": 482.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 56,
+      "cls": "el-tree-node__content",
+      "text": "lk测试客户端1",
+      "x": 572.90625,
+      "y": 482.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 60,
+      "cls": "el-text el-text--default is-truncated el-tree-node__label",
+      "text": "lk测试客户端1",
+      "x": 636.90625,
+      "y": 488.1875,
+      "w": 89.484375,
+      "h": 14
+    },
+    {
+      "j": 61,
+      "cls": "el-tree-node is-focusable",
+      "text": "lk_客户端01",
+      "x": 572.90625,
+      "y": 508.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 62,
+      "cls": "el-tree-node__content",
+      "text": "lk_客户端01",
+      "x": 572.90625,
+      "y": 508.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 66,
+      "cls": "el-text el-text--default is-truncated el-tree-node__label",
+      "text": "lk_客户端01",
+      "x": 636.90625,
+      "y": 514.1875,
+      "w": 77.078125,
+      "h": 14
+    },
+    {
+      "j": 67,
+      "cls": "el-tree-node is-focusable",
+      "text": "管理员客户端",
+      "x": 572.90625,
+      "y": 534.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 68,
+      "cls": "el-tree-node__content",
+      "text": "管理员客户端",
+      "x": 572.90625,
+      "y": 534.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 72,
+      "cls": "el-text el-text--default is-truncated el-tree-node__label",
+      "text": "管理员客户端",
+      "x": 636.90625,
+      "y": 540.1875,
+      "w": 84,
+      "h": 14
+    },
+    {
+      "j": 73,
+      "cls": "el-tree-node is-focusable",
+      "text": "产品生成器功能客户端",
+      "x": 572.90625,
+      "y": 560.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 74,
+      "cls": "el-tree-node__content",
+      "text": "产品生成器功能客户端",
+      "x": 572.90625,
+      "y": 560.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 78,
+      "cls": "el-text el-text--default is-truncated el-tree-node__label",
+      "text": "产品生成器功能客户端",
+      "x": 636.90625,
+      "y": 566.1875,
+      "w": 140,
+      "h": 14
+    },
+    {
+      "j": 79,
+      "cls": "el-tree-node is-focusable",
+      "text": "开发系统",
+      "x": 572.90625,
+      "y": 586.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 80,
+      "cls": "el-tree-node__content",
+      "text": "开发系统",
+      "x": 572.90625,
+      "y": 586.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 84,
+      "cls": "el-text el-text--default is-truncated el-tree-node__label",
+      "text": "开发系统",
+      "x": 636.90625,
+      "y": 592.1875,
+      "w": 56,
+      "h": 14
+    },
+    {
+      "j": 85,
+      "cls": "el-tree-node is-focusable",
+      "text": "测试客户端",
+      "x": 572.90625,
+      "y": 612.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 86,
+      "cls": "el-tree-node__content",
+      "text": "测试客户端",
+      "x": 572.90625,
+      "y": 612.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 90,
+      "cls": "el-text el-text--default is-truncated el-tree-node__label",
+      "text": "测试客户端",
+      "x": 636.90625,
+      "y": 618.1875,
+      "w": 70,
+      "h": 14
+    },
+    {
+      "j": 91,
+      "cls": "el-tree-node is-focusable",
+      "text": "测试时空-工厂",
+      "x": 572.90625,
+      "y": 638.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 92,
+      "cls": "el-tree-node__content",
+      "text": "测试时空-工厂",
+      "x": 572.90625,
+      "y": 638.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 96,
+      "cls": "el-text el-text--default is-truncated el-tree-node__label",
+      "text": "测试时空-工厂",
+      "x": 636.90625,
+      "y": 644.1875,
+      "w": 88.859375,
+      "h": 14
+    },
+    {
+      "j": 97,
+      "cls": "el-tree-node is-focusable",
+      "text": "lk_工厂",
+      "x": 572.90625,
+      "y": 664.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 98,
+      "cls": "el-tree-node__content",
+      "text": "lk_工厂",
+      "x": 572.90625,
+      "y": 664.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 102,
+      "cls": "el-text el-text--default is-truncated el-tree-node__label",
+      "text": "lk_工厂",
+      "x": 636.90625,
+      "y": 670.1875,
+      "w": 47.53125,
+      "h": 14
+    },
+    {
+      "j": 103,
+      "cls": "el-tree-node is-focusable",
+      "text": "测试1",
+      "x": 572.90625,
+      "y": 690.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 104,
+      "cls": "el-tree-node__content",
+      "text": "测试1",
+      "x": 572.90625,
+      "y": 690.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 108,
+      "cls": "el-text el-text--default is-truncated el-tree-node__label",
+      "text": "测试1",
+      "x": 636.90625,
+      "y": 696.1875,
+      "w": 35.78125,
+      "h": 14
+    },
+    {
+      "j": 109,
+      "cls": "el-tree-node is-focusable",
+      "text": "菜单",
+      "x": 572.90625,
+      "y": 716.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 110,
+      "cls": "el-tree-node__content",
+      "text": "菜单",
+      "x": 572.90625,
+      "y": 716.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 114,
+      "cls": "el-text el-text--default is-truncated el-tree-node__label",
+      "text": "菜单",
+      "x": 636.90625,
+      "y": 722.1875,
+      "w": 28,
+      "h": 14
+    },
+    {
+      "j": 115,
+      "cls": "el-tree-node is-focusable",
+      "text": "客户端工程",
+      "x": 572.90625,
+      "y": 742.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 116,
+      "cls": "el-tree-node__content",
+      "text": "客户端工程",
+      "x": 572.90625,
+      "y": 742.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 120,
+      "cls": "el-text el-text--default is-truncated el-tree-node__label",
+      "text": "客户端工程",
+      "x": 636.90625,
+      "y": 748.1875,
+      "w": 70,
+      "h": 14
+    },
+    {
+      "j": 121,
+      "cls": "el-tree-node is-focusable",
+      "text": "生成器时空",
+      "x": 572.90625,
+      "y": 768.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 122,
+      "cls": "el-tree-node__content",
+      "text": "生成器时空",
+      "x": 572.90625,
+      "y": 768.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 126,
+      "cls": "el-text el-text--default is-truncated el-tree-node__label",
+      "text": "生成器时空",
+      "x": 636.90625,
+      "y": 774.1875,
+      "w": 70,
+      "h": 14
+    },
+    {
+      "j": 127,
+      "cls": "el-tree-node is-focusable",
+      "text": "管理员",
+      "x": 572.90625,
+      "y": 794.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 128,
+      "cls": "el-tree-node__content",
+      "text": "管理员",
+      "x": 572.90625,
+      "y": 794.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 132,
+      "cls": "el-text el-text--default is-truncated el-tree-node__label",
+      "text": "管理员",
+      "x": 636.90625,
+      "y": 800.1875,
+      "w": 42,
+      "h": 14
+    },
+    {
+      "j": 133,
+      "cls": "el-tree-node is-focusable",
+      "text": "客户端1_人工干预点_1",
+      "x": 572.90625,
+      "y": 820.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 134,
+      "cls": "el-tree-node__content",
+      "text": "客户端1_人工干预点_1",
+      "x": 572.90625,
+      "y": 820.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 138,
+      "cls": "el-text el-text--default is-truncated el-tree-node__label",
+      "text": "客户端1_人工干预点_1",
+      "x": 636.90625,
+      "y": 826.1875,
+      "w": 143.203125,
+      "h": 14
+    },
+    {
+      "j": 139,
+      "cls": "el-tree-node is-focusable",
+      "text": "盛云_孙宇飞_时空_0617",
+      "x": 572.90625,
+      "y": 846.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 140,
+      "cls": "el-tree-node__content",
+      "text": "盛云_孙宇飞_时空_0617",
+      "x": 572.90625,
+      "y": 846.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 144,
+      "cls": "el-text el-text--default is-truncated el-tree-node__label",
+      "text": "盛云_孙宇飞_时空_0617",
+      "x": 636.90625,
+      "y": 852.1875,
+      "w": 152.5625,
+      "h": 14
+    },
+    {
+      "j": 145,
+      "cls": "el-tree-node is-focusable",
+      "text": "手工层级1",
+      "x": 572.90625,
+      "y": 872.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 146,
+      "cls": "el-tree-node__content",
+      "text": "手工层级1",
+      "x": 572.90625,
+      "y": 872.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 150,
+      "cls": "el-text el-text--default is-truncated el-tree-node__label",
+      "text": "手工层级1",
+      "x": 636.90625,
+      "y": 878.1875,
+      "w": 63.78125,
+      "h": 14
+    },
+    {
+      "j": 151,
+      "cls": "el-tree-node is-focusable",
+      "text": "盛云_孙宇飞_Noctiluca_客户端",
+      "x": 572.90625,
+      "y": 898.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 152,
+      "cls": "el-tree-node__content",
+      "text": "盛云_孙宇飞_Noctiluca_客户端",
+      "x": 572.90625,
+      "y": 898.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 156,
+      "cls": "el-text el-text--default is-truncated el-tree-node__label",
+      "text": "盛云_孙宇飞_Noctiluca_客户端",
+      "x": 636.90625,
+      "y": 904.1875,
+      "w": 174,
+      "h": 14
+    },
+    {
+      "j": 157,
+      "cls": "el-tree-node is-focusable",
+      "text": "盛云_孙宇飞_时空_0617_TOPV2",
+      "x": 572.90625,
+      "y": 924.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 158,
+      "cls": "el-tree-node__content",
+      "text": "盛云_孙宇飞_时空_0617_TOPV2",
+      "x": 572.90625,
+      "y": 924.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 162,
+      "cls": "el-text el-text--default is-truncated el-tree-node__label",
+      "text": "盛云_孙宇飞_时空_0617_TOPV2",
+      "x": 636.90625,
+      "y": 930.1875,
+      "w": 174,
+      "h": 14
+    },
+    {
+      "j": 163,
+      "cls": "el-tree-node is-focusable",
+      "text": "客户端1",
+      "x": 572.90625,
+      "y": 950.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 164,
+      "cls": "el-tree-node__content",
+      "text": "客户端1",
+      "x": 572.90625,
+      "y": 950.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 168,
+      "cls": "el-text el-text--default is-truncated el-tree-node__label",
+      "text": "客户端1",
+      "x": 636.90625,
+      "y": 956.1875,
+      "w": 49.78125,
+      "h": 14
+    },
+    {
+      "j": 169,
+      "cls": "el-tree-node is-focusable",
+      "text": "Eidolon手工层级1",
+      "x": 572.90625,
+      "y": 976.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 170,
+      "cls": "el-tree-node__content",
+      "text": "Eidolon手工层级1",
+      "x": 572.90625,
+      "y": 976.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 174,
+      "cls": "el-text el-text--default is-truncated el-tree-node__label",
+      "text": "Eidolon手工层级1",
+      "x": 636.90625,
+      "y": 982.1875,
+      "w": 114.03125,
+      "h": 14
+    },
+    {
+      "j": 175,
+      "cls": "el-tree-node is-focusable",
+      "text": "引滦集团",
+      "x": 572.90625,
+      "y": 1002.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 176,
+      "cls": "el-tree-node__content",
+      "text": "引滦集团",
+      "x": 572.90625,
+      "y": 1002.1875,
+      "w": 238,
+      "h": 26
+    },
+    {
+      "j": 180,
+      "cls": "el-text el-text--default is-truncated el-tree-node__label",
+      "text": "引滦集团",
+      "x": 636.90625,
+      "y": 1008.1875,
+      "w": 56,
+      "h": 14
+    },
+    {
+      "j": 188,
+      "cls": "el-scrollbar",
+      "text": "NadirL2",
+      "x": 918.90625,
+      "y": 310.1875,
+      "w": 238,
+      "h": 250
+    },
+    {
+      "j": 189,
+      "cls": "el-scrollbar__wrap el-scrollbar__wrap--hidden-default",
+      "text": "NadirL2",
+      "x": 918.90625,
+      "y": 310.1875,
+      "w": 238,
+      "h": 250
+    },
+    {
+      "j": 190,
+      "cls": "el-scrollbar__view",
+      "text": "NadirL2",
+      "x": 918.90625,
+      "y": 310.1875,
+      "w": 238,
+      "h": 250
+    },
+    {
+      "j": 191,
+      "cls": "el-table--fit el-table--enable-row-hover el-table--enable-row-transition el-tabl",
+      "text": "NadirL2",
+      "x": 918.90625,
+      "y": 310.1875,
+      "w": 238,
+      "h": 250
+    },
+    {
+      "j": 192,
+      "cls": "el-table__inner-wrapper",
+      "text": "NadirL2",
+      "x": 918.90625,
+      "y": 310.1875,
+      "w": 238,
+      "h": 250
+    },
+    {
+      "j": 196,
+      "cls": "el-table__body-wrapper",
+      "text": "NadirL2",
+      "x": 918.90625,
+      "y": 310.1875,
+      "w": 238,
+      "h": 250
+    },
+    {
+      "j": 197,
+      "cls": "el-scrollbar",
+      "text": "NadirL2",
+      "x": 918.90625,
+      "y": 310.1875,
+      "w": 238,
+      "h": 250
+    },
+    {
+      "j": 198,
+      "cls": "el-scrollbar__wrap el-scrollbar__wrap--hidden-default",
+      "text": "NadirL2",
+      "x": 918.90625,
+      "y": 310.1875,
+      "w": 238,
+      "h": 250
+    },
+    {
+      "j": 199,
+      "cls": "el-scrollbar__view",
+      "text": "NadirL2",
+      "x": 918.90625,
+      "y": 310.1875,
+      "w": 238,
+      "h": 40
+    },
+    {
+      "j": 204,
+      "cls": "cell",
+      "text": "NadirL2",
+      "x": 948.90625,
+      "y": 318.1875,
+      "w": 208,
+      "h": 23
+    },
+    {
+      "j": 206,
+      "cls": "",
+      "text": "NadirL2",
+      "x": 960.90625,
+      "y": 318.1875,
+      "w": 184,
+      "h": 23
+    },
+    {
+      "j": 216,
+      "cls": "",
+      "text": "取消",
+      "x": 956.09375,
+      "y": 605.1875,
+      "w": 28,
+      "h": 14
+    },
+    {
+      "j": 217,
+      "cls": "",
+      "text": "确定",
+      "x": 1028.09375,
+      "y": 605.1875,
+      "w": 28,
+      "h": 14
+    }
+  ]
+}

@@ -1,0 +1,532 @@
+{
+  "startedAt": "2026-06-12T04:25:07.654Z",
+  "vars": {
+    "windowKeys": [
+      "PageEval",
+      "pageNameToSetPageMap",
+      "KMSetPageMng",
+      "GetPageMngInfo",
+      "UpdatePage",
+      "ShowPage",
+      "ShowPageByID",
+      "ClosePage",
+      "GetVariable",
+      "SetVariable",
+      "QueryPageAuth",
+      "$Variable",
+      "数字孪生建模_框架页面",
+      "数字孪生模型编辑_框架页面"
+    ],
+    "PageEval": "function",
+    "pageNameToSetPageMap": {},
+    "KMSetPageMng": {},
+    "GetPageMngInfo": "function",
+    "UpdatePage": "function",
+    "ShowPage": "function",
+    "ShowPageByID": "function",
+    "ClosePage": "function",
+    "GetVariable": "function",
+    "SetVariable": "function",
+    "QueryPageAuth": "function",
+    "$Variable": {},
+    "数字孪生建模_框架页面": {
+      "$Variable": {}
+    },
+    "数字孪生模型编辑_框架页面": {
+      "$Variable": {}
+    },
+    "pageView": {
+      "storeName": {
+        "dataStore": "PageRun_IDataStore_4634710",
+        "viewStore": "PageRun_IViewStore_2956396",
+        "scriptStore": "PageRun_IScriptStore_2744410"
+      },
+      "dataKeys": [
+        "showPageList",
+        "callTimerMap",
+        "dateTimeTimer",
+        "funcMap",
+        "setPageArray",
+        "renderComs",
+        "dataCenterMng",
+        "evalCreatedFlag",
+        "d_uiOutputLinkList"
+      ],
+      "variableMng": {
+        "variable": {
+          "head": {
+            "data": "[deep]",
+            "previous": null,
+            "next": "[deep]"
+          },
+          "tail": {
+            "data": "[deep]",
+            "previous": "[deep]",
+            "next": null
+          },
+          "numberOfValues": 28
+        }
+      },
+      "vars": [
+        {
+          "KSCGUID": "k3bf0a5d295f247295dcc1152f309f43",
+          "varDes": "",
+          "varName": "cloudID",
+          "comment": "",
+          "parentGUID": "",
+          "isPublic": true,
+          "AbsVariableId": "AbsVariableId",
+          "value": {
+            "changeListener": "[deep]",
+            "value": 107
+          },
+          "relateInfo": "",
+          "isLinkDataObj": false,
+          "linkDataObjInfo": {},
+          "linkDataObjInfos": [],
+          "linkDataObjName": "",
+          "isShowRealTimeClock": false,
+          "returnFormat": 0,
+          "concreteFormat": "yyyy-MM-dd HH:mm:ss",
+          "varType": 1,
+          "varDefaultValue": 0,
+          "RefObject": {
+            "type": "",
+            "id": "0",
+            "guid": "",
+            "name": "",
+            "version": "0"
+          },
+          "varValue": 0
+        },
+        {
+          "KSCGUID": "ka9896280cdda78a0272c2d7974e299d",
+          "varDes": "",
+          "varName": "配置后台时空全路径",
+          "comment": "",
+          "parentGUID": "",
+          "isPublic": true,
+          "AbsVariableId": "AbsVariableId",
+          "value": {
+            "changeListener": "[deep]",
+            "value": "开发系统/数字孪生可视化"
+          },
+          "relateInfo": "",
+          "isLinkDataObj": false,
+          "linkDataObjInfo": {},
+          "linkDataObjInfos": [],
+          "linkDataObjName": "",
+          "isShowRealTimeClock": false,
+          "returnFormat": 0,
+          "concreteFormat": "yyyy-MM-dd HH:mm:ss",
+          "varType": 2,
+          "varDefaultValue": "开发系统/数字孪生可视化",
+          "RefObject": {
+            "type": "",
+            "id": "0",
+            "guid": "",
+            "name": "",
+            "version": "0"
+          },
+          "varValue": "开发系统/数字孪生可视化"
+        },
+        {
+          "KSCGUID": "k391ea02092068cad122c246afaa4f64",
+          "varDes": "",
+          "varName": "配置后台名称",
+          "comment": "",
+          "parentGUID": "",
+          "isPublic": true,
+          "AbsVariableId": "AbsVariableId",
+          "value": {
+            "changeListener": "[deep]",
+            "value": "数字孪生可视化_配置后台"
+          },
+          "relateInfo": "",
+          "isLinkDataObj": false,
+          "linkDataObjInfo": {},
+          "linkDataObjInfos": [],
+          "linkDataObjName": "",
+          "isShowRealTimeClock": false,
+          "returnFormat": 0,
+          "concreteFormat": "yyyy-MM-dd HH:mm:ss",
+          "varType": 2,
+          "varDefaultValue": "数字孪生可视化_配置后台",
+          "RefObject": {
+            "type": "",
+            "id": "0",
+            "guid": "",
+            "name": "",
+            "version": "0"
+          },
+          "varValue": "数字孪生可视化_配置后台"
+        },
+        {
+          "KSCGUID": "k1ce0aed9fc60db8cdd8ab3b5f2a297f",
+          "varDes": "",
+          "varName": "数字孪生建模页面名称",
+          "comment": "",
+          "parentGUID": "",
+          "isPublic": true,
+          "AbsVariableId": "AbsVariableId",
+          "value": {
+            "changeListener": "[deep]",
+            "value": "数字孪生建模_框架页面"
+          },
+          "relateInfo": "",
+          "isLinkDataObj": false,
+          "linkDataObjInfo": {},
+          "linkDataObjInfos": [],
+          "linkDataObjName": "",
+          "isShowRealTimeClock": false,
+          "returnFormat": 0,
+          "concreteFormat": "yyyy-MM-dd HH:mm:ss",
+          "varType": 2,
+          "varDefaultValue": "数字孪生建模_框架页面",
+          "RefObject": {
+            "type": "",
+            "id": "0",
+            "guid": "",
+            "name": "",
+            "version": "0"
+          },
+          "varValue": "数字孪生建模_框架页面"
+        },
+        {
+          "KSCGUID": "k812dbf4b081353ee04295bed8e2bc19",
+          "varDes": "",
+          "varName": "数字孪生实例化页面名称",
+          "comment": "",
+          "parentGUID": "",
+          "isPublic": true,
+          "AbsVariableId": "AbsVariableId",
+          "value": {
+            "changeListener": "[deep]",
+            "value": "数字孪生实例化_框架页面"
+          },
+          "relateInfo": "",
+          "isLinkDataObj": false,
+          "linkDataObjInfo": {},
+          "linkDataObjInfos": [],
+          "linkDataObjName": "",
+          "isShowRealTimeClock": false,
+          "returnFormat": 0,
+          "concreteFormat": "yyyy-MM-dd HH:mm:ss",
+          "varType": 2,
+          "varDefaultValue": "数字孪生实例化_框架页面",
+          "RefObject": {
+            "type": "",
+            "id": "0",
+            "guid": "",
+            "name": "",
+            "version": "0"
+          },
+          "varValue": "数字孪生实例化_框架页面"
+        },
+        {
+          "KSCGUID": "kb658a00464e4a57230e8e0c418ce06d",
+          "varDes": "",
+          "varName": "数字孪生可视化_画面管理页面名称",
+          "comment": "",
+          "parentGUID": "",
+          "isPublic": true,
+          "AbsVariableId": "AbsVariableId",
+          "value": {
+            "changeListener": "[deep]",
+            "value": "数字孪生可视化_框架页面"
+          },
+          "relateInfo": "",
+          "isLinkDataObj": false,
+          "linkDataObjInfo": {},
+          "linkDataObjInfos": [],
+          "linkDataObjName": "",
+          "isShowRealTimeClock": false,
+          "returnFormat": 0,
+          "concreteFormat": "yyyy-MM-dd HH:mm:ss",
+          "varType": 2,
+          "varDefaultValue": "数字孪生可视化_框架页面",
+          "RefObject": {
+            "type": "",
+            "id": "0",
+            "guid": "",
+            "name": "",
+            "version": "0"
+          },
+          "varValue": "数字孪生可视化_框架页面"
+        },
+        {
+          "KSCGUID": "k9cb83ec1904458aca0619cdd1eeb0de",
+          "varDes": "",
+          "varName": "数字孪生可视化_命令语言页面名称",
+          "comment": "",
+          "parentGUID": "",
+          "isPublic": true,
+          "AbsVariableId": "AbsVariableId",
+          "value": {
+            "changeListener": "[deep]",
+            "value": ""
+          },
+          "relateInfo": "",
+          "isLinkDataObj": false,
+          "linkDataObjInfo": {},
+          "linkDataObjInfos": [],
+          "linkDataObjName": "",
+          "isShowRealTimeClock": false,
+          "returnFormat": 0,
+          "concreteFormat": "yyyy-MM-dd HH:mm:ss",
+          "varType": 2,
+          "varDefaultValue": "",
+          "RefObject": {
+            "type": "",
+            "id": "0",
+            "guid": "",
+            "name": "",
+            "version": "0"
+          },
+          "varValue": ""
+        },
+        {
+          "KSCGUID": "k38925df179b17a54465d9682eeb75b2",
+          "varDes": "",
+          "varName": "报警转发页面名称",
+          "comment": "",
+          "parentGUID": "",
+          "isPublic": true,
+          "AbsVariableId": "AbsVariableId",
+          "value": {
+            "changeListener": "[deep]",
+            "value": "报警转发_框架页面"
+          },
+          "relateInfo": "",
+          "isLinkDataObj": false,
+          "linkDataObjInfo": {},
+          "linkDataObjInfos": [],
+          "linkDataObjName": "",
+          "isShowRealTimeClock": false,
+          "returnFormat": 0,
+          "concreteFormat": "yyyy-MM-dd HH:mm:ss",
+          "varType": 2,
+          "varDefaultValue": "报警转发_框架页面",
+          "RefObject": {
+            "type": "",
+            "id": "0",
+            "guid": "",
+            "name": "",
+            "version": "0"
+          },
+          "varValue": "报警转发_框架页面"
+        }
+      ]
+    },
+    "pageRun": {
+      "data": {
+        "pageData": {
+          "objectType": 0,
+          "pageProperty": {
+            "name": "开发系统_框架页面_v1",
+            "comment": "",
+            "GUID": "k3be785a0-e8af-4c65-98f5-cf22b66c08c3",
+            "backColor": "",
+            "picName": "",
+            "picId": "",
+            "pageSize": "[deep]",
+            "windowStyle": "ratating",
+            "showPage": "[deep]",
+            "sizeable": true,
+            "fontsizeable": false,
+            "appOrientation": true,
+            "lockWidthHeight": false,
+            "minSize": false,
+            "minSize_width": "600px",
+            "minSize_height": "100px",
+            "authFlag": "close"
+          },
+          "objects": [
+            "[deep]"
+          ],
+          "linkMng": {
+            "linkList": "[deep]"
+          },
+          "variable": [
+            "[deep]",
+            "[deep]",
+            "[deep]",
+            "[deep]",
+            "[deep]",
+            "[deep]",
+            "[deep]",
+            "[deep]"
+          ],
+          "dataLink": [],
+          "publicEvent": [
+            "[deep]",
+            "[deep]",
+            "[deep]",
+            "[deep]",
+            "[deep]",
+            "[deep]",
+            "[deep]",
+            "[deep]"
+          ],
+          "appLayerMode": "default",
+          "renderComponents": 12,
+          "authority": [
+            "[deep]"
+          ],
+          "windowRatio": 1,
+          "languageRes": [
+            "Add",
+            "Del",
+            "建模系统"
+          ],
+          "childPubEvent": {},
+          "currentLayer": "0c79c07f_d539_4808_84c5_e4f36a1ea285",
+          "authFlag": "false",
+          "authMng": [
+            "[deep]"
+          ],
+          "updateFlag": true,
+          "lock": false,
+          "subscribsRule": 1,
+          "spaceTime": "",
+          "FUType": "21",
+          "dataObjList": [],
+          "dataSets": []
+        },
+        "dataObjMng": {
+          "fuModelCopyList": [],
+          "runtimeObjList": [],
+          "subscribeIDs": [],
+          "pageDataObjInfo": {},
+          "subscribsRule": 1,
+          "timer": null,
+          "subscribeTaskQueue": {
+            "queue": "[deep]",
+            "isProcessing": false
+          }
+        },
+        "runParamData": {
+          "mode": "production",
+          "type": 1025,
+          "id": "7205759403792794062",
+          "guid": "71699858-26ad-4b24-b04f-4141ba36aa8f",
+          "guidVersion": {
+            "guid": "563662e0-fe48-4ba0-9be1-e7fc7998f7de",
+            "id": "",
+            "version": 9
+          },
+          "modeldbrepository": {
+            "guid": "023f7bfb-4005-4b4f-810c-e7662c67904c"
+          }
+        },
+        "previewImage": null,
+        "previewVideo": null,
+        "previewPDF": null,
+        "$dynamicDialogIns": null,
+        "$ClientProject": {},
+        "dataLinkPageName": "",
+        "$Workflow": {},
+        "allPageList": [],
+        "showAlert": false,
+        "alertOption": {},
+        "userFuncList": [
+          "$ClientProject",
+          "$Workflow",
+          "UpdatePage",
+          "ShowPage",
+          "ClosePage",
+          "ShowDrawer",
+          "GetVariable",
+          "SetVariable"
+        ]
+      },
+      "parent": {
+        "pageName": "开发系统_框架页面",
+        "child$StoreName": "$建模系统客户端__$PicManager__开发系统_框架页面",
+        "fuObj": {
+          "$id": "7205759403792794062",
+          "$guid": "71699858-26ad-4b24-b04f-4141ba36aa8f",
+          "$name": "开发系统_框架页面",
+          "$type": 1025,
+          "$modelguid": "563662e0-fe48-4ba0-9be1-e7fc7998f7de",
+          "$modelversion": 9,
+          "$repositoryguid": "09d23134-645a-4f3b-8a43-c0068439378f",
+          "$memberlist": [
+            "[deep]",
+            "[deep]",
+            "[deep]",
+            "[deep]",
+            "[deep]",
+            "[deep]",
+            "[deep]",
+            "[deep]"
+          ],
+          "FUType": "21",
+          "isRecycled": "",
+          "modelDBRepository": "023f7bfb-4005-4b4f-810c-e7662c67904c",
+          "quotedType": "",
+          "toFather": "",
+          "authFlag": "false",
+          "spaceTime": "",
+          "maxVersion": "8",
+          "multiEditor": "",
+          "extendField1": "",
+          "extendField2": "",
+          "extendField3": "",
+          "extendField4": "",
+          "extendField5": "",
+          "extendField6": "",
+          "extendField7": "",
+          "extendField8": "",
+          "extendField9": "",
+          "extendField10": "",
+          "PUBVAR__cloudID": "{\"KSCGUID\":\"k3bf0a5d295f247295dcc1152f309f43\",\"varDes\":\"\",\"varName\":\"cloudID\",\"varType\":1,\"varDefaultValue\":0,\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":0}",
+          "PUBVAR__配置后台时空全路径": "{\"KSCGUID\":\"ka9896280cdda78a0272c2d7974e299d\",\"varDes\":\"\",\"varName\":\"配置后台时空全路径\",\"varType\":2,\"varDefaultValue\":\"开发系统/数字孪生可视化\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"开发系统/数字孪生可视化\"}",
+          "PUBVAR__配置后台名称": "{\"KSCGUID\":\"k391ea02092068cad122c246afaa4f64\",\"varDes\":\"\",\"varName\":\"配置后台名称\",\"varType\":2,\"varDefaultValue\":\"数字孪生可视化_配置后台\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"数字孪生可视化_配置后台\"}",
+          "PUBVAR__数字孪生建模页面名称": "{\"KSCGUID\":\"k1ce0aed9fc60db8cdd8ab3b5f2a297f\",\"varDes\":\"\",\"varName\":\"数字孪生建模页面名称\",\"varType\":2,\"varDefaultValue\":\"数字孪生建模_框架页面\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"数字孪生建模_框架页面\"}",
+          "PUBVAR__数字孪生实例化页面名称": "{\"KSCGUID\":\"k812dbf4b081353ee04295bed8e2bc19\",\"varDes\":\"\",\"varName\":\"数字孪生实例化页面名称\",\"varType\":2,\"varDefaultValue\":\"数字孪生实例化_框架页面\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"数字孪生实例化_框架页面\"}",
+          "PUBVAR__数字孪生可视化_画面管理页面名称": "{\"KSCGUID\":\"kb658a00464e4a57230e8e0c418ce06d\",\"varDes\":\"\",\"varName\":\"数字孪生可视化_画面管理页面名称\",\"varType\":2,\"varDefaultValue\":\"数字孪生可视化_框架页面\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"数字孪生可视化_框架页面\"}",
+          "PUBVAR__数字孪生可视化_命令语言页面名称": "{\"KSCGUID\":\"k9cb83ec1904458aca0619cdd1eeb0de\",\"varDes\":\"\",\"varName\":\"数字孪生可视化_命令语言页面名称\",\"varType\":2,\"varDefaultValue\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"\"}",
+          "PUBVAR__报警转发页面名称": "{\"KSCGUID\":\"k38925df179b17a54465d9682eeb75b2\",\"varDes\":\"\",\"varName\":\"报警转发页面名称\",\"varType\":2,\"varDefaultValue\":\"报警转发_框架页面\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"报警转发_框架页面\"}",
+          "PUBVAR__采集设备页面名称": "{\"KSCGUID\":\"k752e0f918cfdbe4a3311d679c278be8\",\"varDes\":\"\",\"varName\":\"采集设备页面名称\",\"varType\":2,\"varDefaultValue\":\"采集管理_框架页面\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"采集管理_框架页面\"}",
+          "PUBVAR__数据源管理页面名称": "{\"KSCGUID\":\"k36391da5c38088a47e6b313f9844d40\",\"varDes\":\"\",\"varName\":\"数据源管理页面名称\",\"varType\":2,\"varDefaultValue\":\"数据源管理框架页面\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"数据源管理框架页面\"}",
+          "PUBVAR__运维部署管理页面名称": "{\"KSCGUID\":\"kca905efcfd9f82afb0ddcecf6c34e97\",\"varDes\":\"\",\"varName\":\"运维部署管理页面名称\",\"varType\":2,\"varDefaultValue\":\"运维部署管理_框架页面\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"运维部署管理_框架页面\"}",
+          "PUBVAR__组态权限配置页面名称": "{\"KSCGUID\":\"kf554625ffc6c1e5620c69c63a28bfaa\",\"varDes\":\"\",\"varName\":\"组态权限配置页面名称\",\"varType\":2,\"varDefaultValue\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"\"}",
+          "PUBVAR__运行权限配置页面名称": "{\"KSCGUID\":\"kbcdb52389c49b56f9b010f51e301da4\",\"varDes\":\"\",\"varName\":\"运行权限配置页面名称\",\"varType\":2,\"varDefaultValue\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"\"}",
+          "PUBVAR__电子签名管理页面名称": "{\"KSCGUID\":\"kd3eaeb98d8170202e4ebb33b82ec34e\",\"varDes\":\"\",\"varName\":\"电子签名管理页面名称\",\"varType\":2,\"varDefaultValue\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"\"}",
+          "PUBVAR__工程时空仓库名称": "{\"KSCGUID\":\"kd966b3131352f85e18c9baf2ca8038f\",\"varDes\":\"\",\"varName\":\"工程时空仓库名称\",\"varType\":2,\"varDefaultValue\":\"测试工程\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"测试工程\"}",
+          "PUBVAR__工程时空仓库ID": "{\"KSCGUID\":\"k02edddc98ad7e5d168ce4d0e03f878c\",\"varDes\":\"\",\"varName\":\"工程时空仓库ID\",\"varType\":2,\"varDefaultValue\":\"288230376151724255\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"288230376151724255\"}",
+          "PUBVAR__工程Root时空仓库名称": "{\"KSCGUID\":\"kea4b6403772ed6a5e225db5f2530fc2\",\"varDes\":\"\",\"varName\":\"工程Root时空仓库名称\",\"varType\":2,\"varDefaultValue\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"\"}",
+          "PUBVAR__工程Root时空仓库ID": "{\"KSCGUID\":\"k87b289934b35274ef397bd9ddfe7f69\",\"varDes\":\"\",\"varName\":\"工程Root时空仓库ID\",\"varType\":2,\"varDefaultValue\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"\"}",
+          "PUBVAR__工程时空仓库GUID": "{\"KSCGUID\":\"ka7ddf5a9f61db7f18099588e30d1e6f\",\"varDes\":\"\",\"varName\":\"工程时空仓库GUID\",\"varType\":2,\"varDefaultValue\":\"5fc2d3f0-ab79-4ee7-a44f-98b20f54897b\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"5fc2d3f0-ab79-4ee7-a44f-98b20f54897b\"}",
+          "PUBVAR__选中人机界面客户端": "{\"KSCGUID\":\"k6a4f2eeeec51597206fd995181d6985\",\"varDes\":\"\",\"varName\":\"选中人机界面客户端\",\"varType\":2,\"varDefaultValue\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"\"}",
+          "PUBVAR__工程Root时空仓库GUID": "{\"KSCGUID\":\"kd9a0fdacb1d435a36ebda81b71d1202\",\"varDes\":\"\",\"varName\":\"工程Root时空仓库GUID\",\"varType\":2,\"varDefaultValue\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"\"}",
+          "PUBVAR__switchPage": "{\"KSCGUID\":\"ka3f977e4046e86c8168924a02379d06\",\"varDes\":\"\",\"varName\":\"switchPage\",\"varType\":1,\"varDefaultValue\":0,\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":0}",
+          "PUBEVENT__submit": "{\"KSCGUID\":\"kee51ff4cb6acbf647649169d6f82411\",\"publicEventName\":\"submit\",\"publicEventDes\":\"\",\"eventScriptID\":\"ka687447d9de0c75917501fdd8e6b052\",\"publicEventSelfID\":\"kaaf83c00cffefdd3028540dc3a4563f\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+          "PUBEVENT__cancel": "{\"KSCGUID\":\"k46cbfaa403647ecabf8d39b8fd843a7\",\"publicEventName\":\"cancel\",\"publicEventDes\":\"\",\"eventScriptID\":\"ke337d7beeffe6672f5ccf2194f4bab0\",\"publicEventSelfID\":\"kc2a6afd5895276b720722f7d2b07bbe\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+          "PUBEVENT__Opentheprojectdirectorypage": "{\"KSCGUID\":\"k7eb016a45408da7b456c908d7a1a9cc\",\"publicEventName\":\"Opentheprojectdirectorypage\",\"publicEventDes\":\"\",\"eventScriptID\":\"k113a8f8af7e93a631ffbd0a4647ad2a\",\"publicEventSelfID\":\"k803bee2c54476a6992f402f8e00a13e\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+          "AUTHORITY__访问权限": "{\"KSCGUID\":\"k2dd7bacef426e9c3bca9223cbe3f6aa\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"authKey\":\"\",\"AbsAuthId\":\"AbsAuthId\"}",
+          "PUBVAR__采集设备建模页面名称": "{\"KSCGUID\":\"k6dcd9a711a3d76e002d8d396b58187b\",\"varDes\":\"\",\"varName\":\"采集设备建模页面名称\",\"varType\":2,\"varDefaultValue\":\"采集设备建模_框架页面\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"采集设备建模_框架页面\"}",
+          "isHasChild": "false",
+          "jsonFileId": "4692",
+          "imageFolderId": "4693"
+        },
+        "spaceTime": {},
+        "currentUserKeys": []
+      },
+      "run": {
+        "mode": "production",
+        "FUType": "21",
+        "type": 1025,
+        "guid": "71699858-26ad-4b24-b04f-4141ba36aa8f",
+        "id": "7205759403792794062",
+        "guidVersion": {
+          "guid": "",
+          "id": "",
+          "version": 0
+        }
+      }
+    }
+  },
+  "screenshot": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\screenshots\\sy_model_variables_probe.png"
+}

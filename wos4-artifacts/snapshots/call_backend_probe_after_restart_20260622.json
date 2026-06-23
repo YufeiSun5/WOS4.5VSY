@@ -1,0 +1,56 @@
+{
+  "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+  "hasCall": "function",
+  "hasStringMap": "function",
+  "hasVariant": "function",
+  "calls": [
+    {
+      "label": "root_name_QueryRecords",
+      "elapsed": 35,
+      "result": {
+        "ret": -210133,
+        "consumeTime": 35
+      }
+    },
+    {
+      "label": "root_name_lower",
+      "elapsed": 30,
+      "result": {
+        "ret": -210133,
+        "consumeTime": 29
+      }
+    },
+    {
+      "label": "custom_name_QueryRecords",
+      "elapsed": 37,
+      "result": {
+        "ret": -210133,
+        "consumeTime": 37
+      }
+    },
+    {
+      "label": "custom_name_lower",
+      "elapsed": 31,
+      "result": {
+        "ret": -210133,
+        "consumeTime": 31
+      }
+    },
+    {
+      "label": "root_guid_lower",
+      "elapsed": 28,
+      "result": {
+        "ret": 536903681,
+        "consumeTime": 28
+      }
+    },
+    {
+      "label": "root_id_lower",
+      "elapsed": 28,
+      "result": {
+        "ret": 536903681,
+        "consumeTime": 28
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-06-22",
+  "project": "盛云_孙宇飞_CRUD工程_0620",
+  "clientName": "客户端1_人工干预点_1",
+  "pageName": "查询列表",
+  "action": "update-version-and-formal-preview-runtime-verify",
+  "updateVersion": {
+    "status": "success",
+    "toast": "更新成功"
+  },
+  "previewLink": "http://221.239.19.118:13001/public/index.html?id=6192730962611142709&parentid=0&cloudid=107&clientnumber=7710165594863352807&bs=true#/#{\"clientGuid\":\"d01d4d20-79d3-4b0d-9d89-77856713e525\",\"FUType\":11}",
+  "runtime": {
+    "topFrameOnlyShell": true,
+    "innerFrameTextVisible": true,
+    "renderedPageTitle": "查询全部(4)",
+    "getPageMngInfoEmpty": true,
+    "pageNameToSetPageMapEmpty": true,
+    "clientRunDataEmpty": true,
+    "computedSpaceTimeId": {
+      "spaceTime": "NadirL2",
+      "stType": 5,
+      "devName": "NadirFront",
+      "name": "NadirL2",
+      "guid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+      "id": "1152921504606851278"
+    },
+    "currentShowOptionsSpaceTimeEmpty": true,
+    "pageParentStoreSpaceTimeEmptyObject": true,
+    "pageDataSpaceTimeNull": true
+  },
+  "buttonScript": {
+    "mode": "frontend-mock",
+    "usesSeedData": true,
+    "usesCall": false,
+    "variables": [
+      "seedData",
+      "filterKey",
+      "refreshCounter"
+    ],
+    "conclusion": "formal runtime already has same-space context at page_view level, but current button script still refreshes local fake data and does not call backend"
+  }
+}

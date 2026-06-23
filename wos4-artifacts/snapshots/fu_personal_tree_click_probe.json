@@ -1,0 +1,525 @@
+{
+  "body": "时空功能开发平台\n\nTime Space Platform\n\n时空开发\n部署管理\n仓库包\n权限\n镜像\n关于\n时空管理\n新建\n删除\n默认数据区\nKingFusion4.5_V1\nKingStudio4.5_Beta_dataBase\nKF4.5工程\nKingStudio4.5_Beta\n个人仓库\n芦昆\nmwq\nzx测试仓库\n新建\n生成拷贝\n复制\n移动\n导入\n导出\n删除\n上传资源\n打包\n名称\n本仓库-多类型\n芦昆\nmwq\nzx测试仓库\n全选\n共 3 条\n1\n前往\n页\n属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n0 / 128\n\n\nID:\n288230376151738062\n\n\nGUID:\nc5dc6ae0-48be-43ae-9845-907f6b1cef2b\n\n\n所属数据区:\n\n\n仓库路径:\n个人仓库\n\n\n自启动APP:\n配置\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:\n\n\n扩展字段1:\n\n\n扩展字段2:\n\n\n扩展字段3:\n\n\n别名关联管理:\n配置\n\n\n数据包管理:\n管理",
+  "buttons": [
+    {
+      "i": 0,
+      "text": "仓库包",
+      "cls": "el-button el-button--default is-link",
+      "disabled": "false",
+      "x": 1622.546875,
+      "y": 15.25,
+      "w": 71,
+      "h": 23.484375
+    },
+    {
+      "i": 1,
+      "text": "权限",
+      "cls": "el-button el-button--default is-link",
+      "disabled": "false",
+      "x": 1705.546875,
+      "y": 16,
+      "w": 56,
+      "h": 22
+    },
+    {
+      "i": 2,
+      "text": "镜像",
+      "cls": "el-button el-button--default is-disabled is-link",
+      "disabled": true,
+      "x": 1773.546875,
+      "y": 16,
+      "w": 57.453125,
+      "h": 22
+    },
+    {
+      "i": 3,
+      "text": "关于",
+      "cls": "el-button el-button--default is-disabled is-link",
+      "disabled": true,
+      "x": 1843,
+      "y": 16,
+      "w": 56,
+      "h": 22
+    },
+    {
+      "i": 6,
+      "text": "新建",
+      "cls": "el-button el-button--default iconfont icon-tianjia",
+      "disabled": "false",
+      "x": 330,
+      "y": 71,
+      "w": 44,
+      "h": 32
+    },
+    {
+      "i": 7,
+      "text": "生成拷贝",
+      "cls": "el-button el-button--default is-disabled iconfont icon-fuzhi1",
+      "disabled": true,
+      "x": 374,
+      "y": 71,
+      "w": 68,
+      "h": 32
+    },
+    {
+      "i": 8,
+      "text": "复制",
+      "cls": "el-button el-button--default is-disabled iconfont icon-fuzhi",
+      "disabled": true,
+      "x": 456,
+      "y": 71,
+      "w": 44,
+      "h": 32
+    },
+    {
+      "i": 9,
+      "text": "移动",
+      "cls": "el-button el-button--default is-disabled iconfont icon-yidong",
+      "disabled": true,
+      "x": 514,
+      "y": 71,
+      "w": 44,
+      "h": 32
+    },
+    {
+      "i": 10,
+      "text": "导入",
+      "cls": "el-button el-button--default iconfont icon-wenjiandaoru",
+      "disabled": "false",
+      "x": 558,
+      "y": 71,
+      "w": 44,
+      "h": 32
+    },
+    {
+      "i": 11,
+      "text": "导出",
+      "cls": "el-button el-button--default iconfont icon-wenjiandaochu",
+      "disabled": "false",
+      "x": 602,
+      "y": 71,
+      "w": 44,
+      "h": 32
+    },
+    {
+      "i": 12,
+      "text": "删除",
+      "cls": "el-button el-button--default is-disabled iconfont icon-shanchu",
+      "disabled": true,
+      "x": 660,
+      "y": 71,
+      "w": 44,
+      "h": 32
+    },
+    {
+      "i": 13,
+      "text": "上传资源",
+      "cls": "el-button el-button--default iconfont icon-shangchuanyunduan",
+      "disabled": "false",
+      "x": 704,
+      "y": 71,
+      "w": 68,
+      "h": 32
+    },
+    {
+      "i": 14,
+      "text": "打包",
+      "cls": "el-button el-button--default iconfont-WOS45 icon-WOS45-anzhuangbao",
+      "disabled": "false",
+      "x": 772,
+      "y": 71,
+      "w": 44,
+      "h": 32
+    }
+  ],
+  "currentTree": [
+    {
+      "i": 0,
+      "tag": "DIV",
+      "cls": "el-tree-node is-expanded is-current is-focusable",
+      "text": "个人仓库\n芦昆\nmwq\nzx测试仓库"
+    },
+    {
+      "i": 1,
+      "tag": "LI",
+      "cls": "el-select-dropdown__item is-selected",
+      "text": "名称"
+    }
+  ],
+  "items": [
+    {
+      "i": 0,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "默认数据区",
+      "title": "默认数据区",
+      "x": 68,
+      "y": 194,
+      "w": 207.25,
+      "h": 18
+    },
+    {
+      "i": 1,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "KingFusion4.5_V1",
+      "title": "KingFusion4.5_V1",
+      "x": 88,
+      "y": 220,
+      "w": 190.046875,
+      "h": 18
+    },
+    {
+      "i": 2,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "KingStudio4.5_Beta_dataBase",
+      "title": "KingStudio4.5_Beta_dataBase",
+      "x": 88,
+      "y": 246,
+      "w": 190.046875,
+      "h": 18
+    },
+    {
+      "i": 3,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "KF4.5工程",
+      "title": "KF4.5工程",
+      "x": 88,
+      "y": 272,
+      "w": 190.046875,
+      "h": 18
+    },
+    {
+      "i": 4,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "KingStudio4.5_Beta",
+      "title": "KingStudio4.5_Beta",
+      "x": 88,
+      "y": 298,
+      "w": 190.046875,
+      "h": 18
+    },
+    {
+      "i": 5,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "个人仓库",
+      "title": "个人仓库",
+      "x": 88,
+      "y": 324,
+      "w": 190.046875,
+      "h": 18
+    },
+    {
+      "i": 6,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "芦昆",
+      "title": "芦昆",
+      "x": 108,
+      "y": 350,
+      "w": 172.859375,
+      "h": 18
+    },
+    {
+      "i": 7,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "mwq",
+      "title": "mwq",
+      "x": 108,
+      "y": 376,
+      "w": 172.859375,
+      "h": 18
+    },
+    {
+      "i": 8,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "zx测试仓库",
+      "title": "zx测试仓库",
+      "x": 108,
+      "y": 402,
+      "w": 172.859375,
+      "h": 18
+    },
+    {
+      "i": 9,
+      "tag": "DIV",
+      "cls": "el-select el-select--default",
+      "text": "名称",
+      "title": "name",
+      "x": 1022,
+      "y": 71,
+      "w": 72,
+      "h": 32
+    },
+    {
+      "i": 10,
+      "tag": "SPAN",
+      "cls": "filter-label",
+      "text": "本仓库-多类型",
+      "title": "本仓库-多类型",
+      "x": 1326,
+      "y": 80,
+      "w": 100,
+      "h": 14
+    },
+    {
+      "i": 11,
+      "tag": "DIV",
+      "cls": "data-item",
+      "text": "芦昆",
+      "title": null,
+      "x": 345,
+      "y": 152,
+      "w": 67,
+      "h": 99
+    },
+    {
+      "i": 12,
+      "tag": "SPAN",
+      "cls": "span_label",
+      "text": "芦昆",
+      "title": "芦昆",
+      "x": 346,
+      "y": 219,
+      "w": 65,
+      "h": 18
+    },
+    {
+      "i": 13,
+      "tag": "DIV",
+      "cls": "data-item",
+      "text": "mwq",
+      "title": null,
+      "x": 434.75,
+      "y": 152,
+      "w": 67,
+      "h": 99
+    },
+    {
+      "i": 14,
+      "tag": "SPAN",
+      "cls": "span_label",
+      "text": "mwq",
+      "title": "mwq",
+      "x": 435.75,
+      "y": 219,
+      "w": 65,
+      "h": 18
+    },
+    {
+      "i": 15,
+      "tag": "DIV",
+      "cls": "data-item",
+      "text": "zx测试仓库",
+      "title": null,
+      "x": 524.5,
+      "y": 152,
+      "w": 67,
+      "h": 99
+    },
+    {
+      "i": 16,
+      "tag": "SPAN",
+      "cls": "span_label",
+      "text": "zx测试仓库",
+      "title": "zx测试仓库",
+      "x": 525.5,
+      "y": 219,
+      "w": 65,
+      "h": 18
+    },
+    {
+      "i": 79,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "text": "名称:",
+      "title": null,
+      "x": 1547,
+      "y": 170,
+      "w": 1,
+      "h": 36
+    },
+    {
+      "i": 81,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "text": "显示名称:",
+      "title": null,
+      "x": 1547,
+      "y": 207,
+      "w": 1,
+      "h": 36
+    },
+    {
+      "i": 83,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "text": "描述:\n0 / 128",
+      "title": null,
+      "x": 1547,
+      "y": 244,
+      "w": 1,
+      "h": 36
+    },
+    {
+      "i": 85,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "text": "ID:\n288230376151738062",
+      "title": null,
+      "x": 1547,
+      "y": 281,
+      "w": 1,
+      "h": 36
+    },
+    {
+      "i": 87,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "text": "GUID:\nc5dc6ae0-48be-43ae-9845-907f6b1cef2b",
+      "title": null,
+      "x": 1547,
+      "y": 318,
+      "w": 1,
+      "h": 36
+    },
+    {
+      "i": 89,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "text": "所属数据区:",
+      "title": null,
+      "x": 1547,
+      "y": 355,
+      "w": 1,
+      "h": 36
+    },
+    {
+      "i": 91,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "text": "仓库路径:\n个人仓库",
+      "title": null,
+      "x": 1547,
+      "y": 392,
+      "w": 1,
+      "h": 36
+    },
+    {
+      "i": 93,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "text": "自启动APP:\n配置",
+      "title": null,
+      "x": 1547,
+      "y": 429,
+      "w": 1,
+      "h": 36
+    },
+    {
+      "i": 95,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "text": "分类标签1:",
+      "title": null,
+      "x": 1547,
+      "y": 466,
+      "w": 1,
+      "h": 36
+    },
+    {
+      "i": 97,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "text": "分类标签2:",
+      "title": null,
+      "x": 1547,
+      "y": 503,
+      "w": 1,
+      "h": 36
+    },
+    {
+      "i": 99,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "text": "分类标签3:",
+      "title": null,
+      "x": 1547,
+      "y": 540,
+      "w": 1,
+      "h": 36
+    },
+    {
+      "i": 101,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "text": "扩展字段1:",
+      "title": null,
+      "x": 1547,
+      "y": 577,
+      "w": 1,
+      "h": 36
+    },
+    {
+      "i": 103,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "text": "扩展字段2:",
+      "title": null,
+      "x": 1547,
+      "y": 614,
+      "w": 1,
+      "h": 36
+    },
+    {
+      "i": 105,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "text": "扩展字段3:",
+      "title": null,
+      "x": 1547,
+      "y": 651,
+      "w": 1,
+      "h": 36
+    },
+    {
+      "i": 107,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "text": "别名关联管理:\n配置",
+      "title": null,
+      "x": 1547,
+      "y": 688,
+      "w": 1,
+      "h": 36
+    },
+    {
+      "i": 109,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "text": "数据包管理:\n管理",
+      "title": null,
+      "x": 1547,
+      "y": 725,
+      "w": 1,
+      "h": 36
+    },
+    {
+      "i": 111,
+      "tag": "DIV",
+      "cls": "el-icon-editor-property-light fu-right-menu-item",
+      "text": "",
+      "title": "属性",
+      "x": 1858,
+      "y": 79,
+      "w": 50,
+      "h": 50
+    }
+  ]
+}

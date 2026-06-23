@@ -1,0 +1,24 @@
+{
+  "call": {
+    "before": false,
+    "saveRetType": "object",
+    "err": null
+  },
+  "after": {
+    "saveFlag": false,
+    "capture": {
+      "messages": [
+        {
+          "text": "保存成功",
+          "className": "el-message",
+          "t": 1781945921569
+        },
+        {
+          "text": "保存成功",
+          "className": "el-message",
+          "t": 1781945921569
+        }
+      ]
+    }
+  }
+}

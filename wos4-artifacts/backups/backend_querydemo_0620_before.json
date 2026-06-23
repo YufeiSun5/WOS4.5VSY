@@ -1,0 +1,61 @@
+{
+  "businessMembers": [
+    {
+      "name": "站点",
+      "type": "string"
+    },
+    {
+      "name": "区域",
+      "type": "string"
+    },
+    {
+      "name": "状态",
+      "type": "string"
+    },
+    {
+      "name": "流量",
+      "type": "string"
+    },
+    {
+      "name": "压力",
+      "type": "string"
+    }
+  ],
+  "functions": [
+    {
+      "name": "declare",
+      "metaName": "queryList",
+      "params": "string filterKey",
+      "returnType": "string",
+      "body": ""
+    },
+    {
+      "name": "onCreate",
+      "metaName": "onCreate",
+      "params": "",
+      "returnType": "",
+      "body": "Trace(2,\"ONCREATE\",\"PING\");"
+    },
+    {
+      "name": "onDestroy",
+      "metaName": "onCreate",
+      "params": "",
+      "returnType": "",
+      "body": ""
+    },
+    {
+      "name": "onException",
+      "metaName": "onCreate",
+      "params": "",
+      "returnType": "",
+      "body": ""
+    },
+    {
+      "name": "queryList",
+      "metaName": "onCreate",
+      "params": "",
+      "returnType": "",
+      "body": "//probestring resultText;\nresultText = \"{\\\"errorcode\\\":0,\\\"rows\\\":[]}\";\nTrace(2, \"queryList.result=\", resultText);\nreturn resultText;"
+    }
+  ]
+}

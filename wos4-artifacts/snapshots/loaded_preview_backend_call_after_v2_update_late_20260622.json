@@ -1,0 +1,72 @@
+{
+  "done": true,
+  "tries": [
+    {
+      "name": "DemoCrudBackend_CUSTOMFUNC@NadirBack",
+      "funcname": "QueryRecords",
+      "runInfo": {
+        "stType": 5,
+        "spaceTime": "NadirL2",
+        "devName": ""
+      },
+      "setRunInfo": {
+        "ret": -180985,
+        "msg": "修改失败!"
+      },
+      "res": {
+        "consumeTime": 20001,
+        "returnData": null,
+        "errorcodes": [
+          -220006
+        ],
+        "ret": -220006,
+        "traceID": "0"
+      }
+    },
+    {
+      "name": "NadirBack",
+      "funcname": "QueryRecords",
+      "runInfo": {
+        "stType": 5,
+        "spaceTime": "NadirL2",
+        "devName": ""
+      },
+      "setRunInfo": {
+        "ret": -180985,
+        "msg": "修改失败!"
+      },
+      "res": {
+        "consumeTime": 20001,
+        "returnData": null,
+        "errorcodes": [
+          -220006
+        ],
+        "ret": -220006,
+        "traceID": "0"
+      }
+    },
+    {
+      "name": "DemoCrudBackend_CUSTOMFUNC@NadirBack",
+      "funcname": "QueryRecords",
+      "runInfo": {
+        "stType": 1,
+        "spaceTime": 1152921504606851328,
+        "devName": ""
+      },
+      "setRunInfo": {
+        "ret": -180985,
+        "msg": "修改失败!"
+      },
+      "res": {
+        "consumeTime": 20001,
+        "returnData": null,
+        "errorcodes": [
+          -220006
+        ],
+        "ret": -220006,
+        "traceID": "0"
+      }
+    }
+  ],
+  "t": 1782102216304
+}

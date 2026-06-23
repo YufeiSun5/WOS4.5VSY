@@ -1,0 +1,273 @@
+{
+  "buttons": [
+    {
+      "path": "top.1.0",
+      "i": 0,
+      "txt": "< 返回工程管理",
+      "cls": "el-button el-button--primary el-button--medium propertyStyle",
+      "x": 1,
+      "y": 65,
+      "w": 136,
+      "h": 38
+    },
+    {
+      "path": "top.1.0",
+      "i": 2,
+      "txt": "新建",
+      "cls": "el-button el-button--primary el-button--medium propertyStyle",
+      "x": 1383,
+      "y": 75,
+      "w": 80,
+      "h": 34
+    },
+    {
+      "path": "top.1.0",
+      "i": 3,
+      "txt": "更新版本",
+      "cls": "el-button el-button--primary el-button--medium propertyStyle",
+      "x": 1473,
+      "y": 75,
+      "w": 101,
+      "h": 34
+    },
+    {
+      "path": "top.1.0",
+      "i": 4,
+      "txt": "",
+      "cls": "el-button el-button--primary el-button--medium propertyStyle",
+      "x": 1864,
+      "y": 78,
+      "w": 34,
+      "h": 32
+    },
+    {
+      "path": "top.1.0",
+      "i": 5,
+      "txt": "编辑",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 805,
+      "y": 167,
+      "w": 28,
+      "h": 50
+    },
+    {
+      "path": "top.1.0",
+      "i": 6,
+      "txt": "属性",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 845,
+      "y": 167,
+      "w": 28,
+      "h": 50
+    },
+    {
+      "path": "top.1.0",
+      "i": 7,
+      "txt": "更新版本",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 885,
+      "y": 167,
+      "w": 56,
+      "h": 50
+    },
+    {
+      "path": "top.1.0",
+      "i": 8,
+      "txt": "提交版本",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 953,
+      "y": 167,
+      "w": 56,
+      "h": 50
+    },
+    {
+      "path": "top.1.0",
+      "i": 9,
+      "txt": "预览",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 1021,
+      "y": 167,
+      "w": 28,
+      "h": 50
+    },
+    {
+      "path": "top.1.0",
+      "i": 10,
+      "txt": "删除",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 1061,
+      "y": 167,
+      "w": 28,
+      "h": 50
+    },
+    {
+      "path": "top.1.0",
+      "i": 11,
+      "txt": "编辑",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 805,
+      "y": 218,
+      "w": 28,
+      "h": 50
+    },
+    {
+      "path": "top.1.0",
+      "i": 12,
+      "txt": "属性",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 845,
+      "y": 218,
+      "w": 28,
+      "h": 50
+    },
+    {
+      "path": "top.1.0",
+      "i": 13,
+      "txt": "更新版本",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 885,
+      "y": 218,
+      "w": 56,
+      "h": 50
+    },
+    {
+      "path": "top.1.0",
+      "i": 14,
+      "txt": "提交版本",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 953,
+      "y": 218,
+      "w": 56,
+      "h": 50
+    },
+    {
+      "path": "top.1.0",
+      "i": 15,
+      "txt": "预览",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 1021,
+      "y": 218,
+      "w": 28,
+      "h": 50
+    },
+    {
+      "path": "top.1.0",
+      "i": 16,
+      "txt": "删除",
+      "cls": "el-button el-button--text el-button--medium",
+      "x": 1061,
+      "y": 218,
+      "w": 28,
+      "h": 50
+    },
+    {
+      "path": "top.1.0",
+      "i": 17,
+      "txt": "<",
+      "cls": "btn-prev",
+      "x": 1631.5,
+      "y": 868,
+      "w": 53.5,
+      "h": 28
+    },
+    {
+      "path": "top.1.0",
+      "i": 18,
+      "txt": ">",
+      "cls": "btn-next",
+      "x": 1720.5,
+      "y": 868,
+      "w": 53.5,
+      "h": 28
+    },
+    {
+      "path": "top.1.0",
+      "i": 21,
+      "txt": "",
+      "cls": "el-button el-button--primary el-button--medium propertyStyle",
+      "x": 1122,
+      "y": 328.5,
+      "w": 18,
+      "h": 18
+    },
+    {
+      "path": "top.1.0",
+      "i": 22,
+      "txt": "",
+      "cls": "el-button el-button--primary el-button--medium propertyStyle",
+      "x": 780,
+      "y": 394,
+      "w": 20,
+      "h": 20
+    },
+    {
+      "path": "top.1.0",
+      "i": 23,
+      "txt": "取消",
+      "cls": "el-button el-button--primary el-button--medium propertyStyle",
+      "x": 955,
+      "y": 463,
+      "w": 76,
+      "h": 34
+    },
+    {
+      "path": "top.1.0",
+      "i": 24,
+      "txt": "确定",
+      "cls": "el-button el-button--primary el-button--medium propertyStyle",
+      "x": 1047,
+      "y": 463,
+      "w": 76,
+      "h": 34
+    }
+  ],
+  "clicked": false,
+  "msgs": [
+    {
+      "path": "top",
+      "msgs": [],
+      "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260514\n组态系统客户端0518\n建模系统客户端_0518\n运维部署客户端_0518\n管理员客户端\nCodex临时测试_前端视图_0611\n盛云_孙宇飞_TraceDemo_0617\n盛云_孙宇飞_QueryDemo_0617\n盛云_孙宇飞_前端_框架_0618@EidolonL1Frame_对象1\n盛云_孙宇飞_Noctiluca_客户端_对象1\n盛云_孙宇飞_Noctiluca_客户端_对象2"
+    },
+    {
+      "path": "top.0",
+      "msgs": [],
+      "text": "\n    \n    \n    !function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();\n    \n    System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))\n  \n\n"
+    },
+    {
+      "path": "top.0.0",
+      "msgs": [],
+      "text": "<strong>We're sorry but app-master doesn't work properly without JavaScript enabled. Please enable it to continue.</strong> ElementButton empty共 0 条10条/页20条/页50条/页100条/页1前往页\n          \n          \n          \n          \n          body #RContainerk9d8b1014c2cd61802516caf6ae46fa5 #UI_801551 input {\n            background: rgba(255,255,255,1);\n            border-radius: 4px;\n            border: 1px solid rgba(220,223,230,1);\n            font-size: 14px;\n            font-family: inherit;\n            font-style: normal;\n            font-weight: normal;\n            background-clip: padding-box;\n          }\n          body #RContainerk9d8b1014c2cd61802516caf6ae46fa5 #UI_801551 input:focus {\n            border-color: rgba(64,158,255,1);\n          }\n          body #RContainerk9d8b1014c2cd61802516caf6ae46fa5 #UI_801551 input:hover {\n            border-color: rgba(192,196,204,1);\n          }\n        body #RContainerk9d8b1014c2cd61802516caf6ae46fa5 #UI_801551 input {\n              color: rgba(96,98,102,1);\n            }\n            body #RContainerk9d8b1014c2cd61802516caf6ae46fa5 #UI_407326 button {\n          background: rgba(47,84,235,1);\n          border-radius: 4px;\n          border-width: 1px;\n          border-style: solid;\n          border-color: rgba(47,84,235,0);\n          font-size: 14px;\n          font-family: inherit;\n          font-style: normal;\n          font-weight: normal;\n          background-clip: padding-box;\n        }\n        body #RContainerk9d8b1014c2cd61802516caf6ae46fa5 #UI_407326 .custom-img-icon {\n          width: 14px;\n          height: 14px;\n        }\n        body #RContainerk9d8b1014c2cd61802516caf6ae46fa5 #UI_407326 button:hover {\n          background: ;\n          border-color: ;\n        }\n        body #RContainerk9d8b1014c2cd61802516caf6ae46fa5 #UI_407326"
+    },
+    {
+      "path": "top.1",
+      "msgs": [],
+      "text": ""
+    },
+    {
+      "path": "top.1.0",
+      "msgs": [
+        {
+          "t": 1782117241893,
+          "txt": "数字孪生可视化_提交版本",
+          "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_488157"
+        },
+        {
+          "t": 1782117241893,
+          "txt": "数字孪生可视化_提交版本",
+          "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_488157"
+        },
+        {
+          "t": 1782117242067,
+          "txt": "提交版本    确定要提交所选客户端版本吗 取消  确定",
+          "cls": "page_view"
+        },
+        {
+          "t": 1782117284262,
+          "txt": "提交成功！",
+          "cls": "el-message el-message--success is-closable el-message-fade-enter el-message-fade-enter-active"
+        }
+      ],
+      "text": "KingFusion4.5_工程浏览器\n\n< 返回工程管理\n\n盛云_孙宇飞_CRUD工程_0620\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n客户端列表\n\n新建\n更新版本\n\n\t客户端名称\t操作\n\t\n客户端1_人工干预点_1\n\t\n编辑\n属性\n更新版本\n提交版本\n预览\n删除\n\n\n\t\n盛云_孙宇飞_Nadir_客户端_0622\n\t\n编辑\n属性\n更新版本\n提交版本\n预览\n删除\n共 2 条\n<1>前往页"
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "rect": {
+    "x": 76,
+    "y": 469,
+    "w": 216,
+    "h": 14,
+    "text": "盛云_孙宇飞_时空_0617",
+    "cls": ""
+  },
+  "state": {
+    "body": "时空功能开发平台\n\nTime Space Platform\n\n时空开发\n部署管理\n本云(0)\n盛云_孙宇飞_元语言查询Demo_0617\n仓库包\n权限\n镜像\n关于\n时空对象管理\n原始时空\n开发系统\n生成器时空\n客户端工程\n引滦集团\n测试\n报警转发\n测试1\nlk测试客户端1\n测试客户端\nlk_工厂\nlk_客户端01\n盛云_孙宇飞_时空_0617\n镜像时空\n时空对象管理\n创建\n移动\n删除\n强制删除\n部署\n反部署\n启动\n停止\n日志\n任务\n\n暂无数据\n\n全选\n共 0 条\n1\n前往\n页\n时空仓库管理\n添加\n移动\n删除\n部署\n反部署\n启动\n停止\n日志\n任务\n默认启动\nV1\n\n盛云_孙宇飞_仓库\n\n状态: 运行\n\n全选\n共 1 条\n1\n前往\n页",
+    "buttons": [
+      {
+        "text": "仓库包",
+        "cls": "el-button el-button--default is-link",
+        "disabled": false,
+        "x": 1622.546875,
+        "y": 15.25,
+        "w": 71,
+        "h": 23.484375
+      },
+      {
+        "text": "权限",
+        "cls": "el-button el-button--default is-link",
+        "disabled": false,
+        "x": 1705.546875,
+        "y": 16,
+        "w": 56,
+        "h": 22
+      },
+      {
+        "text": "镜像",
+        "cls": "el-button el-button--default is-disabled is-link",
+        "disabled": true,
+        "x": 1773.546875,
+        "y": 16,
+        "w": 57.453125,
+        "h": 22
+      },
+      {
+        "text": "关于",
+        "cls": "el-button el-button--default is-disabled is-link",
+        "disabled": true,
+        "x": 1843,
+        "y": 16,
+        "w": 56,
+        "h": 22
+      },
+      {
+        "text": "创建",
+        "cls": "el-button el-button--default",
+        "disabled": false,
+        "x": 480.28125,
+        "y": 67,
+        "w": 40,
+        "h": 42
+      },
+      {
+        "text": "移动",
+        "cls": "el-button el-button--default is-disabled",
+        "disabled": true,
+        "x": 532.28125,
+        "y": 67,
+        "w": 40,
+        "h": 42
+      },
+      {
+        "text": "删除",
+        "cls": "el-button el-button--default is-disabled",
+        "disabled": true,
+        "x": 584.28125,
+        "y": 67,
+        "w": 40,
+        "h": 42
+      },
+      {
+        "text": "强制删除",
+        "cls": "el-button el-button--default is-disabled",
+        "disabled": true,
+        "x": 636.28125,
+        "y": 67,
+        "w": 64,
+        "h": 42
+      },
+      {
+        "text": "部署",
+        "cls": "el-button el-button--default is-disabled",
+        "disabled": true,
+        "x": 712.28125,
+        "y": 67,
+        "w": 40,
+        "h": 42
+      },
+      {
+        "text": "反部署",
+        "cls": "el-button el-button--default is-disabled",
+        "disabled": true,
+        "x": 764.28125,
+        "y": 67,
+        "w": 52,
+        "h": 42
+      },
+      {
+        "text": "启动",
+        "cls": "el-button el-button--default is-disabled",
+        "disabled": true,
+        "x": 828.28125,
+        "y": 67,
+        "w": 40,
+        "h": 42
+      },
+      {
+        "text": "停止",
+        "cls": "el-button el-button--default is-disabled",
+        "disabled": true,
+        "x": 880.28125,
+        "y": 67,
+        "w": 40,
+        "h": 42
+      },
+      {
+        "text": "日志",
+        "cls": "el-button el-button--default is-disabled",
+        "disabled": true,
+        "x": 932.28125,
+        "y": 67,
+        "w": 40,
+        "h": 42
+      },
+      {
+        "text": "任务",
+        "cls": "el-button el-button--default is-disabled",
+        "disabled": true,
+        "x": 984.28125,
+        "y": 67,
+        "w": 40,
+        "h": 42
+      },
+      {
+        "text": "",
+        "cls": "btn-prev",
+        "disabled": true,
+        "x": 1642,
+        "y": 443,
+        "w": 24,
+        "h": 24
+      },
+      {
+        "text": "",
+        "cls": "btn-next",
+        "disabled": true,
+        "x": 1690,
+        "y": 443,
+        "w": 24,
+        "h": 24
+      },
+      {
+        "text": "添加",
+        "cls": "el-button el-button--default",
+        "disabled": false,
+        "x": 475.5,
+        "y": 483,
+        "w": 40,
+        "h": 42
+      },
+      {
+        "text": "移动",
+        "cls": "el-button el-button--default is-disabled",
+        "disabled": true,
+        "x": 527.5,
+        "y": 483,
+        "w": 40,
+        "h": 42
+      },
+      {
+        "text": "删除",
+        "cls": "el-button el-button--default is-disabled",
+        "disabled": true,
+        "x": 579.5,
+        "y": 483,
+        "w": 40,
+        "h": 42
+      },
+      {
+        "text": "部署",
+        "cls": "el-button el-button--default is-disabled",
+        "disabled": true,
+        "x": 631.5,
+        "y": 483,
+        "w": 40,
+        "h": 42
+      },
+      {
+        "text": "反部署",
+        "cls": "el-button el-button--default is-disabled",
+        "disabled": true,
+        "x": 683.5,
+        "y": 483,
+        "w": 52,
+        "h": 42
+      },
+      {
+        "text": "启动",
+        "cls": "el-button el-button--default is-disabled",
+        "disabled": true,
+        "x": 747.5,
+        "y": 483,
+        "w": 40,
+        "h": 42
+      },
+      {
+        "text": "停止",
+        "cls": "el-button el-button--default is-disabled",
+        "disabled": true,
+        "x": 799.5,
+        "y": 483,
+        "w": 40,
+        "h": 42
+      },
+      {
+        "text": "日志",
+        "cls": "el-button el-button--default is-disabled",
+        "disabled": true,
+        "x": 851.5,
+        "y": 483,
+        "w": 40,
+        "h": 42
+      },
+      {
+        "text": "任务",
+        "cls": "el-button el-button--default is-disabled",
+        "disabled": true,
+        "x": 903.5,
+        "y": 483,
+        "w": 40,
+        "h": 42
+      },
+      {
+        "text": "默认启动",
+        "cls": "el-button el-button--default is-disabled config-icon",
+        "disabled": true,
+        "x": 955.5,
+        "y": 483,
+        "w": 64,
+        "h": 42
+      },
+      {
+        "text": "",
+        "cls": "btn-prev",
+        "disabled": true,
+        "x": 1642,
+        "y": 859,
+        "w": 24,
+        "h": 24
+      },
+      {
+        "text": "",
+        "cls": "btn-next",
+        "disabled": true,
+        "x": 1690,
+        "y": 859,
+        "w": 24,
+        "h": 24
+      }
+    ]
+  }
+}

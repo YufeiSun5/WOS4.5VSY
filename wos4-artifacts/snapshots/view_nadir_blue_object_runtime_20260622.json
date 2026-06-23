@@ -1,0 +1,52 @@
+{
+  "click": {
+    "clicked": true,
+    "text": "视图",
+    "cls": "el-button el-button--default"
+  },
+  "frames": [
+    {
+      "path": "top",
+      "href": "http://221.239.19.118:13001/#/main",
+      "title": "🐴 WellinOS4.5",
+      "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260514\n组态系统客户端0518\n建模系统客户端_0518\n运维部署客户端_0518\n管理员客户端\nCodex临时测试_前端视图_0611\n盛云_孙宇飞_TraceDemo_0617\n盛云_孙宇飞_QueryDemo_0617\n盛云_孙宇飞_前端_框架_0618@EidolonL1Frame_对象1\n盛云_孙宇飞_Noctiluca_客户端_对象1\n盛云_孙宇飞_Noctiluca_客户端_对象2\n盛云_孙宇飞_Nadir_客户端_0622_对象1\n盛云_孙宇飞_Nadir_客户端_0622_对象1\n时空对象管理平台\n本云(0)\n开发系统\n生成器时空\n客户端工程\n引滦集团\n测试\n报警转发\n测试1\nlk测试客户端1\n测试客户端\nlk_工厂\nlk_客户端01\n盛云_孙宇飞_时空_0617\n盛云_孙宇飞_时空_0617_TOPV2\n盛云_孙宇飞_时空_0617_TOPV3\n菜单\n测试时空-工厂\n产品生成器功能客户端\n手工层级1\n客户端1\n盛云_孙宇飞_Noctiluca_客户端\nEidolon手工层级1\nNadirL1\n客户端1_人工干预点_1\n工厂\n管理员\n管理员客户端\n盛云_孙宇飞_Nadir_客户端_0622\n功能\n实时\n历史\n计划\n连接\n三方APP\n权限\n镜像\n关于\n我创建的\n|\n全部\n创建\n启动\n停止\n强制停止\n编辑\n删除\n强制删除\n日志\n监视\n视图\n模型管理\n名称\n全部\n盛云_孙宇飞_Nadir_客户端_0622_对象1\n盛云_孙宇飞_Nadir_客户端_0622_对象1\n全选\n共 2 条\n1\n前往\n页",
+      "frameCount": 2
+    },
+    {
+      "path": "top.0",
+      "href": "http://221.239.19.118:13001/public/?id=6192730962611143089&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+      "title": "WellinOS4.0",
+      "text": "\n    \n    \n    !function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();\n    \n    System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))\n  \n\n",
+      "frameCount": 1
+    },
+    {
+      "path": "top.0.0",
+      "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+      "title": "客户端运行",
+      "text": "<strong>We're sorry but app-master doesn't work properly without JavaScript enabled. Please enable it to continue.</strong> ElementButton empty共 0 条10条/页20条/页50条/页100条/页1前往页\n          \n          \n          \n          \n          body #RContainerkbcd0cd7a06f602bab3b839a9152df95 #UI_149131 input {\n            background: rgba(255,255,255,1);\n            border-radius: 4px;\n            border: 1px solid rgba(220,223,230,1);\n            font-size: 14px;\n            font-family: inherit;\n            font-style: normal;\n            font-weight: normal;\n            background-clip: padding-box;\n          }\n          body #RContainerkbcd0cd7a06f602bab3b839a9152df95 #UI_149131 input:focus {\n            border-color: rgba(64,158,255,1);\n          }\n          body #RContainerkbcd0cd7a06f602bab3b839a9152df95 #UI_149131 input:hover {\n            border-color: rgba(192,196,204,1);\n          }\n        body #RContainerkbcd0cd7a06f602bab3b839a9152df95 #UI_149131 input {\n              color: rgba(96,98,102,1);\n            }\n            body #RContainerkbcd0cd7a06f602bab3b839a9152df95 #UI_564226 button {\n          background: rgba(47,84,235,1);\n          border-radius: 4px;\n          border-width: 1px;\n          border-style: solid;\n          border-color: rgba(47,84,235,0);\n          font-size: 14px;\n          font-family: inherit;\n          font-style: normal;\n          font-weight: normal;\n          background-clip: padding-box;\n        }\n        body #RContainerkbcd0cd7a06f602bab3b839a9152df95 #UI_564226 .custom-img-icon {\n          width: 14px;\n          height: 14px;\n        }\n        body #RContainerkbcd0cd7a06f602bab3b839a9152df95 #UI_564226 button:hover {\n          background: ;\n          border-color: ;\n        }\n        body #RContainerkbcd0cd7a06f602bab3b839a9152df95 #UI_564226 button:active {\n          background: ;\n          border-color: ;\n        }\n        body #RContainerkbcd0cd7a06f602bab3b839a9152df95 #UI_564226 .van-badge {\n          background: rgba(238,10,36,1);\n        }\n        body #RContainerkbcd0cd7a06f602bab3b839a9152df95 #UI_564226 button {\n              color: rgba(255,255,255,1);\n            }\n            body #RContainerkbcd0cd7a06f602bab3b839a9152df95 #UI_564226 button:hover span {\n              color: ;\n            }body #RContainerkbcd0cd7a06f602bab3b839a9152df95 #UI_564226 button:active span {\n              color: ;\n            }#RContainerkbcd0cd7a06f602bab3b839a9152df95 #kfced2d11d057076a229e74f82c42122 {\n                    background: rgba(255,255,255,0.98);\n                    background-repeat: repeat;\n                    background-size: auto;\n                }#RContainerkbcd0cd7a06f602bab3b839a9152df95 #kfced2d11d057076a229e74f82c42122 {\n                    border: 1px solid rgba(229,233,240,0.95);\n                    border-radius: 6px;\n                }#RContainerkbcd0cd7a06f602bab3b839a9152df95 #kfced2d11d057076a229e74f82c42122 { \n                        box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);\n                    }#R",
+      "frameCount": 0,
+      "pageView": {
+        "spaceTimeId": {},
+        "pageName": null
+      }
+    },
+    {
+      "path": "top.1",
+      "href": "http://221.239.19.118:13001/public/?id=6192730962611143124&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+      "title": "WellinOS4.0",
+      "text": "\n    \n    \n    !function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();\n    \n    System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))\n  \n\n",
+      "frameCount": 1
+    },
+    {
+      "path": "top.1.0",
+      "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_105/index.html",
+      "title": "客户端运行",
+      "text": "<strong>We're sorry but app-master doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>frontend backend call patch 20260622 查询全部(4) 全部区域A区B区站点区域状态流量压力泵站A-01A正常1280.62泵站A-02A待机960.58泵站B-01B正常1410.67泵站B-02B报警730.49共 4 条10条/页20条/页50条/页100条/页1前往页\n          \n          \n          \n          \n          body #RContainerk9e4ee7a8bb2fd654dfc8a53bfb69706 #UI_200445 input {\n            background: rgba(255,255,255,1);\n            border-radius: 4px;\n            border: 1px solid rgba(220,223,230,1);\n            font-size: 14px;\n            font-family: inherit;\n            font-style: normal;\n            font-weight: normal;\n            background-clip: padding-box;\n          }\n          body #RContainerk9e4ee7a8bb2fd654dfc8a53bfb69706 #UI_200445 input:focus {\n            border-color: rgba(64,158,255,1);\n          }\n          body #RContainerk9e4ee7a8bb2fd654dfc8a53bfb69706 #UI_200445 input:hover {\n            border-color: rgba(192,196,204,1);\n          }\n        body #RContainerk9e4ee7a8bb2fd654dfc8a53bfb69706 #UI_200445 input {\n              color: rgba(96,98,102,1);\n            }\n            body #RContainerk9e4ee7a8bb2fd654dfc8a53bfb69706 #UI_263837 button {\n          background: rgba(47,84,235,1);\n          border-radius: 4px;\n          border-width: 1px;\n          border-style: solid;\n          border-color: rgba(47,84,235,0);\n          font-size: 14px;\n          font-family: inherit;\n          font-style: normal;\n          font-weight: normal;\n          background-clip: padding-box;\n        }\n        body #RContainerk9e4ee7a8bb2fd654dfc8a53bfb69706 #UI_263837 .custom-img-icon {\n          width: 14px;\n          height: 14px;\n        }\n        body #RContainerk9e4ee7a8bb2fd654dfc8a53bfb69706 #UI_263837 button:hover {\n          background: ;\n          border-color: ;\n        }\n        body #RContainerk9e4ee7a8bb2fd654dfc8a53bfb69706 #UI_263837 button:active {\n          background: ;\n          border-color: ;\n        }\n        body #RContainerk9e4ee7a8bb2fd654dfc8a53bfb69706 #UI_263837 .van-badge {\n          background: rgba(238,10,36,1);\n        }\n        body #RContainerk9e4ee7a8bb2fd654dfc8a53bfb69706 #UI_263837 button {\n              color: rgba(255,255,255,1);\n            }\n            body #RContainerk9e4ee7a8bb2fd654dfc8a53bfb69706 #UI_263837 button:hover span {\n              color: ;\n            }body #RContainerk9e4ee7a8bb2fd654dfc8a53bfb69706 #UI_263837 button:active span {\n              color: ;\n            }\n          body #RContainerk9e4ee7a8bb2fd654dfc8a53bfb69706 #UI_484180 {\n            background: rgba(255,255,255,1);\n          }\n          body #RContainerk9e4ee7a8bb2fd654dfc8a53bfb69706 #UI_484180 .el-table {\n            background: rgba(255,255,255,1);\n          }\n          /*表格header的背景色*/\n          body #RContainerk9e4ee7a8bb2fd654dfc8a53bfb69706 #UI_484180 .el-table__header tr,\n          body #RContainerk9e4ee7a8bb2fd654dfc8a53bfb69706 #UI_484180 .el-table__header th {\n            background: rgb",
+      "frameCount": 0,
+      "pageView": {
+        "spaceTimeId": {},
+        "pageName": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+[
+  {
+    "targetId": "DF7FF60AB3DC6390A4BA572713BBE8B2",
+    "res": {
+      "foundPage": true,
+      "text": "查询全部(4)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n泵站A-01\n\t\nA\n\t\n正常\n\t\n128\n\t\n0.62\n\n\n泵站A-02\n\t\nA\n\t\n待机\n\t\n96\n\t\n0.58\n\n\n泵站B-01\n\t\nB\n\t\n正常\n\t\n141\n\t\n0.67\n\n\n泵站B-02\n\t\nB\n\t\n报警\n\t\n73\n\t\n0.49\n共 4 条\n1\n前往页",
+      "st": {
+        "spaceTime": "NadirL2",
+        "stType": 5,
+        "devName": "NadirFront",
+        "name": "NadirL2",
+        "guid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+        "id": "1152921504606851278"
+      },
+      "localCloudID": 107,
+      "q1": {
+        "label": "mode2-stguid",
+        "ret": -180985,
+        "plain": {
+          "ret": -180985,
+          "output": {
+            "errorcodes": [
+              -180985
+            ]
+          },
+          "traceID": "0",
+          "consumeTime": 38
+        }
+      }
+    }
+  },
+  {
+    "targetId": "1E28C85ED4D5F84BDFC84BD117E10420",
+    "res": {
+      "foundPage": true,
+      "text": "查询全部(0)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n暂无匹配数据\n共 0 条\n1\n前往页",
+      "st": {
+        "spaceTime": "NadirL2",
+        "stType": 5,
+        "devName": "NadirFront",
+        "name": "NadirL2",
+        "guid": "4fa17a11-b923-4b36-b1e8-c39ca1bcf62c",
+        "id": "1152921504606851278"
+      },
+      "localCloudID": 107,
+      "q1": {
+        "label": "mode2-stguid",
+        "ret": -180985,
+        "plain": {
+          "ret": -180985,
+          "output": {
+            "errorcodes": [
+              -180985
+            ]
+          },
+          "traceID": "0",
+          "consumeTime": 35
+        }
+      }
+    }
+  },
+  {
+    "targetId": "5C74882D3AB7804B912F6E3F25B36C64",
+    "res": {
+      "foundPage": true,
+      "text": "查询全部(4)\n全部区域\nA区\nB区\n站点\t区域\t状态\t流量\t压力\n泵站A-01\n\t\nA\n\t\n正常\n\t\n128\n\t\n0.62\n\n\n泵站A-02\n\t\nA\n\t\n待机\n\t\n96\n\t\n0.58\n\n\n泵站B-01\n\t\nB\n\t\n正常\n\t\n141\n\t\n0.67\n\n\n泵站B-02\n\t\nB\n\t\n报警\n\t\n73\n\t\n0.49\n共 4 条\n1\n前往页",
+      "st": {
+        "id": "",
+        "guid": "",
+        "name": ""
+      },
+      "localCloudID": 107,
+      "q1": {
+        "label": "mode2-stguid",
+        "ret": 0,
+        "plain": {
+          "ret": 0,
+          "output": {
+            "errorcodes": [
+              0
+            ],
+            "ret": 0,
+            "returndata": []
+          },
+          "traceID": "5189065167633625088",
+          "consumeTime": 31
+        }
+      }
+    }
+  }
+]

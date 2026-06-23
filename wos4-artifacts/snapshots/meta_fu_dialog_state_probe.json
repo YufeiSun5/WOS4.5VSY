@@ -1,0 +1,218 @@
+[
+  {
+    "path": "top.0",
+    "href": "http://221.239.19.118:13001/desktop-frame/index.html?cloud=107#/main/worker-space-model",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 899
+    },
+    "text": "新建\n名称:\n类型:\n功能单元\n数据模型\n安全模型\n其他\n\n元语言\n\nwebJS\n\nnodeJS\n\n第三方\n\nAppModule\n\n描述:\n取消\n创建\n创建并打开",
+    "inputs": [
+      {
+        "i": 0,
+        "tag": "INPUT",
+        "type": "text",
+        "value": "盛云_孙宇飞_元语言查询Demo_0617",
+        "placeholder": "请输入名称",
+        "disabled": false,
+        "classes": "el-input__inner",
+        "aria": null
+      },
+      {
+        "i": 1,
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "value": "Meta-language backend demo for WOS4 smoke chain; operator SunYufei; created by browser-harness.",
+        "placeholder": "请输入描述",
+        "disabled": false,
+        "classes": "el-textarea__inner",
+        "aria": null
+      }
+    ],
+    "buttons": [
+      {
+        "i": 0,
+        "text": "",
+        "disabled": false,
+        "aria": null,
+        "classes": "el-dialog__headerbtn"
+      },
+      {
+        "i": 1,
+        "text": "取消",
+        "disabled": false,
+        "aria": "false",
+        "classes": "el-button el-button--default workspace-new-model-cancel-bt create-button"
+      },
+      {
+        "i": 2,
+        "text": "创建",
+        "disabled": true,
+        "aria": "true",
+        "classes": "el-button el-button--primary el-button--default is-disabled workspace-new-model-confirm-bt create-button"
+      },
+      {
+        "i": 3,
+        "text": "创建并打开",
+        "disabled": true,
+        "aria": "true",
+        "classes": "el-button el-button--warning el-button--default is-disabled workspace-new-model-confirm-bt create-button"
+      }
+    ],
+    "errors": [],
+    "candidates": [
+      {
+        "i": 19,
+        "text": "功能单元",
+        "classes": "el-tabs__item is-top is-active",
+        "role": "tab",
+        "aria": null
+      },
+      {
+        "i": 25,
+        "text": "元语言",
+        "classes": "create-card",
+        "role": null,
+        "aria": null
+      },
+      {
+        "i": 28,
+        "text": "webJS",
+        "classes": "create-card",
+        "role": null,
+        "aria": null
+      },
+      {
+        "i": 31,
+        "text": "nodeJS",
+        "classes": "create-card",
+        "role": null,
+        "aria": null
+      },
+      {
+        "i": 34,
+        "text": "第三方",
+        "classes": "create-card",
+        "role": null,
+        "aria": null
+      },
+      {
+        "i": 37,
+        "text": "AppModule",
+        "classes": "create-card",
+        "role": null,
+        "aria": null
+      }
+    ]
+  },
+  {
+    "path": "top.0",
+    "href": "http://221.239.19.118:13001/desktop-frame/index.html?cloud=107#/main/worker-space-model",
+    "rect": {
+      "x": 682,
+      "y": 134.84375,
+      "w": 556,
+      "h": 405
+    },
+    "text": "新建\n名称:\n类型:\n功能单元\n数据模型\n安全模型\n其他\n\n元语言\n\nwebJS\n\nnodeJS\n\n第三方\n\nAppModule\n\n描述:\n取消\n创建\n创建并打开",
+    "inputs": [
+      {
+        "i": 0,
+        "tag": "INPUT",
+        "type": "text",
+        "value": "盛云_孙宇飞_元语言查询Demo_0617",
+        "placeholder": "请输入名称",
+        "disabled": false,
+        "classes": "el-input__inner",
+        "aria": null
+      },
+      {
+        "i": 1,
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "value": "Meta-language backend demo for WOS4 smoke chain; operator SunYufei; created by browser-harness.",
+        "placeholder": "请输入描述",
+        "disabled": false,
+        "classes": "el-textarea__inner",
+        "aria": null
+      }
+    ],
+    "buttons": [
+      {
+        "i": 0,
+        "text": "",
+        "disabled": false,
+        "aria": null,
+        "classes": "el-dialog__headerbtn"
+      },
+      {
+        "i": 1,
+        "text": "取消",
+        "disabled": false,
+        "aria": "false",
+        "classes": "el-button el-button--default workspace-new-model-cancel-bt create-button"
+      },
+      {
+        "i": 2,
+        "text": "创建",
+        "disabled": true,
+        "aria": "true",
+        "classes": "el-button el-button--primary el-button--default is-disabled workspace-new-model-confirm-bt create-button"
+      },
+      {
+        "i": 3,
+        "text": "创建并打开",
+        "disabled": true,
+        "aria": "true",
+        "classes": "el-button el-button--warning el-button--default is-disabled workspace-new-model-confirm-bt create-button"
+      }
+    ],
+    "errors": [],
+    "candidates": [
+      {
+        "i": 18,
+        "text": "功能单元",
+        "classes": "el-tabs__item is-top is-active",
+        "role": "tab",
+        "aria": null
+      },
+      {
+        "i": 24,
+        "text": "元语言",
+        "classes": "create-card",
+        "role": null,
+        "aria": null
+      },
+      {
+        "i": 27,
+        "text": "webJS",
+        "classes": "create-card",
+        "role": null,
+        "aria": null
+      },
+      {
+        "i": 30,
+        "text": "nodeJS",
+        "classes": "create-card",
+        "role": null,
+        "aria": null
+      },
+      {
+        "i": 33,
+        "text": "第三方",
+        "classes": "create-card",
+        "role": null,
+        "aria": null
+      },
+      {
+        "i": 36,
+        "text": "AppModule",
+        "classes": "create-card",
+        "role": null,
+        "aria": null
+      }
+    ]
+  }
+]

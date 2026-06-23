@@ -1,0 +1,77 @@
+{
+  "createdAt": "2026-06-12T00:00:00+08:00",
+  "operator": "盛云_孙宇飞",
+  "status": "manual-derived-hypothesis",
+  "forbiddenEntry": "KingStudio_V20260514",
+  "manualSources": [
+    "operation-manual/快速入门.md",
+    "operation-manual/任务栏应用管理.md",
+    "operation-manual/应用图标管理.md",
+    "operation-manual/系统客户端概述.md",
+    "operation-manual/节点管理.md",
+    "operation-manual/资源组管理.md",
+    "operation-manual/区域管理.md",
+    "operation-manual/固定端对象管理.md",
+    "system-introduction/模型库.md",
+    "system-introduction/App引擎介绍.md"
+  ],
+  "zeroToPublishOrder": [
+    "建模系统客户端_0518：模型、成员、提交版本、生成拷贝",
+    "组态系统客户端0518/时空功能开发：页面或WebJS/FU功能开发",
+    "时空功能开发：生成拷贝、自启动APP配置、打包仓库数据包",
+    "运维部署客户端_0518：只读检查节点、资源组、区域、数据区、服务状态",
+    "部署管理/时空对象管理：添加仓库数据包、部署、启动",
+    "时空对象管理/桌面图标：验证FU/WebJS运行和窗口交互",
+    "最终发布/交付：前序全部通过后执行"
+  ],
+  "manualMainChain": [
+    "时空功能开发",
+    "编译",
+    "提交",
+    "生成拷贝",
+    "自启动APP配置",
+    "打包",
+    "部署管理",
+    "时空对象管理",
+    "新建时空对象",
+    "添加仓库数据包",
+    "部署",
+    "启动",
+    "时空对象管理平台/桌面图标验证"
+  ],
+  "clientHypotheses": [
+    {
+      "client": "组态系统客户端0518",
+      "role": "候选页面/组态/WebJS设计入口",
+      "manualConfidence": "medium",
+      "reason": "手册没有单独组态系统客户端章节，但 WebJS App、页面窗口和 FU 图标运行机制指向该类客户端可能承载前端页面设计或打开。"
+    },
+    {
+      "client": "建模系统客户端_0518",
+      "role": "模型、成员、版本、拷贝",
+      "manualConfidence": "high",
+      "reason": "快速入门和模型库明确模型->历史版本->拷贝->对象/记录关系。"
+    },
+    {
+      "client": "运维部署客户端_0518",
+      "role": "部署环境和服务状态检查",
+      "manualConfidence": "high",
+      "reason": "系统客户端概述、节点管理、资源组管理、区域管理和固定端对象管理均属于运维部署职责。"
+    },
+    {
+      "client": "时空对象管理",
+      "role": "运行对象、FU/WebJS启动、打开和验证",
+      "manualConfidence": "high",
+      "reason": "任务栏应用管理和应用图标管理明确时空对象管理用于运行管理，并可启动、停止、打开 FU。"
+    }
+  ],
+  "nextProbeOrder": [
+    "建模系统客户端_0518：验证成员保存、提交版本、生成拷贝",
+    "组态系统客户端0518：验证是否为当前页面设计入口",
+    "时空功能开发：验证编译/提交/生成拷贝/自启动APP配置/打包/部署管理",
+    "运维部署客户端_0518：只读检查节点、资源组、数据区、服务状态",
+    "时空对象管理：验证运行 FU/WebJS 对象和桌面图标/窗口",
+    "发布/交付：最后执行"
+  ],
+  "skillDecision": "当前只形成操作假设，不新增下游 skill；待 UI 探针验证后再创建具体 skill。"
+}

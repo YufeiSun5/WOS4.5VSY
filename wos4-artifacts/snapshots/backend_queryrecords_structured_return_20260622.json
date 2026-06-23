@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "visible": [
+      {
+        "i": 0,
+        "value": "",
+        "placeholder": "请输入功能名称",
+        "rect": {
+          "x": 73,
+          "y": 71,
+          "w": 218,
+          "h": 30
+        }
+      },
+      {
+        "i": 1,
+        "value": "QueryRecords",
+        "placeholder": "请输入功能名称",
+        "rect": {
+          "x": 414.90625,
+          "y": 104,
+          "w": 170,
+          "h": 30
+        }
+      },
+      {
+        "i": 2,
+        "value": "stringMap<var> strmapPara",
+        "placeholder": "参数用,隔开，如int a, int b",
+        "rect": {
+          "x": 700.8125,
+          "y": 104,
+          "w": 170,
+          "h": 30
+        }
+      },
+      {
+        "i": 3,
+        "value": "stringMap<var>",
+        "placeholder": "",
+        "rect": {
+          "x": 1011.71875,
+          "y": 104,
+          "w": 170,
+          "h": 30
+        }
+      }
+    ],
+    "paramSet": true,
+    "returnSet": true
+  },
+  "after": {
+    "value": "(2, \"QueryRecords.enter\", strmapPara); int32 SUCCESS_CODE = 0; string filter = strmapPara.filter; stringMap<var> returnData; stringMap<var> row; stringMap<var>[] statisticsList; returnData[\"errorcode\"] = SUCCESS_CODE; returnData[\"errormsg\"] = \"ok\"; row[\"stationName\"] = \"S1\"; row[\"areaName\"] = \"A1\"; row[\"statusText\"] = \"RUN\"; row[\"flowValue\"] = \"12.3\"; row[\"pressureValue\"] = \"0.45\"; row[\"filter\"] = filter; statisticsList.push(row); returnData[\"statisticsList\"] = statisticsList; return returnData;",
+    "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\nQueryRecords\n\nInsertRecord\n\nUpdateRecord\n\n当前模型: DemoCrudBackend_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nonDestroy\nonException\nQueryRecords\nInsertRecord\nUpdateRecord\n名称:\n输入参数:\n返回值类型:\n1\nTrace(2, \"QueryRecords.enter\", strmapPara); int32 SUCCESS_CODE = 0; string filter = strmapPara.filter; stringMap<var> returnData; stringMap<var> row; stringMap<var>[] statisticsList; returnData[\"errorcode\"] = SUCCESS_CODE; returnData[\"errormsg\"] = \"ok\"; row[\"stationName\"] = \"S1\"; row[\"areaName\"] = \"A1\"; row[\"statusText\"] = \"RUN\"; row[\"flowValue\"] = \"12.3\"; row[\"pressureValue\"] = \"0.45\"; row[\"filter\"] = filter; statisticsList.push(row); returnData[\"statisticsList\"] = statisticsList; return returnData;\n编译信息\nxxxxxxxxxxxxxx 编译成功 13:49:08 xxxxxxxxxxxxxx\n行：1，列：506，\n空格：4\n元语言\n无法在只读编辑器中编辑",
+    "lines": [
+      "Trace(2, \"QueryRecords.enter\", strmapPara); int32 SUCCESS_CODE = 0; string filter = strmapPara.filter; stringMap<var> returnData; stringMap<var> row; stringMap<var>[] statisticsList; returnData[\"errorcode\"] = SUCCESS_CODE; returnData[\"errormsg\"] = \"ok\"; row[\"stationName\"] = \"S1\"; row[\"areaName\"] = \"A1\"; row[\"statusText\"] = \"RUN\"; row[\"flowValue\"] = \"12.3\"; row[\"pressureValue\"] = \"0.45\"; row[\"filter\"] = filter; statisticsList.push(row); returnData[\"statisticsList\"] = statisticsList; return returnData;"
+    ],
+    "inputs": [
+      "",
+      "QueryRecords",
+      "stringMap<var> strmapPara",
+      "stringMap<var>"
+    ]
+  },
+  "rects": {
+    "save": {
+      "x": 513,
+      "y": 84.46875,
+      "w": 20,
+      "h": 55
+    },
+    "compile": {
+      "x": 697,
+      "y": 84.46875,
+      "w": 20,
+      "h": 55
+    }
+  },
+  "final": {
+    "value": "(2, \"QueryRecords.enter\", strmapPara); int32 SUCCESS_CODE = 0; string filter = strmapPara.filter; stringMap<var> returnData; stringMap<var> row; stringMap<var>[] statisticsList; returnData[\"errorcode\"] = SUCCESS_CODE; returnData[\"errormsg\"] = \"ok\"; row[\"stationName\"] = \"S1\"; row[\"areaName\"] = \"A1\"; row[\"statusText\"] = \"RUN\"; row[\"flowValue\"] = \"12.3\"; row[\"pressureValue\"] = \"0.45\"; row[\"filter\"] = filter; statisticsList.push(row); returnData[\"statisticsList\"] = statisticsList; return returnData;",
+    "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\nQueryRecords\n\nInsertRecord\n\nUpdateRecord\n\n当前模型: DemoCrudBackend_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nonDestroy\nonException\nQueryRecords\nInsertRecord\nUpdateRecord\n名称:\n输入参数:\n返回值类型:\n1\nTrace(2, \"QueryRecords.enter\", strmapPara); int32 SUCCESS_CODE = 0; string filter = strmapPara.filter; stringMap<var> returnData; stringMap<var> row; stringMap<var>[] statisticsList; returnData[\"errorcode\"] = SUCCESS_CODE; returnData[\"errormsg\"] = \"ok\"; row[\"stationName\"] = \"S1\"; row[\"areaName\"] = \"A1\"; row[\"statusText\"] = \"RUN\"; row[\"flowValue\"] = \"12.3\"; row[\"pressureValue\"] = \"0.45\"; row[\"filter\"] = filter; statisticsList.push(row); returnData[\"statisticsList\"] = statisticsList; return returnData;\n编译信息\nxxxxxxxxxxxxxx 编译成功 13:51:39 xxxxxxxxxxxxxx\n行：1，列：506，\n空格：4\n元语言\n编译模型\n无法在只读编辑器中编辑\n\n修改成功\n\n修改成功",
+    "lines": [
+      "Trace(2, \"QueryRecords.enter\", strmapPara); int32 SUCCESS_CODE = 0; string filter = strmapPara.filter; stringMap<var> returnData; stringMap<var> row; stringMap<var>[] statisticsList; returnData[\"errorcode\"] = SUCCESS_CODE; returnData[\"errormsg\"] = \"ok\"; row[\"stationName\"] = \"S1\"; row[\"areaName\"] = \"A1\"; row[\"statusText\"] = \"RUN\"; row[\"flowValue\"] = \"12.3\"; row[\"pressureValue\"] = \"0.45\"; row[\"filter\"] = filter; statisticsList.push(row); returnData[\"statisticsList\"] = statisticsList; return returnData;"
+    ],
+    "inputs": [
+      "",
+      "QueryRecords",
+      "stringMap<var> strmapPara",
+      "stringMap<var>"
+    ],
+    "messages": [
+      "修改成功",
+      "修改成功"
+    ],
+    "unsaved": [
+      {
+        "display": "none"
+      },
+      {
+        "display": "none"
+      },
+      {
+        "display": "none"
+      },
+      {
+        "display": "none"
+      },
+      {
+        "display": "none"
+      },
+      {
+        "display": "none"
+      },
+      {
+        "display": "none"
+      }
+    ]
+  },
+  "code": "Trace(2, \"QueryRecords.enter\", strmapPara); int32 SUCCESS_CODE = 0; string filter = strmapPara.filter; stringMap<var> returnData; stringMap<var> row; stringMap<var>[] statisticsList; returnData[\"errorcode\"] = SUCCESS_CODE; returnData[\"errormsg\"] = \"ok\"; row[\"stationName\"] = \"S1\"; row[\"areaName\"] = \"A1\"; row[\"statusText\"] = \"RUN\"; row[\"flowValue\"] = \"12.3\"; row[\"pressureValue\"] = \"0.45\"; row[\"filter\"] = filter; statisticsList.push(row); returnData[\"statisticsList\"] = statisticsList; return returnData;"
+}

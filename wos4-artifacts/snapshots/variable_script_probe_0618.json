@@ -1,0 +1,71 @@
+{
+  "date": "2026-06-18",
+  "target": "建模系统客户端_0518 -> 盛云_孙宇飞_前端_查询Demo_0618 -> 查询列表",
+  "editorRuntime": {
+    "variables": [
+      {
+        "varName": "人工添加",
+        "varType": 2,
+        "typeLabel": "String",
+        "defaultValue": "test",
+        "value": "test"
+      },
+      {
+        "varName": "加加变量",
+        "varType": 1,
+        "typeLabel": "Number",
+        "defaultValue": 0,
+        "value": 0
+      }
+    ],
+    "links": [
+      {
+        "linkId": 0,
+        "scope": "page-create",
+        "status": "exists"
+      },
+      {
+        "linkId": 1001,
+        "scope": "variable-change",
+        "variable": "加加变量",
+        "enable": true,
+        "status": "exists"
+      },
+      {
+        "linkId": 200001,
+        "scope": "button-click",
+        "component": "demo_query_button",
+        "status": "exists"
+      }
+    ]
+  },
+  "runtimeFlowTest": {
+    "pattern": "页面打开时 ++ 加加变量；按钮点击时 ++ 加加变量；变量改变脚本统一解析人工添加并刷新表格/图表/按钮文案",
+    "result": "partially_passed",
+    "verified": [
+      "编辑器运行时能看到并修改变量定义",
+      "变量改变脚本入口存在且可启用",
+      "按钮点击后预览按钮文案发生变化",
+      "预览页从 查询全部(0) 变为 查询结果(0)"
+    ],
+    "notYetPersisted": [
+      "人工添加 的新 JSON 默认值尚未稳定进入预览运行态",
+      "表格和图表尚未在正式提交后的预览中拿到新假数据"
+    ]
+  },
+  "blocker": {
+    "type": "submit-and-editor-session",
+    "summary": "建模客户端内残留 后台_班次管理 子页，关闭确认弹窗无法稳定消失，导致重新进入前端编辑器和补版本提交证据受阻。",
+    "screenshots": [
+      "wos4-artifacts/screenshots/after_real_click_confirm_0618.png",
+      "wos4-artifacts/screenshots/probe_modeling_doc_0618.png"
+    ]
+  },
+  "evidence": [
+    "wos4-artifacts/backups/query_demo_increment_flow_0618/after_runtime_editor.png",
+    "wos4-artifacts/screenshots/wos4_increment_preview_verify_0618.png",
+    "wos4-artifacts/screenshots/latest_user_added_probe_0618.png",
+    "wos4-artifacts/screenshots/after_real_click_confirm_0618.png",
+    "wos4-artifacts/screenshots/probe_modeling_doc_0618.png"
+  ]
+}

@@ -1,0 +1,4014 @@
+[
+  {
+    "i": 0,
+    "id": "responsecontainer",
+    "text": "布局",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "RContainer"
+    }
+  },
+  {
+    "i": 1,
+    "id": "responsecontainer",
+    "text": "分栏*1",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "RCol"
+    }
+  },
+  {
+    "i": 2,
+    "id": "responsecontainer",
+    "text": "分栏*2",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "RCol"
+    }
+  },
+  {
+    "i": 3,
+    "id": "responsecontainer",
+    "text": "分栏*4",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "RCol"
+    }
+  },
+  {
+    "i": 4,
+    "id": "button",
+    "text": "按钮",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementButton",
+      "groupName": "其他",
+      "elementuiType": "ElementButton"
+    }
+  },
+  {
+    "i": 5,
+    "id": "table",
+    "text": "表格",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementTable",
+      "groupName": "数据",
+      "elementuiType": "ElementTable"
+    }
+  },
+  {
+    "i": 6,
+    "id": "input",
+    "text": "输入框",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementInput",
+      "groupName": "输入",
+      "elementuiType": "ElementInput"
+    }
+  },
+  {
+    "i": 7,
+    "id": "select",
+    "text": "选择器",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementSelect",
+      "groupName": "选择",
+      "elementuiType": "ElementSelect"
+    }
+  },
+  {
+    "i": 8,
+    "id": "text",
+    "text": "文本",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementText",
+      "groupName": "其他",
+      "elementuiType": "ElementText"
+    }
+  },
+  {
+    "i": 9,
+    "id": "datepicker",
+    "text": "日期时间选择器",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementDateTimePicker",
+      "groupName": "选择",
+      "elementuiType": "ElementDateTimePicker"
+    }
+  },
+  {
+    "i": 10,
+    "id": "navmenu",
+    "text": "导航菜单",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementNavmenu",
+      "groupName": "导航",
+      "elementuiType": "ElementNavmenu"
+    }
+  },
+  {
+    "i": 11,
+    "id": "tree",
+    "text": "树",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementTree",
+      "groupName": "导航",
+      "elementuiType": "ElementTree"
+    }
+  },
+  {
+    "i": 12,
+    "id": "image",
+    "text": "图片",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementImage",
+      "groupName": "媒体",
+      "elementuiType": "ElementImage"
+    }
+  },
+  {
+    "i": 13,
+    "id": "element_upload",
+    "text": "上传",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementUpload",
+      "groupName": "输入",
+      "elementuiType": "ElementUpload"
+    }
+  },
+  {
+    "i": 14,
+    "id": "tabs",
+    "text": "标签页",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementTabs",
+      "groupName": "导航",
+      "elementuiType": "ElementTabs"
+    }
+  },
+  {
+    "i": 15,
+    "id": "radiobox",
+    "text": "单选框",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementRadio",
+      "groupName": "选择",
+      "elementuiType": "ElementRadio"
+    }
+  },
+  {
+    "i": 16,
+    "id": "checkbox",
+    "text": "多选框",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementCheckbox",
+      "groupName": "选择",
+      "elementuiType": "ElementCheckbox"
+    }
+  },
+  {
+    "i": 17,
+    "id": "switch",
+    "text": "开关",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementSwitch",
+      "groupName": "选择",
+      "elementuiType": "ElementSwitch"
+    }
+  },
+  {
+    "i": 18,
+    "id": "timepicker",
+    "text": "时间选择器",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementTimePicker",
+      "groupName": "选择",
+      "elementuiType": "ElementTimePicker"
+    }
+  },
+  {
+    "i": 19,
+    "id": "card",
+    "text": "卡片",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementCard",
+      "groupName": "数据",
+      "elementuiType": "ElementCard"
+    }
+  },
+  {
+    "i": 20,
+    "id": "minicard",
+    "text": "业务卡片",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementMiniCard",
+      "groupName": "数据",
+      "elementuiType": "ElementMiniCard"
+    }
+  },
+  {
+    "i": 21,
+    "id": "collapse",
+    "text": "折叠面板",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementCollapse",
+      "groupName": "导航",
+      "elementuiType": "ElementCollapse"
+    }
+  },
+  {
+    "i": 22,
+    "id": "dropdown",
+    "text": "下拉菜单",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementDropdown",
+      "groupName": "选择",
+      "elementuiType": "ElementDropdown"
+    }
+  },
+  {
+    "i": 23,
+    "id": "cascader",
+    "text": "级联选择器",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementCascader",
+      "groupName": "选择",
+      "elementuiType": "ElementCascader"
+    }
+  },
+  {
+    "i": 24,
+    "id": "webcontainer",
+    "text": "网页容器",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementWebContainer",
+      "groupName": "媒体",
+      "elementuiType": "ElementWebContainer"
+    }
+  },
+  {
+    "i": 25,
+    "id": "tag",
+    "text": "标签",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementTag",
+      "groupName": "其他",
+      "elementuiType": "ElementTag"
+    }
+  },
+  {
+    "i": 26,
+    "id": "cross",
+    "text": "穿梭框",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementTransfer",
+      "groupName": "选择",
+      "elementuiType": "ElementTransfer"
+    }
+  },
+  {
+    "i": 27,
+    "id": "counter",
+    "text": "计数器",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementInputNumber",
+      "groupName": "输入",
+      "elementuiType": "ElementInputNumber"
+    }
+  },
+  {
+    "i": 28,
+    "id": "timeline",
+    "text": "时间线",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementTimeline",
+      "groupName": "其他",
+      "elementuiType": "ElementTimeline"
+    }
+  },
+  {
+    "i": 29,
+    "id": "steps",
+    "text": "步骤条",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementSteps",
+      "groupName": "导航",
+      "elementuiType": "ElementSteps"
+    }
+  },
+  {
+    "i": 30,
+    "id": "slider",
+    "text": "滑块",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementSlider",
+      "groupName": "选择",
+      "elementuiType": "ElementSlider"
+    }
+  },
+  {
+    "i": 31,
+    "id": "rate",
+    "text": "评分",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementRate",
+      "groupName": "选择",
+      "elementuiType": "ElementRate"
+    }
+  },
+  {
+    "i": 32,
+    "id": "carousel",
+    "text": "轮播组件",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementCarousel",
+      "groupName": "媒体",
+      "elementuiType": "ElementCarousel"
+    }
+  },
+  {
+    "i": 33,
+    "id": "imagecarsuel",
+    "text": "自定义轮播",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementCustomCarsuel",
+      "groupName": "媒体",
+      "elementuiType": "ElementCustomCarsuel"
+    }
+  },
+  {
+    "i": 34,
+    "id": "calendar",
+    "text": "日历",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementCalendar",
+      "groupName": "数据",
+      "elementuiType": "ElementCalendar"
+    }
+  },
+  {
+    "i": 35,
+    "id": "signature",
+    "text": "电子签名",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementSignature",
+      "groupName": "输入",
+      "elementuiType": "ElementSignature"
+    }
+  },
+  {
+    "i": 36,
+    "id": "KSCQRorBarCode",
+    "text": "条形码",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "KSCQRorBarCode",
+      "groupName": "媒体",
+      "elementuiType": "ElementKSCQRorBarCode"
+    }
+  },
+  {
+    "i": 37,
+    "id": "ScriptEditor",
+    "text": "脚本编辑器",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ScriptEditor",
+      "groupName": "输入",
+      "elementuiType": "ElementScriptEditor"
+    }
+  },
+  {
+    "i": 38,
+    "id": "pagination",
+    "text": "分页",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementPagination",
+      "groupName": "其他",
+      "elementuiType": "ElementPagination"
+    }
+  },
+  {
+    "i": 39,
+    "id": "BigDataTable",
+    "text": "大数据表格",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "BigDataTable",
+      "groupName": "数据",
+      "elementuiType": "BigDataTable"
+    }
+  },
+  {
+    "i": 40,
+    "id": "vant_input",
+    "text": "移动端_输入框",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "VantField",
+      "groupName": "输入"
+    }
+  },
+  {
+    "i": 41,
+    "id": "vant_upload",
+    "text": "移动端_文件上传",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "VantUploader",
+      "groupName": "输入"
+    }
+  },
+  {
+    "i": 42,
+    "id": "progressbar",
+    "text": "移动端_进度条",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "VantProgress",
+      "groupName": "数据"
+    }
+  },
+  {
+    "i": 43,
+    "id": "grid",
+    "text": "移动端_宫格",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "VantGrid",
+      "groupName": "导航"
+    }
+  },
+  {
+    "i": 44,
+    "id": "navigationbar",
+    "text": "移动端_导航栏",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "VantNavBar",
+      "groupName": "导航"
+    }
+  },
+  {
+    "i": 45,
+    "id": "labelbar",
+    "text": "移动端_标签栏",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "VantTabBar",
+      "groupName": "导航"
+    }
+  },
+  {
+    "i": 46,
+    "id": "dropdownmenu",
+    "text": "移动端_下拉菜单",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "VantDropdownMenu",
+      "groupName": "选择"
+    }
+  },
+  {
+    "i": 47,
+    "id": "list",
+    "text": "移动端_列表",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "VantList",
+      "groupName": "数据"
+    }
+  },
+  {
+    "i": 48,
+    "id": "vantTreeSelect",
+    "text": "移动端_分类选择",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "VantTreeSelect",
+      "groupName": "选择"
+    }
+  },
+  {
+    "i": 49,
+    "id": "form",
+    "text": "移动端_表单",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "VantForm",
+      "groupName": "其他"
+    }
+  },
+  {
+    "i": 50,
+    "id": "button",
+    "text": "按钮",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementButton",
+      "groupName": "其他",
+      "elementuiType": "ElementButton"
+    }
+  },
+  {
+    "i": 51,
+    "id": "table",
+    "text": "表格",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementTable",
+      "groupName": "数据",
+      "elementuiType": "ElementTable"
+    }
+  },
+  {
+    "i": 52,
+    "id": "input",
+    "text": "输入框",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementInput",
+      "groupName": "输入",
+      "elementuiType": "ElementInput"
+    }
+  },
+  {
+    "i": 53,
+    "id": "select",
+    "text": "选择器",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementSelect",
+      "groupName": "选择",
+      "elementuiType": "ElementSelect"
+    }
+  },
+  {
+    "i": 54,
+    "id": "text",
+    "text": "文本",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementText",
+      "groupName": "其他",
+      "elementuiType": "ElementText"
+    }
+  },
+  {
+    "i": 55,
+    "id": "timepicker",
+    "text": "时间选择器",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementTimePicker",
+      "groupName": "选择",
+      "elementuiType": "ElementTimePicker"
+    }
+  },
+  {
+    "i": 56,
+    "id": "navmenu",
+    "text": "导航菜单",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementNavmenu",
+      "groupName": "导航",
+      "elementuiType": "ElementNavmenu"
+    }
+  },
+  {
+    "i": 57,
+    "id": "tree",
+    "text": "树",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementTree",
+      "groupName": "导航",
+      "elementuiType": "ElementTree"
+    }
+  },
+  {
+    "i": 58,
+    "id": "tabs",
+    "text": "标签页",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementTabs",
+      "groupName": "导航",
+      "elementuiType": "ElementTabs"
+    }
+  },
+  {
+    "i": 59,
+    "id": "collapse",
+    "text": "折叠面板",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementCollapse",
+      "groupName": "导航",
+      "elementuiType": "ElementCollapse"
+    }
+  },
+  {
+    "i": 60,
+    "id": "steps",
+    "text": "步骤条",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementSteps",
+      "groupName": "导航",
+      "elementuiType": "ElementSteps"
+    }
+  },
+  {
+    "i": 61,
+    "id": "grid",
+    "text": "移动端_宫格",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "VantGrid",
+      "groupName": "导航"
+    }
+  },
+  {
+    "i": 62,
+    "id": "navigationbar",
+    "text": "移动端_导航栏",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "VantNavBar",
+      "groupName": "导航"
+    }
+  },
+  {
+    "i": 63,
+    "id": "labelbar",
+    "text": "移动端_标签栏",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "VantTabBar",
+      "groupName": "导航"
+    }
+  },
+  {
+    "i": 64,
+    "id": "table",
+    "text": "表格",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementTable",
+      "groupName": "数据",
+      "elementuiType": "ElementTable"
+    }
+  },
+  {
+    "i": 65,
+    "id": "card",
+    "text": "卡片",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementCard",
+      "groupName": "数据",
+      "elementuiType": "ElementCard"
+    }
+  },
+  {
+    "i": 66,
+    "id": "minicard",
+    "text": "业务卡片",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementMiniCard",
+      "groupName": "数据",
+      "elementuiType": "ElementMiniCard"
+    }
+  },
+  {
+    "i": 67,
+    "id": "calendar",
+    "text": "日历",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementCalendar",
+      "groupName": "数据",
+      "elementuiType": "ElementCalendar"
+    }
+  },
+  {
+    "i": 68,
+    "id": "BigDataTable",
+    "text": "大数据表格",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "BigDataTable",
+      "groupName": "数据",
+      "elementuiType": "BigDataTable"
+    }
+  },
+  {
+    "i": 69,
+    "id": "progressbar",
+    "text": "移动端_进度条",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "VantProgress",
+      "groupName": "数据"
+    }
+  },
+  {
+    "i": 70,
+    "id": "list",
+    "text": "移动端_列表",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "VantList",
+      "groupName": "数据"
+    }
+  },
+  {
+    "i": 71,
+    "id": "select",
+    "text": "选择器",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementSelect",
+      "groupName": "选择",
+      "elementuiType": "ElementSelect"
+    }
+  },
+  {
+    "i": 72,
+    "id": "datepicker",
+    "text": "日期时间选择器",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementDateTimePicker",
+      "groupName": "选择",
+      "elementuiType": "ElementDateTimePicker"
+    }
+  },
+  {
+    "i": 73,
+    "id": "radiobox",
+    "text": "单选框",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementRadio",
+      "groupName": "选择",
+      "elementuiType": "ElementRadio"
+    }
+  },
+  {
+    "i": 74,
+    "id": "checkbox",
+    "text": "多选框",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementCheckbox",
+      "groupName": "选择",
+      "elementuiType": "ElementCheckbox"
+    }
+  },
+  {
+    "i": 75,
+    "id": "switch",
+    "text": "开关",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementSwitch",
+      "groupName": "选择",
+      "elementuiType": "ElementSwitch"
+    }
+  },
+  {
+    "i": 76,
+    "id": "timepicker",
+    "text": "时间选择器",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementTimePicker",
+      "groupName": "选择",
+      "elementuiType": "ElementTimePicker"
+    }
+  },
+  {
+    "i": 77,
+    "id": "dropdown",
+    "text": "下拉菜单",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementDropdown",
+      "groupName": "选择",
+      "elementuiType": "ElementDropdown"
+    }
+  },
+  {
+    "i": 78,
+    "id": "cascader",
+    "text": "级联选择器",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementCascader",
+      "groupName": "选择",
+      "elementuiType": "ElementCascader"
+    }
+  },
+  {
+    "i": 79,
+    "id": "cross",
+    "text": "穿梭框",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementTransfer",
+      "groupName": "选择",
+      "elementuiType": "ElementTransfer"
+    }
+  },
+  {
+    "i": 80,
+    "id": "slider",
+    "text": "滑块",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementSlider",
+      "groupName": "选择",
+      "elementuiType": "ElementSlider"
+    }
+  },
+  {
+    "i": 81,
+    "id": "rate",
+    "text": "评分",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementRate",
+      "groupName": "选择",
+      "elementuiType": "ElementRate"
+    }
+  },
+  {
+    "i": 82,
+    "id": "dropdownmenu",
+    "text": "移动端_下拉菜单",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "VantDropdownMenu",
+      "groupName": "选择"
+    }
+  },
+  {
+    "i": 83,
+    "id": "vantTreeSelect",
+    "text": "移动端_分类选择",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "VantTreeSelect",
+      "groupName": "选择"
+    }
+  },
+  {
+    "i": 84,
+    "id": "input",
+    "text": "输入框",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementInput",
+      "groupName": "输入",
+      "elementuiType": "ElementInput"
+    }
+  },
+  {
+    "i": 85,
+    "id": "element_upload",
+    "text": "上传",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementUpload",
+      "groupName": "输入",
+      "elementuiType": "ElementUpload"
+    }
+  },
+  {
+    "i": 86,
+    "id": "counter",
+    "text": "计数器",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementInputNumber",
+      "groupName": "输入",
+      "elementuiType": "ElementInputNumber"
+    }
+  },
+  {
+    "i": 87,
+    "id": "signature",
+    "text": "电子签名",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementSignature",
+      "groupName": "输入",
+      "elementuiType": "ElementSignature"
+    }
+  },
+  {
+    "i": 88,
+    "id": "ScriptEditor",
+    "text": "脚本编辑器",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ScriptEditor",
+      "groupName": "输入",
+      "elementuiType": "ElementScriptEditor"
+    }
+  },
+  {
+    "i": 89,
+    "id": "vant_input",
+    "text": "移动端_输入框",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "VantField",
+      "groupName": "输入"
+    }
+  },
+  {
+    "i": 90,
+    "id": "vant_upload",
+    "text": "移动端_文件上传",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "VantUploader",
+      "groupName": "输入"
+    }
+  },
+  {
+    "i": 91,
+    "id": "image",
+    "text": "图片",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementImage",
+      "groupName": "媒体",
+      "elementuiType": "ElementImage"
+    }
+  },
+  {
+    "i": 92,
+    "id": "webcontainer",
+    "text": "网页容器",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementWebContainer",
+      "groupName": "媒体",
+      "elementuiType": "ElementWebContainer"
+    }
+  },
+  {
+    "i": 93,
+    "id": "carousel",
+    "text": "轮播组件",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementCarousel",
+      "groupName": "媒体",
+      "elementuiType": "ElementCarousel"
+    }
+  },
+  {
+    "i": 94,
+    "id": "imagecarsuel",
+    "text": "自定义轮播",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementCustomCarsuel",
+      "groupName": "媒体",
+      "elementuiType": "ElementCustomCarsuel"
+    }
+  },
+  {
+    "i": 95,
+    "id": "KSCQRorBarCode",
+    "text": "条形码",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "KSCQRorBarCode",
+      "groupName": "媒体",
+      "elementuiType": "ElementKSCQRorBarCode"
+    }
+  },
+  {
+    "i": 96,
+    "id": "button",
+    "text": "按钮",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementButton",
+      "groupName": "其他",
+      "elementuiType": "ElementButton"
+    }
+  },
+  {
+    "i": 97,
+    "id": "text",
+    "text": "文本",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementText",
+      "groupName": "其他",
+      "elementuiType": "ElementText"
+    }
+  },
+  {
+    "i": 98,
+    "id": "tag",
+    "text": "标签",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementTag",
+      "groupName": "其他",
+      "elementuiType": "ElementTag"
+    }
+  },
+  {
+    "i": 99,
+    "id": "timeline",
+    "text": "时间线",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementTimeline",
+      "groupName": "其他",
+      "elementuiType": "ElementTimeline"
+    }
+  },
+  {
+    "i": 100,
+    "id": "pagination",
+    "text": "分页",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementPagination",
+      "groupName": "其他",
+      "elementuiType": "ElementPagination"
+    }
+  },
+  {
+    "i": 101,
+    "id": "form",
+    "text": "移动端_表单",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "VantForm",
+      "groupName": "其他"
+    }
+  },
+  {
+    "i": 102,
+    "id": "chart/多对象表格",
+    "text": "多对象表格",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "MultiObjectTable",
+      "groupName": "业务表格",
+      "elementuiType": "MultiObjectTable"
+    }
+  },
+  {
+    "i": 103,
+    "id": "chart/实时表格",
+    "text": "实时表格",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "RealTimeTable",
+      "groupName": "业务表格",
+      "elementuiType": "RealTimeTable"
+    }
+  },
+  {
+    "i": 104,
+    "id": "chart/历史表格",
+    "text": "历史表格",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "HistoryTable",
+      "groupName": "业务表格",
+      "elementuiType": "HistoryTable"
+    }
+  },
+  {
+    "i": 105,
+    "id": "chart/计划表格",
+    "text": "计划表格",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "PlanTable",
+      "groupName": "业务表格",
+      "elementuiType": "PlanTable"
+    }
+  },
+  {
+    "i": 106,
+    "id": "chart/历史趋势曲线",
+    "text": "趋势曲线",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "HistoryChart",
+      "groupName": "趋势曲线",
+      "elementuiType": "HistoryChart"
+    }
+  },
+  {
+    "i": 107,
+    "id": "chart/自定义图表",
+    "text": "自定义图表",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "其他",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 108,
+    "id": "chart/流程查看器",
+    "text": "流程查看器",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "BpmnViewer",
+      "groupName": "工作流",
+      "elementuiType": "BpmnViewer"
+    }
+  },
+  {
+    "i": 109,
+    "id": "chart/流程编辑器",
+    "text": "流程编辑器",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "BpmnModeler",
+      "groupName": "工作流",
+      "elementuiType": "BpmnModeler"
+    }
+  },
+  {
+    "i": 110,
+    "id": "chart/报警窗",
+    "text": "报警窗",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "AlarmWindow",
+      "groupName": "其他",
+      "elementuiType": "AlarmWindow"
+    }
+  },
+  {
+    "i": 111,
+    "id": "chart/甘特图",
+    "text": "甘特图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementGantt",
+      "groupName": "甘特图",
+      "elementuiType": "ElementGantt"
+    }
+  },
+  {
+    "i": 112,
+    "id": "chart/普通柱状图",
+    "text": "普通柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "柱状图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 113,
+    "id": "chart/渐变柱状图",
+    "text": "多系列柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "柱状图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 114,
+    "id": "chart/柱状图表",
+    "text": "普通柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "柱状图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 115,
+    "id": "chart/堆叠柱状图",
+    "text": "堆叠柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "柱状图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 116,
+    "id": "chart/曲顶柱状图",
+    "text": "曲顶柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "柱状图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 117,
+    "id": "chart/象形柱状图",
+    "text": "象形柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "柱状图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 118,
+    "id": "chart/伪立体柱状图",
+    "text": "立体柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "立体柱状图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 119,
+    "id": "chart/双立体柱状图",
+    "text": "多系列立体柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "立体柱状图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 120,
+    "id": "chart/立体柱状图",
+    "text": "立体柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "立体柱状图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 121,
+    "id": "chart/光圈柱状图",
+    "text": "光圈柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "立体柱状图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 122,
+    "id": "chart/3D立体渐变柱状图",
+    "text": "多系列立体柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "立体柱状图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 123,
+    "id": "chart/多色立体柱状图",
+    "text": "立体柱状图1",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "立体柱状图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 124,
+    "id": "chart/伪立体柱状图1",
+    "text": "光圈立体柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "立体柱状图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 125,
+    "id": "chart/伪3D组合柱子",
+    "text": "横向渐变柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "立体柱状图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 126,
+    "id": "chart/横向立体柱状图",
+    "text": "横向立体柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "条形图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 127,
+    "id": "chart/多色横向柱状图",
+    "text": "横向柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "条形图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 128,
+    "id": "chart/渐变横向柱状图",
+    "text": "横向柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "条形图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 129,
+    "id": "chart/横向象形柱状图",
+    "text": "象形柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "条形图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 130,
+    "id": "chart/横向柱状图及排名",
+    "text": "横向柱状图及排名",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "条形图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 131,
+    "id": "chart/重叠横向柱状图",
+    "text": "横向柱状图1",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "条形图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 132,
+    "id": "chart/电池-进度柱状图",
+    "text": "电池-进度柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "条形图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 133,
+    "id": "chart/横排分隔形柱状图",
+    "text": "横排分隔形柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "条形图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 134,
+    "id": "chart/折线图",
+    "text": "折线图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "折线图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 135,
+    "id": "chart/渐变折线图",
+    "text": "渐变折线图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "折线图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 136,
+    "id": "chart/多线图1",
+    "text": "多线图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "折线图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 137,
+    "id": "chart/多线图",
+    "text": "多线图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "折线图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 138,
+    "id": "chart/销售水量占比",
+    "text": "折现堆叠图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "折线图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 139,
+    "id": "chart/多色渐变折线图",
+    "text": "多线图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "折线图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 140,
+    "id": "chart/混合柱状图",
+    "text": "立体混合图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "混合图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 141,
+    "id": "chart/混合立体柱状图",
+    "text": "立体混合图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "混合图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 142,
+    "id": "chart/混合渐变图",
+    "text": "同数据混合图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "混合图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 143,
+    "id": "chart/渐变折线柱状图",
+    "text": "渐变混合图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "混合图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 144,
+    "id": "chart/标注气泡图",
+    "text": "气泡混合图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "混合图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 145,
+    "id": "chart/蓝色饼图",
+    "text": "普通饼图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 146,
+    "id": "chart/南丁格尔玫瑰图",
+    "text": "南丁格尔玫瑰图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 147,
+    "id": "chart/交通方式",
+    "text": "光圈饼图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 148,
+    "id": "chart/断开环形图",
+    "text": "断开环形图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 149,
+    "id": "chart/动画装饰仪表盘",
+    "text": "动画装饰仪表盘",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 150,
+    "id": "chart/炫酷饼图",
+    "text": "普通饼图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 151,
+    "id": "chart/饼图（常规）",
+    "text": "普通饼图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 152,
+    "id": "chart/占比饼图",
+    "text": "占比饼图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 153,
+    "id": "chart/用户分析健康评分",
+    "text": "仪表饼图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 154,
+    "id": "chart/正面评论",
+    "text": "多系列饼图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 155,
+    "id": "chart/嵌套饼图",
+    "text": "立体饼图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 156,
+    "id": "chart/SPEED",
+    "text": "普通饼图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 157,
+    "id": "chart/CPU分配率",
+    "text": "普通饼图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 158,
+    "id": "chart/GOAL",
+    "text": "炫酷饼图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 159,
+    "id": "chart/24",
+    "text": "普通饼图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 160,
+    "id": "chart/超期率",
+    "text": "普通饼图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 161,
+    "id": "chart/仪表盘带进度条",
+    "text": "仪表盘",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "仪表",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 162,
+    "id": "chart/仪表盘",
+    "text": "仪表盘",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "仪表",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 163,
+    "id": "chart/分段渐变仪表盘",
+    "text": "分段渐变仪表盘",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "仪表",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 164,
+    "id": "chart/仪表盘1",
+    "text": "仪表盘",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "仪表",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 165,
+    "id": "chart/仪表盘2",
+    "text": "炫酷仪表盘",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "仪表",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 166,
+    "id": "chart/噪音仪表盘",
+    "text": "噪音仪表盘",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "仪表",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 167,
+    "id": "chart/仪表盘3",
+    "text": "噪音仪表盘",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "仪表",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 168,
+    "id": "chart/仪表盘-有进度条-指针会动",
+    "text": "仪表盘",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "仪表",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 169,
+    "id": "chart/雷达图",
+    "text": "雷达图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "雷达图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 170,
+    "id": "chart/渐变色雷达图",
+    "text": "k_mzubq6",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "雷达图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 171,
+    "id": "chart/雷达图-tooltip显示单轴数据",
+    "text": "雷达图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "雷达图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 172,
+    "id": "chart/卫星坐标（雷达图）",
+    "text": "卫星坐标雷达图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "雷达图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 173,
+    "id": "chart/闪点气泡图",
+    "text": "普通气泡图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "气泡图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 174,
+    "id": "chart/气泡图 Y轴变汉字中文",
+    "text": "普通气泡图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "气泡图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 175,
+    "id": "chart/散点图",
+    "text": "散点图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "气泡图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 176,
+    "id": "chart/Echarts 气泡图",
+    "text": "普通气泡图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "气泡图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 177,
+    "id": "chart/漏斗图",
+    "text": "漏斗图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "漏斗图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 178,
+    "id": "chart/前后漏斗对比",
+    "text": "前后对比漏斗图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "漏斗图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 179,
+    "id": "chart/左右漏斗图对比",
+    "text": "左右对比漏斗图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "漏斗图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 180,
+    "id": "chart/漏斗图1",
+    "text": "向下漏斗图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "漏斗图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 181,
+    "id": "chart/漏斗图2",
+    "text": "向上漏斗图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "漏斗图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 182,
+    "id": "chart/项目各阶段进度甘特图",
+    "text": "普通甘特图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "甘特图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 183,
+    "id": "chart/甘特图例子",
+    "text": "普通甘特图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "甘特图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 184,
+    "id": "chart/test",
+    "text": "水波图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "水波图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 185,
+    "id": "chart/水球图",
+    "text": "水球图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "水波图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 186,
+    "id": "chart/水球比例图",
+    "text": "水球图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "水波图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 187,
+    "id": "chart/好看环形百分比图",
+    "text": "圆环百分比",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "百分比图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 188,
+    "id": "chart/圆环百分比",
+    "text": "圆环百分比",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "百分比图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 189,
+    "id": "chart/百分比进度条",
+    "text": "百分比进度条",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "百分比图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 190,
+    "id": "chart/3D环饼图",
+    "text": "立体环饼图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "3D饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 191,
+    "id": "chart/3D环形图",
+    "text": "立体环形图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "3D饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 192,
+    "id": "chart/伪3d环形图",
+    "text": "立体环形图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "3D饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 193,
+    "id": "chart/模拟3D地图——迁徙图",
+    "text": "地图流向图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "地图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 194,
+    "id": "chart/地图时间轴多样",
+    "text": "地图气泡图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "地图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 195,
+    "id": "chart/多对象表格",
+    "text": "多对象表格",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "MultiObjectTable",
+      "groupName": "业务表格",
+      "elementuiType": "MultiObjectTable"
+    }
+  },
+  {
+    "i": 196,
+    "id": "chart/实时表格",
+    "text": "实时表格",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "RealTimeTable",
+      "groupName": "业务表格",
+      "elementuiType": "RealTimeTable"
+    }
+  },
+  {
+    "i": 197,
+    "id": "chart/历史表格",
+    "text": "历史表格",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "HistoryTable",
+      "groupName": "业务表格",
+      "elementuiType": "HistoryTable"
+    }
+  },
+  {
+    "i": 198,
+    "id": "chart/计划表格",
+    "text": "计划表格",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "PlanTable",
+      "groupName": "业务表格",
+      "elementuiType": "PlanTable"
+    }
+  },
+  {
+    "i": 199,
+    "id": "chart/历史趋势曲线",
+    "text": "趋势曲线",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "HistoryChart",
+      "groupName": "趋势曲线",
+      "elementuiType": "HistoryChart"
+    }
+  },
+  {
+    "i": 200,
+    "id": "chart/普通柱状图",
+    "text": "普通柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "柱状图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 201,
+    "id": "chart/渐变柱状图",
+    "text": "多系列柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "柱状图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 202,
+    "id": "chart/柱状图表",
+    "text": "普通柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "柱状图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 203,
+    "id": "chart/堆叠柱状图",
+    "text": "堆叠柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "柱状图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 204,
+    "id": "chart/曲顶柱状图",
+    "text": "曲顶柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "柱状图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 205,
+    "id": "chart/象形柱状图",
+    "text": "象形柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "柱状图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 206,
+    "id": "chart/伪立体柱状图",
+    "text": "立体柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "立体柱状图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 207,
+    "id": "chart/双立体柱状图",
+    "text": "多系列立体柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "立体柱状图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 208,
+    "id": "chart/立体柱状图",
+    "text": "立体柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "立体柱状图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 209,
+    "id": "chart/光圈柱状图",
+    "text": "光圈柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "立体柱状图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 210,
+    "id": "chart/3D立体渐变柱状图",
+    "text": "多系列立体柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "立体柱状图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 211,
+    "id": "chart/多色立体柱状图",
+    "text": "立体柱状图1",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "立体柱状图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 212,
+    "id": "chart/伪立体柱状图1",
+    "text": "光圈立体柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "立体柱状图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 213,
+    "id": "chart/伪3D组合柱子",
+    "text": "横向渐变柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "立体柱状图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 214,
+    "id": "chart/横向立体柱状图",
+    "text": "横向立体柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "条形图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 215,
+    "id": "chart/多色横向柱状图",
+    "text": "横向柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "条形图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 216,
+    "id": "chart/渐变横向柱状图",
+    "text": "横向柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "条形图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 217,
+    "id": "chart/横向象形柱状图",
+    "text": "象形柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "条形图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 218,
+    "id": "chart/横向柱状图及排名",
+    "text": "横向柱状图及排名",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "条形图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 219,
+    "id": "chart/重叠横向柱状图",
+    "text": "横向柱状图1",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "条形图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 220,
+    "id": "chart/电池-进度柱状图",
+    "text": "电池-进度柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "条形图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 221,
+    "id": "chart/横排分隔形柱状图",
+    "text": "横排分隔形柱状图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "条形图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 222,
+    "id": "chart/折线图",
+    "text": "折线图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "折线图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 223,
+    "id": "chart/渐变折线图",
+    "text": "渐变折线图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "折线图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 224,
+    "id": "chart/多线图1",
+    "text": "多线图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "折线图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 225,
+    "id": "chart/多线图",
+    "text": "多线图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "折线图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 226,
+    "id": "chart/销售水量占比",
+    "text": "折现堆叠图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "折线图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 227,
+    "id": "chart/多色渐变折线图",
+    "text": "多线图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "折线图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 228,
+    "id": "chart/混合柱状图",
+    "text": "立体混合图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "混合图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 229,
+    "id": "chart/混合立体柱状图",
+    "text": "立体混合图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "混合图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 230,
+    "id": "chart/混合渐变图",
+    "text": "同数据混合图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "混合图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 231,
+    "id": "chart/渐变折线柱状图",
+    "text": "渐变混合图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "混合图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 232,
+    "id": "chart/标注气泡图",
+    "text": "气泡混合图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "混合图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 233,
+    "id": "chart/蓝色饼图",
+    "text": "普通饼图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 234,
+    "id": "chart/南丁格尔玫瑰图",
+    "text": "南丁格尔玫瑰图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 235,
+    "id": "chart/交通方式",
+    "text": "光圈饼图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 236,
+    "id": "chart/断开环形图",
+    "text": "断开环形图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 237,
+    "id": "chart/动画装饰仪表盘",
+    "text": "动画装饰仪表盘",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 238,
+    "id": "chart/炫酷饼图",
+    "text": "普通饼图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 239,
+    "id": "chart/饼图（常规）",
+    "text": "普通饼图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 240,
+    "id": "chart/占比饼图",
+    "text": "占比饼图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 241,
+    "id": "chart/用户分析健康评分",
+    "text": "仪表饼图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 242,
+    "id": "chart/正面评论",
+    "text": "多系列饼图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 243,
+    "id": "chart/嵌套饼图",
+    "text": "立体饼图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 244,
+    "id": "chart/SPEED",
+    "text": "普通饼图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 245,
+    "id": "chart/CPU分配率",
+    "text": "普通饼图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 246,
+    "id": "chart/GOAL",
+    "text": "炫酷饼图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 247,
+    "id": "chart/24",
+    "text": "普通饼图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 248,
+    "id": "chart/超期率",
+    "text": "普通饼图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 249,
+    "id": "chart/仪表盘带进度条",
+    "text": "仪表盘",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "仪表",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 250,
+    "id": "chart/仪表盘",
+    "text": "仪表盘",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "仪表",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 251,
+    "id": "chart/分段渐变仪表盘",
+    "text": "分段渐变仪表盘",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "仪表",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 252,
+    "id": "chart/仪表盘1",
+    "text": "仪表盘",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "仪表",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 253,
+    "id": "chart/仪表盘2",
+    "text": "炫酷仪表盘",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "仪表",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 254,
+    "id": "chart/噪音仪表盘",
+    "text": "噪音仪表盘",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "仪表",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 255,
+    "id": "chart/仪表盘3",
+    "text": "噪音仪表盘",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "仪表",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 256,
+    "id": "chart/仪表盘-有进度条-指针会动",
+    "text": "仪表盘",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "仪表",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 257,
+    "id": "chart/雷达图",
+    "text": "雷达图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "雷达图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 258,
+    "id": "chart/渐变色雷达图",
+    "text": "k_mzubq6",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "雷达图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 259,
+    "id": "chart/雷达图-tooltip显示单轴数据",
+    "text": "雷达图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "雷达图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 260,
+    "id": "chart/卫星坐标（雷达图）",
+    "text": "卫星坐标雷达图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "雷达图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 261,
+    "id": "chart/闪点气泡图",
+    "text": "普通气泡图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "气泡图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 262,
+    "id": "chart/气泡图 Y轴变汉字中文",
+    "text": "普通气泡图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "气泡图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 263,
+    "id": "chart/散点图",
+    "text": "散点图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "气泡图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 264,
+    "id": "chart/Echarts 气泡图",
+    "text": "普通气泡图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "气泡图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 265,
+    "id": "chart/漏斗图",
+    "text": "漏斗图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "漏斗图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 266,
+    "id": "chart/前后漏斗对比",
+    "text": "前后对比漏斗图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "漏斗图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 267,
+    "id": "chart/左右漏斗图对比",
+    "text": "左右对比漏斗图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "漏斗图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 268,
+    "id": "chart/漏斗图1",
+    "text": "向下漏斗图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "漏斗图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 269,
+    "id": "chart/漏斗图2",
+    "text": "向上漏斗图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "漏斗图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 270,
+    "id": "chart/甘特图",
+    "text": "甘特图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementGantt",
+      "groupName": "甘特图",
+      "elementuiType": "ElementGantt"
+    }
+  },
+  {
+    "i": 271,
+    "id": "chart/项目各阶段进度甘特图",
+    "text": "普通甘特图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "甘特图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 272,
+    "id": "chart/甘特图例子",
+    "text": "普通甘特图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "甘特图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 273,
+    "id": "chart/test",
+    "text": "水波图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "水波图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 274,
+    "id": "chart/水球图",
+    "text": "水球图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "水波图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 275,
+    "id": "chart/水球比例图",
+    "text": "水球图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "水波图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 276,
+    "id": "chart/好看环形百分比图",
+    "text": "圆环百分比",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "百分比图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 277,
+    "id": "chart/圆环百分比",
+    "text": "圆环百分比",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "百分比图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 278,
+    "id": "chart/百分比进度条",
+    "text": "百分比进度条",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "百分比图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 279,
+    "id": "chart/3D环饼图",
+    "text": "立体环饼图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "3D饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 280,
+    "id": "chart/3D环形图",
+    "text": "立体环形图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "3D饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 281,
+    "id": "chart/伪3d环形图",
+    "text": "立体环形图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "3D饼图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 282,
+    "id": "chart/模拟3D地图——迁徙图",
+    "text": "地图流向图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "地图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 283,
+    "id": "chart/地图时间轴多样",
+    "text": "地图气泡图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "地图",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 284,
+    "id": "chart/自定义图表",
+    "text": "自定义图表",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "ElementChart",
+      "groupName": "其他",
+      "elementuiType": "ElementChart"
+    }
+  },
+  {
+    "i": 285,
+    "id": "chart/报警窗",
+    "text": "报警窗",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "AlarmWindow",
+      "groupName": "其他",
+      "elementuiType": "AlarmWindow"
+    }
+  },
+  {
+    "i": 286,
+    "id": "2d",
+    "text": "FLOW2D流程图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "FLOW2D流程图"
+    }
+  },
+  {
+    "i": 287,
+    "id": "3d",
+    "text": "FLOW3D流程图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "FLOW3D流程图"
+    }
+  },
+  {
+    "i": 288,
+    "id": "report",
+    "text": "报表流程图",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "toolkit": {
+      "prototypeName": "报表流程图"
+    }
+  }
+]

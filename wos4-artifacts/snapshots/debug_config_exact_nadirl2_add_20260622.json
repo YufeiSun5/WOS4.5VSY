@@ -1,0 +1,328 @@
+{
+  "select": {
+    "ok": true,
+    "labels": [
+      {
+        "i": 0,
+        "text": "默认数据区",
+        "x": 618.90625,
+        "y": 358.1875,
+        "w": 70,
+        "h": 14,
+        "cls": "el-text el-text--default is-truncated el-tree-node__label"
+      },
+      {
+        "i": 1,
+        "text": "测试",
+        "x": 636.90625,
+        "y": 384.1875,
+        "w": 28,
+        "h": 14,
+        "cls": "el-text el-text--default is-truncated el-tree-node__label"
+      },
+      {
+        "i": 2,
+        "text": "工厂",
+        "x": 636.90625,
+        "y": 410.1875,
+        "w": 28,
+        "h": 14,
+        "cls": "el-text el-text--default is-truncated el-tree-node__label"
+      },
+      {
+        "i": 3,
+        "text": "NadirL1",
+        "x": 636.90625,
+        "y": 436.1875,
+        "w": 51.34375,
+        "h": 14,
+        "cls": "el-text el-text--default is-truncated el-tree-node__label"
+      },
+      {
+        "i": 4,
+        "text": "NadirL2",
+        "x": 654.90625,
+        "y": 462.1875,
+        "w": 51.34375,
+        "h": 14,
+        "cls": "el-text el-text--default is-truncated el-tree-node__label"
+      },
+      {
+        "i": 5,
+        "text": "lk测试客户端1",
+        "x": 636.90625,
+        "y": 488.1875,
+        "w": 89.484375,
+        "h": 14,
+        "cls": "el-text el-text--default is-truncated el-tree-node__label"
+      },
+      {
+        "i": 6,
+        "text": "lk_客户端01",
+        "x": 636.90625,
+        "y": 514.1875,
+        "w": 77.078125,
+        "h": 14,
+        "cls": "el-text el-text--default is-truncated el-tree-node__label"
+      },
+      {
+        "i": 7,
+        "text": "管理员客户端",
+        "x": 636.90625,
+        "y": 540.1875,
+        "w": 84,
+        "h": 14,
+        "cls": "el-text el-text--default is-truncated el-tree-node__label"
+      },
+      {
+        "i": 8,
+        "text": "产品生成器功能客户端",
+        "x": 636.90625,
+        "y": 566.1875,
+        "w": 140,
+        "h": 14,
+        "cls": "el-text el-text--default is-truncated el-tree-node__label"
+      },
+      {
+        "i": 9,
+        "text": "开发系统",
+        "x": 636.90625,
+        "y": 592.1875,
+        "w": 56,
+        "h": 14,
+        "cls": "el-text el-text--default is-truncated el-tree-node__label"
+      },
+      {
+        "i": 10,
+        "text": "测试客户端",
+        "x": 636.90625,
+        "y": 618.1875,
+        "w": 70,
+        "h": 14,
+        "cls": "el-text el-text--default is-truncated el-tree-node__label"
+      },
+      {
+        "i": 11,
+        "text": "测试时空-工厂",
+        "x": 636.90625,
+        "y": 644.1875,
+        "w": 88.859375,
+        "h": 14,
+        "cls": "el-text el-text--default is-truncated el-tree-node__label"
+      },
+      {
+        "i": 12,
+        "text": "lk_工厂",
+        "x": 636.90625,
+        "y": 670.1875,
+        "w": 47.53125,
+        "h": 14,
+        "cls": "el-text el-text--default is-truncated el-tree-node__label"
+      },
+      {
+        "i": 13,
+        "text": "测试1",
+        "x": 636.90625,
+        "y": 696.1875,
+        "w": 35.78125,
+        "h": 14,
+        "cls": "el-text el-text--default is-truncated el-tree-node__label"
+      },
+      {
+        "i": 14,
+        "text": "菜单",
+        "x": 636.90625,
+        "y": 722.1875,
+        "w": 28,
+        "h": 14,
+        "cls": "el-text el-text--default is-truncated el-tree-node__label"
+      },
+      {
+        "i": 15,
+        "text": "客户端工程",
+        "x": 636.90625,
+        "y": 748.1875,
+        "w": 70,
+        "h": 14,
+        "cls": "el-text el-text--default is-truncated el-tree-node__label"
+      },
+      {
+        "i": 16,
+        "text": "生成器时空",
+        "x": 636.90625,
+        "y": 774.1875,
+        "w": 70,
+        "h": 14,
+        "cls": "el-text el-text--default is-truncated el-tree-node__label"
+      },
+      {
+        "i": 17,
+        "text": "管理员",
+        "x": 636.90625,
+        "y": 800.1875,
+        "w": 42,
+        "h": 14,
+        "cls": "el-text el-text--default is-truncated el-tree-node__label"
+      },
+      {
+        "i": 18,
+        "text": "客户端1_人工干预点_1",
+        "x": 636.90625,
+        "y": 826.1875,
+        "w": 143.203125,
+        "h": 14,
+        "cls": "el-text el-text--default is-truncated el-tree-node__label"
+      },
+      {
+        "i": 19,
+        "text": "盛云_孙宇飞_时空_0617",
+        "x": 636.90625,
+        "y": 852.1875,
+        "w": 152.5625,
+        "h": 14,
+        "cls": "el-text el-text--default is-truncated el-tree-node__label"
+      },
+      {
+        "i": 20,
+        "text": "手工层级1",
+        "x": 636.90625,
+        "y": 878.1875,
+        "w": 63.78125,
+        "h": 14,
+        "cls": "el-text el-text--default is-truncated el-tree-node__label"
+      },
+      {
+        "i": 21,
+        "text": "盛云_孙宇飞_Noctiluca_客户端",
+        "x": 636.90625,
+        "y": 904.1875,
+        "w": 174,
+        "h": 14,
+        "cls": "el-text el-text--default is-truncated el-tree-node__label"
+      },
+      {
+        "i": 22,
+        "text": "盛云_孙宇飞_时空_0617_TOPV2",
+        "x": 636.90625,
+        "y": 930.1875,
+        "w": 174,
+        "h": 14,
+        "cls": "el-text el-text--default is-truncated el-tree-node__label"
+      },
+      {
+        "i": 23,
+        "text": "客户端1",
+        "x": 636.90625,
+        "y": 956.1875,
+        "w": 49.78125,
+        "h": 14,
+        "cls": "el-text el-text--default is-truncated el-tree-node__label"
+      },
+      {
+        "i": 24,
+        "text": "Eidolon手工层级1",
+        "x": 636.90625,
+        "y": 982.1875,
+        "w": 114.03125,
+        "h": 14,
+        "cls": "el-text el-text--default is-truncated el-tree-node__label"
+      },
+      {
+        "i": 25,
+        "text": "引滦集团",
+        "x": 636.90625,
+        "y": 1008.1875,
+        "w": 56,
+        "h": 14,
+        "cls": "el-text el-text--default is-truncated el-tree-node__label"
+      }
+    ],
+    "clicked": "NadirL2 checkbox"
+  },
+  "add": {
+    "ok": false,
+    "error": "add arrow button missing",
+    "buttons": [
+      {
+        "i": 0,
+        "text": "",
+        "cls": "el-dialog__headerbtn",
+        "disabled": false,
+        "x": 1044.09375,
+        "y": 112.1875,
+        "w": 44,
+        "h": 48
+      },
+      {
+        "i": 1,
+        "text": "点击添加",
+        "cls": "el-button el-button--primary el-button--default is-link",
+        "disabled": false,
+        "x": 679.8125,
+        "y": 162.1875,
+        "w": 62,
+        "h": 20
+      },
+      {
+        "i": 2,
+        "text": "点击添加",
+        "cls": "el-button el-button--primary el-button--default is-link",
+        "disabled": false,
+        "x": 679.8125,
+        "y": 212.1875,
+        "w": 62,
+        "h": 20
+      },
+      {
+        "i": 3,
+        "text": "",
+        "cls": "el-button el-button--default",
+        "disabled": false,
+        "x": 841.90625,
+        "y": 379.1875,
+        "w": 46,
+        "h": 32
+      },
+      {
+        "i": 4,
+        "text": "",
+        "cls": "el-button el-button--default",
+        "disabled": false,
+        "x": 841.90625,
+        "y": 431.1875,
+        "w": 46,
+        "h": 32
+      },
+      {
+        "i": 5,
+        "text": "取消",
+        "cls": "el-button el-button--default",
+        "disabled": false,
+        "x": 940.09375,
+        "y": 596.1875,
+        "w": 60,
+        "h": 32
+      },
+      {
+        "i": 6,
+        "text": "确定",
+        "cls": "el-button el-button--primary el-button--default",
+        "disabled": false,
+        "x": 1012.09375,
+        "y": 596.1875,
+        "w": 60,
+        "h": 32
+      }
+    ]
+  },
+  "state": {
+    "text": "调试配置\n添加用户访问信息:\n点击添加\n添加时空访问信息:\n点击添加\n时空信息:\n默认数据区\n测试\n工厂\nNadirL1\nNadirL2\nlk测试客户端1\nlk_客户端01\n管理员客户端\n产品生成器功能客户端\n开发系统\n测试客户端\n测试时空-工厂\nlk_工厂\n测试1\n菜单\n客户端工程\n生成器时空\n管理员\n客户端1_人工干预点_1\n盛云_孙宇飞_时空_0617\n手工层级1\n盛云_孙宇飞_Noctiluca_客户端\n盛云_孙宇飞_时空_0617_TOPV2\n客户端1\nEidolon手工层级1\n引滦集团\n已选信息:\n\t\n盛云_孙宇飞_时空_0617\n取消\n确定",
+    "rows": [
+      {
+        "i": 0,
+        "text": "盛云_孙宇飞_时空_0617",
+        "cls": "el-table__row"
+      }
+    ]
+  }
+}
