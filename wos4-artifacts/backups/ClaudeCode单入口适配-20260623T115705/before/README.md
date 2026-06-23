@@ -11,7 +11,7 @@
 - `.ai/closed-interactions/AI-ROUTE.md`：已关闭交互的查询路引。
 - `.ai/closed-interactions/INDEX.md`：已关闭交互索引，按编号、任务、参与人和关键词查历史。
 - `.ai/skills/`：项目真实 skill 源。
-- `.claude/skills/use-ai-skill/`：Claude Code 通用 skill 适配器，用 `/use-ai-skill <skill-name>` 路由到 `.ai/skills/`。
+- `.claude/skills/`：Claude Code skill wrapper，只负责把同名命令路由到 `.ai/skills/`。
 - `.ai/docs/project-directory-map.md`：当前目录地图和后续清理顺序。
 - `.ai/docs/backup-and-version-policy.md`：本地 Git、WOS4 平台历史版本和修改前备份规则。
 - `.ai/docs/mcp-and-local-tools.md`：MCP、本地浏览器工具和用户侧安装/启用说明。

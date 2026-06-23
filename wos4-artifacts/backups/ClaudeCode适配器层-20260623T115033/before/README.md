@@ -5,13 +5,11 @@
 ## 入口文件
 
 - `AGENTS.md`：AI 执行入口和强制规则。
-- `CLAUDE.md`：Claude Code 兼容入口，只导入 `AGENTS.md` 并指向 `.ai/`。
 - `MEMORY.md`：长期记忆和 AI 修改记录。
 - `AI-INTERACTION-PANEL.md`：多人协作看板，记录“开发人员 + AI 身份”做了什么。
 - `.ai/closed-interactions/AI-ROUTE.md`：已关闭交互的查询路引。
 - `.ai/closed-interactions/INDEX.md`：已关闭交互索引，按编号、任务、参与人和关键词查历史。
 - `.ai/skills/`：项目真实 skill 源。
-- `.claude/skills/use-ai-skill/`：Claude Code 通用 skill 适配器，用 `/use-ai-skill <skill-name>` 路由到 `.ai/skills/`。
 - `.ai/docs/project-directory-map.md`：当前目录地图和后续清理顺序。
 - `.ai/docs/backup-and-version-policy.md`：本地 Git、WOS4 平台历史版本和修改前备份规则。
 - `.ai/docs/mcp-and-local-tools.md`：MCP、本地浏览器工具和用户侧安装/启用说明。

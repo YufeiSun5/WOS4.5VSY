@@ -1,0 +1,31 @@
+{
+  "task": "Claude Code 适配器层",
+  "created_at": "2026-06-23T11:50:33+08:00",
+  "operator": "孙宇飞_code-ai",
+  "purpose": "为 Claude Code 增加薄适配入口，让其复用 AGENTS.md 和 .ai/skills，不复制第二套规则。",
+  "backups": [
+    {
+      "path": "README.md",
+      "backup": "wos4-artifacts/backups/ClaudeCode适配器层-20260623T115033/before/README.md"
+    },
+    {
+      "path": "MEMORY.md",
+      "backup": "wos4-artifacts/backups/ClaudeCode适配器层-20260623T115033/before/MEMORY.md"
+    }
+  ],
+  "new_paths": [
+    "CLAUDE.md",
+    ".claude/README.md",
+    ".claude/skills/README.md",
+    ".claude/skills/*/SKILL.md"
+  ],
+  "source_of_truth": [
+    "AGENTS.md",
+    ".ai/"
+  ],
+  "notes": [
+    "Claude Code 官方文档说明项目级 CLAUDE.md 可导入 AGENTS.md。",
+    "Claude Code 官方文档说明项目 skill 可放在 .claude/skills/<skill-name>/SKILL.md。",
+    "本次只新增 wrapper，不复制 .ai/skills 的真实流程正文。"
+  ]
+}

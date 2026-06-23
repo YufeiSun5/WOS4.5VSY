@@ -1,0 +1,40 @@
+{
+  "task": "Claude Code 单入口适配",
+  "created_at": "2026-06-23T11:57:05+08:00",
+  "operator": "孙宇飞_code-ai",
+  "purpose": "将一对一 Claude Code skill wrapper 收敛为单一通用适配器，降低 .ai/skills 增删时的维护成本。",
+  "backups": [
+    {
+      "path": "CLAUDE.md",
+      "backup": "wos4-artifacts/backups/ClaudeCode单入口适配-20260623T115705/before/CLAUDE.md"
+    },
+    {
+      "path": "README.md",
+      "backup": "wos4-artifacts/backups/ClaudeCode单入口适配-20260623T115705/before/README.md"
+    },
+    {
+      "path": "MEMORY.md",
+      "backup": "wos4-artifacts/backups/ClaudeCode单入口适配-20260623T115705/before/MEMORY.md"
+    },
+    {
+      "path": ".claude/README.md",
+      "backup": "wos4-artifacts/backups/ClaudeCode单入口适配-20260623T115705/before/.claude__README.md"
+    },
+    {
+      "path": ".claude/skills/README.md",
+      "backup": "wos4-artifacts/backups/ClaudeCode单入口适配-20260623T115705/before/.claude__skills__README.md"
+    }
+  ],
+  "deleted_or_replaced": [
+    {
+      "path": ".claude/skills/<每个项目 skill>/SKILL.md",
+      "backup": "wos4-artifacts/backups/ClaudeCode单入口适配-20260623T115705/before-delete/skills/"
+    }
+  ],
+  "new_or_current_adapter": ".claude/skills/use-ai-skill/SKILL.md",
+  "notes": [
+    "Claude Code 若要每个 slash skill 都可直接补全，机制上需要每个 skill 一个目录。",
+    "本项目选择维护成本更低的单入口 adapter：/use-ai-skill <skill-name>。",
+    "真实规则仍只在 .ai/skills/ 维护。"
+  ]
+}
