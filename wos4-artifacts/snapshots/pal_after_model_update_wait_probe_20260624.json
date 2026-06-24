@@ -1,0 +1,40 @@
+[
+  {
+    "path": "top",
+    "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260617\n组态系统客户端\n建模系统客户端\n运维部署客户端\nCodex临时测试_前端视图_0611\n盛云_孙宇飞_TraceDemo_0617\n盛云_孙宇飞_QueryDemo_0617\n盛云_孙宇飞_前端_框架_0618@EidolonL1Frame_对象1\n盛云_孙宇飞_Noctiluca_客户端_对象1\n盛云_孙宇飞_Noctiluca_客户端_对象2\n盛云_孙宇飞_Nadir_客户端_0622_对象1\n盛云_孙宇飞_Nadir_客户端_0622_对象1",
+    "dialogs": []
+  },
+  {
+    "path": "top.0",
+    "text": "时空功能开发平台Time Space Platform时空开发部署管理 仓库包 权限 镜像 关于时空管理 新建 删除默认数据区KingFusion4.5_V1KingStudio4.5_Beta_dataBaseKF4.5工程引滦原水处理测试mwq测试张测试1芦昆测试工程盛云_孙宇飞_人工测试工程盛云_孙宇飞_Noctiluca盛云_孙宇飞_CRUD工程_0620信息管理系统盛云_孙宇飞_Palimpsest工程_0624KF4.5Root客户端1盛云_孙宇飞_Palimpsest客户端_0624根组私有根组实时报警数据汇总_运行后台个人仓库盛云_孙宇飞_仓库KingStudio4.5_Beta新建生成拷贝复制移动导入导出模式选择:只导出本仓库导出本仓库+数据对象只导出仓库树结构导出仓库树结构+数据对象是否开源:是否删除上传资源打包新建生成拷贝生成拷贝至复制复制至移动导入导出模式选择:只导出本仓库导出本仓库+数据对象只导出仓库树结构导出仓库树结构+数据对象是否开源:是否删除上传资源打包全量打包名称本仓库-多类型暂无数据全选共 6 条 1 23456Infinity前往页属性暂无数据时空仓库筛选全部:Label1:Label2:Label3:取消确定生成拷贝至复制至全量打包名称IDGUID描述按本仓库查看按仓库树查看全部功能单元第三方APPapp模块业务物单灵敏时序物多灵敏时序物业务事时序事关系组织岗位人员安全策略审计策略机密性完整性锁用户用户组角色域型域型交互表资源别名",
+    "dialogs": []
+  },
+  {
+    "path": "top.1",
+    "text": "",
+    "dialogs": []
+  },
+  {
+    "path": "top.1.0",
+    "text": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot\n\n实例列表\n\n新建\n删除\n更多操作 \n\t序号\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\n1\n\t\nPalimpsestBack\n\t\nPalimpsestBack\n\t\nPalimpsest backend CRUD service\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+    "dialogs": [
+      "",
+      ""
+    ]
+  },
+  {
+    "path": "top.2",
+    "text": "\n    \n    \n    !function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();\n    \n    System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))\n  \n\n",
+    "dialogs": []
+  },
+  {
+    "path": "top.2.0",
+    "text": "<strong>We're sorry but app-master doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>KingFusion4.5_建模系统建模系统管控单元建模采集设备建模工作流建模数据源建模数字孪生建模分组       导入 导出 删除  根组集成测试测试引滦工程mwq测试张测试组lk测试盛云_孙宇飞_根组产品生成器功能测试_lk工厂车间产线设备管理员首页建模数据管理生产计划与执行模型列表 新建  更多操作  导入 导出 复制 粘贴 移动 删除   序号名称描述操作1盛云_孙宇飞_Smoke模型_0518建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。 编辑 属性 提交版本 版本管理 更新 删除2盛云_孙宇飞_后台_查询Demo_0618reference lk backend minimal clone: business event + custom calc skeleton 编辑 属性 提交版本 版本管理 更新 删除3盛云_孙宇飞_前端_框架_0618reference lk front frame minimal clone: frame page skeleton 编辑 属性 提交版本 版本管理 更新 删除4盛云_孙宇飞_前端_查询Demo_0618reference lk front business minimal clone: list page + edit page skeleton 编辑 属性 提交版本 版本管理 更新 删除5盛云_孙宇飞_后台_CRUDDemo_0620clean restart backend CRUD model 0620 编辑 属性 提交版本 版本管理 更新 删除6盛云_孙宇飞_前端_框架_0620clean restart front frame model 0620 编辑 属性 提交版本 版本管理 更新 删除7盛云_孙宇飞_前端_CRUDDemo_0620clean restart front business model 0620 编辑 属性 提交版本 版本管理 更新 删除8盛云科技_孙宇飞_Palimpsest_前端_0623Palimpsest frontend model: left 18 percent menu and right 82 percent content test page. 编辑 属性 提交版本 版本管理 更新 删除9盛云科技_孙宇飞_Palimpsest_后台_0623Palimpsest backend model: fake assessment CRUD functions and test records. 编辑 属性 提交版本 版本管理 更新 删除10PalimpsestAssessment_CUSTOMFUNCPalimpsest assessment CRUD backend functions for frontend integration. 编辑 属性 提交版本 版本管理 更新 删除共 10 条50条/页100条/页150条/页200条/页250条/页300条/页<1>前往页KingFusion4.5_工程浏览器盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records. 退出 菜单实例显示  数据模型  物  多灵敏时序物单灵敏时序物业务物事  时序事业务事岗位组织人员逻辑模型  报警规则配置多灵敏数据报警转发单灵敏数据报警转发自定义计算第三方计算管理图形模型  2D精灵图3D精灵图页面精灵图报表精灵图自定义精灵图子模型  形参配置  自定义计算模型 新建  更多操作  复制 粘贴 删除模型名称触发类型触发条件操作PalimpsestBackend自定义函数 编辑 属性 删除共 1 条50条/页100条/页150条/页200条/页250条/页300条/页1前往页\n          \n          body #RContainerkbf46097c1c1a68c7b8e25e2182b08b1 #k5d8e3c36eb953335de0d1f8d7aa1cf2 p {\n  font-family: Source Han Sans;\n  font-size: 18px;\n  font-weight: bold;\n  line-height: normal;\n  letter-spacing: normal;\n  color: #333333;\n}#RContainerkbf46097c1c1a68c7b8e25e2182b08b1 #k5d8e3c36eb953335de0d1f8d7aa1cf2 {\n          background:rgba(255, 255, 255, 0);\n          border-width:0px;\n          border-style:null;\n          border-color:#000000;\n          text-align:left;\n          align-items:center;\n      }\n      #RContainerkbf46097c1c1a68c7b8e25e2182b08b1 #k5d8e3c36eb953335de0d1f8d7aa1cf2 p{\n          font-family:微软雅黑;\n          font-size:16px;\n      }\n      #RContainerkbf46097c1c1a68c7b8e25e2182b08b1 #k5d8e3c36eb953335de0d1f8d7aa1cf2 label{\n          font-weight:bold;\n          font-style:normal;\n          padding-right: 0px;\n          text-decoration:none;\n      }#RContainerkbf46097c1c1a68c7b8e25e2182b08b1 #k5d8e3c36eb953335de0d1f8d7aa1cf2 p {\n            color: #333333;\n          }#RContainerkbf46097c1c1a68c7b8e25e2182b08b1 #k6d6f7ef8911e39f13e3320862e71806 {\n                    background: rgba(247, 249, 252, 1);\n                    background-repeat: repeat;\n                    backgr",
+    "dialogs": [
+      "",
+      "",
+      "一键更新_组件更新  实例应用处引滦原水处理测试mwq测试张测试1芦昆测试工程盛云_孙宇飞_人工测试工程盛云_孙宇飞_Noctiluca盛云_孙宇飞_CRUD工程_0620信息管理系统盛云_孙宇飞_Palimpsest工程_0624 全选 更新  导入  一键发布 KF4.5Root引滦集团测试实例名称模型名称模型版本empty共 0 条50条/页100条/页200条/页500条/页1前往页",
+      ""
+    ]
+  }
+]

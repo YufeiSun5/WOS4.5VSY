@@ -1,0 +1,186 @@
+[
+  {
+    "di": 0,
+    "dialogCount": 0,
+    "inputs": [],
+    "btns": []
+  },
+  {
+    "di": 1,
+    "dialogCount": 13,
+    "inputs": [],
+    "btns": []
+  },
+  {
+    "di": 2,
+    "dialogCount": 0,
+    "inputs": [],
+    "btns": []
+  },
+  {
+    "di": 3,
+    "dialogCount": 65,
+    "inputs": [
+      {
+        "i": 0,
+        "placeholder": "搜索...",
+        "value": "",
+        "x": 262,
+        "y": 100.5,
+        "w": 183,
+        "h": 29,
+        "visible": true
+      },
+      {
+        "i": 1,
+        "placeholder": "搜索",
+        "value": "",
+        "x": 1677,
+        "y": 66,
+        "w": 186,
+        "h": 32,
+        "visible": true
+      },
+      {
+        "i": 13,
+        "placeholder": "请选择",
+        "value": "50条/页",
+        "x": 1516.5,
+        "y": 812,
+        "w": 100,
+        "h": 28,
+        "visible": true
+      },
+      {
+        "i": 14,
+        "placeholder": null,
+        "value": "1",
+        "x": 1830,
+        "y": 812,
+        "w": 46,
+        "h": 28,
+        "visible": true
+      },
+      {
+        "i": 28,
+        "placeholder": "搜索时序事",
+        "value": "",
+        "x": 330,
+        "y": 161,
+        "w": 179,
+        "h": 34,
+        "visible": true
+      },
+      {
+        "i": 29,
+        "placeholder": "",
+        "value": "",
+        "x": 624,
+        "y": 170,
+        "w": 253,
+        "h": 38,
+        "visible": true
+      },
+      {
+        "i": 30,
+        "placeholder": "",
+        "value": "",
+        "x": 957,
+        "y": 170,
+        "w": 547,
+        "h": 38,
+        "visible": true
+      },
+      {
+        "i": 31,
+        "placeholder": "请选择",
+        "value": "",
+        "x": 1570,
+        "y": 170,
+        "w": 310,
+        "h": 38,
+        "visible": true
+      },
+      {
+        "i": 32,
+        "placeholder": "搜索",
+        "value": "",
+        "x": 1654,
+        "y": 270,
+        "w": 200,
+        "h": 34,
+        "visible": true
+      },
+      {
+        "i": 34,
+        "placeholder": "请选择",
+        "value": "50条/页",
+        "x": 1536.5,
+        "y": 793,
+        "w": 100,
+        "h": 28,
+        "visible": true
+      },
+      {
+        "i": 35,
+        "placeholder": null,
+        "value": "1",
+        "x": 1812,
+        "y": 793,
+        "w": 46,
+        "h": 28,
+        "visible": true
+      },
+      {
+        "i": 36,
+        "placeholder": "请输入",
+        "value": "",
+        "x": 822.84375,
+        "y": 95.28125,
+        "w": 317.125,
+        "h": 35,
+        "visible": true
+      },
+      {
+        "i": 37,
+        "placeholder": "请选择",
+        "value": "实时",
+        "x": 822.84375,
+        "y": 146.28125,
+        "w": 317.125,
+        "h": 38,
+        "visible": true
+      },
+      {
+        "i": 38,
+        "placeholder": "请输入描述...",
+        "value": "",
+        "x": 822.84375,
+        "y": 200.28125,
+        "w": 317.125,
+        "h": 112,
+        "visible": true
+      }
+    ],
+    "btns": [
+      {
+        "i": 86,
+        "text": "取消",
+        "x": 987,
+        "y": 328.28125,
+        "w": 72,
+        "h": 30,
+        "visible": true
+      },
+      {
+        "i": 87,
+        "text": "确定",
+        "x": 1069,
+        "y": 328.28125,
+        "w": 71,
+        "h": 30,
+        "visible": true
+      }
+    ]
+  }
+]

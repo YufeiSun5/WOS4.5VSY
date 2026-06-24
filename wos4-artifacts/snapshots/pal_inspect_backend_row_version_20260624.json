@@ -1,0 +1,26 @@
+{
+  "rowText": "8 盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.",
+  "rect": {
+    "x": 831,
+    "y": 504.5,
+    "w": 778,
+    "h": 40
+  },
+  "inputs": [
+    {
+      "i": 0,
+      "value": "V1",
+      "placeholder": "请选择",
+      "readonly": true,
+      "outer": "<input type=\"text\" readonly=\"readonly\" autocomplete=\"off\" placeholder=\"请选择\" class=\"el-input__inner\">"
+    }
+  ],
+  "selects": [
+    {
+      "i": 0,
+      "text": "",
+      "html": "<div data-v-3499da1b=\"\" class=\"el-select el-select--medium\"><!----><div class=\"el-input el-input--medium el-input--suffix\"><!----><input type=\"text\" readonly=\"readonly\" autocomplete=\"off\" placeholder=\"请选择\" class=\"el-input__inner\"><!----><span class=\"el-input__suffix\"><span class=\"el-input__suffix-inner\"><i class=\"el-select__caret el-input__icon el-icon-arrow-up\"></i><!----><!----><!----><!----><!----></span><!----></span><!----><!----></div><div class=\"el-select-dropdown el-popper\" style=\"display: none; min-width: 80px;\"><div class=\"el-scrollbar\" style=\"\"><div class=\"el-select-dropdown__wrap el-scrollbar__wrap\" style=\"margin-bottom: -8px; margin-right: -8px;\"><ul class=\"el-scrollbar__view el-select-dropdown__list\"><!----><div data-v-3499da1b=\"\"><li data-v-3499da1b=\"\" class=\"el-select-dropdown__item selected\"><span>V1</span></li></div><!----><!----></ul></div><div class=\"el-scrollbar__bar is-horizontal\"><div class=\"el-scrollbar__thumb\" style=\"width: 0px; transform: translateX(0%);\"></di"
+    }
+  ],
+  "rowHtml": "<tr class=\"el-table__row\"><td rowspan=\"1\" colspan=\"1\" class=\"el-table_3_column_14 is-center  el-table__cell\"><div class=\"cell\"><div>8</div></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_3_column_15 is-left  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 352px;\"><!----><span data-v-3499da1b=\"\">盛云科技_孙宇飞_Palimpsest_后台_0623</span></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_3_column_16 is-left  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 262px;\"><!----><span data-v-3499da1b=\"\">Palimpsest backend model: fake assessment CRUD functions and test records.</span></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_3_column_17 is-center  el-table__cell\"><div class=\"cell\"><!----><!----><!----><!----><!----><div data-v-3499da1b=\"\" class=\"el-select el-select--medium\"><!----><div class=\"el-input el-input--medium el-input--suffix\"><!----><input type=\"text\" readonly=\"readonly\" autocomplete=\"off\" placeholder=\"请选择\" class=\"el-input__inner\"><!----><span class=\"el-input__suffix\"><span class=\"el-input__suffix-inner\"><i class=\"el-select__caret el-input__icon el-icon-arrow-up\"></i><!----><!----><!----><!----><!----></span><!----></span><!----><!----></div><div class=\"el-select-dropdown el-popper\" style=\"display: none; min-width: 80px;\"><div class=\"el-scrollbar\" style=\"\"><div class=\"el-select-dropdown__wrap el-scrollbar__wrap\" style=\"margin-bottom: -8px; margin-right: -8px;\"><ul class=\"el-scrollbar__view el-select-dropdown__list\"><!----><div data-v-3499da1b=\"\"><li data-v-3499da1b=\"\" class=\"el-select-dropdown__item selected\"><span>V1</span></li></div><!----><!----></ul></div><div class=\"el-scrollbar__bar is-horizontal\"><div class=\"el-scrollbar__thumb\" style=\"width: 0px; transform: translateX(0%);\"></div></div><div class=\"el-scrollbar__bar is-vertical\"><div class=\"el-scrollbar__thumb\" style=\"height: 0px; transform: translateY(0%);\"></div></div></div><!----></div></div></div></td></tr>"
+}

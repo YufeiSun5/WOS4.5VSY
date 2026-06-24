@@ -1,0 +1,1506 @@
+{
+  "text": "KingFusion4.5_建模系统\n\n建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页\n\nKingFusion4.5_工程浏览器\n\n盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n人员\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n第三方计算管理\n\t\n\n\n图形模型\n\t\n\n\n2D精灵图\n\t\n\n\n3D精灵图\n\t\n\n\n页面精灵图\n\t\n\n\n报表精灵图\n\t\n\n\n自定义精灵图\n\t\n\n\n子模型\n\t\n\n\n形参配置\n\t\n\n自定义计算模型\n\n新建\n更多操作 \n\t模型名称\t触发类型\t触发条件\t操作\n\t\nPalimpsestBackend\n\t\n自定义函数\n\t\n\t\n编辑\n属性\n删除\n共 1 条\n1\n前往页\n\nPalimpsestBackend脚本编辑器",
+  "monaco": false,
+  "funcs": [
+    {
+      "i": 0,
+      "text": "KingFusion4.5_建模系统\n\n建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页\n\nKingFusion4.5_工程浏览器\n\n盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n人员\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n第三方计算管理\n\t\n\n\n图形模型\n\t\n\n\n2D精灵图\n\t\n\n\n3D精灵图\n\t\n\n\n页面精灵图\n\t\n\n\n报表精灵图\n\t\n\n\n自定义精灵图\n\t\n\n\n子模型\n\t\n\n\n形参配置\n\t\n\n自定义计算模型\n\n新建\n更多操作 \n\t模型名称\t触发类型\t触发条件\t操作\n\t\nPalimpsestBackend\n\t\n自定义函数\n\t\n\t\n编辑\n属性\n删除\n共 1 条\n1\n前往页",
+      "cls": "client_run"
+    },
+    {
+      "i": 1,
+      "text": "KingFusion4.5_建模系统\n\n建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页\n\nKingFusion4.5_工程浏览器\n\n盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n人员\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n第三方计算管理\n\t\n\n\n图形模型\n\t\n\n\n2D精灵图\n\t\n\n\n3D精灵图\n\t\n\n\n页面精灵图\n\t\n\n\n报表精灵图\n\t\n\n\n自定义精灵图\n\t\n\n\n子模型\n\t\n\n\n形参配置\n\t\n\n自定义计算模型\n\n新建\n更多操作 \n\t模型名称\t触发类型\t触发条件\t操作\n\t\nPalimpsestBackend\n\t\n自定义函数\n\t\n\t\n编辑\n属性\n删除\n共 1 条\n1\n前往页",
+      "cls": ""
+    },
+    {
+      "i": 2,
+      "text": "KingFusion4.5_建模系统\n\n建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "ksc_page_run"
+    },
+    {
+      "i": 3,
+      "text": "KingFusion4.5_建模系统\n\n建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "page_running"
+    },
+    {
+      "i": 4,
+      "text": "KingFusion4.5_建模系统\n\n建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "page_view_container client_page_view_container"
+    },
+    {
+      "i": 5,
+      "text": "KingFusion4.5_建模系统\n\n建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "page_view"
+    },
+    {
+      "i": 6,
+      "text": "KingFusion4.5_建模系统\n\n建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "layer_view"
+    },
+    {
+      "i": 7,
+      "text": "KingFusion4.5_建模系统\n\n建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "layout_container containerStyle"
+    },
+    {
+      "i": 8,
+      "text": "KingFusion4.5_建模系统\n\n建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "containerrow"
+    },
+    {
+      "i": 9,
+      "text": "KingFusion4.5_建模系统",
+      "cls": "response_row"
+    },
+    {
+      "i": 10,
+      "text": "KingFusion4.5_建模系统",
+      "cls": ""
+    },
+    {
+      "i": 18,
+      "text": "KingFusion4.5_建模系统",
+      "cls": ""
+    },
+    {
+      "i": 19,
+      "text": "KingFusion4.5_建模系统",
+      "cls": "component_object_unselect"
+    },
+    {
+      "i": 20,
+      "text": "KingFusion4.5_建模系统",
+      "cls": "ui_factory"
+    },
+    {
+      "i": 21,
+      "text": "KingFusion4.5_建模系统",
+      "cls": "pointer_auto"
+    },
+    {
+      "i": 22,
+      "text": "KingFusion4.5_建模系统",
+      "cls": "el-text-component component_object ElementText1"
+    },
+    {
+      "i": 24,
+      "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "response_row"
+    },
+    {
+      "i": 25,
+      "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": ""
+    },
+    {
+      "i": 26,
+      "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": ""
+    },
+    {
+      "i": 27,
+      "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "component_object_unselect"
+    },
+    {
+      "i": 28,
+      "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "ui_factory layer_class"
+    },
+    {
+      "i": 29,
+      "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "page_view_container client_page_view_container set_page_app component_object 开发系统_框架页面"
+    },
+    {
+      "i": 30,
+      "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "page_view"
+    },
+    {
+      "i": 31,
+      "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "layer_view"
+    },
+    {
+      "i": 32,
+      "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "layout_container containerStyle"
+    },
+    {
+      "i": 33,
+      "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "containerrow"
+    },
+    {
+      "i": 34,
+      "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "response_row"
+    },
+    {
+      "i": 35,
+      "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": ""
+    },
+    {
+      "i": 36,
+      "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模",
+      "cls": ""
+    },
+    {
+      "i": 37,
+      "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模",
+      "cls": "component_object_unselect"
+    },
+    {
+      "i": 38,
+      "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模",
+      "cls": "ui_factory"
+    },
+    {
+      "i": 39,
+      "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模",
+      "cls": "pointer_auto"
+    },
+    {
+      "i": 40,
+      "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模",
+      "cls": "layout_container component_object containerStyle"
+    },
+    {
+      "i": 41,
+      "text": "建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模",
+      "cls": "containerrow"
+    },
+    {
+      "i": 42,
+      "text": "建模系统",
+      "cls": "response_row"
+    },
+    {
+      "i": 43,
+      "text": "建模系统",
+      "cls": ""
+    },
+    {
+      "i": 44,
+      "text": "建模系统",
+      "cls": ""
+    },
+    {
+      "i": 45,
+      "text": "建模系统",
+      "cls": "component_object_unselect"
+    },
+    {
+      "i": 46,
+      "text": "建模系统",
+      "cls": "ui_factory"
+    },
+    {
+      "i": 47,
+      "text": "建模系统",
+      "cls": "pointer_auto"
+    },
+    {
+      "i": 48,
+      "text": "建模系统",
+      "cls": "el-text-component component_object ElementText1"
+    },
+    {
+      "i": 49,
+      "text": "管控单元建模\n采集设备建模\n工作流建模\n数据源建模",
+      "cls": "response_row"
+    },
+    {
+      "i": 50,
+      "text": "管控单元建模\n采集设备建模\n工作流建模\n数据源建模",
+      "cls": ""
+    },
+    {
+      "i": 51,
+      "text": "管控单元建模\n采集设备建模\n工作流建模\n数据源建模",
+      "cls": ""
+    },
+    {
+      "i": 52,
+      "text": "管控单元建模\n采集设备建模\n工作流建模\n数据源建模",
+      "cls": "component_object_unselect"
+    },
+    {
+      "i": 53,
+      "text": "管控单元建模\n采集设备建模\n工作流建模\n数据源建模",
+      "cls": "ui_factory"
+    },
+    {
+      "i": 54,
+      "text": "管控单元建模\n采集设备建模\n工作流建模\n数据源建模",
+      "cls": "pointer_auto"
+    },
+    {
+      "i": 55,
+      "text": "管控单元建模\n采集设备建模\n工作流建模\n数据源建模",
+      "cls": "custom_tree component_object ElementTree1"
+    },
+    {
+      "i": 56,
+      "text": "管控单元建模\n采集设备建模\n工作流建模\n数据源建模",
+      "cls": "el-tree tree el-tree--highlight-current"
+    },
+    {
+      "i": 57,
+      "text": "管控单元建模",
+      "cls": "el-tree-node is-expanded is-current is-focusable"
+    },
+    {
+      "i": 58,
+      "text": "管控单元建模",
+      "cls": "el-tree-node__content"
+    },
+    {
+      "i": 60,
+      "text": "管控单元建模",
+      "cls": "editNode root-node"
+    },
+    {
+      "i": 61,
+      "text": "管控单元建模",
+      "cls": "treeNodeLabel"
+    },
+    {
+      "i": 66,
+      "text": "采集设备建模",
+      "cls": "el-tree-node is-focusable"
+    },
+    {
+      "i": 67,
+      "text": "采集设备建模",
+      "cls": "el-tree-node__content"
+    },
+    {
+      "i": 69,
+      "text": "采集设备建模",
+      "cls": "editNode root-node"
+    },
+    {
+      "i": 70,
+      "text": "采集设备建模",
+      "cls": "treeNodeLabel"
+    },
+    {
+      "i": 74,
+      "text": "工作流建模",
+      "cls": "el-tree-node is-focusable"
+    },
+    {
+      "i": 75,
+      "text": "工作流建模",
+      "cls": "el-tree-node__content"
+    },
+    {
+      "i": 77,
+      "text": "工作流建模",
+      "cls": "editNode root-node"
+    },
+    {
+      "i": 78,
+      "text": "工作流建模",
+      "cls": "treeNodeLabel"
+    },
+    {
+      "i": 82,
+      "text": "数据源建模",
+      "cls": "el-tree-node is-expanded is-focusable"
+    },
+    {
+      "i": 83,
+      "text": "数据源建模",
+      "cls": "el-tree-node__content"
+    },
+    {
+      "i": 85,
+      "text": "数据源建模",
+      "cls": "editNode root-node"
+    },
+    {
+      "i": 86,
+      "text": "数据源建模",
+      "cls": "treeNodeLabel"
+    },
+    {
+      "i": 96,
+      "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": ""
+    },
+    {
+      "i": 97,
+      "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "component_object_unselect"
+    },
+    {
+      "i": 98,
+      "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "ui_factory layer_class"
+    },
+    {
+      "i": 99,
+      "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "page_view_container client_page_view_container set_page_app component_object 数字孪生建模_框架页面"
+    },
+    {
+      "i": 100,
+      "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "page_view"
+    },
+    {
+      "i": 101,
+      "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "layer_view"
+    },
+    {
+      "i": 102,
+      "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "layout_container containerStyle"
+    },
+    {
+      "i": 103,
+      "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "containerrow"
+    },
+    {
+      "i": 104,
+      "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "response_row"
+    },
+    {
+      "i": 105,
+      "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": ""
+    },
+    {
+      "i": 106,
+      "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行",
+      "cls": ""
+    },
+    {
+      "i": 107,
+      "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行",
+      "cls": "component_object_unselect"
+    },
+    {
+      "i": 108,
+      "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行",
+      "cls": "ui_factory"
+    },
+    {
+      "i": 109,
+      "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行",
+      "cls": "pointer_auto"
+    },
+    {
+      "i": 110,
+      "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行",
+      "cls": "layout_container component_object containerStyle"
+    },
+    {
+      "i": 111,
+      "text": "数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行",
+      "cls": "containerrow"
+    },
+    {
+      "i": 112,
+      "text": "数字孪生建模分组",
+      "cls": "response_row"
+    },
+    {
+      "i": 113,
+      "text": "数字孪生建模分组",
+      "cls": ""
+    },
+    {
+      "i": 114,
+      "text": "数字孪生建模分组",
+      "cls": ""
+    },
+    {
+      "i": 115,
+      "text": "数字孪生建模分组",
+      "cls": "component_object_unselect"
+    },
+    {
+      "i": 116,
+      "text": "数字孪生建模分组",
+      "cls": "ui_factory"
+    },
+    {
+      "i": 117,
+      "text": "数字孪生建模分组",
+      "cls": "pointer_auto"
+    },
+    {
+      "i": 118,
+      "text": "数字孪生建模分组",
+      "cls": "el-text-component component_object ElementText2"
+    },
+    {
+      "i": 167,
+      "text": "根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行",
+      "cls": "response_row"
+    },
+    {
+      "i": 168,
+      "text": "根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行",
+      "cls": ""
+    },
+    {
+      "i": 169,
+      "text": "根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行",
+      "cls": ""
+    },
+    {
+      "i": 170,
+      "text": "根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行",
+      "cls": "component_object_unselect"
+    },
+    {
+      "i": 171,
+      "text": "根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行",
+      "cls": "ui_factory"
+    },
+    {
+      "i": 172,
+      "text": "根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行",
+      "cls": "pointer_auto"
+    },
+    {
+      "i": 173,
+      "text": "根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行",
+      "cls": "custom_tree component_object 工厂模型分组树"
+    },
+    {
+      "i": 174,
+      "text": "根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行",
+      "cls": "el-tree tree el-tree--highlight-current"
+    },
+    {
+      "i": 175,
+      "text": "根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行",
+      "cls": "el-tree-node is-expanded is-focusable"
+    },
+    {
+      "i": 176,
+      "text": "根组",
+      "cls": "el-tree-node__content"
+    },
+    {
+      "i": 178,
+      "text": "根组",
+      "cls": "editNode root-node"
+    },
+    {
+      "i": 179,
+      "text": "根组",
+      "cls": "treeNodeLabel"
+    },
+    {
+      "i": 181,
+      "text": "集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行",
+      "cls": "el-tree-node__children"
+    },
+    {
+      "i": 182,
+      "text": "集成测试",
+      "cls": "el-tree-node is-expanded is-focusable"
+    },
+    {
+      "i": 183,
+      "text": "集成测试",
+      "cls": "el-tree-node__content"
+    },
+    {
+      "i": 185,
+      "text": "集成测试",
+      "cls": "editNode"
+    },
+    {
+      "i": 186,
+      "text": "集成测试",
+      "cls": "treeNodeLabel"
+    },
+    {
+      "i": 189,
+      "text": "测试",
+      "cls": "el-tree-node is-expanded is-focusable"
+    },
+    {
+      "i": 190,
+      "text": "测试",
+      "cls": "el-tree-node__content"
+    },
+    {
+      "i": 192,
+      "text": "测试",
+      "cls": "editNode"
+    },
+    {
+      "i": 193,
+      "text": "测试",
+      "cls": "treeNodeLabel"
+    },
+    {
+      "i": 196,
+      "text": "引滦工程",
+      "cls": "el-tree-node is-expanded is-focusable"
+    },
+    {
+      "i": 197,
+      "text": "引滦工程",
+      "cls": "el-tree-node__content"
+    },
+    {
+      "i": 199,
+      "text": "引滦工程",
+      "cls": "editNode"
+    },
+    {
+      "i": 200,
+      "text": "引滦工程",
+      "cls": "treeNodeLabel"
+    },
+    {
+      "i": 203,
+      "text": "mwq测试",
+      "cls": "el-tree-node is-expanded is-focusable"
+    },
+    {
+      "i": 204,
+      "text": "mwq测试",
+      "cls": "el-tree-node__content"
+    },
+    {
+      "i": 206,
+      "text": "mwq测试",
+      "cls": "editNode"
+    },
+    {
+      "i": 207,
+      "text": "mwq测试",
+      "cls": "treeNodeLabel"
+    },
+    {
+      "i": 210,
+      "text": "张测试组",
+      "cls": "el-tree-node is-expanded is-focusable"
+    },
+    {
+      "i": 211,
+      "text": "张测试组",
+      "cls": "el-tree-node__content"
+    },
+    {
+      "i": 213,
+      "text": "张测试组",
+      "cls": "editNode"
+    },
+    {
+      "i": 214,
+      "text": "张测试组",
+      "cls": "treeNodeLabel"
+    },
+    {
+      "i": 217,
+      "text": "lk测试",
+      "cls": "el-tree-node is-expanded is-focusable"
+    },
+    {
+      "i": 218,
+      "text": "lk测试",
+      "cls": "el-tree-node__content"
+    },
+    {
+      "i": 220,
+      "text": "lk测试",
+      "cls": "editNode"
+    },
+    {
+      "i": 221,
+      "text": "lk测试",
+      "cls": "treeNodeLabel"
+    },
+    {
+      "i": 224,
+      "text": "盛云_孙宇飞_根组",
+      "cls": "el-tree-node is-expanded is-current is-focusable"
+    },
+    {
+      "i": 225,
+      "text": "盛云_孙宇飞_根组",
+      "cls": "el-tree-node__content"
+    },
+    {
+      "i": 227,
+      "text": "盛云_孙宇飞_根组",
+      "cls": "editNode"
+    },
+    {
+      "i": 228,
+      "text": "盛云_孙宇飞_根组",
+      "cls": "treeNodeLabel"
+    },
+    {
+      "i": 231,
+      "text": "产品生成器功能测试_lk",
+      "cls": "el-tree-node is-expanded is-focusable"
+    },
+    {
+      "i": 232,
+      "text": "产品生成器功能测试_lk",
+      "cls": "el-tree-node__content"
+    },
+    {
+      "i": 234,
+      "text": "产品生成器功能测试_lk",
+      "cls": "editNode"
+    },
+    {
+      "i": 235,
+      "text": "产品生成器功能测试_lk",
+      "cls": "treeNodeLabel"
+    },
+    {
+      "i": 238,
+      "text": "工厂",
+      "cls": "el-tree-node is-expanded is-focusable"
+    },
+    {
+      "i": 239,
+      "text": "工厂",
+      "cls": "el-tree-node__content"
+    },
+    {
+      "i": 241,
+      "text": "工厂",
+      "cls": "editNode"
+    },
+    {
+      "i": 242,
+      "text": "工厂",
+      "cls": "treeNodeLabel"
+    },
+    {
+      "i": 245,
+      "text": "车间",
+      "cls": "el-tree-node is-expanded is-focusable"
+    },
+    {
+      "i": 246,
+      "text": "车间",
+      "cls": "el-tree-node__content"
+    },
+    {
+      "i": 248,
+      "text": "车间",
+      "cls": "editNode"
+    },
+    {
+      "i": 249,
+      "text": "车间",
+      "cls": "treeNodeLabel"
+    },
+    {
+      "i": 252,
+      "text": "产线",
+      "cls": "el-tree-node is-expanded is-focusable"
+    },
+    {
+      "i": 253,
+      "text": "产线",
+      "cls": "el-tree-node__content"
+    },
+    {
+      "i": 255,
+      "text": "产线",
+      "cls": "editNode"
+    },
+    {
+      "i": 256,
+      "text": "产线",
+      "cls": "treeNodeLabel"
+    },
+    {
+      "i": 259,
+      "text": "设备",
+      "cls": "el-tree-node is-expanded is-focusable"
+    },
+    {
+      "i": 260,
+      "text": "设备",
+      "cls": "el-tree-node__content"
+    },
+    {
+      "i": 262,
+      "text": "设备",
+      "cls": "editNode"
+    },
+    {
+      "i": 263,
+      "text": "设备",
+      "cls": "treeNodeLabel"
+    },
+    {
+      "i": 266,
+      "text": "管理员",
+      "cls": "el-tree-node is-expanded is-focusable"
+    },
+    {
+      "i": 267,
+      "text": "管理员",
+      "cls": "el-tree-node__content"
+    },
+    {
+      "i": 269,
+      "text": "管理员",
+      "cls": "editNode"
+    },
+    {
+      "i": 270,
+      "text": "管理员",
+      "cls": "treeNodeLabel"
+    },
+    {
+      "i": 273,
+      "text": "首页建模",
+      "cls": "el-tree-node is-expanded is-focusable"
+    },
+    {
+      "i": 274,
+      "text": "首页建模",
+      "cls": "el-tree-node__content"
+    },
+    {
+      "i": 276,
+      "text": "首页建模",
+      "cls": "editNode"
+    },
+    {
+      "i": 277,
+      "text": "首页建模",
+      "cls": "treeNodeLabel"
+    },
+    {
+      "i": 280,
+      "text": "数据管理",
+      "cls": "el-tree-node is-expanded is-focusable"
+    },
+    {
+      "i": 281,
+      "text": "数据管理",
+      "cls": "el-tree-node__content"
+    },
+    {
+      "i": 283,
+      "text": "数据管理",
+      "cls": "editNode"
+    },
+    {
+      "i": 284,
+      "text": "数据管理",
+      "cls": "treeNodeLabel"
+    },
+    {
+      "i": 287,
+      "text": "生产计划与执行",
+      "cls": "el-tree-node is-expanded is-focusable"
+    },
+    {
+      "i": 288,
+      "text": "生产计划与执行",
+      "cls": "el-tree-node__content"
+    },
+    {
+      "i": 290,
+      "text": "生产计划与执行",
+      "cls": "editNode"
+    },
+    {
+      "i": 291,
+      "text": "生产计划与执行",
+      "cls": "treeNodeLabel"
+    },
+    {
+      "i": 299,
+      "text": "模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": ""
+    },
+    {
+      "i": 300,
+      "text": "模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "component_object_unselect"
+    },
+    {
+      "i": 301,
+      "text": "模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "ui_factory"
+    },
+    {
+      "i": 302,
+      "text": "模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "pointer_auto"
+    },
+    {
+      "i": 303,
+      "text": "模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "layout_container component_object containerStyle"
+    },
+    {
+      "i": 304,
+      "text": "模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页",
+      "cls": "containerrow"
+    },
+    {
+      "i": 305,
+      "text": "模型列表\n\n新建\n更多操作",
+      "cls": "response_row"
+    },
+    {
+      "i": 306,
+      "text": "模型列表\n\n新建\n更多操作",
+      "cls": ""
+    },
+    {
+      "i": 307,
+      "text": "模型列表",
+      "cls": ""
+    },
+    {
+      "i": 308,
+      "text": "模型列表",
+      "cls": "component_object_unselect"
+    },
+    {
+      "i": 309,
+      "text": "模型列表",
+      "cls": "ui_factory"
+    },
+    {
+      "i": 310,
+      "text": "模型列表",
+      "cls": "pointer_auto"
+    },
+    {
+      "i": 311,
+      "text": "模型列表",
+      "cls": "el-text-component component_object ElementText1"
+    },
+    {
+      "i": 312,
+      "text": "新建",
+      "cls": ""
+    },
+    {
+      "i": 313,
+      "text": "新建",
+      "cls": "component_object_unselect"
+    },
+    {
+      "i": 314,
+      "text": "新建",
+      "cls": "ui_factory"
+    },
+    {
+      "i": 315,
+      "text": "新建",
+      "cls": "pointer_auto"
+    },
+    {
+      "i": 316,
+      "text": "新建",
+      "cls": "component_object 新建按钮"
+    },
+    {
+      "i": 317,
+      "text": "新建",
+      "cls": ""
+    },
+    {
+      "i": 318,
+      "text": "更多操作",
+      "cls": ""
+    },
+    {
+      "i": 319,
+      "text": "更多操作",
+      "cls": "component_object_unselect"
+    },
+    {
+      "i": 320,
+      "text": "更多操作",
+      "cls": "ui_factory"
+    },
+    {
+      "i": 321,
+      "text": "更多操作",
+      "cls": "pointer_auto"
+    },
+    {
+      "i": 322,
+      "text": "更多操作",
+      "cls": "el-tooltip component_object ElementDropdown1"
+    },
+    {
+      "i": 323,
+      "text": "更多操作",
+      "cls": "el-dropdown k53f561cdd82c51b54ef707c39c99d65"
+    },
+    {
+      "i": 324,
+      "text": "更多操作",
+      "cls": ""
+    },
+    {
+      "i": 352,
+      "text": "序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "cls": "response_row"
+    },
+    {
+      "i": 353,
+      "text": "序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "cls": ""
+    },
+    {
+      "i": 354,
+      "text": "序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "cls": ""
+    },
+    {
+      "i": 355,
+      "text": "序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "cls": "component_object_unselect"
+    },
+    {
+      "i": 356,
+      "text": "序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "cls": "ui_factory"
+    },
+    {
+      "i": 357,
+      "text": "序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "cls": "pointer_auto"
+    },
+    {
+      "i": 358,
+      "text": "序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "cls": "PCUI_ElementTable component_object 模型列表"
+    },
+    {
+      "i": 359,
+      "text": "序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "cls": "el-table el-table--fit el-table--border el-table--enable-row-hover el-table--enable-row-transition el-table--medium"
+    },
+    {
+      "i": 366,
+      "text": "序号\t名称\t描述\t操作",
+      "cls": "el-table__header-wrapper"
+    },
+    {
+      "i": 370,
+      "text": "序号",
+      "cls": "cell"
+    },
+    {
+      "i": 371,
+      "text": "序号",
+      "cls": ""
+    },
+    {
+      "i": 372,
+      "text": "名称",
+      "cls": "cell"
+    },
+    {
+      "i": 374,
+      "text": "名称",
+      "cls": ""
+    },
+    {
+      "i": 375,
+      "text": "描述",
+      "cls": "cell"
+    },
+    {
+      "i": 377,
+      "text": "描述",
+      "cls": ""
+    },
+    {
+      "i": 378,
+      "text": "操作",
+      "cls": "cell"
+    },
+    {
+      "i": 380,
+      "text": "操作",
+      "cls": ""
+    },
+    {
+      "i": 381,
+      "text": "1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "cls": "el-table__body-wrapper is-scrolling-none"
+    },
+    {
+      "i": 385,
+      "text": "1",
+      "cls": "cell"
+    },
+    {
+      "i": 386,
+      "text": "1",
+      "cls": ""
+    },
+    {
+      "i": 387,
+      "text": "盛云_孙宇飞_Smoke模型_0518",
+      "cls": "cell el-tooltip"
+    },
+    {
+      "i": 388,
+      "text": "盛云_孙宇飞_Smoke模型_0518",
+      "cls": ""
+    },
+    {
+      "i": 389,
+      "text": "建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。",
+      "cls": "cell el-tooltip"
+    },
+    {
+      "i": 390,
+      "text": "建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。",
+      "cls": ""
+    },
+    {
+      "i": 391,
+      "text": "编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "cls": "cell"
+    },
+    {
+      "i": 392,
+      "text": "编辑",
+      "cls": ""
+    },
+    {
+      "i": 393,
+      "text": "属性",
+      "cls": ""
+    },
+    {
+      "i": 394,
+      "text": "提交版本",
+      "cls": ""
+    },
+    {
+      "i": 395,
+      "text": "版本管理",
+      "cls": ""
+    },
+    {
+      "i": 396,
+      "text": "更新",
+      "cls": ""
+    },
+    {
+      "i": 397,
+      "text": "删除",
+      "cls": ""
+    },
+    {
+      "i": 401,
+      "text": "2",
+      "cls": "cell"
+    },
+    {
+      "i": 402,
+      "text": "2",
+      "cls": ""
+    },
+    {
+      "i": 403,
+      "text": "盛云_孙宇飞_后台_查询Demo_0618",
+      "cls": "cell el-tooltip"
+    },
+    {
+      "i": 404,
+      "text": "盛云_孙宇飞_后台_查询Demo_0618",
+      "cls": ""
+    },
+    {
+      "i": 405,
+      "text": "reference lk backend minimal clone: business event + custom calc skeleton",
+      "cls": "cell el-tooltip"
+    },
+    {
+      "i": 406,
+      "text": "reference lk backend minimal clone: business event + custom calc skeleton",
+      "cls": ""
+    },
+    {
+      "i": 407,
+      "text": "编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "cls": "cell"
+    },
+    {
+      "i": 408,
+      "text": "编辑",
+      "cls": ""
+    },
+    {
+      "i": 409,
+      "text": "属性",
+      "cls": ""
+    },
+    {
+      "i": 410,
+      "text": "提交版本",
+      "cls": ""
+    },
+    {
+      "i": 411,
+      "text": "版本管理",
+      "cls": ""
+    },
+    {
+      "i": 412,
+      "text": "更新",
+      "cls": ""
+    },
+    {
+      "i": 413,
+      "text": "删除",
+      "cls": ""
+    },
+    {
+      "i": 417,
+      "text": "3",
+      "cls": "cell"
+    },
+    {
+      "i": 418,
+      "text": "3",
+      "cls": ""
+    },
+    {
+      "i": 419,
+      "text": "盛云_孙宇飞_前端_框架_0618",
+      "cls": "cell el-tooltip"
+    },
+    {
+      "i": 420,
+      "text": "盛云_孙宇飞_前端_框架_0618",
+      "cls": ""
+    },
+    {
+      "i": 421,
+      "text": "reference lk front frame minimal clone: frame page skeleton",
+      "cls": "cell el-tooltip"
+    },
+    {
+      "i": 422,
+      "text": "reference lk front frame minimal clone: frame page skeleton",
+      "cls": ""
+    },
+    {
+      "i": 423,
+      "text": "编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "cls": "cell"
+    },
+    {
+      "i": 424,
+      "text": "编辑",
+      "cls": ""
+    },
+    {
+      "i": 425,
+      "text": "属性",
+      "cls": ""
+    },
+    {
+      "i": 426,
+      "text": "提交版本",
+      "cls": ""
+    },
+    {
+      "i": 427,
+      "text": "版本管理",
+      "cls": ""
+    },
+    {
+      "i": 428,
+      "text": "更新",
+      "cls": ""
+    },
+    {
+      "i": 429,
+      "text": "删除",
+      "cls": ""
+    },
+    {
+      "i": 433,
+      "text": "4",
+      "cls": "cell"
+    },
+    {
+      "i": 434,
+      "text": "4",
+      "cls": ""
+    },
+    {
+      "i": 435,
+      "text": "盛云_孙宇飞_前端_查询Demo_0618",
+      "cls": "cell el-tooltip"
+    },
+    {
+      "i": 436,
+      "text": "盛云_孙宇飞_前端_查询Demo_0618",
+      "cls": ""
+    },
+    {
+      "i": 437,
+      "text": "reference lk front business minimal clone: list page + edit page skeleton",
+      "cls": "cell el-tooltip"
+    },
+    {
+      "i": 438,
+      "text": "reference lk front business minimal clone: list page + edit page skeleton",
+      "cls": ""
+    },
+    {
+      "i": 439,
+      "text": "编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "cls": "cell"
+    },
+    {
+      "i": 440,
+      "text": "编辑",
+      "cls": ""
+    },
+    {
+      "i": 441,
+      "text": "属性",
+      "cls": ""
+    },
+    {
+      "i": 442,
+      "text": "提交版本",
+      "cls": ""
+    },
+    {
+      "i": 443,
+      "text": "版本管理",
+      "cls": ""
+    },
+    {
+      "i": 444,
+      "text": "更新",
+      "cls": ""
+    },
+    {
+      "i": 445,
+      "text": "删除",
+      "cls": ""
+    },
+    {
+      "i": 449,
+      "text": "5",
+      "cls": "cell"
+    },
+    {
+      "i": 450,
+      "text": "5",
+      "cls": ""
+    },
+    {
+      "i": 451,
+      "text": "盛云_孙宇飞_后台_CRUDDemo_0620",
+      "cls": "cell el-tooltip"
+    },
+    {
+      "i": 452,
+      "text": "盛云_孙宇飞_后台_CRUDDemo_0620",
+      "cls": ""
+    },
+    {
+      "i": 453,
+      "text": "clean restart backend CRUD model 0620",
+      "cls": "cell el-tooltip"
+    },
+    {
+      "i": 454,
+      "text": "clean restart backend CRUD model 0620",
+      "cls": ""
+    },
+    {
+      "i": 455,
+      "text": "编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "cls": "cell"
+    },
+    {
+      "i": 456,
+      "text": "编辑",
+      "cls": ""
+    },
+    {
+      "i": 457,
+      "text": "属性",
+      "cls": ""
+    },
+    {
+      "i": 458,
+      "text": "提交版本",
+      "cls": ""
+    },
+    {
+      "i": 459,
+      "text": "版本管理",
+      "cls": ""
+    },
+    {
+      "i": 460,
+      "text": "更新",
+      "cls": ""
+    },
+    {
+      "i": 461,
+      "text": "删除",
+      "cls": ""
+    },
+    {
+      "i": 465,
+      "text": "6",
+      "cls": "cell"
+    },
+    {
+      "i": 466,
+      "text": "6",
+      "cls": ""
+    },
+    {
+      "i": 467,
+      "text": "盛云_孙宇飞_前端_框架_0620",
+      "cls": "cell el-tooltip"
+    },
+    {
+      "i": 468,
+      "text": "盛云_孙宇飞_前端_框架_0620",
+      "cls": ""
+    },
+    {
+      "i": 469,
+      "text": "clean restart front frame model 0620",
+      "cls": "cell el-tooltip"
+    },
+    {
+      "i": 470,
+      "text": "clean restart front frame model 0620",
+      "cls": ""
+    },
+    {
+      "i": 471,
+      "text": "编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "cls": "cell"
+    },
+    {
+      "i": 472,
+      "text": "编辑",
+      "cls": ""
+    },
+    {
+      "i": 473,
+      "text": "属性",
+      "cls": ""
+    },
+    {
+      "i": 474,
+      "text": "提交版本",
+      "cls": ""
+    },
+    {
+      "i": 475,
+      "text": "版本管理",
+      "cls": ""
+    },
+    {
+      "i": 476,
+      "text": "更新",
+      "cls": ""
+    },
+    {
+      "i": 477,
+      "text": "删除",
+      "cls": ""
+    },
+    {
+      "i": 481,
+      "text": "7",
+      "cls": "cell"
+    },
+    {
+      "i": 482,
+      "text": "7",
+      "cls": ""
+    },
+    {
+      "i": 483,
+      "text": "盛云_孙宇飞_前端_CRUDDemo_0620",
+      "cls": "cell el-tooltip"
+    },
+    {
+      "i": 484,
+      "text": "盛云_孙宇飞_前端_CRUDDemo_0620",
+      "cls": ""
+    },
+    {
+      "i": 485,
+      "text": "clean restart front business model 0620",
+      "cls": "cell el-tooltip"
+    },
+    {
+      "i": 486,
+      "text": "clean restart front business model 0620",
+      "cls": ""
+    },
+    {
+      "i": 487,
+      "text": "编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "cls": "cell"
+    },
+    {
+      "i": 488,
+      "text": "编辑",
+      "cls": ""
+    },
+    {
+      "i": 489,
+      "text": "属性",
+      "cls": ""
+    },
+    {
+      "i": 490,
+      "text": "提交版本",
+      "cls": ""
+    },
+    {
+      "i": 491,
+      "text": "版本管理",
+      "cls": ""
+    },
+    {
+      "i": 492,
+      "text": "更新",
+      "cls": ""
+    },
+    {
+      "i": 493,
+      "text": "删除",
+      "cls": ""
+    }
+  ]
+}

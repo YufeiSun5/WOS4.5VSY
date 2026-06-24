@@ -1,0 +1,17 @@
+{
+  "backupType": "replayable-runtime-layout-and-components",
+  "page": "PalimpsestContent_82",
+  "ai": "???_code-ai",
+  "createdAt": "20260623T230430",
+  "files": [
+    "before-runtime.json",
+    "restore-runtime.js",
+    "before-editor.png"
+  ],
+  "contains": [
+    "root layout rowsManager",
+    "component propData/data/options",
+    "RCol getObject child objects",
+    "detailConfig/styleConfig/linkList"
+  ]
+}

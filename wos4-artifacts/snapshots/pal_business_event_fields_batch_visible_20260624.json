@@ -1,0 +1,573 @@
+{
+  "schema_path": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\tasks\\20260623-新测试页左右菜单CRUD弹窗设计\\backend-schema-palimpsest.json",
+  "results": [
+    {
+      "name": "pal_menu_node",
+      "shapeSet": {
+        "target": "计划",
+        "display": "计划",
+        "prop": "2903"
+      },
+      "rows": {
+        "start": 8,
+        "created": [],
+        "end": 8
+      },
+      "edit": [
+        [
+          "id",
+          "string",
+          "",
+          "主键ID"
+        ],
+        [
+          "parent_id",
+          "string",
+          "",
+          "父菜单ID"
+        ],
+        [
+          "menu_code",
+          "string",
+          "",
+          "菜单编码"
+        ],
+        [
+          "menu_name",
+          "string",
+          "",
+          "菜单名称"
+        ],
+        [
+          "page_code",
+          "string",
+          "",
+          "页面编码"
+        ],
+        [
+          "icon",
+          "string",
+          "",
+          "图标标识"
+        ],
+        [
+          "sort_no",
+          "string",
+          "0",
+          "排序号"
+        ],
+        [
+          "enabled",
+          "bool",
+          "true",
+          "是否启用"
+        ]
+      ],
+      "verify": {
+        "selectedName": "pal_menu_node",
+        "shape": "计划",
+        "rows": [
+          [
+            "id",
+            "string",
+            "",
+            "主键ID"
+          ],
+          [
+            "parent_id",
+            "string",
+            "",
+            "父菜单ID"
+          ],
+          [
+            "menu_code",
+            "string",
+            "",
+            ""
+          ],
+          [
+            "menu_name",
+            "string",
+            "",
+            ""
+          ],
+          [
+            "page_code",
+            "string",
+            "",
+            ""
+          ],
+          [
+            "icon",
+            "string",
+            "",
+            "图标标识"
+          ],
+          [
+            "sort_no",
+            "int32",
+            "0",
+            ""
+          ],
+          [
+            "enabled",
+            "bool",
+            "true",
+            "是否启用"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "pal_department",
+      "shapeSet": {
+        "target": "计划",
+        "display": "计划",
+        "prop": "2903"
+      },
+      "rows": {
+        "start": 5,
+        "created": [],
+        "end": 5
+      },
+      "edit": [
+        [
+          "id",
+          "string",
+          "",
+          "主键ID"
+        ],
+        [
+          "dept_code",
+          "string",
+          "",
+          "部门编码"
+        ],
+        [
+          "dept_name",
+          "string",
+          "",
+          "部门名称"
+        ],
+        [
+          "sort_no",
+          "int32",
+          "0",
+          "排序号"
+        ],
+        [
+          "enabled",
+          "bool",
+          "true",
+          "是否启用"
+        ]
+      ],
+      "verify": {
+        "selectedName": "pal_department",
+        "shape": "计划",
+        "rows": [
+          [
+            "id",
+            "string",
+            "",
+            ""
+          ],
+          [
+            "dept_code",
+            "string",
+            "",
+            ""
+          ],
+          [
+            "dept_name",
+            "string",
+            "",
+            ""
+          ],
+          [
+            "sort_no",
+            "int32",
+            "0",
+            "排序号"
+          ],
+          [
+            "enabled",
+            "bool",
+            "true",
+            "是否启用"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "pal_mentor",
+      "shapeSet": {
+        "target": "计划",
+        "display": "计划",
+        "prop": "2903"
+      },
+      "rows": {
+        "start": 6,
+        "created": [],
+        "end": 6
+      },
+      "edit": [
+        [
+          "id",
+          "string",
+          "",
+          "主键ID"
+        ],
+        [
+          "mentor_code",
+          "string",
+          "",
+          "导师编码"
+        ],
+        [
+          "mentor_name",
+          "string",
+          "",
+          "导师姓名"
+        ],
+        [
+          "dept_id",
+          "string",
+          "",
+          "所属部门ID"
+        ],
+        [
+          "phone",
+          "string",
+          "",
+          "联系电话"
+        ],
+        [
+          "enabled",
+          "bool",
+          "true",
+          "是否启用"
+        ]
+      ],
+      "verify": {
+        "selectedName": "pal_mentor",
+        "shape": "计划",
+        "rows": [
+          [
+            "id",
+            "string",
+            "",
+            "主键ID"
+          ],
+          [
+            "mentor_code",
+            "string",
+            "",
+            ""
+          ],
+          [
+            "mentor_name",
+            "string",
+            "",
+            ""
+          ],
+          [
+            "dept_id",
+            "string",
+            "",
+            "所属部门ID"
+          ],
+          [
+            "phone",
+            "string",
+            "",
+            "联系电话"
+          ],
+          [
+            "enabled",
+            "bool",
+            "true",
+            "是否启用"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "pal_intern_student",
+      "shapeSet": {
+        "target": "计划",
+        "display": "计划",
+        "prop": "2903"
+      },
+      "rows": {
+        "start": 1,
+        "created": [
+          {
+            "target": 2,
+            "ok": true,
+            "count": 2
+          },
+          {
+            "target": 3,
+            "ok": true,
+            "count": 3
+          },
+          {
+            "target": 4,
+            "ok": true,
+            "count": 4
+          },
+          {
+            "target": 5,
+            "ok": true,
+            "count": 5
+          },
+          {
+            "target": 6,
+            "ok": true,
+            "count": 6
+          },
+          {
+            "target": 7,
+            "ok": true,
+            "count": 7
+          },
+          {
+            "target": 8,
+            "ok": true,
+            "count": 8
+          }
+        ],
+        "end": 8
+      },
+      "edit": [
+        [
+          "id",
+          "string",
+          "",
+          "主键ID"
+        ],
+        [
+          "student_no",
+          "string",
+          "",
+          "学生学号"
+        ],
+        [
+          "student_name",
+          "string",
+          "",
+          "学生姓名"
+        ],
+        [
+          "phone",
+          "string",
+          "",
+          "联系电话"
+        ],
+        [
+          "dept_id",
+          "string",
+          "",
+          "所属部门ID"
+        ],
+        [
+          "mentor_id",
+          "string",
+          "",
+          "导师ID"
+        ],
+        [
+          "entry_date",
+          "string",
+          "",
+          "入职日期"
+        ],
+        [
+          "enabled",
+          "string",
+          "true",
+          "是否启用"
+        ]
+      ],
+      "verify": {
+        "selectedName": "pal_intern_student",
+        "shape": "计划",
+        "rows": [
+          [
+            "id",
+            "string",
+            "",
+            ""
+          ],
+          [
+            "student_no",
+            "string",
+            "",
+            "学生学号"
+          ],
+          [
+            "成员3",
+            "string",
+            "",
+            ""
+          ],
+          [
+            "phone",
+            "string",
+            "",
+            ""
+          ],
+          [
+            "dept_id",
+            "string",
+            "",
+            ""
+          ],
+          [
+            "mentor_id",
+            "string",
+            "",
+            ""
+          ],
+          [
+            "entry_date",
+            "dateTime",
+            "2026-6-24 9:33:43.513",
+            ""
+          ],
+          [
+            "enabled",
+            "bool",
+            "true",
+            "是否启用"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "pal_assessment_batch",
+      "shapeSet": {
+        "target": "计划",
+        "display": "实时",
+        "prop": "2901"
+      },
+      "rows": {
+        "start": 0,
+        "created": [
+          {
+            "target": 1,
+            "ok": true,
+            "count": 1
+          },
+          {
+            "target": 2,
+            "ok": true,
+            "count": 2
+          },
+          {
+            "target": 3,
+            "ok": true,
+            "count": 3
+          },
+          {
+            "target": 4,
+            "ok": true,
+            "count": 4
+          },
+          {
+            "target": 5,
+            "ok": true,
+            "count": 5
+          },
+          {
+            "target": 6,
+            "ok": true,
+            "count": 6
+          }
+        ],
+        "end": 6
+      },
+      "edit": [
+        [
+          "id",
+          "string",
+          "",
+          "主键ID"
+        ],
+        [
+          "batch_code",
+          "string",
+          "",
+          "批次编码"
+        ],
+        [
+          "batch_name",
+          "string",
+          "",
+          "批次名称"
+        ],
+        [
+          "start_date",
+          "string",
+          "",
+          "开始日期"
+        ],
+        [
+          "end_date",
+          "string",
+          "",
+          "结束日期"
+        ],
+        [
+          "status",
+          "string",
+          "",
+          "批次状态"
+        ]
+      ],
+      "verify": {
+        "selectedName": "pal_assessment_batch",
+        "shape": "计划",
+        "rows": [
+          [
+            "成员1",
+            "string",
+            "",
+            ""
+          ],
+          [
+            "batch_code",
+            "string",
+            "",
+            ""
+          ],
+          [
+            "batch_name",
+            "string",
+            "",
+            ""
+          ],
+          [
+            "start_date",
+            "dateTime",
+            "2026-6-24 9:33:50.314",
+            ""
+          ],
+          [
+            "end_date",
+            "dateTime",
+            "2026-6-24 9:33:50.314",
+            ""
+          ],
+          [
+            "status",
+            "string",
+            "",
+            ""
+          ]
+        ]
+      }
+    }
+  ]
+}

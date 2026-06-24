@@ -1,0 +1,113 @@
+{
+  "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_120/index.html",
+  "keywordObj": {
+    "UIName": "pal_filter_keyword",
+    "groupName": "输入",
+    "icon": "input",
+    "KSCGUID": "UI_246198",
+    "elementuiType": "ElementInput",
+    "lock": false,
+    "visible": true,
+    "runVisible": true,
+    "objectType": 2,
+    "prototypeName": "ElementInput",
+    "value": "",
+    "detailConfig": "options.placeholder='\\u59d3\\u540d / \\u5b66\\u53f7 / \\u624b\\u673a\\u53f7';options.value='';options.clearable=true;options.disabled=false;",
+    "styleConfig": "#domId{padding:6px 10px!important;box-sizing:border-box!important;background:#fff!important;height:46px!important;max-height:46px!important;overflow:hidden!important;}#domId::before{content:none!important;}#domId .textarea-textblock{display:none!important;}#domId .el-input,#domId .el-input__inner{height:34px!important;line-height:34px!important;width:100%!important;}#domId .el-input__inner{border:1px solid #dce5f2!important;border-radius:4px!important;background:#fff!important;color:#243145!important;font-size:14px!important;padding:0 34px 0 12px!important;}",
+    "debounce": 300,
+    "placement": "bottom-start",
+    "triggeronFocus": true,
+    "selectWhenUnmatched": false,
+    "hideLoading": false,
+    "highlightFirstItem": false,
+    "custom": false,
+    "autocomplete": false,
+    "maxlength": 128,
+    "showWordLimit": false,
+    "clearable": true,
+    "placeholder": "姓名 / 学号 / 手机号",
+    "showPassword": false,
+    "disabled": false,
+    "size": "auto",
+    "prefixIcon": "",
+    "suffixIcon": "",
+    "type": "text",
+    "rows": 2,
+    "readonly": false,
+    "max": 10000000000,
+    "min": -10000000000,
+    "step": 1,
+    "prepend": "",
+    "append": "",
+    "tabindex": "",
+    "styleOption": {},
+    "uiInputLinkList": [],
+    "uiOutputLinkList": [],
+    "langKeys": [],
+    "linkList": [],
+    "id": "kcda226696d27044bf0d0276f9bc0409",
+    "propData": {
+      "UIName": "pal_filter_keyword",
+      "placeholder": "姓名 / 学号 / 手机号",
+      "value": "",
+      "clearable": true,
+      "disabled": false,
+      "styleConfig": "#domId{padding:6px 10px!important;box-sizing:border-box!important;background:#fff!important;height:46px!important;max-height:46px!important;overflow:hidden!important;}#domId::before{content:none!important;}#domId .textarea-textblock{display:none!important;}#domId .el-input,#domId .el-input__inner{height:34px!important;line-height:34px!important;width:100%!important;}#domId .el-input__inner{border:1px solid #dce5f2!important;border-radius:4px!important;background:#fff!important;color:#243145!important;font-size:14px!important;padding:0 34px 0 12px!important;}",
+      "detailConfig": "options.placeholder='\\u59d3\\u540d / \\u5b66\\u53f7 / \\u624b\\u673a\\u53f7';options.value='';options.clearable=true;options.disabled=false;"
+    },
+    "data": {
+      "UIName": "pal_filter_keyword",
+      "value": "",
+      "placeholder": "姓名 / 学号 / 手机号",
+      "clearable": true,
+      "disabled": false,
+      "styleConfig": "#domId{padding:6px 10px!important;box-sizing:border-box!important;background:#fff!important;height:46px!important;max-height:46px!important;overflow:hidden!important;}#domId::before{content:none!important;}#domId .textarea-textblock{display:none!important;}#domId .el-input,#domId .el-input__inner{height:34px!important;line-height:34px!important;width:100%!important;}#domId .el-input__inner{border:1px solid #dce5f2!important;border-radius:4px!important;background:#fff!important;color:#243145!important;font-size:14px!important;padding:0 34px 0 12px!important;}",
+      "detailConfig": "options.placeholder='\\u59d3\\u540d / \\u5b66\\u53f7 / \\u624b\\u673a\\u53f7';options.value='';options.clearable=true;options.disabled=false;"
+    },
+    "options": {
+      "UIName": "pal_filter_keyword",
+      "value": "",
+      "placeholder": "姓名 / 学号 / 手机号",
+      "clearable": true,
+      "disabled": false,
+      "styleConfig": "#domId{padding:6px 10px!important;box-sizing:border-box!important;background:#fff!important;height:46px!important;max-height:46px!important;overflow:hidden!important;}#domId::before{content:none!important;}#domId .textarea-textblock{display:none!important;}#domId .el-input,#domId .el-input__inner{height:34px!important;line-height:34px!important;width:100%!important;}#domId .el-input__inner{border:1px solid #dce5f2!important;border-radius:4px!important;background:#fff!important;color:#243145!important;font-size:14px!important;padding:0 34px 0 12px!important;}",
+      "detailConfig": "options.placeholder='\\u59d3\\u540d / \\u5b66\\u53f7 / \\u624b\\u673a\\u53f7';options.value='';options.clearable=true;options.disabled=false;"
+    }
+  },
+  "metricObjects": [
+    {
+      "col": "MetricTotalCol",
+      "value": "<img src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTkiIGhlaWdodD0iMTA4",
+      "style": "#domId{height:108px!important;margin:12px 8px!important;border:0!important;border-radius:8px!important;background:transparent!important;box-shadow:none!importan",
+      "detail": "options.value = \"<img src=\\\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTkiIGhlaWdodD0iMTA4IiB2aWV3Qm94PSIwIDAgMz"
+    },
+    {
+      "col": "MetricWaitCol",
+      "value": "<img src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTkiIGhlaWdodD0iMTA4",
+      "style": "#domId{height:108px!important;margin:12px 8px!important;border:0!important;border-radius:8px!important;background:transparent!important;box-shadow:none!importan",
+      "detail": "options.value = \"<img src=\\\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTkiIGhlaWdodD0iMTA4IiB2aWV3Qm94PSIwIDAgMz"
+    },
+    {
+      "col": "MetricDoneCol",
+      "value": "<img src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTkiIGhlaWdodD0iMTA4",
+      "style": "#domId{height:108px!important;margin:12px 8px!important;border:0!important;border-radius:8px!important;background:transparent!important;box-shadow:none!importan",
+      "detail": "options.value = \"<img src=\\\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTkiIGhlaWdodD0iMTA4IiB2aWV3Qm94PSIwIDAgMz"
+    },
+    {
+      "col": "MetricAvgCol",
+      "value": "<img src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTkiIGhlaWdodD0iMTA4",
+      "style": "#domId{height:108px!important;margin:12px 8px!important;border:0!important;border-radius:8px!important;background:transparent!important;box-shadow:none!importan",
+      "detail": "options.value = \"<img src=\\\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTkiIGhlaWdodD0iMTA4IiB2aWV3Qm94PSIwIDAgMz"
+    }
+  ],
+  "dom": {
+    "keywordValue": "",
+    "keywordPlaceholder": "姓名 / 学号 / 手机号",
+    "imgStyles": [
+      "display:block;width:calc(100% - 28px);height:calc(100% - 24px);margin:12px 14px;object-fit:fill;border:0;box-sizing:border-box",
+      "display:block;width:calc(100% - 28px);height:calc(100% - 24px);margin:12px 14px;object-fit:fill;border:0;box-sizing:border-box",
+      "display:block;width:calc(100% - 28px);height:calc(100% - 24px);margin:12px 14px;object-fit:fill;border:0;box-sizing:border-box",
+      "display:block;width:calc(100% - 28px);height:calc(100% - 24px);margin:12px 14px;object-fit:fill;border:0;box-sizing:border-box"
+    ]
+  }
+}

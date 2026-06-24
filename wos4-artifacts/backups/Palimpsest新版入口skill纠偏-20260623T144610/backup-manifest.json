@@ -1,0 +1,20 @@
+{
+  "task": "Palimpsest新版入口skill纠偏",
+  "time": "2026-06-23T14:46:10",
+  "operator": "孙宇飞_design-ai",
+  "files": [
+    ".ai\\skills\\wos4-browser-harness\\SKILL.md",
+    ".ai\\skills\\wos4-human-navigation\\SKILL.md",
+    ".ai\\skills\\wos4-config-client-screen-create\\SKILL.md",
+    ".ai\\skills\\wos4-blue-client-publish-flow\\SKILL.md",
+    ".ai\\skills\\wos4-runtime-package-update\\SKILL.md",
+    ".ai\\skills\\wos4-blue-client-object-create\\SKILL.md",
+    ".ai\\skills\\wos4-modeling-reference-inspection\\SKILL.md",
+    ".ai\\skills\\wos4-component-catalog\\SKILL.md",
+    "wos4-artifacts\\tasks\\20260623-新测试页左右菜单CRUD弹窗设计\\执行日志.md",
+    "wos4-artifacts\\tasks\\20260623-新测试页左右菜单CRUD弹窗设计\\证据清单.md",
+    "AI-INTERACTION-PANEL.md",
+    "MEMORY.md"
+  ],
+  "note": "修改前备份；纠正新版入口名称，去除当前 skill 主线中的 0518 标签，并记录 Palimpsest 应从建模系统客户端起步。"
+}

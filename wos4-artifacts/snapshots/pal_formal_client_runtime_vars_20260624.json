@@ -1,0 +1,34 @@
+{
+  "clientProjectType": "object",
+  "clientProject": {
+    "error": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'o'\n    |     property '_scope' -> object with constructor 'e'\n    |     property 'effects' -> object with constructor 'Array'\n    |     index 0 -> object with constructor 'e'\n    --- property 'vm' closes the circle"
+  },
+  "pageMapKeys": [],
+  "kmKeys": [],
+  "runtimeVue": {
+    "exists": true,
+    "keys": [
+      "util",
+      "set",
+      "delete",
+      "nextTick",
+      "observable",
+      "options",
+      "use",
+      "mixin",
+      "cid",
+      "extend",
+      "component",
+      "directive",
+      "filter",
+      "version",
+      "compile",
+      "_installedPlugins"
+    ]
+  },
+  "clientRunInstance": {
+    "error": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'aa'\n    |     property '_scope' -> object with constructor 'e'\n    |     property 'effects' -> object with constructor 'Array'\n    |     index 0 -> object with constructor 'e'\n    --- property 'vm' closes the circle"
+  },
+  "spaceMap": [],
+  "bodyText": ""
+}

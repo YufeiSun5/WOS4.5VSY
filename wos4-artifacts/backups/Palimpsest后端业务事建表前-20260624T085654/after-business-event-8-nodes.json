@@ -1,0 +1,23 @@
+{
+  "labels": [
+    "Root",
+    "pal_menu_node",
+    "pal_department",
+    "pal_mentor",
+    "pal_intern_student",
+    "pal_assessment_batch",
+    "pal_assessment_record",
+    "pal_assessment_score_detail",
+    "pal_operation_log"
+  ],
+  "expected": [
+    "pal_menu_node",
+    "pal_department",
+    "pal_mentor",
+    "pal_intern_student",
+    "pal_assessment_batch",
+    "pal_assessment_record",
+    "pal_assessment_score_detail",
+    "pal_operation_log"
+  ]
+}

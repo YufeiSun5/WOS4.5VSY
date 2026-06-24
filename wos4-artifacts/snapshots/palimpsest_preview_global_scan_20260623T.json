@@ -1,0 +1,221 @@
+{
+  "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_120/index.html",
+  "keys": [
+    {
+      "k": "pageXOffset",
+      "sample": "number"
+    },
+    {
+      "k": "pageYOffset",
+      "sample": "number"
+    },
+    {
+      "k": "oncommand",
+      "sample": "null"
+    },
+    {
+      "k": "oncontentvisibilityautostatechange",
+      "sample": "null"
+    },
+    {
+      "k": "oncontextrestored",
+      "sample": "null"
+    },
+    {
+      "k": "onformdata",
+      "sample": "null"
+    },
+    {
+      "k": "onloadeddata",
+      "sample": "null"
+    },
+    {
+      "k": "onloadedmetadata",
+      "sample": "null"
+    },
+    {
+      "k": "onpagehide",
+      "sample": "null"
+    },
+    {
+      "k": "onpageshow",
+      "sample": "null"
+    },
+    {
+      "k": "createImageBitmap",
+      "sample": "function"
+    },
+    {
+      "k": "getComputedStyle",
+      "sample": "function"
+    },
+    {
+      "k": "onpageswap",
+      "sample": "null"
+    },
+    {
+      "k": "onpagereveal",
+      "sample": "null"
+    },
+    {
+      "k": "openConfig",
+      "sample": "function"
+    },
+    {
+      "k": "openScanDeviceConfig",
+      "sample": "function"
+    },
+    {
+      "k": "executeMobileFunction",
+      "sample": "function"
+    },
+    {
+      "k": "CommitTransaction",
+      "sample": "function"
+    },
+    {
+      "k": "StringMap",
+      "sample": "function"
+    },
+    {
+      "k": "DEVCONFIG",
+      "sample": "object runMode,UIDataConfMode,UIStyleConfMode,host,userName,passWord,testDataSet,KingStudioVersion"
+    },
+    {
+      "k": "PageEval",
+      "sample": "function"
+    },
+    {
+      "k": "kmUlits",
+      "sample": "object escapeHTML,extend,cloneObj,cloneArray,loadJsCssFile,getAllProperties,deepCompare,browserRedirect,isJson,compareVersion,deepClone,deepCloneDeteLeOwner,judgeFloatIsZero,debounce,throttle,defineScriptProperty,isFloatEqual,guid,parseURL,tranlatePtAngle"
+    },
+    {
+      "k": "$StoreMap",
+      "sample": "object "
+    },
+    {
+      "k": "$store",
+      "sample": "object "
+    },
+    {
+      "k": "KGSInterFace",
+      "sample": "object Create,Delete,Update,Query,Upgrade,AsyncCreate,AsyncDelete,AsyncUpdate,AsyncQuery,AsyncUpgrade,QueryMix,QueryJoin,QueryPath,Subscribe,UnSubscribe,InterfaceSyncCall,InterfaceAsynCall,SyncSendMessage,AsynSendMessage,BeginTransaction"
+    },
+    {
+      "k": "_G_spaceTimeMap",
+      "sample": "object "
+    },
+    {
+      "k": "KMLinkId",
+      "sample": "object KMLINKID_MODEL_ONCREATE,KMLINKID_MODEL_ONSHOWBEFORE,KMLINKID_MODEL_ONSHOWING,KMLINKID_MODEL_ONHIDEBEFORE,KMLINKID_MODEL_ONDELETEBEFORE,KMLINKID_GRAPHY_VISIBILITY,KMLINKID_GRAPHY_ENABLE,KMLINKID_GRAPHY_VISIBLEBLINK,KMLINKID_GRAPHY_VERTICALSCALE,KMLINKID_GRAPHY_HORIZONALSCALE,KMLINKID_GRAPHY_VERTICALSHIFT,KMLINKID_GRAPHY_HORIZONALSHIFT,KMLINKID_GRAPHY_DISCRETEINPUT,KMLINKID_GRAPHY_ANALOGINPUT,KMLINKID_GRAPHY_STRINGINPUT,KMLINKID_GRAPHY_HORIZONALSLIDERINPUT,KMLINKID_GRAPHY_VERTICALSLIDERINPUT,KMLINKID_GRAPHY_LEFTMOUSEDOWN,KMLINKID_GRAPHY_LEFTMOUSEUP,KMLINKID_GRAPHY_WHILELEFTMOUSEPRESSED"
+    },
+    {
+      "k": "KMLinkType",
+      "sample": "object KMLINKTYPE_UNKNOWN,KMLINKTYPE_DISPLAY,KMLINKTYPE_INPUT,KMLINKTYPE_TRIGGER"
+    },
+    {
+      "k": "KGSDataObjMng",
+      "sample": "object fuModelCopyList,runtimeObjList,subscribeIDs,pageDataObjInfo,subscribsRule,timer,subscribeTaskQueue"
+    },
+    {
+      "k": "element_popup_page",
+      "sample": "object render"
+    }
+  ],
+  "scripts": [
+    {
+      "src": "",
+      "text": "if (window.parent && window.parent.initApiForTarget) {\n        window.parent.initApiForTarget(window)\n      }"
+    },
+    {
+      "src": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_120/config.js",
+      "text": ""
+    },
+    {
+      "src": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_120/debugger.js",
+      "text": ""
+    },
+    {
+      "src": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_120/js/runtime.beta.2026.06.17.15.js",
+      "text": ""
+    },
+    {
+      "src": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_120/js/index.beta.2026.06.17.15.js",
+      "text": ""
+    }
+  ],
+  "links": [
+    "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_120/favicon.ico",
+    "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_120/css/index.e241a1b5.css",
+    "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_120/css/98758.f50db394.css",
+    "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_120/css/70562.1634d64b.css"
+  ],
+  "storage": [
+    {
+      "where": "local",
+      "k": "csframe_fu",
+      "v": "{\"storeInfo\":{\"ip\":\"https://www.kingappstore.com/\"}}"
+    },
+    {
+      "where": "local",
+      "k": "upgradePackageVersion",
+      "v": ""
+    },
+    {
+      "where": "local",
+      "k": "desktop_language",
+      "v": "zhCn"
+    },
+    {
+      "where": "local",
+      "k": "csframe_bs-login-info",
+      "v": "{\"ip\":\"\",\"name\":\"孙宇飞\",\"password\":\"U2FsdGVkX18uAHB0BPVVMPkPN7SH3KSYSjThwZnCJ1E=\",\"isSave\":true}"
+    },
+    {
+      "where": "local",
+      "k": "KGSDataObjMng",
+      "v": "KGSDataObjMng init"
+    },
+    {
+      "where": "session",
+      "k": "IS_BS",
+      "v": "true"
+    },
+    {
+      "where": "session",
+      "k": "storage_desktop_filterType",
+      "v": "1"
+    },
+    {
+      "where": "session",
+      "k": "storage_desktop_model-filterList",
+      "v": "[0,1,2,3,4,5,6,7,9,10,11,12,13,14,15,16,17,18,19,20,21,22]"
+    },
+    {
+      "where": "session",
+      "k": "proxy_pathname",
+      "v": "/"
+    },
+    {
+      "where": "session",
+      "k": "desktop_storageCloud",
+      "v": "U2FsdGVkX1+OlogWw/AGsy0NRYaeji7TFdfEBvwa9OpKvLUNiyrdlH1INUeokuhpcIPpJzhbbrQNyfDOZtHW3AMXF20i+ObMhHq4g5jD2JzqR6LItgtH2Y8yAgvAx26g6HG08oGA3oncb5Ev67u4mMtIcgCu+4dVpzPJKCyCAyuFTd8KjV812kNQRCL1ihEPOEi/dTJtUDvO3m5ZtfO4Pr2amJX/6sn0AFK2T+Mvp6EVhi4dIvZ/dF0tZvdw0ApkUz2NhwBK1vLY87O73mdnYRO2iPSP3zPclXGDH5AFRSlY"
+    },
+    {
+      "where": "session",
+      "k": "clientNumber",
+      "v": "7710165596778147144"
+    },
+    {
+      "where": "session",
+      "k": "wsRequestID",
+      "v": "1667640357"
+    },
+    {
+      "where": "session",
+      "k": "username",
+      "v": "孙宇飞"
+    }
+  ],
+  "htmlHead": "<head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><link rel=\"icon\" href=\"favicon.ico\"><title>KingStudio4.5</title><script>if (window.parent && window.parent.initApiForTarget) {\n        window.parent.initApiForTarget(window)\n      }</script><script src=\"./config.js\"></script><script src=\"./debugger.js\"></script><script defer=\"defer\" src=\"js/runtime.beta.2026.06.17.15.js\"></script><script defer=\"defer\" src=\"js/index.beta.2026.06.17.15.js\"></script><link href=\"css/index.e241a1b5.css\" rel=\"stylesheet\"><link rel=\"stylesheet\" type=\"text/css\" href=\"css/98758.f50db394.css\"><link rel=\"stylesheet\" type=\"text/css\" href=\"css/70562.1634d64b.css\"></head><body><noscript><strong>We're sorry but app-master doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div data-v-150dde49=\"\" class=\"app-master\"><!----><div data-v-120b977f=\"\" data-v-150dde49=\"\" class=\"page_view_container\"><div data-v-401dd8fe=\"\" data-v-120b977f=\"\" id=\"pageView\" class=\"page_view\" style=\"width: 100%; height: 100%; position: relative;\"><div data-v-4d5fa2e2=\"\" data-v-401dd8fe=\"\" class=\"layer_view\" style=\"height: 100%; width: 100%; position: absolute; overflow: hidden; pointer-events: auto; z-index: 1000;\"><div data-v-6a72644e=\"\" data-v-4d5fa2e2=\"\" id=\"RContainerkd8dca334cd0de9277a51ac332ee50fd\" testid=\"PalimpsestContentRoot\" tabindex=\"mode === $CONSTANTS.APP_CONSTANTS.MODE.DEVELOPMENT ? '1' : ''\" class=\"layout_container showScroll containerStyle\" style=\"--top: 1078px;\"><span data-v-6a72644e=\"\" class=\"containerrow\"><div data-v-34a5b89e=\"\" data-v-6a72644e=\"\" id=\"RRow1_mqqfjd4o_bkmnxn\" class=\"response_row\" style=\"margin: 0px; height: 88px; position: relative;\"><span data-v-34a5b89e=\"\" style=\"display: flex; flex-wrap: wrap; flex-grow: 1; justify-content: flex-start;\"><div data-v-0bdc200e=\"\" data-v-34a5b89e=\"\" id=\"FilterKeywordCol_mqqfjd4o_834tdf\" tabindex=\"\" class=\"\" style=\"hei"
+}

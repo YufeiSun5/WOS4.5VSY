@@ -1,0 +1,668 @@
+{
+  "paused": {
+    "target": {
+      "href": "http://221.239.19.118:13001/worker-space/index.html?guid=aa5d8314-87b7-453c-96e6-21e4327a8778&version=0&areaid=0&parentid=0&cloudid=107&type=1005",
+      "path": "top.1.0.0"
+    },
+    "body": "变量\nstrmapPara: Array(1)\nresultText:\n监视\n堆栈\n断点\nonCreate\n1441151880758560281-0: 4\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nonDestroy\nonException\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n10\n11\n12\n7\n8\n9\n4\n5\n6\n1\n2\n3\nresultText = DeleteAssessmentRecord(strmapPara);\nTrace(2, \"PalimpsestBackend.onCreate.DeleteAssessmentRecord\", resultText);\nresultText = SubmitAssessmentScore(strmapPara);\nTrace(2, \"PalimpsestBackend.onCreate.CreateAssessmentRecord\", resultText);\nresultText = UpdateAssessmentRecord(strmapPara);\nTrace(2, \"PalimpsestBackend.onCreate.UpdateAssessmentRecord\", resultText);\nresultText = QueryAssessmentRecords(strmapPara);\nTrace(2, \"PalimpsestBackend.onCreate.QueryAssessmentRecords\", resultText);\nresultText = CreateAssessmentRecord(strmapPara);\nstringMap<var> strmapPara;\nstring resultText;\nstrmapPara[\"action\"] = \"startupSmoke\";\n编译信息\nxxxxxxxxxxxxxx 编译成功 11:16:38 xxxxxxxxxxxxxx\n行：13，列：74，\n空格：4\n元语言\n属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n0 / 128\n\n\nID:\n1441151880758560281\n\n\nGUID:\naa5d8314-87b7-453c-96e6-21e4327a8778\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\nKingFusion4.5_V1/产品仓库/KF4.5产品/KF4.5数字孪生模型/管控单元模型/盛云科技_孙宇飞_Palimpsest_后台_0623\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:\n停止调试",
+    "lineEls": [
+      {
+        "x": 522,
+        "y": 392.28125,
+        "w": 38,
+        "h": 19,
+        "localX": 368,
+        "localY": 317,
+        "tag": "DIV",
+        "cls": "line-numbers",
+        "txt": "10"
+      },
+      {
+        "x": 522,
+        "y": 411.28125,
+        "w": 38,
+        "h": 19,
+        "localX": 368,
+        "localY": 336,
+        "tag": "DIV",
+        "cls": "line-numbers",
+        "txt": "11"
+      },
+      {
+        "x": 522,
+        "y": 430.28125,
+        "w": 38,
+        "h": 19,
+        "localX": 368,
+        "localY": 355,
+        "tag": "DIV",
+        "cls": "line-numbers",
+        "txt": "12"
+      },
+      {
+        "x": 522,
+        "y": 335.28125,
+        "w": 38,
+        "h": 19,
+        "localX": 368,
+        "localY": 260,
+        "tag": "DIV",
+        "cls": "line-numbers",
+        "txt": "7"
+      },
+      {
+        "x": 522,
+        "y": 354.28125,
+        "w": 38,
+        "h": 19,
+        "localX": 368,
+        "localY": 279,
+        "tag": "DIV",
+        "cls": "line-numbers",
+        "txt": "8"
+      },
+      {
+        "x": 522,
+        "y": 373.28125,
+        "w": 38,
+        "h": 19,
+        "localX": 368,
+        "localY": 298,
+        "tag": "DIV",
+        "cls": "line-numbers",
+        "txt": "9"
+      },
+      {
+        "x": 522,
+        "y": 278.28125,
+        "w": 38,
+        "h": 19,
+        "localX": 368,
+        "localY": 203,
+        "tag": "DIV",
+        "cls": "line-numbers",
+        "txt": "4"
+      },
+      {
+        "x": 522,
+        "y": 297.28125,
+        "w": 38,
+        "h": 19,
+        "localX": 368,
+        "localY": 222,
+        "tag": "DIV",
+        "cls": "line-numbers",
+        "txt": "5"
+      },
+      {
+        "x": 522,
+        "y": 316.28125,
+        "w": 38,
+        "h": 19,
+        "localX": 368,
+        "localY": 241,
+        "tag": "DIV",
+        "cls": "line-numbers",
+        "txt": "6"
+      },
+      {
+        "x": 522,
+        "y": 221.28125,
+        "w": 38,
+        "h": 19,
+        "localX": 368,
+        "localY": 146,
+        "tag": "DIV",
+        "cls": "line-numbers",
+        "txt": "1"
+      },
+      {
+        "x": 522,
+        "y": 240.28125,
+        "w": 38,
+        "h": 19,
+        "localX": 368,
+        "localY": 165,
+        "tag": "DIV",
+        "cls": "line-numbers",
+        "txt": "2"
+      },
+      {
+        "x": 522,
+        "y": 259.28125,
+        "w": 38,
+        "h": 19,
+        "localX": 368,
+        "localY": 184,
+        "tag": "DIV",
+        "cls": "line-numbers",
+        "txt": "3"
+      }
+    ],
+    "glyph": {
+      "x": 503,
+      "y": 221.28125,
+      "w": 19,
+      "h": 453,
+      "localX": 349,
+      "localY": 146,
+      "tag": "DIV",
+      "cls": "glyph-margin",
+      "txt": ""
+    },
+    "start": null,
+    "stop": {
+      "x": 727,
+      "y": 100.28125,
+      "w": 20,
+      "h": 20,
+      "localX": 573,
+      "localY": 25,
+      "tag": "I",
+      "cls": "el-icon icon cursor-pointer wos-editor-debug-stop el-tooltip__trigger el-tooltip__trigger",
+      "txt": ""
+    },
+    "step": {
+      "x": 1308,
+      "y": 182.28125,
+      "w": 24,
+      "h": 24,
+      "localX": 1154,
+      "localY": 107,
+      "tag": "LI",
+      "cls": "tools-item debug-step-over",
+      "txt": ""
+    },
+    "cont": {
+      "x": 1280,
+      "y": 182.28125,
+      "w": 24,
+      "h": 24,
+      "localX": 1126,
+      "localY": 107,
+      "tag": "LI",
+      "cls": "tools-item debug-continue-run",
+      "txt": ""
+    },
+    "debugMarks": [
+      {
+        "x": 503,
+        "y": 278.28125,
+        "w": 83,
+        "h": 19,
+        "localX": 349,
+        "localY": 203,
+        "tag": "DIV",
+        "cls": "cmdr debug-interrupt-arrow",
+        "txt": ""
+      },
+      {
+        "x": 586,
+        "y": 278.28125,
+        "w": 700,
+        "h": 19,
+        "localX": 432,
+        "localY": 203,
+        "tag": "DIV",
+        "cls": "cdr debug-interrupt-line",
+        "txt": ""
+      },
+      {
+        "x": 1277,
+        "y": 177.28125,
+        "w": 86,
+        "h": 34,
+        "localX": 1123,
+        "localY": 102,
+        "tag": "UL",
+        "cls": "debugger-tools",
+        "txt": ""
+      },
+      {
+        "x": 1280,
+        "y": 182.28125,
+        "w": 24,
+        "h": 24,
+        "localX": 1126,
+        "localY": 107,
+        "tag": "LI",
+        "cls": "tools-item debug-continue-run",
+        "txt": ""
+      },
+      {
+        "x": 1308,
+        "y": 182.28125,
+        "w": 24,
+        "h": 24,
+        "localX": 1154,
+        "localY": 107,
+        "tag": "LI",
+        "cls": "tools-item debug-step-over",
+        "txt": ""
+      },
+      {
+        "x": 1336,
+        "y": 182.28125,
+        "w": 24,
+        "h": 24,
+        "localX": 1182,
+        "localY": 107,
+        "tag": "LI",
+        "cls": "tools-item debug-stop",
+        "txt": ""
+      }
+    ],
+    "bps": [
+      {
+        "x": 200,
+        "y": 459.28125,
+        "w": 292,
+        "h": 40,
+        "localX": 46,
+        "localY": 384,
+        "tag": "DIV",
+        "cls": "title code-editor-debugger-breakpoint",
+        "txt": "断点"
+      },
+      {
+        "x": 448,
+        "y": 471.28125,
+        "w": 12,
+        "h": 12,
+        "localX": 294,
+        "localY": 396,
+        "tag": "I",
+        "cls": "batch-breakpoint-icon batch-enable-point",
+        "txt": ""
+      },
+      {
+        "x": 200,
+        "y": 500.28125,
+        "w": 300,
+        "h": 30,
+        "localX": 46,
+        "localY": 425,
+        "tag": "DIV",
+        "cls": "breakpoint-item-view",
+        "txt": "onCreate\n1441151880758560281-0: 4"
+      },
+      {
+        "x": 200,
+        "y": 500.28125,
+        "w": 300,
+        "h": 30,
+        "localX": 46,
+        "localY": 425,
+        "tag": "DIV",
+        "cls": "breakpoint-item-line cursor-pointer",
+        "txt": "onCreate\n1441151880758560281-0: 4"
+      },
+      {
+        "x": 205,
+        "y": 510.78125,
+        "w": 12,
+        "h": 12,
+        "localX": 51,
+        "localY": 435.5,
+        "tag": "I",
+        "cls": "is-enabled breakpoint-item-line-enable-point breakpoint-icon breakpoint-item-line-breakpoint",
+        "txt": ""
+      },
+      {
+        "x": 154,
+        "y": 75.28125,
+        "w": 0,
+        "h": 0,
+        "localX": 0,
+        "localY": 0,
+        "tag": "I",
+        "cls": "el-icon delete-icon breakpoint-item-line-delete-point",
+        "txt": ""
+      },
+      {
+        "x": 508,
+        "y": 278.28125,
+        "w": 10,
+        "h": 10,
+        "localX": 354,
+        "localY": 203,
+        "tag": "DIV",
+        "cls": "cgmr codicon breakpoint",
+        "txt": ""
+      }
+    ]
+  },
+  "afterStep": {
+    "target": {
+      "href": "http://221.239.19.118:13001/worker-space/index.html?guid=aa5d8314-87b7-453c-96e6-21e4327a8778&version=0&areaid=0&parentid=0&cloudid=107&type=1005",
+      "path": "top.1.0.0"
+    },
+    "body": "变量\nstrmapPara: Array(1)\nresultText: {\"ok\":true,\"code\":\"OK\",\"message\":\"success\",\"traceId\":\"pal-20260624-backend\",\"data\":{\"records\":[{\"id\":\"AR2024041001\",\"studentNo\":\"S2024041001\",\"name\":\"Li Mingxuan\",\"department\":\"Product\",\"mentor\":\"Wang Siyuan\",\"batch\":\"2024Q2\",\"professionalScore\":38,\"attitudeScore\":18,\"taskScore\":18,\"teamworkScore\":9,\"innovationScore\":9,\"totalScore\":92,\"status\":\"completed\",\"updatedAt\":\"2024-06-12 14:30\"},{\"id\":\"AR2024041002\",\"studentNo\":\"S2024041002\",\"name\":\"Zhang Yuting\",\"department\":\"R&D\",\"mentor\":\"Chen Haoran\",\"batch\":\"2024Q2\",\"professionalScore\":36,\"attitudeScore\":18,\"taskScore\":18,\"teamworkScore\":8,\"innovationScore\":9,\"totalScore\":89,\"status\":\"completed\",\"updatedAt\":\"2024-06-11 11:20\"},{\"id\":\"AR2024041005\",\"studentNo\":\"S2024041005\",\"name\":\"Chen Xinyi\",\"department\":\"Operations\",\"mentor\":\"Zhou Zimo\",\"batch\":\"2024Q2\",\"professionalScore\":34,\"attitudeScore\":17,\"taskScore\":16,\"teamworkScore\":8,\"innovationScore\":8,\"totalScore\":83,\"status\":\"pending\",\"updatedAt\":\"2024-06-08 10:05\"}],\"total\":128,\"page\":1,\"pageSize\":10,\"methods\":[\"QueryAssessmentRecords\",\"CreateAssessmentRecord\",\"UpdateAssessmentRecord\",\"DeleteAssessmentRecord\",\"SubmitAssessmentScore\"],\"tables\":[\"pal_menu_node\",\"pal_department\",\"pal_mentor\",\"pal_intern_student\",\"pal_assessment_batch\",\"pal_assessment_record\",\"pal_assessment_score_detail\",\"pal_operation_log\"],\"persistence\":\"businessEventRecordsPendingRuntimeObject\"}}\n监视\n堆栈\n断点\nonCreate\n1441151880758560281-0: 4\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nonDestroy\nonException\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n10\n11\n12\n7\n8\n9\n4\n5\n6\n1\n2\n3\nresultText = DeleteAssessmentRecord(strmapPara);\nTrace(2, \"PalimpsestBackend.onCreate.DeleteAssessmentRecord\", resultText);\nresultText = SubmitAssessmentScore(strmapPara);\nTrace(2, \"PalimpsestBackend.onCreate.CreateAssessmentRecord\", resultText);\nresultText = UpdateAssessmentRecord(strmapPara);\nTrace(2, \"PalimpsestBackend.onCreate.UpdateAssessmentRecord\", resultText);\nresultText = QueryAssessmentRecords(strmapPara);\nTrace(2, \"PalimpsestBackend.onCreate.QueryAssessmentRecords\", resultText);\nresultText = CreateAssessmentRecord(strmapPara);\nstringMap<var> strmapPara;\nstring resultText;\nstrmapPara[\"action\"] = \"startupSmoke\";\n编译信息\nxxxxxxxxxxxxxx 编译成功 11:16:38 xxxxxxxxxxxxxx\n行：13，列：74，\n空格：4\n元语言\n属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n0 / 128\n\n\nID:\n1441151880758560281\n\n\nGUID:\naa5d8314-87b7-453c-96e6-21e4327a8778\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\nKingFusion4.5_V1/产品仓库/KF4.5产品/KF4.5数字孪生模型/管控单元模型/盛云科技_孙宇飞_Palimpsest_后台_0623\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:",
+    "lineEls": [
+      {
+        "x": 522,
+        "y": 392.28125,
+        "w": 38,
+        "h": 19,
+        "localX": 368,
+        "localY": 317,
+        "tag": "DIV",
+        "cls": "line-numbers",
+        "txt": "10"
+      },
+      {
+        "x": 522,
+        "y": 411.28125,
+        "w": 38,
+        "h": 19,
+        "localX": 368,
+        "localY": 336,
+        "tag": "DIV",
+        "cls": "line-numbers",
+        "txt": "11"
+      },
+      {
+        "x": 522,
+        "y": 430.28125,
+        "w": 38,
+        "h": 19,
+        "localX": 368,
+        "localY": 355,
+        "tag": "DIV",
+        "cls": "line-numbers",
+        "txt": "12"
+      },
+      {
+        "x": 522,
+        "y": 335.28125,
+        "w": 38,
+        "h": 19,
+        "localX": 368,
+        "localY": 260,
+        "tag": "DIV",
+        "cls": "line-numbers",
+        "txt": "7"
+      },
+      {
+        "x": 522,
+        "y": 354.28125,
+        "w": 38,
+        "h": 19,
+        "localX": 368,
+        "localY": 279,
+        "tag": "DIV",
+        "cls": "line-numbers",
+        "txt": "8"
+      },
+      {
+        "x": 522,
+        "y": 373.28125,
+        "w": 38,
+        "h": 19,
+        "localX": 368,
+        "localY": 298,
+        "tag": "DIV",
+        "cls": "line-numbers",
+        "txt": "9"
+      },
+      {
+        "x": 522,
+        "y": 278.28125,
+        "w": 38,
+        "h": 19,
+        "localX": 368,
+        "localY": 203,
+        "tag": "DIV",
+        "cls": "line-numbers",
+        "txt": "4"
+      },
+      {
+        "x": 522,
+        "y": 297.28125,
+        "w": 38,
+        "h": 19,
+        "localX": 368,
+        "localY": 222,
+        "tag": "DIV",
+        "cls": "line-numbers",
+        "txt": "5"
+      },
+      {
+        "x": 522,
+        "y": 316.28125,
+        "w": 38,
+        "h": 19,
+        "localX": 368,
+        "localY": 241,
+        "tag": "DIV",
+        "cls": "line-numbers",
+        "txt": "6"
+      },
+      {
+        "x": 522,
+        "y": 221.28125,
+        "w": 38,
+        "h": 19,
+        "localX": 368,
+        "localY": 146,
+        "tag": "DIV",
+        "cls": "line-numbers",
+        "txt": "1"
+      },
+      {
+        "x": 522,
+        "y": 240.28125,
+        "w": 38,
+        "h": 19,
+        "localX": 368,
+        "localY": 165,
+        "tag": "DIV",
+        "cls": "line-numbers",
+        "txt": "2"
+      },
+      {
+        "x": 522,
+        "y": 259.28125,
+        "w": 38,
+        "h": 19,
+        "localX": 368,
+        "localY": 184,
+        "tag": "DIV",
+        "cls": "line-numbers",
+        "txt": "3"
+      }
+    ],
+    "glyph": {
+      "x": 503,
+      "y": 221.28125,
+      "w": 19,
+      "h": 453,
+      "localX": 349,
+      "localY": 146,
+      "tag": "DIV",
+      "cls": "glyph-margin",
+      "txt": ""
+    },
+    "start": null,
+    "stop": {
+      "x": 727,
+      "y": 100.28125,
+      "w": 20,
+      "h": 20,
+      "localX": 573,
+      "localY": 25,
+      "tag": "I",
+      "cls": "el-icon icon cursor-pointer wos-editor-debug-stop el-tooltip__trigger el-tooltip__trigger",
+      "txt": ""
+    },
+    "step": {
+      "x": 1308,
+      "y": 182.28125,
+      "w": 24,
+      "h": 24,
+      "localX": 1154,
+      "localY": 107,
+      "tag": "LI",
+      "cls": "tools-item debug-step-over",
+      "txt": ""
+    },
+    "cont": {
+      "x": 1280,
+      "y": 182.28125,
+      "w": 24,
+      "h": 24,
+      "localX": 1126,
+      "localY": 107,
+      "tag": "LI",
+      "cls": "tools-item debug-continue-run",
+      "txt": ""
+    },
+    "debugMarks": [
+      {
+        "x": 503,
+        "y": 297.28125,
+        "w": 83,
+        "h": 19,
+        "localX": 349,
+        "localY": 222,
+        "tag": "DIV",
+        "cls": "cmdr debug-interrupt-arrow",
+        "txt": ""
+      },
+      {
+        "x": 586,
+        "y": 297.28125,
+        "w": 700,
+        "h": 19,
+        "localX": 432,
+        "localY": 222,
+        "tag": "DIV",
+        "cls": "cdr debug-interrupt-line",
+        "txt": ""
+      },
+      {
+        "x": 1277,
+        "y": 177.28125,
+        "w": 86,
+        "h": 34,
+        "localX": 1123,
+        "localY": 102,
+        "tag": "UL",
+        "cls": "debugger-tools",
+        "txt": ""
+      },
+      {
+        "x": 1280,
+        "y": 182.28125,
+        "w": 24,
+        "h": 24,
+        "localX": 1126,
+        "localY": 107,
+        "tag": "LI",
+        "cls": "tools-item debug-continue-run",
+        "txt": ""
+      },
+      {
+        "x": 1308,
+        "y": 182.28125,
+        "w": 24,
+        "h": 24,
+        "localX": 1154,
+        "localY": 107,
+        "tag": "LI",
+        "cls": "tools-item debug-step-over",
+        "txt": ""
+      },
+      {
+        "x": 1336,
+        "y": 182.28125,
+        "w": 24,
+        "h": 24,
+        "localX": 1182,
+        "localY": 107,
+        "tag": "LI",
+        "cls": "tools-item debug-stop",
+        "txt": ""
+      }
+    ],
+    "bps": [
+      {
+        "x": 200,
+        "y": 459.28125,
+        "w": 292,
+        "h": 40,
+        "localX": 46,
+        "localY": 384,
+        "tag": "DIV",
+        "cls": "title code-editor-debugger-breakpoint",
+        "txt": "断点"
+      },
+      {
+        "x": 448,
+        "y": 471.28125,
+        "w": 12,
+        "h": 12,
+        "localX": 294,
+        "localY": 396,
+        "tag": "I",
+        "cls": "batch-breakpoint-icon batch-enable-point",
+        "txt": ""
+      },
+      {
+        "x": 200,
+        "y": 500.28125,
+        "w": 300,
+        "h": 30,
+        "localX": 46,
+        "localY": 425,
+        "tag": "DIV",
+        "cls": "breakpoint-item-view",
+        "txt": "onCreate\n1441151880758560281-0: 4"
+      },
+      {
+        "x": 200,
+        "y": 500.28125,
+        "w": 300,
+        "h": 30,
+        "localX": 46,
+        "localY": 425,
+        "tag": "DIV",
+        "cls": "breakpoint-item-line cursor-pointer",
+        "txt": "onCreate\n1441151880758560281-0: 4"
+      },
+      {
+        "x": 205,
+        "y": 510.78125,
+        "w": 12,
+        "h": 12,
+        "localX": 51,
+        "localY": 435.5,
+        "tag": "I",
+        "cls": "is-enabled breakpoint-item-line-enable-point breakpoint-icon breakpoint-item-line-breakpoint",
+        "txt": ""
+      },
+      {
+        "x": 154,
+        "y": 75.28125,
+        "w": 0,
+        "h": 0,
+        "localX": 0,
+        "localY": 0,
+        "tag": "I",
+        "cls": "el-icon delete-icon breakpoint-item-line-delete-point",
+        "txt": ""
+      },
+      {
+        "x": 508,
+        "y": 278.28125,
+        "w": 10,
+        "h": 10,
+        "localX": 354,
+        "localY": 203,
+        "tag": "DIV",
+        "cls": "cgmr codicon breakpoint",
+        "txt": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,211 @@
+[
+  {
+    "i": 416,
+    "tag": "DIV",
+    "text": "1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+    "cls": "el-table__body-wrapper is-scrolling-none",
+    "x": 546,
+    "y": 145,
+    "w": 1353,
+    "h": 665,
+    "html": "<div class=\"el-table__body-wrapper is-scrolling-none\" style=\"height: 665px;\"><table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" class=\"el-table__body\" style=\"width: 1353px;\"><colgroup><col name=\"el-table_3_column_12\" width=\"40\"><col name=\"el-table_3_column_13\" width=\"60\"><col name=\"el-table_3_column_"
+  },
+  {
+    "i": 994,
+    "tag": "DIV",
+    "text": "",
+    "cls": "",
+    "x": 480,
+    "y": 128,
+    "w": 21,
+    "h": 16,
+    "html": "<div data-v-0bdc200e=\"\" data-v-34a5b89e=\"\" id=\"kca08f74a7ff5309aa46b6b94f8fb92d\" tabindex=\"\" class=\"\" style=\"height: 16px; width: 21px; margin: 12px 0px 0px; position: relative;\"><div data-v-0bdc200e=\"\" class=\"component_object_unselect\" style=\"width: 21px; height: 16px; transform: scale(1); transfor"
+  },
+  {
+    "i": 995,
+    "tag": "DIV",
+    "text": "",
+    "cls": "component_object_unselect",
+    "x": 480,
+    "y": 128,
+    "w": 21,
+    "h": 16,
+    "html": "<div data-v-0bdc200e=\"\" class=\"component_object_unselect\" style=\"width: 21px; height: 16px; transform: scale(1); transform-origin: left top;\"><div data-v-5cf23eb3=\"\" data-v-0bdc200e=\"\" class=\"ui_factory\" style=\"transform: matrix(1, 0, 0, 1, 0, 0);\"><!----><!----><!----><!----><div data-v-5cf23eb3=\"\""
+  },
+  {
+    "i": 996,
+    "tag": "DIV",
+    "text": "",
+    "cls": "ui_factory",
+    "x": 480,
+    "y": 128,
+    "w": 21,
+    "h": 16,
+    "html": "<div data-v-5cf23eb3=\"\" data-v-0bdc200e=\"\" class=\"ui_factory\" style=\"transform: matrix(1, 0, 0, 1, 0, 0);\"><!----><!----><!----><!----><div data-v-5cf23eb3=\"\" class=\"pointer_auto\" style=\"width: 100%; height: 100%;\"><div data-v-1ed2a00d=\"\" data-v-5cf23eb3=\"\" id=\"kc9aacda096ef99548107746dde01b43\" clas"
+  },
+  {
+    "i": 997,
+    "tag": "DIV",
+    "text": "",
+    "cls": "pointer_auto",
+    "x": 480,
+    "y": 128,
+    "w": 21,
+    "h": 16,
+    "html": "<div data-v-5cf23eb3=\"\" class=\"pointer_auto\" style=\"width: 100%; height: 100%;\"><div data-v-1ed2a00d=\"\" data-v-5cf23eb3=\"\" id=\"kc9aacda096ef99548107746dde01b43\" class=\"component_object ElementButton4\" tabindex=\"0\" colwidth=\"21\" colheight=\"16\" layerguid=\"0c79c07f_d539_4808_84c5_e4f36a1ea285\" parentgu"
+  },
+  {
+    "i": 998,
+    "tag": "DIV",
+    "text": "",
+    "cls": "component_object ElementButton4",
+    "x": 480,
+    "y": 128,
+    "w": 21,
+    "h": 16,
+    "html": "<div data-v-1ed2a00d=\"\" data-v-5cf23eb3=\"\" id=\"kc9aacda096ef99548107746dde01b43\" class=\"component_object ElementButton4\" tabindex=\"0\" colwidth=\"21\" colheight=\"16\" layerguid=\"0c79c07f_d539_4808_84c5_e4f36a1ea285\" parentguid=\"kca08f74a7ff5309aa46b6b94f8fb92d\" style=\"text-align: left;\"><button data-v-1"
+  },
+  {
+    "i": 999,
+    "tag": "BUTTON",
+    "text": "",
+    "cls": "el-button el-tooltip el-button--primary el-button--medium propertyStyle",
+    "x": 480,
+    "y": 128,
+    "w": 16,
+    "h": 16,
+    "html": "<button data-v-1ed2a00d=\"\" type=\"button\" class=\"el-button el-tooltip el-button--primary el-button--medium propertyStyle\" aria-describedby=\"el-tooltip-7260\" tabindex=\"0\" style=\"height: 100%; width: 100%; padding: 0px; position: absolute;\"><!----><!----><span><!---->  <!----></span></button>"
+  },
+  {
+    "i": 1001,
+    "tag": "DIV",
+    "text": "",
+    "cls": "",
+    "x": 501,
+    "y": 128,
+    "w": 21,
+    "h": 16,
+    "html": "<div data-v-0bdc200e=\"\" data-v-34a5b89e=\"\" id=\"kba66505cd4cfdf9751f4708cb95f79f\" tabindex=\"\" class=\"\" style=\"height: 16px; width: 21px; margin: 12px 0px 0px; position: relative;\"><div data-v-0bdc200e=\"\" class=\"component_object_unselect\" style=\"width: 21px; height: 16px; transform: scale(1); transfor"
+  },
+  {
+    "i": 1002,
+    "tag": "DIV",
+    "text": "",
+    "cls": "component_object_unselect",
+    "x": 501,
+    "y": 128,
+    "w": 21,
+    "h": 16,
+    "html": "<div data-v-0bdc200e=\"\" class=\"component_object_unselect\" style=\"width: 21px; height: 16px; transform: scale(1); transform-origin: left top;\"><div data-v-5cf23eb3=\"\" data-v-0bdc200e=\"\" class=\"ui_factory\" style=\"transform: matrix(1, 0, 0, 1, 0, 0);\"><!----><!----><!----><!----><div data-v-5cf23eb3=\"\""
+  },
+  {
+    "i": 1003,
+    "tag": "DIV",
+    "text": "",
+    "cls": "ui_factory",
+    "x": 501,
+    "y": 128,
+    "w": 21,
+    "h": 16,
+    "html": "<div data-v-5cf23eb3=\"\" data-v-0bdc200e=\"\" class=\"ui_factory\" style=\"transform: matrix(1, 0, 0, 1, 0, 0);\"><!----><!----><!----><!----><div data-v-5cf23eb3=\"\" class=\"pointer_auto\" style=\"width: 100%; height: 100%;\"><div data-v-1ed2a00d=\"\" data-v-5cf23eb3=\"\" id=\"k9289f857c7fe22ab61166eb5165a789\" clas"
+  },
+  {
+    "i": 1004,
+    "tag": "DIV",
+    "text": "",
+    "cls": "pointer_auto",
+    "x": 501,
+    "y": 128,
+    "w": 21,
+    "h": 16,
+    "html": "<div data-v-5cf23eb3=\"\" class=\"pointer_auto\" style=\"width: 100%; height: 100%;\"><div data-v-1ed2a00d=\"\" data-v-5cf23eb3=\"\" id=\"k9289f857c7fe22ab61166eb5165a789\" class=\"component_object ElementButton5\" tabindex=\"0\" colwidth=\"21\" colheight=\"16\" layerguid=\"0c79c07f_d539_4808_84c5_e4f36a1ea285\" parentgu"
+  },
+  {
+    "i": 1005,
+    "tag": "DIV",
+    "text": "",
+    "cls": "component_object ElementButton5",
+    "x": 501,
+    "y": 128,
+    "w": 21,
+    "h": 16,
+    "html": "<div data-v-1ed2a00d=\"\" data-v-5cf23eb3=\"\" id=\"k9289f857c7fe22ab61166eb5165a789\" class=\"component_object ElementButton5\" tabindex=\"0\" colwidth=\"21\" colheight=\"16\" layerguid=\"0c79c07f_d539_4808_84c5_e4f36a1ea285\" parentguid=\"kba66505cd4cfdf9751f4708cb95f79f\" style=\"text-align: left;\"><button data-v-1"
+  },
+  {
+    "i": 1006,
+    "tag": "BUTTON",
+    "text": "",
+    "cls": "el-button el-tooltip el-button--primary el-button--medium propertyStyle",
+    "x": 501,
+    "y": 128,
+    "w": 16,
+    "h": 16,
+    "html": "<button data-v-1ed2a00d=\"\" type=\"button\" class=\"el-button el-tooltip el-button--primary el-button--medium propertyStyle\" aria-describedby=\"el-tooltip-1590\" tabindex=\"0\" style=\"height: 100%; width: 100%; padding: 0px; position: absolute;\"><!----><!----><span><!---->  <!----></span></button>"
+  },
+  {
+    "i": 1008,
+    "tag": "DIV",
+    "text": "",
+    "cls": "",
+    "x": 522,
+    "y": 128,
+    "w": 21,
+    "h": 16,
+    "html": "<div data-v-0bdc200e=\"\" data-v-34a5b89e=\"\" id=\"k6f5c357a0428325c4d162d7fdfa63c9\" tabindex=\"\" class=\"\" style=\"height: 16px; width: 21px; margin: 12px 0px 0px; position: relative;\"><div data-v-0bdc200e=\"\" class=\"component_object_unselect\" style=\"width: 21px; height: 16px; transform: scale(1); transfor"
+  },
+  {
+    "i": 1009,
+    "tag": "DIV",
+    "text": "",
+    "cls": "component_object_unselect",
+    "x": 522,
+    "y": 128,
+    "w": 21,
+    "h": 16,
+    "html": "<div data-v-0bdc200e=\"\" class=\"component_object_unselect\" style=\"width: 21px; height: 16px; transform: scale(1); transform-origin: left top;\"><div data-v-5cf23eb3=\"\" data-v-0bdc200e=\"\" class=\"ui_factory\" style=\"transform: matrix(1, 0, 0, 1, 0, 0);\"><!----><!----><!----><!----><div data-v-5cf23eb3=\"\""
+  },
+  {
+    "i": 1010,
+    "tag": "DIV",
+    "text": "",
+    "cls": "ui_factory",
+    "x": 522,
+    "y": 128,
+    "w": 21,
+    "h": 16,
+    "html": "<div data-v-5cf23eb3=\"\" data-v-0bdc200e=\"\" class=\"ui_factory\" style=\"transform: matrix(1, 0, 0, 1, 0, 0);\"><!----><!----><!----><!----><div data-v-5cf23eb3=\"\" class=\"pointer_auto\" style=\"width: 100%; height: 100%;\"><div data-v-1ed2a00d=\"\" data-v-5cf23eb3=\"\" id=\"k6fd531217cb3de04cab501fd84dfb9d\" clas"
+  },
+  {
+    "i": 1011,
+    "tag": "DIV",
+    "text": "",
+    "cls": "pointer_auto",
+    "x": 522,
+    "y": 128,
+    "w": 21,
+    "h": 16,
+    "html": "<div data-v-5cf23eb3=\"\" class=\"pointer_auto\" style=\"width: 100%; height: 100%;\"><div data-v-1ed2a00d=\"\" data-v-5cf23eb3=\"\" id=\"k6fd531217cb3de04cab501fd84dfb9d\" class=\"component_object ElementButton12\" tabindex=\"0\" colwidth=\"21\" colheight=\"16\" layerguid=\"0c79c07f_d539_4808_84c5_e4f36a1ea285\" parentg"
+  },
+  {
+    "i": 1012,
+    "tag": "DIV",
+    "text": "",
+    "cls": "component_object ElementButton12",
+    "x": 522,
+    "y": 128,
+    "w": 21,
+    "h": 16,
+    "html": "<div data-v-1ed2a00d=\"\" data-v-5cf23eb3=\"\" id=\"k6fd531217cb3de04cab501fd84dfb9d\" class=\"component_object ElementButton12\" tabindex=\"0\" colwidth=\"21\" colheight=\"16\" layerguid=\"0c79c07f_d539_4808_84c5_e4f36a1ea285\" parentguid=\"k6f5c357a0428325c4d162d7fdfa63c9\" style=\"text-align: left;\"><button data-v-"
+  },
+  {
+    "i": 1013,
+    "tag": "BUTTON",
+    "text": "",
+    "cls": "el-button el-tooltip el-button--primary el-button--medium propertyStyle",
+    "x": 522,
+    "y": 128,
+    "w": 16,
+    "h": 16,
+    "html": "<button data-v-1ed2a00d=\"\" type=\"button\" class=\"el-button el-tooltip el-button--primary el-button--medium propertyStyle\" aria-describedby=\"el-tooltip-5426\" tabindex=\"0\" style=\"height: 100%; width: 100%; padding: 0px; position: absolute;\"><!----><!----><span><!---->  <!----></span></button>"
+  }
+]

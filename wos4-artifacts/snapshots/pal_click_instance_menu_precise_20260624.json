@@ -1,0 +1,661 @@
+{
+  "rect": {
+    "x": 129,
+    "y": 166,
+    "elem": {
+      "tag": "DIV",
+      "cls": "el-tree-node__content",
+      "text": "管控单元实例配置",
+      "rect": {
+        "x": 19,
+        "y": 150,
+        "w": 220,
+        "h": 32
+      }
+    }
+  },
+  "state": {
+    "path": "top.1.0",
+    "text": "KingFusion4.5_组态系统 < 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理 时空列表 KF4.5Root PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+    "rows": [],
+    "buttons": [
+      {
+        "i": 173,
+        "text": "时空列表 KF4.5Root PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "DIV",
+        "cls": "",
+        "rect": {
+          "x": 241,
+          "y": 43,
+          "w": 1678,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 174,
+        "text": "时空列表 KF4.5Root PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "DIV",
+        "cls": "component_object_unselect",
+        "rect": {
+          "x": 241,
+          "y": 43,
+          "w": 1678,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 175,
+        "text": "时空列表 KF4.5Root PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "DIV",
+        "cls": "ui_factory layer_class",
+        "rect": {
+          "x": 241,
+          "y": 43,
+          "w": 1678,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 176,
+        "text": "时空列表 KF4.5Root PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "DIV",
+        "cls": "page_view_container client_page_view_container set_page_app component_object 数字孪生实例化_框架页面",
+        "rect": {
+          "x": 241,
+          "y": 43,
+          "w": 1678,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 177,
+        "text": "时空列表 KF4.5Root PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "DIV",
+        "cls": "page_view",
+        "rect": {
+          "x": 241,
+          "y": 43,
+          "w": 1678,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 184,
+        "text": "时空列表 KF4.5Root PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "DIV",
+        "cls": "layer_view",
+        "rect": {
+          "x": 241,
+          "y": 43,
+          "w": 1678,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 185,
+        "text": "时空列表 KF4.5Root PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "DIV",
+        "cls": "layout_container containerStyle",
+        "rect": {
+          "x": 241,
+          "y": 43,
+          "w": 1678,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 186,
+        "text": "时空列表 KF4.5Root PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "SPAN",
+        "cls": "containerrow",
+        "rect": {
+          "x": 241,
+          "y": 43,
+          "w": 1678,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 187,
+        "text": "时空列表 KF4.5Root PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "DIV",
+        "cls": "response_row",
+        "rect": {
+          "x": 241,
+          "y": 43,
+          "w": 1678,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 188,
+        "text": "时空列表 KF4.5Root PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "SPAN",
+        "cls": "",
+        "rect": {
+          "x": 241,
+          "y": 43,
+          "w": 1678,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 189,
+        "text": "时空列表 KF4.5Root PalimpsestRoot",
+        "tag": "DIV",
+        "cls": "",
+        "rect": {
+          "x": 241,
+          "y": 43,
+          "w": 310,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 190,
+        "text": "时空列表 KF4.5Root PalimpsestRoot",
+        "tag": "DIV",
+        "cls": "component_object_unselect",
+        "rect": {
+          "x": 241,
+          "y": 43,
+          "w": 310,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 191,
+        "text": "时空列表 KF4.5Root PalimpsestRoot",
+        "tag": "DIV",
+        "cls": "ui_factory layer_class",
+        "rect": {
+          "x": 241,
+          "y": 43,
+          "w": 310,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 192,
+        "text": "时空列表 KF4.5Root PalimpsestRoot",
+        "tag": "DIV",
+        "cls": "layer_class",
+        "rect": {
+          "x": 241,
+          "y": 43,
+          "w": 310,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 193,
+        "text": "时空列表 KF4.5Root PalimpsestRoot",
+        "tag": "DIV",
+        "cls": "layout_container component_object containerStyle",
+        "rect": {
+          "x": 241,
+          "y": 43,
+          "w": 310,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 194,
+        "text": "时空列表 KF4.5Root PalimpsestRoot",
+        "tag": "SPAN",
+        "cls": "containerrow",
+        "rect": {
+          "x": 241,
+          "y": 43,
+          "w": 310,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 195,
+        "text": "时空列表",
+        "tag": "DIV",
+        "cls": "response_row",
+        "rect": {
+          "x": 256,
+          "y": 58,
+          "w": 280,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 196,
+        "text": "时空列表",
+        "tag": "SPAN",
+        "cls": "",
+        "rect": {
+          "x": 256,
+          "y": 58,
+          "w": 280,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 197,
+        "text": "时空列表",
+        "tag": "DIV",
+        "cls": "",
+        "rect": {
+          "x": 256,
+          "y": 58,
+          "w": 80,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 198,
+        "text": "时空列表",
+        "tag": "DIV",
+        "cls": "component_object_unselect",
+        "rect": {
+          "x": 256,
+          "y": 58,
+          "w": 80,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 199,
+        "text": "时空列表",
+        "tag": "DIV",
+        "cls": "ui_factory layer_class",
+        "rect": {
+          "x": 256,
+          "y": 58,
+          "w": 80,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 200,
+        "text": "时空列表",
+        "tag": "DIV",
+        "cls": "pointer_auto",
+        "rect": {
+          "x": 256,
+          "y": 58,
+          "w": 80,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 201,
+        "text": "时空列表",
+        "tag": "DIV",
+        "cls": "el-text-component component_object ElementText1",
+        "rect": {
+          "x": 256,
+          "y": 58,
+          "w": 80,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 224,
+        "text": "导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置",
+        "tag": "DIV",
+        "cls": "",
+        "rect": {
+          "x": 516,
+          "y": 66,
+          "w": 20,
+          "h": 18
+        },
+        "visible": true
+      },
+      {
+        "i": 225,
+        "text": "导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置",
+        "tag": "DIV",
+        "cls": "component_object_unselect",
+        "rect": {
+          "x": 516,
+          "y": 66,
+          "w": 20,
+          "h": 18
+        },
+        "visible": true
+      },
+      {
+        "i": 226,
+        "text": "导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置",
+        "tag": "DIV",
+        "cls": "ui_factory layer_class",
+        "rect": {
+          "x": 516,
+          "y": 66,
+          "w": 20,
+          "h": 18
+        },
+        "visible": true
+      },
+      {
+        "i": 227,
+        "text": "导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置",
+        "tag": "DIV",
+        "cls": "pointer_auto",
+        "rect": {
+          "x": 516,
+          "y": 66,
+          "w": 20,
+          "h": 18
+        },
+        "visible": true
+      },
+      {
+        "i": 228,
+        "text": "导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置",
+        "tag": "DIV",
+        "cls": "el-tooltip component_object moreOperation_ElementDropdown1",
+        "rect": {
+          "x": 516,
+          "y": 66,
+          "w": 20,
+          "h": 18
+        },
+        "visible": true
+      },
+      {
+        "i": 229,
+        "text": "导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置",
+        "tag": "DIV",
+        "cls": "el-dropdown k964c4214e84949628507951e5f3da16",
+        "rect": {
+          "x": 516,
+          "y": 66,
+          "w": 20,
+          "h": 18
+        },
+        "visible": true
+      },
+      {
+        "i": 274,
+        "text": "实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "DIV",
+        "cls": "",
+        "rect": {
+          "x": 551,
+          "y": 43,
+          "w": 1368,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 275,
+        "text": "实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "DIV",
+        "cls": "component_object_unselect",
+        "rect": {
+          "x": 551,
+          "y": 43,
+          "w": 1368,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 276,
+        "text": "实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "DIV",
+        "cls": "ui_factory layer_class",
+        "rect": {
+          "x": 551,
+          "y": 43,
+          "w": 1368,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 277,
+        "text": "实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "DIV",
+        "cls": "layer_class",
+        "rect": {
+          "x": 551,
+          "y": 43,
+          "w": 1368,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 278,
+        "text": "实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "DIV",
+        "cls": "layout_container component_object containerStyle",
+        "rect": {
+          "x": 551,
+          "y": 43,
+          "w": 1368,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 279,
+        "text": "实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "SPAN",
+        "cls": "containerrow",
+        "rect": {
+          "x": 551,
+          "y": 43,
+          "w": 1368,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 280,
+        "text": "实例列表 新建 删除 更多操作",
+        "tag": "DIV",
+        "cls": "response_row",
+        "rect": {
+          "x": 566,
+          "y": 58,
+          "w": 1338,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 281,
+        "text": "实例列表 新建 删除 更多操作",
+        "tag": "SPAN",
+        "cls": "",
+        "rect": {
+          "x": 566,
+          "y": 58,
+          "w": 1338,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 282,
+        "text": "实例列表",
+        "tag": "DIV",
+        "cls": "",
+        "rect": {
+          "x": 566,
+          "y": 58,
+          "w": 120,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 283,
+        "text": "实例列表",
+        "tag": "DIV",
+        "cls": "component_object_unselect",
+        "rect": {
+          "x": 566,
+          "y": 58,
+          "w": 120,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 284,
+        "text": "实例列表",
+        "tag": "DIV",
+        "cls": "ui_factory layer_class",
+        "rect": {
+          "x": 566,
+          "y": 58,
+          "w": 120,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 285,
+        "text": "实例列表",
+        "tag": "DIV",
+        "cls": "pointer_auto",
+        "rect": {
+          "x": 566,
+          "y": 58,
+          "w": 120,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 286,
+        "text": "实例列表",
+        "tag": "DIV",
+        "cls": "el-text-component component_object ElementText11",
+        "rect": {
+          "x": 566,
+          "y": 58,
+          "w": 120,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 288,
+        "text": "新建",
+        "tag": "DIV",
+        "cls": "",
+        "rect": {
+          "x": 1329,
+          "y": 58,
+          "w": 80,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 289,
+        "text": "新建",
+        "tag": "DIV",
+        "cls": "component_object_unselect",
+        "rect": {
+          "x": 1329,
+          "y": 58,
+          "w": 80,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 290,
+        "text": "新建",
+        "tag": "DIV",
+        "cls": "ui_factory layer_class",
+        "rect": {
+          "x": 1329,
+          "y": 58,
+          "w": 80,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 291,
+        "text": "新建",
+        "tag": "DIV",
+        "cls": "pointer_auto",
+        "rect": {
+          "x": 1329,
+          "y": 58,
+          "w": 80,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 292,
+        "text": "新建",
+        "tag": "DIV",
+        "cls": "component_object ElementButton2",
+        "rect": {
+          "x": 1329,
+          "y": 58,
+          "w": 80,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 293,
+        "text": "新建",
+        "tag": "BUTTON",
+        "cls": "el-button el-button--primary el-button--medium propertyStyle",
+        "rect": {
+          "x": 1329,
+          "y": 58,
+          "w": 80,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 294,
+        "text": "新建",
+        "tag": "SPAN",
+        "cls": "",
+        "rect": {
+          "x": 1364.5,
+          "y": 68,
+          "w": 28,
+          "h": 14
+        },
+        "visible": true
+      }
+    ]
+  }
+}

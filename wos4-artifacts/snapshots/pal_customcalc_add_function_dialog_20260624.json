@@ -1,0 +1,253 @@
+{
+  "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\nQueryAssessmentPage\n\nQueryAssessmentData\n\nQueryAssessmentSmoke\n\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nonDestroy\nonException\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\n名称:\n输入参数:\n返回值类型:\n1\n2\n3\nreturn \"{\\\"ok\\\":true,\\\"data\\\":{\\\"total\\\":128,\\\"records\\\":[{\\\"name\\\":\\\"Li\\\",\\\"score\\\":92.6}]}}\";\n行：1，列：1，\n空格：4\n元语言\n属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n0 / 128\n\n\nID:\n1441151880758560281\n\n\nGUID:\naa5d8314-87b7-453c-96e6-21e4327a8778\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\nKingFusion4.5_V1/产品仓库/KF4.5产品/KF4.5数字孪生模型/管控单元模型/盛云科技_孙宇飞_Palimpsest_后台_0623\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:\n新建\n功能名:\n输入参数:\n返回值类型:\n取消\n确定",
+  "dialogs": [
+    {
+      "cls": "el-overlay-dialog",
+      "text": "",
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "inputs": [],
+      "buttons": []
+    },
+    {
+      "cls": "el-overlay-dialog",
+      "text": "",
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "inputs": [],
+      "buttons": []
+    },
+    {
+      "cls": "el-overlay-dialog",
+      "text": "",
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "inputs": [],
+      "buttons": []
+    },
+    {
+      "cls": "el-overlay-dialog",
+      "text": "",
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "inputs": [],
+      "buttons": []
+    },
+    {
+      "cls": "el-overlay-dialog",
+      "text": "",
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "inputs": [],
+      "buttons": []
+    },
+    {
+      "cls": "el-overlay-dialog",
+      "text": "",
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "inputs": [],
+      "buttons": []
+    },
+    {
+      "cls": "el-overlay-dialog",
+      "text": "",
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "inputs": [],
+      "buttons": []
+    },
+    {
+      "cls": "el-overlay-dialog",
+      "text": "",
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "inputs": [],
+      "buttons": []
+    },
+    {
+      "cls": "el-overlay-dialog",
+      "text": "",
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "inputs": [],
+      "buttons": []
+    },
+    {
+      "cls": "el-overlay-dialog",
+      "text": "",
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "inputs": [],
+      "buttons": []
+    },
+    {
+      "cls": "el-overlay-dialog",
+      "text": "",
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "inputs": [],
+      "buttons": []
+    },
+    {
+      "cls": "el-overlay-dialog",
+      "text": "",
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "inputs": [],
+      "buttons": []
+    },
+    {
+      "cls": "el-overlay-dialog",
+      "text": "",
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "inputs": [],
+      "buttons": []
+    },
+    {
+      "cls": "el-overlay-dialog",
+      "text": "",
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "inputs": [],
+      "buttons": []
+    },
+    {
+      "cls": "el-overlay-dialog",
+      "text": "",
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "inputs": [],
+      "buttons": []
+    },
+    {
+      "cls": "el-overlay-dialog",
+      "text": "",
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "inputs": [],
+      "buttons": []
+    },
+    {
+      "cls": "el-overlay-dialog",
+      "text": "",
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "inputs": [],
+      "buttons": []
+    },
+    {
+      "cls": "el-overlay-dialog",
+      "text": "新建\n功能名:\n输入参数:\n返回值类型:\n取消\n确定",
+      "x": 0,
+      "y": 0,
+      "w": 1612,
+      "h": 698,
+      "inputs": [
+        {
+          "ph": "请输入功能名称",
+          "value": "",
+          "cls": "el-input__inner"
+        },
+        {
+          "ph": "参数用,隔开，如int a, int b",
+          "value": "",
+          "cls": "el-input__inner"
+        },
+        {
+          "ph": "",
+          "value": "",
+          "cls": "el-input__inner"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "cls": "el-dialog__headerbtn"
+        },
+        {
+          "text": "取消",
+          "cls": "el-button el-button--default dialog-add-function-close"
+        },
+        {
+          "text": "确定",
+          "cls": "el-button el-button--primary el-button--default dialog-add-function-confirm"
+        }
+      ]
+    },
+    {
+      "cls": "el-dialog dialog-add-function",
+      "text": "新建\n功能名:\n输入参数:\n返回值类型:\n取消\n确定",
+      "x": 556,
+      "y": 104.6875,
+      "w": 500,
+      "h": 274,
+      "inputs": [
+        {
+          "ph": "请输入功能名称",
+          "value": "",
+          "cls": "el-input__inner"
+        },
+        {
+          "ph": "参数用,隔开，如int a, int b",
+          "value": "",
+          "cls": "el-input__inner"
+        },
+        {
+          "ph": "",
+          "value": "",
+          "cls": "el-input__inner"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "cls": "el-dialog__headerbtn"
+        },
+        {
+          "text": "取消",
+          "cls": "el-button el-button--default dialog-add-function-close"
+        },
+        {
+          "text": "确定",
+          "cls": "el-button el-button--primary el-button--default dialog-add-function-confirm"
+        }
+      ]
+    }
+  ]
+}

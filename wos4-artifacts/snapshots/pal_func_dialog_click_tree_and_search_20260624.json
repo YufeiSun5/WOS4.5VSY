@@ -1,0 +1,192 @@
+{
+  "res": {
+    "ok": true,
+    "path": "top.1.0",
+    "clickedNode": {
+      "i": 10,
+      "text": "盛云_孙宇飞_根组",
+      "x": 326,
+      "y": 494.5
+    },
+    "treeNodes": [
+      {
+        "i": 0,
+        "text": "根组",
+        "x": 326,
+        "y": 194.5,
+        "w": 489,
+        "h": 30,
+        "html": "<div class=\"el-tree-node__content\" style=\"padding-left: 0px;\"><span class=\"expanded el-tree-node__expand-icon el-icon-caret-right\"></span><!----><!----><span data-v-528148a9=\"\" class=\"editNode root-node\"><i data-v-528148a9=\"\" class=\"custom-el-icon kf-icon-folder\"></i><span data-v-528148a9=\"\" title=\""
+      },
+      {
+        "i": 1,
+        "text": "测试",
+        "x": 326,
+        "y": 224.5,
+        "w": 489,
+        "h": 30,
+        "html": "<div class=\"el-tree-node__content\" style=\"padding-left: 16px;\"><span class=\"is-leaf el-tree-node__expand-icon el-icon-caret-right\"></span><!----><!----><span data-v-528148a9=\"\" class=\"editNode\"><i data-v-528148a9=\"\" class=\"custom-el-icon kf-icon-folder\"></i><span data-v-528148a9=\"\" title=\"测试\" class="
+      },
+      {
+        "i": 2,
+        "text": "产品生成器功能测试_lk",
+        "x": 326,
+        "y": 254.5,
+        "w": 489,
+        "h": 30,
+        "html": "<div class=\"el-tree-node__content\" style=\"padding-left: 16px;\"><span class=\"is-leaf el-tree-node__expand-icon el-icon-caret-right\"></span><!----><!----><span data-v-528148a9=\"\" class=\"editNode\"><i data-v-528148a9=\"\" class=\"custom-el-icon kf-icon-folder\"></i><span data-v-528148a9=\"\" title=\"产品生成器功能测试_"
+      },
+      {
+        "i": 3,
+        "text": "产线",
+        "x": 326,
+        "y": 284.5,
+        "w": 489,
+        "h": 30,
+        "html": "<div class=\"el-tree-node__content\" style=\"padding-left: 16px;\"><span class=\"is-leaf el-tree-node__expand-icon el-icon-caret-right\"></span><!----><!----><span data-v-528148a9=\"\" class=\"editNode\"><i data-v-528148a9=\"\" class=\"custom-el-icon kf-icon-folder\"></i><span data-v-528148a9=\"\" title=\"产线\" class="
+      },
+      {
+        "i": 4,
+        "text": "车间",
+        "x": 326,
+        "y": 314.5,
+        "w": 489,
+        "h": 30,
+        "html": "<div class=\"el-tree-node__content\" style=\"padding-left: 16px;\"><span class=\"is-leaf el-tree-node__expand-icon el-icon-caret-right\"></span><!----><!----><span data-v-528148a9=\"\" class=\"editNode\"><i data-v-528148a9=\"\" class=\"custom-el-icon kf-icon-folder\"></i><span data-v-528148a9=\"\" title=\"车间\" class="
+      },
+      {
+        "i": 5,
+        "text": "工厂",
+        "x": 326,
+        "y": 344.5,
+        "w": 489,
+        "h": 30,
+        "html": "<div class=\"el-tree-node__content\" style=\"padding-left: 16px;\"><span class=\"is-leaf el-tree-node__expand-icon el-icon-caret-right\"></span><!----><!----><span data-v-528148a9=\"\" class=\"editNode\"><i data-v-528148a9=\"\" class=\"custom-el-icon kf-icon-folder\"></i><span data-v-528148a9=\"\" title=\"工厂\" class="
+      },
+      {
+        "i": 6,
+        "text": "管理员",
+        "x": 326,
+        "y": 374.5,
+        "w": 489,
+        "h": 30,
+        "html": "<div class=\"el-tree-node__content\" style=\"padding-left: 16px;\"><span class=\"is-leaf el-tree-node__expand-icon el-icon-caret-right\"></span><!----><!----><span data-v-528148a9=\"\" class=\"editNode\"><i data-v-528148a9=\"\" class=\"custom-el-icon kf-icon-folder\"></i><span data-v-528148a9=\"\" title=\"管理员\" class"
+      },
+      {
+        "i": 7,
+        "text": "集成测试",
+        "x": 326,
+        "y": 404.5,
+        "w": 489,
+        "h": 30,
+        "html": "<div class=\"el-tree-node__content\" style=\"padding-left: 16px;\"><span class=\"is-leaf el-tree-node__expand-icon el-icon-caret-right\"></span><!----><!----><span data-v-528148a9=\"\" class=\"editNode\"><i data-v-528148a9=\"\" class=\"custom-el-icon kf-icon-folder\"></i><span data-v-528148a9=\"\" title=\"集成测试\" clas"
+      },
+      {
+        "i": 8,
+        "text": "设备",
+        "x": 326,
+        "y": 434.5,
+        "w": 489,
+        "h": 30,
+        "html": "<div class=\"el-tree-node__content\" style=\"padding-left: 16px;\"><span class=\"is-leaf el-tree-node__expand-icon el-icon-caret-right\"></span><!----><!----><span data-v-528148a9=\"\" class=\"editNode\"><i data-v-528148a9=\"\" class=\"custom-el-icon kf-icon-folder\"></i><span data-v-528148a9=\"\" title=\"设备\" class="
+      },
+      {
+        "i": 9,
+        "text": "生产计划与执行",
+        "x": 326,
+        "y": 464.5,
+        "w": 489,
+        "h": 30,
+        "html": "<div class=\"el-tree-node__content\" style=\"padding-left: 16px;\"><span class=\"is-leaf el-tree-node__expand-icon el-icon-caret-right\"></span><!----><!----><span data-v-528148a9=\"\" class=\"editNode\"><i data-v-528148a9=\"\" class=\"custom-el-icon kf-icon-folder\"></i><span data-v-528148a9=\"\" title=\"生产计划与执行\" c"
+      },
+      {
+        "i": 10,
+        "text": "盛云_孙宇飞_根组",
+        "x": 326,
+        "y": 494.5,
+        "w": 489,
+        "h": 30,
+        "html": "<div class=\"el-tree-node__content\" style=\"padding-left: 16px;\"><span class=\"is-leaf el-tree-node__expand-icon el-icon-caret-right\"></span><!----><!----><span data-v-528148a9=\"\" class=\"editNode\"><i data-v-528148a9=\"\" class=\"custom-el-icon kf-icon-folder\"></i><span data-v-528148a9=\"\" title=\"盛云_孙宇飞_根组\""
+      },
+      {
+        "i": 11,
+        "text": "首页建模",
+        "x": 326,
+        "y": 524.5,
+        "w": 489,
+        "h": 30,
+        "html": "<div class=\"el-tree-node__content\" style=\"padding-left: 16px;\"><span class=\"is-leaf el-tree-node__expand-icon el-icon-caret-right\"></span><!----><!----><span data-v-528148a9=\"\" class=\"editNode\"><i data-v-528148a9=\"\" class=\"custom-el-icon kf-icon-folder\"></i><span data-v-528148a9=\"\" title=\"首页建模\" clas"
+      },
+      {
+        "i": 12,
+        "text": "数据管理",
+        "x": 326,
+        "y": 554.5,
+        "w": 489,
+        "h": 30,
+        "html": "<div class=\"el-tree-node__content\" style=\"padding-left: 16px;\"><span class=\"is-leaf el-tree-node__expand-icon el-icon-caret-right\"></span><!----><!----><span data-v-528148a9=\"\" class=\"editNode\"><i data-v-528148a9=\"\" class=\"custom-el-icon kf-icon-folder\"></i><span data-v-528148a9=\"\" title=\"数据管理\" clas"
+      },
+      {
+        "i": 13,
+        "text": "引滦工程",
+        "x": 326,
+        "y": 584.5,
+        "w": 489,
+        "h": 30,
+        "html": "<div class=\"el-tree-node__content\" style=\"padding-left: 16px;\"><span class=\"is-leaf el-tree-node__expand-icon el-icon-caret-right\"></span><!----><!----><span data-v-528148a9=\"\" class=\"editNode\"><i data-v-528148a9=\"\" class=\"custom-el-icon kf-icon-folder\"></i><span data-v-528148a9=\"\" title=\"引滦工程\" clas"
+      },
+      {
+        "i": 14,
+        "text": "张测试组",
+        "x": 326,
+        "y": 614.5,
+        "w": 489,
+        "h": 30,
+        "html": "<div class=\"el-tree-node__content\" style=\"padding-left: 16px;\"><span class=\"is-leaf el-tree-node__expand-icon el-icon-caret-right\"></span><!----><!----><span data-v-528148a9=\"\" class=\"editNode\"><i data-v-528148a9=\"\" class=\"custom-el-icon kf-icon-folder\"></i><span data-v-528148a9=\"\" title=\"张测试组\" clas"
+      },
+      {
+        "i": 15,
+        "text": "lk测试",
+        "x": 326,
+        "y": 644.5,
+        "w": 489,
+        "h": 30,
+        "html": "<div class=\"el-tree-node__content\" style=\"padding-left: 16px;\"><span class=\"is-leaf el-tree-node__expand-icon el-icon-caret-right\"></span><!----><!----><span data-v-528148a9=\"\" class=\"editNode\"><i data-v-528148a9=\"\" class=\"custom-el-icon kf-icon-folder\"></i><span data-v-528148a9=\"\" title=\"lk测试\" clas"
+      },
+      {
+        "i": 16,
+        "text": "mwq测试",
+        "x": 326,
+        "y": 674.5,
+        "w": 489,
+        "h": 30,
+        "html": "<div class=\"el-tree-node__content\" style=\"padding-left: 16px;\"><span class=\"is-leaf el-tree-node__expand-icon el-icon-caret-right\"></span><!----><!----><span data-v-528148a9=\"\" class=\"editNode\"><i data-v-528148a9=\"\" class=\"custom-el-icon kf-icon-folder\"></i><span data-v-528148a9=\"\" title=\"mwq测试\" cla"
+      }
+    ],
+    "search": {
+      "ph": "请输入实例描述",
+      "value": "PalimpsestAssessment"
+    }
+  },
+  "state": {
+    "path": "top.1.0",
+    "body": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot\n\n实例列表\n\n新建\n删除\n更多操作 \n\t序号\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\n1\n\t\nPalimpsestBack\n\t\nPalimpsestBack\n\t\nPalimpsest backend CRUD service\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n新建管控单元实例\n\n名称\n\n18/64\n\n显示名称\n\n18/64\n\n描述\n\n20/128\n\n选择模型\n\n根组\n测试\n产品生成器功能测试_lk\n产线\n车间\n工厂\n管理员\n集成测试\n设备\n生产计划与执行\n盛云_孙宇飞_根组\n首页建模\n数据管理\n引滦工程\n张测试组\nlk测试\nmwq测试\n序号\t名称\t描述\t版本\n暂无数据\n共 0 条\n1\n前往页\n取消\n确定",
+    "rows": [
+      {
+        "i": 0,
+        "text": "序号 名称 显示名称 描述 模型 模型版本 操作",
+        "html": "<tr class=\"\"><th colspan=\"1\" rowspan=\"1\" class=\"el-table_5_column_23   el-table-column--selection  is-leaf el-table__cell\"><div class=\"cell\"><label class=\"el-checkbox\"><span class=\"el-checkbox__input\"><span class=\"el-checkbox__inner\"></span><input type=\"checkbox\" aria-hidden=\"false\" class=\"el-checkbox__original\" value=\"\"></span><!----></label></div></th><th colspan=\"1\" rowspan=\"1\" class=\"el-table_5_column_24  is-left   is-leaf el-table__cell\"><div class=\"cell\"><span data-v-3499da1b=\"\"><!----> 序号</span></div></th><th colspan=\"1\" rowspan=\"1\" class=\"el-table_5_column_25  is-left   is-leaf el-tabl"
+      },
+      {
+        "i": 1,
+        "text": "1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+        "html": "<tr class=\"el-table__row kf-row-mcm-instance expanded\"><td rowspan=\"1\" colspan=\"1\" class=\"el-table_5_column_23  el-table-column--selection  el-table__cell\"><div class=\"cell\"><label class=\"el-checkbox\"><span class=\"el-checkbox__input\"><span class=\"el-checkbox__inner\"></span><input type=\"checkbox\" aria-hidden=\"false\" class=\"el-checkbox__original\" value=\"\"></span><!----></label></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_5_column_24 is-left   el-table__cell\"><div class=\"cell\"><div>1</div></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_5_column_25 is-left  instance-name el-table_"
+      },
+      {
+        "i": 2,
+        "text": "序号 名称 描述 版本",
+        "html": "<tr class=\"\"><th colspan=\"1\" rowspan=\"1\" class=\"el-table_8_column_41  is-center   is-leaf el-table__cell\"><div class=\"cell\"><span data-v-3499da1b=\"\"><!----> 序号</span></div></th><th colspan=\"1\" rowspan=\"1\" class=\"el-table_8_column_42  is-left   is-leaf el-table__cell\"><div class=\"cell\"><span data-v-3499da1b=\"\"><!----></span><span data-v-3499da1b=\"\">名称</span></div></th><th colspan=\"1\" rowspan=\"1\" class=\"el-table_8_column_43  is-left   is-leaf el-table__cell\"><div class=\"cell\"><span data-v-3499da1b=\"\"><!----></span><span data-v-3499da1b=\"\">描述</span></div></th><th colspan=\"1\" rowspan=\"1\" class=\"el"
+      }
+    ]
+  }
+}

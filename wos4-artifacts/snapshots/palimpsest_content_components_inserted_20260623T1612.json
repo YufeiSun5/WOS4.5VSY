@@ -1,0 +1,88 @@
+{
+  "path": "top.1.0.0",
+  "comps": [
+    {
+      "slot": 0,
+      "name": "pal_page_title",
+      "proto": "ElementText",
+      "element": "ElementText",
+      "detailLen": 58,
+      "linkCount": 0
+    },
+    {
+      "slot": 1,
+      "name": "pal_filter_input",
+      "proto": "ElementInput",
+      "element": "ElementInput",
+      "detailLen": 0,
+      "linkCount": 6
+    },
+    {
+      "slot": 2,
+      "name": "pal_query_button",
+      "proto": "ElementButton",
+      "element": "ElementButton",
+      "detailLen": 45,
+      "linkCount": 1
+    },
+    {
+      "slot": 3,
+      "name": "pal_add_button",
+      "proto": "ElementButton",
+      "element": "ElementButton",
+      "detailLen": 52,
+      "linkCount": 1
+    },
+    {
+      "slot": 4,
+      "name": "pal_metric_total",
+      "proto": "ElementText",
+      "element": "ElementText",
+      "detailLen": 26,
+      "linkCount": 0
+    },
+    {
+      "slot": 5,
+      "name": "pal_metric_pending",
+      "proto": "ElementText",
+      "element": "ElementText",
+      "detailLen": 23,
+      "linkCount": 0
+    },
+    {
+      "slot": 6,
+      "name": "pal_metric_done",
+      "proto": "ElementText",
+      "element": "ElementText",
+      "detailLen": 24,
+      "linkCount": 0
+    },
+    {
+      "slot": 7,
+      "name": "pal_metric_avg",
+      "proto": "ElementText",
+      "element": "ElementText",
+      "detailLen": 26,
+      "linkCount": 0
+    },
+    {
+      "slot": 8,
+      "name": "pal_records_table",
+      "proto": "ElementTable",
+      "element": "ElementTable",
+      "detailLen": 1795,
+      "linkCount": 21,
+      "tableRows": 6,
+      "tableCols": 8
+    },
+    {
+      "slot": 9,
+      "name": "pal_score_chart",
+      "proto": "ElementChart",
+      "element": "ElementChart",
+      "detailLen": 576,
+      "linkCount": 9
+    }
+  ],
+  "pageText": "文件(F)\n提交\n预览\n\n组件\n\n布局容器\nUI组件\n图表组件\n流程图\n精灵图库\nPalimpsestContent_82\n\n实习生考核管理\n\n查询:ALL / 6\n新增 / 弹窗\n\n实习生总数 128\n\n待考核 23\n\n已完成 105\n\n平均得分 86.7\n\n学号\t姓名\t部门\t导师\t实习批次\t综合评分\t状态\t更新时间\nS2024041001\n\t\n李明轩\n\t\n产品部\n\t\n王思远\n\t\n2024Q2\n\t\n92.6\n\t\n已完成\n\t\n2024-06-12 14:30\n\n\nS2024041002\n\t\n张雨婷\n\t\n研发部\n\t\n陈浩然\n\t\n2024Q2\n\t\n89.3\n\t\n已完成\n\t\n2024-06-11 11:20\n\n\nS2024041003\n\t\n王子涵\n\t\n设计部\n\t\n刘佳怡\n\t\n2024Q2\n\t\n87.4\n\t\n已完成\n\t\n2024-06-10 16:45\n\n\nS2024041004\n\t\n赵天宇\n\t\n市场部\n\t\n孙一凡\n\t\n2024Q2\n\t\n85.1\n\t\n已完成\n\t\n2024-06-09 09:15\n\n\nS2024041005\n\t\n陈欣怡\n\t\n运营部\n\t\n周子墨\n\t\n2024Q2\n\t\n83.6\n\t\n待考核\n\t\n2024-06-08 10:05\n\n\nS2024041006\n\t\n刘宇航\n\t\n测试部\n\t\n吴昊天\n\t\n2024Q2\n\t\n81.2\n\t\n待考核\n\t\n2024-06-07 15:40\n共 6 条\n1\n前往页\n属性\n基本\n名称\n\t\n\n\n类型\n\t\nElementChart\n\n\n描述\n\t\n位置\n横坐标\n\t\n960\n\n\n纵坐标\n\t\n308\n配置\n数据配置\n\t\n配置\n\n\n样式配置\n\t\n配置\n其他\n是否被锁住\n\t\n\n\n是否显示\n\t\n\n\n运行是否显示\n\t\n对象图层\n图层1\n鼠标位置：0, 0\n所选对象位置： 960, 308\n选择对象类型: UI组件 , 位于\n共 0 个对象, 已选 1 个对象\n选择对象名称: pal_score_chart\n63%"
+}

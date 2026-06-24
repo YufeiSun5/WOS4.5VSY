@@ -1,0 +1,641 @@
+[
+  {
+    "path": "top",
+    "href": "http://221.239.19.118:13001/public/index.html?id=6192730962611143164&parentid=0&cloudid=107&clientnumber=7710165596778147144&bs=true#/#{%22mode%22:%22debugger%22,%22FUType%22:%2221%22,%22type%22:1005,%22guid%22:%22%22,%22id%22:%22%22,%22guidVersion%22:{%22guid%22:%2260212e1d-16ab-41ef-82e2-89390b7c6511%22,%22version%22:0,%22id%22:%221441151880758560275%22},%22projectId%22:%22%22,%22isParamConfig%22:false,%22runModelName%22:%22PalimpsestContent_82%22}",
+    "bodyH": 1090,
+    "clientH": 1090,
+    "comps": []
+  },
+  {
+    "path": "top.0",
+    "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_120/index.html",
+    "bodyH": 1090,
+    "clientH": 1090,
+    "comps": [
+      {
+        "i": 0,
+        "tag": "DIV",
+        "id": "",
+        "cls": "pointer_auto",
+        "text": "",
+        "x": 0,
+        "y": 0,
+        "w": 310,
+        "h": 88,
+        "attrs": {
+          "colheight": null,
+          "colwidth": null,
+          "parentguid": null
+        }
+      },
+      {
+        "i": 1,
+        "tag": "DIV",
+        "id": "UI_883515",
+        "cls": "el-input-component component_object pal_filter_keyword",
+        "text": "",
+        "x": 0,
+        "y": 0,
+        "w": 310,
+        "h": 56,
+        "attrs": {
+          "colheight": "88",
+          "colwidth": "310",
+          "parentguid": "FilterKeywordCol_mqqfjd4o_834tdf"
+        }
+      },
+      {
+        "i": 2,
+        "tag": "DIV",
+        "id": "",
+        "cls": "pointer_auto",
+        "text": "",
+        "x": 310,
+        "y": 0,
+        "w": 300,
+        "h": 88,
+        "attrs": {
+          "colheight": null,
+          "colwidth": null,
+          "parentguid": null
+        }
+      },
+      {
+        "i": 3,
+        "tag": "DIV",
+        "id": "UI_883515",
+        "cls": "el-input-component component_object pal_filter_dept",
+        "text": "",
+        "x": 310,
+        "y": 0,
+        "w": 300,
+        "h": 56,
+        "attrs": {
+          "colheight": "88",
+          "colwidth": "300",
+          "parentguid": "FilterDeptCol_mqqfjd4o_tp9tpy"
+        }
+      },
+      {
+        "i": 4,
+        "tag": "DIV",
+        "id": "",
+        "cls": "pointer_auto",
+        "text": "",
+        "x": 610,
+        "y": 0,
+        "w": 300,
+        "h": 88,
+        "attrs": {
+          "colheight": null,
+          "colwidth": null,
+          "parentguid": null
+        }
+      },
+      {
+        "i": 5,
+        "tag": "DIV",
+        "id": "UI_883515",
+        "cls": "el-input-component component_object pal_filter_mentor",
+        "text": "",
+        "x": 610,
+        "y": 0,
+        "w": 300,
+        "h": 56,
+        "attrs": {
+          "colheight": "88",
+          "colwidth": "300",
+          "parentguid": "FilterMentorCol_mqqfjd4o_ybuwq4"
+        }
+      },
+      {
+        "i": 6,
+        "tag": "DIV",
+        "id": "",
+        "cls": "pointer_auto",
+        "text": "",
+        "x": 910,
+        "y": 0,
+        "w": 300,
+        "h": 88,
+        "attrs": {
+          "colheight": null,
+          "colwidth": null,
+          "parentguid": null
+        }
+      },
+      {
+        "i": 7,
+        "tag": "DIV",
+        "id": "UI_883515",
+        "cls": "el-input-component component_object pal_filter_batch",
+        "text": "",
+        "x": 910,
+        "y": 0,
+        "w": 300,
+        "h": 56,
+        "attrs": {
+          "colheight": "88",
+          "colwidth": "300",
+          "parentguid": "FilterBatchCol_mqqfjd4o_oscha4"
+        }
+      },
+      {
+        "i": 8,
+        "tag": "DIV",
+        "id": "",
+        "cls": "pointer_auto",
+        "text": "",
+        "x": 1210,
+        "y": 0,
+        "w": 338,
+        "h": 88,
+        "attrs": {
+          "colheight": null,
+          "colwidth": null,
+          "parentguid": null
+        }
+      },
+      {
+        "i": 9,
+        "tag": "DIV",
+        "id": "UI_883515",
+        "cls": "el-input-component component_object pal_filter_date",
+        "text": "",
+        "x": 1210,
+        "y": 0,
+        "w": 338,
+        "h": 56,
+        "attrs": {
+          "colheight": "88",
+          "colwidth": "338",
+          "parentguid": "FilterDateCol_mqqfjd4o_9iszdq"
+        }
+      },
+      {
+        "i": 10,
+        "tag": "DIV",
+        "id": "",
+        "cls": "pointer_auto",
+        "text": "",
+        "x": 0,
+        "y": 88,
+        "w": 310,
+        "h": 88,
+        "attrs": {
+          "colheight": null,
+          "colwidth": null,
+          "parentguid": null
+        }
+      },
+      {
+        "i": 11,
+        "tag": "DIV",
+        "id": "UI_883515",
+        "cls": "el-input-component component_object pal_filter_status",
+        "text": "",
+        "x": 0,
+        "y": 88,
+        "w": 310,
+        "h": 56,
+        "attrs": {
+          "colheight": "88",
+          "colwidth": "310",
+          "parentguid": "FilterStatusCol_mqqfjd4o_i3mhx8"
+        }
+      },
+      {
+        "i": 12,
+        "tag": "DIV",
+        "id": "",
+        "cls": "pointer_auto",
+        "text": "",
+        "x": 310,
+        "y": 100,
+        "w": 698,
+        "h": 88,
+        "attrs": {
+          "colheight": null,
+          "colwidth": null,
+          "parentguid": null
+        }
+      },
+      {
+        "i": 13,
+        "tag": "DIV",
+        "id": "UI_821198",
+        "cls": "el-text-component component_object pal_action_spacer",
+        "text": "",
+        "x": 318,
+        "y": 100,
+        "w": 698,
+        "h": 108,
+        "attrs": {
+          "colheight": "88",
+          "colwidth": "698",
+          "parentguid": "ActionSpacerCol_mqqfjd4o_f6fvmv"
+        }
+      },
+      {
+        "i": 14,
+        "tag": "DIV",
+        "id": "",
+        "cls": "pointer_auto",
+        "text": "查询\n查询",
+        "x": 1008,
+        "y": 88,
+        "w": 145,
+        "h": 88,
+        "attrs": {
+          "colheight": null,
+          "colwidth": null,
+          "parentguid": null
+        }
+      },
+      {
+        "i": 15,
+        "tag": "DIV",
+        "id": "UI_586803",
+        "cls": "component_object pal_query_button",
+        "text": "查询\n查询",
+        "x": 1008,
+        "y": 88,
+        "w": 145,
+        "h": 88,
+        "attrs": {
+          "colheight": "88",
+          "colwidth": "145",
+          "parentguid": "QueryCol_mqqfjd4o_0t7fpi"
+        }
+      },
+      {
+        "i": 16,
+        "tag": "DIV",
+        "id": "",
+        "cls": "pointer_auto",
+        "text": "重置\n重置",
+        "x": 1153,
+        "y": 88,
+        "w": 145,
+        "h": 88,
+        "attrs": {
+          "colheight": null,
+          "colwidth": null,
+          "parentguid": null
+        }
+      },
+      {
+        "i": 17,
+        "tag": "DIV",
+        "id": "UI_586803",
+        "cls": "component_object pal_reset_button",
+        "text": "重置\n重置",
+        "x": 1153,
+        "y": 88,
+        "w": 145,
+        "h": 88,
+        "attrs": {
+          "colheight": "88",
+          "colwidth": "145",
+          "parentguid": "ResetCol_mqqfjd4o_u07fxe"
+        }
+      },
+      {
+        "i": 18,
+        "tag": "DIV",
+        "id": "",
+        "cls": "pointer_auto",
+        "text": "导出\n导出",
+        "x": 1298,
+        "y": 88,
+        "w": 145,
+        "h": 88,
+        "attrs": {
+          "colheight": null,
+          "colwidth": null,
+          "parentguid": null
+        }
+      },
+      {
+        "i": 19,
+        "tag": "DIV",
+        "id": "UI_586803",
+        "cls": "component_object pal_export_button",
+        "text": "导出\n导出",
+        "x": 1298,
+        "y": 88,
+        "w": 145,
+        "h": 88,
+        "attrs": {
+          "colheight": "88",
+          "colwidth": "145",
+          "parentguid": "ExportCol_mqqfjd4o_4iaaj2"
+        }
+      },
+      {
+        "i": 20,
+        "tag": "DIV",
+        "id": "",
+        "cls": "pointer_auto",
+        "text": "",
+        "x": 1443,
+        "y": 100,
+        "w": 105,
+        "h": 88,
+        "attrs": {
+          "colheight": null,
+          "colwidth": null,
+          "parentguid": null
+        }
+      },
+      {
+        "i": 21,
+        "tag": "DIV",
+        "id": "UI_821198",
+        "cls": "el-text-component component_object pal_action_tail",
+        "text": "",
+        "x": 1451,
+        "y": 100,
+        "w": 105,
+        "h": 108,
+        "attrs": {
+          "colheight": "88",
+          "colwidth": "105",
+          "parentguid": "ActionTailCol_mqqfjd4o_hhdmsi"
+        }
+      },
+      {
+        "i": 22,
+        "tag": "DIV",
+        "id": "",
+        "cls": "pointer_auto",
+        "text": "?????\n128\n??? 12.5%",
+        "x": 0,
+        "y": 188,
+        "w": 387,
+        "h": 220,
+        "attrs": {
+          "colheight": null,
+          "colwidth": null,
+          "parentguid": null
+        }
+      },
+      {
+        "i": 23,
+        "tag": "DIV",
+        "id": "UI_821198",
+        "cls": "el-text-component component_object pal_metric_total",
+        "text": "?????\n128\n??? 12.5%",
+        "x": 8,
+        "y": 188,
+        "w": 387,
+        "h": 108,
+        "attrs": {
+          "colheight": "220",
+          "colwidth": "387",
+          "parentguid": "MetricTotalCol_mqqfjd4o_2by8l4"
+        }
+      },
+      {
+        "i": 24,
+        "tag": "DIV",
+        "id": "",
+        "cls": "pointer_auto",
+        "text": "???\n23\n??? 5.2%",
+        "x": 387,
+        "y": 188,
+        "w": 387,
+        "h": 220,
+        "attrs": {
+          "colheight": null,
+          "colwidth": null,
+          "parentguid": null
+        }
+      },
+      {
+        "i": 25,
+        "tag": "DIV",
+        "id": "UI_821198",
+        "cls": "el-text-component component_object pal_metric_wait",
+        "text": "???\n23\n??? 5.2%",
+        "x": 395,
+        "y": 188,
+        "w": 387,
+        "h": 108,
+        "attrs": {
+          "colheight": "220",
+          "colwidth": "387",
+          "parentguid": "MetricWaitCol_mqqfjd4p_h2ctoz"
+        }
+      },
+      {
+        "i": 26,
+        "tag": "DIV",
+        "id": "",
+        "cls": "pointer_auto",
+        "text": "?????\n105\n??? 18.3%",
+        "x": 774,
+        "y": 188,
+        "w": 387,
+        "h": 220,
+        "attrs": {
+          "colheight": null,
+          "colwidth": null,
+          "parentguid": null
+        }
+      },
+      {
+        "i": 27,
+        "tag": "DIV",
+        "id": "UI_821198",
+        "cls": "el-text-component component_object pal_metric_done",
+        "text": "?????\n105\n??? 18.3%",
+        "x": 782,
+        "y": 188,
+        "w": 387,
+        "h": 108,
+        "attrs": {
+          "colheight": "220",
+          "colwidth": "387",
+          "parentguid": "MetricDoneCol_mqqfjd4p_twwj90"
+        }
+      },
+      {
+        "i": 28,
+        "tag": "DIV",
+        "id": "",
+        "cls": "pointer_auto",
+        "text": "????\n86.7?\n??? 3.6?",
+        "x": 1161,
+        "y": 188,
+        "w": 387,
+        "h": 220,
+        "attrs": {
+          "colheight": null,
+          "colwidth": null,
+          "parentguid": null
+        }
+      },
+      {
+        "i": 29,
+        "tag": "DIV",
+        "id": "UI_821198",
+        "cls": "el-text-component component_object pal_metric_avg",
+        "text": "????\n86.7?\n??? 3.6?",
+        "x": 1169,
+        "y": 188,
+        "w": 387,
+        "h": 108,
+        "attrs": {
+          "colheight": "220",
+          "colwidth": "387",
+          "parentguid": "MetricAvgCol_mqqfjd4p_bruljt"
+        }
+      },
+      {
+        "i": 30,
+        "tag": "DIV",
+        "id": "",
+        "cls": "pointer_auto",
+        "text": "",
+        "x": 0,
+        "y": 404,
+        "w": 774,
+        "h": 772,
+        "attrs": {
+          "colheight": null,
+          "colwidth": null,
+          "parentguid": null
+        }
+      },
+      {
+        "i": 31,
+        "tag": "DIV",
+        "id": "UI_584869",
+        "cls": "chart_factory component_object",
+        "text": "",
+        "x": 8,
+        "y": 404,
+        "w": 774,
+        "h": 314,
+        "attrs": {
+          "colheight": "772",
+          "colwidth": "774",
+          "parentguid": "DeptChartCol_mqqfjd4p_94l4sm"
+        }
+      },
+      {
+        "i": 32,
+        "tag": "CANVAS",
+        "id": "",
+        "cls": "",
+        "text": "",
+        "x": 8.800000190734863,
+        "y": 404.8000183105469,
+        "w": 772,
+        "h": 312,
+        "attrs": {
+          "colheight": null,
+          "colwidth": null,
+          "parentguid": null
+        }
+      },
+      {
+        "i": 33,
+        "tag": "DIV",
+        "id": "",
+        "cls": "pointer_auto",
+        "text": "",
+        "x": 774,
+        "y": 404,
+        "w": 774,
+        "h": 772,
+        "attrs": {
+          "colheight": null,
+          "colwidth": null,
+          "parentguid": null
+        }
+      },
+      {
+        "i": 34,
+        "tag": "DIV",
+        "id": "UI_38669",
+        "cls": "chart_factory component_object",
+        "text": "",
+        "x": 782,
+        "y": 404,
+        "w": 774,
+        "h": 314,
+        "attrs": {
+          "colheight": "772",
+          "colwidth": "774",
+          "parentguid": "TrendChartCol_mqqfjd4p_9quc0w"
+        }
+      },
+      {
+        "i": 35,
+        "tag": "CANVAS",
+        "id": "",
+        "cls": "",
+        "text": "",
+        "x": 782.7999877929688,
+        "y": 404.8000183105469,
+        "w": 772,
+        "h": 312,
+        "attrs": {
+          "colheight": null,
+          "colwidth": null,
+          "parentguid": null
+        }
+      },
+      {
+        "i": 36,
+        "tag": "DIV",
+        "id": "",
+        "cls": "pointer_auto",
+        "text": "姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综合评分\t状态\t更新时间\t操作\n李明轩\n\t\nS2024041001\n\t\n产品部\n\t\n王思远\n\t\n97%\n\t",
+        "x": 0,
+        "y": 1176,
+        "w": 1548,
+        "h": 772,
+        "attrs": {
+          "colheight": null,
+          "colwidth": null,
+          "parentguid": null
+        }
+      },
+      {
+        "i": 37,
+        "tag": "DIV",
+        "id": "UI_734692",
+        "cls": "PCUI_ElementTable component_object pal_assessment_table",
+        "text": "姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综合评分\t状态\t更新时间\t操作\n李明轩\n\t\nS2024041001\n\t\n产品部\n\t\n王思远\n\t\n97%\n\t",
+        "x": 8,
+        "y": 1176,
+        "w": 1548,
+        "h": 472,
+        "attrs": {
+          "colheight": "772",
+          "colwidth": "1548",
+          "parentguid": "AssessmentTableCol_mqqfjd4p_mqe59t"
+        }
+      },
+      {
+        "i": 38,
+        "tag": "DIV",
+        "id": "UI_734692",
+        "cls": "el-table el-table--fit el-table--enable-row-hover el-table--enable-row-transition el-table--medium",
+        "text": "姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综合评分\t状态\t更新时间\t操作\n李明轩\n\t\nS2024041001\n\t\n产品部\n\t\n王思远\n\t\n97%\n\t",
+        "x": 8.800000190734863,
+        "y": 1214.800048828125,
+        "w": 1546.4000244140625,
+        "h": 400.3999938964844,
+        "attrs": {
+          "colheight": null,
+          "colwidth": null,
+          "parentguid": null
+        }
+      }
+    ]
+  }
+]

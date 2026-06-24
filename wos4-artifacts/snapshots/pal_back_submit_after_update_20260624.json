@@ -1,0 +1,186 @@
+{
+  "click": {
+    "clickedTarget": {
+      "x": 1758,
+      "y": 151.5,
+      "w": 58,
+      "h": 16,
+      "row": "\t\n1\n\t\nPalimpsestBack\n\t\nPalimpsestBack\n\t\nPalimpsest backend CRUD service\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除"
+    },
+    "viewport": {
+      "w": 1920,
+      "h": 889
+    }
+  },
+  "result": {
+    "capture": {
+      "messages": [
+        {
+          "text": "数字孪生实例化_实例_提交版本",
+          "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_409448",
+          "t": 1782278485232
+        },
+        {
+          "text": "数字孪生实例化_实例_提交版本",
+          "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_409448",
+          "t": 1782278485232
+        }
+      ],
+      "console": [
+        {
+          "level": "log",
+          "args": [
+            "[D] 点击了 <提交版本> 按钮, scope = ",
+            "[object Object]:[object Object]"
+          ],
+          "t": 1782278478605
+        },
+        {
+          "level": "log",
+          "args": [
+            "[I] 远程调用接口 <IQuerySpaceTimeRepoDetails>, res = ",
+            "{\"errorcodes\":[0],\"ret\":0,\"returndata\":{\"errorcode\":0,\"errormessage\":\"\",\"returndata\":{\"collectiontype\":\"1\",\"description\":\"Palimpsest backend runtime level\",\"displayname\":\"PalimpsestL1\",\"guid\":\"cfff2d2a-6f1f-40ce-9175-969a527c1170\",\"id\":\"288230376151747317\",\"name\":\"PalimpsestL1\",\"parentguid\":\"\",\"parentrepoguid\":\"45df63ca-f0b1-4046-b1e6-380e0ae3d4f4\",\"spacetimerepotype\":\"40\",\"tabs\":\"Palimpsest\",\"version\":1}},\"traceID\":\"5189137044093199360\",\"consumeTime\":700}"
+          ],
+          "t": 1782278479768
+        },
+        {
+          "level": "log",
+          "args": [
+            "i show child initChildData"
+          ],
+          "t": 1782278485223
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList start"
+          ],
+          "t": 1782278485763
+        },
+        {
+          "level": "log",
+          "args": [
+            "spaceTime parse error!"
+          ],
+          "t": 1782278485773
+        },
+        {
+          "level": "log",
+          "args": [
+            "registerLink"
+          ],
+          "t": 1782278485782
+        },
+        {
+          "level": "log",
+          "args": [
+            "页面名称:",
+            "数字孪生实例化_实例_提交版本",
+            "PARENT_STORE_PARAM:",
+            "{\"child$StoreName\":\"$7205759403792796133__$ChildPage__数字孪生实例化_实例_提交版本\",\"spaceTime\":{\"ret\":-10002,\"id\":\"\",\"guid\":\"\",\"name\":\"\",\"yuanArea\":0,\"webJsArea\":0,\"realArea\":0,\"planArea\":0,\"historyArea\":0,\"devName\":\"\",\"source\":\"showChild\"},\"fuObj\":{},\"isChild\":true}"
+          ],
+          "t": 1782278485811
+        },
+        {
+          "level": "log",
+          "args": [
+            "registerDataSet"
+          ],
+          "t": 1782278485824
+        },
+        {
+          "level": "log",
+          "args": [
+            "KGSDataObjMng subscribeDataObj"
+          ],
+          "t": 1782278485828
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782278485904
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782278485964
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782278486317
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] <版本提交进度> 开始打包 :: repoGuidAndInfoMap = ",
+            "{}"
+          ],
+          "t": 1782278486400
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782278486408
+        }
+      ]
+    },
+    "dialogs": [
+      {
+        "i": 0,
+        "cls": "el-dialog__wrapper",
+        "display": "none",
+        "text": ""
+      },
+      {
+        "i": 1,
+        "cls": "el-dialog__wrapper",
+        "display": "none",
+        "text": ""
+      },
+      {
+        "i": 2,
+        "cls": "el-message-box__wrapper",
+        "display": "none",
+        "text": "提示有提交失败的数据, 是否导出错误信息?\n          取消\n        \n          确定\n        "
+      },
+      {
+        "i": 3,
+        "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_409448",
+        "display": "block",
+        "text": "实例版本提交进度\n\n0%\n\n\t名称\tGUID\t状态\t详情\n1\n\t\nPalimpsestBack\n\t\n525b3634-6654-4326-b415-3bad1421847f\n\t\n0%\n\t\n关闭"
+      }
+    ],
+    "rows": [
+      {
+        "i": 0,
+        "text": "序号\t名称\t显示名称\t描述\t模型\t模型版本\t操作"
+      },
+      {
+        "i": 1,
+        "text": "1\n\t\nPalimpsestBack\n\t\nPalimpsestBack\n\t\nPalimpsest backend CRUD service\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除"
+      },
+      {
+        "i": 2,
+        "text": "2\n\t\nPalimpsestKnownGoodBack\n\t\nPalimpsestKnownGoodBack\n\t\nKnown good backend package probe\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv4\n\t\n编辑属性切换模型版本形参管理提交版本删除"
+      },
+      {
+        "i": 3,
+        "text": "名称\tGUID\t状态\t详情"
+      },
+      {
+        "i": 4,
+        "text": "1\n\t\nPalimpsestBack\n\t\n525b3634-6654-4326-b415-3bad1421847f\n\t\n0%"
+      }
+    ],
+    "body": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot\n\n实例列表\n\n新建\n删除\n更多操作 \n\t序号\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\n1\n\t\nPalimpsestBack\n\t\nPalimpsestBack\n\t\nPalimpsest backend CRUD service\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\n2\n\t\nPalimpsestKnownGoodBack\n\t\nPalimpsestKnownGoodBack\n\t\nKnown good backend package probe\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv4\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n实例版本提交进度\n\n0%\n\n\t名称\tGUID\t状态\t详情\n1\n\t\nPalimpsestBack\n\t\n525b3634-6654-4326-b415-3bad1421847f\n\t\n0%\n\t\n关闭"
+  }
+}

@@ -1,0 +1,173 @@
+[
+  {
+    "event": "pal_assessment_score_detail",
+    "idx": 2,
+    "target": "item_code",
+    "got": "item_code",
+    "attempt": 1
+  },
+  {
+    "event": "pal_assessment_score_detail",
+    "idx": 4,
+    "target": "weight",
+    "got": "weight",
+    "attempt": 1
+  },
+  {
+    "event": "pal_assessment_score_detail",
+    "verify": [
+      {
+        "idx": 0,
+        "name": "id",
+        "type": "string",
+        "value": "",
+        "desc": "主键ID"
+      },
+      {
+        "idx": 1,
+        "name": "record_id",
+        "type": "string",
+        "value": "",
+        "desc": ""
+      },
+      {
+        "idx": 2,
+        "name": "item_code",
+        "type": "string",
+        "value": "",
+        "desc": ""
+      },
+      {
+        "idx": 3,
+        "name": "item_name",
+        "type": "string",
+        "value": "",
+        "desc": ""
+      },
+      {
+        "idx": 4,
+        "name": "weight",
+        "type": "string",
+        "value": "",
+        "desc": ""
+      },
+      {
+        "idx": 5,
+        "name": "score",
+        "type": "double",
+        "value": "0",
+        "desc": ""
+      },
+      {
+        "idx": 6,
+        "name": "remark",
+        "type": "string",
+        "value": "",
+        "desc": "备注"
+      }
+    ]
+  },
+  {
+    "event": "pal_operation_log",
+    "idx": 0,
+    "target": "id",
+    "got": "id",
+    "attempt": 1
+  },
+  {
+    "event": "pal_operation_log",
+    "idx": 1,
+    "target": "biz_type",
+    "got": "biz_type",
+    "attempt": 1
+  },
+  {
+    "event": "pal_operation_log",
+    "idx": 2,
+    "target": "biz_id",
+    "got": "biz_id",
+    "attempt": 1
+  },
+  {
+    "event": "pal_operation_log",
+    "idx": 3,
+    "target": "action",
+    "got": "action",
+    "attempt": 1
+  },
+  {
+    "event": "pal_operation_log",
+    "idx": 4,
+    "target": "operator",
+    "got": "operator",
+    "attempt": 1
+  },
+  {
+    "event": "pal_operation_log",
+    "idx": 5,
+    "target": "message",
+    "got": "message",
+    "attempt": 1
+  },
+  {
+    "event": "pal_operation_log",
+    "idx": 6,
+    "target": "created_at",
+    "got": "created_at",
+    "attempt": 1
+  },
+  {
+    "event": "pal_operation_log",
+    "verify": [
+      {
+        "idx": 0,
+        "name": "id",
+        "type": "string",
+        "value": "",
+        "desc": ""
+      },
+      {
+        "idx": 1,
+        "name": "biz_type",
+        "type": "string",
+        "value": "",
+        "desc": ""
+      },
+      {
+        "idx": 2,
+        "name": "biz_id",
+        "type": "string",
+        "value": "",
+        "desc": ""
+      },
+      {
+        "idx": 3,
+        "name": "action",
+        "type": "string",
+        "value": "",
+        "desc": ""
+      },
+      {
+        "idx": 4,
+        "name": "operator",
+        "type": "string",
+        "value": "",
+        "desc": ""
+      },
+      {
+        "idx": 5,
+        "name": "message",
+        "type": "string",
+        "value": "",
+        "desc": ""
+      },
+      {
+        "idx": 6,
+        "name": "created_at",
+        "type": "string",
+        "value": "",
+        "desc": ""
+      }
+    ]
+  }
+]

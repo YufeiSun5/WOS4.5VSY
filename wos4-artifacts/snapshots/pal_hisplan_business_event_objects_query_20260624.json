@@ -1,0 +1,113 @@
+{
+  "at": "2026-06-24 11:33:41",
+  "result": {
+    "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/index.html",
+    "hisThing": {
+      "label": "history_business_event_object",
+      "type": 3006,
+      "result": {
+        "ret": 0,
+        "output": {
+          "errorcodeexs": [
+            {}
+          ],
+          "errorcodes": [
+            0
+          ],
+          "returndatas": [
+            []
+          ]
+        },
+        "traceID": "5188716194546149376",
+        "consumeTime": 132
+      }
+    },
+    "planThing": {
+      "label": "plan_business_event_object",
+      "type": 4006,
+      "result": {
+        "ret": 0,
+        "output": {
+          "errorcodeexs": [
+            {}
+          ],
+          "errorcodes": [
+            0
+          ],
+          "returndatas": [
+            [
+              {
+                "$id": "1729382256910270465",
+                "$guid": "3d601166-412c-49ff-b9ff-02c3e58c0364",
+                "$name": "hg",
+                "$displayname": "测试1@hg",
+                "$description": "",
+                "$modelguid": "cf462c39-78bd-4cea-a9ee-f19e3ed03e5b",
+                "$modelversion": 1,
+                "$copyguid": "09312b97-efe8-4ab5-8d08-c4c584816a17",
+                "$spacetimeguid": "fbfa811d-b9be-4a7c-b1ae-c8653f96cf31"
+              },
+              {
+                "$id": "1729382256910270467",
+                "$guid": "7c379b18-bb05-45ca-a3ef-5c8f4795877e",
+                "$name": "菜单信息",
+                "$displayname": "菜单管理实例@菜单信息",
+                "$description": "",
+                "$modelguid": "0884fbd3-4d82-47da-9426-afad8d8c7f64",
+                "$modelversion": 1,
+                "$copyguid": "64b3827f-6d30-458c-bcb2-13791cdd9e89",
+                "$spacetimeguid": "6987fb6b-08a1-45a9-847e-b593b194930e"
+              },
+              {
+                "$id": "1729382256910270469",
+                "$guid": "ebefacc8-2fc2-4031-866a-4a648cee515e",
+                "$name": "zx测试故障单明细",
+                "$displayname": "故障工单@zx测试故障单明细",
+                "$description": "",
+                "$modelguid": "6ab1a8a6-7d26-4931-b1a0-986cd46b52ea",
+                "$modelversion": 6,
+                "$copyguid": "0bebc59a-0ee5-43ab-8218-c8ab3ca5400d",
+                "$spacetimeguid": "50c40e00-5586-4f53-a171-c7740ccf263c"
+              },
+              {
+                "$id": "1729382256910270471",
+                "$guid": "74dc6ef4-b66e-4a34-8916-5846d7055104",
+                "$name": "客户管理",
+                "$displayname": "客户管理01@客户管理",
+                "$description": "",
+                "$modelguid": "89de7681-24c4-4d1c-9f71-becd94941b69",
+                "$modelversion": 5,
+                "$copyguid": "49dd4624-fe93-4eae-b5fb-56713eeacc83",
+                "$spacetimeguid": "8034bdcf-40be-4cca-a161-5e135fcb40ee"
+              },
+              {
+                "$id": "1729382256910270473",
+                "$guid": "540183e9-54d5-4a62-a0b3-28eb69e3a1cc",
+                "$name": "班次信息",
+                "$displayname": "班次管理@班次信息",
+                "$description": "",
+                "$modelguid": "4392cd1b-d74e-4019-9060-cb180e2399a5",
+                "$modelversion": 12,
+                "$copyguid": "0be82f6a-6d25-4f36-b270-37f98cd52034",
+                "$spacetimeguid": "8034bdcf-40be-4cca-a161-5e135fcb40ee"
+              },
+              {
+                "$id": "1729382256910270474",
+                "$guid": "2d46c595-e9a1-45ec-9b92-33288051329c",
+                "$name": "订单管理",
+                "$displayname": "订单管理@订单管理",
+                "$description": "",
+                "$modelguid": "526e06d5-4c59-45e7-b800-acfe9b18ff77",
+                "$modelversion": 1,
+                "$copyguid": "a1706023-cd05-4bb0-addc-7e734c985fa8",
+                "$spacetimeguid": "8034bdcf-40be-4cca-a161-5e135fcb40ee"
+              }
+            ]
+          ]
+        },
+        "traceID": "5188716582469079040",
+        "consumeTime": 346
+      }
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "keyword": {
+    "value": "",
+    "placeholder": "姓名 / 学号 / 手机号"
+  },
+  "buttons": [
+    {
+      "cls": "pal_query_button",
+      "text": "查询\n查询",
+      "rootRect": {
+        "x": 1008,
+        "y": 72,
+        "w": 145,
+        "h": 58
+      },
+      "buttonRect": {
+        "x": 1016,
+        "y": 82,
+        "w": 112,
+        "h": 38
+      },
+      "badgeCount": 1,
+      "badgeVisible": "block",
+      "badgeRect": {
+        "x": 1100,
+        "y": 78,
+        "w": 32,
+        "h": 16
+      },
+      "style": "text-align: left;"
+    },
+    {
+      "cls": "pal_reset_button",
+      "text": "重置\n重置",
+      "rootRect": {
+        "x": 1153,
+        "y": 72,
+        "w": 145,
+        "h": 58
+      },
+      "buttonRect": {
+        "x": 1161,
+        "y": 82,
+        "w": 112,
+        "h": 38
+      },
+      "badgeCount": 1,
+      "badgeVisible": "block",
+      "badgeRect": {
+        "x": 1245,
+        "y": 78,
+        "w": 32,
+        "h": 16
+      },
+      "style": "text-align: left;"
+    },
+    {
+      "cls": "pal_export_button",
+      "text": "导出\n导出",
+      "rootRect": {
+        "x": 1298,
+        "y": 72,
+        "w": 145,
+        "h": 58
+      },
+      "buttonRect": {
+        "x": 1306,
+        "y": 82,
+        "w": 112,
+        "h": 38
+      },
+      "badgeCount": 1,
+      "badgeVisible": "block",
+      "badgeRect": {
+        "x": 1390,
+        "y": 78,
+        "w": 32,
+        "h": 16
+      },
+      "style": "text-align: left;"
+    }
+  ],
+  "qmarks": 0,
+  "slashU": 0
+}

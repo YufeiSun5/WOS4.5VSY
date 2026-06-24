@@ -1,0 +1,224 @@
+{
+  "dialogs": [
+    {
+      "i": 0,
+      "cls": "el-dialog__wrapper",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "text": "",
+      "display": "none"
+    },
+    {
+      "i": 1,
+      "cls": "el-dialog__wrapper",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "text": "",
+      "display": "none"
+    },
+    {
+      "i": 2,
+      "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_868102",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 843
+      },
+      "text": "新建管控单元实例\n\n名称\n\n0/64\n\n显示名称\n\n0/64\n\n描述\n\n0/128\n\n选择模型\n\n根组\n测试\n产品生成器功能测试_lk\n产线\n车间\n工厂\n管理员\n集成测试\n设备\n生产计划与执行\n盛云_孙宇飞_根组\n首页建模\n数据管理\n引滦工程\n张测试组\nlk测试\nmwq测试\n序号\t名称\t描述\t版本\n暂无数据\n共 0 条\n1\n前往页\n取消\n确定",
+      "display": "block"
+    },
+    {
+      "i": 3,
+      "cls": "el-dialog__wrapper",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "text": "",
+      "display": "none"
+    }
+  ],
+  "inputs": [
+    {
+      "i": 0,
+      "placeholder": "请输入实例名称",
+      "value": "",
+      "rect": {
+        "x": 370,
+        "y": 71.5,
+        "w": 250,
+        "h": 35
+      },
+      "visible": true
+    },
+    {
+      "i": 1,
+      "placeholder": "请输入实例的显示名称",
+      "value": "",
+      "rect": {
+        "x": 720,
+        "y": 71.5,
+        "w": 250,
+        "h": 35
+      },
+      "visible": true
+    },
+    {
+      "i": 2,
+      "placeholder": "请输入实例描述",
+      "value": "",
+      "rect": {
+        "x": 1050,
+        "y": 71.5,
+        "w": 560,
+        "h": 35
+      },
+      "visible": true
+    },
+    {
+      "i": 3,
+      "placeholder": "请输入关键字进行检索",
+      "value": "",
+      "rect": {
+        "x": 1310,
+        "y": 126.5,
+        "w": 300,
+        "h": 32
+      },
+      "visible": true
+    },
+    {
+      "i": 4,
+      "placeholder": "请选择",
+      "value": "20条/页",
+      "rect": {
+        "x": 1265.5,
+        "y": 750.5,
+        "w": 100,
+        "h": 28
+      },
+      "visible": true
+    },
+    {
+      "i": 5,
+      "placeholder": null,
+      "value": "1",
+      "rect": {
+        "x": 1541,
+        "y": 750.5,
+        "w": 46,
+        "h": 28
+      },
+      "visible": true
+    }
+  ],
+  "buttons": [
+    {
+      "i": 0,
+      "text": "",
+      "cls": "el-dialog__headerbtn",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "disabled": false
+    },
+    {
+      "i": 1,
+      "text": "",
+      "cls": "el-dialog__headerbtn",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "disabled": false
+    },
+    {
+      "i": 2,
+      "text": "",
+      "cls": "el-button el-button--primary el-button--medium is-plain propertyStyle",
+      "rect": {
+        "x": 1594,
+        "y": 21.5,
+        "w": 16,
+        "h": 16
+      },
+      "disabled": false
+    },
+    {
+      "i": 3,
+      "text": "",
+      "cls": "el-dialog__headerbtn",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "disabled": false
+    },
+    {
+      "i": 4,
+      "text": "",
+      "cls": "btn-prev",
+      "rect": {
+        "x": 1380.5,
+        "y": 750.5,
+        "w": 35.5,
+        "h": 28
+      },
+      "disabled": true
+    },
+    {
+      "i": 5,
+      "text": "",
+      "cls": "btn-next",
+      "rect": {
+        "x": 1451.5,
+        "y": 750.5,
+        "w": 35.5,
+        "h": 28
+      },
+      "disabled": true
+    },
+    {
+      "i": 6,
+      "text": "取消",
+      "cls": "el-button el-button--primary el-button--medium is-plain propertyStyle",
+      "rect": {
+        "x": 1451,
+        "y": 791.5,
+        "w": 72,
+        "h": 30
+      },
+      "disabled": false
+    },
+    {
+      "i": 7,
+      "text": "确定",
+      "cls": "el-button el-button--primary el-button--medium propertyStyle",
+      "rect": {
+        "x": 1538,
+        "y": 791.5,
+        "w": 72,
+        "h": 30
+      },
+      "disabled": false
+    }
+  ]
+}

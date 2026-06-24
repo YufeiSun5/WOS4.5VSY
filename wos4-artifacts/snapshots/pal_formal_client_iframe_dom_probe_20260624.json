@@ -1,0 +1,94 @@
+{
+  "topHref": "http://221.239.19.118:13001/public/index.html?id=6192730962611143155&parentid=0&cloudid=107&clientnumber=7710165596778147144&bs=true#/#{%22clientGuid%22:%22ca1837bb-cf21-47a9-b881-50016847b8ad%22,%22FUType%22:11}",
+  "hasFrame": true,
+  "frameSrc": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/index.html",
+  "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/index.html",
+  "readyState": "complete",
+  "title": "客户端运行",
+  "bodyText": "",
+  "bodyChildren": [
+    {
+      "tag": "NOSCRIPT",
+      "id": "",
+      "cls": "",
+      "text": "<strong>We're sorry but app-master doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>",
+      "childCount": 0
+    },
+    {
+      "tag": "DIV",
+      "id": "client_run",
+      "cls": "client_run",
+      "text": "",
+      "childCount": 1
+    },
+    {
+      "tag": "DIV",
+      "id": "ElementShowFunction",
+      "cls": "",
+      "text": "",
+      "childCount": 1
+    },
+    {
+      "tag": "DIV",
+      "id": "VantShowFunction_CLIENT",
+      "cls": "",
+      "text": "",
+      "childCount": 1
+    }
+  ],
+  "appHtml": null,
+  "scripts": [
+    "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/config.js",
+    "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/debugger.js",
+    "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/js/runtime.beta.2026.06.17.15.js",
+    "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/js/index.beta.2026.06.17.15.js"
+  ],
+  "links": [
+    "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/favicon.ico",
+    "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/css/index.be5a4aad.css"
+  ],
+  "iframes": [],
+  "html": "<html theme=\"dark\" lang=\"\" id=\"client-run\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><link rel=\"icon\" href=\"favicon.ico\"><title>客户端运行</title><script>if (window.parent && window.parent.initApiForTarget) {\n        window.parent.initApiForTarget(window)\n      }</script><script src=\"./config.js\"></script><script src=\"./debugger.js\"></script><script defer=\"defer\" src=\"js/runtime.beta.2026.06.17.15.js\"></script><script defer=\"defer\" src=\"js/index.beta.2026.06.17.15.js\"></script><link href=\"css/index.be5a4aad.css\" rel=\"stylesheet\"></head><body><noscript><strong>We're sorry but app-master doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div data-v-12ed0871=\"\" id=\"client_run\" class=\"client_run\"><div data-v-12ed0871=\"\" style=\"flex-grow: 1; width: 100%;\"><ul data-v-12ed0871=\"\"></ul></div></div><div id=\"ElementShowFunction\" style=\"position: absolute; top: 0px; left: 0px; width: 100%; z-index: 10000;\">\n          <component :is=\"name\" :options=\"options\" ref=\"component\" :mode=\"mode\" :cb=\"cb\"></component>\n          </div><div id=\"VantShowFunction_CLIENT\" style=\"position: absolute; top: 0px; left: 0px; width: 100%;\">\n          <component :is=\"name\" :options=\"options\" ref=\"component\" :cb=\"cb\"></component>\n          </div></body></html>",
+  "winKeys": [
+    "pageXOffset",
+    "pageYOffset",
+    "clientInformation",
+    "onformdata",
+    "onloadeddata",
+    "onloadedmetadata",
+    "onseeking",
+    "ontransitionrun",
+    "onpagehide",
+    "onpageshow",
+    "cancelIdleCallback",
+    "requestIdleCallback",
+    "onpageswap",
+    "onpagereveal",
+    "InterfaceSyncCall",
+    "InterfaceAsynCall",
+    "AsyncCall",
+    "Call",
+    "getAccessSpaceTimeList",
+    "setAccessSpaceTimeList",
+    "PublicEventCallBackEval",
+    "PageEval",
+    "G_useDataLogicHooksMap",
+    "_G_spaceTimeMap",
+    "__runtimeVue",
+    "__runtimeVue__",
+    "KGSInterFace",
+    "pageNameToSetPageMap",
+    "KMSetPageMng",
+    "KGSDataObjMng",
+    "$ClientProject",
+    "GetPageMngInfo",
+    "UpdatePage",
+    "ShowPage",
+    "ShowPageByID",
+    "ClosePage",
+    "QueryPageAuth",
+    "GetLanguageResourceData",
+    "ExcuteDataSet",
+    "CLIENTRUNINSTANCE"
+  ]
+}

@@ -1,0 +1,521 @@
+{
+  "before": {
+    "wins": [
+      {
+        "i": 0,
+        "tag": "DIV",
+        "cls": "window-main desktop-window",
+        "text": "时空功能开发 时空对象管理 系统运维 安全管理 审计管理 亚控云商城 KingStudio_V20260617 组态系统客户端 建模系统客户端 运维部署客户端 Codex临时测试_前端视图_0611 盛云_孙宇飞_TraceDemo_0617 盛云_孙宇飞_QueryDemo_0617 盛云_孙宇飞_前端_框架_0618@EidolonL1Frame_对象1 盛云_孙宇飞_Noctiluca_客户端_对象1 盛云_孙宇飞_Noctiluca_客户端_对象2 盛云_孙宇飞_Nadir_客户端_0622_对象1 盛云_孙宇飞_Nadir_客户端_0622_对象1",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 843
+        },
+        "visible": true
+      },
+      {
+        "i": 1,
+        "tag": "DIV",
+        "cls": "window-item",
+        "text": "时空功能开发 时空对象管理 系统运维 安全管理 审计管理 亚控云商城 KingStudio_V20260617 组态系统客户端 建模系统客户端 运维部署客户端 Codex临时测试_前端视图_0611 盛云_孙宇飞_TraceDemo_0617 盛云_孙宇飞_QueryDemo_0617 盛云_孙宇飞_前端_框架_0618@EidolonL1Frame_对象1 盛云_孙宇飞_Noctiluca_客户端_对象1 盛云_孙宇飞_Noctiluca_客户端_对象2 盛云_孙宇飞_Nadir_客户端_0622_对象1 盛云_孙宇飞_Nadir_客户端_0622_对象1",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 843
+        },
+        "visible": true
+      },
+      {
+        "i": 2,
+        "tag": "DIV",
+        "cls": "built-home view-home built-item window-content",
+        "text": "时空功能开发 时空对象管理 系统运维 安全管理 审计管理 亚控云商城 KingStudio_V20260617 组态系统客户端 建模系统客户端 运维部署客户端 Codex临时测试_前端视图_0611 盛云_孙宇飞_TraceDemo_0617 盛云_孙宇飞_QueryDemo_0617 盛云_孙宇飞_前端_框架_0618@EidolonL1Frame_对象1 盛云_孙宇飞_Noctiluca_客户端_对象1 盛云_孙宇飞_Noctiluca_客户端_对象2 盛云_孙宇飞_Nadir_客户端_0622_对象1 盛云_孙宇飞_Nadir_客户端_0622_对象1",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 843
+        },
+        "visible": true
+      },
+      {
+        "i": 3,
+        "tag": "DIV",
+        "cls": "window-item is-cur",
+        "text": "暂无数据去登录",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 843
+        },
+        "visible": true
+      },
+      {
+        "i": 4,
+        "tag": "SECTION",
+        "cls": "el-container built-ide frame-container built-item window-content",
+        "text": "暂无数据去登录",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 843
+        },
+        "visible": true
+      }
+    ],
+    "controls": [
+      {
+        "i": 0,
+        "tag": "DIV",
+        "cls": "",
+        "text": "时空功能开发 时空对象管理 系统运维 安全管理 审计管理 亚控云商城 KingStudio_V20260617 组态系统客户端 建模系统客户端 运维部署客户端 ",
+        "title": null,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 889
+        },
+        "visible": true
+      },
+      {
+        "i": 1,
+        "tag": "DIV",
+        "cls": "desktop-main",
+        "text": "时空功能开发 时空对象管理 系统运维 安全管理 审计管理 亚控云商城 KingStudio_V20260617 组态系统客户端 建模系统客户端 运维部署客户端 ",
+        "title": null,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 889
+        },
+        "visible": true
+      },
+      {
+        "i": 2,
+        "tag": "DIV",
+        "cls": "window-main desktop-window",
+        "text": "时空功能开发 时空对象管理 系统运维 安全管理 审计管理 亚控云商城 KingStudio_V20260617 组态系统客户端 建模系统客户端 运维部署客户端 ",
+        "title": null,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 843
+        },
+        "visible": true
+      },
+      {
+        "i": 3,
+        "tag": "DIV",
+        "cls": "window-item",
+        "text": "时空功能开发 时空对象管理 系统运维 安全管理 审计管理 亚控云商城 KingStudio_V20260617 组态系统客户端 建模系统客户端 运维部署客户端 ",
+        "title": null,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 843
+        },
+        "visible": true
+      },
+      {
+        "i": 4,
+        "tag": "DIV",
+        "cls": "built-home view-home built-item window-content",
+        "text": "时空功能开发 时空对象管理 系统运维 安全管理 审计管理 亚控云商城 KingStudio_V20260617 组态系统客户端 建模系统客户端 运维部署客户端 ",
+        "title": null,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 843
+        },
+        "visible": true
+      },
+      {
+        "i": 5,
+        "tag": "DIV",
+        "cls": "el-scrollbar card-scroll",
+        "text": "时空功能开发 时空对象管理 系统运维 安全管理 审计管理 亚控云商城 KingStudio_V20260617 组态系统客户端 建模系统客户端 运维部署客户端 ",
+        "title": null,
+        "rect": {
+          "x": 10,
+          "y": 34,
+          "w": 1900,
+          "h": 775
+        },
+        "visible": true
+      },
+      {
+        "i": 6,
+        "tag": "DIV",
+        "cls": "el-scrollbar__wrap el-scrollbar__wrap--hidden-default",
+        "text": "时空功能开发 时空对象管理 系统运维 安全管理 审计管理 亚控云商城 KingStudio_V20260617 组态系统客户端 建模系统客户端 运维部署客户端 ",
+        "title": null,
+        "rect": {
+          "x": 10,
+          "y": 34,
+          "w": 1900,
+          "h": 775
+        },
+        "visible": true
+      },
+      {
+        "i": 7,
+        "tag": "DIV",
+        "cls": "el-scrollbar__view",
+        "text": "时空功能开发 时空对象管理 系统运维 安全管理 审计管理 亚控云商城 KingStudio_V20260617 组态系统客户端 建模系统客户端 运维部署客户端 ",
+        "title": null,
+        "rect": {
+          "x": 10,
+          "y": 34,
+          "w": 1900,
+          "h": 230
+        },
+        "visible": true
+      },
+      {
+        "i": 8,
+        "tag": "DIV",
+        "cls": "card-main",
+        "text": "时空功能开发 时空对象管理 系统运维 安全管理 审计管理 亚控云商城 KingStudio_V20260617 组态系统客户端 建模系统客户端 运维部署客户端 ",
+        "title": null,
+        "rect": {
+          "x": 10,
+          "y": 34,
+          "w": 1900,
+          "h": 230
+        },
+        "visible": true
+      },
+      {
+        "i": 9,
+        "tag": "DIV",
+        "cls": "data-item card-item",
+        "text": "时空功能开发",
+        "title": "时空功能开发",
+        "rect": {
+          "x": 44,
+          "y": 34,
+          "w": 68,
+          "h": 112
+        },
+        "visible": true
+      },
+      {
+        "i": 15,
+        "tag": "DIV",
+        "cls": "data-item card-item",
+        "text": "时空对象管理",
+        "title": "时空对象管理",
+        "rect": {
+          "x": 128,
+          "y": 34,
+          "w": 68,
+          "h": 112
+        },
+        "visible": true
+      },
+      {
+        "i": 21,
+        "tag": "DIV",
+        "cls": "data-item card-item",
+        "text": "系统运维",
+        "title": "系统运维",
+        "rect": {
+          "x": 212,
+          "y": 34,
+          "w": 68,
+          "h": 112
+        },
+        "visible": true
+      },
+      {
+        "i": 27,
+        "tag": "DIV",
+        "cls": "data-item card-item",
+        "text": "安全管理",
+        "title": "安全管理",
+        "rect": {
+          "x": 296,
+          "y": 34,
+          "w": 68,
+          "h": 112
+        },
+        "visible": true
+      },
+      {
+        "i": 33,
+        "tag": "DIV",
+        "cls": "data-item card-item",
+        "text": "审计管理",
+        "title": "审计管理",
+        "rect": {
+          "x": 380,
+          "y": 34,
+          "w": 68,
+          "h": 112
+        },
+        "visible": true
+      },
+      {
+        "i": 39,
+        "tag": "DIV",
+        "cls": "data-item card-item",
+        "text": "亚控云商城",
+        "title": "亚控云商城",
+        "rect": {
+          "x": 464,
+          "y": 34,
+          "w": 68,
+          "h": 112
+        },
+        "visible": true
+      },
+      {
+        "i": 61,
+        "tag": "DIV",
+        "cls": "data-item card-item",
+        "text": "KingStudio_V20260617",
+        "title": "KingStudio_V20260617",
+        "rect": {
+          "x": 44,
+          "y": 152,
+          "w": 68,
+          "h": 112
+        },
+        "visible": true
+      },
+      {
+        "i": 67,
+        "tag": "DIV",
+        "cls": "data-item card-item",
+        "text": "组态系统客户端",
+        "title": "组态系统客户端",
+        "rect": {
+          "x": 128,
+          "y": 152,
+          "w": 68,
+          "h": 112
+        },
+        "visible": true
+      },
+      {
+        "i": 72,
+        "tag": "SPAN",
+        "cls": "span-label",
+        "text": "组态系统客户端",
+        "title": null,
+        "rect": {
+          "x": 128,
+          "y": 230,
+          "w": 68,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 73,
+        "tag": "DIV",
+        "cls": "data-item card-item",
+        "text": "建模系统客户端",
+        "title": "建模系统客户端",
+        "rect": {
+          "x": 212,
+          "y": 152,
+          "w": 68,
+          "h": 112
+        },
+        "visible": true
+      },
+      {
+        "i": 79,
+        "tag": "DIV",
+        "cls": "data-item card-item",
+        "text": "运维部署客户端",
+        "title": "运维部署客户端",
+        "rect": {
+          "x": 296,
+          "y": 152,
+          "w": 68,
+          "h": 112
+        },
+        "visible": true
+      },
+      {
+        "i": 85,
+        "tag": "DIV",
+        "cls": "data-item card-item is-stop",
+        "text": "Codex临时测试_前端视图_0611",
+        "title": "Codex临时测试_前端视图_0611",
+        "rect": {
+          "x": 380,
+          "y": 152,
+          "w": 68,
+          "h": 112
+        },
+        "visible": true
+      },
+      {
+        "i": 91,
+        "tag": "DIV",
+        "cls": "data-item card-item is-stop",
+        "text": "盛云_孙宇飞_TraceDemo_0617",
+        "title": "盛云_孙宇飞_TraceDemo_0617",
+        "rect": {
+          "x": 464,
+          "y": 152,
+          "w": 68,
+          "h": 112
+        },
+        "visible": true
+      },
+      {
+        "i": 97,
+        "tag": "DIV",
+        "cls": "data-item card-item is-stop",
+        "text": "盛云_孙宇飞_QueryDemo_0617",
+        "title": "盛云_孙宇飞_QueryDemo_0617",
+        "rect": {
+          "x": 548,
+          "y": 152,
+          "w": 68,
+          "h": 112
+        },
+        "visible": true
+      },
+      {
+        "i": 103,
+        "tag": "DIV",
+        "cls": "data-item card-item is-stop",
+        "text": "盛云_孙宇飞_前端_框架_0618@EidolonL1Frame_对象1",
+        "title": "盛云_孙宇飞_前端_框架_0618@EidolonL1Frame_对象1",
+        "rect": {
+          "x": 632,
+          "y": 152,
+          "w": 68,
+          "h": 112
+        },
+        "visible": true
+      },
+      {
+        "i": 109,
+        "tag": "DIV",
+        "cls": "data-item card-item is-stop",
+        "text": "盛云_孙宇飞_Noctiluca_客户端_对象1",
+        "title": "盛云_孙宇飞_Noctiluca_客户端_对象1",
+        "rect": {
+          "x": 716,
+          "y": 152,
+          "w": 68,
+          "h": 112
+        },
+        "visible": true
+      },
+      {
+        "i": 115,
+        "tag": "DIV",
+        "cls": "data-item card-item",
+        "text": "盛云_孙宇飞_Noctiluca_客户端_对象2",
+        "title": "盛云_孙宇飞_Noctiluca_客户端_对象2",
+        "rect": {
+          "x": 800,
+          "y": 152,
+          "w": 68,
+          "h": 112
+        },
+        "visible": true
+      },
+      {
+        "i": 121,
+        "tag": "DIV",
+        "cls": "data-item card-item",
+        "text": "盛云_孙宇飞_Nadir_客户端_0622_对象1",
+        "title": "盛云_孙宇飞_Nadir_客户端_0622_对象1",
+        "rect": {
+          "x": 884,
+          "y": 152,
+          "w": 68,
+          "h": 112
+        },
+        "visible": true
+      },
+      {
+        "i": 127,
+        "tag": "DIV",
+        "cls": "data-item card-item is-stop",
+        "text": "盛云_孙宇飞_Nadir_客户端_0622_对象1",
+        "title": "盛云_孙宇飞_Nadir_客户端_0622_对象1",
+        "rect": {
+          "x": 968,
+          "y": 152,
+          "w": 68,
+          "h": 112
+        },
+        "visible": true
+      },
+      {
+        "i": 137,
+        "tag": "DIV",
+        "cls": "window-item is-cur",
+        "text": "暂无数据去登录",
+        "title": null,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 843
+        },
+        "visible": true
+      }
+    ]
+  },
+  "rect": {
+    "x": 162,
+    "y": 180,
+    "rect": {
+      "x": 128,
+      "y": 152,
+      "w": 68,
+      "h": 112
+    },
+    "text": "组态系统客户端",
+    "title": "组态系统客户端"
+  },
+  "after": [
+    {
+      "path": "top",
+      "title": "🐴 WellinOS4.5",
+      "href": "http://221.239.19.118:13001/#/main",
+      "text": "时空功能开发 时空对象管理 系统运维 安全管理 审计管理 亚控云商城 KingStudio_V20260617 组态系统客户端 建模系统客户端 运维部署客户端 Codex临时测试_前端视图_0611 盛云_孙宇飞_TraceDemo_0617 盛云_孙宇飞_QueryDemo_0617 盛云_孙宇飞_前端_框架_0618@EidolonL1Frame_对象1 盛云_孙宇飞_Noctiluca_客户端_对象1 盛云_孙宇飞_Noctiluca_客户端_对象2 盛云_孙宇飞_Nadir_客户端_0622_对象1 盛云_孙宇飞_Nadir_客户端_0622_对象1",
+      "frames": 2
+    },
+    {
+      "path": "top.0",
+      "title": "desktop-frame",
+      "href": "http://221.239.19.118:13001/desktop-frame/index.html?cloud=107#/main/worker-space-model",
+      "text": "时空功能开发平台 Time Space Platform 时空开发 部署管理 仓库包 权限 镜像 关于 时空管理 新建 删除 默认数据区 KingFusion4.5_V1 KingStudio4.5_Beta_dataBase KF4.5工程 引滦原水处理 测试 mwq测试 张测试1 芦昆测试工程 盛云_孙宇飞_人工测试工程 盛云_孙宇飞_Noctiluca 盛云_孙宇飞_CRUD工程_0620 信息管理系统 盛云_孙宇飞_Palimpsest工程_0624 KF4.5Root 客户端1 盛云_孙宇飞_Palimpsest客户端_0624 根组 私有根组 实时报警数据汇总_运行后台 个人仓库 盛云_孙宇飞_仓库 KingStudio4.5_Beta 新建 生成拷贝 复制 移动 导入 导出 删除 上传资源 打包 名称 本仓库-多类型 根组 私有根组 实时报警数据汇总_运行后台 盛云_孙宇飞_Palimpsest客户端_0624 部署配置对象创建_运行后台 角色信息 全选 重置 共 6 条 1 前往 页 属性 基础信息 名称: 显示名称: 描述: 0 / 128 ID: 9511602413006488064 GUID: 2b07fd4e-0805-4e7f-b39e-f5e54f3ea5ff 母模型GUID: aba45843-463e-4cfc-9116-5cb9357b3d15 母模型版本: 1 版本状态: 父ID: 安全策略: 关联 审计策略: 关联 对象类型: 时序事拷贝 仓库路径: KF4.5工程/盛云_孙宇飞_Palimpsest工程_0624/盛云_孙宇飞_Palimpsest客户端_0624 分类标签1: 分类标签2: 分类标签3: 别名关联管理: 配置",
+      "frames": 0
+    },
+    {
+      "path": "top.1",
+      "title": "WellinOS4.0",
+      "href": "http://221.239.19.118:13001/public/?id=6192730962611143156&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+      "text": "!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}(); System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))",
+      "frames": 1
+    },
+    {
+      "path": "top.1.0",
+      "title": "客户端运行",
+      "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/index.html",
+      "text": "<strong>We're sorry but app-master doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>KingFusion4.5_建模系统建模系统管控单元建模采集设备建模工作流建模数据源建模数字孪生建模分组 导入 导出 删除 根组集成测试测试引滦工程mwq测试张测试组lk测试盛云_孙宇飞_根组产品生成器功能测试_lk工厂车间产线设备管理员首页建模数据管理生产计划与执行模型列表 新建 更多操作 导入 导出 复制 粘贴 移动 删除 序号名称描述操作1盛云_孙宇飞_Smoke模型_0518建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。 编辑 属性 提交版本 版本管理 更新 删除2盛云_孙宇飞_后台_查询Demo_0618reference lk backend minimal clone: business event + custom calc skeleton 编辑 属性 提交版本 版本管理 更新 删除3盛云_孙宇飞_前端_框架_0618reference lk front frame minimal clone: frame page skeleton 编辑 属性 提交版本 版本管理 更新 删除4盛云_孙宇飞_前端_查询Demo_0618reference lk front business minimal clone: list page + edit page skeleton 编辑 属性 提交版本 版本管理 更新 删除5盛云_孙宇飞_后台_CRUDDemo_0620clean restart backend CRUD model 0620 编辑 属性 提交版本 版本管理 更新 删除6盛云_孙宇飞_前端_框架_0620clean restart front frame model 0620 编辑 属性 提交版本 版本管理 更新 删除7盛云_孙宇飞_前端_CRUDDemo_0620clean restart front business model 0620 编辑 属性 提交版本 版本管理 更新 删除8盛云科技_孙宇飞_Palimpsest_前端_0623Palimpsest frontend model: left 18 percent menu and right 82 percent content test page. 编辑 属性 提交版本 版本管理 更新 删除9盛云科技_孙宇飞_Palimpsest_后台_0623Palimpsest backend model: fake assessment CRUD functions and test records. 编辑 属性 提交版本 版本管理 更新 删除10PalimpsestAssessment_CUSTOMFUNCPalimpsest assessment CRUD backend functions for frontend integration. 编辑 属性 提交版本 版本管理 更新 删除共 10 条50条/页100条/页150条/页200条/页250条/页300条/页<1>前往页KingFusion4.5_工程浏览器盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records. 退出 菜单实例显示 数据模型 物 多灵敏时序物单灵敏时序物业务物事 时序事业务事岗位组织人员逻辑模型 报警规则配置多灵敏数据报警转发单灵敏数据报警转发自定义计算第三方计算管理图形模型 2D精灵图3D精灵图页面精灵图报表精灵图自定义精灵图子模型 形参配置 自定义计算模型 新建 更多操作 复制 粘贴 删除模型名称触发类型触发条件操作PalimpsestBackend自定义函数 编辑 属性 删除共 1 条50条/页100条/页150条/页200条/页250条/页300条/页1前往页 body #RContainerkbf46097c1c1a68c7b8e25e2182b08b1 #k5d8e3c36eb953335de0d1f8d7aa1cf2 p { font-family: Source Han Sans; font-size: 18px; font-weight: bold; line-height: normal; letter-spacing: normal; color: #333333; }#RContainerkbf46097c1c1a68c7b",
+      "frames": 0
+    }
+  ]
+}

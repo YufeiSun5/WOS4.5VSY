@@ -1,0 +1,73 @@
+{
+  "click": {
+    "clicked": true,
+    "row": "\t\n1\n\t\nPalimpsestRootKnownGoodBack\n\t\nPalimpsestRootKnownGoodBack\n\t\nKnown good backend package probe under root node\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv4\n\t\n编辑属性切换模型版本形参管理提交版本删除"
+  },
+  "confirm": {
+    "acted": false,
+    "details": []
+  },
+  "result": {
+    "capture": {
+      "messages": [
+        {
+          "kind": "mutation",
+          "text": "因当前时空仓库未提交版本，故无法提交实例",
+          "extra": {
+            "className": "el-message el-message--error is-closable el-message-fade-enter el-message-fade-enter-active"
+          },
+          "t": 1782276236127
+        }
+      ],
+      "console": [
+        {
+          "level": "log",
+          "args": [
+            "[D] 点击了 <提交版本> 按钮, scope = ",
+            "[object Object]"
+          ],
+          "t": 1782276235743
+        },
+        {
+          "level": "log",
+          "args": [
+            "[I] 远程调用接口 <IQuerySpaceTimeRepoDetails>, res = ",
+            "[object Object]"
+          ],
+          "t": 1782276236116
+        }
+      ]
+    },
+    "rows": [
+      {
+        "i": 0,
+        "text": "序号\t名称\t显示名称\t描述\t模型\t模型版本\t操作"
+      },
+      {
+        "i": 1,
+        "text": "1\n\t\nPalimpsestRootKnownGoodBack\n\t\nPalimpsestRootKnownGoodBack\n\t\nKnown good backend package probe under root node\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv4\n\t\n编辑属性切换模型版本形参管理提交版本删除"
+      }
+    ],
+    "dialogs": [
+      {
+        "i": 0,
+        "cls": "el-dialog__wrapper",
+        "display": "none",
+        "text": ""
+      },
+      {
+        "i": 1,
+        "cls": "el-dialog__wrapper",
+        "display": "none",
+        "text": ""
+      },
+      {
+        "i": 2,
+        "cls": "el-message-box__wrapper",
+        "display": "none",
+        "text": "提示有提交失败的数据, 是否导出错误信息?\n          取消\n        \n          确定\n        "
+      }
+    ],
+    "body": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot\n\n实例列表\n\n新建\n删除\n更多操作 \n\t序号\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\n1\n\t\nPalimpsestRootKnownGoodBack\n\t\nPalimpsestRootKnownGoodBack\n\t\nKnown good backend package probe under root node\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv4\n\t\n编辑属性切换模型版本形参管理提交版本删除"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "createdAt": "2026-06-23T21:48:48",
+  "ai": "孙宇飞_code-ai",
+  "reason": "新增 WOS4 页面运行态可回灌备份 skill，并核实页面调试与蓝色客户端发布边界",
+  "existingFiles": [
+    "AGENTS.md",
+    ".ai/skills/README.md",
+    ".ai/skills/wos4-blue-client-publish-flow/SKILL.md",
+    ".ai/skills/wos4-runtime-package-update/SKILL.md",
+    "WOS4_deep_test_notes.md",
+    "MEMORY.md"
+  ],
+  "newFiles": [
+    ".ai/skills/wos4-page-runtime-backup/SKILL.md"
+  ]
+}

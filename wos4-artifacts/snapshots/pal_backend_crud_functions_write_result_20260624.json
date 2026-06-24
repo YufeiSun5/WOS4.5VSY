@@ -1,0 +1,835 @@
+{
+  "addResults": [
+    {
+      "name": "QueryAssessmentRecords",
+      "status": "created",
+      "funcs": [
+        "declare",
+        "onCreate",
+        "onDestroy",
+        "onException",
+        "QueryAssessmentPage",
+        "QueryAssessmentData",
+        "QueryAssessmentSmoke",
+        "PalimpsestCrudService",
+        "QueryAssessmentRecords"
+      ]
+    },
+    {
+      "name": "CreateAssessmentRecord",
+      "status": "created",
+      "funcs": [
+        "declare",
+        "onCreate",
+        "onDestroy",
+        "onException",
+        "QueryAssessmentPage",
+        "QueryAssessmentData",
+        "QueryAssessmentSmoke",
+        "PalimpsestCrudService",
+        "QueryAssessmentRecords",
+        "CreateAssessmentRecord"
+      ]
+    },
+    {
+      "name": "UpdateAssessmentRecord",
+      "status": "created",
+      "funcs": [
+        "declare",
+        "onCreate",
+        "onDestroy",
+        "onException",
+        "QueryAssessmentPage",
+        "QueryAssessmentData",
+        "QueryAssessmentSmoke",
+        "PalimpsestCrudService",
+        "QueryAssessmentRecords",
+        "CreateAssessmentRecord",
+        "UpdateAssessmentRecord"
+      ]
+    },
+    {
+      "name": "DeleteAssessmentRecord",
+      "status": "created",
+      "funcs": [
+        "declare",
+        "onCreate",
+        "onDestroy",
+        "onException",
+        "QueryAssessmentPage",
+        "QueryAssessmentData",
+        "QueryAssessmentSmoke",
+        "PalimpsestCrudService",
+        "QueryAssessmentRecords",
+        "CreateAssessmentRecord",
+        "UpdateAssessmentRecord",
+        "DeleteAssessmentRecord"
+      ]
+    },
+    {
+      "name": "SubmitAssessmentScore",
+      "status": "created",
+      "funcs": [
+        "declare",
+        "onCreate",
+        "onDestroy",
+        "onException",
+        "QueryAssessmentPage",
+        "QueryAssessmentData",
+        "QueryAssessmentSmoke",
+        "PalimpsestCrudService",
+        "QueryAssessmentRecords",
+        "CreateAssessmentRecord",
+        "UpdateAssessmentRecord",
+        "DeleteAssessmentRecord",
+        "SubmitAssessmentScore"
+      ]
+    },
+    {
+      "name": "PalimpsestHandleError",
+      "status": "created",
+      "funcs": [
+        "declare",
+        "onCreate",
+        "onDestroy",
+        "onException",
+        "QueryAssessmentPage",
+        "QueryAssessmentData",
+        "QueryAssessmentSmoke",
+        "PalimpsestCrudService",
+        "QueryAssessmentRecords",
+        "CreateAssessmentRecord",
+        "UpdateAssessmentRecord",
+        "DeleteAssessmentRecord",
+        "SubmitAssessmentScore",
+        "PalimpsestHandleError"
+      ]
+    }
+  ],
+  "writeResults": [
+    {
+      "name": "PalimpsestCrudService",
+      "visible": {
+        "active": "PalimpsestCrudService",
+        "textarea": "\":1,\\\"pageSize\\\":10,\\\"methods\\\":[\\\"QueryAssessmentRecords\\\",\\\"CreateAssessmentRecord\\\",\\\"UpdateAssessmentRecord\\\",\\\"DeleteAssessmentRecord\\\",\\\"SubmitAssessmentScore\\\"],\\\"tables\\\":[\\\"pal_menu_node\\\",\\\"pal_department\\\",\\\"pal_mentor\\\",\\\"pal_intern_student\\\",\\\"pal_assessment_batch\\\",\\\"pal_assessment_record\\\",\\\"pal_assessment_score_detail\\\",\\\"pal_operation_log\\\"],\\\"persistence\\\":\\\"businessEventRecordsPendingRuntimeObject\\\"}}\";\nTrace(2, \"PalimpsestCrudService.return\", resultText);\nreturn resultText;",
+        "lines": [
+          "Trace(2, \"PalimpsestCrudService.enter\", strmapPara);",
+          "string resultText;",
+          "resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"success\\\",\\\"traceId\\\":\\\"pal-20260624-backend\\\",\\\"data\\\":{\\\"records\\\":[{\\\"id\\\":\\\"AR2024041001\\\",\\\"studentNo\\\":\\\"S2024041001\\\",\\\"name\\\":\\\"Li Mingxuan\\\",\\\"department\\\":\\\"Product\\\",\\\"mentor\\\":\\\"Wang Siyuan\\\",\\\"batch\\\":\\\"2024Q2\\\",\\\"professionalScore\\\":38,\\\"attitudeScore\\\":18,\\\"taskScore\\\":18,\\\"teamworkScore\\\":9,\\\"innovationScore\\\":9,\\\"totalScore\\\":92,\\\"status\\\":\\\"completed\\\",\\\"updatedAt\\\":\\\"2024-06-12 14:30\\\"},{\\\"id\\\":\\\"AR2024041002\\\",\\\"studentNo\\\":\\\"S2024041002\\\",\\\"name\\\":\\\"Zhang Yuting\\\",\\\"department\\\":\\\"R&D\\\",\\\"mentor\\\":\\\"Chen Haoran\\\",\\\"batch\\\":\\\"2024Q2\\\",\\\"professionalScore\\\":36,\\\"attitudeScore\\\":18,\\\"taskScore\\\":18,\\\"teamworkScore\\\":8,\\\"innovationScore\\\":9,\\\"totalScore\\\":89,\\\"status\\\":\\\"completed\\\",\\\"updatedAt\\\":\\\"2024-06-11 11:20\\\"},{\\\"id\\\":\\\"AR2024041005\\\",\\\"studentNo\\\":\\\"S2024041005\\\",\\\"name\\\":\\\"Chen Xinyi\\\",\\\"department\\\":\\\"Operations\\\",\\\"mentor\\\":\\\"Zhou Zimo\\\",\\\"batch\\\":\\\"2024Q2\\\",\\\"professionalScore\\\":34,\\\"attitudeScore\\\":17,\\\"taskScore\\\":16,\\\"teamworkScore\\\":8,\\\"innovationScore\\\":8,\\\"totalScore\\\":83,\\\"status\\\":\\\"pending\\\",\\\"updatedAt\\\":\\\"2024-06-08 10:05\\\"}],\\\"total\\\":128,\\\"page\\\":1,\\\"pageSize\\\":10,\\\"methods\\\":[\\\"QueryAssessmentRecords\\\",\\\"CreateAssessmentRecord\\\",\\\"UpdateAssessmentRecord\\\",\\\"DeleteAssessmentRecord\\\",\\\"SubmitAssessmentScore\\\"],\\\"tables\\\":[\\\"pal_menu_node\\\",\\\"pal_department\\\",\\\"pal_mentor\\\",\\\"pal_intern_student\\\",\\\"pal_assessment_batch\\\",\\\"pal_assessment_record\\\",\\\"pal_assessment_score_detail\\\",\\\"pal_operation_log\\\"],\\\"persistence\\\":\\\"businessEventRecordsPendingRuntimeObject\\\"}}\";",
+          "Trace(2, \"PalimpsestCrudService.return\", resultText);",
+          "return resultText;"
+        ]
+      },
+      "saved": {
+        "body": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\nQueryAssessmentPage\n\nQueryAssessmentData\n\nQueryAssessmentSmoke\n\nPalimpsestCrudService\n\nQueryAssessmentRecords\n\nCreateAssessmentRecord\n\nUpdateAssessmentRecord\n\nDeleteAssessmentRecord\n\nSubmitAssessmentScore\n\nPalimpsestHandleError\n\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nonDestroy\nonException\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nU",
+        "unsaved": [
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QueryAssessmentRecords",
+      "visible": {
+        "active": "QueryAssessmentRecords",
+        "textarea": ":1,\\\"pageSize\\\":10,\\\"methods\\\":[\\\"QueryAssessmentRecords\\\",\\\"CreateAssessmentRecord\\\",\\\"UpdateAssessmentRecord\\\",\\\"DeleteAssessmentRecord\\\",\\\"SubmitAssessmentScore\\\"],\\\"tables\\\":[\\\"pal_menu_node\\\",\\\"pal_department\\\",\\\"pal_mentor\\\",\\\"pal_intern_student\\\",\\\"pal_assessment_batch\\\",\\\"pal_assessment_record\\\",\\\"pal_assessment_score_detail\\\",\\\"pal_operation_log\\\"],\\\"persistence\\\":\\\"businessEventRecordsPendingRuntimeObject\\\"}}\";\nTrace(2, \"QueryAssessmentRecords.return\", resultText);\nreturn resultText;",
+        "lines": [
+          "Trace(2, \"QueryAssessmentRecords.enter\", strmapPara);",
+          "string resultText;",
+          "resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"success\\\",\\\"traceId\\\":\\\"pal-20260624-backend\\\",\\\"data\\\":{\\\"records\\\":[{\\\"id\\\":\\\"AR2024041001\\\",\\\"studentNo\\\":\\\"S2024041001\\\",\\\"name\\\":\\\"Li Mingxuan\\\",\\\"department\\\":\\\"Product\\\",\\\"mentor\\\":\\\"Wang Siyuan\\\",\\\"batch\\\":\\\"2024Q2\\\",\\\"professionalScore\\\":38,\\\"attitudeScore\\\":18,\\\"taskScore\\\":18,\\\"teamworkScore\\\":9,\\\"innovationScore\\\":9,\\\"totalScore\\\":92,\\\"status\\\":\\\"completed\\\",\\\"updatedAt\\\":\\\"2024-06-12 14:30\\\"},{\\\"id\\\":\\\"AR2024041002\\\",\\\"studentNo\\\":\\\"S2024041002\\\",\\\"name\\\":\\\"Zhang Yuting\\\",\\\"department\\\":\\\"R&D\\\",\\\"mentor\\\":\\\"Chen Haoran\\\",\\\"batch\\\":\\\"2024Q2\\\",\\\"professionalScore\\\":36,\\\"attitudeScore\\\":18,\\\"taskScore\\\":18,\\\"teamworkScore\\\":8,\\\"innovationScore\\\":9,\\\"totalScore\\\":89,\\\"status\\\":\\\"completed\\\",\\\"updatedAt\\\":\\\"2024-06-11 11:20\\\"},{\\\"id\\\":\\\"AR2024041005\\\",\\\"studentNo\\\":\\\"S2024041005\\\",\\\"name\\\":\\\"Chen Xinyi\\\",\\\"department\\\":\\\"Operations\\\",\\\"mentor\\\":\\\"Zhou Zimo\\\",\\\"batch\\\":\\\"2024Q2\\\",\\\"professionalScore\\\":34,\\\"attitudeScore\\\":17,\\\"taskScore\\\":16,\\\"teamworkScore\\\":8,\\\"innovationScore\\\":8,\\\"totalScore\\\":83,\\\"status\\\":\\\"pending\\\",\\\"updatedAt\\\":\\\"2024-06-08 10:05\\\"}],\\\"total\\\":128,\\\"page\\\":1,\\\"pageSize\\\":10,\\\"methods\\\":[\\\"QueryAssessmentRecords\\\",\\\"CreateAssessmentRecord\\\",\\\"UpdateAssessmentRecord\\\",\\\"DeleteAssessmentRecord\\\",\\\"SubmitAssessmentScore\\\"],\\\"tables\\\":[\\\"pal_menu_node\\\",\\\"pal_department\\\",\\\"pal_mentor\\\",\\\"pal_intern_student\\\",\\\"pal_assessment_batch\\\",\\\"pal_assessment_record\\\",\\\"pal_assessment_score_detail\\\",\\\"pal_operation_log\\\"],\\\"persistence\\\":\\\"businessEventRecordsPendingRuntimeObject\\\"}}\";",
+          "Trace(2, \"QueryAssessmentRecords.return\", resultText);",
+          "return resultText;"
+        ]
+      },
+      "saved": {
+        "body": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\nQueryAssessmentPage\n\nQueryAssessmentData\n\nQueryAssessmentSmoke\n\nPalimpsestCrudService\n\nQueryAssessmentRecords\n\nCreateAssessmentRecord\n\nUpdateAssessmentRecord\n\nDeleteAssessmentRecord\n\nSubmitAssessmentScore\n\nPalimpsestHandleError\n\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nonDestroy\nonException\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nU",
+        "unsaved": [
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CreateAssessmentRecord",
+      "visible": {
+        "active": "CreateAssessmentRecord",
+        "textarea": "Trace(2, \"CreateAssessmentRecord.enter\", strmapPara);\nstring resultText;\nresultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"PAL_CREATED\\\",\\\"message\\\":\\\"record accepted\\\",\\\"traceId\\\":\\\"pal-20260624-create\\\",\\\"data\\\":{\\\"id\\\":\\\"AR_NEW_001\\\",\\\"status\\\":\\\"pending\\\",\\\"operationLog\\\":\\\"create\\\"}}\";\nTrace(2, \"CreateAssessmentRecord.return\", resultText);\nreturn resultText;",
+        "lines": [
+          "Trace(2, \"CreateAssessmentRecord.enter\", strmapPara);",
+          "string resultText;",
+          "resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"PAL_CREATED\\\",\\\"message\\\":\\\"record accepted\\\",\\\"traceId\\\":\\\"pal-20260624-create\\\",\\\"data\\\":{\\\"id\\\":\\\"AR_NEW_001\\\",\\\"status\\\":\\\"pending\\\",\\\"operationLog\\\":\\\"create\\\"}}\";",
+          "Trace(2, \"CreateAssessmentRecord.return\", resultText);",
+          "return resultText;"
+        ]
+      },
+      "saved": {
+        "body": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\nQueryAssessmentPage\n\nQueryAssessmentData\n\nQueryAssessmentSmoke\n\nPalimpsestCrudService\n\nQueryAssessmentRecords\n\nCreateAssessmentRecord\n\nUpdateAssessmentRecord\n\nDeleteAssessmentRecord\n\nSubmitAssessmentScore\n\nPalimpsestHandleError\n\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nonDestroy\nonException\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nU",
+        "unsaved": [
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UpdateAssessmentRecord",
+      "visible": {
+        "active": "UpdateAssessmentRecord",
+        "textarea": "Trace(2, \"UpdateAssessmentRecord.enter\", strmapPara);\nstring resultText;\nresultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"PAL_UPDATED\\\",\\\"message\\\":\\\"record accepted\\\",\\\"traceId\\\":\\\"pal-20260624-update\\\",\\\"data\\\":{\\\"id\\\":\\\"AR2024041001\\\",\\\"status\\\":\\\"completed\\\",\\\"operationLog\\\":\\\"update\\\"}}\";\nTrace(2, \"UpdateAssessmentRecord.return\", resultText);\nreturn resultText;",
+        "lines": [
+          "Trace(2, \"UpdateAssessmentRecord.enter\", strmapPara);",
+          "string resultText;",
+          "resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"PAL_UPDATED\\\",\\\"message\\\":\\\"record accepted\\\",\\\"traceId\\\":\\\"pal-20260624-update\\\",\\\"data\\\":{\\\"id\\\":\\\"AR2024041001\\\",\\\"status\\\":\\\"completed\\\",\\\"operationLog\\\":\\\"update\\\"}}\";",
+          "Trace(2, \"UpdateAssessmentRecord.return\", resultText);",
+          "return resultText;"
+        ]
+      },
+      "saved": {
+        "body": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\nQueryAssessmentPage\n\nQueryAssessmentData\n\nQueryAssessmentSmoke\n\nPalimpsestCrudService\n\nQueryAssessmentRecords\n\nCreateAssessmentRecord\n\nUpdateAssessmentRecord\n\nDeleteAssessmentRecord\n\nSubmitAssessmentScore\n\nPalimpsestHandleError\n\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nonDestroy\nonException\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nU",
+        "unsaved": [
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeleteAssessmentRecord",
+      "visible": {
+        "active": "DeleteAssessmentRecord",
+        "textarea": "Trace(2, \"DeleteAssessmentRecord.enter\", strmapPara);\nstring resultText;\nresultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"PAL_DELETED\\\",\\\"message\\\":\\\"record marked deleted\\\",\\\"traceId\\\":\\\"pal-20260624-delete\\\",\\\"data\\\":{\\\"id\\\":\\\"AR2024041001\\\",\\\"deleted\\\":true,\\\"operationLog\\\":\\\"delete\\\"}}\";\nTrace(2, \"DeleteAssessmentRecord.return\", resultText);\nreturn resultText;",
+        "lines": [
+          "Trace(2, \"DeleteAssessmentRecord.enter\", strmapPara);",
+          "string resultText;",
+          "resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"PAL_DELETED\\\",\\\"message\\\":\\\"record marked deleted\\\",\\\"traceId\\\":\\\"pal-20260624-delete\\\",\\\"data\\\":{\\\"id\\\":\\\"AR2024041001\\\",\\\"deleted\\\":true,\\\"operationLog\\\":\\\"delete\\\"}}\";",
+          "Trace(2, \"DeleteAssessmentRecord.return\", resultText);",
+          "return resultText;"
+        ]
+      },
+      "saved": {
+        "body": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\nQueryAssessmentPage\n\nQueryAssessmentData\n\nQueryAssessmentSmoke\n\nPalimpsestCrudService\n\nQueryAssessmentRecords\n\nCreateAssessmentRecord\n\nUpdateAssessmentRecord\n\nDeleteAssessmentRecord\n\nSubmitAssessmentScore\n\nPalimpsestHandleError\n\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nonDestroy\nonException\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nU",
+        "unsaved": [
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SubmitAssessmentScore",
+      "visible": {
+        "active": "SubmitAssessmentScore",
+        "textarea": "Trace(2, \"SubmitAssessmentScore.enter\", strmapPara);\nstring resultText;\nresultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"PAL_SCORE_SUBMITTED\\\",\\\"message\\\":\\\"score submitted\\\",\\\"traceId\\\":\\\"pal-20260624-score\\\",\\\"data\\\":{\\\"id\\\":\\\"AR2024041001\\\",\\\"totalScore\\\":92,\\\"status\\\":\\\"completed\\\",\\\"operationLog\\\":\\\"submitScore\\\"}}\";\nTrace(2, \"SubmitAssessmentScore.return\", resultText);\nreturn resultText;",
+        "lines": [
+          "Trace(2, \"SubmitAssessmentScore.enter\", strmapPara);",
+          "string resultText;",
+          "resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"PAL_SCORE_SUBMITTED\\\",\\\"message\\\":\\\"score submitted\\\",\\\"traceId\\\":\\\"pal-20260624-score\\\",\\\"data\\\":{\\\"id\\\":\\\"AR2024041001\\\",\\\"totalScore\\\":92,\\\"status\\\":\\\"completed\\\",\\\"operationLog\\\":\\\"submitScore\\\"}}\";",
+          "Trace(2, \"SubmitAssessmentScore.return\", resultText);",
+          "return resultText;"
+        ]
+      },
+      "saved": {
+        "body": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\nQueryAssessmentPage\n\nQueryAssessmentData\n\nQueryAssessmentSmoke\n\nPalimpsestCrudService\n\nQueryAssessmentRecords\n\nCreateAssessmentRecord\n\nUpdateAssessmentRecord\n\nDeleteAssessmentRecord\n\nSubmitAssessmentScore\n\nPalimpsestHandleError\n\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nonDestroy\nonException\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nU",
+        "unsaved": [
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PalimpsestHandleError",
+      "visible": {
+        "active": "PalimpsestHandleError",
+        "textarea": "Trace(2, \"PalimpsestHandleError.enter\", strmapPara);\nstring resultText;\nresultText = \"{\\\"ok\\\":false,\\\"code\\\":\\\"PAL_INTERNAL_ERROR\\\",\\\"message\\\":\\\"backend error\\\",\\\"traceId\\\":\\\"pal-20260624-error\\\",\\\"data\\\":{\\\"handler\\\":\\\"PalimpsestHandleError\\\",\\\"returnToFrontend\\\":true}}\";\nTrace(2, \"PalimpsestHandleError.return\", resultText);\nreturn resultText;",
+        "lines": [
+          "Trace(2, \"PalimpsestHandleError.enter\", strmapPara);",
+          "string resultText;",
+          "resultText = \"{\\\"ok\\\":false,\\\"code\\\":\\\"PAL_INTERNAL_ERROR\\\",\\\"message\\\":\\\"backend error\\\",\\\"traceId\\\":\\\"pal-20260624-error\\\",\\\"data\\\":{\\\"handler\\\":\\\"PalimpsestHandleError\\\",\\\"returnToFrontend\\\":true}}\";",
+          "Trace(2, \"PalimpsestHandleError.return\", resultText);",
+          "return resultText;"
+        ]
+      },
+      "saved": {
+        "body": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\nQueryAssessmentPage\n\nQueryAssessmentData\n\nQueryAssessmentSmoke\n\nPalimpsestCrudService\n\nQueryAssessmentRecords\n\nCreateAssessmentRecord\n\nUpdateAssessmentRecord\n\nDeleteAssessmentRecord\n\nSubmitAssessmentScore\n\nPalimpsestHandleError\n\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nonDestroy\nonException\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nU",
+        "unsaved": [
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          }
+        ]
+      }
+    },
+    {
+      "name": "onException",
+      "visible": {
+        "active": "onException",
+        "textarea": "Trace(2, \"PalimpsestBackend.onException\", message);",
+        "lines": [
+          "Trace(2, \"PalimpsestBackend.onException\", message);"
+        ]
+      },
+      "saved": {
+        "body": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\nQueryAssessmentPage\n\nQueryAssessmentData\n\nQueryAssessmentSmoke\n\nPalimpsestCrudService\n\nQueryAssessmentRecords\n\nCreateAssessmentRecord\n\nUpdateAssessmentRecord\n\nDeleteAssessmentRecord\n\nSubmitAssessmentScore\n\nPalimpsestHandleError\n\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nonDestroy\nonException\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nU",
+        "unsaved": [
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          },
+          {
+            "text": "",
+            "display": "none",
+            "cls": "tab-un-save wos-editor-function-tab-close"
+          }
+        ]
+      }
+    }
+  ],
+  "funcs": [
+    "declare",
+    "onCreate",
+    "onDestroy",
+    "onException",
+    "QueryAssessmentPage",
+    "QueryAssessmentData",
+    "QueryAssessmentSmoke",
+    "PalimpsestCrudService",
+    "QueryAssessmentRecords",
+    "CreateAssessmentRecord",
+    "UpdateAssessmentRecord",
+    "DeleteAssessmentRecord",
+    "SubmitAssessmentScore",
+    "PalimpsestHandleError"
+  ]
+}

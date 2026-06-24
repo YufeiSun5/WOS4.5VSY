@@ -1,0 +1,4 @@
+interface:
+  display_name: "WOS4 Business Event Member Edit"
+  short_description: "新增和编辑 WOS4 业务事成员字段，并处理异步延迟。"
+  default_prompt: "使用 WOS4 业务事成员编辑流程，新增成员字段并验证持久化。"

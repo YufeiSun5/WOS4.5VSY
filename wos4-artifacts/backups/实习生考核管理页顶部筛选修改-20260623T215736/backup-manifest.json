@@ -1,0 +1,23 @@
+{
+  "backupType": "replayable-runtime-layout-and-components",
+  "page": "PalimpsestContent_82",
+  "ai": "孙宇飞_code-ai",
+  "createdAt": "20260623T215736",
+  "editorTab": {
+    "targetId": "53E1218258F19C29593C3B0E3EFB8A71",
+    "title": "WellinOS4.5",
+    "url": "http://221.239.19.118:13001/#/main"
+  },
+  "files": [
+    "before-runtime.json",
+    "restore-runtime.js",
+    "before-editor.png"
+  ],
+  "contains": [
+    "root layout rowsManager",
+    "component propData/data/options",
+    "RCol getObject child objects",
+    "detailConfig/styleConfig/linkList",
+    "restore script"
+  ]
+}

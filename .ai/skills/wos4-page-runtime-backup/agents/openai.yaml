@@ -1,0 +1,4 @@
+interface:
+  display_name: "WOS4 Page Runtime Backup"
+  short_description: "Create replayable WOS4 page runtime backups before editing."
+  default_prompt: "Back up the current WOS4 page runtime into a replayable before-runtime.json and restore-runtime.js package."

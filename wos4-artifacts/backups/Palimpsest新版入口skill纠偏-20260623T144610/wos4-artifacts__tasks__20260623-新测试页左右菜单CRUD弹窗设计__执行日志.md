@@ -1,0 +1,47 @@
+# 执行日志
+
+## 2026-06-23 孙宇飞_design-ai
+
+- 读取项目规则、`design-ai` 身份、任务工作包规则、交互面板规则、备份规则和 WOS4 版本树。
+- 读取相关 WOS4 skill：
+  - `wos4-config-client-screen-create`
+  - `wos4-blue-client-object-create`
+  - `wos4-create-new-page`
+  - `wos4-layout-devtools-skill`
+  - `wos4-component-catalog`
+  - `wos4-component-persistence`
+  - `wos4-interaction-flow-skill`
+  - `wos4-button-variable-flow`
+  - `wos4-demo-page-fullstack-skill`
+  - `wos4-meta-language-fu-create`
+- 创建任务工作包。
+- 复制用户参考图到 `assets/参考图-人才管理考核页.png`。
+- 运行 WOS4 任务 preflight，通过，保存到 `snapshots/preflight-20260623T111805.json`。
+- 完成设计阶段文档。
+- 当前结论：推荐第一版用单页面左右分栏实现；客户端双独立页面并排显示列为待实测，不作为第一版默认路径。
+
+## 2026-06-23 孙宇飞_design-ai 追加
+
+- 用户指定正式代号：`盛云科技_孙宇飞_Palimpsest`。
+- 用户明确补充：大概率可以让一个客户端左侧显示菜单页面，右侧显示内容页面。
+- 已将方案调整为：优先验证客户端双页面并排；若正式客户端运行态不稳定，再降级为单页面左右分栏。
+
+## 2026-06-23 孙宇飞_design-ai 追加 2
+
+- 用户补充：不用顶部菜单，只有左右两部分即可。
+- 已把布局改为纯左右结构：左侧 `PalimpsestMenu`，右侧 `PalimpsestContent`。
+- 右侧页面内部可以有筛选区、统计、图表、表格和弹出页，但不再设计全局顶部菜单、面包屑、全局搜索或用户区。
+
+## 2026-06-23 孙宇飞_design-ai 追加 3
+
+- 用户补充：需要重新创建项目，并且两个页面设计不同百分比。
+- 已将实施约束改为：重新创建 `盛云科技_孙宇飞_Palimpsest` 项目/客户端，不在旧 CRUD 工程或旧客户端上直接改。
+- 默认页面比例：左侧 `PalimpsestMenu` 18%，右侧 `PalimpsestContent` 82%；如平台百分比字段有约束，实施时可记录实测可用比例，但必须保持左右不同占比。
+
+## 2026-06-23 孙宇飞_design-ai 追加 4
+
+- 用户明确要求使用 `browser-harness`，已按 `wos4-browser-harness` 重新接管前台 Chrome。
+- `browser-harness --doctor` 已恢复到 `chrome running / daemon alive / active browser connections` 三项通过。
+- 按 `wos4-login` skill 重新执行登录：从 `wos4.local.ini` 读取登录页、用户名和口令，使用原生 value setter 写入输入框，再点击 `#desktop-login-btn`。
+- 平台请求已发出到 `/api/v1/wellinos/loginsvcuserbyrole`，返回可见错误提示：`用户名或口令错误`。
+- 当前实施状态：WOS4 登录受账号/口令阻塞，未继续进入主桌面、组态客户端或页面创建流程。

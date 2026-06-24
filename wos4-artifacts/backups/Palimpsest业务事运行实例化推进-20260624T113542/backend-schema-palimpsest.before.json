@@ -1,0 +1,123 @@
+{
+  "model": "盛云科技_孙宇飞_Palimpsest_后台_0623",
+  "updatedAt": "2026-06-24",
+  "businessEvents": [
+    {
+      "name": "pal_menu_node",
+      "shape": "计划",
+      "description": "左侧菜单树节点",
+      "fields": [
+        { "name": "id", "type": "string", "value": "", "description": "主键ID" },
+        { "name": "parent_id", "type": "string", "value": "", "description": "父菜单ID" },
+        { "name": "menu_code", "type": "string", "value": "", "description": "菜单编码" },
+        { "name": "menu_name", "type": "string", "value": "", "description": "菜单名称" },
+        { "name": "page_code", "type": "string", "value": "", "description": "页面编码" },
+        { "name": "icon", "type": "string", "value": "", "description": "图标标识" },
+        { "name": "sort_no", "type": "int32", "value": "0", "description": "排序号" },
+        { "name": "enabled", "type": "bool", "value": "true", "description": "是否启用" }
+      ]
+    },
+    {
+      "name": "pal_department",
+      "shape": "计划",
+      "description": "部门主数据",
+      "fields": [
+        { "name": "id", "type": "string", "value": "", "description": "主键ID" },
+        { "name": "dept_code", "type": "string", "value": "", "description": "部门编码" },
+        { "name": "dept_name", "type": "string", "value": "", "description": "部门名称" },
+        { "name": "sort_no", "type": "int32", "value": "0", "description": "排序号" },
+        { "name": "enabled", "type": "bool", "value": "true", "description": "是否启用" }
+      ]
+    },
+    {
+      "name": "pal_mentor",
+      "shape": "计划",
+      "description": "导师主数据",
+      "fields": [
+        { "name": "id", "type": "string", "value": "", "description": "主键ID" },
+        { "name": "mentor_code", "type": "string", "value": "", "description": "导师编码" },
+        { "name": "mentor_name", "type": "string", "value": "", "description": "导师姓名" },
+        { "name": "dept_id", "type": "string", "value": "", "description": "所属部门ID" },
+        { "name": "phone", "type": "string", "value": "", "description": "联系电话" },
+        { "name": "enabled", "type": "bool", "value": "true", "description": "是否启用" }
+      ]
+    },
+    {
+      "name": "pal_intern_student",
+      "shape": "计划",
+      "description": "实习生主数据",
+      "fields": [
+        { "name": "id", "type": "string", "value": "", "description": "主键ID" },
+        { "name": "student_no", "type": "string", "value": "", "description": "学生学号" },
+        { "name": "student_name", "type": "string", "value": "", "description": "学生姓名" },
+        { "name": "phone", "type": "string", "value": "", "description": "联系电话" },
+        { "name": "dept_id", "type": "string", "value": "", "description": "所属部门ID" },
+        { "name": "mentor_id", "type": "string", "value": "", "description": "导师ID" },
+        { "name": "entry_date", "type": "dateTime", "value": "", "description": "入职日期" },
+        { "name": "enabled", "type": "bool", "value": "true", "description": "是否启用" }
+      ]
+    },
+    {
+      "name": "pal_assessment_batch",
+      "shape": "计划",
+      "description": "考核批次配置",
+      "fields": [
+        { "name": "id", "type": "string", "value": "", "description": "主键ID" },
+        { "name": "batch_code", "type": "string", "value": "", "description": "批次编码" },
+        { "name": "batch_name", "type": "string", "value": "", "description": "批次名称" },
+        { "name": "start_date", "type": "dateTime", "value": "", "description": "开始日期" },
+        { "name": "end_date", "type": "dateTime", "value": "", "description": "结束日期" },
+        { "name": "status", "type": "string", "value": "", "description": "批次状态" }
+      ]
+    },
+    {
+      "name": "pal_assessment_record",
+      "shape": "历史",
+      "description": "实习生考核结果记录",
+      "fields": [
+        { "name": "id", "type": "string", "value": "", "description": "主键ID" },
+        { "name": "student_id", "type": "string", "value": "", "description": "学生ID" },
+        { "name": "batch_id", "type": "string", "value": "", "description": "批次ID" },
+        { "name": "mentor_id", "type": "string", "value": "", "description": "导师ID" },
+        { "name": "professional_score", "type": "double", "value": "0", "description": "专业能力得分" },
+        { "name": "attitude_score", "type": "double", "value": "0", "description": "工作态度得分" },
+        { "name": "task_score", "type": "double", "value": "0", "description": "任务完成得分" },
+        { "name": "teamwork_score", "type": "double", "value": "0", "description": "团队协作得分" },
+        { "name": "innovation_score", "type": "double", "value": "0", "description": "创新能力得分" },
+        { "name": "total_score", "type": "double", "value": "0", "description": "综合得分" },
+        { "name": "status", "type": "string", "value": "", "description": "考核状态" },
+        { "name": "comment", "type": "string", "value": "", "description": "评语" },
+        { "name": "updated_at", "type": "dateTime", "value": "", "description": "更新时间" },
+        { "name": "deleted", "type": "bool", "value": "false", "description": "是否删除" }
+      ]
+    },
+    {
+      "name": "pal_assessment_score_detail",
+      "shape": "历史",
+      "description": "考核评分明细",
+      "fields": [
+        { "name": "id", "type": "string", "value": "", "description": "主键ID" },
+        { "name": "record_id", "type": "string", "value": "", "description": "考核记录ID" },
+        { "name": "item_code", "type": "string", "value": "", "description": "评分项编码" },
+        { "name": "item_name", "type": "string", "value": "", "description": "评分项名称" },
+        { "name": "weight", "type": "double", "value": "0", "description": "权重" },
+        { "name": "score", "type": "double", "value": "0", "description": "得分" },
+        { "name": "remark", "type": "string", "value": "", "description": "备注" }
+      ]
+    },
+    {
+      "name": "pal_operation_log",
+      "shape": "历史",
+      "description": "操作日志",
+      "fields": [
+        { "name": "id", "type": "string", "value": "", "description": "主键ID" },
+        { "name": "biz_type", "type": "string", "value": "", "description": "业务类型" },
+        { "name": "biz_id", "type": "string", "value": "", "description": "业务ID" },
+        { "name": "action", "type": "string", "value": "", "description": "操作动作" },
+        { "name": "operator", "type": "string", "value": "", "description": "操作人" },
+        { "name": "message", "type": "string", "value": "", "description": "操作说明" },
+        { "name": "created_at", "type": "dateTime", "value": "", "description": "创建时间" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "rowKey": "RRow1",
+      "ok": true,
+      "before": {
+        "get": 72,
+        "props": 72
+      },
+      "after": {
+        "get": 72,
+        "props": 72
+      }
+    },
+    {
+      "colKey": "FilterKeywordCol",
+      "ok": true,
+      "before": {
+        "get": 72,
+        "propCol": 72,
+        "rowHeight": 72
+      },
+      "after": {
+        "get": 72,
+        "propCol": 72,
+        "rowHeight": 72,
+        "child": 72
+      }
+    },
+    {
+      "colKey": "FilterDeptCol",
+      "ok": true,
+      "before": {
+        "get": 72,
+        "propCol": 72,
+        "rowHeight": 72
+      },
+      "after": {
+        "get": 72,
+        "propCol": 72,
+        "rowHeight": 72,
+        "child": 72
+      }
+    },
+    {
+      "colKey": "FilterMentorCol",
+      "ok": true,
+      "before": {
+        "get": 72,
+        "propCol": 72,
+        "rowHeight": 72
+      },
+      "after": {
+        "get": 72,
+        "propCol": 72,
+        "rowHeight": 72,
+        "child": 72
+      }
+    },
+    {
+      "colKey": "FilterBatchCol",
+      "ok": true,
+      "before": {
+        "get": 72,
+        "propCol": 72,
+        "rowHeight": 72
+      },
+      "after": {
+        "get": 72,
+        "propCol": 72,
+        "rowHeight": 72,
+        "child": 72
+      }
+    },
+    {
+      "colKey": "FilterDateCol",
+      "ok": true,
+      "before": {
+        "get": 72,
+        "propCol": 72,
+        "rowHeight": 72
+      },
+      "after": {
+        "get": 72,
+        "propCol": 72,
+        "rowHeight": 72,
+        "child": 72
+      }
+    },
+    {
+      "rowKey": "RRow2",
+      "ok": true,
+      "before": {
+        "get": 58,
+        "props": 58
+      },
+      "after": {
+        "get": 58,
+        "props": 58
+      }
+    },
+    {
+      "colKey": "FilterStatusCol",
+      "ok": true,
+      "before": {
+        "get": 58,
+        "propCol": 58,
+        "rowHeight": 58
+      },
+      "after": {
+        "get": 58,
+        "propCol": 58,
+        "rowHeight": 58,
+        "child": 58
+      }
+    },
+    {
+      "colKey": "ActionSpacerCol",
+      "ok": true,
+      "before": {
+        "get": 58,
+        "propCol": 58,
+        "rowHeight": 58
+      },
+      "after": {
+        "get": 58,
+        "propCol": 58,
+        "rowHeight": 58,
+        "child": 58
+      }
+    },
+    {
+      "colKey": "QueryCol",
+      "ok": true,
+      "before": {
+        "get": 58,
+        "propCol": 58,
+        "rowHeight": 58
+      },
+      "after": {
+        "get": 58,
+        "propCol": 58,
+        "rowHeight": 58,
+        "child": 58
+      }
+    },
+    {
+      "colKey": "ResetCol",
+      "ok": true,
+      "before": {
+        "get": 58,
+        "propCol": 58,
+        "rowHeight": 58
+      },
+      "after": {
+        "get": 58,
+        "propCol": 58,
+        "rowHeight": 58,
+        "child": 58
+      }
+    },
+    {
+      "colKey": "ExportCol",
+      "ok": true,
+      "before": {
+        "get": 58,
+        "propCol": 58,
+        "rowHeight": 58
+      },
+      "after": {
+        "get": 58,
+        "propCol": 58,
+        "rowHeight": 58,
+        "child": 58
+      }
+    },
+    {
+      "colKey": "ActionTailCol",
+      "ok": true,
+      "before": {
+        "get": 58,
+        "propCol": 58,
+        "rowHeight": 58
+      },
+      "after": {
+        "get": 58,
+        "propCol": 58,
+        "rowHeight": 58,
+        "child": 58
+      }
+    },
+    {
+      "rowKey": "RRow3",
+      "ok": true,
+      "before": {
+        "get": 132,
+        "props": 132
+      },
+      "after": {
+        "get": 132,
+        "props": 132
+      }
+    },
+    {
+      "colKey": "MetricTotalCol",
+      "ok": true,
+      "before": {
+        "get": 132,
+        "propCol": 132,
+        "rowHeight": 132
+      },
+      "after": {
+        "get": 132,
+        "propCol": 132,
+        "rowHeight": 132,
+        "child": 132
+      }
+    },
+    {
+      "colKey": "MetricWaitCol",
+      "ok": true,
+      "before": {
+        "get": 132,
+        "propCol": 132,
+        "rowHeight": 132
+      },
+      "after": {
+        "get": 132,
+        "propCol": 132,
+        "rowHeight": 132,
+        "child": 132
+      }
+    },
+    {
+      "colKey": "MetricDoneCol",
+      "ok": true,
+      "before": {
+        "get": 132,
+        "propCol": 132,
+        "rowHeight": 132
+      },
+      "after": {
+        "get": 132,
+        "propCol": 132,
+        "rowHeight": 132,
+        "child": 132
+      }
+    },
+    {
+      "colKey": "MetricAvgCol",
+      "ok": true,
+      "before": {
+        "get": 132,
+        "propCol": 132,
+        "rowHeight": 132
+      },
+      "after": {
+        "get": 132,
+        "propCol": 132,
+        "rowHeight": 132,
+        "child": 132
+      }
+    },
+    {
+      "rowKey": "RRow4",
+      "ok": true,
+      "before": {
+        "get": 330,
+        "props": 330
+      },
+      "after": {
+        "get": 330,
+        "props": 330
+      }
+    },
+    {
+      "colKey": "DeptChartCol",
+      "ok": true,
+      "before": {
+        "get": 330,
+        "propCol": 330,
+        "rowHeight": 330
+      },
+      "after": {
+        "get": 330,
+        "propCol": 330,
+        "rowHeight": 330,
+        "child": 330
+      }
+    },
+    {
+      "colKey": "TrendChartCol",
+      "ok": true,
+      "before": {
+        "get": 330,
+        "propCol": 330,
+        "rowHeight": 330
+      },
+      "after": {
+        "get": 330,
+        "propCol": 330,
+        "rowHeight": 330,
+        "child": 330
+      }
+    },
+    {
+      "rowKey": "RRow5",
+      "ok": true,
+      "before": {
+        "get": 488,
+        "props": 488
+      },
+      "after": {
+        "get": 488,
+        "props": 488
+      }
+    },
+    {
+      "colKey": "AssessmentTableCol",
+      "ok": true,
+      "before": {
+        "get": 488,
+        "propCol": 488,
+        "rowHeight": 488
+      },
+      "after": {
+        "get": 488,
+        "propCol": 488,
+        "rowHeight": 488,
+        "child": 488
+      }
+    },
+    {
+      "name": "pal_metric_total",
+      "metric": true,
+      "text": "实习生总数\n128\n较上期 12.5%"
+    },
+    {
+      "name": "pal_metric_wait",
+      "metric": true,
+      "text": "待考核\n23\n较上期 5.2%"
+    },
+    {
+      "name": "pal_metric_done",
+      "metric": true,
+      "text": "已完成考核\n105\n较上期 18.3%"
+    },
+    {
+      "name": "pal_metric_avg",
+      "metric": true,
+      "text": "平均得分\n86.7分\n较上期 3.6分"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "name": "pal_metric_total",
+      "ok": true,
+      "len": 2103,
+      "text": "\\u5b9e\\u4e60\\u751f\\u603b\\u6570\n128\n\\u8f83\\u4e0a\\u671f 12.5%"
+    },
+    {
+      "name": "pal_metric_wait",
+      "ok": true,
+      "len": 1153,
+      "text": "\\u5f85\\u8003\\u6838\n23\n\\u8f83\\u4e0a\\u671f 5.2%"
+    },
+    {
+      "name": "pal_metric_done",
+      "ok": true,
+      "len": 1165,
+      "text": "\\u5df2\\u5b8c\\u6210\\u8003\\u6838\n105\n\\u8f83\\u4e0a\\u671f 18.3%"
+    },
+    {
+      "name": "pal_metric_avg",
+      "ok": true,
+      "len": 1169,
+      "text": "\\u5e73\\u5747\\u5f97\\u5206\n86.7\\u5206\n\\u8f83\\u4e0a\\u671f 3.6\\u5206"
+    }
+  ]
+}

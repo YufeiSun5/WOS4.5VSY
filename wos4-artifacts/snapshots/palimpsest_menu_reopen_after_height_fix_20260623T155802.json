@@ -1,0 +1,100 @@
+{
+  "close": {
+    "closed": true
+  },
+  "open": {
+    "opened": true
+  },
+  "verify": {
+    "pageWidth": 346,
+    "pageHeight": 1080,
+    "rows": [
+      {
+        "ri": 0,
+        "height": 72,
+        "cols": [
+          {
+            "ci": 0,
+            "width": 343,
+            "height": 72,
+            "objects": 0
+          }
+        ]
+      },
+      {
+        "ri": 1,
+        "height": 1008,
+        "cols": [
+          {
+            "ci": 0,
+            "width": 343,
+            "height": 1008,
+            "objects": 0
+          }
+        ]
+      }
+    ],
+    "tree": [
+      {
+        "path": "root",
+        "opt": "LayoutResponseContainer",
+        "height": 1080,
+        "colHeight": "",
+        "rect": {
+          "x": 368.0860595703125,
+          "y": 142.83148193359375,
+          "w": 177.26885986328125,
+          "h": 553.3248291015625
+        }
+      },
+      {
+        "path": "root.0.0.0",
+        "opt": "LayoutResponseRow",
+        "height": 72,
+        "colHeight": "",
+        "rect": {
+          "x": 368.0860595703125,
+          "y": 142.83148193359375,
+          "w": 177.26885986328125,
+          "h": 36.8883056640625
+        }
+      },
+      {
+        "path": "root.0.0.0.0.0.0",
+        "opt": "LayoutResponseCol",
+        "height": "",
+        "colHeight": 72,
+        "rect": {
+          "x": 368.598388671875,
+          "y": 143.34381103515625,
+          "w": 175.73187255859375,
+          "h": 36.88832092285156
+        }
+      },
+      {
+        "path": "root.0.0.1",
+        "opt": "LayoutResponseRow",
+        "height": 1008,
+        "colHeight": "",
+        "rect": {
+          "x": 368.0860595703125,
+          "y": 179.71978759765625,
+          "w": 177.26885986328125,
+          "h": 516.4365234375
+        }
+      },
+      {
+        "path": "root.0.0.1.0.0.0",
+        "opt": "LayoutResponseCol",
+        "height": "",
+        "colHeight": 1008,
+        "rect": {
+          "x": 368.598388671875,
+          "y": 180.2321319580078,
+          "w": 175.73187255859375,
+          "h": 516.4365234375
+        }
+      }
+    ]
+  }
+}

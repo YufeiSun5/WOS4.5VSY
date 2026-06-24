@@ -1,0 +1,92 @@
+{
+  "res": {
+    "path": "top.1.0",
+    "clickedTag": "BUTTON",
+    "clickedClass": "el-button el-button--primary el-button--medium propertyStyle",
+    "chain": [
+      {
+        "tag": "BUTTON",
+        "cls": "el-button el-button--primary el-button--medium propertyStyle",
+        "txt": "",
+        "html": "<button data-v-1ed2a00d=\"\" type=\"button\" class=\"el-button el-button--primary el-button--medium propertyStyle\" style=\"height: 100%; width: 100%; padding: 0px; position: absolute;\"><!----><!----><span><!---->  <!----></span></button>"
+      },
+      {
+        "tag": "DIV",
+        "cls": "component_object ElementButton3",
+        "txt": "",
+        "html": "<div data-v-1ed2a00d=\"\" data-v-5cf23eb3=\"\" id=\"kffc865ff01e62406c0635e8b77d0c93\" class=\"component_object ElementButton3\" tabindex=\"0\" colwidth=\"20\" colheight=\"18\" layerguid=\"0c79c07f_d539_4808_84c5_e4f36a1ea285\" parentguid=\"k41779dac077d4ec672bd6a3674e7573\" style=\"text-align: left;\"><button data-v-1ed2a00d=\"\" type=\"button\" class=\"el-button el-button--primary el-button--medium propertyStyle\" style=\"height: 100%; width: 100%; padding: 0px; position: absolute;\"><!----><!----><span><!---->  <!----><"
+      },
+      {
+        "tag": "DIV",
+        "cls": "pointer_auto",
+        "txt": "",
+        "html": "<div data-v-5cf23eb3=\"\" class=\"pointer_auto\" style=\"width: 100%; height: 100%;\"><div data-v-1ed2a00d=\"\" data-v-5cf23eb3=\"\" id=\"kffc865ff01e62406c0635e8b77d0c93\" class=\"component_object ElementButton3\" tabindex=\"0\" colwidth=\"20\" colheight=\"18\" layerguid=\"0c79c07f_d539_4808_84c5_e4f36a1ea285\" parentguid=\"k41779dac077d4ec672bd6a3674e7573\" style=\"text-align: left;\"><button data-v-1ed2a00d=\"\" type=\"button\" class=\"el-button el-button--primary el-button--medium propertyStyle\" style=\"height: 100%; width"
+      },
+      {
+        "tag": "DIV",
+        "cls": "ui_factory layer_class",
+        "txt": "",
+        "html": "<div data-v-5cf23eb3=\"\" data-v-0bdc200e=\"\" class=\"ui_factory layer_class\" style=\"transform: matrix(1, 0, 0, 1, 0, 0);\"><!----><!----><!----><!----><div data-v-5cf23eb3=\"\" class=\"pointer_auto\" style=\"width: 100%; height: 100%;\"><div data-v-1ed2a00d=\"\" data-v-5cf23eb3=\"\" id=\"kffc865ff01e62406c0635e8b77d0c93\" class=\"component_object ElementButton3\" tabindex=\"0\" colwidth=\"20\" colheight=\"18\" layerguid=\"0c79c07f_d539_4808_84c5_e4f36a1ea285\" parentguid=\"k41779dac077d4ec672bd6a3674e7573\" style=\"text-ali"
+      },
+      {
+        "tag": "DIV",
+        "cls": "component_object_unselect",
+        "txt": "",
+        "html": "<div data-v-0bdc200e=\"\" class=\"component_object_unselect\" style=\"width: 20px; height: 18px; transform: scale(1); transform-origin: left top;\"><div data-v-5cf23eb3=\"\" data-v-0bdc200e=\"\" class=\"ui_factory layer_class\" style=\"transform: matrix(1, 0, 0, 1, 0, 0);\"><!----><!----><!----><!----><div data-v-5cf23eb3=\"\" class=\"pointer_auto\" style=\"width: 100%; height: 100%;\"><div data-v-1ed2a00d=\"\" data-v-5cf23eb3=\"\" id=\"kffc865ff01e62406c0635e8b77d0c93\" class=\"component_object ElementButton3\" tabindex=\""
+      },
+      {
+        "tag": "DIV",
+        "cls": "",
+        "txt": "",
+        "html": "<div data-v-0bdc200e=\"\" data-v-34a5b89e=\"\" id=\"k41779dac077d4ec672bd6a3674e7573\" tabindex=\"\" class=\"\" style=\"height: 18px; width: 20px; margin: 8px 0px 0px 5px; position: relative;\"><div data-v-0bdc200e=\"\" class=\"component_object_unselect\" style=\"width: 20px; height: 18px; transform: scale(1); transform-origin: left top;\"><div data-v-5cf23eb3=\"\" data-v-0bdc200e=\"\" class=\"ui_factory layer_class\" style=\"transform: matrix(1, 0, 0, 1, 0, 0);\"><!----><!----><!----><!----><div data-v-5cf23eb3=\"\" class"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "txt": "时空列表",
+        "html": "<span data-v-34a5b89e=\"\" style=\"display: flex; flex-wrap: wrap; flex-grow: 1; justify-content: flex-start;\"><div data-v-0bdc200e=\"\" data-v-34a5b89e=\"\" id=\"k4bfe4a6ac46dda870e85ce353513e91\" tabindex=\"\" class=\"\" style=\"height: 34px; width: 80px; margin: 0px; position: relative;\"><div data-v-0bdc200e=\"\" class=\"component_object_unselect\" style=\"width: 80px; height: 34px; transform: scale(1); transform-origin: left top;\"><div data-v-5cf23eb3=\"\" data-v-0bdc200e=\"\" class=\"ui_factory layer_class\" style="
+      },
+      {
+        "tag": "DIV",
+        "cls": "response_row",
+        "txt": "时空列表",
+        "html": "<div data-v-34a5b89e=\"\" data-v-6a72644e=\"\" id=\"kdfa758740160fc72646dfc455ff3618\" class=\"response_row\" style=\"margin: 15px 15px 0px; height: 34px; position: relative;\"><span data-v-34a5b89e=\"\" style=\"display: flex; flex-wrap: wrap; flex-grow: 1; justify-content: flex-start;\"><div data-v-0bdc200e=\"\" data-v-34a5b89e=\"\" id=\"k4bfe4a6ac46dda870e85ce353513e91\" tabindex=\"\" class=\"\" style=\"height: 34px; width: 80px; margin: 0px; position: relative;\"><div data-v-0bdc200e=\"\" class=\"component_object_unselec"
+      }
+    ],
+    "before": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot\n\n实例列表\n\n新建\n删除\n更多操作 \n\t序号\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\n1\n\t\nPalimpsestBack\n\t\nPalimpsestBack\n\t\nPalimpsest backend CRUD service\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除"
+  },
+  "state": {
+    "path": "top.1.0",
+    "body": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot\n\n实例列表\n\n新建\n删除\n更多操作 \n\t序号\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\n1\n\t\nPalimpsestBack\n\t\nPalimpsestBack\n\t\nPalimpsest backend CRUD service\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n提交版本\n\n提交说明:\n\n0/596\n取消\n确定",
+    "dialogs": [
+      {
+        "i": 0,
+        "text": "",
+        "html": "<div role=\"dialog\" aria-modal=\"true\" aria-label=\"dialog\" class=\"el-dialog\" style=\"margin-top: 15vh;\"><div class=\"el-dialog__header\"><span class=\"el-dialog__title\"></span><button type=\"button\" aria-label=\"Close\" class=\"el-dialog__headerbtn\"><i class=\"el-dialog__close el-icon el-icon-close\"></i></button></div><!----><!----></div>"
+      },
+      {
+        "i": 1,
+        "text": "",
+        "html": "<div role=\"dialog\" aria-modal=\"true\" aria-label=\"dialog\" class=\"el-dialog\" style=\"margin-top: 15vh;\"><div class=\"el-dialog__header\"><span class=\"el-dialog__title\"></span><button type=\"button\" aria-label=\"Close\" class=\"el-dialog__headerbtn\"><i class=\"el-dialog__close el-icon el-icon-close\"></i></button></div><!----><!----></div>"
+      },
+      {
+        "i": 2,
+        "text": "提交版本\n\n提交说明:\n\n0/596\n取消\n确定",
+        "html": "<div role=\"dialog\" aria-modal=\"true\" aria-label=\"数字孪生实例化_时空_版本说明\" class=\"el-dialog\" style=\"margin-top: 314.5px; width: 400px;\"><div class=\"el-dialog__header\" style=\"display: none;\"><div data-v-69053206=\"\" class=\"slot_header\"><div data-v-69053206=\"\" class=\"text_left\"><div data-v-69053206=\"\" style=\"text-align: left; display: flex; align-items: center;\"><span data-v-69053206=\"\">数字孪生实例化_时空_版本说明</span></div></div><div data-v-69053206=\"\" class=\"title_icon\"><!----><!----><i data-v-69053206=\"\" title=\"关闭\" class=\"i el-icon-close\" style=\"font-size: 14px;\"></i></div></div><!----></div><div class=\"el-dialog__body\"><div data-v-69053206=\"\" id=\"name_数字孪生实例化_时空_版本说明\" style=\"width: 360px; height: 180px;\"><div data-v-120b977f=\"\" class=\"page_view_container show_child_view_container\" childwidth=\"360\" childheight=\"180\"><div data-v-401dd8fe=\"\" data-v-120b977f=\"\" id=\"pageView\" class=\"page_view\" style=\"width: 100%; height: 100%; position: relative;\"><div data-v-4d5fa2e2=\"\" data-v-401dd8fe=\"\" class=\"layer_view\" style=\"height: 100%; width: 100%; position: absolute; overflow: hidden; pointer-events: auto; z-index: 1000;\"><div data-v-6a72644e=\"\" data-v-4d5fa2e2=\"\" id=\"RContainerk2329b8a3bda1edd0788bb2de5c87a1f\" testid=\"RContainer1\" tabindex=\"mode === $CONSTANTS.APP_CONSTANTS.MODE.DEVELOPMENT ? '1' : ''\" class=\"layout_container containerStyle\" style=\"--top: 168px;\"><span data-v-6a72644e=\"\" class=\"containerrow\"><div data-v-34a5b89e=\"\" data-v-6a72644e=\"\" id=\"k170993020a03b3015ceadef41f1a3d4\" class=\"response_row\" style=\"margin: 0px 0px 20px; height: 30px; position: relative;\"><span data-v-34a5b89e=\"\" style"
+      }
+    ],
+    "inputs": [
+      {
+        "i": 0,
+        "placeholder": "请输入本体版本提交说明",
+        "value": "",
+        "type": "textarea",
+        "x": 855,
+        "y": 381.5,
+        "w": 285,
+        "h": 80,
+        "outer": "<textarea tabindex=\"\" autocomplete=\"off\" maxlength=\"596\" placeholder=\"请输入本体版本提交说明\" rows=\"5\" max=\"10000000000\" min=\"-10000000000\" step=\"1\" prepend=\"\" append=\"\" class=\"el-textarea__inner\" style=\"resize: none; min-height: 33px;\"></textarea>"
+      }
+    ]
+  }
+}

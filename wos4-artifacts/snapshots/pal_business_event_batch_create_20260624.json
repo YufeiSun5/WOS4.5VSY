@@ -1,0 +1,72 @@
+[
+  {
+    "name": "pal_department",
+    "submit": {
+      "ok": true,
+      "name": "pal_department",
+      "desc": "department dictionary"
+    },
+    "visible": true,
+    "createSuccess": true
+  },
+  {
+    "name": "pal_mentor",
+    "submit": {
+      "ok": true,
+      "name": "pal_mentor",
+      "desc": "mentor dictionary"
+    },
+    "visible": true,
+    "createSuccess": true
+  },
+  {
+    "name": "pal_intern_student",
+    "submit": {
+      "ok": true,
+      "name": "pal_intern_student",
+      "desc": "intern student master data"
+    },
+    "visible": true,
+    "createSuccess": true
+  },
+  {
+    "name": "pal_assessment_batch",
+    "submit": {
+      "ok": true,
+      "name": "pal_assessment_batch",
+      "desc": "assessment batch data"
+    },
+    "visible": false,
+    "createSuccess": true
+  },
+  {
+    "name": "pal_assessment_record",
+    "submit": {
+      "ok": true,
+      "name": "pal_assessment_record",
+      "desc": "assessment record main table"
+    },
+    "visible": false,
+    "createSuccess": true
+  },
+  {
+    "name": "pal_assessment_score_detail",
+    "submit": {
+      "ok": true,
+      "name": "pal_assessment_score_detail",
+      "desc": "assessment score detail table"
+    },
+    "visible": false,
+    "createSuccess": true
+  },
+  {
+    "name": "pal_operation_log",
+    "submit": {
+      "ok": true,
+      "name": "pal_operation_log",
+      "desc": "operation audit log"
+    },
+    "visible": false,
+    "createSuccess": true
+  }
+]

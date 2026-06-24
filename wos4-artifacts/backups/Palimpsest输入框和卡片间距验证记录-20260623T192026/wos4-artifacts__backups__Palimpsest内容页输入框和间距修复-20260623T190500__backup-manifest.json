@@ -1,0 +1,18 @@
+{
+  "backupType": "replayable-runtime-layout-and-components",
+  "page": "PalimpsestContent_82",
+  "createdAt": "2026-06-23T11:06:47.807Z",
+  "ai": "???_frontend-ai",
+  "files": [
+    "before-runtime.json",
+    "restore-runtime.js",
+    "before-editor.png"
+  ],
+  "contains": [
+    "root layout rowsManager",
+    "component propData/data/options",
+    "detailConfig/styleConfig/linkList",
+    "restore script"
+  ],
+  "note": "This backup is intended for fast restore in the existing WOS4 editor runtime. It is more than screenshots; it contains replayable component and layout configuration."
+}

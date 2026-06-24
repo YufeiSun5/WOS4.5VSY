@@ -5296,9 +5296,9 @@ Evidence:
 - `wos4-artifacts/snapshots/actual_editor_demo_query_button_script_20260623.json`
 - `wos4-artifacts/snapshots/actual_editor_demo_query_button_script_20260623.js`
 
-## 2026-06-23 Product-provider correction: release order
+## 2026-06-23 Product-provider release-order note
 
-Product-provider answer supplied by the user corrected the runtime release chain:
+Product-provider answer supplied by the user proposed the runtime release chain below. As of 2026-06-24, this is not yet re-verified after the vendor update notice, so it must stay as a document hypothesis and must not be promoted to an executable skill rule.
 
 ```text
 模型提交版本
@@ -5309,20 +5309,21 @@ Product-provider answer supplied by the user corrected the runtime release chain
 -> 前端 Call 后端
 ```
 
-Key correction:
+Potential correction to verify:
 
-- The first runtime release action after model submit is the target time-space submit/package step.
-- In `组态系统客户端0518 -> 管控单元实例配置 -> 时空列表`, select the target time-space such as `NadirL2`, then use the top-right dropdown action `批量提交`.
+- The first runtime release action after model submit may be the target time-space submit/package step.
+- In `组态系统客户端 -> 管控单元实例配置 -> 时空列表`, select the target time-space such as `NadirL2` or `PalimpsestL1`, then use the top-right dropdown action `批量提交`.
 - The product provider says time-space submit carries instance submissions with it.
-- Therefore row-level `管控单元实例配置提交` is now treated as a post-submit check/fallback, not the primary step that makes 运维部署 see a new package.
+- If verified, row-level `管控单元实例配置提交` should become a post-submit check/fallback, not the primary step that makes 运维部署 see a new package.
 - After 运维部署 update/deploy/start, do not reuse a stale runtime tab; reopen the blue client before testing frontend `Call`.
 
-Updated skills:
+Skill handling:
 
-- `.ai/skills/wos4-blue-client-publish-flow/SKILL.md`
-- `.ai/skills/wos4-runtime-package-update/SKILL.md`
+- Do not add a new skill for this chain yet.
+- Existing `wos4-blue-client-publish-flow` wording has been downgraded so this chain is not treated as verified skill behavior.
+- Revisit skill updates only after a fresh replay proves the path.
 
-This correction changes the earlier local mental model from:
+If verified, this would change the earlier local mental model from:
 
 ```text
 instance row submit -> time-space package generation
@@ -5341,10 +5342,10 @@ Product support did not identify a clear bad parameter.
 They deleted the affected instance, added it again, then reran the corrected release/deploy flow and it worked.
 ```
 
-Interpretation:
+Interpretation to verify:
 
 - The previous failure may have been caused by stale/dirty instance binding, not only by wrong frontend/backend parameters.
-- The user's suspicion that `NadirL2 时空提交版本/生成时空包 -> 管控单元实例配置提交` had been reversed remains plausible and is now the primary order correction.
+- The user's suspicion that `NadirL2 时空提交版本/生成时空包 -> 管控单元实例配置提交` had been reversed remains plausible, but it is not yet proven in the current updated platform.
 - If the corrected order still fails, use delete-and-readd only for the affected personal instance, after saving before evidence.
 - After readding, do not skip package regeneration: rerun `时空列表 -> 批量提交`, then 运维部署 update/deploy/start, then reopen the blue client.
 
@@ -5362,8 +5363,443 @@ Interpretation for `盛云_孙宇飞_CRUD工程_0620`:
 - The frontend page is configured later through `数字孪生可视化` by adding/referencing the page sprite, setting homepage/page parameters, and then updating/publishing the client.
 - If an old page-only frontend instance row exists, it may be unnecessary or stale. Do not delete it automatically; save evidence and confirm scope first.
 
-Updated skills:
+Historical note:
 
-- `.ai/skills/wos4-blue-client-publish-flow/SKILL.md`
-- `.ai/skills/wos4-config-client-screen-create/SKILL.md`
-- `.ai/skills/wos4-runtime-package-update/SKILL.md`
+- The page-only frontend instance-scope note had previously touched related skills.
+- This is separate from the 2026-06-24 unverified `时空列表 -> 批量提交` release-order hypothesis, which must remain docs-only until replayed successfully.
+## 2026-06-23 Palimpsest 新测试页建模基线
+
+- 身份：孙宇飞_frontend-ai。
+- 工具：browser-harness，前台 Chrome 可见。
+- 路径：WOS4 主页面 `#/main` -> 桌面卡片 `建模系统客户端` -> `数字孪生建模分组` -> `盛云_孙宇飞_根组`。
+- 已创建模型：
+  - `盛云科技_孙宇飞_Palimpsest_前端_0623`
+  - `盛云科技_孙宇飞_Palimpsest_后台_0623`
+- 已创建页面精灵图：
+  - `PalimpsestMenu_18`
+  - `PalimpsestContent_82`
+- 平台提示：
+  - 模型创建：两次 `新建模型成功！`
+  - 页面精灵图创建：两次 `创建成功`
+- 证据：
+  - `wos4-artifacts/snapshots/palimpsest_modeling_models_created_20260623T151221.json`
+  - `wos4-artifacts/snapshots/palimpsest_page_sprites_created_20260623T151221.json`
+  - `wos4-artifacts/screenshots/palimpsest_modeling_models_created_20260623T151221.png`
+  - `wos4-artifacts/screenshots/palimpsest_page_editor_menu_open_20260623T151221.png`
+- 当前边界：`PalimpsestMenu_18` 已打开页面编辑器，`page_edit_view_area` ready，但新页面 `comMap.$Children` 为空；下一步必须先插入根 `RContainer`，再执行 layout-only 三行菜单布局。
+
+## 2026-06-23 Palimpsest 双页面布局落地
+
+- 身份：孙宇飞_frontend-ai。
+- 工具：browser-harness，前台 Chrome 可见。
+- `PalimpsestMenu_18`：
+  - 页面大小已修正为 `346x1080`，对应整体 `1920x1080` 的左侧约 18%。
+  - 根容器同步为 `346x1080`。
+  - layout-only 结构为 `72px` 顶部行 + `1008px` 菜单列表行，两行各 1 个空列。
+- `PalimpsestContent_82`：
+  - 页面大小已设置为 `1574x1080`，对应整体 `1920x1080` 的右侧约 82%。
+  - layout-only 结构为三行：`88px` 工具筛选区、`220px` 统计卡片区、`772px` 主体区。
+  - 列宽按 WOS4 固定列可用宽修正为：顶部 `433/511/364/240`，统计 `387*4`，主体 `960/588`，避免拖拽手柄导致列换行。
+- 实测注意：
+  - 同一编辑器可同时打开多个页面 tab，并存在多个 `#page_edit_view_area`；自动化必须按可见 active tab 的 `PageView.name` 选择目标。
+  - `rowsManager` 中新生成的行列可能先表现为数据对象，DOM 渲染通过根容器的 Vue 子树体现；验证时要结合截图和 `.response_row/.response_col` 实际矩形。
+- 提交结果：
+  - 菜单页与内容页都捕获到 `保存成功`。
+  - 两页都同时提示 `生成历史版本失败！错误码：-19500`，因此当前只能确认编辑器保存成功，不能确认历史版本生成成功。
+- 重开验证：
+  - `PalimpsestContent_82` 关闭并从页面精灵图列表重新打开后，仍为 `1574x1080`；三行和列宽保持，DOM 矩形显示无换行。
+  - `PalimpsestMenu_18` 首次重开时发现第二行列高度折叠到约 1px；修正为固定高度后再次保存、关闭、重开，确认仍为 `346x1080`，行高 `72/1008` 和第二行列高度 `1008` 保持。
+- 证据：
+  - `wos4-artifacts/snapshots/palimpsest_menu_pagesize_resynced_20260623T154325.json`
+  - `wos4-artifacts/snapshots/palimpsest_menu_submit_20260623T154443.json`
+  - `wos4-artifacts/snapshots/palimpsest_content_layout_width_fields_20260623T155118.json`
+  - `wos4-artifacts/snapshots/palimpsest_content_submit_20260623T155217.json`
+  - `wos4-artifacts/snapshots/palimpsest_content_reopen_verify_20260623T155508.json`
+  - `wos4-artifacts/snapshots/palimpsest_menu_reopen_after_height_fix_20260623T155802.json`
+  - `wos4-artifacts/screenshots/palimpsest_menu_pagesize_resynced_20260623T154325.png`
+  - `wos4-artifacts/screenshots/palimpsest_content_layout_width_fields_20260623T155118.png`
+
+## 2026-06-23 Palimpsest 内容页表格样式调整
+
+- 身份：孙宇飞_frontend-ai。
+- 页面：`PalimpsestContent_82`。
+- 调整对象：`pal_assessment_table`。
+- 本轮根据用户反馈补强表格视觉：
+  - 操作列加宽为 `190`，并做成浅蓝操作区，显示 `查看 / 评分 / 编辑 / 更多`。
+  - 综合评分列改为蓝色加粗。
+  - 状态列改为标签样式，`已完成` 为绿色，`待考核` 为橙色。
+  - 表头、斑马纹、hover 底色、右上角列设置分页提示写入 `styleConfig`。
+  - 表格 `detailConfig` 同步更新为 11 列 6 行假数据。
+- 保存状态：
+  - 已触发保存按钮，保存遮罩消失。
+  - 本轮未捕获到新的 `保存成功` toast，只能确认当前编辑器运行态和组件配置已更新。
+- 后续验收：
+  - 需要重新打开编辑页确认 `styleConfig/detailConfig` 仍存在。
+  - 需要打开预览页确认表格状态色、操作区、图表和父容器高度可见。
+- 证据：
+  - `wos4-artifacts/screenshots/palimpsest_table_ops_emphasized_20260623T1826.png`
+  - `wos4-artifacts/screenshots/palimpsest_table_style_save_wait_more_20260623T1838.png`
+
+## 2026-06-23 Palimpsest 表格“更多”菜单运行态试验
+
+- 身份：孙宇飞_frontend-ai。
+- 页面：`PalimpsestContent_82`。
+- 用户问题：表格操作列能否利用“更多”弹出二级菜单。
+- 试验结论：
+  - `ElementTable` 对象中确实存在 `CellClick / CellDbclick / RowClick` 等事件槽。
+  - 当前运行态可以在“更多”单元格附近生成独立浮层菜单，菜单项为 `复制记录 / 查看日志 / 删除记录`，视觉可行。
+  - 将探针脚本写入 `CellClick` 后，当前编辑器运行态 DOM 点击未触发探针，不能确认原生 `CellClick` 已可持久化执行。
+- 验收边界：
+  - 本轮仅证明运行态浮层视觉可行。
+  - 未保存、未重开、未预览验证。
+  - 用户指出当前存在“编辑器变了但保存/预览仍是旧版本”的风险，后续必须先解决保存和历史版本同步，再把该菜单作为正式交互。
+- 证据：
+  - `wos4-artifacts/screenshots/palimpsest_more_menu_visual_trial_20260623T1910.png`
+
+## 2026-06-23 Palimpsest 18:26 图标与彩色表格版运行态恢复
+
+- 身份：孙宇飞_frontend-ai。
+- 页面：`PalimpsestContent_82`。
+- 用户要求：恢复此前截图中“有图标 KPI 卡片 + 花花绿绿表格状态/操作区”的版本，而不是简化版。
+- 操作路径：通过 `browser-harness` 从 `建模系统客户端 -> 盛云_孙宇飞_根组 -> 盛云科技_孙宇飞_Palimpsest_前端_0623 -> 图形模型 -> 页面精灵图 -> PalimpsestContent_82` 进入编辑器。
+- 当前恢复结果：
+  - 顶层行高恢复为 `72 / 58 / 132 / 330 / 488`。
+  - 过滤区、查询/重置/导出按钮、四张 KPI 卡片、左右双图和底部考核表格已在编辑器运行态重新可见。
+  - 表格 `已完成 / 待考核` 状态色、综合评分蓝色、操作列浅蓝区域已重新可见。
+- 验收边界：
+  - 本轮没有点击保存、提交或预览。
+  - 当前只是编辑器运行态恢复，仍需用户手动保存后再验证预览是否同步。
+  - WOS4 同类输入框和文本组件存在共享 DOM id 的表现，输入框上方伪标签无法稳定逐个区分；已改为依赖输入框 placeholder，避免所有标签被同一个伪标签覆盖。
+- 证据：
+  - `wos4-artifacts/screenshots/palimpsest_restored_names_input_generic_20260623T_now.png`
+
+## 2026-06-23 Palimpsest 内容页预览高度与 KPI 编码修复
+
+- 身份：孙宇飞_frontend-ai。
+- 页面：`PalimpsestContent_82`。
+- 问题复现：
+  - 编辑器中行高已修正，但预览仍显示旧静态运行文件中的高度：表格 `y=1176`，图表父区 `772px`，表格父区 `772px`。
+  - KPI 文本在预览中出现 `???`，说明直接写 UTF-8 文本会被 WOS4 导出链路损坏。
+- 最终处理：
+  - 继续保持编辑器布局目标为 `72 / 58 / 132 / 330 / 488`。
+  - KPI 卡片改为 `data:image/svg+xml;base64` 内嵌 SVG 图，避免 WOS4 导出器破坏中文文本。
+  - 在首个 KPI 图上挂载运行时高度修正 `onload`，预览加载后将旧静态 HTML 中的 `88 / 220 / 772` 压回 `72 / 58 / 132 / 330 / 488`。
+  - 保存后打开预览并复测，再执行版本提交；捕获到 `保存成功` 与 `生成历史版本成功！`。
+- 最终预览验证：
+  - `questionMarks=0`。
+  - `slashU=0`。
+  - KPI SVG 图片数 `imgs=4`。
+  - 表格位置从旧 `y=1176` 修正为 `y=600`。
+  - 图表 canvas 两个，尺寸均为 `772x312`，父区位置为 `y=270`。
+  - 表格父区为 `1548x488`。
+- 证据：
+  - `wos4-artifacts/snapshots/palimpsest_preview_after_svg_patch_20260623T.json`
+  - `wos4-artifacts/screenshots/palimpsest_preview_after_svg_patch_20260623T_now.png`
+  - `wos4-artifacts/snapshots/palimpsest_submit_svg_patch_capture_20260623T.json`
+  - `wos4-artifacts/snapshots/palimpsest_final_preview_verify_20260623T.json`
+  - `wos4-artifacts/screenshots/palimpsest_final_preview_verify_20260623T_now.png`
+
+## 2026-06-23 Palimpsest 输入框和 KPI 卡片间距修复
+
+- 身份：孙宇飞_frontend-ai。
+- 页面：`PalimpsestContent_82`。
+- 用户反馈：
+  - 查询按钮左侧关键词输入框丢失或被提交说明文字占用。
+  - 预览里 KPI 卡片之间几乎贴在一起，间距不美观。
+  - 备份必须能快速还原布局、组件和代码，不能只保存截图。
+- 处理结果：
+  - 在修改前创建可回灌备份 `wos4-artifacts/backups/Palimpsest内容页输入框和间距修复-20260623T190500/`，包含 `before-runtime.json`、`restore-runtime.js`、`backup-manifest.json` 和修改前截图。
+  - 确认根因是 `pal_filter_keyword` 曾被误挂到 `PageView` 选择对象上；本轮改为直接修正 `FilterKeywordCol.getObject()[0]`，恢复真正的 `ElementInput` 配置。
+  - 清空关键词输入框值，恢复 placeholder 为 `姓名 / 学号 / 手机号`。
+  - 四个 KPI 卡片改为持久化写入列对象顶层 `value/detailConfig/styleConfig`，SVG 图片内边距改为 `margin:12px 14px`，实际图片宽度 `359px`，相邻图片间距约 `28px`。
+  - 提交说明第一次误填到画布输入框后，已重新清空关键词输入框，并限定到 `el-message-box` 弹窗字段提交。
+- 提交状态：
+  - 捕获到 `保存成功`。
+  - 捕获到 `生成历史版本成功！`。
+- 预览验证：
+  - 关键词输入框存在，值为空，placeholder 为 `姓名 / 学号 / 手机号`。
+  - 四个 KPI SVG 图片样式均为 `width:calc(100% - 28px)`、`margin:12px 14px`。
+  - `questionMarks=0`，`slashU=0`。
+  - 表格仍在 `y=600`，两个图表 canvas 均为 `772x312`。
+- 证据：
+  - `wos4-artifacts/backups/Palimpsest内容页输入框和间距修复-20260623T190500/before-runtime.json`
+  - `wos4-artifacts/backups/Palimpsest内容页输入框和间距修复-20260623T190500/restore-runtime.js`
+  - `wos4-artifacts/snapshots/palimpsest_input_card_persist_editor_20260623T.json`
+  - `wos4-artifacts/screenshots/palimpsest_input_card_persist_editor_20260623T_now.png`
+  - `wos4-artifacts/snapshots/palimpsest_submit_input_card_spacing_precise_20260623T.json`
+  - `wos4-artifacts/snapshots/palimpsest_preview_input_card_spacing_verify_20260623T.json`
+  - `wos4-artifacts/screenshots/palimpsest_preview_input_card_spacing_verify_20260623T_now.png`
+
+## 2026-06-23 页面运行态备份 skill 与调试/发布边界核实
+
+- 身份：孙宇飞_code-ai。
+- 新增项目 skill：`D:\DEV_D\WOS4.5\.ai\skills\wos4-page-runtime-backup\SKILL.md`。
+- 背景：用户要求把“修改 WOS4 页面前做可快速还原的页面快照”沉淀为高频 skill，且备份必须能恢复布局、组件和代码，不是截图。
+- Skill 结论：
+  - 有效备份目录必须包含 `before-runtime.json`、`restore-runtime.js`、`backup-manifest.json` 和 `before-editor.png`。
+  - `before-runtime.json` 必须记录根布局 `rowsManager`、`comMap.$Children` 组件快照、`RCol.getObject()` 子对象、`detailConfig/styleConfig/linkList`。
+  - `restore-runtime.js` 只在用户明确要求还原时使用；恢复前必须确认目标页面一致。
+- 调试/发布边界核实：
+  - 如果目标只是建模系统页面编辑器内的页面调试、视觉布局、假数据表格和图表验证，工具栏 `预览(mode=debugger)` 可以直接加载 KF4.5 页面资源，不需要先发布蓝色客户端。
+  - 后端源/元语言函数调试走 `wos4-meta-language-fu-create` 的 `调试配置` 链路，也不是必须先发布蓝色客户端。
+  - 蓝色客户端发布和 `wos4-runtime-package-update` 仍用于正式运行态验收：同一时空前后端 `Call`、部署后版本、时空包、对象管理里可运行 WebJS 客户端。
+  - 因此不能把“编辑器预览能跑”误认作“正式蓝色客户端已发布”；也不能为了普通页面视觉调试过早走运维部署和蓝色客户端创建。
+- 已同步修订：
+  - `wos4-blue-client-publish-flow`：增加“不需要走完整发布流”的调试边界。
+  - `wos4-runtime-package-update`：增加只在正式运行包/同一时空联调需要时使用的边界。
+## 2026-06-23 Palimpsest 顶部筛选区与后端设计补充
+
+- 身份：孙宇飞_code-ai。
+- 页面：`PalimpsestContent_82`。
+- 修改前创建可回灌备份：`wos4-artifacts/backups/实习生考核管理页顶部筛选修改-20260623T215736/`，包含 `before-runtime.json`、`restore-runtime.js`、`backup-manifest.json` 和 `before-editor.png`。
+- 顶部筛选区修复：
+  - `pal_filter_keyword` 移入第二行 `ActionSpacerCol`，位于查询按钮左侧。
+  - `pal_filter_status` 放入第一行最左列。
+  - 六个输入框改用 ElementInput 原生 `prepend` 前置文字，避免 `#domId::before` 在 WOS4 styleConfig 中串样。
+- 提交和预览：
+  - 提交过程中捕获过 `保存成功` 和 `生成历史版本成功！`。
+  - 最终预览 DOM 验证：`状态 / 部门 / 导师 / 批次 / 时间 / 关键词` 六个输入框均存在前置文字。
+  - 关键词输入框位置为 `x=310, y=72, w=698`，查询按钮为 `x=1016, y=77`，满足“查询按钮左侧有输入框”。
+  - 证据：`wos4-artifacts/snapshots/palimpsest_top_filter_preview_final.json`、`wos4-artifacts/screenshots/palimpsest_top_filter_preview_final.png`。
+- 后端设计补充：
+  - 新增 `wos4-artifacts/tasks/20260623-新测试页左右菜单CRUD弹窗设计/04-后端改动.md`。
+  - 第一版设计 8 张表：`pal_menu_node`、`pal_department`、`pal_mentor`、`pal_intern_student`、`pal_assessment_batch`、`pal_assessment_record`、`pal_assessment_score_detail`、`pal_operation_log`。
+  - 方法按菜单、查询看板、CRUD、评分弹窗分层，并定义 `handleException`、`assertRequired`、`assertScoreRange`、`writeOperationLog` 等公共函数职责。
+
+## 2026-06-23 Palimpsest 表格操作列点击验证
+
+- 身份：孙宇飞_code-ai。
+- 页面：`PalimpsestContent_82`。
+- 结论：
+  - 表格里可以做可点击操作，但当前更稳定的方式不是把 `ElementButton` 组件嵌入单元格，而是把原单个 `操作` 文本列拆成 `查看 / 评分 / 编辑 / 更多` 四个操作列，并用 `ElementTable` 的 `CellClick` 事件按 `column.property` 分发。
+  - 点击 `更多` 后，预览页写入 `window.__palLastTableAction`，并显示二级菜单浮层。
+- 保存和预览：
+  - 重新点击右上角 `提交`，版本提交弹窗确认后捕获 `保存成功` 和 `生成历史版本成功！`。
+  - 旧预览标签不会自动更新，强刷新预览后才加载新包。
+- 最终预览验证：
+  - 表头已从旧 `操作` 单列变为 `查看 / 评分 / 编辑 / 更多` 四列。
+  - 点击第一行 `更多` 后，事件结果为 `action=更多`、`prop=moreAction`、`name=李明轩`、`studentId=S2024041001`。
+  - 页面反馈文本为 `更多：李明轩 S2024041001`。
+  - 二级菜单可见，菜单项为 `复制记录 / 查看日志 / 删除记录`。
+- 证据：
+  - `wos4-artifacts/backups/Palimpsest-table-clickable-ops-20260623T230430/`
+  - `wos4-artifacts/snapshots/palimpsest_table_clickable_ops_resubmit.json`
+  - `wos4-artifacts/snapshots/palimpsest_table_clickable_ops_preview_refreshed.json`
+  - `wos4-artifacts/screenshots/palimpsest_table_clickable_ops_preview_refreshed.png`
+  - `wos4-artifacts/snapshots/palimpsest_table_clickable_ops_click_verified.json`
+  - `wos4-artifacts/screenshots/palimpsest_table_clickable_ops_click_verified.png`
+
+## 2026-06-24 Palimpsest 后端业务事字段实施边界
+
+- 身份：孙宇飞_code-ai。
+- 后端模型：`盛云科技_孙宇飞_Palimpsest_后台_0623`。
+- 已完成：
+  - 在 `数据模型 -> 事 -> 业务事` 下确认 8 个业务事节点存在。
+  - 核实业务事形态为 `实时 / 历史 / 计划`，成员类型为 `bool,int8,int16,int32,int64,uint8,uint16,uint32,uint64,float,double,decimal,string,dateTime`。
+  - 新增本地 schema：`wos4-artifacts/tasks/20260623-新测试页左右菜单CRUD弹窗设计/backend-schema-palimpsest.json`。
+  - 新增项目 skill：`.ai/skills/wos4-business-event-member-edit/SKILL.md`，记录成员新增异步延迟、可见行统计和字段验证规则。
+- 未通过：
+  - WOS4 业务事成员行可以新增，但字段名、类型和描述更新多次出现 `更新失败`。
+  - 成员表存在滚动/虚拟渲染行为，按 DOM 第 N 行直接写字段会错位。
+  - 历史 open 事项 `0008-backend-query-demo-persistence` 已记录过类似边界：业务事成员名回读可能回退为 `成员1..成员5`。
+- 当前结论：
+  - 不能声明业务事字段已经在平台内持久化完成。
+  - 下一步应优先核实业务事成员导入格式或真实 `/api/v1/Query` 成员更新接口；若该路径仍阻塞，可先把假数据和 CRUD 方法放入自定义计算启动调试链路，绕开业务事字段持久化问题。
+- 证据：
+  - `wos4-artifacts/screenshots/pal_business_event_8_nodes_confirmed_20260624.png`
+  - `wos4-artifacts/screenshots/pal_menu_node_fields_applied_20260624.png`
+  - `wos4-artifacts/snapshots/pal_assessment_record_update_failure_20260624.json`
+  - `wos4-artifacts/screenshots/pal_assessment_record_update_failure_20260624.png`
+
+## 2026-06-24 Palimpsest 业务事字段污染审计和审阅交接
+
+- 身份：孙宇飞_code-ai。
+- 用户指出：有些表为空，有些残留 `成员N` 变量，更新失败较多，删除需要二次确认。
+- 已执行：
+  - 对 8 个业务事做污染审计，保存 `pal_business_event_member_pollution_audit_20260624.json/png`。
+  - 发现 `pal_assessment_score_detail`、`pal_operation_log` 曾为空；部分表残留 `成员3`、`成员1`、`_extra_delete_me`。
+  - 捕获删除二次确认弹窗：`确定要删除成员“_extra_delete_me”吗？`。
+  - 点击 `取消` 关闭弹窗，没有删除成员。
+- 已更新 skill：
+  - `.ai/skills/wos4-business-event-member-edit/SKILL.md` 增加二次确认、失败停止、污染审计和 review-ai 审阅交接规则。
+- 已创建审阅事项：
+  - `.ai/interactions/open/20260624T100115-palimpsest-business-event-member-review.md`。
+- 当前结论：
+  - 停止继续通过 DOM 批量写业务事字段。
+  - 当前平台状态需要 review-ai 审阅；后端联调建议改走自定义计算假数据方案，或先确认业务事成员导入/更新接口。
+
+## 2026-06-24 Palimpsest 业务事成员真实输入修复
+
+- 身份：孙宇飞_code-ai。
+- 目标：处理用户指出的空表和 `成员N` 原始变量残留。
+- 关键发现：
+  - 直接用脚本给 `input.value` 赋值会让当前 DOM 看起来已修复，但切换业务事后部分字段会回退。
+  - `.treeNodeLabel` 必须精确限定为左侧业务事树节点；泛选 `span/div` 会读到旧表或错误区域。
+  - 删除成员必须先点击真实 `BUTTON`，再确认弹窗里包含目标成员名后点 `确定`。
+- 已处理：
+  - 删除 `pal_menu_node` 多余 `成员9`。
+  - 将 `pal_assessment_score_detail` 的 `成员3 / 成员5` 通过真实键盘输入改为 `item_code / weight`。
+  - 将 `pal_operation_log` 从原始 `成员1..成员7` 改为 `id / biz_type / biz_id / action / operator / message / created_at`。
+  - 对 8 个业务事做切换回读审计，最终均为非空表，且 `rawCount=0`，没有 `成员N`、`_extra_delete_me`、缺字段或多字段。
+- 仍需注意：
+  - 部分类型和描述字段仍存在平台回写不稳定，例如 `weight` 类型回读为 `string`、部分描述为空；本轮只把用户指出的空表和原始变量清理到通过。
+  - 后续若要求类型/描述也完全一致，必须同样走真实输入或确认平台导入/更新接口，不能继续用直接 DOM value 写入。
+- 证据：
+  - `wos4-artifacts/snapshots/pal_business_event_member_repair_small_steps_20260624.json`
+  - `wos4-artifacts/snapshots/pal_business_event_member_cleanup_extra_desc_20260624.json`
+  - `wos4-artifacts/snapshots/pal_business_event_real_type_names_20260624.json`
+  - `wos4-artifacts/snapshots/pal_business_event_member_final_raw_empty_audit_20260624.json`
+  - `wos4-artifacts/screenshots/pal_business_event_member_final_raw_empty_audit_20260624.png`
+
+## 2026-06-24 Palimpsest 后端自定义计算 CRUD 调试链
+
+- 身份：孙宇飞_code-ai。
+- 结论：
+  - 已确认 `盛云科技_孙宇飞_Palimpsest_后台_0623` 这个同一个后端模型内可以同时包含 `数据模型 -> 业务事` 和 `逻辑模型 -> 自定义计算`。
+  - 已在现有 `PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC` 内新增并提交 CRUD 相关函数：`PalimpsestCrudService / QueryAssessmentRecords / CreateAssessmentRecord / UpdateAssessmentRecord / DeleteAssessmentRecord / SubmitAssessmentScore / PalimpsestHandleError`。
+  - 已重写 `onException` 为统一异常 Trace 入口。
+  - 已重写 `onCreate`，启动时依次调用查询、新增、更新、删除和评分提交函数，作为后端调试入口。
+- 调试验证：
+  - 点击 `.wos-editor-debug-start` 后捕获到 `编译成功 10:58:14`。
+  - 编辑器进入真实调试态，出现 `变量 / 监视 / 堆栈 / 断点`，`.wos-editor-debug-stop` 出现。
+  - 已在截图和快照后停止调试会话。
+- 边界：
+  - 当前函数返回统一 JSON 字符串，包含 `ok/code/message/data/traceId`。
+  - 当前未把记录真实写入业务事运行记录；业务事记录持久化仍依赖后续运行包、对象实例和同一时空访问配置。
+- 证据：
+  - `wos4-artifacts/snapshots/pal_customcalc_editor_recursive_probe_20260624.json`
+  - `wos4-artifacts/snapshots/pal_palimpsestbackend_visible_functions_before_20260624.json`
+  - `wos4-artifacts/snapshots/pal_crud_service_add_result_20260624.json`
+  - `wos4-artifacts/snapshots/pal_backend_crud_functions_write_result_20260624.json`
+  - `wos4-artifacts/snapshots/pal_backend_crud_submit_result_20260624.json`
+  - `wos4-artifacts/snapshots/pal_backend_oncreate_chain_save_20260624.json`
+  - `wos4-artifacts/snapshots/pal_backend_oncreate_chain_submit_20260624.json`
+  - `wos4-artifacts/snapshots/pal_backend_debug_start_result_20260624.json`
+  - `wos4-artifacts/screenshots/pal_backend_debug_start_result_20260624.png`
+  - `wos4-artifacts/snapshots/pal_backend_debug_stop_result_20260624.json`
+
+## 2026-06-24 Palimpsest 元语言断点单步调试
+
+- 身份：孙宇飞_code-ai。
+- 目标：补齐人类式调试中的“下一步/单步”验证，并沉淀为项目 skill。
+- 已验证：
+  - 在 `PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC -> onCreate` 第 4 行通过 Monaco `glyph-margin` 打断点。
+  - 启动调试后断点命中，左侧变量区出现 `strmapPara: Array(1)` 和 `resultText:`，堆栈/断点区出现 `onCreate / 1441151880758560281-0: 4`。
+  - 右侧调试工具出现 `debug-continue-run / debug-step-over / debug-stop`。
+  - 点击一次 `debug-step-over` 后，`resultText` 读出统一 JSON 返回：`ok=true`、`code=OK`、`message=success`、`traceId=pal-20260624-backend`。
+  - 返回 `data` 中包含 3 条考核假记录、5 个后端方法名和 8 张表名，和当前后端设计一致。
+- 边界：
+  - `persistence` 字段仍为 `businessEventRecordsPendingRuntimeObject`，说明真实业务事记录持久化仍未进入运行对象验证；当前验证的是自定义计算函数协议和调试链。
+  - 已停止调试并确认启动按钮恢复。
+- 新增 skill：
+  - `.ai/skills/wos4-meta-language-debugger/SKILL.md`。
+- 证据：
+  - `wos4-artifacts/snapshots/pal_backend_breakpoint_variables_probe_20260624.json`
+  - `wos4-artifacts/screenshots/pal_backend_breakpoint_variables_probe_poll_20260624.png`
+  - `wos4-artifacts/snapshots/pal_backend_debug_step_over_probe_20260624.json`
+  - `wos4-artifacts/screenshots/pal_backend_debug_step_over_probe_20260624.png`
+  - `wos4-artifacts/snapshots/pal_backend_debug_step_over_stop_20260624.json`
+
+## 2026-06-24 Palimpsest 后端实例化推进
+
+- 身份：孙宇飞_code-ai。
+- 目标：把 `盛云科技_孙宇飞_Palimpsest_后台_0623` 从建模源码推进到组态工程里的可运行后端实例。
+- 已完成：
+  - 通过 `组态系统客户端 -> 盛云_孙宇飞_Palimpsest工程_0624 -> 管控单元实例配置` 创建 `PalimpsestL1`。
+  - 在 `PalimpsestL1` 下创建 `PalimpsestBack` 管控单元实例。
+  - `PalimpsestBack` 绑定模型 `盛云科技_孙宇飞_Palimpsest_后台_0623`，版本为 `v1`。
+- 提交验证：
+  - 点击时空列表第三个小图标提交 `PalimpsestL1`，弹出 `时空仓库版本提交进度`。
+  - `PalimpsestL1` 显示提交完成，但 `PalimpsestBack` 显示 `打包回调报错 :: errorCode = -14496`。
+  - 单独点击 `PalimpsestBack` 行内 `提交版本` 后仍然同样报 `errorCode = -14496`。
+- 追加排查：
+  - 建模系统里对 `盛云科技_孙宇飞_Palimpsest_后台_0623` 点击 `更新` 后出现 `一键更新_组件`，但实例应用处仍为 `empty`。
+  - 尝试用 `PalimpsestAssessment_CUSTOMFUNC` 作为 fallback 新建 `PalimpsestFuncBack`，在 `新建管控单元实例` 模型选择表中当前查不到该模型，不能声明可替代运行实例。
+- 当前结论：
+  - 组态工程层级和实例创建已经打通。
+  - 后端运行包尚未生成成功；卡点在 `PalimpsestBack` 打包阶段，不是前端页面查询占位。
+  - 下一步应优先排查 `盛云科技_孙宇飞_Palimpsest_后台_0623` 是否因业务事/自定义计算混合模型、业务事字段类型回写不稳定或模型拷贝生成条件不足导致打包失败。
+- 关键证据：
+  - `wos4-artifacts/snapshots/pal_after_create_spacetime_l1_20260624.json`
+  - `wos4-artifacts/snapshots/pal_after_create_backend_instance_20260624.json`
+  - `wos4-artifacts/snapshots/pal_after_submit_no_chinese_20260624.json`
+  - `wos4-artifacts/snapshots/pal_wait_row_submit_dialog_20260624.json`
+  - `wos4-artifacts/snapshots/pal_model_update_dialog_after_instance_20260624.json`
+  - `wos4-artifacts/snapshots/pal_create_func_back_instance_dialog_20260624.json`
+  - `wos4-artifacts/snapshots/pal_func_dialog_fix_desc_search_20260624.json`
+
+## 2026-06-24 Palimpsest 实例打包诊断追加
+
+- 身份：孙宇飞_code-ai。
+- 目标：继续排查 `PalimpsestBack` 实例提交失败是否由 Palimpsest 后端模型本身导致。
+- 对照实验：
+  - 在 `PalimpsestL1` 下创建 `PalimpsestKnownGoodBack`，绑定已知 clean CRUD 后端模型 `盛云_孙宇飞_后台_CRUDDemo_0620 / v4`。
+  - `PalimpsestKnownGoodBack -> 提交版本` 同样失败，进度表显示 `打包回调报错 :: errorCode = -14496`。
+  - 在 `PalimpsestRoot` 下创建 `PalimpsestRootKnownGoodBack`，同样绑定 `盛云_孙宇飞_后台_CRUDDemo_0620 / v4`。
+  - 初次提交 `PalimpsestRootKnownGoodBack` 时平台提示 `因当前时空仓库未提交版本，故无法提交实例`。
+  - 先提交 `PalimpsestRoot` 时空仓库后，`PalimpsestRoot` 本身显示 `提交完成, 部分失败`，失败项仍为后端实例 `-14496`。
+- 详细回调：
+  - 将 console hook 从 `String(arg)` 改为 JSON-safe 序列化，抓到 `_asyncCreatePacketCallback` 的真实对象。
+  - `PalimpsestRootKnownGoodBack` 额外出现两个 `-15495`：
+    - `get copy base model data failed`
+    - 涉及 `modelGUID=f2cafeb2-27f2-43df-881f-0fcb6b49ab45 / modelVersion=7`
+    - 涉及 `modelGUID=4cdf8aaa-dcff-45ed-a061-ba1bd711673b / modelVersion=22`
+  - `PalimpsestBack` 与对照后端都出现同一个内部编译失败：
+    - `errorCode=-14496`
+    - `compiler failed ... can not find the identifier`
+    - `modelGUID=4afd8750-11e8-4d9c-a3e0-49f539ab9ed1`
+    - `modelVersion=11`
+    - `functionName=4afd8750-11e8-4d9c-a3e0-49f539ab9ed1_11#onCreate`
+- 当前结论：
+  - `PalimpsestBack` 的可部署包仍未生成。
+  - 当前证据不支持“只是 Palimpsest CRUD 函数代码写错”这个判断；已知 clean CRUD 后端在同一 Palimpsest 组态实例链路中也失败。
+  - 卡点已收敛为实例提交打包依赖的内部基础 App/拷贝模型编译或拷贝数据问题。
+  - 下一步不能直接进入 `时空对象管理` 创建运行对象，因为对象创建前置要求仓库包或实例包已部署运行。
+- 新增 skill：
+  - `.ai/skills/wos4-instance-submit-package-diagnosis/SKILL.md`
+- 证据：
+  - `wos4-artifacts/snapshots/pal_known_good_create_result_20260624.json`
+  - `wos4-artifacts/snapshots/pal_known_good_submit_result_20260624.json`
+  - `wos4-artifacts/snapshots/pal_root_known_good_create_result_20260624.json`
+  - `wos4-artifacts/snapshots/pal_root_spacetime_submit_result_20260624.json`
+  - `wos4-artifacts/snapshots/pal_root_known_good_submit_clean_detail_20260624.json`
+  - `wos4-artifacts/snapshots/pal_back_submit_clean_detail2_20260624.json`
+
+## 2026-06-24 原 CRUD 工程对照复测
+
+- 身份：孙宇飞_code-ai。
+- 目的：验证已知 clean CRUD 后端 `盛云_孙宇飞_后台_CRUDDemo_0620 / v4` 是只在 Palimpsest 工程失败，还是在原 `盛云_孙宇飞_CRUD工程_0620` 中也无法重新打包。
+- 操作：
+  - 从 `组态系统客户端 -> 工程管理` 进入 `盛云_孙宇飞_CRUD工程_0620`。
+  - 打开 `管控单元实例配置`。
+  - 选择原工程时空节点 `NadirL2`，确认实例表中存在 `NadirBack -> 盛云_孙宇飞_后台_CRUDDemo_0620 / v4`。
+  - 对 `NadirBack` 执行行内 `提交版本`，并开启 JSON-safe console 抓取。
+- 结果：
+  - 原 CRUD 工程中的 `NadirBack` 也提交失败。
+  - 可见进度为 `相关联仓库提交失败`，失败项包括 `NadirBack//业务事_运行后台` 和 `NadirBack//业务内置APP`，均为 `打包回调报错 :: errorCode = -15495`。
+  - 详细回调包含：
+    - `errorCode=-15495`
+    - `errorMessage=get copy base model data failed.`
+    - `modelGUID=f2cafeb2-27f2-43df-881f-0fcb6b49ab45 / modelVersion=7 / copyGUID=a0b5fddf-4654-48a7-92e2-bb9ad124da92`
+    - `modelGUID=4cdf8aaa-dcff-45ed-a061-ba1bd711673b / modelVersion=22 / copyGUID=a8e2c6ed-1190-43fa-bb92-f3204c910f76`
+  - 同一回调中第三个关联包返回 `errorCode=0`，说明不是所有关联仓库都失败。
+- 当前结论：
+  - `clean CRUDDemo v4` 在原 CRUD 工程中也无法重新提交打包，因此当前阻塞不应继续归因于 Palimpsest 后端函数代码。
+  - 更可能的阻塞是当前平台关联仓库打包链路或基础模型拷贝数据异常，集中在 `业务事_运行后台`、`业务内置APP` 所依赖的基础模型/拷贝。
+  - Palimpsest 中额外看到的 `4afd8750... / onCreate / can not find the identifier` 仍要记录，但它不是唯一证据；先解决 `-15495 get copy base model data failed` 才能恢复实例包生成链路。
+- 本地历史证据复核：
+  - `f2cafeb2-27f2-43df-881f-0fcb6b49ab45 / v7` 对应运行对象 `业务事_运行后台@NadirBack/业务事_运行后台`。
+  - `4cdf8aaa-dcff-45ed-a061-ba1bd711673b / v22` 对应运行对象 `业务内置APP@NadirBack/业务内置APP` 和 `业务内置APP@NadirFront/业务内置APP`。
+  - 这两个对象在 2026-06-22 的 NadirL2 运行态列表中存在，说明历史成功运行态里有这些内置关联 App；当前失败点是重新打包/复制基线时取不到 copy base model data。
+  - 帮助手册 `错误码_模型库.md` 明确 `-15495 = MDB_ERR_QUERY_BASE_MODEL_NOT_EXIST / 基模型不存在`，与回调 `get copy base model data failed` 一致。
+  - 当前时空功能开发平台探针中，`盛云_孙宇飞_Palimpsest工程_0624` 可见节点包含 `KF4.5Root / 客户端1 / 盛云_孙宇飞_Palimpsest客户端_0624 / 根组` 等，但未见 `PalimpsestBack` 可部署包节点；这与实例提交失败一致。
+- 新证据：
+  - `wos4-artifacts/snapshots/crud_return_project_management_probe_20260624.json`
+  - `wos4-artifacts/snapshots/crud_project_list_after_refresh_20260624.json`
+  - `wos4-artifacts/snapshots/crud_instance_page_probe_20260624.json`
+  - `wos4-artifacts/snapshots/crud_nadirl2_rows_probe_20260624.json`
+  - `wos4-artifacts/snapshots/crud_nadirback_submit_detail_20260624.json`
+  - `wos4-artifacts/snapshots/runtime_apps_query_latest_after_debug_20260622.json`
+  - `wos4-artifacts/snapshots/object_mgmt_nadirl2_template_probe_20260622.json`
+  - `wos4-artifacts/docs/wos4-help-kb/function-reference/error-codes/错误码_模型库.md`
+  - `wos4-artifacts/snapshots/pal_runtime_package_absence_probe_20260624.json`

@@ -1,0 +1,226 @@
+{
+  "scroll_res": {
+    "ok": true,
+    "text": "Root\npal_menu_node\npal_department\npal_mentor\npal_intern_student\npal_assessment_batch\npal_assessment_record\npal_assessment_score_detail",
+    "scrollTop": 0
+  },
+  "hasOperation": false,
+  "names": [
+    {
+      "text": "Root",
+      "cls": "el-tree-node__content",
+      "x": 310,
+      "y": 200,
+      "w": 253,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "text": "Root",
+      "cls": "editNode root-node",
+      "x": 334,
+      "y": 200,
+      "w": 201,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "text": "Root",
+      "cls": "treeNodeLabel",
+      "x": 348.796875,
+      "y": 200,
+      "w": 186.203125,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "text": "pal_menu_node",
+      "cls": "el-tree-node__content",
+      "x": 310,
+      "y": 226,
+      "w": 253,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "text": "pal_menu_node",
+      "cls": "editNode",
+      "x": 350,
+      "y": 226,
+      "w": 185,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "text": "pal_menu_node",
+      "cls": "treeNodeLabel",
+      "x": 350,
+      "y": 226,
+      "w": 185,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "text": "pal_department",
+      "cls": "el-tree-node__content",
+      "x": 310,
+      "y": 252,
+      "w": 253,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "text": "pal_department",
+      "cls": "editNode",
+      "x": 350,
+      "y": 252,
+      "w": 185,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "text": "pal_department",
+      "cls": "treeNodeLabel",
+      "x": 350,
+      "y": 252,
+      "w": 185,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "text": "pal_mentor",
+      "cls": "el-tree-node__content",
+      "x": 310,
+      "y": 278,
+      "w": 253,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "text": "pal_mentor",
+      "cls": "editNode",
+      "x": 350,
+      "y": 278,
+      "w": 185,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "text": "pal_mentor",
+      "cls": "treeNodeLabel",
+      "x": 350,
+      "y": 278,
+      "w": 185,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "text": "pal_intern_student",
+      "cls": "el-tree-node__content",
+      "x": 310,
+      "y": 304,
+      "w": 253,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "text": "pal_intern_student",
+      "cls": "editNode",
+      "x": 350,
+      "y": 304,
+      "w": 185,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "text": "pal_intern_student",
+      "cls": "treeNodeLabel",
+      "x": 350,
+      "y": 304,
+      "w": 185,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "text": "pal_assessment_batch",
+      "cls": "el-tree-node__content",
+      "x": 310,
+      "y": 330,
+      "w": 253,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "text": "pal_assessment_batch",
+      "cls": "editNode",
+      "x": 350,
+      "y": 330,
+      "w": 185,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "text": "pal_assessment_batch",
+      "cls": "treeNodeLabel",
+      "x": 350,
+      "y": 330,
+      "w": 185,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "text": "pal_assessment_record",
+      "cls": "el-tree-node__content",
+      "x": 310,
+      "y": 356,
+      "w": 253,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "text": "pal_assessment_record",
+      "cls": "editNode",
+      "x": 350,
+      "y": 356,
+      "w": 185,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "text": "pal_assessment_record",
+      "cls": "treeNodeLabel",
+      "x": 350,
+      "y": 356,
+      "w": 185,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "text": "pal_assessment_score_detail",
+      "cls": "el-tree-node__content",
+      "x": 310,
+      "y": 382,
+      "w": 253,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "text": "pal_assessment_score_detail",
+      "cls": "editNode",
+      "x": 350,
+      "y": 382,
+      "w": 185,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "text": "pal_assessment_score_detail",
+      "cls": "treeNodeLabel",
+      "x": 350,
+      "y": 382,
+      "w": 185,
+      "h": 26,
+      "visible": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "task": "盛云科技_孙宇飞_Palimpsest",
+  "timestamp": "20260623T114230",
+  "operator": "孙宇飞_frontend-ai + 孙宇飞_code-ai",
+  "current_agent": "Codex",
+  "target": {
+    "project": "盛云科技_孙宇飞_Palimpsest",
+    "client": "盛云科技_孙宇飞_Palimpsest",
+    "left_page": "PalimpsestMenu",
+    "right_page": "PalimpsestContent",
+    "left_percent": 18,
+    "right_percent": 82,
+    "top_menu": false
+  },
+  "config_summary": {
+    "developer_name": "孙宇飞",
+    "workspace_name": "D:\\DEV_D\\WOS4.5",
+    "url_host_only": "221.239.19.118",
+    "username": "孙宇飞",
+    "password": "<redacted>"
+  },
+  "skills": [
+    "wos4-login",
+    "wos4-human-navigation",
+    "wos4-browser-harness",
+    "wos4-config-client-screen-create",
+    "wos4-layout-devtools-skill",
+    "wos4-component-persistence",
+    "wos4-blue-client-publish-flow"
+  ],
+  "notes": "新建项目/客户端/页面前基线记录；本文件不包含密码、Cookie 或 Token。"
+}

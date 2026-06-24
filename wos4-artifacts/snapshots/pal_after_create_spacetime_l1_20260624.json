@@ -1,0 +1,55 @@
+{
+  "res": {
+    "filled": [
+      "PalimpsestL1",
+      "PalimpsestL1",
+      "Palimpsest backend runtime level",
+      "Palimpsest"
+    ]
+  },
+  "state": {
+    "body": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot\n\n实例列表\n\n新建\n删除\n更多操作 \n\t序号\t名称\t显示名称\t描述\t模型\t模型版本\t操作\nempty\n\n创建成功",
+    "dialogs": [
+      "",
+      ""
+    ],
+    "capture": {
+      "messages": [
+        {
+          "kind": "mutation",
+          "text": "数字孪生实例化_时空_新建",
+          "extra": {
+            "className": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_881513"
+          },
+          "t": 1782274133372
+        },
+        {
+          "kind": "mutation",
+          "text": "数字孪生实例化_时空_新建",
+          "extra": {
+            "className": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_881513"
+          },
+          "t": 1782274133372
+        },
+        {
+          "kind": "mutation",
+          "text": "新建时空仓库  名称\n            0/64\n          别名\n            0/64\n          描述\n            0/128\n          标签\n            0/24\n           取消  确定",
+          "extra": {
+            "className": "page_view"
+          },
+          "t": 1782274133574
+        },
+        {
+          "kind": "mutation",
+          "text": "创建成功",
+          "extra": {
+            "className": "el-message el-message--success is-closable el-message-fade-enter el-message-fade-enter-active"
+          },
+          "t": 1782274199856
+        }
+      ],
+      "console": []
+    }
+  },
+  "screenshot": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\screenshots\\pal_after_create_spacetime_l1_20260624.png"
+}

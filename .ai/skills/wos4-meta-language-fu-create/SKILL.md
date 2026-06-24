@@ -255,12 +255,51 @@ Submitted version: 3
 Submit description: query-demo-data-backend-method-0617-single-return
 ```
 
+## Backend Model Custom Calculation With Business Events
+
+2026-06-24 Palimpsest verification added this reusable boundary:
+
+- A single WOS4 backend model can contain both `数据模型 -> 事 -> 业务事` and `逻辑模型 -> 自定义计算`.
+- In `盛云科技_孙宇飞_Palimpsest_后台_0623`, the same model contains eight business-event tables and `PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC`.
+- The custom calculation editor can add multiple functions with `stringMap<var> strmapPara` input and `string` return values.
+- Frontend callers should use the same verified parameter direction as earlier CRUD work: `new Variant(new StringMap(...))`.
+
+Verified Palimpsest functions:
+
+```text
+PalimpsestCrudService(stringMap<var> strmapPara) -> string
+QueryAssessmentRecords(stringMap<var> strmapPara) -> string
+CreateAssessmentRecord(stringMap<var> strmapPara) -> string
+UpdateAssessmentRecord(stringMap<var> strmapPara) -> string
+DeleteAssessmentRecord(stringMap<var> strmapPara) -> string
+SubmitAssessmentScore(stringMap<var> strmapPara) -> string
+PalimpsestHandleError(stringMap<var> strmapPara) -> string
+```
+
+Verified startup-debug pattern:
+
+```c
+stringMap<var> strmapPara;
+string resultText;
+strmapPara["action"] = "startupSmoke";
+resultText = QueryAssessmentRecords(strmapPara);
+Trace(2, "PalimpsestBackend.onCreate.QueryAssessmentRecords", resultText);
+```
+
+Use `onCreate` to call the backend functions that need smoke verification before clicking `.wos-editor-debug-start`. Accepted debug success signals:
+
+```text
+编译成功
+变量 / 监视 / 堆栈 / 断点
+.wos-editor-debug-stop appears
+```
+
+Do not claim real database CRUD from this alone. This verifies function protocol, compilation, submit, and startup debug execution path. Persisting records into business-event runtime records still requires package deployment, object creation, same-spacetime access, and record API verification.
+
 ## What This Skill Does Not Cover Yet
 
 Do not include these actions in this skill until separately verified:
 
-- Editing function code beyond opening the editor.
-- `提交` behavior and version persistence.
 - `生成拷贝`.
 - `仓库包` or `打包`.
 - `部署管理`.

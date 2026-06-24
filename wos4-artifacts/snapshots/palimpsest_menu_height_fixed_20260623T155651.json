@@ -1,0 +1,170 @@
+{
+  "layout": {
+    "page": "PalimpsestMenu_18",
+    "after": {
+      "pageWidth": 346,
+      "pageHeight": 1080,
+      "rows": [
+        {
+          "ri": 0,
+          "height": 72,
+          "heightStrategy": "fixedsize",
+          "cols": [
+            {
+              "ci": 0,
+              "width": 343,
+              "height": 72,
+              "objects": 0
+            }
+          ]
+        },
+        {
+          "ri": 1,
+          "height": 1008,
+          "heightStrategy": "fixedsize",
+          "cols": [
+            {
+              "ci": 0,
+              "width": 343,
+              "height": 1008,
+              "objects": 0
+            }
+          ]
+        }
+      ],
+      "domRows": [
+        {
+          "ri": 0,
+          "rect": {
+            "x": 368.0860595703125,
+            "y": 142.83148193359375,
+            "w": 177.26885986328125,
+            "h": 36.8883056640625
+          },
+          "cols": [
+            {
+              "ci": 0,
+              "x": 368.598388671875,
+              "y": 143.34381103515625,
+              "w": 175.73187255859375,
+              "h": 25.8170166015625
+            }
+          ]
+        },
+        {
+          "ri": 1,
+          "rect": {
+            "x": 368.0860595703125,
+            "y": 179.71978759765625,
+            "w": 177.26885986328125,
+            "h": 516.4365234375
+          },
+          "cols": [
+            {
+              "ci": 0,
+              "x": 368.598388671875,
+              "y": 180.2321319580078,
+              "w": 175.73187255859375,
+              "h": 1.0246734619140625
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "submit": {
+    "clicked": true
+  },
+  "confirm": {
+    "confirmed": true
+  },
+  "capture": {
+    "messages": [
+      {
+        "kind": "mutation",
+        "text": "版本提交提交说明\n          取消\n        \n          确定",
+        "extra": {
+          "className": "el-message-box__wrapper"
+        },
+        "t": 1782201412872
+      },
+      {
+        "kind": "mutation",
+        "text": "版本提交提交说明\n          取消\n        \n          确定",
+        "extra": {
+          "className": "el-message-box__wrapper"
+        },
+        "t": 1782201412872
+      },
+      {
+        "text": "版本提交提交说明\n          取消\n        \n          确定",
+        "cls": "el-message-box__wrapper",
+        "t": 1782201412872
+      },
+      {
+        "kind": "mutation",
+        "text": "保存中,请稍后 ! ! !",
+        "extra": {
+          "className": "el-loading-mask is-fullscreen"
+        },
+        "t": 1782201415108
+      },
+      {
+        "kind": "mutation",
+        "text": "保存中,请稍后 ! ! !",
+        "extra": {
+          "className": "el-loading-mask is-fullscreen"
+        },
+        "t": 1782201415108
+      },
+      {
+        "text": "保存中,请稍后 ! ! !",
+        "cls": "el-loading-mask is-fullscreen",
+        "t": 1782201415108
+      },
+      {
+        "kind": "mutation",
+        "text": "保存成功",
+        "extra": {
+          "className": "el-message"
+        },
+        "t": 1782201415445
+      },
+      {
+        "kind": "mutation",
+        "text": "保存成功",
+        "extra": {
+          "className": "el-message"
+        },
+        "t": 1782201415445
+      },
+      {
+        "text": "保存成功",
+        "cls": "el-message",
+        "t": 1782201415445
+      },
+      {
+        "kind": "mutation",
+        "text": "生成历史版本失败！错误码：-19500",
+        "extra": {
+          "className": "el-message el-message--error"
+        },
+        "t": 1782201415560
+      },
+      {
+        "kind": "mutation",
+        "text": "生成历史版本失败！错误码：-19500",
+        "extra": {
+          "className": "el-message el-message--error"
+        },
+        "t": 1782201415560
+      },
+      {
+        "text": "生成历史版本失败！错误码：-19500",
+        "cls": "el-message el-message--error",
+        "t": 1782201415560
+      }
+    ],
+    "console": []
+  }
+}

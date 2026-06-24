@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+
+# Runtime and temporary files
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.local.ini
+wos4-artifacts/config/*.ini
+!wos4-artifacts/config/*.example.ini
+
+# Large browser/runtime caches
+playwright-report/
+test-results/
+wos4-artifacts/config/browser-harness-chrome-profile/
+wos4-artifacts/config/*chrome-profile*/
+wos4-artifacts/config/**/Cookies*
+wos4-artifacts/config/**/Login Data*
+wos4-artifacts/config/**/History*
+wos4-artifacts/config/**/Web Data*
+wos4-artifacts/config/**/Local State
+wos4-artifacts/config/**/LOCK
+
+# Captured network payloads may contain runtime identifiers or sensitive request data.
+network/
+
+# Local delete/migration backups may contain old scripts, screenshots, or captured payloads.
+wos4-artifacts/backups/workspace-cleanup-*/before-delete/
+wos4-artifacts/backups/*/before-sensitive/
+
+# Old scratch probes are kept locally until cleaned and migrated.
+probe*.js
+temp_probe_runtime.js
+
+# Keep WOS4 evidence directories tracked through their README/files.
+!wos4-artifacts/
+!screenshots/
+!snapshots/

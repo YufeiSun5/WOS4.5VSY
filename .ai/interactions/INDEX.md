@@ -13,3 +13,4 @@
 | 0007 | code-ai 请求 test-ai / review-ai 验证 skill 清理和命名规则 | open | code-ai | test-ai / review-ai | - | `.ai/interactions/open/0007-skill-cleanup-naming-review.md` |
 | 0008 | code-ai 请求 test-ai / review-ai 验证建模客户端后台查询 Demo 持久化边界 | open | code-ai | test-ai / review-ai | - | `.ai/interactions/open/0008-backend-query-demo-persistence.md` |
 | 0009 | 盛云科技_孙宇飞_Palimpsest 新测试页设计 | open | 孙宇飞_design-ai | 孙宇飞_frontend-ai<br>孙宇飞_code-ai<br>孙宇飞_test-ai<br>孙宇飞_review-ai | wos4-artifacts/tasks/20260623-新测试页左右菜单CRUD弹窗设计/ | `.ai/interactions/open/0009-palimpsest-design.md` |
+| 20260624T100115-palimpsest-business-event-member-review | Palimpsest 业务事成员实施后审阅 | open | 孙宇飞_code-ai | 孙宇飞_review-ai | wos4-artifacts/tasks/20260623-新测试页左右菜单CRUD弹窗设计/ | `.ai/interactions/open/20260624T100115-palimpsest-business-event-member-review.md` |

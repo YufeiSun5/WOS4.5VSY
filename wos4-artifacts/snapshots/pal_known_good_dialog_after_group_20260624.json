@@ -1,0 +1,63 @@
+{
+  "fill": {
+    "filled": [
+      {
+        "placeholder": "请输入实例名称",
+        "value": "PalimpsestKnownGoodBack"
+      },
+      {
+        "placeholder": "请输入实例的显示名称",
+        "value": "PalimpsestKnownGoodBack"
+      },
+      {
+        "placeholder": "请输入实例描述",
+        "value": "Known good backend package probe"
+      }
+    ],
+    "group": {
+      "x": 326,
+      "y": 494.5,
+      "w": 489,
+      "h": 30,
+      "text": "盛云_孙宇飞_根组"
+    },
+    "dialogs": [
+      {
+        "i": 0,
+        "text": "新建管控单元实例\n\n名称\n\n0/64\n\n显示名称\n\n0/64\n\n描述\n\n0/128\n\n选择模型\n\n根组\n测试\n产品生成器功能测试_lk\n产线\n车间\n工厂\n管理员\n集成测试\n设备\n生产计划与执行\n盛云_孙宇飞_根组\n首页建模\n数据管理\n引滦工程\n张测试组\nlk测试\nmwq测试\n序号\t名称\t描述\t版本\n暂无数据\n共 0 条\n1\n前往页\n取消\n确定",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 843,
+          "text": "新建管控单元实例\n\n名称\n\n0/64\n\n显示名称\n\n0/64\n\n描述\n\n0/128\n\n选择模型\n\n根组\n测试\n产品生成器功能测试_lk\n产线\n车间\n工厂\n管理员\n集成测试\n设备\n生产计划与执行\n盛云_孙宇飞_根组\n首页建模\n数据管理\n引滦工程\n张测试组\nlk测试\nmwq测试\n序号\t名称\t描述\t版本\n暂无数据\n共 0 条\n1\n前往页\n取消\n确定"
+        }
+      }
+    ]
+  },
+  "afterGroup": {
+    "target": "盛云_孙宇飞_后台_CRUDDemo_0620",
+    "rows": [
+      {
+        "i": 0,
+        "text": "序号\t名称\t描述\t版本",
+        "rect": {
+          "x": 831,
+          "y": 179.5,
+          "w": 778,
+          "h": 45,
+          "text": "序号\t名称\t描述\t版本"
+        }
+      }
+    ],
+    "row": null,
+    "ok": {
+      "x": 1538,
+      "y": 791.5,
+      "w": 72,
+      "h": 30,
+      "text": "确定"
+    },
+    "dialogText": "新建管控单元实例\n\n名称\n\n23/64\n\n显示名称\n\n23/64\n\n描述\n\n32/128\n\n选择模型\n\n根组\n测试\n产品生成器功能测试_lk\n产线\n车间\n工厂\n管理员\n集成测试\n设备\n生产计划与执行\n盛云_孙宇飞_根组\n首页建模\n数据管理\n引滦工程\n张测试组\nlk测试\nmwq测试\n序号\t名称\t描述\t版本\n暂无数据\n共 0 条\n1\n前往页\n取消\n确定"
+  }
+}

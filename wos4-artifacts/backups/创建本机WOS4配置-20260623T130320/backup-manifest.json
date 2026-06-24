@@ -1,0 +1,10 @@
+{
+  "task": "创建本机 WOS4 配置文件",
+  "time": "2026-06-23T13:03:20",
+  "operator": "孙宇飞_design-ai",
+  "files": [
+    "wos4-artifacts/config/wos4.local.ini",
+    "MEMORY.md"
+  ],
+  "note": "创建或重建本机真实 ini；backup-manifest 不记录密码明文。"
+}

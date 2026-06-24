@@ -1,0 +1,27 @@
+{
+  "submit": {
+    "ok": true,
+    "count": 3,
+    "target": {
+      "x": 868.203125,
+      "y": 0,
+      "w": 35,
+      "h": 36,
+      "tag": "DIV",
+      "cls": ""
+    }
+  },
+  "modal": {
+    "ok": true,
+    "wrappers": 1,
+    "field": true,
+    "clicked": true
+  },
+  "after": {
+    "capture": {
+      "messages": [],
+      "console": []
+    },
+    "visibleWrappers": 1
+  }
+}

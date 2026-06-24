@@ -1,0 +1,151 @@
+{
+  "keyword": {
+    "exists": true,
+    "value": "",
+    "placeholder": "姓名 / 学号 / 手机号",
+    "inputRect": {
+      "x": 10,
+      "y": 9,
+      "w": 290,
+      "h": 34
+    }
+  },
+  "buttons": [
+    {
+      "cls": "pal_query_button",
+      "text": "查询\n查询",
+      "rootRect": {
+        "x": 1008,
+        "y": 72,
+        "w": 145,
+        "h": 58
+      },
+      "buttonRect": {
+        "x": 1016,
+        "y": 82,
+        "w": 112,
+        "h": 38
+      },
+      "badgeCount": 1,
+      "badgeVisible": "block",
+      "badgeRect": {
+        "x": 1100,
+        "y": 78,
+        "w": 32,
+        "h": 16
+      }
+    },
+    {
+      "cls": "pal_reset_button",
+      "text": "重置\n重置",
+      "rootRect": {
+        "x": 1153,
+        "y": 72,
+        "w": 145,
+        "h": 58
+      },
+      "buttonRect": {
+        "x": 1161,
+        "y": 82,
+        "w": 112,
+        "h": 38
+      },
+      "badgeCount": 1,
+      "badgeVisible": "block",
+      "badgeRect": {
+        "x": 1245,
+        "y": 78,
+        "w": 32,
+        "h": 16
+      }
+    },
+    {
+      "cls": "pal_export_button",
+      "text": "导出\n导出",
+      "rootRect": {
+        "x": 1298,
+        "y": 72,
+        "w": 145,
+        "h": 58
+      },
+      "buttonRect": {
+        "x": 1306,
+        "y": 82,
+        "w": 112,
+        "h": 38
+      },
+      "badgeCount": 1,
+      "badgeVisible": "block",
+      "badgeRect": {
+        "x": 1390,
+        "y": 78,
+        "w": 32,
+        "h": 16
+      }
+    }
+  ],
+  "imgs": [
+    {
+      "style": "display:block;width:calc(100% - 28px);height:calc(100% - 24px);margin:12px 14px;object-fit:fill;border:0;box-sizing:border-box",
+      "rect": {
+        "x": 22,
+        "y": 142,
+        "w": 359,
+        "h": 108
+      },
+      "hasOnload": false
+    },
+    {
+      "style": "display:block;width:calc(100% - 28px);height:calc(100% - 24px);margin:12px 14px;object-fit:fill;border:0;box-sizing:border-box",
+      "rect": {
+        "x": 409,
+        "y": 142,
+        "w": 359,
+        "h": 108
+      },
+      "hasOnload": false
+    },
+    {
+      "style": "display:block;width:calc(100% - 28px);height:calc(100% - 24px);margin:12px 14px;object-fit:fill;border:0;box-sizing:border-box",
+      "rect": {
+        "x": 796,
+        "y": 142,
+        "w": 359,
+        "h": 108
+      },
+      "hasOnload": false
+    },
+    {
+      "style": "display:block;width:calc(100% - 28px);height:calc(100% - 24px);margin:12px 14px;object-fit:fill;border:0;box-sizing:border-box",
+      "rect": {
+        "x": 1183,
+        "y": 142,
+        "w": 359,
+        "h": 108
+      },
+      "hasOnload": false
+    }
+  ],
+  "tableRect": {
+    "x": 8,
+    "y": 600,
+    "w": 1548,
+    "h": 472
+  },
+  "canvases": [
+    {
+      "x": 9,
+      "y": 271,
+      "w": 772,
+      "h": 312
+    },
+    {
+      "x": 783,
+      "y": 271,
+      "w": 772,
+      "h": 312
+    }
+  ],
+  "qmarks": 0,
+  "slashU": 0
+}

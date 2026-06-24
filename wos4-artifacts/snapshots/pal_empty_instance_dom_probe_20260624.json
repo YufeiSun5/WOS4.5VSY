@@ -1,0 +1,3309 @@
+{
+  "text": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot\n\n实例列表\n\n新建\n删除\n更多操作 \n\t序号\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\n1\n\t\nPalimpsestRootKnownGoodBack\n\t\nPalimpsestRootKnownGoodBack\n\t\nKnown good backend package probe under root node\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv4\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+  "items": [
+    {
+      "i": 0,
+      "tag": "DIV",
+      "cls": "client_run",
+      "text": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 843
+      }
+    },
+    {
+      "i": 1,
+      "tag": "DIV",
+      "cls": "",
+      "text": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 843
+      }
+    },
+    {
+      "i": 2,
+      "tag": "DIV",
+      "cls": "ksc_page_run",
+      "text": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 843
+      }
+    },
+    {
+      "i": 3,
+      "tag": "DIV",
+      "cls": "page_running",
+      "text": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配",
+      "title": "",
+      "aria": "工程浏览器_框架页面",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 843
+      }
+    },
+    {
+      "i": 4,
+      "tag": "DIV",
+      "cls": "page_view_container client_page_view_container",
+      "text": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 843
+      }
+    },
+    {
+      "i": 5,
+      "tag": "DIV",
+      "cls": "page_view",
+      "text": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 843
+      }
+    },
+    {
+      "i": 6,
+      "tag": "DIV",
+      "cls": "layer_view",
+      "text": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 843
+      }
+    },
+    {
+      "i": 7,
+      "tag": "DIV",
+      "cls": "layout_container containerStyle",
+      "text": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 843
+      }
+    },
+    {
+      "i": 8,
+      "tag": "SPAN",
+      "cls": "containerrow",
+      "text": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 843
+      }
+    },
+    {
+      "i": 9,
+      "tag": "DIV",
+      "cls": "response_row",
+      "text": "KingFusion4.5_组态系统",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 42
+      }
+    },
+    {
+      "i": 10,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "KingFusion4.5_组态系统",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 42
+      }
+    },
+    {
+      "i": 11,
+      "tag": "DIV",
+      "cls": "",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 19,
+        "h": 40.46875
+      }
+    },
+    {
+      "i": 12,
+      "tag": "DIV",
+      "cls": "",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 8.84375,
+        "w": 23,
+        "h": 24.28125
+      }
+    },
+    {
+      "i": 13,
+      "tag": "DIV",
+      "cls": "component_object_unselect",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 8.84375,
+        "w": 23,
+        "h": 24.28125
+      }
+    },
+    {
+      "i": 14,
+      "tag": "DIV",
+      "cls": "ui_factory",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 8.84375,
+        "w": 23,
+        "h": 24.28125
+      }
+    },
+    {
+      "i": 15,
+      "tag": "DIV",
+      "cls": "pointer_auto",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 8.84375,
+        "w": 23,
+        "h": 24.28125
+      }
+    },
+    {
+      "i": 16,
+      "tag": "DIV",
+      "cls": "component_object ElementImage1",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 8.84375,
+        "w": 23,
+        "h": 24.28125
+      }
+    },
+    {
+      "i": 17,
+      "tag": "DIV",
+      "cls": "el-image",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 8.84375,
+        "w": 23,
+        "h": 24.28125
+      }
+    },
+    {
+      "i": 18,
+      "tag": "DIV",
+      "cls": "",
+      "text": "KingFusion4.5_组态系统",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 45,
+        "y": 0,
+        "w": 260,
+        "h": 42
+      }
+    },
+    {
+      "i": 19,
+      "tag": "DIV",
+      "cls": "component_object_unselect",
+      "text": "KingFusion4.5_组态系统",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 45,
+        "y": 0,
+        "w": 260,
+        "h": 42
+      }
+    },
+    {
+      "i": 20,
+      "tag": "DIV",
+      "cls": "ui_factory",
+      "text": "KingFusion4.5_组态系统",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 45,
+        "y": 0,
+        "w": 260,
+        "h": 42
+      }
+    },
+    {
+      "i": 21,
+      "tag": "DIV",
+      "cls": "pointer_auto",
+      "text": "KingFusion4.5_组态系统",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 45,
+        "y": 0,
+        "w": 260,
+        "h": 42
+      }
+    },
+    {
+      "i": 22,
+      "tag": "DIV",
+      "cls": "el-text-component component_object ElementText1",
+      "text": "KingFusion4.5_组态系统",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 45,
+        "y": 0,
+        "w": 260,
+        "h": 42
+      }
+    },
+    {
+      "i": 23,
+      "tag": "DIV",
+      "cls": "",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 305,
+        "y": 0,
+        "w": 1615,
+        "h": 42
+      }
+    },
+    {
+      "i": 24,
+      "tag": "DIV",
+      "cls": "response_row",
+      "text": "< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 0,
+        "y": 42,
+        "w": 1920,
+        "h": 801
+      }
+    },
+    {
+      "i": 25,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 43,
+        "w": 1918,
+        "h": 799
+      }
+    },
+    {
+      "i": 26,
+      "tag": "DIV",
+      "cls": "",
+      "text": "< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 43,
+        "w": 1918,
+        "h": 799
+      }
+    },
+    {
+      "i": 27,
+      "tag": "DIV",
+      "cls": "component_object_unselect",
+      "text": "< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 43,
+        "w": 1918,
+        "h": 799
+      }
+    },
+    {
+      "i": 28,
+      "tag": "DIV",
+      "cls": "ui_factory layer_class",
+      "text": "< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 43,
+        "w": 1918,
+        "h": 799
+      }
+    },
+    {
+      "i": 29,
+      "tag": "DIV",
+      "cls": "page_view_container client_page_view_container set_page_app component_object 开发系统_组态_框架页面",
+      "text": "< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 43,
+        "w": 1918,
+        "h": 799
+      }
+    },
+    {
+      "i": 30,
+      "tag": "DIV",
+      "cls": "page_view",
+      "text": "< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 43,
+        "w": 1918,
+        "h": 799
+      }
+    },
+    {
+      "i": 31,
+      "tag": "DIV",
+      "cls": "layer_view",
+      "text": "< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 43,
+        "w": 1918,
+        "h": 799
+      }
+    },
+    {
+      "i": 32,
+      "tag": "DIV",
+      "cls": "layout_container containerStyle",
+      "text": "< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 43,
+        "w": 1918,
+        "h": 799
+      }
+    },
+    {
+      "i": 33,
+      "tag": "SPAN",
+      "cls": "containerrow",
+      "text": "< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 43,
+        "w": 1918,
+        "h": 799
+      }
+    },
+    {
+      "i": 34,
+      "tag": "DIV",
+      "cls": "response_row",
+      "text": "< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 43,
+        "w": 1918,
+        "h": 799
+      }
+    },
+    {
+      "i": 35,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 43,
+        "w": 1918,
+        "h": 799
+      }
+    },
+    {
+      "i": 36,
+      "tag": "DIV",
+      "cls": "",
+      "text": "< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 43,
+        "w": 240,
+        "h": 799
+      }
+    },
+    {
+      "i": 37,
+      "tag": "DIV",
+      "cls": "component_object_unselect",
+      "text": "< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 43,
+        "w": 240,
+        "h": 799
+      }
+    },
+    {
+      "i": 38,
+      "tag": "DIV",
+      "cls": "ui_factory",
+      "text": "< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 43,
+        "w": 240,
+        "h": 799
+      }
+    },
+    {
+      "i": 39,
+      "tag": "DIV",
+      "cls": "pointer_auto",
+      "text": "< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 43,
+        "w": 240,
+        "h": 799
+      }
+    },
+    {
+      "i": 40,
+      "tag": "DIV",
+      "cls": "layout_container component_object containerStyle",
+      "text": "< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 43,
+        "w": 240,
+        "h": 799
+      }
+    },
+    {
+      "i": 41,
+      "tag": "SPAN",
+      "cls": "containerrow",
+      "text": "< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 43,
+        "w": 240,
+        "h": 799
+      }
+    },
+    {
+      "i": 42,
+      "tag": "DIV",
+      "cls": "response_row",
+      "text": "< 返回工程管理",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 43,
+        "w": 240,
+        "h": 38
+      }
+    },
+    {
+      "i": 43,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "< 返回工程管理",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 43,
+        "w": 239,
+        "h": 38
+      }
+    },
+    {
+      "i": 44,
+      "tag": "DIV",
+      "cls": "",
+      "text": "< 返回工程管理",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 43,
+        "w": 136,
+        "h": 38
+      }
+    },
+    {
+      "i": 45,
+      "tag": "DIV",
+      "cls": "component_object_unselect",
+      "text": "< 返回工程管理",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 43,
+        "w": 136,
+        "h": 38
+      }
+    },
+    {
+      "i": 46,
+      "tag": "DIV",
+      "cls": "ui_factory",
+      "text": "< 返回工程管理",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 43,
+        "w": 136,
+        "h": 38
+      }
+    },
+    {
+      "i": 47,
+      "tag": "DIV",
+      "cls": "pointer_auto",
+      "text": "< 返回工程管理",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 43,
+        "w": 136,
+        "h": 38
+      }
+    },
+    {
+      "i": 48,
+      "tag": "DIV",
+      "cls": "component_object ElementButton3",
+      "text": "< 返回工程管理",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 43,
+        "w": 136,
+        "h": 38
+      }
+    },
+    {
+      "i": 49,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--primary el-button--medium propertyStyle",
+      "text": "< 返回工程管理",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 43,
+        "w": 136,
+        "h": 38
+      }
+    },
+    {
+      "i": 50,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "< 返回工程管理",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 27.828125,
+        "y": 56,
+        "w": 82.34375,
+        "h": 12
+      }
+    },
+    {
+      "i": 51,
+      "tag": "DIV",
+      "cls": "",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 137,
+        "y": 43,
+        "w": 103,
+        "h": 38
+      }
+    },
+    {
+      "i": 52,
+      "tag": "DIV",
+      "cls": "response_row",
+      "text": "盛云_孙宇飞_Palimpsest工程_0624",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 81,
+        "w": 240,
+        "h": 36
+      }
+    },
+    {
+      "i": 53,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "盛云_孙宇飞_Palimpsest工程_0624",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 81,
+        "w": 239,
+        "h": 36
+      }
+    },
+    {
+      "i": 54,
+      "tag": "DIV",
+      "cls": "",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 81,
+        "w": 10,
+        "h": 36
+      }
+    },
+    {
+      "i": 55,
+      "tag": "DIV",
+      "cls": "",
+      "text": "盛云_孙宇飞_Palimpsest工程_0624",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 11,
+        "y": 81,
+        "w": 229,
+        "h": 35
+      }
+    },
+    {
+      "i": 56,
+      "tag": "DIV",
+      "cls": "component_object_unselect",
+      "text": "盛云_孙宇飞_Palimpsest工程_0624",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 11,
+        "y": 81,
+        "w": 229,
+        "h": 35
+      }
+    },
+    {
+      "i": 57,
+      "tag": "DIV",
+      "cls": "ui_factory",
+      "text": "盛云_孙宇飞_Palimpsest工程_0624",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 11,
+        "y": 81,
+        "w": 229,
+        "h": 35
+      }
+    },
+    {
+      "i": 58,
+      "tag": "DIV",
+      "cls": "pointer_auto",
+      "text": "盛云_孙宇飞_Palimpsest工程_0624",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 11,
+        "y": 81,
+        "w": 229,
+        "h": 35
+      }
+    },
+    {
+      "i": 59,
+      "tag": "DIV",
+      "cls": "el-text-component component_object projectText",
+      "text": "盛云_孙宇飞_Palimpsest工程_0624",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 11,
+        "y": 81,
+        "w": 229,
+        "h": 35
+      }
+    },
+    {
+      "i": 60,
+      "tag": "DIV",
+      "cls": "response_row",
+      "text": "数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 117,
+        "w": 240,
+        "h": 725
+      }
+    },
+    {
+      "i": 61,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 117,
+        "w": 239,
+        "h": 725
+      }
+    },
+    {
+      "i": 62,
+      "tag": "DIV",
+      "cls": "",
+      "text": "数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 117,
+        "w": 239,
+        "h": 725
+      }
+    },
+    {
+      "i": 63,
+      "tag": "DIV",
+      "cls": "component_object_unselect",
+      "text": "数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 117,
+        "w": 239,
+        "h": 725
+      }
+    },
+    {
+      "i": 64,
+      "tag": "DIV",
+      "cls": "ui_factory",
+      "text": "数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 117,
+        "w": 239,
+        "h": 725
+      }
+    },
+    {
+      "i": 65,
+      "tag": "DIV",
+      "cls": "pointer_auto",
+      "text": "数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 117,
+        "w": 239,
+        "h": 725
+      }
+    },
+    {
+      "i": 66,
+      "tag": "DIV",
+      "cls": "custom_tree component_object ElementTree1",
+      "text": "数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 1,
+        "y": 117,
+        "w": 239,
+        "h": 725
+      }
+    },
+    {
+      "i": 67,
+      "tag": "DIV",
+      "cls": "el-tree tree el-tree--highlight-current",
+      "text": "数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 2,
+        "y": 118,
+        "w": 237,
+        "h": 384
+      }
+    },
+    {
+      "i": 68,
+      "tag": "DIV",
+      "cls": "el-tree-node is-expanded is-focusable",
+      "text": "数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 118,
+        "w": 220,
+        "h": 160
+      }
+    },
+    {
+      "i": 69,
+      "tag": "DIV",
+      "cls": "el-tree-node__content",
+      "text": "数字孪生实例配置",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 118,
+        "w": 220,
+        "h": 32
+      }
+    },
+    {
+      "i": 70,
+      "tag": "SPAN",
+      "cls": "expanded el-tree-node__expand-icon el-icon-caret-right",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 195,
+        "y": 122,
+        "w": 24,
+        "h": 24
+      }
+    },
+    {
+      "i": 71,
+      "tag": "SPAN",
+      "cls": "editNode root-node",
+      "text": "数字孪生实例配置",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 24,
+        "y": 121,
+        "w": 168,
+        "h": 26
+      }
+    },
+    {
+      "i": 72,
+      "tag": "I",
+      "cls": "custom-el-icon treeicon38",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 24,
+        "y": 122,
+        "w": 19.65625,
+        "h": 24
+      }
+    },
+    {
+      "i": 73,
+      "tag": "SPAN",
+      "cls": "treeNodeLabel",
+      "text": "数字孪生实例配置",
+      "title": "数字孪生实例配置",
+      "aria": "",
+      "rect": {
+        "x": 53.65625,
+        "y": 121,
+        "w": 138.34375,
+        "h": 26
+      }
+    },
+    {
+      "i": 77,
+      "tag": "DIV",
+      "cls": "el-tree-node__children",
+      "text": "管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 150,
+        "w": 220,
+        "h": 128
+      }
+    },
+    {
+      "i": 78,
+      "tag": "DIV",
+      "cls": "el-tree-node is-current is-focusable",
+      "text": "管控单元实例配置",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 150,
+        "w": 220,
+        "h": 32
+      }
+    },
+    {
+      "i": 79,
+      "tag": "DIV",
+      "cls": "el-tree-node__content",
+      "text": "管控单元实例配置",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 150,
+        "w": 220,
+        "h": 32
+      }
+    },
+    {
+      "i": 80,
+      "tag": "SPAN",
+      "cls": "is-leaf el-tree-node__expand-icon el-icon-caret-right",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 195,
+        "y": 154,
+        "w": 24,
+        "h": 24
+      }
+    },
+    {
+      "i": 81,
+      "tag": "SPAN",
+      "cls": "editNode",
+      "text": "管控单元实例配置",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 40,
+        "y": 153,
+        "w": 152,
+        "h": 26
+      }
+    },
+    {
+      "i": 82,
+      "tag": "I",
+      "cls": "custom-el-icon treeicon49",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 40,
+        "y": 156,
+        "w": 16.421875,
+        "h": 20
+      }
+    },
+    {
+      "i": 83,
+      "tag": "SPAN",
+      "cls": "treeNodeLabel",
+      "text": "管控单元实例配置",
+      "title": "管控单元实例配置",
+      "aria": "",
+      "rect": {
+        "x": 66.421875,
+        "y": 153,
+        "w": 125.578125,
+        "h": 26
+      }
+    },
+    {
+      "i": 87,
+      "tag": "DIV",
+      "cls": "el-tree-node is-focusable",
+      "text": "工作流实例配置",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 182,
+        "w": 220,
+        "h": 32
+      }
+    },
+    {
+      "i": 88,
+      "tag": "DIV",
+      "cls": "el-tree-node__content",
+      "text": "工作流实例配置",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 182,
+        "w": 220,
+        "h": 32
+      }
+    },
+    {
+      "i": 89,
+      "tag": "SPAN",
+      "cls": "is-leaf el-tree-node__expand-icon el-icon-caret-right",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 195,
+        "y": 186,
+        "w": 24,
+        "h": 24
+      }
+    },
+    {
+      "i": 90,
+      "tag": "SPAN",
+      "cls": "editNode",
+      "text": "工作流实例配置",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 40,
+        "y": 185,
+        "w": 152,
+        "h": 26
+      }
+    },
+    {
+      "i": 91,
+      "tag": "I",
+      "cls": "custom-el-icon treeicon50",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 40,
+        "y": 188.5,
+        "w": 15.703125,
+        "h": 19
+      }
+    },
+    {
+      "i": 92,
+      "tag": "SPAN",
+      "cls": "treeNodeLabel",
+      "text": "工作流实例配置",
+      "title": "工作流实例配置",
+      "aria": "",
+      "rect": {
+        "x": 65.703125,
+        "y": 185,
+        "w": 126.296875,
+        "h": 26
+      }
+    },
+    {
+      "i": 93,
+      "tag": "DIV",
+      "cls": "nodeButtonBox nodeButtonBoxAlltime",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 160,
+        "y": 185,
+        "w": 32,
+        "h": 26
+      }
+    },
+    {
+      "i": 94,
+      "tag": "SPAN",
+      "cls": "nodeButton",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 160,
+        "y": 190,
+        "w": 16,
+        "h": 16
+      }
+    },
+    {
+      "i": 95,
+      "tag": "SPAN",
+      "cls": "nodeButton",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 176,
+        "y": 190,
+        "w": 16,
+        "h": 16
+      }
+    },
+    {
+      "i": 96,
+      "tag": "DIV",
+      "cls": "el-tree-node is-focusable",
+      "text": "数据源实例化",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 214,
+        "w": 220,
+        "h": 32
+      }
+    },
+    {
+      "i": 97,
+      "tag": "DIV",
+      "cls": "el-tree-node__content",
+      "text": "数据源实例化",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 214,
+        "w": 220,
+        "h": 32
+      }
+    },
+    {
+      "i": 98,
+      "tag": "SPAN",
+      "cls": "is-leaf el-tree-node__expand-icon el-icon-caret-right",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 195,
+        "y": 218,
+        "w": 24,
+        "h": 24
+      }
+    },
+    {
+      "i": 99,
+      "tag": "SPAN",
+      "cls": "editNode",
+      "text": "数据源实例化",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 40,
+        "y": 217,
+        "w": 152,
+        "h": 26
+      }
+    },
+    {
+      "i": 100,
+      "tag": "I",
+      "cls": "custom-el-icon treeicon51",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 40,
+        "y": 220,
+        "w": 16.421875,
+        "h": 20
+      }
+    },
+    {
+      "i": 101,
+      "tag": "SPAN",
+      "cls": "treeNodeLabel",
+      "text": "数据源实例化",
+      "title": "数据源实例化",
+      "aria": "",
+      "rect": {
+        "x": 66.421875,
+        "y": 217,
+        "w": 125.578125,
+        "h": 26
+      }
+    },
+    {
+      "i": 102,
+      "tag": "DIV",
+      "cls": "nodeButtonBox nodeButtonBoxAlltime",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 160,
+        "y": 217,
+        "w": 32,
+        "h": 26
+      }
+    },
+    {
+      "i": 103,
+      "tag": "SPAN",
+      "cls": "nodeButton",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 160,
+        "y": 222,
+        "w": 16,
+        "h": 16
+      }
+    },
+    {
+      "i": 104,
+      "tag": "SPAN",
+      "cls": "nodeButton",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 176,
+        "y": 222,
+        "w": 16,
+        "h": 16
+      }
+    },
+    {
+      "i": 105,
+      "tag": "DIV",
+      "cls": "el-tree-node is-focusable",
+      "text": "采集设备实例配置",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 246,
+        "w": 220,
+        "h": 32
+      }
+    },
+    {
+      "i": 106,
+      "tag": "DIV",
+      "cls": "el-tree-node__content",
+      "text": "采集设备实例配置",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 246,
+        "w": 220,
+        "h": 32
+      }
+    },
+    {
+      "i": 107,
+      "tag": "SPAN",
+      "cls": "is-leaf el-tree-node__expand-icon el-icon-caret-right",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 195,
+        "y": 250,
+        "w": 24,
+        "h": 24
+      }
+    },
+    {
+      "i": 108,
+      "tag": "SPAN",
+      "cls": "editNode",
+      "text": "采集设备实例配置",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 40,
+        "y": 249,
+        "w": 152,
+        "h": 26
+      }
+    },
+    {
+      "i": 109,
+      "tag": "I",
+      "cls": "custom-el-icon treeicon51",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 40,
+        "y": 252,
+        "w": 16.421875,
+        "h": 20
+      }
+    },
+    {
+      "i": 110,
+      "tag": "SPAN",
+      "cls": "treeNodeLabel",
+      "text": "采集设备实例配置",
+      "title": "采集设备实例配置",
+      "aria": "",
+      "rect": {
+        "x": 66.421875,
+        "y": 249,
+        "w": 125.578125,
+        "h": 26
+      }
+    },
+    {
+      "i": 111,
+      "tag": "DIV",
+      "cls": "nodeButtonBox nodeButtonBoxAlltime",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 160,
+        "y": 249,
+        "w": 32,
+        "h": 26
+      }
+    },
+    {
+      "i": 112,
+      "tag": "SPAN",
+      "cls": "nodeButton",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 160,
+        "y": 254,
+        "w": 16,
+        "h": 16
+      }
+    },
+    {
+      "i": 113,
+      "tag": "SPAN",
+      "cls": "nodeButton",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 176,
+        "y": 254,
+        "w": 16,
+        "h": 16
+      }
+    },
+    {
+      "i": 114,
+      "tag": "DIV",
+      "cls": "el-tree-node is-expanded is-focusable",
+      "text": "数字孪生可视化",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 278,
+        "w": 220,
+        "h": 32
+      }
+    },
+    {
+      "i": 115,
+      "tag": "DIV",
+      "cls": "el-tree-node__content",
+      "text": "数字孪生可视化",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 278,
+        "w": 220,
+        "h": 32
+      }
+    },
+    {
+      "i": 116,
+      "tag": "SPAN",
+      "cls": "is-leaf el-tree-node__expand-icon el-icon-caret-right",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 195,
+        "y": 282,
+        "w": 24,
+        "h": 24
+      }
+    },
+    {
+      "i": 117,
+      "tag": "SPAN",
+      "cls": "editNode root-node",
+      "text": "数字孪生可视化",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 24,
+        "y": 281,
+        "w": 168,
+        "h": 26
+      }
+    },
+    {
+      "i": 118,
+      "tag": "I",
+      "cls": "custom-el-icon treeicon2",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 24,
+        "y": 282,
+        "w": 19.65625,
+        "h": 24
+      }
+    },
+    {
+      "i": 119,
+      "tag": "SPAN",
+      "cls": "treeNodeLabel",
+      "text": "数字孪生可视化",
+      "title": "数字孪生可视化",
+      "aria": "",
+      "rect": {
+        "x": 53.65625,
+        "y": 281,
+        "w": 138.34375,
+        "h": 26
+      }
+    },
+    {
+      "i": 124,
+      "tag": "DIV",
+      "cls": "el-tree-node is-expanded is-focusable",
+      "text": "系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 310,
+        "w": 220,
+        "h": 192
+      }
+    },
+    {
+      "i": 125,
+      "tag": "DIV",
+      "cls": "el-tree-node__content",
+      "text": "系统服务配置",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 310,
+        "w": 220,
+        "h": 32
+      }
+    },
+    {
+      "i": 126,
+      "tag": "SPAN",
+      "cls": "expanded el-tree-node__expand-icon el-icon-caret-right",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 195,
+        "y": 314,
+        "w": 24,
+        "h": 24
+      }
+    },
+    {
+      "i": 127,
+      "tag": "SPAN",
+      "cls": "editNode root-node",
+      "text": "系统服务配置",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 24,
+        "y": 313,
+        "w": 168,
+        "h": 26
+      }
+    },
+    {
+      "i": 128,
+      "tag": "I",
+      "cls": "custom-el-icon treeicon39",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 24,
+        "y": 314,
+        "w": 19.65625,
+        "h": 24
+      }
+    },
+    {
+      "i": 129,
+      "tag": "SPAN",
+      "cls": "treeNodeLabel",
+      "text": "系统服务配置",
+      "title": "系统服务配置",
+      "aria": "",
+      "rect": {
+        "x": 53.65625,
+        "y": 313,
+        "w": 138.34375,
+        "h": 26
+      }
+    },
+    {
+      "i": 133,
+      "tag": "DIV",
+      "cls": "el-tree-node__children",
+      "text": "报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 342,
+        "w": 220,
+        "h": 160
+      }
+    },
+    {
+      "i": 134,
+      "tag": "DIV",
+      "cls": "el-tree-node is-focusable",
+      "text": "报警转发",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 342,
+        "w": 220,
+        "h": 32
+      }
+    },
+    {
+      "i": 135,
+      "tag": "DIV",
+      "cls": "el-tree-node__content",
+      "text": "报警转发",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 342,
+        "w": 220,
+        "h": 32
+      }
+    },
+    {
+      "i": 136,
+      "tag": "SPAN",
+      "cls": "is-leaf el-tree-node__expand-icon el-icon-caret-right",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 195,
+        "y": 346,
+        "w": 24,
+        "h": 24
+      }
+    },
+    {
+      "i": 137,
+      "tag": "SPAN",
+      "cls": "editNode",
+      "text": "报警转发",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 40,
+        "y": 345,
+        "w": 152,
+        "h": 26
+      }
+    },
+    {
+      "i": 138,
+      "tag": "I",
+      "cls": "custom-el-icon treeicon41",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 40,
+        "y": 348,
+        "w": 16.421875,
+        "h": 20
+      }
+    },
+    {
+      "i": 139,
+      "tag": "SPAN",
+      "cls": "treeNodeLabel",
+      "text": "报警转发",
+      "title": "报警转发",
+      "aria": "",
+      "rect": {
+        "x": 66.421875,
+        "y": 345,
+        "w": 125.578125,
+        "h": 26
+      }
+    },
+    {
+      "i": 143,
+      "tag": "DIV",
+      "cls": "el-tree-node is-focusable",
+      "text": "采集管理",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 374,
+        "w": 220,
+        "h": 32
+      }
+    },
+    {
+      "i": 144,
+      "tag": "DIV",
+      "cls": "el-tree-node__content",
+      "text": "采集管理",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 374,
+        "w": 220,
+        "h": 32
+      }
+    },
+    {
+      "i": 145,
+      "tag": "SPAN",
+      "cls": "is-leaf el-tree-node__expand-icon el-icon-caret-right",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 195,
+        "y": 378,
+        "w": 24,
+        "h": 24
+      }
+    },
+    {
+      "i": 146,
+      "tag": "SPAN",
+      "cls": "editNode",
+      "text": "采集管理",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 40,
+        "y": 377,
+        "w": 152,
+        "h": 26
+      }
+    },
+    {
+      "i": 147,
+      "tag": "I",
+      "cls": "custom-el-icon treeicon16",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 40,
+        "y": 380,
+        "w": 16.421875,
+        "h": 20
+      }
+    },
+    {
+      "i": 148,
+      "tag": "SPAN",
+      "cls": "treeNodeLabel",
+      "text": "采集管理",
+      "title": "采集管理",
+      "aria": "",
+      "rect": {
+        "x": 66.421875,
+        "y": 377,
+        "w": 125.578125,
+        "h": 26
+      }
+    },
+    {
+      "i": 149,
+      "tag": "DIV",
+      "cls": "nodeButtonBox nodeButtonBoxAlltime",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 160,
+        "y": 377,
+        "w": 32,
+        "h": 26
+      }
+    },
+    {
+      "i": 150,
+      "tag": "SPAN",
+      "cls": "nodeButton",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 160,
+        "y": 382,
+        "w": 16,
+        "h": 16
+      }
+    },
+    {
+      "i": 151,
+      "tag": "SPAN",
+      "cls": "nodeButton",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 176,
+        "y": 382,
+        "w": 16,
+        "h": 16
+      }
+    },
+    {
+      "i": 152,
+      "tag": "DIV",
+      "cls": "el-tree-node is-focusable",
+      "text": "数据源管理",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 406,
+        "w": 220,
+        "h": 32
+      }
+    },
+    {
+      "i": 153,
+      "tag": "DIV",
+      "cls": "el-tree-node__content",
+      "text": "数据源管理",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 406,
+        "w": 220,
+        "h": 32
+      }
+    },
+    {
+      "i": 154,
+      "tag": "SPAN",
+      "cls": "is-leaf el-tree-node__expand-icon el-icon-caret-right",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 195,
+        "y": 410,
+        "w": 24,
+        "h": 24
+      }
+    },
+    {
+      "i": 155,
+      "tag": "SPAN",
+      "cls": "editNode",
+      "text": "数据源管理",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 40,
+        "y": 409,
+        "w": 152,
+        "h": 26
+      }
+    },
+    {
+      "i": 156,
+      "tag": "I",
+      "cls": "custom-el-icon treeicon42",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 40,
+        "y": 412,
+        "w": 16.421875,
+        "h": 20
+      }
+    },
+    {
+      "i": 157,
+      "tag": "SPAN",
+      "cls": "treeNodeLabel",
+      "text": "数据源管理",
+      "title": "数据源管理",
+      "aria": "",
+      "rect": {
+        "x": 66.421875,
+        "y": 409,
+        "w": 125.578125,
+        "h": 26
+      }
+    },
+    {
+      "i": 161,
+      "tag": "DIV",
+      "cls": "el-tree-node",
+      "text": "安全设置",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 438,
+        "w": 220,
+        "h": 32
+      }
+    },
+    {
+      "i": 162,
+      "tag": "DIV",
+      "cls": "el-tree-node__content",
+      "text": "安全设置",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 19,
+        "y": 438,
+        "w": 220,
+        "h": 32
+      }
+    },
+    {
+      "i": 163,
+      "tag": "SPAN",
+      "cls": "el-tree-node__expand-icon el-icon-caret-right",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 195,
+        "y": 442,
+        "w": 24,
+        "h": 24
+      }
+    },
+    {
+      "i": 164,
+      "tag": "SPAN",
+      "cls": "editNode",
+      "text": "安全设置",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 40,
+        "y": 441,
+        "w": 152,
+        "h": 26
+      }
+    },
+    {
+      "i": 165,
+      "tag": "I",
+      "cls": "custom-el-icon treeicon44",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 40,
+        "y": 444,
+        "w": 16.421875,
+        "h": 20
+      }
+    },
+    {
+      "i": 166,
+      "tag": "SPAN",
+      "cls": "treeNodeLabel is-disabled",
+      "text": "安全设置",
+      "title": "安全设置",
+      "aria": "",
+      "rect": {
+        "x": 66.421875,
+        "y": 441,
+        "w": 125.578125,
+        "h": 26
+      }
+    },
+    {
+      "i": 186,
+      "tag": "DIV",
+      "cls": "",
+      "text": "时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot\n\n实例列表\n\n新建\n删除\n更多操作 \n\t序号\t名称\t显示名称\t描述\t模型",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 241,
+        "y": 43,
+        "w": 1678,
+        "h": 799
+      }
+    },
+    {
+      "i": 187,
+      "tag": "DIV",
+      "cls": "component_object_unselect",
+      "text": "时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot\n\n实例列表\n\n新建\n删除\n更多操作 \n\t序号\t名称\t显示名称\t描述\t模型",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 241,
+        "y": 43,
+        "w": 1678,
+        "h": 799
+      }
+    },
+    {
+      "i": 188,
+      "tag": "DIV",
+      "cls": "ui_factory layer_class",
+      "text": "时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot\n\n实例列表\n\n新建\n删除\n更多操作 \n\t序号\t名称\t显示名称\t描述\t模型",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 241,
+        "y": 43,
+        "w": 1678,
+        "h": 799
+      }
+    },
+    {
+      "i": 189,
+      "tag": "DIV",
+      "cls": "page_view_container client_page_view_container set_page_app component_object 数字孪生实例化_框架页面",
+      "text": "时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot\n\n实例列表\n\n新建\n删除\n更多操作 \n\t序号\t名称\t显示名称\t描述\t模型",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 241,
+        "y": 43,
+        "w": 1678,
+        "h": 799
+      }
+    },
+    {
+      "i": 190,
+      "tag": "DIV",
+      "cls": "page_view",
+      "text": "时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot\n\n实例列表\n\n新建\n删除\n更多操作 \n\t序号\t名称\t显示名称\t描述\t模型",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 241,
+        "y": 43,
+        "w": 1678,
+        "h": 799
+      }
+    },
+    {
+      "i": 191,
+      "tag": "DIV",
+      "cls": "layer_view",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 241,
+        "y": 43,
+        "w": 1678,
+        "h": 799
+      }
+    },
+    {
+      "i": 192,
+      "tag": "DIV",
+      "cls": "layout_container containerStyle",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 241,
+        "y": 43,
+        "w": 1678,
+        "h": 799
+      }
+    },
+    {
+      "i": 193,
+      "tag": "SPAN",
+      "cls": "containerrow",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 241,
+        "y": 43,
+        "w": 1678,
+        "h": 799
+      }
+    },
+    {
+      "i": 194,
+      "tag": "DIV",
+      "cls": "response_row",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 241,
+        "y": 43,
+        "w": 1678,
+        "h": 799
+      }
+    },
+    {
+      "i": 195,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 241,
+        "y": 43,
+        "w": 1678,
+        "h": 799
+      }
+    },
+    {
+      "i": 197,
+      "tag": "DIV",
+      "cls": "layer_view",
+      "text": "时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot\n\n实例列表\n\n新建\n删除\n更多操作 \n\t序号\t名称\t显示名称\t描述\t模型",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 241,
+        "y": 43,
+        "w": 1678,
+        "h": 799
+      }
+    },
+    {
+      "i": 198,
+      "tag": "DIV",
+      "cls": "layout_container containerStyle",
+      "text": "时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot\n\n实例列表\n\n新建\n删除\n更多操作 \n\t序号\t名称\t显示名称\t描述\t模型",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 241,
+        "y": 43,
+        "w": 1678,
+        "h": 799
+      }
+    },
+    {
+      "i": 199,
+      "tag": "SPAN",
+      "cls": "containerrow",
+      "text": "时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot\n\n实例列表\n\n新建\n删除\n更多操作 \n\t序号\t名称\t显示名称\t描述\t模型",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 241,
+        "y": 43,
+        "w": 1678,
+        "h": 799
+      }
+    },
+    {
+      "i": 200,
+      "tag": "DIV",
+      "cls": "response_row",
+      "text": "时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot\n\n实例列表\n\n新建\n删除\n更多操作 \n\t序号\t名称\t显示名称\t描述\t模型",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 241,
+        "y": 43,
+        "w": 1678,
+        "h": 799
+      }
+    },
+    {
+      "i": 201,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot\n\n实例列表\n\n新建\n删除\n更多操作 \n\t序号\t名称\t显示名称\t描述\t模型",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 241,
+        "y": 43,
+        "w": 1678,
+        "h": 799
+      }
+    },
+    {
+      "i": 202,
+      "tag": "DIV",
+      "cls": "",
+      "text": "时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 241,
+        "y": 43,
+        "w": 310,
+        "h": 799
+      }
+    },
+    {
+      "i": 203,
+      "tag": "DIV",
+      "cls": "component_object_unselect",
+      "text": "时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 241,
+        "y": 43,
+        "w": 310,
+        "h": 799
+      }
+    },
+    {
+      "i": 204,
+      "tag": "DIV",
+      "cls": "ui_factory layer_class",
+      "text": "时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 241,
+        "y": 43,
+        "w": 310,
+        "h": 799
+      }
+    },
+    {
+      "i": 205,
+      "tag": "DIV",
+      "cls": "layer_class",
+      "text": "时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 241,
+        "y": 43,
+        "w": 310,
+        "h": 799
+      }
+    },
+    {
+      "i": 206,
+      "tag": "DIV",
+      "cls": "layout_container component_object containerStyle",
+      "text": "时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 241,
+        "y": 43,
+        "w": 310,
+        "h": 799
+      }
+    },
+    {
+      "i": 207,
+      "tag": "SPAN",
+      "cls": "containerrow",
+      "text": "时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 241,
+        "y": 43,
+        "w": 310,
+        "h": 799
+      }
+    },
+    {
+      "i": 208,
+      "tag": "DIV",
+      "cls": "response_row",
+      "text": "时空列表",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 58,
+        "w": 280,
+        "h": 34
+      }
+    },
+    {
+      "i": 209,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "时空列表",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 58,
+        "w": 280,
+        "h": 34
+      }
+    },
+    {
+      "i": 210,
+      "tag": "DIV",
+      "cls": "",
+      "text": "时空列表",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 58,
+        "w": 80,
+        "h": 34
+      }
+    },
+    {
+      "i": 211,
+      "tag": "DIV",
+      "cls": "component_object_unselect",
+      "text": "时空列表",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 58,
+        "w": 80,
+        "h": 34
+      }
+    },
+    {
+      "i": 212,
+      "tag": "DIV",
+      "cls": "ui_factory layer_class",
+      "text": "时空列表",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 58,
+        "w": 80,
+        "h": 34
+      }
+    },
+    {
+      "i": 213,
+      "tag": "DIV",
+      "cls": "pointer_auto",
+      "text": "时空列表",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 58,
+        "w": 80,
+        "h": 34
+      }
+    },
+    {
+      "i": 214,
+      "tag": "DIV",
+      "cls": "el-text-component component_object ElementText1",
+      "text": "时空列表",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 58,
+        "w": 80,
+        "h": 34
+      }
+    },
+    {
+      "i": 215,
+      "tag": "DIV",
+      "cls": "",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 336,
+        "y": 58,
+        "w": 105,
+        "h": 34
+      }
+    },
+    {
+      "i": 216,
+      "tag": "DIV",
+      "cls": "",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 441,
+        "y": 66,
+        "w": 20,
+        "h": 18
+      }
+    },
+    {
+      "i": 217,
+      "tag": "DIV",
+      "cls": "component_object_unselect",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 441,
+        "y": 66,
+        "w": 20,
+        "h": 18
+      }
+    },
+    {
+      "i": 218,
+      "tag": "DIV",
+      "cls": "ui_factory layer_class",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 441,
+        "y": 66,
+        "w": 20,
+        "h": 18
+      }
+    },
+    {
+      "i": 219,
+      "tag": "DIV",
+      "cls": "pointer_auto",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 441,
+        "y": 66,
+        "w": 20,
+        "h": 18
+      }
+    },
+    {
+      "i": 220,
+      "tag": "DIV",
+      "cls": "component_object create_ElementButton",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 441,
+        "y": 66,
+        "w": 20,
+        "h": 18
+      }
+    },
+    {
+      "i": 221,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--primary el-button--medium propertyStyle",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 441,
+        "y": 66,
+        "w": 20,
+        "h": 18
+      }
+    },
+    {
+      "i": 223,
+      "tag": "DIV",
+      "cls": "",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 466,
+        "y": 66,
+        "w": 20,
+        "h": 18
+      }
+    },
+    {
+      "i": 224,
+      "tag": "DIV",
+      "cls": "component_object_unselect",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 466,
+        "y": 66,
+        "w": 20,
+        "h": 18
+      }
+    },
+    {
+      "i": 225,
+      "tag": "DIV",
+      "cls": "ui_factory layer_class",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 466,
+        "y": 66,
+        "w": 20,
+        "h": 18
+      }
+    },
+    {
+      "i": 226,
+      "tag": "DIV",
+      "cls": "pointer_auto",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 466,
+        "y": 66,
+        "w": 20,
+        "h": 18
+      }
+    },
+    {
+      "i": 227,
+      "tag": "DIV",
+      "cls": "component_object delete_ElementButton",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 466,
+        "y": 66,
+        "w": 20,
+        "h": 18
+      }
+    },
+    {
+      "i": 228,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--primary el-button--medium propertyStyle",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 466,
+        "y": 66,
+        "w": 20,
+        "h": 18
+      }
+    },
+    {
+      "i": 230,
+      "tag": "DIV",
+      "cls": "",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 491,
+        "y": 66,
+        "w": 20,
+        "h": 18
+      }
+    },
+    {
+      "i": 231,
+      "tag": "DIV",
+      "cls": "component_object_unselect",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 491,
+        "y": 66,
+        "w": 20,
+        "h": 18
+      }
+    },
+    {
+      "i": 232,
+      "tag": "DIV",
+      "cls": "ui_factory layer_class",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 491,
+        "y": 66,
+        "w": 20,
+        "h": 18
+      }
+    },
+    {
+      "i": 233,
+      "tag": "DIV",
+      "cls": "pointer_auto",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 491,
+        "y": 66,
+        "w": 20,
+        "h": 18
+      }
+    },
+    {
+      "i": 234,
+      "tag": "DIV",
+      "cls": "component_object ElementButton3",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 491,
+        "y": 66,
+        "w": 20,
+        "h": 18
+      }
+    },
+    {
+      "i": 235,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--primary el-button--medium propertyStyle",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 491,
+        "y": 66,
+        "w": 20,
+        "h": 18
+      }
+    },
+    {
+      "i": 255,
+      "tag": "DIV",
+      "cls": "response_row",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 107,
+        "w": 280,
+        "h": 34
+      }
+    },
+    {
+      "i": 256,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 107,
+        "w": 280,
+        "h": 34
+      }
+    },
+    {
+      "i": 257,
+      "tag": "DIV",
+      "cls": "",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 107,
+        "w": 280,
+        "h": 34
+      }
+    },
+    {
+      "i": 258,
+      "tag": "DIV",
+      "cls": "component_object_unselect",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 107,
+        "w": 280,
+        "h": 34
+      }
+    },
+    {
+      "i": 259,
+      "tag": "DIV",
+      "cls": "ui_factory layer_class",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 107,
+        "w": 280,
+        "h": 34
+      }
+    },
+    {
+      "i": 260,
+      "tag": "DIV",
+      "cls": "pointer_auto",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 107,
+        "w": 280,
+        "h": 34
+      }
+    },
+    {
+      "i": 261,
+      "tag": "DIV",
+      "cls": "el-input-component component_object spaceTimeRepoKeyWords_ElementInput",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 107,
+        "w": 280,
+        "h": 34
+      }
+    },
+    {
+      "i": 262,
+      "tag": "DIV",
+      "cls": "el-input el-input--auto el-input--suffix is-normal",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 107,
+        "w": 280,
+        "h": 34
+      }
+    },
+    {
+      "i": 268,
+      "tag": "DIV",
+      "cls": "response_row",
+      "text": "KF4.5Root\nPalimpsestL1\nPalimpsestRoot",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 156,
+        "w": 280,
+        "h": 671
+      }
+    },
+    {
+      "i": 269,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "KF4.5Root\nPalimpsestL1\nPalimpsestRoot",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 156,
+        "w": 280,
+        "h": 671
+      }
+    },
+    {
+      "i": 270,
+      "tag": "DIV",
+      "cls": "",
+      "text": "KF4.5Root\nPalimpsestL1\nPalimpsestRoot",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 156,
+        "w": 280,
+        "h": 671
+      }
+    },
+    {
+      "i": 271,
+      "tag": "DIV",
+      "cls": "component_object_unselect",
+      "text": "KF4.5Root\nPalimpsestL1\nPalimpsestRoot",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 156,
+        "w": 280,
+        "h": 671
+      }
+    },
+    {
+      "i": 272,
+      "tag": "DIV",
+      "cls": "ui_factory layer_class",
+      "text": "KF4.5Root\nPalimpsestL1\nPalimpsestRoot",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 156,
+        "w": 280,
+        "h": 671
+      }
+    },
+    {
+      "i": 273,
+      "tag": "DIV",
+      "cls": "pointer_auto",
+      "text": "KF4.5Root\nPalimpsestL1\nPalimpsestRoot",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 156,
+        "w": 280,
+        "h": 671
+      }
+    },
+    {
+      "i": 274,
+      "tag": "DIV",
+      "cls": "custom_tree component_object spaceTimeRepo_ElementTree",
+      "text": "KF4.5Root\nPalimpsestL1\nPalimpsestRoot",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 156,
+        "w": 280,
+        "h": 671
+      }
+    },
+    {
+      "i": 275,
+      "tag": "DIV",
+      "cls": "el-tree tree el-tree--highlight-current",
+      "text": "KF4.5Root\nPalimpsestL1\nPalimpsestRoot",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 156,
+        "w": 280,
+        "h": 90
+      }
+    },
+    {
+      "i": 276,
+      "tag": "DIV",
+      "cls": "el-tree-node is-expanded is-focusable",
+      "text": "KF4.5Root\nPalimpsestL1\nPalimpsestRoot",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 156,
+        "w": 280,
+        "h": 90
+      }
+    },
+    {
+      "i": 277,
+      "tag": "DIV",
+      "cls": "el-tree-node__content",
+      "text": "KF4.5Root",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 156,
+        "w": 280,
+        "h": 30
+      }
+    },
+    {
+      "i": 278,
+      "tag": "SPAN",
+      "cls": "expanded el-tree-node__expand-icon el-icon-caret-right",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 164,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "i": 279,
+      "tag": "SPAN",
+      "cls": "editNode root-node",
+      "text": "KF4.5Root",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 270,
+        "y": 158,
+        "w": 102.078125,
+        "h": 26
+      }
+    },
+    {
+      "i": 280,
+      "tag": "I",
+      "cls": "custom-el-icon kf-icon-root",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 270,
+        "y": 164,
+        "w": 11.515625,
+        "h": 14
+      }
+    },
+    {
+      "i": 281,
+      "tag": "SPAN",
+      "cls": "treeNodeLabel",
+      "text": "KF4.5Root",
+      "title": "KF4.5Root",
+      "aria": "",
+      "rect": {
+        "x": 281.515625,
+        "y": 158,
+        "w": 74.5625,
+        "h": 26
+      }
+    },
+    {
+      "i": 282,
+      "tag": "DIV",
+      "cls": "nodeButtonBox nodeButtonBoxHover",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 356.078125,
+        "y": 158,
+        "w": 16,
+        "h": 26
+      }
+    },
+    {
+      "i": 283,
+      "tag": "SPAN",
+      "cls": "nodeButton",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 356.078125,
+        "y": 161,
+        "w": 16,
+        "h": 20
+      }
+    },
+    {
+      "i": 284,
+      "tag": "DIV",
+      "cls": "el-tree-node__children",
+      "text": "PalimpsestL1\nPalimpsestRoot",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 186,
+        "w": 280,
+        "h": 60
+      }
+    },
+    {
+      "i": 285,
+      "tag": "DIV",
+      "cls": "el-tree-node is-expanded is-focusable",
+      "text": "PalimpsestL1",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 186,
+        "w": 280,
+        "h": 30
+      }
+    },
+    {
+      "i": 286,
+      "tag": "DIV",
+      "cls": "el-tree-node__content",
+      "text": "PalimpsestL1",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 186,
+        "w": 280,
+        "h": 30
+      }
+    },
+    {
+      "i": 287,
+      "tag": "SPAN",
+      "cls": "is-leaf el-tree-node__expand-icon el-icon-caret-right",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 272,
+        "y": 194,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "i": 288,
+      "tag": "SPAN",
+      "cls": "editNode",
+      "text": "PalimpsestL1",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 286,
+        "y": 188,
+        "w": 121.65625,
+        "h": 26
+      }
+    },
+    {
+      "i": 289,
+      "tag": "I",
+      "cls": "custom-el-icon kf-icon-root",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 286,
+        "y": 194,
+        "w": 12.171875,
+        "h": 14
+      }
+    },
+    {
+      "i": 290,
+      "tag": "SPAN",
+      "cls": "treeNodeLabel",
+      "text": "PalimpsestL1",
+      "title": "PalimpsestL1",
+      "aria": "",
+      "rect": {
+        "x": 298.171875,
+        "y": 188,
+        "w": 93.484375,
+        "h": 26
+      }
+    },
+    {
+      "i": 291,
+      "tag": "DIV",
+      "cls": "nodeButtonBox nodeButtonBoxHover",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 391.65625,
+        "y": 188,
+        "w": 16,
+        "h": 26
+      }
+    },
+    {
+      "i": 292,
+      "tag": "SPAN",
+      "cls": "nodeButton",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 391.65625,
+        "y": 191,
+        "w": 16,
+        "h": 20
+      }
+    },
+    {
+      "i": 294,
+      "tag": "DIV",
+      "cls": "el-tree-node is-expanded is-current is-focusable",
+      "text": "PalimpsestRoot",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 216,
+        "w": 280,
+        "h": 30
+      }
+    },
+    {
+      "i": 295,
+      "tag": "DIV",
+      "cls": "el-tree-node__content",
+      "text": "PalimpsestRoot",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 256,
+        "y": 216,
+        "w": 280,
+        "h": 30
+      }
+    },
+    {
+      "i": 296,
+      "tag": "SPAN",
+      "cls": "is-leaf el-tree-node__expand-icon el-icon-caret-right",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 272,
+        "y": 224,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "i": 297,
+      "tag": "SPAN",
+      "cls": "editNode",
+      "text": "PalimpsestRoot",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 286,
+        "y": 218,
+        "w": 136.796875,
+        "h": 26
+      }
+    },
+    {
+      "i": 298,
+      "tag": "I",
+      "cls": "custom-el-icon kf-icon-root",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 286,
+        "y": 224,
+        "w": 12.5625,
+        "h": 14
+      }
+    },
+    {
+      "i": 299,
+      "tag": "SPAN",
+      "cls": "treeNodeLabel",
+      "text": "PalimpsestRoot",
+      "title": "PalimpsestRoot",
+      "aria": "",
+      "rect": {
+        "x": 298.5625,
+        "y": 218,
+        "w": 108.234375,
+        "h": 26
+      }
+    },
+    {
+      "i": 300,
+      "tag": "DIV",
+      "cls": "nodeButtonBox nodeButtonBoxHover",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 406.796875,
+        "y": 218,
+        "w": 16,
+        "h": 26
+      }
+    },
+    {
+      "i": 301,
+      "tag": "SPAN",
+      "cls": "nodeButton",
+      "text": "",
+      "title": "",
+      "aria": "",
+      "rect": {
+        "x": 406.796875,
+        "y": 221,
+        "w": 16,
+        "h": 20
+      }
+    }
+  ]
+}

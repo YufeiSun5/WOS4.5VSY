@@ -9,6 +9,10 @@ description: Update an existing WOS4 runtime time-space to a newer repository pa
 
 Use this skill to update a fixed personal runtime time-space to a newer repository package version.
 
+Do not use this skill merely to preview or debug a page inside the WOS4 page editor. `mode=debugger` page preview and backend `调试配置` are development/debug surfaces and do not require generating or updating a time-space runtime package by themselves.
+
+Use this skill only after a repository/time-space package is actually needed for formal runtime integration, deployed object verification, or same-spacetime frontend/backend `Call` testing.
+
 Default goal:
 
 ```text

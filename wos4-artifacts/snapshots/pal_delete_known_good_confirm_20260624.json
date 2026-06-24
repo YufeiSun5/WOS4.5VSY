@@ -1,0 +1,45 @@
+{
+  "rect": {
+    "found": true,
+    "x": 1068,
+    "y": 481.5,
+    "w": 72,
+    "h": 30,
+    "text": "删除实例\n\n确定要删除选中的实例吗？\n该操作会将实例相关的数据全部删除且不可恢复！\n请谨慎操作！\n\n取消\n确定",
+    "btnText": "确定"
+  },
+  "after": {
+    "rows": [
+      {
+        "i": 0,
+        "text": "序号\t名称\t显示名称\t描述\t模型\t模型版本\t操作"
+      },
+      {
+        "i": 1,
+        "text": "1\n\t\nPalimpsestBack\n\t\nPalimpsestBack\n\t\nPalimpsest backend CRUD service\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除"
+      },
+      {
+        "i": 2,
+        "text": "2\n\t\nPalimpsestKnownGoodBack\n\t\nPalimpsestKnownGoodBack\n\t\nKnown good backend package probe\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv4\n\t\n编辑属性切换模型版本形参管理提交版本删除"
+      }
+    ],
+    "visible": [
+      {
+        "cls": "el-message-box__wrapper",
+        "display": "none",
+        "text": "提示有提交失败的数据, 是否导出错误信息?\n          取消\n        \n          确定\n        "
+      },
+      {
+        "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_374598",
+        "display": "block",
+        "text": "删除实例\n\n确定要删除选中的实例吗？\n该操作会将实例相关的数据全部删除且不可恢复！\n请谨慎操作！\n\n取消\n确定"
+      },
+      {
+        "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_808508",
+        "display": "block",
+        "text": ""
+      }
+    ],
+    "body": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot\n\n实例列表\n\n新建\n删除\n更多操作 \n\t序号\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\n1\n\t\nPalimpsestBack\n\t\nPalimpsestBack\n\t\nPalimpsest backend CRUD service\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\n2\n\t\nPalimpsestKnownGoodBack\n\t\nPalimpsestKnownGoodBack\n\t\nKnown good backend package probe\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv4\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n删除实例\n\n确定要删除选中的实例吗？\n该操作会将实例相关的数据全部删除且不可恢复！\n请谨慎操作！\n\n取消\n确定\n\n实例删除中..."
+  }
+}

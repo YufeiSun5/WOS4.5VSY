@@ -1,0 +1,17 @@
+{
+  "task": "业务事成员编辑skill审阅规则",
+  "time": "20260624T095933",
+  "before": [
+    ".ai/skills/wos4-business-event-member-edit/SKILL.md",
+    "AI-INTERACTION-PANEL.md",
+    ".ai/interactions/INDEX.md",
+    "MEMORY.md",
+    "wos4-artifacts/tasks/20260623-新测试页左右菜单CRUD弹窗设计/执行日志.md",
+    "wos4-artifacts/tasks/20260623-新测试页左右菜单CRUD弹窗设计/证据清单.md",
+    "WOS4_deep_test_notes.md"
+  ],
+  "new": [
+    ".ai/interactions/open/<timestamp>-palimpsest-business-event-member-review.md",
+    "wos4-artifacts/tasks/20260623-新测试页左右菜单CRUD弹窗设计/events/<timestamp>-孙宇飞_code-ai-请求审阅.md"
+  ]
+}

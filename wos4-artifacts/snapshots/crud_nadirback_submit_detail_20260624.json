@@ -1,0 +1,264 @@
+{
+  "click": {
+    "clicked": true,
+    "row": "\t\n1\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv4\n\t\n编辑属性切换模型版本形参管理提交版本删除"
+  },
+  "confirm": {
+    "acted": false,
+    "details": []
+  },
+  "result": {
+    "capture": {
+      "messages": [
+        {
+          "text": "数字孪生实例化_实例_提交版本",
+          "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_789230",
+          "t": 1782277435346
+        },
+        {
+          "text": "数字孪生实例化_实例_提交版本",
+          "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_789230",
+          "t": 1782277435346
+        },
+        {
+          "text": "提示有提交失败的数据, 是否导出错误信息?\n          取消\n        \n          确定",
+          "cls": "el-message-box__wrapper",
+          "t": 1782277436216
+        }
+      ],
+      "console": [
+        {
+          "level": "log",
+          "args": [
+            "[D] 点击了 <提交版本> 按钮, scope = ",
+            "[object Object]:[object Object]"
+          ],
+          "t": 1782277430896
+        },
+        {
+          "level": "log",
+          "args": [
+            "[I] 远程调用接口 <IQuerySpaceTimeRepoDetails>, res = ",
+            "{\"errorcodes\":[0],\"ret\":0,\"returndata\":{\"errorcode\":0,\"errormessage\":\"\",\"returndata\":{\"collectiontype\":\"1\",\"description\":\"clean crud l2\",\"displayname\":\"NadirL2\",\"guid\":\"4fa17a11-b923-4b36-b1e8-c39ca1bcf62c\",\"id\":\"288230376151738727\",\"name\":\"NadirL2\",\"parentguid\":\"10acca9d-f852-4dcf-b27e-35ebe8e3f671\",\"parentrepoguid\":\"53604a6a-b180-45c8-8a1d-be0c14369f78\",\"spacetimerepotype\":\"40\",\"tabs\":\"本云_area0\",\"version\":6}},\"traceID\":\"5189189436568574976\",\"consumeTime\":667}"
+          ],
+          "t": 1782277431651
+        },
+        {
+          "level": "log",
+          "args": [
+            "i show child initChildData"
+          ],
+          "t": 1782277435332
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList start"
+          ],
+          "t": 1782277435632
+        },
+        {
+          "level": "log",
+          "args": [
+            "spaceTime parse error!"
+          ],
+          "t": 1782277435643
+        },
+        {
+          "level": "log",
+          "args": [
+            "registerLink"
+          ],
+          "t": 1782277435653
+        },
+        {
+          "level": "log",
+          "args": [
+            "页面名称:",
+            "数字孪生实例化_实例_提交版本",
+            "PARENT_STORE_PARAM:",
+            "{\"child$StoreName\":\"$7205759403792796133__$ChildPage__数字孪生实例化_实例_提交版本\",\"spaceTime\":{\"ret\":-10002,\"id\":\"\",\"guid\":\"\",\"name\":\"\",\"yuanArea\":0,\"webJsArea\":0,\"realArea\":0,\"planArea\":0,\"historyArea\":0,\"devName\":\"\",\"source\":\"showChild\"},\"fuObj\":{},\"isChild\":true}"
+          ],
+          "t": 1782277435681
+        },
+        {
+          "level": "log",
+          "args": [
+            "registerDataSet"
+          ],
+          "t": 1782277435695
+        },
+        {
+          "level": "log",
+          "args": [
+            "KGSDataObjMng subscribeDataObj"
+          ],
+          "t": 1782277435700
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782277435773
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782277435832
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782277435886
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] <版本提交进度> 开始打包 :: repoGuidAndInfoMap = ",
+            "{}"
+          ],
+          "t": 1782277435941
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782277435955
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782277435960
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782277435964
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] _asyncCreatePacketCallback, result = ",
+            "{\"errorcodes\":[-15495],\"errordesc\":\"{\\\"errorCode\\\":-15495,\\\"errorMessage\\\":\\\"get copy base model data failed.\\\",\\\"modelGUID\\\":\\\"f2cafeb2-27f2-43df-881f-0fcb6b49ab45\\\",\\\"modelVersion\\\":7,\\\"copyGUID\\\":\\\"a0b5fddf-4654-48a7-92e2-bb9ad124da92\\\",\\\"functionName\\\":\\\"\\\"}\",\"guids\":[\"59d78c76-8064-4d15-a31d-29f79a4f9634\"],\"versions\":[2]}"
+          ],
+          "t": 1782277436041
+        },
+        {
+          "level": "log",
+          "args": [
+            "[E] 打包回调报错 :: errorCode = -15495"
+          ],
+          "t": 1782277436050
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] _asyncCreatePacketCallback, result = ",
+            "{\"errorcodes\":[-15495],\"errordesc\":\"{\\\"errorCode\\\":-15495,\\\"errorMessage\\\":\\\"get copy base model data failed.\\\",\\\"modelGUID\\\":\\\"4cdf8aaa-dcff-45ed-a061-ba1bd711673b\\\",\\\"modelVersion\\\":22,\\\"copyGUID\\\":\\\"a8e2c6ed-1190-43fa-bb92-f3204c910f76\\\",\\\"functionName\\\":\\\"\\\"}\",\"guids\":[\"96ada4a9-b3aa-4d27-807e-b962ec1ab897\"],\"versions\":[2]}"
+          ],
+          "t": 1782277436085
+        },
+        {
+          "level": "log",
+          "args": [
+            "[E] 打包回调报错 :: errorCode = -15495"
+          ],
+          "t": 1782277436095
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] _asyncCreatePacketCallback, result = ",
+            "{\"errorcodes\":[0],\"errordesc\":\"{\\\"errorCode\\\", \\\"0\\\"}\",\"guids\":[\"eabf792a-56db-4df9-80cc-3ec0dbacc7e1\"],\"versions\":[2]}"
+          ],
+          "t": 1782277436108
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] <版本提交进度> 打包结果 :: repoGuidAndInfoMap = ",
+            "{}"
+          ],
+          "t": 1782277436118
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] <实例版本提交> :: 删除打包失败仓库相关的数据包 :: repoPacketGuidAndVersionMapToBeDeleted = ",
+            "{}"
+          ],
+          "t": 1782277436134
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782277436145
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] <实例版本提交> :: 删除打包失败仓库相关的数据包 :: deleteRes = ",
+            "true"
+          ],
+          "t": 1782277436207
+        }
+      ]
+    },
+    "dialogs": [
+      {
+        "i": 0,
+        "cls": "el-dialog__wrapper",
+        "display": "none",
+        "text": ""
+      },
+      {
+        "i": 1,
+        "cls": "el-dialog__wrapper",
+        "display": "none",
+        "text": ""
+      },
+      {
+        "i": 2,
+        "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_789230",
+        "display": "block",
+        "text": "实例版本提交进度\n\n0%\n\n\t名称\tGUID\t状态\t详情\n1\n\t\nNadirBack\n\t\neabf792a-56db-4df9-80cc-3ec0dbacc7e1\n\t\n\t\n相关联仓库提交失败 :: NadirBack//业务事_运行后台 :: 打包回调报错 :: errorCode = -15495, NadirBack//业务内置APP :: 打包回调报错 :: errorCode = -15495\n关闭"
+      },
+      {
+        "i": 3,
+        "cls": "el-message-box__wrapper",
+        "display": "block",
+        "text": "提示\n\n有提交失败的数据, 是否导出错误信息?\n\n取消确定"
+      }
+    ],
+    "rows": [
+      {
+        "i": 0,
+        "text": "序号\t名称\t显示名称\t描述\t模型\t模型版本\t操作"
+      },
+      {
+        "i": 1,
+        "text": "1\n\t\nNadirBack\n\t\nNadirBack\n\t\nclean backend\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv4\n\t\n编辑属性切换模型版本形参管理提交版本删除"
+      },
+      {
+        "i": 2,
+        "text": "名称\tGUID\t状态\t详情"
+      },
+      {
+        "i": 3,
+        "text": "1\n\t\nNadirBack\n\t\neabf792a-56db-4df9-80cc-3ec0dbacc7e1\n\t\n\t\n相关联仓库提交失败 :: NadirBack//业务事_运行后台 :: 打包回调报错 :: errorCode = -15495, NadirBack//业务内置APP :: 打包回调报错 :: errorCode = -15495"
+      }
+    ]
+  }
+}

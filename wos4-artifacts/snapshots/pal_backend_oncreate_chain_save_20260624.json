@@ -1,0 +1,35 @@
+{
+  "active": "onCreate",
+  "lines": [
+    "stringMap<var> strmapPara;",
+    "string resultText;",
+    "strmapPara[\"action\"] = \"startupSmoke\";",
+    "resultText = QueryAssessmentRecords(strmapPara);",
+    "Trace(2, \"PalimpsestBackend.onCreate.QueryAssessmentRecords\", resultText);",
+    "resultText = CreateAssessmentRecord(strmapPara);",
+    "Trace(2, \"PalimpsestBackend.onCreate.CreateAssessmentRecord\", resultText);",
+    "resultText = UpdateAssessmentRecord(strmapPara);",
+    "Trace(2, \"PalimpsestBackend.onCreate.UpdateAssessmentRecord\", resultText);",
+    "resultText = DeleteAssessmentRecord(strmapPara);",
+    "Trace(2, \"PalimpsestBackend.onCreate.DeleteAssessmentRecord\", resultText);",
+    "resultText = SubmitAssessmentScore(strmapPara);",
+    "Trace(2, \"PalimpsestBackend.onCreate.SubmitAssessmentScore\", resultText);"
+  ],
+  "unsaved": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+  ],
+  "body": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\nQueryAssessmentPage\n\nQueryAssessmentData\n\nQueryAssessmentSmoke\n\nPalimpsestCrudService\n\nQueryAssessmentRecords\n\nCreateAssessmentRecord\n\nUpdateAssessmentRecord\n\nDeleteAssessmentRecord\n\nSubmitAssessmentScore\n\nPalimpsestHandleError\n\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nonDestroy\nonException\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\nstringMap<var> strmapPara;\nstring resultText;\nstrmapPara[\"action\"] = \"startupSmoke\";\nresultText = QueryAssessmentRecords(strmapPara);\nTrace(2, \"PalimpsestBackend.onCreate.QueryAssessmentRecords\", resultText);\nresultText = CreateAssessmentRecord(strmapPara);\nTrace(2, \"PalimpsestBackend.onCreate.CreateAssessmentRecord\", resultText);\nresultText = UpdateAssessmentRecord(strmapPara);\nTrace(2, \"PalimpsestBackend.onCreate.UpdateAssessmentRecord\", resultText);\nresultText = DeleteAssessmentRecord(strmapPara);\nTrace(2, \"PalimpsestBackend.onCreate.DeleteAssessmentRecord\", resultText);\nresultText = SubmitAssessmentScore(strmapPara);\nTrace(2, \"PalimpsestBackend.onCreate.SubmitAssessmentScore\", resultText);\n行：13，列：74，\n空格：4\n元语言\n属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n0 / 128\n\n\nID:\n1441151880758560281\n\n\nGUID:\naa5d8314-87b7-453c-96e6-21e4327a8778\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功"
+}

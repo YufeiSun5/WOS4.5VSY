@@ -13,6 +13,7 @@ Thumbs.db
 .env.*
 !.env.example
 *.local.ini
+wos4-artifacts/config/*.local.json
 wos4-artifacts/config/*.ini
 !wos4-artifacts/config/*.example.ini
 
@@ -21,6 +22,7 @@ playwright-report/
 test-results/
 wos4-artifacts/config/browser-harness-chrome-profile/
 wos4-artifacts/config/*chrome-profile*/
+wos4-artifacts/config/chrome-profiles/
 wos4-artifacts/config/**/Cookies*
 wos4-artifacts/config/**/Login Data*
 wos4-artifacts/config/**/History*

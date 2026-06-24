@@ -1,0 +1,4 @@
+interface:
+  display_name: "WOS4 Meta Debugger"
+  short_description: "Debug WOS4 custom calculations with breakpoints, variables, and stack evidence."
+  default_prompt: "Use the WOS4 meta-language debugger skill to set a breakpoint, start debug, step over, and capture variables/stack evidence in the current custom calculation editor."

@@ -1,0 +1,1554 @@
+{
+  "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_120/index.html",
+  "hasView": true,
+  "kidsCount": 40,
+  "kidSummary": [
+    {
+      "key": "PageView",
+      "ctor": "a",
+      "UIName": "",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "k9e51cfc8334088b39d28e23f33e900b",
+      "propKeys": []
+    },
+    {
+      "key": "pal_filter_status",
+      "ctor": "a",
+      "UIName": "pal_filter_status",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [
+        "elementuiType",
+        "groupName",
+        "objectType",
+        "id",
+        "KSCGUID",
+        "leftTopPt",
+        "prototypeName",
+        "icon",
+        "UIName",
+        "accessable",
+        "UIDesc",
+        "locationX",
+        "locationY",
+        "value",
+        "color",
+        "fontFamily",
+        "fontSize",
+        "backgroundColor",
+        "fontWeight",
+        "fontStyle",
+        "textDecoration",
+        "detailConfig",
+        "styleConfig",
+        "borderWidth",
+        "borderColor",
+        "horizontal",
+        "vertical",
+        "edit",
+        "lineFeed",
+        "lock",
+        "visible",
+        "runVisible",
+        "isRequired",
+        "tooltipDisable",
+        "uiInputLinkList",
+        "uiOutputLinkList",
+        "langKeys",
+        "parentGUID",
+        "linkList"
+      ]
+    },
+    {
+      "key": "FilterKeywordCol",
+      "ctor": "a",
+      "UIName": "",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [],
+      "objectType": [
+        "Object"
+      ]
+    },
+    {
+      "key": "pal_filter_keyword",
+      "ctor": "a",
+      "UIName": "pal_filter_keyword",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [
+        "UIName",
+        "groupName",
+        "icon",
+        "KSCGUID",
+        "elementuiType",
+        "lock",
+        "visible",
+        "runVisible",
+        "objectType",
+        "prototypeName",
+        "value",
+        "detailConfig",
+        "styleConfig",
+        "debounce",
+        "placement",
+        "triggeronFocus",
+        "selectWhenUnmatched",
+        "hideLoading",
+        "highlightFirstItem",
+        "custom",
+        "autocomplete",
+        "maxlength",
+        "showWordLimit",
+        "clearable",
+        "placeholder",
+        "showPassword",
+        "disabled",
+        "size",
+        "prefixIcon",
+        "suffixIcon",
+        "type",
+        "rows",
+        "readonly",
+        "max",
+        "min",
+        "step",
+        "prepend",
+        "append",
+        "tabindex",
+        "styleOption"
+      ]
+    },
+    {
+      "key": "FilterDeptCol",
+      "ctor": "a",
+      "UIName": "",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [],
+      "objectType": [
+        "Object"
+      ]
+    },
+    {
+      "key": "FilterMentorCol",
+      "ctor": "a",
+      "UIName": "",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [],
+      "objectType": []
+    },
+    {
+      "key": "pal_export_button",
+      "ctor": "a",
+      "UIName": "pal_export_button",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [
+        "UIName",
+        "groupName",
+        "icon",
+        "authName",
+        "isConfigAuth",
+        "elementuiType",
+        "objectType",
+        "prototypeName",
+        "id",
+        "KSCGUID",
+        "leftTopPt",
+        "content",
+        "badgeColor",
+        "color",
+        "backgroundColor",
+        "dot",
+        "max",
+        "accessable",
+        "UIDesc",
+        "locationX",
+        "locationY",
+        "lock",
+        "visible",
+        "runVisible",
+        "operable",
+        "tooltipDisable",
+        "disabled",
+        "plain",
+        "round",
+        "circle",
+        "loading",
+        "text",
+        "detailConfig",
+        "styleConfig",
+        "tooltip",
+        "parentGUID",
+        "isCloseCurPage",
+        "throttleTime",
+        "uiInputLinkList",
+        "uiOutputLinkList"
+      ]
+    },
+    {
+      "key": "FilterBatchCol",
+      "ctor": "a",
+      "UIName": "",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [],
+      "objectType": [
+        "Object"
+      ]
+    },
+    {
+      "key": "pal_page_title",
+      "ctor": "a",
+      "UIName": "pal_page_title",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [
+        "elementuiType",
+        "groupName",
+        "objectType",
+        "id",
+        "KSCGUID",
+        "leftTopPt",
+        "prototypeName",
+        "icon",
+        "UIName",
+        "accessable",
+        "UIDesc",
+        "locationX",
+        "locationY",
+        "value",
+        "color",
+        "fontFamily",
+        "fontSize",
+        "backgroundColor",
+        "fontWeight",
+        "fontStyle",
+        "textDecoration",
+        "detailConfig",
+        "styleConfig",
+        "borderWidth",
+        "borderColor",
+        "horizontal",
+        "vertical",
+        "edit",
+        "lineFeed",
+        "lock",
+        "visible",
+        "runVisible",
+        "isRequired",
+        "tooltipDisable",
+        "uiInputLinkList",
+        "uiOutputLinkList",
+        "langKeys",
+        "parentGUID",
+        "linkList"
+      ]
+    },
+    {
+      "key": "FilterDateCol",
+      "ctor": "a",
+      "UIName": "",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [],
+      "objectType": [
+        "Object"
+      ]
+    },
+    {
+      "key": "RRow1",
+      "ctor": "a",
+      "UIName": "",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": []
+    },
+    {
+      "key": "FilterStatusCol",
+      "ctor": "a",
+      "UIName": "",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [],
+      "objectType": [
+        "Object"
+      ]
+    },
+    {
+      "key": "pal_filter_input",
+      "ctor": "a",
+      "UIName": "pal_filter_input",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [
+        "UIName",
+        "groupName",
+        "icon",
+        "KSCGUID",
+        "elementuiType",
+        "lock",
+        "visible",
+        "runVisible",
+        "objectType",
+        "prototypeName",
+        "value",
+        "detailConfig",
+        "styleConfig",
+        "debounce",
+        "placement",
+        "triggeronFocus",
+        "selectWhenUnmatched",
+        "hideLoading",
+        "highlightFirstItem",
+        "custom",
+        "autocomplete",
+        "maxlength",
+        "showWordLimit",
+        "clearable",
+        "placeholder",
+        "showPassword",
+        "disabled",
+        "size",
+        "prefixIcon",
+        "suffixIcon",
+        "type",
+        "rows",
+        "readonly",
+        "max",
+        "min",
+        "step",
+        "prepend",
+        "append",
+        "tabindex",
+        "styleOption"
+      ]
+    },
+    {
+      "key": "ActionSpacerCol",
+      "ctor": "a",
+      "UIName": "",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [],
+      "objectType": [
+        "Object"
+      ]
+    },
+    {
+      "key": "QueryCol",
+      "ctor": "a",
+      "UIName": "",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [],
+      "objectType": []
+    },
+    {
+      "key": "pal_add_button",
+      "ctor": "a",
+      "UIName": "pal_add_button",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [
+        "UIName",
+        "groupName",
+        "icon",
+        "authName",
+        "isConfigAuth",
+        "elementuiType",
+        "objectType",
+        "prototypeName",
+        "id",
+        "KSCGUID",
+        "leftTopPt",
+        "content",
+        "badgeColor",
+        "color",
+        "backgroundColor",
+        "dot",
+        "max",
+        "accessable",
+        "UIDesc",
+        "locationX",
+        "locationY",
+        "lock",
+        "visible",
+        "runVisible",
+        "operable",
+        "tooltipDisable",
+        "disabled",
+        "plain",
+        "round",
+        "circle",
+        "loading",
+        "text",
+        "detailConfig",
+        "styleConfig",
+        "tooltip",
+        "parentGUID",
+        "isCloseCurPage",
+        "throttleTime",
+        "uiInputLinkList",
+        "uiOutputLinkList"
+      ]
+    },
+    {
+      "key": "ResetCol",
+      "ctor": "a",
+      "UIName": "",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [],
+      "objectType": [
+        "Object"
+      ]
+    },
+    {
+      "key": "ExportCol",
+      "ctor": "a",
+      "UIName": "",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [],
+      "objectType": [
+        "Object"
+      ]
+    },
+    {
+      "key": "ActionTailCol",
+      "ctor": "a",
+      "UIName": "",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [],
+      "objectType": [
+        "Object"
+      ]
+    },
+    {
+      "key": "RRow2",
+      "ctor": "a",
+      "UIName": "",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": []
+    },
+    {
+      "key": "pal_metric_total",
+      "ctor": "a",
+      "UIName": "pal_metric_total",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [
+        "elementuiType",
+        "groupName",
+        "objectType",
+        "id",
+        "KSCGUID",
+        "leftTopPt",
+        "prototypeName",
+        "icon",
+        "UIName",
+        "accessable",
+        "UIDesc",
+        "locationX",
+        "locationY",
+        "value",
+        "color",
+        "fontFamily",
+        "fontSize",
+        "backgroundColor",
+        "fontWeight",
+        "fontStyle",
+        "textDecoration",
+        "detailConfig",
+        "styleConfig",
+        "borderWidth",
+        "borderColor",
+        "horizontal",
+        "vertical",
+        "edit",
+        "lineFeed",
+        "lock",
+        "visible",
+        "runVisible",
+        "isRequired",
+        "tooltipDisable",
+        "uiInputLinkList",
+        "uiOutputLinkList",
+        "langKeys",
+        "parentGUID",
+        "linkList"
+      ]
+    },
+    {
+      "key": "MetricTotalCol",
+      "ctor": "a",
+      "UIName": "",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [],
+      "objectType": [
+        "Object"
+      ]
+    },
+    {
+      "key": "pal_metric_wait",
+      "ctor": "a",
+      "UIName": "pal_metric_wait",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [
+        "elementuiType",
+        "groupName",
+        "objectType",
+        "id",
+        "KSCGUID",
+        "leftTopPt",
+        "prototypeName",
+        "icon",
+        "UIName",
+        "accessable",
+        "UIDesc",
+        "locationX",
+        "locationY",
+        "value",
+        "color",
+        "fontFamily",
+        "fontSize",
+        "backgroundColor",
+        "fontWeight",
+        "fontStyle",
+        "textDecoration",
+        "detailConfig",
+        "styleConfig",
+        "borderWidth",
+        "borderColor",
+        "horizontal",
+        "vertical",
+        "edit",
+        "lineFeed",
+        "lock",
+        "visible",
+        "runVisible",
+        "isRequired",
+        "tooltipDisable",
+        "uiInputLinkList",
+        "uiOutputLinkList",
+        "langKeys",
+        "parentGUID",
+        "linkList"
+      ]
+    },
+    {
+      "key": "MetricWaitCol",
+      "ctor": "a",
+      "UIName": "",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [],
+      "objectType": [
+        "Object"
+      ]
+    },
+    {
+      "key": "pal_metric_done",
+      "ctor": "a",
+      "UIName": "pal_metric_done",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [
+        "elementuiType",
+        "groupName",
+        "objectType",
+        "id",
+        "KSCGUID",
+        "leftTopPt",
+        "prototypeName",
+        "icon",
+        "UIName",
+        "accessable",
+        "UIDesc",
+        "locationX",
+        "locationY",
+        "value",
+        "color",
+        "fontFamily",
+        "fontSize",
+        "backgroundColor",
+        "fontWeight",
+        "fontStyle",
+        "textDecoration",
+        "detailConfig",
+        "styleConfig",
+        "borderWidth",
+        "borderColor",
+        "horizontal",
+        "vertical",
+        "edit",
+        "lineFeed",
+        "lock",
+        "visible",
+        "runVisible",
+        "isRequired",
+        "tooltipDisable",
+        "uiInputLinkList",
+        "uiOutputLinkList",
+        "langKeys",
+        "parentGUID",
+        "linkList"
+      ]
+    },
+    {
+      "key": "MetricDoneCol",
+      "ctor": "a",
+      "UIName": "",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [],
+      "objectType": [
+        "Object"
+      ]
+    },
+    {
+      "key": "pal_metric_avg",
+      "ctor": "a",
+      "UIName": "pal_metric_avg",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [
+        "elementuiType",
+        "groupName",
+        "objectType",
+        "id",
+        "KSCGUID",
+        "leftTopPt",
+        "prototypeName",
+        "icon",
+        "UIName",
+        "accessable",
+        "UIDesc",
+        "locationX",
+        "locationY",
+        "value",
+        "color",
+        "fontFamily",
+        "fontSize",
+        "backgroundColor",
+        "fontWeight",
+        "fontStyle",
+        "textDecoration",
+        "detailConfig",
+        "styleConfig",
+        "borderWidth",
+        "borderColor",
+        "horizontal",
+        "vertical",
+        "edit",
+        "lineFeed",
+        "lock",
+        "visible",
+        "runVisible",
+        "isRequired",
+        "tooltipDisable",
+        "uiInputLinkList",
+        "uiOutputLinkList",
+        "langKeys",
+        "parentGUID",
+        "linkList"
+      ]
+    },
+    {
+      "key": "MetricAvgCol",
+      "ctor": "a",
+      "UIName": "",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [],
+      "objectType": [
+        "Object"
+      ]
+    },
+    {
+      "key": "RRow3",
+      "ctor": "a",
+      "UIName": "",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": []
+    },
+    {
+      "key": "pal_assessment_table",
+      "ctor": "a",
+      "UIName": "pal_assessment_table",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [
+        "UIName",
+        "groupName",
+        "icon",
+        "prototypeName",
+        "elementuiType",
+        "objectType",
+        "KSCGUID",
+        "leftTopPt",
+        "showCustomLabel",
+        "customLabel",
+        "expands",
+        "detailConfig",
+        "styleConfig",
+        "dblLight",
+        "operable",
+        "lock",
+        "visible",
+        "expandRowKeys",
+        "runVisible",
+        "checkStateSave",
+        "show",
+        "data",
+        "stripe",
+        "border",
+        "treeProps",
+        "showHeader",
+        "fit",
+        "highlightCurrentRow",
+        "emptyText",
+        "showSummary",
+        "sumText",
+        "pagination",
+        "pageSizes",
+        "currentPage",
+        "pageSize",
+        "defaultExpandAll",
+        "lazyLoad",
+        "paginationLayout",
+        "customPagination",
+        "paginationBackground"
+      ]
+    },
+    {
+      "key": "DeptChartCol",
+      "ctor": "a",
+      "UIName": "",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [],
+      "objectType": [
+        "Object"
+      ]
+    },
+    {
+      "key": "TrendChartCol",
+      "ctor": "a",
+      "UIName": "",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [],
+      "objectType": [
+        "Object"
+      ]
+    },
+    {
+      "key": "RRow4",
+      "ctor": "a",
+      "UIName": "",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": []
+    },
+    {
+      "key": "pal_records_table",
+      "ctor": "a",
+      "UIName": "pal_records_table",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [
+        "UIName",
+        "groupName",
+        "icon",
+        "prototypeName",
+        "elementuiType",
+        "objectType",
+        "KSCGUID",
+        "leftTopPt",
+        "showCustomLabel",
+        "customLabel",
+        "expands",
+        "detailConfig",
+        "styleConfig",
+        "dblLight",
+        "operable",
+        "lock",
+        "visible",
+        "expandRowKeys",
+        "runVisible",
+        "checkStateSave",
+        "show",
+        "data",
+        "stripe",
+        "border",
+        "treeProps",
+        "showHeader",
+        "fit",
+        "highlightCurrentRow",
+        "emptyText",
+        "showSummary",
+        "sumText",
+        "pagination",
+        "pageSizes",
+        "currentPage",
+        "pageSize",
+        "defaultExpandAll",
+        "lazyLoad",
+        "paginationLayout",
+        "customPagination",
+        "paginationBackground"
+      ]
+    },
+    {
+      "key": "AssessmentTableCol",
+      "ctor": "a",
+      "UIName": "",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [],
+      "objectType": [
+        "Object"
+      ]
+    },
+    {
+      "key": "RRow5",
+      "ctor": "a",
+      "UIName": "",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": []
+    },
+    {
+      "key": "PalimpsestContentRoot",
+      "ctor": "a",
+      "UIName": "PalimpsestContentRoot",
+      "dataName": "PalimpsestContentRoot",
+      "KSGUID": "",
+      "KSCGUID": "k4ac10a9b4da1d5ef68bfa8209bfffb2",
+      "propKeys": []
+    },
+    {
+      "key": "图层1",
+      "ctor": "a",
+      "UIName": "图层1",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [
+        "UIName",
+        "visible",
+        "runVisible",
+        "lock",
+        "prototypeName",
+        "KSCGUID",
+        "index",
+        "object",
+        "runVisibleConfig",
+        "uiInputLinkList"
+      ]
+    },
+    {
+      "key": "currentSelectItem",
+      "ctor": "a",
+      "UIName": "",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "k9e51cfc8334088b39d28e23f33e900b",
+      "propKeys": []
+    },
+    {
+      "key": "pal_completion_trend_line",
+      "ctor": "a",
+      "UIName": "pal_completion_trend_line",
+      "dataName": "",
+      "KSGUID": "",
+      "KSCGUID": "",
+      "propKeys": [
+        "isMockChart",
+        "chartName",
+        "groupName",
+        "elementuiType",
+        "objectType",
+        "id",
+        "KSCGUID",
+        "leftTopPt",
+        "prototypeName",
+        "icon",
+        "UIName",
+        "accessable",
+        "description",
+        "textDecoration",
+        "detailConfig",
+        "lock",
+        "visible",
+        "runVisible",
+        "showBorder",
+        "resourceMng",
+        "linkList",
+        "uiInputLinkList",
+        "parentGUID",
+        "locationX",
+        "locationY",
+        "option",
+        "propData"
+      ]
+    }
+  ],
+  "roots": [
+    {
+      "key": "PalimpsestContentRoot",
+      "name": "",
+      "rows": [
+        {
+          "ri": 0,
+          "name": "RRow1",
+          "height": 88,
+          "heightStrategy": "fixedsize",
+          "cols": [
+            {
+              "ci": 0,
+              "name": "FilterKeywordCol",
+              "lgWidth": 310,
+              "xlWidth": 310,
+              "widthStrategy": "fixedsize",
+              "KSCGUID": "FilterKeywordCol_mqqfjd4o_834tdf",
+              "object": 1
+            },
+            {
+              "ci": 1,
+              "name": "FilterDeptCol",
+              "lgWidth": 300,
+              "xlWidth": 300,
+              "widthStrategy": "fixedsize",
+              "KSCGUID": "FilterDeptCol_mqqfjd4o_tp9tpy",
+              "object": 1
+            },
+            {
+              "ci": 2,
+              "name": "FilterMentorCol",
+              "lgWidth": 300,
+              "xlWidth": 300,
+              "widthStrategy": "fixedsize",
+              "KSCGUID": "FilterMentorCol_mqqfjd4o_ybuwq4",
+              "object": 0
+            },
+            {
+              "ci": 3,
+              "name": "FilterBatchCol",
+              "lgWidth": 300,
+              "xlWidth": 300,
+              "widthStrategy": "fixedsize",
+              "KSCGUID": "FilterBatchCol_mqqfjd4o_oscha4",
+              "object": 1
+            },
+            {
+              "ci": 4,
+              "name": "FilterDateCol",
+              "lgWidth": 338,
+              "xlWidth": 338,
+              "widthStrategy": "fixedsize",
+              "KSCGUID": "FilterDateCol_mqqfjd4o_9iszdq",
+              "object": 1
+            }
+          ]
+        },
+        {
+          "ri": 1,
+          "name": "RRow2",
+          "height": 88,
+          "heightStrategy": "fixedsize",
+          "cols": [
+            {
+              "ci": 0,
+              "name": "FilterStatusCol",
+              "lgWidth": 310,
+              "xlWidth": 310,
+              "widthStrategy": "fixedsize",
+              "KSCGUID": "FilterStatusCol_mqqfjd4o_i3mhx8",
+              "object": 1
+            },
+            {
+              "ci": 1,
+              "name": "ActionSpacerCol",
+              "lgWidth": 698,
+              "xlWidth": 698,
+              "widthStrategy": "fixedsize",
+              "KSCGUID": "ActionSpacerCol_mqqfjd4o_f6fvmv",
+              "object": 1
+            },
+            {
+              "ci": 2,
+              "name": "QueryCol",
+              "lgWidth": 145,
+              "xlWidth": 145,
+              "widthStrategy": "fixedsize",
+              "KSCGUID": "QueryCol_mqqfjd4o_0t7fpi",
+              "object": 0
+            },
+            {
+              "ci": 3,
+              "name": "ResetCol",
+              "lgWidth": 145,
+              "xlWidth": 145,
+              "widthStrategy": "fixedsize",
+              "KSCGUID": "ResetCol_mqqfjd4o_u07fxe",
+              "object": 1
+            },
+            {
+              "ci": 4,
+              "name": "ExportCol",
+              "lgWidth": 145,
+              "xlWidth": 145,
+              "widthStrategy": "fixedsize",
+              "KSCGUID": "ExportCol_mqqfjd4o_4iaaj2",
+              "object": 1
+            },
+            {
+              "ci": 5,
+              "name": "ActionTailCol",
+              "lgWidth": 105,
+              "xlWidth": 105,
+              "widthStrategy": "fixedsize",
+              "KSCGUID": "ActionTailCol_mqqfjd4o_hhdmsi",
+              "object": 1
+            }
+          ]
+        },
+        {
+          "ri": 2,
+          "name": "RRow3",
+          "height": 220,
+          "heightStrategy": "fixedsize",
+          "cols": [
+            {
+              "ci": 0,
+              "name": "MetricTotalCol",
+              "lgWidth": 387,
+              "xlWidth": 387,
+              "widthStrategy": "fixedsize",
+              "KSCGUID": "MetricTotalCol_mqqfjd4o_2by8l4",
+              "object": 1
+            },
+            {
+              "ci": 1,
+              "name": "MetricWaitCol",
+              "lgWidth": 387,
+              "xlWidth": 387,
+              "widthStrategy": "fixedsize",
+              "KSCGUID": "MetricWaitCol_mqqfjd4p_h2ctoz",
+              "object": 1
+            },
+            {
+              "ci": 2,
+              "name": "MetricDoneCol",
+              "lgWidth": 387,
+              "xlWidth": 387,
+              "widthStrategy": "fixedsize",
+              "KSCGUID": "MetricDoneCol_mqqfjd4p_twwj90",
+              "object": 1
+            },
+            {
+              "ci": 3,
+              "name": "MetricAvgCol",
+              "lgWidth": 387,
+              "xlWidth": 387,
+              "widthStrategy": "fixedsize",
+              "KSCGUID": "MetricAvgCol_mqqfjd4p_bruljt",
+              "object": 1
+            }
+          ]
+        },
+        {
+          "ri": 3,
+          "name": "RRow4",
+          "height": 772,
+          "heightStrategy": "fixedsize",
+          "cols": [
+            {
+              "ci": 0,
+              "name": "DeptChartCol",
+              "lgWidth": 774,
+              "xlWidth": 774,
+              "widthStrategy": "fixedsize",
+              "KSCGUID": "DeptChartCol_mqqfjd4p_94l4sm",
+              "object": 1
+            },
+            {
+              "ci": 1,
+              "name": "TrendChartCol",
+              "lgWidth": 774,
+              "xlWidth": 774,
+              "widthStrategy": "fixedsize",
+              "KSCGUID": "TrendChartCol_mqqfjd4p_9quc0w",
+              "object": 1
+            }
+          ]
+        },
+        {
+          "ri": 4,
+          "name": "RRow5",
+          "height": 772,
+          "heightStrategy": "fixedsize",
+          "cols": [
+            {
+              "ci": 0,
+              "name": "AssessmentTableCol",
+              "lgWidth": 1548,
+              "xlWidth": 1548,
+              "widthStrategy": "fixedsize",
+              "KSCGUID": "AssessmentTableCol_mqqfjd4p_mqe59t",
+              "object": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "palette": [
+    {
+      "id": "responsecontainer",
+      "text": "布局",
+      "proto": "RContainer"
+    },
+    {
+      "id": "responsecontainer",
+      "text": "分栏*1",
+      "proto": "RCol"
+    },
+    {
+      "id": "responsecontainer",
+      "text": "分栏*2",
+      "proto": "RCol"
+    },
+    {
+      "id": "responsecontainer",
+      "text": "分栏*4",
+      "proto": "RCol"
+    },
+    {
+      "id": "button",
+      "text": "按钮",
+      "proto": "ElementButton"
+    },
+    {
+      "id": "table",
+      "text": "表格",
+      "proto": "ElementTable"
+    },
+    {
+      "id": "input",
+      "text": "输入框",
+      "proto": "ElementInput"
+    },
+    {
+      "id": "select",
+      "text": "选择器",
+      "proto": "ElementSelect"
+    },
+    {
+      "id": "text",
+      "text": "文本",
+      "proto": "ElementText"
+    },
+    {
+      "id": "datepicker",
+      "text": "日期时间选择器",
+      "proto": "ElementDateTimePicker"
+    },
+    {
+      "id": "navmenu",
+      "text": "导航菜单",
+      "proto": "ElementNavmenu"
+    },
+    {
+      "id": "tree",
+      "text": "树",
+      "proto": "ElementTree"
+    },
+    {
+      "id": "image",
+      "text": "图片",
+      "proto": "ElementImage"
+    },
+    {
+      "id": "element_upload",
+      "text": "上传",
+      "proto": "ElementUpload"
+    },
+    {
+      "id": "tabs",
+      "text": "标签页",
+      "proto": "ElementTabs"
+    },
+    {
+      "id": "radiobox",
+      "text": "单选框",
+      "proto": "ElementRadio"
+    },
+    {
+      "id": "checkbox",
+      "text": "多选框",
+      "proto": "ElementCheckbox"
+    },
+    {
+      "id": "switch",
+      "text": "开关",
+      "proto": "ElementSwitch"
+    },
+    {
+      "id": "timepicker",
+      "text": "时间选择器",
+      "proto": "ElementTimePicker"
+    },
+    {
+      "id": "card",
+      "text": "卡片",
+      "proto": "ElementCard"
+    },
+    {
+      "id": "minicard",
+      "text": "业务卡片",
+      "proto": "ElementMiniCard"
+    },
+    {
+      "id": "collapse",
+      "text": "折叠面板",
+      "proto": "ElementCollapse"
+    },
+    {
+      "id": "dropdown",
+      "text": "下拉菜单",
+      "proto": "ElementDropdown"
+    },
+    {
+      "id": "cascader",
+      "text": "级联选择器",
+      "proto": "ElementCascader"
+    },
+    {
+      "id": "webcontainer",
+      "text": "网页容器",
+      "proto": "ElementWebContainer"
+    },
+    {
+      "id": "tag",
+      "text": "标签",
+      "proto": "ElementTag"
+    },
+    {
+      "id": "cross",
+      "text": "穿梭框",
+      "proto": "ElementTransfer"
+    },
+    {
+      "id": "counter",
+      "text": "计数器",
+      "proto": "ElementInputNumber"
+    },
+    {
+      "id": "timeline",
+      "text": "时间线",
+      "proto": "ElementTimeline"
+    },
+    {
+      "id": "steps",
+      "text": "步骤条",
+      "proto": "ElementSteps"
+    },
+    {
+      "id": "slider",
+      "text": "滑块",
+      "proto": "ElementSlider"
+    },
+    {
+      "id": "rate",
+      "text": "评分",
+      "proto": "ElementRate"
+    },
+    {
+      "id": "carousel",
+      "text": "轮播组件",
+      "proto": "ElementCarousel"
+    },
+    {
+      "id": "imagecarsuel",
+      "text": "自定义轮播",
+      "proto": "ElementCustomCarsuel"
+    },
+    {
+      "id": "calendar",
+      "text": "日历",
+      "proto": "ElementCalendar"
+    },
+    {
+      "id": "signature",
+      "text": "电子签名",
+      "proto": "ElementSignature"
+    },
+    {
+      "id": "KSCQRorBarCode",
+      "text": "条形码",
+      "proto": "KSCQRorBarCode"
+    },
+    {
+      "id": "ScriptEditor",
+      "text": "脚本编辑器",
+      "proto": "ScriptEditor"
+    },
+    {
+      "id": "pagination",
+      "text": "分页",
+      "proto": "ElementPagination"
+    },
+    {
+      "id": "BigDataTable",
+      "text": "大数据表格",
+      "proto": "BigDataTable"
+    },
+    {
+      "id": "vant_input",
+      "text": "移动端_输入框",
+      "proto": "VantField"
+    },
+    {
+      "id": "vant_upload",
+      "text": "移动端_文件上传",
+      "proto": "VantUploader"
+    },
+    {
+      "id": "progressbar",
+      "text": "移动端_进度条",
+      "proto": "VantProgress"
+    },
+    {
+      "id": "grid",
+      "text": "移动端_宫格",
+      "proto": "VantGrid"
+    },
+    {
+      "id": "navigationbar",
+      "text": "移动端_导航栏",
+      "proto": "VantNavBar"
+    },
+    {
+      "id": "labelbar",
+      "text": "移动端_标签栏",
+      "proto": "VantTabBar"
+    },
+    {
+      "id": "dropdownmenu",
+      "text": "移动端_下拉菜单",
+      "proto": "VantDropdownMenu"
+    },
+    {
+      "id": "list",
+      "text": "移动端_列表",
+      "proto": "VantList"
+    },
+    {
+      "id": "vantTreeSelect",
+      "text": "移动端_分类选择",
+      "proto": "VantTreeSelect"
+    },
+    {
+      "id": "form",
+      "text": "移动端_表单",
+      "proto": "VantForm"
+    },
+    {
+      "id": "button",
+      "text": "按钮",
+      "proto": "ElementButton"
+    },
+    {
+      "id": "table",
+      "text": "表格",
+      "proto": "ElementTable"
+    },
+    {
+      "id": "input",
+      "text": "输入框",
+      "proto": "ElementInput"
+    },
+    {
+      "id": "select",
+      "text": "选择器",
+      "proto": "ElementSelect"
+    },
+    {
+      "id": "text",
+      "text": "文本",
+      "proto": "ElementText"
+    },
+    {
+      "id": "timepicker",
+      "text": "时间选择器",
+      "proto": "ElementTimePicker"
+    },
+    {
+      "id": "navmenu",
+      "text": "导航菜单",
+      "proto": "ElementNavmenu"
+    },
+    {
+      "id": "tree",
+      "text": "树",
+      "proto": "ElementTree"
+    },
+    {
+      "id": "tabs",
+      "text": "标签页",
+      "proto": "ElementTabs"
+    },
+    {
+      "id": "collapse",
+      "text": "折叠面板",
+      "proto": "ElementCollapse"
+    },
+    {
+      "id": "steps",
+      "text": "步骤条",
+      "proto": "ElementSteps"
+    },
+    {
+      "id": "grid",
+      "text": "移动端_宫格",
+      "proto": "VantGrid"
+    },
+    {
+      "id": "navigationbar",
+      "text": "移动端_导航栏",
+      "proto": "VantNavBar"
+    },
+    {
+      "id": "labelbar",
+      "text": "移动端_标签栏",
+      "proto": "VantTabBar"
+    },
+    {
+      "id": "table",
+      "text": "表格",
+      "proto": "ElementTable"
+    },
+    {
+      "id": "card",
+      "text": "卡片",
+      "proto": "ElementCard"
+    },
+    {
+      "id": "minicard",
+      "text": "业务卡片",
+      "proto": "ElementMiniCard"
+    },
+    {
+      "id": "calendar",
+      "text": "日历",
+      "proto": "ElementCalendar"
+    },
+    {
+      "id": "BigDataTable",
+      "text": "大数据表格",
+      "proto": "BigDataTable"
+    },
+    {
+      "id": "progressbar",
+      "text": "移动端_进度条",
+      "proto": "VantProgress"
+    },
+    {
+      "id": "list",
+      "text": "移动端_列表",
+      "proto": "VantList"
+    },
+    {
+      "id": "select",
+      "text": "选择器",
+      "proto": "ElementSelect"
+    },
+    {
+      "id": "datepicker",
+      "text": "日期时间选择器",
+      "proto": "ElementDateTimePicker"
+    },
+    {
+      "id": "radiobox",
+      "text": "单选框",
+      "proto": "ElementRadio"
+    },
+    {
+      "id": "checkbox",
+      "text": "多选框",
+      "proto": "ElementCheckbox"
+    },
+    {
+      "id": "switch",
+      "text": "开关",
+      "proto": "ElementSwitch"
+    },
+    {
+      "id": "timepicker",
+      "text": "时间选择器",
+      "proto": "ElementTimePicker"
+    },
+    {
+      "id": "dropdown",
+      "text": "下拉菜单",
+      "proto": "ElementDropdown"
+    },
+    {
+      "id": "cascader",
+      "text": "级联选择器",
+      "proto": "ElementCascader"
+    },
+    {
+      "id": "cross",
+      "text": "穿梭框",
+      "proto": "ElementTransfer"
+    }
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "model": "盛云科技_孙宇飞_Palimpsest_后台_0623",
+  "probe": [
+    {
+      "path": "top.1.0",
+      "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/index.html",
+      "title": "客户端运行",
+      "textSample": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot\n\n实例列表\n\n新建\n删除\n更多操作 \n\t序号\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\n1\n\t\nPalimpsestBack\n\t\nPalimpsestBack\n\t\nPalimpsest backend CRUD service\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+      "rows": [
+        {
+          "i": 1,
+          "text": "1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "rect": {
+            "x": 566,
+            "y": 141,
+            "w": 1338,
+            "h": 39
+          },
+          "buttons": [
+            {
+              "j": 0,
+              "text": "",
+              "tag": "SPAN",
+              "cls": "el-checkbox__input",
+              "rect": {
+                "x": 576,
+                "y": 154.203125,
+                "w": 14,
+                "h": 15
+              },
+              "visible": true
+            },
+            {
+              "j": 1,
+              "text": "",
+              "tag": "SPAN",
+              "cls": "el-checkbox__inner",
+              "rect": {
+                "x": 576,
+                "y": 154.203125,
+                "w": 14,
+                "h": 14
+              },
+              "visible": true
+            },
+            {
+              "j": 2,
+              "text": "PalimpsestBack",
+              "tag": "SPAN",
+              "cls": "",
+              "rect": {
+                "x": 671,
+                "y": 149.5,
+                "w": 123.171875,
+                "h": 20
+              },
+              "visible": true
+            },
+            {
+              "j": 3,
+              "text": "PalimpsestBack",
+              "tag": "SPAN",
+              "cls": "",
+              "rect": {
+                "x": 870,
+                "y": 149.5,
+                "w": 103.171875,
+                "h": 20
+              },
+              "visible": true
+            },
+            {
+              "j": 4,
+              "text": "Palimpsest backend CRUD service",
+              "tag": "SPAN",
+              "cls": "",
+              "rect": {
+                "x": 1067,
+                "y": 149.5,
+                "w": 219.75,
+                "h": 20
+              },
+              "visible": true
+            },
+            {
+              "j": 5,
+              "text": "盛云科技_孙宇飞_Palimpsest_后台_0623",
+              "tag": "SPAN",
+              "cls": "",
+              "rect": {
+                "x": 1264,
+                "y": 149.5,
+                "w": 259.609375,
+                "h": 20
+              },
+              "visible": true
+            },
+            {
+              "j": 6,
+              "text": "v1",
+              "tag": "SPAN",
+              "cls": "",
+              "rect": {
+                "x": 1414,
+                "y": 149.5,
+                "w": 15.078125,
+                "h": 20
+              },
+              "visible": true
+            },
+            {
+              "j": 7,
+              "text": "编辑",
+              "tag": "BUTTON",
+              "cls": "el-button el-button--text el-button--medium",
+              "rect": {
+                "x": 1514,
+                "y": 151.5,
+                "w": 30,
+                "h": 16
+              },
+              "visible": true
+            },
+            {
+              "j": 8,
+              "text": "编辑",
+              "tag": "SPAN",
+              "cls": "",
+              "rect": {
+                "x": 1515,
+                "y": 149.5,
+                "w": 28,
+                "h": 20
+              },
+              "visible": true
+            },
+            {
+              "j": 9,
+              "text": "属性",
+              "tag": "BUTTON",
+              "cls": "el-button el-button--text el-button--medium",
+              "rect": {
+                "x": 1554,
+                "y": 151.5,
+                "w": 30,
+                "h": 16
+              },
+              "visible": true
+            },
+            {
+              "j": 10,
+              "text": "属性",
+              "tag": "SPAN",
+              "cls": "",
+              "rect": {
+                "x": 1555,
+                "y": 149.5,
+                "w": 28,
+                "h": 20
+              },
+              "visible": true
+            },
+            {
+              "j": 11,
+              "text": "切换模型版本",
+              "tag": "BUTTON",
+              "cls": "el-button el-button--text el-button--medium",
+              "rect": {
+                "x": 1594,
+                "y": 151.5,
+                "w": 86,
+                "h": 16
+              },
+              "visible": true
+            },
+            {
+              "j": 12,
+              "text": "切换模型版本",
+              "tag": "SPAN",
+              "cls": "",
+              "rect": {
+                "x": 1595,
+                "y": 149.5,
+                "w": 84,
+                "h": 20
+              },
+              "visible": true
+            },
+            {
+              "j": 13,
+              "text": "形参管理",
+              "tag": "BUTTON",
+              "cls": "el-button el-button--text el-button--medium",
+              "rect": {
+                "x": 1690,
+                "y": 151.5,
+                "w": 58,
+                "h": 16
+              },
+              "visible": true
+            },
+            {
+              "j": 14,
+              "text": "形参管理",
+              "tag": "SPAN",
+              "cls": "",
+              "rect": {
+                "x": 1691,
+                "y": 149.5,
+                "w": 56,
+                "h": 20
+              },
+              "visible": true
+            },
+            {
+              "j": 15,
+              "text": "提交版本",
+              "tag": "BUTTON",
+              "cls": "el-button el-button--text el-button--medium",
+              "rect": {
+                "x": 1758,
+                "y": 151.5,
+                "w": 58,
+                "h": 16
+              },
+              "visible": true
+            },
+            {
+              "j": 16,
+              "text": "提交版本",
+              "tag": "SPAN",
+              "cls": "",
+              "rect": {
+                "x": 1759,
+                "y": 149.5,
+                "w": 56,
+                "h": 20
+              },
+              "visible": true
+            },
+            {
+              "j": 17,
+              "text": "删除",
+              "tag": "BUTTON",
+              "cls": "el-button el-button--text el-button--medium",
+              "rect": {
+                "x": 1826,
+                "y": 151.5,
+                "w": 30,
+                "h": 16
+              },
+              "visible": true
+            },
+            {
+              "j": 18,
+              "text": "删除",
+              "tag": "SPAN",
+              "cls": "",
+              "rect": {
+                "x": 1827,
+                "y": 149.5,
+                "w": 28,
+                "h": 20
+              },
+              "visible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "top.2.0",
+      "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/index.html",
+      "title": "客户端运行",
+      "textSample": "<strong>We're sorry but app-master doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>KingFusion4.5_建模系统建模系统管控单元建模采集设备建模工作流建模数据源建模数字孪生建模分组       导入 导出 删除  根组集成测试测试引滦工程mwq测试张测试组lk测试盛云_孙宇飞_根组产品生成器功能测试_lk工厂车间产线设备管理员首页建模数据管理生产计划与执行模型列表 新建  更多操作  导入 导出 复制 粘贴 移动 删除   序号名称描述操作1盛云_孙宇飞_Smoke模型_0518建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。 编辑 属性 提交版本 版本管理 更新 删除2盛云_孙宇飞_后台_查询Demo_0618reference lk backend minimal clone: business event + custom calc skeleton 编辑 属性 提交版本 版本管理 更新 删除3盛云_孙宇飞_前端_框架_0618reference lk front frame minimal clone: frame page skeleton 编辑 属性 提交版本 版本管理 更新 删除4盛云_孙宇飞_前端_查询Demo_0618reference lk front business minimal clone: list page + edit page skeleton 编辑 属性 提交版本 版本管理 更新 删除5盛云_孙宇飞_后台_CRUDDemo_0620clean restart backend CRUD model 0620 编辑 属性 提交版本 版本管理 更新 删除6盛云_孙宇飞_前端_框架_0620clean restart front frame model 0620 编辑 属性 提交版本 版本管理 更新 删除7盛云_孙宇飞_前端_CRUDDemo_0620clean restart front business model 0620 编辑 属性 提交版本 版本管理 更新 删除8盛云科技_孙宇飞_Palimpsest_前端_0623Palimpsest frontend model: left 18 percent menu and right 82 percent content test page. 编辑 属性 提交版本 版本管理 更新 删除9盛云科技_孙宇飞_Palimpsest_后台_0623Palimpsest backend model: fake assessment CRUD functions and tes",
+      "rows": [
+        {
+          "i": 9,
+          "text": "9盛云科技_孙宇飞_Palimpsest_后台_0623Palimpsest backend model: fake assessment CRUD functions and test records. 编辑 属性 提交版本 版本管理 更新 删除",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "buttons": [
+            {
+              "j": 2,
+              "text": "盛云科技_孙宇飞_Palimpsest_后台_0623",
+              "tag": "SPAN",
+              "cls": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+              },
+              "visible": false
+            },
+            {
+              "j": 3,
+              "text": "Palimpsest backend model: fake assessment CRUD functions and test records.",
+              "tag": "SPAN",
+              "cls": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+              },
+              "visible": false
+            },
+            {
+              "j": 4,
+              "text": "编辑",
+              "tag": "BUTTON",
+              "cls": "el-button el-button--text el-button--medium",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+              },
+              "visible": false
+            },
+            {
+              "j": 5,
+              "text": "编辑",
+              "tag": "SPAN",
+              "cls": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+              },
+              "visible": false
+            },
+            {
+              "j": 6,
+              "text": "属性",
+              "tag": "BUTTON",
+              "cls": "el-button el-button--text el-button--medium",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+              },
+              "visible": false
+            },
+            {
+              "j": 7,
+              "text": "属性",
+              "tag": "SPAN",
+              "cls": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+              },
+              "visible": false
+            },
+            {
+              "j": 8,
+              "text": "提交版本",
+              "tag": "BUTTON",
+              "cls": "el-button el-button--text el-button--medium",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+              },
+              "visible": false
+            },
+            {
+              "j": 9,
+              "text": "提交版本",
+              "tag": "SPAN",
+              "cls": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+              },
+              "visible": false
+            },
+            {
+              "j": 10,
+              "text": "版本管理",
+              "tag": "BUTTON",
+              "cls": "el-button el-button--text el-button--medium",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+              },
+              "visible": false
+            },
+            {
+              "j": 11,
+              "text": "版本管理",
+              "tag": "SPAN",
+              "cls": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+              },
+              "visible": false
+            },
+            {
+              "j": 12,
+              "text": "更新",
+              "tag": "BUTTON",
+              "cls": "el-button el-button--text el-button--medium",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+              },
+              "visible": false
+            },
+            {
+              "j": 13,
+              "text": "更新",
+              "tag": "SPAN",
+              "cls": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+              },
+              "visible": false
+            },
+            {
+              "j": 14,
+              "text": "删除",
+              "tag": "BUTTON",
+              "cls": "el-button el-button--text el-button--medium",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+              },
+              "visible": false
+            },
+            {
+              "j": 15,
+              "text": "删除",
+              "tag": "SPAN",
+              "cls": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+              },
+              "visible": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ts": "2026-06-24 13:33:50"
+}

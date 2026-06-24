@@ -1,0 +1,86 @@
+{
+  "click": {
+    "clicked": true,
+    "text": "提交",
+    "path": "top.1.0.0",
+    "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_120/index.html"
+  },
+  "confirm": {
+    "confirmed": true
+  },
+  "capture": {
+    "capture": {
+      "messages": [
+        {
+          "kind": "mutation",
+          "text": "版本提交提交说明\n          取消\n        \n          确定",
+          "extra": {
+            "className": "el-message-box__wrapper"
+          },
+          "t": 1782200683401
+        },
+        {
+          "kind": "mutation",
+          "text": "提交说明",
+          "extra": {
+            "className": "el-message-box__message"
+          },
+          "t": 1782200683401
+        },
+        {
+          "kind": "mutation",
+          "text": "保存中,请稍后 ! ! !",
+          "extra": {
+            "className": "el-loading-mask is-fullscreen"
+          },
+          "t": 1782200684457
+        },
+        {
+          "kind": "mutation",
+          "text": "保存成功",
+          "extra": {
+            "className": "el-message"
+          },
+          "t": 1782200686508
+        },
+        {
+          "kind": "mutation",
+          "text": "生成历史版本失败！错误码：-19500",
+          "extra": {
+            "className": "el-message el-message--error"
+          },
+          "t": 1782200686627
+        }
+      ],
+      "console": []
+    },
+    "pageWidth": 346,
+    "pageHeight": 1080,
+    "rootWidth": 346,
+    "rootHeight": 1080,
+    "rows": [
+      {
+        "UIName": "RRow1",
+        "height": 72,
+        "cols": [
+          {
+            "UIName": "RCol11",
+            "xlWidth": 343,
+            "objectCount": 0
+          }
+        ]
+      },
+      {
+        "UIName": "RRow2",
+        "height": null,
+        "cols": [
+          {
+            "UIName": "RCol6",
+            "xlWidth": 343,
+            "objectCount": 0
+          }
+        ]
+      }
+    ]
+  }
+}

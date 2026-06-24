@@ -1,0 +1,64 @@
+{
+  "declare": {
+    "active": "declare",
+    "lines": [
+      ""
+    ],
+    "textarea": "",
+    "editorText": "1"
+  },
+  "onCreate": {
+    "active": "onCreate",
+    "lines": [
+      ""
+    ],
+    "textarea": "",
+    "editorText": "1"
+  },
+  "onDestroy": {
+    "active": "onDestroy",
+    "lines": [
+      ""
+    ],
+    "textarea": "",
+    "editorText": "1"
+  },
+  "onException": {
+    "active": "onException",
+    "lines": [
+      ""
+    ],
+    "textarea": "",
+    "editorText": "1"
+  },
+  "QueryAssessmentPage": {
+    "active": "QueryAssessmentPage",
+    "lines": [
+      "return \"SMOKE\";",
+      "",
+      ""
+    ],
+    "textarea": "return \"SMOKE\";\n\n",
+    "editorText": "1\n2\n3\nreturn \"SMOKE\";"
+  },
+  "QueryAssessmentData": {
+    "active": "QueryAssessmentData",
+    "lines": [
+      "return \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"success\\\",\\\"data\\\":{\\\"stats\\\":{\\\"total\\\":128,\\\"pending\\\":23,\\\"completed\\\":105,\\\"average\\\":86.7},\\\"records\\\":[{\\\"studentNo\\\":\\\"S2024041001\\\",\\\"name\\\":\\\"Li Mingxuan\\\",\\\"dept\\\":\\\"Product\\\",\\\"mentor\\\":\\\"Wang Siyuan\\\",\\\"batch\\\":\\\"2024Q2\\\",\\\"professional\\\":97,\\\"attitude\\\":85,\\\"task\\\":85,\\\"score\\\":92.6,\\\"status\\\":\\\"done\\\",\\\"updatedAt\\\":\\\"2024-06-12 14:30\\\"},{\\\"studentNo\\\":\\\"S2024041002\\\",\\\"name\\\":\\\"Zhang Yuting\\\",\\\"dept\\\":\\\"R&D\\\",\\\"mentor\\\":\\\"Chen Haoran\\\",\\\"batch\\\":\\\"2024Q2\\\",\\\"professional\\\":96,\\\"attitude\\\":84,\\\"task\\\":84,\\\"score\\\":89.3,\\\"status\\\":\\\"done\\\",\\\"updatedAt\\\":\\\"2024-06-11 11:20\\\"},{\\\"studentNo\\\":\\\"S2024041005\\\",\\\"name\\\":\\\"Chen Xinyi\\\",\\\"dept\\\":\\\"Operations\\\",\\\"mentor\\\":\\\"Zhou Zimo\\\",\\\"batch\\\":\\\"2024Q2\\\",\\\"professional\\\":93,\\\"attitude\\\":80,\\\"task\\\":80,\\\"score\\\":83.6,\\\"status\\\":\\\"pending\\\",\\\"updatedAt\\\":\\\"2024-06-08 10:05\\\"}],\\\"deptScores\\\":[{\\\"dept\\\":\\\"Product\\\",\\\"score\\\":92.6},{\\\"dept\\\":\\\"R&D\\\",\\\"score\\\":89.3},{\\\"dept\\\":\\\"Operations\\\",\\\"score\\\":83.6}],\\\"trend\\\":[{\\\"date\\\":\\\"04-01\\\",\\\"done\\\":25,\\\"pending\\\":56},{\\\"date\\\":\\\"05-06\\\",\\\"done\\\":66,\\\"pending\\\":31},{\\\"date\\\":\\\"06-30\\\",\\\"done\\\":109,\\\"pending\\\":2}]},\\\"traceId\\\":\\\"pal-20260624-002\\\"}\";",
+      "",
+      ""
+    ],
+    "textarea": "return \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"success\\\",\\\"data\\\":{\\\"stats\\\":{\\\"total\\\":128,\\\"pending\\\":23,\\\"completed\\\":105,\\\"average\\\":86.7},\\\"records\\\":[{\\\"studentNo\\\":\\\"S2024041001\\\",\\\"name\\\":\\\"Li Mingxuan\\\",\\\"dept\\\":\\\"Product\\\",\\\"mentor\\\":\\\"Wang Siyuan\\\",\\\"batch\\\":\\\"2024Q2\\\",\\\"professional\\\":97,\\\"attitude\\\":85,\\\"task\\\":85,\\\"score\\\":92.6,\\\"status\\\":\\\"done\\\",\\\"updatedAt\\\":\\\"2024-06-12 14:30\\\"},{\\\"studentNo\\\":\\\"S2024041002\\\",\\\"name\\\":\\\"Zhang Yuting\\\",\\\"dept\\\":\\\"R&D\\\",\\\"mentor\\\":\\\"Chen Haor",
+    "editorText": "1\n2\n3\nreturn \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"success\\\",\\\"data\\\":{\\\"stats\\\":{\\\"total\\\":128,\\\"pending\\\":23,\\\"completed\\\":105,\\\"average\\\":86.7},\\\"records\\\":[{\\\"studentNo\\\":\\\"S2024041001\\\",\\\"name\\\":\\\"Li Mingxuan\\\",\\\"dept\\\":\\\"Product\\\",\\\"mentor\\\":\\\"Wang Siyuan\\\",\\\"batch\\\":\\\"2024Q2\\\",\\\"professional\\\":97,\\\"attitude\\\":85,\\\"task\\\":85,\\\"score\\\":92.6,\\\"status\\\":\\\"done\\\",\\\"updatedAt\\\":\\\"2024-06-12 14:30\\\"},{\\\"studentNo\\\":\\\"S2024041002\\\",\\\"name\\\":\\\"Zhang Yuting\\\",\\\"dept\\\":\\\"R&D\\\",\\\"mentor\\\":\\\"Chen Haoran\\\",\\\"batch\\\":\\\"2024Q2\\\",\\\"professional\\\":96,\\\"attitude\\\":84,\\\"task\\\":84,\\\"score\\\":89.3,\\\"status\\\":\\\"done\\\",\\\"updatedAt\\\":\\\"2024-06-11 11:20\\\"},{\\\"studentNo\\\":\\\"S2024041005\\\",\\\"name\\\":\\\"Chen Xinyi\\\",\\\"dept\\\":\\\"Operations\\\",\\\"mentor\\\":\\\"Zhou Zimo\\\",\\\"batch\\\":\\\"2024Q2\\\",\\\"professional\\\":93,\\\"attitude\\\":80,\\\"task\\\":80,\\\"score\\\":83.6,\\\"status\\\":\\\"pending\\\",\\\"updatedAt\\\":\\\"2024-06-08 10:05\\\"}],\\\"deptScores\\\":[{\\\"dept\\\":\\\"Product\\\",\\\"score\\\":92.6},{\\\"dept\\\":\\\"R&D\\\",\\\"score\\\":89.3},{\\\"dept\\\":\\\"Operations\\\",\\\"score\\\":83.6}],\\\"trend\\\":[{\\\"date\\\":\\\"04-01\\\",\\\"done\\\":25,\\\"pending\\\":56},{\\\"date\\\":\\\"05-06\\\",\\\"done\\\":66,\\\"pending\\\":31},{\\\"date\\\":\\\"06-30\\\",\\\"done\\\":109,\\\"pending\\\":2}]},\\\"traceId\\\":\\\"pal-20260624-002\\\"}\";"
+  },
+  "QueryAssessmentSmoke": {
+    "active": "QueryAssessmentSmoke",
+    "lines": [
+      "return \"{\\\"ok\\\":true,\\\"data\\\":{\\\"total\\\":128,\\\"records\\\":[{\\\"name\\\":\\\"Li\\\",\\\"score\\\":92.6}]}}\";",
+      "",
+      ""
+    ],
+    "textarea": "return \"{\\\"ok\\\":true,\\\"data\\\":{\\\"total\\\":128,\\\"records\\\":[{\\\"name\\\":\\\"Li\\\",\\\"score\\\":92.6}]}}\";\n\n",
+    "editorText": "1\n2\n3\nreturn \"{\\\"ok\\\":true,\\\"data\\\":{\\\"total\\\":128,\\\"records\\\":[{\\\"name\\\":\\\"Li\\\",\\\"score\\\":92.6}]}}\";"
+  }
+}

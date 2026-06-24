@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "name": "pal_metric_total",
+      "ok": true,
+      "text": "实习生总数\n128\n较上期 12.5%",
+      "codeSample": "options.value = \"<div style=\\\"width:100%;height:100%;box-sizing:border-box;padding:20px 24px;display:flex;align-items:ce"
+    },
+    {
+      "name": "pal_metric_wait",
+      "ok": true,
+      "text": "待考核\n23\n较上期 5.2%",
+      "codeSample": "options.value = \"<div style=\\\"width:100%;height:100%;box-sizing:border-box;padding:20px 24px;display:flex;align-items:ce"
+    },
+    {
+      "name": "pal_metric_done",
+      "ok": true,
+      "text": "已完成考核\n105\n较上期 18.3%",
+      "codeSample": "options.value = \"<div style=\\\"width:100%;height:100%;box-sizing:border-box;padding:20px 24px;display:flex;align-items:ce"
+    },
+    {
+      "name": "pal_metric_avg",
+      "ok": true,
+      "text": "平均得分\n86.7分\n较上期 3.6分",
+      "codeSample": "options.value = \"<div style=\\\"width:100%;height:100%;box-sizing:border-box;padding:20px 24px;display:flex;align-items:ce"
+    }
+  ]
+}

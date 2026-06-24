@@ -1,0 +1,289 @@
+{
+  "click": {
+    "clicked": true,
+    "row": "\t\n2\n\t\nPalimpsestKnownGoodBack\n\t\nPalimpsestKnownGoodBack\n\t\nKnown good backend package probe\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv4\n\t\n编辑属性切换模型版本形参管理提交版本删除"
+  },
+  "confirm": {
+    "acted": true,
+    "details": [
+      {
+        "i": 0,
+        "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_352466",
+        "text": "实例版本提交进度\n\n0%\n\n\t名称\tGUID\t状态\t详情\n1\n\t\nPalimpsestKnownGoodBack\n\t\nc39a9b40-dcc0-4b64-b720-8e2cbcf3a7d5\n\t\n\t\n打包回调报错 :: errorCode = -14496\n关闭"
+      },
+      {
+        "i": 1,
+        "cls": "el-message-box__wrapper",
+        "text": "提示\n\n有提交失败的数据, 是否导出错误信息?\n\n取消确定"
+      }
+    ]
+  },
+  "result": {
+    "capture": {
+      "messages": [
+        {
+          "kind": "mutation",
+          "text": "数字孪生实例化_实例_提交版本",
+          "extra": {
+            "className": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_352466"
+          },
+          "t": 1782276027983
+        },
+        {
+          "kind": "mutation",
+          "text": "数字孪生实例化_实例_提交版本",
+          "extra": {
+            "className": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_352466"
+          },
+          "t": 1782276027983
+        },
+        {
+          "kind": "mutation",
+          "text": "提示有提交失败的数据, 是否导出错误信息?\n          取消\n        \n          确定",
+          "extra": {
+            "className": "el-message-box__wrapper"
+          },
+          "t": 1782276028757
+        },
+        {
+          "kind": "mutation",
+          "text": "有提交失败的数据, 是否导出错误信息?",
+          "extra": {
+            "className": "el-message-box__message"
+          },
+          "t": 1782276028757
+        }
+      ],
+      "console": [
+        {
+          "level": "log",
+          "args": [
+            "[D] 点击了 <提交版本> 按钮, scope = ",
+            "[object Object]"
+          ],
+          "t": 1782276027811
+        },
+        {
+          "level": "log",
+          "args": [
+            "[I] 远程调用接口 <IQuerySpaceTimeRepoDetails>, res = ",
+            "[object Object]"
+          ],
+          "t": 1782276027960
+        },
+        {
+          "level": "log",
+          "args": [
+            "i show child initChildData"
+          ],
+          "t": 1782276027974
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList start"
+          ],
+          "t": 1782276028072
+        },
+        {
+          "level": "log",
+          "args": [
+            "spaceTime parse error!"
+          ],
+          "t": 1782276028084
+        },
+        {
+          "level": "log",
+          "args": [
+            "registerLink"
+          ],
+          "t": 1782276028095
+        },
+        {
+          "level": "log",
+          "args": [
+            "页面名称:",
+            "数字孪生实例化_实例_提交版本",
+            "PARENT_STORE_PARAM:",
+            "[object Object]"
+          ],
+          "t": 1782276028127
+        },
+        {
+          "level": "log",
+          "args": [
+            "registerDataSet"
+          ],
+          "t": 1782276028146
+        },
+        {
+          "level": "log",
+          "args": [
+            "KGSDataObjMng subscribeDataObj"
+          ],
+          "t": 1782276028150
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782276028221
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782276028282
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782276028337
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] <版本提交进度> 开始打包 :: repoGuidAndInfoMap = ",
+            "[object Map]"
+          ],
+          "t": 1782276028389
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782276028403
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782276028407
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782276028411
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] _asyncCreatePacketCallback, result = ",
+            "[object Object]"
+          ],
+          "t": 1782276028502
+        },
+        {
+          "level": "log",
+          "args": [
+            "[E] 打包回调报错 :: errorCode = -15495"
+          ],
+          "t": 1782276028519
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] _asyncCreatePacketCallback, result = ",
+            "[object Object]"
+          ],
+          "t": 1782276028547
+        },
+        {
+          "level": "log",
+          "args": [
+            "[E] 打包回调报错 :: errorCode = -15495"
+          ],
+          "t": 1782276028557
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] _asyncCreatePacketCallback, result = ",
+            "[object Object]"
+          ],
+          "t": 1782276028717
+        },
+        {
+          "level": "log",
+          "args": [
+            "[E] 打包回调报错 :: errorCode = -14496"
+          ],
+          "t": 1782276028726
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] <版本提交进度> 打包结果 :: repoGuidAndInfoMap = ",
+            "[object Map]"
+          ],
+          "t": 1782276028731
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] <实例化框架页面> :: submitInstances :: 接收到 <数字孪生实例化_实例_提交版本> 传递来的公开事件 transferData = ",
+            "[object Object]"
+          ],
+          "t": 1782276029329
+        }
+      ]
+    },
+    "rows": [
+      {
+        "i": 0,
+        "text": "序号\t名称\t显示名称\t描述\t模型\t模型版本\t操作"
+      },
+      {
+        "i": 1,
+        "text": "1\n\t\nPalimpsestBack\n\t\nPalimpsestBack\n\t\nPalimpsest backend CRUD service\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除"
+      },
+      {
+        "i": 2,
+        "text": "2\n\t\nPalimpsestKnownGoodBack\n\t\nPalimpsestKnownGoodBack\n\t\nKnown good backend package probe\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv4\n\t\n编辑属性切换模型版本形参管理提交版本删除"
+      },
+      {
+        "i": 3,
+        "text": "名称\tGUID\t状态\t详情"
+      },
+      {
+        "i": 4,
+        "text": "1\n\t\nPalimpsestKnownGoodBack\n\t\nc39a9b40-dcc0-4b64-b720-8e2cbcf3a7d5\n\t\n\t\n打包回调报错 :: errorCode = -14496"
+      }
+    ],
+    "dialogs": [
+      {
+        "i": 0,
+        "cls": "el-dialog__wrapper",
+        "display": "none",
+        "text": ""
+      },
+      {
+        "i": 1,
+        "cls": "el-dialog__wrapper",
+        "display": "none",
+        "text": ""
+      },
+      {
+        "i": 2,
+        "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_352466",
+        "display": "block",
+        "text": "实例版本提交进度\n\n0%\n\n\t名称\tGUID\t状态\t详情\n1\n\t\nPalimpsestKnownGoodBack\n\t\nc39a9b40-dcc0-4b64-b720-8e2cbcf3a7d5\n\t\n\t\n打包回调报错 :: errorCode = -14496\n关闭"
+      },
+      {
+        "i": 3,
+        "cls": "el-message-box__wrapper",
+        "display": "none",
+        "text": "提示有提交失败的数据, 是否导出错误信息?\n          取消\n        \n          确定\n        "
+      }
+    ],
+    "body": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot\n\n实例列表\n\n新建\n删除\n更多操作 \n\t序号\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\n1\n\t\nPalimpsestBack\n\t\nPalimpsestBack\n\t\nPalimpsest backend CRUD service\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n\n\t\n2\n\t\nPalimpsestKnownGoodBack\n\t\nPalimpsestKnownGoodBack\n\t\nKnown good backend package probe\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv4\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n实例版本提交进度\n\n0%\n\n\t名称\tGUID\t状态\t详情\n1\n\t\nPalimpsestKnownGoodBack\n\t\nc39a9b40-dcc0-4b64-b720-8e2cbcf3a7d5\n\t\n\t\n打包回调报错 :: errorCode = -14496\n关闭"
+  }
+}

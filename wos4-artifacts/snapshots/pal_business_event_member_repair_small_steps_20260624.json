@@ -1,0 +1,1556 @@
+{
+  "schema": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\tasks\\20260623-新测试页左右菜单CRUD弹窗设计\\backend-schema-palimpsest.json",
+  "logs": [
+    {
+      "event": "pal_menu_node",
+      "targetCount": 8,
+      "select": {
+        "ok": true,
+        "event": "pal_menu_node"
+      },
+      "before": {
+        "current": [
+          "管控单元建模",
+          "盛云_孙宇飞_根组",
+          "pal_menu_node"
+        ],
+        "rowCount": 0,
+        "rows": []
+      },
+      "adds": [
+        {
+          "ok": true
+        }
+      ],
+      "afterAdd": {
+        "current": [
+          "管控单元建模",
+          "盛云_孙宇飞_根组",
+          "pal_menu_node"
+        ],
+        "rowCount": 8,
+        "rows": [
+          {
+            "idx": 0,
+            "name": "id",
+            "type": "string",
+            "value": "",
+            "desc": "主键ID"
+          },
+          {
+            "idx": 1,
+            "name": "parent_id",
+            "type": "string",
+            "value": "",
+            "desc": "父菜单ID"
+          },
+          {
+            "idx": 2,
+            "name": "menu_code",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 3,
+            "name": "menu_name",
+            "type": "string",
+            "value": "",
+            "desc": "菜单名称"
+          },
+          {
+            "idx": 4,
+            "name": "page_code",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 5,
+            "name": "icon",
+            "type": "string",
+            "value": "",
+            "desc": "图标标识"
+          },
+          {
+            "idx": 6,
+            "name": "sort_no",
+            "type": "int32",
+            "value": "0",
+            "desc": "排序号"
+          },
+          {
+            "idx": 7,
+            "name": "enabled",
+            "type": "bool",
+            "value": "true",
+            "desc": "是否启用"
+          }
+        ]
+      },
+      "fill": {
+        "ok": true,
+        "changed": 8
+      },
+      "afterFill": {
+        "current": [
+          "管控单元建模",
+          "盛云_孙宇飞_根组",
+          "pal_menu_node"
+        ],
+        "rowCount": 9,
+        "rows": [
+          {
+            "idx": 0,
+            "name": "id",
+            "type": "string",
+            "value": "",
+            "desc": "主键ID"
+          },
+          {
+            "idx": 1,
+            "name": "parent_id",
+            "type": "string",
+            "value": "",
+            "desc": "父菜单ID"
+          },
+          {
+            "idx": 2,
+            "name": "menu_code",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 3,
+            "name": "menu_name",
+            "type": "string",
+            "value": "",
+            "desc": "菜单名称"
+          },
+          {
+            "idx": 4,
+            "name": "page_code",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 5,
+            "name": "icon",
+            "type": "string",
+            "value": "",
+            "desc": "图标标识"
+          },
+          {
+            "idx": 6,
+            "name": "sort_no",
+            "type": "int32",
+            "value": "0",
+            "desc": "排序号"
+          },
+          {
+            "idx": 7,
+            "name": "enabled",
+            "type": "bool",
+            "value": "true",
+            "desc": "是否启用"
+          },
+          {
+            "idx": 8,
+            "name": "成员9",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          }
+        ]
+      }
+    },
+    {
+      "event": "pal_department",
+      "targetCount": 5,
+      "select": {
+        "ok": true,
+        "event": "pal_department"
+      },
+      "before": {
+        "current": [
+          "管控单元建模",
+          "盛云_孙宇飞_根组",
+          "pal_department"
+        ],
+        "rowCount": 5,
+        "rows": [
+          {
+            "idx": 0,
+            "name": "id",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 1,
+            "name": "dept_code",
+            "type": "string",
+            "value": "",
+            "desc": "部门编码"
+          },
+          {
+            "idx": 2,
+            "name": "dept_name",
+            "type": "string",
+            "value": "",
+            "desc": "部门名称"
+          },
+          {
+            "idx": 3,
+            "name": "sort_no",
+            "type": "int32",
+            "value": "0",
+            "desc": "排序号"
+          },
+          {
+            "idx": 4,
+            "name": "enabled",
+            "type": "bool",
+            "value": "true",
+            "desc": "是否启用"
+          }
+        ]
+      },
+      "afterAdd": {
+        "current": [
+          "管控单元建模",
+          "盛云_孙宇飞_根组",
+          "pal_department"
+        ],
+        "rowCount": 5,
+        "rows": [
+          {
+            "idx": 0,
+            "name": "id",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 1,
+            "name": "dept_code",
+            "type": "string",
+            "value": "",
+            "desc": "部门编码"
+          },
+          {
+            "idx": 2,
+            "name": "dept_name",
+            "type": "string",
+            "value": "",
+            "desc": "部门名称"
+          },
+          {
+            "idx": 3,
+            "name": "sort_no",
+            "type": "int32",
+            "value": "0",
+            "desc": "排序号"
+          },
+          {
+            "idx": 4,
+            "name": "enabled",
+            "type": "bool",
+            "value": "true",
+            "desc": "是否启用"
+          }
+        ]
+      },
+      "fill": {
+        "ok": true,
+        "changed": 5
+      },
+      "afterFill": {
+        "current": [
+          "管控单元建模",
+          "盛云_孙宇飞_根组",
+          "pal_department"
+        ],
+        "rowCount": 5,
+        "rows": [
+          {
+            "idx": 0,
+            "name": "id",
+            "type": "string",
+            "value": "",
+            "desc": "主键ID"
+          },
+          {
+            "idx": 1,
+            "name": "dept_code",
+            "type": "string",
+            "value": "",
+            "desc": "部门编码"
+          },
+          {
+            "idx": 2,
+            "name": "dept_name",
+            "type": "string",
+            "value": "",
+            "desc": "部门名称"
+          },
+          {
+            "idx": 3,
+            "name": "sort_no",
+            "type": "int32",
+            "value": "0",
+            "desc": "排序号"
+          },
+          {
+            "idx": 4,
+            "name": "enabled",
+            "type": "bool",
+            "value": "true",
+            "desc": "是否启用"
+          }
+        ]
+      }
+    },
+    {
+      "event": "pal_mentor",
+      "targetCount": 6,
+      "select": {
+        "ok": true,
+        "event": "pal_mentor"
+      },
+      "before": {
+        "current": [
+          "管控单元建模",
+          "盛云_孙宇飞_根组",
+          "pal_mentor"
+        ],
+        "rowCount": 6,
+        "rows": [
+          {
+            "idx": 0,
+            "name": "id",
+            "type": "string",
+            "value": "",
+            "desc": "主键ID"
+          },
+          {
+            "idx": 1,
+            "name": "mentor_code",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 2,
+            "name": "mentor_name",
+            "type": "string",
+            "value": "",
+            "desc": "导师姓名"
+          },
+          {
+            "idx": 3,
+            "name": "dept_id",
+            "type": "string",
+            "value": "",
+            "desc": "所属部门ID"
+          },
+          {
+            "idx": 4,
+            "name": "phone",
+            "type": "string",
+            "value": "",
+            "desc": "联系电话"
+          },
+          {
+            "idx": 5,
+            "name": "enabled",
+            "type": "bool",
+            "value": "true",
+            "desc": "是否启用"
+          }
+        ]
+      },
+      "afterAdd": {
+        "current": [
+          "管控单元建模",
+          "盛云_孙宇飞_根组",
+          "pal_mentor"
+        ],
+        "rowCount": 6,
+        "rows": [
+          {
+            "idx": 0,
+            "name": "id",
+            "type": "string",
+            "value": "",
+            "desc": "主键ID"
+          },
+          {
+            "idx": 1,
+            "name": "mentor_code",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 2,
+            "name": "mentor_name",
+            "type": "string",
+            "value": "",
+            "desc": "导师姓名"
+          },
+          {
+            "idx": 3,
+            "name": "dept_id",
+            "type": "string",
+            "value": "",
+            "desc": "所属部门ID"
+          },
+          {
+            "idx": 4,
+            "name": "phone",
+            "type": "string",
+            "value": "",
+            "desc": "联系电话"
+          },
+          {
+            "idx": 5,
+            "name": "enabled",
+            "type": "bool",
+            "value": "true",
+            "desc": "是否启用"
+          }
+        ]
+      },
+      "fill": {
+        "ok": true,
+        "changed": 6
+      },
+      "afterFill": {
+        "current": [
+          "管控单元建模",
+          "盛云_孙宇飞_根组",
+          "pal_mentor"
+        ],
+        "rowCount": 6,
+        "rows": [
+          {
+            "idx": 0,
+            "name": "id",
+            "type": "string",
+            "value": "",
+            "desc": "主键ID"
+          },
+          {
+            "idx": 1,
+            "name": "mentor_code",
+            "type": "string",
+            "value": "",
+            "desc": "导师编码"
+          },
+          {
+            "idx": 2,
+            "name": "mentor_name",
+            "type": "string",
+            "value": "",
+            "desc": "导师姓名"
+          },
+          {
+            "idx": 3,
+            "name": "dept_id",
+            "type": "string",
+            "value": "",
+            "desc": "所属部门ID"
+          },
+          {
+            "idx": 4,
+            "name": "phone",
+            "type": "string",
+            "value": "",
+            "desc": "联系电话"
+          },
+          {
+            "idx": 5,
+            "name": "enabled",
+            "type": "bool",
+            "value": "true",
+            "desc": "是否启用"
+          }
+        ]
+      }
+    },
+    {
+      "event": "pal_intern_student",
+      "targetCount": 8,
+      "select": {
+        "ok": true,
+        "event": "pal_intern_student"
+      },
+      "before": {
+        "current": [
+          "管控单元建模",
+          "盛云_孙宇飞_根组",
+          "pal_intern_student"
+        ],
+        "rowCount": 8,
+        "rows": [
+          {
+            "idx": 0,
+            "name": "id",
+            "type": "string",
+            "value": "",
+            "desc": "主键ID"
+          },
+          {
+            "idx": 1,
+            "name": "student_no",
+            "type": "string",
+            "value": "",
+            "desc": "学生学号"
+          },
+          {
+            "idx": 2,
+            "name": "student_name",
+            "type": "string",
+            "value": "",
+            "desc": "学生姓名"
+          },
+          {
+            "idx": 3,
+            "name": "phone",
+            "type": "string",
+            "value": "",
+            "desc": "联系电话"
+          },
+          {
+            "idx": 4,
+            "name": "dept_id",
+            "type": "string",
+            "value": "",
+            "desc": "所属部门ID"
+          },
+          {
+            "idx": 5,
+            "name": "mentor_id",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 6,
+            "name": "entry_date",
+            "type": "dateTime",
+            "value": "2026-6-24 9:54:40.768",
+            "desc": "入职日期"
+          },
+          {
+            "idx": 7,
+            "name": "enabled",
+            "type": "bool",
+            "value": "true",
+            "desc": "是否启用"
+          }
+        ]
+      },
+      "afterAdd": {
+        "current": [
+          "管控单元建模",
+          "盛云_孙宇飞_根组",
+          "pal_intern_student"
+        ],
+        "rowCount": 8,
+        "rows": [
+          {
+            "idx": 0,
+            "name": "id",
+            "type": "string",
+            "value": "",
+            "desc": "主键ID"
+          },
+          {
+            "idx": 1,
+            "name": "student_no",
+            "type": "string",
+            "value": "",
+            "desc": "学生学号"
+          },
+          {
+            "idx": 2,
+            "name": "student_name",
+            "type": "string",
+            "value": "",
+            "desc": "学生姓名"
+          },
+          {
+            "idx": 3,
+            "name": "phone",
+            "type": "string",
+            "value": "",
+            "desc": "联系电话"
+          },
+          {
+            "idx": 4,
+            "name": "dept_id",
+            "type": "string",
+            "value": "",
+            "desc": "所属部门ID"
+          },
+          {
+            "idx": 5,
+            "name": "mentor_id",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 6,
+            "name": "entry_date",
+            "type": "dateTime",
+            "value": "2026-6-24 9:54:40.768",
+            "desc": "入职日期"
+          },
+          {
+            "idx": 7,
+            "name": "enabled",
+            "type": "bool",
+            "value": "true",
+            "desc": "是否启用"
+          }
+        ]
+      },
+      "fill": {
+        "ok": true,
+        "changed": 8
+      },
+      "afterFill": {
+        "current": [
+          "管控单元建模",
+          "盛云_孙宇飞_根组",
+          "pal_intern_student"
+        ],
+        "rowCount": 8,
+        "rows": [
+          {
+            "idx": 0,
+            "name": "id",
+            "type": "string",
+            "value": "",
+            "desc": "主键ID"
+          },
+          {
+            "idx": 1,
+            "name": "student_no",
+            "type": "string",
+            "value": "",
+            "desc": "学生学号"
+          },
+          {
+            "idx": 2,
+            "name": "student_name",
+            "type": "string",
+            "value": "",
+            "desc": "学生姓名"
+          },
+          {
+            "idx": 3,
+            "name": "phone",
+            "type": "string",
+            "value": "",
+            "desc": "联系电话"
+          },
+          {
+            "idx": 4,
+            "name": "dept_id",
+            "type": "string",
+            "value": "",
+            "desc": "所属部门ID"
+          },
+          {
+            "idx": 5,
+            "name": "mentor_id",
+            "type": "string",
+            "value": "",
+            "desc": "导师ID"
+          },
+          {
+            "idx": 6,
+            "name": "entry_date",
+            "type": "dateTime",
+            "value": "",
+            "desc": "入职日期"
+          },
+          {
+            "idx": 7,
+            "name": "enabled",
+            "type": "bool",
+            "value": "true",
+            "desc": "是否启用"
+          }
+        ]
+      }
+    },
+    {
+      "event": "pal_assessment_batch",
+      "targetCount": 6,
+      "select": {
+        "ok": true,
+        "event": "pal_assessment_batch"
+      },
+      "before": {
+        "current": [
+          "管控单元建模",
+          "盛云_孙宇飞_根组",
+          "pal_assessment_batch"
+        ],
+        "rowCount": 6,
+        "rows": [
+          {
+            "idx": 0,
+            "name": "id",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 1,
+            "name": "batch_code",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 2,
+            "name": "batch_name",
+            "type": "string",
+            "value": "",
+            "desc": "批次名称"
+          },
+          {
+            "idx": 3,
+            "name": "start_date",
+            "type": "dateTime",
+            "value": "2026-6-24 9:33:50.314",
+            "desc": ""
+          },
+          {
+            "idx": 4,
+            "name": "end_date",
+            "type": "dateTime",
+            "value": "2026-6-24 9:54:43.114",
+            "desc": "结束日期"
+          },
+          {
+            "idx": 5,
+            "name": "status",
+            "type": "string",
+            "value": "",
+            "desc": "批次状态"
+          }
+        ]
+      },
+      "afterAdd": {
+        "current": [
+          "管控单元建模",
+          "盛云_孙宇飞_根组",
+          "pal_assessment_batch"
+        ],
+        "rowCount": 6,
+        "rows": [
+          {
+            "idx": 0,
+            "name": "id",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 1,
+            "name": "batch_code",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 2,
+            "name": "batch_name",
+            "type": "string",
+            "value": "",
+            "desc": "批次名称"
+          },
+          {
+            "idx": 3,
+            "name": "start_date",
+            "type": "dateTime",
+            "value": "2026-6-24 9:33:50.314",
+            "desc": ""
+          },
+          {
+            "idx": 4,
+            "name": "end_date",
+            "type": "dateTime",
+            "value": "2026-6-24 9:54:43.114",
+            "desc": "结束日期"
+          },
+          {
+            "idx": 5,
+            "name": "status",
+            "type": "string",
+            "value": "",
+            "desc": "批次状态"
+          }
+        ]
+      },
+      "fill": {
+        "ok": true,
+        "changed": 6
+      },
+      "afterFill": {
+        "current": [
+          "管控单元建模",
+          "盛云_孙宇飞_根组",
+          "pal_assessment_batch"
+        ],
+        "rowCount": 6,
+        "rows": [
+          {
+            "idx": 0,
+            "name": "id",
+            "type": "string",
+            "value": "",
+            "desc": "主键ID"
+          },
+          {
+            "idx": 1,
+            "name": "batch_code",
+            "type": "string",
+            "value": "",
+            "desc": "批次编码"
+          },
+          {
+            "idx": 2,
+            "name": "batch_name",
+            "type": "string",
+            "value": "",
+            "desc": "批次名称"
+          },
+          {
+            "idx": 3,
+            "name": "start_date",
+            "type": "dateTime",
+            "value": "",
+            "desc": "开始日期"
+          },
+          {
+            "idx": 4,
+            "name": "end_date",
+            "type": "dateTime",
+            "value": "",
+            "desc": "结束日期"
+          },
+          {
+            "idx": 5,
+            "name": "status",
+            "type": "string",
+            "value": "",
+            "desc": "批次状态"
+          }
+        ]
+      }
+    },
+    {
+      "event": "pal_assessment_record",
+      "targetCount": 14,
+      "select": {
+        "ok": true,
+        "event": "pal_assessment_record"
+      },
+      "before": {
+        "current": [
+          "管控单元建模",
+          "盛云_孙宇飞_根组",
+          "pal_assessment_record"
+        ],
+        "rowCount": 14,
+        "rows": [
+          {
+            "idx": 0,
+            "name": "id",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 1,
+            "name": "student_id",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 2,
+            "name": "batch_id",
+            "type": "string",
+            "value": "",
+            "desc": "批次ID"
+          },
+          {
+            "idx": 3,
+            "name": "mentor_id",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 4,
+            "name": "professional_score",
+            "type": "double",
+            "value": "0",
+            "desc": "专业能力得分"
+          },
+          {
+            "idx": 5,
+            "name": "attitude_score",
+            "type": "double",
+            "value": "0",
+            "desc": ""
+          },
+          {
+            "idx": 6,
+            "name": "task_score",
+            "type": "double",
+            "value": "0",
+            "desc": ""
+          },
+          {
+            "idx": 7,
+            "name": "teamwork_score",
+            "type": "double",
+            "value": "0",
+            "desc": "团队协作得分"
+          },
+          {
+            "idx": 8,
+            "name": "innovation_score",
+            "type": "double",
+            "value": "0",
+            "desc": "创新能力得分"
+          },
+          {
+            "idx": 9,
+            "name": "total_score",
+            "type": "double",
+            "value": "0",
+            "desc": ""
+          },
+          {
+            "idx": 10,
+            "name": "status",
+            "type": "string",
+            "value": "",
+            "desc": "考核状态"
+          },
+          {
+            "idx": 11,
+            "name": "comment",
+            "type": "string",
+            "value": "",
+            "desc": "评语"
+          },
+          {
+            "idx": 12,
+            "name": "updated_at",
+            "type": "dateTime",
+            "value": "2026-6-24 9:54:48.565",
+            "desc": "更新时间"
+          },
+          {
+            "idx": 13,
+            "name": "deleted",
+            "type": "bool",
+            "value": "false",
+            "desc": ""
+          }
+        ]
+      },
+      "afterAdd": {
+        "current": [
+          "管控单元建模",
+          "盛云_孙宇飞_根组",
+          "pal_assessment_record"
+        ],
+        "rowCount": 14,
+        "rows": [
+          {
+            "idx": 0,
+            "name": "id",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 1,
+            "name": "student_id",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 2,
+            "name": "batch_id",
+            "type": "string",
+            "value": "",
+            "desc": "批次ID"
+          },
+          {
+            "idx": 3,
+            "name": "mentor_id",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 4,
+            "name": "professional_score",
+            "type": "double",
+            "value": "0",
+            "desc": "专业能力得分"
+          },
+          {
+            "idx": 5,
+            "name": "attitude_score",
+            "type": "double",
+            "value": "0",
+            "desc": ""
+          },
+          {
+            "idx": 6,
+            "name": "task_score",
+            "type": "double",
+            "value": "0",
+            "desc": ""
+          },
+          {
+            "idx": 7,
+            "name": "teamwork_score",
+            "type": "double",
+            "value": "0",
+            "desc": "团队协作得分"
+          },
+          {
+            "idx": 8,
+            "name": "innovation_score",
+            "type": "double",
+            "value": "0",
+            "desc": "创新能力得分"
+          },
+          {
+            "idx": 9,
+            "name": "total_score",
+            "type": "double",
+            "value": "0",
+            "desc": ""
+          },
+          {
+            "idx": 10,
+            "name": "status",
+            "type": "string",
+            "value": "",
+            "desc": "考核状态"
+          },
+          {
+            "idx": 11,
+            "name": "comment",
+            "type": "string",
+            "value": "",
+            "desc": "评语"
+          },
+          {
+            "idx": 12,
+            "name": "updated_at",
+            "type": "dateTime",
+            "value": "2026-6-24 9:54:48.565",
+            "desc": "更新时间"
+          },
+          {
+            "idx": 13,
+            "name": "deleted",
+            "type": "bool",
+            "value": "false",
+            "desc": ""
+          }
+        ]
+      },
+      "fill": {
+        "ok": true,
+        "changed": 14
+      },
+      "afterFill": {
+        "current": [
+          "管控单元建模",
+          "盛云_孙宇飞_根组",
+          "pal_assessment_record"
+        ],
+        "rowCount": 14,
+        "rows": [
+          {
+            "idx": 0,
+            "name": "id",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 1,
+            "name": "student_id",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 2,
+            "name": "batch_id",
+            "type": "string",
+            "value": "",
+            "desc": "批次ID"
+          },
+          {
+            "idx": 3,
+            "name": "mentor_id",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 4,
+            "name": "professional_score",
+            "type": "double",
+            "value": "0",
+            "desc": "专业能力得分"
+          },
+          {
+            "idx": 5,
+            "name": "attitude_score",
+            "type": "double",
+            "value": "0",
+            "desc": "工作态度得分"
+          },
+          {
+            "idx": 6,
+            "name": "task_score",
+            "type": "double",
+            "value": "0",
+            "desc": ""
+          },
+          {
+            "idx": 7,
+            "name": "teamwork_score",
+            "type": "double",
+            "value": "0",
+            "desc": "团队协作得分"
+          },
+          {
+            "idx": 8,
+            "name": "innovation_score",
+            "type": "double",
+            "value": "0",
+            "desc": "创新能力得分"
+          },
+          {
+            "idx": 9,
+            "name": "total_score",
+            "type": "double",
+            "value": "0",
+            "desc": ""
+          },
+          {
+            "idx": 10,
+            "name": "status",
+            "type": "string",
+            "value": "",
+            "desc": "考核状态"
+          },
+          {
+            "idx": 11,
+            "name": "comment",
+            "type": "string",
+            "value": "",
+            "desc": "评语"
+          },
+          {
+            "idx": 12,
+            "name": "updated_at",
+            "type": "dateTime",
+            "value": "2026-6-24 9:54:48.565",
+            "desc": "更新时间"
+          },
+          {
+            "idx": 13,
+            "name": "deleted",
+            "type": "bool",
+            "value": "false",
+            "desc": ""
+          }
+        ]
+      }
+    },
+    {
+      "event": "pal_assessment_score_detail",
+      "targetCount": 7,
+      "select": {
+        "ok": true,
+        "event": "pal_assessment_score_detail"
+      },
+      "before": {
+        "current": [
+          "管控单元建模",
+          "盛云_孙宇飞_根组",
+          "pal_assessment_score_detail"
+        ],
+        "rowCount": 7,
+        "rows": [
+          {
+            "idx": 0,
+            "name": "id",
+            "type": "string",
+            "value": "",
+            "desc": "主键ID"
+          },
+          {
+            "idx": 1,
+            "name": "record_id",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 2,
+            "name": "成员3",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 3,
+            "name": "item_name",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 4,
+            "name": "成员5",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 5,
+            "name": "score",
+            "type": "double",
+            "value": "0",
+            "desc": ""
+          },
+          {
+            "idx": 6,
+            "name": "remark",
+            "type": "string",
+            "value": "",
+            "desc": "备注"
+          }
+        ]
+      },
+      "afterAdd": {
+        "current": [
+          "管控单元建模",
+          "盛云_孙宇飞_根组",
+          "pal_assessment_score_detail"
+        ],
+        "rowCount": 7,
+        "rows": [
+          {
+            "idx": 0,
+            "name": "id",
+            "type": "string",
+            "value": "",
+            "desc": "主键ID"
+          },
+          {
+            "idx": 1,
+            "name": "record_id",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 2,
+            "name": "成员3",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 3,
+            "name": "item_name",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 4,
+            "name": "成员5",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 5,
+            "name": "score",
+            "type": "double",
+            "value": "0",
+            "desc": ""
+          },
+          {
+            "idx": 6,
+            "name": "remark",
+            "type": "string",
+            "value": "",
+            "desc": "备注"
+          }
+        ]
+      },
+      "fill": {
+        "ok": true,
+        "changed": 7
+      },
+      "afterFill": {
+        "current": [
+          "管控单元建模",
+          "盛云_孙宇飞_根组",
+          "pal_assessment_score_detail"
+        ],
+        "rowCount": 7,
+        "rows": [
+          {
+            "idx": 0,
+            "name": "id",
+            "type": "string",
+            "value": "",
+            "desc": "主键ID"
+          },
+          {
+            "idx": 1,
+            "name": "record_id",
+            "type": "string",
+            "value": "",
+            "desc": "考核记录ID"
+          },
+          {
+            "idx": 2,
+            "name": "item_code",
+            "type": "string",
+            "value": "",
+            "desc": "评分项编码"
+          },
+          {
+            "idx": 3,
+            "name": "item_name",
+            "type": "string",
+            "value": "",
+            "desc": "评分项名称"
+          },
+          {
+            "idx": 4,
+            "name": "weight",
+            "type": "double",
+            "value": "0",
+            "desc": "权重"
+          },
+          {
+            "idx": 5,
+            "name": "score",
+            "type": "double",
+            "value": "0",
+            "desc": "得分"
+          },
+          {
+            "idx": 6,
+            "name": "remark",
+            "type": "string",
+            "value": "",
+            "desc": "备注"
+          }
+        ]
+      }
+    },
+    {
+      "event": "pal_operation_log",
+      "targetCount": 7,
+      "select": {
+        "ok": true,
+        "event": "pal_operation_log"
+      },
+      "before": {
+        "current": [
+          "管控单元建模",
+          "盛云_孙宇飞_根组",
+          "pal_operation_log"
+        ],
+        "rowCount": 0,
+        "rows": []
+      },
+      "adds": [
+        {
+          "ok": true
+        },
+        {
+          "ok": true
+        },
+        {
+          "ok": true
+        },
+        {
+          "ok": true
+        },
+        {
+          "ok": true
+        },
+        {
+          "ok": true
+        },
+        {
+          "ok": true
+        },
+        {
+          "ok": true
+        },
+        {
+          "ok": true
+        }
+      ],
+      "afterAdd": {
+        "current": [
+          "管控单元建模",
+          "盛云_孙宇飞_根组",
+          "pal_operation_log"
+        ],
+        "rowCount": 7,
+        "rows": [
+          {
+            "idx": 0,
+            "name": "成员1",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 1,
+            "name": "成员2",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 2,
+            "name": "成员3",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 3,
+            "name": "成员4",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 4,
+            "name": "成员5",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 5,
+            "name": "成员6",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          },
+          {
+            "idx": 6,
+            "name": "成员7",
+            "type": "string",
+            "value": "",
+            "desc": ""
+          }
+        ]
+      },
+      "fill": {
+        "ok": true,
+        "changed": 7
+      },
+      "afterFill": {
+        "current": [
+          "管控单元建模",
+          "盛云_孙宇飞_根组",
+          "pal_operation_log"
+        ],
+        "rowCount": 7,
+        "rows": [
+          {
+            "idx": 0,
+            "name": "id",
+            "type": "string",
+            "value": "",
+            "desc": "主键ID"
+          },
+          {
+            "idx": 1,
+            "name": "biz_type",
+            "type": "string",
+            "value": "",
+            "desc": "业务类型"
+          },
+          {
+            "idx": 2,
+            "name": "biz_id",
+            "type": "string",
+            "value": "",
+            "desc": "业务ID"
+          },
+          {
+            "idx": 3,
+            "name": "action",
+            "type": "string",
+            "value": "",
+            "desc": "操作动作"
+          },
+          {
+            "idx": 4,
+            "name": "operator",
+            "type": "string",
+            "value": "",
+            "desc": "操作人"
+          },
+          {
+            "idx": 5,
+            "name": "message",
+            "type": "string",
+            "value": "",
+            "desc": "操作说明"
+          },
+          {
+            "idx": 6,
+            "name": "created_at",
+            "type": "dateTime",
+            "value": "",
+            "desc": "创建时间"
+          }
+        ]
+      }
+    }
+  ]
+}

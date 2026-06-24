@@ -1,0 +1,803 @@
+{
+  "ts": "2026-06-24",
+  "results": [
+    {
+      "name": "pal_menu_node",
+      "selected": "pal_menu_node",
+      "shape": "计划",
+      "visibleCount": 8,
+      "rows": [
+        {
+          "rect": {
+            "x": 584,
+            "y": 362,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "id",
+            "string",
+            "",
+            "主键ID"
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 399,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "parent_id",
+            "string",
+            "",
+            "父菜单ID"
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 436,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "menu_code",
+            "string",
+            "",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 473,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "menu_name",
+            "string",
+            "",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 510,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "page_code",
+            "string",
+            "",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 547,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "icon",
+            "string",
+            "",
+            "图标标识"
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 584,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "sort_no",
+            "int32",
+            "0",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 621,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "enabled",
+            "bool",
+            "true",
+            "是否启用"
+          ],
+          "text": "删除"
+        }
+      ],
+      "totalTextCount": 8,
+      "tail": "business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页\n\nKingFusion4.5_工程浏览器\n\n盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n人员\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n第三方计算管理\n\t\n\n\n图形模型\n\t\n\n\n2D精灵图\n\t\n\n\n3D精灵图\n\t\n\n\n页面精灵图\n\t\n\n\n报表精灵图\n\t\n\n\n自定义精灵图\n\t\n\n\n子模型\n\t\n\n\n形参配置\n\t\n\n业务事\n\nRoot\npal_menu_node\npal_department\npal_mentor\npal_intern_student\npal_assessment_batch\npal_assessment_record\npal_assessment_score_detail\npal_operation_log\n\n基础信息\n\n名称:\n\n描述:\n\n形态:\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 8 条\n1\n前往页"
+    },
+    {
+      "name": "pal_department",
+      "selected": "pal_department",
+      "shape": "计划",
+      "visibleCount": 5,
+      "rows": [
+        {
+          "rect": {
+            "x": 584,
+            "y": 362,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "id",
+            "string",
+            "",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 399,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "dept_code",
+            "string",
+            "",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 436,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "dept_name",
+            "string",
+            "",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 473,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "sort_no",
+            "int32",
+            "0",
+            "排序号"
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 510,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "enabled",
+            "bool",
+            "true",
+            "是否启用"
+          ],
+          "text": "删除"
+        }
+      ],
+      "totalTextCount": 5,
+      "tail": "云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页\n\nKingFusion4.5_工程浏览器\n\n盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n人员\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n第三方计算管理\n\t\n\n\n图形模型\n\t\n\n\n2D精灵图\n\t\n\n\n3D精灵图\n\t\n\n\n页面精灵图\n\t\n\n\n报表精灵图\n\t\n\n\n自定义精灵图\n\t\n\n\n子模型\n\t\n\n\n形参配置\n\t\n\n业务事\n\nRoot\npal_menu_node\npal_department\npal_mentor\npal_intern_student\npal_assessment_batch\npal_assessment_record\npal_assessment_score_detail\npal_operation_log\n\n基础信息\n\n名称:\n\n描述:\n\n形态:\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 5 条\n1\n前往页"
+    },
+    {
+      "name": "pal_mentor",
+      "selected": "pal_mentor",
+      "shape": "计划",
+      "visibleCount": 6,
+      "rows": [
+        {
+          "rect": {
+            "x": 584,
+            "y": 362,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "id",
+            "string",
+            "",
+            "主键ID"
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 399,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "mentor_code",
+            "string",
+            "",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 436,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "mentor_name",
+            "string",
+            "",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 473,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "dept_id",
+            "string",
+            "",
+            "所属部门ID"
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 510,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "phone",
+            "string",
+            "",
+            "联系电话"
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 547,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "enabled",
+            "bool",
+            "true",
+            "是否启用"
+          ],
+          "text": "删除"
+        }
+      ],
+      "totalTextCount": 6,
+      "tail": "mo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页\n\nKingFusion4.5_工程浏览器\n\n盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n人员\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n第三方计算管理\n\t\n\n\n图形模型\n\t\n\n\n2D精灵图\n\t\n\n\n3D精灵图\n\t\n\n\n页面精灵图\n\t\n\n\n报表精灵图\n\t\n\n\n自定义精灵图\n\t\n\n\n子模型\n\t\n\n\n形参配置\n\t\n\n业务事\n\nRoot\npal_menu_node\npal_department\npal_mentor\npal_intern_student\npal_assessment_batch\npal_assessment_record\npal_assessment_score_detail\npal_operation_log\n\n基础信息\n\n名称:\n\n描述:\n\n形态:\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 6 条\n1\n前往页"
+    },
+    {
+      "name": "pal_intern_student",
+      "selected": "pal_intern_student",
+      "shape": "计划",
+      "visibleCount": 8,
+      "rows": [
+        {
+          "rect": {
+            "x": 584,
+            "y": 362,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "id",
+            "string",
+            "",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 399,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "student_no",
+            "string",
+            "",
+            "学生学号"
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 436,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "成员3",
+            "string",
+            "",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 473,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "phone",
+            "string",
+            "",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 510,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "dept_id",
+            "string",
+            "",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 547,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "mentor_id",
+            "string",
+            "",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 584,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "entry_date",
+            "dateTime",
+            "2026-6-24 9:33:43.513",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 621,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "enabled",
+            "bool",
+            "true",
+            "是否启用"
+          ],
+          "text": "删除"
+        }
+      ],
+      "totalTextCount": 8,
+      "tail": "business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页\n\nKingFusion4.5_工程浏览器\n\n盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n人员\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n第三方计算管理\n\t\n\n\n图形模型\n\t\n\n\n2D精灵图\n\t\n\n\n3D精灵图\n\t\n\n\n页面精灵图\n\t\n\n\n报表精灵图\n\t\n\n\n自定义精灵图\n\t\n\n\n子模型\n\t\n\n\n形参配置\n\t\n\n业务事\n\nRoot\npal_menu_node\npal_department\npal_mentor\npal_intern_student\npal_assessment_batch\npal_assessment_record\npal_assessment_score_detail\npal_operation_log\n\n基础信息\n\n名称:\n\n描述:\n\n形态:\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 8 条\n1\n前往页"
+    },
+    {
+      "name": "pal_assessment_batch",
+      "selected": "pal_assessment_batch",
+      "shape": "计划",
+      "visibleCount": 6,
+      "rows": [
+        {
+          "rect": {
+            "x": 584,
+            "y": 362,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "成员1",
+            "string",
+            "",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 399,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "batch_code",
+            "string",
+            "",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 436,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "batch_name",
+            "string",
+            "",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 473,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "start_date",
+            "dateTime",
+            "2026-6-24 9:33:50.314",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 510,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "end_date",
+            "dateTime",
+            "2026-6-24 9:33:50.314",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 547,
+            "w": 1296,
+            "h": 37
+          },
+          "values": [
+            "status",
+            "string",
+            "",
+            "批次状态"
+          ],
+          "text": "删除"
+        }
+      ],
+      "totalTextCount": 6,
+      "tail": "mo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页\n\nKingFusion4.5_工程浏览器\n\n盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n人员\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n第三方计算管理\n\t\n\n\n图形模型\n\t\n\n\n2D精灵图\n\t\n\n\n3D精灵图\n\t\n\n\n页面精灵图\n\t\n\n\n报表精灵图\n\t\n\n\n自定义精灵图\n\t\n\n\n子模型\n\t\n\n\n形参配置\n\t\n\n业务事\n\nRoot\npal_menu_node\npal_department\npal_mentor\npal_intern_student\npal_assessment_batch\npal_assessment_record\npal_assessment_score_detail\npal_operation_log\n\n基础信息\n\n名称:\n\n描述:\n\n形态:\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 6 条\n1\n前往页"
+    },
+    {
+      "name": "pal_assessment_record",
+      "selected": "pal_assessment_record",
+      "shape": "历史",
+      "visibleCount": 15,
+      "rows": [
+        {
+          "rect": {
+            "x": 584,
+            "y": 362,
+            "w": 1288,
+            "h": 37
+          },
+          "values": [
+            "id",
+            "string",
+            "",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 399,
+            "w": 1288,
+            "h": 37
+          },
+          "values": [
+            "student_id",
+            "string",
+            "",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 436,
+            "w": 1288,
+            "h": 37
+          },
+          "values": [
+            "batch_id",
+            "string",
+            "",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 473,
+            "w": 1288,
+            "h": 37
+          },
+          "values": [
+            "mentor_id",
+            "string",
+            "",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 510,
+            "w": 1288,
+            "h": 37
+          },
+          "values": [
+            "professional_score",
+            "double",
+            "0",
+            "专业能力得分"
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 547,
+            "w": 1288,
+            "h": 37
+          },
+          "values": [
+            "成员6",
+            "string",
+            "",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 584,
+            "w": 1288,
+            "h": 37
+          },
+          "values": [
+            "task_score",
+            "double",
+            "0",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 621,
+            "w": 1288,
+            "h": 37
+          },
+          "values": [
+            "成员8",
+            "string",
+            "",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 658,
+            "w": 1288,
+            "h": 37
+          },
+          "values": [
+            "innovation_score",
+            "double",
+            "0",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 695,
+            "w": 1288,
+            "h": 37
+          },
+          "values": [
+            "成员10",
+            "string",
+            "",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 732,
+            "w": 1288,
+            "h": 37
+          },
+          "values": [
+            "status",
+            "string",
+            "",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 769,
+            "w": 1288,
+            "h": 37
+          },
+          "values": [
+            "comment",
+            "string",
+            "",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 806,
+            "w": 1288,
+            "h": 37
+          },
+          "values": [
+            "updated_at",
+            "dateTime",
+            "2026-6-24 9:41:18.654",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 843,
+            "w": 1288,
+            "h": 37
+          },
+          "values": [
+            "deleted",
+            "bool",
+            "false",
+            ""
+          ],
+          "text": "删除"
+        },
+        {
+          "rect": {
+            "x": 584,
+            "y": 880,
+            "w": 1288,
+            "h": 37
+          },
+          "values": [
+            "_extra_delete_me",
+            "string",
+            "",
+            "????????"
+          ],
+          "text": "删除"
+        }
+      ],
+      "totalTextCount": 15,
+      "tail": ": left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页\n\nKingFusion4.5_工程浏览器\n\n盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n人员\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n第三方计算管理\n\t\n\n\n图形模型\n\t\n\n\n2D精灵图\n\t\n\n\n3D精灵图\n\t\n\n\n页面精灵图\n\t\n\n\n报表精灵图\n\t\n\n\n自定义精灵图\n\t\n\n\n子模型\n\t\n\n\n形参配置\n\t\n\n业务事\n\nRoot\npal_menu_node\npal_department\npal_mentor\npal_intern_student\npal_assessment_batch\npal_assessment_record\npal_assessment_score_detail\npal_operation_log\n\n基础信息\n\n名称:\n\n描述:\n\n形态:\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\t\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n\n\n\t\n\t\n\t\n\t\n\t\n删除\n共 15 条\n1\n前往页"
+    },
+    {
+      "name": "pal_assessment_score_detail",
+      "selected": "pal_assessment_score_detail",
+      "shape": "实时",
+      "visibleCount": 0,
+      "rows": [],
+      "totalTextCount": 0,
+      "tail": "an restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页\n\nKingFusion4.5_工程浏览器\n\n盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n人员\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n第三方计算管理\n\t\n\n\n图形模型\n\t\n\n\n2D精灵图\n\t\n\n\n3D精灵图\n\t\n\n\n页面精灵图\n\t\n\n\n报表精灵图\n\t\n\n\n自定义精灵图\n\t\n\n\n子模型\n\t\n\n\n形参配置\n\t\n\n业务事\n\nRoot\npal_menu_node\npal_department\npal_mentor\npal_intern_student\npal_assessment_batch\npal_assessment_record\npal_assessment_score_detail\npal_operation_log\n\n基础信息\n\n名称:\n\n描述:\n\n形态:\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\nempty\n共 0 条\n1\n前往页"
+    },
+    {
+      "name": "pal_operation_log",
+      "selected": "pal_operation_log",
+      "shape": "实时",
+      "visibleCount": 0,
+      "rows": [],
+      "totalTextCount": 0,
+      "tail": "an restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页\n\nKingFusion4.5_工程浏览器\n\n盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n人员\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n第三方计算管理\n\t\n\n\n图形模型\n\t\n\n\n2D精灵图\n\t\n\n\n3D精灵图\n\t\n\n\n页面精灵图\n\t\n\n\n报表精灵图\n\t\n\n\n自定义精灵图\n\t\n\n\n子模型\n\t\n\n\n形参配置\n\t\n\n业务事\n\nRoot\npal_menu_node\npal_department\npal_mentor\npal_intern_student\npal_assessment_batch\npal_assessment_record\npal_assessment_score_detail\npal_operation_log\n\n基础信息\n\n名称:\n\n描述:\n\n形态:\n\n成员\n\n添加行\n批量删除\n导入\n导出\n\t名称\t类型\t值\t描述\t操作\nempty\n共 0 条\n1\n前往页"
+    }
+  ]
+}

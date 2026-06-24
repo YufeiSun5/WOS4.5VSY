@@ -1,0 +1,763 @@
+[
+  {
+    "di": 1,
+    "hasPal": false,
+    "tree": []
+  },
+  {
+    "di": 3,
+    "hasPal": true,
+    "tree": [
+      {
+        "i": 0,
+        "text": "管控单元建模\n采集设备建模\n工作流建模\n数据源建模",
+        "cls": "custom_tree component_object ElementTree1",
+        "x": 1,
+        "y": 78,
+        "w": 239,
+        "h": 764,
+        "visible": true
+      },
+      {
+        "i": 1,
+        "text": "管控单元建模\n采集设备建模\n工作流建模\n数据源建模",
+        "cls": "el-tree tree el-tree--highlight-current",
+        "x": 1,
+        "y": 78,
+        "w": 239,
+        "h": 128,
+        "visible": true
+      },
+      {
+        "i": 2,
+        "text": "管控单元建模",
+        "cls": "el-tree-node is-expanded is-current is-focusable",
+        "x": 1,
+        "y": 78,
+        "w": 239,
+        "h": 32,
+        "visible": true
+      },
+      {
+        "i": 3,
+        "text": "管控单元建模",
+        "cls": "editNode root-node",
+        "x": 6,
+        "y": 81,
+        "w": 187,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 4,
+        "text": "管控单元建模",
+        "cls": "treeNodeLabel",
+        "x": 24.03125,
+        "y": 81,
+        "w": 168.96875,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 5,
+        "text": "采集设备建模",
+        "cls": "el-tree-node is-focusable",
+        "x": 1,
+        "y": 110,
+        "w": 239,
+        "h": 32,
+        "visible": true
+      },
+      {
+        "i": 6,
+        "text": "采集设备建模",
+        "cls": "editNode root-node",
+        "x": 6,
+        "y": 113,
+        "w": 187,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 7,
+        "text": "采集设备建模",
+        "cls": "treeNodeLabel",
+        "x": 24.03125,
+        "y": 113,
+        "w": 168.96875,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 8,
+        "text": "工作流建模",
+        "cls": "el-tree-node is-focusable",
+        "x": 1,
+        "y": 142,
+        "w": 239,
+        "h": 32,
+        "visible": true
+      },
+      {
+        "i": 9,
+        "text": "工作流建模",
+        "cls": "editNode root-node",
+        "x": 6,
+        "y": 145,
+        "w": 187,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 10,
+        "text": "工作流建模",
+        "cls": "treeNodeLabel",
+        "x": 27.21875,
+        "y": 145,
+        "w": 165.78125,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 11,
+        "text": "数据源建模",
+        "cls": "el-tree-node is-expanded is-focusable",
+        "x": 1,
+        "y": 174,
+        "w": 239,
+        "h": 32,
+        "visible": true
+      },
+      {
+        "i": 12,
+        "text": "数据源建模",
+        "cls": "editNode root-node",
+        "x": 6,
+        "y": 177,
+        "w": 187,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 13,
+        "text": "数据源建模",
+        "cls": "treeNodeLabel",
+        "x": 27.21875,
+        "y": 177,
+        "w": 165.78125,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 14,
+        "text": "根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行",
+        "cls": "custom_tree component_object 工厂模型分组树",
+        "x": 261,
+        "y": 147,
+        "w": 264,
+        "h": 695,
+        "visible": true
+      },
+      {
+        "i": 15,
+        "text": "根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行",
+        "cls": "el-tree tree el-tree--highlight-current",
+        "x": 261,
+        "y": 147,
+        "w": 264,
+        "h": 442,
+        "visible": true
+      },
+      {
+        "i": 16,
+        "text": "根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n数据管理\n生产计划与执行",
+        "cls": "el-tree-node is-expanded is-focusable",
+        "x": 261,
+        "y": 147,
+        "w": 264,
+        "h": 442,
+        "visible": true
+      },
+      {
+        "i": 17,
+        "text": "根组",
+        "cls": "editNode root-node",
+        "x": 281,
+        "y": 147,
+        "w": 212,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 18,
+        "text": "根组",
+        "cls": "treeNodeLabel",
+        "x": 299.25,
+        "y": 149,
+        "w": 193.75,
+        "h": 22,
+        "visible": true
+      },
+      {
+        "i": 19,
+        "text": "集成测试",
+        "cls": "el-tree-node is-expanded is-focusable",
+        "x": 261,
+        "y": 173,
+        "w": 264,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 20,
+        "text": "集成测试",
+        "cls": "editNode",
+        "x": 297,
+        "y": 173,
+        "w": 196,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 21,
+        "text": "集成测试",
+        "cls": "treeNodeLabel",
+        "x": 315.109375,
+        "y": 175,
+        "w": 177.890625,
+        "h": 22,
+        "visible": true
+      },
+      {
+        "i": 22,
+        "text": "测试",
+        "cls": "el-tree-node is-expanded is-focusable",
+        "x": 261,
+        "y": 199,
+        "w": 264,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 23,
+        "text": "测试",
+        "cls": "editNode",
+        "x": 297,
+        "y": 199,
+        "w": 196,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 24,
+        "text": "测试",
+        "cls": "treeNodeLabel",
+        "x": 315.109375,
+        "y": 201,
+        "w": 177.890625,
+        "h": 22,
+        "visible": true
+      },
+      {
+        "i": 25,
+        "text": "引滦工程",
+        "cls": "el-tree-node is-expanded is-focusable",
+        "x": 261,
+        "y": 225,
+        "w": 264,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 26,
+        "text": "引滦工程",
+        "cls": "editNode",
+        "x": 297,
+        "y": 225,
+        "w": 196,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 27,
+        "text": "引滦工程",
+        "cls": "treeNodeLabel",
+        "x": 315.109375,
+        "y": 227,
+        "w": 177.890625,
+        "h": 22,
+        "visible": true
+      },
+      {
+        "i": 28,
+        "text": "mwq测试",
+        "cls": "el-tree-node is-expanded is-focusable",
+        "x": 261,
+        "y": 251,
+        "w": 264,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 29,
+        "text": "mwq测试",
+        "cls": "editNode",
+        "x": 297,
+        "y": 251,
+        "w": 196,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 30,
+        "text": "mwq测试",
+        "cls": "treeNodeLabel",
+        "x": 315.109375,
+        "y": 253,
+        "w": 177.890625,
+        "h": 22,
+        "visible": true
+      },
+      {
+        "i": 31,
+        "text": "张测试组",
+        "cls": "el-tree-node is-expanded is-focusable",
+        "x": 261,
+        "y": 277,
+        "w": 264,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 32,
+        "text": "张测试组",
+        "cls": "editNode",
+        "x": 297,
+        "y": 277,
+        "w": 196,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 33,
+        "text": "张测试组",
+        "cls": "treeNodeLabel",
+        "x": 315.109375,
+        "y": 279,
+        "w": 177.890625,
+        "h": 22,
+        "visible": true
+      },
+      {
+        "i": 34,
+        "text": "lk测试",
+        "cls": "el-tree-node is-expanded is-focusable",
+        "x": 261,
+        "y": 303,
+        "w": 264,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 35,
+        "text": "lk测试",
+        "cls": "editNode",
+        "x": 297,
+        "y": 303,
+        "w": 196,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 36,
+        "text": "lk测试",
+        "cls": "treeNodeLabel",
+        "x": 315.109375,
+        "y": 305,
+        "w": 177.890625,
+        "h": 22,
+        "visible": true
+      },
+      {
+        "i": 37,
+        "text": "盛云_孙宇飞_根组",
+        "cls": "el-tree-node is-expanded is-current is-focusable",
+        "x": 261,
+        "y": 329,
+        "w": 264,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 38,
+        "text": "盛云_孙宇飞_根组",
+        "cls": "editNode",
+        "x": 297,
+        "y": 329,
+        "w": 196,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 39,
+        "text": "盛云_孙宇飞_根组",
+        "cls": "treeNodeLabel",
+        "x": 315.109375,
+        "y": 331,
+        "w": 177.890625,
+        "h": 22,
+        "visible": true
+      },
+      {
+        "i": 40,
+        "text": "产品生成器功能测试_lk",
+        "cls": "el-tree-node is-expanded is-focusable",
+        "x": 261,
+        "y": 355,
+        "w": 264,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 41,
+        "text": "产品生成器功能测试_lk",
+        "cls": "editNode",
+        "x": 297,
+        "y": 355,
+        "w": 196,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 42,
+        "text": "产品生成器功能测试_lk",
+        "cls": "treeNodeLabel",
+        "x": 315.109375,
+        "y": 357,
+        "w": 177.890625,
+        "h": 22,
+        "visible": true
+      },
+      {
+        "i": 43,
+        "text": "工厂",
+        "cls": "el-tree-node is-expanded is-focusable",
+        "x": 261,
+        "y": 381,
+        "w": 264,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 44,
+        "text": "工厂",
+        "cls": "editNode",
+        "x": 297,
+        "y": 381,
+        "w": 196,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 45,
+        "text": "工厂",
+        "cls": "treeNodeLabel",
+        "x": 315.109375,
+        "y": 383,
+        "w": 177.890625,
+        "h": 22,
+        "visible": true
+      },
+      {
+        "i": 46,
+        "text": "车间",
+        "cls": "el-tree-node is-expanded is-focusable",
+        "x": 261,
+        "y": 407,
+        "w": 264,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 47,
+        "text": "车间",
+        "cls": "editNode",
+        "x": 297,
+        "y": 407,
+        "w": 196,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 48,
+        "text": "车间",
+        "cls": "treeNodeLabel",
+        "x": 315.109375,
+        "y": 409,
+        "w": 177.890625,
+        "h": 22,
+        "visible": true
+      },
+      {
+        "i": 49,
+        "text": "产线",
+        "cls": "el-tree-node is-expanded is-focusable",
+        "x": 261,
+        "y": 433,
+        "w": 264,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 50,
+        "text": "产线",
+        "cls": "editNode",
+        "x": 297,
+        "y": 433,
+        "w": 196,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 51,
+        "text": "产线",
+        "cls": "treeNodeLabel",
+        "x": 315.109375,
+        "y": 435,
+        "w": 177.890625,
+        "h": 22,
+        "visible": true
+      },
+      {
+        "i": 52,
+        "text": "设备",
+        "cls": "el-tree-node is-expanded is-focusable",
+        "x": 261,
+        "y": 459,
+        "w": 264,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 53,
+        "text": "设备",
+        "cls": "editNode",
+        "x": 297,
+        "y": 459,
+        "w": 196,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 54,
+        "text": "设备",
+        "cls": "treeNodeLabel",
+        "x": 315.109375,
+        "y": 461,
+        "w": 177.890625,
+        "h": 22,
+        "visible": true
+      },
+      {
+        "i": 55,
+        "text": "管理员",
+        "cls": "el-tree-node is-expanded is-focusable",
+        "x": 261,
+        "y": 485,
+        "w": 264,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 56,
+        "text": "管理员",
+        "cls": "editNode",
+        "x": 297,
+        "y": 485,
+        "w": 196,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 57,
+        "text": "管理员",
+        "cls": "treeNodeLabel",
+        "x": 315.109375,
+        "y": 487,
+        "w": 177.890625,
+        "h": 22,
+        "visible": true
+      },
+      {
+        "i": 58,
+        "text": "首页建模",
+        "cls": "el-tree-node is-expanded is-focusable",
+        "x": 261,
+        "y": 511,
+        "w": 264,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 59,
+        "text": "首页建模",
+        "cls": "editNode",
+        "x": 297,
+        "y": 511,
+        "w": 196,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 60,
+        "text": "首页建模",
+        "cls": "treeNodeLabel",
+        "x": 315.109375,
+        "y": 513,
+        "w": 177.890625,
+        "h": 22,
+        "visible": true
+      },
+      {
+        "i": 61,
+        "text": "数据管理",
+        "cls": "el-tree-node is-expanded is-focusable",
+        "x": 261,
+        "y": 537,
+        "w": 264,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 62,
+        "text": "数据管理",
+        "cls": "editNode",
+        "x": 297,
+        "y": 537,
+        "w": 196,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 63,
+        "text": "数据管理",
+        "cls": "treeNodeLabel",
+        "x": 315.109375,
+        "y": 539,
+        "w": 177.890625,
+        "h": 22,
+        "visible": true
+      },
+      {
+        "i": 64,
+        "text": "生产计划与执行",
+        "cls": "el-tree-node is-expanded is-focusable",
+        "x": 261,
+        "y": 563,
+        "w": 264,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 65,
+        "text": "生产计划与执行",
+        "cls": "editNode",
+        "x": 297,
+        "y": 563,
+        "w": 196,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 66,
+        "text": "生产计划与执行",
+        "cls": "treeNodeLabel",
+        "x": 315.109375,
+        "y": 565,
+        "w": 177.890625,
+        "h": 22,
+        "visible": true
+      },
+      {
+        "i": 67,
+        "text": "Root\npal_menu_node",
+        "cls": "custom_tree component_object ElementTree2",
+        "x": 310,
+        "y": 200,
+        "w": 253,
+        "h": 623,
+        "visible": true
+      },
+      {
+        "i": 68,
+        "text": "Root\npal_menu_node",
+        "cls": "el-tree tree",
+        "x": 310,
+        "y": 200,
+        "w": 253,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 69,
+        "text": "Root\npal_menu_node",
+        "cls": "el-tree-node is-current is-focusable",
+        "x": 310,
+        "y": 200,
+        "w": 253,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 70,
+        "text": "Root",
+        "cls": "editNode root-node",
+        "x": 334,
+        "y": 200,
+        "w": 201,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 71,
+        "text": "Root",
+        "cls": "treeNodeLabel",
+        "x": 348.796875,
+        "y": 200,
+        "w": 186.203125,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 72,
+        "text": "pal_menu_node",
+        "cls": "el-tree-node is-expanded is-focusable",
+        "x": 310,
+        "y": 226,
+        "w": 253,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 73,
+        "text": "pal_menu_node",
+        "cls": "editNode",
+        "x": 350,
+        "y": 226,
+        "w": 185,
+        "h": 26,
+        "visible": true
+      },
+      {
+        "i": 74,
+        "text": "pal_menu_node",
+        "cls": "treeNodeLabel",
+        "x": 350,
+        "y": 226,
+        "w": 185,
+        "h": 26,
+        "visible": true
+      }
+    ]
+  }
+]

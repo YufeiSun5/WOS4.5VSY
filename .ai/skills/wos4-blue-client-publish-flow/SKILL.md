@@ -21,6 +21,21 @@ model/page changes
 
 This skill does not replace the detailed child skills. It defines the order, stop points, and acceptance gates.
 
+Do not use this full publishing flow when the current goal is only:
+
+```text
+建模系统客户端 / 页面精灵图
+-> 页面编辑器
+-> 工具栏预览 mode=debugger
+-> 验证布局、假数据、表格、图表、按钮前端脚本
+```
+
+That editor/debugger preview can load the page resource directly from KF4.5 and is enough for frontend visual/layout iteration. It is not proof that a formal blue client object, time-space package, or deployed backend App is current.
+
+For backend source/meta-language function debugging, use `wos4-meta-language-fu-create` and its `调试配置` chain. A backend debugger session can compile/start debug without first publishing a blue client.
+
+Use this blue-client flow only when the task needs formal runtime acceptance: same-spacetime frontend/backend `Call`, deployed object verification, stale version diagnosis, or a runnable WebJS client opened from object management/desktop.
+
 ## Required Child Skills
 
 Read these before acting:
@@ -44,7 +59,7 @@ Also read task-specific skills:
 - Do not use `KingStudio_V20260514`.
 - Do not use dynamic preview URLs as entry points. Use visible WOS4 navigation; generated preview URLs are evidence only.
 - Do not treat a row-level `提交版本` as proof that runtime has updated.
-- Do not run `管控单元实例配置` row-level submit before target time-space submit as the primary release path. Product-provider correction on 2026-06-23: `NadirL2 时空提交版本/生成时空包` must happen first and will carry instance submissions.
+- Do not treat the product-provider `时空列表 -> 批量提交` release order as a verified skill rule until it is replayed successfully after the vendor update. Keep it in docs as an unverified hypothesis.
 - Do not create a `管控单元实例配置` row for a frontend model that only contains page sprites/screens. Product-provider correction: page-only frontend models are bound from `数字孪生可视化`, not instantiated under the time-space instance list.
 - Do not treat a purple object as a runnable final WebJS client.
 - If the first time-space level is empty, stop and add/verify a real level-1 instance before deploy.
@@ -80,19 +95,9 @@ Acceptance:
 
 ### 2. Submit target time-space and generate the package
 
-In the config client:
+Status: unverified after the 2026-06-24 vendor update notice.
 
-```text
-组态系统客户端
--> target project
--> 管控单元实例配置
--> 时空列表
--> select target spacetime level, for example NadirL2
--> top-right ellipsis/dropdown near the time-space add/edit controls
--> 批量提交
-```
-
-This step supersedes the older local assumption that instance row submit should happen before time-space package generation. The product provider confirmed the release chain:
+The previously recorded product-provider chain is now retained in project docs only as a hypothesis:
 
 ```text
 模型提交版本
@@ -103,25 +108,19 @@ This step supersedes the older local assumption that instance row submit should 
 -> 前端 Call 后端
 ```
 
-Important interpretation:
+Do not execute this section as a skill workflow until a fresh replay proves:
 
-- `NadirL2` is an example target time-space; use the actual target level for the task.
-- The visible UI path is the `批量提交` action on the `时空列表` toolbar/dropdown.
-- Time-space submit is the primary package-generation action and should carry the configured instances with it.
-- If using an automation API, it must be equivalent to the visible `批量提交 / 数字孪生实例化_时空_提交版本` action.
-- If the same apparent configuration still fails after the corrected order, suspect a stale/dirty instance binding before blaming frontend or backend parameters. Product support resolved the 2026-06-23 case by deleting the affected instance, adding it again, then rerunning this release order.
-- For the current CRUD pattern, `NadirL2` instance list should contain the backend/control-unit instance such as `NadirBack`. A separate frontend model that only provides pages does not need a `NadirFront` row here.
+- `时空列表 -> 更多 -> 批量提交` is the correct visible entry.
+- The time-space submit actually carries the expected configured instances.
+- A new package/version is visible afterward.
+- 运维部署更新/部署/启动 consumes that package.
+- Reopened blue client can call the backend.
 
-Acceptance:
-
-- The submit/progress result includes the target time-space and expected child instances, or the package version can be queried afterward.
-- Expected child instances means runtime-bearing instances: backend custom function, data/logic/control-unit models, or other non-page runtime units. It does not include page-only frontend screen models.
-- A new time-space package/version is created for the target time-space.
-- Do not continue to 运维部署 until the package/version is visible.
+Until then, use this skill only for already verified parts of blue-client publishing and record any probe results in docs, not in skill rules.
 
 ### 3. Check config instance submit after time-space submit
 
-After the target time-space package is generated, use `管控单元实例配置提交` as a confirmation or fallback step, not as the first release trigger.
+After the target time-space package is generated, `管控单元实例配置提交` may be a confirmation or fallback step, but this ordering is still unverified after the 2026-06-24 vendor update notice.
 
 Check:
 

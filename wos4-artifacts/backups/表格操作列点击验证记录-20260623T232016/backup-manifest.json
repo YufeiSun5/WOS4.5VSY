@@ -1,0 +1,25 @@
+{
+  "backupType": "local-file-before-append",
+  "task": "表格操作列点击验证记录",
+  "createdAt": "2026-06-23T23:20:16+08:00",
+  "ai": "孙宇飞_code-ai",
+  "reason": "记录 PalimpsestContent_82 表格操作列可点击和更多二级菜单预览验证结论前的本地文件备份",
+  "files": [
+    {
+      "source": "WOS4_deep_test_notes.md",
+      "backup": "before/WOS4_deep_test_notes.md"
+    },
+    {
+      "source": "wos4-artifacts/tasks/20260623-新测试页左右菜单CRUD弹窗设计/执行日志.md",
+      "backup": "before/执行日志.md"
+    },
+    {
+      "source": "wos4-artifacts/tasks/20260623-新测试页左右菜单CRUD弹窗设计/证据清单.md",
+      "backup": "before/证据清单.md"
+    },
+    {
+      "source": "MEMORY.md",
+      "backup": "before/MEMORY.md"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "result": null,
+  "state": [
+    {
+      "path": "top",
+      "dialogs": []
+    },
+    {
+      "path": "top.0",
+      "dialogs": []
+    },
+    {
+      "path": "top.1",
+      "dialogs": []
+    },
+    {
+      "path": "top.1.0",
+      "dialogs": [
+        {
+          "text": "PalimpsestBackend脚本编辑器",
+          "display": "block",
+          "pe": "auto",
+          "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_115017"
+        },
+        {
+          "text": "版本管理 序号 名称 描述 版本 时间 操作人 操作 1 盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest business event runtime copy precheck 20260624 1 2026",
+          "display": "block",
+          "pe": "auto",
+          "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_522716"
+        }
+      ]
+    },
+    {
+      "path": "top.1.0.0",
+      "dialogs": []
+    }
+  ]
+}

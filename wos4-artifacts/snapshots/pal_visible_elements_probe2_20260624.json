@@ -1,0 +1,2884 @@
+{
+  "res": [
+    {
+      "path": "top.0",
+      "href": "http://221.239.19.118:13001/desktop-frame/index.html?cloud=107#/main/worker-space-model",
+      "textSample": "时空功能开发平台Time Space Platform时空开发部署管理 仓库包 权限 镜像 关于时空管理 新建 删除默认数据区KingFusion4.5_V1KingStudio4.5_Beta_dataBaseKF4.5工程引滦原水处理测试mwq测试张测试1芦昆测试工程盛云_孙宇飞_人工测试工程盛云_孙宇飞_Noctiluca盛云_孙宇飞_CRUD工程_0620信息管理系统盛云_孙宇飞_Palimpsest工程_0624KF4.5Root客户端1盛云_孙宇飞_Palimpsest客户端_0624根组私有根组实时报警数据汇总_运行后台个人仓库盛云_孙宇飞_仓库KingStudio4.5_Beta新建生成拷贝复制移动导入导出模式选择:只导出本仓库导出本仓库+数据对象只导出仓库树结构导出仓库树结构+数据对象是否开源:是否删除上传资源打包新建生成拷贝生成拷贝至复制复制至移动导入导出模式选择:只导出本仓库导出本仓库+数据对象只导出仓库树结构导出仓库树结构+数据对象是否开源:是否删除上传资源打包全量打包名称本仓库-多类型暂无数据全选共 6 条 1 23456Infinity前往页属性暂无数据时空仓库筛选全部:Label1:Label2:Label3:取消确定生成拷贝至复制至全量打包名称IDGUID描述按本仓库查看按仓库树查看全部功能单元第三方APPapp模块业务物单灵敏时序物多灵敏时序物业务事时序事关系组织岗位人员安全策略审计策略机密性完整性锁用户用户组角色域型域型交互表资源别名",
+      "els": []
+    },
+    {
+      "path": "top.1.0",
+      "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/index.html",
+      "textSample": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot\n\n实例列表\n\n新建\n删除\n更多操作 \n\t序号\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\n1\n\t\nPalimpsestBack\n\t\nPalimpsestBack\n\t\nPalimpsest backend CRUD service\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+      "els": [
+        {
+          "i": 0,
+          "tag": "DIV",
+          "txt": "KingFusion4.5_组态系统 < 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理 时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "client_run",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 1920,
+            "h": 843
+          },
+          "visible": true
+        },
+        {
+          "i": 1,
+          "tag": "DIV",
+          "txt": "KingFusion4.5_组态系统 < 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理 时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 1920,
+            "h": 843
+          },
+          "visible": true
+        },
+        {
+          "i": 2,
+          "tag": "DIV",
+          "txt": "KingFusion4.5_组态系统 < 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理 时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "ksc_page_run",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 1920,
+            "h": 843
+          },
+          "visible": true
+        },
+        {
+          "i": 3,
+          "tag": "DIV",
+          "txt": "KingFusion4.5_组态系统 < 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理 时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "page_running",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 1920,
+            "h": 843
+          },
+          "visible": true
+        },
+        {
+          "i": 4,
+          "tag": "DIV",
+          "txt": "KingFusion4.5_组态系统 < 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理 时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "page_view_container client_page_view_container",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 1920,
+            "h": 843
+          },
+          "visible": true
+        },
+        {
+          "i": 5,
+          "tag": "DIV",
+          "txt": "KingFusion4.5_组态系统 < 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理 时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "page_view",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 1920,
+            "h": 843
+          },
+          "visible": true
+        },
+        {
+          "i": 6,
+          "tag": "DIV",
+          "txt": "KingFusion4.5_组态系统 < 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理 时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "layer_view",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 1920,
+            "h": 843
+          },
+          "visible": true
+        },
+        {
+          "i": 7,
+          "tag": "DIV",
+          "txt": "KingFusion4.5_组态系统 < 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理 时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "layout_container containerStyle",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 1920,
+            "h": 843
+          },
+          "visible": true
+        },
+        {
+          "i": 8,
+          "tag": "SPAN",
+          "txt": "KingFusion4.5_组态系统 < 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理 时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "containerrow",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 1920,
+            "h": 843
+          },
+          "visible": true
+        },
+        {
+          "i": 9,
+          "tag": "DIV",
+          "txt": "KingFusion4.5_组态系统",
+          "cls": "response_row",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 1920,
+            "h": 42
+          },
+          "visible": true
+        },
+        {
+          "i": 10,
+          "tag": "SPAN",
+          "txt": "KingFusion4.5_组态系统",
+          "cls": "",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 1920,
+            "h": 42
+          },
+          "visible": true
+        },
+        {
+          "i": 11,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 19,
+            "h": 40.46875
+          },
+          "visible": true
+        },
+        {
+          "i": 12,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "",
+          "rect": {
+            "x": 19,
+            "y": 8.84375,
+            "w": 23,
+            "h": 24.28125
+          },
+          "visible": true
+        },
+        {
+          "i": 13,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "component_object_unselect",
+          "rect": {
+            "x": 19,
+            "y": 8.84375,
+            "w": 23,
+            "h": 24.28125
+          },
+          "visible": true
+        },
+        {
+          "i": 14,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "ui_factory",
+          "rect": {
+            "x": 19,
+            "y": 8.84375,
+            "w": 23,
+            "h": 24.28125
+          },
+          "visible": true
+        },
+        {
+          "i": 15,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "pointer_auto",
+          "rect": {
+            "x": 19,
+            "y": 8.84375,
+            "w": 23,
+            "h": 24.28125
+          },
+          "visible": true
+        },
+        {
+          "i": 16,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "component_object ElementImage1",
+          "rect": {
+            "x": 19,
+            "y": 8.84375,
+            "w": 23,
+            "h": 24.28125
+          },
+          "visible": true
+        },
+        {
+          "i": 17,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "el-image",
+          "rect": {
+            "x": 19,
+            "y": 8.84375,
+            "w": 23,
+            "h": 24.28125
+          },
+          "visible": true
+        },
+        {
+          "i": 18,
+          "tag": "DIV",
+          "txt": "KingFusion4.5_组态系统",
+          "cls": "",
+          "rect": {
+            "x": 45,
+            "y": 0,
+            "w": 260,
+            "h": 42
+          },
+          "visible": true
+        },
+        {
+          "i": 19,
+          "tag": "DIV",
+          "txt": "KingFusion4.5_组态系统",
+          "cls": "component_object_unselect",
+          "rect": {
+            "x": 45,
+            "y": 0,
+            "w": 260,
+            "h": 42
+          },
+          "visible": true
+        },
+        {
+          "i": 20,
+          "tag": "DIV",
+          "txt": "KingFusion4.5_组态系统",
+          "cls": "ui_factory",
+          "rect": {
+            "x": 45,
+            "y": 0,
+            "w": 260,
+            "h": 42
+          },
+          "visible": true
+        },
+        {
+          "i": 21,
+          "tag": "DIV",
+          "txt": "KingFusion4.5_组态系统",
+          "cls": "pointer_auto",
+          "rect": {
+            "x": 45,
+            "y": 0,
+            "w": 260,
+            "h": 42
+          },
+          "visible": true
+        },
+        {
+          "i": 22,
+          "tag": "DIV",
+          "txt": "KingFusion4.5_组态系统",
+          "cls": "el-text-component component_object ElementText1",
+          "rect": {
+            "x": 45,
+            "y": 0,
+            "w": 260,
+            "h": 42
+          },
+          "visible": true
+        },
+        {
+          "i": 23,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "",
+          "rect": {
+            "x": 305,
+            "y": 0,
+            "w": 1615,
+            "h": 42
+          },
+          "visible": true
+        },
+        {
+          "i": 24,
+          "tag": "DIV",
+          "txt": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理 时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "response_row",
+          "rect": {
+            "x": 0,
+            "y": 42,
+            "w": 1920,
+            "h": 801
+          },
+          "visible": true
+        },
+        {
+          "i": 25,
+          "tag": "SPAN",
+          "txt": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理 时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "",
+          "rect": {
+            "x": 1,
+            "y": 43,
+            "w": 1918,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 26,
+          "tag": "DIV",
+          "txt": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理 时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "",
+          "rect": {
+            "x": 1,
+            "y": 43,
+            "w": 1918,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 27,
+          "tag": "DIV",
+          "txt": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理 时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "component_object_unselect",
+          "rect": {
+            "x": 1,
+            "y": 43,
+            "w": 1918,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 28,
+          "tag": "DIV",
+          "txt": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理 时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "ui_factory layer_class",
+          "rect": {
+            "x": 1,
+            "y": 43,
+            "w": 1918,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 29,
+          "tag": "DIV",
+          "txt": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理 时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "page_view_container client_page_view_container set_page_app component_object 开发系统_组态_框架页面",
+          "rect": {
+            "x": 1,
+            "y": 43,
+            "w": 1918,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 30,
+          "tag": "DIV",
+          "txt": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理 时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "page_view",
+          "rect": {
+            "x": 1,
+            "y": 43,
+            "w": 1918,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 31,
+          "tag": "DIV",
+          "txt": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理 时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "layer_view",
+          "rect": {
+            "x": 1,
+            "y": 43,
+            "w": 1918,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 32,
+          "tag": "DIV",
+          "txt": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理 时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "layout_container containerStyle",
+          "rect": {
+            "x": 1,
+            "y": 43,
+            "w": 1918,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 33,
+          "tag": "SPAN",
+          "txt": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理 时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "containerrow",
+          "rect": {
+            "x": 1,
+            "y": 43,
+            "w": 1918,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 34,
+          "tag": "DIV",
+          "txt": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理 时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "response_row",
+          "rect": {
+            "x": 1,
+            "y": 43,
+            "w": 1918,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 35,
+          "tag": "SPAN",
+          "txt": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理 时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "",
+          "rect": {
+            "x": 1,
+            "y": 43,
+            "w": 1918,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 36,
+          "tag": "DIV",
+          "txt": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理",
+          "cls": "",
+          "rect": {
+            "x": 1,
+            "y": 43,
+            "w": 240,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 37,
+          "tag": "DIV",
+          "txt": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理",
+          "cls": "component_object_unselect",
+          "rect": {
+            "x": 1,
+            "y": 43,
+            "w": 240,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 38,
+          "tag": "DIV",
+          "txt": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理",
+          "cls": "ui_factory",
+          "rect": {
+            "x": 1,
+            "y": 43,
+            "w": 240,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 39,
+          "tag": "DIV",
+          "txt": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理",
+          "cls": "pointer_auto",
+          "rect": {
+            "x": 1,
+            "y": 43,
+            "w": 240,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 40,
+          "tag": "DIV",
+          "txt": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理",
+          "cls": "layout_container component_object containerStyle",
+          "rect": {
+            "x": 1,
+            "y": 43,
+            "w": 240,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 41,
+          "tag": "SPAN",
+          "txt": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理",
+          "cls": "containerrow",
+          "rect": {
+            "x": 1,
+            "y": 43,
+            "w": 240,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 42,
+          "tag": "DIV",
+          "txt": "< 返回工程管理",
+          "cls": "response_row",
+          "rect": {
+            "x": 1,
+            "y": 43,
+            "w": 240,
+            "h": 38
+          },
+          "visible": true
+        },
+        {
+          "i": 43,
+          "tag": "SPAN",
+          "txt": "< 返回工程管理",
+          "cls": "",
+          "rect": {
+            "x": 1,
+            "y": 43,
+            "w": 239,
+            "h": 38
+          },
+          "visible": true
+        },
+        {
+          "i": 44,
+          "tag": "DIV",
+          "txt": "< 返回工程管理",
+          "cls": "",
+          "rect": {
+            "x": 1,
+            "y": 43,
+            "w": 136,
+            "h": 38
+          },
+          "visible": true
+        },
+        {
+          "i": 45,
+          "tag": "DIV",
+          "txt": "< 返回工程管理",
+          "cls": "component_object_unselect",
+          "rect": {
+            "x": 1,
+            "y": 43,
+            "w": 136,
+            "h": 38
+          },
+          "visible": true
+        },
+        {
+          "i": 46,
+          "tag": "DIV",
+          "txt": "< 返回工程管理",
+          "cls": "ui_factory",
+          "rect": {
+            "x": 1,
+            "y": 43,
+            "w": 136,
+            "h": 38
+          },
+          "visible": true
+        },
+        {
+          "i": 47,
+          "tag": "DIV",
+          "txt": "< 返回工程管理",
+          "cls": "pointer_auto",
+          "rect": {
+            "x": 1,
+            "y": 43,
+            "w": 136,
+            "h": 38
+          },
+          "visible": true
+        },
+        {
+          "i": 48,
+          "tag": "DIV",
+          "txt": "< 返回工程管理",
+          "cls": "component_object ElementButton3",
+          "rect": {
+            "x": 1,
+            "y": 43,
+            "w": 136,
+            "h": 38
+          },
+          "visible": true
+        },
+        {
+          "i": 49,
+          "tag": "BUTTON",
+          "txt": "< 返回工程管理",
+          "cls": "el-button el-button--primary el-button--medium propertyStyle",
+          "rect": {
+            "x": 1,
+            "y": 43,
+            "w": 136,
+            "h": 38
+          },
+          "visible": true
+        },
+        {
+          "i": 50,
+          "tag": "SPAN",
+          "txt": "< 返回工程管理",
+          "cls": "",
+          "rect": {
+            "x": 27.828125,
+            "y": 56,
+            "w": 82.34375,
+            "h": 12
+          },
+          "visible": true
+        },
+        {
+          "i": 51,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "",
+          "rect": {
+            "x": 137,
+            "y": 43,
+            "w": 103,
+            "h": 38
+          },
+          "visible": true
+        },
+        {
+          "i": 52,
+          "tag": "DIV",
+          "txt": "盛云_孙宇飞_Palimpsest工程_0624",
+          "cls": "response_row",
+          "rect": {
+            "x": 1,
+            "y": 81,
+            "w": 240,
+            "h": 36
+          },
+          "visible": true
+        },
+        {
+          "i": 53,
+          "tag": "SPAN",
+          "txt": "盛云_孙宇飞_Palimpsest工程_0624",
+          "cls": "",
+          "rect": {
+            "x": 1,
+            "y": 81,
+            "w": 239,
+            "h": 36
+          },
+          "visible": true
+        },
+        {
+          "i": 54,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "",
+          "rect": {
+            "x": 1,
+            "y": 81,
+            "w": 10,
+            "h": 36
+          },
+          "visible": true
+        },
+        {
+          "i": 55,
+          "tag": "DIV",
+          "txt": "盛云_孙宇飞_Palimpsest工程_0624",
+          "cls": "",
+          "rect": {
+            "x": 11,
+            "y": 81,
+            "w": 229,
+            "h": 35
+          },
+          "visible": true
+        },
+        {
+          "i": 56,
+          "tag": "DIV",
+          "txt": "盛云_孙宇飞_Palimpsest工程_0624",
+          "cls": "component_object_unselect",
+          "rect": {
+            "x": 11,
+            "y": 81,
+            "w": 229,
+            "h": 35
+          },
+          "visible": true
+        },
+        {
+          "i": 57,
+          "tag": "DIV",
+          "txt": "盛云_孙宇飞_Palimpsest工程_0624",
+          "cls": "ui_factory",
+          "rect": {
+            "x": 11,
+            "y": 81,
+            "w": 229,
+            "h": 35
+          },
+          "visible": true
+        },
+        {
+          "i": 58,
+          "tag": "DIV",
+          "txt": "盛云_孙宇飞_Palimpsest工程_0624",
+          "cls": "pointer_auto",
+          "rect": {
+            "x": 11,
+            "y": 81,
+            "w": 229,
+            "h": 35
+          },
+          "visible": true
+        },
+        {
+          "i": 59,
+          "tag": "DIV",
+          "txt": "盛云_孙宇飞_Palimpsest工程_0624",
+          "cls": "el-text-component component_object projectText",
+          "rect": {
+            "x": 11,
+            "y": 81,
+            "w": 229,
+            "h": 35
+          },
+          "visible": true
+        },
+        {
+          "i": 60,
+          "tag": "DIV",
+          "txt": "数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理",
+          "cls": "response_row",
+          "rect": {
+            "x": 1,
+            "y": 117,
+            "w": 240,
+            "h": 725
+          },
+          "visible": true
+        },
+        {
+          "i": 61,
+          "tag": "SPAN",
+          "txt": "数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理",
+          "cls": "",
+          "rect": {
+            "x": 1,
+            "y": 117,
+            "w": 239,
+            "h": 725
+          },
+          "visible": true
+        },
+        {
+          "i": 62,
+          "tag": "DIV",
+          "txt": "数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理",
+          "cls": "",
+          "rect": {
+            "x": 1,
+            "y": 117,
+            "w": 239,
+            "h": 725
+          },
+          "visible": true
+        },
+        {
+          "i": 63,
+          "tag": "DIV",
+          "txt": "数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理",
+          "cls": "component_object_unselect",
+          "rect": {
+            "x": 1,
+            "y": 117,
+            "w": 239,
+            "h": 725
+          },
+          "visible": true
+        },
+        {
+          "i": 64,
+          "tag": "DIV",
+          "txt": "数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理",
+          "cls": "ui_factory",
+          "rect": {
+            "x": 1,
+            "y": 117,
+            "w": 239,
+            "h": 725
+          },
+          "visible": true
+        },
+        {
+          "i": 65,
+          "tag": "DIV",
+          "txt": "数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理",
+          "cls": "pointer_auto",
+          "rect": {
+            "x": 1,
+            "y": 117,
+            "w": 239,
+            "h": 725
+          },
+          "visible": true
+        },
+        {
+          "i": 66,
+          "tag": "DIV",
+          "txt": "数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理",
+          "cls": "custom_tree component_object ElementTree1",
+          "rect": {
+            "x": 1,
+            "y": 117,
+            "w": 239,
+            "h": 725
+          },
+          "visible": true
+        },
+        {
+          "i": 67,
+          "tag": "DIV",
+          "txt": "数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理",
+          "cls": "el-tree tree el-tree--highlight-current",
+          "rect": {
+            "x": 2,
+            "y": 118,
+            "w": 237,
+            "h": 384
+          },
+          "visible": true
+        },
+        {
+          "i": 68,
+          "tag": "DIV",
+          "txt": "数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置",
+          "cls": "el-tree-node is-expanded is-focusable",
+          "rect": {
+            "x": 19,
+            "y": 118,
+            "w": 220,
+            "h": 160
+          },
+          "visible": true
+        },
+        {
+          "i": 69,
+          "tag": "DIV",
+          "txt": "数字孪生实例配置",
+          "cls": "el-tree-node__content",
+          "rect": {
+            "x": 19,
+            "y": 118,
+            "w": 220,
+            "h": 32
+          },
+          "visible": true
+        },
+        {
+          "i": 173,
+          "tag": "DIV",
+          "txt": "时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "",
+          "rect": {
+            "x": 241,
+            "y": 43,
+            "w": 1678,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 174,
+          "tag": "DIV",
+          "txt": "时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "component_object_unselect",
+          "rect": {
+            "x": 241,
+            "y": 43,
+            "w": 1678,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 175,
+          "tag": "DIV",
+          "txt": "时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "ui_factory layer_class",
+          "rect": {
+            "x": 241,
+            "y": 43,
+            "w": 1678,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 176,
+          "tag": "DIV",
+          "txt": "时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "page_view_container client_page_view_container set_page_app component_object 数字孪生实例化_框架页面",
+          "rect": {
+            "x": 241,
+            "y": 43,
+            "w": 1678,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 177,
+          "tag": "DIV",
+          "txt": "时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "page_view",
+          "rect": {
+            "x": 241,
+            "y": 43,
+            "w": 1678,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 178,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "layer_view",
+          "rect": {
+            "x": 241,
+            "y": 43,
+            "w": 1678,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 179,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "layout_container containerStyle",
+          "rect": {
+            "x": 241,
+            "y": 43,
+            "w": 1678,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 180,
+          "tag": "SPAN",
+          "txt": "",
+          "cls": "containerrow",
+          "rect": {
+            "x": 241,
+            "y": 43,
+            "w": 1678,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 181,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "response_row",
+          "rect": {
+            "x": 241,
+            "y": 43,
+            "w": 1678,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 182,
+          "tag": "SPAN",
+          "txt": "",
+          "cls": "",
+          "rect": {
+            "x": 241,
+            "y": 43,
+            "w": 1678,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 184,
+          "tag": "DIV",
+          "txt": "时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "layer_view",
+          "rect": {
+            "x": 241,
+            "y": 43,
+            "w": 1678,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 185,
+          "tag": "DIV",
+          "txt": "时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "layout_container containerStyle",
+          "rect": {
+            "x": 241,
+            "y": 43,
+            "w": 1678,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 186,
+          "tag": "SPAN",
+          "txt": "时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "containerrow",
+          "rect": {
+            "x": 241,
+            "y": 43,
+            "w": 1678,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 187,
+          "tag": "DIV",
+          "txt": "时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "response_row",
+          "rect": {
+            "x": 241,
+            "y": 43,
+            "w": 1678,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 188,
+          "tag": "SPAN",
+          "txt": "时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "",
+          "rect": {
+            "x": 241,
+            "y": 43,
+            "w": 1678,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 189,
+          "tag": "DIV",
+          "txt": "时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot",
+          "cls": "",
+          "rect": {
+            "x": 241,
+            "y": 43,
+            "w": 310,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 190,
+          "tag": "DIV",
+          "txt": "时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot",
+          "cls": "component_object_unselect",
+          "rect": {
+            "x": 241,
+            "y": 43,
+            "w": 310,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 191,
+          "tag": "DIV",
+          "txt": "时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot",
+          "cls": "ui_factory layer_class",
+          "rect": {
+            "x": 241,
+            "y": 43,
+            "w": 310,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 192,
+          "tag": "DIV",
+          "txt": "时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot",
+          "cls": "layer_class",
+          "rect": {
+            "x": 241,
+            "y": 43,
+            "w": 310,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 193,
+          "tag": "DIV",
+          "txt": "时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot",
+          "cls": "layout_container component_object containerStyle",
+          "rect": {
+            "x": 241,
+            "y": 43,
+            "w": 310,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 194,
+          "tag": "SPAN",
+          "txt": "时空列表 KF4.5Root PalimpsestL1 PalimpsestRoot",
+          "cls": "containerrow",
+          "rect": {
+            "x": 241,
+            "y": 43,
+            "w": 310,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 195,
+          "tag": "DIV",
+          "txt": "时空列表",
+          "cls": "response_row",
+          "rect": {
+            "x": 256,
+            "y": 58,
+            "w": 280,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 196,
+          "tag": "SPAN",
+          "txt": "时空列表",
+          "cls": "",
+          "rect": {
+            "x": 256,
+            "y": 58,
+            "w": 280,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 197,
+          "tag": "DIV",
+          "txt": "时空列表",
+          "cls": "",
+          "rect": {
+            "x": 256,
+            "y": 58,
+            "w": 80,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 198,
+          "tag": "DIV",
+          "txt": "时空列表",
+          "cls": "component_object_unselect",
+          "rect": {
+            "x": 256,
+            "y": 58,
+            "w": 80,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 199,
+          "tag": "DIV",
+          "txt": "时空列表",
+          "cls": "ui_factory layer_class",
+          "rect": {
+            "x": 256,
+            "y": 58,
+            "w": 80,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 200,
+          "tag": "DIV",
+          "txt": "时空列表",
+          "cls": "pointer_auto",
+          "rect": {
+            "x": 256,
+            "y": 58,
+            "w": 80,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 201,
+          "tag": "DIV",
+          "txt": "时空列表",
+          "cls": "el-text-component component_object ElementText1",
+          "rect": {
+            "x": 256,
+            "y": 58,
+            "w": 80,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 202,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "",
+          "rect": {
+            "x": 336,
+            "y": 58,
+            "w": 105,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 203,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "",
+          "rect": {
+            "x": 441,
+            "y": 66,
+            "w": 20,
+            "h": 18
+          },
+          "visible": true
+        },
+        {
+          "i": 204,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "component_object_unselect",
+          "rect": {
+            "x": 441,
+            "y": 66,
+            "w": 20,
+            "h": 18
+          },
+          "visible": true
+        },
+        {
+          "i": 205,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "ui_factory layer_class",
+          "rect": {
+            "x": 441,
+            "y": 66,
+            "w": 20,
+            "h": 18
+          },
+          "visible": true
+        },
+        {
+          "i": 206,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "pointer_auto",
+          "rect": {
+            "x": 441,
+            "y": 66,
+            "w": 20,
+            "h": 18
+          },
+          "visible": true
+        },
+        {
+          "i": 207,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "component_object create_ElementButton",
+          "rect": {
+            "x": 441,
+            "y": 66,
+            "w": 20,
+            "h": 18
+          },
+          "visible": true
+        },
+        {
+          "i": 208,
+          "tag": "BUTTON",
+          "txt": "",
+          "cls": "el-button el-button--primary el-button--medium propertyStyle",
+          "rect": {
+            "x": 441,
+            "y": 66,
+            "w": 20,
+            "h": 18
+          },
+          "visible": true
+        },
+        {
+          "i": 210,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "",
+          "rect": {
+            "x": 466,
+            "y": 66,
+            "w": 20,
+            "h": 18
+          },
+          "visible": true
+        },
+        {
+          "i": 211,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "component_object_unselect",
+          "rect": {
+            "x": 466,
+            "y": 66,
+            "w": 20,
+            "h": 18
+          },
+          "visible": true
+        },
+        {
+          "i": 212,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "ui_factory layer_class",
+          "rect": {
+            "x": 466,
+            "y": 66,
+            "w": 20,
+            "h": 18
+          },
+          "visible": true
+        },
+        {
+          "i": 213,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "pointer_auto",
+          "rect": {
+            "x": 466,
+            "y": 66,
+            "w": 20,
+            "h": 18
+          },
+          "visible": true
+        },
+        {
+          "i": 214,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "component_object delete_ElementButton",
+          "rect": {
+            "x": 466,
+            "y": 66,
+            "w": 20,
+            "h": 18
+          },
+          "visible": true
+        },
+        {
+          "i": 215,
+          "tag": "BUTTON",
+          "txt": "",
+          "cls": "el-button el-button--primary el-button--medium propertyStyle",
+          "rect": {
+            "x": 466,
+            "y": 66,
+            "w": 20,
+            "h": 18
+          },
+          "visible": true
+        },
+        {
+          "i": 217,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "",
+          "rect": {
+            "x": 491,
+            "y": 66,
+            "w": 20,
+            "h": 18
+          },
+          "visible": true
+        },
+        {
+          "i": 218,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "component_object_unselect",
+          "rect": {
+            "x": 491,
+            "y": 66,
+            "w": 20,
+            "h": 18
+          },
+          "visible": true
+        },
+        {
+          "i": 219,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "ui_factory layer_class",
+          "rect": {
+            "x": 491,
+            "y": 66,
+            "w": 20,
+            "h": 18
+          },
+          "visible": true
+        },
+        {
+          "i": 220,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "pointer_auto",
+          "rect": {
+            "x": 491,
+            "y": 66,
+            "w": 20,
+            "h": 18
+          },
+          "visible": true
+        },
+        {
+          "i": 221,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "component_object ElementButton3",
+          "rect": {
+            "x": 491,
+            "y": 66,
+            "w": 20,
+            "h": 18
+          },
+          "visible": true
+        },
+        {
+          "i": 222,
+          "tag": "BUTTON",
+          "txt": "",
+          "cls": "el-button el-button--primary el-button--medium propertyStyle",
+          "rect": {
+            "x": 491,
+            "y": 66,
+            "w": 20,
+            "h": 18
+          },
+          "visible": true
+        },
+        {
+          "i": 224,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "",
+          "rect": {
+            "x": 516,
+            "y": 66,
+            "w": 20,
+            "h": 18
+          },
+          "visible": true
+        },
+        {
+          "i": 225,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "component_object_unselect",
+          "rect": {
+            "x": 516,
+            "y": 66,
+            "w": 20,
+            "h": 18
+          },
+          "visible": true
+        },
+        {
+          "i": 226,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "ui_factory layer_class",
+          "rect": {
+            "x": 516,
+            "y": 66,
+            "w": 20,
+            "h": 18
+          },
+          "visible": true
+        },
+        {
+          "i": 227,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "pointer_auto",
+          "rect": {
+            "x": 516,
+            "y": 66,
+            "w": 20,
+            "h": 18
+          },
+          "visible": true
+        },
+        {
+          "i": 228,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "el-tooltip component_object moreOperation_ElementDropdown1",
+          "rect": {
+            "x": 516,
+            "y": 66,
+            "w": 20,
+            "h": 18
+          },
+          "visible": true
+        },
+        {
+          "i": 229,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "el-dropdown k964c4214e84949628507951e5f3da16",
+          "rect": {
+            "x": 516,
+            "y": 66,
+            "w": 20,
+            "h": 18
+          },
+          "visible": true
+        },
+        {
+          "i": 230,
+          "tag": "BUTTON",
+          "txt": "",
+          "cls": "el-button el-button--primary el-button--medium el-dropdown-selfdefine",
+          "rect": {
+            "x": 516,
+            "y": 66,
+            "w": 20,
+            "h": 18
+          },
+          "visible": true
+        },
+        {
+          "i": 232,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "response_row",
+          "rect": {
+            "x": 256,
+            "y": 107,
+            "w": 280,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 233,
+          "tag": "SPAN",
+          "txt": "",
+          "cls": "",
+          "rect": {
+            "x": 256,
+            "y": 107,
+            "w": 280,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 234,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "",
+          "rect": {
+            "x": 256,
+            "y": 107,
+            "w": 280,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 235,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "component_object_unselect",
+          "rect": {
+            "x": 256,
+            "y": 107,
+            "w": 280,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 236,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "ui_factory layer_class",
+          "rect": {
+            "x": 256,
+            "y": 107,
+            "w": 280,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 237,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "pointer_auto",
+          "rect": {
+            "x": 256,
+            "y": 107,
+            "w": 280,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 238,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "el-input-component component_object spaceTimeRepoKeyWords_ElementInput",
+          "rect": {
+            "x": 256,
+            "y": 107,
+            "w": 280,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 239,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "el-input el-input--auto el-input--suffix is-normal",
+          "rect": {
+            "x": 256,
+            "y": 107,
+            "w": 280,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 240,
+          "tag": "SPAN",
+          "txt": "",
+          "cls": "el-input__suffix",
+          "rect": {
+            "x": 500,
+            "y": 107,
+            "w": 31,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 241,
+          "tag": "SPAN",
+          "txt": "",
+          "cls": "el-input__suffix-inner",
+          "rect": {
+            "x": 500,
+            "y": 109,
+            "w": 31,
+            "h": 24
+          },
+          "visible": true
+        },
+        {
+          "i": 244,
+          "tag": "DIV",
+          "txt": "KF4.5Root PalimpsestL1 PalimpsestRoot",
+          "cls": "response_row",
+          "rect": {
+            "x": 256,
+            "y": 156,
+            "w": 280,
+            "h": 671
+          },
+          "visible": true
+        },
+        {
+          "i": 245,
+          "tag": "SPAN",
+          "txt": "KF4.5Root PalimpsestL1 PalimpsestRoot",
+          "cls": "",
+          "rect": {
+            "x": 256,
+            "y": 156,
+            "w": 280,
+            "h": 671
+          },
+          "visible": true
+        },
+        {
+          "i": 246,
+          "tag": "DIV",
+          "txt": "KF4.5Root PalimpsestL1 PalimpsestRoot",
+          "cls": "",
+          "rect": {
+            "x": 256,
+            "y": 156,
+            "w": 280,
+            "h": 671
+          },
+          "visible": true
+        },
+        {
+          "i": 247,
+          "tag": "DIV",
+          "txt": "KF4.5Root PalimpsestL1 PalimpsestRoot",
+          "cls": "component_object_unselect",
+          "rect": {
+            "x": 256,
+            "y": 156,
+            "w": 280,
+            "h": 671
+          },
+          "visible": true
+        },
+        {
+          "i": 248,
+          "tag": "DIV",
+          "txt": "KF4.5Root PalimpsestL1 PalimpsestRoot",
+          "cls": "ui_factory layer_class",
+          "rect": {
+            "x": 256,
+            "y": 156,
+            "w": 280,
+            "h": 671
+          },
+          "visible": true
+        },
+        {
+          "i": 249,
+          "tag": "DIV",
+          "txt": "KF4.5Root PalimpsestL1 PalimpsestRoot",
+          "cls": "pointer_auto",
+          "rect": {
+            "x": 256,
+            "y": 156,
+            "w": 280,
+            "h": 671
+          },
+          "visible": true
+        },
+        {
+          "i": 250,
+          "tag": "DIV",
+          "txt": "KF4.5Root PalimpsestL1 PalimpsestRoot",
+          "cls": "custom_tree component_object spaceTimeRepo_ElementTree",
+          "rect": {
+            "x": 256,
+            "y": 156,
+            "w": 280,
+            "h": 671
+          },
+          "visible": true
+        },
+        {
+          "i": 251,
+          "tag": "DIV",
+          "txt": "KF4.5Root PalimpsestL1 PalimpsestRoot",
+          "cls": "el-tree tree el-tree--highlight-current",
+          "rect": {
+            "x": 256,
+            "y": 156,
+            "w": 280,
+            "h": 90
+          },
+          "visible": true
+        },
+        {
+          "i": 252,
+          "tag": "DIV",
+          "txt": "KF4.5Root PalimpsestL1 PalimpsestRoot",
+          "cls": "el-tree-node is-expanded is-focusable",
+          "rect": {
+            "x": 256,
+            "y": 156,
+            "w": 280,
+            "h": 90
+          },
+          "visible": true
+        },
+        {
+          "i": 259,
+          "tag": "DIV",
+          "txt": "PalimpsestL1 PalimpsestRoot",
+          "cls": "el-tree-node__children",
+          "rect": {
+            "x": 256,
+            "y": 186,
+            "w": 280,
+            "h": 60
+          },
+          "visible": true
+        },
+        {
+          "i": 260,
+          "tag": "DIV",
+          "txt": "PalimpsestL1",
+          "cls": "el-tree-node is-expanded is-current is-focusable",
+          "rect": {
+            "x": 256,
+            "y": 186,
+            "w": 280,
+            "h": 30
+          },
+          "visible": true
+        },
+        {
+          "i": 261,
+          "tag": "DIV",
+          "txt": "PalimpsestL1",
+          "cls": "el-tree-node__content",
+          "rect": {
+            "x": 256,
+            "y": 186,
+            "w": 280,
+            "h": 30
+          },
+          "visible": true
+        },
+        {
+          "i": 263,
+          "tag": "SPAN",
+          "txt": "PalimpsestL1",
+          "cls": "editNode",
+          "rect": {
+            "x": 286,
+            "y": 188,
+            "w": 121.65625,
+            "h": 26
+          },
+          "visible": true
+        },
+        {
+          "i": 264,
+          "tag": "SPAN",
+          "txt": "PalimpsestL1",
+          "cls": "treeNodeLabel",
+          "rect": {
+            "x": 298.171875,
+            "y": 188,
+            "w": 93.484375,
+            "h": 26
+          },
+          "visible": true
+        },
+        {
+          "i": 268,
+          "tag": "DIV",
+          "txt": "PalimpsestRoot",
+          "cls": "el-tree-node is-expanded is-focusable",
+          "rect": {
+            "x": 256,
+            "y": 216,
+            "w": 280,
+            "h": 30
+          },
+          "visible": true
+        },
+        {
+          "i": 269,
+          "tag": "DIV",
+          "txt": "PalimpsestRoot",
+          "cls": "el-tree-node__content",
+          "rect": {
+            "x": 256,
+            "y": 216,
+            "w": 280,
+            "h": 30
+          },
+          "visible": true
+        },
+        {
+          "i": 271,
+          "tag": "SPAN",
+          "txt": "PalimpsestRoot",
+          "cls": "editNode",
+          "rect": {
+            "x": 286,
+            "y": 218,
+            "w": 136.796875,
+            "h": 26
+          },
+          "visible": true
+        },
+        {
+          "i": 272,
+          "tag": "SPAN",
+          "txt": "PalimpsestRoot",
+          "cls": "treeNodeLabel",
+          "rect": {
+            "x": 298.5625,
+            "y": 218,
+            "w": 108.234375,
+            "h": 26
+          },
+          "visible": true
+        },
+        {
+          "i": 282,
+          "tag": "DIV",
+          "txt": "实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "",
+          "rect": {
+            "x": 551,
+            "y": 43,
+            "w": 1368,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 283,
+          "tag": "DIV",
+          "txt": "实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "component_object_unselect",
+          "rect": {
+            "x": 551,
+            "y": 43,
+            "w": 1368,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 284,
+          "tag": "DIV",
+          "txt": "实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "ui_factory layer_class",
+          "rect": {
+            "x": 551,
+            "y": 43,
+            "w": 1368,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 285,
+          "tag": "DIV",
+          "txt": "实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "layer_class",
+          "rect": {
+            "x": 551,
+            "y": 43,
+            "w": 1368,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 286,
+          "tag": "DIV",
+          "txt": "实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "layout_container component_object containerStyle",
+          "rect": {
+            "x": 551,
+            "y": 43,
+            "w": 1368,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 287,
+          "tag": "SPAN",
+          "txt": "实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "containerrow",
+          "rect": {
+            "x": 551,
+            "y": 43,
+            "w": 1368,
+            "h": 799
+          },
+          "visible": true
+        },
+        {
+          "i": 288,
+          "tag": "DIV",
+          "txt": "实例列表 新建 删除 更多操作",
+          "cls": "response_row",
+          "rect": {
+            "x": 566,
+            "y": 58,
+            "w": 1338,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 289,
+          "tag": "SPAN",
+          "txt": "实例列表 新建 删除 更多操作",
+          "cls": "",
+          "rect": {
+            "x": 566,
+            "y": 58,
+            "w": 1338,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 290,
+          "tag": "DIV",
+          "txt": "实例列表",
+          "cls": "",
+          "rect": {
+            "x": 566,
+            "y": 58,
+            "w": 120,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 291,
+          "tag": "DIV",
+          "txt": "实例列表",
+          "cls": "component_object_unselect",
+          "rect": {
+            "x": 566,
+            "y": 58,
+            "w": 120,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 292,
+          "tag": "DIV",
+          "txt": "实例列表",
+          "cls": "ui_factory layer_class",
+          "rect": {
+            "x": 566,
+            "y": 58,
+            "w": 120,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 293,
+          "tag": "DIV",
+          "txt": "实例列表",
+          "cls": "pointer_auto",
+          "rect": {
+            "x": 566,
+            "y": 58,
+            "w": 120,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 294,
+          "tag": "DIV",
+          "txt": "实例列表",
+          "cls": "el-text-component component_object ElementText11",
+          "rect": {
+            "x": 566,
+            "y": 58,
+            "w": 120,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 295,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "",
+          "rect": {
+            "x": 686,
+            "y": 58,
+            "w": 643,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 296,
+          "tag": "DIV",
+          "txt": "新建",
+          "cls": "",
+          "rect": {
+            "x": 1329,
+            "y": 58,
+            "w": 80,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 297,
+          "tag": "DIV",
+          "txt": "新建",
+          "cls": "component_object_unselect",
+          "rect": {
+            "x": 1329,
+            "y": 58,
+            "w": 80,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 298,
+          "tag": "DIV",
+          "txt": "新建",
+          "cls": "ui_factory layer_class",
+          "rect": {
+            "x": 1329,
+            "y": 58,
+            "w": 80,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 299,
+          "tag": "DIV",
+          "txt": "新建",
+          "cls": "pointer_auto",
+          "rect": {
+            "x": 1329,
+            "y": 58,
+            "w": 80,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 300,
+          "tag": "DIV",
+          "txt": "新建",
+          "cls": "component_object ElementButton2",
+          "rect": {
+            "x": 1329,
+            "y": 58,
+            "w": 80,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 301,
+          "tag": "BUTTON",
+          "txt": "新建",
+          "cls": "el-button el-button--primary el-button--medium propertyStyle",
+          "rect": {
+            "x": 1329,
+            "y": 58,
+            "w": 80,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 302,
+          "tag": "SPAN",
+          "txt": "新建",
+          "cls": "",
+          "rect": {
+            "x": 1364.5,
+            "y": 68,
+            "w": 28,
+            "h": 14
+          },
+          "visible": true
+        },
+        {
+          "i": 303,
+          "tag": "DIV",
+          "txt": "删除",
+          "cls": "",
+          "rect": {
+            "x": 1424,
+            "y": 58,
+            "w": 80,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 304,
+          "tag": "DIV",
+          "txt": "删除",
+          "cls": "component_object_unselect",
+          "rect": {
+            "x": 1424,
+            "y": 58,
+            "w": 80,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 305,
+          "tag": "DIV",
+          "txt": "删除",
+          "cls": "ui_factory layer_class",
+          "rect": {
+            "x": 1424,
+            "y": 58,
+            "w": 80,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 306,
+          "tag": "DIV",
+          "txt": "删除",
+          "cls": "pointer_auto",
+          "rect": {
+            "x": 1424,
+            "y": 58,
+            "w": 80,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 307,
+          "tag": "DIV",
+          "txt": "删除",
+          "cls": "component_object deleteInstances_ElementButton",
+          "rect": {
+            "x": 1424,
+            "y": 58,
+            "w": 80,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 308,
+          "tag": "BUTTON",
+          "txt": "删除",
+          "cls": "el-button el-button--primary el-button--medium propertyStyle",
+          "rect": {
+            "x": 1424,
+            "y": 58,
+            "w": 80,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 309,
+          "tag": "SPAN",
+          "txt": "删除",
+          "cls": "",
+          "rect": {
+            "x": 1459.5,
+            "y": 68,
+            "w": 28,
+            "h": 14
+          },
+          "visible": true
+        },
+        {
+          "i": 310,
+          "tag": "DIV",
+          "txt": "更多操作",
+          "cls": "",
+          "rect": {
+            "x": 1519,
+            "y": 58,
+            "w": 120,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 311,
+          "tag": "DIV",
+          "txt": "更多操作",
+          "cls": "component_object_unselect",
+          "rect": {
+            "x": 1519,
+            "y": 58,
+            "w": 120,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 312,
+          "tag": "DIV",
+          "txt": "更多操作",
+          "cls": "ui_factory layer_class",
+          "rect": {
+            "x": 1519,
+            "y": 58,
+            "w": 120,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 313,
+          "tag": "DIV",
+          "txt": "更多操作",
+          "cls": "pointer_auto",
+          "rect": {
+            "x": 1519,
+            "y": 58,
+            "w": 120,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 314,
+          "tag": "DIV",
+          "txt": "更多操作",
+          "cls": "el-tooltip component_object ElementDropdown1",
+          "rect": {
+            "x": 1519,
+            "y": 58,
+            "w": 120,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 315,
+          "tag": "DIV",
+          "txt": "更多操作",
+          "cls": "el-dropdown k781a8b39703580e7dbb9b0be4c7862e",
+          "rect": {
+            "x": 1519,
+            "y": 58,
+            "w": 120,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 316,
+          "tag": "BUTTON",
+          "txt": "更多操作",
+          "cls": "el-button el-button--primary el-button--medium el-dropdown-selfdefine",
+          "rect": {
+            "x": 1519,
+            "y": 58,
+            "w": 120,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 317,
+          "tag": "SPAN",
+          "txt": "更多操作",
+          "cls": "",
+          "rect": {
+            "x": 1549.9375,
+            "y": 67.5,
+            "w": 78.125,
+            "h": 15
+          },
+          "visible": true
+        },
+        {
+          "i": 318,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "",
+          "rect": {
+            "x": 1654,
+            "y": 58,
+            "w": 250,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 319,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "component_object_unselect",
+          "rect": {
+            "x": 1654,
+            "y": 58,
+            "w": 250,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 320,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "ui_factory layer_class",
+          "rect": {
+            "x": 1654,
+            "y": 58,
+            "w": 250,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 321,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "pointer_auto",
+          "rect": {
+            "x": 1654,
+            "y": 58,
+            "w": 250,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 322,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "el-input-component component_object instanceRepoKeyWords_ElementInput",
+          "rect": {
+            "x": 1654,
+            "y": 58,
+            "w": 250,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 323,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "el-input el-input--auto el-input--suffix is-normal",
+          "rect": {
+            "x": 1654,
+            "y": 58,
+            "w": 250,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 324,
+          "tag": "SPAN",
+          "txt": "",
+          "cls": "el-input__suffix",
+          "rect": {
+            "x": 1868,
+            "y": 58,
+            "w": 31,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 325,
+          "tag": "SPAN",
+          "txt": "",
+          "cls": "el-input__suffix-inner",
+          "rect": {
+            "x": 1868,
+            "y": 60,
+            "w": 31,
+            "h": 24
+          },
+          "visible": true
+        },
+        {
+          "i": 328,
+          "tag": "DIV",
+          "txt": "序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "response_row",
+          "rect": {
+            "x": 566,
+            "y": 107,
+            "w": 1338,
+            "h": 720
+          },
+          "visible": true
+        },
+        {
+          "i": 329,
+          "tag": "SPAN",
+          "txt": "序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "",
+          "rect": {
+            "x": 566,
+            "y": 107,
+            "w": 1338,
+            "h": 720
+          },
+          "visible": true
+        },
+        {
+          "i": 330,
+          "tag": "DIV",
+          "txt": "序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "",
+          "rect": {
+            "x": 566,
+            "y": 107,
+            "w": 1338,
+            "h": 720
+          },
+          "visible": true
+        },
+        {
+          "i": 331,
+          "tag": "DIV",
+          "txt": "序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "component_object_unselect",
+          "rect": {
+            "x": 566,
+            "y": 107,
+            "w": 1338,
+            "h": 720
+          },
+          "visible": true
+        },
+        {
+          "i": 332,
+          "tag": "DIV",
+          "txt": "序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "ui_factory layer_class",
+          "rect": {
+            "x": 566,
+            "y": 107,
+            "w": 1338,
+            "h": 720
+          },
+          "visible": true
+        },
+        {
+          "i": 333,
+          "tag": "DIV",
+          "txt": "序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "pointer_auto",
+          "rect": {
+            "x": 566,
+            "y": 107,
+            "w": 1338,
+            "h": 720
+          },
+          "visible": true
+        },
+        {
+          "i": 334,
+          "tag": "DIV",
+          "txt": "序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "PCUI_ElementTable component_object instanceList_ElementTable",
+          "rect": {
+            "x": 566,
+            "y": 107,
+            "w": 1338,
+            "h": 720
+          },
+          "visible": true
+        },
+        {
+          "i": 335,
+          "tag": "DIV",
+          "txt": "序号 名称 显示名称 描述 模型 模型版本 操作 1 PalimpsestBack PalimpsestBack Palimpsest backend CRUD service 盛云科技_孙宇飞_Palimpsest_后台_0623 v1 编辑属性切换模型版本形参管理提交版本删除",
+          "cls": "el-table el-table--fit el-table--border el-table--enable-row-hover el-table--enable-row-transition el-table--medium",
+          "rect": {
+            "x": 566,
+            "y": 107,
+            "w": 1338,
+            "h": 720
+          },
+          "visible": true
+        },
+        {
+          "i": 345,
+          "tag": "DIV",
+          "txt": "序号 名称 显示名称 描述 模型 模型版本 操作",
+          "cls": "el-table__header-wrapper",
+          "rect": {
+            "x": 566,
+            "y": 107,
+            "w": 1338,
+            "h": 34
+          },
+          "visible": true
+        },
+        {
+          "i": 346,
+          "tag": "DIV",
+          "txt": "",
+          "cls": "cell",
+          "rect": {
+            "x": 566,
+            "y": 112,
+            "w": 34,
+            "h": 23
+          },
+          "visible": true
+        },
+        {
+          "i": 347,
+          "tag": "SPAN",
+          "txt": "",
+          "cls": "el-checkbox__input",
+          "rect": {
+            "x": 576,
+            "y": 117.703125,
+            "w": 14,
+            "h": 15
+          },
+          "visible": true
+        },
+        {
+          "i": 348,
+          "tag": "SPAN",
+          "txt": "",
+          "cls": "el-checkbox__inner",
+          "rect": {
+            "x": 576,
+            "y": 117.703125,
+            "w": 14,
+            "h": 14
+          },
+          "visible": true
+        },
+        {
+          "i": 349,
+          "tag": "DIV",
+          "txt": "序号",
+          "cls": "cell",
+          "rect": {
+            "x": 601,
+            "y": 112,
+            "w": 59,
+            "h": 23
+          },
+          "visible": true
+        },
+        {
+          "i": 350,
+          "tag": "SPAN",
+          "txt": "序号",
+          "cls": "",
+          "rect": {
+            "x": 611,
+            "y": 113,
+            "w": 28,
+            "h": 20
+          },
+          "visible": true
+        },
+        {
+          "i": 351,
+          "tag": "DIV",
+          "txt": "名称",
+          "cls": "cell",
+          "rect": {
+            "x": 661,
+            "y": 112,
+            "w": 198,
+            "h": 23
+          },
+          "visible": true
+        },
+        {
+          "i": 353,
+          "tag": "SPAN",
+          "txt": "名称",
+          "cls": "",
+          "rect": {
+            "x": 671,
+            "y": 113,
+            "w": 28,
+            "h": 20
+          },
+          "visible": true
+        },
+        {
+          "i": 354,
+          "tag": "DIV",
+          "txt": "显示名称",
+          "cls": "cell",
+          "rect": {
+            "x": 860,
+            "y": 112,
+            "w": 196,
+            "h": 23
+          },
+          "visible": true
+        },
+        {
+          "i": 356,
+          "tag": "SPAN",
+          "txt": "显示名称",
+          "cls": "",
+          "rect": {
+            "x": 870,
+            "y": 113,
+            "w": 56,
+            "h": 20
+          },
+          "visible": true
+        },
+        {
+          "i": 357,
+          "tag": "DIV",
+          "txt": "描述",
+          "cls": "cell",
+          "rect": {
+            "x": 1057,
+            "y": 112,
+            "w": 196,
+            "h": 23
+          },
+          "visible": true
+        },
+        {
+          "i": 359,
+          "tag": "SPAN",
+          "txt": "描述",
+          "cls": "",
+          "rect": {
+            "x": 1067,
+            "y": 113,
+            "w": 28,
+            "h": 20
+          },
+          "visible": true
+        },
+        {
+          "i": 360,
+          "tag": "DIV",
+          "txt": "模型",
+          "cls": "cell",
+          "rect": {
+            "x": 1254,
+            "y": 112,
+            "w": 149,
+            "h": 23
+          },
+          "visible": true
+        },
+        {
+          "i": 362,
+          "tag": "SPAN",
+          "txt": "模型",
+          "cls": "",
+          "rect": {
+            "x": 1264,
+            "y": 113,
+            "w": 28,
+            "h": 20
+          },
+          "visible": true
+        },
+        {
+          "i": 363,
+          "tag": "DIV",
+          "txt": "模型版本",
+          "cls": "cell",
+          "rect": {
+            "x": 1404,
+            "y": 112,
+            "w": 99,
+            "h": 23
+          },
+          "visible": true
+        },
+        {
+          "i": 365,
+          "tag": "SPAN",
+          "txt": "模型版本",
+          "cls": "",
+          "rect": {
+            "x": 1414,
+            "y": 113,
+            "w": 56,
+            "h": 20
+          },
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "top.2.0",
+      "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/index.html",
+      "textSample": "<strong>We're sorry but app-master doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>KingFusion4.5_建模系统建模系统管控单元建模采集设备建模工作流建模数据源建模数字孪生建模分组       导入 导出 删除  根组集成测试测试引滦工程mwq测试张测试组lk测试盛云_孙宇飞_根组产品生成器功能测试_lk工厂车间产线设备管理员首页建模数据管理生产计划与执行模型列表 新建  更多操作  导入 导出 复制 粘贴 移动 删除   序号名称描述操作1盛云_孙宇飞_Smoke模型_0518建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。 编辑 属性 提交版本 版本管理 更新 删除2盛云_孙宇飞_后台_查询Demo_0618reference lk backend minimal clone: business event + custom calc skeleton 编辑 属性 提交版本 版本管理 更新 删除3盛云_孙宇飞_前端_框架_0618reference lk front frame minimal clone: frame page skeleton 编辑 属性 提交版本 版本管理 更新 删除4盛云_孙宇飞_前端_查询Demo_0618reference lk front business minimal clone: list page + edit page skeleton 编辑 属性 提交版本 版本管理 更新 删除5盛云_孙宇飞_后台_CRUDDemo_0620clean restart backend CRUD model 0620 编辑 属性 提交版本 版本管理 更新 删除6盛云_孙宇飞_前端_框架_0620clean restart front frame model 0620 编辑 属性 提交版本 版本管理 更新 删除7盛云_孙宇飞_前端_CRUDDemo_0620clean restart front business model 0620 编辑 属性 提交版本 版本管理 更新 删除8盛云科技_孙宇飞_Palimpsest_前端_0623P",
+      "els": []
+    }
+  ],
+  "ts": "2026-06-24 13:35:16"
+}

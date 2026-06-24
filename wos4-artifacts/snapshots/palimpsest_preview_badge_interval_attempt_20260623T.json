@@ -1,0 +1,24 @@
+{
+  "bodyAttr": null,
+  "keyword": {
+    "value": "",
+    "placeholder": "姓名 / 学号 / 手机号"
+  },
+  "buttons": [
+    {
+      "cls": "pal_query_button",
+      "badgeVisible": "block",
+      "badgeStyle": null
+    },
+    {
+      "cls": "pal_reset_button",
+      "badgeVisible": "block",
+      "badgeStyle": null
+    },
+    {
+      "cls": "pal_export_button",
+      "badgeVisible": "block",
+      "badgeStyle": null
+    }
+  ]
+}

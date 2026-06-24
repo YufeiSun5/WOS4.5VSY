@@ -1,0 +1,69 @@
+{
+  "click": {
+    "clicked": true,
+    "tag": "DIV",
+    "text": "提交",
+    "rect": {
+      "x": 868.203125,
+      "y": 0,
+      "w": 35,
+      "h": 36
+    }
+  },
+  "modal": {
+    "dialogs": 0,
+    "field": true,
+    "clickedOk": true,
+    "scopeText": ""
+  },
+  "capture": {
+    "messages": [
+      {
+        "kind": "mutation",
+        "text": "版本提交提交说明\n          取消\n        \n          确定",
+        "extra": {
+          "className": "el-message-box__wrapper"
+        },
+        "t": 1782213492472
+      },
+      {
+        "kind": "mutation",
+        "text": "版本提交提交说明\n          取消\n        \n          确定",
+        "extra": {
+          "className": "el-message-box__wrapper"
+        },
+        "t": 1782213492472
+      },
+      {
+        "text": "版本提交提交说明\n          取消\n        \n          确定",
+        "cls": "el-message-box__wrapper",
+        "t": 1782213492472
+      },
+      {
+        "text": "版本提交提交说明\n          取消\n        \n          确定",
+        "cls": "el-message-box__wrapper",
+        "t": 1782213492472
+      },
+      {
+        "text": "版本提交提交说明\n          取消\n        \n          确定",
+        "cls": "el-message-box__wrapper",
+        "t": 1782213492472
+      },
+      {
+        "text": "版本提交提交说明\n          取消\n        \n          确定",
+        "cls": "el-message-box__wrapper",
+        "t": 1782213492472
+      },
+      {
+        "kind": "mutation",
+        "text": "版本提交提交说明\n          取消\n        \n          确定",
+        "extra": {
+          "className": "el-message-box__wrapper"
+        },
+        "t": 1782213492472
+      }
+    ],
+    "console": []
+  },
+  "screenshot": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\screenshots\\palimpsest_submit_input_card_spacing_20260623T_now.png"
+}

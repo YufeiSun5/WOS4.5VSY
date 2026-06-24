@@ -1,0 +1,219 @@
+{
+  "click": {
+    "clicked": true,
+    "row": "\t\n1\n\t\nPalimpsestBack\n\t\nPalimpsestBack\n\t\nPalimpsest backend CRUD service\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除",
+    "actionTag": "BUTTON",
+    "candidates": 2
+  },
+  "confirm": {
+    "acted": false,
+    "details": [
+      {
+        "i": 0,
+        "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_538827",
+        "text": "实例版本提交进度\n\n0%\n\n\t名称\tGUID\t状态\t详情\n1\n\t\nPalimpsestBack\n\t\n525b3634-6654-4326-b415-3bad1421847f\n\t\n0%\n\t\n关闭"
+      }
+    ]
+  },
+  "result": {
+    "capture": {
+      "messages": [
+        {
+          "text": "数字孪生实例化_实例_提交版本",
+          "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_538827",
+          "t": 1782276582393
+        },
+        {
+          "text": "数字孪生实例化_实例_提交版本",
+          "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_538827",
+          "t": 1782276582393
+        }
+      ],
+      "console": [
+        {
+          "level": "log",
+          "args": [
+            "[D] 点击了 <提交版本> 按钮, scope = ",
+            "[object Object]:[object Object]"
+          ],
+          "t": 1782276582120
+        },
+        {
+          "level": "log",
+          "args": [
+            "[I] 远程调用接口 <IQuerySpaceTimeRepoDetails>, res = ",
+            "{\"errorcodes\":[0],\"ret\":0,\"returndata\":{\"errorcode\":0,\"errormessage\":\"\",\"returndata\":{\"collectiontype\":\"1\",\"description\":\"Palimpsest backend runtime level\",\"displayname\":\"PalimpsestL1\",\"guid\":\"cfff2d2a-6f1f-40ce-9175-969a527c1170\",\"id\":\"288230376151747317\",\"name\":\"PalimpsestL1\",\"parentguid\":\"\",\"parentrepoguid\":\"45df63ca-f0b1-4046-b1e6-380e0ae3d4f4\",\"spacetimerepotype\":\"40\",\"tabs\":\"Palimpsest\",\"version\":1}},\"traceID\":\"5188882964176139264\",\"consumeTime\":191}"
+          ],
+          "t": 1782276582376
+        },
+        {
+          "level": "log",
+          "args": [
+            "i show child initChildData"
+          ],
+          "t": 1782276582387
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList start"
+          ],
+          "t": 1782276582716
+        },
+        {
+          "level": "log",
+          "args": [
+            "spaceTime parse error!"
+          ],
+          "t": 1782276582727
+        },
+        {
+          "level": "log",
+          "args": [
+            "registerLink"
+          ],
+          "t": 1782276582739
+        },
+        {
+          "level": "log",
+          "args": [
+            "页面名称:",
+            "数字孪生实例化_实例_提交版本",
+            "PARENT_STORE_PARAM:",
+            "{\"child$StoreName\":\"$7205759403792796133__$ChildPage__数字孪生实例化_实例_提交版本\",\"spaceTime\":{\"ret\":-10002,\"id\":\"\",\"guid\":\"\",\"name\":\"\",\"yuanArea\":0,\"webJsArea\":0,\"realArea\":0,\"planArea\":0,\"historyArea\":0,\"devName\":\"\",\"source\":\"showChild\"},\"fuObj\":{},\"isChild\":true}"
+          ],
+          "t": 1782276582771
+        },
+        {
+          "level": "log",
+          "args": [
+            "registerDataSet"
+          ],
+          "t": 1782276582787
+        },
+        {
+          "level": "log",
+          "args": [
+            "KGSDataObjMng subscribeDataObj"
+          ],
+          "t": 1782276582793
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782276582863
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782276583184
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782276583336
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] <版本提交进度> 开始打包 :: repoGuidAndInfoMap = ",
+            "{}"
+          ],
+          "t": 1782276583465
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782276583478
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] _asyncCreatePacketCallback, result = ",
+            "{\"errorcodes\":[-14496],\"errordesc\":\"{\\\"errorCode\\\":604013569,\\\"errorMessage\\\":\\\"compiler failed functionName: , errorType: 1, line:48, col:4, status:604013821, desc:throwException - can not find the identifier.; errorType: 1, line:96, col:8, status:604013821, desc:throwException - can not find the identifier.; errorType: 1, line:113, col:8, status:604013821, desc:throwException - can not find the identifier.; . compiler failed functionName: 4afd8750-11e8-4d9c-a3e0-49f539ab9ed1_11#_StartAppOnTimerCallBack_1, errorType: 1, line:48, col:4, status:604013821, desc:throwException - can not find the identifier.; errorType: 1, line:96, col:8, status:604013821, desc:throwException - can not find the identifier.; errorType: 1, line:113, col:8, status:604013821, desc:throwException - can not find the identifier.; . compiler failed functionName: 4afd8750-11e8-4d9c-a3e0-49f539ab9ed1_11#_StartAppOnTimerCallBack_2, errorType: 1, line:48, col:4, status:604013821, desc:throwException - can not find the identifier.; . compiler failed functionName: 4afd8750-11e8-4d9c-a3e0-49f539ab9ed1_11#_StartAppOnTimerCallBack_3, errorType: 1, line:105, col:8, status:604013821, desc:throwException - can not find the identifier.; errorType: 1, line:182, col:4, status:604013821, desc:throwException - can not find the identifier.; errorType: 1, line:194, col:4, status:604013821, desc:throwException - can not find the identifier.; . \\\",\\\"modelGUID\\\":\\\"4afd8750-11e8-4d9c-a3e0-49f539ab9ed1\\\",\\\"modelVersion\\\":11,\\\"copyGUID\\\":\\\"\\\",\\\"functionName\\\":\\\"4afd8750-11e8-4d9c-a3e0-49f539ab9ed1_11#onCreate\\\"}\",\"guids\":[\"525b3634-6654-4326-b415-3bad1421847f\"],\"versions\":[3]}"
+          ],
+          "t": 1782276583948
+        },
+        {
+          "level": "log",
+          "args": [
+            "[E] 打包回调报错 :: errorCode = -14496"
+          ],
+          "t": 1782276583956
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] <版本提交进度> 打包结果 :: repoGuidAndInfoMap = ",
+            "{}"
+          ],
+          "t": 1782276583961
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] <实例化框架页面> :: submitInstances :: 接收到 <数字孪生实例化_实例_提交版本> 传递来的公开事件 transferData = ",
+            "{\"eventName\":\"Finish\",\"eventParam\":[],\"comId\":\"dynamic-dialog-0.47572009120752445\",\"pageName\":\"数字孪生实例化_实例_提交版本\"}"
+          ],
+          "t": 1782276583974
+        }
+      ]
+    },
+    "dialogs": [
+      {
+        "i": 0,
+        "cls": "el-dialog__wrapper",
+        "display": "none",
+        "text": ""
+      },
+      {
+        "i": 1,
+        "cls": "el-dialog__wrapper",
+        "display": "none",
+        "text": ""
+      },
+      {
+        "i": 2,
+        "cls": "el-message-box__wrapper",
+        "display": "none",
+        "text": "提示有提交失败的数据, 是否导出错误信息?\n          取消\n        \n          确定\n        "
+      },
+      {
+        "i": 3,
+        "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_538827",
+        "display": "block",
+        "text": "实例版本提交进度\n\n0%\n\n\t名称\tGUID\t状态\t详情\n1\n\t\nPalimpsestBack\n\t\n525b3634-6654-4326-b415-3bad1421847f\n\t\n\t\n打包回调报错 :: errorCode = -14496\n关闭"
+      }
+    ],
+    "rows": [
+      {
+        "i": 0,
+        "text": "序号\t名称\t显示名称\t描述\t模型\t模型版本\t操作"
+      },
+      {
+        "i": 1,
+        "text": "1\n\t\nPalimpsestBack\n\t\nPalimpsestBack\n\t\nPalimpsest backend CRUD service\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除"
+      },
+      {
+        "i": 2,
+        "text": "2\n\t\nPalimpsestKnownGoodBack\n\t\nPalimpsestKnownGoodBack\n\t\nKnown good backend package probe\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv4\n\t\n编辑属性切换模型版本形参管理提交版本删除"
+      },
+      {
+        "i": 3,
+        "text": "名称\tGUID\t状态\t详情"
+      },
+      {
+        "i": 4,
+        "text": "1\n\t\nPalimpsestBack\n\t\n525b3634-6654-4326-b415-3bad1421847f\n\t\n\t\n打包回调报错 :: errorCode = -14496"
+      }
+    ]
+  }
+}

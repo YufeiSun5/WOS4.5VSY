@@ -1,0 +1,184 @@
+{
+  "page": "PalimpsestContent_82",
+  "target": {
+    "width": 1574,
+    "height": 1080
+  },
+  "before": {
+    "pageName": "PalimpsestContent_82",
+    "pageWidth": 1574,
+    "pageHeight": 1080,
+    "rows": [
+      {
+        "name": "RRow1",
+        "cols": 4,
+        "height": 88,
+        "rect": {
+          "x": 326.260009765625,
+          "y": 111.08374786376953,
+          "w": 984.9632568359375,
+          "h": 55.067832946777344
+        }
+      },
+      {
+        "name": "RRow2",
+        "cols": 4,
+        "height": 220,
+        "rect": {
+          "x": 326.260009765625,
+          "y": 166.15158081054688,
+          "w": 984.9632568359375,
+          "h": 137.66958618164062
+        }
+      },
+      {
+        "name": "RRow3",
+        "cols": 2,
+        "height": 772,
+        "rect": {
+          "x": 326.260009765625,
+          "y": 303.8211669921875,
+          "w": 984.9632568359375,
+          "h": 483.09503173828125
+        }
+      }
+    ]
+  },
+  "after": {
+    "pageName": "PalimpsestContent_82",
+    "pageWidth": 1574,
+    "pageHeight": 1080,
+    "root": {
+      "width": 1574,
+      "height": 1080,
+      "rect": {
+        "x": 326.260009765625,
+        "y": 111.08374786376953,
+        "w": 984.9632568359375,
+        "h": 675.8324584960938
+      }
+    },
+    "rows": [
+      {
+        "idx": 0,
+        "UIName": "RRow1",
+        "name": "",
+        "height": 88,
+        "heightStrategy": "fixedsize",
+        "cols": [
+          {
+            "idx": 0,
+            "UIName": "RCol11",
+            "name": "",
+            "width": 440,
+            "strategy": "fixedsize",
+            "objectCount": 0,
+            "rect": null
+          },
+          {
+            "idx": 1,
+            "UIName": "RCol12",
+            "name": "",
+            "width": 520,
+            "strategy": "fixedsize",
+            "objectCount": 0,
+            "rect": null
+          },
+          {
+            "idx": 2,
+            "UIName": "RCol13",
+            "name": "",
+            "width": 370,
+            "strategy": "fixedsize",
+            "objectCount": 0,
+            "rect": null
+          },
+          {
+            "idx": 3,
+            "UIName": "RCol14",
+            "name": "",
+            "width": 244,
+            "strategy": "fixedsize",
+            "objectCount": 0,
+            "rect": null
+          }
+        ],
+        "rect": null
+      },
+      {
+        "idx": 1,
+        "UIName": "RRow2",
+        "name": "",
+        "height": 220,
+        "heightStrategy": "fixedsize",
+        "cols": [
+          {
+            "idx": 0,
+            "UIName": "RCol21",
+            "name": "",
+            "width": 393.5,
+            "strategy": "fixedsize",
+            "objectCount": 0,
+            "rect": null
+          },
+          {
+            "idx": 1,
+            "UIName": "RCol22",
+            "name": "",
+            "width": 393.5,
+            "strategy": "fixedsize",
+            "objectCount": 0,
+            "rect": null
+          },
+          {
+            "idx": 2,
+            "UIName": "RCol23",
+            "name": "",
+            "width": 393.5,
+            "strategy": "fixedsize",
+            "objectCount": 0,
+            "rect": null
+          },
+          {
+            "idx": 3,
+            "UIName": "RCol24",
+            "name": "",
+            "width": 393.5,
+            "strategy": "fixedsize",
+            "objectCount": 0,
+            "rect": null
+          }
+        ],
+        "rect": null
+      },
+      {
+        "idx": 2,
+        "UIName": "RRow3",
+        "name": "",
+        "height": 772,
+        "heightStrategy": "fixedsize",
+        "cols": [
+          {
+            "idx": 0,
+            "UIName": "RCol31",
+            "name": "",
+            "width": 976,
+            "strategy": "fixedsize",
+            "objectCount": 0,
+            "rect": null
+          },
+          {
+            "idx": 1,
+            "UIName": "RCol32",
+            "name": "",
+            "width": 598,
+            "strategy": "fixedsize",
+            "objectCount": 0,
+            "rect": null
+          }
+        ],
+        "rect": null
+      }
+    ]
+  }
+}

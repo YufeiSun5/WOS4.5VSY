@@ -1,0 +1,154 @@
+{
+  "click": {
+    "clicked": true,
+    "text": "提交",
+    "path": "top.1.0.0"
+  },
+  "confirm": {
+    "confirmed": true
+  },
+  "state": {
+    "capture": {
+      "messages": [
+        {
+          "kind": "mutation",
+          "text": "版本提交提交说明\n          取消\n        \n          确定",
+          "extra": {
+            "className": "el-message-box__wrapper"
+          },
+          "t": 1782201137534
+        },
+        {
+          "kind": "mutation",
+          "text": "版本提交提交说明\n          取消\n        \n          确定",
+          "extra": {
+            "className": "el-message-box__wrapper"
+          },
+          "t": 1782201137535
+        },
+        {
+          "kind": "mutation",
+          "text": "保存中,请稍后 ! ! !",
+          "extra": {
+            "className": "el-loading-mask is-fullscreen"
+          },
+          "t": 1782201140339
+        },
+        {
+          "kind": "mutation",
+          "text": "保存中,请稍后 ! ! !",
+          "extra": {
+            "className": "el-loading-mask is-fullscreen"
+          },
+          "t": 1782201140339
+        },
+        {
+          "kind": "mutation",
+          "text": "保存成功",
+          "extra": {
+            "className": "el-message"
+          },
+          "t": 1782201140728
+        },
+        {
+          "kind": "mutation",
+          "text": "保存成功",
+          "extra": {
+            "className": "el-message"
+          },
+          "t": 1782201140728
+        },
+        {
+          "kind": "mutation",
+          "text": "生成历史版本失败！错误码：-19500",
+          "extra": {
+            "className": "el-message el-message--error"
+          },
+          "t": 1782201140848
+        },
+        {
+          "kind": "mutation",
+          "text": "生成历史版本失败！错误码：-19500",
+          "extra": {
+            "className": "el-message el-message--error"
+          },
+          "t": 1782201140848
+        }
+      ],
+      "console": []
+    },
+    "pageName": "PalimpsestContent_82",
+    "pageWidth": 1574,
+    "pageHeight": 1080,
+    "rows": [
+      {
+        "ri": 0,
+        "height": 88,
+        "cols": [
+          {
+            "ci": 0,
+            "width": 433,
+            "objects": 0
+          },
+          {
+            "ci": 1,
+            "width": 511,
+            "objects": 0
+          },
+          {
+            "ci": 2,
+            "width": 364,
+            "objects": 0
+          },
+          {
+            "ci": 3,
+            "width": 240,
+            "objects": 0
+          }
+        ]
+      },
+      {
+        "ri": 1,
+        "height": 220,
+        "cols": [
+          {
+            "ci": 0,
+            "width": 387,
+            "objects": 0
+          },
+          {
+            "ci": 1,
+            "width": 387,
+            "objects": 0
+          },
+          {
+            "ci": 2,
+            "width": 387,
+            "objects": 0
+          },
+          {
+            "ci": 3,
+            "width": 387,
+            "objects": 0
+          }
+        ]
+      },
+      {
+        "ri": 2,
+        "height": 772,
+        "cols": [
+          {
+            "ci": 0,
+            "width": 960,
+            "objects": 0
+          },
+          {
+            "ci": 1,
+            "width": 588,
+            "objects": 0
+          }
+        ]
+      }
+    ]
+  }
+}

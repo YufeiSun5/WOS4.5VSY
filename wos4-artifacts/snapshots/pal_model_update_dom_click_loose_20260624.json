@@ -1,0 +1,339 @@
+{
+  "res": {
+    "ok": false,
+    "reason": "target missing",
+    "rowHtml": "<tr class=\"el-table__row kf-row-mcm-instance expanded\"><td rowspan=\"1\" colspan=\"1\" class=\"el-table_5_column_23  el-table-column--selection  el-table__cell\"><div class=\"cell\"><label class=\"el-checkbox\"><span class=\"el-checkbox__input\"><span class=\"el-checkbox__inner\"></span><input type=\"checkbox\" aria-hidden=\"false\" class=\"el-checkbox__original\" value=\"\"></span><!----></label></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_5_column_24 is-left   el-table__cell\"><div class=\"cell\"><div>1</div></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_5_column_25 is-left  instance-name el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 197px;\"><!----><span data-v-3499da1b=\"\">PalimpsestBack</span></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_5_column_26 is-left   el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 195px;\"><!----><span data-v-3499da1b=\"\">PalimpsestBack</span></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_5_column_27 is-left   el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 195px;\"><!----><span data-v-3499da1b=\"\">Palimpsest backend CRUD service</span></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_5_column_28 is-left   el-table__cell\"><div class=\"cell el-tooltip\"><!----><span data-v-3499da1b=\"\">盛云科技_孙宇飞_Palimpsest_后台_0623</span></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_5_column_29 is-left   el-table__cell\"><div class=\"cell el-tooltip\"><!----><span data-v-3499da1b=\"\">v1</span></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_5_column_30 is-left   el-table__cell\"><div class=\"cell\"><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span><!----> 编辑</span></button><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span><!----> 属性</span></button><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span><!----> 切换模型版本</span></button><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span><!----> 形参管理</span></button><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span><!----> 提交版本</span></button><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span><!----> 删除</span></button></div></td></tr>",
+    "nodes": [
+      {
+        "i": 0,
+        "text": "",
+        "tag": "TD",
+        "cls": "el-table_5_column_23  el-table-column--selection  el-table__cell",
+        "rect": {},
+        "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_5_column_23  el-table-column--selection  el-table__cell\"><div class=\"cell\"><label class=\"el-checkbox\"><span class=\"el-checkbox__input\"><span class=\"el-checkbox__inner\"></span><input type=\"checkbox\" aria-hidden=\"false\" class=\"el-checkbox__original\" value=\"\""
+      },
+      {
+        "i": 1,
+        "text": "",
+        "tag": "DIV",
+        "cls": "cell",
+        "rect": {},
+        "html": "<div class=\"cell\"><label class=\"el-checkbox\"><span class=\"el-checkbox__input\"><span class=\"el-checkbox__inner\"></span><input type=\"checkbox\" aria-hidden=\"false\" class=\"el-checkbox__original\" value=\"\"></span><!----></label></div>"
+      },
+      {
+        "i": 2,
+        "text": "",
+        "tag": "LABEL",
+        "cls": "el-checkbox",
+        "rect": {},
+        "html": "<label class=\"el-checkbox\"><span class=\"el-checkbox__input\"><span class=\"el-checkbox__inner\"></span><input type=\"checkbox\" aria-hidden=\"false\" class=\"el-checkbox__original\" value=\"\"></span><!----></label>"
+      },
+      {
+        "i": 3,
+        "text": "",
+        "tag": "SPAN",
+        "cls": "el-checkbox__input",
+        "rect": {},
+        "html": "<span class=\"el-checkbox__input\"><span class=\"el-checkbox__inner\"></span><input type=\"checkbox\" aria-hidden=\"false\" class=\"el-checkbox__original\" value=\"\"></span>"
+      },
+      {
+        "i": 4,
+        "text": "",
+        "tag": "SPAN",
+        "cls": "el-checkbox__inner",
+        "rect": {},
+        "html": "<span class=\"el-checkbox__inner\"></span>"
+      },
+      {
+        "i": 5,
+        "text": "",
+        "tag": "INPUT",
+        "cls": "el-checkbox__original",
+        "rect": {},
+        "html": "<input type=\"checkbox\" aria-hidden=\"false\" class=\"el-checkbox__original\" value=\"\">"
+      },
+      {
+        "i": 6,
+        "text": "1",
+        "tag": "TD",
+        "cls": "el-table_5_column_24 is-left   el-table__cell",
+        "rect": {},
+        "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_5_column_24 is-left   el-table__cell\"><div class=\"cell\"><div>1</div></div></td>"
+      },
+      {
+        "i": 7,
+        "text": "1",
+        "tag": "DIV",
+        "cls": "cell",
+        "rect": {},
+        "html": "<div class=\"cell\"><div>1</div></div>"
+      },
+      {
+        "i": 8,
+        "text": "1",
+        "tag": "DIV",
+        "cls": "",
+        "rect": {},
+        "html": "<div>1</div>"
+      },
+      {
+        "i": 9,
+        "text": "PalimpsestBack",
+        "tag": "TD",
+        "cls": "el-table_5_column_25 is-left  instance-name el-table__cell",
+        "rect": {},
+        "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_5_column_25 is-left  instance-name el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 197px;\"><!----><span data-v-3499da1b=\"\">PalimpsestBack</span></div></td>"
+      },
+      {
+        "i": 10,
+        "text": "PalimpsestBack",
+        "tag": "DIV",
+        "cls": "cell el-tooltip",
+        "rect": {},
+        "html": "<div class=\"cell el-tooltip\" style=\"width: 197px;\"><!----><span data-v-3499da1b=\"\">PalimpsestBack</span></div>"
+      },
+      {
+        "i": 11,
+        "text": "PalimpsestBack",
+        "tag": "SPAN",
+        "cls": "",
+        "rect": {},
+        "html": "<span data-v-3499da1b=\"\">PalimpsestBack</span>"
+      },
+      {
+        "i": 12,
+        "text": "PalimpsestBack",
+        "tag": "TD",
+        "cls": "el-table_5_column_26 is-left   el-table__cell",
+        "rect": {},
+        "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_5_column_26 is-left   el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 195px;\"><!----><span data-v-3499da1b=\"\">PalimpsestBack</span></div></td>"
+      },
+      {
+        "i": 13,
+        "text": "PalimpsestBack",
+        "tag": "DIV",
+        "cls": "cell el-tooltip",
+        "rect": {},
+        "html": "<div class=\"cell el-tooltip\" style=\"width: 195px;\"><!----><span data-v-3499da1b=\"\">PalimpsestBack</span></div>"
+      },
+      {
+        "i": 14,
+        "text": "PalimpsestBack",
+        "tag": "SPAN",
+        "cls": "",
+        "rect": {},
+        "html": "<span data-v-3499da1b=\"\">PalimpsestBack</span>"
+      },
+      {
+        "i": 15,
+        "text": "Palimpsest backend CRUD service",
+        "tag": "TD",
+        "cls": "el-table_5_column_27 is-left   el-table__cell",
+        "rect": {},
+        "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_5_column_27 is-left   el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 195px;\"><!----><span data-v-3499da1b=\"\">Palimpsest backend CRUD service</span></div></td>"
+      },
+      {
+        "i": 16,
+        "text": "Palimpsest backend CRUD service",
+        "tag": "DIV",
+        "cls": "cell el-tooltip",
+        "rect": {},
+        "html": "<div class=\"cell el-tooltip\" style=\"width: 195px;\"><!----><span data-v-3499da1b=\"\">Palimpsest backend CRUD service</span></div>"
+      },
+      {
+        "i": 17,
+        "text": "Palimpsest backend CRUD service",
+        "tag": "SPAN",
+        "cls": "",
+        "rect": {},
+        "html": "<span data-v-3499da1b=\"\">Palimpsest backend CRUD service</span>"
+      },
+      {
+        "i": 18,
+        "text": "盛云科技_孙宇飞_Palimpsest_后台_0623",
+        "tag": "TD",
+        "cls": "el-table_5_column_28 is-left   el-table__cell",
+        "rect": {},
+        "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_5_column_28 is-left   el-table__cell\"><div class=\"cell el-tooltip\"><!----><span data-v-3499da1b=\"\">盛云科技_孙宇飞_Palimpsest_后台_0623</span></div></td>"
+      },
+      {
+        "i": 19,
+        "text": "盛云科技_孙宇飞_Palimpsest_后台_0623",
+        "tag": "DIV",
+        "cls": "cell el-tooltip",
+        "rect": {},
+        "html": "<div class=\"cell el-tooltip\"><!----><span data-v-3499da1b=\"\">盛云科技_孙宇飞_Palimpsest_后台_0623</span></div>"
+      },
+      {
+        "i": 20,
+        "text": "盛云科技_孙宇飞_Palimpsest_后台_0623",
+        "tag": "SPAN",
+        "cls": "",
+        "rect": {},
+        "html": "<span data-v-3499da1b=\"\">盛云科技_孙宇飞_Palimpsest_后台_0623</span>"
+      },
+      {
+        "i": 21,
+        "text": "v1",
+        "tag": "TD",
+        "cls": "el-table_5_column_29 is-left   el-table__cell",
+        "rect": {},
+        "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_5_column_29 is-left   el-table__cell\"><div class=\"cell el-tooltip\"><!----><span data-v-3499da1b=\"\">v1</span></div></td>"
+      },
+      {
+        "i": 22,
+        "text": "v1",
+        "tag": "DIV",
+        "cls": "cell el-tooltip",
+        "rect": {},
+        "html": "<div class=\"cell el-tooltip\"><!----><span data-v-3499da1b=\"\">v1</span></div>"
+      },
+      {
+        "i": 23,
+        "text": "v1",
+        "tag": "SPAN",
+        "cls": "",
+        "rect": {},
+        "html": "<span data-v-3499da1b=\"\">v1</span>"
+      },
+      {
+        "i": 24,
+        "text": "编辑属性切换模型版本形参管理提交版本删除",
+        "tag": "TD",
+        "cls": "el-table_5_column_30 is-left   el-table__cell",
+        "rect": {},
+        "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_5_column_30 is-left   el-table__cell\"><div class=\"cell\"><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span><!----> 编辑</span></button><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-"
+      },
+      {
+        "i": 25,
+        "text": "编辑属性切换模型版本形参管理提交版本删除",
+        "tag": "DIV",
+        "cls": "cell",
+        "rect": {},
+        "html": "<div class=\"cell\"><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span><!----> 编辑</span></button><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span><!----> 属性</span></button><but"
+      },
+      {
+        "i": 26,
+        "text": "编辑",
+        "tag": "BUTTON",
+        "cls": "el-button el-button--text el-button--medium",
+        "rect": {},
+        "html": "<button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span><!----> 编辑</span></button>"
+      },
+      {
+        "i": 27,
+        "text": "编辑",
+        "tag": "SPAN",
+        "cls": "",
+        "rect": {},
+        "html": "<span><!----> 编辑</span>"
+      },
+      {
+        "i": 28,
+        "text": "属性",
+        "tag": "BUTTON",
+        "cls": "el-button el-button--text el-button--medium",
+        "rect": {},
+        "html": "<button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span><!----> 属性</span></button>"
+      },
+      {
+        "i": 29,
+        "text": "属性",
+        "tag": "SPAN",
+        "cls": "",
+        "rect": {},
+        "html": "<span><!----> 属性</span>"
+      },
+      {
+        "i": 30,
+        "text": "切换模型版本",
+        "tag": "BUTTON",
+        "cls": "el-button el-button--text el-button--medium",
+        "rect": {},
+        "html": "<button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span><!----> 切换模型版本</span></button>"
+      },
+      {
+        "i": 31,
+        "text": "切换模型版本",
+        "tag": "SPAN",
+        "cls": "",
+        "rect": {},
+        "html": "<span><!----> 切换模型版本</span>"
+      },
+      {
+        "i": 32,
+        "text": "形参管理",
+        "tag": "BUTTON",
+        "cls": "el-button el-button--text el-button--medium",
+        "rect": {},
+        "html": "<button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span><!----> 形参管理</span></button>"
+      },
+      {
+        "i": 33,
+        "text": "形参管理",
+        "tag": "SPAN",
+        "cls": "",
+        "rect": {},
+        "html": "<span><!----> 形参管理</span>"
+      },
+      {
+        "i": 34,
+        "text": "提交版本",
+        "tag": "BUTTON",
+        "cls": "el-button el-button--text el-button--medium",
+        "rect": {},
+        "html": "<button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span><!----> 提交版本</span></button>"
+      },
+      {
+        "i": 35,
+        "text": "提交版本",
+        "tag": "SPAN",
+        "cls": "",
+        "rect": {},
+        "html": "<span><!----> 提交版本</span>"
+      },
+      {
+        "i": 36,
+        "text": "删除",
+        "tag": "BUTTON",
+        "cls": "el-button el-button--text el-button--medium",
+        "rect": {},
+        "html": "<button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><!----><span><!----> 删除</span></button>"
+      },
+      {
+        "i": 37,
+        "text": "删除",
+        "tag": "SPAN",
+        "cls": "",
+        "rect": {},
+        "html": "<span><!----> 删除</span>"
+      }
+    ]
+  },
+  "frames": [
+    {
+      "path": "top",
+      "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260617\n组态系统客户端\n建模系统客户端\n运维部署客户端\nCodex临时测试_前端视图_0611\n盛云_孙宇飞_TraceDemo_0617\n盛云_孙宇飞_QueryDemo_0617\n盛云_孙宇飞_前端_框架_0618@EidolonL1Frame_对象1\n盛云_孙宇飞_Noctiluca_客户端_对象1\n盛云_孙宇飞_Noctiluca_客户端_对象2\n盛云_孙宇飞_Nadir_客户端_0622_对象1\n盛云_孙宇飞_Nadir_客户端_0622_对象1"
+    },
+    {
+      "path": "top.0",
+      "text": "时空功能开发平台Time Space Platform时空开发部署管理 仓库包 权限 镜像 关于时空管理 新建 删除默认数据区KingFusion4.5_V1KingStudio4.5_Beta_dataBaseKF4.5工程引滦原水处理测试mwq测试张测试1芦昆测试工程盛云_孙宇飞_人工测试工程盛云_孙宇飞_Noctiluca盛云_孙宇飞_CRUD工程_0620信息管理系统盛云_孙宇飞_Palimpsest工程_0624KF4.5Root客户端1盛云_孙宇飞_Palimpsest客户端_0624根组私有根组实时报警数据汇总_运行后台个人仓库盛云_孙宇飞_仓库KingStudio4.5_Beta新建生成拷贝复制移动导入导出模式选择:只导出本仓库导出本仓库+数据对象只导出仓库树结构导出仓库树结构+数据对象是否开源:是否删除上传资源打包新建生成拷贝生成拷贝至复制复制至移动导入导出模式选择:只导出本仓库导出本仓库+数据对象只导出仓库树结构导出仓库树结构+数据对象是否开源:是否删除上传资源打包全量打包名称本仓库-多类型暂无数据全选共 6 条 1 23456Infinity前往页属性暂无数据时空仓库筛选全部:Label1:Label2:Label3:取消确定生成拷贝至复制至全量打包名称IDGUID描述按本仓库查看按仓库树查看全部功能单元第三方APPapp模块业务物单灵敏时序物多灵敏时序物业务事时序事关系组织岗位人员安全策略审计策略机密性完整性锁用户用户组角色域型域型交互表资源别名"
+    },
+    {
+      "path": "top.1",
+      "text": ""
+    },
+    {
+      "path": "top.1.0",
+      "text": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot\n\n实例列表\n\n新建\n删除\n更多操作 \n\t序号\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\n1\n\t\nPalimpsestBack\n\t\nPalimpsestBack\n\t\nPalimpsest backend CRUD service\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nv1\n\t\n编辑属性切换模型版本形参管理提交版本删除"
+    },
+    {
+      "path": "top.2",
+      "text": "\n    \n    \n    !function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();\n    \n    System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))\n  \n\n"
+    },
+    {
+      "path": "top.2.0",
+      "text": "<strong>We're sorry but app-master doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>KingFusion4.5_建模系统建模系统管控单元建模采集设备建模工作流建模数据源建模数字孪生建模分组       导入 导出 删除  根组集成测试测试引滦工程mwq测试张测试组lk测试盛云_孙宇飞_根组产品生成器功能测试_lk工厂车间产线设备管理员首页建模数据管理生产计划与执行模型列表 新建  更多操作  导入 导出 复制 粘贴 移动 删除   序号名称描述操作1盛云_孙宇飞_Smoke模型_0518建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。 编辑 属性 提交版本 版本管理 更新 删除2盛云_孙宇飞_后台_查询Demo_0618reference lk backend minimal clone: business event + custom calc skeleton 编辑 属性 提交版本 版本管理 更新 删除3盛云_孙宇飞_前端_框架_0618reference lk front frame minimal clone: frame page skeleton 编辑 属性 提交版本 版本管理 更新 删除4盛云_孙宇飞_前端_查询Demo_0618reference lk front business minimal clone: list page + edit page skeleton 编辑 属性 提交版本 版本管理 更新 删除5盛云_孙宇飞_后台_CRUDDemo_0620clean restart backend CRUD model 0620 编辑 属性 提交版本 版本管理 更新 删除6盛云_孙宇飞_前端_框架_0620clean restart front frame model 0620 编辑 属性 提交版本 版本管理 更新 删除7盛云_孙宇飞_前端_CRUDDemo_0620clean restart front business model 0620 编辑 属性 提交版本 版本管理 更新 删除8盛云科技_孙宇飞_Palimpsest_前端_0623Palimpsest frontend model: left 18 percent menu and right 82 percent content test page. 编辑 属性 提交版本 版本管理 更新 删除9盛云科技_孙宇飞_Palimpsest_后台_0623Palimpsest backend model: fake assessment CRUD functions and test records. 编辑 属性 提交版本 版本管理 更新 删除10PalimpsestAssessment_CUSTOMFUNCPalimpsest assessment CRUD backend functions for frontend integration. 编辑 属性 提交版本 版本管理 更新 删除共 10 条50条/页100条/页150条/页200条/页250条/页300条/页<1>前往页KingFusion4.5_工程浏览器盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records. 退出 菜单实例显示  数据模型  物  多灵敏时序物单灵敏时序物业务物事  时序事业务事岗位组织人员逻辑模型  报警规则配置多灵敏数据报警转发单灵敏数据报警转发自定义计算第三方计算管理图形模型  2D精灵图3D精灵图页面精灵图报表精灵图自定义精灵图子模型  形参配置  自定义计算模型 新建  更多操作  复制 粘贴 删除模型名称触发类型触发条件操作PalimpsestBackend自定义函数 编辑 属性 删除共 1 条50条/页100条/页150条/页200条/页250条/页300条/页1前往页\n          \n          body #RContainerkbf46097c1c1a68c7b8e25e2182b08b1 #k5d8e3c36eb953335de0d1f8d7aa1cf2 p {\n  font-family: Source Han Sans;\n  font-size: 18px;\n  font-weight: bold;\n  line-height: normal;\n  letter-spacing: normal;\n  color: #333333;\n}#RContainerkbf46097c1c1a68c7b8e25e2182b08b1 #k5d8e3c36eb953335de0d1f8d7aa1cf2 {\n          background:rgba(255, 255, 255, 0);\n          border-width:0px;\n          border-style:null;\n          border-color:#000000;\n          text-align:left;\n          align-items:center;\n      }\n      #RContainerkbf46097c1c1a68c7b8e25e2182b08b1 #k5d8e3c36eb953335de0d1f8d7aa1cf2 p{\n          font-family:微软雅黑;\n          font-size:16px;\n      }\n      #RContainerkbf46097c1c1a68c7b8e25e2182b08b1 #k5d8e3c36eb953335de0d1f8d7aa1cf2 label{\n          font-weight:bold;\n          font-style:normal;\n          padding-right: 0px;\n          text-decoration:none;\n      }#RContainerkbf46097c1c1a68c7b8e25e2182b08b1 #k5d8e3c36eb953335de0d1f8d7aa1cf2 p {\n            color: #333333;\n          }#RContainerkbf46097c1c1a68c7b8e25e2182b08b1 #k6d6f7ef8911e39f13e3320862e71806 {\n                    background: rgba(247, 249, 252, 1);\n                    background-repeat: repeat;\n                    background-size: auto;\n                }#RContainerkbf46097c1c1a68c7b8e25e2182b08b1 #k6d6f7ef8911e39f13e3320862e71806 { \n                        box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);\n                    }#RContainerkbf46097c1c1a68c7b8e25e2182b08b1 #k199d7d3b622799a8db89be4dc69c499 { \n                        box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);\n                    }\n/*设置边框*/\n#RContainerkbf46097c1c1a68c7b8e25e2182b08b1 #k199d7d3b622799a8db89be4dc69c499 {\n    border:1px solid lightgray;}\n#RContainerkbf46097c1c1a68c7b8e25e2182b08b1 {\n                        height: 843px;\n                        width: 1920px;\n                        border: 0px solid rgba(0,0,0,0.1);\n                        border-radius:0px;\n                        background: ;\n                        background-repeat: repeat;\n                        background-size: auto;\n                        box-shadow:0px 0px 0px 0px rgba(0,0,0,1)\n                    }\n            \n            #RContainerk350835cbda85bf38825dfa888b26e07 #k8f80717350dd77394bbec504122c6da { \n                        box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);\n                    }#RContainerk350835cbda85bf38825dfa888b26e07 {\n                        height: 799px;\n                        width: 1918px;\n                        border: 0px solid rgba(0,0,0,0.1);\n                        border-radius:0px;\n                        background: rgba(255, 255, 255, 1);\n                        background-image: ;\n                        background-repeat: repeat;\n                        background-size: auto;\n                        box-shadow:0px 0px 0px 0px rgba(0,0,0,1)\n                        \n                    }#RContainerkfa825f8bbc18015220e01a0f38250c2 #k634771653cdb5f6f6b4a28dbe7f8795 {\n          background:#FFFFFF;\n          border-width:0px;\n          border-style:null;\n          border-color:#000000;\n          text-align:left;\n          align-items:center;\n      }\n      #RContainerkfa825f8bbc18015220e01a0f38250c2 #k634771653cdb5f6f6b4a28dbe7f8795 p{\n          font-family:Arial;\n          font-size:14px;\n      }\n      #RContainerkfa825f8bbc18015220e01a0f38250c2 #k634771653cdb5f6f6b4a28dbe7f8795 label{\n          font-weight:normal;\n          font-style:normal;\n          padding-right: 0px;\n          text-decoration:none;\n      }#RContainerkfa825f8bbc18015220e01a0f38250c2 #k634771653cdb5f6f6b4a28dbe7f8795 p {\n            color: #333333;\n          }\r\n/*自定义按钮边距*/\r\nbody #RContainerkfa825f8bbc18015220e01a0f38250c2 #k932b9dffd2df3b810aaee7f7c04d659 .el-tree-node__content .nodeButtonBox {\r\n    position: absolute;\r\n    right: 0; \r\n}\r\n\r\n/*树节点的文本字体大小*/\r\nbody #RContainerkfa825f8bbc18015220e01a0f38250c2 #k932b9dffd2df3b810aaee7f7c04d659 .el-tree-node__content{\r\n    font-size: 14px;}\r\n\r\n/*树节点的高度、背景色*/\r\nbody #RContainerkfa825f8bbc18015220e01a0f38250c2 #k932b9dffd2df3b810aaee7f7c04d659 .el-tree-node__content{\r\n    height: 32px;}\r\nbody #RContainerkfa825f8bbc18015220e01a0f38250c2 #k932b9dffd2df3b810aaee7f7c04d659 .treeicon1 {\r\n    background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAKpSURBVEiJtZXPS1RRFMe/57z75s340EUlkhQkaDMVqOXUIphwGQjRQoiCgiKGoCgo6A8I3LWusE3osk0QtghTSMIWGhgIykwizqIgZpHTy/nx7j0tbMZRZ8bRse/qvfvu+XzPOe+8+wgA+uIzdtbtag56yjEBEBoQ5yFZ188FvURmdjhaoL74jL2mIgcdJm4EvFU5IybkL6Q563Y17zccABwmzrpdzRz0lLPf8KKCnnLUjj0nu1VZ/k0C9wPSAaBJCEkYTBvBqDFmsVqoCYBULbayrKsgPUQgB5ANT0EEhIhFuM7Mr5CXJz6LrsSo2ntlWQ+J5CkBtVqoCLhNAXquDFl1G9gW9xPJoxrgrRogm+7UbQDC0C7gxZjHyuYPtrKeKba6qxooi2IAju3aAFAQkEAiIDOysbgtEerfA/xfLCwALUI0XxyKzRWQ3QpCbK8GADpF5HPB5OPFhVIFFquzzHoEQMuusQIthEkRfqG1P01ljSldEemXAM1ByAPJxfrINA9gLNqrkyeP64HJT/J1aWVz18vvlgHEQOLXIC4KMCeQ6VNhpHpPFM4FHVxiRsRoLC6tKG9rQMkgp+lK0EIMQFhA6x8XyR8IUm6T+X6mR6P9EIcDjukJ2LhPhI5y0O81Gq2U0cY7gMkVNMYBjN8Y1A9shTAzWpnoALF0ru81FcsyWr69nVAj5cfJNoNypVetqaNt+i4At1LQJrjBz2SKb2V+7eIsGnuPL6kfPGgMlmvBtWA+sawuT0xxstoeOn3Pa6/28EgbOxfO+9eaQjKgLHQDcEVk1RiaW83I63cf7TfVMi8Z9MW9w43+h6uJ8xDOun7uf8ABIOv6OQ56iUzOSOXxaEA5IyboJTI8OxwthPyFdN72s5zfYWTqEOchedvPhvyF9OxwtPAXO379YseyTFgAAAAASUVORK5CYII=\");\r\n    height: 24px;\r\n    width: 24px;\r\n    background-size: contain;\r\n}\r\nbody #RContainerkfa825f8bbc18015220e01a0f38250c2 #k932b9dffd2df3b810aaee7f7c04d659 .treeicon2 {\r\n    background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAHwSURBVEiJ7ZS/axRBFMe/7+3OzZ6bQ4hYaSo5jQo2d5aSSCpB/AcEsZDY2KhIEG1VUmgruUYRBCsLEVLIQfxR5uocHIpoIySHxHO53dm5eRaiYO73nkIKv+W877zPvC8zQwBQWlxXcVgsBJGvXQ6ECcQGEoc2CaJGq1Ypp1RaXFdtf3afZuJJGu9U4sTlbb3JcVgs/O3mAKCZOA6LBQ4iX4+8SeSpBh8e1R9EvubxMpd5EVvVIncUyf5hbpfD+NEQwIBcZCevcyJX/I4XDPIPBYQbN54Fn1ZO9CjtJchNj9M3Cu5cZgBJesr/vrEa1pdWyGz1shxgwUMt7kUmwG+QS876H5bhfXkO2G+9LKWRAVrcE4/oYFdBOuCv76De34O3uQpAhh6s3wQLvuus5USugVR31SXgrVfACBdwUER5glxPDy3BTR0b2igL4KfUNDozl/4hYEL9B+xSgIAuCOjzH2venkcA7A7rdiaAIapatqcFdB9AGwCiI3dv28LJOWH98pfPMc0B9FgA1xfApvd7d6LahuiBZW8eQBUA4pnzH6PZ5ct26ugZIfU2FdpMiG4R+QsArXU1NxA6fnV7Opf6A//0rDLKxhxEjVbipO+IWZU4cUHUaHGtUk7ztt40ysb94hpHbCBG2Thv681apZz+ALCcvjNeqilyAAAAAElFTkSuQmCC\");\r\n    height: 24px;\r\n    width: 24px;\r\n}\r\nbody #RContainerkfa825f8bbc18015220e01a0f38250c2 #k932b9dffd2df3b810aaee7f7c04d659 .treeicon3 {\r\n    background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAFkSURBVEiJ7ZK/S4JBGMe/d68SVFC0NBVCS+iqvK+YoBE01BrtkiC+RmNjNYlTBEZD/0AUNCkJQktRUFsQtBSNQYLWexT5456GUKRX8/WtIMjPdPfc97nP3XFAj59E1UXOpxuebnp4N2EGmuXAlaobaXVFjFrr6QJNN6g+JlAJxFO8b2DrfJO9tuvpeINgOJoPhCJe88nYMGOUpLK40eLGom0BGGY4Vy6npqP7rFxolRgHw56qG2f2BA0PFhx3KSgPh0D1udW637LAnxAZLVZ0mRaoBl48hfM2CeXxCACZIpYERDQHxXGtxZ/WwZzmgHwDL+Rh5Y989UT9YHytMrEKOejuuJEdwQfOEdTGln5R8E16gj8qkFLOg+j+UzkNoNJcIFDJluBiZyhbqQoPSG4AeAGAk+Pd5aqUbgIOGkEHnyRgmwDZSdQWLVZ0+RMi01wLhCLeYDiar899uuFRdZGzLfnfvAOs2G7n9R6wGwAAAABJRU5ErkJggg==\");\r\n    height: 24px;\r\n    width: 24px;\r\n}\r\nbody #RContainerkfa825f8bbc18015220e01a0f38250c2 #k932b9dffd2df3b810aaee7f7c04d659 .treeicon4 {\r\n    background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAH1SURBVEiJ7ZQxaFRBEIa/ebvBQMQ8uxNS2B4kYPrc4SKChYUBO20CQppIIgoWChaSQlC4YBohkipgISSFolZrcldYBrQMmMLCLpugEMjbHYtLznC8kBM7zQ/b7Mz8//DP7MIJ/nlIL0m597laOymqU+0qaVAUL4Nz4a8Ecu/PY8w0cAs43RX+ASwQ41xwbvOPBHLvL2DMA+AaYI9psgBWiHE2OLfeHSwtVmPeCVSOIT7McV2NGQPOdQez0pZiHFXVWeBYj4GgqrNFjKNlwVKBPujPRE5lMY4Ad4CNkrQNgdsa42URGeiD/p4FsHY5iQwbCKFeb4QYq8A4Ii1EWsB4iLG6Va/PJ9hUqGLtcilV2aWm9FZE7u8Z8zz3fi44tx5ghfbpYH8ZpoFLmtKTMq4j1/Ss98OaZTMqckOgleDpTr3+AeCM91cyY+4qjInqUkppYce5Tz0LDK6u3kPkscRY3YNdm2VTIjKJ6vd2lVRU9UWR0ryFIYxpisjDUKs960kgbzY/q+q3IsaJn861Sb3vHzTmKsB2jG9wbhdgwPuKNWZRRIZCrTbSzVU+g6KYEGsfWWO+5mtrr/Zf6/o2vO408dv/m4i816KY6NmiAxyeA/BRobFfNANcFNUlSamx5dyXozh6+uwGvK905gAc+N+x7wT/N34BgxHNYLKIjfMAAAAASUVORK5CYII=\");\r\n    height: 24px;\r\n    width: 24px;\r\n}\r\nbody #RContainerkfa825f8bbc18015220e01a0f38250c2 #k932b9dffd2df3b810aaee7f7c04d659 .treeicon5 {\r\n    background-image: u"
+    }
+  ]
+}

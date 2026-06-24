@@ -1,0 +1,73 @@
+{
+  "page": "PalimpsestMenu_18",
+  "target": {
+    "width": 346,
+    "height": 1080
+  },
+  "pageWidth": 346,
+  "pageHeight": 1080,
+  "rootRect": {
+    "x": 368.0860595703125,
+    "y": 142.83148193359375,
+    "w": 177.26885986328125,
+    "h": 553.3248291015625
+  },
+  "rows": [
+    {
+      "UIName": "RRow1",
+      "heightStrategy": "fixedsize",
+      "height": 72,
+      "colStrategy": "autosize",
+      "rect": {
+        "x": 368.0860595703125,
+        "y": 142.83148193359375,
+        "w": 177.26885986328125,
+        "h": 36.8883056640625
+      },
+      "cols": [
+        {
+          "UIName": "RCol11",
+          "widthStrategy": "autosize",
+          "xlWidth": 343,
+          "lgWidth": 100,
+          "colHeight": 50.4,
+          "rect": {
+            "x": 368.598388671875,
+            "y": 143.34381103515625,
+            "w": 175.73187255859375,
+            "h": 35.8636474609375
+          },
+          "objectCount": 0
+        }
+      ]
+    },
+    {
+      "UIName": "RRow2",
+      "heightStrategy": "autosize",
+      "height": 1008,
+      "colStrategy": "autosize",
+      "rect": {
+        "x": 368.0860595703125,
+        "y": 179.71978759765625,
+        "w": 177.26885986328125,
+        "h": 516.4365234375
+      },
+      "cols": [
+        {
+          "UIName": "RCol6",
+          "widthStrategy": "autosize",
+          "xlWidth": 343,
+          "lgWidth": 100,
+          "colHeight": 1006,
+          "rect": {
+            "x": 368.598388671875,
+            "y": 180.2321319580078,
+            "w": 175.73187255859375,
+            "h": 515.411865234375
+          },
+          "objectCount": 0
+        }
+      ]
+    }
+  ]
+}

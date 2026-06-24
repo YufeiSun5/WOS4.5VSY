@@ -11,10 +11,12 @@
 - `wos4-component-persistence`
 - `wos4-component-catalog`
 - `wos4-style-config`
+- `wos4-page-runtime-backup`
 - `wos4-button-variable-flow`
 - `wos4-interaction-flow-skill`
 - `wos4-demo-page-fullstack-skill`
 - `wos4-meta-language-fu-create`
+- `wos4-meta-language-debugger`
 - `wos4-meta-language-fu-release-package`
 - `wos4-repository-package-deploy-start`
 - `wos4-runtime-package-update`

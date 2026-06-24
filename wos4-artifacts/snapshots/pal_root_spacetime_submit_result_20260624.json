@@ -1,0 +1,497 @@
+{
+  "toolbar": {
+    "buttons": [
+      {
+        "x": 441,
+        "y": 66,
+        "w": 20,
+        "h": 18,
+        "text": "",
+        "cls": "el-button el-button--primary el-button--medium propertyStyle"
+      },
+      {
+        "x": 466,
+        "y": 66,
+        "w": 20,
+        "h": 18,
+        "text": "",
+        "cls": "el-button el-button--primary el-button--medium propertyStyle"
+      },
+      {
+        "x": 491,
+        "y": 66,
+        "w": 20,
+        "h": 18,
+        "text": "",
+        "cls": "el-button el-button--primary el-button--medium propertyStyle"
+      },
+      {
+        "x": 516,
+        "y": 66,
+        "w": 20,
+        "h": 18,
+        "text": "",
+        "cls": "el-button el-button--primary el-button--medium el-dropdown-selfdefine"
+      }
+    ]
+  },
+  "confirm": {
+    "acted": true,
+    "details": [
+      {
+        "i": 0,
+        "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_746846",
+        "text": "提交版本\n\n提交说明:\n\n0/596\n取消\n确定"
+      }
+    ]
+  },
+  "result": {
+    "capture": {
+      "messages": [
+        {
+          "kind": "mutation",
+          "text": "数字孪生实例化_时空_版本说明",
+          "extra": {
+            "className": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_746846"
+          },
+          "t": 1782276294462
+        },
+        {
+          "kind": "mutation",
+          "text": "数字孪生实例化_时空_版本说明",
+          "extra": {
+            "className": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_746846"
+          },
+          "t": 1782276294462
+        },
+        {
+          "kind": "mutation",
+          "text": "数字孪生实例化_时空_提交版本",
+          "extra": {
+            "className": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_743935"
+          },
+          "t": 1782276295504
+        },
+        {
+          "kind": "mutation",
+          "text": "数字孪生实例化_时空_提交版本",
+          "extra": {
+            "className": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_743935"
+          },
+          "t": 1782276295504
+        },
+        {
+          "kind": "mutation",
+          "text": "提示有提交失败的数据, 是否导出错误信息?\n          取消\n        \n          确定",
+          "extra": {
+            "className": "el-message-box__wrapper"
+          },
+          "t": 1782276298264
+        }
+      ],
+      "console": [
+        {
+          "level": "log",
+          "args": [
+            "[D] 触发了 Current-change 事件, args = ",
+            "[object Arguments]"
+          ],
+          "t": 1782276294318
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] 触发了 currentSpaceTimeRepo 改变时事件，currentSpaceTimeRepo = ",
+            "[object Object]"
+          ],
+          "t": 1782276294337
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] <实例化_框架页面> :: 变量改变时 :: updateInstanceListTable :: instanceList_ElementTable = ",
+            "[object Object]"
+          ],
+          "t": 1782276294361
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] 触发了变量改变事件 :: updateSpaceTimeRepoAttrsView"
+          ],
+          "t": 1782276294379
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] 触发了 <updateChildrenNodes> 变量改变时事件"
+          ],
+          "t": 1782276294389
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] <实例化_框架页面> fullPathGuids = ",
+            "9d8a5638-61ec-45cd-ba0c-0fcac779172a"
+          ],
+          "t": 1782276294398
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] 点击了提交版本按钮"
+          ],
+          "t": 1782276294443
+        },
+        {
+          "level": "log",
+          "args": [
+            "i show child initChildData"
+          ],
+          "t": 1782276294452
+        },
+        {
+          "level": "log",
+          "args": [
+            "[I] 远程调用接口 <IQueryChildSpaceTimeReposList>, res = ",
+            "[object Object]"
+          ],
+          "t": 1782276294911
+        },
+        {
+          "level": "log",
+          "args": [
+            "[I] 查询子节点实例数据，datas = ",
+            ""
+          ],
+          "t": 1782276294919
+        },
+        {
+          "level": "log",
+          "args": [
+            "[I] 远程调用接口 <IQueryRootInstancesOfSpaceTimeRepo>, res = ",
+            "[object Object]"
+          ],
+          "t": 1782276295064
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] <实例化框架页面> :: updateInstanceListTable :: tableData:",
+            "[object Object]"
+          ],
+          "t": 1782276295071
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] <实例化框架页面> :: updateInstanceListTable :: currentSelectedInstance:",
+            "[object Object]"
+          ],
+          "t": 1782276295083
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList start"
+          ],
+          "t": 1782276295104
+        },
+        {
+          "level": "log",
+          "args": [
+            "spaceTime parse error!"
+          ],
+          "t": 1782276295117
+        },
+        {
+          "level": "log",
+          "args": [
+            "registerLink"
+          ],
+          "t": 1782276295128
+        },
+        {
+          "level": "log",
+          "args": [
+            "页面名称:",
+            "数字孪生实例化_时空_版本说明",
+            "PARENT_STORE_PARAM:",
+            "[object Object]"
+          ],
+          "t": 1782276295157
+        },
+        {
+          "level": "log",
+          "args": [
+            "registerDataSet"
+          ],
+          "t": 1782276295173
+        },
+        {
+          "level": "log",
+          "args": [
+            "KGSDataObjMng subscribeDataObj"
+          ],
+          "t": 1782276295177
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] 开始提交实例版本"
+          ],
+          "t": 1782276295474
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] <实例化框架页面> :: 接收到 <数字孪生实例化_时空_版本说明> 传递来的公开事件 transferData = ",
+            "[object Object]"
+          ],
+          "t": 1782276295480
+        },
+        {
+          "level": "log",
+          "args": [
+            "i show child initChildData"
+          ],
+          "t": 1782276295497
+        },
+        {
+          "level": "log",
+          "args": [
+            "KGSDataObjMng subscribeDataObj"
+          ],
+          "t": 1782276295516
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList start"
+          ],
+          "t": 1782276295884
+        },
+        {
+          "level": "log",
+          "args": [
+            "spaceTime parse error!"
+          ],
+          "t": 1782276295895
+        },
+        {
+          "level": "log",
+          "args": [
+            "registerLink"
+          ],
+          "t": 1782276295907
+        },
+        {
+          "level": "log",
+          "args": [
+            "页面名称:",
+            "数字孪生实例化_时空_提交版本",
+            "PARENT_STORE_PARAM:",
+            "[object Object]"
+          ],
+          "t": 1782276295930
+        },
+        {
+          "level": "log",
+          "args": [
+            "registerDataSet"
+          ],
+          "t": 1782276295953
+        },
+        {
+          "level": "log",
+          "args": [
+            "KGSDataObjMng subscribeDataObj"
+          ],
+          "t": 1782276295957
+        },
+        {
+          "level": "log",
+          "args": [
+            "taskProgress_VantProgress = ",
+            "[object Object]"
+          ],
+          "t": 1782276296026
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782276296036
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782276296281
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782276297020
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782276297140
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] <版本提交进度> 开始打包 :: repoGuidAndInfoMap = ",
+            "[object Map]"
+          ],
+          "t": 1782276297194
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782276297208
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] _asyncCreatePacketCallback, result = ",
+            "[object Object]"
+          ],
+          "t": 1782276297929
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782276297938
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782276297941
+        },
+        {
+          "level": "log",
+          "args": [
+            "initWebJsFuncList,GetPageInfo,获取失败"
+          ],
+          "t": 1782276297944
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] _asyncCreatePacketCallback, result = ",
+            "[object Object]"
+          ],
+          "t": 1782276298022
+        },
+        {
+          "level": "log",
+          "args": [
+            "[E] 打包回调报错 :: errorCode = -15495"
+          ],
+          "t": 1782276298030
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] _asyncCreatePacketCallback, result = ",
+            "[object Object]"
+          ],
+          "t": 1782276298044
+        },
+        {
+          "level": "log",
+          "args": [
+            "[E] 打包回调报错 :: errorCode = -15495"
+          ],
+          "t": 1782276298053
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] _asyncCreatePacketCallback, result = ",
+            "[object Object]"
+          ],
+          "t": 1782276298237
+        },
+        {
+          "level": "log",
+          "args": [
+            "[E] 打包回调报错 :: errorCode = -14496"
+          ],
+          "t": 1782276298245
+        },
+        {
+          "level": "log",
+          "args": [
+            "[D] <版本提交进度> 打包结果 :: repoGuidAndInfoMap = ",
+            "[object Map]"
+          ],
+          "t": 1782276298249
+        }
+      ]
+    },
+    "dialogs": [
+      {
+        "i": 0,
+        "cls": "el-dialog__wrapper",
+        "display": "none",
+        "text": ""
+      },
+      {
+        "i": 1,
+        "cls": "el-dialog__wrapper",
+        "display": "none",
+        "text": ""
+      },
+      {
+        "i": 2,
+        "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_743935",
+        "display": "block",
+        "text": "时空仓库版本提交进度\n\n25%\n\n\t名称\tGUID\t状态\t详情\n1\n\t\nPalimpsestRoot\n\t\n9d8a5638-61ec-45cd-ba0c-0fcac779172a\n\t\n25%\n\t\n提交完成, 部分失败\n\n\n2\n\t\nPalimpsestRootKnownGoodBack\n\t\nf74ba5de-e9c7-4cdd-a5b7-bcbd8a28cea5\n\t\n\t\n打包回调报错 :: errorCode = -14496\n关闭"
+      },
+      {
+        "i": 3,
+        "cls": "el-message-box__wrapper",
+        "display": "block",
+        "text": "提示\n\n有提交失败的数据, 是否导出错误信息?\n\n取消确定"
+      }
+    ],
+    "rows": [
+      {
+        "i": 0,
+        "text": "序号\t名称\t显示名称\t描述\t模型\t模型版本\t操作"
+      },
+      {
+        "i": 1,
+        "text": "1\n\t\nPalimpsestRootKnownGoodBack\n\t\nPalimpsestRootKnownGoodBack\n\t\nKnown good backend package probe under root node\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv4\n\t\n编辑属性切换模型版本形参管理提交版本删除"
+      },
+      {
+        "i": 2,
+        "text": "名称\tGUID\t状态\t详情"
+      },
+      {
+        "i": 3,
+        "text": "1\n\t\nPalimpsestRoot\n\t\n9d8a5638-61ec-45cd-ba0c-0fcac779172a\n\t\n25%\n\t\n提交完成, 部分失败"
+      },
+      {
+        "i": 4,
+        "text": "2\n\t\nPalimpsestRootKnownGoodBack\n\t\nf74ba5de-e9c7-4cdd-a5b7-bcbd8a28cea5\n\t\n\t\n打包回调报错 :: errorCode = -14496"
+      }
+    ],
+    "body": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot\n\n实例列表\n\n新建\n删除\n更多操作 \n\t序号\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\n1\n\t\nPalimpsestRootKnownGoodBack\n\t\nPalimpsestRootKnownGoodBack\n\t\nKnown good backend package probe under root node\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv4\n\t\n编辑属性切换模型版本形参管理提交版本删除\n\n时空仓库版本提交进度\n\n25%\n\n\t名称\tGUID\t状态\t详情\n1\n\t\nPalimpsestRoot\n\t\n9d8a5638-61ec-45cd-ba0c-0fcac779172a\n\t\n25%\n\t\n提交完成, 部分失败\n\n\n2\n\t\nPalimpsestRootKnownGoodBack\n\t\nf74ba5de-e9c7-4cdd-a5b7-bcbd8a28cea5\n\t\n\t\n打包回调报错 :: errorCode = -14496\n关闭\n提示\n\n有提交失败的数据, 是否导出错误信息?\n\n取消确定"
+  }
+}

@@ -1,0 +1,1083 @@
+{
+  "result": {
+    "ok": true,
+    "frame": "top.1.0",
+    "selected": "PalimpsestRoot",
+    "clickedNew": "新建"
+  },
+  "state": {
+    "path": "top.1.0",
+    "dialogs": [],
+    "inputs": [
+      {
+        "i": 0,
+        "value": "",
+        "placeholder": "请输入关键字进行检索",
+        "cls": "el-input__inner",
+        "rect": {
+          "x": 256,
+          "y": 107,
+          "w": 280,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 1,
+        "value": "",
+        "placeholder": "请输入关键字进行检索",
+        "cls": "el-input__inner",
+        "rect": {
+          "x": 1654,
+          "y": 58,
+          "w": 250,
+          "h": 34
+        },
+        "visible": true
+      }
+    ],
+    "buttons": [
+      {
+        "i": 0,
+        "text": "KingFusion4.5_组态系统 < 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数",
+        "tag": "DIV",
+        "cls": "client_run",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 843
+        },
+        "visible": true
+      },
+      {
+        "i": 1,
+        "text": "KingFusion4.5_组态系统 < 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数",
+        "tag": "DIV",
+        "cls": "",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 843
+        },
+        "visible": true
+      },
+      {
+        "i": 2,
+        "text": "KingFusion4.5_组态系统 < 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数",
+        "tag": "DIV",
+        "cls": "ksc_page_run",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 843
+        },
+        "visible": true
+      },
+      {
+        "i": 3,
+        "text": "KingFusion4.5_组态系统 < 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数",
+        "tag": "DIV",
+        "cls": "page_running",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 843
+        },
+        "visible": true
+      },
+      {
+        "i": 4,
+        "text": "KingFusion4.5_组态系统 < 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数",
+        "tag": "DIV",
+        "cls": "page_view_container client_page_view_container",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 843
+        },
+        "visible": true
+      },
+      {
+        "i": 5,
+        "text": "KingFusion4.5_组态系统 < 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数",
+        "tag": "DIV",
+        "cls": "page_view",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 843
+        },
+        "visible": true
+      },
+      {
+        "i": 6,
+        "text": "KingFusion4.5_组态系统 < 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数",
+        "tag": "DIV",
+        "cls": "layer_view",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 843
+        },
+        "visible": true
+      },
+      {
+        "i": 7,
+        "text": "KingFusion4.5_组态系统 < 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数",
+        "tag": "DIV",
+        "cls": "layout_container containerStyle",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 843
+        },
+        "visible": true
+      },
+      {
+        "i": 8,
+        "text": "KingFusion4.5_组态系统 < 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数",
+        "tag": "SPAN",
+        "cls": "containerrow",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 843
+        },
+        "visible": true
+      },
+      {
+        "i": 24,
+        "text": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生",
+        "tag": "DIV",
+        "cls": "response_row",
+        "rect": {
+          "x": 0,
+          "y": 42,
+          "w": 1920,
+          "h": 801
+        },
+        "visible": true
+      },
+      {
+        "i": 25,
+        "text": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生",
+        "tag": "SPAN",
+        "cls": "",
+        "rect": {
+          "x": 1,
+          "y": 43,
+          "w": 1918,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 26,
+        "text": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生",
+        "tag": "DIV",
+        "cls": "",
+        "rect": {
+          "x": 1,
+          "y": 43,
+          "w": 1918,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 27,
+        "text": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生",
+        "tag": "DIV",
+        "cls": "component_object_unselect",
+        "rect": {
+          "x": 1,
+          "y": 43,
+          "w": 1918,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 28,
+        "text": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生",
+        "tag": "DIV",
+        "cls": "ui_factory layer_class",
+        "rect": {
+          "x": 1,
+          "y": 43,
+          "w": 1918,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 29,
+        "text": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生",
+        "tag": "DIV",
+        "cls": "page_view_container client_page_view_container set_page_app component_object 开发系统_组态_框架页面",
+        "rect": {
+          "x": 1,
+          "y": 43,
+          "w": 1918,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 30,
+        "text": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生",
+        "tag": "DIV",
+        "cls": "page_view",
+        "rect": {
+          "x": 1,
+          "y": 43,
+          "w": 1918,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 31,
+        "text": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生",
+        "tag": "DIV",
+        "cls": "layer_view",
+        "rect": {
+          "x": 1,
+          "y": 43,
+          "w": 1918,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 32,
+        "text": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生",
+        "tag": "DIV",
+        "cls": "layout_container containerStyle",
+        "rect": {
+          "x": 1,
+          "y": 43,
+          "w": 1918,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 33,
+        "text": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生",
+        "tag": "SPAN",
+        "cls": "containerrow",
+        "rect": {
+          "x": 1,
+          "y": 43,
+          "w": 1918,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 34,
+        "text": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生",
+        "tag": "DIV",
+        "cls": "response_row",
+        "rect": {
+          "x": 1,
+          "y": 43,
+          "w": 1918,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 35,
+        "text": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生",
+        "tag": "SPAN",
+        "cls": "",
+        "rect": {
+          "x": 1,
+          "y": 43,
+          "w": 1918,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 36,
+        "text": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生",
+        "tag": "DIV",
+        "cls": "",
+        "rect": {
+          "x": 1,
+          "y": 43,
+          "w": 240,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 37,
+        "text": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生",
+        "tag": "DIV",
+        "cls": "component_object_unselect",
+        "rect": {
+          "x": 1,
+          "y": 43,
+          "w": 240,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 38,
+        "text": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生",
+        "tag": "DIV",
+        "cls": "ui_factory",
+        "rect": {
+          "x": 1,
+          "y": 43,
+          "w": 240,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 39,
+        "text": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生",
+        "tag": "DIV",
+        "cls": "pointer_auto",
+        "rect": {
+          "x": 1,
+          "y": 43,
+          "w": 240,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 40,
+        "text": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生",
+        "tag": "DIV",
+        "cls": "layout_container component_object containerStyle",
+        "rect": {
+          "x": 1,
+          "y": 43,
+          "w": 240,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 41,
+        "text": "< 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生",
+        "tag": "SPAN",
+        "cls": "containerrow",
+        "rect": {
+          "x": 1,
+          "y": 43,
+          "w": 240,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 60,
+        "text": "数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子",
+        "tag": "DIV",
+        "cls": "response_row",
+        "rect": {
+          "x": 1,
+          "y": 117,
+          "w": 240,
+          "h": 725
+        },
+        "visible": true
+      },
+      {
+        "i": 61,
+        "text": "数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子",
+        "tag": "SPAN",
+        "cls": "",
+        "rect": {
+          "x": 1,
+          "y": 117,
+          "w": 239,
+          "h": 725
+        },
+        "visible": true
+      },
+      {
+        "i": 62,
+        "text": "数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子",
+        "tag": "DIV",
+        "cls": "",
+        "rect": {
+          "x": 1,
+          "y": 117,
+          "w": 239,
+          "h": 725
+        },
+        "visible": true
+      },
+      {
+        "i": 63,
+        "text": "数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子",
+        "tag": "DIV",
+        "cls": "component_object_unselect",
+        "rect": {
+          "x": 1,
+          "y": 117,
+          "w": 239,
+          "h": 725
+        },
+        "visible": true
+      },
+      {
+        "i": 64,
+        "text": "数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子",
+        "tag": "DIV",
+        "cls": "ui_factory",
+        "rect": {
+          "x": 1,
+          "y": 117,
+          "w": 239,
+          "h": 725
+        },
+        "visible": true
+      },
+      {
+        "i": 65,
+        "text": "数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子",
+        "tag": "DIV",
+        "cls": "pointer_auto",
+        "rect": {
+          "x": 1,
+          "y": 117,
+          "w": 239,
+          "h": 725
+        },
+        "visible": true
+      },
+      {
+        "i": 66,
+        "text": "数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子",
+        "tag": "DIV",
+        "cls": "custom_tree component_object ElementTree1",
+        "rect": {
+          "x": 1,
+          "y": 117,
+          "w": 239,
+          "h": 725
+        },
+        "visible": true
+      },
+      {
+        "i": 67,
+        "text": "数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子",
+        "tag": "DIV",
+        "cls": "el-tree tree el-tree--highlight-current",
+        "rect": {
+          "x": 2,
+          "y": 118,
+          "w": 237,
+          "h": 384
+        },
+        "visible": true
+      },
+      {
+        "i": 68,
+        "text": "数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置",
+        "tag": "DIV",
+        "cls": "el-tree-node is-expanded is-focusable",
+        "rect": {
+          "x": 19,
+          "y": 118,
+          "w": 220,
+          "h": 160
+        },
+        "visible": true
+      },
+      {
+        "i": 69,
+        "text": "数字孪生实例配置",
+        "tag": "DIV",
+        "cls": "el-tree-node__content",
+        "rect": {
+          "x": 19,
+          "y": 118,
+          "w": 220,
+          "h": 32
+        },
+        "visible": true
+      },
+      {
+        "i": 71,
+        "text": "数字孪生实例配置",
+        "tag": "SPAN",
+        "cls": "editNode root-node",
+        "rect": {
+          "x": 24,
+          "y": 121,
+          "w": 168,
+          "h": 26
+        },
+        "visible": true
+      },
+      {
+        "i": 72,
+        "text": "数字孪生实例配置",
+        "tag": "SPAN",
+        "cls": "treeNodeLabel",
+        "rect": {
+          "x": 53.65625,
+          "y": 121,
+          "w": 138.34375,
+          "h": 26
+        },
+        "visible": true
+      },
+      {
+        "i": 76,
+        "text": "管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置",
+        "tag": "DIV",
+        "cls": "el-tree-node__children",
+        "rect": {
+          "x": 19,
+          "y": 150,
+          "w": 220,
+          "h": 128
+        },
+        "visible": true
+      },
+      {
+        "i": 77,
+        "text": "管控单元实例配置",
+        "tag": "DIV",
+        "cls": "el-tree-node is-current is-focusable",
+        "rect": {
+          "x": 19,
+          "y": 150,
+          "w": 220,
+          "h": 32
+        },
+        "visible": true
+      },
+      {
+        "i": 78,
+        "text": "管控单元实例配置",
+        "tag": "DIV",
+        "cls": "el-tree-node__content",
+        "rect": {
+          "x": 19,
+          "y": 150,
+          "w": 220,
+          "h": 32
+        },
+        "visible": true
+      },
+      {
+        "i": 80,
+        "text": "管控单元实例配置",
+        "tag": "SPAN",
+        "cls": "editNode",
+        "rect": {
+          "x": 40,
+          "y": 153,
+          "w": 152,
+          "h": 26
+        },
+        "visible": true
+      },
+      {
+        "i": 81,
+        "text": "管控单元实例配置",
+        "tag": "SPAN",
+        "cls": "treeNodeLabel",
+        "rect": {
+          "x": 66.421875,
+          "y": 153,
+          "w": 125.578125,
+          "h": 26
+        },
+        "visible": true
+      },
+      {
+        "i": 85,
+        "text": "工作流实例配置",
+        "tag": "DIV",
+        "cls": "el-tree-node is-focusable",
+        "rect": {
+          "x": 19,
+          "y": 182,
+          "w": 220,
+          "h": 32
+        },
+        "visible": true
+      },
+      {
+        "i": 86,
+        "text": "工作流实例配置",
+        "tag": "DIV",
+        "cls": "el-tree-node__content",
+        "rect": {
+          "x": 19,
+          "y": 182,
+          "w": 220,
+          "h": 32
+        },
+        "visible": true
+      },
+      {
+        "i": 88,
+        "text": "工作流实例配置",
+        "tag": "SPAN",
+        "cls": "editNode",
+        "rect": {
+          "x": 40,
+          "y": 185,
+          "w": 152,
+          "h": 26
+        },
+        "visible": true
+      },
+      {
+        "i": 89,
+        "text": "工作流实例配置",
+        "tag": "SPAN",
+        "cls": "treeNodeLabel",
+        "rect": {
+          "x": 65.703125,
+          "y": 185,
+          "w": 126.296875,
+          "h": 26
+        },
+        "visible": true
+      },
+      {
+        "i": 93,
+        "text": "数据源实例化",
+        "tag": "DIV",
+        "cls": "el-tree-node is-focusable",
+        "rect": {
+          "x": 19,
+          "y": 214,
+          "w": 220,
+          "h": 32
+        },
+        "visible": true
+      },
+      {
+        "i": 94,
+        "text": "数据源实例化",
+        "tag": "DIV",
+        "cls": "el-tree-node__content",
+        "rect": {
+          "x": 19,
+          "y": 214,
+          "w": 220,
+          "h": 32
+        },
+        "visible": true
+      },
+      {
+        "i": 96,
+        "text": "数据源实例化",
+        "tag": "SPAN",
+        "cls": "editNode",
+        "rect": {
+          "x": 40,
+          "y": 217,
+          "w": 152,
+          "h": 26
+        },
+        "visible": true
+      },
+      {
+        "i": 97,
+        "text": "数据源实例化",
+        "tag": "SPAN",
+        "cls": "treeNodeLabel",
+        "rect": {
+          "x": 66.421875,
+          "y": 217,
+          "w": 125.578125,
+          "h": 26
+        },
+        "visible": true
+      },
+      {
+        "i": 101,
+        "text": "采集设备实例配置",
+        "tag": "DIV",
+        "cls": "el-tree-node is-focusable",
+        "rect": {
+          "x": 19,
+          "y": 246,
+          "w": 220,
+          "h": 32
+        },
+        "visible": true
+      },
+      {
+        "i": 102,
+        "text": "采集设备实例配置",
+        "tag": "DIV",
+        "cls": "el-tree-node__content",
+        "rect": {
+          "x": 19,
+          "y": 246,
+          "w": 220,
+          "h": 32
+        },
+        "visible": true
+      },
+      {
+        "i": 104,
+        "text": "采集设备实例配置",
+        "tag": "SPAN",
+        "cls": "editNode",
+        "rect": {
+          "x": 40,
+          "y": 249,
+          "w": 152,
+          "h": 26
+        },
+        "visible": true
+      },
+      {
+        "i": 105,
+        "text": "采集设备实例配置",
+        "tag": "SPAN",
+        "cls": "treeNodeLabel",
+        "rect": {
+          "x": 66.421875,
+          "y": 249,
+          "w": 125.578125,
+          "h": 26
+        },
+        "visible": true
+      },
+      {
+        "i": 173,
+        "text": "时空列表 KF4.5Root PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "DIV",
+        "cls": "",
+        "rect": {
+          "x": 241,
+          "y": 43,
+          "w": 1678,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 174,
+        "text": "时空列表 KF4.5Root PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "DIV",
+        "cls": "component_object_unselect",
+        "rect": {
+          "x": 241,
+          "y": 43,
+          "w": 1678,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 175,
+        "text": "时空列表 KF4.5Root PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "DIV",
+        "cls": "ui_factory layer_class",
+        "rect": {
+          "x": 241,
+          "y": 43,
+          "w": 1678,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 176,
+        "text": "时空列表 KF4.5Root PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "DIV",
+        "cls": "page_view_container client_page_view_container set_page_app component_object 数字孪生实例化_框架页面",
+        "rect": {
+          "x": 241,
+          "y": 43,
+          "w": 1678,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 177,
+        "text": "时空列表 KF4.5Root PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "DIV",
+        "cls": "page_view",
+        "rect": {
+          "x": 241,
+          "y": 43,
+          "w": 1678,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 184,
+        "text": "时空列表 KF4.5Root PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "DIV",
+        "cls": "layer_view",
+        "rect": {
+          "x": 241,
+          "y": 43,
+          "w": 1678,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 185,
+        "text": "时空列表 KF4.5Root PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "DIV",
+        "cls": "layout_container containerStyle",
+        "rect": {
+          "x": 241,
+          "y": 43,
+          "w": 1678,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 186,
+        "text": "时空列表 KF4.5Root PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "SPAN",
+        "cls": "containerrow",
+        "rect": {
+          "x": 241,
+          "y": 43,
+          "w": 1678,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 187,
+        "text": "时空列表 KF4.5Root PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "DIV",
+        "cls": "response_row",
+        "rect": {
+          "x": 241,
+          "y": 43,
+          "w": 1678,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 188,
+        "text": "时空列表 KF4.5Root PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "SPAN",
+        "cls": "",
+        "rect": {
+          "x": 241,
+          "y": 43,
+          "w": 1678,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 274,
+        "text": "实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "DIV",
+        "cls": "",
+        "rect": {
+          "x": 551,
+          "y": 43,
+          "w": 1368,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 275,
+        "text": "实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "DIV",
+        "cls": "component_object_unselect",
+        "rect": {
+          "x": 551,
+          "y": 43,
+          "w": 1368,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 276,
+        "text": "实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "DIV",
+        "cls": "ui_factory layer_class",
+        "rect": {
+          "x": 551,
+          "y": 43,
+          "w": 1368,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 277,
+        "text": "实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "DIV",
+        "cls": "layer_class",
+        "rect": {
+          "x": 551,
+          "y": 43,
+          "w": 1368,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 278,
+        "text": "实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "DIV",
+        "cls": "layout_container component_object containerStyle",
+        "rect": {
+          "x": 551,
+          "y": 43,
+          "w": 1368,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 279,
+        "text": "实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty",
+        "tag": "SPAN",
+        "cls": "containerrow",
+        "rect": {
+          "x": 551,
+          "y": 43,
+          "w": 1368,
+          "h": 799
+        },
+        "visible": true
+      },
+      {
+        "i": 280,
+        "text": "实例列表 新建 删除 更多操作",
+        "tag": "DIV",
+        "cls": "response_row",
+        "rect": {
+          "x": 566,
+          "y": 58,
+          "w": 1338,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 281,
+        "text": "实例列表 新建 删除 更多操作",
+        "tag": "SPAN",
+        "cls": "",
+        "rect": {
+          "x": 566,
+          "y": 58,
+          "w": 1338,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 282,
+        "text": "实例列表",
+        "tag": "DIV",
+        "cls": "",
+        "rect": {
+          "x": 566,
+          "y": 58,
+          "w": 120,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 283,
+        "text": "实例列表",
+        "tag": "DIV",
+        "cls": "component_object_unselect",
+        "rect": {
+          "x": 566,
+          "y": 58,
+          "w": 120,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 284,
+        "text": "实例列表",
+        "tag": "DIV",
+        "cls": "ui_factory layer_class",
+        "rect": {
+          "x": 566,
+          "y": 58,
+          "w": 120,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 285,
+        "text": "实例列表",
+        "tag": "DIV",
+        "cls": "pointer_auto",
+        "rect": {
+          "x": 566,
+          "y": 58,
+          "w": 120,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 286,
+        "text": "实例列表",
+        "tag": "DIV",
+        "cls": "el-text-component component_object ElementText11",
+        "rect": {
+          "x": 566,
+          "y": 58,
+          "w": 120,
+          "h": 34
+        },
+        "visible": true
+      },
+      {
+        "i": 373,
+        "text": "实例根仓库下不允许创建实例",
+        "tag": "DIV",
+        "cls": "el-message el-message--warning is-closable el-message-fade-leave-active el-message-fade-leave-to",
+        "rect": {
+          "x": 770,
+          "y": 18.828554153442383,
+          "w": 380,
+          "h": 46
+        },
+        "visible": true
+      }
+    ],
+    "body": "KingFusion4.5_组态系统 < 返回工程管理 盛云_孙宇飞_Palimpsest工程_0624 数字孪生实例配置 管控单元实例配置 工作流实例配置 数据源实例化 采集设备实例配置 数字孪生可视化 系统服务配置 报警转发 采集管理 数据源管理 安全设置 电子签名管理 时空列表 KF4.5Root PalimpsestRoot 实例列表 新建 删除 更多操作 序号 名称 显示名称 描述 模型 模型版本 操作 empty 实例根仓库下不允许创建实例"
+  }
+}

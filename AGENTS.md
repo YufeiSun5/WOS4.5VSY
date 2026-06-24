@@ -192,11 +192,14 @@ MCP 和本地工具规则：
 - `D:\DEV_D\WOS4.5\.ai\skills\wos4-component-persistence\SKILL.md`
 - `D:\DEV_D\WOS4.5\.ai\skills\wos4-component-catalog\SKILL.md`
 - `D:\DEV_D\WOS4.5\.ai\skills\wos4-style-config\SKILL.md`
+- `D:\DEV_D\WOS4.5\.ai\skills\wos4-page-runtime-backup\SKILL.md`
+- `D:\DEV_D\WOS4.5\.ai\skills\wos4-business-event-member-edit\SKILL.md`
 - `D:\DEV_D\WOS4.5\.ai\skills\wos4-button-variable-flow\SKILL.md`
 - `D:\DEV_D\WOS4.5\.ai\skills\wos4-interaction-flow-skill\SKILL.md`
 - `D:\DEV_D\WOS4.5\.ai\skills\wos4-demo-page-fullstack-skill\SKILL.md`
 - `D:\DEV_D\WOS4.5\.ai\skills\wos4-config-client-screen-create\SKILL.md`
 - `D:\DEV_D\WOS4.5\.ai\skills\wos4-meta-language-fu-create\SKILL.md`
+- `D:\DEV_D\WOS4.5\.ai\skills\wos4-meta-language-debugger\SKILL.md`
 - `D:\DEV_D\WOS4.5\.ai\skills\wos4-meta-language-fu-release-package\SKILL.md`
 - `D:\DEV_D\WOS4.5\.ai\skills\wos4-repository-package-deploy-start\SKILL.md`
 - `D:\DEV_D\WOS4.5\.ai\skills\wos4-runtime-package-update\SKILL.md`
@@ -204,6 +207,7 @@ MCP 和本地工具规则：
 - `D:\DEV_D\WOS4.5\.ai\skills\wos4-object-create-verify\SKILL.md`
 - `D:\DEV_D\WOS4.5\.ai\skills\wos4-blue-client-object-create\SKILL.md`
 - `D:\DEV_D\WOS4.5\.ai\skills\wos4-modeling-reference-inspection\SKILL.md`
+- `D:\DEV_D\WOS4.5\.ai\skills\wos4-instance-submit-package-diagnosis\SKILL.md`
 
 微信文件发送 skill：
 

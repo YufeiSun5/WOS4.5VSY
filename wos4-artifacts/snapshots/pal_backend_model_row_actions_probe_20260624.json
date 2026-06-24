@@ -1,0 +1,230 @@
+{
+  "at": "2026-06-24 11:37:52",
+  "result": {
+    "rows": [
+      {
+        "i": 9,
+        "text": "9 盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records. 编辑 属性 提交版本 版本管理 更新 删除",
+        "cls": "el-table__row expanded",
+        "html": "<tr class=\"el-table__row expanded\"><td rowspan=\"1\" colspan=\"1\" class=\"el-table_3_column_12  el-table-column--selection  el-table__cell\"><div class=\"cell\"><label class=\"el-checkbox\"><span class=\"el-checkbox__input\"><span class=\"el-checkbox__inner\"></span><input type=\"checkbox\" aria-hidden=\"false\" class=\"el-checkbox__original\" value=\"\"></span><!----></label></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_3_column_13 is-left   el-table__cell\"><div class=\"cell\"><div>9</div></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_3_column_14 is-left   el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 250px;\"><!----><span data-v-3499da1b=\"\">盛云科技_孙宇飞_Palimpsest_后台_0623</span></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_3_column_15 is-left   el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 389px;\"><!----><span data-v-3499da1b=\"\">Palimpsest backend model: fake assessment CRUD functions and test records.</span></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-tab"
+      },
+      {
+        "i": 37,
+        "text": "PalimpsestBackend 自定义函数 编辑 属性 删除",
+        "cls": "el-table__row",
+        "html": "<tr class=\"el-table__row\"><td rowspan=\"1\" colspan=\"1\" class=\"el-table_25_column_105  el-table-column--selection  el-table__cell\"><div class=\"cell\"><label class=\"el-checkbox\"><span class=\"el-checkbox__input\"><span class=\"el-checkbox__inner\"></span><input type=\"checkbox\" aria-hidden=\"false\" class=\"el-checkbox__original\" value=\"\"></span><!----></label></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_25_column_106 is-left   el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 304px;\"><!----><span data-v-3499da1b=\"\">PalimpsestBackend</span></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_25_column_107 is-left   el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 200px;\"><!----><span data-v-3499da1b=\"\">自定义函数</span></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_25_column_108 is-left   el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 808px;\"><!----><span data-v-3499da1b=\"\"></span></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_25_column_109 is-"
+      }
+    ],
+    "actions": [
+      {
+        "text": "9",
+        "tag": "DIV",
+        "cls": "cell",
+        "rect": {
+          "x": 586,
+          "y": 473,
+          "w": 59,
+          "h": 23
+        }
+      },
+      {
+        "text": "9",
+        "tag": "DIV",
+        "cls": "",
+        "rect": {
+          "x": 596,
+          "y": 473,
+          "w": 7.796875,
+          "h": 23
+        }
+      },
+      {
+        "text": "盛云科技_孙宇飞_Palimpsest_后台_0623",
+        "tag": "DIV",
+        "cls": "cell el-tooltip",
+        "rect": {
+          "x": 646,
+          "y": 474.5,
+          "w": 250,
+          "h": 20
+        }
+      },
+      {
+        "text": "盛云科技_孙宇飞_Palimpsest_后台_0623",
+        "tag": "SPAN",
+        "cls": "",
+        "rect": {
+          "x": 656,
+          "y": 474.5,
+          "w": 258.390625,
+          "h": 20
+        }
+      },
+      {
+        "text": "Palimpsest backend model: fake assessment CRUD functions and test records.",
+        "tag": "DIV",
+        "cls": "cell el-tooltip",
+        "rect": {
+          "x": 898,
+          "y": 474.5,
+          "w": 389,
+          "h": 20
+        }
+      },
+      {
+        "text": "Palimpsest backend model: fake assessment CRUD functions and test records.",
+        "tag": "SPAN",
+        "cls": "",
+        "rect": {
+          "x": 908,
+          "y": 474.5,
+          "w": 500.234375,
+          "h": 20
+        }
+      },
+      {
+        "text": "编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+        "tag": "DIV",
+        "cls": "cell",
+        "rect": {
+          "x": 1289,
+          "y": 465,
+          "w": 609,
+          "h": 39
+        }
+      },
+      {
+        "text": "编辑",
+        "tag": "BUTTON",
+        "cls": "el-button el-button--text el-button--medium",
+        "rect": {
+          "x": 1299,
+          "y": 465,
+          "w": 28,
+          "h": 39
+        }
+      },
+      {
+        "text": "编辑",
+        "tag": "SPAN",
+        "cls": "",
+        "rect": {
+          "x": 1299,
+          "y": 476.5,
+          "w": 28,
+          "h": 16
+        }
+      },
+      {
+        "text": "属性",
+        "tag": "BUTTON",
+        "cls": "el-button el-button--text el-button--medium",
+        "rect": {
+          "x": 1358,
+          "y": 465,
+          "w": 28,
+          "h": 39
+        }
+      },
+      {
+        "text": "属性",
+        "tag": "SPAN",
+        "cls": "",
+        "rect": {
+          "x": 1358,
+          "y": 476.5,
+          "w": 28,
+          "h": 16
+        }
+      },
+      {
+        "text": "提交版本",
+        "tag": "BUTTON",
+        "cls": "el-button el-button--text el-button--medium",
+        "rect": {
+          "x": 1417,
+          "y": 465,
+          "w": 56,
+          "h": 39
+        }
+      },
+      {
+        "text": "提交版本",
+        "tag": "SPAN",
+        "cls": "",
+        "rect": {
+          "x": 1417,
+          "y": 476.5,
+          "w": 56,
+          "h": 16
+        }
+      },
+      {
+        "text": "版本管理",
+        "tag": "BUTTON",
+        "cls": "el-button el-button--text el-button--medium",
+        "rect": {
+          "x": 1504,
+          "y": 465,
+          "w": 56,
+          "h": 39
+        }
+      },
+      {
+        "text": "版本管理",
+        "tag": "SPAN",
+        "cls": "",
+        "rect": {
+          "x": 1504,
+          "y": 476.5,
+          "w": 56,
+          "h": 16
+        }
+      },
+      {
+        "text": "更新",
+        "tag": "BUTTON",
+        "cls": "el-button el-button--text el-button--medium",
+        "rect": {
+          "x": 1591,
+          "y": 465,
+          "w": 28,
+          "h": 39
+        }
+      },
+      {
+        "text": "更新",
+        "tag": "SPAN",
+        "cls": "",
+        "rect": {
+          "x": 1591,
+          "y": 476.5,
+          "w": 28,
+          "h": 16
+        }
+      },
+      {
+        "text": "删除",
+        "tag": "BUTTON",
+        "cls": "el-button el-button--text el-button--medium",
+        "rect": {
+          "x": 1650,
+          "y": 465,
+          "w": 28,
+          "h": 39
+        }
+      },
+      {
+        "text": "删除",
+        "tag": "SPAN",
+        "cls": "",
+        "rect": {
+          "x": 1650,
+          "y": 476.5,
+          "w": 28,
+          "h": 16
+        }
+      }
+    ]
+  }
+}

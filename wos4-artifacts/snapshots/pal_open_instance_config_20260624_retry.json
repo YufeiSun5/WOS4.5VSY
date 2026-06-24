@@ -1,0 +1,31 @@
+{
+  "click": {
+    "x": 19,
+    "y": 150,
+    "w": 220,
+    "h": 32,
+    "candidates": [
+      {
+        "tag": "DIV",
+        "cls": "el-tree-node is-focusable",
+        "text": "管控单元实例配置"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-tree-node__content",
+        "text": "管控单元实例配置"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "editNode",
+        "text": "管控单元实例配置"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "treeNodeLabel",
+        "text": "管控单元实例配置"
+      }
+    ]
+  },
+  "state": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\n暂无数据\n\n实例列表\n\n新建\n删除\n更多操作 \n\t序号\t名称\t显示名称\t描述\t模型\t模型版本\t操作\nempty"
+}

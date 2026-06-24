@@ -1,0 +1,464 @@
+{
+  "schema": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\tasks\\20260623-新测试页左右菜单CRUD弹窗设计\\backend-schema-palimpsest.json",
+  "results": [
+    {
+      "current": "pal_menu_node",
+      "rows": [
+        {
+          "idx": 0,
+          "name": "id",
+          "type": "string",
+          "value": "",
+          "desc": "主键ID"
+        },
+        {
+          "idx": 1,
+          "name": "parent_id",
+          "type": "string",
+          "value": "",
+          "desc": "父菜单ID"
+        },
+        {
+          "idx": 2,
+          "name": "menu_code",
+          "type": "string",
+          "value": "",
+          "desc": ""
+        },
+        {
+          "idx": 3,
+          "name": "menu_name",
+          "type": "string",
+          "value": "",
+          "desc": "菜单名称"
+        },
+        {
+          "idx": 4,
+          "name": "page_code",
+          "type": "string",
+          "value": "",
+          "desc": ""
+        },
+        {
+          "idx": 5,
+          "name": "icon",
+          "type": "string",
+          "value": "",
+          "desc": "图标标识"
+        },
+        {
+          "idx": 6,
+          "name": "sort_no",
+          "type": "int32",
+          "value": "0",
+          "desc": "排序号"
+        },
+        {
+          "idx": 7,
+          "name": "enabled",
+          "type": "bool",
+          "value": "true",
+          "desc": "是否启用"
+        }
+      ],
+      "rowCount": 8,
+      "raw": [],
+      "duplicates": [],
+      "event": "pal_menu_node",
+      "expectedCount": 8,
+      "expectedNames": [
+        "id",
+        "parent_id",
+        "menu_code",
+        "menu_name",
+        "page_code",
+        "icon",
+        "sort_no",
+        "enabled"
+      ],
+      "missingNames": [],
+      "extraNames": []
+    },
+    {
+      "current": "pal_department",
+      "rows": [
+        {
+          "idx": 0,
+          "name": "id",
+          "type": "string",
+          "value": "",
+          "desc": ""
+        },
+        {
+          "idx": 1,
+          "name": "dept_code",
+          "type": "string",
+          "value": "",
+          "desc": "部门编码"
+        },
+        {
+          "idx": 2,
+          "name": "dept_name",
+          "type": "string",
+          "value": "",
+          "desc": "部门名称"
+        },
+        {
+          "idx": 3,
+          "name": "sort_no",
+          "type": "int32",
+          "value": "0",
+          "desc": "排序号"
+        },
+        {
+          "idx": 4,
+          "name": "enabled",
+          "type": "bool",
+          "value": "true",
+          "desc": "是否启用"
+        }
+      ],
+      "rowCount": 5,
+      "raw": [],
+      "duplicates": [],
+      "event": "pal_department",
+      "expectedCount": 5,
+      "expectedNames": [
+        "id",
+        "dept_code",
+        "dept_name",
+        "sort_no",
+        "enabled"
+      ],
+      "missingNames": [],
+      "extraNames": []
+    },
+    {
+      "current": "pal_mentor",
+      "rows": [],
+      "rowCount": 0,
+      "raw": [],
+      "duplicates": [],
+      "event": "pal_mentor",
+      "expectedCount": 6,
+      "expectedNames": [
+        "id",
+        "mentor_code",
+        "mentor_name",
+        "dept_id",
+        "phone",
+        "enabled"
+      ],
+      "missingNames": [
+        "id",
+        "mentor_code",
+        "mentor_name",
+        "dept_id",
+        "phone",
+        "enabled"
+      ],
+      "extraNames": []
+    },
+    {
+      "current": "pal_intern_student",
+      "rows": [],
+      "rowCount": 0,
+      "raw": [],
+      "duplicates": [],
+      "event": "pal_intern_student",
+      "expectedCount": 8,
+      "expectedNames": [
+        "id",
+        "student_no",
+        "student_name",
+        "phone",
+        "dept_id",
+        "mentor_id",
+        "entry_date",
+        "enabled"
+      ],
+      "missingNames": [
+        "id",
+        "student_no",
+        "student_name",
+        "phone",
+        "dept_id",
+        "mentor_id",
+        "entry_date",
+        "enabled"
+      ],
+      "extraNames": []
+    },
+    {
+      "current": "pal_assessment_batch",
+      "rows": [],
+      "rowCount": 0,
+      "raw": [],
+      "duplicates": [],
+      "event": "pal_assessment_batch",
+      "expectedCount": 6,
+      "expectedNames": [
+        "id",
+        "batch_code",
+        "batch_name",
+        "start_date",
+        "end_date",
+        "status"
+      ],
+      "missingNames": [
+        "id",
+        "batch_code",
+        "batch_name",
+        "start_date",
+        "end_date",
+        "status"
+      ],
+      "extraNames": []
+    },
+    {
+      "current": "pal_assessment_record",
+      "rows": [
+        {
+          "idx": 0,
+          "name": "id",
+          "type": "string",
+          "value": "",
+          "desc": ""
+        },
+        {
+          "idx": 1,
+          "name": "student_id",
+          "type": "string",
+          "value": "",
+          "desc": ""
+        },
+        {
+          "idx": 2,
+          "name": "batch_id",
+          "type": "string",
+          "value": "",
+          "desc": "批次ID"
+        },
+        {
+          "idx": 3,
+          "name": "mentor_id",
+          "type": "string",
+          "value": "",
+          "desc": ""
+        },
+        {
+          "idx": 4,
+          "name": "professional_score",
+          "type": "double",
+          "value": "0",
+          "desc": "专业能力得分"
+        },
+        {
+          "idx": 5,
+          "name": "attitude_score",
+          "type": "double",
+          "value": "0",
+          "desc": "工作态度得分"
+        },
+        {
+          "idx": 6,
+          "name": "task_score",
+          "type": "double",
+          "value": "0",
+          "desc": ""
+        },
+        {
+          "idx": 7,
+          "name": "teamwork_score",
+          "type": "double",
+          "value": "0",
+          "desc": "团队协作得分"
+        },
+        {
+          "idx": 8,
+          "name": "innovation_score",
+          "type": "double",
+          "value": "0",
+          "desc": "创新能力得分"
+        },
+        {
+          "idx": 9,
+          "name": "total_score",
+          "type": "double",
+          "value": "0",
+          "desc": ""
+        },
+        {
+          "idx": 10,
+          "name": "status",
+          "type": "string",
+          "value": "",
+          "desc": "考核状态"
+        },
+        {
+          "idx": 11,
+          "name": "comment",
+          "type": "string",
+          "value": "",
+          "desc": "评语"
+        },
+        {
+          "idx": 12,
+          "name": "updated_at",
+          "type": "dateTime",
+          "value": "2026-6-24 9:54:48.565",
+          "desc": "更新时间"
+        },
+        {
+          "idx": 13,
+          "name": "deleted",
+          "type": "bool",
+          "value": "false",
+          "desc": ""
+        }
+      ],
+      "rowCount": 14,
+      "raw": [],
+      "duplicates": [],
+      "event": "pal_assessment_record",
+      "expectedCount": 14,
+      "expectedNames": [
+        "id",
+        "student_id",
+        "batch_id",
+        "mentor_id",
+        "professional_score",
+        "attitude_score",
+        "task_score",
+        "teamwork_score",
+        "innovation_score",
+        "total_score",
+        "status",
+        "comment",
+        "updated_at",
+        "deleted"
+      ],
+      "missingNames": [],
+      "extraNames": []
+    },
+    {
+      "current": "pal_assessment_score_detail",
+      "rows": [
+        {
+          "idx": 0,
+          "name": "id",
+          "type": "string",
+          "value": "",
+          "desc": "主键ID"
+        },
+        {
+          "idx": 1,
+          "name": "record_id",
+          "type": "string",
+          "value": "",
+          "desc": ""
+        },
+        {
+          "idx": 2,
+          "name": "成员3",
+          "type": "string",
+          "value": "",
+          "desc": ""
+        },
+        {
+          "idx": 3,
+          "name": "item_name",
+          "type": "string",
+          "value": "",
+          "desc": ""
+        },
+        {
+          "idx": 4,
+          "name": "成员5",
+          "type": "string",
+          "value": "",
+          "desc": ""
+        },
+        {
+          "idx": 5,
+          "name": "score",
+          "type": "double",
+          "value": "0",
+          "desc": ""
+        },
+        {
+          "idx": 6,
+          "name": "remark",
+          "type": "string",
+          "value": "",
+          "desc": "备注"
+        }
+      ],
+      "rowCount": 7,
+      "raw": [
+        {
+          "idx": 2,
+          "name": "成员3",
+          "type": "string",
+          "value": "",
+          "desc": ""
+        },
+        {
+          "idx": 4,
+          "name": "成员5",
+          "type": "string",
+          "value": "",
+          "desc": ""
+        }
+      ],
+      "duplicates": [],
+      "event": "pal_assessment_score_detail",
+      "expectedCount": 7,
+      "expectedNames": [
+        "id",
+        "record_id",
+        "item_code",
+        "item_name",
+        "weight",
+        "score",
+        "remark"
+      ],
+      "missingNames": [
+        "item_code",
+        "weight"
+      ],
+      "extraNames": [
+        "成员3",
+        "成员5"
+      ]
+    },
+    {
+      "current": "pal_operation_log",
+      "rows": [],
+      "rowCount": 0,
+      "raw": [],
+      "duplicates": [],
+      "event": "pal_operation_log",
+      "expectedCount": 7,
+      "expectedNames": [
+        "id",
+        "biz_type",
+        "biz_id",
+        "action",
+        "operator",
+        "message",
+        "created_at"
+      ],
+      "missingNames": [
+        "id",
+        "biz_type",
+        "biz_id",
+        "action",
+        "operator",
+        "message",
+        "created_at"
+      ],
+      "extraNames": []
+    }
+  ]
+}

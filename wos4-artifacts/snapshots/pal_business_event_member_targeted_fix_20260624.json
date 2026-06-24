@@ -1,0 +1,518 @@
+{
+  "schema_path": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\tasks\\20260623-新测试页左右菜单CRUD弹窗设计\\backend-schema-palimpsest.json",
+  "results": [
+    {
+      "name": "pal_menu_node",
+      "want": 8,
+      "shapeSet": {
+        "display": "计划",
+        "prop": "2903"
+      },
+      "additions": [],
+      "deletions": [],
+      "editedCount": 8,
+      "verify": {
+        "selected": "pal_menu_node",
+        "shape": "计划",
+        "rows": [
+          [
+            "id",
+            "string",
+            "",
+            "主键ID"
+          ],
+          [
+            "parent_id",
+            "string",
+            "",
+            "父菜单ID"
+          ],
+          [
+            "menu_code",
+            "string",
+            "",
+            ""
+          ],
+          [
+            "menu_name",
+            "string",
+            "",
+            "菜单名称"
+          ],
+          [
+            "page_code",
+            "string",
+            "",
+            ""
+          ],
+          [
+            "icon",
+            "string",
+            "",
+            "图标标识"
+          ],
+          [
+            "sort_no",
+            "int32",
+            "0",
+            "排序号"
+          ],
+          [
+            "enabled",
+            "bool",
+            "true",
+            "是否启用"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "pal_department",
+      "want": 5,
+      "shapeSet": {
+        "display": "计划",
+        "prop": "2903"
+      },
+      "additions": [],
+      "deletions": [],
+      "editedCount": 5,
+      "verify": {
+        "selected": "pal_department",
+        "shape": "计划",
+        "rows": [
+          [
+            "id",
+            "string",
+            "",
+            ""
+          ],
+          [
+            "dept_code",
+            "string",
+            "",
+            "部门编码"
+          ],
+          [
+            "dept_name",
+            "string",
+            "",
+            "部门名称"
+          ],
+          [
+            "sort_no",
+            "int32",
+            "0",
+            "排序号"
+          ],
+          [
+            "enabled",
+            "bool",
+            "true",
+            "是否启用"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "pal_mentor",
+      "want": 6,
+      "shapeSet": {
+        "display": "计划",
+        "prop": "2903"
+      },
+      "additions": [],
+      "deletions": [],
+      "editedCount": 6,
+      "verify": {
+        "selected": "pal_mentor",
+        "shape": "计划",
+        "rows": [
+          [
+            "id",
+            "string",
+            "",
+            "主键ID"
+          ],
+          [
+            "mentor_code",
+            "string",
+            "",
+            ""
+          ],
+          [
+            "mentor_name",
+            "string",
+            "",
+            "导师姓名"
+          ],
+          [
+            "dept_id",
+            "string",
+            "",
+            "所属部门ID"
+          ],
+          [
+            "phone",
+            "string",
+            "",
+            "联系电话"
+          ],
+          [
+            "enabled",
+            "bool",
+            "true",
+            "是否启用"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "pal_intern_student",
+      "want": 8,
+      "shapeSet": {
+        "display": "计划",
+        "prop": "2903"
+      },
+      "additions": [],
+      "deletions": [],
+      "editedCount": 8,
+      "verify": {
+        "selected": "pal_intern_student",
+        "shape": "计划",
+        "rows": [
+          [
+            "id",
+            "string",
+            "",
+            "主键ID"
+          ],
+          [
+            "student_no",
+            "string",
+            "",
+            "学生学号"
+          ],
+          [
+            "student_name",
+            "string",
+            "",
+            "学生姓名"
+          ],
+          [
+            "phone",
+            "string",
+            "",
+            "联系电话"
+          ],
+          [
+            "dept_id",
+            "string",
+            "",
+            "所属部门ID"
+          ],
+          [
+            "mentor_id",
+            "string",
+            "",
+            ""
+          ],
+          [
+            "entry_date",
+            "dateTime",
+            "2026-6-24 9:54:40.768",
+            "入职日期"
+          ],
+          [
+            "enabled",
+            "bool",
+            "true",
+            "是否启用"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "pal_assessment_batch",
+      "want": 6,
+      "shapeSet": {
+        "display": "计划",
+        "prop": "2903"
+      },
+      "additions": [],
+      "deletions": [],
+      "editedCount": 6,
+      "verify": {
+        "selected": "pal_assessment_batch",
+        "shape": "计划",
+        "rows": [
+          [
+            "id",
+            "string",
+            "",
+            "主键ID"
+          ],
+          [
+            "batch_code",
+            "string",
+            "",
+            "批次编码"
+          ],
+          [
+            "batch_name",
+            "string",
+            "",
+            "批次名称"
+          ],
+          [
+            "start_date",
+            "dateTime",
+            "",
+            "开始日期"
+          ],
+          [
+            "end_date",
+            "dateTime",
+            "",
+            "结束日期"
+          ],
+          [
+            "status",
+            "string",
+            "",
+            "批次状态"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "pal_assessment_record",
+      "want": 14,
+      "shapeSet": {
+        "display": "历史",
+        "prop": "2902"
+      },
+      "additions": [],
+      "deletions": [
+        {
+          "before": 15,
+          "after": 15,
+          "deleteClick": {
+            "clicked": true,
+            "vals": [
+              "_extra_delete_me",
+              "string",
+              "",
+              "????????"
+            ]
+          },
+          "confirmClicked": 0
+        }
+      ],
+      "editedCount": 12,
+      "verify": {
+        "selected": "pal_assessment_record",
+        "shape": "历史",
+        "rows": [
+          [
+            "mentor_id",
+            "string",
+            "",
+            "导师ID"
+          ],
+          [
+            "professional_score",
+            "double",
+            "0",
+            "专业能力得分"
+          ],
+          [
+            "attitude_score",
+            "double",
+            "0",
+            "工作态度得分"
+          ],
+          [
+            "task_score",
+            "double",
+            "0",
+            "任务完成得分"
+          ],
+          [
+            "teamwork_score",
+            "double",
+            "0",
+            "团队协作得分"
+          ],
+          [
+            "innovation_score",
+            "double",
+            "0",
+            "创新能力得分"
+          ],
+          [
+            "total_score",
+            "double",
+            "0",
+            "综合得分"
+          ],
+          [
+            "status",
+            "string",
+            "",
+            "考核状态"
+          ],
+          [
+            "comment",
+            "string",
+            "",
+            "评语"
+          ],
+          [
+            "updated_at",
+            "dateTime",
+            "",
+            "更新时间"
+          ],
+          [
+            "deleted",
+            "bool",
+            "false",
+            "是否删除"
+          ],
+          [
+            "_extra_delete_me",
+            "string",
+            "",
+            "????????"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "pal_assessment_score_detail",
+      "want": 7,
+      "shapeSet": {
+        "display": "实时",
+        "prop": "2901"
+      },
+      "additions": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "deletions": [],
+      "editedCount": 7,
+      "verify": {
+        "selected": "pal_assessment_score_detail",
+        "shape": "历史",
+        "rows": [
+          [
+            "id",
+            "string",
+            "",
+            "主键ID"
+          ],
+          [
+            "record_id",
+            "string",
+            "",
+            "考核记录ID"
+          ],
+          [
+            "item_code",
+            "string",
+            "",
+            "评分项编码"
+          ],
+          [
+            "item_name",
+            "string",
+            "",
+            "评分项名称"
+          ],
+          [
+            "weight",
+            "double",
+            "0",
+            "权重"
+          ],
+          [
+            "score",
+            "double",
+            "0",
+            "得分"
+          ],
+          [
+            "remark",
+            "string",
+            "",
+            "备注"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "pal_operation_log",
+      "want": 7,
+      "shapeSet": {
+        "display": "实时",
+        "prop": "2901"
+      },
+      "additions": [],
+      "deletions": [],
+      "editedCount": 7,
+      "verify": {
+        "selected": "pal_operation_log",
+        "shape": "历史",
+        "rows": [
+          [
+            "id",
+            "string",
+            "",
+            "主键ID"
+          ],
+          [
+            "record_id",
+            "string",
+            "",
+            ""
+          ],
+          [
+            "成员3",
+            "string",
+            "",
+            ""
+          ],
+          [
+            "item_name",
+            "string",
+            "",
+            ""
+          ],
+          [
+            "成员5",
+            "string",
+            "",
+            ""
+          ],
+          [
+            "score",
+            "double",
+            "0",
+            ""
+          ],
+          [
+            "remark",
+            "string",
+            "",
+            "备注"
+          ]
+        ]
+      }
+    }
+  ]
+}

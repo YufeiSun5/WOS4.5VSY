@@ -1,0 +1,54 @@
+{
+  "setup": {
+    "ok": true,
+    "target": {
+      "x": 1298,
+      "y": 687.953125,
+      "w": 256,
+      "h": 24,
+      "text": "查看 评分 编辑 更多⌄"
+    },
+    "vueKeys": [
+      "_events",
+      "_hasHookEvent",
+      "initLinkMngUi",
+      "getLinkAnimate",
+      "setLinkAnimate",
+      "evalUiInputLinkBase",
+      "registerUiInputLink",
+      "upDateLink",
+      "linkToPropertyJson",
+      "SetUIEventConfig",
+      "setTableLinkData",
+      "rowClickChangeLink",
+      "multiSelectChangeLink",
+      "cellClick",
+      "cellDbClick",
+      "rowClick",
+      "rowDbClick",
+      "headerClick",
+      "nodeClick",
+      "tableClick",
+      "_getDataSetLink",
+      "excuteUILinkOutPut",
+      "getParamLinkCurrentSelect",
+      "setParamLinkCurrentSelect",
+      "getParamLinkSelection",
+      "setParamLinkSelection",
+      "getUserDefinedEvents",
+      "setUserDefinedEvents",
+      "executeParamLink",
+      "linkList",
+      "selectEventData",
+      "scrollEventFlag",
+      "uiInputLinkList"
+    ]
+  },
+  "result": {
+    "time": 1782226969714,
+    "args": [
+      "\"window.__palCellClickProbe = {time: Date.now(), args: Array.prototype.slice.call(arguments).map(function(x){try{return JSON.stringify(x).slice(0,300)}catch(e){return String(x)}})};\"",
+      "{\"row\":{\"name\":\"李明轩\",\"studentId\":\"S2024041001\",\"dept\":\"产品部\",\"mentor\":\"王思远\",\"professional\":\"97%\",\"attitude\":\"85%\",\"task\":\"85%\",\"score\":\"92.6\",\"status\":\"已完成\",\"updated\":\"2024-06-12 14:30\",\"ops\":\"查看  评分  编辑  更多⌄\",\"rowIndex\":\"1\"},\"column\":{\"order\":\"\",\"id\":\"el-table_1_column_11\",\"type\":\"default\",\"property"
+    ]
+  }
+}

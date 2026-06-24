@@ -1,0 +1,139 @@
+{
+  "btn": {
+    "x": 1,
+    "y": 43,
+    "w": 136,
+    "h": 38,
+    "text": "< 返回工程管理",
+    "cls": "el-button el-button--primary el-button--medium propertyStyle"
+  },
+  "all": [
+    {
+      "i": 0,
+      "x": 1,
+      "y": 43,
+      "w": 136,
+      "h": 38,
+      "text": "< 返回工程管理",
+      "cls": "el-button el-button--primary el-button--medium propertyStyle"
+    },
+    {
+      "i": 2,
+      "x": 441,
+      "y": 66,
+      "w": 20,
+      "h": 18,
+      "text": "",
+      "cls": "el-button el-button--primary el-button--medium propertyStyle"
+    },
+    {
+      "i": 3,
+      "x": 466,
+      "y": 66,
+      "w": 20,
+      "h": 18,
+      "text": "",
+      "cls": "el-button el-button--primary el-button--medium propertyStyle"
+    },
+    {
+      "i": 4,
+      "x": 491,
+      "y": 66,
+      "w": 20,
+      "h": 18,
+      "text": "",
+      "cls": "el-button el-button--primary el-button--medium propertyStyle"
+    },
+    {
+      "i": 5,
+      "x": 516,
+      "y": 66,
+      "w": 20,
+      "h": 18,
+      "text": "",
+      "cls": "el-button el-button--primary el-button--medium el-dropdown-selfdefine"
+    },
+    {
+      "i": 7,
+      "x": 1329,
+      "y": 58,
+      "w": 80,
+      "h": 34,
+      "text": "新建",
+      "cls": "el-button el-button--primary el-button--medium propertyStyle"
+    },
+    {
+      "i": 8,
+      "x": 1424,
+      "y": 58,
+      "w": 80,
+      "h": 34,
+      "text": "删除",
+      "cls": "el-button el-button--primary el-button--medium propertyStyle"
+    },
+    {
+      "i": 9,
+      "x": 1519,
+      "y": 58,
+      "w": 120,
+      "h": 34,
+      "text": "更多操作",
+      "cls": "el-button el-button--primary el-button--medium el-dropdown-selfdefine"
+    },
+    {
+      "i": 10,
+      "x": 1514,
+      "y": 151.5,
+      "w": 30,
+      "h": 16,
+      "text": "编辑",
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "i": 11,
+      "x": 1554,
+      "y": 151.5,
+      "w": 30,
+      "h": 16,
+      "text": "属性",
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "i": 12,
+      "x": 1594,
+      "y": 151.5,
+      "w": 86,
+      "h": 16,
+      "text": "切换模型版本",
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "i": 13,
+      "x": 1690,
+      "y": 151.5,
+      "w": 58,
+      "h": 16,
+      "text": "形参管理",
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "i": 14,
+      "x": 1758,
+      "y": 151.5,
+      "w": 58,
+      "h": 16,
+      "text": "提交版本",
+      "cls": "el-button el-button--text el-button--medium"
+    },
+    {
+      "i": 15,
+      "x": 1826,
+      "y": 151.5,
+      "w": 30,
+      "h": 16,
+      "text": "删除",
+      "cls": "el-button el-button--text el-button--medium"
+    }
+  ],
+  "body": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0624\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestRoot\n\n实例列表\n\n新建\n删除\n更多操作 \n\t序号\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\n1\n\t\nPalimpsestRootKnownGoodBack\n\t\nPalimpsestRootKnownGoodBack\n\t\nKnown good backend package probe under root node\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nv4\n\t\n编辑属性切换模型版本形参管理提交版本删除"
+}

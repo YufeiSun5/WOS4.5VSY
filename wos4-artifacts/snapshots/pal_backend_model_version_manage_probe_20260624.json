@@ -1,0 +1,61 @@
+{
+  "at": "2026-06-24 11:42:26",
+  "click": {
+    "ok": true,
+    "rowText": "\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除"
+  },
+  "probe": {
+    "dialogs": [
+      {
+        "text": "PalimpsestBackend脚本编辑器",
+        "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_115017",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 843
+        }
+      },
+      {
+        "text": "PalimpsestBackend脚本编辑器",
+        "cls": "el-dialog",
+        "rect": {
+          "x": 144,
+          "y": 25.28125,
+          "w": 1632,
+          "h": 758.6875
+        }
+      },
+      {
+        "text": "版本管理\n\n序号\t名称\t描述\t版本\t时间\t操作人\t操作\n1\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest business event runtime copy precheck 20260624\n\t\n1\n\t\n2026-6-24 11:41:14\n\t\n\t\n删除\n共 1 条\n1\n前往页",
+        "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_522716",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 843
+        }
+      },
+      {
+        "text": "版本管理\n\n序号\t名称\t描述\t版本\t时间\t操作人\t操作\n1\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest business event runtime copy precheck 20260624\n\t\n1\n\t\n2026-6-24 11:41:14\n\t\n\t\n删除\n共 1 条\n1\n前往页",
+        "cls": "el-dialog",
+        "rect": {
+          "x": 500,
+          "y": 300,
+          "w": 920,
+          "h": 580
+        }
+      }
+    ],
+    "tables": [
+      {
+        "i": 0,
+        "text": "序号 名称 描述 版本 时间 操作人 操作"
+      },
+      {
+        "i": 1,
+        "text": "1 盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest business event runtime copy precheck 20260624 1 2026-6-24 11:41:14 删除"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1514 @@
+{
+  "frames": [
+    {
+      "path": "top",
+      "href": "http://221.239.19.118:13001/#/main",
+      "title": "🐴 WellinOS4.5",
+      "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\nKingStudio_V20260617\n组态系统客户端\n建模系统客户端\n运维部署客户端\nCodex临时测试_前端视图_0611\n盛云_孙宇飞_TraceDemo_0617\n盛云_孙宇飞_QueryDemo_0617\n盛云_孙宇飞_前端_框架_0618@EidolonL1Frame_对象1\n盛云_孙宇飞_Noctiluca_客户端_对象1\n盛云_孙宇飞_Noctiluca_客户端_对象2\n盛云_孙宇飞_Nadir_客户端_0622_对象1\n盛云_孙宇飞_Nadir_客户端_0622_对象1",
+      "iframeCount": 2
+    },
+    {
+      "path": "top.0",
+      "href": "http://221.239.19.118:13001/public/?id=6192730962611143154&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+      "title": "WellinOS4.0",
+      "text": "\n    \n    \n    !function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();\n    \n    System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))\n  \n\n",
+      "iframeCount": 1
+    },
+    {
+      "path": "top.0.0",
+      "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/a882f412-06f7-4256-930d-571048dc3933_108/index.html#/running",
+      "title": "KingStudio4.5",
+      "text": "\n  KingStudio简体中文关于产品管理新建导入导出升级拷贝1进入修改删除张弦测试项目进入修改删除\n  \n  !function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();\n  \n  System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))\n\n\n\n简体中文繁體中文English上一页下一页新建导入导出",
+      "iframeCount": 0
+    },
+    {
+      "path": "top.1",
+      "href": "http://221.239.19.118:13001/public/?id=6192730962611143156&parentid=0&cloudid=107&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+      "title": "WellinOS4.0",
+      "text": "",
+      "iframeCount": 1
+    },
+    {
+      "path": "top.1.0",
+      "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/index.html",
+      "title": "客户端运行",
+      "text": "KingFusion4.5_建模系统\n\n建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n管理员\n首页建模\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 9 条\n<1>前往页\n\nKingFusion4.5_工程浏览器\n\n盛云科技_孙宇飞_Palimpsest_前端_0623 Palimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n人员\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n第三方计算管理\n\t\n\n\n图形模型\n\t\n\n\n2D精灵图\n\t\n\n\n3D精灵图\n\t\n\n\n页面精灵图\n\t\n\n\n报表精灵图\n\t\n\n\n自定义精灵图\n\t\n\n\n子模型\n\t\n\n",
+      "iframeCount": 1
+    },
+    {
+      "path": "top.1.0.0",
+      "href": "http://221.239.19.118:13001/api/v1/GetFileContent/107/0/0/94054fd1-9b20-463a-8372-b69776349847_120/index.html",
+      "title": "KingStudio4.5",
+      "text": "文件(F)\n提交\n预览\n\n组件\n\n布局容器\nUI组件\n全部\n常用\n导航\n数据\n选择\n输入\n媒体\n其他\n\n按钮\n\n表格\n\n输入框\n\n选择器\n\n文本\n\n日期时间选择器\n\n导航菜单\n\n树\n\n图片\n\n上传\n\n标签页\n\n单选框\n\n多选框\n\n开关\n\n时间选择器\n\n卡片\n\n业务卡片\n\n折叠面板\n\n下拉菜单\n\n级联选择器\n\n网页容器\n\n标签\n\n穿梭框\n\n计数器\n\n时间线\n\n步骤条\n\n滑块\n\n评分\n\n轮播组件\n\n自定义轮播\n\n日历\n\n电子签名\n\n条形码\n\n脚本编辑器\n\n分页\n\n大数据表格\n\n移动端_输入框\n\n移动端_文件上传\n\n移动端_进度条\n\n移动端_宫格\n\n移动端_导航栏\n\n移动端_标签栏\n\n移动端_下拉菜单\n\n移动端_列表\n\n移动端_分类选择\n\n移动端_表单\n\n图表组件\n流程图\n精灵图库\nPalimpsestContent_82\n关键词\n\n部门\n\n导师\n\n实习批次\n\n考核时间\n\n状态\n\n\n查询\n重置\n导出\n\n实习生总数\n128\n较上期 12.5%\n\n待考核\n23\n较上期 5.2%\n\n已完成考核\n105\n较上期 18.3%\n\n平均得分\n86.7分\n较上期 3.6分\n\n姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综合评分\t状态\t更新时间\t操作\n李明轩\n\t\nS2024041001\n\t\n产品部\n\t\n王思远\n\t\n97%\n\t\n85%\n\t\n85%\n\t\n92.6\n\t\n已完成\n\t\n2024-06-12 14:30\n\t\n查看 评分 编辑 更多\n\n\n张雨婷\n\t\nS2024041002\n\t\n研发部\n\t\n陈浩然\n\t\n96%\n\t\n84%\n\t\n84%\n\t\n89.3\n\t\n已完成\n\t\n2024-06-11 11:20\n\t\n查看 评分 编辑 更多\n\n\n王子涵\n\t\nS2024041003\n\t\n设计部\n\t\n刘佳怡\n\t\n95%\n\t\n83%\n\t\n83%\n\t\n87.4\n\t\n已完成\n\t\n2024-06-10 16:45\n\t\n查看 评分 编辑 更多\n\n\n赵天宇\n\t\nS2024041004\n\t\n市场部\n\t\n孙一凡\n\t\n95%\n\t\n82%\n\t\n82%\n\t\n85.1\n\t\n已完成\n\t\n2024-06-09 09:15\n\t\n查看 评分 编辑 更多\n\n\n陈欣怡\n\t\nS2024041005\n\t\n运营部\n\t\n周子墨\n\t\n93%\n\t\n80%\n\t\n80%\n\t\n83.6\n\t\n待考核\n\t\n2024-06-08 10:05\n\t\n查看 评分 编辑 更多\n\n\n刘宇航\n\t\nS2024041006\n\t\n测试部\n\t\n吴昊天\n\t\n92%\n\t\n78%\n\t\n78%\n\t\n81.2\n\t\n待考核\n\t\n2024-06-07 15:40\n\t\n查看 评分 编辑 更多\n共 6 条\n1\n前往页\n属性\n基本\n名称\n\t\n\n\n类型\n\t\nElementTable\n\n\n描述\n\t\n位置\n横坐标\n\t\n2\n\n\n纵坐标\n\t\n601\n配置\n数据配置\n\t\n配置\n\n\n样式配置\n\t\n配置\n变量联动\n选中行\n\t\n配置\n\n\n勾选行\n\t\n配置\n事件联动\n   行单击\n   行双击\n   行右击\n变量联动\nif()\n配置\n页面跳转\nif()\n配置\n数据集联动\nif()\n配置\n属性\nshow-header\n\t\n\n\nhighlight-current-row\n\t\n\n\nempty-text\n\t\n\n\ndefault-expand-all\n\t\n\n\n点击空白取消高亮\n\t\n\n\n是否单选\n\t\n\n\n树形数据懒加载\n\t\n\n\n虚拟滚动\n\t\n其他\n是否被锁住\n\t\n\n\n是否显示\n\t\n\n\n运行是否显示\n\t\n对象图层\n图层1\n鼠标位置：0, 0\n所选对象位置： 2, 601\n选择对象类型: UI组件 , 位于\n共 0 个对象, 已选 1 个对象\n选择对象名称: pal_assessment_table\n63%\n预览",
+      "iframeCount": 0
+    }
+  ],
+  "editor": {
+    "path": "top.1.0.0",
+    "pageName": "",
+    "childrenKeys": [
+      "PageView",
+      "RCol11",
+      "RCol12",
+      "RCol13",
+      "RCol14",
+      "RCol9",
+      "RCol2",
+      "RCol8",
+      "RCol3",
+      "RCol6",
+      "RContainer1",
+      "图层1",
+      "currentSelectItem",
+      "RCol21",
+      "RCol22",
+      "RCol23",
+      "RCol24",
+      "RCol31",
+      "RCol32",
+      "FilterTopCol1",
+      "FilterTopCol2",
+      "FilterTopCol3",
+      "FilterTopCol4",
+      "FilterTopCol5",
+      "FilterTopRow",
+      "FilterActionCol1",
+      "FilterActionCol2",
+      "FilterActionCol3",
+      "FilterActionCol4",
+      "FilterActionCol5",
+      "FilterActionCol6",
+      "FilterActionRow",
+      "MetricCardsCol1",
+      "MetricCardsCol2",
+      "MetricCardsCol3",
+      "MetricCardsCol4",
+      "MetricCardsRow",
+      "ChartPanelsCol1",
+      "ChartPanelsCol2",
+      "ChartPanelsRow",
+      "AssessmentTableCol1",
+      "AssessmentTableRow",
+      "pal_assessment_table",
+      "pal_filter_status",
+      "pal_action_spacer",
+      "pal_query_button",
+      "pal_reset_button",
+      "pal_export_button",
+      "pal_department_score_bar",
+      "pal_completion_trend_line",
+      "pal_filter_keyword",
+      "pal_filter_dept",
+      "pal_filter_mentor",
+      "pal_filter_batch",
+      "pal_filter_date",
+      "pal_metric_total",
+      "pal_metric_wait",
+      "pal_metric_done",
+      "pal_metric_avg"
+    ],
+    "components": [
+      {
+        "uiName": "图层1",
+        "prototypeName": "layer",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "图层1",
+        "prototypeName": "layer",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "PalimpsestContentRoot",
+        "prototypeName": "RContainer",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "FilterTopRow",
+        "prototypeName": "RRow",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "FilterTopCol1",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_filter_keyword",
+        "prototypeName": "ElementInput",
+        "detailConfig": "",
+        "styleConfigLength": 751,
+        "linkCount": 6
+      },
+      {
+        "uiName": "FilterTopCol2",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_filter_dept",
+        "prototypeName": "ElementInput",
+        "detailConfig": "",
+        "styleConfigLength": 751,
+        "linkCount": 6
+      },
+      {
+        "uiName": "FilterTopCol3",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_filter_mentor",
+        "prototypeName": "ElementInput",
+        "detailConfig": "",
+        "styleConfigLength": 751,
+        "linkCount": 6
+      },
+      {
+        "uiName": "FilterTopCol4",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_filter_batch",
+        "prototypeName": "ElementInput",
+        "detailConfig": "",
+        "styleConfigLength": 751,
+        "linkCount": 6
+      },
+      {
+        "uiName": "FilterTopCol5",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_filter_date",
+        "prototypeName": "ElementInput",
+        "detailConfig": "",
+        "styleConfigLength": 751,
+        "linkCount": 6
+      },
+      {
+        "uiName": "FilterActionRow",
+        "prototypeName": "RRow",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "FilterActionCol1",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_filter_status",
+        "prototypeName": "ElementInput",
+        "detailConfig": "",
+        "styleConfigLength": 751,
+        "linkCount": 6
+      },
+      {
+        "uiName": "FilterActionCol2",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_action_spacer",
+        "prototypeName": "ElementText",
+        "detailConfig": "options.value=' '",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "FilterActionCol3",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_query_button",
+        "prototypeName": "ElementButton",
+        "detailConfig": "this.button({ text: '\\u67e5\\u8be2' })",
+        "styleConfigLength": 299,
+        "linkCount": 1
+      },
+      {
+        "uiName": "FilterActionCol4",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_reset_button",
+        "prototypeName": "ElementButton",
+        "detailConfig": "this.button({ text: '\\u91cd\\u7f6e' })",
+        "styleConfigLength": 263,
+        "linkCount": 1
+      },
+      {
+        "uiName": "FilterActionCol5",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_export_button",
+        "prototypeName": "ElementButton",
+        "detailConfig": "this.button({ text: '\\u5bfc\\u51fa' })",
+        "styleConfigLength": 242,
+        "linkCount": 1
+      },
+      {
+        "uiName": "FilterActionCol6",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "MetricCardsRow",
+        "prototypeName": "RRow",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "MetricCardsCol1",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_metric_total",
+        "prototypeName": "ElementText",
+        "detailConfig": "options.value='实习生总数<br/>128<br/>较上期 12.5%'",
+        "styleConfigLength": 1319,
+        "linkCount": 0
+      },
+      {
+        "uiName": "MetricCardsCol2",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_metric_wait",
+        "prototypeName": "ElementText",
+        "detailConfig": "options.value='待考核<br/>23<br/>较上期 5.2%'",
+        "styleConfigLength": 1282,
+        "linkCount": 0
+      },
+      {
+        "uiName": "MetricCardsCol3",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_metric_done",
+        "prototypeName": "ElementText",
+        "detailConfig": "options.value='已完成考核<br/>105<br/>较上期 18.3%'",
+        "styleConfigLength": 1041,
+        "linkCount": 0
+      },
+      {
+        "uiName": "MetricCardsCol4",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_metric_avg",
+        "prototypeName": "ElementText",
+        "detailConfig": "options.value='平均得分<br/>86.7分<br/>较上期 3.6分'",
+        "styleConfigLength": 1121,
+        "linkCount": 0
+      },
+      {
+        "uiName": "ChartPanelsRow",
+        "prototypeName": "RRow",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "ChartPanelsCol1",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_department_score_bar",
+        "prototypeName": "ElementChart",
+        "detailConfig": "option={\"backgroundColor\":\"#fff\",\"tooltip\":{\"trigger\":\"axis\"},\"grid\":{\"left\":44,\"right\":20,\"top\":48,\"bottom\":42},\"title\":{\"text\":\"部门平均得分对比（Top 10）\",\"left\":12,\"top\":8,\"textStyle\":{\"fontSize\":14,\"color\":\"#111827\"}},\"xAxis\":{\"type\":\"category\",\"data\":[\"产品部\",\"研发部\",\"设计部\",\"市场部\",\"运营部\",\"测试部\",\"人事部\",\"财务部\",\"法务部\",\"行政部\"],\"axisLabel\":{\"interval\":0,\"fontSize\":10}},\"yAxis\":{\"type\":\"value\",\"min\":0,\"max\":100},\"series\":[{\"type\":\"bar\",\"data\":[92.6,89.3,87.4,85.1,83.6,81.2,78.9,76.5,74.3,72.8],\"barWidth\":14,\"itemStyle\":{\"color\":\"#2f7cf6\"}}]}",
+        "styleConfigLength": 202,
+        "linkCount": 9
+      },
+      {
+        "uiName": "ChartPanelsCol2",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_completion_trend_line",
+        "prototypeName": "ElementChart",
+        "detailConfig": "option={\"backgroundColor\":\"#fff\",\"tooltip\":{\"trigger\":\"axis\"},\"legend\":{\"top\":34,\"data\":[\"完成数\",\"待考核数\"]},\"grid\":{\"left\":46,\"right\":24,\"top\":72,\"bottom\":38},\"title\":{\"text\":\"考核完成趋势\",\"left\":12,\"top\":8,\"textStyle\":{\"fontSize\":14,\"color\":\"#111827\"}},\"xAxis\":{\"type\":\"category\",\"boundaryGap\":false,\"data\":[\"04-01\",\"04-08\",\"04-15\",\"04-22\",\"04-29\",\"05-06\",\"05-13\",\"05-20\",\"05-27\",\"06-03\",\"06-10\",\"06-17\",\"06-24\",\"06-30\"]},\"yAxis\":{\"type\":\"value\",\"min\":0,\"max\":120},\"series\":[{\"name\":\"完成数\",\"type\":\"line\",\"smooth\":true,\"data\":[28,40,52,61,66,72,80,88,96,101,106,109,113,118],\"itemStyle\":{\"color\":\"#2f7cf6\"}},{\"name\":\"待考核数\",\"type\":\"line\",\"smooth\":true,\"data\":[56,48,40,36,33,30,25,20,16,12,9,6,3,1],\"itemStyle\":{\"color\":\"#31c477\"}}]}",
+        "styleConfigLength": 202,
+        "linkCount": 9
+      },
+      {
+        "uiName": "AssessmentTableRow",
+        "prototypeName": "RRow",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "AssessmentTableCol1",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_assessment_table",
+        "prototypeName": "ElementTable",
+        "detailConfig": "this.table({\"border\":true,\"fit\":true,\"showHeader\":true,\"emptyText\":\"暂无匹配数据\",\"pagination\":true,\"currentPage\":1,\"pageSize\":10,\"columns\":[{\"prop\":\"name\",\"label\":\"姓名\",\"minWidth\":\"100\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"id\",\"label\":\"学号\",\"minWidth\":\"130\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"dept\",\"label\":\"部门\",\"minWidth\":\"100\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"mentor\",\"label\":\"导师\",\"minWidth\":\"100\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"pro\",\"label\":\"专业能力\",\"minWidth\":\"95\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"att\",\"label\":\"工作态度\",\"minWidth\":\"95\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"task\",\"label\":\"任务完成\",\"minWidth\":\"95\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"score\",\"label\":\"综合评分\",\"minWidth\":\"95\",\"align\":\"right\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"status\",\"label\":\"状态\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"updated\",\"label\":\"更新时间\",\"minWidth\":\"145\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"ops\",\"label\":\"操作\",\"minWidth\":\"210\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false}],\"totalData\":[{\"id\":\"S2024041001\",\"avatar\":\"\",\"name\":\"李明轩\",\"dept\":\"产品部\",\"mentor\":\"王思远\",\"pro\":\"97%\",\"att\":\"85%\",\"task\":\"85%\",\"score\":92.6,\"status\":\"已完成\",\"updated\":\"2024-06-12 14:30\",\"ops\":\"查看  评分  编辑  更多\"},{\"id\":\"S2024041002\",\"avatar\":\"\",\"name\":\"张雨婷\",\"dept\":\"研发部\",\"mentor\":\"陈浩然\",\"pro\":\"96%\",\"att\":\"84%\",\"task\":\"84%\",\"score\":89.3,\"status\":\"已完成\",\"updated\":\"2024-06-11 11:20\",\"ops\":\"查看  评分  编辑  更多\"},{\"id\":\"S2024041003\",\"avatar\":\"\",\"name\":\"王子涵\",\"dept\":\"设计部\",\"mentor\":\"刘佳怡\",\"pro\":\"95%\",\"att\":\"83%\",\"task\":\"83%\",\"score\":87.4,\"status\":\"已完成\",\"updated\":\"2024-06-10 16:45\",\"ops\":\"查看  评分  编辑  更多\"},{\"id\":\"S2024041004\",\"avatar\":\"\",\"name\":\"赵天宇\",\"dept\":\"市场部\",\"mentor\":\"孙一凡\",\"pro\":\"95%\",\"att\":\"82%\",\"task\":\"82%\",\"score\":85.1,\"status\":\"已完成\",\"updated\":\"",
+        "styleConfigLength": 2876,
+        "linkCount": 21
+      },
+      {
+        "uiName": "图层1",
+        "prototypeName": "layer",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "PalimpsestContentRoot",
+        "prototypeName": "RContainer",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "FilterTopRow",
+        "prototypeName": "RRow",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "FilterTopCol1",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_filter_keyword",
+        "prototypeName": "ElementInput",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "FilterTopCol2",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_filter_dept",
+        "prototypeName": "ElementInput",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "FilterTopCol3",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_filter_mentor",
+        "prototypeName": "ElementInput",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "FilterTopCol4",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_filter_batch",
+        "prototypeName": "ElementInput",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "FilterTopCol5",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_filter_date",
+        "prototypeName": "ElementInput",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "FilterActionRow",
+        "prototypeName": "RRow",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "FilterActionCol1",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_filter_status",
+        "prototypeName": "ElementInput",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "FilterActionCol2",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_action_spacer",
+        "prototypeName": "ElementText",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "FilterActionCol3",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_query_button",
+        "prototypeName": "ElementButton",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "FilterActionCol4",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_reset_button",
+        "prototypeName": "ElementButton",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "FilterActionCol5",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_export_button",
+        "prototypeName": "ElementButton",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "FilterActionCol6",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "MetricCardsRow",
+        "prototypeName": "RRow",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "MetricCardsCol1",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_metric_total",
+        "prototypeName": "ElementText",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "MetricCardsCol2",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_metric_wait",
+        "prototypeName": "ElementText",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "MetricCardsCol3",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_metric_done",
+        "prototypeName": "ElementText",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "MetricCardsCol4",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_metric_avg",
+        "prototypeName": "ElementText",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "ChartPanelsRow",
+        "prototypeName": "RRow",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "ChartPanelsCol1",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_department_score_bar",
+        "prototypeName": "ElementChart",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "ChartPanelsCol2",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_completion_trend_line",
+        "prototypeName": "ElementChart",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "AssessmentTableRow",
+        "prototypeName": "RRow",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "AssessmentTableCol1",
+        "prototypeName": "RCol",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "pal_assessment_table",
+        "prototypeName": "ElementTable",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "UI组件",
+        "prototypeName": "",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "按钮",
+        "prototypeName": "ElementButton",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "表格",
+        "prototypeName": "ElementTable",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "输入框",
+        "prototypeName": "ElementInput",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "选择器",
+        "prototypeName": "ElementSelect",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "文本",
+        "prototypeName": "ElementText",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "日期时间选择器",
+        "prototypeName": "ElementDateTimePicker",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "导航菜单",
+        "prototypeName": "ElementNavmenu",
+        "detailConfig": "this.navmenu({\n            navMenuData:[\n            {\n              type: \"submenu\",\n              index: \"1\",\n              title: \"导航一\",\n              icon: \"el-icon-location\",\n              content: 2,\n              color: \"#ee0a24\",\n              dot: false,\n              max: null,\n              children: [\n                {\n                  type: \"itemGroup\",\n                  title: \"分组1\",\n                  content: \"\",\n                  color: \"#ee0a24\",\n                  dot: false,\n                  max: null,\n                  children: [\n                    {\n                      type: \"item\",\n                      title: \"选项1\",\n                      index: \"1-1\",\n                      content: \"\",\n                      color: \"#ee0a24\",\n                      dot: false,\n                      max: null,\n                    },\n                    {\n                      type: \"item\",\n                      title: \"选项2\",\n                      index: \"1-2\",\n                      content: \"\",\n                      color: \"#ee0a24\",\n                      dot: false,\n                      max: null,\n                    },\n                  ],\n                },\n                {\n                  type: \"itemGroup\",\n                  title: \"分组2\",\n                  content: \"\",\n                  color: \"#ee0a24\",\n                  dot: false,\n                  max: null,\n                  children: [\n                    {\n                      type: \"item\",\n                      title: \"选项3\",\n                      index: \"1-3\",\n                      content: \"\",\n                      color: \"#ee0a24\",\n                      dot: false,\n                      max: null,\n                    },\n                  ],\n                },\n                {\n                  type: \"submenu\",\n                  index: \"1-4\",\n                  title: \"选项4\",\n                  content: \"\",\n                  color: \"#ee0a24\",\n                  dot: false,\n                  ma",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "树",
+        "prototypeName": "ElementTree",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "图片",
+        "prototypeName": "ElementImage",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "上传",
+        "prototypeName": "ElementUpload",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "标签页",
+        "prototypeName": "ElementTabs",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "单选框",
+        "prototypeName": "ElementRadio",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "多选框",
+        "prototypeName": "ElementCheckbox",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "开关",
+        "prototypeName": "ElementSwitch",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "时间选择器",
+        "prototypeName": "ElementTimePicker",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "卡片",
+        "prototypeName": "ElementCard",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "业务卡片",
+        "prototypeName": "ElementMiniCard",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "折叠面板",
+        "prototypeName": "ElementCollapse",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "下拉菜单",
+        "prototypeName": "ElementDropdown",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "级联选择器",
+        "prototypeName": "ElementCascader",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "网页容器",
+        "prototypeName": "ElementWebContainer",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "标签",
+        "prototypeName": "ElementTag",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "穿梭框",
+        "prototypeName": "ElementTransfer",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "计数器",
+        "prototypeName": "ElementInputNumber",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "时间线",
+        "prototypeName": "ElementTimeline",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "步骤条",
+        "prototypeName": "ElementSteps",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "滑块",
+        "prototypeName": "ElementSlider",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "评分",
+        "prototypeName": "ElementRate",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "轮播组件",
+        "prototypeName": "ElementCarousel",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义轮播",
+        "prototypeName": "ElementCustomCarsuel",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "日历",
+        "prototypeName": "ElementCalendar",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "电子签名",
+        "prototypeName": "ElementSignature",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "条形码",
+        "prototypeName": "KSCQRorBarCode",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "脚本编辑器",
+        "prototypeName": "ScriptEditor",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "分页",
+        "prototypeName": "ElementPagination",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "大数据表格",
+        "prototypeName": "BigDataTable",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "移动端_输入框",
+        "prototypeName": "VantField",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "移动端_文件上传",
+        "prototypeName": "VantUploader",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "移动端_进度条",
+        "prototypeName": "VantProgress",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "移动端_宫格",
+        "prototypeName": "VantGrid",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "移动端_导航栏",
+        "prototypeName": "VantNavBar",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "移动端_标签栏 ",
+        "prototypeName": "VantTabBar",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "移动端_下拉菜单",
+        "prototypeName": "VantDropdownMenu",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "移动端_列表",
+        "prototypeName": "VantList",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "移动端_分类选择",
+        "prototypeName": "VantTreeSelect",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "移动端_表单",
+        "prototypeName": "VantForm",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "图表组件",
+        "prototypeName": "",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "多对象表格",
+        "prototypeName": "MultiObjectTable",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "实时表格",
+        "prototypeName": "RealTimeTable",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "历史表格",
+        "prototypeName": "HistoryTable",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "计划表格",
+        "prototypeName": "PlanTable",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "趋势曲线",
+        "prototypeName": "HistoryChart",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "option={\n            xAxis: {\n              type: \"category\",\n            },\n            yAxis: {\n              type: \"value\",\n            },\n            series: [\n              {\n                type: \"bar\",\n                encode:{\n                  x:'product',\n                  y:'sales',\n                }\n              },\n              {\n                type: \"line\",\n                encode:{\n                  x:'product',\n                  y:'profit',\n                }\n              },\n          ]}",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "流程查看器",
+        "prototypeName": "BpmnViewer",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "流程编辑器",
+        "prototypeName": "BpmnModeler",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "报警窗",
+        "prototypeName": "AlarmWindow",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "甘特图",
+        "prototypeName": "ElementGantt",
+        "detailConfig": "",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "option = {\n      backgroundColor: \"#0D2753\",\n      tooltip: {\n        trigger: \"axis\",\n        axisPointer: {\n          type: \"shadow\",\n        },\n      },\n      grid: {\n        top: \"10%\",\n        right: \"5%\",\n        left: \"5%\",\n        bottom: \"10%\",\n      },\n      xAxis: [\n        {\n          type: \"category\",\n          axisLine: {\n            lineStyle: {\n              color: \"rgba(66, 192, 255, .3)\",\n            },\n          },\n          axisLabel: {\n            interval: 0,\n            margin: 10,\n            color: \"#05D5FF\",\n            textStyle: {\n              fontSize: 11,\n            },\n            rotate: \"45\",\n          },\n          axisTick: {\n            //刻度\n            show: false,\n          },\n        },\n      ],\n      yAxis: [\n        {\n          axisLabel: {\n            padding: [3, 0, 0, 0],\n            formatter: \"{value}\",\n            color: \"rgba(95, 187, 235, 1)\",\n            textStyle: {\n              fontSize: 11,\n            },\n          },\n          axisTick: {\n            show: true,\n          },\n          axisLine: {\n            lineStyle: {\n              color: \"rgba(66, 192, 255, .3)\",\n            },\n          },\n          splitLine: {\n            lineStyle: {\n              color: \"rgba(255,255,255,0)\",\n            },\n          },\n        },\n      ],\n      dataZoom: [\n        //滚动条\n        {\n          show: false,\n          type: \"slider\",\n          realtime: true,\n          startValue: 0,\n          endValue: 14,\n          xAxisIndex: [0],\n          bottom: \"10\",\n          left: \"30\",\n          height: 10,\n          borderColor: \"rgba(0,0,0,0)\",\n          textStyle: {\n            color: \"#05D5FF\",\n          },\n        },\n      ],\n      series: [\n        {\n          type: \"bar\",\n          encode: {\n            x: \"product\",\n            y: \"value\",\n          },\n          barWidth: \"10\",\n          itemStyle: {\n            normal: {\n              color: {\n                type: 'linear',\n                x: 0,\n                y: 0,\n    ",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "option = {\n      backgroundColor: \"#323a5e\",\n      tooltip: {\n        trigger: \"axis\",\n        axisPointer: {\n          // 坐标轴指示器，坐标轴触发有效\n          type: \"shadow\", // 默认为直线，可选为：'line' | 'shadow'\n        },\n      },\n      grid: {\n        left: \"2%\",\n        right: \"4%\",\n        bottom: \"14%\",\n        top: \"16%\",\n        containLabel: true,\n      },\n      legend: {\n        data: [\"1\", \"2\", \"3\"],\n        right: 10,\n        top: 12,\n        textStyle: {\n          color: \"#fff\",\n        },\n        itemWidth: 12,\n        itemHeight: 10,\n        // itemGap: 35\n      },\n      xAxis: {\n        type: \"category\",\n        axisLine: {\n          lineStyle: {\n            color: \"white\",\n          },\n        },\n        axisLabel: {\n          // interval: 0,\n          // rotate: 40,\n          textStyle: {\n            fontFamily: \"Microsoft YaHei\",\n          },\n        },\n      },\n    \n      yAxis: {\n        type: \"value\",\n        max: \"1200\",\n        axisLine: {\n          show: false,\n          lineStyle: {\n            color: \"white\",\n          },\n        },\n        splitLine: {\n          show: true,\n          lineStyle: {\n            color: \"rgba(255,255,255,0.3)\",\n          },\n        },\n        axisLabel: {},\n      },\n      dataZoom: [\n        {\n          show: true,\n          height: 12,\n          xAxisIndex: [0],\n          bottom: \"8%\",\n          start: 10,\n          end: 90,\n          handleIcon:\n            \"path://M306.1,413c0,2.2-1.8,4-4,4h-59.8c-2.2,0-4-1.8-4-4V200.8c0-2.2,1.8-4,4-4h59.8c2.2,0,4,1.8,4,4V413z\",\n          handleSize: \"110%\",\n          handleStyle: {\n            color: \"#d3dee5\",\n          },\n          textStyle: {\n            color: \"#fff\",\n          },\n          borderColor: \"#90979c\",\n        },\n        {\n          type: \"inside\",\n          show: true,\n          height: 15,\n          start: 1,\n          end: 35,\n        },\n      ],\n      series: [\n        {\n          name: \"1\",\n          type: \"bar\",\n          barWidth: \"15%\",\n          encode: {\n         ",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "option = {\n      backgroundColor: \"#18163B\",\n      grid: {\n        top: \"15%\",\n        right: \"3%\",\n        left: \"5%\",\n        bottom: \"12%\",\n      },\n      xAxis: [\n        {\n          type: \"category\",\n          color: \"#59588D\",\n          axisPointer: {\n            type: \"line\",\n          },\n          axisLine: {\n            lineStyle: {\n              color: \"#272456\",\n            },\n          },\n          axisLabel: {\n            margin: 20,\n            color: \"#59588D\",\n            textStyle: {\n              fontSize: 12,\n            },\n          },\n        },\n      ],\n      yAxis: [\n        {\n          min: 0,\n          max: 100,\n          axisLabel: {\n            formatter: \"{value}%\",\n            color: \"#59588D\",\n          },\n          axisLine: {\n            show: false,\n          },\n          splitLine: {\n            lineStyle: {\n              color: \"#272456\",\n            },\n          },\n        },\n      ],\n      series: [\n        {\n          type: \"bar\",\n          barWidth: \"20px\",\n          encode: {\n            x: \"product\",\n            y: \"percent\",\n          },\n          itemStyle: {\n            normal: {\n              color: {\n                type: 'linear',\n                x: 0,\n                y: 0,\n                x2: 0,\n                y2: 1,\n                colorStops: [\n                  {\n                    offset: 0,\n                    color: \"#41E1D4\", // 0% 处的颜色\n                  },\n                  {\n                    offset: 1,\n                    color: \"#10A7DB\", // 100% 处的颜色\n                  },\n                ],\n                global: false\n              },\n              barBorderRadius: [30, 30, 0, 0],\n              shadowColor: \"rgba(0,255,225,1)\",\n              shadowBlur: 4,\n            },\n          },\n          label: {\n            normal: {\n              show: true,\n              lineHeight: 30,\n              width: 80,\n              height: 30,\n              backgroundColor: \"#252453\",\n              borderRadius: 200,",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "option = {\n      backgroundColor: \"#001120\",\n      // tooltip: {\n      //   trigger: \"axis\",\n      //   axisPointer: {\n      //     // 坐标轴指示器，坐标轴触发有效\n      //     type: \"shadow\", // 默认为直线，可选为：'line' | 'shadow'\n      //   },\n      // },\n      legend: {\n        data: [\"邮件营销\", \"联盟广告\"],\n        top: 'top',\n        left: 'center',\n        textStyle: {\n          color: \"rgba(55,255,249,1)\",\n        },\n      },\n      grid: {\n        left: \"3%\",\n        right: \"4%\",\n        bottom: \"3%\",\n        containLabel: true,\n      },\n      xAxis: [\n        {\n          type: \"category\",\n          data: [\"周一\", \"周二\", \"周三\", \"周四\", \"周五\", \"周六\", \"周日\"],\n          splitLine: {\n            show: false,\n          },\n          axisLine: {\n            lineStyle: {\n              color: \"rgba(55,255,249,1)\",\n            },\n          },\n          axisLabel: {\n            color: \"rgba(55,255,249,1)\",\n          },\n        },\n      ],\n      yAxis: [\n        {\n          type: \"value\",\n          splitLine: {\n            show: false,\n          },\n          axisLine: {\n            lineStyle: {\n              color: \"rgba(55,255,249,1)\",\n            },\n          },\n        },\n      ],\n      series: [\n        {\n          name: \"邮件营销\",\n          type: \"bar\",\n          barWidth: 20,\n          encode: {\n            x: 'product',\n            y: 'value1',\n          },\n          itemStyle: {\n            barBorderRadius: 20,\n            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [\n              {\n                offset: 0,\n                color: \"rgba(55,255,249,1)\",\n              },\n              {\n                offset: 1,\n                color: \"rgba(0,222,215,0.2)\",\n              },\n            ]),\n          },\n        },\n        {\n          // 替代柱状图 默认不显示颜色，是最下方柱图（邮件营销）的value值 - 20\n          type: \"bar\",\n          barWidth: 20,\n          barGap: \"-100%\",\n          stack: \"广告\",\n          encode: {\n            x: 'product',\n            y: 'value2',\n          },\n          itemStyle: {\n            color:",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "option = {\n      backgroundColor: \"#031245\",\n      grid: {\n        left: \"12%\",\n        top: \"5%\",\n        bottom: \"12%\",\n        right: \"8%\",\n      },\n      xAxis: {\n        type: 'category',\n        axisTick: {\n          show: false,\n        },\n        axisLine: {\n          lineStyle: {\n            color: \"rgba(255, 129, 109,.1)\",\n            width: 1, //这里是为了突出显示加上的\n          },\n        },\n        axisLabel: {\n          textStyle: {\n            color: \"#999\",\n            fontSize: 12,\n          },\n        },\n      },\n      yAxis: [\n        {\n          axisTick: {\n            show: false,\n          },\n          axisLine: {\n            lineStyle: {\n              color: \"rgba(255, 129, 109, 0.1)\",\n              width: 1, //这里是为了突出显示加上的\n            },\n          },\n          axisLabel: {\n            textStyle: {\n              color: \"#999\",\n            },\n          },\n          splitArea: {\n            areaStyle: {\n              color: \"rgba(255,255,255,.5)\",\n            },\n          },\n          splitLine: {\n            show: true,\n            lineStyle: {\n              color: \"rgba(255, 129, 109, 0.1)\",\n              width: 0.5,\n              type: \"dashed\",\n            },\n          },\n        },\n      ],\n      series: [\n        {\n          encode: {\n            x: 'product',\n            y: 'value1',\n          },\n          type: \"pictorialBar\",\n          barCategoryGap: \"-100%\",\n          symbol: \"path://M0,10 L10,10 C5.5,10 5.5,5 5,0 C4.5,5 4.5,10 0,10 z\",\n          label: {\n            show: true,\n            position: \"top\",\n            distance: 15,\n            color: \"#fff\",\n            fontWeight: \"bolder\",\n            fontSize: 15,\n          },\n          itemStyle: {\n            normal: {\n              color: {\n                type: \"linear\",\n                x: 0,\n                y: 0,\n                x2: 0,\n                y2: 1,\n                colorStops: [\n                  {\n                    offset: 0,\n                    color: \"rgba(72,206,214,0.4)\"",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    option = {\n      backgroundColor: \"#031d33\",\n      legend: {\n        top: \"20\",\n        x: \"center\",\n        textStyle: {\n          fontSize: 16,\n          color: \"rgba(101, 213, 255, 1)\",\n        },\n        icon: \"path://M512 881.777778 512 881.777778C716.222629 881.777778 881.777778 716.222629 881.777778 512 881.777778 307.777371 716.222629 142.222222 512 142.222222 307.777373 142.222222 142.222222 307.777371 142.222222 512 142.222222 716.222629 307.777373 881.777778 512 881.777778L512 881.777778ZM512 1024 512 1024C229.230208 1024 0 794.769789 0 512 0 229.230211 229.230208 0 512 0 794.769789 0 1024 229.230211 1024 512 1024 794.769789 794.769789 1024 512 1024L512 1024Z\",\n        itemWidth: 8, // 设置宽度\n        itemHeight: 8, // 设置高度、\n        itemGap: 12, // 设置间距\n      },\n      tooltip: {\n        show: true,\n        trigger: \"axis\", //axis , item\n        backgroundColor: \"RGBA(0, 49, 85, 1)\",\n        borderColor: \"rgba(0, 151, 251, 1)\",\n        borderWidth: 1,\n        borderRadius: 0,\n        textStyle: {\n          color: \"#BCE9FC\",\n          fontSize: 16,\n          align: \"left\",\n        },\n      },\n      grid: {\n        right: \"5%\",\n        top: \"20%\",\n        left: \"5%\",\n        bottom: \"5%\",\n        containLabel: true,\n      },\n      xAxis: {\n        type: \"category\",\n        boundaryGap: true,\n        axisLabel: {\n          //坐标轴刻度标签的相关设置。\n          interval: 0, //设置为 1，表示『隔一个标签显示一个标签』\n          //\tmargin:15,\n          textStyle: {\n            color: \"#65D5FF\",\n            fontStyle: \"normal\",\n            fontSize: 16,\n          },\n        },\n        axisTick: {\n          //坐标轴刻度相关设置。\n          show: false,\n        },\n        axisLine: {\n          //坐标轴轴线相关设置\n          lineStyle: {\n            color: \"rgba(77, 128, 254, 0.2)\",\n          },\n        },\n        splitLine: {\n          //坐标轴在 grid 区域中的分隔线。\n          show: true,\n          lineStyle: {\n            color: \"rgba(77, 128, 254, 0.2)\",\n          },\n        },\n      },\n      yAxis: [{\n        type: \"valu",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "// 绘制左侧面\n    const CubeLeft = echarts.graphic.extendShape({\n      shape: {\n        x: 0,\n        y: 0,\n      },\n      buildPath: function (ctx, shape) {\n        // shape是从custom传入的\n        const xAxisPoint = shape.xAxisPoint;\n        const c0 = [shape.x, shape.y];\n        const c1 = [shape.x - 13, shape.y - 13];\n        const c2 = [xAxisPoint[0] - 13, xAxisPoint[1] - 13];\n        const c3 = [xAxisPoint[0], xAxisPoint[1]];\n        ctx\n          .moveTo(c0[0], c0[1])\n          .lineTo(c1[0], c1[1])\n          .lineTo(c2[0], c2[1])\n          .lineTo(c3[0], c3[1])\n          .closePath();\n      },\n    });\n    // 绘制右侧面\n    const CubeRight = echarts.graphic.extendShape({\n      shape: {\n        x: 0,\n        y: 0,\n      },\n      buildPath: function (ctx, shape) {\n        const xAxisPoint = shape.xAxisPoint;\n        const c1 = [shape.x, shape.y];\n        const c2 = [xAxisPoint[0], xAxisPoint[1]];\n        const c3 = [xAxisPoint[0] + 18, xAxisPoint[1] - 9];\n        const c4 = [shape.x + 18, shape.y - 9];\n        ctx\n          .moveTo(c1[0], c1[1])\n          .lineTo(c2[0], c2[1])\n          .lineTo(c3[0], c3[1])\n          .lineTo(c4[0], c4[1])\n          .closePath();\n      },\n    });\n    // 绘制顶面\n    const CubeTop = echarts.graphic.extendShape({\n      shape: {\n        x: 0,\n        y: 0,\n      },\n      buildPath: function (ctx, shape) {\n        const c1 = [shape.x, shape.y];\n        const c2 = [shape.x + 18, shape.y - 9];\n        const c3 = [shape.x + 5, shape.y - 22];\n        const c4 = [shape.x - 13, shape.y - 13];\n        ctx\n          .moveTo(c1[0], c1[1])\n          .lineTo(c2[0], c2[1])\n          .lineTo(c3[0], c3[1])\n          .lineTo(c4[0], c4[1])\n          .closePath();\n      },\n    });\n    // 注册三个面图形\n    echarts.graphic.registerShape(\"CubeLeft\", CubeLeft);\n    echarts.graphic.registerShape(\"CubeRight\", CubeRight);\n    echarts.graphic.registerShape(\"CubeTop\", CubeTop);\n    option = {\n      backgroundColor: \"#012366\",\n    \n      tooltip: {\n        trigger: \"axis\",\n        a",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    let dom = 800;\n    let barWidth = dom / 20;\n    let manColors = [];\n    let womanColors = [];\n    for (let i = 0; i < 10; i++) {\n      manColors.push({\n        type: \"linear\",\n        x: 0,\n        x2: 1,\n        y: 0,\n        y2: 0,\n        colorStops: [\n          {\n            offset: 0,\n            color: \"#73fcff\", // 最左边\n          },\n          {\n            offset: 0.5,\n            color: \"#86eef1\", // 左边的右边 颜色\n          },\n          {\n            offset: 0.5,\n            color: \"#5ad6d9\", // 右边的左边 颜色\n          },\n          {\n            offset: 1,\n            color: \"#3dc8ca\",\n          },\n        ],\n      });\n      womanColors.push({\n        type: \"linear\",\n        x: 0,\n        x2: 1,\n        y: 0,\n        y2: 0,\n        colorStops: [\n          {\n            offset: 0,\n            color: \"#ffd680\", // 最左边\n          },\n          {\n            offset: 0.5,\n            color: \"#ffd882\", // 左边的右边 颜色\n          },\n          {\n            offset: 0.5,\n            color: \"#f2c258\", // 右边的左边 颜色\n          },\n          {\n            offset: 1,\n            color: \"#f1bf52\",\n          },\n        ],\n      });\n    }\n    option = {\n      backgroundColor: \"#010d3a\",\n      //提示框\n      tooltip: {\n        trigger: \"axis\",\n        formatter: function (p) {\n          console.log(p, p[0].marker);\n          let div = `\n                    ${p[0].name}\n                    <br/>\n                    ${p[0].seriesName}:${p[0].value}\n                    <br/>\n                    ${p[3].seriesName}:${p[3].value}\n                    <br/>\n                    ${p[6].seriesName}:${p[6].value}\n                `;\n          return div;\n        },\n        axisPointer: {\n          // 坐标轴指示器，坐标轴触发有效\n          type: \"shadow\", // 默认为直线，可选为：'line' | 'shadow'\n        },\n      },\n      /**区域位置*/\n      grid: {\n        left: \"10%\",\n        right: \"10%\",\n        top: \"10%\",\n        bottom: \"10%\",\n      },\n      //X轴\n      xAxis: {\n        type: \"category\",\n        axisLine: {\n          show: false,\n",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    option = {\n      backgroundColor: \"#041730\",\n      tooltip: {\n        trigger: \"axis\",\n        formatter: \"{b} : {c}\",\n        axisPointer: {\n          // 坐标轴指示器，坐标轴触发有效\n          type: \"shadow\", // 默认为直线，可选为：'line' | 'shadow'\n        },\n      },\n      xAxis: {\n        type: \"category\",\n        //坐标轴\n        axisLine: {\n          lineStyle: {\n            color: \"#3eb2e8\",\n          },\n        },\n        //坐标值标注\n        axisLabel: {\n          show: true,\n          textStyle: {\n            color: \"#fff\",\n          },\n        },\n      },\n      yAxis: {\n        //坐标轴\n        axisLine: {\n          show: false,\n        },\n        //坐标值标注\n        axisLabel: {\n          show: true,\n          textStyle: {\n            color: \"#fff\",\n          },\n        },\n        //分格线\n        splitLine: {\n          lineStyle: {\n            color: \"#4784e8\",\n          },\n        },\n      },\n      series: [\n        {\n          name: \"a\",\n          tooltip: {\n            show: false,\n          },\n          type: \"bar\",\n          barWidth: 24.5,\n          itemStyle: {\n            normal: {\n              color: new echarts.graphic.LinearGradient(\n                0,\n                1,\n                0,\n                0,\n                [\n                  {\n                    offset: 0,\n                    color: \"#0B4EC3\", // 0% 处的颜色\n                  },\n                  {\n                    offset: 0.6,\n                    color: \"#138CEB\", // 60% 处的颜色\n                  },\n                  {\n                    offset: 1,\n                    color: \"#17AAFE\", // 100% 处的颜色\n                  },\n                ],\n                false\n              ),\n            },\n          },\n          encode: {\n            x: 'product',\n            y: 'value1',\n          },\n          barGap: 0,\n        },\n        {\n          type: \"bar\",\n          barWidth: 8,\n          itemStyle: {\n            normal: {\n              color: new echarts.graphic.LinearGradient(\n                0,\n                1,\n",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    var star = \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIYAAABGCAYAAAAJkewlAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkEyODlDOTIyQkQyNTExRUI4RTQ4OEI5OTY0ODgyNEY3IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkEyODlDOTIzQkQyNTExRUI4RTQ4OEI5OTY0ODgyNEY3Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QTI4OUM5MjBCRDI1MTFFQjhFNDg4Qjk5NjQ4ODI0RjciIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QTI4OUM5MjFCRDI1MTFFQjhFNDg4Qjk5NjQ4ODI0RjciLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7LYGV6AAAMiUlEQVR42uxdSYwkRxX9mVXV3dWbe2Y8C43xYLBhjCwhxmDAYlgEAoyEEAIhJCQOyAgJCflkEBfEmQvbBclcEAcQCMQBEKsPIGyBsQdsFtnYM40ZdzPTPb1Mb9W1JfGp91XRMblFLlVZ1RnSV1dXV1dGRrz///s/fkQ6nufRmLSqkrb2uqNkbG5u0M0ZI2BMK3mNkoqSfyrZK6c3nZaNS2ML8R7c01Pl1JYW4//3AYsxh9ebShqlKymBQXAhHbyuKWlpf5tVslsC5WgCI6xNKTnIEBiOz3c54wS8owKMvMDW0l7vlhajWNyCNE0dpNa6Sj6s5KySr46bm6qOiebWob0Ng1uYHKRrTKALSZLz4O9bw/+6Gr8pLUaBwP0wQtRfRnxOSGgLE7ugZFtJMyEgG3g9U7qSwTcXLiJII9lavFXJipJLmGQvwEowMO5S8kol15U8o2TDoh+SXe36/L2Gz8j1J9C3HaPv0/jsjSK7H3cEwMuTOR/CMXiSHqVettMJ4SGESbpdyY+VvMECFITruLAypgueQR91EDYBzNsBhkklp5UsUi8r65UWI5/wMCkfOa/kPliLx5TsW37HCSW3KrkCINyC9/4N4Jnt1Uo+puQ2JX9U8qNRcDtHKVx1MaEduJE5aPpqAuLIk/1xuKWLSr6n5FqIq2Puc0HJJ5V8t4xKitXYrG9RL9FFIJ0NjEHX0iK9oOT9St4GkF0L+expWInH8dmJhGS3tBgDdkdJ3NQpJZ/Fz4uwAg2fzy3AhVyG+zgLY",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    var path = \"path://M1390,595h79l-39,22Z\";\n    var barWidth = 40;\n    var color1 = {\n      x: 0,\n      y: 0,\n      x2: 0,\n      y2: 1,\n      type: \"linear\",\n      global: false,\n      colorStops: [{\n          //第一节下面\n          offset: 0,\n          color: \"#1C98CD\",\n        },\n        {\n          offset: 1,\n\n          color: \"rgba(61,187,255,.16)\",\n        },\n      ],\n    };\n    var color2 = {\n      x: 0,\n      y: 0,\n      x2: 0,\n      y2: 1,\n      type: \"linear\",\n      global: false,\n      colorStops: [{\n          //第一节下面\n          offset: 0,\n          color: \"#E7AB47\",\n        },\n        {\n          offset: 1,\n          color: \"rgba(255,164,41,.16)\",\n        },\n      ],\n    };\n    const effectDatas = [];\n    $Data.source.forEach((item, index) => {\n      if (index === 0) {\n        return\n      }\n      effectDatas.push([item[0], 100])\n    });\n    option = {\n      backgroundColor: \"#000E1A\", //背景色\n      legend: {\n        data: [\"未开工\", \"未完成\"],\n        icon: \"rect\",\n        top: 5,\n        right: 10,\n        textStyle: {\n          color: \"#fff\",\n          fontWeight: \"normal\",\n          fontSize: 12,\n        },\n      },\n      //提示框\n      tooltip: {\n        trigger: \"axis\",\n        axisPointer: {\n          type: \"none\",\n        },\n        formatter: function(param) {\n          debugger\n          var resultTooltip =\n            \"<div style='background:rgba(13,5,30,.3);border:1px solid rgba(255,255,255,.2);padding:5px 10px;border-radius:4px;'>\" +\n            \"<div style='text-align:center;'>\" +\n            param[0].name +\n            \"</div>\" +\n            \"<div style='padding-top:5px;'>\" +\n            \"<span style='display:inline-block;border-radius:4px;width:20px;height:10px;background-color:rgba(61,187,255,.3);border: 2px solid #3eb6f5;'></span>\" +\n            \"<span style=''> \" +\n            param[0].seriesName +\n            \": </span>\" +\n            \"<span style=''>\" +\n            param[0].value[1] +\n            \"</span><span>%</span>\" +\n            \"</div>\" +\n   ",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    option = {\n      backgroundColor: \"#0e202d\",\n      title: {\n        show: false,\n        text: \"第三采油厂\",\n        // \"subtext\": \"总数: 599\",\n        textStyle: {\n          color: \"#fff\",\n          fontSize: 20,\n        },\n        subtextStyle: {\n          color: \"#999\",\n          fontSize: 16,\n        },\n        x: \"center\",\n        top: \"0%\",\n      },\n      grid: {\n        top: 200,\n        bottom: 150,\n      },\n      tooltip: {},\n      xAxis: {\n        type: 'category',\n        axisTick: {\n          show: false,\n        },\n        axisLine: {\n          show: false,\n        },\n        axisLabel: {\n          interval: 0,\n          textStyle: {\n            color: \"#beceff\",\n            fontSize: 15,\n          },\n          margin: 30, //刻度标签与轴线之间的距离。\n        },\n      },\n      yAxis: {\n        splitLine: {\n          show: false,\n        },\n        axisTick: {\n          show: false,\n        },\n        axisLine: {\n          show: false,\n        },\n        axisLabel: {\n          show: false,\n        },\n      },\n      series: [{\n          name: \"\",\n          type: \"pictorialBar\",\n          symbolSize: [20, 10],\n          symbolOffset: [0, -5],\n          symbolPosition: \"end\",\n          itemStyle: {\n            normal: {\n              color: function(data) {\n                if (data.dataIndex < 3) {\n                  return \"#00fff5\";\n                } else {\n                  return \"#b9b7ff\";\n                }\n              }\n            },\n          },\n          z: 12,\n          encode: {\n            x: 'product',\n            y: 'value1',\n          }\n        },\n        {\n          name: \"\",\n          type: \"pictorialBar\",\n          symbolSize: [20, 10],\n          symbolOffset: [0, 5],\n          z: 12,\n          itemStyle: {\n            normal: {\n              color: function(data) {\n                if (data.dataIndex < 3) {\n                  return \"#00fff5\";\n                } else {\n                  return \"#b9b7ff\";\n                }\n              }\n            },\n  ",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    let backgroundColor = \"rgba(0,0,0,1)\";\n    let itemcolor = {\n      type: \"linear\",\n      colorStops: [\n        {\n          offset: 0,\n          color: \"rgba(6, 120, 157,1)\",\n        },\n        {\n          offset: 0.5,\n          color: \"rgba(6, 120, 157,0.2)\",\n        },\n        {\n          offset: 1,\n          color: \"rgba(6, 120, 157,1)\",\n        },\n      ],\n    };\n    option = {\n      backgroundColor: backgroundColor,\n      textStyle: {\n        color: \"#c0c3cd\",\n        fontSize: 14,\n      },\n      toolbox: {\n        show: false,\n        feature: {\n          saveAsImage: {\n            backgroundColor: \"#031245\",\n          },\n          restore: {},\n        },\n        iconStyle: {\n          borderColor: \"#c0c3cd\",\n        },\n      },\n      legend: {\n        top: 10,\n        itemWidth: 8,\n        itemHeight: 8,\n        icon: \"circle\",\n        left: \"center\",\n        padding: 0,\n        textStyle: {\n          color: \"#c0c3cd\",\n          fontSize: 14,\n          padding: [2, 0, 0, 0],\n        },\n      },\n      color: [\"#00D7E9\", \"rgba(0, 215, 233, 0.9)\"],\n      grid: {\n        containLabel: true,\n        left: 40,\n        right: 20,\n        bottom: 40,\n        top: 40,\n      },\n      xAxis: {\n        nameTextStyle: {\n          color: \"#c0c3cd\",\n          padding: [0, 0, -10, 0],\n          fontSize: 14,\n        },\n        axisLabel: {\n          color: \"#c0c3cd\",\n          fontSize: 14,\n          interval: 0,\n        },\n        axisTick: {\n          show: false,\n          lineStyle: {\n            color: \"#384267\",\n            width: 1,\n          },\n        },\n        splitLine: {\n          show: false,\n        },\n        axisLine: {\n          lineStyle: {\n            color: \"#335971\",\n          },\n          show: true,\n        },\n        type: \"category\",\n      },\n      yAxis: {\n        nameTextStyle: {\n          color: \"#c0c3cd\",\n          padding: [0, 0, -10, 0],\n          fontSize: 14,\n        },\n        axisLabel: {\n          color: \"#c0c3cd\",\n          fontSize:",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    let img1 =\n      \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAF8CAYAAABFdgLPAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDYuMC1jMDAyIDc5LjE2NDM2MCwgMjAyMC8wMi8xMy0wMTowNzoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjEgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjFDNzU4QkMzQjFGRjExRUFBRjkxQTRCMzE0QUM2OTRBIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjFDNzU4QkM0QjFGRjExRUFBRjkxQTRCMzE0QUM2OTRBIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MUM3NThCQzFCMUZGMTFFQUFGOTFBNEIzMTRBQzY5NEEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MUM3NThCQzJCMUZGMTFFQUFGOTFBNEIzMTRBQzY5NEEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7hhRVqAAAGG0lEQVR42uyZYZLbNgyFCa2mnekxep1eKCfvj0yXrxIJkiAEyXZ2t3bS50Rjry1bn4CHB1CSP//69i2l9Me25VQfSPFDgr9x8hmCfdLF7y/b9veafvyBGwe4ej98rD948C95LOmFHoQhzM8MI4wMYX45GHlGJb1cZNYLUvwX0aCAPzpcyRcNVkKf+cw0fWbK5DNhzmfzabECfSFfGhlzZMj+DERQkkQM04NQD8Bsa7ydoFBA/8PlYju46FaA5CFZro+AIOcO0hegmJUBKMyOtmwgku8GWm+mBXk7gEZkf91hYMAsl5RMygaEXKNT2W5rab0GGdGASRHy9ixHGA1NBdEDyxYVlCjuUMsl0HpXVPrrvDEoJAKYPQpaTSivFH4Dan+JvD0KowcvUck9RfU9mBQ5y1G9dN3srxfz2XIt6lOY/cxLePGux809Og3mUN7dY5Zh8GjzyNKjWlMs98CoTrKJREmLgWmpisqpREQBGkir9qwGUCL0dgcMhj4AB5Kh1WTEbGAEe1pkns+278hSo1x0o9+VIDoBjClljU7VTe5QVbcqZhcZZCkHgujzLuVyQls4NlBBLX1j02cwcFt26dEtV9ODEzGslzTBarCrcPPQVcndcgEDmNSMzb9fISOfgYoX/fdEi0HS/DtRqlYn3aEHE4kSlbw/v5uWYI3Q+ExJkRrfLn7tCFDGmqZlHEdCGBuRHEamv/ZtwjTKanBQRQxzFP2+mMig+/QJTH9WodaI5Oo5TdC9wgIBa/ix6aFIIqt",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    const CubeLeft = echarts.graphic.extendShape({\n      shape: {\n        x: 0,\n        y: 0,\n      },\n      buildPath: function(ctx, shape) {\n        const yAxisPoint = shape.yAxisPoint;\n        const c0 = [shape.x, shape.y];\n        const c1 = [shape.x + 9, shape.y - 9];\n        const c2 = [yAxisPoint[0] + 9, yAxisPoint[1] - 9];\n        const c3 = [yAxisPoint[0], yAxisPoint[1]];\n        ctx\n          .moveTo(c0[0], c0[1])\n          .lineTo(c1[0], c1[1])\n          .lineTo(c2[0], c2[1])\n          .lineTo(c3[0], c3[1])\n          .closePath();\n      },\n    });\n    const CubeRight = echarts.graphic.extendShape({\n      shape: {\n        x: 0,\n        y: 0,\n      },\n      buildPath: function(ctx, shape) {\n        const yAxisPoint = shape.yAxisPoint;\n        const c1 = [shape.x, shape.y];\n        const c2 = [yAxisPoint[0], yAxisPoint[1]];\n        const c3 = [yAxisPoint[0] + 9, yAxisPoint[1] + 18];\n        const c4 = [shape.x + 9, shape.y + 18];\n        ctx\n          .moveTo(c1[0], c1[1])\n          .lineTo(c2[0], c2[1])\n          .lineTo(c3[0], c3[1])\n          .lineTo(c4[0], c4[1])\n          .closePath();\n      },\n    });\n    const CubeTop = echarts.graphic.extendShape({\n      shape: {\n        x: 0,\n        y: 0,\n      },\n      buildPath: function(ctx, shape) {\n        const c1 = [shape.x, shape.y];\n        const c2 = [shape.x + 9, shape.y + 18];\n        const c3 = [shape.x + 18, shape.y + 9];\n        const c4 = [shape.x + 9, shape.y - 9];\n        ctx\n          .moveTo(c1[0], c1[1])\n          .lineTo(c2[0], c2[1])\n          .lineTo(c3[0], c3[1])\n          .lineTo(c4[0], c4[1])\n          .closePath();\n      },\n    });\n    echarts.graphic.registerShape(\"CubeLeft\", CubeLeft);\n    echarts.graphic.registerShape(\"CubeRight\", CubeRight);\n    echarts.graphic.registerShape(\"CubeTop\", CubeTop);\n    option = {\n      backgroundColor: \"#010d3a\",\n      title: {\n        text: \"\",\n        top: 32,\n        left: 18,\n        textStyle: {\n          color: \"#00F6FF\",\n          fontSize: 24,\n",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    var attackSourcesColor = [\n      new echarts.graphic.LinearGradient(0, 1, 1, 1, [{\n          offset: 0,\n          color: \"#EB3B5A\"\n        },\n        {\n          offset: 1,\n          color: \"#FE9C5A\"\n        },\n      ]),\n      new echarts.graphic.LinearGradient(0, 1, 1, 1, [{\n          offset: 0,\n          color: \"#FA8231\"\n        },\n        {\n          offset: 1,\n          color: \"#FFD14C\"\n        },\n      ]),\n      new echarts.graphic.LinearGradient(0, 1, 1, 1, [{\n          offset: 0,\n          color: \"#F7B731\"\n        },\n        {\n          offset: 1,\n          color: \"#FFEE96\"\n        },\n      ]),\n      new echarts.graphic.LinearGradient(0, 1, 1, 1, [{\n          offset: 0,\n          color: \"#395CFE\"\n        },\n        {\n          offset: 1,\n          color: \"#2EC7CF\"\n        },\n      ]),\n    ];\n    var attackSourcesColor1 = [\n      \"#EB3B5A\",\n      \"#FA8231\",\n      \"#F7B731\",\n      \"#3860FC\",\n      \"#1089E7\",\n      \"#F57474\",\n      \"#56D0E3\",\n      \"#1089E7\",\n      \"#F57474\",\n      \"#1089E7\",\n      \"#F57474\",\n      \"#F57474\",\n    ];\n    option = {\n      backgroundColor: \"#000\",\n      tooltip: {\n        show: false,\n        backgroundColor: \"rgba(3,169,244, 0.5)\", //背景颜色（此时为默认色）\n        textStyle: {\n          fontSize: 16,\n        },\n      },\n      color: [\"#F7B731\"],\n      legend: {\n        show: false,\n        pageIconSize: [12, 12],\n        itemWidth: 20,\n        itemHeight: 10,\n        textStyle: {\n          //图例文字的样式\n          fontSize: 10,\n          color: \"#fff\",\n        },\n        selectedMode: false,\n      },\n      grid: {\n        left: \"5%\",\n        right: \"2%\",\n        width: \"80%\",\n        bottom: \"2%\",\n        top: \"8%\",\n        containLabel: true,\n      },\n      xAxis: {\n        type: \"value\",\n        splitLine: {\n          show: false,\n        },\n        axisLabel: {\n          show: false,\n        },\n        axisTick: {\n          show: false,\n        },\n        axisLine: {\n          show: false,\n        },\n      },\n      yAxis: [{\n          ty",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    var salvProName = [\n      \"安徽省\",\n      \"河南省\",\n      \"浙江省\",\n      \"湖北省\",\n      \"贵州省\",\n      \"江西省\",\n      \"江苏省\",\n      \"四川省\",\n      \"云南省\",\n      \"湖南省\",\n    ];\n    option = {\n      backgroundColor: \"#003366\",\n      grid: {\n        left: \"2%\",\n        right: \"2%\",\n        bottom: \"2%\",\n        top: \"2%\",\n        containLabel: true,\n      },\n      tooltip: {\n        trigger: \"axis\",\n        axisPointer: {\n          type: \"none\",\n        },\n        formatter: function(params) {\n          return params[0].name + \" : \" + params[0].value;\n        },\n      },\n      xAxis: {\n        show: false,\n        type: \"value\",\n      },\n      yAxis: [{\n          type: \"category\",\n          inverse: true,\n          axisLabel: {\n            show: true,\n            textStyle: {\n              color: \"#fff\",\n            },\n          },\n          splitLine: {\n            show: false,\n          },\n          axisTick: {\n            show: false,\n          },\n          axisLine: {\n            show: false,\n          },\n        },\n        {\n          id: \"yAxis2\",\n          type: \"category\",\n          inverse: true,\n          axisTick: \"none\",\n          axisLine: \"none\",\n          show: true,\n          axisLabel: {\n            textStyle: {\n              color: \"#ffffff\",\n              fontSize: \"12\",\n            },\n          },\n        },\n      ],\n      series: [{\n          name: \"值\",\n          type: \"bar\",\n          zlevel: 1,\n          itemStyle: {\n            normal: {\n              barBorderRadius: 30,\n              color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [{\n                  offset: 0,\n                  color: \"rgb(57,89,255,1)\",\n                },\n                {\n                  offset: 1,\n                  color: \"rgb(46,200,207,1)\",\n                },\n              ]),\n            },\n          },\n          barWidth: 20,\n          encode: {\n            x: 'value1',\n            y: 'product',\n          },\n        },\n        {\n          name: \"背景\",\n          type: \"bar\",\n",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    let aircraft =\n      \"path://M107.000,71.000 C104.936,71.000 102.665,70.806 100.273,70.467 C94.592,76.922 86.275,81.000 77.000,81.000 C70.794,81.000 65.020,79.170 60.172,76.029 C66.952,74.165 72.647,69.714 76.173,63.817 C69.821,61.362 64.063,58.593 60.000,56.039 L60.000,52.813 C70.456,53.950 80.723,55.000 83.000,55.000 C88.972,55.000 93.000,53.723 93.000,50.000 C93.000,47.071 89.222,45.000 83.000,45.000 C80.723,45.000 70.456,46.050 60.000,47.187 L60.000,43.989 C64.057,41.431 69.807,38.644 76.168,36.173 C72.641,30.281 66.948,25.834 60.172,23.971 C65.020,20.830 70.794,19.000 77.000,19.000 C86.270,19.000 94.584,23.074 100.265,29.524 C102.647,29.191 104.918,29.000 107.000,29.000 C129.644,29.000 148.000,50.000 148.000,50.000 C148.000,50.000 129.644,71.000 107.000,71.000 ZM113.000,38.000 C106.373,38.000 101.000,43.373 101.000,50.000 C101.000,56.627 106.373,62.000 113.000,62.000 C119.627,62.000 125.000,56.627 125.000,50.000 C125.000,43.373 119.627,38.000 113.000,38.000 ZM113.000,56.000 C109.686,56.000 107.000,53.314 107.000,50.000 C107.000,46.686 109.686,44.000 113.000,44.000 C116.314,44.000 119.000,46.686 119.000,50.000 C119.000,53.314 116.314,56.000 113.000,56.000 ZM110.500,19.000 C109.567,19.000 108.763,18.483 108.334,17.726 C100.231,9.857 89.187,5.000 77.000,5.000 C64.813,5.000 53.769,9.857 45.666,17.726 C45.237,18.483 44.433,19.000 43.500,19.000 C42.119,19.000 41.000,17.881 41.000,16.500 C41.000,15.847 41.256,15.259 41.665,14.813 L41.575,14.718 C50.629,5.628 63.156,-0.000 77.000,-0.000 C90.844,-0.000 103.371,5.628 112.425,14.718 L112.335,14.813 C112.744,15.259 113.000,15.847 113.000,16.500 C113.000,17.881 111.881,19.000 110.500,19.000 ZM53.000,49.484 C61.406,48.626 77.810,47.000 81.345,47.000 C87.353,47.000 91.000,48.243 91.000,50.000 C91.000,52.234 87.111,53.000 81.345,53.000 C77.810,53.000 61.406,51.374 53.000,50.516 L53.000,49.484 ZM53.000,47.000 L9.000,50.000 L53.000,53.000 L53.000,56.000 L-0.000,50.000 L53.000,44.000 L53.000,47.000 ZM43.500,81.000 C44.433,81",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    var attackSourcesColor = [\n      new echarts.graphic.LinearGradient(0, 1, 1, 1, [{\n          offset: 0,\n          color: \"#EB3B5A\"\n        },\n        {\n          offset: 1,\n          color: \"#FE9C5A\"\n        }\n      ]),\n      new echarts.graphic.LinearGradient(0, 1, 1, 1, [{\n          offset: 0,\n          color: \"#FA8231\"\n        },\n        {\n          offset: 1,\n          color: \"#FFD14C\"\n        }\n      ]),\n      new echarts.graphic.LinearGradient(0, 1, 1, 1, [{\n          offset: 0,\n          color: \"#F7B731\"\n        },\n        {\n          offset: 1,\n          color: \"#FFEE96\"\n        }\n      ]),\n      new echarts.graphic.LinearGradient(0, 1, 1, 1, [{\n          offset: 0,\n          color: \"#395CFE\"\n        },\n        {\n          offset: 1,\n          color: \"#2EC7CF\"\n        }\n      ])\n    ];\n    var attackSourcesColor1 = [\n      \"#EB3B5A\",\n      \"#FA8231\",\n      \"#F7B731\",\n      \"#3860FC\",\n      \"#1089E7\",\n      \"#F57474\",\n      \"#56D0E3\",\n      \"#1089E7\",\n      \"#F57474\",\n      \"#1089E7\",\n      \"#F57474\",\n      \"#F57474\"\n    ];\n    let max = 0;\n    $Data.source.forEach((item, index) => {\n      if (index === 0) {\n        return\n      }\n      if (Number(item[2]) > max) {\n        max = Number(item[2])\n      }\n    });\n    console.log(max)\n    var option = {\n      backgroundColor: \"#000\",\n      tooltip: {\n        show: false,\n        backgroundColor: \"rgba(3,169,244, 0.5)\", //背景颜色（此时为默认色）\n        textStyle: {\n          fontSize: 16\n        }\n      },\n      color: [\"#F7B731\"],\n      legend: {\n        top: 'top',\n        left: 'center',\n        pageIconSize: [12, 12],\n        itemWidth: 20,\n        itemHeight: 10,\n        textStyle: {\n          //图例文字的样式\n          fontSize: 10,\n          color: \"#fff\"\n        },\n        selectedMode: false,\n        data: [\"个人所得(亿元)\"]\n      },\n      grid: {\n        left: \"5%\",\n        right: \"2%\",\n        width: \"80%\",\n        bottom: \"2%\",\n        top: \"8%\",\n        containLabel: true\n      },\n      xAxis: {\n        type: \"value\",\n",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    option = {\n      backgroundColor: \"#000\",\n      //color: [\"#70DDFF\", \"#FF9F6A\", \"#20D469\", \"#D083FF\", \"#FF8282\", \"#769CFF\", \"#FFCF55\"],\n      legend: {\n        itemHeight: 14,\n        itemWidth: 14,\n        icon: \"rect\",\n        bottom: \"0\",\n        textStyle: {\n          color: \"#fff\",\n        },\n      },\n      color: [\"#4AFFFC\", \"#FF6701\", \"#65FF00\", \"#F49673\", \"#9C58FF\", \"#FFCD07\"],\n      grid: {\n        x: 90,\n        y: 20,\n        x2: 30,\n        y2: 70,\n      },\n      xAxis: {\n        type: 'value',\n        axisLine: {\n          lineStyle: {\n            color: \"#44A0B7\",\n          },\n        },\n        axisLabel: {\n          textStyle: {\n            color: \"#fff\",\n          },\n        },\n        show: true,\n        type: \"value\",\n        axisTick: {\n          show: false,\n        },\n        splitLine: {\n          show: false,\n        },\n      },\n      yAxis: {\n        type: 'category',\n        axisLine: {\n          lineStyle: {\n            color: \"#44A0B7\",\n          },\n        },\n        axisLabel: {\n          textStyle: {\n            color: \"#fff\",\n          },\n        },\n        axisTick: {\n          show: false,\n        },\n        splitLine: {\n          show: false,\n        },\n      },\n      series: [\n        {\n          name: \"农户收入\",\n          type: \"bar\",\n          stack: \"all\",\n          barWidth: 12,\n          encode: {\n            x: 'value1',\n            y: 'product',\n          },\n        },\n        {\n          name: \"集体收入\",\n          type: \"bar\",\n          stack: \"all\",\n          barWidth: 12,\n          encode: {\n            x: 'value2',\n            y: 'product',\n          },\n        },\n        {\n          name: \"引进投资\",\n          type: \"bar\",\n          stack: \"all\",\n          barWidth: 12,\n          encode: {\n            x: 'value3',\n            y: 'product',\n          },\n        },\n        {\n          name: \"带动就业\",\n          type: \"bar\",\n          stack: \"all\",\n          barWidth: 12,\n          encode: {\n            x: 'value4',\n            y",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    option = {\n      backgroundColor: \"#071347\",\n      xAxis: {\n        type: 'value',\n        max: 1000,\n        splitLine: {\n          show: false,\n        },\n        axisLine: {\n          show: false,\n        },\n        axisLabel: {\n          show: false,\n        },\n        axisTick: {\n          show: false,\n        },\n      },\n      grid: {\n        left: 250,\n        top: 100, // 设置条形图的边距\n        right: 250,\n        bottom: 100,\n      },\n      yAxis: [{\n        type: \"category\",\n        inverse: false,\n        axisLine: {\n          show: false,\n        },\n        axisTick: {\n          show: false,\n        },\n        axisLabel: {\n          show: false,\n        },\n      }, ],\n      series: [{\n          // 内\n          type: \"bar\",\n          barWidth: 28,\n          silent: true,\n          itemStyle: {\n            normal: {\n              color: \"#1588D1\",\n            },\n          },\n          label: {\n            normal: {\n              formatter: \"{b}\",\n              textStyle: {\n                color: \"#fff\",\n                fontSize: 14,\n              },\n              position: \"left\",\n              distance: 20, // 向右偏移位置\n              show: true,\n            },\n          },\n          z: 1,\n          animationEasing: \"elasticOut\",\n          encode: {\n            x: 'value1',\n            y: 'product',\n          },\n        },\n    \n        {\n          // 分隔\n          type: \"pictorialBar\",\n          itemStyle: {\n            normal: {\n              color: \"#07314a\",\n            },\n          },\n          symbolRepeat: \"fixed\",\n          symbolMargin: 2,\n          symbol: \"rect\",\n          symbolClip: true,\n          symbolSize: [3, 28],\n          symbolPosition: \"start\",\n          symbolOffset: [3, -4],\n          symbolBoundingData: this.total,\n          z: 2,\n          animationEasing: \"elasticOut\",\n          data: $Data.source.slice(1).map((item) => {\n            return [1000, item[0]]\n          })\n        },\n        {\n          // label\n          type: \"pictorialBa",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    let backgroundColor = \"rgba(0,0,0,1)\";\n    let max = 0;\n    $Data.source.forEach((item, index) => {\n      if (index === 0) {\n        return\n      }\n      if (Number(item[1]) > max) {\n        max = Number(item[1])\n      }\n    });\n    option = {\n      backgroundColor: backgroundColor,\n      grid: {\n        left: \"3%\",\n        right: \"13%\",\n        bottom: \"10%\",\n        top: \"10%\",\n        containLabel: true,\n      },\n      tooltip: {\n        formatter: (params) => {\n          if (params.name !== \"\") {\n            return params.name + \" : \" + params.value[1];\n          }\n        },\n        textStyle: {\n          align: \"left\",\n        },\n      },\n      xAxis: [{\n          type: \"value\",\n          axisLabel: {\n            margin: 5,\n            color: \"#fff\",\n            formatter: function(val) {\n              return val + \"\";\n            },\n            textStyle: {\n              fontSize: \"13\",\n            },\n          },\n          min: 0,\n          max: function(obj) {\n            return Math.ceil(obj.max / 9.5) * 10\n          }, // 计算最大值\n          splitNumber: 5,\n          splitLine: {\n            show: false,\n            lineStyle: {\n              color: \"#fff\",\n            },\n          },\n          axisLine: {\n            show: true,\n            lineStyle: {\n              color: \"#fff\",\n              width: 1,\n              opacity: 0.3,\n            },\n          },\n          axisTick: {\n            show: false,\n          },\n        },\n        {\n          type: \"value\",\n          axisLabel: {\n            show: false,\n          },\n          min: 0,\n          max: function(obj) {\n            return Math.ceil(obj.max / 9.5) * 10\n          }, // 计算最大值\n          splitNumber: 10,\n          splitLine: {\n            show: false,\n            lineStyle: {\n              type: \"dashed\",\n              color: \"#D8D8D8\",\n            },\n          },\n          axisLine: {\n            show: false,\n            lineStyle: {\n              color: \"#fff\",\n            },\n          }",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    option = {\n        backgroundColor: \"#0E204A\",\n        tooltip: {\n          trigger: \"axis\",\n          axisPointer: {\n            lineStyle: {\n              color: {\n                type: \"linear\",\n                x: 0,\n                y: 0,\n                x2: 0,\n                y2: 1,\n                colorStops: [\n                  {\n                    offset: 0,\n                    color: \"rgba(255,255,255,0)\", // 0% 处的颜色\n                  },\n                  {\n                    offset: 0.5,\n                    color: \"rgba(255,255,255,1)\", // 100% 处的颜色\n                  },\n                  {\n                    offset: 1,\n                    color: \"rgba(255,255,255,0)\", // 100% 处的颜色\n                  },\n                ],\n                global: false, // 缺省为 false\n              },\n            },\n          },\n        },\n        grid: {\n          top: \"18%\",\n          left: \"1%\",\n          right: \"1%\",\n          bottom: \"25%\",\n        },\n        xAxis: [\n          {\n            type: \"category\",\n            boundaryGap: true,\n            axisLine: {\n              //坐标轴轴线相关设置。数学上的x轴\n              show: true,\n              lineStyle: {\n                color: \"rgba(255,255,255,0.4)\",\n              },\n            },\n            axisLabel: {\n              //坐标轴刻度标签的相关设置\n              textStyle: {\n                color: \"#d1e6eb\",\n                margin: 15,\n              },\n            },\n            axisTick: {\n              show: false,\n            },\n          },\n        ],\n        yAxis: [\n          {\n            type: \"value\",\n            min: 0,\n            splitNumber: 4,\n            splitLine: {\n              show: true,\n              lineStyle: {\n                color: \"rgba(255,255,255,0.1)\",\n              },\n            },\n            axisLine: {\n              show: false,\n            },\n            axisLabel: {\n              show: false,\n              margin: 20,\n              textStyle: {\n                color: \"#d1e6eb\",\n              },\n     ",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    option = {\n        backgroundColor: \"#05224d\",\n        tooltip: {},\n        grid: {\n          top: \"8%\",\n          left: \"1%\",\n          right: \"1%\",\n          bottom: \"8%\",\n          containLabel: true,\n        },\n        xAxis: [\n          {\n            type: \"category\",\n            boundaryGap: false,\n            axisLine: {\n              //坐标轴轴线相关设置。数学上的x轴\n              show: true,\n              lineStyle: {\n                color: \"#233e64\",\n              },\n            },\n            axisLabel: {\n              //坐标轴刻度标签的相关设置\n              textStyle: {\n                color: \"#6a9cd5\",\n                margin: 15,\n              },\n            },\n            axisTick: { show: false },\n          },\n        ],\n        yAxis: [\n          {\n            type: \"value\",\n            min: 0,\n            max: 140,\n            splitNumber: 7,\n            splitLine: {\n              show: true,\n              lineStyle: {\n                color: \"#233e64\",\n              },\n            },\n            axisLine: { show: false },\n            axisLabel: {\n              margin: 20,\n              textStyle: {\n                color: \"#6a9cd5\",\n              },\n            },\n            axisTick: { show: false },\n          },\n        ],\n        series: [\n          {\n            name: \"异常流量\",\n            type: \"line\",\n            smooth: true, //是否平滑曲线显示\n            // \t\t\tsymbol:'circle',  // 默认是空心圆（中间是白色的），改成实心圆\n            symbolSize: 0,\n      \n            lineStyle: {\n              normal: {\n                color: \"#3deaff\", // 线条颜色\n              },\n            },\n            areaStyle: {\n              //区域填充样式\n              normal: {\n                //线性渐变，前4个参数分别是x0,y0,x2,y2(范围0~1);相当于图形包围盒中的百分比。如果最后一个参数是‘true’，则该四个值是绝对像素位置。\n                color: new echarts.graphic.LinearGradient(\n                  0,\n                  0,\n                  0,\n                  1,\n                  [\n                    { offset: 0, color: \"rgba(61,234,255, 0.9)\" },\n                    { offse",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    var Line = [\"云篆山水路线\", \"昕博朗学校路线\", \"新华小学路线\", \"云锦五路路线\"];\n    var img = [\n      \"image://data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABRCAYAAABFTSEIAAAACXBIWXMAAAsSAAALEgHS3X78AAAEp0lEQVR42u3cz4sjRRTA8W9Vd3Vn8mMmjj9WQWSRZQ+CsH+B7MnDIgiCd0E8CYJ/gOAIelo8ehUP/gF6WLw5/gMueFP2sIcF0dHd2Z1kknR11fOQZJJJMtlZd03H7HtQpNOTnpn+8Lrm1etmjIig8e/DKoECKqACKqCGAiqgAiqghgIqoAIqoIYCKqACKqCGAiqgAiqghgIqoAJudKTr+osZMNPvBUQBHwHsPF9fB9R0DeHMOQ6T6WOrhEzXBM4swDOL0M6CrArRVoq3t2dGUIb9fTvatg8ZZup1PDBgzPmy98mey6qfzjLz2WaWjEUZKEvGyi9nWyneMOvGIyFQo2Sbg4MUSChpU9IeTTUpJdsEajPZOJeJG5uBZj7rLLduWS5dGm6XNLEELOFUFj54ACJCaychkpDSASK3bwsXL0YgVpWJKwM0iy9Zy8HdGru7jvt3Pbu7w0wES7drTwAbjTHMGCsQcIAnYTC1/wRx0wEnl27JNgZI8HQ6Kc1mQq83RNzaMjPzXqDbjTQaJRFLxIyyMSxAXEkWrhrQzAAmo5HOjCQf7jflILxOkohL+aUPgV4vEGNJo+E5PAy02+UIMEwBxo0CPDP7Dg5SnEtpt1PA0e87XO25FOoh8IYIH2Y5b45RzGAQBiIltZoHxqMcjbksXAVgdc2EQMYzzzdotyeZWKuleULXJtwT4SODfC2QCWR+IF9KnjuX1Xbo99Op7LVE8iXlz0YBTk5SyLEEjo5OLuccEoFUvHfO+reuUPx4zftXAIcx1hdcF+/TvFab4A0Bs0VwqyhpVnkJT89/Q4DDQ0e77YCMwIUsFMeFZD856699URRvX4nxE4A/jbnxXp7v4Zw3ReGNSDHI8wFQjIafuoyn58L/fB6sth/Ybg9fez2TRC6QZcZYvgHsazF+MP7YCyLXcM7gvSXLDGBqYDg+NhwdmSpPoTrAkub0W+f4FSB1fDucIunMHSLpO8WAH0rSy8u+19MBCHB4OHzd2pI+CEUhpigEiN+l6WcdY252jLn5s7Wf472ImPcN8pUl/tEHoV4XWq1Ke4KrLmPsTA3oODpytFoOyJKSyzHyMSIxteWngMW5cSEdDJQUhTdZVgxOz3/+jFJm4+bA2e5JpNU6WZ4Fw99JwnWMKccwpeddP+B7GZTNUPKqybJy0O+Hs1YfMz9swwvpB8fbGDG0GuGkkK7V0hxSmZQpABI8l2z0v3sJf50qpAMJCd2qCulql3LD1lRGQjm7lEsDz0rkxTQOfiPPxUBcuJTbbhss/Y1eyi3NwsmKInmkZsKk5gtPUzNhvp11507CSy/X6XYStpvFudpZw1ZWIOF4Cq6SdtbKbioJyAhRTu3u9yMJXerN+ugvaQQsjcZ8Q3VnZwxlSDhe1lB9GjrSw5b+1avT8+Jw+979nNaOI6U3KpTrWAosxVQmygK4ld8X0ZtK/7eViExD7O1NQPb3T7fsl4/4sBpwYzPwjFbTo95Yl9l9Vd1YN1X/147HebSjary1AHyc5qc+XLQEQx9ve8Kg6xr6hKoCKqACKqCGAiqgAiqghgIqoAIqoIYCKqACKqCGAiqgAiqghgIq4JrHP8fEWV8FMTmOAAAAAElFTkSuQmCC\",\n      \"image://data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE8AAABPCAYAAACqNJiGAAAACXBIWXMAAAsSAAALEgHS3X78AAAGS0lEQVR42u2cz4skSRXHPy8iMrOrq7qnp3dqloEeD0PvHrbxB/TJkwt6EGVBwRHUf0BPXj146JPgosJe",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    option = {\n        backgroundColor: \"#080b30\",\n        title: {\n          text: \"多线图\",\n          textStyle: {\n            align: \"center\",\n            color: \"#fff\",\n            fontSize: 20,\n          },\n          top: \"5%\",\n          left: \"center\",\n        },\n        tooltip: {\n          trigger: \"axis\",\n          axisPointer: {\n            lineStyle: {\n              color: {\n                type: \"linear\",\n                x: 0,\n                y: 0,\n                x2: 0,\n                y2: 1,\n                colorStops: [\n                  {\n                    offset: 0,\n                    color: \"rgba(0, 255, 233,0)\",\n                  },\n                  {\n                    offset: 0.5,\n                    color: \"rgba(255, 255, 255,1)\",\n                  },\n                  {\n                    offset: 1,\n                    color: \"rgba(0, 255, 233,0)\",\n                  },\n                ],\n                global: false,\n              },\n            },\n          },\n        },\n        legend: {\n          orient: \"horizontal\", // 水平\n          icon: \"circle\",\n          top: 40,\n          left: 120,\n          itemGap: 2, // 间隔\n          itemWidth: 10, // 图形宽度。\n          itemHeight: 10, // 图形高度。\n          borderWidth: 0,\n          textStyle: {\n            fontSize: \"14px\",\n            color: \"#4ca9ff\",\n          },\n        },\n        grid: {\n          top: \"5%\",\n          left: \"5%\",\n          right: \"15%\",\n          bottom: \"15%\",\n        },\n        xAxis: [\n          {\n            type: \"category\",\n            axisLine: {\n              show: true,\n              lineStyle: {\n                color: \"#56a4cd\",\n              },\n            },\n            splitArea: {\n              // show: false,\n              color: \"#f00\",\n              lineStyle: {\n                color: \"#f00\",\n              },\n            },\n            axisLabel: {\n              color: \"#fff\",\n            },\n            splitLine: {\n              show: false,\n            },\n  ",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    var fontColor = \"#30eee9\";\n    option = {\n        title: {\n            text: \"分所销售水量占比\",\n            top: \"5%\",\n            left: \"center\",\n            textStyle: {\n            color: \"#FFF\",\n            align: \"center\",\n            },\n        },\n        backgroundColor: \"#11183c\",\n        grid: {\n            left: \"9%\",\n            right: \"10%\",\n            top: \"20%\",\n            bottom: \"15%\",\n            containLabel: true,\n        },\n        tooltip: {\n            show: true,\n            trigger: \"item\",\n        },\n        legend: {\n            show: true,\n            x: \"center\",\n            top: \"12%\",\n            y: \"35\",\n            icon: \"stack\",\n            itemWidth: 10,\n            itemHeight: 10,\n            textStyle: {\n            color: \"#1bb4f6\",\n            },\n            data: [\"大户\", \"市中\", \"历下\", \"天桥\", \"槐荫\", \"历城\"],\n        },\n        xAxis: [\n            {\n            type: \"category\",\n            boundaryGap: false,\n            axisLabel: {\n                color: fontColor,\n            },\n            axisLine: {\n                show: true,\n                lineStyle: {\n                color: \"#397cbc\",\n                },\n            },\n            axisTick: {\n                show: false,\n            },\n            splitLine: {\n                show: false,\n                lineStyle: {\n                color: \"#195384\",\n                },\n            },\n            },\n        ],\n        yAxis: [\n            {\n            type: \"value\",\n            name: \"立方米\",\n            min: 0,\n            max: 1000,\n            axisLabel: {\n                formatter: \"{value}\",\n                textStyle: {\n                color: \"#2ad1d2\",\n                },\n            },\n            axisLine: {\n                lineStyle: {\n                color: \"#27b4c2\",\n                },\n            },\n            axisTick: {\n                show: false,\n            },\n            splitLine: {\n                show: true,\n                lineStyle: {\n                colo",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    option = {\n        backgroundColor: \"#080b30\",\n        title: {\n          text: \"渐变折线图\",\n          textStyle: {\n            align: \"center\",\n            color: \"#fff\",\n            fontSize: 20,\n          },\n          top: \"5%\",\n          left: \"center\",\n        },\n        tooltip: {\n          trigger: \"axis\",\n          axisPointer: {\n            lineStyle: {\n              color: {\n                type: \"linear\",\n                x: 0,\n                y: 0,\n                x2: 0,\n                y2: 1,\n                colorStops: [\n                  {\n                    offset: 0,\n                    color: \"rgba(0, 255, 233,0)\",\n                  },\n                  {\n                    offset: 0.5,\n                    color: \"rgba(255, 255, 255,1)\",\n                  },\n                  {\n                    offset: 1,\n                    color: \"rgba(0, 255, 233,0)\",\n                  },\n                ],\n                global: false,\n              },\n            },\n          },\n        },\n        grid: {\n          top: \"15%\",\n          left: \"5%\",\n          right: \"5%\",\n          bottom: \"15%\",\n          // containLabel: true\n        },\n        xAxis: [\n          {\n            type: \"category\",\n            axisLine: {\n              show: true,\n            },\n            splitArea: {\n              // show: true,\n              color: \"#f00\",\n              lineStyle: {\n                color: \"#f00\",\n              },\n            },\n            axisLabel: {\n              color: \"#fff\",\n            },\n            splitLine: {\n              show: false,\n            },\n            boundaryGap: false,\n          },\n        ],\n      \n        yAxis: [\n          {\n            type: \"value\",\n            min: 0,\n            // max: 140,\n            splitNumber: 4,\n            splitLine: {\n              show: true,\n              lineStyle: {\n                color: \"rgba(255,255,255,0.1)\",\n              },\n            },\n            axisLine: {\n              show: false",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    const CubeLeft = echarts.graphic.extendShape({\n      shape: {\n        x: 0,\n        y: 0,\n      },\n      buildPath: function(ctx, shape) {\n        const xAxisPoint = shape.xAxisPoint;\n        const c0 = [shape.x, shape.y];\n        const c1 = [shape.x - 9, shape.y - 9];\n        const c2 = [xAxisPoint[0] - 9, xAxisPoint[1] - 9];\n        const c3 = [xAxisPoint[0], xAxisPoint[1]];\n        ctx\n          .moveTo(c0[0], c0[1])\n          .lineTo(c1[0], c1[1])\n          .lineTo(c2[0], c2[1])\n          .lineTo(c3[0], c3[1])\n          .closePath();\n      },\n    });\n    const CubeRight = echarts.graphic.extendShape({\n      shape: {\n        x: 0,\n        y: 0,\n      },\n      buildPath: function(ctx, shape) {\n        const xAxisPoint = shape.xAxisPoint;\n        const c1 = [shape.x, shape.y];\n        const c2 = [xAxisPoint[0], xAxisPoint[1]];\n        const c3 = [xAxisPoint[0] + 18, xAxisPoint[1] - 9];\n        const c4 = [shape.x + 18, shape.y - 9];\n        ctx\n          .moveTo(c1[0], c1[1])\n          .lineTo(c2[0], c2[1])\n          .lineTo(c3[0], c3[1])\n          .lineTo(c4[0], c4[1])\n          .closePath();\n      },\n    });\n    const CubeTop = echarts.graphic.extendShape({\n      shape: {\n        x: 0,\n        y: 0,\n      },\n      buildPath: function(ctx, shape) {\n        const c1 = [shape.x, shape.y];\n        const c2 = [shape.x + 18, shape.y - 9];\n        const c3 = [shape.x + 9, shape.y - 18];\n        const c4 = [shape.x - 9, shape.y - 9];\n        ctx\n          .moveTo(c1[0], c1[1])\n          .lineTo(c2[0], c2[1])\n          .lineTo(c3[0], c3[1])\n          .lineTo(c4[0], c4[1])\n          .closePath();\n      },\n    });\n    echarts.graphic.registerShape(\"CubeLeft\", CubeLeft);\n    echarts.graphic.registerShape(\"CubeRight\", CubeRight);\n    echarts.graphic.registerShape(\"CubeTop\", CubeTop);\n    option = {\n      backgroundColor: \"#010d3a\",\n      title: {\n        text: \"\",\n        top: 32,\n        left: 18,\n        textStyle: {\n          color: \"#00F6FF\",\n          fontSize: 24,\n",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    const legend = {\n      data: [\"场所数\", \"已消杀\", \"完成率\"],\n      textStyle: {\n        fontSize: 14,\n        color: \"#fff\"\n      },\n      itemWidth: 25,\n      itemHeight: 15,\n      itemGap: 15,\n      bottom: \"5%\",\n      selectedMode: false,\n    };\n    const grid = {\n      top: \"10%\",\n      left: \"10%\",\n      right: \"3%\",\n      bottom: \"15%\"\n    };\n    // xAxis\n    const xAxis = {\n      type: 'category',\n      axisTick: {\n        show: true\n      },\n      axisLine: {\n        lineStyle: {\n          color: \"rgba(255,255,255, .2)\"\n        }\n      },\n      axisLabel: {\n        textStyle: {\n          fontSize: 12,\n          color: \"#fff\"\n        }\n      },\n    };\n    \n    // yAxis\n    const yAxis = [{\n        splitLine: {\n          lineStyle: {\n            color: \"rgba(255,255,255, .05)\"\n          }\n        },\n        axisLine: {\n          show: false\n        },\n        axisLabel: {\n          textStyle: {\n            fontSize: 16,\n            color: \"#fff\"\n          }\n        },\n      },\n      {\n        // 双y轴，主要用于折线图，所以不需要显示坐标\n        show: false,\n      },\n    ];\n    \n    // series\n    const series1 = [{\n        z: 3,\n        name: \"上部1\",\n        type: \"pictorialBar\",\n        symbolPosition: \"end\",\n        symbol: \"diamond\",\n        symbolOffset: [0, \"-50%\"],\n        symbolSize: [30, 20],\n        itemStyle: {\n          borderColor: \"#2fffa4\",\n          borderWidth: 2,\n          color: \"#2fffa4\",\n        },\n        encode: {\n          x: 'product',\n          y: 'value3',\n        },\n      },\n      {\n        z: 1,\n        type: \"bar\",\n        name: \"场所数\",\n        barGap: \"-100%\",\n        barWidth: 30,\n        itemStyle: {\n          borderColor: \"#2fffa4\",\n          borderWidth: 1,\n          color: {\n            type: \"linear\",\n            x: 0,\n            x2: 1,\n            y: 0,\n            y2: 0,\n            colorStops: [{\n                offset: 0,\n                color: \"rgba(47,255,164,.2)\"\n              },\n              {\n                offset: 0.5,\n                col",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    option = {\n      title: {\n        text: \"2019年销售水量和主营业务收入对比\",\n        textStyle: {\n          align: \"center\",\n          color: \"#fff\",\n          fontSize: 20,\n        },\n        top: \"3%\",\n        left: \"10%\",\n      },\n      backgroundColor: \"#0f375f\",\n      grid: {\n        top: \"25%\",\n        bottom: \"10%\", //也可设置left和right设置距离来控制图表的大小\n      },\n      tooltip: {\n        trigger: \"axis\",\n        axisPointer: {\n          type: \"shadow\",\n          label: {\n            show: true,\n          },\n        },\n      },\n      legend: {\n        data: [\"销售水量\", \"主营业务\"],\n        top: \"15%\",\n        textStyle: {\n          color: \"#ffffff\",\n        },\n      },\n      xAxis: {\n        type: 'category',\n        axisLine: {\n          show: true, //隐藏X轴轴线\n          lineStyle: {\n            color: \"#01FCE3\",\n          },\n        },\n        axisTick: {\n          show: true, //隐藏X轴刻度\n        },\n        axisLabel: {\n          show: true,\n          textStyle: {\n            color: \"#ebf8ac\", //X轴文字颜色\n          },\n        },\n      },\n      yAxis: [\n        {\n          type: \"value\",\n          name: \"亿元\",\n          nameTextStyle: {\n            color: \"#ebf8ac\",\n          },\n          splitLine: {\n            show: false,\n          },\n          axisTick: {\n            show: true,\n          },\n          axisLine: {\n            show: true,\n            lineStyle: {\n              color: \"#FFFFFF\",\n            },\n          },\n          axisLabel: {\n            show: true,\n            textStyle: {\n              color: \"#ebf8ac\",\n            },\n          },\n        },\n        {\n          type: \"value\",\n          name: \"同比\",\n          nameTextStyle: {\n            color: \"#ebf8ac\",\n          },\n          position: \"right\",\n          splitLine: {\n            show: false,\n          },\n          axisTick: {\n            show: false,\n          },\n          axisLine: {\n            show: false,\n          },\n          axisLabel: {\n            show: true,\n            formatter: \"{value} %\", //右侧Y轴文字显示\n       ",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    option = {\n      backgroundColor: \"#05224d\",\n      tooltip: {},\n      grid: {\n        top: \"8%\",\n        left: \"1%\",\n        right: \"1%\",\n        bottom: \"8%\",\n        containLabel: true,\n      },\n      legend: {\n        top: 'top',\n        left: 'center',\n        itemGap: 50,\n        data: [\"注册总量\", \"最新注册量\"],\n        textStyle: {\n          color: \"#f9f9f9\",\n          borderColor: \"#fff\",\n        },\n      },\n      xAxis: [{\n        type: \"category\",\n        boundaryGap: true,\n        axisLine: {\n          //坐标轴轴线相关设置。数学上的x轴\n          show: true,\n          lineStyle: {\n            color: \"#f9f9f9\",\n          },\n        },\n        axisLabel: {\n          //坐标轴刻度标签的相关设置\n          textStyle: {\n            color: \"#d1e6eb\",\n            margin: 15,\n          },\n        },\n        axisTick: {\n          show: false,\n        },\n      }, ],\n      yAxis: [{\n        type: \"value\",\n        min: 0,\n        // max: 140,\n        splitNumber: 7,\n        splitLine: {\n          show: true,\n          lineStyle: {\n            color: \"#0a3256\",\n          },\n        },\n        axisLine: {\n          show: false,\n        },\n        axisLabel: {\n          margin: 20,\n          textStyle: {\n            color: \"#d1e6eb\",\n          },\n        },\n        axisTick: {\n          show: false,\n        },\n      }, ],\n      series: [{\n          name: \"注册总量\",\n          type: \"line\",\n          // smooth: true, //是否平滑曲线显示\n          // \t\t\tsymbol:'circle',  // 默认是空心圆（中间是白色的），改成实心圆\n          showAllSymbol: true,\n          symbol: \"emptyCircle\",\n          symbolSize: 6,\n          lineStyle: {\n            normal: {\n              color: \"#28ffb3\", // 线条颜色\n            },\n            borderColor: \"#f0f\",\n          },\n          label: {\n            show: true,\n            position: \"top\",\n            textStyle: {\n              color: \"#fff\",\n            },\n          },\n          itemStyle: {\n            normal: {\n              color: \"#28ffb3\",\n            },\n          },\n          tooltip: {\n            show: ",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    option = {\n      color: [\"#fff\"],\n      title: {\n        text: \"某地区蒸发量和降水量\",\n        textStyle: {\n          color: \"#fff\",\n        },\n      },\n      legend: {\n        name: [],\n        textStyle: {\n          color: \"#fff\",\n          fontSize: 18,\n        },\n      },\n      backgroundColor: \"#08254F\",\n      // tooltip（提示框组件）\n      tooltip: {\n        //trigger(触发类型)，可选'item','axis','none'\n        trigger: \"axis\",\n        axisPointer: {\n          //指示器类型,可选'line','shadow','cross'\n          type: \"shadow\",\n        },\n      },\n      // toolbox,echarts自带工具\n      toolbox: {\n        show: true,\n        feature: {\n          dataView: { show: true, readOnly: false },\n          magicType: { show: true, type: [\"line\", \"bar\"] },\n          restore: { show: true },\n          saveAsImage: { show: true },\n        },\n      },\n      xAxis: {\n        type: \"category\",\n        axisLabel: {\n          show: true,\n          color: \"#fff\",\n          fontSize: 20,\n        },\n        splitLine: {\n          show: false,\n        },\n        axisLine: {\n          // show:false,\n          lineStyle: {\n            color: \"#FFFFFF\",\n          },\n        },\n        axisTick: {\n          show: false,\n        },\n      },\n      yAxis: [\n        {\n          name: \"降水量/蒸发量\",\n          type: \"value\",\n          splitLine: {\n            show: false,\n          },\n          //axisTick 坐标轴刻度相关设置\n          axisTick: {\n            show: true,\n          },\n          //axixLine 坐标轴轴线相关设置\n          axisLine: {\n            lineStyle: {\n              color: \"#FFFFFF\",\n            },\n          },\n          //axisLabel 坐标轴刻度标签的相关设置\n          axisLabel: {\n            show: true,\n            color: \"#fff\",\n            fontSize: 20,\n          },\n        },\n      ],\n      series: [\n        {\n          name: \"降水量\",\n          type: \"bar\",\n          barWidth: \"30%\",\n          itemStyle: {\n            color: \"#00C1FF\",\n          },\n          //markPoint 图表标注\n          markPoint: {\n            //标记图形的大小\n            symbolSiz",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    option = {\n      tooltip: {\n        trigger: \"item\",\n        formatter: function(params){\n          return `${params.seriesName}<br/>\\n${params.data[0]}:${params.data[1]}(${params.percent}%)`\n        },\n      },\n      series: [\n        {\n          name: \"库存情况\",\n          type: \"pie\",\n          radius: \"68%\",\n          center: [\"50%\", \"50%\"],\n          clockwise: false,\n          encode: {\n            name: 'product',\n            value: 'value1',\n          },\n          label: {\n            show: true,\n            color: \"#999\",\n            fontSize: 14,\n            formatter: function(param) {\n              return param.value[0]\n            },\n          },\n          labelLine: {\n            show: true,\n          },\n          itemStyle: {\n            borderWidth: 4,\n            borderColor: \"#ffffff\",\n            emphasis: {\n              borderWidth: 0,\n              shadowBlur: 10,\n              shadowOffsetX: 0,\n              shadowColor: \"rgba(0, 0, 0, 0.5)\",\n            },\n          },\n        },\n      ],\n      color: [\"#00acee\", \"#52cdd5\", \"#79d9f1\", \"#a7e7ff\", \"#c8efff\"],\n      backgroundColor: \"#fff\",\n    };    \n    ",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    option = {\n      backgroundColor: \"#2c343c\",\n      title: {\n        text: \"南丁格尔玫瑰图\",\n        left: \"center\",\n        top: 20,\n        textStyle: {\n          color: \"#ccc\",\n        },\n      },\n      tooltip: {\n        trigger: \"item\",\n        formatter: function(params) {\n          return `${params.data[0]}：${params.data[1]}(${params.percent}%)`\n        },\n      },\n      visualMap: {\n        show: false,\n        min: 500,\n        max: 600,\n        inRange: {\n          //colorLightness: [0, 1]\n        },\n      },\n      series: [{\n        name: \"访问来源\",\n        type: \"pie\",\n        radius: \"50%\",\n        center: [\"50%\", \"50%\"],\n        color: [\"rgb(131,249,103)\", \"#FBFE27\", \"#FE5050\", \"#1DB7E5\"], //'#FBFE27','rgb(11,228,96)','#FE5050'\n        encode: {\n          name: 'product',\n          value: 'value1',\n        },\n        roseType: \"radius\",\n        label: {\n          normal: {\n            formatter: [\"{c|{c}次}\", \"{b|{b}}\"].join(\"\\n\"),\n            rich: {\n              c: {\n                color: \"rgb(241,246,104)\",\n                fontSize: 20,\n                fontWeight: \"bold\",\n                lineHeight: 5,\n              },\n              b: {\n                color: \"rgb(98,137,169)\",\n                fontSize: 15,\n                height: 40,\n              },\n            },\n          },\n        },\n        labelLine: {\n          normal: {\n            lineStyle: {\n              color: \"rgb(98,137,169)\",\n            },\n            smooth: 0.2,\n            length: 10,\n            length2: 20,\n          },\n        },\n        itemStyle: {\n          normal: {\n            shadowColor: \"rgba(0, 0, 0, 0.8)\",\n            shadowBlur: 50,\n          },\n        },\n      }, ],\n    };\n    ",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    var img =\n      \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAYAAACJm/9dAAABS2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxMzggNzkuMTU5ODI0LCAyMDE2LzA5LzE0LTAxOjA5OjAxICAgICAgICAiPgogPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIi8+CiA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgo8P3hwYWNrZXQgZW5kPSJyIj8+IEmuOgAAE/9JREFUeJztnXmQVeWZxn/dIA2UgsriGmNNrEQNTqSio0IEFXeFkqi4kpngEhXjqMm4MIldkrE1bnGIMmPcUkOiIi6gJIragLKI0Songo5ZJlHGFTADaoRuhZ4/nnPmnO4+l+7bfc85d3l+VV18373n3Ptyvve53/5+da1L6jDdYjgwBhgNHALMBn6Sq0VdcxlwGvACsAx4HliTq0VlRlNzY+LrfTO2o5LoDxwOHAmMA/4WiP+KzM3DqCJpAA4K/i4F2oBXgWbgWWAxsDEv48oZC6M9Q4EJwInAMcDAfM0pOXXA14K/y4FPgQXAfOBxYF1+ppUXFgYMBiYCp6PaoU+B694HFqEmyVJgVSbW9Y6bgCeBb6Am4GHALrH3B6L/+0RgM6pFHgQeAzZkaWi5UVejfYx64AjgXOAk1OToSCtqajyFHGZlVsalzH7oB+BYJJR+Cde0oKbi3cBCYEtWxmVNoT5GrQljGHAecD7wxYT3P0bNirlIEB9lZ1ouDEICOQk1H7dLuOYt4C7gZ8Da7EzLhloXxv7AJcCZdK4dWpAIHkDt7FrtjA5A/aszkFiSntP9wAzgP7M1LT0KCaM+YzuyZixy+leAb9O+sN9AHdDd0S/mbGpXFKD/+2z0LHZHz+aN2PsN6Bm+gjrsY7M2MEuqVRhHoU7yYjS6FPI5MAc4FNgHzUN4JKYz69Cz2Qc9qzno2YUcjZ7t8iBddVSbMEYDzwFPA6Nir28Afgx8CZiERpVM91iKntnfoGcYH606BNUez6GRr6qhWoSxF/AoKsQxsdfXAj9AHe2rgNXZm1Y1/A96hl8E/pn2HfExwBJUBntlb1rpqXRhbA/cDLyGxuJDPgSuBPYErqPGx+RLzAagCT3bK9GzDpmIyuJmVDYVS6UKow74e+APwPeIxuI/AX6Emkw3opldkw6fome8F3rmnwSv90Nl8gdURhU57FmJwtgHdfx+jpZwgCag7gW+DFyDa4gsWY+e+ZdRGYSTgUNRGS1GZVZRVJIwtgF+iMbQ4/2IF4ADgHOA93Kwy4j3UBkcgMokZAwqsx+iMqwIKkUYI4AXgelEzab1wAVoNOSVnOwynXkFlckFqIxAZTYdleGInOwqinIXRh1wMfASMDL2+hxgb+BOqngdTwWzBZXN3qisQkaisryYMu97lLMwhgHzgJ+ivRGgIcJJwd8HOdllus8HROUVDu/2R2U6D5VxWVKuwjgEVcnjY689jqrhOYl3mHJmDiq7x2OvjUdlfEguFnVBOQrju2gmdbcgvwmYitbweFtm5bIGleFUVKagMn4OlXlZUU7C6A/MQqs3w9GLN4ADgZloW6apbNpQWR5ItEBxG1Tms4iazLlTLsLYCW2IOTv22iNor3Il7JQzxbEKle0jsdfORj6wUy4WdaAchDEC+A1RW3MzcAVwKtW/UaiW+QiV8RWozEE+8Bu0yzBX",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    var rich = {\n      white: {\n        color: \"#ddd\",\n        align: \"center\",\n        padding: [5, 0],\n      },\n    };\n    var seriesObj = [\n      {\n        name: \"\",\n        type: \"pie\",\n        clockWise: false,\n        radius: [195, 200],\n        hoverAnimation: false,\n        label: {\n          show: true,\n          position: \"outside\",\n          color: \"#ddd\",\n          formatter: function (params) {\n            const percent = params.percent;\n            if (!params.value[0].includes('empty')) {\n              return params.value[0] + \"\\n{white|\" + \"占比\" + percent + \"%}\";\n            } else {\n              return \"\";\n            }\n          },\n          rich: rich,\n        },\n        labelLine: {\n          show: false,\n        },\n        itemStyle: {\n          color: function(params){\n            if (params.value[0].includes('empty')) {\n              return 'rgba(0,0,0,0)'\n            } else {\n              return new echarts.graphic.LinearGradient(0, 0, 1, 1, [{\n                  offset: 0,\n                  color: \"#7777eb\",\n                },\n                {\n                  offset: 1,\n                  color: \"#70ffac\",\n                },\n              ]);\n            }\n          }\n        },\n        encode: {\n          name: 'product',\n          value: 'value1',\n        },\n      },\n    ];\n    option = {\n      backgroundColor: \"#04243E\",\n      tooltip: {\n        show: false,\n      },\n      legend: {\n        show: false,\n      },\n      toolbox: {\n        show: false,\n      },\n      series: seriesObj,\n    };\n    ",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    let angle = 0; //角度，用来做简单的动画效果的\n    let value = $Data.source[1][0];\n    option = {\n      backgroundColor: \"#061740\",\n      title: {\n        text: \"{a|\" + value + \"}{c|%}\",\n        x: \"center\",\n        y: \"center\",\n        textStyle: {\n          rich: {\n            a: {\n              fontSize: 48,\n              color: \"#29EEF3\",\n            },\n\n            c: {\n              fontSize: 20,\n              color: \"#ffffff\",\n              // padding: [5,0]\n            },\n          },\n        },\n      },\n      legend: {\n        type: \"plain\",\n        orient: \"vertical\",\n        right: 0,\n        top: \"10%\",\n        align: \"auto\",\n        data: [\n          {\n            name: \"涨价后没吃过\",\n            icon: \"circle\",\n          },\n          {\n            name: \"天天吃\",\n            icon: \"circle\",\n          },\n          {\n            name: \"三五天吃一次\",\n            icon: \"circle\",\n          },\n          {\n            name: \"半个月吃一次\",\n            icon: \"circle\",\n          },\n        ],\n        textStyle: {\n          color: \"white\",\n          fontSize: 16,\n          padding: [10, 1, 10, 0],\n        },\n        selectedMode: false,\n      },\n      series: [\n        {\n          name: \"ring5\",\n          type: \"custom\",\n          coordinateSystem: \"none\",\n          renderItem: function (params, api) {\n            return {\n              type: \"arc\",\n              shape: {\n                cx: api.getWidth() / 2,\n                cy: api.getHeight() / 2,\n                r: (Math.min(api.getWidth(), api.getHeight()) / 2) * 0.6,\n                startAngle: ((0 + angle) * Math.PI) / 180,\n                endAngle: ((90 + angle) * Math.PI) / 180,\n              },\n              style: {\n                stroke: \"#0CD3DB\",\n                fill: \"transparent\",\n                lineWidth: 1.5,\n              },\n              silent: true,\n            };\n          },\n          data: [0],\n        },\n        {\n          name: \"ring5\",\n          type: \"custom\",\n          coordinateSystem: \"none\",\n          re",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    const value = $Data.source[1][0]\n    option = {\n      title: {\n        text: `${value}%`,\n        x: \"center\",\n        y: \"center\",\n        textStyle: {\n          fontWeight: \"normal\",\n          color: \"#0580f2\",\n          fontSize: \"90\",\n        },\n      },\n      color: [\"rgba(176, 212, 251, 1)\"],\n      legend: {\n        top: \"top\",\n        left: \"center\",\n        show: true,\n        itemGap: 12,\n      },\n      series: [{\n        name: \"Line 1\",\n        type: \"pie\",\n        clockWise: true,\n        radius: [\"50%\", \"66%\"],\n        label: {\n          show: false,\n        },\n        labelLine: {\n          show: false,\n        },\n        itemStyle: {\n          color: function(params) {\n            if (params.dataIndex === 0) {\n              return {\n                // 完成的圆环的颜色\n                colorStops: [{\n                    offset: 0,\n                    color: \"#00cefc\", // 0% 处的颜色\n                  },\n                  {\n                    offset: 1,\n                    color: \"#367bec\", // 100% 处的颜色\n                  },\n                ],\n              };\n            } else {\n              return params.color\n            }\n          }\n        },\n        hoverAnimation: false,\n        data: [value, 100 - value]\n      }, ],\n    };\n    ",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    const color = [\n      \"#8d7fec\",\n      \"#5085f2\",\n      \"#e75fc3\",\n      \"#f87be2\",\n      \"#f2719a\",\n      \"#fca4bb\",\n      \"#f59a8f\",\n      \"#fdb301\",\n      \"#57e7ec\",\n      \"#cf9ef1\",\n      \"#57e7ec\",\n      \"#cf9ef1\",\n    ];\n    option = {\n      title: [{\n          text: \"标题\",\n          textStyle: {\n            fontSize: 16,\n            color: \"black\",\n          },\n          left: \"2%\",\n        },\n        {\n          text: \"合计\",\n          subtext: 12312 + \"个\",\n          textStyle: {\n            fontSize: 20,\n            color: \"black\",\n          },\n          subtextStyle: {\n            fontSize: 20,\n            color: \"black\",\n          },\n          textAlign: \"center\",\n          x: \"34.5%\",\n          y: \"44%\",\n        },\n      ],\n      tooltip: {\n        trigger: \"item\",\n        formatter: function(parms) {\n          debugger\n          var str =\n            parms.seriesName +\n            \"</br>\" +\n            parms.marker +\n            \"\" +\n            parms.data[0] +\n            parms.data[1] +\n            \"</br>\" +\n            \"数量：\" +\n            parms.data[1] +\n            \"</br>\" +\n            \"占比：\" +\n            parms.percent +\n            \"%\";\n          return str;\n        },\n      },\n      legend: {\n        type: \"scroll\",\n        orient: \"vertical\",\n        left: \"70%\",\n        align: \"left\",\n        top: \"middle\",\n        textStyle: {\n          color: \"#8C8C8C\",\n        },\n        height: 250,\n      },\n      series: [{\n        name: \"标题\",\n        type: \"pie\",\n        center: [\"35%\", \"50%\"],\n        radius: [\"40%\", \"65%\"],\n        clockwise: false, //饼图的扇区是否是顺时针排布\n        avoidLabelOverlap: false,\n        label: {\n          show: true,\n          position: \"outter\",\n          formatter: function(parms) {\n            return parms.data.legendname;\n          },\n        },\n        labelLine: {\n          normal: {\n            length: 5,\n            length2: 3,\n            smooth: true,\n          },\n        },\n        itemStyle: {\n          color: function(",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    let count = 0;\n    $Data.source.forEach((item, index) => {\n      if (index === 0) {\n        return\n      }\n      count += Number(item[1]);\n    });\n    option = {\n      backgroundColor: \"#03141c\",\n      title: {\n        text: `${($Data.source[1][1] / count * 100).toFixed(2)}%`,\n        subtext: \"完成部门占比\",\n        x: \"center\",\n        y: \"center\",\n        textStyle: {\n          color: \"#fff\",\n          fontSize: 30,\n          fontWeight: \"normal\",\n        },\n        subtextStyle: {\n          color: \"rgba(255,255,255,.45)\",\n          fontSize: 14,\n          fontWeight: \"normal\",\n        },\n      },\n      tooltip: {\n        trigger: \"item\",\n        formatter: \"{a} <br/>{b} : {c} ({d}%)\",\n      },\n      legend: {\n        x: \"center\",\n        y: \"bottom\",\n      },\n      calculable: true,\n      series: [{\n          name: \"面积模式\",\n          type: \"pie\",\n          radius: [100, 130],\n          center: [\"50%\", \"50%\"],\n          encode: {\n            name: \"product\",\n            value: \"value1\",\n          },\n          label: {\n            color: \"#fff\",\n            fontSize: 20,\n            lineHeight: 30,\n            formatter: function(param) {\n              return `完成梳理部门\\n${param.value[1]}个`\n            },\n          },\n          itemStyle: {\n            color: function(params) {\n              if (params.dataIndex === 0) {\n                return new echarts.graphic.LinearGradient(0, 1, 0, 0, [{\n                    offset: 0,\n                    color: \"#f6e3a1\",\n                  },\n                  {\n                    offset: 1,\n                    color: \"#ff4236\",\n                  },\n                ]);\n              } else {\n                return \"transparent\"\n              }\n            }\n          },\n        },\n        {\n          name: \"面积模式\",\n          type: \"pie\",\n          radius: [110, 120],\n          center: [\"50%\", \"50%\"],\n          encode: {\n            name: \"product\",\n            value: \"value2\",\n          },\n          itemStyle: {\n            color:",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    var color = new echarts.graphic.LinearGradient(0, 0, 1, 0, [{\n        offset: 0,\n        color: \"#5CF9FE\", // 0% 处的颜色\n      },\n      {\n        offset: 0.17,\n        color: \"#468EFD\", // 100% 处的颜色\n      },\n      {\n        offset: 0.9,\n        color: \"#468EFD\", // 100% 处的颜色\n      },\n      {\n        offset: 1,\n        color: \"#468EFD\", // 100% 处的颜色\n      },\n    ]);\n    var colorSet = [\n      [0.91, color],\n      [1, \"#468EFD\"],\n    ];\n    var rich = {\n      white: {\n        fontSize: 50,\n        color: \"#fff\",\n        fontWeight: \"500\",\n        padding: [-150, 0, 0, 0],\n      },\n      bule: {\n        fontSize: 120,\n        fontFamily: \"DINBold\",\n        color: \"#fff\",\n        fontWeight: \"700\",\n        padding: [-120, 0, 0, 0],\n      },\n      radius: {\n        width: 350,\n        height: 80,\n        // lineHeight:80,\n        borderWidth: 1,\n        borderColor: \"#0092F2\",\n        fontSize: 50,\n        color: \"#fff\",\n        backgroundColor: \"#1B215B\",\n        borderRadius: 20,\n        textAlign: \"center\",\n      },\n      size: {\n        height: 400,\n        padding: [100, 0, 0, 0],\n      },\n    };\n    option = {\n      backgroundColor: \"#0E1327\",\n      tooltip: {\n        formatter: \"{a} <br/>{b} : {c}%\",\n      },\n    \n      series: [{\n          //内圆\n          type: \"pie\",\n          radius: \"85%\",\n          center: [\"50%\", \"50%\"],\n          z: 0,\n          itemStyle: {\n            normal: {\n              color: new echarts.graphic.RadialGradient(\n                0.5,\n                0.5,\n                1,\n                [{\n                    offset: 0,\n                    color: \"rgba(17,24,43,0)\",\n                  },\n                  {\n                    offset: 0.5,\n                    // color: '#1E2B57'\n                    color: \"rgba(28,42,91,.6)\",\n                  },\n                  {\n                    offset: 1,\n                    color: \"#141C33\",\n                    // color:'rgba(17,24,43,0)'\n                  },\n                ],\n            ",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    var placeHolderStyle = {\n      label: {\n        show: false,\n      },\n      labelLine: {\n        show: false,\n      },\n      color: \"rgba(0,0,0,0)\",\n      borderWidth: 0,\n      emphasis: {\n        color: \"rgba(0,0,0,0)\",\n        borderWidth: 0,\n      },\n    };\n    var dataStyle = {\n      normal: {\n        formatter: \"{c}%\",\n        position: \"center\",\n        show: true,\n        textStyle: {\n          fontSize: \"40\",\n          fontWeight: \"normal\",\n          color: \"#34374E\",\n        },\n      },\n    };\n    option = {\n      backgroundColor: \"#fff\",\n      title: [\n        {\n          text: \"正面评论\",\n          left: \"29.8%\",\n          top: \"60%\",\n          textAlign: \"center\",\n          textStyle: {\n            fontWeight: \"normal\",\n            fontSize: \"16\",\n            color: \"#AAAFC8\",\n            textAlign: \"center\",\n          },\n        },\n        {\n          text: \"负面评论\",\n          left: \"70%\",\n          top: \"60%\",\n          textAlign: \"center\",\n          textStyle: {\n            color: \"#AAAFC8\",\n            fontWeight: \"normal\",\n            fontSize: \"16\",\n            textAlign: \"center\",\n          },\n        },\n      ],\n      //第一个图表\n      series: [\n        {\n          type: \"pie\",\n          hoverAnimation: false, //鼠标经过的特效\n          radius: [\"25%\", \"30%\"],\n          center: [\"30%\", \"50%\"],\n          startAngle: 225,\n          endAngle: 315,\n          ...placeHolderStyle,\n          itemStyle: {\n            color: function(params){\n              if(params.dataIndex === 0) {\n                return \"#E1E8EE\"\n              } else {\n                return params.color\n              }\n            }\n          },\n          data: [{\n            value: 100,\n            itemStyle: {\n              color: \"#E1E8EE\",\n            },\n          },\n        ],\n        },\n        //上层环形配置\n        {\n          type: \"pie\",\n          hoverAnimation: false, //鼠标经过的特效\n          radius: [\"25%\", \"30%\"],\n          center: [\"30%\", \"50%\"],\n          startAngle: 225,\n          endAngle",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    option = {\n      backgroundColor: \"#424956\",\n      tooltip: {\n        trigger: \"item\",\n        formatter: \"{a} <br/>{b}: {c} ({d}%)\",\n      },\n      legend: {\n        orient: \"vertical\",\n        x: \"right\",\n        itemWidth: 14,\n        itemHeight: 14,\n        align: \"left\",\n        textStyle: {\n          color: \"#fff\",\n        },\n      },\n      series: [{\n          name: \"访问来源\",\n          type: \"pie\",\n          hoverAnimation: false,\n          legendHoverLink: false,\n          radius: [\"40%\", \"42%\"],\n          color: [\n            \"#915872\",\n            \"#3077b7\",\n            \"#9a8169\",\n            \"#3f8797\",\n            \"#5b8144\",\n            \"#307889\",\n            \"#9c6a79\",\n          ],\n          label: {\n            normal: {\n              position: \"inner\",\n            },\n          },\n          labelLine: {\n            normal: {\n              show: false,\n            },\n          },\n          tooltip: {\n            show: false,\n          },\n          encode: {\n            name: \"product\",\n            value: \"value2\",\n          },\n        },\n        {\n          name: \"访问来源\",\n          type: \"pie\",\n          radius: [\"42%\", \"55%\"],\n          color: [\n            \"#d74e67\",\n            \"#0092ff\",\n            \"#eba954\",\n            \"#21b6b9\",\n            \"#60a900\",\n            \"#01949b\",\n            \"#f17677\",\n          ],\n          label: {\n            normal: {\n              formatter: \"{b}\\n{d}%\",\n            },\n          },\n        },\n      ],\n    };\n    ",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    let num = 0;\n    option = {\n      backgroundColor: \"#111\",\n      title: [{\n          text: \"SPEED\",\n          x: \"center\",\n          top: \"52%\",\n          textStyle: {\n            color: \"#fdf914\",\n            fontSize: 20,\n            fontWeight: \"100\",\n          },\n        },\n        {\n          text: `${$Data.source[1][0]}%`,\n          x: \"center\",\n          top: \"42%\",\n          textStyle: {\n            fontSize: \"50\",\n            color: \"#fdf914\",\n            fontFamily: \"Lato\",\n            foontWeight: \"600\",\n          },\n        },\n      ],\n      polar: {\n        radius: [\"44%\", \"50%\"],\n        center: [\"50%\", \"50%\"],\n      },\n      angleAxis: {\n        max: 100,\n        show: false,\n      },\n      radiusAxis: {\n        type: \"category\",\n        show: true,\n        axisLabel: {\n          show: false,\n        },\n        axisLine: {\n          show: false,\n        },\n        axisTick: {\n          show: false,\n        },\n      },\n      series: [{\n          name: \"\",\n          type: \"bar\",\n          // roundCap: true,\n          barWidth: 60,\n          showBackground: true,\n          backgroundStyle: {\n            color: \"rgba(66, 66, 66, .3)\",\n          },\n          data: [$Data.source[1][0]],\n          coordinateSystem: \"polar\",\n          itemStyle: {\n            normal: {\n              color: new echarts.graphic.LinearGradient(0, 1, 0, 0, [{\n                  offset: 0,\n                  color: \"#fdf914\",\n                },\n                {\n                  offset: 1,\n                  color: \"#38a700\",\n                },\n              ]),\n            },\n          },\n        },\n        {\n          type: \"gauge\",\n          name: \"\",\n          radius: \"57%\",\n          startAngle: \"0\",\n          endAngle: \"-359.99\",\n          splitNumber: \"200\",\n          center: [\"50%\", \"50%\"],\n          pointer: {\n            show: false,\n          },\n          title: {\n            show: false,\n          },\n          detail: {\n            show: false,\n          },\n        ",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    option = {\n      title: {\n        text: \"CPU分配率\",\n        top: \"85%\",\n        left: \"42%\",\n        textStyle: {\n          fontSize: 28,\n          fontWeight: \"bold\",\n          color: \"#bcbfff\",\n        },\n      },\n      tooltip: {\n        trigger: \"item\",\n        formatter: \"{a} : ({d}%)\",\n      },\n      series: [{\n          name: \"CPU分配率 内圈\",\n          center: [\"50%\", \"50%\"],\n          radius: [\"54%\", \"50%\"],\n          clockWise: false,\n          hoverAnimation: false,\n          type: \"pie\",\n          data: [Number($Data.source[1][0]), 100 - Number($Data.source[1][0])],\n          label: {\n            show: true,\n            formatter: function(params) {\n              if (params.dataIndex === 0) {\n                return `${params.value}%`\n              } else {\n                return \"\"\n              }\n            },\n            textStyle: {\n              fontSize: 28,\n              fontWeight: \"bold\",\n            },\n            position: \"center\",\n          },\n          labelLine: {\n            show: false,\n          },\n          itemStyle: {\n            color: function(params) {\n              if (params.dataIndex === 0) {\n                return new echarts.graphic.LinearGradient(0, 0, 0, 1, [{\n                    offset: 0,\n                    color: \"#00a2ff\",\n                  },\n                  {\n                    offset: 1,\n                    color: \"#70ffac\",\n                  },\n                ]);\n              } else {\n                return \"rgba(0, 0, 0, 0)\"\n              }\n            },\n            emphasis: {\n              color: \"#5886f0\",\n              borderColor: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{\n                  offset: 0,\n                  color: \"#85b6b2\",\n                },\n                {\n                  offset: 1,\n                  color: \"#6d4f8d\",\n                },\n              ]),\n              borderWidth: 25,\n            },\n          },\n        },\n        {\n          name: \"CPU分配率 外圈\",\n          center: ",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    let value = Number($Data.source[1][0]);\n    let title = \"vision\";\n    let int = value.toFixed(2).split(\".\")[0];\n    let float = value.toFixed(2).split(\".\")[1];\n    option = {\n      backgroundColor: \"#020f18\",\n      title: {\n        text: \"{a|\" + int + \"}{b|.\" + float + \"}\\n{c|\" + title + \"}\",\n        x: \"center\",\n        y: \"center\",\n        textStyle: {\n          rich: {\n            a: {\n              fontSize: 48,\n              color: \"#fff\",\n              fontWeight: \"600\",\n            },\n            b: {\n              fontSize: 20,\n              color: \"#fff\",\n              padding: [0, 0, 14, 0],\n            },\n            c: {\n              fontSize: 20,\n              color: \"#fff\",\n              padding: [5, 0],\n            },\n          },\n        },\n      },\n      series: [{\n          type: \"gauge\",\n          radius: \"60%\",\n          clockwise: false,\n          startAngle: \"90\",\n          endAngle: \"-269.9999\",\n          splitNumber: 30,\n          detail: {\n            offsetCenter: [0, -20],\n            formatter: \" \",\n          },\n          pointer: {\n            show: false,\n          },\n          axisLine: {\n            show: true,\n            lineStyle: {\n              color: [\n                [0, \"#2CFAFC\"],\n                [36.7 / 100, \"#0ff\"],\n                [1, \"#0f232e\"],\n              ],\n              width: 20,\n            },\n          },\n          axisTick: {\n            show: false,\n          },\n          splitLine: {\n            show: true,\n            length: 100,\n            lineStyle: {\n              shadowBlur: 10,\n              shadowColor: \"rgba(0, 255, 255, 1)\",\n              shadowOffsetY: \"0\",\n              color: \"#020f18\",\n              width: 2,\n            },\n          },\n          axisLabel: {\n            show: false,\n          },\n        },\n        {\n          type: \"pie\",\n          radius: [\"44%\", \"45%\"],\n          hoverAnimation: false,\n          clockWise: false,\n          itemStyle: {\n            normal: {\n            ",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    option = {\n      backgroundColor: \"#000\",\n      animation: true,\n      title: {\n        text: 24,\n        subtext: \"沥青工\",\n        x: \"center\",\n        y: \"center\",\n        textStyle: {\n          color: \"#fff\",\n          fontSize: 60,\n          fontWeight: \"normal\",\n          align: \"center\",\n          width: \"200px\",\n        },\n        subtextStyle: {\n          color: \"#fff\",\n          fontSize: 20,\n          fontWeight: \"normal\",\n          align: \"center\",\n        },\n      },\n      legend: {\n        width: \"70%\",\n        left: \"center\",\n        textStyle: {\n          color: \"#fff\",\n          fontSize: 16,\n        },\n        icon: \"circle\",\n        right: \"0\",\n        bottom: \"0\",\n        padding: [30, 60],\n        itemGap: 40,\n      },\n      series: [\n        {\n          type: \"pie\",\n          center: [\"50%\", \"50%\"],\n          radius: [\"40%\", \"53%\"],\n          color: [\n            \"#FEE449\",\n            \"#00FFFF\",\n            \"#00FFA8\",\n            \"#9F17FF\",\n            \"#FFE400\",\n            \"#F76F01\",\n            \"#01A4F7\",\n            \"#FE2C8A\",\n          ],\n          startAngle: 135,\n          labelLine: {\n            normal: {\n              length: 25,\n            },\n          },\n          label: {\n            normal: {\n              formatter: \"{b|{b}:}  {per|{d}%} \",\n              backgroundColor: \"rgba(255, 147, 38, 0)\",\n              borderColor: \"transparent\",\n              borderRadius: 4,\n              rich: {\n                a: {\n                  color: \"#999\",\n                  lineHeight: 22,\n                  align: \"center\",\n                },\n                hr: {\n                  borderColor: \"#aaa\",\n                  width: \"100%\",\n                  borderWidth: 1,\n                  height: 0,\n                },\n                b: {\n                  color: \"#b3e5ff\",\n                  fontSize: 16,\n                  lineHeight: 33,\n                },\n                c: {\n                  fontSize: 14,\n                  color: \"#eee\",\n ",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    let value = Number($Data.source[1][0]);\n    let title = \"超期率\";\n    let int = value.toFixed(2).split(\".\")[0];\n    let float = value.toFixed(2).split(\".\")[1];\n    option = {\n      backgroundColor: \"#051F54\",\n      title: {\n        text: \"{a|\" + int + \"}{b|.\" + float + \"}\\n{c|\" + title + \"}\",\n        x: \"center\",\n        y: \"center\",\n        textStyle: {\n          rich: {\n            a: {\n              fontSize: 48,\n              color: \"#29EEF3\",\n            },\n            b: {\n              fontSize: 20,\n              color: \"#29EEF3\",\n              padding: [0, 0, 14, 0],\n            },\n            c: {\n              fontSize: 20,\n              color: \"#ffffff\",\n              padding: [5, 0],\n            },\n          },\n        },\n      },\n      series: [{\n          type: \"gauge\",\n          radius: \"60%\",\n          clockwise: false,\n          startAngle: 90,\n          endAngle: -270,\n          splitNumber: 25,\n          detail: {\n            offsetCenter: [0, -20],\n            formatter: \" \",\n          },\n          pointer: {\n            show: false,\n          },\n          axisLine: {\n            show: true,\n            lineStyle: {\n              color: [\n                [0, \"#2CFAFC\"],\n                [value / 100, \"#1DE2A4\"],\n                [1, \"rgba(32,187,252,0.15)\"],\n              ],\n              width: 30,\n            },\n          },\n          axisTick: {\n            show: false,\n          },\n          splitLine: {\n            show: true,\n            length: 30,\n            distance: -30,\n            lineStyle: {\n              color: \"#051F54\",\n              width: 6,\n            },\n          },\n          axisLabel: {\n            show: false,\n          },\n        },\n        {\n          type: \"pie\",\n          name: \"内层细圆环\",\n          radius: [\"43%\", \"45%\"],\n          hoverAnimation: false,\n          clockWise: false,\n          itemStyle: {\n            color: \"#0C355E\",\n          },\n          label: {\n            show: false,\n          },\n          data: ",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    var dataArr = Number($Data.source[1][0]);\n    var colorSet = {\n      color: \"#468EFD\",\n    };\n    option = {\n      backgroundColor: \"#0E1327\",\n      tooltip: {\n        formatter: \"{a} <br/>{b} : {c}%\",\n      },\n      series: [{\n          name: \"内部进度条\",\n          type: \"gauge\",\n          // center: ['20%', '50%'],\n          radius: \"40%\",\n          splitNumber: 10,\n          axisLine: {\n            lineStyle: {\n              color: [\n                [dataArr / 100, colorSet.color],\n                [1, \"#111F42\"],\n              ],\n              width: 8,\n            },\n          },\n          axisLabel: {\n            show: false,\n          },\n          axisTick: {\n            show: false,\n          },\n          splitLine: {\n            show: false,\n          },\n          itemStyle: {\n            show: false,\n          },\n          encode: {\n            name: \"product\",\n            value: \"value1\"\n          },\n          detail: {\n            formatter: function(value) {\n              if (value !== 0) {\n                var num = Math.round(value);\n                return parseInt(num).toFixed(0) + \"%\";\n              } else {\n                return 0;\n              }\n            },\n            offsetCenter: [0, 82],\n            textStyle: {\n              padding: [0, 0, 0, 0],\n              fontSize: 18,\n              fontWeight: \"700\",\n              color: colorSet.color,\n            },\n          },\n          title: {\n            //标题\n            show: true,\n            offsetCenter: [0, 46], // x, y，单位px\n            textStyle: {\n              color: \"#fff\",\n              fontSize: 14, //表盘上的标题文字大小\n              fontWeight: 400,\n              fontFamily: \"PingFangSC\",\n            },\n          },\n          pointer: {\n            show: true,\n            length: \"75%\",\n            radius: \"20%\",\n            width: 10, //指针粗细\n          },\n          animationDuration: 4000,\n        },\n        {\n          name: \"外部刻度\",\n          type: \"gauge\",\n          //  center: ['20%',",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    var labelData = [];\n    var labelData1 = [];\n    const data = $Data.source[1][0];\n    for (var i = 0; i < 150; ++i) {\n      labelData.push({\n        value: 1,\n        name: i,\n        itemStyle: {\n          normal: {\n            color: 'rgba(0,209,228,0)',\n          }\n        }\n      });\n    }\n    for (var i = 0; i < labelData.length; ++i) {\n      if (labelData[i].name < 50) {\n        labelData[i].itemStyle = {\n          normal: {\n            color: new echarts.graphic.LinearGradient(\n              0, 1, 0, 0,\n              [{\n                  offset: 0,\n                  color: '#6dfbff'\n                },\n                {\n                  offset: 1,\n                  color: '#02aeff'\n                }\n              ]\n            )\n          },\n        }\n      }\n    }\n    for (var i = 0; i < 150; ++i) {\n      labelData1.push({\n        value: 1,\n        name: i,\n        itemStyle: {\n          normal: {\n            color: 'rgba(0,209,228,0)',\n          }\n        }\n      });\n    }\n    for (var i = 0; i < labelData1.length; ++i) {\n      if (labelData1[i].name < 150) {\n        labelData1[i].itemStyle = {\n          normal: {\n            color: '#464451',\n          },\n        }\n      }\n    }\n\n    function Pie() {\n      let dataArr = [];\n      for (var i = 0; i < 100; i++) {\n        if (i % 10 === 0) {\n          dataArr.push({\n            name: (i + 1).toString(),\n            value: 30,\n            itemStyle: {\n              normal: {\n                color: \"rgba(0,255,255,1)\",\n                borderWidth: 0,\n                borderColor: \"rgba(0,0,0,0)\",\n              }\n            }\n          })\n        } else {\n          dataArr.push({\n            name: (i + 1).toString(),\n            value: 100,\n            itemStyle: {\n              normal: {\n                color: \"rgba(0,0,0,0)\",\n                borderWidth: 0,\n                borderColor: \"rgba(0,0,0,0)\"\n              }\n            }\n          })\n        }\n      }\n      return dataArr\n    }\n\n    function Pie",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    option = {\n        backgroundColor: \"#0E1327\",\n        series: [\n          {\n            type: \"gauge\",\n            z: 100,\n            axisLine: {\n              lineStyle: {\n                width: 5,\n                color: [\n                  [\n                    0.3,\n                    new echarts.graphic.LinearGradient(0, 1, 1, 0, [\n                      {\n                        offset: 0,\n                        color: \"rgba(0, 237, 3,0.1)\",\n                      },\n                      {\n                        offset: 0.5,\n                        color: \"rgba(0, 237, 3,0.6)\",\n                      },\n                      {\n                        offset: 1,\n                        color: \"rgba(0, 237, 3,1)\",\n                      },\n                    ]),\n                  ],\n                  [\n                    0.7,\n                    new echarts.graphic.LinearGradient(0, 1, 1, 0, [\n                      {\n                        offset: 0,\n                        color: \"rgba(255, 184, 0,0.1)\",\n                      },\n                      {\n                        offset: 0.5,\n                        color: \"rgba(255, 184, 0,0.6)\",\n                      },\n                      {\n                        offset: 1,\n                        color: \"rgba(255, 184, 0,1)\",\n                      },\n                    ]),\n                  ],\n                  [\n                    1,\n                    new echarts.graphic.LinearGradient(0, 1, 1, 0, [\n                      {\n                        offset: 0,\n                        color: \"rgba(175, 36, 74,0.1)\",\n                      },\n                      {\n                        offset: 0.5,\n                        color: \"rgba(255, 36, 74,0.6)\",\n                      },\n                      {\n                        offset: 1,\n                        color: \"rgba(255, 36, 74,1)\",\n                      },\n                    ]),\n                  ],\n                ],\n              },\n    ",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    var getmax = 100;\n    var getvalue = 33;\n    option = {\n    backgroundColor: \"#FFFFFF\",\n    title: [{\n        text: \"全校承担本科教学任务的教授比率\",\n        bottom: \"6%\",\n        x: \"center\",\n        borderColor: \"#1598FF\",\n        borderWidth: 1,\n        borderRadius: 15,\n        backgroundColor: \"#1598FF\",\n        padding: [7, 14],\n        textStyle: {\n        fontWeight: \"bold\",\n        fontSize: 13,\n        color: \"#fff\",\n        },\n    }, ],\n    angleAxis: {\n        show: false,\n        max: (getmax * 360) / 270, //-45度到225度，二者偏移值是270度除360度\n        type: \"value\",\n        startAngle: 225, //极坐标初始角度\n        splitLine: {\n        show: false,\n        },\n    },\n    barMaxWidth: 20, //圆环宽度\n    radiusAxis: {\n        show: false,\n        type: \"category\",\n    },\n    //圆环位置和大小\n    polar: {\n        center: [\"50%\", \"50%\"],\n        radius: \"120%\",\n    },\n    series: [{\n        type: \"bar\",\n        itemStyle: {\n            color: \"#1598FF\",\n        },\n        barGap: \"-100%\", //柱间距离,上下两层圆环重合\n        coordinateSystem: \"polar\",\n        roundCap: true, //顶端圆角\n        z: 3, //圆环层级，同zindex\n        },\n        {\n        //下层圆环，显示最大值\n        type: \"bar\",\n        data: [{\n            value: getmax,\n            itemStyle: {\n            color: \"#1598FF\",\n            opacity: 0.2,\n            borderWidth: 0,\n            },\n        }, ],\n        barGap: \"-100%\",\n        coordinateSystem: \"polar\",\n        roundCap: true,\n        z: 1,\n        },\n        //仪表盘\n        {\n        type: \"gauge\",\n        startAngle: 225, //起始角度，同极坐标\n        endAngle: -45, //终止角度，同极坐标\n        axisLine: {\n            show: false,\n        },\n        splitLine: {\n            show: false,\n        },\n        axisTick: {\n            show: false,\n        },\n        axisLabel: {\n            show: false,\n        },\n        splitLabel: {\n            show: false,\n        },\n        pointer: {\n            // 分隔线\n            shadowColor: \"auto\", //默认透明\n            shadowBlur: 5,\n            length: \"50%\",\n            width: \"2\",\n  ",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    var colorSet = {\n      color: \"#468EFD\",\n    };\n    var text;\n    var option = {\n      backgroundColor: \"#000\",\n      title: {\n        show: true,\n        text: \"优\",\n        x: \"49%\",\n        y: \"55%\",\n        z: 8,\n        textAlign: \"center\",\n        textStyle: {\n          color: \" rgb(147,169,205) \",\n          fontSize: 26,\n        },\n    },\n    series: [{\n        name: \"内部进度条\",\n        type: \"gauge\",\n        // center: ['20%', '50%'],\n        radius: \"60%\",\n        splitNumber: 10,\n        axisLine: {\n          lineStyle: {\n            color: [\n              [0, colorSet.color],\n              [1, \"#111F42\"],\n            ],\n            width: 14,\n          },\n        },\n        axisLabel: {\n          show: false,\n        },\n        axisTick: {\n          show: false,\n        },\n        splitLine: {\n          show: false,\n        },\n\n        pointer: {\n          show: false,\n        },\n      },\n      {\n        name: \"外部刻度\",\n        type: \"gauge\",\n        //  center: ['20%', '50%'],\n        radius: \"70%\",\n        min: 0, //最小刻度\n        max: 100, //最大刻度\n        splitNumber: 10, //刻度数量\n        startAngle: 225,\n        endAngle: -45,\n        axisLine: {\n          show: true,\n          lineStyle: {\n            width: 1,\n            color: [\n              [1, \"rgba(0,0,0,0)\"]\n            ],\n          },\n        },\n        //仪表盘轴线\n        axisLabel: {\n          show: true,\n          color: \"#4d5bd1\",\n          distance: 25,\n          formatter: function(v) {\n            switch (v + \"\") {\n              case \"0\":\n                return \"0\";\n              case \"10\":\n                return \"10\";\n              case \"20\":\n                return \"20\";\n              case \"30\":\n                return \"30\";\n              case \"40\":\n                return \"40\";\n              case \"50\":\n                return \"50\";\n              case \"60\":\n                return \"60\";\n              case \"70\":\n                return \"70\";\n              case \"80\":\n                return \"80\";\n    ",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    var color = new echarts.graphic.LinearGradient(0, 0, 1, 0, [{\n        offset: 0,\n        color: \"#5CF9FE\", // 0% 处的颜色\n      },\n      {\n        offset: 0.17,\n        color: \"#468EFD\", // 100% 处的颜色\n      },\n      {\n        offset: 0.9,\n        color: \"#468EFD\", // 100% 处的颜色\n      },\n      {\n        offset: 1,\n        color: \"#5CF9FE\", // 100% 处的颜色\n      },\n    ]);\n    var colorSet = [\n      [1, color],\n      // [0.91, color],\n      // [1, '#FFF']\n    ];\n    var rich = {\n      white: {\n        fontSize: 50,\n        color: \"#fff\",\n        fontWeight: \"500\",\n        padding: [-150, 0, 0, 0],\n      },\n      bule: {\n        fontSize: 70,\n        fontFamily: \"DINBold\",\n        color: \"#fff\",\n        fontWeight: \"700\",\n        padding: [-120, 0, 0, 0],\n      },\n      radius: {\n        width: 350,\n        height: 80,\n        // lineHeight:80,\n        borderWidth: 1,\n        borderColor: \"#0092F2\",\n        fontSize: 50,\n        color: \"#fff\",\n        backgroundColor: \"#1B215B\",\n        borderRadius: 20,\n        textAlign: \"center\",\n      },\n      size: {\n        height: 400,\n        padding: [100, 0, 0, 0],\n      },\n    };\n    option = {\n      backgroundColor: \"#0E1327\",\n      tooltip: {\n        formatter: \"{a} <br/>{b} : {c}%\",\n      },\n    \n      series: [{\n          type: \"gauge\",\n          name: \"外层辅助\",\n          radius: \"74%\",\n          startAngle: \"225\",\n          endAngle: \"-45\",\n          splitNumber: \"120\",\n          pointer: {\n            show: false,\n          },\n          detail: {\n            show: false,\n          },\n          data: [{\n            value: 1,\n          }, ],\n          // data: [{value: 1, name: 90}],\n          title: {\n            show: true,\n            offsetCenter: [0, 30],\n            textStyle: {\n              color: \"#fff\",\n              fontStyle: \"normal\",\n              fontWeight: \"normal\",\n              fontFamily: \"微软雅黑\",\n              fontSize: 20,\n            },\n          },\n          axisLine: {\n            show: true,\n          ",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    var colorSet = {\n      color: \"#22B95E\",\n    };\n    var color1 = {\n      type: \"linear\",\n      x: 0,\n      y: 0,\n      x2: 1,\n      y2: 1,\n      colorStops: [{\n          offset: 0,\n          color: \"rgba(255,255,255,0.1)\",\n        },\n        {\n          offset: 1,\n          color: \"rgba(255,255,255,0.3)\",\n        },\n      ],\n      global: false,\n    };\n    var color2 = {\n      type: \"linear\",\n      x: 0,\n      y: 0,\n      x2: 1,\n      y2: 1,\n      colorStops: [{\n          offset: 0,\n          color: \"#30DBBA\",\n        },\n        {\n          offset: 1,\n          color: \"#2DE696\",\n        },\n      ],\n      global: false,\n    };\n    \n    option = {\n      backgroundColor: \"#0E1327\",\n      tooltip: {\n        formatter: \"{a} <br/>{b} : {c}%\",\n      },\n      series: [{\n          name: \"内部进度条\",\n          type: \"gauge\",\n          // center: ['20%', '50%'],\n          radius: \"52%\",\n          splitNumber: 10,\n          axisLine: {\n            lineStyle: {\n              color: [\n                [0, colorSet.color],\n                [1, colorSet.color],\n              ],\n              width: 2,\n            },\n          },\n          axisLabel: {\n            show: false,\n          },\n          axisTick: {\n            show: false,\n          },\n          splitLine: {\n            show: false,\n          },\n          itemStyle: {\n            color: \"#ffffff\",\n          },\n          detail: {\n            show: false,\n            formatter: function(value) {\n              if (value !== 0) {\n                var num = Math.round(value);\n                return parseInt(num).toFixed(0) + \"%\";\n              } else {\n                return 0;\n              }\n            },\n            offsetCenter: [0, 67],\n            textStyle: {\n              padding: [0, 0, 0, 0],\n              fontSize: 18,\n              fontWeight: \"700\",\n              color: \"#ffffff\",\n            },\n          },\n          title: {\n            //标题\n            show: false,\n            offsetCenter: [0, 46], // x, y，单",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      },
+      {
+        "uiName": "自定义图表",
+        "prototypeName": "ElementChart",
+        "detailConfig": "\n    var color = new echarts.graphic.LinearGradient(0, 0, 1, 0, [{\n        offset: 0,\n        color: \"#00B0FF\", // 0% 处的颜色\n      },\n      {\n        offset: 0.2,\n        color: \"#0071CB\", // 100% 处的颜色\n      },\n      {\n        offset: 1,\n        color: \"#08BBED\", // 100% 处的颜色\n      },\n    ]);\n    var bgColor = new echarts.graphic.LinearGradient(0, 0, 0, 1, [{\n        offset: 0,\n        color: \"#00B0FF00\", // 0% 处的颜色\n      },\n      {\n        offset: 1,\n        color: \"#0073FF33\", // 100% 处的颜色\n      },\n    ]);\n    var colorSet = [\n      [1, color]\n    ];\n    var option = {\n      // backgroundColor: bgColor,\n      backgroundColor: \"#0E1327\",\n      tooltip: {\n        formatter: \"{a} <br/>{b} : {c}%\",\n      },\n      series: [{\n          radius: \"50%\",\n          splitNumber: 10,\n          name: \"\",\n          z: 10,\n          type: \"gauge\",\n          detail: {\n            show: false,\n          },\n          axisTick: {\n            show: false,\n          },\n          splitLine: {\n            show: false,\n          },\n          max: \"100\",\n          axisLine: {\n            lineStyle: {\n              width: 3,\n              color: colorSet,\n            },\n          },\n          axisLabel: {\n            show: false,\n          },\n          pointer: {\n            // 表盘上的指针\n            show: true,\n            length: \"70%\",\n          },\n          itemStyle: {\n            // 表盘指针的颜色\n            color: \"#08BBED\",\n          },\n        },\n        {\n          name: \"白色圈刻度\",\n          type: \"gauge\",\n          radius: \"50%\",\n          startAngle: 225, //刻度起始\n          endAngle: -45, //刻度结束\n          min: 0,\n          max: 100,\n          splitNumber: 10,\n          z: 8,\n          axisTick: {\n            show: false,\n          },\n          splitLine: {\n            length: 16, //刻度节点线长度\n            lineStyle: {\n              width: 2,\n              color: \"#018DFF\",\n            }, //刻度节点线\n          },\n          axisLabel: {\n            color: \"rgba(255,255,255,8)\",\n            fontSize: 24,\n",
+        "styleConfigLength": 0,
+        "linkCount": 0
+      }
+    ],
+    "bodyText": "文件(F)\n提交\n预览\n\n组件\n\n布局容器\nUI组件\n全部\n常用\n导航\n数据\n选择\n输入\n媒体\n其他\n\n按钮\n\n表格\n\n输入框\n\n选择器\n\n文本\n\n日期时间选择器\n\n导航菜单\n\n树\n\n图片\n\n上传\n\n标签页\n\n单选框\n\n多选框\n\n开关\n\n时间选择器\n\n卡片\n\n业务卡片\n\n折叠面板\n\n下拉菜单\n\n级联选择器\n\n网页容器\n\n标签\n\n穿梭框\n\n计数器\n\n时间线\n\n步骤条\n\n滑块\n\n评分\n\n轮播组件\n\n自定义轮播\n\n日历\n\n电子签名\n\n条形码\n\n脚本编辑器\n\n分页\n\n大数据表格\n\n移动端_输入框\n\n移动端_文件上传\n\n移动端_进度条\n\n移动端_宫格\n\n移动端_导航栏\n\n移动端_标签栏\n\n移动端_下拉菜单\n\n移动端_列表\n\n移动端_分类选择\n\n移动端_表单\n\n图表组件\n流程图\n精灵图库\nPalimpsestContent_82\n关键词\n\n部门\n\n导师\n\n实习批次\n\n考核时间\n\n状态\n\n\n查询\n重置\n导出\n\n实习生总数\n128\n较上期 12.5%\n\n待考核\n23\n较上期 5.2%\n\n已完成考核\n105\n较上期 18.3%\n\n平均得分\n86.7分\n较上期 3.6分\n\n姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综合评分\t状态\t更新时间\t操作\n李明轩\n\t\nS2024041001\n\t\n产品部\n\t\n王思远\n\t\n97%\n\t\n85%\n\t\n85%\n\t\n92.6\n\t\n已完成\n\t\n2024-06-12 14:30\n\t\n查看 评分 编辑 更多\n\n\n张雨婷\n\t\nS2024041002\n\t\n研发部\n\t\n陈浩然\n\t\n96%\n\t\n84%\n\t\n84%\n\t\n89.3\n\t\n已完成\n\t\n2024-06-11 11:20\n\t\n查看 评分 编辑 更多\n\n\n王子涵\n\t\nS2024041003\n\t\n设计部\n\t\n刘佳怡\n\t\n95%\n\t\n83%\n\t\n83%\n\t\n87.4\n\t\n已完成\n\t\n2024-06-10 16:45\n\t\n查看 评分 编辑 更多\n\n\n赵天宇\n\t\nS2024041004\n\t\n市场部\n\t\n孙一凡\n\t\n95%\n\t\n82%\n\t\n82%\n\t\n85.1\n\t\n已完成\n\t\n2024-06-09 09:15\n\t\n查看 评分 编辑 更多\n\n\n陈欣怡\n\t\nS2024041005\n\t\n运营部\n\t\n周子墨\n\t\n93%\n\t\n80%\n\t\n80%\n\t\n83.6\n\t\n待考核\n\t\n2024-06-08 10:05\n\t\n查看 评分 编辑 更多\n\n\n刘宇航\n\t\nS2024041006\n\t\n测试部\n\t\n吴昊天\n\t\n92%\n\t\n78%\n\t\n78%\n\t\n81.2\n\t\n待考核\n\t\n2024-06-07 15:40\n\t\n查看 评分 编辑 更多\n共 6 条\n1\n前往页\n属性\n基本\n名称\n\t\n\n\n类型\n\t\nElementTable\n\n\n描述\n\t\n位置\n横坐标\n\t\n2\n\n\n纵坐标\n\t\n601\n配置\n数据配置\n\t\n配置\n\n\n样式配置\n\t\n配置\n变量联动\n选中行\n\t\n配置\n\n\n勾选行\n\t\n配置\n事件联动\n   行单击\n   行双击\n   行右击\n变量联动\nif()\n配置\n页面跳转\nif()\n配置\n数据集联动\nif()\n配置\n属性\nshow-header\n\t\n\n\nhighlight-current-row\n\t\n\n\nempty-text\n\t\n\n\ndefault-expand-all\n\t\n\n\n点击空白取消高亮\n\t\n\n\n是否单选\n\t\n\n\n树形数据懒加载\n\t\n\n\n虚拟滚动\n\t\n其他\n是否被锁住\n\t\n\n\n是否显示\n\t\n\n\n运行是否显示\n\t\n对象图层\n图层1\n鼠标位置：0, 0\n所选对象位置： 2, 601\n选择对象类型: UI组件 , 位于\n共 0 个对象, 已选 1 个对象\n选择对象名称: pal_assessment_table\n63%\n预览"
+  }
+}

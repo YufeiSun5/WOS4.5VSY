@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "name": "pal_metric_total",
+      "ok": true,
+      "text": "?????\n128\n??? 12.5%",
+      "codeLen": 2001
+    },
+    {
+      "name": "pal_metric_wait",
+      "ok": true,
+      "text": "???\n23\n??? 5.2%",
+      "codeLen": 1108
+    },
+    {
+      "name": "pal_metric_done",
+      "ok": true,
+      "text": "?????\n105\n??? 18.3%",
+      "codeLen": 1126
+    },
+    {
+      "name": "pal_metric_avg",
+      "ok": true,
+      "text": "????\n86.7?\n??? 3.6?",
+      "codeLen": 1133
+    }
+  ]
+}

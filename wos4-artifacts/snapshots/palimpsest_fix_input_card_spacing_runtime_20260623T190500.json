@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "keywordText": "查询\n查询\n重置\n重置\n导出\n导出\n\n姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综合评分\t状态\t更新时间\t操作\n李明轩\n\t\nS2024041001\n\t\n产品部\n\t\n王思远\n\t\n97%\n\t\n85%\n\t\n85%\n\t\n92.6\n\t已完成\t\n2024-06-12 14:30\n\t查看 评分 编辑 更多⌄\n\n张雨婷\n\t\nS2024041002\n\t\n研发部\n\t\n陈浩然\n\t\n96%\n\t\n84%\n\t\n8",
+  "keywordValue": "",
+  "results": [
+    {
+      "name": "pal_metric_total",
+      "ok": true,
+      "len": 2513
+    },
+    {
+      "name": "pal_metric_wait",
+      "ok": true,
+      "len": 1245
+    },
+    {
+      "name": "pal_metric_done",
+      "ok": true,
+      "len": 1257
+    },
+    {
+      "name": "pal_metric_avg",
+      "ok": true,
+      "len": 1257
+    }
+  ]
+}

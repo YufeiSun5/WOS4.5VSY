@@ -1,0 +1,382 @@
+{
+  "rows": [
+    {
+      "ri": 0,
+      "height": 88,
+      "cols": [
+        {
+          "ci": 0,
+          "KSCGUID": "FilterKeywordCol_mqqfjd4o_834tdf",
+          "objs": [
+            {
+              "UIName": "pal_filter_status",
+              "proto": "ElementText",
+              "text": "",
+              "parentGUID": "",
+              "detail": "",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "ci": 1,
+          "KSCGUID": "FilterDeptCol_mqqfjd4o_tp9tpy",
+          "objs": [
+            {
+              "UIName": "pal_filter_keyword",
+              "proto": "ElementInput",
+              "text": "",
+              "parentGUID": "",
+              "detail": "",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "ci": 2,
+          "KSCGUID": "FilterMentorCol_mqqfjd4o_ybuwq4",
+          "objs": []
+        },
+        {
+          "ci": 3,
+          "KSCGUID": "FilterBatchCol_mqqfjd4o_oscha4",
+          "objs": [
+            {
+              "UIName": "pal_export_button",
+              "proto": "ElementButton",
+              "text": "",
+              "parentGUID": "",
+              "detail": "",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "ci": 4,
+          "KSCGUID": "FilterDateCol_mqqfjd4o_9iszdq",
+          "objs": [
+            {
+              "UIName": "pal_page_title",
+              "proto": "ElementText",
+              "text": "",
+              "parentGUID": "",
+              "detail": "",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ri": 1,
+      "height": 88,
+      "cols": [
+        {
+          "ci": 0,
+          "KSCGUID": "FilterStatusCol_mqqfjd4o_i3mhx8",
+          "objs": [
+            {
+              "UIName": "pal_page_title",
+              "proto": "ElementText",
+              "text": "",
+              "parentGUID": "",
+              "detail": "",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "ci": 1,
+          "KSCGUID": "ActionSpacerCol_mqqfjd4o_f6fvmv",
+          "objs": [
+            {
+              "UIName": "pal_filter_input",
+              "proto": "ElementInput",
+              "text": "",
+              "parentGUID": "",
+              "detail": "",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "ci": 2,
+          "KSCGUID": "QueryCol_mqqfjd4o_0t7fpi",
+          "objs": []
+        },
+        {
+          "ci": 3,
+          "KSCGUID": "ResetCol_mqqfjd4o_u07fxe",
+          "objs": [
+            {
+              "UIName": "pal_add_button",
+              "proto": "ElementButton",
+              "text": "",
+              "parentGUID": "",
+              "detail": "",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "ci": 4,
+          "KSCGUID": "ExportCol_mqqfjd4o_4iaaj2",
+          "objs": [
+            {
+              "UIName": "pal_page_title",
+              "proto": "ElementText",
+              "text": "",
+              "parentGUID": "",
+              "detail": "",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "ci": 5,
+          "KSCGUID": "ActionTailCol_mqqfjd4o_hhdmsi",
+          "objs": [
+            {
+              "UIName": "pal_page_title",
+              "proto": "ElementText",
+              "text": "",
+              "parentGUID": "",
+              "detail": "",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ri": 2,
+      "height": 220,
+      "cols": [
+        {
+          "ci": 0,
+          "KSCGUID": "MetricTotalCol_mqqfjd4o_2by8l4",
+          "objs": [
+            {
+              "UIName": "pal_metric_total",
+              "proto": "ElementText",
+              "text": "",
+              "parentGUID": "",
+              "detail": "",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "ci": 1,
+          "KSCGUID": "MetricWaitCol_mqqfjd4p_h2ctoz",
+          "objs": [
+            {
+              "UIName": "pal_metric_wait",
+              "proto": "ElementText",
+              "text": "",
+              "parentGUID": "",
+              "detail": "",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "ci": 2,
+          "KSCGUID": "MetricDoneCol_mqqfjd4p_twwj90",
+          "objs": [
+            {
+              "UIName": "pal_metric_done",
+              "proto": "ElementText",
+              "text": "",
+              "parentGUID": "",
+              "detail": "",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "ci": 3,
+          "KSCGUID": "MetricAvgCol_mqqfjd4p_bruljt",
+          "objs": [
+            {
+              "UIName": "pal_metric_avg",
+              "proto": "ElementText",
+              "text": "",
+              "parentGUID": "",
+              "detail": "",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ri": 3,
+      "height": 772,
+      "cols": [
+        {
+          "ci": 0,
+          "KSCGUID": "DeptChartCol_mqqfjd4p_94l4sm",
+          "objs": [
+            {
+              "UIName": "pal_assessment_table",
+              "proto": "ElementTable",
+              "text": "",
+              "parentGUID": "",
+              "detail": "",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "ci": 1,
+          "KSCGUID": "TrendChartCol_mqqfjd4p_9quc0w",
+          "objs": [
+            {
+              "UIName": "pal_completion_trend_line",
+              "proto": "ElementChart",
+              "text": "",
+              "parentGUID": "",
+              "detail": "option={\"color\":[\"#2563eb\",\"#22c55e\"],\"tooltip\":{\"trigger\":\"axis\"},\"legend\":{\"top\":8,\"data\":[\"???\",\"????\"]},\"grid\":{\"left\":50,\"right\":30,\"top\":52,\"bottom\":42},\"",
+              "style": "#domId{background:#fff!important;border:1px solid #e6edf7!important;border-radius:8px!important;box-shadow:0 8px 20px rg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ri": 4,
+      "height": 772,
+      "cols": [
+        {
+          "ci": 0,
+          "KSCGUID": "AssessmentTableCol_mqqfjd4p_mqe59t",
+          "objs": [
+            {
+              "UIName": "pal_records_table",
+              "proto": "ElementTable",
+              "text": "",
+              "parentGUID": "",
+              "detail": "",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "comps": [
+    {
+      "UIName": "图层1",
+      "proto": "layer",
+      "text": "",
+      "parentGUID": "",
+      "detail": "",
+      "style": ""
+    },
+    {
+      "UIName": "pal_add_button",
+      "proto": "ElementButton",
+      "text": "新增 / 弹窗",
+      "parentGUID": "ResetCol_mqqfjd4o_u07fxe",
+      "detail": "this.button({ text: '\\u65b0\\u589e / \\u5f39\\u7a97' })",
+      "style": ""
+    },
+    {
+      "UIName": "pal_assessment_table",
+      "proto": "ElementTable",
+      "text": "",
+      "parentGUID": "DeptChartCol_mqqfjd4p_94l4sm",
+      "detail": "this.table({\"border\":false,\"fit\":true,\"showHeader\":true,\"emptyText\":\"??????\",\"columns\":[{\"prop\":\"name\",\"label\":\"??\",\"minWidth\":\"96\",\"align\":\"center\",\"type\":\"\",\"",
+      "style": "#domId.PCUI_ElementTable{position:relative!important;background:#fff!important;border:1px solid #e6edf7!important;border"
+    },
+    {
+      "UIName": "pal_completion_trend_line",
+      "proto": "ElementChart",
+      "text": "",
+      "parentGUID": "TrendChartCol_mqqfjd4p_9quc0w",
+      "detail": "option={\"color\":[\"#2563eb\",\"#22c55e\"],\"tooltip\":{\"trigger\":\"axis\"},\"legend\":{\"top\":8,\"data\":[\"???\",\"????\"]},\"grid\":{\"left\":50,\"right\":30,\"top\":52,\"bottom\":42},\"",
+      "style": ""
+    },
+    {
+      "UIName": "pal_export_button",
+      "proto": "ElementButton",
+      "text": "??",
+      "parentGUID": "FilterBatchCol_mqqfjd4o_oscha4",
+      "detail": "this.button({ text: \"??\" })",
+      "style": "#domId button{height:38px!important;width:112px!important;margin-top:10px!important;border-radius:4px!important;backgrou"
+    },
+    {
+      "UIName": "pal_filter_input",
+      "proto": "ElementInput",
+      "text": "姓名 / 学号 / 部门",
+      "parentGUID": "ActionSpacerCol_mqqfjd4o_f6fvmv",
+      "detail": "",
+      "style": ""
+    },
+    {
+      "UIName": "pal_filter_keyword",
+      "proto": "ElementInput",
+      "text": "姓名 / 学号 / 部门",
+      "parentGUID": "FilterDeptCol_mqqfjd4o_tp9tpy",
+      "detail": "",
+      "style": "#domId{padding-top:22px!important;}#domId::before{content:\"???\";position:absolute;top:4px;left:0;font-size:13px;font-wei"
+    },
+    {
+      "UIName": "pal_filter_status",
+      "proto": "ElementText",
+      "text": "",
+      "parentGUID": "FilterKeywordCol_mqqfjd4o_834tdf",
+      "detail": "options.value = \"\"",
+      "style": "#domId{height:36px!important;border:1px solid #dbe3ef!important;border-radius:4px!important;background:#fff!important;ma"
+    },
+    {
+      "UIName": "pal_metric_avg",
+      "proto": "ElementText",
+      "text": "<b>????</b><strong>86.7?</strong><span>??? 3.6?</span>",
+      "parentGUID": "MetricAvgCol_mqqfjd4p_bruljt",
+      "detail": "options.value = \"<b>????</b><strong>86.7?</strong><span>??? 3.6?</span>\"",
+      "style": "#domId{height:108px!important;margin:12px 8px!important;border:1px solid #e6edf7!important;border-radius:8px!important;b"
+    },
+    {
+      "UIName": "pal_metric_done",
+      "proto": "ElementText",
+      "text": "<b>?????</b><strong>105</strong><span>??? 18.3%</span>",
+      "parentGUID": "MetricDoneCol_mqqfjd4p_twwj90",
+      "detail": "options.value = \"<b>?????</b><strong>105</strong><span>??? 18.3%</span>\"",
+      "style": "#domId{height:108px!important;margin:12px 8px!important;border:1px solid #e6edf7!important;border-radius:8px!important;b"
+    },
+    {
+      "UIName": "pal_metric_total",
+      "proto": "ElementText",
+      "text": "<b>?????</b><strong>128</strong><span>??? 12.5%</span>",
+      "parentGUID": "MetricTotalCol_mqqfjd4o_2by8l4",
+      "detail": "options.value = \"<b>?????</b><strong>128</strong><span>??? 12.5%</span>\"",
+      "style": "#domId{height:108px!important;margin:12px 8px!important;border:1px solid #e6edf7!important;border-radius:8px!important;b"
+    },
+    {
+      "UIName": "pal_metric_wait",
+      "proto": "ElementText",
+      "text": "<b>???</b><strong>23</strong><span>??? 5.2%</span>",
+      "parentGUID": "MetricWaitCol_mqqfjd4p_h2ctoz",
+      "detail": "options.value = \"<b>???</b><strong>23</strong><span>??? 5.2%</span>\"",
+      "style": "#domId{height:108px!important;margin:12px 8px!important;border:1px solid #e6edf7!important;border-radius:8px!important;b"
+    },
+    {
+      "UIName": "pal_page_title",
+      "proto": "ElementText",
+      "text": "实习生考核管理",
+      "parentGUID": "ActionTailCol_mqqfjd4o_hhdmsi",
+      "detail": "options.value='\\u5b9e\\u4e60\\u751f\\u8003\\u6838\\u7ba1\\u7406'",
+      "style": ""
+    },
+    {
+      "UIName": "pal_records_table",
+      "proto": "ElementTable",
+      "text": "",
+      "parentGUID": "AssessmentTableCol_mqqfjd4p_mqe59t",
+      "detail": "this.table({\"border\":true,\"fit\":true,\"showHeader\":true,\"emptyText\":\"暂无匹配数据\",\"pagination\":true,\"pageSize\":10,\"currentPage\":1,\"columns\":[{\"prop\":\"id\",\"label\":\"学号\"",
+      "style": ""
+    }
+  ]
+}
