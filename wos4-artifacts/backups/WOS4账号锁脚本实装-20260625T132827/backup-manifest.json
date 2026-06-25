@@ -1,0 +1,21 @@
+{
+  "task": "WOS4账号锁脚本实装",
+  "created_at": "2026-06-25T13:28:27",
+  "operator": "孙宇飞_code-ai",
+  "contains_sensitive_backup": true,
+  "note": "before contains local ini and lock state; do not commit secret backups. Manifest does not include passwords.",
+  "files": [
+    "wos4-artifacts/config/wos4.local.ini",
+    "wos4-artifacts/config/wos4.session-locks.local.json",
+    "wos4-artifacts/config/wos4.local.example.ini",
+    "wos4-artifacts/config/README.md",
+    "wos4-artifacts/scripts/README.md",
+    ".ai/skills/wos4-login/SKILL.md",
+    ".ai/skills/wos4-browser-harness/SKILL.md",
+    "MEMORY.md",
+    "wos4-artifacts/scripts/ai-preflight.ps1",
+    "AGENTS.md",
+    "README.md",
+    ".gitignore"
+  ]
+}

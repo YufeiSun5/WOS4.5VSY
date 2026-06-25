@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "updated_at": "2026-06-23T16:00:45",
+  "default_order": [
+    "sun_yufei",
+    "xiang_xuezhi"
+  ],
+  "sessions": {
+    "slot1": {
+      "account": "sun_yufei",
+      "state": "unlocked",
+      "owner": "",
+      "object": "",
+      "object_type": "",
+      "since": "",
+      "note": ""
+    },
+    "slot2": {
+      "account": "xiang_xuezhi",
+      "state": "unlocked",
+      "owner": "",
+      "object": "",
+      "object_type": "",
+      "since": "",
+      "note": ""
+    }
+  }
+}

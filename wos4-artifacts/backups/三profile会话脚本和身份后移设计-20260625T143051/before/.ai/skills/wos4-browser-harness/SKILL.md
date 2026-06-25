@@ -25,8 +25,6 @@ Always combine this skill with:
 - Do not print passwords, cookies, tokens, or config secrets. Before login, acquire an account lock with `wos4-artifacts/scripts/wos4-lock.ps1`; then read WOS4 credentials from the locked account section in `wos4-artifacts/config/wos4.local.ini` or `WOS4_PASS`.
 - If `wos4-lock.ps1` returns `status=blocked` / `reason=account_pool_exhausted`, stop and report `blocked`. Do not open another Chrome tab with a locked account.
 - Release the account lock with `wos4-lock.ps1 -Action ReleaseAccount` when the current AI no longer needs the WOS4 account.
-- For concurrent WOS4 work, do not share one normal Chrome profile. Start separate profile sessions with `wos4-artifacts/scripts/wos4-browser-sessions.ps1`; each session must have its own `profile_dir`, `cdp_port`, and `harness_name`.
-- Starting a browser session does not claim a WOS account seat. Account seats are managed by WOS login person, not by AI agent role; use `AcquireAccount -Owner wos4:<账号别名>` only when a Chrome/profile needs to log in as that WOS account.
 - Dynamic `/public/?...` and `GetFileContent/.../index.html` URLs are evidence only, not entry points.
 - Save screenshots and JSON-like findings under `wos4-artifacts/screenshots/` and `wos4-artifacts/snapshots/`.
 
@@ -55,66 +53,6 @@ These are optional failures and do not block local Chrome operation:
 ```
 
 If `browser-harness` is not recognized, check that `C:\Users\SunYufei\.local\bin\browser-harness.exe` exists and that the current command prepends `.local\bin` to PATH.
-
-## Three Profile Sessions
-
-Use this project script to prepare three visible, isolated Chrome profiles and matching browser-harness daemons:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-browser-sessions.ps1 -Action Start
-```
-
-The default Chrome window size is `1920x1080`:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-browser-sessions.ps1 -Action Start -WindowWidth 1920 -WindowHeight 1080
-```
-
-This is the outer Chrome window size. `page_info().w/h` reports the web viewport and will usually be shorter because Chrome's title bar and address bar consume vertical space.
-
-The script reads `[wos4.session.*]` from `wos4-artifacts/config/wos4.local.ini`. Required fields per slot:
-
-```ini
-[wos4.session.slot1]
-account=sun_yufei
-driver=browser-harness
-profile_dir=wos4-artifacts/config/chrome-profiles/slot1
-cdp_port=13222
-harness_name=wos4_slot1
-```
-
-Connect a specific browser-harness call to a slot:
-
-```powershell
-$env:Path = 'C:\Users\SunYufei\.local\bin;' + $env:Path
-$env:BU_NAME = 'wos4_slot1'
-$env:BU_CDP_URL = 'http://127.0.0.1:13222'
-cmd /c "type %TEMP%\browser_harness_task.py | browser-harness"
-```
-
-Isolation success markers:
-
-- `wos4-browser-sessions.ps1 -Action Status` shows every slot with `cdp.ok=true` and different `cdp_port` values.
-- `wos4-browser-sessions.ps1 -Action Doctor` or `browser-harness --doctor` lists `wos4_slot1`, `wos4_slot2`, and `wos4_slot3` as separate active browser connections.
-- After logging in different accounts, probing each slot still returns `#/main` and sessionStorage keys such as `IS_BS`, `clientNumber`, `desktop_storageCloud`, and `proxy_pathname`.
-
-Current WOS4 login state is stored in the browser profile's web storage, primarily sessionStorage for the WOS4 origin. In the verified run no cookies were needed for the visible login marker. Keeping separate `--user-data-dir` folders prevents these sessionStorage/local profile files from being shared.
-
-Foreground reality: three sessions can run concurrently, but only one Windows window is active in the foreground at a time. On a single monitor, three `1920x1080` windows overlap. For evidence, capture screenshots through each slot's CDP/browser-harness connection; use foreground viewing only for human spot checks or when multiple monitors are available.
-
-Within one already logged-in Chrome/profile, switching between `frontend-ai`, `code-ai`, `test-ai`, and `review-ai` does not require account lock release or reacquire. Only changing the WOS login person for that profile, or ending use of that WOS login person, touches the account seat lock.
-
-Stop only the harness daemons:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-browser-sessions.ps1 -Action StopHarness
-```
-
-Stop the test harness daemons and dedicated Chrome processes:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-browser-sessions.ps1 -Action Stop
-```
 
 ## Multi-Line Command Pattern
 
@@ -173,7 +111,7 @@ Use the login URL from `wos4-artifacts/config/wos4.local.ini` only. Do not hardc
 First acquire an account lock outside `browser-harness`:
 
 ```powershell
-$lock = powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action AcquireAccount -Account sun_yufei -Session slot1 -Owner wos4:sun_yufei -Task "WOS4 登录" | ConvertFrom-Json
+$lock = powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action AcquireAccount -Owner 孙宇飞_code-ai -Task "WOS4 登录" | ConvertFrom-Json
 if ($lock.status -ne "acquired") { throw "WOS4 account lock blocked: $($lock.reason)" }
 ```
 
@@ -224,7 +162,7 @@ Wait until `#/main` or desktop card text appears. Do not re-login because an inn
 When the AI is done with this WOS4 account, release the account lock:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action ReleaseAccount -Account <locked-account> -Owner wos4:<locked-account>
+powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action ReleaseAccount -Account <locked-account> -Owner 孙宇飞_code-ai
 ```
 
 ## Opening 建模系统客户端

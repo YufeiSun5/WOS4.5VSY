@@ -98,8 +98,6 @@ if (Test-Path -LiteralPath $iniPath) {
   $wos4Url = Get-IniValue $rawIni "wos4" "url"
   $wos4Username = Get-IniValue $rawIni "wos4" "username"
   $wos4Password = Get-IniValue $rawIni "wos4" "password"
-  $wos4AccountOrder = Get-IniValue $rawIni "wos4" "account_order"
-  $wos4LockFile = Get-IniValue $rawIni "wos4" "lock_file"
 
   if ([string]::IsNullOrWhiteSpace($developerName)) {
     Add-Result $results "ini.identity" "fail" "developer_name is empty."
@@ -132,44 +130,6 @@ if (Test-Path -LiteralPath $iniPath) {
     $failed = $true
   } else {
     Add-Result $results "ini.wos4" "pass" "wos4 url, username, and password are present. Secret values are not printed."
-  }
-
-  if (-not [string]::IsNullOrWhiteSpace($wos4AccountOrder)) {
-    $accounts = @($wos4AccountOrder -split "," | ForEach-Object { $_.Trim() } | Where-Object { $_ })
-    $missingAccounts = @()
-    foreach ($account in $accounts) {
-      $accountUser = Get-IniValue $rawIni "wos4.account.$account" "username"
-      $accountPass = Get-IniValue $rawIni "wos4.account.$account" "password"
-      if ([string]::IsNullOrWhiteSpace($accountUser) -or [string]::IsNullOrWhiteSpace($accountPass)) {
-        $missingAccounts += $account
-      }
-    }
-    if ($missingAccounts.Count -gt 0) {
-      Add-Result $results "ini.wos4.accounts" "fail" ("Missing username/password in account sections: " + ($missingAccounts -join ", "))
-      $failed = $true
-    } else {
-      Add-Result $results "ini.wos4.accounts" "pass" ("Configured WOS4 account aliases are present: " + ($accounts -join ", "))
-    }
-
-    if ([string]::IsNullOrWhiteSpace($wos4LockFile)) {
-      Add-Result $results "ini.wos4.lockFile" "fail" "account_order is configured but lock_file is empty."
-      $failed = $true
-    } else {
-      & git check-ignore -q $wos4LockFile
-      if ($LASTEXITCODE -eq 0) {
-        Add-Result $results "gitignore.wos4LockFile" "pass" "$wos4LockFile is ignored by Git."
-      } else {
-        Add-Result $results "gitignore.wos4LockFile" "fail" "$wos4LockFile is not ignored by Git."
-        $failed = $true
-      }
-    }
-
-    if (Test-Path -LiteralPath "wos4-artifacts/scripts/wos4-lock.ps1") {
-      Add-Result $results "script.wos4-lock" "pass" "wos4-artifacts/scripts/wos4-lock.ps1 exists."
-    } else {
-      Add-Result $results "script.wos4-lock" "fail" "wos4-artifacts/scripts/wos4-lock.ps1 is missing."
-      $failed = $true
-    }
   }
 } else {
   Add-Result $results "ini.exists" "fail" "$iniPath does not exist."

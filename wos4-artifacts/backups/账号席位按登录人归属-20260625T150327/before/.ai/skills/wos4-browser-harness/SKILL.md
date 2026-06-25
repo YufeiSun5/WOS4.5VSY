@@ -26,7 +26,7 @@ Always combine this skill with:
 - If `wos4-lock.ps1` returns `status=blocked` / `reason=account_pool_exhausted`, stop and report `blocked`. Do not open another Chrome tab with a locked account.
 - Release the account lock with `wos4-lock.ps1 -Action ReleaseAccount` when the current AI no longer needs the WOS4 account.
 - For concurrent WOS4 work, do not share one normal Chrome profile. Start separate profile sessions with `wos4-artifacts/scripts/wos4-browser-sessions.ps1`; each session must have its own `profile_dir`, `cdp_port`, and `harness_name`.
-- Starting a browser session does not claim a WOS account seat. Account seats are managed by WOS login person, not by AI agent role; use `AcquireAccount -Owner wos4:<账号别名>` only when a Chrome/profile needs to log in as that WOS account.
+- Starting a browser session does not claim an AI identity or account. The identity is claimed only after `AcquireAccount -Owner <开发人员_AI身份>` succeeds.
 - Dynamic `/public/?...` and `GetFileContent/.../index.html` URLs are evidence only, not entry points.
 - Save screenshots and JSON-like findings under `wos4-artifacts/screenshots/` and `wos4-artifacts/snapshots/`.
 
@@ -102,8 +102,6 @@ Current WOS4 login state is stored in the browser profile's web storage, primari
 
 Foreground reality: three sessions can run concurrently, but only one Windows window is active in the foreground at a time. On a single monitor, three `1920x1080` windows overlap. For evidence, capture screenshots through each slot's CDP/browser-harness connection; use foreground viewing only for human spot checks or when multiple monitors are available.
 
-Within one already logged-in Chrome/profile, switching between `frontend-ai`, `code-ai`, `test-ai`, and `review-ai` does not require account lock release or reacquire. Only changing the WOS login person for that profile, or ending use of that WOS login person, touches the account seat lock.
-
 Stop only the harness daemons:
 
 ```powershell
@@ -173,7 +171,7 @@ Use the login URL from `wos4-artifacts/config/wos4.local.ini` only. Do not hardc
 First acquire an account lock outside `browser-harness`:
 
 ```powershell
-$lock = powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action AcquireAccount -Account sun_yufei -Session slot1 -Owner wos4:sun_yufei -Task "WOS4 登录" | ConvertFrom-Json
+$lock = powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action AcquireAccount -Owner 孙宇飞_code-ai -Task "WOS4 登录" | ConvertFrom-Json
 if ($lock.status -ne "acquired") { throw "WOS4 account lock blocked: $($lock.reason)" }
 ```
 
@@ -224,7 +222,7 @@ Wait until `#/main` or desktop card text appears. Do not re-login because an inn
 When the AI is done with this WOS4 account, release the account lock:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action ReleaseAccount -Account <locked-account> -Owner wos4:<locked-account>
+powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action ReleaseAccount -Account <locked-account> -Owner 孙宇飞_code-ai
 ```
 
 ## Opening 建模系统客户端

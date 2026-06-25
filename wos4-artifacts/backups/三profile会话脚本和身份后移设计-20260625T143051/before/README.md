@@ -53,7 +53,7 @@ url=http://<wos4-host>:<port>/#/login
 editor_url=<可选，某个编辑器运行页 URL；没有就留空>
 proxy=direct
 default_account=primary
-account_order=primary,secondary,third
+account_order=primary,secondary
 lock_file=wos4-artifacts/config/wos4.session-locks.local.json
 
 [wos4.account.primary]
@@ -70,36 +70,17 @@ password=<第二个开发账号密码>
 operator=<操作人>
 name_prefix=<命名前缀>
 
-[wos4.account.third]
-display_name=<账号显示名>
-username=<第三个开发账号用户名>
-password=<第三个开发账号密码>
-operator=<操作人>
-name_prefix=<命名前缀>
-
 [wos4.session.slot1]
 account=primary
 driver=browser-harness
 profile_dir=wos4-artifacts/config/chrome-profiles/slot1
 isolated_context=wos4-primary
-cdp_port=13222
-harness_name=wos4_slot1
 
 [wos4.session.slot2]
 account=secondary
-driver=browser-harness
+driver=chrome-devtools
 profile_dir=wos4-artifacts/config/chrome-profiles/slot2
 isolated_context=wos4-secondary
-cdp_port=13223
-harness_name=wos4_slot2
-
-[wos4.session.slot3]
-account=third
-driver=browser-harness
-profile_dir=wos4-artifacts/config/chrome-profiles/slot3
-isolated_context=wos4-third
-cdp_port=13224
-harness_name=wos4_slot3
 
 [ops]
 url=http://<ops-host>:<port>/#/login
@@ -124,27 +105,17 @@ password=<调试访问密码>
 
 如果 `wos4.local.ini` 的 `developer_name`、`url`、账号别名或账号用户名与当前用户或目标环境不符，AI 必须停止 WOS4 操作，不能继续登录、保存、提交或预览。
 
-并发浏览器先只启动隔离 profile，不认领账号：
+登录 WOS4 前必须先申请账号锁；账号池用尽时 AI 必须拒绝继续并发登录，任务结束后必须归还账号：
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-browser-sessions.ps1 -Action Start
+powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action AcquireAccount -Owner 孙宇飞_code-ai -Task "任务说明"
+powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action ReleaseAccount -Account primary -Owner 孙宇飞_code-ai
 ```
-
-登录 WOS4 前必须先申请账号锁；账号池用尽时 AI 必须拒绝继续并发登录，任务结束后必须归还账号。账号席位按 WOS 登录人管理，不按 AI agent 管理；同一个已登录 Chrome/profile 下切换 `frontend-ai`、`code-ai`、`test-ai`、`review-ai` 不需要重新申请或归还账号席位。席位 owner 使用 `wos4:<账号别名>`：
-
-```powershell
-powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action AcquireAccount -Account sun_yufei -Session slot1 -Owner wos4:sun_yufei -Task "任务说明"
-powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action ReleaseAccount -Account sun_yufei -Owner wos4:sun_yufei
-powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action ReleaseOwnerAccounts -Owner wos4:sun_yufei -Reason "任务结束"
-```
-
-账号席位不做定时自动释放，避免开发过程中被其他 AI 重登顶掉会话。归还条件是显式的：任务完成、不再使用该 WOS 登录人、暂停且不继续操作、登录/页面阻塞并停止本轮操作、或用户明确要求归还。
 
 ## MCP 和页面操作
 
 - WOS4 前台页面操作优先使用 Chrome MCP；用户需要先在 Codex Desktop 中安装并启用 Chrome 相关 MCP/插件。
 - Chrome MCP 不可用时，按 `.ai/docs/mcp-and-local-tools.md` 检查 `browser-harness` 或 Playwright 兜底。
-- 三账号并发开发优先使用 `wos4-browser-sessions.ps1` 启动不同 Chrome profile，再用每个 session 的 `harness_name` 和 `cdp_port` 绑定 browser-harness。
 - 微信文件传输使用 Windows Computer Use，用户需要保持微信桌面端已登录。
 - 工具不可用时，AI 必须记录 `blocked` 原因，不能伪造操作结果。
 

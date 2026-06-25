@@ -1,0 +1,72 @@
+﻿{
+    "history":  {
+
+                },
+    "version":  2,
+    "updated_at":  "2026-06-25T13:50:18",
+    "default_order":  [
+                          {
+                              "Length":  9
+                          },
+                          {
+                              "Length":  12
+                          }
+                      ],
+    "account_locks":  {
+                          "sun_yufei":  {
+                                            "state":  "unlocked",
+                                            "session":  "",
+                                            "owner":  "",
+                                            "task":  "",
+                                            "locked_since":  "",
+                                            "last_seen":  "2026-06-25T13:50:18",
+                                            "released_by":  "孙宇飞_code-ai",
+                                            "released_at":  "2026-06-25T13:50:18",
+                                            "last_task":  "实测WOS4登录",
+                                            "stale_reason":  ""
+                                        },
+                          "xiang_xuezhi":  {
+                                               "state":  "unlocked",
+                                               "session":  "",
+                                               "owner":  "",
+                                               "task":  "",
+                                               "locked_since":  "",
+                                               "last_seen":  "2026-06-25T13:41:02",
+                                               "released_by":  "孙宇飞_test-ai",
+                                               "released_at":  "2026-06-25T13:41:02",
+                                               "last_task":  "锁脚本验证2",
+                                               "stale_reason":  ""
+                                           }
+                      },
+    "sessions":  {
+                     "slot1":  {
+                                   "account":  "sun_yufei",
+                                   "state":  "unlocked",
+                                   "owner":  "",
+                                   "task":  "",
+                                   "object":  "",
+                                   "object_type":  "",
+                                   "since":  "",
+                                   "note":  "",
+                                   "driver":  "browser-harness",
+                                   "profile_dir":  "wos4-artifacts/config/chrome-profiles/slot1",
+                                   "isolated_context":  "wos4-sun-yufei"
+                               },
+                     "slot2":  {
+                                   "account":  "xiang_xuezhi",
+                                   "state":  "unlocked",
+                                   "owner":  "",
+                                   "task":  "",
+                                   "object":  "",
+                                   "object_type":  "",
+                                   "since":  "",
+                                   "note":  "",
+                                   "driver":  "chrome-devtools",
+                                   "profile_dir":  "wos4-artifacts/config/chrome-profiles/slot2",
+                                   "isolated_context":  "wos4-xiang-xuezhi"
+                               }
+                 },
+    "object_locks":  {
+
+                     }
+}

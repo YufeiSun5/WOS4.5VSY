@@ -130,15 +130,15 @@ password=<调试访问密码>
 powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-browser-sessions.ps1 -Action Start
 ```
 
-登录 WOS4 前必须先申请账号锁；账号池用尽时 AI 必须拒绝继续并发登录，任务结束后必须归还账号。账号席位按 WOS 登录人管理，不按 AI agent 管理；同一个已登录 Chrome/profile 下切换 `frontend-ai`、`code-ai`、`test-ai`、`review-ai` 不需要重新申请或归还账号席位。席位 owner 使用 `wos4:<账号别名>`：
+登录 WOS4 前必须先申请账号锁；账号池用尽时 AI 必须拒绝继续并发登录，任务结束后必须归还账号。AI 身份认领以后移到 `AcquireAccount -Owner <开发人员_AI身份>` 成功时为准，不能在 Chrome profile 启动阶段就认定某个 `test-ai` 或 `code-ai` 已占用账号：
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action AcquireAccount -Account sun_yufei -Session slot1 -Owner wos4:sun_yufei -Task "任务说明"
-powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action ReleaseAccount -Account sun_yufei -Owner wos4:sun_yufei
-powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action ReleaseOwnerAccounts -Owner wos4:sun_yufei -Reason "任务结束"
+powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action AcquireAccount -Owner 孙宇飞_code-ai -Task "任务说明"
+powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action ReleaseAccount -Account primary -Owner 孙宇飞_code-ai
+powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action ReleaseOwnerAccounts -Owner 孙宇飞_code-ai -Reason "任务结束"
 ```
 
-账号席位不做定时自动释放，避免开发过程中被其他 AI 重登顶掉会话。归还条件是显式的：任务完成、不再使用该 WOS 登录人、暂停且不继续操作、登录/页面阻塞并停止本轮操作、或用户明确要求归还。
+账号席位不做定时自动释放，避免开发过程中被其他 AI 重登顶掉会话。归还条件是显式的：任务完成、不再使用 WOS4、暂停且不继续操作、登录/页面阻塞并停止本轮操作、或用户明确要求归还。
 
 ## MCP 和页面操作
 

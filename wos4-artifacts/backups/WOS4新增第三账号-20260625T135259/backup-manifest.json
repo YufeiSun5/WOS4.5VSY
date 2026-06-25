@@ -1,0 +1,12 @@
+{
+  "task": "WOS4新增第三账号",
+  "created_at": "2026-06-25T13:52:59",
+  "operator": "孙宇飞_code-ai",
+  "contains_sensitive_backup": true,
+  "note": "before contains local ini and lock state; do not commit secret backups. Manifest does not include passwords.",
+  "files": [
+    "wos4-artifacts/config/wos4.local.ini",
+    "wos4-artifacts/config/wos4.session-locks.local.json",
+    "MEMORY.md"
+  ]
+}

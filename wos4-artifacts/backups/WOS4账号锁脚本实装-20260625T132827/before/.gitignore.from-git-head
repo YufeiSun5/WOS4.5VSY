@@ -36,7 +36,6 @@ network/
 # Local delete/migration backups may contain old scripts, screenshots, or captured payloads.
 wos4-artifacts/backups/workspace-cleanup-*/before-delete/
 wos4-artifacts/backups/*/before-sensitive/
-wos4-artifacts/backups/**/*wos4.local*.ini*
 
 # Old scratch probes are kept locally until cleaned and migrated.
 probe*.js

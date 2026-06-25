@@ -54,17 +54,13 @@ Preflight 门禁：
 - `[identity]` 段必须填写 `developer_name` 和 `workspace_name`，用于确认当前本机配置属于哪个开发人员和工作区。
 - `[wos4]` 段放 WOS4.5 共享入口、默认账号顺序和锁文件路径；旧版 `username/password` 字段只作为单账号兼容入口保留。
 - 多个日常开发账号放到 `[wos4.account.<账号别名>]`，例如 `[wos4.account.sun_yufei]`、`[wos4.account.xiang_xuezhi]`；默认使用顺序由 `[wos4] account_order` 决定，当前默认第一账号是 `sun_yufei`。
-- 并发会话槽放到 `[wos4.session.<槽位>]`，只绑定账号和浏览器隔离信息，不绑定前端、后端、测试或审阅职责。
-- browser-harness 并发会话必须使用不同 `profile_dir`、`cdp_port` 和 `harness_name`；启动独立 Chrome profile 只表示浏览器资源就绪，不表示 WOS 登录账号席位已被占用。
+- 并发会话槽放到 `[wos4.session.<槽位>]`，只绑定账号和浏览器隔离信息，不绑定前端或后端职责。
 - 运维、部署、云访问、调试访问等其他账号必须放到独立段，例如 `[ops]`、`[debug_access]`，不得混进 `[wos4]` 开发登录段。
 - 真实 `*.ini`、密码、Cookie、Token 不进 Git；文档和脚本只能引用字段名或环境变量，不能写明文密码。
 - 执行任何 WOS4 登录、页面导航、保存、提交、预览、部署前，必须校验 `wos4.local.ini` 的 `developer_name`、`url`、`username` 是否与当前用户和目标环境一致。
 - 如果用户的 ini 与当前任务不符、缺失关键字段、指向错误环境或账号不是当前开发人员，必须停止操作并报告 `blocked`；不能继续登录、保存、提交或预览。
 - 执行任何 WOS4 登录前，必须先运行 `wos4-artifacts/scripts/wos4-lock.ps1 -Action AcquireAccount` 申请账号锁；账号池用尽时必须明确拒绝继续并发登录，不得重复登录已锁账号。
-- WOS4 并发开发中的账号席位按 WOS 登录人管理，不按 AI agent 身份管理；同一个已登录 Chrome/profile 下切换 `frontend-ai`、`code-ai`、`test-ai`、`review-ai` 不需要重新申请或归还账号席位。
-- 账号席位 owner 使用固定格式 `wos4:<账号别名>`，例如 `wos4:sun_yufei`；只有需要切换 WOS 登录人，或本轮不再使用该登录人时，才处理 `AcquireAccount` / `ReleaseAccount`。
-- 当前 Chrome/profile 不再使用某个 WOS4 登录人时，必须运行 `wos4-lock.ps1 -Action ReleaseAccount` 归还账号使用权；异常中断恢复后先查锁状态，不得直接重复登录。
-- 不做账号席位定时自动释放；开发中途不能因超时释放账号。需要归还时显式执行 `ReleaseAccount`，或用 `ReleaseOwnerAccounts -Owner wos4:<账号别名>` 归还该 WOS 登录人持有且没有对象锁的账号。
+- 当前 AI 不再使用某个 WOS4 账号时，必须运行 `wos4-lock.ps1 -Action ReleaseAccount` 归还账号使用权；异常中断恢复后先查锁状态，不得直接重复登录。
 - 保存、提交、预览、发布或部署同一个 WOS4 页面、模型、函数、客户端或部署对象前，优先运行 `wos4-lock.ps1 -Action AcquireObject` 申请对象锁，完成后释放对象锁。
 
 语言规则：

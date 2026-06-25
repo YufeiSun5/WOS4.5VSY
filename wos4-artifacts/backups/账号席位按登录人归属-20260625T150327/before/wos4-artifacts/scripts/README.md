@@ -75,51 +75,41 @@ powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-browser-ses
 powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-browser-sessions.ps1 -Action StopHarness
 ```
 
-注意：启动浏览器不等于占用账号。只有执行 `wos4-lock.ps1 -Action AcquireAccount` 并登录时，才占用 WOS 登录账号席位。
+注意：启动浏览器不等于占用账号。只有执行 `wos4-lock.ps1 -Action AcquireAccount` 并登录时，才认领账号和 AI 身份。
 
 ## WOS4 账号锁
-
-账号席位按 WOS 登录人管理，不按 AI agent 管理。一个 Chrome/profile 已经用某个 WOS 账号登录后，同一账号下的 `frontend-ai`、`code-ai`、`test-ai`、`review-ai` 可以继续使用这个会话，不需要因为 agent 切换而重新申请或归还账号席位。只有要切换 WOS 登录人，或者本轮不再使用该登录人时，才处理账号席位。
-
-建议账号席位 owner 使用固定格式：
-
-```text
-wos4:<账号别名>
-```
 
 登录前必须先申请账号锁：
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action AcquireAccount -Account sun_yufei -Session slot1 -Owner wos4:sun_yufei -Task "任务说明"
+powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action AcquireAccount -Owner 孙宇飞_code-ai -Task "任务说明"
 ```
 
 指定账号或会话槽：
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action AcquireAccount -Account xiang_xuezhi -Session slot2 -Owner wos4:xiang_xuezhi -Task "任务说明"
+powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action AcquireAccount -Account xiang_xuezhi -Session slot2 -Owner 孙宇飞_code-ai -Task "任务说明"
 ```
 
 账号池用尽时脚本返回 `status=blocked` 和 `reason=account_pool_exhausted`，AI 必须拒绝继续并发登录，不能重复登录已锁账号。
 
-同一个账号席位 owner 重复申请同一账号会返回 `status=acquired` 且 `already_locked=true`，用于容忍同一个已登录 Chrome/profile 下不同 agent 的顺序接手；这不代表可以换 WOS 登录人。不同 owner 申请已锁账号仍会被 `account_pool_exhausted` 或锁冲突阻止。
-
 归还账号使用权：
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action ReleaseAccount -Account xiang_xuezhi -Owner wos4:xiang_xuezhi
+powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action ReleaseAccount -Account xiang_xuezhi -Owner 孙宇飞_code-ai
 ```
 
-归还某个 WOS 登录人席位 owner 持有的全部账号席位：
+归还当前 AI 身份持有的全部账号席位：
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action ReleaseOwnerAccounts -Owner wos4:xiang_xuezhi -Reason "任务结束"
+powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action ReleaseOwnerAccounts -Owner 孙宇飞_code-ai -Reason "任务结束"
 ```
 
 必须归还的条件：
 
 - 当前任务完成。
-- 当前 Chrome/WOS 登录人明确不再需要 WOS4 登录态。
-- 当前 Chrome/WOS 登录人对应的任务暂停或转交，并且不继续操作 WOS4。
+- 当前 AI 明确不再需要 WOS4 登录态。
+- 当前 AI 暂停或转交任务，并且不继续操作 WOS4。
 - 登录失败、页面阻塞或用户要求停止，本轮不继续重试。
 - 用户明确要求归还席位。
 
@@ -135,5 +125,5 @@ powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -A
 强制释放账号只能在用户明确授权时执行，并必须写明原因：
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action ForceReleaseAccount -Account sun_yufei -Owner wos4:sun_yufei -Reason "用户明确要求释放"
+powershell -ExecutionPolicy Bypass -File wos4-artifacts/scripts/wos4-lock.ps1 -Action ForceReleaseAccount -Account sun_yufei -Owner 孙宇飞_code-ai -Reason "用户明确要求释放"
 ```

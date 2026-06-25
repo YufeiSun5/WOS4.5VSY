@@ -12,9 +12,7 @@
 - `[identity]` 段用于声明当前配置属于哪个开发人员和工作区，至少填写 `developer_name`、`workspace_name`。
 - `[wos4]` 段放 WOS4.5 共享入口、默认账号顺序和锁文件路径；旧版 `username/password` 字段只作为单账号兼容入口保留。
 - 多账号放在 `[wos4.account.<账号别名>]` 段，例如 `wos4.account.sun_yufei`、`wos4.account.xiang_xuezhi`；密码只能保存在真实 `wos4.local.ini`，不能写入示例、脚本、文档或日志。
-- 并发会话槽放在 `[wos4.session.<槽位>]` 段，例如 `slot1`、`slot2`、`slot3`；槽位只绑定默认账号和浏览器隔离信息，不绑定前端、后端、测试或审阅职责。
-- browser-harness 并发会话需要在每个 `[wos4.session.<槽位>]` 中配置独立 `profile_dir`、`cdp_port` 和 `harness_name`。例如 `slot1=13222/wos4_slot1`、`slot2=13223/wos4_slot2`、`slot3=13224/wos4_slot3`。
-- 浏览器 profile 可以提前启动，但提前启动不代表账号已被占用。账号使用权和 AI 身份只在 `wos4-lock.ps1 -Action AcquireAccount -Owner <开发人员_AI身份>` 成功后认领。
+- 并发会话槽放在 `[wos4.session.<槽位>]` 段，例如 `slot1`、`slot2`；槽位只绑定默认账号和浏览器隔离信息，不绑定前端或后端职责。
 - 登录前必须通过 `wos4-artifacts/scripts/wos4-lock.ps1 -Action AcquireAccount` 申请账号锁；账号池用尽时必须停止并报告 `blocked`，不得重复登录已锁账号。
 - WOS4 操作结束或当前 AI 不再使用该账号时，必须通过 `wos4-lock.ps1 -Action ReleaseAccount` 归还账号使用权。
 - 保存、提交、发布同一 WOS4 页面、模型、函数、客户端或部署对象前，应通过 `wos4-lock.ps1 -Action AcquireObject` 申请对象锁，完成后释放对象锁。

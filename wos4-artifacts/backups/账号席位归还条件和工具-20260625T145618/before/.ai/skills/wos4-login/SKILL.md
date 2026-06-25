@@ -35,12 +35,8 @@ PowerShell 网络请求如需直连，使用 `-Proxy $null`。
 - 使用锁脚本返回的 `account` 到 `[wos4.account.<account>]` 读取 `username/password`；旧配置没有账号段时才回退 `[wos4] username/password`。
 - 不要把密码写进脚本文件、skill、最终回复或日志。
 - 可复用脚本应从环境变量 `WOS4_PASS` 读取密码。
-- 账号席位按 WOS 登录人管理，不按 AI agent 管理；同一个已登录 Chrome/profile 下切换 `frontend-ai`、`code-ai`、`test-ai`、`review-ai` 不需要重新申请或归还账号席位。
-- 账号席位 owner 使用固定格式 `wos4:<账号别名>`，例如 `wos4:sun_yufei`。
-- 当前 Chrome/profile 不再使用某个 WOS4 登录人时，必须运行 `wos4-lock.ps1 -Action ReleaseAccount` 归还账号使用权；异常中断恢复后先查 `Status`，不能直接重复登录。
-- 可用 `wos4-lock.ps1 -Action ReleaseOwnerAccounts -Owner wos4:<账号别名>` 一键归还该 WOS 登录人持有且没有对象锁的账号席位。
-- 不做定时自动释放账号。开发过程中不能因为时间到了就释放席位，否则其他 AI 重登同一账号会顶掉当前会话。
-- 独立 Chrome profile 可以预启动；预启动不占用账号席位。只有 `AcquireAccount -Owner wos4:<账号别名>` 返回 `status=acquired` 后，才认为该 WOS 登录人占用了该账号席位。
+- 当前 AI 不再使用 WOS4 账号时，必须运行 `wos4-lock.ps1 -Action ReleaseAccount` 归还账号使用权；异常中断恢复后先查 `Status`，不能直接重复登录。
+- 独立 Chrome profile 可以预启动；预启动不认领账号，也不认领 `孙宇飞_test-ai`、`向学智_code-ai` 等 AI 身份。只有 `AcquireAccount -Owner <开发人员_AI身份>` 返回 `status=acquired` 后，才认为该 AI 身份占用了该账号。
 
 ## 稳定选择器
 
@@ -54,7 +50,7 @@ PowerShell 网络请求如需直连，使用 `-Proxy $null`。
 ## 推荐流程
 
 1. 如果需要并发，先用 `wos4-browser-sessions.ps1 -Action Start` 准备独立 Chrome profile；这一步不登录、不认领账号。
-2. 如果该 Chrome/profile 尚未占用目标 WOS 登录人席位，运行 `wos4-lock.ps1 -Action AcquireAccount -Account <账号别名> -Session <槽位> -Owner wos4:<账号别名> -Task <任务说明>` 申请账号锁；同一账号下只是切换 agent 时不要重复申请。
+2. 运行 `wos4-lock.ps1 -Action AcquireAccount -Owner <当前AI身份> -Task <任务说明>` 申请账号锁。
 3. 如果锁脚本返回 `blocked`，停止登录并把锁冲突原因报告给用户。
 4. 用锁结果中的 `account/session/profile_dir/cdp_port/harness_name/isolated_context` 选择浏览器上下文或独立 profile。
 5. 如果用户要求前台可见，优先使用已启动的独立 profile；不要把多个账号放进同一个普通 Chrome profile。
@@ -64,7 +60,7 @@ PowerShell 网络请求如需直连，使用 `-Proxy $null`。
 9. 如果普通 fill/type 后密码为空或按钮仍禁用，使用原生 value setter。
 10. 点击“登录”。
 11. 等 URL 到 `#/main`，或页面出现 `时空功能开发`、`系统运维`、`安全管理`、`审计管理`。
-12. 当前任务结束、该 WOS 登录人不再使用、暂停并不继续操作、登录失败且本轮停止、或用户要求归还时，运行 `wos4-lock.ps1 -Action ReleaseAccount`；如果需要释放同一席位 owner 下的多个账号，可运行 `ReleaseOwnerAccounts`。
+12. 当前任务结束、账号不再使用或用户要求归还时，运行 `wos4-lock.ps1 -Action ReleaseAccount`。
 
 已验证当前 DOM 中登录按钮 id 是 `desktop-login-btn`，不是 `desktop-login-button`。
 
