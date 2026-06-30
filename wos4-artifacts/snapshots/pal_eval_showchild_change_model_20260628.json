@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "path": "top.2.0",
+  "hasPv": true,
+  "hasFv": true,
+  "rowSource": "totalData",
+  "err": null,
+  "result": [
+    {
+      "step": "setVar",
+      "ok": true
+    },
+    {
+      "step": "showChildCalled",
+      "ok": true
+    }
+  ],
+  "dialogs": []
+}

@@ -1,0 +1,247 @@
+{
+  "ok": true,
+  "path": "top.1.0.0",
+  "text": "变量暂无数据监视 111 堆栈断点新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecordUpdateAssessmentRecordDeleteAssessmentRecordSubmitAssessmentScorePalimpsestHandleError当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC提交调试配置declareonCreateQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecord名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:编译信息 *PalimpsestCrudService*: FATAL: 0;ERROR: 3;WARNING: 0;ERRORerrorCode:604013721错误行:11;错误列:61错误信息:QueryAssessmentPage - the function parameter type is mismatched.errorCode:604013721错误行:12;错误列:61错误信息:QueryAssessmentData - the function parameter type is mismatched.errorCode:604013721错误行:17;错误列:63错误信息:QueryAssessmentSmoke - the function parameter type is mismatched. *QueryAssessmentData*: FATAL: 0;ERROR: 4;WARNING: 0;ERRORerrorCode:604013821错误行:1;错误列:39错误信息:filterJson - can not find the identifier.errorCode:604013672错误行:2;错误列:15错误信息:strmapPara - variable has been defined !errorCode:604013821错误行:8;错误列:24错误信息:filterJson - can not find the identifier.errorCode:604013821错误行:11;错误列:18错误信息:filterJson - can not find the identifier. *QueryAssessmentPage*: FATAL: 0;ERROR: 2;WARNING: 0;ERRORerrorCode:604013821错误行:1;错误列:39错误信息:filterJson - can not find the identifier.errorCode:604013821错误行:3;错误列:33错误信息:filterJson - can not find the identifier. *QueryAssessmentSmoke*: FATAL: 0;ERROR: 4;WARNING: 0;ERRORerrorCode:604013821错误行:1;错误列:40错误信息:filterJson - can not find the identifier.errorCode:604013672错误行:2;错误列:15错误信息:strmapPara - variable has been defined !errorCode:604013821错误行:8;错误列:24错误信息:filterJson - can not find the identifier.errorCode:604013821错误行:11;错误列:18错误信息:filterJson - can not find the identifier. *onCreate*: FATAL: 0;ERROR: 1;WARNING: 0;ERRORerrorCode:604013721错误行:2;错误列:33错误信息:QueryAssessmentSmoke - the function parameter type is mismatched.行：1，列：1， 空格：4元语言属性基础信息名称:显示名称:描述:0 / 128ID:1441151880758560281GUID:aa5d8314-87b7-453c-96e6-21e4327a8778版本状态:编辑态上传图标:已配置上传对象类型:功能单元模型历史版本:提交查看仓库路径:KingFusion4.5_V1/产品仓库/KF4.5产品/KF4.5数字孪生模型/管控单元模型/盛云科技_孙宇飞_Palimpsest_后台_0623分类标签1:分类标签2:分类标签3:成员配置编辑成员名称成员值暂无数据12345678修改成功修改成功修改成功",
+  "inputs": [
+    {
+      "idx": 0,
+      "value": "",
+      "placeholder": "请输入功能名称",
+      "disabled": false
+    },
+    {
+      "idx": 1,
+      "value": "declare",
+      "placeholder": "请输入功能名称",
+      "disabled": true
+    },
+    {
+      "idx": 2,
+      "value": "",
+      "placeholder": "参数用,隔开，如int a, int b",
+      "disabled": true
+    },
+    {
+      "idx": 3,
+      "value": "",
+      "placeholder": "",
+      "disabled": true
+    },
+    {
+      "idx": 4,
+      "value": "onCreate",
+      "placeholder": "请输入功能名称",
+      "disabled": true
+    },
+    {
+      "idx": 5,
+      "value": "",
+      "placeholder": "参数用,隔开，如int a, int b",
+      "disabled": true
+    },
+    {
+      "idx": 6,
+      "value": "",
+      "placeholder": "",
+      "disabled": true
+    },
+    {
+      "idx": 7,
+      "value": "QueryAssessmentPage",
+      "placeholder": "请输入功能名称",
+      "disabled": false
+    },
+    {
+      "idx": 8,
+      "value": "stringMap<var> strmapPara",
+      "placeholder": "参数用,隔开，如int a, int b",
+      "disabled": false
+    },
+    {
+      "idx": 9,
+      "value": "string",
+      "placeholder": "",
+      "disabled": false
+    },
+    {
+      "idx": 10,
+      "value": "QueryAssessmentData",
+      "placeholder": "请输入功能名称",
+      "disabled": false
+    },
+    {
+      "idx": 11,
+      "value": "stringMap<var> strmapPara",
+      "placeholder": "参数用,隔开，如int a, int b",
+      "disabled": false
+    },
+    {
+      "idx": 12,
+      "value": "string",
+      "placeholder": "",
+      "disabled": false
+    },
+    {
+      "idx": 13,
+      "value": "QueryAssessmentSmoke",
+      "placeholder": "请输入功能名称",
+      "disabled": false
+    },
+    {
+      "idx": 14,
+      "value": "stringMap<var> strmapPara",
+      "placeholder": "参数用,隔开，如int a, int b",
+      "disabled": false
+    },
+    {
+      "idx": 15,
+      "value": "string",
+      "placeholder": "",
+      "disabled": false
+    },
+    {
+      "idx": 16,
+      "value": "PalimpsestCrudService",
+      "placeholder": "请输入功能名称",
+      "disabled": false
+    },
+    {
+      "idx": 17,
+      "value": "stringMap<var> strmapPara",
+      "placeholder": "参数用,隔开，如int a, int b",
+      "disabled": false
+    },
+    {
+      "idx": 18,
+      "value": "string",
+      "placeholder": "",
+      "disabled": false
+    },
+    {
+      "idx": 19,
+      "value": "QueryAssessmentRecords",
+      "placeholder": "请输入功能名称",
+      "disabled": false
+    },
+    {
+      "idx": 20,
+      "value": "stringMap<var> strmapPara",
+      "placeholder": "参数用,隔开，如int a, int b",
+      "disabled": false
+    },
+    {
+      "idx": 21,
+      "value": "string",
+      "placeholder": "",
+      "disabled": false
+    },
+    {
+      "idx": 22,
+      "value": "CreateAssessmentRecord",
+      "placeholder": "请输入功能名称",
+      "disabled": false
+    },
+    {
+      "idx": 23,
+      "value": "stringMap<var> strmapPara",
+      "placeholder": "参数用,隔开，如int a, int b",
+      "disabled": false
+    },
+    {
+      "idx": 24,
+      "value": "string",
+      "placeholder": "",
+      "disabled": false
+    },
+    {
+      "idx": 25,
+      "value": "PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC",
+      "placeholder": "",
+      "disabled": false
+    },
+    {
+      "idx": 26,
+      "value": "PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC",
+      "placeholder": "",
+      "disabled": false
+    },
+    {
+      "idx": 27,
+      "value": "",
+      "placeholder": "",
+      "disabled": false
+    },
+    {
+      "idx": 28,
+      "value": "",
+      "placeholder": "",
+      "disabled": false
+    },
+    {
+      "idx": 29,
+      "value": "",
+      "placeholder": "",
+      "disabled": false
+    },
+    {
+      "idx": 30,
+      "value": "",
+      "placeholder": "",
+      "disabled": false
+    }
+  ],
+  "visibleUnsaved": 0,
+  "dialogs": [
+    {
+      "text": ""
+    },
+    {
+      "text": ""
+    },
+    {
+      "text": ""
+    },
+    {
+      "text": ""
+    },
+    {
+      "text": ""
+    },
+    {
+      "text": ""
+    },
+    {
+      "text": ""
+    },
+    {
+      "text": ""
+    },
+    {
+      "text": ""
+    },
+    {
+      "text": ""
+    },
+    {
+      "text": ""
+    },
+    {
+      "text": ""
+    },
+    {
+      "text": ""
+    },
+    {
+      "text": ""
+    },
+    {
+      "text": ""
+    },
+    {
+      "text": ""
+    },
+    {
+      "text": ""
+    }
+  ]
+}

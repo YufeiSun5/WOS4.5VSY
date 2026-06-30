@@ -1,0 +1,53 @@
+{
+  "onCreate": {
+    "ret": 0,
+    "rawKeys": [
+      "errorcodes",
+      "ret",
+      "returndata",
+      "dataset"
+    ],
+    "data": [
+      {
+        "name": "onCreate",
+        "inputparam": "",
+        "returntype": "",
+        "script": "stringMap<var> param,input,output,fieldValue1,returnData,data;\nstringMap<var>[] fieldValues;\nstring[] dataFields1;\nvar[] dataValue1;\nvar[][] dataValues;\nResult result1;\nstring resultText;\n\nparam.cloudID = 0;\nparam.areaID = 0;\nparam.transactionID = (uint64)0;\nparam.timeout = 8000;\nparam.type = (int32)3106;\n\ndataFields1 = {\"$startTime\",\"$endTime\",\"id\",\"student_id\",\"batch_id\",\"mentor_id\",\"professional_score\",\"attitude_score\",\"task_score\",\"teamwork_score\",\"innovation_score\",\"total_score\",\"status\",\"comment\",\"deleted\"};\ndataValue1.push((int64)132225120000000000);\ndataValue1.push((int64)132225120000023456);\ndataValue1.push(\"PAL_DBG_20260628_012646\");\ndataValue1.push(\"STU_DEBUG_001\");\ndataValue1.push(\"BATCH_DEBUG_001\");\ndataValue1.push(\"MENTOR_DEBUG_001\");\ndataValue1.push(38.0);\ndataValue1.push(18.0);\ndataValue1.push(18.0);\ndataValue1.push(9.0);\ndataValue1.push(9.0);\ndataValue1.push(92.0);\ndataValue1.push(\"debug_created\");\ndataValue1.push(\"backend create smoke 3106\");\ndataValue1.push(false);\ndataValues.push(new dataValue1);\n\nfieldValue1.objectName = \"pal_assessment_record\";\nfieldValue1.dataFields = new dataFields1;\nfieldValue1.dataValues = new dataValues;\nfieldValues.push(new fieldValue1);\n\ninput.objectIdentifierType = (int32)2;\ninput.fieldValues = new fieldValues;\n\nresult1 = Create(param,input,output);\n\nif(result1.ret == 0)\n{\n    returnData[\"ok\"] = true;\n    returnData[\"code\"] = \"CREATE_OK\";\n    returnData[\"message\"] = \"create pal_assessment_record success\";\n}\nelse\n{\n    returnData[\"ok\"] = false;\n    returnData[\"code\"] = \"CREATE_FAILED\";\n    returnData[\"message\"] = \"create pal_assessment_record failed\";\n}\n\ndata[\"testId\"] = \"PAL_DBG_20260628_012646\";\ndata[\"type\"] = 3106;\ndata[\"table\"] = \"pal_assessment_record\";\ndata[\"createRet\"] = result1.ret;\ndata[\"outputText\"] = ConvertToJsonString(output,true);\nreturnData[\"traceId\"] = \"pal-20260628-oncreate-direct-create\";\nreturnData[\"data\"] = data;\n\nresultText = ConvertToJsonString(returnData,true);\nTrace(2,\"PalimpsestBackend.onCreate.DirectCreate3106\",resultText);\n"
+      }
+    ]
+  },
+  "CreateAssessmentRecord": {
+    "ret": 0,
+    "rawKeys": [
+      "errorcodes",
+      "ret",
+      "returndata",
+      "dataset"
+    ],
+    "data": [
+      {
+        "name": "CreateAssessmentRecord",
+        "inputparam": "stringMap<var> strmapPara",
+        "returntype": "string",
+        "script": "Trace(2, \"CreateAssessmentRecord.enter\", strmapPara);\nstringMap<var> param,input,output,fieldValue1,returnData,data;\nstringMap<var>[] fieldValues;\nstring[] dataFields;\nvar[] dataValue1;\nvar[][] dataValues;\nResult createResult;\nDateTime nowTime;\nstring studentId;\nstring mentorId;\nstring batchId;\ndouble professionalScore;\ndouble attitudeScore;\ndouble taskScore;\ndouble teamworkScore;\ndouble innovationScore;\ndouble totalScore;\nstring status;\nstring comment;\nstring resultText;\n\nstudentId = \"S2026041001\";\nmentorId = \"M001\";\nbatchId = \"2024Q2\";\nprofessionalScore = 38;\nattitudeScore = 18;\ntaskScore = 18;\nteamworkScore = 9;\ninnovationScore = 9;\nstatus = \"pending\";\ncomment = \"created by Palimpsest CRUD smoke\";\n\nif (strmapPara.containsKey(\"student_id\")) { studentId = strmapPara.student_id; }\nif (strmapPara.containsKey(\"mentor_id\")) { mentorId = strmapPara.mentor_id; }\nif (strmapPara.containsKey(\"batch_id\")) { batchId = strmapPara.batch_id; }\nif (strmapPara.containsKey(\"professional_score\")) { professionalScore = (double)strmapPara.professional_score; }\nif (strmapPara.containsKey(\"attitude_score\")) { attitudeScore = (double)strmapPara.attitude_score; }\nif (strmapPara.containsKey(\"task_score\")) { taskScore = (double)strmapPara.task_score; }\nif (strmapPara.containsKey(\"teamwork_score\")) { teamworkScore = (double)strmapPara.teamwork_score; }\nif (strmapPara.containsKey(\"innovation_score\")) { innovationScore = (double)strmapPara.innovation_score; }\nif (strmapPara.containsKey(\"status\")) { status = strmapPara.status; }\nif (strmapPara.containsKey(\"comment\")) { comment = strmapPara.comment; }\n\ntotalScore = professionalScore + attitudeScore + taskScore + teamworkScore + innovationScore;\nnowTime = DateTime(2026,6,27,0,0,0,0,0);\n\nparam.cloudID = 0;\nparam.areaID = 0;\nparam.transactionID = (uint64)0;\nparam.timeout = 8000;\nparam.type = (int32)4106;\n\ndataFields = {\"$startTime\",\"$endTime\",\"student_id\",\"mentor_id\",\"batch_id\",\"professional_score\",\"attitude_score\",\"task_score\",\"teamwork_score\",\"innovation_score\",\"total_score\",\"status\",\"comment\",\"updated_at\",\"deleted\"};\ndataValue1.push(nowTime);\ndataValue1.push(nowTime);\ndataValue1.push(studentId);\ndataValue1.push(mentorId);\ndataValue1.push(batchId);\ndataValue1.push(professionalScore);\ndataValue1.push(attitudeScore);\ndataValue1.push(taskScore);\ndataValue1.push(teamworkScore);\ndataValue1.push(innovationScore);\ndataValue1.push(totalScore);\ndataValue1.push(status);\ndataValue1.push(comment);\ndataValue1.push(nowTime);\ndataValue1.push((bool)false);\ndataValues.push(new dataValue1);\n\nfieldValue1.objectName = \"pal_assessment_record\";\nfieldValue1.dataFields = new dataFields;\nfieldValue1.dataValues = new dataValues;\nfieldValues.push(new fieldValue1);\n\ninput.objectIdentifierType = (int32)2;\ninput.fieldValues = new fieldValues;\n\ncreateResult = Create(param, input, output);\nTrace(2, \"CreateAssessmentRecord.ret\", createResult.ret);\nTrace(2, \"CreateAssessmentRecord.output\", output);\n\ndata.table = \"pal_assessment_record\";\ndata.createRet = createResult.ret;\ndata.output = new output;\nreturnData.ok = (bool)(createResult.ret == 0);\nif (createResult.ret == 0) { returnData.code = \"OK\"; returnData.message = \"create assessment record success\"; }\nelse { returnData.code = \"CREATE_FAILED\"; returnData.message = \"create assessment record failed\"; }\nreturnData.traceId = \"pal-20260627-real-create\";\nreturnData.data = new data;\nresultText = ConvertToJsonString(returnData,true);\nTrace(2, \"CreateAssessmentRecord.return\", resultText);\nreturn resultText;"
+      }
+    ]
+  },
+  "QueryAssessmentRecords": {
+    "ret": 0,
+    "rawKeys": [
+      "errorcodes",
+      "ret",
+      "returndata",
+      "dataset"
+    ],
+    "data": [
+      {
+        "name": "QueryAssessmentRecords",
+        "inputparam": "stringMap<var> strmapPara",
+        "returntype": "string",
+        "script": "Trace(2, \"QueryAssessmentRecords.enter\", strmapPara);\r\n\r\nstringMap<var> param,input,output,objectCondition,condition1;\r\nstringMap<var>[] conditions;\r\nResult queryResult;\r\nstring[] returnFields;\r\nstring resultText;\r\n\r\nparam.cloudID = 0;\r\nparam.areaID = 0;\r\nparam.transactionID = (uint64)0;\r\nparam.timeout = 8000;\r\nparam.type = (int32)4106;\r\n\r\nreturnFields = {\"$objectGUID\",\"$recordID\",\"$startTime\",\"$endTime\",\"student_no\",\"student_id\",\"mentor_id\",\"batch_id\",\"professional_score\",\"attitude_score\",\"task_score\",\"teamwork_score\",\"innovation_score\",\"total_score\",\"status\",\"comment\",\"updated_at\"};\r\n\r\nobjectCondition.mode = (int32)17;\r\nobjectCondition.identifierType = (int32)2;\r\nobjectCondition.names = {\"pal_assessment_record\"};\r\n\r\ncondition1.mode = (int32)61;\r\ncondition1.objectCondition = new objectCondition;\r\ncondition1.mainMode = (int32)53;\r\ncondition1.recordSpaceTimeMode = 1;\r\ncondition1.returnFields = new returnFields;\r\ncondition1.offset = 0;\r\ncondition1.limit = 20;\r\nconditions.push(new condition1);\r\n\r\ninput.conditions = new conditions;\r\n\r\nqueryResult = Query(param, input, output);\r\nTrace(2, \"QueryAssessmentRecords.queryRet\", queryResult.ret);\r\nTrace(2, \"QueryAssessmentRecords.output\", output);\r\n\r\nif (queryResult.ret == 0)\r\n{\r\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\r\n}\r\nelse\r\n{\r\n resultText = \"{\\\"ok\\\":false,\\\"code\\\":\\\"QUERY_FAILED\\\",\\\"message\\\":\\\"real query failed\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\r\n}\r\n\r\nTrace(2, \"QueryAssessmentRecords.return\", resultText);\r\nreturn resultText;"
+      }
+    ]
+  }
+}

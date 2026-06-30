@@ -1,0 +1,611 @@
+{
+  "inputRect": {
+    "x": 1661,
+    "y": 66,
+    "w": 186,
+    "h": 32
+  },
+  "inputValue": "盛云科技_孙宇飞_Palimpsest_后台_0623",
+  "bodyHas": true,
+  "around": "ront frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页\n\nKingFusion4.5_工程浏览器\n\n盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n人员\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n第三方计算管理\n\t\n\n\n图形模型\n\t\n\n\n2D精灵图\n\t\n\n\n3D精灵图\n\t\n\n\n页面精灵图\n\t\n\n\n报表精灵图\n\t\n\n\n自定义精灵图\n\t\n\n\n子模型\n\t\n\n\n形参配置\n\t\n\n自定义计算模型\n\n新建\n更多操作 \n\t模型名称\t触发类型\t触发条件\t操作\n\t\nPalimpsestBackend\n\t\n自定义函数\n\t\n\t\n编辑\n属性\n删除\n共 1 条\n1\n前往页\n\nPalimpsestBackend脚本编辑器",
+  "rows": [
+    {
+      "i": 8,
+      "text": "8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "rect": {
+        "x": 543,
+        "y": 425,
+        "w": 1348,
+        "h": 40
+      },
+      "btns": [
+        {
+          "j": 2,
+          "text": "盛云科技_孙宇飞_Palimpsest_前端_0623",
+          "cls": "",
+          "rect": {
+            "x": 653,
+            "y": 434.5,
+            "w": 258.390625,
+            "h": 20
+          }
+        },
+        {
+          "j": 3,
+          "text": "Palimpsest frontend model: left 18 percent menu and right 82 percent content test page.",
+          "cls": "",
+          "rect": {
+            "x": 903,
+            "y": 434.5,
+            "w": 565.234375,
+            "h": 20
+          }
+        },
+        {
+          "j": 4,
+          "text": "编辑",
+          "cls": "el-button el-button--text el-button--medium",
+          "rect": {
+            "x": 1293,
+            "y": 425,
+            "w": 28,
+            "h": 39
+          }
+        },
+        {
+          "j": 5,
+          "text": "编辑",
+          "cls": "",
+          "rect": {
+            "x": 1293,
+            "y": 436.5,
+            "w": 28,
+            "h": 16
+          }
+        },
+        {
+          "j": 6,
+          "text": "属性",
+          "cls": "el-button el-button--text el-button--medium",
+          "rect": {
+            "x": 1352,
+            "y": 425,
+            "w": 28,
+            "h": 39
+          }
+        },
+        {
+          "j": 7,
+          "text": "属性",
+          "cls": "",
+          "rect": {
+            "x": 1352,
+            "y": 436.5,
+            "w": 28,
+            "h": 16
+          }
+        },
+        {
+          "j": 8,
+          "text": "提交版本",
+          "cls": "el-button el-button--text el-button--medium",
+          "rect": {
+            "x": 1411,
+            "y": 425,
+            "w": 56,
+            "h": 39
+          }
+        },
+        {
+          "j": 9,
+          "text": "提交版本",
+          "cls": "",
+          "rect": {
+            "x": 1411,
+            "y": 436.5,
+            "w": 56,
+            "h": 16
+          }
+        },
+        {
+          "j": 10,
+          "text": "版本管理",
+          "cls": "el-button el-button--text el-button--medium",
+          "rect": {
+            "x": 1498,
+            "y": 425,
+            "w": 56,
+            "h": 39
+          }
+        },
+        {
+          "j": 11,
+          "text": "版本管理",
+          "cls": "",
+          "rect": {
+            "x": 1498,
+            "y": 436.5,
+            "w": 56,
+            "h": 16
+          }
+        },
+        {
+          "j": 12,
+          "text": "更新",
+          "cls": "el-button el-button--text el-button--medium",
+          "rect": {
+            "x": 1585,
+            "y": 425,
+            "w": 28,
+            "h": 39
+          }
+        },
+        {
+          "j": 13,
+          "text": "更新",
+          "cls": "",
+          "rect": {
+            "x": 1585,
+            "y": 436.5,
+            "w": 28,
+            "h": 16
+          }
+        },
+        {
+          "j": 14,
+          "text": "删除",
+          "cls": "el-button el-button--text el-button--medium",
+          "rect": {
+            "x": 1644,
+            "y": 425,
+            "w": 28,
+            "h": 39
+          }
+        },
+        {
+          "j": 15,
+          "text": "删除",
+          "cls": "",
+          "rect": {
+            "x": 1644,
+            "y": 436.5,
+            "w": 28,
+            "h": 16
+          }
+        }
+      ]
+    },
+    {
+      "i": 9,
+      "text": "9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "rect": {
+        "x": 543,
+        "y": 465,
+        "w": 1348,
+        "h": 40
+      },
+      "btns": [
+        {
+          "j": 2,
+          "text": "盛云科技_孙宇飞_Palimpsest_后台_0623",
+          "cls": "",
+          "rect": {
+            "x": 653,
+            "y": 474.5,
+            "w": 258.390625,
+            "h": 20
+          }
+        },
+        {
+          "j": 3,
+          "text": "Palimpsest backend model: fake assessment CRUD functions and test records.",
+          "cls": "",
+          "rect": {
+            "x": 903,
+            "y": 474.5,
+            "w": 500.234375,
+            "h": 20
+          }
+        },
+        {
+          "j": 4,
+          "text": "编辑",
+          "cls": "el-button el-button--text el-button--medium",
+          "rect": {
+            "x": 1293,
+            "y": 465,
+            "w": 28,
+            "h": 39
+          }
+        },
+        {
+          "j": 5,
+          "text": "编辑",
+          "cls": "",
+          "rect": {
+            "x": 1293,
+            "y": 476.5,
+            "w": 28,
+            "h": 16
+          }
+        },
+        {
+          "j": 6,
+          "text": "属性",
+          "cls": "el-button el-button--text el-button--medium",
+          "rect": {
+            "x": 1352,
+            "y": 465,
+            "w": 28,
+            "h": 39
+          }
+        },
+        {
+          "j": 7,
+          "text": "属性",
+          "cls": "",
+          "rect": {
+            "x": 1352,
+            "y": 476.5,
+            "w": 28,
+            "h": 16
+          }
+        },
+        {
+          "j": 8,
+          "text": "提交版本",
+          "cls": "el-button el-button--text el-button--medium",
+          "rect": {
+            "x": 1411,
+            "y": 465,
+            "w": 56,
+            "h": 39
+          }
+        },
+        {
+          "j": 9,
+          "text": "提交版本",
+          "cls": "",
+          "rect": {
+            "x": 1411,
+            "y": 476.5,
+            "w": 56,
+            "h": 16
+          }
+        },
+        {
+          "j": 10,
+          "text": "版本管理",
+          "cls": "el-button el-button--text el-button--medium",
+          "rect": {
+            "x": 1498,
+            "y": 465,
+            "w": 56,
+            "h": 39
+          }
+        },
+        {
+          "j": 11,
+          "text": "版本管理",
+          "cls": "",
+          "rect": {
+            "x": 1498,
+            "y": 476.5,
+            "w": 56,
+            "h": 16
+          }
+        },
+        {
+          "j": 12,
+          "text": "更新",
+          "cls": "el-button el-button--text el-button--medium",
+          "rect": {
+            "x": 1585,
+            "y": 465,
+            "w": 28,
+            "h": 39
+          }
+        },
+        {
+          "j": 13,
+          "text": "更新",
+          "cls": "",
+          "rect": {
+            "x": 1585,
+            "y": 476.5,
+            "w": 28,
+            "h": 16
+          }
+        },
+        {
+          "j": 14,
+          "text": "删除",
+          "cls": "el-button el-button--text el-button--medium",
+          "rect": {
+            "x": 1644,
+            "y": 465,
+            "w": 28,
+            "h": 39
+          }
+        },
+        {
+          "j": 15,
+          "text": "删除",
+          "cls": "",
+          "rect": {
+            "x": 1644,
+            "y": 476.5,
+            "w": 28,
+            "h": 16
+          }
+        }
+      ]
+    },
+    {
+      "i": 10,
+      "text": "10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "rect": {
+        "x": 543,
+        "y": 505,
+        "w": 1348,
+        "h": 40
+      },
+      "btns": [
+        {
+          "j": 2,
+          "text": "PalimpsestAssessment_CUSTOMFUNC",
+          "cls": "",
+          "rect": {
+            "x": 653,
+            "y": 514.5,
+            "w": 247.359375,
+            "h": 20
+          }
+        },
+        {
+          "j": 3,
+          "text": "Palimpsest assessment CRUD backend functions for frontend integration.",
+          "cls": "",
+          "rect": {
+            "x": 903,
+            "y": 514.5,
+            "w": 469.78125,
+            "h": 20
+          }
+        },
+        {
+          "j": 4,
+          "text": "编辑",
+          "cls": "el-button el-button--text el-button--medium",
+          "rect": {
+            "x": 1293,
+            "y": 505,
+            "w": 28,
+            "h": 39
+          }
+        },
+        {
+          "j": 5,
+          "text": "编辑",
+          "cls": "",
+          "rect": {
+            "x": 1293,
+            "y": 516.5,
+            "w": 28,
+            "h": 16
+          }
+        },
+        {
+          "j": 6,
+          "text": "属性",
+          "cls": "el-button el-button--text el-button--medium",
+          "rect": {
+            "x": 1352,
+            "y": 505,
+            "w": 28,
+            "h": 39
+          }
+        },
+        {
+          "j": 7,
+          "text": "属性",
+          "cls": "",
+          "rect": {
+            "x": 1352,
+            "y": 516.5,
+            "w": 28,
+            "h": 16
+          }
+        },
+        {
+          "j": 8,
+          "text": "提交版本",
+          "cls": "el-button el-button--text el-button--medium",
+          "rect": {
+            "x": 1411,
+            "y": 505,
+            "w": 56,
+            "h": 39
+          }
+        },
+        {
+          "j": 9,
+          "text": "提交版本",
+          "cls": "",
+          "rect": {
+            "x": 1411,
+            "y": 516.5,
+            "w": 56,
+            "h": 16
+          }
+        },
+        {
+          "j": 10,
+          "text": "版本管理",
+          "cls": "el-button el-button--text el-button--medium",
+          "rect": {
+            "x": 1498,
+            "y": 505,
+            "w": 56,
+            "h": 39
+          }
+        },
+        {
+          "j": 11,
+          "text": "版本管理",
+          "cls": "",
+          "rect": {
+            "x": 1498,
+            "y": 516.5,
+            "w": 56,
+            "h": 16
+          }
+        },
+        {
+          "j": 12,
+          "text": "更新",
+          "cls": "el-button el-button--text el-button--medium",
+          "rect": {
+            "x": 1585,
+            "y": 505,
+            "w": 28,
+            "h": 39
+          }
+        },
+        {
+          "j": 13,
+          "text": "更新",
+          "cls": "",
+          "rect": {
+            "x": 1585,
+            "y": 516.5,
+            "w": 28,
+            "h": 16
+          }
+        },
+        {
+          "j": 14,
+          "text": "删除",
+          "cls": "el-button el-button--text el-button--medium",
+          "rect": {
+            "x": 1644,
+            "y": 505,
+            "w": 28,
+            "h": 39
+          }
+        },
+        {
+          "j": 15,
+          "text": "删除",
+          "cls": "",
+          "rect": {
+            "x": 1644,
+            "y": 516.5,
+            "w": 28,
+            "h": 16
+          }
+        }
+      ]
+    },
+    {
+      "i": 37,
+      "text": "PalimpsestBackend\n\t\n自定义函数\n\t\n\t\n编辑\n属性\n删除",
+      "rect": {
+        "x": 325,
+        "y": 201,
+        "w": 1544,
+        "h": 37
+      },
+      "btns": [
+        {
+          "j": 2,
+          "text": "PalimpsestBackend",
+          "cls": "",
+          "rect": {
+            "x": 375,
+            "y": 209.5,
+            "w": 127.84375,
+            "h": 19
+          }
+        },
+        {
+          "j": 3,
+          "text": "自定义函数",
+          "cls": "",
+          "rect": {
+            "x": 677,
+            "y": 209.5,
+            "w": 70,
+            "h": 19
+          }
+        },
+        {
+          "j": 4,
+          "text": "编辑",
+          "cls": "el-button el-button--text el-button--medium",
+          "rect": {
+            "x": 1679,
+            "y": 201,
+            "w": 30,
+            "h": 36
+          }
+        },
+        {
+          "j": 5,
+          "text": "编辑",
+          "cls": "",
+          "rect": {
+            "x": 1680,
+            "y": 211,
+            "w": 28,
+            "h": 16
+          }
+        },
+        {
+          "j": 6,
+          "text": "属性",
+          "cls": "el-button el-button--text el-button--medium",
+          "rect": {
+            "x": 1721,
+            "y": 201,
+            "w": 30,
+            "h": 36
+          }
+        },
+        {
+          "j": 7,
+          "text": "属性",
+          "cls": "",
+          "rect": {
+            "x": 1722,
+            "y": 211,
+            "w": 28,
+            "h": 16
+          }
+        },
+        {
+          "j": 8,
+          "text": "删除",
+          "cls": "el-button el-button--text el-button--medium",
+          "rect": {
+            "x": 1763,
+            "y": 201,
+            "w": 30,
+            "h": 36
+          }
+        },
+        {
+          "j": 9,
+          "text": "删除",
+          "cls": "",
+          "rect": {
+            "x": 1764,
+            "y": 211,
+            "w": 28,
+            "h": 16
+          }
+        }
+      ]
+    }
+  ]
+}

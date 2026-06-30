@@ -1,0 +1,89 @@
+{
+  "ok": true,
+  "frame": "top.0.0",
+  "globals": {
+    "Call": "function",
+    "StringMap": "function",
+    "Variant": "function",
+    "SetRunInfo": "undefined"
+  },
+  "text": "<strong>We're sorry but app-master doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>KingFusion4.5_建模系统建模系统管控单元建模采集设备建模工作流建模数据源建模数字孪生建模分组       导入 导出 删除  根组集成测试测试引滦工程mwq测试张测试组lk测试盛云_孙宇飞_根组产品生成器功能测试_lk工厂车间产线设备数据管理生产计划与执行接口测试模型列表 新建  更多操作  导入 导出 复制 粘贴 移动 删除盛云科技_孙宇飞_Palimpsest_后台_0623   序号名称描述操作1盛云_孙宇飞_Smoke模型_0518建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。 编辑 属性 提交版本 版本管理 更新 删除2盛云_孙宇飞_后台_查询Demo_0618reference lk backend minimal clone: business event + custom calc skeleton 编辑 属性 提交版本 版本管理 更新 删除3盛云_孙宇飞_前端_框架_0618reference lk front frame minimal clone: frame page skeleton 编辑 属性 提交版本 版本管理 更新 删除4盛云_孙宇飞_前端_查询Demo_0618reference lk front business minimal clone: list page + edit page skeleton 编辑 属性 提交版本 版本管理 更新 删除5盛云_孙宇飞_后台_CRUDDemo_0620clean restart backend CRUD model 0620 编辑 属性 提交版本 版本管理 更新 删除6盛云_孙宇飞_前端_框架_0620clean restart front frame model 0620 编辑 属性 提交版本 版本管理 更新 删除7盛云_孙宇飞_前端_CRUDDemo_0620clean restart front business model 0620 编辑 属性 提交版本 版本管理 更新 删除8盛云科技",
+  "tables": [
+    {
+      "i": 25,
+      "cls": "PCUI_ElementTable component_object 模型列表",
+      "sample": [
+        {
+          "modeldescription": "建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。",
+          "modelguid": "cc2268fc-50b2-4f33-afeb-25978ba05e71",
+          "modelid": "288230376151738374",
+          "modelname": "盛云_孙宇飞_Smoke模型_0518",
+          "rowIndex": "1"
+        },
+        {
+          "modeldescription": "reference lk backend minimal clone: business event + custom calc skeleton",
+          "modelguid": "9ca41a5d-d6c6-40c9-bf87-e758ac93bf92",
+          "modelid": "288230376151738495",
+          "modelname": "盛云_孙宇飞_后台_查询Demo_0618",
+          "rowIndex": "2"
+        },
+        {
+          "modeldescription": "reference lk front frame minimal clone: frame page skeleton",
+          "modelguid": "4b4467f1-f5f1-4212-af33-9e106744ab65",
+          "modelid": "288230376151738497",
+          "modelname": "盛云_孙宇飞_前端_框架_0618",
+          "rowIndex": "3"
+        },
+        {
+          "modeldescription": "reference lk front business minimal clone: list page + edit page skeleton",
+          "modelguid": "9ec27a18-bf5d-4f63-b4e2-44b43760c7cc",
+          "modelid": "288230376151738499",
+          "modelname": "盛云_孙宇飞_前端_查询Demo_0618",
+          "rowIndex": "4"
+        },
+        {
+          "modeldescription": "clean restart backend CRUD model 0620",
+          "modelguid": "a03d1321-03d0-481a-bac2-7d465af65ed9",
+          "modelid": "288230376151738699",
+          "modelname": "盛云_孙宇飞_后台_CRUDDemo_0620",
+          "rowIndex": "5"
+        },
+        {
+          "modeldescription": "clean restart front frame model 0620",
+          "modelguid": "9924cfcd-d651-4aa8-90f9-e11d21bec615",
+          "modelid": "288230376151738703",
+          "modelname": "盛云_孙宇飞_前端_框架_0620",
+          "rowIndex": "6"
+        },
+        {
+          "modeldescription": "clean restart front business model 0620",
+          "modelguid": "97bec1b5-0bf4-432f-ad85-0f3669b4e8f3",
+          "modelid": "288230376151738705",
+          "modelname": "盛云_孙宇飞_前端_CRUDDemo_0620",
+          "rowIndex": "7"
+        },
+        {
+          "modeldescription": "Palimpsest frontend model: left 18 percent menu and right 82 percent content test page.",
+          "modelguid": "7d5885fa-5a0b-4fb2-9af1-548b0557c770",
+          "modelid": "288230376151747212",
+          "modelname": "盛云科技_孙宇飞_Palimpsest_前端_0623",
+          "rowIndex": "8"
+        },
+        {
+          "modeldescription": "Palimpsest backend model: fake assessment CRUD functions and test records.",
+          "modelguid": "c4902fcf-26f8-434a-82aa-4d04297930fd",
+          "modelid": "288230376151747213",
+          "modelname": "盛云科技_孙宇飞_Palimpsest_后台_0623",
+          "rowIndex": "9"
+        },
+        {
+          "modeldescription": "Palimpsest assessment CRUD backend functions for frontend integration.",
+          "modelguid": "ca264090-d08a-4491-ade3-d528329973c9",
+          "modelid": "288230376151747294",
+          "modelname": "PalimpsestAssessment_CUSTOMFUNC",
+          "rowIndex": "10"
+        }
+      ]
+    }
+  ]
+}

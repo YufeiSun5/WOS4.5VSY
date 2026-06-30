@@ -1,0 +1,4 @@
+openai:
+  display_name: "WOS4页面变量编辑"
+  short_description: "扫描和修改页面精灵图变量列表并复核持久化"
+  default_prompt: "使用 $wos4-page-variable-edit 扫描当前页面精灵图变量列表，修改指定变量值，并在保存或提交后复核变量是否持久化。"

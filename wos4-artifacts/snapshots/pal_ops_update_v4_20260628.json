@@ -1,0 +1,126 @@
+{
+  "started": true,
+  "done": true,
+  "steps": [
+    {
+      "funcname": "IQueryRepoPacketsList",
+      "payload": {
+        "selectRepoGUID": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9"
+      },
+      "t": 1782627578964,
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": {
+          "errorcode": 0,
+          "errormsg": "success",
+          "repopktversionlist": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "traceID": "5189143456201947136",
+        "consumeTime": 98
+      }
+    },
+    {
+      "funcname": "IUpdatePUInstance",
+      "payload": {
+        "instRepoGUID": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+        "updateVersion": 4
+      },
+      "t": 1782627579103,
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": {
+          "errorcode": 0,
+          "errormsg": "success"
+        },
+        "traceID": "5189143607889847296",
+        "consumeTime": 3091
+      }
+    },
+    {
+      "funcname": "IQuerySTRepoCfgInfo",
+      "payload": {
+        "instRepoGUID": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9"
+      },
+      "t": 1782627582243,
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": {
+          "errorcode": 0,
+          "errormsg": "success",
+          "strepocfglist": [
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "92d89140-0736-41f2-873b-6bfab8f3d276",
+              "strepocfgname": "PalimpsestBack_0626R2",
+              "strepocfgver": 7
+            }
+          ]
+        },
+        "traceID": "5189146813336723456",
+        "consumeTime": 109
+      }
+    },
+    {
+      "funcname": "IQuerySTObjectInfo",
+      "payload": {
+        "reposGUID": [
+          "aba6cf7a-0715-4966-8eaf-0f448eba7bc9"
+        ]
+      },
+      "t": 1782627582391,
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": {
+          "errorcode": 0,
+          "errormsg": "success",
+          "stobjectlist": [
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "stobjectguid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+              "stobjectname": "PalimpsestL1_0626R2"
+            }
+          ]
+        },
+        "traceID": "5189146965277544448",
+        "consumeTime": 102
+      }
+    }
+  ],
+  "t": 1782627578964,
+  "finishedAt": 1782627582532
+}

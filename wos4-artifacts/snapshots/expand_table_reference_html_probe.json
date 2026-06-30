@@ -1,0 +1,2973 @@
+{
+  "rows": [
+    {
+      "body": "main",
+      "i": 0,
+      "cls": "el-table__row expanded",
+      "text": "1 24-0001 XXX部件名称 部件分类 YL30-751 25012103",
+      "css": {
+        "x": 384,
+        "y": 319.625,
+        "w": 1536,
+        "h": 37,
+        "display": "table-row",
+        "position": "static",
+        "height": "37px",
+        "padding": "0px",
+        "margin": "0px",
+        "boxSizing": "border-box",
+        "overflow": "visible",
+        "lineHeight": "16.1px"
+      },
+      "cells": [
+        {
+          "ci": 0,
+          "cls": "el-table_1_column_1   el-table__cell",
+          "text": "1",
+          "css": {
+            "x": 384,
+            "y": 319.625,
+            "w": 48,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_1   el-table__cell\"><div class=\"cell\"><div>1</div></div></td>"
+        },
+        {
+          "ci": 1,
+          "cls": "el-table_1_column_2 is-center  el-table__cell",
+          "text": "24-0001",
+          "css": {
+            "x": 432,
+            "y": 319.625,
+            "w": 228,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_2 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 226px;\"><!----><span data-v-3499da1b=\"\">24-0001</span></div></td>"
+        },
+        {
+          "ci": 2,
+          "cls": "el-table_1_column_3 is-center  el-table__cell",
+          "text": "XXX部件名称",
+          "css": {
+            "x": 660,
+            "y": 319.625,
+            "w": 450,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_3 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 448px;\"><!----><span data-v-3499da1b=\"\">XXX部件名称</span></div></td>"
+        },
+        {
+          "ci": 3,
+          "cls": "el-table_1_column_4 is-center  el-table__cell",
+          "text": "部件分类",
+          "css": {
+            "x": 1110,
+            "y": 319.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_4 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">部件分类</span></div></td>"
+        },
+        {
+          "ci": 4,
+          "cls": "el-table_1_column_5 is-center  el-table__cell",
+          "text": "YL30-751",
+          "css": {
+            "x": 1335,
+            "y": 319.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_5 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">YL30-751</span></div></td>"
+        },
+        {
+          "ci": 5,
+          "cls": "el-table_1_column_6 is-center  el-table__cell",
+          "text": "25012103",
+          "css": {
+            "x": 1560,
+            "y": 319.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_6 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">25012103</span></div></td>"
+        },
+        {
+          "ci": 6,
+          "cls": "el-table_1_column_7 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1785,
+            "y": 319.625,
+            "w": 135,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_7 is-center  is-hidden el-table__cell\"><div class=\"cell\"><!----><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--primary el-button--medium\" style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><!----><!----><span>详情</span></button></div></td>"
+        }
+      ]
+    },
+    {
+      "body": "main",
+      "i": 1,
+      "cls": "custom-expand-tr",
+      "text": "设备/部件编码 设备/部件名称 设备/部件分类 设备/部件型号 固定资产编号 SB001 数控车床 加工设备 CK6140 GD2025001 SB002 冲压机 成型设备 Y32-315 GD2025002",
+      "css": {
+        "x": 384,
+        "y": 356.625,
+        "w": 1536,
+        "h": 140,
+        "display": "table-row",
+        "position": "static",
+        "height": "140px",
+        "padding": "0px",
+        "margin": "0px",
+        "boxSizing": "border-box",
+        "overflow": "visible",
+        "lineHeight": "16.1px"
+      },
+      "cells": [
+        {
+          "ci": 0,
+          "cls": "",
+          "text": "设备/部件编码 设备/部件名称 设备/部件分类 设备/部件型号 固定资产编号 SB001 数控车床 加工设备 CK6140 GD2025001 SB002 冲压机 成型设备 Y32-315 GD2025002",
+          "css": {
+            "x": 384,
+            "y": 356.625,
+            "w": 1536,
+            "h": 140,
+            "display": "table-cell",
+            "position": "static",
+            "height": "140px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td colspan=\"99\" style=\"padding: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial;\"><div style=\"box-sizing: border-box; padding: 15px 20px; background: rgb(245, 247, 250); border-bottom: 1px solid rgb(230, 230, 230); width: 1536px !important;\">\n                <table style=\"width:100%; border-collapse:collapse; font-size:13px; text-align:center;\">\n                    <thead>\n                        <tr style=\"background:#e8f4ff;\">\n                            <th style=\"border:1px solid #e6e6e6; padding:8px; font-weight:normal;\">设备/部件编码</th>\n                            <th style=\"border:1px solid #e6e6e6; padding:8px; font-weight:normal;\">设备/部件名称</th>\n                            <th style=\"border:1px solid #e6e6e6; padding:8px; font-weight:normal;\">设备/部件分类</th>\n                            <th style=\"border:1px solid #e6e6e6; padding:8px; font-weight:normal;\">设备/部件型号</th>\n                            <th style=\"border:1px solid #e6e6e6; padd"
+        }
+      ]
+    },
+    {
+      "body": "main",
+      "i": 2,
+      "cls": "",
+      "text": "SB001 数控车床 加工设备 CK6140 GD2025001",
+      "css": {
+        "x": 404.5,
+        "y": 408.125,
+        "w": 1495,
+        "h": 36,
+        "display": "table-row",
+        "position": "static",
+        "height": "36px",
+        "padding": "0px",
+        "margin": "0px",
+        "boxSizing": "border-box",
+        "overflow": "visible",
+        "lineHeight": "16.1px"
+      },
+      "cells": [
+        {
+          "ci": 0,
+          "cls": "",
+          "text": "SB001",
+          "css": {
+            "x": 404.5,
+            "y": 408.125,
+            "w": 301.234375,
+            "h": 36,
+            "display": "table-cell",
+            "position": "static",
+            "height": "36px",
+            "padding": "8px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td style=\"border:1px solid #e6e6e6; padding:8px;\">SB001</td>"
+        },
+        {
+          "ci": 1,
+          "cls": "",
+          "text": "数控车床",
+          "css": {
+            "x": 705.734375,
+            "y": 408.125,
+            "w": 301.234375,
+            "h": 36,
+            "display": "table-cell",
+            "position": "static",
+            "height": "36px",
+            "padding": "8px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td style=\"border:1px solid #e6e6e6; padding:8px;\">数控车床</td>"
+        },
+        {
+          "ci": 2,
+          "cls": "",
+          "text": "加工设备",
+          "css": {
+            "x": 1006.96875,
+            "y": 408.125,
+            "w": 301.234375,
+            "h": 36,
+            "display": "table-cell",
+            "position": "static",
+            "height": "36px",
+            "padding": "8px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td style=\"border:1px solid #e6e6e6; padding:8px;\">加工设备</td>"
+        },
+        {
+          "ci": 3,
+          "cls": "",
+          "text": "CK6140",
+          "css": {
+            "x": 1308.203125,
+            "y": 408.125,
+            "w": 301.234375,
+            "h": 36,
+            "display": "table-cell",
+            "position": "static",
+            "height": "36px",
+            "padding": "8px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td style=\"border:1px solid #e6e6e6; padding:8px;\">CK6140</td>"
+        },
+        {
+          "ci": 4,
+          "cls": "",
+          "text": "GD2025001",
+          "css": {
+            "x": 1609.4375,
+            "y": 408.125,
+            "w": 290.0625,
+            "h": 36,
+            "display": "table-cell",
+            "position": "static",
+            "height": "36px",
+            "padding": "8px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td style=\"border:1px solid #e6e6e6; padding:8px;\">GD2025001</td>"
+        }
+      ]
+    },
+    {
+      "body": "main",
+      "i": 3,
+      "cls": "",
+      "text": "SB002 冲压机 成型设备 Y32-315 GD2025002",
+      "css": {
+        "x": 404.5,
+        "y": 444.125,
+        "w": 1495,
+        "h": 36,
+        "display": "table-row",
+        "position": "static",
+        "height": "36px",
+        "padding": "0px",
+        "margin": "0px",
+        "boxSizing": "border-box",
+        "overflow": "visible",
+        "lineHeight": "16.1px"
+      },
+      "cells": [
+        {
+          "ci": 0,
+          "cls": "",
+          "text": "SB002",
+          "css": {
+            "x": 404.5,
+            "y": 444.125,
+            "w": 301.234375,
+            "h": 36,
+            "display": "table-cell",
+            "position": "static",
+            "height": "36px",
+            "padding": "8px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td style=\"border:1px solid #e6e6e6; padding:8px;\">SB002</td>"
+        },
+        {
+          "ci": 1,
+          "cls": "",
+          "text": "冲压机",
+          "css": {
+            "x": 705.734375,
+            "y": 444.125,
+            "w": 301.234375,
+            "h": 36,
+            "display": "table-cell",
+            "position": "static",
+            "height": "36px",
+            "padding": "8px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td style=\"border:1px solid #e6e6e6; padding:8px;\">冲压机</td>"
+        },
+        {
+          "ci": 2,
+          "cls": "",
+          "text": "成型设备",
+          "css": {
+            "x": 1006.96875,
+            "y": 444.125,
+            "w": 301.234375,
+            "h": 36,
+            "display": "table-cell",
+            "position": "static",
+            "height": "36px",
+            "padding": "8px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td style=\"border:1px solid #e6e6e6; padding:8px;\">成型设备</td>"
+        },
+        {
+          "ci": 3,
+          "cls": "",
+          "text": "Y32-315",
+          "css": {
+            "x": 1308.203125,
+            "y": 444.125,
+            "w": 301.234375,
+            "h": 36,
+            "display": "table-cell",
+            "position": "static",
+            "height": "36px",
+            "padding": "8px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td style=\"border:1px solid #e6e6e6; padding:8px;\">Y32-315</td>"
+        },
+        {
+          "ci": 4,
+          "cls": "",
+          "text": "GD2025002",
+          "css": {
+            "x": 1609.4375,
+            "y": 444.125,
+            "w": 290.0625,
+            "h": 36,
+            "display": "table-cell",
+            "position": "static",
+            "height": "36px",
+            "padding": "8px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td style=\"border:1px solid #e6e6e6; padding:8px;\">GD2025002</td>"
+        }
+      ]
+    },
+    {
+      "body": "main",
+      "i": 4,
+      "cls": "el-table__row el-table__row--striped expanded",
+      "text": "2 24-0002 XXX部件名称 部件分类 YL30-751 25012103",
+      "css": {
+        "x": 384,
+        "y": 496.625,
+        "w": 1536,
+        "h": 37,
+        "display": "table-row",
+        "position": "static",
+        "height": "37px",
+        "padding": "0px",
+        "margin": "0px",
+        "boxSizing": "border-box",
+        "overflow": "visible",
+        "lineHeight": "16.1px"
+      },
+      "cells": [
+        {
+          "ci": 0,
+          "cls": "el-table_1_column_1   el-table__cell",
+          "text": "2",
+          "css": {
+            "x": 384,
+            "y": 496.625,
+            "w": 48,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_1   el-table__cell\"><div class=\"cell\"><div>2</div></div></td>"
+        },
+        {
+          "ci": 1,
+          "cls": "el-table_1_column_2 is-center  el-table__cell",
+          "text": "24-0002",
+          "css": {
+            "x": 432,
+            "y": 496.625,
+            "w": 228,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_2 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 226px;\"><!----><span data-v-3499da1b=\"\">24-0002</span></div></td>"
+        },
+        {
+          "ci": 2,
+          "cls": "el-table_1_column_3 is-center  el-table__cell",
+          "text": "XXX部件名称",
+          "css": {
+            "x": 660,
+            "y": 496.625,
+            "w": 450,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_3 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 448px;\"><!----><span data-v-3499da1b=\"\">XXX部件名称</span></div></td>"
+        },
+        {
+          "ci": 3,
+          "cls": "el-table_1_column_4 is-center  el-table__cell",
+          "text": "部件分类",
+          "css": {
+            "x": 1110,
+            "y": 496.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_4 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">部件分类</span></div></td>"
+        },
+        {
+          "ci": 4,
+          "cls": "el-table_1_column_5 is-center  el-table__cell",
+          "text": "YL30-751",
+          "css": {
+            "x": 1335,
+            "y": 496.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_5 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">YL30-751</span></div></td>"
+        },
+        {
+          "ci": 5,
+          "cls": "el-table_1_column_6 is-center  el-table__cell",
+          "text": "25012103",
+          "css": {
+            "x": 1560,
+            "y": 496.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_6 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">25012103</span></div></td>"
+        },
+        {
+          "ci": 6,
+          "cls": "el-table_1_column_7 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1785,
+            "y": 496.625,
+            "w": 135,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_7 is-center  is-hidden el-table__cell\"><div class=\"cell\"><!----><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--primary el-button--medium\" style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><!----><!----><span>详情</span></button></div></td>"
+        }
+      ]
+    },
+    {
+      "body": "main",
+      "i": 5,
+      "cls": "el-table__row expanded",
+      "text": "3 24-0003 XXX部件名称 部件分类 YL30-751 25012103",
+      "css": {
+        "x": 384,
+        "y": 533.625,
+        "w": 1536,
+        "h": 37,
+        "display": "table-row",
+        "position": "static",
+        "height": "37px",
+        "padding": "0px",
+        "margin": "0px",
+        "boxSizing": "border-box",
+        "overflow": "visible",
+        "lineHeight": "16.1px"
+      },
+      "cells": [
+        {
+          "ci": 0,
+          "cls": "el-table_1_column_1   el-table__cell",
+          "text": "3",
+          "css": {
+            "x": 384,
+            "y": 533.625,
+            "w": 48,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_1   el-table__cell\"><div class=\"cell\"><div>3</div></div></td>"
+        },
+        {
+          "ci": 1,
+          "cls": "el-table_1_column_2 is-center  el-table__cell",
+          "text": "24-0003",
+          "css": {
+            "x": 432,
+            "y": 533.625,
+            "w": 228,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_2 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 226px;\"><!----><span data-v-3499da1b=\"\">24-0003</span></div></td>"
+        },
+        {
+          "ci": 2,
+          "cls": "el-table_1_column_3 is-center  el-table__cell",
+          "text": "XXX部件名称",
+          "css": {
+            "x": 660,
+            "y": 533.625,
+            "w": 450,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_3 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 448px;\"><!----><span data-v-3499da1b=\"\">XXX部件名称</span></div></td>"
+        },
+        {
+          "ci": 3,
+          "cls": "el-table_1_column_4 is-center  el-table__cell",
+          "text": "部件分类",
+          "css": {
+            "x": 1110,
+            "y": 533.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_4 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">部件分类</span></div></td>"
+        },
+        {
+          "ci": 4,
+          "cls": "el-table_1_column_5 is-center  el-table__cell",
+          "text": "YL30-751",
+          "css": {
+            "x": 1335,
+            "y": 533.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_5 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">YL30-751</span></div></td>"
+        },
+        {
+          "ci": 5,
+          "cls": "el-table_1_column_6 is-center  el-table__cell",
+          "text": "25012103",
+          "css": {
+            "x": 1560,
+            "y": 533.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_6 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">25012103</span></div></td>"
+        },
+        {
+          "ci": 6,
+          "cls": "el-table_1_column_7 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1785,
+            "y": 533.625,
+            "w": 135,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_7 is-center  is-hidden el-table__cell\"><div class=\"cell\"><!----><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--primary el-button--medium\" style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><!----><!----><span>详情</span></button></div></td>"
+        }
+      ]
+    },
+    {
+      "body": "main",
+      "i": 6,
+      "cls": "el-table__row el-table__row--striped expanded",
+      "text": "4 24-0004 XXX部件名称 部件分类 YL30-751 25012103",
+      "css": {
+        "x": 384,
+        "y": 570.625,
+        "w": 1536,
+        "h": 37,
+        "display": "table-row",
+        "position": "static",
+        "height": "37px",
+        "padding": "0px",
+        "margin": "0px",
+        "boxSizing": "border-box",
+        "overflow": "visible",
+        "lineHeight": "16.1px"
+      },
+      "cells": [
+        {
+          "ci": 0,
+          "cls": "el-table_1_column_1   el-table__cell",
+          "text": "4",
+          "css": {
+            "x": 384,
+            "y": 570.625,
+            "w": 48,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_1   el-table__cell\"><div class=\"cell\"><div>4</div></div></td>"
+        },
+        {
+          "ci": 1,
+          "cls": "el-table_1_column_2 is-center  el-table__cell",
+          "text": "24-0004",
+          "css": {
+            "x": 432,
+            "y": 570.625,
+            "w": 228,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_2 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 226px;\"><!----><span data-v-3499da1b=\"\">24-0004</span></div></td>"
+        },
+        {
+          "ci": 2,
+          "cls": "el-table_1_column_3 is-center  el-table__cell",
+          "text": "XXX部件名称",
+          "css": {
+            "x": 660,
+            "y": 570.625,
+            "w": 450,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_3 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 448px;\"><!----><span data-v-3499da1b=\"\">XXX部件名称</span></div></td>"
+        },
+        {
+          "ci": 3,
+          "cls": "el-table_1_column_4 is-center  el-table__cell",
+          "text": "部件分类",
+          "css": {
+            "x": 1110,
+            "y": 570.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_4 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">部件分类</span></div></td>"
+        },
+        {
+          "ci": 4,
+          "cls": "el-table_1_column_5 is-center  el-table__cell",
+          "text": "YL30-751",
+          "css": {
+            "x": 1335,
+            "y": 570.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_5 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">YL30-751</span></div></td>"
+        },
+        {
+          "ci": 5,
+          "cls": "el-table_1_column_6 is-center  el-table__cell",
+          "text": "25012103",
+          "css": {
+            "x": 1560,
+            "y": 570.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_6 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">25012103</span></div></td>"
+        },
+        {
+          "ci": 6,
+          "cls": "el-table_1_column_7 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1785,
+            "y": 570.625,
+            "w": 135,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_7 is-center  is-hidden el-table__cell\"><div class=\"cell\"><!----><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--primary el-button--medium\" style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><!----><!----><span>详情</span></button></div></td>"
+        }
+      ]
+    },
+    {
+      "body": "main",
+      "i": 7,
+      "cls": "el-table__row expanded",
+      "text": "5 24-0005 XXX部件名称 部件分类 YL30-751 25012103",
+      "css": {
+        "x": 384,
+        "y": 607.625,
+        "w": 1536,
+        "h": 37,
+        "display": "table-row",
+        "position": "static",
+        "height": "37px",
+        "padding": "0px",
+        "margin": "0px",
+        "boxSizing": "border-box",
+        "overflow": "visible",
+        "lineHeight": "16.1px"
+      },
+      "cells": [
+        {
+          "ci": 0,
+          "cls": "el-table_1_column_1   el-table__cell",
+          "text": "5",
+          "css": {
+            "x": 384,
+            "y": 607.625,
+            "w": 48,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_1   el-table__cell\"><div class=\"cell\"><div>5</div></div></td>"
+        },
+        {
+          "ci": 1,
+          "cls": "el-table_1_column_2 is-center  el-table__cell",
+          "text": "24-0005",
+          "css": {
+            "x": 432,
+            "y": 607.625,
+            "w": 228,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_2 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 226px;\"><!----><span data-v-3499da1b=\"\">24-0005</span></div></td>"
+        },
+        {
+          "ci": 2,
+          "cls": "el-table_1_column_3 is-center  el-table__cell",
+          "text": "XXX部件名称",
+          "css": {
+            "x": 660,
+            "y": 607.625,
+            "w": 450,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_3 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 448px;\"><!----><span data-v-3499da1b=\"\">XXX部件名称</span></div></td>"
+        },
+        {
+          "ci": 3,
+          "cls": "el-table_1_column_4 is-center  el-table__cell",
+          "text": "部件分类",
+          "css": {
+            "x": 1110,
+            "y": 607.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_4 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">部件分类</span></div></td>"
+        },
+        {
+          "ci": 4,
+          "cls": "el-table_1_column_5 is-center  el-table__cell",
+          "text": "YL30-751",
+          "css": {
+            "x": 1335,
+            "y": 607.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_5 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">YL30-751</span></div></td>"
+        },
+        {
+          "ci": 5,
+          "cls": "el-table_1_column_6 is-center  el-table__cell",
+          "text": "25012103",
+          "css": {
+            "x": 1560,
+            "y": 607.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_6 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">25012103</span></div></td>"
+        },
+        {
+          "ci": 6,
+          "cls": "el-table_1_column_7 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1785,
+            "y": 607.625,
+            "w": 135,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_7 is-center  is-hidden el-table__cell\"><div class=\"cell\"><!----><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--primary el-button--medium\" style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><!----><!----><span>详情</span></button></div></td>"
+        }
+      ]
+    },
+    {
+      "body": "main",
+      "i": 8,
+      "cls": "el-table__row el-table__row--striped expanded",
+      "text": "6 24-0006 XXX部件名称 部件分类 YL30-751 25012103",
+      "css": {
+        "x": 384,
+        "y": 644.625,
+        "w": 1536,
+        "h": 37,
+        "display": "table-row",
+        "position": "static",
+        "height": "37px",
+        "padding": "0px",
+        "margin": "0px",
+        "boxSizing": "border-box",
+        "overflow": "visible",
+        "lineHeight": "16.1px"
+      },
+      "cells": [
+        {
+          "ci": 0,
+          "cls": "el-table_1_column_1   el-table__cell",
+          "text": "6",
+          "css": {
+            "x": 384,
+            "y": 644.625,
+            "w": 48,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_1   el-table__cell\"><div class=\"cell\"><div>6</div></div></td>"
+        },
+        {
+          "ci": 1,
+          "cls": "el-table_1_column_2 is-center  el-table__cell",
+          "text": "24-0006",
+          "css": {
+            "x": 432,
+            "y": 644.625,
+            "w": 228,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_2 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 226px;\"><!----><span data-v-3499da1b=\"\">24-0006</span></div></td>"
+        },
+        {
+          "ci": 2,
+          "cls": "el-table_1_column_3 is-center  el-table__cell",
+          "text": "XXX部件名称",
+          "css": {
+            "x": 660,
+            "y": 644.625,
+            "w": 450,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_3 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 448px;\"><!----><span data-v-3499da1b=\"\">XXX部件名称</span></div></td>"
+        },
+        {
+          "ci": 3,
+          "cls": "el-table_1_column_4 is-center  el-table__cell",
+          "text": "部件分类",
+          "css": {
+            "x": 1110,
+            "y": 644.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_4 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">部件分类</span></div></td>"
+        },
+        {
+          "ci": 4,
+          "cls": "el-table_1_column_5 is-center  el-table__cell",
+          "text": "YL30-751",
+          "css": {
+            "x": 1335,
+            "y": 644.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_5 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">YL30-751</span></div></td>"
+        },
+        {
+          "ci": 5,
+          "cls": "el-table_1_column_6 is-center  el-table__cell",
+          "text": "25012103",
+          "css": {
+            "x": 1560,
+            "y": 644.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_6 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">25012103</span></div></td>"
+        },
+        {
+          "ci": 6,
+          "cls": "el-table_1_column_7 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1785,
+            "y": 644.625,
+            "w": 135,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_7 is-center  is-hidden el-table__cell\"><div class=\"cell\"><!----><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--primary el-button--medium\" style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><!----><!----><span>详情</span></button></div></td>"
+        }
+      ]
+    },
+    {
+      "body": "main",
+      "i": 9,
+      "cls": "el-table__row expanded",
+      "text": "7 24-0007 XXX部件名称 部件分类 YL30-751 25012103",
+      "css": {
+        "x": 384,
+        "y": 681.625,
+        "w": 1536,
+        "h": 37,
+        "display": "table-row",
+        "position": "static",
+        "height": "37px",
+        "padding": "0px",
+        "margin": "0px",
+        "boxSizing": "border-box",
+        "overflow": "visible",
+        "lineHeight": "16.1px"
+      },
+      "cells": [
+        {
+          "ci": 0,
+          "cls": "el-table_1_column_1   el-table__cell",
+          "text": "7",
+          "css": {
+            "x": 384,
+            "y": 681.625,
+            "w": 48,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_1   el-table__cell\"><div class=\"cell\"><div>7</div></div></td>"
+        },
+        {
+          "ci": 1,
+          "cls": "el-table_1_column_2 is-center  el-table__cell",
+          "text": "24-0007",
+          "css": {
+            "x": 432,
+            "y": 681.625,
+            "w": 228,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_2 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 226px;\"><!----><span data-v-3499da1b=\"\">24-0007</span></div></td>"
+        },
+        {
+          "ci": 2,
+          "cls": "el-table_1_column_3 is-center  el-table__cell",
+          "text": "XXX部件名称",
+          "css": {
+            "x": 660,
+            "y": 681.625,
+            "w": 450,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_3 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 448px;\"><!----><span data-v-3499da1b=\"\">XXX部件名称</span></div></td>"
+        },
+        {
+          "ci": 3,
+          "cls": "el-table_1_column_4 is-center  el-table__cell",
+          "text": "部件分类",
+          "css": {
+            "x": 1110,
+            "y": 681.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_4 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">部件分类</span></div></td>"
+        },
+        {
+          "ci": 4,
+          "cls": "el-table_1_column_5 is-center  el-table__cell",
+          "text": "YL30-751",
+          "css": {
+            "x": 1335,
+            "y": 681.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_5 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">YL30-751</span></div></td>"
+        },
+        {
+          "ci": 5,
+          "cls": "el-table_1_column_6 is-center  el-table__cell",
+          "text": "25012103",
+          "css": {
+            "x": 1560,
+            "y": 681.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_6 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">25012103</span></div></td>"
+        },
+        {
+          "ci": 6,
+          "cls": "el-table_1_column_7 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1785,
+            "y": 681.625,
+            "w": 135,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_7 is-center  is-hidden el-table__cell\"><div class=\"cell\"><!----><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--primary el-button--medium\" style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><!----><!----><span>详情</span></button></div></td>"
+        }
+      ]
+    },
+    {
+      "body": "main",
+      "i": 10,
+      "cls": "el-table__row el-table__row--striped expanded",
+      "text": "8 24-0008 XXX部件名称 部件分类 YL30-751 25012103",
+      "css": {
+        "x": 384,
+        "y": 718.625,
+        "w": 1536,
+        "h": 37,
+        "display": "table-row",
+        "position": "static",
+        "height": "37px",
+        "padding": "0px",
+        "margin": "0px",
+        "boxSizing": "border-box",
+        "overflow": "visible",
+        "lineHeight": "16.1px"
+      },
+      "cells": [
+        {
+          "ci": 0,
+          "cls": "el-table_1_column_1   el-table__cell",
+          "text": "8",
+          "css": {
+            "x": 384,
+            "y": 718.625,
+            "w": 48,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_1   el-table__cell\"><div class=\"cell\"><div>8</div></div></td>"
+        },
+        {
+          "ci": 1,
+          "cls": "el-table_1_column_2 is-center  el-table__cell",
+          "text": "24-0008",
+          "css": {
+            "x": 432,
+            "y": 718.625,
+            "w": 228,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_2 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 226px;\"><!----><span data-v-3499da1b=\"\">24-0008</span></div></td>"
+        },
+        {
+          "ci": 2,
+          "cls": "el-table_1_column_3 is-center  el-table__cell",
+          "text": "XXX部件名称",
+          "css": {
+            "x": 660,
+            "y": 718.625,
+            "w": 450,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_3 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 448px;\"><!----><span data-v-3499da1b=\"\">XXX部件名称</span></div></td>"
+        },
+        {
+          "ci": 3,
+          "cls": "el-table_1_column_4 is-center  el-table__cell",
+          "text": "部件分类",
+          "css": {
+            "x": 1110,
+            "y": 718.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_4 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">部件分类</span></div></td>"
+        },
+        {
+          "ci": 4,
+          "cls": "el-table_1_column_5 is-center  el-table__cell",
+          "text": "YL30-751",
+          "css": {
+            "x": 1335,
+            "y": 718.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_5 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">YL30-751</span></div></td>"
+        },
+        {
+          "ci": 5,
+          "cls": "el-table_1_column_6 is-center  el-table__cell",
+          "text": "25012103",
+          "css": {
+            "x": 1560,
+            "y": 718.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_6 is-center  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">25012103</span></div></td>"
+        },
+        {
+          "ci": 6,
+          "cls": "el-table_1_column_7 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1785,
+            "y": 718.625,
+            "w": 135,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_7 is-center  is-hidden el-table__cell\"><div class=\"cell\"><!----><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--primary el-button--medium\" style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><!----><!----><span>详情</span></button></div></td>"
+        }
+      ]
+    },
+    {
+      "body": "fixedRight",
+      "i": 0,
+      "cls": "el-table__row expanded",
+      "text": "详情",
+      "css": {
+        "x": 384,
+        "y": 319.625,
+        "w": 1536,
+        "h": 37,
+        "display": "table-row",
+        "position": "static",
+        "height": "37px",
+        "padding": "0px",
+        "margin": "0px",
+        "boxSizing": "border-box",
+        "overflow": "visible",
+        "lineHeight": "16.1px"
+      },
+      "cells": [
+        {
+          "ci": 0,
+          "cls": "el-table_1_column_1   is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 384,
+            "y": 319.625,
+            "w": 48,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_1   is-hidden el-table__cell\"><div class=\"cell\"><div>1</div></div></td>"
+        },
+        {
+          "ci": 1,
+          "cls": "el-table_1_column_2 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 432,
+            "y": 319.625,
+            "w": 228,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_2 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 226px;\"><!----><span data-v-3499da1b=\"\">24-0001</span></div></td>"
+        },
+        {
+          "ci": 2,
+          "cls": "el-table_1_column_3 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 660,
+            "y": 319.625,
+            "w": 450,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_3 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 448px;\"><!----><span data-v-3499da1b=\"\">XXX部件名称</span></div></td>"
+        },
+        {
+          "ci": 3,
+          "cls": "el-table_1_column_4 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1110,
+            "y": 319.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_4 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">部件分类</span></div></td>"
+        },
+        {
+          "ci": 4,
+          "cls": "el-table_1_column_5 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1335,
+            "y": 319.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_5 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">YL30-751</span></div></td>"
+        },
+        {
+          "ci": 5,
+          "cls": "el-table_1_column_6 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1560,
+            "y": 319.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_6 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">25012103</span></div></td>"
+        },
+        {
+          "ci": 6,
+          "cls": "el-table_1_column_7 is-center  el-table__cell",
+          "text": "详情",
+          "css": {
+            "x": 1785,
+            "y": 319.625,
+            "w": 135,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_7 is-center  el-table__cell\"><div class=\"cell\"><!----><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--primary el-button--medium\" style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><!----><!----><span>详情</span></button></div></td>"
+        }
+      ]
+    },
+    {
+      "body": "fixedRight",
+      "i": 1,
+      "cls": "custom-expand-tr",
+      "text": "",
+      "css": {
+        "x": 384,
+        "y": 356.625,
+        "w": 1536,
+        "h": 220,
+        "display": "table-row",
+        "position": "static",
+        "height": "220px",
+        "padding": "0px",
+        "margin": "0px",
+        "boxSizing": "border-box",
+        "overflow": "visible",
+        "lineHeight": "16.1px"
+      },
+      "cells": [
+        {
+          "ci": 0,
+          "cls": "",
+          "text": "",
+          "css": {
+            "x": 384,
+            "y": 356.625,
+            "w": 48,
+            "h": 220,
+            "display": "table-cell",
+            "position": "static",
+            "height": "220px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td style=\"height: 220px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial;\"></td>"
+        }
+      ]
+    },
+    {
+      "body": "fixedRight",
+      "i": 2,
+      "cls": "el-table__row el-table__row--striped expanded",
+      "text": "详情",
+      "css": {
+        "x": 384,
+        "y": 576.625,
+        "w": 1536,
+        "h": 37,
+        "display": "table-row",
+        "position": "static",
+        "height": "37px",
+        "padding": "0px",
+        "margin": "0px",
+        "boxSizing": "border-box",
+        "overflow": "visible",
+        "lineHeight": "16.1px"
+      },
+      "cells": [
+        {
+          "ci": 0,
+          "cls": "el-table_1_column_1   is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 384,
+            "y": 576.625,
+            "w": 48,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_1   is-hidden el-table__cell\"><div class=\"cell\"><div>2</div></div></td>"
+        },
+        {
+          "ci": 1,
+          "cls": "el-table_1_column_2 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 432,
+            "y": 576.625,
+            "w": 228,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_2 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 226px;\"><!----><span data-v-3499da1b=\"\">24-0002</span></div></td>"
+        },
+        {
+          "ci": 2,
+          "cls": "el-table_1_column_3 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 660,
+            "y": 576.625,
+            "w": 450,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_3 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 448px;\"><!----><span data-v-3499da1b=\"\">XXX部件名称</span></div></td>"
+        },
+        {
+          "ci": 3,
+          "cls": "el-table_1_column_4 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1110,
+            "y": 576.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_4 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">部件分类</span></div></td>"
+        },
+        {
+          "ci": 4,
+          "cls": "el-table_1_column_5 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1335,
+            "y": 576.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_5 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">YL30-751</span></div></td>"
+        },
+        {
+          "ci": 5,
+          "cls": "el-table_1_column_6 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1560,
+            "y": 576.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_6 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">25012103</span></div></td>"
+        },
+        {
+          "ci": 6,
+          "cls": "el-table_1_column_7 is-center  el-table__cell",
+          "text": "详情",
+          "css": {
+            "x": 1785,
+            "y": 576.625,
+            "w": 135,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_7 is-center  el-table__cell\"><div class=\"cell\"><!----><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--primary el-button--medium\" style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><!----><!----><span>详情</span></button></div></td>"
+        }
+      ]
+    },
+    {
+      "body": "fixedRight",
+      "i": 3,
+      "cls": "el-table__row expanded",
+      "text": "详情",
+      "css": {
+        "x": 384,
+        "y": 613.625,
+        "w": 1536,
+        "h": 37,
+        "display": "table-row",
+        "position": "static",
+        "height": "37px",
+        "padding": "0px",
+        "margin": "0px",
+        "boxSizing": "border-box",
+        "overflow": "visible",
+        "lineHeight": "16.1px"
+      },
+      "cells": [
+        {
+          "ci": 0,
+          "cls": "el-table_1_column_1   is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 384,
+            "y": 613.625,
+            "w": 48,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_1   is-hidden el-table__cell\"><div class=\"cell\"><div>3</div></div></td>"
+        },
+        {
+          "ci": 1,
+          "cls": "el-table_1_column_2 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 432,
+            "y": 613.625,
+            "w": 228,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_2 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 226px;\"><!----><span data-v-3499da1b=\"\">24-0003</span></div></td>"
+        },
+        {
+          "ci": 2,
+          "cls": "el-table_1_column_3 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 660,
+            "y": 613.625,
+            "w": 450,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_3 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 448px;\"><!----><span data-v-3499da1b=\"\">XXX部件名称</span></div></td>"
+        },
+        {
+          "ci": 3,
+          "cls": "el-table_1_column_4 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1110,
+            "y": 613.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_4 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">部件分类</span></div></td>"
+        },
+        {
+          "ci": 4,
+          "cls": "el-table_1_column_5 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1335,
+            "y": 613.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_5 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">YL30-751</span></div></td>"
+        },
+        {
+          "ci": 5,
+          "cls": "el-table_1_column_6 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1560,
+            "y": 613.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_6 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">25012103</span></div></td>"
+        },
+        {
+          "ci": 6,
+          "cls": "el-table_1_column_7 is-center  el-table__cell",
+          "text": "详情",
+          "css": {
+            "x": 1785,
+            "y": 613.625,
+            "w": 135,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_7 is-center  el-table__cell\"><div class=\"cell\"><!----><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--primary el-button--medium\" style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><!----><!----><span>详情</span></button></div></td>"
+        }
+      ]
+    },
+    {
+      "body": "fixedRight",
+      "i": 4,
+      "cls": "el-table__row el-table__row--striped expanded",
+      "text": "详情",
+      "css": {
+        "x": 384,
+        "y": 650.625,
+        "w": 1536,
+        "h": 37,
+        "display": "table-row",
+        "position": "static",
+        "height": "37px",
+        "padding": "0px",
+        "margin": "0px",
+        "boxSizing": "border-box",
+        "overflow": "visible",
+        "lineHeight": "16.1px"
+      },
+      "cells": [
+        {
+          "ci": 0,
+          "cls": "el-table_1_column_1   is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 384,
+            "y": 650.625,
+            "w": 48,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_1   is-hidden el-table__cell\"><div class=\"cell\"><div>4</div></div></td>"
+        },
+        {
+          "ci": 1,
+          "cls": "el-table_1_column_2 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 432,
+            "y": 650.625,
+            "w": 228,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_2 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 226px;\"><!----><span data-v-3499da1b=\"\">24-0004</span></div></td>"
+        },
+        {
+          "ci": 2,
+          "cls": "el-table_1_column_3 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 660,
+            "y": 650.625,
+            "w": 450,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_3 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 448px;\"><!----><span data-v-3499da1b=\"\">XXX部件名称</span></div></td>"
+        },
+        {
+          "ci": 3,
+          "cls": "el-table_1_column_4 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1110,
+            "y": 650.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_4 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">部件分类</span></div></td>"
+        },
+        {
+          "ci": 4,
+          "cls": "el-table_1_column_5 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1335,
+            "y": 650.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_5 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">YL30-751</span></div></td>"
+        },
+        {
+          "ci": 5,
+          "cls": "el-table_1_column_6 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1560,
+            "y": 650.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_6 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">25012103</span></div></td>"
+        },
+        {
+          "ci": 6,
+          "cls": "el-table_1_column_7 is-center  el-table__cell",
+          "text": "详情",
+          "css": {
+            "x": 1785,
+            "y": 650.625,
+            "w": 135,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_7 is-center  el-table__cell\"><div class=\"cell\"><!----><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--primary el-button--medium\" style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><!----><!----><span>详情</span></button></div></td>"
+        }
+      ]
+    },
+    {
+      "body": "fixedRight",
+      "i": 5,
+      "cls": "el-table__row expanded",
+      "text": "详情",
+      "css": {
+        "x": 384,
+        "y": 687.625,
+        "w": 1536,
+        "h": 37,
+        "display": "table-row",
+        "position": "static",
+        "height": "37px",
+        "padding": "0px",
+        "margin": "0px",
+        "boxSizing": "border-box",
+        "overflow": "visible",
+        "lineHeight": "16.1px"
+      },
+      "cells": [
+        {
+          "ci": 0,
+          "cls": "el-table_1_column_1   is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 384,
+            "y": 687.625,
+            "w": 48,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_1   is-hidden el-table__cell\"><div class=\"cell\"><div>5</div></div></td>"
+        },
+        {
+          "ci": 1,
+          "cls": "el-table_1_column_2 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 432,
+            "y": 687.625,
+            "w": 228,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_2 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 226px;\"><!----><span data-v-3499da1b=\"\">24-0005</span></div></td>"
+        },
+        {
+          "ci": 2,
+          "cls": "el-table_1_column_3 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 660,
+            "y": 687.625,
+            "w": 450,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_3 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 448px;\"><!----><span data-v-3499da1b=\"\">XXX部件名称</span></div></td>"
+        },
+        {
+          "ci": 3,
+          "cls": "el-table_1_column_4 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1110,
+            "y": 687.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_4 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">部件分类</span></div></td>"
+        },
+        {
+          "ci": 4,
+          "cls": "el-table_1_column_5 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1335,
+            "y": 687.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_5 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">YL30-751</span></div></td>"
+        },
+        {
+          "ci": 5,
+          "cls": "el-table_1_column_6 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1560,
+            "y": 687.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_6 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">25012103</span></div></td>"
+        },
+        {
+          "ci": 6,
+          "cls": "el-table_1_column_7 is-center  el-table__cell",
+          "text": "详情",
+          "css": {
+            "x": 1785,
+            "y": 687.625,
+            "w": 135,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_7 is-center  el-table__cell\"><div class=\"cell\"><!----><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--primary el-button--medium\" style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><!----><!----><span>详情</span></button></div></td>"
+        }
+      ]
+    },
+    {
+      "body": "fixedRight",
+      "i": 6,
+      "cls": "el-table__row el-table__row--striped expanded",
+      "text": "详情",
+      "css": {
+        "x": 384,
+        "y": 724.625,
+        "w": 1536,
+        "h": 37,
+        "display": "table-row",
+        "position": "static",
+        "height": "37px",
+        "padding": "0px",
+        "margin": "0px",
+        "boxSizing": "border-box",
+        "overflow": "visible",
+        "lineHeight": "16.1px"
+      },
+      "cells": [
+        {
+          "ci": 0,
+          "cls": "el-table_1_column_1   is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 384,
+            "y": 724.625,
+            "w": 48,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_1   is-hidden el-table__cell\"><div class=\"cell\"><div>6</div></div></td>"
+        },
+        {
+          "ci": 1,
+          "cls": "el-table_1_column_2 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 432,
+            "y": 724.625,
+            "w": 228,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_2 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 226px;\"><!----><span data-v-3499da1b=\"\">24-0006</span></div></td>"
+        },
+        {
+          "ci": 2,
+          "cls": "el-table_1_column_3 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 660,
+            "y": 724.625,
+            "w": 450,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_3 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 448px;\"><!----><span data-v-3499da1b=\"\">XXX部件名称</span></div></td>"
+        },
+        {
+          "ci": 3,
+          "cls": "el-table_1_column_4 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1110,
+            "y": 724.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_4 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">部件分类</span></div></td>"
+        },
+        {
+          "ci": 4,
+          "cls": "el-table_1_column_5 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1335,
+            "y": 724.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_5 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">YL30-751</span></div></td>"
+        },
+        {
+          "ci": 5,
+          "cls": "el-table_1_column_6 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1560,
+            "y": 724.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_6 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">25012103</span></div></td>"
+        },
+        {
+          "ci": 6,
+          "cls": "el-table_1_column_7 is-center  el-table__cell",
+          "text": "详情",
+          "css": {
+            "x": 1785,
+            "y": 724.625,
+            "w": 135,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_7 is-center  el-table__cell\"><div class=\"cell\"><!----><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--primary el-button--medium\" style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><!----><!----><span>详情</span></button></div></td>"
+        }
+      ]
+    },
+    {
+      "body": "fixedRight",
+      "i": 7,
+      "cls": "el-table__row expanded",
+      "text": "详情",
+      "css": {
+        "x": 384,
+        "y": 761.625,
+        "w": 1536,
+        "h": 37,
+        "display": "table-row",
+        "position": "static",
+        "height": "37px",
+        "padding": "0px",
+        "margin": "0px",
+        "boxSizing": "border-box",
+        "overflow": "visible",
+        "lineHeight": "16.1px"
+      },
+      "cells": [
+        {
+          "ci": 0,
+          "cls": "el-table_1_column_1   is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 384,
+            "y": 761.625,
+            "w": 48,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_1   is-hidden el-table__cell\"><div class=\"cell\"><div>7</div></div></td>"
+        },
+        {
+          "ci": 1,
+          "cls": "el-table_1_column_2 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 432,
+            "y": 761.625,
+            "w": 228,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_2 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 226px;\"><!----><span data-v-3499da1b=\"\">24-0007</span></div></td>"
+        },
+        {
+          "ci": 2,
+          "cls": "el-table_1_column_3 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 660,
+            "y": 761.625,
+            "w": 450,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_3 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 448px;\"><!----><span data-v-3499da1b=\"\">XXX部件名称</span></div></td>"
+        },
+        {
+          "ci": 3,
+          "cls": "el-table_1_column_4 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1110,
+            "y": 761.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_4 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">部件分类</span></div></td>"
+        },
+        {
+          "ci": 4,
+          "cls": "el-table_1_column_5 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1335,
+            "y": 761.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_5 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">YL30-751</span></div></td>"
+        },
+        {
+          "ci": 5,
+          "cls": "el-table_1_column_6 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1560,
+            "y": 761.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_6 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">25012103</span></div></td>"
+        },
+        {
+          "ci": 6,
+          "cls": "el-table_1_column_7 is-center  el-table__cell",
+          "text": "详情",
+          "css": {
+            "x": 1785,
+            "y": 761.625,
+            "w": 135,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_7 is-center  el-table__cell\"><div class=\"cell\"><!----><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--primary el-button--medium\" style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><!----><!----><span>详情</span></button></div></td>"
+        }
+      ]
+    },
+    {
+      "body": "fixedRight",
+      "i": 8,
+      "cls": "el-table__row el-table__row--striped expanded",
+      "text": "详情",
+      "css": {
+        "x": 384,
+        "y": 798.625,
+        "w": 1536,
+        "h": 37,
+        "display": "table-row",
+        "position": "static",
+        "height": "37px",
+        "padding": "0px",
+        "margin": "0px",
+        "boxSizing": "border-box",
+        "overflow": "visible",
+        "lineHeight": "16.1px"
+      },
+      "cells": [
+        {
+          "ci": 0,
+          "cls": "el-table_1_column_1   is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 384,
+            "y": 798.625,
+            "w": 48,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_1   is-hidden el-table__cell\"><div class=\"cell\"><div>8</div></div></td>"
+        },
+        {
+          "ci": 1,
+          "cls": "el-table_1_column_2 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 432,
+            "y": 798.625,
+            "w": 228,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_2 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 226px;\"><!----><span data-v-3499da1b=\"\">24-0008</span></div></td>"
+        },
+        {
+          "ci": 2,
+          "cls": "el-table_1_column_3 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 660,
+            "y": 798.625,
+            "w": 450,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_3 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 448px;\"><!----><span data-v-3499da1b=\"\">XXX部件名称</span></div></td>"
+        },
+        {
+          "ci": 3,
+          "cls": "el-table_1_column_4 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1110,
+            "y": 798.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_4 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">部件分类</span></div></td>"
+        },
+        {
+          "ci": 4,
+          "cls": "el-table_1_column_5 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1335,
+            "y": 798.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_5 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">YL30-751</span></div></td>"
+        },
+        {
+          "ci": 5,
+          "cls": "el-table_1_column_6 is-center  is-hidden el-table__cell",
+          "text": "",
+          "css": {
+            "x": 1560,
+            "y": 798.625,
+            "w": 225,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_6 is-center  is-hidden el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 223px;\"><!----><span data-v-3499da1b=\"\">25012103</span></div></td>"
+        },
+        {
+          "ci": 6,
+          "cls": "el-table_1_column_7 is-center  el-table__cell",
+          "text": "详情",
+          "css": {
+            "x": 1785,
+            "y": 798.625,
+            "w": 135,
+            "h": 37,
+            "display": "table-cell",
+            "position": "relative",
+            "height": "37px",
+            "padding": "0px",
+            "margin": "0px",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "lineHeight": "16.1px"
+          },
+          "html": "<td rowspan=\"1\" colspan=\"1\" class=\"el-table_1_column_7 is-center  el-table__cell\"><div class=\"cell\"><!----><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--primary el-button--medium\" style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><!----><!----><span>详情</span></button></div></td>"
+        }
+      ]
+    }
+  ],
+  "methodNames": [
+    "AddRow",
+    "AppendRow",
+    "DeleteRow",
+    "DoLayout",
+    "GetCurrentRow",
+    "GetCurrentRowProp",
+    "GetMultipleSelectionRow",
+    "SetCurrentRow",
+    "ToggleAllSelection",
+    "ToggleRowExpansion",
+    "ToggleRowSelection",
+    "UpdateRow",
+    "_ToggleRowSelection",
+    "_ToggleRowSelectionChildren",
+    "_setIsLazyLoad",
+    "_tableAnimate",
+    "beginRowEdit",
+    "deleteRow",
+    "endRowEdit",
+    "evalDetailConfig",
+    "expandChange",
+    "getRowColIndex",
+    "getRowData",
+    "getRowIndex",
+    "getRowKey",
+    "isLazyLoad",
+    "isTreeTable",
+    "mergeRow",
+    "onLoadSuccess",
+    "reloadNode",
+    "rowClick",
+    "rowClickChangeLink",
+    "rowContextmenu",
+    "rowDbClick",
+    "setRowIndex",
+    "setTableLinkData",
+    "setTablePluginRadioInput",
+    "setTablePluginSelectInput",
+    "table",
+    "tableClick",
+    "tableRowClassName",
+    "tableStyle",
+    "treeLoad"
+  ],
+  "data": {
+    "defaultExpandAll": true,
+    "expandsRow": []
+  }
+}

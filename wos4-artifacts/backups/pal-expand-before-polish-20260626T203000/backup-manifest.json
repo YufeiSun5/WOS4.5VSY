@@ -1,0 +1,15 @@
+{
+  "backupType": "replayable-runtime-layout-and-components",
+  "page": "PalimpsestExpandTable_82_Demo",
+  "ai": "sun_yufei_frontend-ai",
+  "files": [
+    "before-runtime.json",
+    "restore-runtime.js",
+    "before-editor.png"
+  ],
+  "contains": [
+    "component propData/data/options",
+    "detailConfig/styleConfig",
+    "runtime component snapshots"
+  ]
+}

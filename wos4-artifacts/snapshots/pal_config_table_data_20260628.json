@@ -1,0 +1,3018 @@
+{
+  "ok": true,
+  "frame": "top.3.0",
+  "tables": [
+    {
+      "i": 16,
+      "cls": "layout_container component_object containerStyle",
+      "keys": [
+        "containerElement",
+        "UIType",
+        "rowsNumber",
+        "contanierSelectFlag",
+        "isShowContextMenu",
+        "selectedItems",
+        "copiedItems",
+        "backgroundImageData",
+        "theContextMenuItem",
+        "dragDisabled",
+        "containerSubscriptTop",
+        "responseWidth",
+        "resizeObserver",
+        "contextmenuInstance",
+        "scrollFlag",
+        "borderWSize",
+        "borderHSize",
+        "isScroll",
+        "containerList",
+        "showContainerList",
+        "prevWidth",
+        "prevHeight",
+        "mountRow",
+        "containerStyle"
+      ],
+      "props": {
+        "data": {
+          "UIName": "RContainer6",
+          "ResponseLayoutId": "response_layout_root",
+          "icon": "responsecontainer",
+          "KSCGUID": "ka6633037c7852f672bcc1a85803cb08",
+          "parentGUID": "kdf276c45705e6ff0d1ef9d3af1c0c94",
+          "isRoot": false,
+          "objectType": 1,
+          "prototypeName": "RContainer",
+          "layoutType": 1,
+          "displayType": "lg",
+          "UIDesc": "",
+          "leftTopPt_y": 0,
+          "leftTopPt_x": 0,
+          "width": 1368,
+          "height": 855,
+          "isShowBorder": false,
+          "rowsNumber": 2,
+          "backgroundColor": "",
+          "picSrc": "",
+          "lock": false,
+          "visible": true,
+          "runVisible": true,
+          "styleConfig": "",
+          "rowsManager": [
+            {
+              "UIName": "RRow21",
+              "KSCGUID": "k8db05023bea158de3d868e620aae620",
+              "parentGUID": "ka6633037c7852f672bcc1a85803cb08",
+              "prototypeName": "RRow",
+              "objectType": 5,
+              "rowGap": {
+                "top": 15,
+                "right": 15,
+                "bottom": 0,
+                "left": 15,
+                "autotop": 2.16,
+                "autoright": 4.31,
+                "autoleft": 4.31,
+                "autobottom": 0
+              },
+              "index": 0,
+              "colsGap": 0,
+              "colsAutoGap": 0,
+              "lock": false,
+              "wrapRowMargin": 0,
+              "wrapRowAutoMargin": 0,
+              "backgroundColor": "",
+              "contentWidth": 1338,
+              "contentHeight": 34,
+              "height": "34",
+              "isShow": true,
+              "visible": true,
+              "heightStrategy": "fixedsize",
+              "autoHeight": "3.98",
+              "minSize": 0,
+              "colStrategy": "fixedsize",
+              "rowGapStrategy": "fixedsize",
+              "origHeight": "34",
+              "origAutoHeight": "3.36",
+              "picSrc": "",
+              "colsNumber": 6,
+              "dragResizeFlag": false,
+              "styleConfig": "",
+              "colsManager": [
+                {
+                  "UIName": "RCol81",
+                  "KSCGUID": "k51c821b7638eff88cfa3c99f3cccab1",
+                  "parentGUID": "k8db05023bea158de3d868e620aae620",
+                  "range": 10,
+                  "prototypeName": "RCol",
+                  "index": 2,
+                  "objectType": 6,
+                  "backgroundColor": "",
+                  "colHeight": 34,
+                  "widthStrategy": "fixedsize",
+                  "xsWidth": "120",
+                  "smWidth": "120",
+                  "mdWidth": "120",
+                  "lgWidth": "120",
+                  "xlWidth": "120",
+                  "xsAutoWidth": "100",
+                  "smAutoWidth": "100",
+                  "mdAutoWidth": "100",
+                  "lgAutoWidth": 8,
+                  "xlAutoWidth": 8,
+                  "minSize": 0,
+                  "minWidth": 0,
+                  "isShow": true,
+                  "visible": true,
+                  "xsIsShow": true,
+                  "smIsShow": true,
+                  "mdIsShow": true,
+                  "lgIsShow": true,
+                  "xlIsShow": true,
+                  "offsetValid": true,
+                  "sameWidth": true,
+                  "horinzontal": "left",
+                  "vertical": "top",
+                  "lock": false,
+                  "lockWidthHeight": false,
+                  "rateOfWidthHeight": 1,
+                  "offset": 0,
+                  "autoOffset": 0,
+                  "offsetRight": 0,
+                  "autoOffsetRight": 0,
+                  "offsetStrategy": "fixedsize",
+                  "heightStrategy": "percentage",
+                  "autoHeight": 100,
+                  "dragResizeFlag": false,
+                  "object": [
+                    {
+                      "elementuiType": "ElementText",
+                      "groupName": "其他",
+                      "objectType": 2,
+                      "id": "UI_471951",
+                      "KSCGUID": "k9666601abf8daca643b5757c2b6450c",
+                      "leftTopPt": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "prototypeName": "ElementText",
+                      "icon": "text",
+                      "UIName": "ElementText11",
+                      "accessable": true,
+                      "UIDesc": "",
+                      "locationX": "328",
+                      "locationY": "19",
+                      "value": "实例列表",
+                      "color": "#333333",
+                      "fontFamily": "黑体",
+                      "fontSize": 16,
+                      "backgroundColor": "#FFFFFF",
+                      "fontWeight": true,
+                      "fontStyle": false,
+                      "textDecoration": false,
+                      "detailConfig": "",
+                      "styleConfig": "#domId p {\n    font-family: 思源黑体;\n    color: #333;\n    font-weight: 700;\n    font-size: 16px;\n}\n",
+                      "borderWidth": "0px",
+                      "borderColor": "#000000",
+                      "horizontal": "left",
+                      "vertical": "center",
+                      "edit": false,
+                      "lineFeed": false,
+                      "lock": false,
+                      "visible": true,
+                      "runVisible": true,
+                      "isRequired": false,
+                      "tooltipDisable": true,
+                      "uiInputLinkList": [
+                        {
+                          "enable": true,
+                          "key": "text.trigger.defaultConfig",
+                          "method": "setTextDefaultData",
+                          "source": [
+                            {
+                              "id": "2721cd2b-f034-4c94-a39b-349949867eeb",
+                              "name": "defaultConfig",
+                              "dataSourceType": 0,
+                              "guid": "",
+                              "belongedPage": "",
+                              "options": {
+                                "defaultValue": "",
+                                "dataSetMember": ""
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "uiOutputLinkList": [
+                        {
+                          "enable": false,
+                          "key": "text.trigger.paramLinkOutput",
+                          "method": "setTextOutputData",
+                          "source": [
+                            {
+                              "id": "7c304edf-b04f-43ed-a52f-893a22cb2c37",
+                              "name": "paramLink",
+                              "guid": "",
+                              "belongedPage": "",
+                              "options": {
+                                "paramValue": ""
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "langKeys": [
+                        "实例列表"
+                      ],
+                      "parentGUID": "k51c821b7638eff88cfa3c99f3cccab1",
+                      "linkList": []
+                    }
+                  ],
+                  "uiInputLinkList": [],
+                  "uiOutputLinkList": [],
+                  "isNewCol": false,
+                  "offsetAnimation": {},
+                  "conditionConfig": {}
+                },
+                {
+                  "UIName": "RCol91",
+                  "KSCGUID": "kad1bfff2269fe3887c0797fca558ce5",
+                  "parentGUID": "k8db05023bea158de3d868e620aae620",
+                  "range": 10,
+                  "prototypeName": "RCol",
+                  "index": 1,
+                  "objectType": 6,
+                  "backgroundColor": "",
+                  "colHeight": 34,
+                  "widthStrategy": "autosize",
+                  "xsWidth": "120",
+                  "smWidth": "120",
+                  "mdWidth": "120",
+                  "lgWidth": 643,
+                  "xlWidth": 764.77,
+                  "xsAutoWidth": 11,
+                  "smAutoWidth": 11,
+                  "mdAutoWidth": 11,
+                  "lgAutoWidth": 11,
+                  "xlAutoWidth": 11,
+                  "minSize": 0,
+                  "minWidth": 0,
+                  "isShow": true,
+                  "visible": true,
+                  "xsIsShow": true,
+                  "smIsShow": true,
+                  "mdIsShow": true,
+                  "lgIsShow": true,
+                  "xlIsShow": true,
+                  "offsetValid": true,
+                  "sameWidth": true,
+                  "horinzontal": "left",
+                  "vertical": "top",
+                  "lock": false,
+                  "lockWidthHeight": false,
+                  "rateOfWidthHeight": 1,
+                  "offset": 0,
+                  "autoOffset": 0,
+                  "offsetRight": 0,
+                  "autoOffsetRight": 0,
+                  "offsetStrategy": "fixedsize",
+                  "heightStrategy": "percentage",
+                  "autoHeight": 100,
+                  "dragResizeFlag": false,
+                  "object": [],
+                  "uiInputLinkList": [],
+                  "uiOutputLinkList": [],
+                  "isNewCol": false,
+                  "offsetAnimation": {},
+                  "conditionConfig": {}
+                },
+                {
+                  "UIName": "RCol87",
+                  "KSCGUID": "k5bfa74f783292d25d029b5160fde794",
+                  "parentGUID": "k8db05023bea158de3d868e620aae620",
+                  "range": 10,
+                  "prototypeName": "RCol",
+                  "index": 1,
+                  "objectType": 6,
+                  "backgroundColor": "",
+                  "colHeight": 34,
+                  "widthStrategy": "fixedsize",
+                  "xsWidth": "80",
+                  "smWidth": "80",
+                  "mdWidth": "80",
+                  "lgWidth": "80",
+                  "xlWidth": "80",
+                  "xsAutoWidth": "100",
+                  "smAutoWidth": "100",
+                  "mdAutoWidth": "100",
+                  "lgAutoWidth": 5,
+                  "xlAutoWidth": 5,
+                  "minSize": 0,
+                  "minWidth": 0,
+                  "isShow": true,
+                  "visible": true,
+                  "xsIsShow": true,
+                  "smIsShow": true,
+                  "mdIsShow": true,
+                  "lgIsShow": true,
+                  "xlIsShow": true,
+                  "offsetValid": true,
+                  "sameWidth": true,
+                  "horinzontal": "left",
+                  "vertical": "top",
+                  "lock": false,
+                  "lockWidthHeight": false,
+                  "rateOfWidthHeight": 1,
+                  "offset": 0,
+                  "autoOffset": 0,
+                  "offsetRight": 0,
+                  "autoOffsetRight": 0,
+                  "offsetStrategy": "fixedsize",
+                  "heightStrategy": "percentage",
+                  "autoHeight": 100,
+                  "dragResizeFlag": false,
+                  "object": [
+                    {
+                      "UIName": "ElementButton2",
+                      "groupName": "其他",
+                      "icon": "el-icon-plus",
+                      "authName": "",
+                      "isConfigAuth": false,
+                      "elementuiType": "ElementButton",
+                      "objectType": 2,
+                      "prototypeName": "ElementButton",
+                      "id": "UI_910039",
+                      "KSCGUID": "k0cfaec13a3bf43fe6365686f36c504b",
+                      "leftTopPt": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "content": "",
+                      "badgeColor": "#ee0a24",
+                      "color": "rgba(255, 255, 255, 1)",
+                      "backgroundColor": "",
+                      "dot": false,
+                      "max": null,
+                      "accessable": true,
+                      "UIDesc": "",
+                      "locationX": "1207",
+                      "locationY": "19",
+                      "lock": false,
+                      "visible": true,
+                      "runVisible": true,
+                      "operable": true,
+                      "tooltipDisable": true,
+                      "disabled": false,
+                      "plain": false,
+                      "round": false,
+                      "circle": false,
+                      "loading": false,
+                      "text": "新建",
+                      "detailConfig": "",
+                      "styleConfig": "#domId button {\n    /*background: #0076FF;*/\n    /*background-repeat: no-repeat;*/\n    /*background-position: 15px 48%;*/\n    /*background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBmaWxsPSJub25lIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDE0IDE0Ij48Zz48Zz48cGF0aCBkPSJNMTMuMyw2TDAuNyw2QzAuMzE1LDYsMCw2LjQ1LDAsN0MwLDcuNTUsMC4zMTUsOCwwLjcsOEwxMy4zLDhDMTMuNjg1LDgsMTQsNy41NSwxNCw3QzE0LDYuNDUsMTMuNjg1LDYsMTMuMyw2WiIgZmlsbD0iI0ZGRkZGRiIgZmlsbC1vcGFjaXR5PSIxIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6cGFzc3Rocm91Z2giLz48L2c+PGc+PHBhdGggZD0iTTcsMEM2LjQ1LDAsNiwwLjMxNSw2LDAuN0w2LDEzLjNDNiwxMy42ODUsNi40NSwxNCw3LDE0QzcuNTUsMTQsOCwxMy42ODUsOCwxMy4zTDgsMC43QzgsMC4zMTUsNy41NSwwLDcsMFoiIGZpbGw9IiNGRkZGRkYiIGZpbGwtb3BhY2l0eT0iMSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOnBhc3N0aHJvdWdoIi8+PC9nPjwvZz48L3N2Zz4=');*/\n    background-color: #0076FF;\n    font-family: 思源黑体;\n    font-weight: 350;\n    font-size: 14px;\n    color: #fff;\n    border-radius: 4px;\n    border: none;\n}\n\n#domId button.is-disabled {\n    opacity: 0.6;\n}",
+                      "tooltip": {
+                        "effect": "dark",
+                        "content": "",
+                        "placement": "bottom",
+                        "disabled": true,
+                        "offset": 0,
+                        "transition": "el-fade-in-linear",
+                        "visibleArrow": true,
+                        "openDelay": 0,
+                        "manual": false,
+                        "enterable": true,
+                        "hideAfter": 0
+                      },
+                      "parentGUID": "k5bfa74f783292d25d029b5160fde794",
+                      "isCloseCurPage": false,
+                      "throttleTime": 500,
+                      "uiInputLinkList": [
+                        {
+                          "enable": false,
+                          "key": "button.trigger.data",
+                          "method": "setButtonLinkData",
+                          "source": [
+                            {
+                              "id": "e914b0e2-b789-41d8-b999-9299c73d89b5",
+                              "name": "otherConfig",
+                              "guid": "",
+                              "dataSourceType": 0,
+                              "belongedPage": "",
+                              "options": {
+                                "content": ""
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "uiOutputLinkList": [
+                        {
+                          "enable": false,
+                          "key": "button.trigger.dataSetOutput",
+                          "method": "setButtonOutputData",
+                          "source": [
+                            {
+                              "id": "c6f4f1dd-af0d-43b5-b3fb-e8ac95b1877a",
+                              "name": "dataSetLink",
+                              "guid": "",
+                              "belongedPage": "",
+                              "options": {
+                                "dataSetID": ""
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "enable": false,
+                          "key": "button.trigger.paramLinkOutput",
+                          "method": "setButtonOutputData",
+                          "source": [
+                            {
+                              "id": "1e7d4d76-95da-46f6-9e96-6ec5ff739501",
+                              "name": "paramLink",
+                              "guid": "",
+                              "belongedPage": "",
+                              "options": {
+                                "paramSelectValue": "",
+                                "paramDefaultValue": ""
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "enable": true,
+                          "key": "button.trigger.pageJump",
+                          "method": "pageJump",
+                          "source": []
+                        }
+                      ],
+                      "langKeys": [
+                        "新建"
+                      ],
+                      "linkList": [
+                        {
+                          "name": "onClick",
+                          "property": "upDateLink",
+                          "type": "script",
+                          "enable": true,
+                          "script": "$Variable.createInstance = !$Variable.createInstance;",
+                          "linkId": 200001,
+                          "KSCGUID": "kafc4900d8a4b952331a200a3286c5cc"
+                        }
+                      ],
+                      "styleOption": {}
+                    }
+                  ],
+                  "uiInputLinkList": [],
+                  "uiOutputLinkList": [],
+                  "isNewCol": false,
+                  "offsetAnimation": {},
+                  "conditionConfig": {}
+                },
+                {
+                  "UIName": "RCol88",
+                  "KSCGUID": "kc75556f0dff956094878467481079c3",
+                  "parentGUID": "k8db05023bea158de3d868e620aae620",
+                  "range": 10,
+                  "prototypeName": "RCol",
+                  "index": 2,
+                  "objectType": 6,
+                  "backgroundColor": "",
+                  "colHeight": 34,
+                  "widthStrategy": "fixedsize",
+                  "xsWidth": "80",
+                  "smWidth": "80",
+                  "mdWidth": "80",
+                  "lgWidth": "80",
+                  "xlWidth": "80",
+                  "xsAutoWidth": "100",
+                  "smAutoWidth": "100",
+                  "mdAutoWidth": "100",
+                  "lgAutoWidth": 5,
+                  "xlAutoWidth": 5,
+                  "minSize": 0,
+                  "minWidth": 0,
+                  "isShow": true,
+                  "visible": true,
+                  "xsIsShow": true,
+                  "smIsShow": true,
+                  "mdIsShow": true,
+                  "lgIsShow": true,
+                  "xlIsShow": true,
+                  "offsetValid": true,
+                  "sameWidth": true,
+                  "horinzontal": "left",
+                  "vertical": "top",
+                  "lock": false,
+                  "lockWidthHeight": false,
+                  "rateOfWidthHeight": 1,
+                  "offset": "15",
+                  "autoOffset": "1.40",
+                  "offsetRight": 0,
+                  "autoOffsetRight": 0,
+                  "offsetStrategy": "fixedsize",
+                  "heightStrategy": "percentage",
+                  "autoHeight": 100,
+                  "dragResizeFlag": false,
+                  "object": [
+                    {
+                      "UIName": "deleteInstances_ElementButton",
+                      "groupName": "其他",
+                      "icon": "el-icon-delete",
+                      "authName": "",
+                      "isConfigAuth": false,
+                      "elementuiType": "ElementButton",
+                      "objectType": 2,
+                      "prototypeName": "ElementButton",
+                      "id": "UI_910039",
+                      "KSCGUID": "k842d9b625a661a0e5124a410e8ac7a1",
+                      "leftTopPt": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "content": "",
+                      "badgeColor": "#ee0a24",
+                      "color": "",
+                      "backgroundColor": "",
+                      "dot": false,
+                      "max": null,
+                      "accessable": true,
+                      "UIDesc": "",
+                      "locationX": "1302",
+                      "locationY": "19",
+                      "lock": false,
+                      "visible": true,
+                      "runVisible": true,
+                      "operable": true,
+                      "tooltipDisable": true,
+                      "disabled": false,
+                      "plain": false,
+                      "round": false,
+                      "circle": false,
+                      "loading": false,
+                      "text": "删除",
+                      "detailConfig": "",
+                      "styleConfig": "/*边框变成直角*/\n/*#domId {*/\n/*    display: flex;*/\n/*    justify-content: right;*/\n/*    align-items: center;*/\n/*}*/\n#domId button {\n    background: #FFD5D5;\n    /*background-repeat: no-repeat;*/\n    /*background-position: 15px 48%;*/\n    /*background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBmaWxsPSJub25lIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48ZGVmcz48Y2xpcFBhdGggaWQ9Im1hc3Rlcl9zdmcwXzEzNjBfMDc1MTE1Ij48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHJ4PSIwIi8+PC9jbGlwUGF0aD48L2RlZnM+PGcgY2xpcC1wYXRoPSJ1cmwoI21hc3Rlcl9zdmcwXzEzNjBfMDc1MTE1KSI+PGc+PHBhdGggZD0iTTE1LjgwNzQsMy4wMjg5MDY3MTg3NUMxNS44MDc0LDIuNzMwNjU2NzE4NzUsMTUuNTA5MSwyLjQzMjQwNjcxODc1LDE1LjIxMDksMi40MzI0MDY3MTg3NUwxMC43MzcxLDIuNDMyNDA2NzE4NzVDMTAuNTM4MywxLjA0MDU2MTcxODc1LDkuMzQ1MjQsMC4wNDYzODY1MTUyOTksNy45NTM0LDAuMDQ2Mzg2NTE1Mjk5QzcuMTU4MDYsMC4wNDYzODY1MTUyOTksNi4zNjI3MiwwLjM0NDYzODcxODc1LDUuODY1NjMsMC45NDExNDM3MTg3NUM1LjQ2Nzk2LDEuMzM4ODE2NzE4NzUsNS4yNjkxMywxLjgzNTg5NjcxODc1LDUuMTY5NzEsMi40MzI0MDY3MTg3NUwwLjU5NjUwMywyLjQzMjQwNjcxODc1QzAuMjk4MjUxLDIuNDMyNDA2NzE4NzUsLTAuMDAwMDAxMzczMjksMi43MzA2NTY3MTg3NSwtMC4wMDAwMDEzNzMyOSwzLjAyODkwNjcxODc1Qy0wLjAwMDAwMTM3MzI5LDMuMzI3MTY2NzE4NzUsMC4yOTgyNTEsMy42MjU0MTY3MTg3NSwwLjU5NjUwMywzLjYyNTQxNjcxODc1TDEuNzg5NTEsMy42MjU0MTY3MTg3NUwxLjc4OTUxLDEzLjM2ODI4NjcxODc1QzEuNzg5NTEsMTQuNzYwMTg2NzE4NzUsMi45ODI1MiwxNS45NTMxODY3MTg3NSw0LjM3NDM3LDE1Ljk1MzE4NjcxODc1TDExLjQzMywxNS45NTMxODY3MTg3NUMxMi44MjQ5LDE1Ljk1MzE4NjcxODc1LDE0LjAxNzksMTQuNzYwMTg2NzE4NzUsMTQuMDE3OSwxMy4zNjgyODY3MTg3NUwxNC4wMTc5LDMuNjI1NDE2NzE4NzVMMTUuMzEwMywzLjYyNTQxNjcxODc1QzE1LjYwODUsMy42MjU0MTY3MTg3NSwxNS45MDY4LDMuMzI3MTY2NzE4NzUsMTUuODA3NCwzLjAyODkwNjcxODc1Wk02Ljc2MDM5LDEuODM1ODk2NzE4NzVDNy4wNTg2NCwxLjUzNzY0NjcxODc1LDcuNTU1NzMsMS4zMzg4MTY3MTg3NSw3Ljk1MzQsMS4zMzg4MTY3MTg3NUM4LjY0OTMyLDEuMzM4ODE2NzE4NzUsOS4yNDU4MiwxLjgzNTg5NjcxODc1LDkuNDQ0NjYsMi40MzI0MDY3MTg3NUw2LjQ2MjEzLDIuNDMyNDA2NzE4NzVDNi41NjE1NSwyLjEzNDE1NjcxODc1LDYuNjYwOTcsMS45MzUzMTY3MTg3NSw2Ljc2MDM5LDEuODM1ODk2NzE4NzVaTTEyLjgyNDksMTMuMzY4Mjg2NzE4NzVDMTIuODI0OSwxNC4xNjM2ODY3MTg3NSwxMi4yMjgzLDE0Ljc2MDE4NjcxODc1LDExLjQzMywxNC43NjAxODY3MTg3NUw0LjM3NDM3LDE0Ljc2MDE4NjcxODc1QzMuNTc5MDMsMTQuNzYwMTg2NzE4NzUsMi45ODI1MiwxNC4xNjM2ODY3MTg3NSwyLjk4MjUyLDEzLjM2ODI4NjcxODc1TDIuOTgyNTIsMy42MjU0MTY3MTg3NUwxMi44MjQ5LDMuNjI1NDE2NzE4NzVMMTIuODI0OSwxMy4zNjgyODY3MTg3NVoiIGZpbGw9IiNGRjVCNTEiIGZpbGwtb3BhY2l0eT0iMSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOnBhc3N0aHJvdWdoIi8+PC9nPjxnPjxwYXRoIGQ9Ik01LjY2Njc0NzE5NTMxMjUsMTIuNTczMzU4NTkzNzUwMDAxQzUuOTY0OTk5MTk1MzEyNSwxMi41NzMzNTg1OTM3NTAwMDEsNi4yNjMyNTUxOTUzMTI0OTk1LDEyLjM3NDUyODU5Mzc1LDYuMjYzMjU1MTk1MzEyNDk5NSwxMS45NzY4NTg1OTM3NUw2LjI2MzI1NTE5NTMxMjQ5OTUsNy4wMDU5ODA1OTM3NUM2LjI2MzI1NTE5NTMxMjQ5OTUsNi43MDc3Mjg1OTM3NSw1Ljk2NDk5OTE5NTMxMjUsNi40MDk0NzU4OTM3NSw1LjY2Njc0NzE5NTMxMjUsNi40MDk0NzU4OTM3NUw1LjU2NzMzMDE5NTMxMjUsNi40MDk0NzU4OTM3NUM1LjI2OTA3NzE5NTMxMjUsNi40MDk0NzU4OTM3NSw0Ljk3MDgyNTE5NTMxMjUsNi43MDc3Mjg1OTM3NSw0Ljk3MDgyNTE5NTMxMjUsNy4wMDU5ODA1OTM3NUw0Ljk3MDgyNTE5NTMxMjUsMTEuOTc2ODU4NTkzNzVDNC45NzA4MjUxOTUzMTI1LDEyLjI3NTEwODU5Mzc1LDUuMjY5MDc3MTk1MzEyNSwxMi41NzMzNTg1OTM3NTAwMDEsNS42NjY3NDcxOTUzMTI1LDEyLjU3MzM1ODU5Mzc1MDAwMVpNMTAuMzM5MzY1MTk1MzEyNSwxMi40NzM5Mzg1OTM3NDk5OTlDMTAuNjM3NjI1MTk1MzEyNSwxMi40NzM5Mzg1OTM3NDk5OTksMTAuOTM1ODc1MTk1MzEyNSwxMi4xNzU2ODg1OTM3NSwxMC45MzU4NzUxOTUzMTI1LDExLjg3NzQzODU5Mzc1TDEwLjkzNTg3NTE5NTMxMjUsNi45MDY1NjM1OTM3NUMxMC45MzU4NzUxOTUzMTI1LDYuNjA4MzEwNTkzNzUsMTAuNjM3NjI1MTk1MzEyNSw2LjMxMDA1ODU5Mzc1LDEwLjMzOTM2NTE5NTMxMjUsNi4zMTAwNTg1OTM3NUwxMC4yMzk5NTUxOTUzMTI1LDYuMzEwMDU4NTkzNzVDOS45NDE2OTUxOTUzMTI1LDYuMzEwMDU4NTkzNzUsOS42NDM0NDUxOTUzMTI1LDYuNjA4MzEwNTkzNzUsOS42NDM0NDUxOTUzMTI1LDYuOTA2NTYzNTkzNzVMOS42NDM0NDUxOTUzMTI1LDExLjg3NzQzODU5Mzc1QzkuNjQzNDQ1MTk1MzEyNSwxMi4xNzU2ODg1OTM3NSw5Ljk0MTY5NTE5NTMxMjUsMTIuNDczOTM4NTkzNzQ5OTk5LDEwLjMzOTM2NTE5NTMxMjUsMTIuNDczOTM4NTkzNzQ5OTk5Wk04LjE1MjE4NTE5NTMxMjUsMTIuNDczOTM4NTkzNzQ5OTk5QzguNDUwNDM1MTk1MzEyNTAxLDEyLjQ3MzkzODU5Mzc0OTk5OSw4Ljc0ODY4NTE5NTMxMjUsMTIuMTc1Njg4NTkzNzUsOC43NDg2ODUxOTUzMTI1LDExLjg3NzQzODU5Mzc1TDguNzQ4Njg1MTk1MzEyNSw2LjkwNjU2MzU5Mzc1QzguNzQ4Njg1MTk1MzEyNSw2LjYwODMxMDU5Mzc1LDguNDUwNDM1MTk1MzEyNTAxLDYuMzEwMDU4NTkzNzUsOC4xNTIxODUxOTUzMTI1LDYuMzEwMDU4NTkzNzVMOC4wNTI3NjUxOTUzMTI1LDYuMzEwMDU4NTkzNzVDNy43NTQ1MTUxOTUzMTI1LDYuMzEwMDU4NTkzNzUsNy40NTYyNjUxOTUzMTI1MDA1LDYuNjA4MzEwNTkzNzUsNy40NTYyNjUxOTUzMTI1MDA1LDYuOTA2NTYzNTkzNzVMNy40NTYyNjUxOTUzMTI1MDA1LDExLjg3NzQzODU5Mzc1QzcuNDU2MjY1MTk1MzEyNTAwNSwxMi4xNzU2ODg1OTM3NSw3Ljc1NDUxNTE5NTMxMjUsMTIuNDczOTM4NTkzNzQ5OTk5LDguMTUyMTg1MTk1MzEyNSwxMi40NzM5Mzg1OTM3NDk5OTlaIiBmaWxsPSIjRkY1QjUxIiBmaWxsLW9wYWNpdHk9IjEiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTpwYXNzdGhyb3VnaCIvPjwvZz48L2c+PC9zdmc+');*/\n    \n    font-family: 思源黑体;\n    font-weight: 350;\n    font-size: 14px;\n    color: #FF5B51;\n    border-radius: 4px;\n    border: none;\n}\n\n\n#domId button.is-disabled {\n    opacity: 0.6;\n}\n/*#domId .el-button span{*/\n/*    margin-left: 20px;*/\n/*}*/\n",
+                      "tooltip": {
+                        "effect": "dark",
+                        "content": "",
+                        "placement": "bottom",
+                        "disabled": true,
+                        "offset": 0,
+                        "transition": "el-fade-in-linear",
+                        "visibleArrow": true,
+                        "openDelay": 0,
+                        "manual": false,
+                        "enterable": true,
+                        "hideAfter": 0
+                      },
+                      "parentGUID": "kc75556f0dff956094878467481079c3",
+                      "isCloseCurPage": false,
+                      "throttleTime": 500,
+                      "uiInputLinkList": [
+                        {
+                          "enable": false,
+                          "key": "button.trigger.data",
+                          "method": "setButtonLinkData",
+                          "source": [
+                            {
+                              "id": "912037e9-61e1-4b6a-8652-08389502062e",
+                              "name": "otherConfig",
+                              "guid": "",
+                              "dataSourceType": 0,
+                              "belongedPage": "",
+                              "options": {
+                                "content": ""
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "uiOutputLinkList": [
+                        {
+                          "enable": false,
+                          "key": "button.trigger.dataSetOutput",
+                          "method": "setButtonOutputData",
+                          "source": [
+                            {
+                              "id": "531d77e3-0a13-4b91-8034-f69cdf5f5c37",
+                              "name": "dataSetLink",
+                              "guid": "",
+                              "belongedPage": "",
+                              "options": {
+                                "dataSetID": ""
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "enable": false,
+                          "key": "button.trigger.paramLinkOutput",
+                          "method": "setButtonOutputData",
+                          "source": [
+                            {
+                              "id": "6973f2e4-0546-450a-93c2-7b3517a14439",
+                              "name": "paramLink",
+                              "guid": "",
+                              "belongedPage": "",
+                              "options": {
+                                "paramSelectValue": "",
+                                "paramDefaultValue": ""
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "enable": true,
+                          "key": "button.trigger.pageJump",
+                          "method": "pageJump",
+                          "source": []
+                        }
+                      ],
+                      "langKeys": [
+                        "删除"
+                      ],
+                      "linkList": [
+                        {
+                          "name": "onClick",
+                          "property": "upDateLink",
+                          "type": "script",
+                          "enable": true,
+                          "script": "// console.log(\"[D] 点击了删除按钮\");\r\n// console.log(\"[D] instanceList_ElementTable = \", instanceList_ElementTable);\r\nmain();\r\n\r\nfunction main()\r\n{\r\n    const selections = instanceList_ElementTable.GetMultipleSelectionRow();\r\n    if(selections.length == 0)\r\n    {\r\n        _showMessage(\"请选择实例\", \"warning\");\r\n        return;\r\n    }\r\n    $Variable.deleteInstances = [...selections];\r\n}\r\n\r\n\r\nfunction _showMessage(massage, type = \"error\")\r\n{\r\n    const options = {\r\n        message: massage,\r\n        type: type,\r\n        duration: 3000,\r\n        showClose: true,\r\n    };\r\n    ShowMessage(options);\r\n}",
+                          "linkId": 200001,
+                          "KSCGUID": "ke23d12e1ca6061617324dec9b17cf28"
+                        }
+                      ],
+                      "styleOption": {}
+                    }
+                  ],
+                  "uiInputLinkList": [],
+                  "uiOutputLinkList": [],
+                  "isNewCol": false,
+                  "offsetAnimation": {},
+                  "conditionConfig": {}
+                },
+                {
+                  "UIName": "RCol85",
+                  "KSCGUID": "kd001f7641eca35c7f7f603cb8a5cf37",
+                  "parentGUID": "k8db05023bea158de3d868e620aae620",
+                  "range": 10,
+                  "prototypeName": "RCol",
+                  "index": 1,
+                  "objectType": 6,
+                  "backgroundColor": "",
+                  "colHeight": 34,
+                  "widthStrategy": "fixedsize",
+                  "xsWidth": "120",
+                  "smWidth": "120",
+                  "mdWidth": "120",
+                  "lgWidth": "120",
+                  "xlWidth": "120",
+                  "xsAutoWidth": "100",
+                  "smAutoWidth": "100",
+                  "mdAutoWidth": "100",
+                  "lgAutoWidth": 8,
+                  "xlAutoWidth": 8,
+                  "minSize": 0,
+                  "minWidth": 0,
+                  "isShow": true,
+                  "visible": true,
+                  "xsIsShow": true,
+                  "smIsShow": true,
+                  "mdIsShow": true,
+                  "lgIsShow": true,
+                  "xlIsShow": true,
+                  "offsetValid": true,
+                  "sameWidth": true,
+                  "horinzontal": "left",
+                  "vertical": "top",
+                  "lock": false,
+                  "lockWidthHeight": false,
+                  "rateOfWidthHeight": 1,
+                  "offset": "15",
+                  "autoOffset": "1.40",
+                  "offsetRight": 0,
+                  "autoOffsetRight": 0,
+                  "offsetStrategy": "fixedsize",
+                  "heightStrategy": "percentage",
+                  "autoHeight": 100,
+                  "dragResizeFlag": false,
+                  "object": [
+                    {
+                      "elementuiType": "ElementDropdown",
+                      "prototypeName": "ElementDropdown",
+                      "UIName": "ElementDropdown1",
+                      "objectType": 2,
+                      "detailConfig": "\r\n\r\n\r\nthis.dropdown({\r\n    menu: (() =>\r\n    {\r\n        return [\r\n            // {\r\n            //     text: '导入实例',\r\n            //     command: 1,\r\n            //     disabled: false,\r\n            //     divided: false,\r\n            //     icon: 'el-icon-upload2'\r\n            // },\r\n            // {\r\n            //     text: '导入变量',\r\n            //     command: 2,\r\n            //     disabled: true,\r\n            //     divided: false,\r\n            //     icon: 'el-icon-upload2'\r\n            // },\r\n            // {\r\n            //     text: '导出实例',\r\n            //     command: 3,\r\n            //     disabled: false,\r\n            //     divided: false,\r\n            //     icon: 'el-icon-download'\r\n            // },\r\n            // {\r\n            //     text: '移动实例',\r\n            //     command: 4,\r\n            //     disabled: false,\r\n            //     divided: false,\r\n            //     icon: 'el-icon-rank'\r\n            // },\r\n            {\r\n                text: '批量提交版本',\r\n                command: 5,\r\n                disabled: false,\r\n                divided: false,\r\n                icon: 'el-icon-position'\r\n            },\r\n        ]\r\n    })()\r\n})",
+                      "styleConfig": "/*按钮的边框样式*/\n#domId button {\n    border: 1px solid #0076ff;\n    background-color: #ffffff;\n    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBmaWxsPSJub25lIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSIxNC4wMDE1NjIxMTg1MzAyNzMiIGhlaWdodD0iMy4xMjYwNzgzNjcyMzMyNzY0IiB2aWV3Qm94PSIwIDAgMTQuMDAxNTYyMTE4NTMwMjczIDMuMTI2MDc4MzY3MjMzMjc2NCI+PGc+PHBhdGggZD0iTTQuNTc3NjRlLTcsMS41NjMwNEMtMC4wMDAyOTc2MjMsMi40MjYxOSwwLjY5OTM0NSwzLjEyNjA4LDEuNTYyNSwzLjEyNjA4QzIuNDI1NjYsMy4xMjYwOCwzLjEyNTMsMi40MjYxOSwzLjEyNSwxLjU2MzA0QzMuMTI1MywwLjY5OTg4NCwyLjQyNTY2LDAsMS41NjI1LDBDMC42OTkzNDUsMCwtMC4wMDAyOTc2MjMsMC42OTk4ODQsNC41Nzc2NGUtNywxLjU2MzA0Wk01LjQzNzUsMS41NjMwNEM1LjQzNzUsMi40MjU5OCw2LjEzNzA1LDMuMTI1NTQsNywzLjEyNTU0QzcuODYyOTQsMy4xMjU1NCw4LjU2MjUsMi40MjU5OCw4LjU2MjUsMS41NjMwNEM4LjU2MjUsMC43MDAwOTQsNy44NjI5NCwwLjAwMDUzODk0LDcsMC4wMDA1Mzg5NEM2LjEzNzA1LDAuMDAwNTM4OTQsNS40Mzc1LDAuNzAwMDk0LDUuNDM3NSwxLjU2MzA0Wk0xMC44NzY2LDEuNTYzMDRDMTAuODc2NiwyLjQyNTk4LDExLjU3NjEsMy4xMjU1NCwxMi40MzkxLDMuMTI1NTRDMTMuMzAyLDMuMTI1NTQsMTQuMDAxNiwyLjQyNTk4LDE0LjAwMTYsMS41NjMwNEMxNC4wMDE2LDAuNzAwMDk0LDEzLjMwMiwwLjAwMDUzODk0LDEyLjQzOTEsMC4wMDA1Mzg5NEMxMS41NzYxLDAuMDAwNTM4OTQsMTAuODc2NiwwLjcwMDA5NCwxMC44NzY2LDEuNTYzMDRaIiBmaWxsPSIjMDA3NkZGIiBmaWxsLW9wYWNpdHk9IjEiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTpwYXNzdGhyb3VnaCIvPjwvZz48L3N2Zz4=);\n    background-repeat: no-repeat;\n    background-position-y: center;\n    background-position-x: 10px;\n    padding-left: 20px !important;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    color: #0076ff;\n    font-family: 思源黑体;\n    font-weight: 350;\n    font-size: 14px;\n}",
+                      "lock": false,
+                      "visible": true,
+                      "runVisible": true,
+                      "operable": true,
+                      "showDropdown": true,
+                      "icon": "dropdown",
+                      "type": "primary",
+                      "splitButton": false,
+                      "KSCGUID": "k781a8b39703580e7dbb9b0be4c7862e",
+                      "placement": "bottom",
+                      "trigger": "hover",
+                      "hideOnClick": true,
+                      "showTimeout": 250,
+                      "hideTimeout": 250,
+                      "showMenu": true,
+                      "tabindex": 0,
+                      "filterable": false,
+                      "text": "更多操作",
+                      "menu": [
+                        {
+                          "text": "批量提交版本",
+                          "command": 5,
+                          "disabled": false,
+                          "divided": false,
+                          "icon": "el-icon-position"
+                        }
+                      ],
+                      "id": "k22eef10a878732212c0ab071c54317d",
+                      "parentGUID": "kd001f7641eca35c7f7f603cb8a5cf37",
+                      "tooltipDisable": false,
+                      "locationY": "19",
+                      "locationX": "1397",
+                      "isConfigAuth": false,
+                      "authName": "",
+                      "langKeys": [
+                        "更多操作",
+                        "批量提交版本"
+                      ],
+                      "tooltip": {
+                        "effect": "dark",
+                        "content": "提示文字",
+                        "placement": "bottom",
+                        "offset": 0,
+                        "transition": "el-fade-in-linear",
+                        "visibleArrow": true,
+                        "openDelay": 0,
+                        "manual": false,
+                        "enterable": true,
+                        "hideAfter": 0
+                      },
+                      "linkList": [
+                        {
+                          "linkId": 200001,
+                          "enable": false,
+                          "KSCGUID": "k43c75737dd19a374efc8b940ce4c93e",
+                          "script": "",
+                          "KSCLINKGUID": "",
+                          "linkName": "Click"
+                        },
+                        {
+                          "linkId": 200002,
+                          "enable": true,
+                          "KSCGUID": "kff69680f07edd1d4702a296644c494c",
+                          "script": "\nconst COMMAND_AND_SIGNAL = {\n    \"1\": \"importInstanceTreeSignal\",\n    \"2\": \"importTagsSignal\",\n    \"3\": \"exportInstancesSignal\",\n    \"4\": \"moveInstanceSignal\",\n    \"5\": \"submitInstancesSignal\"\n};\n\n\nconsole.log(\"-I- 下拉菜单 Command 事件：args = \", arguments);\nconst command = arguments[1];\n\nmain();\n\nfunction main()\n{\n    if(!Object.hasOwn(COMMAND_AND_SIGNAL, `${command}`)){\n        return;\n    }\n    \n    const signalName = COMMAND_AND_SIGNAL[`${command}`];\n    \n    $Variable[signalName] = !$Variable[signalName];\n}",
+                          "KSCLINKGUID": "kf1a9e520e6d1d4fc6a6802f54501916",
+                          "linkName": "Command"
+                        },
+                        {
+                          "linkId": 200003,
+                          "enable": false,
+                          "KSCGUID": "k85606b07f738358d15f26f126822d28",
+                          "script": "",
+                          "KSCLINKGUID": "",
+                          "linkName": "VisiableChange"
+                        }
+                      ],
+                      "uiInputLinkList": [
+                        {
+                          "enable": true,
+                          "key": "dropdown.trigger.data",
+                          "method": "setDropDownData",
+                          "source": [
+                            {
+                              "id": "1772193699339",
+                              "name": "",
+                              "guid": "",
+                              "dataSourceType": 0,
+                              "belongedPage": "",
+                              "options": {
+                                "text": "",
+                                "icon": "",
+                                "command": ""
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "enable": true,
+                          "key": "dropdown.trigger.defaultConfig",
+                          "method": "setDropDownDefaultConfig",
+                          "source": [
+                            {
+                              "id": "1772193699339",
+                              "name": "",
+                              "guid": "",
+                              "dataSourceType": 1,
+                              "belongedPage": "",
+                              "options": {
+                                "dataSetMember": "",
+                                "defaultValue": "",
+                                "staticValue": ""
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "uiOutputLinkList": []
+                    }
+                  ],
+                  "uiInputLinkList": [],
+                  "uiOutputLinkList": [],
+                  "isNewCol": false,
+                  "offsetAnimation": {},
+                  "conditionConfig": {}
+                },
+                {
+                  "UIName": "RCol89",
+                  "KSCGUID": "k21efaa49b14c42d8931a204fb32a8e1",
+                  "parentGUID": "k8db05023bea158de3d868e620aae620",
+                  "range": 10,
+                  "prototypeName": "RCol",
+                  "index": 4,
+                  "objectType": 6,
+                  "backgroundColor": "",
+                  "colHeight": 34,
+                  "widthStrategy": "fixedsize",
+                  "xsWidth": "250",
+                  "smWidth": "250",
+                  "mdWidth": "250",
+                  "lgWidth": "250",
+                  "xlWidth": "250",
+                  "xsAutoWidth": "100",
+                  "smAutoWidth": "100",
+                  "mdAutoWidth": "100",
+                  "lgAutoWidth": 18,
+                  "xlAutoWidth": 17,
+                  "minSize": 0,
+                  "minWidth": 0,
+                  "isShow": true,
+                  "visible": true,
+                  "xsIsShow": true,
+                  "smIsShow": true,
+                  "mdIsShow": true,
+                  "lgIsShow": true,
+                  "xlIsShow": true,
+                  "offsetValid": true,
+                  "sameWidth": true,
+                  "horinzontal": "left",
+                  "vertical": "top",
+                  "lock": false,
+                  "lockWidthHeight": false,
+                  "rateOfWidthHeight": 1,
+                  "offset": "15",
+                  "autoOffset": "1.40",
+                  "offsetRight": 0,
+                  "autoOffsetRight": 0,
+                  "offsetStrategy": "fixedsize",
+                  "heightStrategy": "percentage",
+                  "autoHeight": 100,
+                  "dragResizeFlag": false,
+                  "object": [
+                    {
+                      "UIName": "instanceRepoKeyWords_ElementInput",
+                      "groupName": "输入",
+                      "icon": "input",
+                      "KSCGUID": "k9627b4ab9fcd8e5f34cbc47b2abd7ca",
+                      "elementuiType": "ElementInput",
+                      "lock": false,
+                      "visible": true,
+                      "runVisible": true,
+                      "objectType": 2,
+                      "prototypeName": "ElementInput",
+                      "value": "",
+                      "detailConfig": "",
+                      "styleConfig": "#domId span.el-input__suffix-inner {\n    font-size: 16px;\n    border-left: 1px solid #DEDEDE;\n    padding-left: 5px;\n    font-weight: bold;\n}\n\n#domId span.el-input__suffix-inner .el-input__icon.el-icon-search {\n    cursor: pointer;\n}\n\n#domId input {\n    font-family: 思源黑体;\n    font-weight: 350;\n    font-size: 14px;\n    color: #333;\n}\n\n/*多行文本情况*/\n#domId textarea {\n    font-family: 思源黑体;\n    font-weight: 350;\n    font-size: 14px;\n    color: #333;\n}\n\n#domId .el-input__inner:focus {\n    outline: none;\n    border-color: #0076FF;\n}",
+                      "debounce": 300,
+                      "placement": "bottom-start",
+                      "triggeronFocus": true,
+                      "selectWhenUnmatched": false,
+                      "hideLoading": false,
+                      "highlightFirstItem": false,
+                      "custom": false,
+                      "autocomplete": false,
+                      "maxlength": 128,
+                      "showWordLimit": false,
+                      "clearable": true,
+                      "placeholder": "请输入关键字进行检索",
+                      "showPassword": false,
+                      "disabled": false,
+                      "size": "auto",
+                      "prefixIcon": "",
+                      "suffixIcon": "el-icon-search",
+                      "type": "text",
+                      "rows": 2,
+                      "readonly": false,
+                      "max": 10000000000,
+                      "min": -10000000000,
+                      "step": 1,
+                      "prepend": "",
+                      "append": "",
+                      "tabindex": "",
+                      "styleOption": {},
+                      "uiInputLinkList": [
+                        {
+                          "enable": true,
+                          "key": "input.trigger.defaultConfig",
+                          "method": "setInputDefaultData",
+                          "source": [
+                            {
+                              "id": "b525868c-b40e-4943-8252-c8c51b7e359e",
+                              "name": "defaultConfig",
+                              "dataSourceType": 0,
+                              "guid": "",
+                              "belongedPage": "",
+                              "options": {
+                                "defaultValue": "",
+                                "dataSetMember": ""
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "uiOutputLinkList": [
+                        {
+                          "enable": false,
+                          "key": "input.trigger.paramLinkOutput",
+                          "method": "setInputOutputData",
+                          "source": [
+                            {
+                              "id": "0566a879-9866-4901-8b09-8c426e2748e0",
+                              "name": "paramLink",
+                              "guid": "",
+                              "belongedPage": "",
+                              "options": {
+                                "paramValue": ""
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "enable": false,
+                          "key": "input.trigger.formCheck",
+                          "method": "setInputFormCheck",
+                          "source": [
+                            {
+                              "id": "fdceb1c4-1938-4a6c-999a-140b2b1e8d78",
+                              "name": "formCheck",
+                              "guid": "",
+                              "belongedPage": "",
+                              "options": {}
+                            }
+                          ]
+                        }
+                      ],
+                      "langKeys": [
+                        "请输入关键字进行检索"
+                      ],
+                      "linkList": [
+                        {
+                          "linkId": 200001,
+                          "enable": false,
+                          "KSCGUID": "k7ee4b582db48d3944d998dd9e733e7e",
+                          "script": "",
+                          "KSCLINKGUID": "",
+                          "linkName": "Focus"
+                        },
+                        {
+                          "linkId": 200002,
+                          "enable": false,
+                          "KSCGUID": "k0bd2002e17d271439994c0bfd17f132",
+                          "script": "",
+                          "KSCLINKGUID": "",
+                          "linkName": "Blur"
+                        },
+                        {
+                          "linkId": 200003,
+                          "enable": true,
+                          "KSCGUID": "kf0910a26528a9393bbd874c6e44f4bb",
+                          "script": "console.log(\"[D] 搜索框数据发生改变, this = \", this);\n\nconst value = this.GetInputValue();\n\n// const condition = {\n//     condition: value,\n//     timestamp: Date.now()\n// }\n\n// console.log(\"[I] 查询条件：\", condition);\n\n// $Variable.filterConditions = condition;\n\n// spaceTimeRepo_ElementTree.Filter(value);\n\n$Variable.instanceRepoKeyWords = value.replaceAll(/\\s/g, \"\");",
+                          "KSCLINKGUID": "kd978e3331ff48e28f2e403886f8100a",
+                          "linkName": "Change"
+                        },
+                        {
+                          "linkId": 200004,
+                          "enable": false,
+                          "KSCGUID": "k6bd4e40f71a65e31dd28e4283268669",
+                          "script": "",
+                          "KSCLINKGUID": "",
+                          "linkName": "Input"
+                        },
+                        {
+                          "linkId": 200005,
+                          "enable": false,
+                          "KSCGUID": "k4e82ee69952253d3e6799d55b4c6f94",
+                          "script": "",
+                          "KSCLINKGUID": "",
+                          "linkName": "Clear"
+                        },
+                        {
+                          "linkId": 200006,
+                          "enable": false,
+                          "KSCGUID": "kd9b17af733917bf7daf98e7715f586a",
+                          "script": "",
+                          "KSCLINKGUID": "",
+                          "linkName": "Select"
+                        }
+                      ],
+                      "parentGUID": "k21efaa49b14c42d8931a204fb32a8e1"
+                    }
+                  ],
+                  "uiInputLinkList": [],
+                  "uiOutputLinkList": [],
+                  "isNewCol": false,
+                  "offsetAnimation": {},
+                  "conditionConfig": {}
+                }
+              ],
+              "warpCols": [],
+              "verBorder": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0.1)",
+              "borderRadius": 0,
+              "boxShadow": {
+                "type": "outset",
+                "offsetX": 0,
+                "offsetY": 0,
+                "blueRadius": 0,
+                "spreadRadius": 0,
+                "color": {
+                  "color": "rgba(0,0,0,1)",
+                  "type": "solid-color"
+                }
+              },
+              "horBorder": 2.22222,
+              "conditionConfig": {}
+            },
+            {
+              "UIName": "RRow22",
+              "KSCGUID": "kcd70cfed67d133a6e3ca2274a9e486e",
+              "parentGUID": "ka6633037c7852f672bcc1a85803cb08",
+              "prototypeName": "RRow",
+              "objectType": 5,
+              "rowGap": {
+                "top": 15,
+                "right": 15,
+                "bottom": 15,
+                "left": 15,
+                "autotop": 2.16,
+                "autoright": 1.36,
+                "autoleft": 1.36,
+                "autobottom": 2.16
+              },
+              "index": 0,
+              "colsGap": 0,
+              "colsAutoGap": 0,
+              "lock": false,
+              "wrapRowMargin": 0,
+              "wrapRowAutoMargin": 0,
+              "backgroundColor": "",
+              "contentWidth": 1338,
+              "contentHeight": 776,
+              "height": 776,
+              "isShow": true,
+              "visible": true,
+              "heightStrategy": "autosize",
+              "autoHeight": 100,
+              "minSize": 0,
+              "colStrategy": "fixedsize",
+              "rowGapStrategy": "fixedsize",
+              "origHeight": 776,
+              "origAutoHeight": 100,
+              "picSrc": "",
+              "colsNumber": 1,
+              "dragResizeFlag": false,
+              "styleConfig": "",
+              "colsManager": [
+                {
+                  "UIName": "RCol84",
+                  "KSCGUID": "k18c523170541352c0c9e8e4613466ca",
+                  "parentGUID": "kcd70cfed67d133a6e3ca2274a9e486e",
+                  "range": 10,
+                  "prototypeName": "RCol",
+                  "index": 2,
+                  "objectType": 6,
+                  "backgroundColor": "",
+                  "colHeight": 776,
+                  "widthStrategy": "autosize",
+                  "xsWidth": 100,
+                  "smWidth": 100,
+                  "mdWidth": 100,
+                  "lgWidth": 1338,
+                  "xlWidth": 1459.77,
+                  "xsAutoWidth": "100",
+                  "smAutoWidth": "100",
+                  "mdAutoWidth": "100",
+                  "lgAutoWidth": "100",
+                  "xlAutoWidth": "100",
+                  "minSize": 0,
+                  "minWidth": 0,
+                  "isShow": true,
+                  "visible": true,
+                  "xsIsShow": true,
+                  "smIsShow": true,
+                  "mdIsShow": true,
+                  "lgIsShow": true,
+                  "xlIsShow": true,
+                  "offsetValid": true,
+                  "sameWidth": true,
+                  "horinzontal": "left",
+                  "vertical": "top",
+                  "lock": false,
+                  "lockWidthHeight": false,
+                  "rateOfWidthHeight": 1,
+                  "offset": 0,
+                  "autoOffset": 0,
+                  "offsetRight": 0,
+                  "autoOffsetRight": 0,
+                  "offsetStrategy": "fixedsize",
+                  "heightStrategy": "percentage",
+                  "autoHeight": 100,
+                  "dragResizeFlag": false,
+                  "object": [
+                    {
+                      "UIName": "instanceList_ElementTable",
+                      "groupName": "数据",
+                      "icon": "table",
+                      "prototypeName": "ElementTable",
+                      "elementuiType": "ElementTable",
+                      "objectType": 2,
+                      "KSCGUID": "kb5f5ed64ab1b7e5d57a3f09f571f55e",
+                      "leftTopPt": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "showCustomLabel": false,
+                      "customLabel": "",
+                      "expands": [],
+                      "detailConfig": "this.table({highlightCurrentRow:true,pagination:false,pageSizes:[100,150,200,300,500],pageSize:\"300\",border:true,fit:true,rowKey:\"guid\",columns:[{prop:\"selection\",label:\"\",align:\"center\",width:\"35\",type:\"selection\",columnKey:\"\",fixed:false,m_id:\"c04d79d1-806b-4e4d-90e1-151bc73fd23c\"},{prop:\"index\",type:\"index\",label:\"序号\",align:\"left\",width:\"60\",fixed:false,m_id:\"0f949b9f-d4ac-430b-9c94-81dbe66cf94a\"},{prop:\"name\",label:\"名称\",align:\"left\",minWidth:\"100\",type:\"\",columnKey:\"\",fixed:false,m_id:\"6d8827d2-25a8-4fba-acbc-79b5f7583bb4\",showTooltip:true},{prop:\"displayname\",label:\"显示名称\",align:\"left\",minWidth:\"100\",type:\"\",columnKey:\"\",fixed:false,m_id:\"9ce8bc25-fb2d-4b24-b0d5-b25e57370423\",showTooltip:true},{prop:\"description\",label:\"描述\",align:\"left\",minWidth:\"100\",type:\"\",columnKey:\"\",fixed:false,m_id:\"e708255b-8adb-4ecb-942a-c13475aa702a\",showTooltip:true},{prop:\"modelname\",label:\"模型\",align:\"left\",width:\"150\",type:\"\",columnKey:\"\",fixed:false,m_id:\"fd8aeb2d-fbd8-4c0b-bd74-5903bce89c0b\"},{prop:\"modelversion\",label:\"模型版本\",align:\"left\",width:\"100\",type:\"\",columnKey:\"\",fixed:false,formatter:function(row, column, cellValue) {\n      return `v${cellValue}`;\n    },m_id:\"712ff31e-055f-4097-93a1-58fb1db57fd0\"},{prop:\"operation\",label:\"操作\",align:\"left\",width:\"400\",type:\"operation\",columnKey:\"\",fixed:false,plugins:[{pluginType:\"button\",text:\"编辑\",type:\"text\",icon:\"\",click:function(scope) {\n        console.log(\"[D] 点击了 <编辑> 按钮, scope = \", scope);\n        $Variable.showEditEnvPage = Object.assign({\n          timeStamp: new Date()\n        }, {\n          ...scope.row\n        });\n      },dataSetLinkOption:{enable:false,linkInfos:[]},variableLinkOption:{enable:false,key:\"table.trigger.paramLinkOutPut\",paramLinks:[]}},{pluginType:\"button\",text:\"属性\",type:\"text\",icon:\"\",click:function(scope) {\n        console.log(\"[D] 点击了 <属性> 按钮, scope = \", scope);\n        $Variable.modifyInstance = Object.assign({\n          timeStamp: new Date()\n        }, {\n          ...scope.row\n        });\n      },dataSetLinkOption:{enable:false,linkInfos:[]},variableLinkOption:{enable:false,key:\"table.trigger.paramLinkOutPut\",paramLinks:[]}},{pluginType:\"button\",text:\"切换模型版本\",type:\"text\",icon:\"\",click:function(scope) {\n        console.log(\"[D] 点击了 <切换模型版本> 按钮, scope = \", scope);\n        $Variable.changeModelVersion = Object.assign({\n          timeStamp: new Date()\n        }, {\n          ...scope.row\n        });\n      },dataSetLinkOption:{enable:false,linkInfos:[]},variableLinkOption:{enable:false,key:\"table.trigger.paramLinkOutPut\",paramLinks:[]}},{pluginType:\"button\",text:\"形参管理\",type:\"text\",icon:\"\",click:function(scope) {\n        console.log(\"[D] 点击了 <形参管理> 按钮, scope = \", scope);\n        $Variable.manageFormalParams = Object.assign({\n          timeStamp: new Date()\n        }, {\n          ...scope.row\n        });\n      },dataSetLinkOption:{enable:false,linkInfos:[]},variableLinkOption:{enable:false,key:\"table.trigger.paramLinkOutPut\",paramLinks:[]}},{pluginType:\"button\",text:\"提交版本\",type:\"text\",icon:\"\",click:function(scope) {\n        console.log(\"[D] 点击了 <提交版本> 按钮, scope = \", scope);\n        $Variable.submitInstances = [Object.assign({\n          timeStamp: new Date()\n        }, {\n          ...scope.row\n        })];\n      },dataSetLinkOption:{enable:false,linkInfos:[]},variableLinkOption:{enable:false,key:\"table.trigger.paramLinkOutPut\",paramLinks:[]}},{pluginType:\"button\",text:\"删除\",type:\"text\",icon:\"\",click:function(scope) {\n        console.log(\"[D] 点击了 <删除> 按钮, scope = \", scope);\n        $Variable.deleteInstances = [Object.assign({\n          timeStamp: new Date()\n        }, {\n          ...scope.row\n        })];\n      },dataSetLinkOption:{enable:false,linkInfos:[]},variableLinkOption:{enable:false,key:\"table.trigger.paramLinkOutPut\",paramLinks:[]}}],m_id:\"c704f644-a8e4-4529-9bdf-9e2cb6c88026\",hidden:false}],totalData:[],cellClassName:function(row) {\n    const {\n      column,\n      columnIndex,\n      row: rowInfo,\n      rowIndex\n    } = row;\n    if (column.property == \"name\") {\n      // return rowInfo.instancetype == Enum_InstanceType.DCE_INSTANCE ? InstanceIconClass.DCE_INSTANCE : InstanceIconClass.MCM_INSTANCE;\n      return \"instance-name\";\n    }\n  },rowClassName:function(row) { // console.log(`[D] rowClassName :: row = `, row);\n    return row.row.instancetype == \"3\" ? \"kf-row-dce-instance\" : \"kf-row-mcm-instance\";\n  },hideOnSinglePage:false})",
+                      "styleConfig": "#domId {\r\n  background: rgba(255, 255, 255, 1);\r\n}\r\n\r\n#domId .el-table {\r\n  /*height: calc(100% - 44px) !important;*/\r\n  background: rgba(255, 255, 255, 1);\r\n  font-family: 思源黑体;\r\n}\r\n\r\n/*#domId table.el-table__header {*/\r\n/*  border-top: 1px solid #dedede;*/\r\n/*  border-left: 1px solid #dedede;*/\r\n/*}*/\r\n\r\n/*表格header的背景色*/\r\n#domId .el-table__header tr {\r\n  background: #F8F8F8;\r\n  color: #3d3d3d;\r\n}\r\n\r\n#domId .el-table__header th {\r\n  background: #F8F8F8;\r\n  color: #3d3d3d;\r\n  /*border-right: 1px solid #dedede;*/\r\n  border-bottom: 1px solid #dedede;\r\n  height: 34px;\r\n  padding: 0;\r\n  font-size: 14px;\r\n  font-family: 思源黑体;\r\n  font-style: normal;\r\n  font-weight: normal;\r\n}\r\n\r\n#domId .el-table tbody tr {\r\n  height: 39px;\r\n  font-size: 14px;\r\n  font-family: 思源黑体;\r\n  font-style: normal;\r\n  font-weight: normal;\r\n}\r\n\r\n\r\n#domId .el-table tbody tr {\r\n  background: #fff;\r\n  color: #3d3d3d;\r\n}\r\n\r\n\r\n#domId .el-table__cell:first-child .cell {\r\n  padding: 0;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n/*#domId .el-table tbody tr>td:first-child {*/\r\n/*  border-left: 1px solid #dedede;*/\r\n/*}*/\r\n\r\n#domId .el-table tbody tr>td {\r\n  background: #fff;\r\n  color: #3d3d3d;\r\n  border-bottom: 1px solid #dedede;\r\n  /*border-right: 1px solid #dedede;*/\r\n}\r\n\r\n\r\n#domId .el-table tbody tr:hover,\r\n#domId .el-table tbody tr:hover>td {\r\n  background: #f2f8ff;\r\n  /*color: #000;*/\r\n  font-weight: 500;\r\n  cursor: pointer;\r\n}\r\n\r\n\r\n#domId .el-table tbody tr.current-row,\r\n#domId .el-table tbody tr.current-row>td {\r\n  background: #F1F4FF;\r\n  color: #0076FF;\r\n}\r\n\r\n\r\n#domId tr.el-table__row td.el-table__cell:last-child button {\r\n  color: #0076FF;\r\n}\r\n\r\n#domId tr.el-table__row td.el-table__cell:last-child button.el-button:last-child {\r\n  color: #FF5B51;\r\n}\r\n\r\n#domId .el-checkbox__input.is-checked .el-checkbox__inner,\r\n#domId .el-checkbox__input.is-indeterminate .el-checkbox__inner {\r\n  background-color: #0076FF;\r\n  border-color: #0076FF;\r\n}\r\n\r\n#domId .el-checkbox__input .el-checkbox__inner:hover {\r\n  border-color: #0076FF;\r\n}\r\n\r\n#domId .el-button--text {\r\n  color: #0076ff;\r\n}\r\n\r\n#domId .el-table tbody tr>.el-table-column--selection .el-checkbox__inner {\r\n  border-width: 1px;\r\n}\r\n\r\n#domId .el-table tbody tr>.el-table-column--selection .is-checked .el-checkbox__inner {\r\n  border-width: 2px;\r\n}\r\n\r\n\r\n#domId .cell .el-input__inner {\r\n  border: none;\r\n}\r\n\r\n#domId tr.el-table__row td.el-table__cell .el-button--text {\r\n  background: transparent;\r\n  padding-left: 0;\r\n  padding-right: 0;\r\n  padding-top: 0;\r\n  padding-bottom: 0;\r\n}\r\n\r\n\r\n/* 隐藏采集设备实例行的形参管理按钮 */\r\n#domId .el-table .el-table__body .kf-row-dce-instance .el-table__cell .cell>button:nth-child(4) {\r\n  display: none;\r\n}\r\n\r\n#domId .el-table .el-table__body .kf-row-mcm-instance .instance-name.el-table__cell .cell span:last-child {\r\n  background-image: url(\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBmaWxsPSJub25lIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDE4IDE4Ij48ZGVmcz48Y2xpcFBhdGggaWQ9Im1hc3Rlcl9zdmcwXzI3OTdfMDgxNTUxIj48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHJ4PSIwIi8+PC9jbGlwUGF0aD48L2RlZnM+PGcgY2xpcC1wYXRoPSJ1cmwoI21hc3Rlcl9zdmcwXzI3OTdfMDgxNTUxKSI+PHBhdGggZD0iTTIuMTE3NjYyMDkwNjI1LDIuNjQ3MDMzNjkxNDA2MjVMNi4zNTI5NTYyOTA2MjUsMi42NDcwMzM2OTE0MDYyNVE3LjQxMTc3OTg5MDYyNSwyLjY0NzAzMzY5MTQwNjI1LDcuNDExNzc5ODkwNjI1LDMuNzA1ODU3MjkxNDA2MjVMNy40MTE3Nzk4OTA2MjUsNy45NDExNTExOTE0MDYyNVE3LjQxMTc3OTg5MDYyNSw4Ljk5OTk3NDY5MTQwNjI1MSw2LjM1Mjk1NTM5MDYyNSw4Ljk5OTk3NDY5MTQwNjI1MUwyLjExNzY2MTQ5MDYyNSw4Ljk5OTk3NDY5MTQwNjI1MVExLjA1ODgzNzg5MDYyNSw4Ljk5OTk3NDY5MTQwNjI1MSwxLjA1ODgzNzg5MDYyNSw3Ljk0MTE1MTE5MTQwNjI1TDEuMDU4ODM3ODkwNjI1LDMuNzA1ODU2NzkxNDA2MjQ5N1ExLjA1ODgzNzg5MDYyNSwyLjY0NzAzMzM0ODA4MzQ4LDIuMTE3NjYyMDkwNjI1LDIuNjQ3MDMzNjkxNDA2MjVaIiBmaWxsPSIjMzY3MEY3IiBmaWxsLW9wYWNpdHk9IjEiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTpwYXNzdGhyb3VnaCIvPjxwYXRoIGQ9Ik0xMy40NTQ1Njg4OTUzMTI1LDIuMDc5OTc4MzIxNDA2MjVMMTYuNDQ5Mzc0Njk1MzEyNSw1LjA3NDc4MzM0MTQwNjI1UTE3LjE5ODA3NzE5NTMxMjUsNS44MjM0ODQ0NDE0MDYyNSwxNi40NDkzNzQ2OTUzMTI1LDYuNTcyMTg1MDQxNDA2MjVMMTMuNDU0NTcwMjk1MzEyNSw5LjU2Njk5MDM0MTQwNjI1UTEyLjcwNTg2ODY5NTMxMjUsMTAuMzE1NjkxOTQxNDA2MjUsMTEuOTU3MTY4MDk1MzEyNSw5LjU2Njk5MDM0MTQwNjI1TDguOTYyMzYyOTQ1MzEyNDk5LDYuNTcyMTg1MDQxNDA2MjVROC4yMTM2NjE3NTUzMTI1LDUuODIzNDg0NDQxNDA2MjUsOC45NjIzNjI5NDUzMTI0OTksNS4wNzQ3ODI4NDE0MDYyNUwxMS45NTcxNjgwOTUzMTI1LDIuMDc5OTc3OTYxNDA2MjVRMTIuNzA1ODcwMTk1MzEyNSwxLjMzMTI3Njc0MTQwNjI1LDEzLjQ1NDU2ODg5NTMxMjUsMi4wNzk5NzgzMjE0MDYyNVoiIGZpbGw9IiM5OUM5RjIiIGZpbGwtb3BhY2l0eT0iMSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOnBhc3N0aHJvdWdoIi8+PHBhdGggZD0iTTIuMTE3NjYyMDkwNjI1LDExLjExNzYxNDc0NjA5Mzc1TDYuMzUyOTU2MjkwNjI1LDExLjExNzYxNDc0NjA5Mzc1UTcuNDExNzc5ODkwNjI1LDExLjExNzYxNDc0NjA5Mzc1LDcuNDExNzc5ODkwNjI1LDEyLjE3NjQzNzg0NjA5Mzc1TDcuNDExNzc5ODkwNjI1LDE2LjQxMTczMjI0NjA5Mzc1UTcuNDExNzc5ODkwNjI1LDE3LjQ3MDU1NTc0NjA5Mzc1LDYuMzUyOTU1MzkwNjI1LDE3LjQ3MDU1NTc0NjA5Mzc1TDIuMTE3NjYxNDkwNjI1LDE3LjQ3MDU1NTc0NjA5Mzc1UTEuMDU4ODM3ODkwNjI1LDE3LjQ3MDU1NTc0NjA5Mzc1LDEuMDU4ODM3ODkwNjI1LDE2LjQxMTczMjI0NjA5Mzc1TDEuMDU4ODM3ODkwNjI1LDEyLjE3NjQzNzg0NjA5Mzc1UTEuMDU4ODM3ODkwNjI1LDExLjExNzYxNDA1OTQ0ODIxLDIuMTE3NjYyMDkwNjI1LDExLjExNzYxNDc0NjA5Mzc1WiIgZmlsbD0iIzM2NzBGNyIgZmlsbC1vcGFjaXR5PSIxIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6cGFzc3Rocm91Z2giLz48cGF0aCBkPSJNMTAuNTg4MjQzMTQ1MzEyNSwxMS4xMTc2MTQ3NDYwOTM3NUwxNC44MjM1MzczNDUzMTI1LDExLjExNzYxNDc0NjA5Mzc1UTE1Ljg4MjM2MDk0NTMxMjQ5OSwxMS4xMTc2MTQ3NDYwOTM3NSwxNS44ODIzNjA5NDUzMTI0OTksMTIuMTc2NDM3ODQ2MDkzNzVMMTUuODgyMzYwOTQ1MzEyNDk5LDE2LjQxMTczMjI0NjA5Mzc1UTE1Ljg4MjM2MDk0NTMxMjQ5OSwxNy40NzA1NTU3NDYwOTM3NSwxNC44MjM1MzY0NDUzMTI0OTksMTcuNDcwNTU1NzQ2MDkzNzVMMTAuNTg4MjQyNTQ1MzEyNSwxNy40NzA1NTU3NDYwOTM3NVE5LjUyOTQxODk0NTMxMjUsMTcuNDcwNTU1NzQ2MDkzNzUsOS41Mjk0MTg5NDUzMTI1LDE2LjQxMTczMjI0NjA5Mzc1TDkuNTI5NDE4OTQ1MzEyNSwxMi4xNzY0Mzc4NDYwOTM3NVE5LjUyOTQxODk0NTMxMjUsMTEuMTE3NjE0MDU5NDQ4MjEsMTAuNTg4MjQzMTQ1MzEyNSwxMS4xMTc2MTQ3NDYwOTM3NVoiIGZpbGw9IiMzNjcwRjciIGZpbGwtb3BhY2l0eT0iMSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOnBhc3N0aHJvdWdoIi8+PC9nPjwvc3ZnPg==\");\r\n  background-repeat: no-repeat;\r\n  background-position: left center;\r\n  background-size: 14px;\r\n  padding-left: 20px;\r\n}\r\n\r\n\r\n#domId .el-table .el-table__body .kf-row-dce-instance .instance-name.el-table__cell .cell span:last-child {\r\n  background-image: url(\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBmaWxsPSJub25lIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cGF0aCBkPSJNMTMuMzMzODU1LDEzLjU0MzM4MUMxMi4yMzg1MjcsMTMuMzU4OTI5LDExLjQzNjQ2MSwxMi40MzM3MzIsMTEuNDMwODY2LDExLjM0ODI0OUMxMS40MzQzODUsMTAuMTE2NTk0LDEyLjQ1NTg3Myw5LjExODk5MDksMTMuNzE3MDI2LDkuMTE1NTQ0M0MxNC45NzY5NDEsOS4xMjA2OTg5LDE1Ljk5NjQ5OSwxMC4xMTc4MTUsMTUuOTk5OTk5LDExLjM0ODI2OEMxNS45OTQxMzIsMTIuNDM0NzQ4LDE1LjE5MDM5NiwxMy4zNjAzMDQsMTQuMDkzNzksMTMuNTQzMzk4TDE0LjA5Mzc5LDE1LjYyNzM1NUMxNC4wOTM3OSwxNS44NTEyNTIsMTMuOTQxNDgsMTUuOTk5OTgzLDEzLjcxMzgyMywxNS45OTk5ODNDMTMuNDg0NTY1LDE1Ljk5OTk4MywxMy4zMzIyNTMsMTUuODUxMjUyLDEzLjMzMjI1MywxNS42MjczNTVMMTMuMzMyMjUzLDEzLjU0NDk0NkwxMy4zMzM4NTUsMTMuNTQzMzgxWk0xLjkwMzAwNjIsMTMuNTQzMzgxQzAuODA3NjcyMDgsMTMuMzU4OTM3LDAuMDA1NTk2MjAyMywxMi40MzM3MzcsMCwxMS4zNDgyNDlDMC4wMDM1MTkyMjc1LDEwLjExNjU4OCwxLjAyNTAxNjUsOS4xMTg5ODE0LDIuMjg2MTc2OSw5LjExNTU0NDNDMy41NDY3MTg2LDkuMTE5ODQwNiw0LjU2NzI0NzQsMTAuMTE3MjA2LDQuNTcwNzUyMSwxMS4zNDgyNjhDNC41NjUwMTk2LDEyLjQzNDI1MiwzLjc2MjExNDUsMTMuMzU5NjMsMi42NjYxNDQ0LDEzLjU0MzM5OEwyLjY2NjE0NDQsMTUuNjI1Nzc0QzIuNjY2MTQ0NCwxNS44NTEyNTIsMi41MTM4MzMzLDE2LDIuMjg0NTc1LDE2QzIuMDU2OTE4NCwxNiwxLjkwNDYwNzUsMTUuODUxMjUyLDEuOTA0NjA3NSwxNS42MjczNTVMMS45MDQ2MDc1LDEzLjU0NDk0NkwxLjkwMzAwNjIsMTMuNTQzMzgxWk03LjYyMDAzMTgsMi40NTUwMzY5QzYuNTI0MDY4NCwyLjYzODgwNTYsNS43MjExNjU3LDMuNTY0MTczOSw1LjcxNTQyNDUsNC42NTAxNTEzQzUuNzE4OTM4OCw1Ljg4MTIwNiw2LjczOTQ2NTcsNi44Nzg1NjE1LDcuOTk5OTk5NSw2Ljg4Mjg1NjhDOS4yNjExNTk5LDYuODc5NDE5OCwxMC4yODI2NTgsNS44ODE4MTQsMTAuMjg2MTc3LDQuNjUwMTUxM0MxMC4yODA0MzYsMy41NjQxNzQyLDkuNDc3NTMyNCwyLjYzODgwNjEsOC4zODE1Njg5LDIuNDU1MDM3MUw4LjM4MTU2ODksMC4zNzI2NDQ1NEM4LjM4MTU2ODksMC4xNDg3NDgzNyw4LjIyOTI1NzYsMi40NzAxNTUxZS04LDcuOTk5OTk5NSwyLjQ3MDE1NTFlLThDNy43NzA3NDE1LDIuNDcwMTU1MWUtOCw3LjYxODQzMDEsMC4xNDg3NDgzNyw3LjYxODQzMDEsMC4zNzEwOTcyMUw3LjYxODQzMDEsMi40NTUwNTQzTDcuNjIwMDMxOCwyLjQ1NTAzNjlaTTEuOTA0NjA3NSwwLjM3MjY0NDU0QzEuOTA0NjA3NSwwLjE0ODc0ODM3LDIuMDU2OTE4NCwwLDIuMjg0NTc1LDBDMi41MTM4MzMzLDAsMi42NjYxNDQ0LDAuMTQ4NzQ4MzUsMi42NjYxNDQ0LDAuMzcxMDgwMzdMMi42NjYxNDQ0LDcuODEyODdDMi42NjYxNDQ0LDguMDM2NzgzMiwyLjUxMzgzMzMsOC4xODU1MTQ1LDIuMjg0NTc1LDguMTg1NTE0NUMyLjA1NjkxODQsOC4xODU1MTQ1LDEuOTA0NjA3NSw4LjAzNjc4MzIsMS45MDQ2MDc1LDcuODEyODg3MkwxLjkwNDYwNzUsMC4zNzI2NDQ1NFpNMTMuMzM1NDczLDAuMzcyNjQ0NTRDMTMuMzM1NDczLDAuMTQ4NzQ4MzcsMTMuNDg2MTY1LDAsMTMuNzE1NDI1LDBDMTMuOTQzMDgxLDAsMTQuMDk1MzkxLDAuMTQ4NzQ4MzUsMTQuMDk1MzkxLDAuMzcxMDgwMzdMMTQuMDk1MzkxLDcuODEyODdDMTQuMDk1MzkxLDguMDM2NzgzMiwxMy45NDMwODEsOC4xODU1MTQ1LDEzLjcxNTQyNSw4LjE4NTUxNDVDMTMuNDg2MTY1LDguMTg1NTE0NSwxMy4zMzM4NTUsOC4wMzY3ODMyLDEzLjMzMzg1NSw3LjgxMjg4NzJMMTMuMzMzODU1LDAuMzcyNjQ0NTRMMTMuMzM1NDczLDAuMzcyNjQ0NTRaTTcuOTk5OTk5NSw2LjEzNzU2NzVDNy4xNTk5NDc0LDYuMTM0OTgzMSw2LjQ3OTYwODEsNS40NzA1NTYzLDYuNDc2OTYwNyw0LjY1MDE1MTdDNi40NzY5NjA3LDMuODI5NzE0OCw3LjE2MTUzMjksMy4xNjExNTQ3LDcuOTk5OTk5NSwzLjE2MTE1NDdDOC44Mzg0ODM4LDMuMTYxMTU0Nyw5LjUyMzAzODksMy44Mjk3MTQ4LDkuNTIzMDM4OSw0LjY0ODU4ODJDOS41MjMwMzg5LDUuNDY3NDYxMSw4LjgzODQ2NzYsNi4xMzYwMjA3LDcuOTk5OTk5NSw2LjEzNjAyMDdMNy45OTk5OTk1LDYuMTM3NTY3NVpNNy42MTg0MzAxLDguMTg1NTE0NUM3LjYxODQzMDEsNy45NjE2MTg5LDcuNzcwNzQxLDcuODEyODg3Miw3Ljk5OTk5OTUsNy44MTI4ODcyQzguMjI5MjU4NSw3LjgxMjg4NzIsOC4zODE1Njg5LDcuOTYxNjE4OSw4LjM4MTU2ODksOC4xODU1MTQ1TDguMzgxNTY4OSwxNS42MjczMzlDOC4zODE1Njg5LDE1Ljg1MTIzNiw4LjIyOTI1ODUsMTUuOTk5OTY4LDcuOTk5OTk5NSwxNS45OTk5NjhDNy43NzA3NDEsMTUuOTk5OTY4LDcuNjE4NDMwMSwxNS44NTEyMzYsNy42MTg0MzAxLDE1LjYyNzMzOUw3LjYxODQzMDEsOC4xODU1MTQ1Wk0yLjI4NDU3NDcsMTIuODM1NjY3QzMuMTIzMDQxNiwxMi44MzU2NjcsMy44MDc2MTM0LDEyLjE2NzEwNiwzLjgwNzYxMzQsMTEuMzQ4MjQ5QzMuODA0OTY2LDEwLjUyNzg0NSwzLjEyNDYyNjksOS44NjM0MTk1LDIuMjg0NTc0Nyw5Ljg2MDgzMzJDMS40NDQ1MjI3LDkuODYzNDE5NSwwLjc2NDE4MzM0LDEwLjUyNzg0NSwwLjc2MTUzNjE4LDExLjM0ODI0OUMwLjc2MTUzNjE4LDEyLjE2NzEyNCwxLjQ0NjEwODEsMTIuODM1NjY3LDIuMjg0NTc0NywxMi44MzU2NjdaTTEzLjcxNTQyMywxMi44MzU2NjdDMTQuNTUzOTA3LDEyLjgzNTY2NywxNS4yMzg0NjIsMTIuMTY3MTA2LDE1LjIzODQ2MiwxMS4zNDgyNDlDMTUuMjM1ODEzLDEwLjUyNzg0NSwxNC41NTU0NzQsOS44NjM0MTk1LDEzLjcxNTQyMyw5Ljg2MDgzMzJDMTIuODc1MzcsOS44NjM0MTk1LDEyLjE5NTAzMSwxMC41Mjc4NDUsMTIuMTkyMzg0LDExLjM0ODI0OUMxMi4xOTIzODQsMTIuMTY3MTI0LDEyLjg3Njk1NSwxMi44MzU2NjcsMTMuNzE1NDIzLDEyLjgzNTY2N1oiIGZpbGw9IiMyNzc5RkUiIGZpbGwtb3BhY2l0eT0iMSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOnBhc3N0aHJvdWdoIi8+PC9zdmc+\");\r\n  background-repeat: no-repeat;\r\n  background-position: left center;\r\n  background-size: 14px;\r\n  padding-left: 20px;\r\n}\r\n\r\n/*分页*/\r\n/* #domId .pagination-container {\r\n    justify-content: start;\r\n    background: rgba(255, 255, 255, 0);\r\n    margin-top: 0;\r\n} */\r\n\r\n\r\n#domId .pagination-container {\r\n  display: flex;\r\n  justify-content: flex-end;\r\n  align-items: center;\r\n  padding: 10px 0 0 0;\r\n}\r\n\r\n#domId .el-pagination {\r\n  background: rgba(255, 255, 255, 0);\r\n}\r\n\r\n#domId .el-pagination span {\r\n  font-size: 13px;\r\n  font-family: 思源黑体;\r\n  font-style: normal;\r\n  font-weight: normal;\r\n}\r\n\r\n#domId .el-pagination input,\r\n#domId .el-pagination button {\r\n  background: rgba(255, 255, 255, 0);\r\n  color: rgba(48, 49, 51, 1);\r\n  border: 1px solid rgba(235, 238, 245, 1);\r\n  font-size: 13px;\r\n  font-family: 思源黑体;\r\n  font-style: normal;\r\n  font-weight: normal;\r\n}\r\n\r\n#domId .el-pagination li {\r\n  background: rgba(255, 255, 255, 0);\r\n  color: rgba(48, 49, 51, 1);\r\n  font-size: 13px;\r\n  font-family: 思源黑体;\r\n  font-style: normal;\r\n  font-weight: normal;\r\n}\r\n\r\n#domId .el-pagination li.active {\r\n  background: rgba(255, 255, 255, 1);\r\n  color: rgba(47, 84, 235, 1);\r\n}\r\n\r\n#domId .el-table__body-wrapper::-webkit-scrollbar {\r\n  width: 8px;\r\n}\r\n\r\n#domId .el-table__body-wrapper::-webkit-scrollbar-thumb {\r\n  background: rgba(221, 221, 221, 1);\r\n}\r\n\r\n#domId .el-pagination span {\r\n  color: rgba(48, 49, 51, 1);\r\n}\r\n\r\n\r\n/* \r\n *\r\n *\r\n *\r\n *\r\n *\r\n *\r\n *\r\n *\r\n\r\n\r\n\r\n\r\n*/",
+                      "dblLight": true,
+                      "operable": true,
+                      "lock": false,
+                      "visible": true,
+                      "expandRowKeys": [],
+                      "runVisible": true,
+                      "checkStateSave": false,
+                      "show": true,
+                      "data": [
+                        {
+                          "description": "Palimpsest backend runtime instance 0626 R2",
+                          "displayname": "PalimpsestBack_0626R2",
+                          "guid": "92d89140-0736-41f2-873b-6bfab8f3d276",
+                          "id": "288230376151751586",
+                          "instancetype": "2",
+                          "modeleditenvguid": "c4902fcf-26f8-434a-82aa-4d04297930fd",
+                          "modelguid": "059ec133-cbf6-4212-b138-0ee081c1ac78",
+                          "modelname": "盛云科技_孙宇飞_Palimpsest_后台_0623",
+                          "modelversion": "4",
+                          "name": "PalimpsestBack_0626R2",
+                          "parentguid": "",
+                          "parentrepoguid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+                          "label": "PalimpsestBack_0626R2",
+                          "rowIndex": "1"
+                        }
+                      ],
+                      "stripe": false,
+                      "border": true,
+                      "treeProps": {
+                        "children": "children",
+                        "hasChildren": "hasChildren"
+                      },
+                      "showHeader": true,
+                      "fit": true,
+                      "highlightCurrentRow": true,
+                      "emptyText": "empty",
+                      "showSummary": false,
+                      "sumText": "sumText",
+                      "pagination": false,
+                      "pageSizes": [
+                        100,
+                        150,
+                        200,
+                        300,
+                        500
+                      ],
+                      "currentPage": 1,
+                      "pageSize": 500,
+                      "defaultExpandAll": true,
+                      "lazyLoad": false,
+                      "paginationLayout": "total,sizes,prev,pager,next,jumper",
+                      "paginationBackground": false,
+                      "isVirtualScroll": false,
+                      "totalData": [],
+                      "totalLength": 1,
+                      "pagerCount": 7,
+                      "height": "100%",
+                      "styleOption": {
+                        "b": {
+                          "border": true
+                        }
+                      },
+                      "langKeys": [
+                        "empty",
+                        "sumText",
+                        "序号",
+                        "名称",
+                        "显示名称",
+                        "描述",
+                        "模型",
+                        "模型版本",
+                        "操作"
+                      ],
+                      "rowStyleConditions": [],
+                      "cellStyleConditions": [],
+                      "locationY": "67",
+                      "locationX": "328",
+                      "singleSelect": false,
+                      "columns": [
+                        {
+                          "prop": "selection",
+                          "label": "",
+                          "align": "center",
+                          "width": "35",
+                          "type": "selection",
+                          "columnKey": "",
+                          "fixed": false,
+                          "m_id": "c04d79d1-806b-4e4d-90e1-151bc73fd23c"
+                        },
+                        {
+                          "prop": "index",
+                          "type": "index",
+                          "label": "序号",
+                          "align": "left",
+                          "width": "60",
+                          "fixed": false,
+                          "m_id": "0f949b9f-d4ac-430b-9c94-81dbe66cf94a"
+                        },
+                        {
+                          "prop": "name",
+                          "label": "名称",
+                          "align": "left",
+                          "minWidth": "100",
+                          "type": "",
+                          "columnKey": "",
+                          "fixed": false,
+                          "m_id": "6d8827d2-25a8-4fba-acbc-79b5f7583bb4",
+                          "showTooltip": true
+                        },
+                        {
+                          "prop": "displayname",
+                          "label": "显示名称",
+                          "align": "left",
+                          "minWidth": "100",
+                          "type": "",
+                          "columnKey": "",
+                          "fixed": false,
+                          "m_id": "9ce8bc25-fb2d-4b24-b0d5-b25e57370423",
+                          "showTooltip": true
+                        },
+                        {
+                          "prop": "description",
+                          "label": "描述",
+                          "align": "left",
+                          "minWidth": "100",
+                          "type": "",
+                          "columnKey": "",
+                          "fixed": false,
+                          "m_id": "e708255b-8adb-4ecb-942a-c13475aa702a",
+                          "showTooltip": true
+                        },
+                        {
+                          "prop": "modelname",
+                          "label": "模型",
+                          "align": "left",
+                          "width": "150",
+                          "type": "",
+                          "columnKey": "",
+                          "fixed": false,
+                          "m_id": "fd8aeb2d-fbd8-4c0b-bd74-5903bce89c0b"
+                        },
+                        {
+                          "prop": "modelversion",
+                          "label": "模型版本",
+                          "align": "left",
+                          "width": "100",
+                          "type": "",
+                          "columnKey": "",
+                          "fixed": false,
+                          "m_id": "712ff31e-055f-4097-93a1-58fb1db57fd0"
+                        },
+                        {
+                          "prop": "operation",
+                          "label": "操作",
+                          "align": "left",
+                          "width": "400",
+                          "type": "operation",
+                          "columnKey": "",
+                          "fixed": false,
+                          "plugins": [
+                            {
+                              "pluginType": "button",
+                              "text": "编辑",
+                              "type": "text",
+                              "icon": "",
+                              "dataSetLinkOption": {
+                                "enable": false,
+                                "linkInfos": []
+                              },
+                              "variableLinkOption": {
+                                "enable": false,
+                                "key": "table.trigger.paramLinkOutPut",
+                                "paramLinks": []
+                              }
+                            },
+                            {
+                              "pluginType": "button",
+                              "text": "属性",
+                              "type": "text",
+                              "icon": "",
+                              "dataSetLinkOption": {
+                                "enable": false,
+                                "linkInfos": []
+                              },
+                              "variableLinkOption": {
+                                "enable": false,
+                                "key": "table.trigger.paramLinkOutPut",
+                                "paramLinks": []
+                              }
+                            },
+                            {
+                              "pluginType": "button",
+                              "text": "切换模型版本",
+                              "type": "text",
+                              "icon": "",
+                              "dataSetLinkOption": {
+                                "enable": false,
+                                "linkInfos": []
+                              },
+                              "variableLinkOption": {
+                                "enable": false,
+                                "key": "table.trigger.paramLinkOutPut",
+                                "paramLinks": []
+                              }
+                            },
+                            {
+                              "pluginType": "button",
+                              "text": "形参管理",
+                              "type": "text",
+                              "icon": "",
+                              "dataSetLinkOption": {
+                                "enable": false,
+                                "linkInfos": []
+                              },
+                              "variableLinkOption": {
+                                "enable": false,
+                                "key": "table.trigger.paramLinkOutPut",
+                                "paramLinks": []
+                              }
+                            },
+                            {
+                              "pluginType": "button",
+                              "text": "提交版本",
+                              "type": "text",
+                              "icon": "",
+                              "dataSetLinkOption": {
+                                "enable": false,
+                                "linkInfos": []
+                              },
+                              "variableLinkOption": {
+                                "enable": false,
+                                "key": "table.trigger.paramLinkOutPut",
+                                "paramLinks": []
+                              }
+                            },
+                            {
+                              "pluginType": "button",
+                              "text": "删除",
+                              "type": "text",
+                              "icon": "",
+                              "dataSetLinkOption": {
+                                "enable": false,
+                                "linkInfos": []
+                              },
+                              "variableLinkOption": {
+                                "enable": false,
+                                "key": "table.trigger.paramLinkOutPut",
+                                "paramLinks": []
+                              }
+                            }
+                          ],
+                          "m_id": "c704f644-a8e4-4529-9bdf-9e2cb6c88026",
+                          "hidden": false
+                        }
+                      ],
+                      "linkList": [
+                        {
+                          "name": "Select",
+                          "property": "upDateLink",
+                          "type": "script",
+                          "enable": true,
+                          "script": "console.log(`[D] <实例化_框架页面> :: instanceList_ElementTable :: 触发 Select :: arguments = `, arguments);",
+                          "linkId": 200001,
+                          "KSCGUID": "kef9e620da24a14276d54180d9d9a58c"
+                        },
+                        {
+                          "linkId": 200002,
+                          "enable": false,
+                          "KSCGUID": "kdf79ba1635389b57b9d28f7ae09d623",
+                          "script": "",
+                          "KSCLINKGUID": "",
+                          "linkName": "SelectAll"
+                        },
+                        {
+                          "linkId": 200003,
+                          "enable": false,
+                          "KSCGUID": "kb5c74e01d2dc756e1be40b0eb426048",
+                          "script": "",
+                          "KSCLINKGUID": "",
+                          "linkName": "SelectionChange"
+                        },
+                        {
+                          "linkId": 200004,
+                          "enable": false,
+                          "KSCGUID": "k72a504bf460eb07b5520bd913fe48a7",
+                          "script": "",
+                          "KSCLINKGUID": "",
+                          "linkName": "CellMouseEnter"
+                        },
+                        {
+                          "linkId": 200005,
+                          "enable": false,
+                          "KSCGUID": "kb65b02415e5dd4e5ac1abb63e3f6a31",
+                          "script": "",
+                          "KSCLINKGUID": "",
+                          "linkName": "CellMouseLeave"
+                        },
+                        {
+                          "linkId": 200006,
+                          "enable": false,
+                          "KSCGUID": "kc5d9d7b98d6eae13fd27f71cbc601fc",
+                          "script": "",
+                          "KSCLINKGUID": "",
+                          "linkName": "CellClick"
+                        },
+                        {
+                          "linkId": 200007,
+                          "enable": false,
+                          "KSCGUID": "k19312fa333178eb20875c5769c4905a",
+                          "script": "",
+                          "KSCLINKGUID": "",
+                          "linkName": "CellDbclick"
+                        },
+                        {
+                          "linkId": 200008,
+                          "enable": false,
+                          "KSCGUID": "kaff87c738a55beb5334c9d495e358c9",
+                          "script": "",
+                          "KSCLINKGUID": "",
+                          "linkName": "RowClick"
+                        },
+                        {
+                          "linkId": 200009,
+                          "enable": false,
+                          "KSCGUID": "k6d43deab35f46dd793f0b496e6e7107",
+                          "script": "",
+                          "KSCLINKGUID": "",
+                          "linkName": "RowContextmenu"
+                        },
+                        {
+                          "linkId": 200010,
+                          "enable": false,
+                          "KSCGUID": "k391ab919496f7474e02f4e969a571f1",
+                          "script": "",
+                          "KSCLINKGUID": "",
+                          "linkName": "RowDbclick"
+                        },
+                        {
+                          "linkId": 200011,
+                          "enable": false,
+                          "KSCGUID": "k6eaeeb117898e8c967e76db6ff864d9",
+                          "script": "",
+                          "KSCLINKGUID": "",
+                          "linkName": "HeaderClick"
+                        },
+                        {
+                          "linkId": 200012,
+                          "enable": false,
+                          "KSCGUID": "kb1021ece2ef76c7d2547604065674ef",
+                          "script": "",
+                          "KSCLINKGUID": "",
+                          "linkName": "SortChange"
+                        },
+                        {
+                          "linkId": 200013,
+                          "enable": false,
+                          "KSCGUID": "ka1d0508f54a3170fa04367bfd255e6e",
+                          "script": "",
+                          "KSCLINKGUID": "",
+                          "linkName": "FilterChange"
+                        },
+                        {
+                          "name": "Current-change",
+                          "property": "upDateLink",
+                          "type": "script",
+                          "enable": true,
+                          "script": "console.log(`[D] <实例化_框架页面> :: instanceList_ElementTable :: 触发 Current-change :: arguments = `, arguments);\n\n$Variable.currentSelectedInstance = arguments[1].currentRow;",
+                          "linkId": 200014,
+                          "KSCGUID": "k34c3a3eb840d40bb4fb06ec9774d7a7"
+                        },
+                        {
+                          "linkId": 200015,
+                          "enable": false,
+                          "KSCGUID": "ke25fa3b64ae1b583a7016068b74c1f3",
+                          "script": "",
+                          "KSCLINKGUID": "",
+                          "linkName": "HeaderDragend"
+                        },
+                        {
+                          "linkId": 200016,
+                          "enable": false,
+                          "KSCGUID": "k92cfc73d85415805a0be4361cf4eb53",
+                          "script": "",
+                          "KSCLINKGUID": "",
+                          "linkName": "ExpandChange"
+                        },
+                        {
+                          "linkId": 200017,
+                          "enable": false,
+                          "KSCGUID": "k5e7cc71619b73c08461044748c22336",
+                          "script": "",
+                          "KSCLINKGUID": "",
+                          "linkName": "CurrentPageChange"
+                        },
+                        {
+                          "linkId": 200018,
+                          "enable": false,
+                          "KSCGUID": "ke35ccd1abf52b89ded5eab1d93aaaeb",
+                          "script": "",
+                          "KSCLINKGUID": "",
+                          "linkName": "OnLoadSuccess"
+                        },
+                        {
+                          "linkId": 200019,
+                          "enable": false,
+                          "KSCGUID": "k1df29f454fc0c17f96f8c8e5f2d4345",
+                          "script": "",
+                          "KSCLINKGUID": "",
+                          "linkName": "OnBeforeEdit"
+                        },
+                        {
+                          "linkId": 200020,
+                          "enable": false,
+                          "KSCGUID": "k49d63e0b7e425a7a593f4a99d31a85a",
+                          "script": "",
+                          "KSCLINKGUID": "",
+                          "linkName": "OnAfterEdit"
+                        },
+                        {
+                          "linkId": 200021,
+                          "enable": false,
+                          "KSCGUID": "kbcfa3718cdc1f3065d5ebd7c431dbe0",
+                          "script": "",
+                          "KSCLINKGUID": "",
+                          "linkName": "PageSizeChange"
+                        }
+                      ],
+                      "uiInputLinkList": [],
+                      "uiOutputLinkList": [
+                        {
+                          "enable": false,
+                          "key": "table.current.select.change",
+                          "method": "",
+                          "source": []
+                        },
+                        {
+                          "enable": false,
+                          "key": "table.selection.change",
+                          "method": "",
+                          "source": []
+                        },
+                        {
+                          "enable": false,
+                          "key": "rowClick.trigger.pageJump",
+                          "method": "pageJump",
+                          "source": [],
+                          "condition": {
+                            "enable": false,
+                            "list": []
+                          }
+                        },
+                        {
+                          "enable": false,
+                          "key": "rowClick.dataSet.link",
+                          "method": "runDataSet",
+                          "source": [
+                            {
+                              "dataSetLinks": []
+                            }
+                          ],
+                          "condition": {
+                            "enable": false,
+                            "list": []
+                          }
+                        },
+                        {
+                          "enable": false,
+                          "key": "rowClick.param.link",
+                          "method": "",
+                          "source": [
+                            {
+                              "paramLinks": []
+                            }
+                          ],
+                          "condition": {
+                            "enable": false,
+                            "list": []
+                          }
+                        },
+                        {
+                          "enable": false,
+                          "key": "rowDbClick.trigger.pageJump",
+                          "method": "pageJump",
+                          "source": [],
+                          "condition": {
+                            "enable": false,
+                            "list": []
+                          }
+                        },
+                        {
+                          "enable": false,
+                          "key": "rowDbClick.dataSet.link",
+                          "method": "runDataSet",
+                          "source": [
+                            {
+                              "dataSetLinks": []
+                            }
+                          ],
+                          "condition": {
+                            "enable": false,
+                            "list": []
+                          }
+                        },
+                        {
+                          "enable": false,
+                          "key": "rowDbClick.param.link",
+                          "method": "",
+                          "source": [
+                            {
+                              "paramLinks": []
+                            }
+                          ],
+                          "condition": {
+                            "enable": false,
+                            "list": []
+                          }
+                        },
+                        {
+                          "enable": false,
+                          "key": "rowRightClick.trigger.pageJump",
+                          "method": "pageJump",
+                          "source": [],
+                          "condition": {
+                            "enable": false,
+                            "list": []
+                          }
+                        },
+                        {
+                          "enable": false,
+                          "key": "rowRightClick.dataSet.link",
+                          "method": "runDataSet",
+                          "source": [
+                            {
+                              "dataSetLinks": []
+                            }
+                          ],
+                          "condition": {
+                            "enable": false,
+                            "list": []
+                          }
+                        },
+                        {
+                          "enable": false,
+                          "key": "rowRightClick.param.link",
+                          "method": "",
+                          "source": [
+                            {
+                              "paramLinks": []
+                            }
+                          ],
+                          "condition": {
+                            "enable": false,
+                            "list": []
+                          }
+                        }
+                      ],
+                      "parentGUID": "k18c523170541352c0c9e8e4613466ca",
+                      "spanMethodConfig": {
+                        "enable": false,
+                        "list": []
+                      },
+                      "rowKey": "guid",
+                      "hideOnSinglePage": false,
+                      "currentRow": null
+                    }
+                  ],
+                  "uiInputLinkList": [],
+                  "uiOutputLinkList": [],
+                  "isNewCol": false,
+                  "offsetAnimation": {},
+                  "conditionConfig": {}
+                }
+              ],
+              "warpCols": [],
+              "verBorder": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0.1)",
+              "borderRadius": 0,
+              "boxShadow": {
+                "type": "outset",
+                "offsetX": 0,
+                "offsetY": 0,
+                "blueRadius": 0,
+                "spreadRadius": 0,
+                "color": {
+                  "color": "rgba(0,0,0,1)",
+                  "type": "solid-color"
+                }
+              },
+              "horBorder": 2.22222,
+              "conditionConfig": {}
+            }
+          ],
+          "borderWidth": 0,
+          "borderColor": "rgba(0,0,0,0.1)",
+          "borderRadius": 0,
+          "boxShadow": {
+            "type": "outset",
+            "offsetX": 0,
+            "offsetY": 0,
+            "blueRadius": 0,
+            "spreadRadius": 0,
+            "color": {
+              "color": "rgba(0,0,0,1)",
+              "type": "solid-color"
+            }
+          },
+          "conditionConfig": {}
+        }
+      }
+    },
+    {
+      "i": 22,
+      "cls": "PCUI_ElementTable component_object instanceList_ElementTable",
+      "keys": [
+        "tableDataCopy",
+        "dynamicRow",
+        "isRowEdit",
+        "editRowIndex",
+        "multipleSelectionRow",
+        "filterFlag",
+        "filterTotalData",
+        "inputSearchValue",
+        "searchTotalData",
+        "filterData",
+        "searchData",
+        "cellTooltipOption",
+        "cellPositionInfo",
+        "disabled",
+        "startIndex",
+        "scrollEventFlag",
+        "pluginCheckboxValues",
+        "parentSelectStatus",
+        "expandsRow",
+        "checkList",
+        "filterisShow",
+        "filterShowProp",
+        "filterList",
+        "filterIcon",
+        "lastProp",
+        "imgList",
+        "selectEventData",
+        "multupleToolTips",
+        "d_objColFilterConfig",
+        "d_arrColFilterData",
+        "UIType",
+        "linkList",
+        "times"
+      ],
+      "props": {
+        "totalData": [
+          {
+            "description": "Palimpsest backend runtime instance 0626 R2",
+            "displayname": "PalimpsestBack_0626R2",
+            "guid": "92d89140-0736-41f2-873b-6bfab8f3d276",
+            "id": "288230376151751586",
+            "instancetype": "2",
+            "modeleditenvguid": "c4902fcf-26f8-434a-82aa-4d04297930fd",
+            "modelguid": "059ec133-cbf6-4212-b138-0ee081c1ac78",
+            "modelname": "盛云科技_孙宇飞_Palimpsest_后台_0623",
+            "modelversion": "4",
+            "name": "PalimpsestBack_0626R2",
+            "parentguid": "",
+            "parentrepoguid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+            "label": "PalimpsestBack_0626R2",
+            "rowIndex": "1"
+          }
+        ],
+        "multipleSelectionRow": [],
+        "$data.multipleSelectionRow": [],
+        "propData": {
+          "UIName": "instanceList_ElementTable",
+          "groupName": "数据",
+          "icon": "table",
+          "prototypeName": "ElementTable",
+          "elementuiType": "ElementTable",
+          "objectType": 2,
+          "KSCGUID": "kb5f5ed64ab1b7e5d57a3f09f571f55e",
+          "leftTopPt": {
+            "x": 0,
+            "y": 0
+          },
+          "showCustomLabel": false,
+          "customLabel": "",
+          "expands": [],
+          "detailConfig": "this.table({highlightCurrentRow:true,pagination:false,pageSizes:[100,150,200,300,500],pageSize:\"300\",border:true,fit:true,rowKey:\"guid\",columns:[{prop:\"selection\",label:\"\",align:\"center\",width:\"35\",type:\"selection\",columnKey:\"\",fixed:false,m_id:\"c04d79d1-806b-4e4d-90e1-151bc73fd23c\"},{prop:\"index\",type:\"index\",label:\"序号\",align:\"left\",width:\"60\",fixed:false,m_id:\"0f949b9f-d4ac-430b-9c94-81dbe66cf94a\"},{prop:\"name\",label:\"名称\",align:\"left\",minWidth:\"100\",type:\"\",columnKey:\"\",fixed:false,m_id:\"6d8827d2-25a8-4fba-acbc-79b5f7583bb4\",showTooltip:true},{prop:\"displayname\",label:\"显示名称\",align:\"left\",minWidth:\"100\",type:\"\",columnKey:\"\",fixed:false,m_id:\"9ce8bc25-fb2d-4b24-b0d5-b25e57370423\",showTooltip:true},{prop:\"description\",label:\"描述\",align:\"left\",minWidth:\"100\",type:\"\",columnKey:\"\",fixed:false,m_id:\"e708255b-8adb-4ecb-942a-c13475aa702a\",showTooltip:true},{prop:\"modelname\",label:\"模型\",align:\"left\",width:\"150\",type:\"\",columnKey:\"\",fixed:false,m_id:\"fd8aeb2d-fbd8-4c0b-bd74-5903bce89c0b\"},{prop:\"modelversion\",label:\"模型版本\",align:\"left\",width:\"100\",type:\"\",columnKey:\"\",fixed:false,formatter:function(row, column, cellValue) {\n      return `v${cellValue}`;\n    },m_id:\"712ff31e-055f-4097-93a1-58fb1db57fd0\"},{prop:\"operation\",label:\"操作\",align:\"left\",width:\"400\",type:\"operation\",columnKey:\"\",fixed:false,plugins:[{pluginType:\"button\",text:\"编辑\",type:\"text\",icon:\"\",click:function(scope) {\n        console.log(\"[D] 点击了 <编辑> 按钮, scope = \", scope);\n        $Variable.showEditEnvPage = Object.assign({\n          timeStamp: new Date()\n        }, {\n          ...scope.row\n        });\n      },dataSetLinkOption:{enable:false,linkInfos:[]},variableLinkOption:{enable:false,key:\"table.trigger.paramLinkOutPut\",paramLinks:[]}},{pluginType:\"button\",text:\"属性\",type:\"text\",icon:\"\",click:function(scope) {\n        console.log(\"[D] 点击了 <属性> 按钮, scope = \", scope);\n        $Variable.modifyInstance = Object.assign({\n          timeStamp: new Date()\n        }, {\n          ...scope.row\n        });\n      },dataSetLinkOption:{enable:false,linkInfos:[]},variableLinkOption:{enable:false,key:\"table.trigger.paramLinkOutPut\",paramLinks:[]}},{pluginType:\"button\",text:\"切换模型版本\",type:\"text\",icon:\"\",click:function(scope) {\n        console.log(\"[D] 点击了 <切换模型版本> 按钮, scope = \", scope);\n        $Variable.changeModelVersion = Object.assign({\n          timeStamp: new Date()\n        }, {\n          ...scope.row\n        });\n      },dataSetLinkOption:{enable:false,linkInfos:[]},variableLinkOption:{enable:false,key:\"table.trigger.paramLinkOutPut\",paramLinks:[]}},{pluginType:\"button\",text:\"形参管理\",type:\"text\",icon:\"\",click:function(scope) {\n        console.log(\"[D] 点击了 <形参管理> 按钮, scope = \", scope);\n        $Variable.manageFormalParams = Object.assign({\n          timeStamp: new Date()\n        }, {\n          ...scope.row\n        });\n      },dataSetLinkOption:{enable:false,linkInfos:[]},variableLinkOption:{enable:false,key:\"table.trigger.paramLinkOutPut\",paramLinks:[]}},{pluginType:\"button\",text:\"提交版本\",type:\"text\",icon:\"\",click:function(scope) {\n        console.log(\"[D] 点击了 <提交版本> 按钮, scope = \", scope);\n        $Variable.submitInstances = [Object.assign({\n          timeStamp: new Date()\n        }, {\n          ...scope.row\n        })];\n      },dataSetLinkOption:{enable:false,linkInfos:[]},variableLinkOption:{enable:false,key:\"table.trigger.paramLinkOutPut\",paramLinks:[]}},{pluginType:\"button\",text:\"删除\",type:\"text\",icon:\"\",click:function(scope) {\n        console.log(\"[D] 点击了 <删除> 按钮, scope = \", scope);\n        $Variable.deleteInstances = [Object.assign({\n          timeStamp: new Date()\n        }, {\n          ...scope.row\n        })];\n      },dataSetLinkOption:{enable:false,linkInfos:[]},variableLinkOption:{enable:false,key:\"table.trigger.paramLinkOutPut\",paramLinks:[]}}],m_id:\"c704f644-a8e4-4529-9bdf-9e2cb6c88026\",hidden:false}],totalData:[],cellClassName:function(row) {\n    const {\n      column,\n      columnIndex,\n      row: rowInfo,\n      rowIndex\n    } = row;\n    if (column.property == \"name\") {\n      // return rowInfo.instancetype == Enum_InstanceType.DCE_INSTANCE ? InstanceIconClass.DCE_INSTANCE : InstanceIconClass.MCM_INSTANCE;\n      return \"instance-name\";\n    }\n  },rowClassName:function(row) { // console.log(`[D] rowClassName :: row = `, row);\n    return row.row.instancetype == \"3\" ? \"kf-row-dce-instance\" : \"kf-row-mcm-instance\";\n  },hideOnSinglePage:false})",
+          "styleConfig": "#domId {\r\n  background: rgba(255, 255, 255, 1);\r\n}\r\n\r\n#domId .el-table {\r\n  /*height: calc(100% - 44px) !important;*/\r\n  background: rgba(255, 255, 255, 1);\r\n  font-family: 思源黑体;\r\n}\r\n\r\n/*#domId table.el-table__header {*/\r\n/*  border-top: 1px solid #dedede;*/\r\n/*  border-left: 1px solid #dedede;*/\r\n/*}*/\r\n\r\n/*表格header的背景色*/\r\n#domId .el-table__header tr {\r\n  background: #F8F8F8;\r\n  color: #3d3d3d;\r\n}\r\n\r\n#domId .el-table__header th {\r\n  background: #F8F8F8;\r\n  color: #3d3d3d;\r\n  /*border-right: 1px solid #dedede;*/\r\n  border-bottom: 1px solid #dedede;\r\n  height: 34px;\r\n  padding: 0;\r\n  font-size: 14px;\r\n  font-family: 思源黑体;\r\n  font-style: normal;\r\n  font-weight: normal;\r\n}\r\n\r\n#domId .el-table tbody tr {\r\n  height: 39px;\r\n  font-size: 14px;\r\n  font-family: 思源黑体;\r\n  font-style: normal;\r\n  font-weight: normal;\r\n}\r\n\r\n\r\n#domId .el-table tbody tr {\r\n  background: #fff;\r\n  color: #3d3d3d;\r\n}\r\n\r\n\r\n#domId .el-table__cell:first-child .cell {\r\n  padding: 0;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n/*#domId .el-table tbody tr>td:first-child {*/\r\n/*  border-left: 1px solid #dedede;*/\r\n/*}*/\r\n\r\n#domId .el-table tbody tr>td {\r\n  background: #fff;\r\n  color: #3d3d3d;\r\n  border-bottom: 1px solid #dedede;\r\n  /*border-right: 1px solid #dedede;*/\r\n}\r\n\r\n\r\n#domId .el-table tbody tr:hover,\r\n#domId .el-table tbody tr:hover>td {\r\n  background: #f2f8ff;\r\n  /*color: #000;*/\r\n  font-weight: 500;\r\n  cursor: pointer;\r\n}\r\n\r\n\r\n#domId .el-table tbody tr.current-row,\r\n#domId .el-table tbody tr.current-row>td {\r\n  background: #F1F4FF;\r\n  color: #0076FF;\r\n}\r\n\r\n\r\n#domId tr.el-table__row td.el-table__cell:last-child button {\r\n  color: #0076FF;\r\n}\r\n\r\n#domId tr.el-table__row td.el-table__cell:last-child button.el-button:last-child {\r\n  color: #FF5B51;\r\n}\r\n\r\n#domId .el-checkbox__input.is-checked .el-checkbox__inner,\r\n#domId .el-checkbox__input.is-indeterminate .el-checkbox__inner {\r\n  background-color: #0076FF;\r\n  border-color: #0076FF;\r\n}\r\n\r\n#domId .el-checkbox__input .el-checkbox__inner:hover {\r\n  border-color: #0076FF;\r\n}\r\n\r\n#domId .el-button--text {\r\n  color: #0076ff;\r\n}\r\n\r\n#domId .el-table tbody tr>.el-table-column--selection .el-checkbox__inner {\r\n  border-width: 1px;\r\n}\r\n\r\n#domId .el-table tbody tr>.el-table-column--selection .is-checked .el-checkbox__inner {\r\n  border-width: 2px;\r\n}\r\n\r\n\r\n#domId .cell .el-input__inner {\r\n  border: none;\r\n}\r\n\r\n#domId tr.el-table__row td.el-table__cell .el-button--text {\r\n  background: transparent;\r\n  padding-left: 0;\r\n  padding-right: 0;\r\n  padding-top: 0;\r\n  padding-bottom: 0;\r\n}\r\n\r\n\r\n/* 隐藏采集设备实例行的形参管理按钮 */\r\n#domId .el-table .el-table__body .kf-row-dce-instance .el-table__cell .cell>button:nth-child(4) {\r\n  display: none;\r\n}\r\n\r\n#domId .el-table .el-table__body .kf-row-mcm-instance .instance-name.el-table__cell .cell span:last-child {\r\n  background-image: url(\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBmaWxsPSJub25lIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDE4IDE4Ij48ZGVmcz48Y2xpcFBhdGggaWQ9Im1hc3Rlcl9zdmcwXzI3OTdfMDgxNTUxIj48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHJ4PSIwIi8+PC9jbGlwUGF0aD48L2RlZnM+PGcgY2xpcC1wYXRoPSJ1cmwoI21hc3Rlcl9zdmcwXzI3OTdfMDgxNTUxKSI+PHBhdGggZD0iTTIuMTE3NjYyMDkwNjI1LDIuNjQ3MDMzNjkxNDA2MjVMNi4zNTI5NTYyOTA2MjUsMi42NDcwMzM2OTE0MDYyNVE3LjQxMTc3OTg5MDYyNSwyLjY0NzAzMzY5MTQwNjI1LDcuNDExNzc5ODkwNjI1LDMuNzA1ODU3MjkxNDA2MjVMNy40MTE3Nzk4OTA2MjUsNy45NDExNTExOTE0MDYyNVE3LjQxMTc3OTg5MDYyNSw4Ljk5OTk3NDY5MTQwNjI1MSw2LjM1Mjk1NTM5MDYyNSw4Ljk5OTk3NDY5MTQwNjI1MUwyLjExNzY2MTQ5MDYyNSw4Ljk5OTk3NDY5MTQwNjI1MVExLjA1ODgzNzg5MDYyNSw4Ljk5OTk3NDY5MTQwNjI1MSwxLjA1ODgzNzg5MDYyNSw3Ljk0MTE1MTE5MTQwNjI1TDEuMDU4ODM3ODkwNjI1LDMuNzA1ODU2NzkxNDA2MjQ5N1ExLjA1ODgzNzg5MDYyNSwyLjY0NzAzMzM0ODA4MzQ4LDIuMTE3NjYyMDkwNjI1LDIuNjQ3MDMzNjkxNDA2MjVaIiBmaWxsPSIjMzY3MEY3IiBmaWxsLW9wYWNpdHk9IjEiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTpwYXNzdGhyb3VnaCIvPjxwYXRoIGQ9Ik0xMy40NTQ1Njg4OTUzMTI1LDIuMDc5OTc4MzIxNDA2MjVMMTYuNDQ5Mzc0Njk1MzEyNSw1LjA3NDc4MzM0MTQwNjI1UTE3LjE5ODA3NzE5NTMxMjUsNS44MjM0ODQ0NDE0MDYyNSwxNi40NDkzNzQ2OTUzMTI1LDYuNTcyMTg1MDQxNDA2MjVMMTMuNDU0NTcwMjk1MzEyNSw5LjU2Njk5MDM0MTQwNjI1UTEyLjcwNTg2ODY5NTMxMjUsMTAuMzE1NjkxOTQxNDA2MjUsMTEuOTU3MTY4MDk1MzEyNSw5LjU2Njk5MDM0MTQwNjI1TDguOTYyMzYyOTQ1MzEyNDk5LDYuNTcyMTg1MDQxNDA2MjVROC4yMTM2NjE3NTUzMTI1LDUuODIzNDg0NDQxNDA2MjUsOC45NjIzNjI5NDUzMTI0OTksNS4wNzQ3ODI4NDE0MDYyNUwxMS45NTcxNjgwOTUzMTI1LDIuMDc5OTc3OTYxNDA2MjVRMTIuNzA1ODcwMTk1MzEyNSwxLjMzMTI3Njc0MTQwNjI1LDEzLjQ1NDU2ODg5NTMxMjUsMi4wNzk5NzgzMjE0MDYyNVoiIGZpbGw9IiM5OUM5RjIiIGZpbGwtb3BhY2l0eT0iMSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOnBhc3N0aHJvdWdoIi8+PHBhdGggZD0iTTIuMTE3NjYyMDkwNjI1LDExLjExNzYxNDc0NjA5Mzc1TDYuMzUyOTU2MjkwNjI1LDExLjExNzYxNDc0NjA5Mzc1UTcuNDExNzc5ODkwNjI1LDExLjExNzYxNDc0NjA5Mzc1LDcuNDExNzc5ODkwNjI1LDEyLjE3NjQzNzg0NjA5Mzc1TDcuNDExNzc5ODkwNjI1LDE2LjQxMTczMjI0NjA5Mzc1UTcuNDExNzc5ODkwNjI1LDE3LjQ3MDU1NTc0NjA5Mzc1LDYuMzUyOTU1MzkwNjI1LDE3LjQ3MDU1NTc0NjA5Mzc1TDIuMTE3NjYxNDkwNjI1LDE3LjQ3MDU1NTc0NjA5Mzc1UTEuMDU4ODM3ODkwNjI1LDE3LjQ3MDU1NTc0NjA5Mzc1LDEuMDU4ODM3ODkwNjI1LDE2LjQxMTczMjI0NjA5Mzc1TDEuMDU4ODM3ODkwNjI1LDEyLjE3NjQzNzg0NjA5Mzc1UTEuMDU4ODM3ODkwNjI1LDExLjExNzYxNDA1OTQ0ODIxLDIuMTE3NjYyMDkwNjI1LDExLjExNzYxNDc0NjA5Mzc1WiIgZmlsbD0iIzM2NzBGNyIgZmlsbC1vcGFjaXR5PSIxIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6cGFzc3Rocm91Z2giLz48cGF0aCBkPSJNMTAuNTg4MjQzMTQ1MzEyNSwxMS4xMTc2MTQ3NDYwOTM3NUwxNC44MjM1MzczNDUzMTI1LDExLjExNzYxNDc0NjA5Mzc1UTE1Ljg4MjM2MDk0NTMxMjQ5OSwxMS4xMTc2MTQ3NDYwOTM3NSwxNS44ODIzNjA5NDUzMTI0OTksMTIuMTc2NDM3ODQ2MDkzNzVMMTUuODgyMzYwOTQ1MzEyNDk5LDE2LjQxMTczMjI0NjA5Mzc1UTE1Ljg4MjM2MDk0NTMxMjQ5OSwxNy40NzA1NTU3NDYwOTM3NSwxNC44MjM1MzY0NDUzMTI0OTksMTcuNDcwNTU1NzQ2MDkzNzVMMTAuNTg4MjQyNTQ1MzEyNSwxNy40NzA1NTU3NDYwOTM3NVE5LjUyOTQxODk0NTMxMjUsMTcuNDcwNTU1NzQ2MDkzNzUsOS41Mjk0MTg5NDUzMTI1LDE2LjQxMTczMjI0NjA5Mzc1TDkuNTI5NDE4OTQ1MzEyNSwxMi4xNzY0Mzc4NDYwOTM3NVE5LjUyOTQxODk0NTMxMjUsMTEuMTE3NjE0MDU5NDQ4MjEsMTAuNTg4MjQzMTQ1MzEyNSwxMS4xMTc2MTQ3NDYwOTM3NVoiIGZpbGw9IiMzNjcwRjciIGZpbGwtb3BhY2l0eT0iMSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOnBhc3N0aHJvdWdoIi8+PC9nPjwvc3ZnPg==\");\r\n  background-repeat: no-repeat;\r\n  background-position: left center;\r\n  background-size: 14px;\r\n  padding-left: 20px;\r\n}\r\n\r\n\r\n#domId .el-table .el-table__body .kf-row-dce-instance .instance-name.el-table__cell .cell span:last-child {\r\n  background-image: url(\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBmaWxsPSJub25lIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cGF0aCBkPSJNMTMuMzMzODU1LDEzLjU0MzM4MUMxMi4yMzg1MjcsMTMuMzU4OTI5LDExLjQzNjQ2MSwxMi40MzM3MzIsMTEuNDMwODY2LDExLjM0ODI0OUMxMS40MzQzODUsMTAuMTE2NTk0LDEyLjQ1NTg3Myw5LjExODk5MDksMTMuNzE3MDI2LDkuMTE1NTQ0M0MxNC45NzY5NDEsOS4xMjA2OTg5LDE1Ljk5NjQ5OSwxMC4xMTc4MTUsMTUuOTk5OTk5LDExLjM0ODI2OEMxNS45OTQxMzIsMTIuNDM0NzQ4LDE1LjE5MDM5NiwxMy4zNjAzMDQsMTQuMDkzNzksMTMuNTQzMzk4TDE0LjA5Mzc5LDE1LjYyNzM1NUMxNC4wOTM3OSwxNS44NTEyNTIsMTMuOTQxNDgsMTUuOTk5OTgzLDEzLjcxMzgyMywxNS45OTk5ODNDMTMuNDg0NTY1LDE1Ljk5OTk4MywxMy4zMzIyNTMsMTUuODUxMjUyLDEzLjMzMjI1MywxNS42MjczNTVMMTMuMzMyMjUzLDEzLjU0NDk0NkwxMy4zMzM4NTUsMTMuNTQzMzgxWk0xLjkwMzAwNjIsMTMuNTQzMzgxQzAuODA3NjcyMDgsMTMuMzU4OTM3LDAuMDA1NTk2MjAyMywxMi40MzM3MzcsMCwxMS4zNDgyNDlDMC4wMDM1MTkyMjc1LDEwLjExNjU4OCwxLjAyNTAxNjUsOS4xMTg5ODE0LDIuMjg2MTc2OSw5LjExNTU0NDNDMy41NDY3MTg2LDkuMTE5ODQwNiw0LjU2NzI0NzQsMTAuMTE3MjA2LDQuNTcwNzUyMSwxMS4zNDgyNjhDNC41NjUwMTk2LDEyLjQzNDI1MiwzLjc2MjExNDUsMTMuMzU5NjMsMi42NjYxNDQ0LDEzLjU0MzM5OEwyLjY2NjE0NDQsMTUuNjI1Nzc0QzIuNjY2MTQ0NCwxNS44NTEyNTIsMi41MTM4MzMzLDE2LDIuMjg0NTc1LDE2QzIuMDU2OTE4NCwxNiwxLjkwNDYwNzUsMTUuODUxMjUyLDEuOTA0NjA3NSwxNS42MjczNTVMMS45MDQ2MDc1LDEzLjU0NDk0NkwxLjkwMzAwNjIsMTMuNTQzMzgxWk03LjYyMDAzMTgsMi40NTUwMzY5QzYuNTI0MDY4NCwyLjYzODgwNTYsNS43MjExNjU3LDMuNTY0MTczOSw1LjcxNTQyNDUsNC42NTAxNTEzQzUuNzE4OTM4OCw1Ljg4MTIwNiw2LjczOTQ2NTcsNi44Nzg1NjE1LDcuOTk5OTk5NSw2Ljg4Mjg1NjhDOS4yNjExNTk5LDYuODc5NDE5OCwxMC4yODI2NTgsNS44ODE4MTQsMTAuMjg2MTc3LDQuNjUwMTUxM0MxMC4yODA0MzYsMy41NjQxNzQyLDkuNDc3NTMyNCwyLjYzODgwNjEsOC4zODE1Njg5LDIuNDU1MDM3MUw4LjM4MTU2ODksMC4zNzI2NDQ1NEM4LjM4MTU2ODksMC4xNDg3NDgzNyw4LjIyOTI1NzYsMi40NzAxNTUxZS04LDcuOTk5OTk5NSwyLjQ3MDE1NTFlLThDNy43NzA3NDE1LDIuNDcwMTU1MWUtOCw3LjYxODQzMDEsMC4xNDg3NDgzNyw3LjYxODQzMDEsMC4zNzEwOTcyMUw3LjYxODQzMDEsMi40NTUwNTQzTDcuNjIwMDMxOCwyLjQ1NTAzNjlaTTEuOTA0NjA3NSwwLjM3MjY0NDU0QzEuOTA0NjA3NSwwLjE0ODc0ODM3LDIuMDU2OTE4NCwwLDIuMjg0NTc1LDBDMi41MTM4MzMzLDAsMi42NjYxNDQ0LDAuMTQ4NzQ4MzUsMi42NjYxNDQ0LDAuMzcxMDgwMzdMMi42NjYxNDQ0LDcuODEyODdDMi42NjYxNDQ0LDguMDM2NzgzMiwyLjUxMzgzMzMsOC4xODU1MTQ1LDIuMjg0NTc1LDguMTg1NTE0NUMyLjA1NjkxODQsOC4xODU1MTQ1LDEuOTA0NjA3NSw4LjAzNjc4MzIsMS45MDQ2MDc1LDcuODEyODg3MkwxLjkwNDYwNzUsMC4zNzI2NDQ1NFpNMTMuMzM1NDczLDAuMzcyNjQ0NTRDMTMuMzM1NDczLDAuMTQ4NzQ4MzcsMTMuNDg2MTY1LDAsMTMuNzE1NDI1LDBDMTMuOTQzMDgxLDAsMTQuMDk1MzkxLDAuMTQ4NzQ4MzUsMTQuMDk1MzkxLDAuMzcxMDgwMzdMMTQuMDk1MzkxLDcuODEyODdDMTQuMDk1MzkxLDguMDM2NzgzMiwxMy45NDMwODEsOC4xODU1MTQ1LDEzLjcxNTQyNSw4LjE4NTUxNDVDMTMuNDg2MTY1LDguMTg1NTE0NSwxMy4zMzM4NTUsOC4wMzY3ODMyLDEzLjMzMzg1NSw3LjgxMjg4NzJMMTMuMzMzODU1LDAuMzcyNjQ0NTRMMTMuMzM1NDczLDAuMzcyNjQ0NTRaTTcuOTk5OTk5NSw2LjEzNzU2NzVDNy4xNTk5NDc0LDYuMTM0OTgzMSw2LjQ3OTYwODEsNS40NzA1NTYzLDYuNDc2OTYwNyw0LjY1MDE1MTdDNi40NzY5NjA3LDMuODI5NzE0OCw3LjE2MTUzMjksMy4xNjExNTQ3LDcuOTk5OTk5NSwzLjE2MTE1NDdDOC44Mzg0ODM4LDMuMTYxMTU0Nyw5LjUyMzAzODksMy44Mjk3MTQ4LDkuNTIzMDM4OSw0LjY0ODU4ODJDOS41MjMwMzg5LDUuNDY3NDYxMSw4LjgzODQ2NzYsNi4xMzYwMjA3LDcuOTk5OTk5NSw2LjEzNjAyMDdMNy45OTk5OTk1LDYuMTM3NTY3NVpNNy42MTg0MzAxLDguMTg1NTE0NUM3LjYxODQzMDEsNy45NjE2MTg5LDcuNzcwNzQxLDcuODEyODg3Miw3Ljk5OTk5OTUsNy44MTI4ODcyQzguMjI5MjU4NSw3LjgxMjg4NzIsOC4zODE1Njg5LDcuOTYxNjE4OSw4LjM4MTU2ODksOC4xODU1MTQ1TDguMzgxNTY4OSwxNS42MjczMzlDOC4zODE1Njg5LDE1Ljg1MTIzNiw4LjIyOTI1ODUsMTUuOTk5OTY4LDcuOTk5OTk5NSwxNS45OTk5NjhDNy43NzA3NDEsMTUuOTk5OTY4LDcuNjE4NDMwMSwxNS44NTEyMzYsNy42MTg0MzAxLDE1LjYyNzMzOUw3LjYxODQzMDEsOC4xODU1MTQ1Wk0yLjI4NDU3NDcsMTIuODM1NjY3QzMuMTIzMDQxNiwxMi44MzU2NjcsMy44MDc2MTM0LDEyLjE2NzEwNiwzLjgwNzYxMzQsMTEuMzQ4MjQ5QzMuODA0OTY2LDEwLjUyNzg0NSwzLjEyNDYyNjksOS44NjM0MTk1LDIuMjg0NTc0Nyw5Ljg2MDgzMzJDMS40NDQ1MjI3LDkuODYzNDE5NSwwLjc2NDE4MzM0LDEwLjUyNzg0NSwwLjc2MTUzNjE4LDExLjM0ODI0OUMwLjc2MTUzNjE4LDEyLjE2NzEyNCwxLjQ0NjEwODEsMTIuODM1NjY3LDIuMjg0NTc0NywxMi44MzU2NjdaTTEzLjcxNTQyMywxMi44MzU2NjdDMTQuNTUzOTA3LDEyLjgzNTY2NywxNS4yMzg0NjIsMTIuMTY3MTA2LDE1LjIzODQ2MiwxMS4zNDgyNDlDMTUuMjM1ODEzLDEwLjUyNzg0NSwxNC41NTU0NzQsOS44NjM0MTk1LDEzLjcxNTQyMyw5Ljg2MDgzMzJDMTIuODc1MzcsOS44NjM0MTk1LDEyLjE5NTAzMSwxMC41Mjc4NDUsMTIuMTkyMzg0LDExLjM0ODI0OUMxMi4xOTIzODQsMTIuMTY3MTI0LDEyLjg3Njk1NSwxMi44MzU2NjcsMTMuNzE1NDIzLDEyLjgzNTY2N1oiIGZpbGw9IiMyNzc5RkUiIGZpbGwtb3BhY2l0eT0iMSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOnBhc3N0aHJvdWdoIi8+PC9zdmc+\");\r\n  background-repeat: no-repeat;\r\n  background-position: left center;\r\n  background-size: 14px;\r\n  padding-left: 20px;\r\n}\r\n\r\n/*分页*/\r\n/* #domId .pagination-container {\r\n    justify-content: start;\r\n    background: rgba(255, 255, 255, 0);\r\n    margin-top: 0;\r\n} */\r\n\r\n\r\n#domId .pagination-container {\r\n  display: flex;\r\n  justify-content: flex-end;\r\n  align-items: center;\r\n  padding: 10px 0 0 0;\r\n}\r\n\r\n#domId .el-pagination {\r\n  background: rgba(255, 255, 255, 0);\r\n}\r\n\r\n#domId .el-pagination span {\r\n  font-size: 13px;\r\n  font-family: 思源黑体;\r\n  font-style: normal;\r\n  font-weight: normal;\r\n}\r\n\r\n#domId .el-pagination input,\r\n#domId .el-pagination button {\r\n  background: rgba(255, 255, 255, 0);\r\n  color: rgba(48, 49, 51, 1);\r\n  border: 1px solid rgba(235, 238, 245, 1);\r\n  font-size: 13px;\r\n  font-family: 思源黑体;\r\n  font-style: normal;\r\n  font-weight: normal;\r\n}\r\n\r\n#domId .el-pagination li {\r\n  background: rgba(255, 255, 255, 0);\r\n  color: rgba(48, 49, 51, 1);\r\n  font-size: 13px;\r\n  font-family: 思源黑体;\r\n  font-style: normal;\r\n  font-weight: normal;\r\n}\r\n\r\n#domId .el-pagination li.active {\r\n  background: rgba(255, 255, 255, 1);\r\n  color: rgba(47, 84, 235, 1);\r\n}\r\n\r\n#domId .el-table__body-wrapper::-webkit-scrollbar {\r\n  width: 8px;\r\n}\r\n\r\n#domId .el-table__body-wrapper::-webkit-scrollbar-thumb {\r\n  background: rgba(221, 221, 221, 1);\r\n}\r\n\r\n#domId .el-pagination span {\r\n  color: rgba(48, 49, 51, 1);\r\n}\r\n\r\n\r\n/* \r\n *\r\n *\r\n *\r\n *\r\n *\r\n *\r\n *\r\n *\r\n\r\n\r\n\r\n\r\n*/",
+          "dblLight": true,
+          "operable": true,
+          "lock": false,
+          "visible": true,
+          "expandRowKeys": [],
+          "runVisible": true,
+          "checkStateSave": false,
+          "show": true,
+          "data": [
+            {
+              "description": "Palimpsest backend runtime instance 0626 R2",
+              "displayname": "PalimpsestBack_0626R2",
+              "guid": "92d89140-0736-41f2-873b-6bfab8f3d276",
+              "id": "288230376151751586",
+              "instancetype": "2",
+              "modeleditenvguid": "c4902fcf-26f8-434a-82aa-4d04297930fd",
+              "modelguid": "059ec133-cbf6-4212-b138-0ee081c1ac78",
+              "modelname": "盛云科技_孙宇飞_Palimpsest_后台_0623",
+              "modelversion": "4",
+              "name": "PalimpsestBack_0626R2",
+              "parentguid": "",
+              "parentrepoguid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+              "label": "PalimpsestBack_0626R2",
+              "rowIndex": "1"
+            }
+          ],
+          "stripe": false,
+          "border": true,
+          "treeProps": {
+            "children": "children",
+            "hasChildren": "hasChildren"
+          },
+          "showHeader": true,
+          "fit": true,
+          "highlightCurrentRow": true,
+          "emptyText": "empty",
+          "showSummary": false,
+          "sumText": "sumText",
+          "pagination": false,
+          "pageSizes": [
+            100,
+            150,
+            200,
+            300,
+            500
+          ],
+          "currentPage": 1,
+          "pageSize": 500,
+          "defaultExpandAll": true,
+          "lazyLoad": false,
+          "paginationLayout": "total,sizes,prev,pager,next,jumper",
+          "paginationBackground": false,
+          "isVirtualScroll": false,
+          "totalData": [],
+          "totalLength": 1,
+          "pagerCount": 7,
+          "height": "100%",
+          "styleOption": {
+            "b": {
+              "border": true
+            }
+          },
+          "langKeys": [
+            "empty",
+            "sumText",
+            "序号",
+            "名称",
+            "显示名称",
+            "描述",
+            "模型",
+            "模型版本",
+            "操作"
+          ],
+          "rowStyleConditions": [],
+          "cellStyleConditions": [],
+          "locationY": "67",
+          "locationX": "328",
+          "singleSelect": false,
+          "columns": [
+            {
+              "prop": "selection",
+              "label": "",
+              "align": "center",
+              "width": "35",
+              "type": "selection",
+              "columnKey": "",
+              "fixed": false,
+              "m_id": "c04d79d1-806b-4e4d-90e1-151bc73fd23c"
+            },
+            {
+              "prop": "index",
+              "type": "index",
+              "label": "序号",
+              "align": "left",
+              "width": "60",
+              "fixed": false,
+              "m_id": "0f949b9f-d4ac-430b-9c94-81dbe66cf94a"
+            },
+            {
+              "prop": "name",
+              "label": "名称",
+              "align": "left",
+              "minWidth": "100",
+              "type": "",
+              "columnKey": "",
+              "fixed": false,
+              "m_id": "6d8827d2-25a8-4fba-acbc-79b5f7583bb4",
+              "showTooltip": true
+            },
+            {
+              "prop": "displayname",
+              "label": "显示名称",
+              "align": "left",
+              "minWidth": "100",
+              "type": "",
+              "columnKey": "",
+              "fixed": false,
+              "m_id": "9ce8bc25-fb2d-4b24-b0d5-b25e57370423",
+              "showTooltip": true
+            },
+            {
+              "prop": "description",
+              "label": "描述",
+              "align": "left",
+              "minWidth": "100",
+              "type": "",
+              "columnKey": "",
+              "fixed": false,
+              "m_id": "e708255b-8adb-4ecb-942a-c13475aa702a",
+              "showTooltip": true
+            },
+            {
+              "prop": "modelname",
+              "label": "模型",
+              "align": "left",
+              "width": "150",
+              "type": "",
+              "columnKey": "",
+              "fixed": false,
+              "m_id": "fd8aeb2d-fbd8-4c0b-bd74-5903bce89c0b"
+            },
+            {
+              "prop": "modelversion",
+              "label": "模型版本",
+              "align": "left",
+              "width": "100",
+              "type": "",
+              "columnKey": "",
+              "fixed": false,
+              "m_id": "712ff31e-055f-4097-93a1-58fb1db57fd0"
+            },
+            {
+              "prop": "operation",
+              "label": "操作",
+              "align": "left",
+              "width": "400",
+              "type": "operation",
+              "columnKey": "",
+              "fixed": false,
+              "plugins": [
+                {
+                  "pluginType": "button",
+                  "text": "编辑",
+                  "type": "text",
+                  "icon": "",
+                  "dataSetLinkOption": {
+                    "enable": false,
+                    "linkInfos": []
+                  },
+                  "variableLinkOption": {
+                    "enable": false,
+                    "key": "table.trigger.paramLinkOutPut",
+                    "paramLinks": []
+                  }
+                },
+                {
+                  "pluginType": "button",
+                  "text": "属性",
+                  "type": "text",
+                  "icon": "",
+                  "dataSetLinkOption": {
+                    "enable": false,
+                    "linkInfos": []
+                  },
+                  "variableLinkOption": {
+                    "enable": false,
+                    "key": "table.trigger.paramLinkOutPut",
+                    "paramLinks": []
+                  }
+                },
+                {
+                  "pluginType": "button",
+                  "text": "切换模型版本",
+                  "type": "text",
+                  "icon": "",
+                  "dataSetLinkOption": {
+                    "enable": false,
+                    "linkInfos": []
+                  },
+                  "variableLinkOption": {
+                    "enable": false,
+                    "key": "table.trigger.paramLinkOutPut",
+                    "paramLinks": []
+                  }
+                },
+                {
+                  "pluginType": "button",
+                  "text": "形参管理",
+                  "type": "text",
+                  "icon": "",
+                  "dataSetLinkOption": {
+                    "enable": false,
+                    "linkInfos": []
+                  },
+                  "variableLinkOption": {
+                    "enable": false,
+                    "key": "table.trigger.paramLinkOutPut",
+                    "paramLinks": []
+                  }
+                },
+                {
+                  "pluginType": "button",
+                  "text": "提交版本",
+                  "type": "text",
+                  "icon": "",
+                  "dataSetLinkOption": {
+                    "enable": false,
+                    "linkInfos": []
+                  },
+                  "variableLinkOption": {
+                    "enable": false,
+                    "key": "table.trigger.paramLinkOutPut",
+                    "paramLinks": []
+                  }
+                },
+                {
+                  "pluginType": "button",
+                  "text": "删除",
+                  "type": "text",
+                  "icon": "",
+                  "dataSetLinkOption": {
+                    "enable": false,
+                    "linkInfos": []
+                  },
+                  "variableLinkOption": {
+                    "enable": false,
+                    "key": "table.trigger.paramLinkOutPut",
+                    "paramLinks": []
+                  }
+                }
+              ],
+              "m_id": "c704f644-a8e4-4529-9bdf-9e2cb6c88026",
+              "hidden": false
+            }
+          ],
+          "linkList": [
+            {
+              "name": "Select",
+              "property": "upDateLink",
+              "type": "script",
+              "enable": true,
+              "script": "console.log(`[D] <实例化_框架页面> :: instanceList_ElementTable :: 触发 Select :: arguments = `, arguments);",
+              "linkId": 200001,
+              "KSCGUID": "kef9e620da24a14276d54180d9d9a58c"
+            },
+            {
+              "linkId": 200002,
+              "enable": false,
+              "KSCGUID": "kdf79ba1635389b57b9d28f7ae09d623",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "SelectAll"
+            },
+            {
+              "linkId": 200003,
+              "enable": false,
+              "KSCGUID": "kb5c74e01d2dc756e1be40b0eb426048",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "SelectionChange"
+            },
+            {
+              "linkId": 200004,
+              "enable": false,
+              "KSCGUID": "k72a504bf460eb07b5520bd913fe48a7",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "CellMouseEnter"
+            },
+            {
+              "linkId": 200005,
+              "enable": false,
+              "KSCGUID": "kb65b02415e5dd4e5ac1abb63e3f6a31",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "CellMouseLeave"
+            },
+            {
+              "linkId": 200006,
+              "enable": false,
+              "KSCGUID": "kc5d9d7b98d6eae13fd27f71cbc601fc",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "CellClick"
+            },
+            {
+              "linkId": 200007,
+              "enable": false,
+              "KSCGUID": "k19312fa333178eb20875c5769c4905a",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "CellDbclick"
+            },
+            {
+              "linkId": 200008,
+              "enable": false,
+              "KSCGUID": "kaff87c738a55beb5334c9d495e358c9",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "RowClick"
+            },
+            {
+              "linkId": 200009,
+              "enable": false,
+              "KSCGUID": "k6d43deab35f46dd793f0b496e6e7107",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "RowContextmenu"
+            },
+            {
+              "linkId": 200010,
+              "enable": false,
+              "KSCGUID": "k391ab919496f7474e02f4e969a571f1",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "RowDbclick"
+            },
+            {
+              "linkId": 200011,
+              "enable": false,
+              "KSCGUID": "k6eaeeb117898e8c967e76db6ff864d9",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "HeaderClick"
+            },
+            {
+              "linkId": 200012,
+              "enable": false,
+              "KSCGUID": "kb1021ece2ef76c7d2547604065674ef",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "SortChange"
+            },
+            {
+              "linkId": 200013,
+              "enable": false,
+              "KSCGUID": "ka1d0508f54a3170fa04367bfd255e6e",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "FilterChange"
+            },
+            {
+              "name": "Current-change",
+              "property": "upDateLink",
+              "type": "script",
+              "enable": true,
+              "script": "console.log(`[D] <实例化_框架页面> :: instanceList_ElementTable :: 触发 Current-change :: arguments = `, arguments);\n\n$Variable.currentSelectedInstance = arguments[1].currentRow;",
+              "linkId": 200014,
+              "KSCGUID": "k34c3a3eb840d40bb4fb06ec9774d7a7"
+            },
+            {
+              "linkId": 200015,
+              "enable": false,
+              "KSCGUID": "ke25fa3b64ae1b583a7016068b74c1f3",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "HeaderDragend"
+            },
+            {
+              "linkId": 200016,
+              "enable": false,
+              "KSCGUID": "k92cfc73d85415805a0be4361cf4eb53",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "ExpandChange"
+            },
+            {
+              "linkId": 200017,
+              "enable": false,
+              "KSCGUID": "k5e7cc71619b73c08461044748c22336",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "CurrentPageChange"
+            },
+            {
+              "linkId": 200018,
+              "enable": false,
+              "KSCGUID": "ke35ccd1abf52b89ded5eab1d93aaaeb",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "OnLoadSuccess"
+            },
+            {
+              "linkId": 200019,
+              "enable": false,
+              "KSCGUID": "k1df29f454fc0c17f96f8c8e5f2d4345",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "OnBeforeEdit"
+            },
+            {
+              "linkId": 200020,
+              "enable": false,
+              "KSCGUID": "k49d63e0b7e425a7a593f4a99d31a85a",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "OnAfterEdit"
+            },
+            {
+              "linkId": 200021,
+              "enable": false,
+              "KSCGUID": "kbcfa3718cdc1f3065d5ebd7c431dbe0",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "PageSizeChange"
+            }
+          ],
+          "uiInputLinkList": [],
+          "uiOutputLinkList": [
+            {
+              "enable": false,
+              "key": "table.current.select.change",
+              "method": "",
+              "source": []
+            },
+            {
+              "enable": false,
+              "key": "table.selection.change",
+              "method": "",
+              "source": []
+            },
+            {
+              "enable": false,
+              "key": "rowClick.trigger.pageJump",
+              "method": "pageJump",
+              "source": [],
+              "condition": {
+                "enable": false,
+                "list": []
+              }
+            },
+            {
+              "enable": false,
+              "key": "rowClick.dataSet.link",
+              "method": "runDataSet",
+              "source": [
+                {
+                  "dataSetLinks": []
+                }
+              ],
+              "condition": {
+                "enable": false,
+                "list": []
+              }
+            },
+            {
+              "enable": false,
+              "key": "rowClick.param.link",
+              "method": "",
+              "source": [
+                {
+                  "paramLinks": []
+                }
+              ],
+              "condition": {
+                "enable": false,
+                "list": []
+              }
+            },
+            {
+              "enable": false,
+              "key": "rowDbClick.trigger.pageJump",
+              "method": "pageJump",
+              "source": [],
+              "condition": {
+                "enable": false,
+                "list": []
+              }
+            },
+            {
+              "enable": false,
+              "key": "rowDbClick.dataSet.link",
+              "method": "runDataSet",
+              "source": [
+                {
+                  "dataSetLinks": []
+                }
+              ],
+              "condition": {
+                "enable": false,
+                "list": []
+              }
+            },
+            {
+              "enable": false,
+              "key": "rowDbClick.param.link",
+              "method": "",
+              "source": [
+                {
+                  "paramLinks": []
+                }
+              ],
+              "condition": {
+                "enable": false,
+                "list": []
+              }
+            },
+            {
+              "enable": false,
+              "key": "rowRightClick.trigger.pageJump",
+              "method": "pageJump",
+              "source": [],
+              "condition": {
+                "enable": false,
+                "list": []
+              }
+            },
+            {
+              "enable": false,
+              "key": "rowRightClick.dataSet.link",
+              "method": "runDataSet",
+              "source": [
+                {
+                  "dataSetLinks": []
+                }
+              ],
+              "condition": {
+                "enable": false,
+                "list": []
+              }
+            },
+            {
+              "enable": false,
+              "key": "rowRightClick.param.link",
+              "method": "",
+              "source": [
+                {
+                  "paramLinks": []
+                }
+              ],
+              "condition": {
+                "enable": false,
+                "list": []
+              }
+            }
+          ],
+          "parentGUID": "k18c523170541352c0c9e8e4613466ca",
+          "spanMethodConfig": {
+            "enable": false,
+            "list": []
+          },
+          "rowKey": "guid",
+          "hideOnSinglePage": false,
+          "currentRow": null
+        }
+      },
+      "getRowData": null,
+      "paramCurrent": {
+        "type": "table.current.select.change",
+        "value": {
+          "enable": false,
+          "key": "table.current.select.change",
+          "method": "",
+          "source": []
+        }
+      }
+    },
+    {
+      "i": 27,
+      "cls": "PCUI_ElementTable component_object taskList_ElementTable",
+      "keys": [
+        "tableDataCopy",
+        "dynamicRow",
+        "isRowEdit",
+        "editRowIndex",
+        "multipleSelectionRow",
+        "filterFlag",
+        "filterTotalData",
+        "inputSearchValue",
+        "searchTotalData",
+        "filterData",
+        "searchData",
+        "cellTooltipOption",
+        "cellPositionInfo",
+        "disabled",
+        "startIndex",
+        "scrollEventFlag",
+        "pluginCheckboxValues",
+        "parentSelectStatus",
+        "expandsRow",
+        "checkList",
+        "filterisShow",
+        "filterShowProp",
+        "filterList",
+        "filterIcon",
+        "lastProp",
+        "imgList",
+        "selectEventData",
+        "multupleToolTips",
+        "d_objColFilterConfig",
+        "d_arrColFilterData",
+        "UIType",
+        "linkList",
+        "times"
+      ],
+      "props": {
+        "totalData": [
+          {
+            "name": "PalimpsestL1_0626R2",
+            "guid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+            "description": "Palimpsest runtime L1 unique 0626 R2 after duplicate deploy name",
+            "parentGuid": "8c6286b5-18d8-4f55-99ea-0161285d48d1",
+            "fullName": "PalimpsestL1_0626R2",
+            "repoType": "50",
+            "totalCount": 2,
+            "completedCount": 2,
+            "children": [
+              {
+                "name": "PalimpsestBack_0626R2",
+                "guid": "92d89140-0736-41f2-873b-6bfab8f3d276",
+                "description": "Palimpsest backend runtime instance 0626 R2",
+                "parentGuid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+                "fullName": "PalimpsestL1_0626R2//PalimpsestBack_0626R2",
+                "repoType": "102",
+                "totalCount": 1,
+                "completedCount": 1,
+                "children": [],
+                "progress": {
+                  "type": "progress",
+                  "value": 100,
+                  "strokeWidth": 16,
+                  "textInside": true,
+                  "showText": true,
+                  "status": "success"
+                },
+                "taskStatus": 2,
+                "packetVersion": 7,
+                "errorCode": 0,
+                "errorMessage": "提交成功",
+                "rowIndex": "1-1"
+              }
+            ],
+            "progress": {
+              "type": "progress",
+              "value": 100,
+              "strokeWidth": 16,
+              "textInside": true,
+              "showText": true,
+              "status": "success"
+            },
+            "taskStatus": 2,
+            "packetVersion": 4,
+            "errorCode": 0,
+            "errorMessage": "提交成功",
+            "rowIndex": "1"
+          }
+        ],
+        "multipleSelectionRow": [],
+        "$data.multipleSelectionRow": [],
+        "propData": {
+          "UIName": "taskList_ElementTable",
+          "groupName": "数据",
+          "icon": "table",
+          "prototypeName": "ElementTable",
+          "elementuiType": "ElementTable",
+          "objectType": 2,
+          "KSCGUID": "ka97bcc617e219ba5bf491396c868fb8",
+          "leftTopPt": {
+            "x": 0,
+            "y": 0
+          },
+          "showCustomLabel": false,
+          "customLabel": "",
+          "expands": [],
+          "detailConfig": "// const testData = {\r\n//     value: {\r\n//         type: \"progress\",\r\n//         value: 0,\r\n//         strokeWidth: 16,\r\n//         textInside: true,\r\n//         showText: true,\r\n//         status: \"success\" // success/exception/warning\r\n//         // progressType: \"line\", // line/circle/dashboard\r\n//     }\r\n// }\r\n\r\n// setInterval(() => {\r\n//     if(testData.value.value < 100)\r\n//     {testData.value.value++}\r\n//     else{testData.value.value = 0;}\r\n// }, 100);\r\n\r\nconst totalData = [\r\n    // {\r\n    //     name: \"实例1\",\r\n    //     guid: \"1\",\r\n    //     progress: {\r\n    //         type: \"progress\",\r\n    //         value: 100,\r\n    //         strokeWidth: 12,\r\n    //         showText: true,\r\n    //         status: \"success\"\r\n    //     },\r\n    //     errorMessage: \"{errorCode: 0, errorMessage: '成功'}\",\r\n    //     children: [{\r\n    //             name: \"子实例1\",\r\n    //             guid: \"z1\",\r\n    //             progress: {\r\n    //                 type: \"progress\",\r\n    //                 value: 100,\r\n    //                 strokeWidth: 12,\r\n    //                 showText: true,\r\n    //                 status: \"success\"\r\n    //             },\r\n    //             errorMessage: \"{errorCode: 0, errorMessage: '成功'}\",\r\n    //             children: []\r\n    //         },\r\n    //         {\r\n    //             name: \"子实例2\",\r\n    //             guid: \"z2\",\r\n    //             progress: {\r\n    //                 type: \"progress\",\r\n    //                 value: 100,\r\n    //                 strokeWidth: 12,\r\n    //                 showText: true,\r\n    //                 status: \"success\"\r\n    //             },\r\n    //             errorMessage: \"{errorCode: 0, errorMessage: '成功'}\",\r\n    //             children: []\r\n    //         },\r\n    //     ]\r\n    // },\r\n    // {\r\n    //     name: \"实例2\",\r\n    //     guid: \"2\",\r\n    //     // progress: {\r\n    //     //     type: \"progress\",\r\n    //     //     value: 0,\r\n    //     //     strokeWidth: 16,\r\n    //     //     textInside: true,\r\n    //     //     showText: false,\r\n    //     //     status: \"success\" // success/exception/warning\r\n    //     //     // progressType: \"line\", // line/circle/dashboard\r\n    //     // },\r\n    //     progress: testData.value,\r\n    //     errorMessage: \"{errorCode: -1, errorMessage: '失败'}\"\r\n    // }\r\n];\r\n\r\nthis.table({\r\n    rowKey: 'guid',\r\n    defaultExpandAll: true,\r\n    columns: [{\r\n            prop: 'index',\r\n            type: 'index'\r\n        },\r\n        {\r\n            prop: 'name',\r\n            label: '名称',\r\n            align: \"left\",\r\n            minWidth: '100',\r\n            type: '',\r\n            columnKey: '',\r\n            fixed: false,\r\n        },\r\n        {\r\n            prop: 'guid',\r\n            label: 'GUID',\r\n            align: \"left\",\r\n            minWidth: '100',\r\n            type: '',\r\n            columnKey: '',\r\n            fixed: false,\r\n        },\r\n        {\r\n            prop: 'progress',\r\n            label: '状态',\r\n            align: \"center\",\r\n            width: '150',\r\n            type: '',\r\n            columnKey: '',\r\n            fixed: false,\r\n            custom: true,\r\n            plugins: [{\r\n                pluginType: 'custom'\r\n            }]\r\n        },\r\n        {\r\n            prop: 'errorMessage',\r\n            label: '详情',\r\n            align: \"left\",\r\n            minWidth: '250',\r\n            type: '',\r\n            columnKey: '',\r\n            fixed: false\r\n        }\r\n    ],\r\n    totalData: totalData,\r\n})",
+          "styleConfig": "#domId {\r\n  background: rgba(255, 255, 255, 1);\r\n}\r\n\r\n#domId .el-table {\r\n  height: calc(100% - 5px) !important;\r\n  background: rgba(255, 255, 255, 1);\r\n  color: #3d3d3d;\r\n  font-size: 14px;\r\n  font-family: 思源黑体;\r\n  font-style: normal;\r\n  font-weight: normal;\r\n}\r\n\r\n/*#domId table.el-table__header {*/\r\n/*  border-top: 1px solid #dedede;*/\r\n/*  border-left: 1px solid #dedede;*/\r\n/*}*/\r\n\r\n/*表格header的背景色*/\r\n#domId .el-table__header tr {\r\n  background: #F8F8F8;\r\n  color: #3d3d3d;\r\n}\r\n\r\n#domId .el-table__header th {\r\n  background: #F8F8F8;\r\n  color: #3d3d3d;\r\n  /*border-right: 1px solid #dedede;*/\r\n  border-bottom: 1px solid #dedede;\r\n  height: 34px;\r\n  padding: 0;\r\n  font-size: 14px;\r\n  font-family: 思源黑体;\r\n  font-style: normal;\r\n  font-weight: normal;\r\n}\r\n\r\n#domId .el-table tbody tr {\r\n  height: 39px;\r\n  font-size: 14px;\r\n  font-family: 思源黑体;\r\n  font-style: normal;\r\n  font-weight: normal;\r\n}\r\n\r\n\r\n#domId .el-table tbody tr {\r\n  background: #fff;\r\n  color: #3d3d3d;\r\n}\r\n\r\n\r\n#domId .el-table__cell:first-child .cell {\r\n  padding: 0;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n/*#domId .el-table tbody tr>td:first-child {*/\r\n/*  border-left: 1px solid #dedede;*/\r\n/*}*/\r\n\r\n#domId .el-table tbody tr>td {\r\n  background: #fff;\r\n  color: #3d3d3d;\r\n  border-bottom: 1px solid #dedede;\r\n  /*border-right: 1px solid #dedede;*/\r\n}\r\n\r\n\r\n#domId .el-table tbody tr:hover,\r\n#domId .el-table tbody tr:hover>td {\r\n  background: #f2f8ff;\r\n  /*color: #000;*/\r\n  font-weight: 500;\r\n  cursor: pointer;\r\n}\r\n\r\n\r\n#domId .el-table tbody tr.current-row,\r\n#domId .el-table tbody tr.current-row>td {\r\n  background: #F1F4FF;\r\n  color: #0076FF;\r\n}\r\n\r\n\r\n#domId tr.el-table__row td.el-table__cell:last-child button {\r\n  color: #0076FF;\r\n}\r\n\r\n#domId tr.el-table__row td.el-table__cell:last-child button.el-button:last-child {\r\n  color: #FF5B51;\r\n}\r\n\r\n#domId .el-checkbox__input.is-checked .el-checkbox__inner,\r\n#domId .el-checkbox__input.is-indeterminate .el-checkbox__inner {\r\n  background-color: #0076FF;\r\n  border-color: #0076FF;\r\n}\r\n\r\n#domId .el-checkbox__input .el-checkbox__inner:hover {\r\n  border-color: #0076FF;\r\n}\r\n\r\n#domId .el-button--text {\r\n  color: #0076ff;\r\n}\r\n\r\n#domId .el-table tbody tr>.el-table-column--selection .el-checkbox__inner {\r\n  border-width: 1px;\r\n}\r\n\r\n#domId .el-table tbody tr>.el-table-column--selection .is-checked .el-checkbox__inner {\r\n  border-width: 2px;\r\n}\r\n\r\n\r\n#domId .cell .el-input__inner {\r\n  border: none;\r\n}\r\n\r\n#domId tr.el-table__row td.el-table__cell .el-button--text {\r\n  background: transparent;\r\n  padding-left: 0;\r\n  padding-right: 0;\r\n  padding-top: 0;\r\n  padding-bottom: 0;\r\n}\r\n\r\n\r\n/* 隐藏采集设备实例行的形参管理按钮 */\r\n#domId .el-table .el-table__body .kf-row-dce-instance .el-table__cell .cell>button:nth-child(4) {\r\n  display: none;\r\n}\r\n\r\n#domId .el-table .el-table__body .kf-row-mcm-instance .instance-name.el-table__cell .cell span:last-child {\r\n  background-image: url(\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBmaWxsPSJub25lIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDE4IDE4Ij48ZGVmcz48Y2xpcFBhdGggaWQ9Im1hc3Rlcl9zdmcwXzI3OTdfMDgxNTUxIj48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHJ4PSIwIi8+PC9jbGlwUGF0aD48L2RlZnM+PGcgY2xpcC1wYXRoPSJ1cmwoI21hc3Rlcl9zdmcwXzI3OTdfMDgxNTUxKSI+PHBhdGggZD0iTTIuMTE3NjYyMDkwNjI1LDIuNjQ3MDMzNjkxNDA2MjVMNi4zNTI5NTYyOTA2MjUsMi42NDcwMzM2OTE0MDYyNVE3LjQxMTc3OTg5MDYyNSwyLjY0NzAzMzY5MTQwNjI1LDcuNDExNzc5ODkwNjI1LDMuNzA1ODU3MjkxNDA2MjVMNy40MTE3Nzk4OTA2MjUsNy45NDExNTExOTE0MDYyNVE3LjQxMTc3OTg5MDYyNSw4Ljk5OTk3NDY5MTQwNjI1MSw2LjM1Mjk1NTM5MDYyNSw4Ljk5OTk3NDY5MTQwNjI1MUwyLjExNzY2MTQ5MDYyNSw4Ljk5OTk3NDY5MTQwNjI1MVExLjA1ODgzNzg5MDYyNSw4Ljk5OTk3NDY5MTQwNjI1MSwxLjA1ODgzNzg5MDYyNSw3Ljk0MTE1MTE5MTQwNjI1TDEuMDU4ODM3ODkwNjI1LDMuNzA1ODU2NzkxNDA2MjQ5N1ExLjA1ODgzNzg5MDYyNSwyLjY0NzAzMzM0ODA4MzQ4LDIuMTE3NjYyMDkwNjI1LDIuNjQ3MDMzNjkxNDA2MjVaIiBmaWxsPSIjMzY3MEY3IiBmaWxsLW9wYWNpdHk9IjEiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTpwYXNzdGhyb3VnaCIvPjxwYXRoIGQ9Ik0xMy40NTQ1Njg4OTUzMTI1LDIuMDc5OTc4MzIxNDA2MjVMMTYuNDQ5Mzc0Njk1MzEyNSw1LjA3NDc4MzM0MTQwNjI1UTE3LjE5ODA3NzE5NTMxMjUsNS44MjM0ODQ0NDE0MDYyNSwxNi40NDkzNzQ2OTUzMTI1LDYuNTcyMTg1MDQxNDA2MjVMMTMuNDU0NTcwMjk1MzEyNSw5LjU2Njk5MDM0MTQwNjI1UTEyLjcwNTg2ODY5NTMxMjUsMTAuMzE1NjkxOTQxNDA2MjUsMTEuOTU3MTY4MDk1MzEyNSw5LjU2Njk5MDM0MTQwNjI1TDguOTYyMzYyOTQ1MzEyNDk5LDYuNTcyMTg1MDQxNDA2MjVROC4yMTM2NjE3NTUzMTI1LDUuODIzNDg0NDQxNDA2MjUsOC45NjIzNjI5NDUzMTI0OTksNS4wNzQ3ODI4NDE0MDYyNUwxMS45NTcxNjgwOTUzMTI1LDIuMDc5OTc3OTYxNDA2MjVRMTIuNzA1ODcwMTk1MzEyNSwxLjMzMTI3Njc0MTQwNjI1LDEzLjQ1NDU2ODg5NTMxMjUsMi4wNzk5NzgzMjE0MDYyNVoiIGZpbGw9IiM5OUM5RjIiIGZpbGwtb3BhY2l0eT0iMSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOnBhc3N0aHJvdWdoIi8+PHBhdGggZD0iTTIuMTE3NjYyMDkwNjI1LDExLjExNzYxNDc0NjA5Mzc1TDYuMzUyOTU2MjkwNjI1LDExLjExNzYxNDc0NjA5Mzc1UTcuNDExNzc5ODkwNjI1LDExLjExNzYxNDc0NjA5Mzc1LDcuNDExNzc5ODkwNjI1LDEyLjE3NjQzNzg0NjA5Mzc1TDcuNDExNzc5ODkwNjI1LDE2LjQxMTczMjI0NjA5Mzc1UTcuNDExNzc5ODkwNjI1LDE3LjQ3MDU1NTc0NjA5Mzc1LDYuMzUyOTU1MzkwNjI1LDE3LjQ3MDU1NTc0NjA5Mzc1TDIuMTE3NjYxNDkwNjI1LDE3LjQ3MDU1NTc0NjA5Mzc1UTEuMDU4ODM3ODkwNjI1LDE3LjQ3MDU1NTc0NjA5Mzc1LDEuMDU4ODM3ODkwNjI1LDE2LjQxMTczMjI0NjA5Mzc1TDEuMDU4ODM3ODkwNjI1LDEyLjE3NjQzNzg0NjA5Mzc1UTEuMDU4ODM3ODkwNjI1LDExLjExNzYxNDA1OTQ0ODIxLDIuMTE3NjYyMDkwNjI1LDExLjExNzYxNDc0NjA5Mzc1WiIgZmlsbD0iIzM2NzBGNyIgZmlsbC1vcGFjaXR5PSIxIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6cGFzc3Rocm91Z2giLz48cGF0aCBkPSJNMTAuNTg4MjQzMTQ1MzEyNSwxMS4xMTc2MTQ3NDYwOTM3NUwxNC44MjM1MzczNDUzMTI1LDExLjExNzYxNDc0NjA5Mzc1UTE1Ljg4MjM2MDk0NTMxMjQ5OSwxMS4xMTc2MTQ3NDYwOTM3NSwxNS44ODIzNjA5NDUzMTI0OTksMTIuMTc2NDM3ODQ2MDkzNzVMMTUuODgyMzYwOTQ1MzEyNDk5LDE2LjQxMTczMjI0NjA5Mzc1UTE1Ljg4MjM2MDk0NTMxMjQ5OSwxNy40NzA1NTU3NDYwOTM3NSwxNC44MjM1MzY0NDUzMTI0OTksMTcuNDcwNTU1NzQ2MDkzNzVMMTAuNTg4MjQyNTQ1MzEyNSwxNy40NzA1NTU3NDYwOTM3NVE5LjUyOTQxODk0NTMxMjUsMTcuNDcwNTU1NzQ2MDkzNzUsOS41Mjk0MTg5NDUzMTI1LDE2LjQxMTczMjI0NjA5Mzc1TDkuNTI5NDE4OTQ1MzEyNSwxMi4xNzY0Mzc4NDYwOTM3NVE5LjUyOTQxODk0NTMxMjUsMTEuMTE3NjE0MDU5NDQ4MjEsMTAuNTg4MjQzMTQ1MzEyNSwxMS4xMTc2MTQ3NDYwOTM3NVoiIGZpbGw9IiMzNjcwRjciIGZpbGwtb3BhY2l0eT0iMSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOnBhc3N0aHJvdWdoIi8+PC9nPjwvc3ZnPg==\");\r\n  background-repeat: no-repeat;\r\n  background-position: left center;\r\n  background-size: 14px;\r\n  padding-left: 20px;\r\n}\r\n\r\n\r\n#domId .el-table .el-table__body .kf-row-dce-instance .instance-name.el-table__cell .cell span:last-child {\r\n  background-image: url(\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBmaWxsPSJub25lIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cGF0aCBkPSJNMTMuMzMzODU1LDEzLjU0MzM4MUMxMi4yMzg1MjcsMTMuMzU4OTI5LDExLjQzNjQ2MSwxMi40MzM3MzIsMTEuNDMwODY2LDExLjM0ODI0OUMxMS40MzQzODUsMTAuMTE2NTk0LDEyLjQ1NTg3Myw5LjExODk5MDksMTMuNzE3MDI2LDkuMTE1NTQ0M0MxNC45NzY5NDEsOS4xMjA2OTg5LDE1Ljk5NjQ5OSwxMC4xMTc4MTUsMTUuOTk5OTk5LDExLjM0ODI2OEMxNS45OTQxMzIsMTIuNDM0NzQ4LDE1LjE5MDM5NiwxMy4zNjAzMDQsMTQuMDkzNzksMTMuNTQzMzk4TDE0LjA5Mzc5LDE1LjYyNzM1NUMxNC4wOTM3OSwxNS44NTEyNTIsMTMuOTQxNDgsMTUuOTk5OTgzLDEzLjcxMzgyMywxNS45OTk5ODNDMTMuNDg0NTY1LDE1Ljk5OTk4MywxMy4zMzIyNTMsMTUuODUxMjUyLDEzLjMzMjI1MywxNS42MjczNTVMMTMuMzMyMjUzLDEzLjU0NDk0NkwxMy4zMzM4NTUsMTMuNTQzMzgxWk0xLjkwMzAwNjIsMTMuNTQzMzgxQzAuODA3NjcyMDgsMTMuMzU4OTM3LDAuMDA1NTk2MjAyMywxMi40MzM3MzcsMCwxMS4zNDgyNDlDMC4wMDM1MTkyMjc1LDEwLjExNjU4OCwxLjAyNTAxNjUsOS4xMTg5ODE0LDIuMjg2MTc2OSw5LjExNTU0NDNDMy41NDY3MTg2LDkuMTE5ODQwNiw0LjU2NzI0NzQsMTAuMTE3MjA2LDQuNTcwNzUyMSwxMS4zNDgyNjhDNC41NjUwMTk2LDEyLjQzNDI1MiwzLjc2MjExNDUsMTMuMzU5NjMsMi42NjYxNDQ0LDEzLjU0MzM5OEwyLjY2NjE0NDQsMTUuNjI1Nzc0QzIuNjY2MTQ0NCwxNS44NTEyNTIsMi41MTM4MzMzLDE2LDIuMjg0NTc1LDE2QzIuMDU2OTE4NCwxNiwxLjkwNDYwNzUsMTUuODUxMjUyLDEuOTA0NjA3NSwxNS42MjczNTVMMS45MDQ2MDc1LDEzLjU0NDk0NkwxLjkwMzAwNjIsMTMuNTQzMzgxWk03LjYyMDAzMTgsMi40NTUwMzY5QzYuNTI0MDY4NCwyLjYzODgwNTYsNS43MjExNjU3LDMuNTY0MTczOSw1LjcxNTQyNDUsNC42NTAxNTEzQzUuNzE4OTM4OCw1Ljg4MTIwNiw2LjczOTQ2NTcsNi44Nzg1NjE1LDcuOTk5OTk5NSw2Ljg4Mjg1NjhDOS4yNjExNTk5LDYuODc5NDE5OCwxMC4yODI2NTgsNS44ODE4MTQsMTAuMjg2MTc3LDQuNjUwMTUxM0MxMC4yODA0MzYsMy41NjQxNzQyLDkuNDc3NTMyNCwyLjYzODgwNjEsOC4zODE1Njg5LDIuNDU1MDM3MUw4LjM4MTU2ODksMC4zNzI2NDQ1NEM4LjM4MTU2ODksMC4xNDg3NDgzNyw4LjIyOTI1NzYsMi40NzAxNTUxZS04LDcuOTk5OTk5NSwyLjQ3MDE1NTFlLThDNy43NzA3NDE1LDIuNDcwMTU1MWUtOCw3LjYxODQzMDEsMC4xNDg3NDgzNyw3LjYxODQzMDEsMC4zNzEwOTcyMUw3LjYxODQzMDEsMi40NTUwNTQzTDcuNjIwMDMxOCwyLjQ1NTAzNjlaTTEuOTA0NjA3NSwwLjM3MjY0NDU0QzEuOTA0NjA3NSwwLjE0ODc0ODM3LDIuMDU2OTE4NCwwLDIuMjg0NTc1LDBDMi41MTM4MzMzLDAsMi42NjYxNDQ0LDAuMTQ4NzQ4MzUsMi42NjYxNDQ0LDAuMzcxMDgwMzdMMi42NjYxNDQ0LDcuODEyODdDMi42NjYxNDQ0LDguMDM2NzgzMiwyLjUxMzgzMzMsOC4xODU1MTQ1LDIuMjg0NTc1LDguMTg1NTE0NUMyLjA1NjkxODQsOC4xODU1MTQ1LDEuOTA0NjA3NSw4LjAzNjc4MzIsMS45MDQ2MDc1LDcuODEyODg3MkwxLjkwNDYwNzUsMC4zNzI2NDQ1NFpNMTMuMzM1NDczLDAuMzcyNjQ0NTRDMTMuMzM1NDczLDAuMTQ4NzQ4MzcsMTMuNDg2MTY1LDAsMTMuNzE1NDI1LDBDMTMuOTQzMDgxLDAsMTQuMDk1MzkxLDAuMTQ4NzQ4MzUsMTQuMDk1MzkxLDAuMzcxMDgwMzdMMTQuMDk1MzkxLDcuODEyODdDMTQuMDk1MzkxLDguMDM2NzgzMiwxMy45NDMwODEsOC4xODU1MTQ1LDEzLjcxNTQyNSw4LjE4NTUxNDVDMTMuNDg2MTY1LDguMTg1NTE0NSwxMy4zMzM4NTUsOC4wMzY3ODMyLDEzLjMzMzg1NSw3LjgxMjg4NzJMMTMuMzMzODU1LDAuMzcyNjQ0NTRMMTMuMzM1NDczLDAuMzcyNjQ0NTRaTTcuOTk5OTk5NSw2LjEzNzU2NzVDNy4xNTk5NDc0LDYuMTM0OTgzMSw2LjQ3OTYwODEsNS40NzA1NTYzLDYuNDc2OTYwNyw0LjY1MDE1MTdDNi40NzY5NjA3LDMuODI5NzE0OCw3LjE2MTUzMjksMy4xNjExNTQ3LDcuOTk5OTk5NSwzLjE2MTE1NDdDOC44Mzg0ODM4LDMuMTYxMTU0Nyw5LjUyMzAzODksMy44Mjk3MTQ4LDkuNTIzMDM4OSw0LjY0ODU4ODJDOS41MjMwMzg5LDUuNDY3NDYxMSw4LjgzODQ2NzYsNi4xMzYwMjA3LDcuOTk5OTk5NSw2LjEzNjAyMDdMNy45OTk5OTk1LDYuMTM3NTY3NVpNNy42MTg0MzAxLDguMTg1NTE0NUM3LjYxODQzMDEsNy45NjE2MTg5LDcuNzcwNzQxLDcuODEyODg3Miw3Ljk5OTk5OTUsNy44MTI4ODcyQzguMjI5MjU4NSw3LjgxMjg4NzIsOC4zODE1Njg5LDcuOTYxNjE4OSw4LjM4MTU2ODksOC4xODU1MTQ1TDguMzgxNTY4OSwxNS42MjczMzlDOC4zODE1Njg5LDE1Ljg1MTIzNiw4LjIyOTI1ODUsMTUuOTk5OTY4LDcuOTk5OTk5NSwxNS45OTk5NjhDNy43NzA3NDEsMTUuOTk5OTY4LDcuNjE4NDMwMSwxNS44NTEyMzYsNy42MTg0MzAxLDE1LjYyNzMzOUw3LjYxODQzMDEsOC4xODU1MTQ1Wk0yLjI4NDU3NDcsMTIuODM1NjY3QzMuMTIzMDQxNiwxMi44MzU2NjcsMy44MDc2MTM0LDEyLjE2NzEwNiwzLjgwNzYxMzQsMTEuMzQ4MjQ5QzMuODA0OTY2LDEwLjUyNzg0NSwzLjEyNDYyNjksOS44NjM0MTk1LDIuMjg0NTc0Nyw5Ljg2MDgzMzJDMS40NDQ1MjI3LDkuODYzNDE5NSwwLjc2NDE4MzM0LDEwLjUyNzg0NSwwLjc2MTUzNjE4LDExLjM0ODI0OUMwLjc2MTUzNjE4LDEyLjE2NzEyNCwxLjQ0NjEwODEsMTIuODM1NjY3LDIuMjg0NTc0NywxMi44MzU2NjdaTTEzLjcxNTQyMywxMi44MzU2NjdDMTQuNTUzOTA3LDEyLjgzNTY2NywxNS4yMzg0NjIsMTIuMTY3MTA2LDE1LjIzODQ2MiwxMS4zNDgyNDlDMTUuMjM1ODEzLDEwLjUyNzg0NSwxNC41NTU0NzQsOS44NjM0MTk1LDEzLjcxNTQyMyw5Ljg2MDgzMzJDMTIuODc1MzcsOS44NjM0MTk1LDEyLjE5NTAzMSwxMC41Mjc4NDUsMTIuMTkyMzg0LDExLjM0ODI0OUMxMi4xOTIzODQsMTIuMTY3MTI0LDEyLjg3Njk1NSwxMi44MzU2NjcsMTMuNzE1NDIzLDEyLjgzNTY2N1oiIGZpbGw9IiMyNzc5RkUiIGZpbGwtb3BhY2l0eT0iMSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOnBhc3N0aHJvdWdoIi8+PC9zdmc+\");\r\n  background-repeat: no-repeat;\r\n  background-position: left center;\r\n  background-size: 14px;\r\n  padding-left: 20px;\r\n}\r\n\r\n/*分页*/\r\n/* #domId .pagination-container {\r\n    justify-content: start;\r\n    background: rgba(255, 255, 255, 0);\r\n    margin-top: 0;\r\n} */\r\n\r\n\r\n#domId .pagination-container {\r\n  display: flex;\r\n  justify-content: flex-end;\r\n  align-items: center;\r\n  padding: 10px 0 0 0;\r\n}\r\n\r\n#domId .el-pagination {\r\n  background: rgba(255, 255, 255, 0);\r\n}\r\n\r\n#domId .el-pagination span {\r\n  font-size: 13px;\r\n  font-family: 思源黑体;\r\n  font-style: normal;\r\n  font-weight: normal;\r\n}\r\n\r\n#domId .el-pagination input,\r\n#domId .el-pagination button {\r\n  background: rgba(255, 255, 255, 0);\r\n  color: rgba(48, 49, 51, 1);\r\n  border: 1px solid rgba(235, 238, 245, 1);\r\n  font-size: 13px;\r\n  font-family: 思源黑体;\r\n  font-style: normal;\r\n  font-weight: normal;\r\n}\r\n\r\n#domId .el-pagination li {\r\n  background: rgba(255, 255, 255, 0);\r\n  color: rgba(48, 49, 51, 1);\r\n  font-size: 13px;\r\n  font-family: 思源黑体;\r\n  font-style: normal;\r\n  font-weight: normal;\r\n}\r\n\r\n#domId .el-pagination li.active {\r\n  background: rgba(255, 255, 255, 1);\r\n  color: rgba(47, 84, 235, 1);\r\n}\r\n\r\n#domId .el-table__body-wrapper::-webkit-scrollbar {\r\n  width: 8px;\r\n}\r\n\r\n#domId .el-table__body-wrapper::-webkit-scrollbar-thumb {\r\n  background: rgba(221, 221, 221, 1);\r\n}\r\n\r\n#domId .el-pagination span {\r\n  color: rgba(48, 49, 51, 1);\r\n}\r\n\r\n\r\n\r\n#domId .el-progress-bar__inner {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: flex-end;\r\n}\r\n\r\n/* \r\n *\r\n *\r\n *\r\n *\r\n *\r\n *\r\n *\r\n *\r\n\r\n\r\n\r\n\r\n*/",
+          "dblLight": true,
+          "operable": true,
+          "lock": false,
+          "visible": true,
+          "expandRowKeys": [],
+          "runVisible": true,
+          "checkStateSave": false,
+          "show": true,
+          "data": [
+            {
+              "name": "PalimpsestL1_0626R2",
+              "guid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+              "description": "Palimpsest runtime L1 unique 0626 R2 after duplicate deploy name",
+              "parentGuid": "8c6286b5-18d8-4f55-99ea-0161285d48d1",
+              "fullName": "PalimpsestL1_0626R2",
+              "repoType": "50",
+              "totalCount": 2,
+              "completedCount": 2,
+              "children": [
+                {
+                  "name": "PalimpsestBack_0626R2",
+                  "guid": "92d89140-0736-41f2-873b-6bfab8f3d276",
+                  "description": "Palimpsest backend runtime instance 0626 R2",
+                  "parentGuid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+                  "fullName": "PalimpsestL1_0626R2//PalimpsestBack_0626R2",
+                  "repoType": "102",
+                  "totalCount": 1,
+                  "completedCount": 1,
+                  "children": [],
+                  "progress": {
+                    "type": "progress",
+                    "value": 100,
+                    "strokeWidth": 16,
+                    "textInside": true,
+                    "showText": true,
+                    "status": "success"
+                  },
+                  "taskStatus": 2,
+                  "packetVersion": 7,
+                  "errorCode": 0,
+                  "errorMessage": "提交成功",
+                  "rowIndex": "1-1"
+                }
+              ],
+              "progress": {
+                "type": "progress",
+                "value": 100,
+                "strokeWidth": 16,
+                "textInside": true,
+                "showText": true,
+                "status": "success"
+              },
+              "taskStatus": 2,
+              "packetVersion": 4,
+              "errorCode": 0,
+              "errorMessage": "提交成功",
+              "rowIndex": "1"
+            }
+          ],
+          "stripe": false,
+          "border": true,
+          "treeProps": {
+            "children": "children",
+            "hasChildren": "hasChildren"
+          },
+          "showHeader": true,
+          "fit": true,
+          "highlightCurrentRow": false,
+          "emptyText": "暂无数据",
+          "showSummary": false,
+          "sumText": "sumText",
+          "pagination": false,
+          "pageSizes": [
+            10,
+            20,
+            50,
+            100
+          ],
+          "currentPage": 1,
+          "pageSize": 10,
+          "defaultExpandAll": true,
+          "lazyLoad": false,
+          "paginationLayout": "total,sizes,prev,pager,next,jumper",
+          "paginationBackground": false,
+          "isVirtualScroll": false,
+          "totalData": [],
+          "totalLength": 1,
+          "pagerCount": 7,
+          "height": "100%",
+          "styleOption": {
+            "b": {
+              "border": true
+            }
+          },
+          "langKeys": [
+            "暂无数据",
+            "sumText",
+            "名称",
+            "GUID",
+            "状态",
+            "详情"
+          ],
+          "rowStyleConditions": [],
+          "cellStyleConditions": [],
+          "locationY": "99",
+          "locationX": "1",
+          "singleSelect": false,
+          "columns": [
+            {
+              "prop": "index",
+              "type": "index"
+            },
+            {
+              "prop": "name",
+              "label": "名称",
+              "align": "left",
+              "minWidth": "100",
+              "type": "",
+              "columnKey": "",
+              "fixed": false
+            },
+            {
+              "prop": "guid",
+              "label": "GUID",
+              "align": "left",
+              "minWidth": "100",
+              "type": "",
+              "columnKey": "",
+              "fixed": false
+            },
+            {
+              "prop": "progress",
+              "label": "状态",
+              "align": "center",
+              "width": "150",
+              "type": "",
+              "columnKey": "",
+              "fixed": false,
+              "custom": true,
+              "plugins": [
+                {
+                  "pluginType": "custom"
+                }
+              ]
+            },
+            {
+              "prop": "errorMessage",
+              "label": "详情",
+              "align": "left",
+              "minWidth": "250",
+              "type": "",
+              "columnKey": "",
+              "fixed": false
+            }
+          ],
+          "linkList": [
+            {
+              "linkId": 200001,
+              "enable": false,
+              "KSCGUID": "k6e235f55b31434ae805ab50f974464e",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "Select"
+            },
+            {
+              "linkId": 200002,
+              "enable": false,
+              "KSCGUID": "ke20ec4c058c528bcc65ffd98ee794a1",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "SelectAll"
+            },
+            {
+              "linkId": 200003,
+              "enable": false,
+              "KSCGUID": "k7c4cb24e226cdde88aeaf90e7fab418",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "SelectionChange"
+            },
+            {
+              "linkId": 200004,
+              "enable": false,
+              "KSCGUID": "k6ff3add709527d0c0892d31ed801ff5",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "CellMouseEnter"
+            },
+            {
+              "linkId": 200005,
+              "enable": false,
+              "KSCGUID": "k015feb60b17bc24f783c6c61fce2002",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "CellMouseLeave"
+            },
+            {
+              "linkId": 200006,
+              "enable": false,
+              "KSCGUID": "kcea5d6cd3224101d4ddbe219e85ed95",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "CellClick"
+            },
+            {
+              "linkId": 200007,
+              "enable": false,
+              "KSCGUID": "ke7b9b867d16511d233f30474d970970",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "CellDbclick"
+            },
+            {
+              "linkId": 200008,
+              "enable": false,
+              "KSCGUID": "k200336cce206e082c963a504b132b32",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "RowClick"
+            },
+            {
+              "linkId": 200009,
+              "enable": false,
+              "KSCGUID": "k0a5fba8fe3d9ecef7cab520f03dadbe",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "RowContextmenu"
+            },
+            {
+              "linkId": 200010,
+              "enable": false,
+              "KSCGUID": "k58948a232b4eecebab0cbf88b77bf1e",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "RowDbclick"
+            },
+            {
+              "linkId": 200011,
+              "enable": false,
+              "KSCGUID": "k0b141183aaca6dbfe34f79221731596",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "HeaderClick"
+            },
+            {
+              "linkId": 200012,
+              "enable": false,
+              "KSCGUID": "kaa238f20307c3322983606b3bc5eaee",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "SortChange"
+            },
+            {
+              "linkId": 200013,
+              "enable": false,
+              "KSCGUID": "kb67e7e824820019833b81ef8fb3cd51",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "FilterChange"
+            },
+            {
+              "linkId": 200014,
+              "enable": false,
+              "KSCGUID": "k0513ea1edad76751ada993ef07d23f5",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "CurrentChange"
+            },
+            {
+              "linkId": 200015,
+              "enable": false,
+              "KSCGUID": "kf5afa09a73a8d7f7a60af8dc70c6e1d",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "HeaderDragend"
+            },
+            {
+              "linkId": 200016,
+              "enable": false,
+              "KSCGUID": "kc7e3ed5e67c5cf97b857342ae732de5",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "ExpandChange"
+            },
+            {
+              "linkId": 200017,
+              "enable": false,
+              "KSCGUID": "kcaf4cd50f08797791f8e9034803c025",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "CurrentPageChange"
+            },
+            {
+              "linkId": 200018,
+              "enable": false,
+              "KSCGUID": "k532b12bcd97e208ea8be52aa4104ebd",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "OnLoadSuccess"
+            },
+            {
+              "linkId": 200019,
+              "enable": false,
+              "KSCGUID": "k4fec897d0ede49e18c71ae0aa2d1b0b",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "OnBeforeEdit"
+            },
+            {
+              "linkId": 200020,
+              "enable": false,
+              "KSCGUID": "k1b3d98e4ae08fb0bc787c2169a2e045",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "OnAfterEdit"
+            },
+            {
+              "linkId": 200021,
+              "enable": false,
+              "KSCGUID": "k2db0ec0088a22351c9ee6b812e08f6d",
+              "script": "",
+              "KSCLINKGUID": "",
+              "linkName": "PageSizeChange"
+            }
+          ],
+          "uiInputLinkList": [
+            {
+              "enable": true,
+              "key": "table.trigger.data",
+              "method": "setTableLinkData",
+              "source": [
+                {
+                  "id": "63f6aec1-cdd8-41ad-9885-e9ce1995407e",
+                  "name": "",
+                  "guid": "",
+                  "dataSourceType": -1,
+                  "belongedPage": ""
+                }
+              ]
+            }
+          ],
+          "uiOutputLinkList": [
+            {
+              "enable": false,
+              "key": "table.current.select.change",
+              "method": "",
+              "source": []
+            },
+            {
+              "enable": false,
+              "key": "table.selection.change",
+              "method": "",
+              "source": []
+            },
+            {
+              "enable": false,
+              "key": "rowClick.trigger.pageJump",
+              "method": "pageJump",
+              "source": [],
+              "condition": {
+                "enable": false,
+                "list": []
+              }
+            },
+            {
+              "enable": false,
+              "key": "rowClick.dataSet.link",
+              "method": "runDataSet",
+              "source": [
+                {
+                  "dataSetLinks": []
+                }
+              ],
+              "condition": {
+                "enable": false,
+                "list": []
+              }
+            },
+            {
+              "enable": false,
+              "key": "rowClick.param.link",
+              "method": "",
+              "source": [
+                {
+                  "paramLinks": []
+                }
+              ],
+              "condition": {
+                "enable": false,
+                "list": []
+              }
+            },
+            {
+              "enable": false,
+              "key": "rowDbClick.trigger.pageJump",
+              "method": "pageJump",
+              "source": [],
+              "condition": {
+                "enable": false,
+                "list": []
+              }
+            },
+            {
+              "enable": false,
+              "key": "rowDbClick.dataSet.link",
+              "method": "runDataSet",
+              "source": [
+                {
+                  "dataSetLinks": []
+                }
+              ],
+              "condition": {
+                "enable": false,
+                "list": []
+              }
+            },
+            {
+              "enable": false,
+              "key": "rowDbClick.param.link",
+              "method": "",
+              "source": [
+                {
+                  "paramLinks": []
+                }
+              ],
+              "condition": {
+                "enable": false,
+                "list": []
+              }
+            },
+            {
+              "enable": false,
+              "key": "rowRightClick.trigger.pageJump",
+              "method": "pageJump",
+              "source": [],
+              "condition": {
+                "enable": false,
+                "list": []
+              }
+            },
+            {
+              "enable": false,
+              "key": "rowRightClick.dataSet.link",
+              "method": "runDataSet",
+              "source": [
+                {
+                  "dataSetLinks": []
+                }
+              ],
+              "condition": {
+                "enable": false,
+                "list": []
+              }
+            },
+            {
+              "enable": false,
+              "key": "rowRightClick.param.link",
+              "method": "",
+              "source": [
+                {
+                  "paramLinks": []
+                }
+              ],
+              "condition": {
+                "enable": false,
+                "list": []
+              }
+            }
+          ],
+          "parentGUID": "kfa235cc90832992596645ec456851eb",
+          "spanMethodConfig": {
+            "enable": false,
+            "list": []
+          },
+          "rowKey": "guid",
+          "currentRow": null
+        }
+      },
+      "getRowData": null,
+      "paramCurrent": {
+        "type": "table.current.select.change",
+        "value": {
+          "enable": false,
+          "key": "table.current.select.change",
+          "method": "",
+          "source": []
+        }
+      }
+    }
+  ]
+}

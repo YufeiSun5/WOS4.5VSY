@@ -1,0 +1,687 @@
+{
+  "confirm": {
+    "ok": true,
+    "path": "top.1.0.0",
+    "remark": "左树右表纯前端假查询和默认首行展开 0626"
+  },
+  "observations": [
+    {
+      "dialogs": [
+        {
+          "path": "top.1.0",
+          "text": "编辑器",
+          "buttons": []
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        },
+        {
+          "path": "top.1.0.0.0",
+          "text": "版本提交\n\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        },
+        {
+          "path": "top.1.0.0.0",
+          "text": "版本提交\n\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "path": "top.1.0.0",
+          "text": "保存中,请稍后 ! ! !",
+          "cls": "el-loading-mask is-fullscreen el-loading-fade-enter el-loading-fade-enter-active"
+        }
+      ],
+      "href": "http://221.239.19.118:13001/#/main"
+    },
+    {
+      "dialogs": [
+        {
+          "path": "top.1.0",
+          "text": "编辑器",
+          "buttons": []
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "path": "top.1.0.0",
+          "text": "保存中,请稍后 ! ! !",
+          "cls": "el-loading-mask is-fullscreen el-loading-fade-leave el-loading-fade-leave-active"
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "保存成功",
+          "cls": "el-message el-message-fade-enter el-message-fade-enter-active"
+        }
+      ],
+      "href": "http://221.239.19.118:13001/#/main"
+    },
+    {
+      "dialogs": [
+        {
+          "path": "top.1.0",
+          "text": "编辑器",
+          "buttons": []
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "path": "top.1.0.0",
+          "text": "保存中,请稍后 ! ! !",
+          "cls": "el-loading-mask is-fullscreen el-loading-fade-leave el-loading-fade-leave-active"
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "保存成功",
+          "cls": "el-message el-message-fade-enter el-message-fade-enter-active"
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "生成历史版本成功！",
+          "cls": "el-message el-message--success el-message-fade-enter el-message-fade-enter-active"
+        }
+      ],
+      "href": "http://221.239.19.118:13001/#/main"
+    },
+    {
+      "dialogs": [
+        {
+          "path": "top.1.0",
+          "text": "编辑器",
+          "buttons": []
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "path": "top.1.0.0",
+          "text": "保存中,请稍后 ! ! !",
+          "cls": "el-loading-mask is-fullscreen el-loading-fade-leave el-loading-fade-leave-active"
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "保存成功",
+          "cls": "el-message el-message-fade-leave el-message-fade-leave-active"
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "生成历史版本成功！",
+          "cls": "el-message el-message--success el-message-fade-leave el-message-fade-leave-active"
+        }
+      ],
+      "href": "http://221.239.19.118:13001/#/main"
+    },
+    {
+      "dialogs": [
+        {
+          "path": "top.1.0",
+          "text": "编辑器",
+          "buttons": []
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "path": "top.1.0.0",
+          "text": "保存中,请稍后 ! ! !",
+          "cls": "el-loading-mask is-fullscreen el-loading-fade-leave el-loading-fade-leave-active"
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "保存成功",
+          "cls": "el-message el-message-fade-leave el-message-fade-leave-active"
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "生成历史版本成功！",
+          "cls": "el-message el-message--success el-message-fade-leave el-message-fade-leave-active"
+        }
+      ],
+      "href": "http://221.239.19.118:13001/#/main"
+    },
+    {
+      "dialogs": [
+        {
+          "path": "top.1.0",
+          "text": "编辑器",
+          "buttons": []
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "path": "top.1.0.0",
+          "text": "保存中,请稍后 ! ! !",
+          "cls": "el-loading-mask is-fullscreen el-loading-fade-leave el-loading-fade-leave-active"
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "保存成功",
+          "cls": "el-message el-message-fade-leave el-message-fade-leave-active"
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "生成历史版本成功！",
+          "cls": "el-message el-message--success el-message-fade-leave el-message-fade-leave-active"
+        }
+      ],
+      "href": "http://221.239.19.118:13001/#/main"
+    },
+    {
+      "dialogs": [
+        {
+          "path": "top.1.0",
+          "text": "编辑器",
+          "buttons": []
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "path": "top.1.0.0",
+          "text": "保存中,请稍后 ! ! !",
+          "cls": "el-loading-mask is-fullscreen el-loading-fade-leave el-loading-fade-leave-active"
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "保存成功",
+          "cls": "el-message el-message-fade-leave el-message-fade-leave-active"
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "生成历史版本成功！",
+          "cls": "el-message el-message--success el-message-fade-leave el-message-fade-leave-active"
+        }
+      ],
+      "href": "http://221.239.19.118:13001/#/main"
+    },
+    {
+      "dialogs": [
+        {
+          "path": "top.1.0",
+          "text": "编辑器",
+          "buttons": []
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "path": "top.1.0.0",
+          "text": "保存中,请稍后 ! ! !",
+          "cls": "el-loading-mask is-fullscreen el-loading-fade-leave el-loading-fade-leave-active"
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "保存成功",
+          "cls": "el-message el-message-fade-leave el-message-fade-leave-active"
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "生成历史版本成功！",
+          "cls": "el-message el-message--success el-message-fade-leave el-message-fade-leave-active"
+        }
+      ],
+      "href": "http://221.239.19.118:13001/#/main"
+    },
+    {
+      "dialogs": [
+        {
+          "path": "top.1.0",
+          "text": "编辑器",
+          "buttons": []
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "path": "top.1.0.0",
+          "text": "保存中,请稍后 ! ! !",
+          "cls": "el-loading-mask is-fullscreen el-loading-fade-leave el-loading-fade-leave-active"
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "保存成功",
+          "cls": "el-message el-message-fade-leave el-message-fade-leave-active"
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "生成历史版本成功！",
+          "cls": "el-message el-message--success el-message-fade-leave el-message-fade-leave-active"
+        }
+      ],
+      "href": "http://221.239.19.118:13001/#/main"
+    },
+    {
+      "dialogs": [
+        {
+          "path": "top.1.0",
+          "text": "编辑器",
+          "buttons": []
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "path": "top.1.0.0",
+          "text": "保存中,请稍后 ! ! !",
+          "cls": "el-loading-mask is-fullscreen el-loading-fade-leave el-loading-fade-leave-active"
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "保存成功",
+          "cls": "el-message el-message-fade-leave el-message-fade-leave-active"
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "生成历史版本成功！",
+          "cls": "el-message el-message--success el-message-fade-leave el-message-fade-leave-active"
+        }
+      ],
+      "href": "http://221.239.19.118:13001/#/main"
+    },
+    {
+      "dialogs": [
+        {
+          "path": "top.1.0",
+          "text": "编辑器",
+          "buttons": []
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "path": "top.1.0.0",
+          "text": "保存中,请稍后 ! ! !",
+          "cls": "el-loading-mask is-fullscreen el-loading-fade-leave el-loading-fade-leave-active"
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "保存成功",
+          "cls": "el-message el-message-fade-leave el-message-fade-leave-active"
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "生成历史版本成功！",
+          "cls": "el-message el-message--success el-message-fade-leave el-message-fade-leave-active"
+        }
+      ],
+      "href": "http://221.239.19.118:13001/#/main"
+    },
+    {
+      "dialogs": [
+        {
+          "path": "top.1.0",
+          "text": "编辑器",
+          "buttons": []
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "path": "top.1.0.0",
+          "text": "保存中,请稍后 ! ! !",
+          "cls": "el-loading-mask is-fullscreen el-loading-fade-leave el-loading-fade-leave-active"
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "保存成功",
+          "cls": "el-message el-message-fade-leave el-message-fade-leave-active"
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "生成历史版本成功！",
+          "cls": "el-message el-message--success el-message-fade-leave el-message-fade-leave-active"
+        }
+      ],
+      "href": "http://221.239.19.118:13001/#/main"
+    },
+    {
+      "dialogs": [
+        {
+          "path": "top.1.0",
+          "text": "编辑器",
+          "buttons": []
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "path": "top.1.0.0",
+          "text": "保存中,请稍后 ! ! !",
+          "cls": "el-loading-mask is-fullscreen el-loading-fade-leave el-loading-fade-leave-active"
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "保存成功",
+          "cls": "el-message el-message-fade-leave el-message-fade-leave-active"
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "生成历史版本成功！",
+          "cls": "el-message el-message--success el-message-fade-leave el-message-fade-leave-active"
+        }
+      ],
+      "href": "http://221.239.19.118:13001/#/main"
+    },
+    {
+      "dialogs": [
+        {
+          "path": "top.1.0",
+          "text": "编辑器",
+          "buttons": []
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "path": "top.1.0.0",
+          "text": "保存中,请稍后 ! ! !",
+          "cls": "el-loading-mask is-fullscreen el-loading-fade-leave el-loading-fade-leave-active"
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "保存成功",
+          "cls": "el-message el-message-fade-leave el-message-fade-leave-active"
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "生成历史版本成功！",
+          "cls": "el-message el-message--success el-message-fade-leave el-message-fade-leave-active"
+        }
+      ],
+      "href": "http://221.239.19.118:13001/#/main"
+    },
+    {
+      "dialogs": [
+        {
+          "path": "top.1.0",
+          "text": "编辑器",
+          "buttons": []
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "版本提交\n\n提交说明\n\n取消确定",
+          "buttons": [
+            "",
+            "取消",
+            "确定"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "path": "top.1.0.0",
+          "text": "保存中,请稍后 ! ! !",
+          "cls": "el-loading-mask is-fullscreen el-loading-fade-leave el-loading-fade-leave-active"
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "保存成功",
+          "cls": "el-message el-message-fade-leave el-message-fade-leave-active"
+        },
+        {
+          "path": "top.1.0.0",
+          "text": "生成历史版本成功！",
+          "cls": "el-message el-message--success el-message-fade-leave el-message-fade-leave-active"
+        }
+      ],
+      "href": "http://221.239.19.118:13001/#/main"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "task": "Palimpsest QueryAssessmentRecords v3 backend submit",
+  "time": "2026-06-29 20:05:59",
+  "ai": "孙宇飞_code-ai",
+  "model": "PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC",
+  "modelId": "1441151880758560281",
+  "modelGuid": "aa5d8314-87b7-453c-96e6-21e4327a8778",
+  "functions": {
+    "QueryAssessmentRecords": {
+      "updateRet": 0,
+      "traceId": "pal-20260629-queryrecords-param-driven-v3-object-condition",
+      "scriptLength": 4432,
+      "removedHardcodedRecordIds": true,
+      "listQueryShape": "mode=61 + objectCondition(mode=17, identifierType=2, names=[pal_assessment_record]) + mainMode=53 + returnFields + offset/limit",
+      "singleQueryShape": "mode=51 + objectName=pal_assessment_record + recordIDs=[recordID]",
+      "type": 3106
+    },
+    "onCreate": {
+      "updateRet": 0,
+      "purpose": "smoke call QueryAssessmentRecords with spaceTimeGuid/pageNo/pageSize/startTime/endTime"
+    }
+  },
+  "submit": {
+    "note": "pal-20260629-queryrecords-v3-object-condition",
+    "uiMessage": "提交成功",
+    "dialogResidue": "worker-space kept duplicate version-submit dialogs visible after success; success toast was captured"
+  },
+  "runtimeBoundary": {
+    "status": "model_version_submitted_not_runtime_updated",
+    "details": "PageView runtime call before the publish flow still returned the old traceId pal-20260628-queryrecords-conditions-fix, so the runtime package/deployment still needs the user's publish flow."
+  },
+  "directQueryProbe": {
+    "mode51Ret": -30018,
+    "mode61Ret": -30018,
+    "interpretation": "The ad-hoc worker-space JS wrapper for Query did not encode nested condition/appspacetimeguid in the same shape as the earlier successful direct Create/Query helpers. This probe is not used to reject the meta-language v3 body."
+  }
+}

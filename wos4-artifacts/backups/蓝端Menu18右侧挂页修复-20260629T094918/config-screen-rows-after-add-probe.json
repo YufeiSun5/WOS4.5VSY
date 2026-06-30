@@ -1,0 +1,1079 @@
+{
+  "rows": [
+    {
+      "i": 1,
+      "text": "PalimpsestExpandTable_82_Demo\n\n添加画面\n\n\t\nRight content expandable table demo, mock data only, avoids fixed-column expansion offset.\n\t\n编辑属性更新删除",
+      "html": "<tr class=\"el-table__row expanded\"><td rowspan=\"1\" colspan=\"1\" class=\"el-table_3_column_9  el-table-column--selection el-table__cell\"><div class=\"cell\"><label class=\"el-checkbox\"><span class=\"el-checkbox__input\"><span class=\"el-checkbox__inner\"></span><input type=\"checkbox\" aria-hidden=\"false\" class=\"el-checkbox__original\" value=\"\"></span><!----></label></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_3_column_10 is-left  el-table__cell\"><div class=\"cell\"><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><i class=\"el-icon-custom-pc-page\"></i><!----></button><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><i class=\"el-icon-custom-app-page\"></i><!----></button><span data-v-3499da1b=\"\"></span></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_3_column_11 is-left  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 523px;\"><!----><span data-v-3499da1b=\"\"><div class=\"page-name-cell-page\">\n                                <span>PalimpsestExpandTable_82_Demo</span>\n                                <p class=\"page-name-add\">添加画面</p>\n                            </div></span></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_3_column_12 is-left  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 523px;\"><!----><span data-v-3499da1b=\"\">Right content expandable table demo, mock data only, avoids fixed-column expansion offset.</span></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_3_column_13 is-left  el-table__cell\"><div class=\"cell\"><button data-v-3499d",
+      "controls": [
+        {
+          "j": 0,
+          "tag": "TD",
+          "text": "",
+          "cls": "el-table_3_column_9  el-table-column--selection el-table__cell",
+          "checked": false,
+          "rect": {
+            "x": 521,
+            "y": 239,
+            "w": 48,
+            "h": 45
+          }
+        },
+        {
+          "j": 1,
+          "tag": "DIV",
+          "text": "",
+          "cls": "cell",
+          "checked": false,
+          "rect": {
+            "x": 521,
+            "y": 249.5,
+            "w": 47,
+            "h": 23
+          }
+        },
+        {
+          "j": 2,
+          "tag": "LABEL",
+          "text": "",
+          "cls": "el-checkbox",
+          "checked": false,
+          "rect": {
+            "x": 531,
+            "y": 249.5,
+            "w": 14,
+            "h": 23
+          }
+        },
+        {
+          "j": 3,
+          "tag": "SPAN",
+          "text": "",
+          "cls": "el-checkbox__input",
+          "checked": false,
+          "rect": {
+            "x": 531,
+            "y": 253.875,
+            "w": 14,
+            "h": 16
+          }
+        },
+        {
+          "j": 4,
+          "tag": "SPAN",
+          "text": "",
+          "cls": "el-checkbox__inner",
+          "checked": false,
+          "rect": {
+            "x": 531,
+            "y": 253.875,
+            "w": 14,
+            "h": 14
+          }
+        },
+        {
+          "j": 5,
+          "tag": "TD",
+          "text": "",
+          "cls": "el-table_3_column_10 is-left  el-table__cell",
+          "checked": false,
+          "rect": {
+            "x": 569,
+            "y": 239,
+            "w": 100,
+            "h": 45
+          }
+        },
+        {
+          "j": 6,
+          "tag": "DIV",
+          "text": "",
+          "cls": "cell",
+          "checked": false,
+          "rect": {
+            "x": 569,
+            "y": 239,
+            "w": 99,
+            "h": 44
+          }
+        },
+        {
+          "j": 7,
+          "tag": "BUTTON",
+          "text": "",
+          "cls": "el-button el-button--text el-button--medium",
+          "checked": false,
+          "rect": {
+            "x": 579,
+            "y": 239,
+            "w": 22,
+            "h": 44
+          }
+        },
+        {
+          "j": 8,
+          "tag": "BUTTON",
+          "text": "",
+          "cls": "el-button el-button--text el-button--medium",
+          "checked": false,
+          "rect": {
+            "x": 611,
+            "y": 239,
+            "w": 22,
+            "h": 44
+          }
+        },
+        {
+          "j": 9,
+          "tag": "TD",
+          "text": "PalimpsestExpandTable_82_Demo\n\n添加画面",
+          "cls": "el-table_3_column_11 is-left  el-table__cell",
+          "checked": false,
+          "rect": {
+            "x": 669,
+            "y": 239,
+            "w": 525,
+            "h": 45
+          }
+        },
+        {
+          "j": 10,
+          "tag": "DIV",
+          "text": "PalimpsestExpandTable_82_Demo\n\n添加画面",
+          "cls": "cell el-tooltip",
+          "checked": false,
+          "rect": {
+            "x": 669,
+            "y": 249.5,
+            "w": 523,
+            "h": 23
+          }
+        },
+        {
+          "j": 11,
+          "tag": "SPAN",
+          "text": "PalimpsestExpandTable_82_Demo\n\n添加画面",
+          "cls": "",
+          "checked": false,
+          "rect": {
+            "x": 679,
+            "y": 249.5,
+            "w": 503,
+            "h": 23
+          }
+        },
+        {
+          "j": 12,
+          "tag": "DIV",
+          "text": "PalimpsestExpandTable_82_Demo\n\n添加画面",
+          "cls": "page-name-cell-page",
+          "checked": false,
+          "rect": {
+            "x": 679,
+            "y": 249.5,
+            "w": 503,
+            "h": 23
+          }
+        },
+        {
+          "j": 13,
+          "tag": "SPAN",
+          "text": "PalimpsestExpandTable_82_Demo",
+          "cls": "",
+          "checked": false,
+          "rect": {
+            "x": 709,
+            "y": 252.5,
+            "w": 217.921875,
+            "h": 16
+          }
+        },
+        {
+          "j": 14,
+          "tag": "TD",
+          "text": "Right content expandable table demo, mock data only, avoids fixed-column expansion offset.",
+          "cls": "el-table_3_column_12 is-left  el-table__cell",
+          "checked": false,
+          "rect": {
+            "x": 1194,
+            "y": 239,
+            "w": 525,
+            "h": 45
+          }
+        },
+        {
+          "j": 15,
+          "tag": "DIV",
+          "text": "Right content expandable table demo, mock data only, avoids fixed-column expansion offset.",
+          "cls": "cell el-tooltip",
+          "checked": false,
+          "rect": {
+            "x": 1194,
+            "y": 249.5,
+            "w": 523,
+            "h": 23
+          }
+        },
+        {
+          "j": 16,
+          "tag": "SPAN",
+          "text": "Right content expandable table demo, mock data only, avoids fixed-column expansion offset.",
+          "cls": "",
+          "checked": false,
+          "rect": {
+            "x": 1204,
+            "y": 252.5,
+            "w": 573.84375,
+            "h": 16
+          }
+        },
+        {
+          "j": 17,
+          "tag": "TD",
+          "text": "编辑属性更新删除",
+          "cls": "el-table_3_column_13 is-left  el-table__cell",
+          "checked": false,
+          "rect": {
+            "x": 1719,
+            "y": 239,
+            "w": 200,
+            "h": 45
+          }
+        },
+        {
+          "j": 18,
+          "tag": "DIV",
+          "text": "编辑属性更新删除",
+          "cls": "cell",
+          "checked": false,
+          "rect": {
+            "x": 1719,
+            "y": 243,
+            "w": 199,
+            "h": 36
+          }
+        },
+        {
+          "j": 19,
+          "tag": "BUTTON",
+          "text": "编辑",
+          "cls": "el-button el-button--text el-button--medium",
+          "checked": false,
+          "rect": {
+            "x": 1729,
+            "y": 243,
+            "w": 30,
+            "h": 36
+          }
+        },
+        {
+          "j": 20,
+          "tag": "SPAN",
+          "text": "编辑",
+          "cls": "",
+          "checked": false,
+          "rect": {
+            "x": 1730,
+            "y": 253,
+            "w": 28,
+            "h": 16
+          }
+        },
+        {
+          "j": 21,
+          "tag": "BUTTON",
+          "text": "属性",
+          "cls": "el-button el-button--text el-button--medium",
+          "checked": false,
+          "rect": {
+            "x": 1769,
+            "y": 243,
+            "w": 30,
+            "h": 36
+          }
+        },
+        {
+          "j": 22,
+          "tag": "SPAN",
+          "text": "属性",
+          "cls": "",
+          "checked": false,
+          "rect": {
+            "x": 1770,
+            "y": 253,
+            "w": 28,
+            "h": 16
+          }
+        },
+        {
+          "j": 23,
+          "tag": "BUTTON",
+          "text": "更新",
+          "cls": "el-button el-button--text el-button--medium",
+          "checked": false,
+          "rect": {
+            "x": 1809,
+            "y": 243,
+            "w": 30,
+            "h": 36
+          }
+        },
+        {
+          "j": 24,
+          "tag": "SPAN",
+          "text": "更新",
+          "cls": "",
+          "checked": false,
+          "rect": {
+            "x": 1810,
+            "y": 253,
+            "w": 28,
+            "h": 16
+          }
+        },
+        {
+          "j": 25,
+          "tag": "BUTTON",
+          "text": "删除",
+          "cls": "el-button el-button--text el-button--medium",
+          "checked": false,
+          "rect": {
+            "x": 1849,
+            "y": 243,
+            "w": 30,
+            "h": 36
+          }
+        },
+        {
+          "j": 26,
+          "tag": "SPAN",
+          "text": "删除",
+          "cls": "",
+          "checked": false,
+          "rect": {
+            "x": 1850,
+            "y": 253,
+            "w": 28,
+            "h": 16
+          }
+        }
+      ]
+    },
+    {
+      "i": 2,
+      "text": "PalimpsestMenu_18\n\n添加画面\n\n\t\nLeft menu page sprite, intended width 18 percent.\n\t\n编辑属性更新删除",
+      "html": "<tr class=\"el-table__row expanded\"><td rowspan=\"1\" colspan=\"1\" class=\"el-table_3_column_9  el-table-column--selection el-table__cell\"><div class=\"cell\"><label class=\"el-checkbox\"><span class=\"el-checkbox__input\"><span class=\"el-checkbox__inner\"></span><input type=\"checkbox\" aria-hidden=\"false\" class=\"el-checkbox__original\" value=\"\"></span><!----></label></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_3_column_10 is-left  el-table__cell\"><div class=\"cell\"><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><i class=\"el-icon-custom-pc-page custom-pc-first-page\"></i><!----></button><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><i class=\"el-icon-custom-app-page custom-app-first-page\"></i><!----></button><span data-v-3499da1b=\"\"></span></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_3_column_11 is-left  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 523px;\"><!----><span data-v-3499da1b=\"\"><div class=\"page-name-cell-page\">\n                                <span>PalimpsestMenu_18</span>\n                                <p class=\"page-name-add\">添加画面</p>\n                            </div></span></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_3_column_12 is-left  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 523px;\"><!----><span data-v-3499da1b=\"\">Left menu page sprite, intended width 18 percent.</span></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_3_column_13 is-left  el-table__cell\"><div class=\"cell\"><button data-v-3499da1b=\"\" typ",
+      "controls": [
+        {
+          "j": 0,
+          "tag": "TD",
+          "text": "",
+          "cls": "el-table_3_column_9  el-table-column--selection el-table__cell",
+          "checked": false,
+          "rect": {
+            "x": 521,
+            "y": 284,
+            "w": 48,
+            "h": 45
+          }
+        },
+        {
+          "j": 1,
+          "tag": "DIV",
+          "text": "",
+          "cls": "cell",
+          "checked": false,
+          "rect": {
+            "x": 521,
+            "y": 294.5,
+            "w": 47,
+            "h": 23
+          }
+        },
+        {
+          "j": 2,
+          "tag": "LABEL",
+          "text": "",
+          "cls": "el-checkbox",
+          "checked": false,
+          "rect": {
+            "x": 531,
+            "y": 294.5,
+            "w": 14,
+            "h": 23
+          }
+        },
+        {
+          "j": 3,
+          "tag": "SPAN",
+          "text": "",
+          "cls": "el-checkbox__input",
+          "checked": false,
+          "rect": {
+            "x": 531,
+            "y": 298.875,
+            "w": 14,
+            "h": 16
+          }
+        },
+        {
+          "j": 4,
+          "tag": "SPAN",
+          "text": "",
+          "cls": "el-checkbox__inner",
+          "checked": false,
+          "rect": {
+            "x": 531,
+            "y": 298.875,
+            "w": 14,
+            "h": 14
+          }
+        },
+        {
+          "j": 5,
+          "tag": "TD",
+          "text": "",
+          "cls": "el-table_3_column_10 is-left  el-table__cell",
+          "checked": false,
+          "rect": {
+            "x": 569,
+            "y": 284,
+            "w": 100,
+            "h": 45
+          }
+        },
+        {
+          "j": 6,
+          "tag": "DIV",
+          "text": "",
+          "cls": "cell",
+          "checked": false,
+          "rect": {
+            "x": 569,
+            "y": 284,
+            "w": 99,
+            "h": 44
+          }
+        },
+        {
+          "j": 7,
+          "tag": "BUTTON",
+          "text": "",
+          "cls": "el-button el-button--text el-button--medium",
+          "checked": false,
+          "rect": {
+            "x": 579,
+            "y": 284,
+            "w": 22,
+            "h": 44
+          }
+        },
+        {
+          "j": 8,
+          "tag": "BUTTON",
+          "text": "",
+          "cls": "el-button el-button--text el-button--medium",
+          "checked": false,
+          "rect": {
+            "x": 611,
+            "y": 284,
+            "w": 22,
+            "h": 44
+          }
+        },
+        {
+          "j": 9,
+          "tag": "TD",
+          "text": "PalimpsestMenu_18\n\n添加画面",
+          "cls": "el-table_3_column_11 is-left  el-table__cell",
+          "checked": false,
+          "rect": {
+            "x": 669,
+            "y": 284,
+            "w": 525,
+            "h": 45
+          }
+        },
+        {
+          "j": 10,
+          "tag": "DIV",
+          "text": "PalimpsestMenu_18\n\n添加画面",
+          "cls": "cell el-tooltip",
+          "checked": false,
+          "rect": {
+            "x": 669,
+            "y": 294.5,
+            "w": 523,
+            "h": 23
+          }
+        },
+        {
+          "j": 11,
+          "tag": "SPAN",
+          "text": "PalimpsestMenu_18\n\n添加画面",
+          "cls": "",
+          "checked": false,
+          "rect": {
+            "x": 679,
+            "y": 294.5,
+            "w": 503,
+            "h": 23
+          }
+        },
+        {
+          "j": 12,
+          "tag": "DIV",
+          "text": "PalimpsestMenu_18\n\n添加画面",
+          "cls": "page-name-cell-page",
+          "checked": false,
+          "rect": {
+            "x": 679,
+            "y": 294.5,
+            "w": 503,
+            "h": 23
+          }
+        },
+        {
+          "j": 13,
+          "tag": "SPAN",
+          "text": "PalimpsestMenu_18",
+          "cls": "",
+          "checked": false,
+          "rect": {
+            "x": 709,
+            "y": 297.5,
+            "w": 126.859375,
+            "h": 16
+          }
+        },
+        {
+          "j": 14,
+          "tag": "TD",
+          "text": "Left menu page sprite, intended width 18 percent.",
+          "cls": "el-table_3_column_12 is-left  el-table__cell",
+          "checked": false,
+          "rect": {
+            "x": 1194,
+            "y": 284,
+            "w": 525,
+            "h": 45
+          }
+        },
+        {
+          "j": 15,
+          "tag": "DIV",
+          "text": "Left menu page sprite, intended width 18 percent.",
+          "cls": "cell el-tooltip",
+          "checked": false,
+          "rect": {
+            "x": 1194,
+            "y": 294.5,
+            "w": 523,
+            "h": 23
+          }
+        },
+        {
+          "j": 16,
+          "tag": "SPAN",
+          "text": "Left menu page sprite, intended width 18 percent.",
+          "cls": "",
+          "checked": false,
+          "rect": {
+            "x": 1204,
+            "y": 297.5,
+            "w": 307.4375,
+            "h": 16
+          }
+        },
+        {
+          "j": 17,
+          "tag": "TD",
+          "text": "编辑属性更新删除",
+          "cls": "el-table_3_column_13 is-left  el-table__cell",
+          "checked": false,
+          "rect": {
+            "x": 1719,
+            "y": 284,
+            "w": 200,
+            "h": 45
+          }
+        },
+        {
+          "j": 18,
+          "tag": "DIV",
+          "text": "编辑属性更新删除",
+          "cls": "cell",
+          "checked": false,
+          "rect": {
+            "x": 1719,
+            "y": 288,
+            "w": 199,
+            "h": 36
+          }
+        },
+        {
+          "j": 19,
+          "tag": "BUTTON",
+          "text": "编辑",
+          "cls": "el-button el-button--text el-button--medium",
+          "checked": false,
+          "rect": {
+            "x": 1729,
+            "y": 288,
+            "w": 30,
+            "h": 36
+          }
+        },
+        {
+          "j": 20,
+          "tag": "SPAN",
+          "text": "编辑",
+          "cls": "",
+          "checked": false,
+          "rect": {
+            "x": 1730,
+            "y": 298,
+            "w": 28,
+            "h": 16
+          }
+        },
+        {
+          "j": 21,
+          "tag": "BUTTON",
+          "text": "属性",
+          "cls": "el-button el-button--text el-button--medium",
+          "checked": false,
+          "rect": {
+            "x": 1769,
+            "y": 288,
+            "w": 30,
+            "h": 36
+          }
+        },
+        {
+          "j": 22,
+          "tag": "SPAN",
+          "text": "属性",
+          "cls": "",
+          "checked": false,
+          "rect": {
+            "x": 1770,
+            "y": 298,
+            "w": 28,
+            "h": 16
+          }
+        },
+        {
+          "j": 23,
+          "tag": "BUTTON",
+          "text": "更新",
+          "cls": "el-button el-button--text el-button--medium",
+          "checked": false,
+          "rect": {
+            "x": 1809,
+            "y": 288,
+            "w": 30,
+            "h": 36
+          }
+        },
+        {
+          "j": 24,
+          "tag": "SPAN",
+          "text": "更新",
+          "cls": "",
+          "checked": false,
+          "rect": {
+            "x": 1810,
+            "y": 298,
+            "w": 28,
+            "h": 16
+          }
+        },
+        {
+          "j": 25,
+          "tag": "BUTTON",
+          "text": "删除",
+          "cls": "el-button el-button--text el-button--medium",
+          "checked": false,
+          "rect": {
+            "x": 1849,
+            "y": 288,
+            "w": 30,
+            "h": 36
+          }
+        },
+        {
+          "j": 26,
+          "tag": "SPAN",
+          "text": "删除",
+          "cls": "",
+          "checked": false,
+          "rect": {
+            "x": 1850,
+            "y": 298,
+            "w": 28,
+            "h": 16
+          }
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "text": "PalimpsestContent_82\n\n添加画面\n\n\t\nRight content page sprite, intended width 82 percent.\n\t\n编辑属性更新删除",
+      "html": "<tr class=\"el-table__row expanded\"><td rowspan=\"1\" colspan=\"1\" class=\"el-table_3_column_9  el-table-column--selection el-table__cell\"><div class=\"cell\"><label class=\"el-checkbox\"><span class=\"el-checkbox__input\"><span class=\"el-checkbox__inner\"></span><input type=\"checkbox\" aria-hidden=\"false\" class=\"el-checkbox__original\" value=\"\"></span><!----></label></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_3_column_10 is-left  el-table__cell\"><div class=\"cell\"><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><i class=\"el-icon-custom-pc-page\"></i><!----></button><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-button--text el-button--medium\"><!----><i class=\"el-icon-custom-app-page\"></i><!----></button><span data-v-3499da1b=\"\"></span></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_3_column_11 is-left  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 523px;\"><!----><span data-v-3499da1b=\"\"><div class=\"page-name-cell-page\">\n                                <span>PalimpsestContent_82</span>\n                                <p class=\"page-name-add\">添加画面</p>\n                            </div></span></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_3_column_12 is-left  el-table__cell\"><div class=\"cell el-tooltip\" style=\"width: 523px;\"><!----><span data-v-3499da1b=\"\">Right content page sprite, intended width 82 percent.</span></div></td><td rowspan=\"1\" colspan=\"1\" class=\"el-table_3_column_13 is-left  el-table__cell\"><div class=\"cell\"><button data-v-3499da1b=\"\" type=\"button\" class=\"el-button el-butto",
+      "controls": [
+        {
+          "j": 0,
+          "tag": "TD",
+          "text": "",
+          "cls": "el-table_3_column_9  el-table-column--selection el-table__cell",
+          "checked": false,
+          "rect": {
+            "x": 521,
+            "y": 329,
+            "w": 48,
+            "h": 45
+          }
+        },
+        {
+          "j": 1,
+          "tag": "DIV",
+          "text": "",
+          "cls": "cell",
+          "checked": false,
+          "rect": {
+            "x": 521,
+            "y": 339.5,
+            "w": 47,
+            "h": 23
+          }
+        },
+        {
+          "j": 2,
+          "tag": "LABEL",
+          "text": "",
+          "cls": "el-checkbox",
+          "checked": false,
+          "rect": {
+            "x": 531,
+            "y": 339.5,
+            "w": 14,
+            "h": 23
+          }
+        },
+        {
+          "j": 3,
+          "tag": "SPAN",
+          "text": "",
+          "cls": "el-checkbox__input",
+          "checked": false,
+          "rect": {
+            "x": 531,
+            "y": 343.875,
+            "w": 14,
+            "h": 16
+          }
+        },
+        {
+          "j": 4,
+          "tag": "SPAN",
+          "text": "",
+          "cls": "el-checkbox__inner",
+          "checked": false,
+          "rect": {
+            "x": 531,
+            "y": 343.875,
+            "w": 14,
+            "h": 14
+          }
+        },
+        {
+          "j": 5,
+          "tag": "TD",
+          "text": "",
+          "cls": "el-table_3_column_10 is-left  el-table__cell",
+          "checked": false,
+          "rect": {
+            "x": 569,
+            "y": 329,
+            "w": 100,
+            "h": 45
+          }
+        },
+        {
+          "j": 6,
+          "tag": "DIV",
+          "text": "",
+          "cls": "cell",
+          "checked": false,
+          "rect": {
+            "x": 569,
+            "y": 329,
+            "w": 99,
+            "h": 44
+          }
+        },
+        {
+          "j": 7,
+          "tag": "BUTTON",
+          "text": "",
+          "cls": "el-button el-button--text el-button--medium",
+          "checked": false,
+          "rect": {
+            "x": 579,
+            "y": 329,
+            "w": 22,
+            "h": 44
+          }
+        },
+        {
+          "j": 8,
+          "tag": "BUTTON",
+          "text": "",
+          "cls": "el-button el-button--text el-button--medium",
+          "checked": false,
+          "rect": {
+            "x": 611,
+            "y": 329,
+            "w": 22,
+            "h": 44
+          }
+        },
+        {
+          "j": 9,
+          "tag": "TD",
+          "text": "PalimpsestContent_82\n\n添加画面",
+          "cls": "el-table_3_column_11 is-left  el-table__cell",
+          "checked": false,
+          "rect": {
+            "x": 669,
+            "y": 329,
+            "w": 525,
+            "h": 45
+          }
+        },
+        {
+          "j": 10,
+          "tag": "DIV",
+          "text": "PalimpsestContent_82\n\n添加画面",
+          "cls": "cell el-tooltip",
+          "checked": false,
+          "rect": {
+            "x": 669,
+            "y": 339.5,
+            "w": 523,
+            "h": 23
+          }
+        },
+        {
+          "j": 11,
+          "tag": "SPAN",
+          "text": "PalimpsestContent_82\n\n添加画面",
+          "cls": "",
+          "checked": false,
+          "rect": {
+            "x": 679,
+            "y": 339.5,
+            "w": 503,
+            "h": 23
+          }
+        },
+        {
+          "j": 12,
+          "tag": "DIV",
+          "text": "PalimpsestContent_82\n\n添加画面",
+          "cls": "page-name-cell-page",
+          "checked": false,
+          "rect": {
+            "x": 679,
+            "y": 339.5,
+            "w": 503,
+            "h": 23
+          }
+        },
+        {
+          "j": 13,
+          "tag": "SPAN",
+          "text": "PalimpsestContent_82",
+          "cls": "",
+          "checked": false,
+          "rect": {
+            "x": 709,
+            "y": 342.5,
+            "w": 140.875,
+            "h": 16
+          }
+        },
+        {
+          "j": 14,
+          "tag": "TD",
+          "text": "Right content page sprite, intended width 82 percent.",
+          "cls": "el-table_3_column_12 is-left  el-table__cell",
+          "checked": false,
+          "rect": {
+            "x": 1194,
+            "y": 329,
+            "w": 525,
+            "h": 45
+          }
+        },
+        {
+          "j": 15,
+          "tag": "DIV",
+          "text": "Right content page sprite, intended width 82 percent.",
+          "cls": "cell el-tooltip",
+          "checked": false,
+          "rect": {
+            "x": 1194,
+            "y": 339.5,
+            "w": 523,
+            "h": 23
+          }
+        },
+        {
+          "j": 16,
+          "tag": "SPAN",
+          "text": "Right content page sprite, intended width 82 percent.",
+          "cls": "",
+          "checked": false,
+          "rect": {
+            "x": 1204,
+            "y": 342.5,
+            "w": 327.671875,
+            "h": 16
+          }
+        },
+        {
+          "j": 17,
+          "tag": "TD",
+          "text": "编辑属性更新删除",
+          "cls": "el-table_3_column_13 is-left  el-table__cell",
+          "checked": false,
+          "rect": {
+            "x": 1719,
+            "y": 329,
+            "w": 200,
+            "h": 45
+          }
+        },
+        {
+          "j": 18,
+          "tag": "DIV",
+          "text": "编辑属性更新删除",
+          "cls": "cell",
+          "checked": false,
+          "rect": {
+            "x": 1719,
+            "y": 333,
+            "w": 199,
+            "h": 36
+          }
+        },
+        {
+          "j": 19,
+          "tag": "BUTTON",
+          "text": "编辑",
+          "cls": "el-button el-button--text el-button--medium",
+          "checked": false,
+          "rect": {
+            "x": 1729,
+            "y": 333,
+            "w": 30,
+            "h": 36
+          }
+        },
+        {
+          "j": 20,
+          "tag": "SPAN",
+          "text": "编辑",
+          "cls": "",
+          "checked": false,
+          "rect": {
+            "x": 1730,
+            "y": 343,
+            "w": 28,
+            "h": 16
+          }
+        },
+        {
+          "j": 21,
+          "tag": "BUTTON",
+          "text": "属性",
+          "cls": "el-button el-button--text el-button--medium",
+          "checked": false,
+          "rect": {
+            "x": 1769,
+            "y": 333,
+            "w": 30,
+            "h": 36
+          }
+        },
+        {
+          "j": 22,
+          "tag": "SPAN",
+          "text": "属性",
+          "cls": "",
+          "checked": false,
+          "rect": {
+            "x": 1770,
+            "y": 343,
+            "w": 28,
+            "h": 16
+          }
+        },
+        {
+          "j": 23,
+          "tag": "BUTTON",
+          "text": "更新",
+          "cls": "el-button el-button--text el-button--medium",
+          "checked": false,
+          "rect": {
+            "x": 1809,
+            "y": 333,
+            "w": 30,
+            "h": 36
+          }
+        },
+        {
+          "j": 24,
+          "tag": "SPAN",
+          "text": "更新",
+          "cls": "",
+          "checked": false,
+          "rect": {
+            "x": 1810,
+            "y": 343,
+            "w": 28,
+            "h": 16
+          }
+        },
+        {
+          "j": 25,
+          "tag": "BUTTON",
+          "text": "删除",
+          "cls": "el-button el-button--text el-button--medium",
+          "checked": false,
+          "rect": {
+            "x": 1849,
+            "y": 333,
+            "w": 30,
+            "h": 36
+          }
+        },
+        {
+          "j": 26,
+          "tag": "SPAN",
+          "text": "删除",
+          "cls": "",
+          "checked": false,
+          "rect": {
+            "x": 1850,
+            "y": 343,
+            "w": 28,
+            "h": 16
+          }
+        }
+      ]
+    }
+  ],
+  "text": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0626\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n< 返回 盛云_孙宇飞_Palimpsest客户端_0626R2\n\n画面分组\n\n根组\n\n画面列表\n\n新建\n添加\n画面引用器\n更多操作 \n\t首页\t画面名称\t描述\t操作\n\t\n\t\nPalimpsestExpandTable_82_Demo\n\n添加画面\n\n\t\nRight content expandable table demo, mock data only, avoids fixed-column expansion offset.\n\t\n编辑属性更新删除\n\n\n\t\n\t\nPalimpsestMenu_18\n\n添加画面\n\n\t\nLeft menu page sprite, intended width 18 percent.\n\t\n编辑属性更新删除\n\n\n\t\n\t\nPalimpsestContent_82\n\n添加画面\n\n\t\nRight content page sprite, intended width 82 percent.\n\t\n编辑属性更新删除\n共 3 条\n1\n前往页"
+}

@@ -1,0 +1,72 @@
+{
+  "timestamp": "2026-06-26T09:50:00+08:00",
+  "operator": "孙宇飞_code-ai",
+  "tool": "browser-harness",
+  "project": "盛云_孙宇飞_Palimpsest工程_0626",
+  "model_group": "盛云_孙宇飞_根组",
+  "backend_model": "盛云科技_孙宇飞_Palimpsest_后台_0623",
+  "instantiated_runtime_instance": {
+    "space_time": "PalimpsestL1",
+    "instance": "PalimpsestBack",
+    "model": "盛云科技_孙宇飞_Palimpsest_后台_0623",
+    "model_version": "v2"
+  },
+  "left_menu_switches": {
+    "业务事": true,
+    "自定义计算": true,
+    "单灵敏时序物": true,
+    "多灵敏时序物": false,
+    "业务物": false,
+    "时序事": false,
+    "岗位": false,
+    "组织": false,
+    "人员": false
+  },
+  "business_events": {
+    "count": 8,
+    "names": [
+      "pal_menu_node",
+      "pal_department",
+      "pal_mentor",
+      "pal_intern_student",
+      "pal_assessment_batch",
+      "pal_assessment_record",
+      "pal_assessment_score_detail",
+      "pal_operation_log"
+    ],
+    "evidence_text": "业务事 Root ... 共 8 条"
+  },
+  "custom_computation": {
+    "list_count": 1,
+    "model_name": "PalimpsestBackend",
+    "trigger_type": "自定义函数",
+    "worker_space_frame": {
+      "href_contains": "worker-space/index.html",
+      "current_model": "PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC",
+      "object_type": "功能单元模型",
+      "version_status": "编辑态"
+    },
+    "functions_visible_in_worker_space": [
+      "declare",
+      "onCreate",
+      "onDestroy",
+      "onException",
+      "QueryAssessmentPage",
+      "QueryAssessmentData",
+      "QueryAssessmentSmoke",
+      "PalimpsestCrudService",
+      "QueryAssessmentRecords",
+      "CreateAssessmentRecord",
+      "UpdateAssessmentRecord",
+      "DeleteAssessmentRecord",
+      "SubmitAssessmentScore",
+      "PalimpsestHandleError"
+    ]
+  },
+  "separate_model_seen_in_model_list": {
+    "name": "PalimpsestAssessment_CUSTOMFUNC",
+    "description": "Palimpsest assessment CRUD backend functions for frontend integration.",
+    "interpretation": "模型列表中存在这个单独模型，但当前 0626 管控单元实例化使用的是盛云科技_孙宇飞_Palimpsest_后台_0623；后台_0623 内部已同时包含 8 个业务事和 PalimpsestBackend 自定义计算，所以现阶段不需要把纯重复/备用模型追加到 PalimpsestL1。"
+  },
+  "conclusion": "0626 当前实例化结构可行：PalimpsestBack 指向的后台_0623 是运行承载模型，包含数据/业务事和自定义计算；前端页面不进入管控单元实例列表，后续走数字孪生可视化客户端画面配置。"
+}

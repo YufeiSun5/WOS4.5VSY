@@ -1,0 +1,24 @@
+{
+  "rowName": "RRow2",
+  "rowsManagerCols": 1,
+  "colData": [
+    {
+      "UIName": "RCol6",
+      "KSCGUID": "a7ec6ae3-92d1-456c-87ca-88481c5488cb",
+      "lgWidth": 25,
+      "xlWidth": 1917,
+      "widthStrategy": "autosize",
+      "objectLen": 1
+    }
+  ],
+  "src": {
+    "addCol": "function: function () { [native code] }",
+    "setColsNumber": "function: function () { [native code] }",
+    "setColsManager": "function: function () { [native code] }",
+    "calculateRowColsWidth": "function: function () { [native code] }",
+    "initColsCompose": "function: function () { [native code] }",
+    "setColStrategy": "function: function () { [native code] }",
+    "setRowHeight": "function: function () { [native code] }",
+    "setHeightStrategy": "function: function () { [native code] }"
+  }
+}

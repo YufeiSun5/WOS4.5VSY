@@ -28,6 +28,10 @@ Always combine this skill with:
 - For concurrent WOS4 work, do not share one normal Chrome profile. Start separate profile sessions with `wos4-artifacts/scripts/wos4-browser-sessions.ps1`; each session must have its own `profile_dir`, `cdp_port`, and `harness_name`.
 - Starting a browser session does not claim a WOS account seat. Account seats are managed by WOS login person, not by AI agent role; use `AcquireAccount -Owner wos4:<账号别名>` only when a Chrome/profile needs to log in as that WOS account.
 - Dynamic `/public/?...` and `GetFileContent/.../index.html` URLs are evidence only, not entry points.
+- Before reading or operating any nested iframe, always inspect the top-level page for visible blocking dialogs. Top-level dialogs and overlays have higher priority than iframe content.
+- If the top-level page shows `应用停止`, `会话失效`, `无法连接到云`, `未知错误`, confirmation dialogs, save/submit/deploy errors, or any visible `.el-message-box` / `.el-dialog` blocking the page, report or record its title, body, and button labels first. Do not keep operating stale iframe DOM.
+- Resolve blocking dialogs by button text, not guessed coordinates. For example locate `退出`, `立即退出`, `确定`, `取消`, or `保留在当前页` from visible buttons. If the dialog meaning is unclear, stop and ask or record `blocked`.
+- After clicking any WOS4 action button that can create, save, submit, deploy, start, update, close, or open a dialog, enter the post-action observation window in this skill. Do not immediately classify the click as failed because the DOM still shows the old state for 1 to 3 seconds.
 - Save screenshots and JSON-like findings under `wos4-artifacts/screenshots/` and `wos4-artifacts/snapshots/`.
 
 ## Doctor
@@ -166,6 +170,65 @@ js(expression, target_id=None)
 
 `js()` accepts only `expression` and optional `target_id`; it does not accept Playwright-style extra arguments. Embed JSON into the script string when needed.
 
+## Post-Action Observation Window
+
+WOS4 often responds slowly after a valid click. A dialog can remain visible while a request is running, a list can show old rows while the backend creates the object, and a default name such as `客户端1` can appear before the final business name is committed. Treat these states as `loading_pending` until the observation window ends.
+
+Trigger this window after clicking buttons or menu actions such as:
+
+```text
+确定 / 新建 / 创建 / 保存 / 提交 / 提交版本 / 发布 / 部署 / 启动 / 停止 / 更新版本 / 关闭 / 进入工程 / 编辑 / 预览链接
+```
+
+Default timing:
+
+- quick UI actions: observe for at least 15 seconds before retrying.
+- package, submit, deploy, start, update-version, or slow server actions: observe up to 60 seconds.
+- poll every 1 to 2 seconds; after each poll record the top dialog, toast/message, loading/progress mask, request evidence, and target DOM predicate.
+
+Required checks in each poll:
+
+1. Top-level blocking dialog first: visible `.el-message-box`, `.el-dialog`, overlay, `应用停止`, `会话失效`, `无法连接到云`, `未知错误`, save/submit/deploy failure. If found, record title/body/buttons and handle it before iframe work.
+2. Fast toast/message: success, failure, warning, `创建中`, `提交中`, `更新中`, `部署中`, `启动中`.
+3. Progress dialog/table: progress bar percent, row `名称/GUID/状态/详情`, and whether rows still update.
+4. Network evidence: requests/responses that contain `/public/`, `GetFileContent`, `/api/`, `Create`, `Update`, `Submit`, `Deploy`, `Start`, or the current business object name.
+5. Target state predicate: expected row appears, target business name is stable, iframe runtime mounted, list total changes, dialog closes, or button returns enabled.
+
+Do not rely on `wait_for_network_idle()` alone. WOS4 can keep WebSocket or long-poll connections open, so `network idle` is only supporting evidence. A better success judgment combines network request evidence, disappearance of loading masks, absence of blocking top-level dialogs, and a stable target DOM/text state.
+
+Failure classification:
+
+1. No request, no toast, no loading mask, and no DOM/text change throughout the observation window: likely not clicked or target disabled; re-locate by text and try once.
+2. Request or progress exists but DOM still old: keep waiting or save evidence; do not repeat-click.
+3. Top-level blocking dialog appears: handle or stop; do not read stale iframe.
+4. Error toast/detail row appears: record exact text and stop or follow the matching error skill.
+
+Minimal probe pattern:
+
+```python
+def probe_top_state():
+    return js(r"""
+(() => {
+  const visible = el => {
+    if (!el) return false;
+    const s = getComputedStyle(el);
+    const r = el.getBoundingClientRect();
+    return s.display !== 'none' && s.visibility !== 'hidden' && r.width > 0 && r.height > 0;
+  };
+  const dialogs = Array.from(document.querySelectorAll('.el-message-box,.el-dialog,[role="dialog"]'))
+    .filter(visible)
+    .map(el => ({
+      text: (el.innerText || '').trim().slice(0, 500),
+      buttons: Array.from(el.querySelectorAll('button')).map(b => (b.innerText || '').trim()).filter(Boolean)
+    }));
+  const messages = Array.from(document.querySelectorAll('.el-message,.el-notification,.el-loading-mask'))
+    .filter(visible)
+    .map(el => (el.innerText || el.className || '').trim().slice(0, 300));
+  return {dialogs, messages, bodyText: (document.body.innerText || '').slice(0, 800)};
+})()
+""")
+```
+
 ## Login Pattern
 
 Use the login URL from `wos4-artifacts/config/wos4.local.ini` only. Do not hardcode a real WOS4 URL in reusable scripts or skill snippets.
@@ -252,6 +315,25 @@ If the desktop app opens but the ready loop says false, inspect screenshots and 
 ## Nested Iframe Access
 
 `iframe_target()` may not find WOS4's nested frame. Use same-origin recursive DOM access instead:
+
+Before running recursive iframe probes, run a top-level dialog probe. If it returns a visible blocking dialog, handle the dialog first and do not treat iframe text as current state:
+
+```javascript
+const visible = (el) => {
+  const r = el.getBoundingClientRect();
+  const s = getComputedStyle(el);
+  return r.width > 0 && r.height > 0 && s.display !== "none" && s.visibility !== "hidden";
+};
+const dialogs = Array.from(document.querySelectorAll(".el-message-box,.el-dialog,.el-overlay-message-box,[role='dialog']"))
+  .filter(visible)
+  .map((el) => ({
+    text: (el.innerText || el.textContent || "").trim(),
+    buttons: Array.from(el.querySelectorAll("button,.el-button"))
+      .filter(visible)
+      .map((b) => (b.innerText || b.textContent || "").trim())
+  }));
+return { topText: document.body.innerText.slice(0, 1000), dialogs };
+```
 
 ```python
 frames = js("""

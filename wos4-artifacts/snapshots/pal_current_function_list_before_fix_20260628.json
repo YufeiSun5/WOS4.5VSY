@@ -1,0 +1,114 @@
+{
+  "ret": 0,
+  "errorcodes": [
+    0
+  ],
+  "count": 15,
+  "funcs": [
+    {
+      "name": "declare",
+      "inputparam": "",
+      "returntype": "",
+      "scriptStart": "",
+      "scriptLen": 0
+    },
+    {
+      "name": "onCreate",
+      "inputparam": "",
+      "returntype": "",
+      "scriptStart": "string resultText;\nresultText = QueryAssessmentSmoke(\"{}\");\nTrace(2, \"PalimpsestBackend.onCreate.QueryAssessmentSmoke\", resultText);",
+      "scriptLen": 132
+    },
+    {
+      "name": "onDestroy",
+      "inputparam": "",
+      "returntype": "",
+      "scriptStart": "",
+      "scriptLen": 0
+    },
+    {
+      "name": "onException",
+      "inputparam": "stringMap<var> message",
+      "returntype": "",
+      "scriptStart": "Trace(2, \"PalimpsestBackend.onException\", message);",
+      "scriptLen": 51
+    },
+    {
+      "name": "onMessage",
+      "inputparam": "stringMap<var> message",
+      "returntype": "",
+      "scriptStart": "",
+      "scriptLen": 0
+    },
+    {
+      "name": "QueryAssessmentPage",
+      "inputparam": "stringMap<var> strmapPara",
+      "returntype": "string",
+      "scriptStart": "Trace(2, \"QueryAssessmentPage.enter\", filterJson);\nstring resultText;\nresultText = QueryAssessmentData(filterJson);\nTrace(2, \"QueryAssessmentPage.return\", resultText);\nreturn resultText;",
+      "scriptLen": 186
+    },
+    {
+      "name": "QueryAssessmentData",
+      "inputparam": "stringMap<var> strmapPara",
+      "returntype": "string",
+      "scriptStart": "Trace(2, \"QueryAssessmentData.enter\", filterJson);\nstringMap<var> strmapPara,returnData,data;\nstring recordsText;\nstring resultText;\nstrmapPara.pageNo = (int32)1;\nstrmapPara.pageSize = (int32)50;\nstrmapPara.spaceTimeGuid = \"aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+      "scriptLen": 871
+    },
+    {
+      "name": "QueryAssessmentSmoke",
+      "inputparam": "stringMap<var> strmapPara",
+      "returntype": "string",
+      "scriptStart": "Trace(2, \"QueryAssessmentSmoke.enter\", filterJson);\nstringMap<var> strmapPara,returnData,data;\nstring queryText;\nstring resultText;\nstrmapPara.pageNo = (int32)1;\nstrmapPara.pageSize = (int32)10;\nstrmapPara.spaceTimeGuid = \"aba6cf7a-0715-4966-8eaf-0f448eba7bc9\"",
+      "scriptLen": 713
+    },
+    {
+      "name": "PalimpsestCrudService",
+      "inputparam": "stringMap<var> strmapPara",
+      "returntype": "string",
+      "scriptStart": "Trace(2, \"PalimpsestCrudService.enter\", strmapPara);\nstring action;\nstring resultText;\nstring filterJson;\nstringMap<var> errorPara;\naction = \"query\";\nfilterJson = \"{}\";\nif (strmapPara.containsKey(\"action\")) { action = strmapPara.action; }\nif (strmapPara.contai",
+      "scriptLen": 1194
+    },
+    {
+      "name": "QueryAssessmentRecords",
+      "inputparam": "stringMap<var> strmapPara",
+      "returntype": "string",
+      "scriptStart": "Trace(2, \"QueryAssessmentRecords.enter\", strmapPara);\nstringMap<var> param,input,output,condition1,objectRecord1,returnData,data;\nstringMap<var>[] objectRecords;\nuint64[] recordIDs;\nstring[] returnFields;\nResult queryResult;\nstring resultText;\nstring spaceTime",
+      "scriptLen": 2923
+    },
+    {
+      "name": "CreateAssessmentRecord",
+      "inputparam": "stringMap<var> strmapPara",
+      "returntype": "string",
+      "scriptStart": "Trace(2, \"CreateAssessmentRecord.enter\", strmapPara);\nstringMap<var> param,input,output,fieldValue1,returnData,data;\nstringMap<var>[] fieldValues;\nstring[] dataFields;\nvar[] dataValue1;\nvar[][] dataValues;\nResult createResult;\nDateTime nowTime;\nstring recordKe",
+      "scriptLen": 4303
+    },
+    {
+      "name": "UpdateAssessmentRecord",
+      "inputparam": "stringMap<var> strmapPara",
+      "returntype": "string",
+      "scriptStart": "Trace(2, \"UpdateAssessmentRecord.enter\", strmapPara);\nstringMap<var> param,input,output,condition1,objectRecordFieldValue1,mulFieldValue,returnData,data;\nstringMap<var>[] conditions,objectRecordFieldValues;\nResult updateResult;\nuint64 recordID;\nDateTime nowTim",
+      "scriptLen": 2774
+    },
+    {
+      "name": "DeleteAssessmentRecord",
+      "inputparam": "stringMap<var> strmapPara",
+      "returntype": "string",
+      "scriptStart": "Trace(2, \"DeleteAssessmentRecord.enter\", strmapPara);\nstringMap<var> param,input,output,condition1,objectRecord1,returnData,data;\nstringMap<var>[] conditions,objectRecords;\nResult deleteResult;\nuint64 recordID;\nstring resultText;\nstring spaceTimeGuid;\n\ndata.ta",
+      "scriptLen": 2017
+    },
+    {
+      "name": "SubmitAssessmentScore",
+      "inputparam": "stringMap<var> strmapPara",
+      "returntype": "string",
+      "scriptStart": "Trace(2, \"SubmitAssessmentScore.enter\", strmapPara);\nstringMap<var> param,input,output,condition1,objectRecordFieldValue1,mulFieldValue,returnData,data;\nstringMap<var>[] conditions,objectRecordFieldValues;\nResult updateResult;\nuint64 recordID;\nDateTime nowTime",
+      "scriptLen": 3598
+    },
+    {
+      "name": "PalimpsestHandleError",
+      "inputparam": "stringMap<var> strmapPara",
+      "returntype": "string",
+      "scriptStart": "Trace(2, \"PalimpsestHandleError.enter\", strmapPara);\nstringMap<var> returnData,data;\nstring resultText;\nstring code;\nstring message;\ncode = \"ERROR\";\nmessage = \"Palimpsest backend error\";\nif (strmapPara.containsKey(\"code\")) { code = strmapPara.code; }\nif (strma",
+      "scriptLen": 637
+    }
+  ]
+}

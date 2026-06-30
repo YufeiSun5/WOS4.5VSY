@@ -5,6 +5,21 @@ description: Deploy and start a verified WOS4 repository data package from Time 
 
 # WOS4 Repository Package Deploy And Start
 
+## Current Backend-Chain Boundary
+
+This skill contains historical `时空功能开发 -> 部署管理` exploration and should not be treated as the primary current backend deployment flow.
+
+Current rule for backend business events and custom calculations:
+
+```text
+建模系统提交模型
+-> 组态系统客户端实例化
+-> 运维部署客户端部署 / 更新 / 启动
+-> 时空对象管理平台验证 / 调试
+```
+
+`时空对象管理平台` is a verification/debugging and spacetime-information source only. If the target object is absent there, return to 运维部署 or model/package version work. Do not create missing content in object management.
+
 ## Scope
 
 Use this skill for the verified deployment/start part of the source/meta-language demo route:
@@ -53,7 +68,7 @@ Read and follow these first:
   - top-level time-space: `盛云_孙宇飞_时空_0617_TOPV2`
   - top-level time-space status: `运行`
   - V2 package status in top-level time-space: `运行`
-  - independent `时空对象管理` showed this top-level time-space and allowed App/FU object creation.
+  - independent `时空对象管理` showed this top-level time-space. Historical App/FU object creation there is no longer the current workflow.
 
 Treat names as examples/evidence. Do not hard-code them for other tasks.
 
@@ -76,11 +91,13 @@ Manual text is only a hypothesis source. The steps below are based on UI verific
    - top: `时空对象管理`
    - bottom: `时空仓库管理`
 
-## Create Personal Time-Space
+## Deprecated Historical Section: Create Personal Time-Space
 
-If the personal time-space is missing:
+This section belongs to an older deployment exploration path and is not the current backend-chain flow. Do not use it to bypass 组态实例化 and 运维部署.
 
-1. In the top `时空对象管理` toolbar, click `创建`.
+Deprecated historical behavior if the personal time-space was missing:
+
+1. Deprecated historical step: in the top `时空对象管理` toolbar, click `创建`.
 2. Fill:
    - `名称`: personal time-space name
    - `描述`: short purpose note
@@ -177,12 +194,14 @@ This is only partially verified:
 
 Do not assume bottom `启动` works for an added same-repository V2 package in an already running time-space. In the verified run, clicking bottom `启动` and waiting about 60 seconds left V2 at `已部署`, while V1 remained `运行`.
 
-## Start A New Package Version In A Fresh Child Time-Space
+## Deprecated Historical Section: Start A New Package Version In A Fresh Child Time-Space
 
 This is verified for the case where adding V2 to an already running time-space only reaches `已部署`.
 
+Do not use this section for current backend debugging. Current backend debugging must use 组态实例化 -> 运维部署 -> independent 时空对象管理平台 verification.
+
 1. Select the parent personal time-space in the left tree.
-2. In the top `时空对象管理` toolbar, click `创建`.
+2. Deprecated historical step: in the top `时空对象管理` toolbar, click `创建`.
 3. Fill a child time-space name and description.
 4. Keep deployment system config values at default unless the task requires another data area.
 5. Click `确认`.
@@ -222,9 +241,11 @@ Selection trap:
 - If you select the child tree node itself, the top list can be empty and top deploy/start may not target the child card.
 - The independent `时空对象管理` desktop client did not show the verified child time-space after reload/reopen. Do not assume a running child time-space is directly selectable there.
 
-## Start A Package Version In A Fresh Top-Level Time-Space
+## Deprecated Historical Section: Start A Package Version In A Fresh Top-Level Time-Space
 
 This is verified for object creation follow-up, but it is not the default update path.
+
+Do not use this section for current backend debugging. Missing objects in independent `时空对象管理平台` must be fixed through 运维部署 or model/package version work, not by creating content in object management.
 
 Default behavior for iterative development is to reuse a fixed personal test time-space and update its repository package version. Use `wos4-runtime-package-update` before choosing this fallback.
 
@@ -236,7 +257,7 @@ Only create a fresh top-level time-space when:
 
 1. In `部署管理`, enter `本云(0)`.
 2. Select the root cloud node, not an existing personal time-space.
-3. Use the top `时空对象管理 -> 创建`.
+3. Deprecated historical step: use the top `时空对象管理 -> 创建`.
 4. Fill a new top-level time-space name and description.
 5. Keep deployment system config values at default unless the task requires another data area.
 6. Add the intended repository package through bottom `时空仓库管理 -> 添加`.

@@ -1,0 +1,225 @@
+{
+  "ok": true,
+  "preview": "E976A90F054CEA7502F826EC4BB9DC9A",
+  "queryRect": {
+    "path": "top.0",
+    "x": 1016,
+    "y": 77,
+    "w": 112,
+    "h": 38,
+    "text": "查询真实数据"
+  },
+  "queryFinal": {
+    "path": "top.0",
+    "rows": [
+      {
+        "name": "PAL_DIRECT6_20260627175612",
+        "recordID": "216172782113783809",
+        "status": "done",
+        "comment": "direct create wrapped values"
+      },
+      {
+        "name": "PAL_DIRECT6_20260627210127",
+        "recordID": "216172782113783810",
+        "status": "done",
+        "comment": "direct create wrapped values"
+      },
+      {
+        "name": "PAL_REMAIN_A_20260628005847",
+        "recordID": "216172782113783811",
+        "status": "completed_by_submit",
+        "comment": "SubmitAssessmentScore direct verified"
+      }
+    ],
+    "lastQuery": {
+      "ret": 0,
+      "rows": [
+        {
+          "name": "PAL_DIRECT6_20260627175612",
+          "studentId": "S2026041001",
+          "dept": "2024Q2",
+          "mentor": "M001",
+          "professional": "38",
+          "attitude": "18",
+          "task": "18",
+          "score": "92",
+          "status": "done",
+          "updated": "2026-6-27 17:55:30",
+          "recordID": "216172782113783809",
+          "teamwork": "9",
+          "innovation": "9",
+          "comment": "direct create wrapped values",
+          "actions": "查看   评分   编辑   更多",
+          "rowIndex": "1"
+        },
+        {
+          "name": "PAL_DIRECT6_20260627210127",
+          "studentId": "S2026041001",
+          "dept": "2024Q2",
+          "mentor": "M001",
+          "professional": "38",
+          "attitude": "18",
+          "task": "18",
+          "score": "92",
+          "status": "done",
+          "updated": "2026-6-27 17:55:30",
+          "recordID": "216172782113783810",
+          "teamwork": "9",
+          "innovation": "9",
+          "comment": "direct create wrapped values",
+          "actions": "查看   评分   编辑   更多",
+          "rowIndex": "2"
+        },
+        {
+          "name": "PAL_REMAIN_A_20260628005847",
+          "studentId": "S2026041001",
+          "dept": "2024Q2",
+          "mentor": "M001",
+          "professional": "40",
+          "attitude": "19",
+          "task": "19",
+          "score": "98",
+          "status": "completed_by_submit",
+          "updated": "2026-6-28 5:30:0",
+          "recordID": "216172782113783811",
+          "teamwork": "10",
+          "innovation": "10",
+          "comment": "SubmitAssessmentScore direct verified",
+          "actions": "查看   评分   编辑   更多",
+          "rowIndex": "3"
+        }
+      ],
+      "at": "2026-06-29T01:08:17.295Z"
+    },
+    "decorate": {
+      "rows": 3,
+      "dataRows": 3,
+      "at": "2026-06-29T01:08:17.723Z"
+    },
+    "text": "状态\n\t\n部门\n\t\n导师\n\t\n批次\n\t\n时间\n\t\n关键词\n\t\n查询真实数据\n重置\n导出\n\n记录ID\t学号\t批次\t导师\t专业能力\t工作态度\t任务完成\t综合评分\t状态\t更新时间\t操作\nPAL_DIRECT6_20260627175612\n\t\nS2026041001\n\t\n2024Q2\n\t\nM001\n\t\n38\n\t\n18\n\t\n18\n\t\n92\n\tdone\t\n2026-6-27 17:55:30\n\t\n查看\n评分\n编辑\n更多\n\n\nPAL_DIRECT6_20260627210127\n\t\nS2026041001\n\t\n2024Q2\n\t\nM001\n\t\n38\n\t\n18\n\t\n18\n\t\n92\n\tdone\t\n2026-6-27 17:55:30\n\t\n查看\n评分\n编辑\n更多\n\n\nPAL_REMAIN_A_20260628005847\n\t\nS2026041001\n\t\n2024Q2\n\t\nM001\n\t\n40\n\t\n19\n\t\n19\n\t\n98\n\tcompleted_by_submit\t\n2026-6-28 5:30:0\n\t\n查看\n评分\n编辑\n更多\n共 3 条\n1\n前往页"
+  },
+  "actions": {
+    "path": "top.0",
+    "initialRows": [
+      {
+        "recordID": "216172782113783809",
+        "status": "done",
+        "comment": "direct create wrapped values"
+      },
+      {
+        "recordID": "216172782113783810",
+        "status": "done",
+        "comment": "direct create wrapped values"
+      },
+      {
+        "recordID": "216172782113783811",
+        "status": "completed_by_submit",
+        "comment": "SubmitAssessmentScore direct verified"
+      }
+    ],
+    "clicked": {
+      "view": true,
+      "more": true,
+      "edit": true,
+      "submitEdit": true
+    },
+    "viewDialogText": "查看考核记录\n×\n记录ID：PAL_DIRECT6_20260627175612\nrecordID：216172782113783809\n学号：S2026041001\n批次：2024Q2\n导师：M001\n综合评分：92\n状态：done\n更新时间：2026-6-27 17:55:30\n评语：direct create wrapped values\n关闭",
+    "moreMenuText": "查看真实记录\n编辑状态/评语\n提交评分\n删除记录\n重新查询",
+    "editDialogText": "编辑真实记录\n×\n状态评语\n取消\n提交修改",
+    "editPayload": {
+      "status": "front_edit_verified_20260629",
+      "comment": "front edit verified 20260629 1782695299106",
+      "hasStatus": true,
+      "hasComment": true
+    }
+  },
+  "editObservations": [
+    {
+      "path": "top.0",
+      "lastAction": {
+        "type": "edit",
+        "ret": 0,
+        "row": {
+          "name": "PAL_DIRECT6_20260627175612",
+          "studentId": "S2026041001",
+          "dept": "2024Q2",
+          "mentor": "M001",
+          "professional": "38",
+          "attitude": "18",
+          "task": "18",
+          "score": "92",
+          "status": "done",
+          "updated": "2026-6-27 17:55:30",
+          "recordID": "216172782113783809",
+          "teamwork": "9",
+          "innovation": "9",
+          "comment": "direct create wrapped values",
+          "actions": "查看   评分   编辑   更多",
+          "rowIndex": "1"
+        }
+      },
+      "rows": [
+        {
+          "recordID": "216172782113783809",
+          "status": "front_edit_verified_20260629",
+          "comment": "front edit verified 20260629 1782695299106"
+        },
+        {
+          "recordID": "216172782113783810",
+          "status": "done",
+          "comment": "direct create wrapped values"
+        },
+        {
+          "recordID": "216172782113783811",
+          "status": "completed_by_submit",
+          "comment": "SubmitAssessmentScore direct verified"
+        }
+      ],
+      "toast": "修改返回 ret=0",
+      "dialog": ""
+    },
+    {
+      "path": "top.0",
+      "lastAction": {
+        "type": "edit",
+        "ret": 0,
+        "row": {
+          "name": "PAL_DIRECT6_20260627175612",
+          "studentId": "S2026041001",
+          "dept": "2024Q2",
+          "mentor": "M001",
+          "professional": "38",
+          "attitude": "18",
+          "task": "18",
+          "score": "92",
+          "status": "done",
+          "updated": "2026-6-27 17:55:30",
+          "recordID": "216172782113783809",
+          "teamwork": "9",
+          "innovation": "9",
+          "comment": "direct create wrapped values",
+          "actions": "查看   评分   编辑   更多",
+          "rowIndex": "1"
+        }
+      },
+      "rows": [
+        {
+          "recordID": "216172782113783809",
+          "status": "front_edit_verified_20260629",
+          "comment": "front edit verified 20260629 1782695299106"
+        },
+        {
+          "recordID": "216172782113783810",
+          "status": "done",
+          "comment": "direct create wrapped values"
+        },
+        {
+          "recordID": "216172782113783811",
+          "status": "completed_by_submit",
+          "comment": "SubmitAssessmentScore direct verified"
+        }
+      ],
+      "toast": ""
+    }
+  ]
+}

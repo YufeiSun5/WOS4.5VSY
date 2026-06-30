@@ -1,6 +1,6 @@
 ---
 name: wos4-instance-submit-package-diagnosis
-description: Diagnose WOS4 组态系统客户端管控单元实例提交、时空仓库提交和打包回调失败。Use when `提交版本` reports `-14496`, `-15495`, `因当前时空仓库未提交版本`, or when instance packaging must be distinguished from backend model code errors.
+description: Diagnose WOS4 组态系统客户端管控单元实例提交、时空仓库提交、进度条详情和打包回调失败。Use when `提交版本` reports `-14496`, `-15495`, `因当前时空仓库未提交版本`, when a `时空仓库版本提交进度` dialog must be captured, or when instance packaging must be distinguished from backend model code errors.
 ---
 
 # WOS4 Instance Submit Package Diagnosis
@@ -21,6 +21,7 @@ It covers:
 
 - checking whether the target instance is under the intended time-space node
 - submitting the current time-space repository before submitting instances
+- capturing the `时空仓库版本提交进度` dialog progress bar and per-row details
 - distinguishing model-code failure from platform package/base-copy failure
 - capturing real package callback details instead of only visible `errorCode`
 
@@ -69,6 +70,83 @@ Interpretation:
 - Visible `-14496` alone is insufficient.
 - If a known-good model and the target model both fail with the same internal `modelGUID=4afd8750...`, the blocker is the package/base App compile chain, not just the target backend CRUD source.
 - If the UI says the current time-space repository is not submitted, submit the selected time-space repository with the small toolbar `提交版本` icon before retrying row-level instance submit.
+
+2026-06-26 Palimpsest 0626 successful submit evidence:
+
+- Created new project `盛云_孙宇飞_Palimpsest工程_0626`.
+- Created time-space node `PalimpsestL1`.
+- Created only the backend runtime instance under that node:
+
+```text
+PalimpsestBack
+-> 盛云科技_孙宇飞_Palimpsest_后台_0623
+-> v2
+```
+
+- Did not add the page-only frontend model to `管控单元实例配置 -> 实例列表`; frontend page sprites should be bound later through `数字孪生可视化 -> 客户端 -> 画面列表`.
+- Submitted the selected `PalimpsestL1` time-space repository through the small toolbar `提交版本` icon.
+- The visible `时空仓库版本提交进度` dialog reached:
+
+```text
+100%
+
+PalimpsestL1
+657add61-3075-47cb-95a0-0b076373bd3e
+100%
+提交成功
+
+PalimpsestBack
+9a372903-13bd-49b9-808f-6448d5625b03
+100%
+提交成功
+```
+
+- Console callback evidence:
+
+```text
+_asyncCreatePacketCallback -> {"errorcodes":[0],"guids":["657add61-3075-47cb-95a0-0b076373bd3e"],"versions":[1]}
+_asyncCreatePacketCallback -> {"errorcodes":[0],"guids":["9a372903-13bd-49b9-808f-6448d5625b03"],"versions":[1]}
+```
+
+Interpretation:
+
+- Progress dialog rows are the primary success/failure source. Do not rely only on short toast messages.
+- If every row in the progress dialog is `100% / 提交成功` and callbacks return `errorcodes:[0]`, the time-space repository and instance package submission are successful.
+- A script may miss the result if it waits only for `el-message` toasts. The progress dialog remains visible and should be scraped directly.
+
+2026-06-29 Palimpsest 0626R2 verified batch submit operation:
+
+- In the `批量提交版本` modal, selecting a node in the left tree is not enough. The target time-space must appear in the right `预选时空` list before clicking `确定`.
+- Verified human-equivalent sequence:
+
+```text
+批量提交版本
+-> 左侧 时空结构 勾选 PalimpsestL1_0626R2
+-> 点击中间 transfer/arrow 按钮
+-> 确认右侧 预选时空 出现 PalimpsestL1_0626R2
+-> 填写提交说明
+-> 点击 确定
+-> 读取 时空仓库版本提交进度
+```
+
+- Verified success rows:
+
+```text
+PalimpsestL1_0626R2
+aba6cf7a-0715-4966-8eaf-0f448eba7bc9
+100%
+提交成功
+
+PalimpsestBack_0626R2
+92d89140-0736-41f2-873b-6bfab8f3d276
+100%
+提交成功
+```
+
+- After the submit, `运维部署客户端` successfully deployed and started `PalimpsestL1_0626R2`; the row became `版本 8 / 本云 / area0 / 已部署 / 已启动`.
+- Automation note: DOM `.click()` on the checkbox can fail to change Element UI tree state. Prefer locating the visible checkbox/label by DOM geometry, then perform a real browser click at that coordinate and re-read the right `预选时空` text.
+- Automation note: do not match top-level desktop text when looking for WOS4 app content. Use the visible nested frame containing the active client, not `top`, because the desktop shell contains names from all open apps.
+- Encoding note: if writing browser-harness temp scripts with ASCII encoding, match ASCII object names such as `PalimpsestL1_0626R2` and `PalimpsestBack_0626R2`, or use Unicode escapes for Chinese labels.
 
 ## Verified Original CRUD Comparison
 
@@ -141,11 +219,42 @@ MDB_ERR_QUERY_BASE_MODEL_NOT_EXIST
 1. Select the intended time-space node in `时空列表`.
 2. Re-read the instance table and confirm the target instance row is visible under that node.
 3. If row submit says the time-space repository has no version, click the small toolbar `提交版本` icon in the `时空列表` header.
-4. Fill a clear submit note and confirm.
-5. If repository submit returns partial failure, inspect the progress rows. Do not treat the repository row success as instance success.
-6. Close any `版本提交进度` dialog before retrying row-level `提交版本`; stale progress dialogs block new submits.
-7. For row submit, install the detailed console capture before clicking.
-8. Confirm and save the full callback JSON under `wos4-artifacts/snapshots/`.
+4. If a `批量提交版本` modal opens, first move the target from left `时空结构` to right `预选时空`:
+   - choose `每个节点独立选择` unless the task explicitly needs parent-child selection
+   - tick the target node in the left tree
+   - click the middle transfer/arrow button
+   - confirm the target name appears on the right side
+   - only then fill the submit note and click `确定`
+5. Fill a clear submit note and confirm.
+6. Wait for the `时空仓库版本提交进度` / `版本提交进度` dialog. Capture:
+   - progress percentage text, usually `100%`
+   - visible table headers
+   - every visible row: `名称 / GUID / 状态 / 详情`
+   - whether every row is `100% / 提交成功`
+7. If repository submit returns partial failure, inspect the progress rows. Do not treat the repository row success as instance success.
+8. Close any `版本提交进度` dialog before retrying row-level `提交版本`; stale progress dialogs block new submits.
+9. For row submit, install the detailed console capture before clicking.
+10. Confirm and save the full callback JSON and progress rows under `wos4-artifacts/snapshots/`.
+
+Completion rule:
+
+```text
+done = progress dialog visible
+  AND all required rows are present
+  AND each required row has 状态 100%
+  AND each required row has 详情 提交成功
+  AND _asyncCreatePacketCallback errorcodes are all 0
+```
+
+Failure rule:
+
+```text
+failed = any row contains 失败 / 错误 / errorCode
+  OR callback errorcodes contain a nonzero code
+  OR progress dialog disappears without a readable success row
+```
+
+When the server is slow, wait for the progress dialog rows instead of clicking submit again. Repeated submit clicks can create stale dialogs or duplicate operations.
 
 ## Detailed Callback Capture
 
@@ -178,6 +287,50 @@ Capture at least:
 - visible progress dialog rows
 - visible message-box text
 
+## Progress Dialog Capture
+
+The progress dialog is more reliable than toast messages. Use it for both success and failure evidence.
+
+Capture shape:
+
+```javascript
+function readSubmitProgress(doc) {
+  const dialogs = Array.from(doc.querySelectorAll(".el-dialog,.el-message-box"))
+    .filter(d => {
+      const r = d.getBoundingClientRect();
+      return r.width > 0 && r.height > 0;
+    })
+    .filter(d => /版本提交进度|时空仓库版本提交进度/.test(d.innerText || ""));
+
+  return dialogs.map((d, i) => ({
+    i,
+    text: (d.innerText || "").slice(0, 5000),
+    rows: Array.from(d.querySelectorAll("tr,.el-table__row"))
+      .map((r, j) => ({ j, text: (r.innerText || "").slice(0, 1000) }))
+      .filter(r => r.text)
+  }));
+}
+```
+
+Accept success only after reading rows similar to:
+
+```text
+名称    GUID                                  状态    详情
+PalimpsestL1    ...                          100%    提交成功
+PalimpsestBack  ...                          100%    提交成功
+```
+
+Do not stop at the top progress value alone. `100%` can appear while a row still contains a failure detail.
+
+If the user visually confirms the dialog succeeded but automation keeps waiting, stop waiting and immediately read:
+
+- `doc.body.innerText`
+- progress dialog rows
+- captured console callbacks
+- screenshot of the progress dialog
+
+Then update the skill or script condition. Treat that as a script-recognition problem unless the dialog rows contain a failure.
+
 ## Encoding Rule
 
 When using `browser-harness` ASCII temp files, do not write raw Chinese labels in JS/Python source.
@@ -209,6 +362,8 @@ wos4-artifacts/snapshots/pal_back_submit_clean_detail2_20260624.json
 wos4-artifacts/snapshots/crud_project_list_after_refresh_20260624.json
 wos4-artifacts/snapshots/crud_nadirl2_rows_probe_20260624.json
 wos4-artifacts/snapshots/crud_nadirback_submit_detail_20260624.json
+wos4-artifacts/snapshots/pal_0626_spacetime_submit_result_20260626.json
+wos4-artifacts/screenshots/pal_0626_spacetime_submit_result.png
 ```
 
 Append conclusions to:

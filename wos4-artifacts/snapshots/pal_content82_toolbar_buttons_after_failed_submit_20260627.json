@@ -1,0 +1,4205 @@
+{
+  "href": "http://221.239.19.118:13001/api/v1/GetFileContent/1/0/0/94054fd1-9b20-463a-8372-b69776349847_120/index.html",
+  "buttons": [
+    {
+      "i": 0,
+      "tag": "DIV",
+      "cls": "app-master",
+      "id": "",
+      "text": "文件(F)\n提交\n预览\n\n组件\n\n布局容器\nUI组件\n图表组件\n流程图\n精灵图库\nPalimpsestContent_82\n状态\n\t\n部门\n\t\n导师\n\t\n批次\n",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1900,
+        "h": 829
+      }
+    },
+    {
+      "i": 1,
+      "tag": "DIV",
+      "cls": "toolbar",
+      "id": "",
+      "text": "文件(F)\n提交\n预览",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1900,
+        "h": 36
+      }
+    },
+    {
+      "i": 2,
+      "tag": "DIV",
+      "cls": "toolbar_editor",
+      "id": "",
+      "text": "文件(F)\n提交\n预览",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1900,
+        "h": 36
+      }
+    },
+    {
+      "i": 3,
+      "tag": "DIV",
+      "cls": "",
+      "id": "",
+      "text": "文件(F)",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 105.203125,
+        "h": 36
+      }
+    },
+    {
+      "i": 4,
+      "tag": "DIV",
+      "cls": "el-button-group toolbar_app",
+      "id": "",
+      "text": "文件(F)",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 105.203125,
+        "h": 36
+      }
+    },
+    {
+      "i": 5,
+      "tag": "DIV",
+      "cls": "toolbar_app_right_button el-dropdown",
+      "id": "",
+      "text": "文件(F)",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 105.203125,
+        "h": 36
+      }
+    },
+    {
+      "i": 6,
+      "tag": "SPAN",
+      "cls": "el-dropdown-link el-dropdown-selfdefine",
+      "id": "document_s",
+      "text": "文件(F)",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 105.203125,
+        "h": 36
+      }
+    },
+    {
+      "i": 7,
+      "tag": "DIV",
+      "cls": "el-button-group toolbar_standard",
+      "id": "",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 105.203125,
+        "y": 0,
+        "w": 307,
+        "h": 36
+      }
+    },
+    {
+      "i": 9,
+      "tag": "I",
+      "cls": "custom-icon-save",
+      "id": "",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 114.203125,
+        "y": 10,
+        "w": 17,
+        "h": 16
+      }
+    },
+    {
+      "i": 26,
+      "tag": "HR",
+      "cls": "toolbar_editor_vert_split",
+      "id": "",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 420.203125,
+        "y": 9,
+        "w": 3,
+        "h": 22
+      }
+    },
+    {
+      "i": 27,
+      "tag": "DIV",
+      "cls": "el-button-group toolbar_view",
+      "id": "",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 423.203125,
+        "y": 0,
+        "w": 137,
+        "h": 36
+      }
+    },
+    {
+      "i": 36,
+      "tag": "HR",
+      "cls": "toolbar_editor_vert_split",
+      "id": "",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 568.203125,
+        "y": 9,
+        "w": 3,
+        "h": 22
+      }
+    },
+    {
+      "i": 37,
+      "tag": "DIV",
+      "cls": "el-button-group toolbar_zoom",
+      "id": "",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 571.203125,
+        "y": 0,
+        "w": 103,
+        "h": 36
+      }
+    },
+    {
+      "i": 44,
+      "tag": "HR",
+      "cls": "toolbar_editor_vert_split",
+      "id": "",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 682.203125,
+        "y": 9,
+        "w": 3,
+        "h": 22
+      }
+    },
+    {
+      "i": 45,
+      "tag": "DIV",
+      "cls": "el-button-group toolbar_layout",
+      "id": "",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 685.203125,
+        "y": 0,
+        "w": 137,
+        "h": 36
+      }
+    },
+    {
+      "i": 54,
+      "tag": "HR",
+      "cls": "toolbar_editor_vert_split",
+      "id": "",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 830.203125,
+        "y": 9,
+        "w": 3,
+        "h": 22
+      }
+    },
+    {
+      "i": 55,
+      "tag": "DIV",
+      "cls": "el-button-group toolbar_page",
+      "id": "",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 833.203125,
+        "y": 0,
+        "w": 35,
+        "h": 36
+      }
+    },
+    {
+      "i": 58,
+      "tag": "DIV",
+      "cls": "",
+      "id": "",
+      "text": "提交",
+      "title": "",
+      "rect": {
+        "x": 868.203125,
+        "y": 0,
+        "w": 35,
+        "h": 36
+      }
+    },
+    {
+      "i": 59,
+      "tag": "BUTTON",
+      "cls": "el-button el-tooltip toolbar_historyVersion el-button--text el-button--medium",
+      "id": "",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 868.203125,
+        "y": 0,
+        "w": 35,
+        "h": 36
+      }
+    },
+    {
+      "i": 61,
+      "tag": "BUTTON",
+      "cls": "el-button toolbar-history-submit el-button--text el-button--medium",
+      "id": "",
+      "text": "提交",
+      "title": "",
+      "rect": {
+        "x": 1740,
+        "y": 0,
+        "w": 80,
+        "h": 39
+      }
+    },
+    {
+      "i": 62,
+      "tag": "I",
+      "cls": "custom-icon-submit",
+      "id": "",
+      "text": "",
+      "title": "",
+      "rect": {
+        "x": 1756.5,
+        "y": 11,
+        "w": 16,
+        "h": 17
+      }
+    },
+    {
+      "i": 63,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "提交",
+      "title": "",
+      "rect": {
+        "x": 1775.5,
+        "y": 11,
+        "w": 28,
+        "h": 16
+      }
+    },
+    {
+      "i": 64,
+      "tag": "DIV",
+      "cls": "el-button-group toolbar_app",
+      "id": "",
+      "text": "预览",
+      "title": "",
+      "rect": {
+        "x": 1819,
+        "y": 0,
+        "w": 79,
+        "h": 36
+      }
+    },
+    {
+      "i": 65,
+      "tag": "BUTTON",
+      "cls": "el-button el-tooltip toolbar_app_right_button el-button--primary el-button--medium",
+      "id": "",
+      "text": "预览",
+      "title": "",
+      "rect": {
+        "x": 1819,
+        "y": 0,
+        "w": 80,
+        "h": 36
+      }
+    },
+    {
+      "i": 67,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "预览",
+      "title": "",
+      "rect": {
+        "x": 1848,
+        "y": 12,
+        "w": 28,
+        "h": 18
+      }
+    },
+    {
+      "i": 68,
+      "tag": "DIV",
+      "cls": "toolkit_expand",
+      "id": "toolkit_main",
+      "text": "组件\n\n布局容器\nUI组件\n图表组件\n流程图\n精灵图库",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 42,
+        "w": 288,
+        "h": 753
+      }
+    },
+    {
+      "i": 69,
+      "tag": "DIV",
+      "cls": "toolkit-panel",
+      "id": "",
+      "text": "组件\n\n布局容器\nUI组件\n图表组件\n流程图\n精灵图库",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 42,
+        "w": 288,
+        "h": 753
+      }
+    },
+    {
+      "i": 70,
+      "tag": "DIV",
+      "cls": "toolkit_title",
+      "id": "",
+      "text": "组件",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 42,
+        "w": 288,
+        "h": 50
+      }
+    },
+    {
+      "i": 75,
+      "tag": "DIV",
+      "cls": "toolkit-main",
+      "id": "toolkit-main-container",
+      "text": "布局容器\nUI组件\n图表组件\n流程图\n精灵图库",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 92,
+        "w": 288,
+        "h": 703
+      }
+    },
+    {
+      "i": 76,
+      "tag": "DIV",
+      "cls": "toolkit_group",
+      "id": "",
+      "text": "布局容器",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 92,
+        "w": 280,
+        "h": 33
+      }
+    },
+    {
+      "i": 77,
+      "tag": "DIV",
+      "cls": "el-collapse",
+      "id": "",
+      "text": "布局容器",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 92,
+        "w": 280,
+        "h": 33
+      }
+    },
+    {
+      "i": 78,
+      "tag": "DIV",
+      "cls": "el-collapse-item",
+      "id": "",
+      "text": "布局容器",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 92,
+        "w": 280,
+        "h": 33
+      }
+    },
+    {
+      "i": 79,
+      "tag": "DIV",
+      "cls": "",
+      "id": "",
+      "text": "布局容器",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 92,
+        "w": 280,
+        "h": 33
+      }
+    },
+    {
+      "i": 80,
+      "tag": "DIV",
+      "cls": "el-collapse-item__header",
+      "id": "el-collapse-head-9155",
+      "text": "布局容器",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 92,
+        "w": 280,
+        "h": 33
+      }
+    },
+    {
+      "i": 81,
+      "tag": "SPAN",
+      "cls": "toolkit_group_collapse_title",
+      "id": "container",
+      "text": "布局容器",
+      "title": "",
+      "rect": {
+        "x": 31,
+        "y": 91.5,
+        "w": 249,
+        "h": 33
+      }
+    },
+    {
+      "i": 84,
+      "tag": "DIV",
+      "cls": "toolkit_group toolkit_group_ui_tool",
+      "id": "",
+      "text": "UI组件",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 125,
+        "w": 280,
+        "h": 33
+      }
+    },
+    {
+      "i": 85,
+      "tag": "DIV",
+      "cls": "el-collapse",
+      "id": "",
+      "text": "UI组件",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 125,
+        "w": 280,
+        "h": 33
+      }
+    },
+    {
+      "i": 86,
+      "tag": "DIV",
+      "cls": "el-collapse-item",
+      "id": "",
+      "text": "UI组件",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 125,
+        "w": 280,
+        "h": 33
+      }
+    },
+    {
+      "i": 87,
+      "tag": "DIV",
+      "cls": "",
+      "id": "",
+      "text": "UI组件",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 125,
+        "w": 280,
+        "h": 33
+      }
+    },
+    {
+      "i": 88,
+      "tag": "DIV",
+      "cls": "el-collapse-item__header",
+      "id": "el-collapse-head-9460",
+      "text": "UI组件",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 125,
+        "w": 280,
+        "h": 33
+      }
+    },
+    {
+      "i": 89,
+      "tag": "SPAN",
+      "cls": "toolkit_group_collapse_title",
+      "id": "container",
+      "text": "UI组件",
+      "title": "",
+      "rect": {
+        "x": 31,
+        "y": 124.5,
+        "w": 249,
+        "h": 33
+      }
+    },
+    {
+      "i": 92,
+      "tag": "DIV",
+      "cls": "toolkit_group toolkit_group_ui_tool",
+      "id": "",
+      "text": "图表组件",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 158,
+        "w": 280,
+        "h": 33
+      }
+    },
+    {
+      "i": 93,
+      "tag": "DIV",
+      "cls": "el-collapse",
+      "id": "",
+      "text": "图表组件",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 158,
+        "w": 280,
+        "h": 33
+      }
+    },
+    {
+      "i": 94,
+      "tag": "DIV",
+      "cls": "el-collapse-item",
+      "id": "",
+      "text": "图表组件",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 158,
+        "w": 280,
+        "h": 33
+      }
+    },
+    {
+      "i": 95,
+      "tag": "DIV",
+      "cls": "",
+      "id": "",
+      "text": "图表组件",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 158,
+        "w": 280,
+        "h": 33
+      }
+    },
+    {
+      "i": 96,
+      "tag": "DIV",
+      "cls": "el-collapse-item__header",
+      "id": "el-collapse-head-4689",
+      "text": "图表组件",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 158,
+        "w": 280,
+        "h": 33
+      }
+    },
+    {
+      "i": 97,
+      "tag": "SPAN",
+      "cls": "toolkit_group_collapse_title",
+      "id": "container",
+      "text": "图表组件",
+      "title": "",
+      "rect": {
+        "x": 31,
+        "y": 157.5,
+        "w": 249,
+        "h": 33
+      }
+    },
+    {
+      "i": 100,
+      "tag": "DIV",
+      "cls": "toolkit_group",
+      "id": "",
+      "text": "流程图",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 191,
+        "w": 280,
+        "h": 33
+      }
+    },
+    {
+      "i": 101,
+      "tag": "DIV",
+      "cls": "el-collapse",
+      "id": "",
+      "text": "流程图",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 191,
+        "w": 280,
+        "h": 33
+      }
+    },
+    {
+      "i": 102,
+      "tag": "DIV",
+      "cls": "el-collapse-item",
+      "id": "",
+      "text": "流程图",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 191,
+        "w": 280,
+        "h": 33
+      }
+    },
+    {
+      "i": 103,
+      "tag": "DIV",
+      "cls": "",
+      "id": "",
+      "text": "流程图",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 191,
+        "w": 280,
+        "h": 33
+      }
+    },
+    {
+      "i": 104,
+      "tag": "DIV",
+      "cls": "el-collapse-item__header",
+      "id": "el-collapse-head-3508",
+      "text": "流程图",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 191,
+        "w": 280,
+        "h": 33
+      }
+    },
+    {
+      "i": 105,
+      "tag": "SPAN",
+      "cls": "toolkit_group_collapse_title",
+      "id": "container",
+      "text": "流程图",
+      "title": "",
+      "rect": {
+        "x": 31,
+        "y": 190.5,
+        "w": 249,
+        "h": 33
+      }
+    },
+    {
+      "i": 108,
+      "tag": "DIV",
+      "cls": "toolkit_group_sprite",
+      "id": "",
+      "text": "精灵图库",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 224,
+        "w": 280,
+        "h": 33
+      }
+    },
+    {
+      "i": 109,
+      "tag": "DIV",
+      "cls": "el-collapse",
+      "id": "",
+      "text": "精灵图库",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 224,
+        "w": 280,
+        "h": 33
+      }
+    },
+    {
+      "i": 110,
+      "tag": "DIV",
+      "cls": "el-collapse-item",
+      "id": "",
+      "text": "精灵图库",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 224,
+        "w": 280,
+        "h": 33
+      }
+    },
+    {
+      "i": 111,
+      "tag": "DIV",
+      "cls": "",
+      "id": "",
+      "text": "精灵图库",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 224,
+        "w": 280,
+        "h": 33
+      }
+    },
+    {
+      "i": 112,
+      "tag": "DIV",
+      "cls": "el-collapse-item__header",
+      "id": "el-collapse-head-3501",
+      "text": "精灵图库",
+      "title": "",
+      "rect": {
+        "x": 0,
+        "y": 224,
+        "w": 280,
+        "h": 33
+      }
+    },
+    {
+      "i": 113,
+      "tag": "SPAN",
+      "cls": "toolkit_group_collapse_title",
+      "id": "container",
+      "text": "精灵图库",
+      "title": "",
+      "rect": {
+        "x": 31,
+        "y": 223.5,
+        "w": 249,
+        "h": 33
+      }
+    },
+    {
+      "i": 117,
+      "tag": "DIV",
+      "cls": "",
+      "id": "pageTab",
+      "text": "PalimpsestContent_82\n状态\n\t\n部门\n\t\n导师\n\t\n批次\n\t\n时间\n\t\n关键词\n\t\nBackend Smoke\n重置\n导出\n\n姓名\t学号\t部",
+      "title": "",
+      "rect": {
+        "x": 298,
+        "y": 43,
+        "w": 1602,
+        "h": 751
+      }
+    },
+    {
+      "i": 118,
+      "tag": "DIV",
+      "cls": "fun-unit-tab el-tabs el-tabs--top el-tabs--border-card",
+      "id": "",
+      "text": "PalimpsestContent_82\n状态\n\t\n部门\n\t\n导师\n\t\n批次\n\t\n时间\n\t\n关键词\n\t\nBackend Smoke\n重置\n导出\n\n姓名\t学号\t部",
+      "title": "",
+      "rect": {
+        "x": 298,
+        "y": 43,
+        "w": 1602,
+        "h": 751
+      }
+    },
+    {
+      "i": 119,
+      "tag": "DIV",
+      "cls": "el-tabs__header is-top",
+      "id": "",
+      "text": "PalimpsestContent_82",
+      "title": "",
+      "rect": {
+        "x": 298,
+        "y": 43,
+        "w": 1602,
+        "h": 35
+      }
+    },
+    {
+      "i": 120,
+      "tag": "DIV",
+      "cls": "el-tabs__nav-wrap is-top",
+      "id": "",
+      "text": "PalimpsestContent_82",
+      "title": "",
+      "rect": {
+        "x": 298,
+        "y": 43,
+        "w": 1602,
+        "h": 39
+      }
+    },
+    {
+      "i": 121,
+      "tag": "DIV",
+      "cls": "el-tabs__nav-scroll",
+      "id": "",
+      "text": "PalimpsestContent_82",
+      "title": "",
+      "rect": {
+        "x": 298,
+        "y": 43,
+        "w": 1602,
+        "h": 39
+      }
+    },
+    {
+      "i": 122,
+      "tag": "DIV",
+      "cls": "el-tabs__nav is-top",
+      "id": "",
+      "text": "PalimpsestContent_82",
+      "title": "",
+      "rect": {
+        "x": 298,
+        "y": 43,
+        "w": 200.875,
+        "h": 39
+      }
+    },
+    {
+      "i": 123,
+      "tag": "DIV",
+      "cls": "el-tabs__item is-top is-active is-closable",
+      "id": "tab-60212e1d-16ab-41ef-82e2-89390b7c6511_0",
+      "text": "PalimpsestContent_82",
+      "title": "",
+      "rect": {
+        "x": 297,
+        "y": 42,
+        "w": 201.875,
+        "h": 40
+      }
+    },
+    {
+      "i": 124,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "PalimpsestContent_82",
+      "title": "PalimpsestContent_82",
+      "rect": {
+        "x": 318,
+        "y": 55,
+        "w": 140.875,
+        "h": 16
+      }
+    },
+    {
+      "i": 126,
+      "tag": "DIV",
+      "cls": "el-tabs__content",
+      "id": "",
+      "text": "状态\n\t\n部门\n\t\n导师\n\t\n批次\n\t\n时间\n\t\n关键词\n\t\nBackend Smoke\n重置\n导出\n\n姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综",
+      "title": "",
+      "rect": {
+        "x": 298,
+        "y": 78,
+        "w": 1602,
+        "h": 712
+      }
+    },
+    {
+      "i": 127,
+      "tag": "DIV",
+      "cls": "el-tab-pane",
+      "id": "pane-60212e1d-16ab-41ef-82e2-89390b7c6511_0",
+      "text": "状态\n\t\n部门\n\t\n导师\n\t\n批次\n\t\n时间\n\t\n关键词\n\t\nBackend Smoke\n重置\n导出\n\n姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综",
+      "title": "",
+      "rect": {
+        "x": 298,
+        "y": 78,
+        "w": 1602,
+        "h": 712
+      }
+    },
+    {
+      "i": 128,
+      "tag": "DIV",
+      "cls": "view_area",
+      "id": "page_edit_view_area",
+      "text": "状态\n\t\n部门\n\t\n导师\n\t\n批次\n\t\n时间\n\t\n关键词\n\t\nBackend Smoke\n重置\n导出\n\n姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综",
+      "title": "",
+      "rect": {
+        "x": 298,
+        "y": 78,
+        "w": 1602,
+        "h": 712
+      }
+    },
+    {
+      "i": 129,
+      "tag": "DIV",
+      "cls": "view_area_page_auto view_area_page_grid",
+      "id": "page_view_stage",
+      "text": "状态\n\t\n部门\n\t\n导师\n\t\n批次\n\t\n时间\n\t\n关键词\n\t\nBackend Smoke\n重置\n导出\n\n姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综",
+      "title": "",
+      "rect": {
+        "x": 298,
+        "y": 78,
+        "w": 1222,
+        "h": 712
+      }
+    },
+    {
+      "i": 130,
+      "tag": "DIV",
+      "cls": "sketch-ruler view_area_page_center",
+      "id": "",
+      "text": "状态\n\t\n部门\n\t\n导师\n\t\n批次\n\t\n时间\n\t\n关键词\n\t\nBackend Smoke\n重置\n导出\n\n姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综",
+      "title": "",
+      "rect": {
+        "x": 298,
+        "y": 78,
+        "w": 1222,
+        "h": 712
+      }
+    },
+    {
+      "i": 131,
+      "tag": "DIV",
+      "cls": "canvasedit-parent defaultCursor",
+      "id": "",
+      "text": "状态\n\t\n部门\n\t\n导师\n\t\n批次\n\t\n时间\n\t\n关键词\n\t\nBackend Smoke\n重置\n导出\n\n姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综",
+      "title": "",
+      "rect": {
+        "x": 314,
+        "y": 94,
+        "w": 1206,
+        "h": 696
+      }
+    },
+    {
+      "i": 132,
+      "tag": "DIV",
+      "cls": "canvasedit defaultCursor",
+      "id": "",
+      "text": "状态\n\t\n部门\n\t\n导师\n\t\n批次\n\t\n时间\n\t\n关键词\n\t\nBackend Smoke\n重置\n导出\n\n姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综",
+      "title": "",
+      "rect": {
+        "x": 419.9657897949219,
+        "y": 100.95999908447266,
+        "w": 994.068359375,
+        "h": 682.0800170898438
+      }
+    },
+    {
+      "i": 133,
+      "tag": "DIV",
+      "cls": "page_view",
+      "id": "pageView",
+      "text": "状态\n\t\n部门\n\t\n导师\n\t\n批次\n\t\n时间\n\t\n关键词\n\t\nBackend Smoke\n重置\n导出\n\n姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综",
+      "title": "",
+      "rect": {
+        "x": 419.9657897949219,
+        "y": 100.95999908447266,
+        "w": 994.068359375,
+        "h": 682.0800170898438
+      }
+    },
+    {
+      "i": 134,
+      "tag": "DIV",
+      "cls": "layer_view",
+      "id": "",
+      "text": "状态\n\t\n部门\n\t\n导师\n\t\n批次\n\t\n时间\n\t\n关键词\n\t\nBackend Smoke\n重置\n导出\n\n姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综",
+      "title": "",
+      "rect": {
+        "x": 419.9657897949219,
+        "y": 100.95999908447266,
+        "w": 994.068359375,
+        "h": 682.0800170898438
+      }
+    },
+    {
+      "i": 135,
+      "tag": "DIV",
+      "cls": "layout_container unselect_container containerStyle",
+      "id": "RContainerkae54a7bdb8a2a01a8447c27a95c6a63",
+      "text": "状态\n\t\n部门\n\t\n导师\n\t\n批次\n\t\n时间\n\t\n关键词\n\t\nBackend Smoke\n重置\n导出\n\n姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综",
+      "title": "",
+      "rect": {
+        "x": 419.9657897949219,
+        "y": 100.95999908447266,
+        "w": 994.068359375,
+        "h": 682.0800170898438
+      }
+    },
+    {
+      "i": 136,
+      "tag": "DIV",
+      "cls": "containerrow",
+      "id": "k1e9517e8f54b3c1f674400faa091db3",
+      "text": "状态\n\t\n部门\n\t\n导师\n\t\n批次\n\t\n时间\n\t\n关键词\n\t\nBackend Smoke\n重置\n导出\n\n姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综",
+      "title": "",
+      "rect": {
+        "x": 419.9657897949219,
+        "y": 100.95999908447266,
+        "w": 994.068359375,
+        "h": 682.0800170898438
+      }
+    },
+    {
+      "i": 137,
+      "tag": "SPAN",
+      "cls": "containerrow",
+      "id": "",
+      "text": "状态\n\t\n部门\n\t\n导师\n\t\n批次\n\t\n时间\n\t\n关键词\n\t\nBackend Smoke\n重置\n导出\n\n姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综",
+      "title": "",
+      "rect": {
+        "x": 419.9657897949219,
+        "y": 100.95999908447266,
+        "w": 994.068359375,
+        "h": 682.0800170898438
+      }
+    },
+    {
+      "i": 138,
+      "tag": "DIV",
+      "cls": "response_row response_row_border",
+      "id": "RRow1_mqqfjd4o_bkmnxn",
+      "text": "状态\n\t\n部门\n\t\n导师\n\t\n批次\n\t\n时间",
+      "title": "",
+      "rect": {
+        "x": 419.9657897949219,
+        "y": 100.95999908447266,
+        "w": 994.068359375,
+        "h": 45.472007751464844
+      }
+    },
+    {
+      "i": 139,
+      "tag": "DIV",
+      "cls": "responseRow_col",
+      "id": "",
+      "text": "状态\n\t\n部门\n\t\n导师\n\t\n批次\n\t\n时间",
+      "title": "",
+      "rect": {
+        "x": 420.59735107421875,
+        "y": 101.591552734375,
+        "w": 992.8053588867188,
+        "h": 45.47200012207031
+      }
+    },
+    {
+      "i": 140,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "状态\n\t\n部门\n\t\n导师\n\t\n批次\n\t\n时间",
+      "title": "",
+      "rect": {
+        "x": 420.59735107421875,
+        "y": 101.591552734375,
+        "w": 992.8053588867188,
+        "h": 45.47200012207031
+      }
+    },
+    {
+      "i": 141,
+      "tag": "DIV",
+      "cls": "response_col",
+      "id": "FilterKeywordCol_mqqfjd4o_834tdf",
+      "text": "状态",
+      "title": "",
+      "rect": {
+        "x": 420.59735107421875,
+        "y": 101.591552734375,
+        "w": 195.78216552734375,
+        "h": 45.47200012207031
+      }
+    },
+    {
+      "i": 142,
+      "tag": "DIV",
+      "cls": "list-group offset-col bgcCol",
+      "id": "",
+      "text": "状态",
+      "title": "",
+      "rect": {
+        "x": 421.2288818359375,
+        "y": 102.22311401367188,
+        "w": 194.5191650390625,
+        "h": 44.208892822265625
+      }
+    },
+    {
+      "i": 143,
+      "tag": "DIV",
+      "cls": "component_object_unselect",
+      "id": "",
+      "text": "状态",
+      "title": "",
+      "rect": {
+        "x": 421.2288818359375,
+        "y": 102.22311401367188,
+        "w": 194.5191650390625,
+        "h": 44.208892822265625
+      }
+    },
+    {
+      "i": 144,
+      "tag": "DIV",
+      "cls": "ui_factory",
+      "id": "",
+      "text": "状态",
+      "title": "",
+      "rect": {
+        "x": 421.2288818359375,
+        "y": 102.22311401367188,
+        "w": 194.5191650390625,
+        "h": 44.208892822265625
+      }
+    },
+    {
+      "i": 145,
+      "tag": "DIV",
+      "cls": "",
+      "id": "",
+      "text": "状态",
+      "title": "",
+      "rect": {
+        "x": 421.2288818359375,
+        "y": 102.22311401367188,
+        "w": 194.5191650390625,
+        "h": 44.208892822265625
+      }
+    },
+    {
+      "i": 146,
+      "tag": "DIV",
+      "cls": "el-input-component component_object pal_filter_status",
+      "id": "UI_78689",
+      "text": "状态",
+      "title": "",
+      "rect": {
+        "x": 421.2288818359375,
+        "y": 102.22311401367188,
+        "w": 194.5191650390625,
+        "h": 29.051544189453125
+      }
+    },
+    {
+      "i": 147,
+      "tag": "DIV",
+      "cls": "el-input el-input--small el-input-group el-input-group--prepend el-input--suffix is-normal",
+      "id": "",
+      "text": "状态",
+      "title": "",
+      "rect": {
+        "x": 426.2813415527344,
+        "y": 106.01244354248047,
+        "w": 184.41421508789062,
+        "h": 22.736000061035156
+      }
+    },
+    {
+      "i": 148,
+      "tag": "DIV",
+      "cls": "el-input-group__prepend",
+      "id": "",
+      "text": "状态",
+      "title": "",
+      "rect": {
+        "x": 426.2813415527344,
+        "y": 106.01244354248047,
+        "w": 29.68310546875,
+        "h": 22.736000061035156
+      }
+    },
+    {
+      "i": 149,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "状态",
+      "title": "",
+      "rect": {
+        "x": 433.22845458984375,
+        "y": 112.3280029296875,
+        "w": 16.420440673828125,
+        "h": 9.47332763671875
+      }
+    },
+    {
+      "i": 150,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "状态",
+      "title": "",
+      "rect": {
+        "x": 433.22845458984375,
+        "y": 112.3280029296875,
+        "w": 16.420440673828125,
+        "h": 9.47332763671875
+      }
+    },
+    {
+      "i": 152,
+      "tag": "DIV",
+      "cls": "response_col",
+      "id": "FilterDeptCol_mqqfjd4o_tp9tpy",
+      "text": "部门",
+      "title": "",
+      "rect": {
+        "x": 616.3795166015625,
+        "y": 101.591552734375,
+        "w": 189.4666748046875,
+        "h": 45.47200012207031
+      }
+    },
+    {
+      "i": 153,
+      "tag": "DIV",
+      "cls": "list-group offset-col bgcCol",
+      "id": "",
+      "text": "部门",
+      "title": "",
+      "rect": {
+        "x": 617.0111083984375,
+        "y": 102.22311401367188,
+        "w": 188.20361328125,
+        "h": 44.208892822265625
+      }
+    },
+    {
+      "i": 154,
+      "tag": "DIV",
+      "cls": "component_object_unselect",
+      "id": "",
+      "text": "部门",
+      "title": "",
+      "rect": {
+        "x": 617.0111083984375,
+        "y": 102.22311401367188,
+        "w": 188.20361328125,
+        "h": 44.208892822265625
+      }
+    },
+    {
+      "i": 155,
+      "tag": "DIV",
+      "cls": "ui_factory",
+      "id": "",
+      "text": "部门",
+      "title": "",
+      "rect": {
+        "x": 617.0111083984375,
+        "y": 102.22311401367188,
+        "w": 188.20361328125,
+        "h": 44.208892822265625
+      }
+    },
+    {
+      "i": 156,
+      "tag": "DIV",
+      "cls": "",
+      "id": "",
+      "text": "部门",
+      "title": "",
+      "rect": {
+        "x": 617.0111083984375,
+        "y": 102.22311401367188,
+        "w": 188.20361328125,
+        "h": 44.208892822265625
+      }
+    },
+    {
+      "i": 157,
+      "tag": "DIV",
+      "cls": "el-input-component component_object pal_filter_dept",
+      "id": "UI_78689",
+      "text": "部门",
+      "title": "",
+      "rect": {
+        "x": 617.0111083984375,
+        "y": 102.22311401367188,
+        "w": 188.20361328125,
+        "h": 29.051544189453125
+      }
+    },
+    {
+      "i": 158,
+      "tag": "DIV",
+      "cls": "el-input el-input--auto el-input-group el-input-group--prepend el-input--suffix is-normal",
+      "id": "",
+      "text": "部门",
+      "title": "",
+      "rect": {
+        "x": 622.0635986328125,
+        "y": 106.01244354248047,
+        "w": 178.0986328125,
+        "h": 22.736000061035156
+      }
+    },
+    {
+      "i": 159,
+      "tag": "DIV",
+      "cls": "el-input-group__prepend",
+      "id": "",
+      "text": "部门",
+      "title": "",
+      "rect": {
+        "x": 622.0635986328125,
+        "y": 106.01244354248047,
+        "w": 29.68310546875,
+        "h": 22.736000061035156
+      }
+    },
+    {
+      "i": 160,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "部门",
+      "title": "",
+      "rect": {
+        "x": 629.0106811523438,
+        "y": 112.3280029296875,
+        "w": 16.42047119140625,
+        "h": 9.47332763671875
+      }
+    },
+    {
+      "i": 161,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "部门",
+      "title": "",
+      "rect": {
+        "x": 629.0106811523438,
+        "y": 112.3280029296875,
+        "w": 16.42047119140625,
+        "h": 9.47332763671875
+      }
+    },
+    {
+      "i": 163,
+      "tag": "DIV",
+      "cls": "response_col",
+      "id": "FilterMentorCol_mqqfjd4o_ybuwq4",
+      "text": "导师",
+      "title": "",
+      "rect": {
+        "x": 805.84619140625,
+        "y": 101.591552734375,
+        "w": 189.4666748046875,
+        "h": 45.47200012207031
+      }
+    },
+    {
+      "i": 164,
+      "tag": "DIV",
+      "cls": "list-group offset-col bgcCol",
+      "id": "",
+      "text": "导师",
+      "title": "",
+      "rect": {
+        "x": 806.477783203125,
+        "y": 102.22311401367188,
+        "w": 188.20355224609375,
+        "h": 44.208892822265625
+      }
+    },
+    {
+      "i": 165,
+      "tag": "DIV",
+      "cls": "component_object_unselect",
+      "id": "",
+      "text": "导师",
+      "title": "",
+      "rect": {
+        "x": 806.477783203125,
+        "y": 102.22311401367188,
+        "w": 188.20355224609375,
+        "h": 44.208892822265625
+      }
+    },
+    {
+      "i": 166,
+      "tag": "DIV",
+      "cls": "ui_factory",
+      "id": "",
+      "text": "导师",
+      "title": "",
+      "rect": {
+        "x": 806.477783203125,
+        "y": 102.22311401367188,
+        "w": 188.20355224609375,
+        "h": 44.208892822265625
+      }
+    },
+    {
+      "i": 167,
+      "tag": "DIV",
+      "cls": "",
+      "id": "",
+      "text": "导师",
+      "title": "",
+      "rect": {
+        "x": 806.477783203125,
+        "y": 102.22311401367188,
+        "w": 188.20355224609375,
+        "h": 44.208892822265625
+      }
+    },
+    {
+      "i": 168,
+      "tag": "DIV",
+      "cls": "el-input-component component_object pal_filter_mentor",
+      "id": "UI_78689",
+      "text": "导师",
+      "title": "",
+      "rect": {
+        "x": 806.477783203125,
+        "y": 102.22311401367188,
+        "w": 188.20355224609375,
+        "h": 29.051544189453125
+      }
+    },
+    {
+      "i": 169,
+      "tag": "DIV",
+      "cls": "el-input el-input--auto el-input-group el-input-group--prepend el-input--suffix is-normal",
+      "id": "",
+      "text": "导师",
+      "title": "",
+      "rect": {
+        "x": 811.5302734375,
+        "y": 106.01244354248047,
+        "w": 178.09857177734375,
+        "h": 22.736000061035156
+      }
+    },
+    {
+      "i": 170,
+      "tag": "DIV",
+      "cls": "el-input-group__prepend",
+      "id": "",
+      "text": "导师",
+      "title": "",
+      "rect": {
+        "x": 811.5302734375,
+        "y": 106.01244354248047,
+        "w": 29.68304443359375,
+        "h": 22.736000061035156
+      }
+    },
+    {
+      "i": 171,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "导师",
+      "title": "",
+      "rect": {
+        "x": 818.4773559570312,
+        "y": 112.3280029296875,
+        "w": 16.42047119140625,
+        "h": 9.47332763671875
+      }
+    },
+    {
+      "i": 172,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "导师",
+      "title": "",
+      "rect": {
+        "x": 818.4773559570312,
+        "y": 112.3280029296875,
+        "w": 16.42047119140625,
+        "h": 9.47332763671875
+      }
+    },
+    {
+      "i": 174,
+      "tag": "DIV",
+      "cls": "response_col",
+      "id": "FilterBatchCol_mqqfjd4o_oscha4",
+      "text": "批次",
+      "title": "",
+      "rect": {
+        "x": 995.3128662109375,
+        "y": 101.591552734375,
+        "w": 189.4666748046875,
+        "h": 45.47200012207031
+      }
+    },
+    {
+      "i": 175,
+      "tag": "DIV",
+      "cls": "list-group offset-col bgcCol",
+      "id": "",
+      "text": "批次",
+      "title": "",
+      "rect": {
+        "x": 995.9443969726562,
+        "y": 102.22311401367188,
+        "w": 188.20355224609375,
+        "h": 44.208892822265625
+      }
+    },
+    {
+      "i": 176,
+      "tag": "DIV",
+      "cls": "component_object_unselect",
+      "id": "",
+      "text": "批次",
+      "title": "",
+      "rect": {
+        "x": 995.9443969726562,
+        "y": 102.22311401367188,
+        "w": 188.20355224609375,
+        "h": 44.208892822265625
+      }
+    },
+    {
+      "i": 177,
+      "tag": "DIV",
+      "cls": "ui_factory",
+      "id": "",
+      "text": "批次",
+      "title": "",
+      "rect": {
+        "x": 995.9443969726562,
+        "y": 102.22311401367188,
+        "w": 188.20355224609375,
+        "h": 44.208892822265625
+      }
+    },
+    {
+      "i": 178,
+      "tag": "DIV",
+      "cls": "",
+      "id": "",
+      "text": "批次",
+      "title": "",
+      "rect": {
+        "x": 995.9443969726562,
+        "y": 102.22311401367188,
+        "w": 188.20355224609375,
+        "h": 44.208892822265625
+      }
+    },
+    {
+      "i": 179,
+      "tag": "DIV",
+      "cls": "el-input-component component_object pal_filter_batch",
+      "id": "UI_78689",
+      "text": "批次",
+      "title": "",
+      "rect": {
+        "x": 995.9443969726562,
+        "y": 102.22311401367188,
+        "w": 188.20355224609375,
+        "h": 29.051544189453125
+      }
+    },
+    {
+      "i": 180,
+      "tag": "DIV",
+      "cls": "el-input el-input--auto el-input-group el-input-group--prepend el-input--suffix is-normal",
+      "id": "",
+      "text": "批次",
+      "title": "",
+      "rect": {
+        "x": 1000.9968872070312,
+        "y": 106.01244354248047,
+        "w": 178.09857177734375,
+        "h": 22.736000061035156
+      }
+    },
+    {
+      "i": 181,
+      "tag": "DIV",
+      "cls": "el-input-group__prepend",
+      "id": "",
+      "text": "批次",
+      "title": "",
+      "rect": {
+        "x": 1000.9968872070312,
+        "y": 106.01244354248047,
+        "w": 29.68304443359375,
+        "h": 22.736000061035156
+      }
+    },
+    {
+      "i": 182,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "批次",
+      "title": "",
+      "rect": {
+        "x": 1007.9439697265625,
+        "y": 112.3280029296875,
+        "w": 16.4205322265625,
+        "h": 9.47332763671875
+      }
+    },
+    {
+      "i": 183,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "批次",
+      "title": "",
+      "rect": {
+        "x": 1007.9439697265625,
+        "y": 112.3280029296875,
+        "w": 16.4205322265625,
+        "h": 9.47332763671875
+      }
+    },
+    {
+      "i": 185,
+      "tag": "DIV",
+      "cls": "response_col",
+      "id": "FilterDateCol_mqqfjd4o_9iszdq",
+      "text": "时间",
+      "title": "",
+      "rect": {
+        "x": 1184.779541015625,
+        "y": 101.591552734375,
+        "w": 213.4658203125,
+        "h": 45.47200012207031
+      }
+    },
+    {
+      "i": 186,
+      "tag": "DIV",
+      "cls": "list-group offset-col bgcCol",
+      "id": "",
+      "text": "时间",
+      "title": "",
+      "rect": {
+        "x": 1185.4111328125,
+        "y": 102.22311401367188,
+        "w": 212.20263671875,
+        "h": 44.208892822265625
+      }
+    },
+    {
+      "i": 187,
+      "tag": "DIV",
+      "cls": "component_object_unselect",
+      "id": "",
+      "text": "时间",
+      "title": "",
+      "rect": {
+        "x": 1185.4111328125,
+        "y": 102.22311401367188,
+        "w": 212.20263671875,
+        "h": 44.208892822265625
+      }
+    },
+    {
+      "i": 188,
+      "tag": "DIV",
+      "cls": "ui_factory",
+      "id": "",
+      "text": "时间",
+      "title": "",
+      "rect": {
+        "x": 1185.4111328125,
+        "y": 102.22311401367188,
+        "w": 212.20263671875,
+        "h": 44.208892822265625
+      }
+    },
+    {
+      "i": 189,
+      "tag": "DIV",
+      "cls": "",
+      "id": "",
+      "text": "时间",
+      "title": "",
+      "rect": {
+        "x": 1185.4111328125,
+        "y": 102.22311401367188,
+        "w": 212.20263671875,
+        "h": 44.208892822265625
+      }
+    },
+    {
+      "i": 190,
+      "tag": "DIV",
+      "cls": "el-input-component component_object pal_filter_date",
+      "id": "UI_78689",
+      "text": "时间",
+      "title": "",
+      "rect": {
+        "x": 1185.4111328125,
+        "y": 102.22311401367188,
+        "w": 212.20263671875,
+        "h": 29.051544189453125
+      }
+    },
+    {
+      "i": 191,
+      "tag": "DIV",
+      "cls": "el-input el-input--auto el-input-group el-input-group--prepend el-input--suffix is-normal",
+      "id": "",
+      "text": "时间",
+      "title": "",
+      "rect": {
+        "x": 1190.463623046875,
+        "y": 106.01244354248047,
+        "w": 202.0977783203125,
+        "h": 22.736000061035156
+      }
+    },
+    {
+      "i": 192,
+      "tag": "DIV",
+      "cls": "el-input-group__prepend",
+      "id": "",
+      "text": "时间",
+      "title": "",
+      "rect": {
+        "x": 1190.463623046875,
+        "y": 106.01244354248047,
+        "w": 29.68310546875,
+        "h": 22.736000061035156
+      }
+    },
+    {
+      "i": 193,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "时间",
+      "title": "",
+      "rect": {
+        "x": 1197.4107666015625,
+        "y": 112.3280029296875,
+        "w": 16.42041015625,
+        "h": 9.47332763671875
+      }
+    },
+    {
+      "i": 194,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "时间",
+      "title": "",
+      "rect": {
+        "x": 1197.4107666015625,
+        "y": 112.3280029296875,
+        "w": 16.42041015625,
+        "h": 9.47332763671875
+      }
+    },
+    {
+      "i": 197,
+      "tag": "DIV",
+      "cls": "response_row response_row_border",
+      "id": "RRow2_mqqfjd4o_n2goas",
+      "text": "关键词\n\t\nBackend Smoke\n重置\n导出",
+      "title": "",
+      "rect": {
+        "x": 419.9657897949219,
+        "y": 146.4320068359375,
+        "w": 994.068359375,
+        "h": 36.630218505859375
+      }
+    },
+    {
+      "i": 198,
+      "tag": "DIV",
+      "cls": "responseRow_col",
+      "id": "",
+      "text": "关键词\n\t\nBackend Smoke\n重置\n导出",
+      "title": "",
+      "rect": {
+        "x": 420.59735107421875,
+        "y": 147.0635528564453,
+        "w": 992.8053588867188,
+        "h": 36.63023376464844
+      }
+    },
+    {
+      "i": 199,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "关键词\n\t\nBackend Smoke\n重置\n导出",
+      "title": "",
+      "rect": {
+        "x": 420.59735107421875,
+        "y": 147.0635528564453,
+        "w": 992.8053588867188,
+        "h": 36.63023376464844
+      }
+    },
+    {
+      "i": 203,
+      "tag": "DIV",
+      "cls": "response_col",
+      "id": "ActionSpacerCol_mqqfjd4o_f6fvmv",
+      "text": "关键词",
+      "title": "",
+      "rect": {
+        "x": 616.3795166015625,
+        "y": 147.0635528564453,
+        "w": 440.8258056640625,
+        "h": 36.63023376464844
+      }
+    },
+    {
+      "i": 204,
+      "tag": "DIV",
+      "cls": "list-group offset-col bgcCol",
+      "id": "",
+      "text": "关键词",
+      "title": "",
+      "rect": {
+        "x": 617.0111083984375,
+        "y": 147.6951141357422,
+        "w": 439.5626220703125,
+        "h": 35.36711120605469
+      }
+    },
+    {
+      "i": 205,
+      "tag": "DIV",
+      "cls": "component_object_unselect",
+      "id": "",
+      "text": "关键词",
+      "title": "",
+      "rect": {
+        "x": 617.0111083984375,
+        "y": 147.6951141357422,
+        "w": 439.5626220703125,
+        "h": 35.36711120605469
+      }
+    },
+    {
+      "i": 206,
+      "tag": "DIV",
+      "cls": "ui_factory",
+      "id": "",
+      "text": "关键词",
+      "title": "",
+      "rect": {
+        "x": 617.0111083984375,
+        "y": 147.6951141357422,
+        "w": 439.5626220703125,
+        "h": 35.36711120605469
+      }
+    },
+    {
+      "i": 207,
+      "tag": "DIV",
+      "cls": "",
+      "id": "",
+      "text": "关键词",
+      "title": "",
+      "rect": {
+        "x": 617.0111083984375,
+        "y": 147.6951141357422,
+        "w": 439.5626220703125,
+        "h": 35.36711120605469
+      }
+    },
+    {
+      "i": 208,
+      "tag": "DIV",
+      "cls": "el-input-component component_object pal_filter_keyword",
+      "id": "UI_78689",
+      "text": "关键词",
+      "title": "",
+      "rect": {
+        "x": 617.0111083984375,
+        "y": 147.6951141357422,
+        "w": 439.5626220703125,
+        "h": 29.051559448242188
+      }
+    },
+    {
+      "i": 209,
+      "tag": "DIV",
+      "cls": "el-input el-input--small el-input-group el-input-group--prepend el-input--suffix is-normal",
+      "id": "",
+      "text": "关键词",
+      "title": "",
+      "rect": {
+        "x": 622.0635986328125,
+        "y": 151.48443603515625,
+        "w": 429.4576416015625,
+        "h": 22.736007690429688
+      }
+    },
+    {
+      "i": 210,
+      "tag": "DIV",
+      "cls": "el-input-group__prepend",
+      "id": "",
+      "text": "关键词",
+      "title": "",
+      "rect": {
+        "x": 622.0635986328125,
+        "y": 151.48443603515625,
+        "w": 37.893310546875,
+        "h": 22.736007690429688
+      }
+    },
+    {
+      "i": 211,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "关键词",
+      "title": "",
+      "rect": {
+        "x": 629.0106811523438,
+        "y": 157.79998779296875,
+        "w": 24.63067626953125,
+        "h": 9.473342895507812
+      }
+    },
+    {
+      "i": 212,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "关键词",
+      "title": "",
+      "rect": {
+        "x": 629.0106811523438,
+        "y": 157.79998779296875,
+        "w": 24.63067626953125,
+        "h": 9.473342895507812
+      }
+    },
+    {
+      "i": 214,
+      "tag": "DIV",
+      "cls": "response_col",
+      "id": "QueryCol_mqqfjd4o_0t7fpi",
+      "text": "Backend Smoke",
+      "title": "",
+      "rect": {
+        "x": 1057.205322265625,
+        "y": 147.0635528564453,
+        "w": 91.5755615234375,
+        "h": 36.63023376464844
+      }
+    },
+    {
+      "i": 215,
+      "tag": "DIV",
+      "cls": "list-group offset-col bgcCol",
+      "id": "",
+      "text": "Backend Smoke",
+      "title": "",
+      "rect": {
+        "x": 1057.8369140625,
+        "y": 147.6951141357422,
+        "w": 90.3123779296875,
+        "h": 35.36711120605469
+      }
+    },
+    {
+      "i": 216,
+      "tag": "DIV",
+      "cls": "component_object_unselect",
+      "id": "",
+      "text": "Backend Smoke",
+      "title": "",
+      "rect": {
+        "x": 1057.8369140625,
+        "y": 147.6951141357422,
+        "w": 90.3123779296875,
+        "h": 35.36711120605469
+      }
+    },
+    {
+      "i": 217,
+      "tag": "DIV",
+      "cls": "ui_factory",
+      "id": "",
+      "text": "Backend Smoke",
+      "title": "",
+      "rect": {
+        "x": 1057.8369140625,
+        "y": 147.6951141357422,
+        "w": 90.3123779296875,
+        "h": 35.36711120605469
+      }
+    },
+    {
+      "i": 218,
+      "tag": "DIV",
+      "cls": "",
+      "id": "",
+      "text": "Backend Smoke",
+      "title": "",
+      "rect": {
+        "x": 1057.8369140625,
+        "y": 147.6951141357422,
+        "w": 90.3123779296875,
+        "h": 35.36711120605469
+      }
+    },
+    {
+      "i": 219,
+      "tag": "DIV",
+      "cls": "component_object pal_query_button",
+      "id": "UI_433927",
+      "text": "Backend Smoke",
+      "title": "",
+      "rect": {
+        "x": 1057.8369140625,
+        "y": 147.6951141357422,
+        "w": 90.3123779296875,
+        "h": 29.051559448242188
+      }
+    },
+    {
+      "i": 220,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--primary el-button--medium propertyStyle",
+      "id": "",
+      "text": "Backend Smoke",
+      "title": "",
+      "rect": {
+        "x": 1062.889404296875,
+        "y": 150.85289001464844,
+        "w": 70.734130859375,
+        "h": 23.999099731445312
+      }
+    },
+    {
+      "i": 221,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "Backend Smoke",
+      "title": "",
+      "rect": {
+        "x": 1064.09326171875,
+        "y": 157.16844177246094,
+        "w": 68.3165283203125,
+        "h": 11.367996215820312
+      }
+    },
+    {
+      "i": 223,
+      "tag": "DIV",
+      "cls": "response_col",
+      "id": "ResetCol_mqqfjd4o_u07fxe",
+      "text": "重置",
+      "title": "",
+      "rect": {
+        "x": 1148.7808837890625,
+        "y": 147.0635528564453,
+        "w": 91.5755615234375,
+        "h": 36.63023376464844
+      }
+    },
+    {
+      "i": 224,
+      "tag": "DIV",
+      "cls": "list-group offset-col bgcCol",
+      "id": "",
+      "text": "重置",
+      "title": "",
+      "rect": {
+        "x": 1149.412353515625,
+        "y": 147.6951141357422,
+        "w": 90.3125,
+        "h": 35.36711120605469
+      }
+    },
+    {
+      "i": 225,
+      "tag": "DIV",
+      "cls": "component_object_unselect",
+      "id": "",
+      "text": "重置",
+      "title": "",
+      "rect": {
+        "x": 1149.412353515625,
+        "y": 147.6951141357422,
+        "w": 90.3125,
+        "h": 35.36711120605469
+      }
+    },
+    {
+      "i": 226,
+      "tag": "DIV",
+      "cls": "ui_factory",
+      "id": "",
+      "text": "重置",
+      "title": "",
+      "rect": {
+        "x": 1149.412353515625,
+        "y": 147.6951141357422,
+        "w": 90.3125,
+        "h": 35.36711120605469
+      }
+    },
+    {
+      "i": 227,
+      "tag": "DIV",
+      "cls": "",
+      "id": "",
+      "text": "重置",
+      "title": "",
+      "rect": {
+        "x": 1149.412353515625,
+        "y": 147.6951141357422,
+        "w": 90.3125,
+        "h": 35.36711120605469
+      }
+    },
+    {
+      "i": 228,
+      "tag": "DIV",
+      "cls": "component_object pal_reset_button",
+      "id": "UI_433927",
+      "text": "重置",
+      "title": "",
+      "rect": {
+        "x": 1149.412353515625,
+        "y": 147.6951141357422,
+        "w": 90.3125,
+        "h": 29.051559448242188
+      }
+    },
+    {
+      "i": 229,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--primary el-button--medium propertyStyle",
+      "id": "",
+      "text": "重置",
+      "title": "",
+      "rect": {
+        "x": 1154.46484375,
+        "y": 150.85289001464844,
+        "w": 70.7342529296875,
+        "h": 23.999099731445312
+      }
+    },
+    {
+      "i": 230,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "重置",
+      "title": "",
+      "rect": {
+        "x": 1180.990234375,
+        "y": 157.16844177246094,
+        "w": 17.68359375,
+        "h": 11.367996215820312
+      }
+    },
+    {
+      "i": 232,
+      "tag": "DIV",
+      "cls": "response_col",
+      "id": "ExportCol_mqqfjd4o_4iaaj2",
+      "text": "导出",
+      "title": "",
+      "rect": {
+        "x": 1240.3564453125,
+        "y": 147.0635528564453,
+        "w": 91.5755615234375,
+        "h": 36.63023376464844
+      }
+    },
+    {
+      "i": 233,
+      "tag": "DIV",
+      "cls": "list-group offset-col bgcCol",
+      "id": "",
+      "text": "导出",
+      "title": "",
+      "rect": {
+        "x": 1240.988037109375,
+        "y": 147.6951141357422,
+        "w": 90.3123779296875,
+        "h": 35.36711120605469
+      }
+    },
+    {
+      "i": 234,
+      "tag": "DIV",
+      "cls": "component_object_unselect",
+      "id": "",
+      "text": "导出",
+      "title": "",
+      "rect": {
+        "x": 1240.988037109375,
+        "y": 147.6951141357422,
+        "w": 90.3123779296875,
+        "h": 35.36711120605469
+      }
+    },
+    {
+      "i": 235,
+      "tag": "DIV",
+      "cls": "ui_factory",
+      "id": "",
+      "text": "导出",
+      "title": "",
+      "rect": {
+        "x": 1240.988037109375,
+        "y": 147.6951141357422,
+        "w": 90.3123779296875,
+        "h": 35.36711120605469
+      }
+    },
+    {
+      "i": 236,
+      "tag": "DIV",
+      "cls": "",
+      "id": "",
+      "text": "导出",
+      "title": "",
+      "rect": {
+        "x": 1240.988037109375,
+        "y": 147.6951141357422,
+        "w": 90.3123779296875,
+        "h": 35.36711120605469
+      }
+    },
+    {
+      "i": 237,
+      "tag": "DIV",
+      "cls": "component_object pal_export_button",
+      "id": "UI_433927",
+      "text": "导出",
+      "title": "",
+      "rect": {
+        "x": 1240.988037109375,
+        "y": 147.6951141357422,
+        "w": 90.3123779296875,
+        "h": 29.051559448242188
+      }
+    },
+    {
+      "i": 238,
+      "tag": "BUTTON",
+      "cls": "el-button el-button--primary el-button--medium propertyStyle",
+      "id": "",
+      "text": "导出",
+      "title": "",
+      "rect": {
+        "x": 1246.0404052734375,
+        "y": 150.85289001464844,
+        "w": 70.7342529296875,
+        "h": 23.999099731445312
+      }
+    },
+    {
+      "i": 239,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "导出",
+      "title": "",
+      "rect": {
+        "x": 1272.565673828125,
+        "y": 157.16844177246094,
+        "w": 17.68359375,
+        "h": 11.367996215820312
+      }
+    },
+    {
+      "i": 299,
+      "tag": "DIV",
+      "cls": "response_row response_row_border",
+      "id": "RRow5_mqqfjd4p_xz23ct",
+      "text": "姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综合评分\t状态\t更新时间\t查看\t评分\t编辑\t更多\n李明轩\n\t\nS2024041001\n\t\n产品部\n\t\n王思",
+      "title": "",
+      "rect": {
+        "x": 419.9657897949219,
+        "y": 474.84088134765625,
+        "w": 994.068359375,
+        "h": 308.19915771484375
+      }
+    },
+    {
+      "i": 300,
+      "tag": "DIV",
+      "cls": "responseRow_col",
+      "id": "",
+      "text": "姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综合评分\t状态\t更新时间\t查看\t评分\t编辑\t更多\n李明轩\n\t\nS2024041001\n\t\n产品部\n\t\n王思",
+      "title": "",
+      "rect": {
+        "x": 420.59735107421875,
+        "y": 475.4724426269531,
+        "w": 992.8053588867188,
+        "h": 308.1991271972656
+      }
+    },
+    {
+      "i": 301,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综合评分\t状态\t更新时间\t查看\t评分\t编辑\t更多\n李明轩\n\t\nS2024041001\n\t\n产品部\n\t\n王思",
+      "title": "",
+      "rect": {
+        "x": 420.59735107421875,
+        "y": 475.4724426269531,
+        "w": 992.8053588867188,
+        "h": 308.1991271972656
+      }
+    },
+    {
+      "i": 302,
+      "tag": "DIV",
+      "cls": "response_col",
+      "id": "AssessmentTableCol_mqqfjd4p_mqe59t",
+      "text": "姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综合评分\t状态\t更新时间\t查看\t评分\t编辑\t更多\n李明轩\n\t\nS2024041001\n\t\n产品部\n\t\n王思",
+      "title": "",
+      "rect": {
+        "x": 420.59735107421875,
+        "y": 475.4724426269531,
+        "w": 977.6480102539062,
+        "h": 308.1991271972656
+      }
+    },
+    {
+      "i": 303,
+      "tag": "DIV",
+      "cls": "list-group offset-col bgcCol",
+      "id": "",
+      "text": "姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综合评分\t状态\t更新时间\t查看\t评分\t编辑\t更多\n李明轩\n\t\nS2024041001\n\t\n产品部\n\t\n王思",
+      "title": "",
+      "rect": {
+        "x": 421.2288818359375,
+        "y": 476.10400390625,
+        "w": 976.3848876953125,
+        "h": 306.93603515625
+      }
+    },
+    {
+      "i": 304,
+      "tag": "DIV",
+      "cls": "component_object_unselect",
+      "id": "",
+      "text": "姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综合评分\t状态\t更新时间\t查看\t评分\t编辑\t更多\n李明轩\n\t\nS2024041001\n\t\n产品部\n\t\n王思",
+      "title": "",
+      "rect": {
+        "x": 421.2288818359375,
+        "y": 476.10400390625,
+        "w": 976.3848876953125,
+        "h": 306.93603515625
+      }
+    },
+    {
+      "i": 305,
+      "tag": "DIV",
+      "cls": "ui_factory",
+      "id": "",
+      "text": "姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综合评分\t状态\t更新时间\t查看\t评分\t编辑\t更多\n李明轩\n\t\nS2024041001\n\t\n产品部\n\t\n王思",
+      "title": "",
+      "rect": {
+        "x": 421.2288818359375,
+        "y": 481.15643310546875,
+        "w": 976.3848876953125,
+        "h": 306.93603515625
+      }
+    },
+    {
+      "i": 310,
+      "tag": "DIV",
+      "cls": "",
+      "id": "",
+      "text": "姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综合评分\t状态\t更新时间\t查看\t评分\t编辑\t更多\n李明轩\n\t\nS2024041001\n\t\n产品部\n\t\n王思",
+      "title": "",
+      "rect": {
+        "x": 421.2288818359375,
+        "y": 481.15643310546875,
+        "w": 976.3848876953125,
+        "h": 306.93603515625
+      }
+    },
+    {
+      "i": 311,
+      "tag": "DIV",
+      "cls": "PCUI_ElementTable component_object pal_assessment_table",
+      "id": "UI_405883",
+      "text": "姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综合评分\t状态\t更新时间\t查看\t评分\t编辑\t更多\n李明轩\n\t\nS2024041001\n\t\n产品部\n\t\n王思",
+      "title": "",
+      "rect": {
+        "x": 426.2813415527344,
+        "y": 481.15643310546875,
+        "w": 976.3848876953125,
+        "h": 298.09423828125
+      }
+    },
+    {
+      "i": 312,
+      "tag": "DIV",
+      "cls": "el-table el-table--fit el-table--enable-row-hover el-table--enable-row-transition el-table--medium",
+      "id": "UI_405883",
+      "text": "姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综合评分\t状态\t更新时间\t查看\t评分\t编辑\t更多\n李明轩\n\t\nS2024041001\n\t\n产品部\n\t\n王思",
+      "title": "",
+      "rect": {
+        "x": 426.91290283203125,
+        "y": 505.787109375,
+        "w": 975.1217651367188,
+        "h": 252.62225341796875
+      }
+    },
+    {
+      "i": 313,
+      "tag": "DIV",
+      "cls": "el-table__header-wrapper",
+      "id": "",
+      "text": "姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综合评分\t状态\t更新时间\t查看\t评分\t编辑\t更多",
+      "title": "",
+      "rect": {
+        "x": 426.91290283203125,
+        "y": 505.787109375,
+        "w": 975.1217651367188,
+        "h": 27.7884521484375
+      }
+    },
+    {
+      "i": 314,
+      "tag": "DIV",
+      "cls": "cell",
+      "id": "",
+      "text": "姓名",
+      "title": "",
+      "rect": {
+        "x": 426.91290283203125,
+        "y": 512.1026611328125,
+        "w": 79.57598876953125,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "i": 315,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "姓名",
+      "title": "",
+      "rect": {
+        "x": 457.859130859375,
+        "y": 513.997314453125,
+        "w": 17.68353271484375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 316,
+      "tag": "DIV",
+      "cls": "cell",
+      "id": "",
+      "text": "学号",
+      "title": "",
+      "rect": {
+        "x": 506.4888916015625,
+        "y": 512.1026611328125,
+        "w": 107.36444091796875,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "i": 317,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "学号",
+      "title": "",
+      "rect": {
+        "x": 551.329345703125,
+        "y": 513.997314453125,
+        "w": 17.68353271484375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 318,
+      "tag": "DIV",
+      "cls": "cell",
+      "id": "",
+      "text": "部门",
+      "title": "",
+      "rect": {
+        "x": 613.8533325195312,
+        "y": 512.1026611328125,
+        "w": 70.10272216796875,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "i": 319,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "部门",
+      "title": "",
+      "rect": {
+        "x": 640.0628662109375,
+        "y": 513.997314453125,
+        "w": 17.68359375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 320,
+      "tag": "DIV",
+      "cls": "cell",
+      "id": "",
+      "text": "导师",
+      "title": "",
+      "rect": {
+        "x": 683.9560546875,
+        "y": 512.1026611328125,
+        "w": 70.1026611328125,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "i": 321,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "导师",
+      "title": "",
+      "rect": {
+        "x": 710.1655883789062,
+        "y": 513.997314453125,
+        "w": 17.68359375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 322,
+      "tag": "DIV",
+      "cls": "cell",
+      "id": "",
+      "text": "专业能力",
+      "title": "",
+      "rect": {
+        "x": 754.0587158203125,
+        "y": 512.1026611328125,
+        "w": 70.1026611328125,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "i": 323,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "专业能力",
+      "title": "",
+      "rect": {
+        "x": 771.426513671875,
+        "y": 513.997314453125,
+        "w": 35.3670654296875,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 324,
+      "tag": "DIV",
+      "cls": "cell",
+      "id": "",
+      "text": "工作态度",
+      "title": "",
+      "rect": {
+        "x": 824.161376953125,
+        "y": 512.1026611328125,
+        "w": 70.10260009765625,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "i": 325,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "工作态度",
+      "title": "",
+      "rect": {
+        "x": 841.5291748046875,
+        "y": 513.997314453125,
+        "w": 35.3670654296875,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 326,
+      "tag": "DIV",
+      "cls": "cell",
+      "id": "",
+      "text": "任务完成",
+      "title": "",
+      "rect": {
+        "x": 894.2639770507812,
+        "y": 512.1026611328125,
+        "w": 70.1026611328125,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "i": 327,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "任务完成",
+      "title": "",
+      "rect": {
+        "x": 911.6317749023438,
+        "y": 513.997314453125,
+        "w": 35.3670654296875,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 328,
+      "tag": "DIV",
+      "cls": "cell",
+      "id": "",
+      "text": "综合评分",
+      "title": "",
+      "rect": {
+        "x": 964.3666381835938,
+        "y": 512.1026611328125,
+        "w": 70.10260009765625,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "i": 329,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "综合评分",
+      "title": "",
+      "rect": {
+        "x": 981.7344360351562,
+        "y": 513.997314453125,
+        "w": 35.3670654296875,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 330,
+      "tag": "DIV",
+      "cls": "cell",
+      "id": "",
+      "text": "状态",
+      "title": "",
+      "rect": {
+        "x": 1034.46923828125,
+        "y": 512.1026611328125,
+        "w": 70.102783203125,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "i": 331,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "状态",
+      "title": "",
+      "rect": {
+        "x": 1060.6788330078125,
+        "y": 513.997314453125,
+        "w": 17.6834716796875,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 332,
+      "tag": "DIV",
+      "cls": "cell",
+      "id": "",
+      "text": "更新时间",
+      "title": "",
+      "rect": {
+        "x": 1104.572021484375,
+        "y": 512.1026611328125,
+        "w": 111.7852783203125,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "i": 333,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "更新时间",
+      "title": "",
+      "rect": {
+        "x": 1142.7811279296875,
+        "y": 513.997314453125,
+        "w": 35.3670654296875,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 334,
+      "tag": "DIV",
+      "cls": "cell",
+      "id": "",
+      "text": "查看",
+      "title": "",
+      "rect": {
+        "x": 1216.3572998046875,
+        "y": 512.1026611328125,
+        "w": 44.2088623046875,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "i": 335,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "查看",
+      "title": "",
+      "rect": {
+        "x": 1229.6199951171875,
+        "y": 513.997314453125,
+        "w": 17.6834716796875,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 336,
+      "tag": "DIV",
+      "cls": "cell",
+      "id": "",
+      "text": "评分",
+      "title": "",
+      "rect": {
+        "x": 1260.566162109375,
+        "y": 512.1026611328125,
+        "w": 44.208984375,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "i": 337,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "评分",
+      "title": "",
+      "rect": {
+        "x": 1273.828857421875,
+        "y": 513.997314453125,
+        "w": 17.6834716796875,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 338,
+      "tag": "DIV",
+      "cls": "cell",
+      "id": "",
+      "text": "编辑",
+      "title": "",
+      "rect": {
+        "x": 1304.775146484375,
+        "y": 512.1026611328125,
+        "w": 44.2088623046875,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "i": 339,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "编辑",
+      "title": "",
+      "rect": {
+        "x": 1318.037841796875,
+        "y": 513.997314453125,
+        "w": 17.6834716796875,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 340,
+      "tag": "DIV",
+      "cls": "cell",
+      "id": "",
+      "text": "更多",
+      "title": "",
+      "rect": {
+        "x": 1348.9840087890625,
+        "y": 512.1026611328125,
+        "w": 53.0506591796875,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "i": 341,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "更多",
+      "title": "",
+      "rect": {
+        "x": 1366.6676025390625,
+        "y": 513.997314453125,
+        "w": 17.6834716796875,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 342,
+      "tag": "DIV",
+      "cls": "el-table__body-wrapper is-scrolling-none",
+      "id": "",
+      "text": "李明轩\n\t\nS2024041001\n\t\n产品部\n\t\n王思远\n\t\n97%\n\t\n85%\n\t\n85%\n\t\n92.6\n\t已完成\t\n2024-06-12 14:30\n\t查",
+      "title": "",
+      "rect": {
+        "x": 426.91290283203125,
+        "y": 533.5755615234375,
+        "w": 975.1217651367188,
+        "h": 224.83380126953125
+      }
+    },
+    {
+      "i": 343,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "李明轩",
+      "title": "",
+      "rect": {
+        "x": 426.91290283203125,
+        "y": 537.9964599609375,
+        "w": 78.3128662109375,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "i": 344,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "李明轩",
+      "title": "",
+      "rect": {
+        "x": 452.8066711425781,
+        "y": 539.89111328125,
+        "w": 26.525360107421875,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 345,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "S2024041001",
+      "title": "",
+      "rect": {
+        "x": 506.4888916015625,
+        "y": 537.9964599609375,
+        "w": 106.101318359375,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "i": 346,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "S2024041001",
+      "title": "",
+      "rect": {
+        "x": 531.997802734375,
+        "y": 539.89111328125,
+        "w": 55.0736083984375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 347,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "产品部",
+      "title": "",
+      "rect": {
+        "x": 613.8533325195312,
+        "y": 537.9964599609375,
+        "w": 68.83953857421875,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "i": 348,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "产品部",
+      "title": "",
+      "rect": {
+        "x": 635.0104370117188,
+        "y": 539.89111328125,
+        "w": 26.52532958984375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 349,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "王思远",
+      "title": "",
+      "rect": {
+        "x": 683.9560546875,
+        "y": 537.9964599609375,
+        "w": 68.8394775390625,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "i": 350,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "王思远",
+      "title": "",
+      "rect": {
+        "x": 705.1131591796875,
+        "y": 539.89111328125,
+        "w": 26.52532958984375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 351,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "97%",
+      "title": "",
+      "rect": {
+        "x": 754.0587158203125,
+        "y": 537.9964599609375,
+        "w": 68.8394775390625,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "i": 352,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "97%",
+      "title": "",
+      "rect": {
+        "x": 779.6268310546875,
+        "y": 539.89111328125,
+        "w": 17.70330810546875,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 353,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "85%",
+      "title": "",
+      "rect": {
+        "x": 824.161376953125,
+        "y": 537.9964599609375,
+        "w": 68.83953857421875,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "i": 354,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "85%",
+      "title": "",
+      "rect": {
+        "x": 849.7294921875,
+        "y": 539.89111328125,
+        "w": 17.70330810546875,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 355,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "85%",
+      "title": "",
+      "rect": {
+        "x": 894.2639770507812,
+        "y": 537.9964599609375,
+        "w": 68.83953857421875,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "i": 356,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "85%",
+      "title": "",
+      "rect": {
+        "x": 919.8320922851562,
+        "y": 539.89111328125,
+        "w": 17.70330810546875,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 357,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "92.6",
+      "title": "",
+      "rect": {
+        "x": 964.3666381835938,
+        "y": 537.9964599609375,
+        "w": 68.83953857421875,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "i": 358,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "92.6",
+      "title": "",
+      "rect": {
+        "x": 990.1814575195312,
+        "y": 539.89111328125,
+        "w": 17.20989990234375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 359,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "已完成",
+      "title": "",
+      "rect": {
+        "x": 1035.100830078125,
+        "y": 536.101806640625,
+        "w": 68.839599609375,
+        "h": 17.052001953125
+      }
+    },
+    {
+      "i": 360,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "已完成",
+      "title": "",
+      "rect": {
+        "x": 1056.2579345703125,
+        "y": 539.2595825195312,
+        "w": 26.525390625,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 361,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "2024-06-12 14:30",
+      "title": "",
+      "rect": {
+        "x": 1104.572021484375,
+        "y": 537.9964599609375,
+        "w": 110.522216796875,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "i": 362,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "2024-06-12 14:30",
+      "title": "",
+      "rect": {
+        "x": 1124.919921875,
+        "y": 539.89111328125,
+        "w": 69.8165283203125,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 363,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "查看",
+      "title": "",
+      "rect": {
+        "x": 1216.3572998046875,
+        "y": 536.4175415039062,
+        "w": 116.8377685546875,
+        "h": 16.42047119140625
+      }
+    },
+    {
+      "i": 364,
+      "tag": "BUTTON",
+      "cls": "pal-op-btn pal-op-viewAction",
+      "id": "",
+      "text": "查看",
+      "title": "",
+      "rect": {
+        "x": 1263.408203125,
+        "y": 537.049072265625,
+        "w": 22.736083984375,
+        "h": 15.1573486328125
+      }
+    },
+    {
+      "i": 365,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "评分",
+      "title": "",
+      "rect": {
+        "x": 1260.566162109375,
+        "y": 537.6806640625,
+        "w": 42.94580078125,
+        "h": 15.1573486328125
+      }
+    },
+    {
+      "i": 366,
+      "tag": "BUTTON",
+      "cls": "pal-op-btn pal-op-scoreAction",
+      "id": "",
+      "text": "评分",
+      "title": "",
+      "rect": {
+        "x": 1270.671142578125,
+        "y": 537.6806640625,
+        "w": 22.7359619140625,
+        "h": 15.1573486328125
+      }
+    },
+    {
+      "i": 367,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "编辑",
+      "title": "",
+      "rect": {
+        "x": 1304.775146484375,
+        "y": 537.6806640625,
+        "w": 42.94580078125,
+        "h": 15.1573486328125
+      }
+    },
+    {
+      "i": 368,
+      "tag": "BUTTON",
+      "cls": "pal-op-btn pal-op-editAction",
+      "id": "",
+      "text": "编辑",
+      "title": "",
+      "rect": {
+        "x": 1314.8800048828125,
+        "y": 537.6806640625,
+        "w": 22.7359619140625,
+        "h": 15.1573486328125
+      }
+    },
+    {
+      "i": 369,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "更多▾",
+      "title": "",
+      "rect": {
+        "x": 1348.9840087890625,
+        "y": 537.6806640625,
+        "w": 51.78759765625,
+        "h": 15.1573486328125
+      }
+    },
+    {
+      "i": 370,
+      "tag": "BUTTON",
+      "cls": "pal-op-btn pal-op-moreAction",
+      "id": "",
+      "text": "更多▾",
+      "title": "",
+      "rect": {
+        "x": 1359.720458984375,
+        "y": 537.6806640625,
+        "w": 30.3048095703125,
+        "h": 15.1573486328125
+      }
+    },
+    {
+      "i": 371,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "张雨婷",
+      "title": "",
+      "rect": {
+        "x": 426.91290283203125,
+        "y": 561.9955444335938,
+        "w": 78.3128662109375,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "i": 372,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "张雨婷",
+      "title": "",
+      "rect": {
+        "x": 452.8066711425781,
+        "y": 563.8901977539062,
+        "w": 26.525360107421875,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 373,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "S2024041002",
+      "title": "",
+      "rect": {
+        "x": 506.4888916015625,
+        "y": 561.9955444335938,
+        "w": 106.101318359375,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "i": 374,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "S2024041002",
+      "title": "",
+      "rect": {
+        "x": 531.997802734375,
+        "y": 563.8901977539062,
+        "w": 55.0736083984375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 375,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "研发部",
+      "title": "",
+      "rect": {
+        "x": 613.8533325195312,
+        "y": 561.9955444335938,
+        "w": 68.83953857421875,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "i": 376,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "研发部",
+      "title": "",
+      "rect": {
+        "x": 635.0104370117188,
+        "y": 563.8901977539062,
+        "w": 26.52532958984375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 377,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "陈浩然",
+      "title": "",
+      "rect": {
+        "x": 683.9560546875,
+        "y": 561.9955444335938,
+        "w": 68.8394775390625,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "i": 378,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "陈浩然",
+      "title": "",
+      "rect": {
+        "x": 705.1131591796875,
+        "y": 563.8901977539062,
+        "w": 26.52532958984375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 379,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "96%",
+      "title": "",
+      "rect": {
+        "x": 754.0587158203125,
+        "y": 561.9955444335938,
+        "w": 68.8394775390625,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "i": 380,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "96%",
+      "title": "",
+      "rect": {
+        "x": 779.6268310546875,
+        "y": 563.8901977539062,
+        "w": 17.70330810546875,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 381,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "84%",
+      "title": "",
+      "rect": {
+        "x": 824.161376953125,
+        "y": 561.9955444335938,
+        "w": 68.83953857421875,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "i": 382,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "84%",
+      "title": "",
+      "rect": {
+        "x": 849.7294921875,
+        "y": 563.8901977539062,
+        "w": 17.70330810546875,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 383,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "84%",
+      "title": "",
+      "rect": {
+        "x": 894.2639770507812,
+        "y": 561.9955444335938,
+        "w": 68.83953857421875,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "i": 384,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "84%",
+      "title": "",
+      "rect": {
+        "x": 919.8320922851562,
+        "y": 563.8901977539062,
+        "w": 17.70330810546875,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 385,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "89.3",
+      "title": "",
+      "rect": {
+        "x": 964.3666381835938,
+        "y": 561.9955444335938,
+        "w": 68.83953857421875,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "i": 386,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "89.3",
+      "title": "",
+      "rect": {
+        "x": 990.1814575195312,
+        "y": 563.8901977539062,
+        "w": 17.20989990234375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 387,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "已完成",
+      "title": "",
+      "rect": {
+        "x": 1035.100830078125,
+        "y": 560.1008911132812,
+        "w": 68.839599609375,
+        "h": 17.052001953125
+      }
+    },
+    {
+      "i": 388,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "已完成",
+      "title": "",
+      "rect": {
+        "x": 1056.2579345703125,
+        "y": 563.2586669921875,
+        "w": 26.525390625,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 389,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "2024-06-11 11:20",
+      "title": "",
+      "rect": {
+        "x": 1104.572021484375,
+        "y": 561.9955444335938,
+        "w": 110.522216796875,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "i": 390,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "2024-06-11 11:20",
+      "title": "",
+      "rect": {
+        "x": 1125.5810546875,
+        "y": 563.8901977539062,
+        "w": 68.504150390625,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 391,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "查看",
+      "title": "",
+      "rect": {
+        "x": 1216.3572998046875,
+        "y": 560.4166259765625,
+        "w": 116.8377685546875,
+        "h": 16.42047119140625
+      }
+    },
+    {
+      "i": 392,
+      "tag": "BUTTON",
+      "cls": "pal-op-btn pal-op-viewAction",
+      "id": "",
+      "text": "查看",
+      "title": "",
+      "rect": {
+        "x": 1263.408203125,
+        "y": 561.0482177734375,
+        "w": 22.736083984375,
+        "h": 15.1573486328125
+      }
+    },
+    {
+      "i": 393,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "评分",
+      "title": "",
+      "rect": {
+        "x": 1260.566162109375,
+        "y": 561.6798095703125,
+        "w": 42.94580078125,
+        "h": 15.15728759765625
+      }
+    },
+    {
+      "i": 394,
+      "tag": "BUTTON",
+      "cls": "pal-op-btn pal-op-scoreAction",
+      "id": "",
+      "text": "评分",
+      "title": "",
+      "rect": {
+        "x": 1270.671142578125,
+        "y": 561.6798095703125,
+        "w": 22.7359619140625,
+        "h": 15.15728759765625
+      }
+    },
+    {
+      "i": 395,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "编辑",
+      "title": "",
+      "rect": {
+        "x": 1304.775146484375,
+        "y": 561.6798095703125,
+        "w": 42.94580078125,
+        "h": 15.15728759765625
+      }
+    },
+    {
+      "i": 396,
+      "tag": "BUTTON",
+      "cls": "pal-op-btn pal-op-editAction",
+      "id": "",
+      "text": "编辑",
+      "title": "",
+      "rect": {
+        "x": 1314.8800048828125,
+        "y": 561.6798095703125,
+        "w": 22.7359619140625,
+        "h": 15.15728759765625
+      }
+    },
+    {
+      "i": 397,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "更多▾",
+      "title": "",
+      "rect": {
+        "x": 1348.9840087890625,
+        "y": 561.6798095703125,
+        "w": 51.78759765625,
+        "h": 15.15728759765625
+      }
+    },
+    {
+      "i": 398,
+      "tag": "BUTTON",
+      "cls": "pal-op-btn pal-op-moreAction",
+      "id": "",
+      "text": "更多▾",
+      "title": "",
+      "rect": {
+        "x": 1359.720458984375,
+        "y": 561.6798095703125,
+        "w": 30.3048095703125,
+        "h": 15.15728759765625
+      }
+    },
+    {
+      "i": 399,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "王子涵",
+      "title": "",
+      "rect": {
+        "x": 426.91290283203125,
+        "y": 585.99462890625,
+        "w": 78.3128662109375,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "i": 400,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "王子涵",
+      "title": "",
+      "rect": {
+        "x": 452.8066711425781,
+        "y": 587.8892822265625,
+        "w": 26.525360107421875,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 401,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "S2024041003",
+      "title": "",
+      "rect": {
+        "x": 506.4888916015625,
+        "y": 585.99462890625,
+        "w": 106.101318359375,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "i": 402,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "S2024041003",
+      "title": "",
+      "rect": {
+        "x": 531.997802734375,
+        "y": 587.8892822265625,
+        "w": 55.0736083984375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 403,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "设计部",
+      "title": "",
+      "rect": {
+        "x": 613.8533325195312,
+        "y": 585.99462890625,
+        "w": 68.83953857421875,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "i": 404,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "设计部",
+      "title": "",
+      "rect": {
+        "x": 635.0104370117188,
+        "y": 587.8892822265625,
+        "w": 26.52532958984375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 405,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "刘佳怡",
+      "title": "",
+      "rect": {
+        "x": 683.9560546875,
+        "y": 585.99462890625,
+        "w": 68.8394775390625,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "i": 406,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "刘佳怡",
+      "title": "",
+      "rect": {
+        "x": 705.1131591796875,
+        "y": 587.8892822265625,
+        "w": 26.52532958984375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 407,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "95%",
+      "title": "",
+      "rect": {
+        "x": 754.0587158203125,
+        "y": 585.99462890625,
+        "w": 68.8394775390625,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "i": 408,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "95%",
+      "title": "",
+      "rect": {
+        "x": 779.6268310546875,
+        "y": 587.8892822265625,
+        "w": 17.70330810546875,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 409,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "83%",
+      "title": "",
+      "rect": {
+        "x": 824.161376953125,
+        "y": 585.99462890625,
+        "w": 68.83953857421875,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "i": 410,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "83%",
+      "title": "",
+      "rect": {
+        "x": 849.7294921875,
+        "y": 587.8892822265625,
+        "w": 17.70330810546875,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 411,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "83%",
+      "title": "",
+      "rect": {
+        "x": 894.2639770507812,
+        "y": 585.99462890625,
+        "w": 68.83953857421875,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "i": 412,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "83%",
+      "title": "",
+      "rect": {
+        "x": 919.8320922851562,
+        "y": 587.8892822265625,
+        "w": 17.70330810546875,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 413,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "87.4",
+      "title": "",
+      "rect": {
+        "x": 964.3666381835938,
+        "y": 585.99462890625,
+        "w": 68.83953857421875,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "i": 414,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "87.4",
+      "title": "",
+      "rect": {
+        "x": 990.1814575195312,
+        "y": 587.8892822265625,
+        "w": 17.20989990234375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 415,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "已完成",
+      "title": "",
+      "rect": {
+        "x": 1035.100830078125,
+        "y": 584.0999755859375,
+        "w": 68.839599609375,
+        "h": 17.052001953125
+      }
+    },
+    {
+      "i": 416,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "已完成",
+      "title": "",
+      "rect": {
+        "x": 1056.2579345703125,
+        "y": 587.2577514648438,
+        "w": 26.525390625,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 417,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "2024-06-10 16:45",
+      "title": "",
+      "rect": {
+        "x": 1104.572021484375,
+        "y": 585.99462890625,
+        "w": 110.522216796875,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "i": 418,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "2024-06-10 16:45",
+      "title": "",
+      "rect": {
+        "x": 1124.919921875,
+        "y": 587.8892822265625,
+        "w": 69.8165283203125,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 419,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "查看",
+      "title": "",
+      "rect": {
+        "x": 1216.3572998046875,
+        "y": 584.415771484375,
+        "w": 116.8377685546875,
+        "h": 16.42041015625
+      }
+    },
+    {
+      "i": 420,
+      "tag": "BUTTON",
+      "cls": "pal-op-btn pal-op-viewAction",
+      "id": "",
+      "text": "查看",
+      "title": "",
+      "rect": {
+        "x": 1263.408203125,
+        "y": 585.04736328125,
+        "w": 22.736083984375,
+        "h": 15.15728759765625
+      }
+    },
+    {
+      "i": 421,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "评分",
+      "title": "",
+      "rect": {
+        "x": 1260.566162109375,
+        "y": 585.6788940429688,
+        "w": 42.94580078125,
+        "h": 15.15728759765625
+      }
+    },
+    {
+      "i": 422,
+      "tag": "BUTTON",
+      "cls": "pal-op-btn pal-op-scoreAction",
+      "id": "",
+      "text": "评分",
+      "title": "",
+      "rect": {
+        "x": 1270.671142578125,
+        "y": 585.6788940429688,
+        "w": 22.7359619140625,
+        "h": 15.15728759765625
+      }
+    },
+    {
+      "i": 423,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "编辑",
+      "title": "",
+      "rect": {
+        "x": 1304.775146484375,
+        "y": 585.6788940429688,
+        "w": 42.94580078125,
+        "h": 15.15728759765625
+      }
+    },
+    {
+      "i": 424,
+      "tag": "BUTTON",
+      "cls": "pal-op-btn pal-op-editAction",
+      "id": "",
+      "text": "编辑",
+      "title": "",
+      "rect": {
+        "x": 1314.8800048828125,
+        "y": 585.6788940429688,
+        "w": 22.7359619140625,
+        "h": 15.15728759765625
+      }
+    },
+    {
+      "i": 425,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "更多▾",
+      "title": "",
+      "rect": {
+        "x": 1348.9840087890625,
+        "y": 585.6788940429688,
+        "w": 51.78759765625,
+        "h": 15.15728759765625
+      }
+    },
+    {
+      "i": 426,
+      "tag": "BUTTON",
+      "cls": "pal-op-btn pal-op-moreAction",
+      "id": "",
+      "text": "更多▾",
+      "title": "",
+      "rect": {
+        "x": 1359.720458984375,
+        "y": 585.6788940429688,
+        "w": 30.3048095703125,
+        "h": 15.15728759765625
+      }
+    },
+    {
+      "i": 427,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "赵天宇",
+      "title": "",
+      "rect": {
+        "x": 426.91290283203125,
+        "y": 609.9937744140625,
+        "w": 78.3128662109375,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "i": 428,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "赵天宇",
+      "title": "",
+      "rect": {
+        "x": 452.8066711425781,
+        "y": 611.888427734375,
+        "w": 26.525360107421875,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 429,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "S2024041004",
+      "title": "",
+      "rect": {
+        "x": 506.4888916015625,
+        "y": 609.9937744140625,
+        "w": 106.101318359375,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "i": 430,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "S2024041004",
+      "title": "",
+      "rect": {
+        "x": 531.997802734375,
+        "y": 611.888427734375,
+        "w": 55.0736083984375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 431,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "市场部",
+      "title": "",
+      "rect": {
+        "x": 613.8533325195312,
+        "y": 609.9937744140625,
+        "w": 68.83953857421875,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "i": 432,
+      "tag": "SPAN",
+      "cls": "",
+      "id": "",
+      "text": "市场部",
+      "title": "",
+      "rect": {
+        "x": 635.0104370117188,
+        "y": 611.888427734375,
+        "w": 26.52532958984375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "i": 433,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "id": "",
+      "text": "孙一凡",
+      "title": "",
+      "rect": {
+        "x": 683.9560546875,
+        "y": 609.9937744140625,
+        "w": 68.8394775390625,
+        "h": 14.52581787109375
+      }
+    }
+  ]
+}

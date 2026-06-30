@@ -1,0 +1,50 @@
+{
+  "page": "PalimpsestExcel_82",
+  "identity": "向学智_frontend-ai",
+  "session": "slot2",
+  "account": "xiang_xuezhi",
+  "time": "2026-06-30T12:10:26",
+  "task": "提交后预览页 dry-run 复核 Print 单图和不改写 sheet",
+  "preview": {
+    "targetId": "96247D84801EDB88C3752326AF27E8AB",
+    "url": "public/index.html ... runModelName=PalimpsestExcel_82",
+    "runtimeFrame": "94054fd1-9b20-463a-8372-b69776349847_120/index.html",
+    "hasReport": true,
+    "hasUniver": true,
+    "visibleButtons": [
+      "Read",
+      "Write",
+      "Style",
+      "160 Rows",
+      "Image",
+      "Print"
+    ]
+  },
+  "editorPersistence": {
+    "printButton": "excel_pdf_print_button",
+    "scriptLength": 7118,
+    "hasBodyImg": false,
+    "hasBodyExtraCondition": false,
+    "hasCellImg": true,
+    "hasIllegalReturn": false,
+    "hasNativeFlag": true,
+    "hasDryRun": true
+  },
+  "dryRun": {
+    "steps": [
+      "click Image",
+      "set window.__wos4ExcelDryRunPrint = true",
+      "set window.__wos4ExcelUseNativePrint = false",
+      "click Print"
+    ],
+    "lastAction": "PRINT DRY RUN CURRENT SHEET",
+    "htmlLength": 29261,
+    "imgCount": 1,
+    "hasBodyImgHtml": false,
+    "hasCellImgHtml": true,
+    "fallbackUsedCurrentSheet": true,
+    "fallbackMutatedSheet": false,
+    "imageIncluded": true
+  },
+  "conclusion": "新预览页中 Print fallback dry-run 只生成一张图片，未生成 body-img，且标记为读取当前 sheet、不改写 sheet。"
+}

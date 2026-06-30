@@ -1,0 +1,105 @@
+{
+  "time": "2026-06-27T08:43:18.295Z",
+  "activeTabs": [
+    {
+      "i": 612,
+      "tag": "LI",
+      "cls": "el-menu-item",
+      "text": "实时",
+      "rect": {
+        "x": 491,
+        "y": 10,
+        "w": 97,
+        "h": 40
+      },
+      "vis": true
+    },
+    {
+      "i": 618,
+      "tag": "LI",
+      "cls": "el-menu-item is-active",
+      "text": "历史",
+      "rect": {
+        "x": 588,
+        "y": 10,
+        "w": 97,
+        "h": 40
+      },
+      "vis": true
+    },
+    {
+      "i": 624,
+      "tag": "LI",
+      "cls": "el-menu-item",
+      "text": "计划",
+      "rect": {
+        "x": 685,
+        "y": 10,
+        "w": 97,
+        "h": 40
+      },
+      "vis": true
+    },
+    {
+      "i": 651,
+      "tag": "DIV",
+      "cls": "tab is-active",
+      "text": "业务事",
+      "rect": {
+        "x": 772,
+        "y": 72,
+        "w": 58,
+        "h": 30
+      },
+      "vis": true
+    },
+    {
+      "i": 2361,
+      "tag": "LI",
+      "cls": "is-active number",
+      "text": "1",
+      "rect": {
+        "x": 1120.015625,
+        "y": 878.203125,
+        "w": 32,
+        "h": 32
+      },
+      "vis": true
+    }
+  ],
+  "rows": [
+    {
+      "i": 0,
+      "text": "pal_assessment_record\nPalimpsestBack_0626R2@pal_assessment_record\n1729382256910270465\n9981dbc2-e49e-496c-b509-7abdf0891be8\nassessment record main table\n11469702-792b-4b3b-996e-14100fdfee14\n3",
+      "rect": {
+        "x": 319,
+        "y": 237.734375,
+        "w": 1670,
+        "h": 33
+      }
+    },
+    {
+      "i": 1,
+      "text": "pal_assessment_score_detail\nPalimpsestBack_0626R2@pal_assessment_score_detail\n1729382256910270466\n01425c7f-f3a7-406b-9404-9444375cce9c\nassessment score detail table\n3d1b7eb9-2566-4039-af0d-12b668ac0c98\n3",
+      "rect": {
+        "x": 319,
+        "y": 270.734375,
+        "w": 1670,
+        "h": 33
+      }
+    },
+    {
+      "i": 2,
+      "text": "pal_operation_log\nPalimpsestBack_0626R2@pal_operation_log\n1729382256910270467\nda998b80-48a8-4bde-a497-5721169d9636\noperation audit log\n2f3e3c51-d19d-4d99-882e-3e1cdd9b8286\n3",
+      "rect": {
+        "x": 319,
+        "y": 303.734375,
+        "w": 1670,
+        "h": 33
+      }
+    }
+  ],
+  "body": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\n生成器\n建模系统客户端1\n组态系统客户端1\n运维部署客户端1\n接口测试\n工厂管理员客户端_对象1\n时空对象管理平台\n本云(0)\n开发系统\n生成器时空\n客户端工程\n引滦集团\n测试\n报警转发\n测试1\n测试客户端\n盛云_孙宇飞_时空_0617\n盛云_孙宇飞_时空_0617_TOPV2\n盛云_孙宇飞_时空_0617_TOPV3\n测试时空-工厂\n产品生成器功能客户端\n手工层级1\n客户端1\n盛云_孙宇飞_Noctiluca_客户端\nEidolon手工层级1\nNadirL1\n客户端1_人工干预点_1\n管理员客户端\n盛云_孙宇飞_Nadir_客户端_0622\n盛云_孙宇飞_Palimpsest客户端_0624_$Client\nPalimpsestL1\n纯手工客户端_$Client\n工厂\nPalimpsestL1_0626R2\n菜单时空\n接口测试时空\n接口测试客户端_$Client\n工厂管理员客户端_$Client\n功能\n实时\n历史\n计划\n连接\n三方APP\n权限\n镜像\n关于\n单灵敏时序物\n多灵敏时序物\n时序事\n业务物\n业务事\n组织\n岗位\n人员\n资源\n查询模式:\n对象\n时空范围：\n本时空/当前时空\n对象ID\n查询\n重置\n高级查询\n新建对象\n删除\n全部删除\n升级\n导入excel\n导出excel\npal_assessment_record\nPalimpsestBack_0626R2@pal_assessment_record\n1729382256910270465\n9981dbc2-e49e-496c-b509-7abdf0891be8\nassessment record main table\n11469702-792b-4b3b-996e-14100fdfee14\n3\npal_assessment_score_detail\nPalimpsestBack_0626R2@pal_assessment_score_detail\n1729382256910270466\n01425c7f-f3a7-406b-9404-9444375cce9c\nassessment score detail table\n3d1b7eb9-2566-4039-af0d-12b668ac0c98\n3\npal_operation_log\nPalimpsestBack_0626R2@pal_operation_log\n1729382256910270467\nda998b80-48a8-4bde-a497-5721169d9636\noperation audit log\n2f3e3c51-d19d-4d99-882e-3e1cdd9b8286\n3\n名称\n显示名称\nID\nGUID\n描述\n模型拷贝GUID\n模型版本\n编辑\n外键管理\n记录\n列表属性\n删除\n编辑\n外键管理\n记录\n列表属性\n删除\n编辑\n外键管理\n记录\n列表属性\n删除\n操作\n共 3 条\n100条/页\n1\n前往\n页",
+  "count3": true,
+  "count5": false
+}

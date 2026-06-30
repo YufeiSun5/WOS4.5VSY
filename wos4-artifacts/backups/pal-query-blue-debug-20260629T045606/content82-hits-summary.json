@@ -1,0 +1,109 @@
+[
+  {
+    "path": "rootData.rowsManager.1.colsManager.2.object.0",
+    "UIName": "pal_query_button",
+    "prototypeName": "ElementButton",
+    "hasPropData": false,
+    "detailLen": 61,
+    "linkCount": 1
+  },
+  {
+    "path": "rootData.rowsManager.4.colsManager.0.object.0",
+    "UIName": "pal_assessment_table",
+    "prototypeName": "ElementTable",
+    "hasPropData": false,
+    "detailLen": 2316,
+    "linkCount": 21
+  },
+  {
+    "path": "components.15",
+    "key": "pal_query_button",
+    "UIName": "pal_query_button",
+    "prototypeName": "ElementButton",
+    "hasPropData": true,
+    "detailLen": 61,
+    "linkCount": 1
+  },
+  {
+    "path": "components.15.propData",
+    "UIName": "pal_query_button",
+    "prototypeName": "ElementButton",
+    "hasPropData": false,
+    "detailLen": 61,
+    "linkCount": 1
+  },
+  {
+    "path": "components.16.object.0",
+    "UIName": "pal_query_button",
+    "prototypeName": "ElementButton",
+    "hasPropData": false,
+    "detailLen": 61,
+    "linkCount": 1
+  },
+  {
+    "path": "components.35",
+    "key": "pal_assessment_table",
+    "UIName": "pal_assessment_table",
+    "prototypeName": "ElementTable",
+    "hasPropData": true,
+    "detailLen": 2316,
+    "linkCount": 21
+  },
+  {
+    "path": "components.35.propData",
+    "UIName": "pal_assessment_table",
+    "prototypeName": "ElementTable",
+    "hasPropData": false,
+    "detailLen": 2316,
+    "linkCount": 21
+  },
+  {
+    "path": "components.36.object.0",
+    "UIName": "pal_assessment_table",
+    "prototypeName": "ElementTable",
+    "hasPropData": false,
+    "detailLen": 2316,
+    "linkCount": 21
+  },
+  {
+    "path": "components.38.data.rowsManager.1.colsManager.2.object.0",
+    "UIName": "pal_query_button",
+    "prototypeName": "ElementButton",
+    "hasPropData": false,
+    "detailLen": 61,
+    "linkCount": 1
+  },
+  {
+    "path": "components.38.data.rowsManager.4.colsManager.0.object.0",
+    "UIName": "pal_assessment_table",
+    "prototypeName": "ElementTable",
+    "hasPropData": false,
+    "detailLen": 2316,
+    "linkCount": 21
+  },
+  {
+    "path": "components.39",
+    "key": "图层1",
+    "UIName": "图层1",
+    "prototypeName": "layer",
+    "hasPropData": true,
+    "detailLen": 0,
+    "linkCount": 0
+  },
+  {
+    "path": "components.39.propData.object.rowsManager.1.colsManager.2.object.0",
+    "UIName": "pal_query_button",
+    "prototypeName": "ElementButton",
+    "hasPropData": false,
+    "detailLen": 61,
+    "linkCount": 1
+  },
+  {
+    "path": "components.39.propData.object.rowsManager.4.colsManager.0.object.0",
+    "UIName": "pal_assessment_table",
+    "prototypeName": "ElementTable",
+    "hasPropData": false,
+    "detailLen": 2316,
+    "linkCount": 21
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "path": "top",
+    "href": "http://221.239.19.118:13001/#/main",
+    "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\n生成器\n建模系统客户端1\n组态系统客户端1\n运维部署客户端1\n接口测试\n工厂管理员客户端_对象1\n建模系统客户端1\n收藏此应用\n关闭",
+    "iframes": 3
+  },
+  {
+    "path": "top.0",
+    "href": "http://221.239.19.118:13001/desktop-frame/index.html?cloud=1#/main/worker-space-model",
+    "text": "时空功能开发平台Time Space Platform时空开发部署管理 仓库包 权限 镜像 关于时空管理 新建 删除默认数据区KingFusion4.5_V1KingStudio4.5_Beta_dataBaseKF4.5工程个人仓库盛云_孙宇飞_仓库KingStudio4.5_BetaLRLtest新建生成拷贝复制移动导入导出模式选择:只导出本仓库导出本仓库+数据对象只导出仓库树结构导出仓库树结构+数据对象是否开源:是否删除上传资源打包新建生成拷贝生成拷贝至复制复制至移动导入导出模式选择:只导出本仓库导出本仓库+数据对象只导出仓库树结构导出仓库树结构+数据对象是否开源:是否删除上传资源打包全量打包名称本仓库-多类型暂无数据全选共 7 条 1 23456Infinity前往页属性暂无数据时空仓库筛选全部:Label1:Label2:Label3:取消确定生成拷贝至复制至全量打包名称GUID按本仓库查看按仓库树查看全部功能单元第三方APPapp模块业务物单灵敏时序物多灵敏时序物业务事时序事关系组织岗位人员安全策略审计策略机密性完整性锁用户用户组角色域型域型交互表资源别名",
+    "iframes": 0
+  },
+  {
+    "path": "top.1",
+    "href": "http://221.239.19.118:13001/public/?id=6192730962611142662&parentid=0&cloudid=1&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+    "text": "",
+    "iframes": 1
+  },
+  {
+    "path": "top.1.0",
+    "href": "http://221.239.19.118:13001/api/v1/GetFileContent/1/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/index.html",
+    "text": "KingFusion4.5_建模系统\n\n建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n数据管理\n生产计划与执行\n接口测试\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left",
+    "iframes": 1
+  },
+  {
+    "path": "top.1.0.0",
+    "href": "http://221.239.19.118:13001/worker-space/index.html?guid=aa5d8314-87b7-453c-96e6-21e4327a8778&version=0&areaid=0&parentid=0&cloudid=1&type=1005",
+    "text": "新建\n\ndeclare\n\nonCreate\n\nonDestroy\n\nonException\n\nQueryAssessmentPage\n\nQueryAssessmentData\n\nQueryAssessmentSmoke\n\nPalimpsestCrudService\n\nQueryAssessmentRecords\n\nCreateAssessmentRecord\n\nUpdateAssessmentRecord\n\nDeleteAssessmentRecord\n\nSubmitAssessmentScore\n\nPalimpsestHandleError\n\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nelse\n{\n resultText = \"{\\\"ok\\\":false,\\\"code\\\":\\\"QUERY_FAIL",
+    "iframes": 0
+  },
+  {
+    "path": "top.2",
+    "href": "http://221.239.19.118:13001/public/?id=6192730962611142664&parentid=0&cloudid=1&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+    "text": "\n    \n    \n    !function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();\n    \n    System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))\n  \n\n",
+    "iframes": 1
+  },
+  {
+    "path": "top.2.0",
+    "href": "http://221.239.19.118:13001/api/v1/GetFileContent/1/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/index.html",
+    "text": "<strong>We're sorry but app-master doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>KingFusion4.5_部署系统工程列表名称引滦原水处理测试mwq测试张测试1盛云_孙宇飞_Noctiluca盛云_孙宇飞_CRUD工程_0620信息管理系统盛云_孙宇飞_Palimpsest工程_0624盛云_孙宇飞_Palimpsest工程_0626接口测试共 11 条10条/页20条/页50条/页100条/页12前往页 管控单元实例  数字孪生可视化  工作流实例  系统服务配置  采集设备实例  云管理  批量撤销部署  批量部署  批量启动  批量停止   实例名称版本云数据区部署状态运行状态操作PalimpsestL1无未部署未启动部署启动 更新 部分更新 删除 全部展开PalimpsestL1_0626无未部署未启动部署启动 更新 部分更新 删除 全部展开PalimpsestL1_0626R21本云area0已部署已启动撤销部署停止 更新 部分更新 删除 全部展开\n          \n          body #RContainerk03325f7f11e80f6420f21ba61f2419c #k0cf2e5501c87454b2c448de64169255 p\n{\nfont-family: Source Han Sans;\nfont-size: 18px;\nfont-weight: bold;\nline-height: normal;\nletter-spacing: normal;\ncolor: #333333;\n}#RContainerk03325f7f11e80f6420f21ba61f2419c #k0cf2e5501c87454b2c448de64169255 {\n          background:rgba(255, 255, 255, 0);\n          border-width:0px;\n          border-style:null;\n          border-color:#000000;\n          text-align:left;\n   ",
+    "iframes": 0
+  }
+]

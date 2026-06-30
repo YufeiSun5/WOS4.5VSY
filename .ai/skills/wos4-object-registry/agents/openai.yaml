@@ -1,0 +1,4 @@
+interface:
+  display_name: "WOS4 Object Registry"
+  short_description: "Track WOS4 IDs, GUIDs, methods, fields."
+  default_prompt: "Use $wos4-object-registry to update the WOS4 model, runtime object, and method registry files from evidence."

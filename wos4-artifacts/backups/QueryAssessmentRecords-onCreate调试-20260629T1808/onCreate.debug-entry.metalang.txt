@@ -1,0 +1,13 @@
+stringMap<var> strmapPara;
+string resultText;
+
+strmapPara["spaceTimeGuid"] = "aba6cf7a-0715-4966-8eaf-0f448eba7bc9";
+strmapPara["pageNo"] = (int32)1;
+strmapPara["pageSize"] = (int32)10;
+strmapPara["status"] = "created_by_frontend";
+strmapPara["startTime"] = "2020-01-01 00:00:00";
+strmapPara["endTime"] = "2020-01-31 00:00:00";
+
+Trace(2, "onCreate.QueryAssessmentRecords.params", strmapPara);
+resultText = QueryAssessmentRecords(strmapPara);
+Trace(2, "onCreate.QueryAssessmentRecords.result", resultText);

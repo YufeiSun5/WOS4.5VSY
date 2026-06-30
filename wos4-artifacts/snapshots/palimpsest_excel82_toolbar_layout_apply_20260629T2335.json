@@ -1,0 +1,108 @@
+{
+  "ok": true,
+  "topRow": {
+    "UIName": "ExcelExperimentToolbarRow",
+    "height": 220,
+    "heightStrategy": "fixedsize",
+    "colStrategy": "percentage",
+    "colsGap": 153,
+    "rowGap": {
+      "top": 8,
+      "right": 8,
+      "bottom": 8,
+      "left": 8,
+      "autotop": 0,
+      "autoright": 0,
+      "autoleft": 0,
+      "autobottom": 0
+    }
+  },
+  "mainRow": {
+    "UIName": "ExcelReportWorkspaceRow",
+    "height": 844,
+    "heightStrategy": "autosize",
+    "cols": 1,
+    "reportObj": {
+      "UIName": "报表流程图1",
+      "prototypeName": "报表流程图",
+      "UIType": 51,
+      "modelId": "1441151880758560518"
+    }
+  },
+  "colResults": [
+    {
+      "idx": 0,
+      "name": "CellAddressInputCol",
+      "pct": 12,
+      "rect": null,
+      "objectLen": 0
+    },
+    {
+      "idx": 1,
+      "name": "CellValueInputCol",
+      "pct": 16,
+      "rect": null,
+      "objectLen": 0
+    },
+    {
+      "idx": 2,
+      "name": "ReadCellButtonCol",
+      "pct": 9,
+      "rect": null,
+      "objectLen": 0
+    },
+    {
+      "idx": 3,
+      "name": "WriteCellButtonCol",
+      "pct": 9,
+      "rect": null,
+      "objectLen": 0
+    },
+    {
+      "idx": 4,
+      "name": "StyleCellButtonCol",
+      "pct": 9,
+      "rect": null,
+      "objectLen": 0
+    },
+    {
+      "idx": 5,
+      "name": "ExportPrintProbeCol",
+      "pct": 13,
+      "rect": null,
+      "objectLen": 0
+    },
+    {
+      "idx": 6,
+      "name": "ExperimentResultCol",
+      "pct": 20,
+      "rect": null,
+      "objectLen": 0
+    },
+    {
+      "idx": 7,
+      "name": "CapabilityNotesCol",
+      "pct": 12,
+      "rect": null,
+      "objectLen": 0
+    }
+  ],
+  "childKeys": [
+    "PageView",
+    "RCol11",
+    "RCol12",
+    "RCol13",
+    "RCol14",
+    "RCol9",
+    "RCol2",
+    "RCol8",
+    "RCol3",
+    "RRow1",
+    "RCol6",
+    "RRow2",
+    "RContainer1",
+    "图层1",
+    "currentSelectItem",
+    "报表流程图1"
+  ]
+}

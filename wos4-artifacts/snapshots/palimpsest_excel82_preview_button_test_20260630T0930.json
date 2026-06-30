@@ -1,0 +1,63 @@
+{
+  "rects": [
+    {
+      "text": "Read\nRead",
+      "x": 532,
+      "y": 8,
+      "w": 140,
+      "h": 220
+    },
+    {
+      "text": "Write\nWrite",
+      "x": 680,
+      "y": 8,
+      "w": 140,
+      "h": 220
+    },
+    {
+      "text": "Style\nStyle",
+      "x": 828,
+      "y": 8,
+      "w": 140,
+      "h": 220
+    },
+    {
+      "text": "160 Rows\n160 Rows",
+      "x": 976,
+      "y": 8,
+      "w": 220,
+      "h": 220
+    },
+    {
+      "text": "Image\nImage",
+      "x": 1204,
+      "y": 8,
+      "w": 410,
+      "h": 220
+    },
+    {
+      "text": "Paged PDF\nPaged PDF",
+      "x": 1622,
+      "y": 8,
+      "w": 250,
+      "h": 220
+    },
+    {
+      "text": "100%",
+      "x": 1855.296875,
+      "y": 915,
+      "w": 44.703125,
+      "h": 24
+    }
+  ],
+  "result": {
+    "A1": "",
+    "A2": "",
+    "A3": "",
+    "A163": "",
+    "J1": "",
+    "images": 0,
+    "pageBreakList": {},
+    "body": "Read\nRead\nWrite\nWrite\nStyle\nStyle\n160 Rows\n160 Rows\nImage\nImage\nPaged PDF\nPaged PDF\nSheet1\n100%"
+  }
+}

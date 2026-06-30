@@ -1,0 +1,14 @@
+{
+  "task": "页面创建时空切换规则",
+  "createdAt": "2026-06-26T17:31:38+08:00",
+  "operator": "孙宇飞_review-ai",
+  "reason": "补充页面创建阶段必须预留时空信息和切换方法的流程规则；实例化只能填写一个默认时空，页面可能需要查询多个时空。",
+  "beforeFiles": [
+    "AGENTS.md",
+    "MEMORY.md",
+    ".ai/docs/wos4-version-tree.md",
+    ".ai/skills/wos4-config-client-screen-create/SKILL.md",
+    ".ai/skills/wos4-button-variable-flow/SKILL.md",
+    ".ai/skills/wos4-blue-client-publish-flow/SKILL.md"
+  ]
+}

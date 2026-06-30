@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-06-28T01:56:00+08:00",
+  "identity": "孙宇飞_code-ai",
+  "context": {
+    "workspace": "D:/DEV_D/WOS4.5",
+    "spaceTimeName": "PalimpsestL1_0626R2",
+    "spaceTimeGuid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+    "backendInstance": "PalimpsestBack_0626R2",
+    "targetObject": "pal_assessment_record",
+    "recordType": 3106
+  },
+  "create": {
+    "result": "success",
+    "ret": 0,
+    "errorcodes": [0],
+    "recordID": "216172782113783809",
+    "businessId": "PAL_DIRECT6_20260627175612",
+    "requiredShape": [
+      "input.appspacetimeguid is required for worker-space direct calls",
+      "dataValues must be var[][] with typed variant cells",
+      "pal_assessment_record must use historical business-event record type 3106"
+    ]
+  },
+  "query": {
+    "result": "success",
+    "ret": 0,
+    "mode": 51,
+    "objectIdentifierType": 2,
+    "recordID": "216172782113783809",
+    "returnedBusinessId": "PAL_DIRECT6_20260627175612"
+  },
+  "diagnosis": {
+    "previousFailures": [
+      {
+        "ret": -30018,
+        "meaning": "missing required parameter",
+        "causeFound": "worker-space direct call did not include appspacetimeguid"
+      },
+      {
+        "ret": -31539,
+        "meaning": "field name/value count mismatch",
+        "causeFound": "dataValues cells were raw JS values instead of typed variant protobuf values"
+      }
+    ],
+    "conclusion": "The table is online and real Create/Query works. The failed path was using the wrong call context/parameter encoding, not a missing runtime object."
+  }
+}

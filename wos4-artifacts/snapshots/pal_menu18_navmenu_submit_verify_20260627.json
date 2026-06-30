@@ -1,0 +1,82 @@
+{
+  "capturedAt": "2026-06-27T00:00:00+08:00",
+  "ai": "孙宇飞_frontend-ai",
+  "page": "PalimpsestMenu_18",
+  "model": "盛云科技_孙宇飞_Palimpsest_前端_0623",
+  "operation": "replace left side with ElementNavmenu menu and keep RCol12 empty page host",
+  "backupBefore": "wos4-artifacts/backups/pal-menu18-frame-before-20260627T000347/",
+  "layout": {
+    "canvas": "1920x1080",
+    "leftWidth": 343,
+    "rightHost": "RCol12",
+    "rightHostObject": []
+  },
+  "componentsAfterReload": [
+    "PageView",
+    "PalimpsestMenuHeader",
+    "RCol11",
+    "RRow1",
+    "PalimpsestLeftNavMenu",
+    "RCol6",
+    "RCol12",
+    "RRow2",
+    "PalimpsestMenuRoot",
+    "图层1",
+    "currentSelectItem"
+  ],
+  "menu": {
+    "component": "PalimpsestLeftNavMenu",
+    "type": "ElementNavmenu",
+    "groups": [
+      {
+        "title": "考核管理",
+        "items": [
+          {
+            "title": "实习生考核管理",
+            "targetPage": "PalimpsestContent_82"
+          },
+          {
+            "title": "考核数据看板",
+            "targetPage": "PalimpsestContent_82"
+          }
+        ]
+      },
+      {
+        "title": "演示与调试",
+        "items": [
+          {
+            "title": "展开表格演示",
+            "targetPage": "PalimpsestExpandTable_82_Demo"
+          },
+          {
+            "title": "归档与日志",
+            "targetPage": "PalimpsestExpandTable_82_Demo"
+          }
+        ]
+      }
+    ],
+    "clickBinding": "detailConfig binds .el-menu-item click and calls RCol12.setPage(...) in packaged client runtime",
+    "detailConfigContainsRCol12SetPage": true
+  },
+  "submit": {
+    "dialogTitle": "版本提交",
+    "submitNote": "PalimpsestMenu_18 左侧导航菜单与 RCol12 setPage 事件",
+    "messages": [
+      "保存成功",
+      "生成历史版本成功！"
+    ],
+    "result": "success"
+  },
+  "reloadVerify": {
+    "ok": true,
+    "headerText": "Palimpsest 控制台 Palimpsest 控制台",
+    "navText": "考核管理 实习生考核管理 考核数据看板 演示与调试 展开表格演示 归档与日志",
+    "rightHostObject": [],
+    "note": "setPage click behavior is intentionally not verified in editor because user confirmed it must be tested after packaging as client."
+  },
+  "screenshots": [
+    "wos4-artifacts/screenshots/pal_menu18_before_submit_reinsert.png",
+    "wos4-artifacts/screenshots/pal_menu18_after_submit.png",
+    "wos4-artifacts/screenshots/pal_menu18_after_submit_reload_verify.png"
+  ]
+}

@@ -5803,3 +5803,1219 @@ Historical note:
   - `wos4-artifacts/snapshots/object_mgmt_nadirl2_template_probe_20260622.json`
   - `wos4-artifacts/docs/wos4-help-kb/function-reference/error-codes/错误码_模型库.md`
   - `wos4-artifacts/snapshots/pal_runtime_package_absence_probe_20260624.json`
+
+## 2026-06-26 Palimpsest 0626 工程重走实例化
+
+- 身份：孙宇飞_code-ai。
+- 背景：系统重置后，用户要求不要继续旧 0624 工程，改为新建 `盛云_孙宇飞_Palimpsest工程_0626` 并重走实例化。
+- 操作：
+  - 通过 `组态系统客户端 -> 工程目录 -> 新建工程` 创建 `盛云_孙宇飞_Palimpsest工程_0626`。
+  - 进入工程后打开真实子菜单 `管控单元实例配置`。
+  - 创建时空节点 `PalimpsestL1`。
+  - 在 `PalimpsestL1` 下只创建后端运行实例：
+    - `PalimpsestBack -> 盛云科技_孙宇飞_Palimpsest_后台_0623 / v2`
+  - 未把 `盛云科技_孙宇飞_Palimpsest_前端_0623` 放入管控单元实例配置；页面精灵图后续按 `数字孪生可视化 -> 客户端 -> 画面列表` 绑定。
+  - 使用时空列表小工具栏 `提交版本` 提交 `PalimpsestL1`。
+- 结果：
+  - `时空仓库版本提交进度` 弹窗达到 `100%`。
+  - 详情表显示：
+    - `PalimpsestL1 / 657add61-3075-47cb-95a0-0b076373bd3e / 100% / 提交成功`
+    - `PalimpsestBack / 9a372903-13bd-49b9-808f-6448d5625b03 / 100% / 提交成功`
+  - console 回调显示两个 `_asyncCreatePacketCallback` 均为 `errorcodes:[0]`，版本均为 `1`。
+- 当前结论：
+  - 0626 工程的时空仓库和后端实例提交已经成功，之前 `-14496/-15495` 阻塞在当前平台状态下未复现。
+  - 当前已实例化的是后端模型 `盛云科技_孙宇飞_Palimpsest_后台_0623`。根据 2026-06-24 建模记录，该模型被设计为同一建模对象内同时承载 8 个业务事和自定义计算；但下一步仍需通过建模系统只读检查确认 8 个业务事和 `PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC` 当前仍在该模型内。
+  - 如果检查发现数据业务事和自定义计算已拆成两个独立模型，则必须把数据/业务事模型也实例化到同一个 `PalimpsestL1`，否则前后端 CRUD 运行时不会在同一时空内完整闭环。
+- 新证据：
+  - `wos4-artifacts/snapshots/pal_0626_spacetime_submit_result_20260626.json`
+  - `wos4-artifacts/screenshots/pal_0626_project_created_or_existing.png`
+  - `wos4-artifacts/screenshots/pal_0626_instance_config_open.png`
+  - `wos4-artifacts/screenshots/pal_0626_spacetime_l1_created.png`
+  - `wos4-artifacts/screenshots/pal_0626_backend_instance_created.png`
+  - `wos4-artifacts/screenshots/pal_0626_spacetime_submit_result.png`
+
+## 2026-06-26 Palimpsest 0626 后端模型结构核验
+
+- 身份：孙宇飞_code-ai。
+- 目的：回应“数据模型和自定义计算是不是拆开，是否必须同一时空实例化”的疑问，核实当前已实例化的 `PalimpsestBack` 是否足够承载后端 CRUD。
+- 操作：
+  - 使用 `browser-harness` 进入 `建模系统客户端 -> 盛云_孙宇飞_根组 -> 盛云科技_孙宇飞_Palimpsest_后台_0623`。
+  - 只读检查左侧菜单开关：`业务事=true`，`自定义计算=true`。
+  - 点击 `业务事`，确认 `Root` 下有 8 个业务事：`pal_menu_node / pal_department / pal_mentor / pal_intern_student / pal_assessment_batch / pal_assessment_record / pal_assessment_score_detail / pal_operation_log`。
+  - 点击 `自定义计算`，确认存在 `PalimpsestBackend / 自定义函数`。
+  - 进入 `PalimpsestBackend` 脚本编辑器弹窗，递归读取其内部 `worker-space` iframe。
+- 结果：
+  - `worker-space` 当前模型为 `PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC`，对象类型为 `功能单元模型`。
+  - 函数列表包含：`onCreate / onDestroy / onException / QueryAssessmentPage / QueryAssessmentData / QueryAssessmentSmoke / PalimpsestCrudService / QueryAssessmentRecords / CreateAssessmentRecord / UpdateAssessmentRecord / DeleteAssessmentRecord / SubmitAssessmentScore / PalimpsestHandleError`。
+  - 模型列表中虽然还存在单独的 `PalimpsestAssessment_CUSTOMFUNC`，但当前 `后台_0623` 内部已同时包含业务事和自定义计算。
+- 当前结论：
+  - 0626 工程实例化 `PalimpsestBack -> 盛云科技_孙宇飞_Palimpsest_后台_0623 / v2` 是合理的，同一后端模型已包含业务事数据结构和自定义计算。
+  - 不需要为了页面精灵图把前端模型加入 `管控单元实例配置`。
+  - 不需要额外实例化 `PalimpsestAssessment_CUSTOMFUNC`，除非后续明确改为用它作为新的后端运行模型。
+- 新证据：
+  - `wos4-artifacts/snapshots/pal_0626_backend_model_structure_inspection_20260626.json`
+
+## 2026-06-26 Palimpsest 0626 唯一时空部署启动
+
+- 身份：孙宇飞_code-ai。
+- 背景：`PalimpsestL1` 在运维部署客户端部署时报 `时空对象名称重复，请检查该实例是否已在其他云区域部署！部署失败！`。为避免删除或覆盖旧运行对象，本轮在同一 0626 工程中创建唯一运行节点。
+- 操作：
+  - 在 `组态系统客户端 -> 盛云_孙宇飞_Palimpsest工程_0626 -> 管控单元实例配置` 中创建 `PalimpsestL1_0626R2`。
+  - 在该时空下创建后端实例 `PalimpsestBack_0626R2 -> 盛云科技_孙宇飞_Palimpsest_后台_0623 / v2`。
+  - 提交 `PalimpsestL1_0626R2` 时空仓库版本。
+  - 切换到底部任务栏里的 `运维部署客户端`，在 `area0` 部署并启动。
+- 结果：
+  - 时空提交进度：
+    - `PalimpsestL1_0626R2 / aba6cf7a-0715-4966-8eaf-0f448eba7bc9 / 100% / 提交成功`
+    - `PalimpsestBack_0626R2 / 92d89140-0736-41f2-873b-6bfab8f3d276 / 100% / 提交成功`
+  - 运维部署进度：`部署进度 / 100% / 成功`。
+  - 运维启动进度：`启动进度 / 100% / 成功`。
+  - 切工程刷新后最终行状态为：`PalimpsestL1_0626R2 / 版本 1 / 本云 / area0 / 已部署 / 已启动`。
+- 当前结论：
+  - `盛云_孙宇飞_Palimpsest工程_0626` 现在已有可运行的后端时空节点 `PalimpsestL1_0626R2`。
+  - `PalimpsestL1_0626` 也已被创建，但本轮不用它作为部署目标，避免和刚才重复名/延迟显示路径混淆。
+  - 运维客户端行按钮必须先通过底部任务栏切到前台；后台 iframe 的 DOM click 不足以触发真实部署按钮。
+  - 进度弹窗成功后，必须切换工程再切回，才能信任表格中的部署/启动状态。
+- 新证据：
+  - `wos4-artifacts/snapshots/pal_0626_r2_runtime_deploy_start_result_20260626.json`
+  - `wos4-artifacts/screenshots/pal_0626_ops_before_deploy_r2.png`
+  - `wos4-artifacts/screenshots/pal_0626_ops_started_r2.png`
+
+## 2026-06-26 Palimpsest 0626 运行 GUID 和方法名核验
+
+- 身份：孙宇飞_code-ai。
+- 目的：在前端继续绑定蓝色客户端和调用后端前，确认同一运行时空内是否已经能拿到实例 GUID、运行子包名和实际可调用方法名。
+- 操作：
+  - 在 `时空功能开发平台 -> 默认数据区 -> KF4.5工程 -> 盛云_孙宇飞_Palimpsest工程_0626 -> KF4.5Root -> PalimpsestL1_0626R2` 逐级读取属性。
+  - 选中 `PalimpsestBack_0626R2` 和其下 `PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2`，读取运行包属性。
+  - 在建模系统打开 `PalimpsestBackend` 自定义函数的 `worker-space`，读取函数列表。
+- 结果：
+  - 工程 `盛云_孙宇飞_Palimpsest工程_0626`：ID `288230376151751573`，GUID `577b7acf-2fc6-4a57-bb84-5fcbba3246b3`。
+  - 根节点 `KF4.5Root`：ID `288230376151751574`，GUID `8c6286b5-18d8-4f55-99ea-0161285d48d1`。
+  - 运行时空 `PalimpsestL1_0626R2`：ID `288230376151751585`，GUID `aba6cf7a-0715-4966-8eaf-0f448eba7bc9`。
+  - 后端实例 `PalimpsestBack_0626R2`：ID `288230376151751586`，GUID `92d89140-0736-41f2-873b-6bfab8f3d276`。
+  - 自定义计算运行拷贝 `PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2`：拷贝 ID `7205759403792797099`，拷贝 GUID `9d464a7f-232b-4a27-9bf5-e7fe479f4f3f`。
+  - 自定义计算母模型 GUID `aa5d8314-87b7-453c-96e6-21e4327a8778`，版本 `6`，对象类型 `功能单元拷贝`。
+  - worker-space 函数列表包含：`declare / onCreate / onDestroy / onException / QueryAssessmentPage / QueryAssessmentData / QueryAssessmentSmoke / PalimpsestCrudService / QueryAssessmentRecords / CreateAssessmentRecord / UpdateAssessmentRecord / DeleteAssessmentRecord / SubmitAssessmentScore / PalimpsestHandleError`。
+- 当前结论：
+  - 可以确认后端自定义计算已经存在于已部署启动的 `PalimpsestL1_0626R2` 同一运行时空内。
+  - 前端后续应围绕 `PalimpsestL1_0626R2 -> PalimpsestBack_0626R2 -> PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2` 做 Call 绑定和 smoke test。
+  - 尚未确认蓝色客户端运行态 `Call` 的精确入参签名；必须在前端/蓝色客户端里再做一次真实调用验证，不能仅凭 GUID 和方法名判断 CRUD 已经闭环。
+- 新证据：
+  - `wos4-artifacts/snapshots/pal_0626_runtime_guid_method_probe_20260626.json`
+  - `wos4-artifacts/screenshots/pal_0626_runtime_guid_method_probe_20260626.png`
+
+## 2026-06-26 Palimpsest 展开表格演示画面
+
+- 身份：孙宇飞_frontend-ai。
+- 目标：新建一个右侧 82% 内容画面演示，用假数据承载未来设备/部件数据，并规避参考页 `fixed right 操作列 + custom expand tr` 导致的右侧操作列错位问题。
+- 页面：`盛云科技_孙宇飞_Palimpsest_前端_0623 -> 页面精灵图 -> PalimpsestExpandTable_82_Demo`。
+- 实施：
+  - 先误建了根模型 `PalimpsestExpandTable_82`，随后正确创建页面精灵图 `PalimpsestExpandTable_82_Demo`。
+  - 创建可恢复运行态备份 `wos4-artifacts/backups/pal-expand-demo-20260626T185657/`。
+  - 尝试 `ElementWebContainer` 承载完整 HTML 演示，发现平台把 `data:text/html...` 写入后的网页容器 `src` 清空，编辑器内 iframe 仍为 `about:blank`，所以放弃此方案。
+  - 改用原生 `ElementTable` 组件 `pal_expand_native_table`，列包含 `展开 / 设备编码 / 设备名称 / 区域 / 健康度 / 状态 / 责任人 / 展开明细 / 操作`，假数据 6 行。
+  - 假数据放入 UTF-8 资产 `wos4-artifacts/tasks/20260626-展开表格演示画面/assets/pal-expand-table-demo-data.json`，避免 browser-harness ASCII 临时脚本把中文转成问号。
+- 当前结果：
+  - 编辑器内表格已可见，中文行数据正常，表格尺寸约 `1198 x 673`，顶部空白行已隐藏。
+  - `view.savaData()` 保存 API 返回成功。
+  - 顶部 `提交/预览` 文本未暴露为 DOM 元素，按截图工具栏位置点击也未触发弹窗、toast 或请求；因此本轮不能声称已完成提交版本或预览验收。
+- 首次静态版本限制：
+  - 该阶段只是原生表格假数据演示，`展开` 列为静态入口文案，不是真正展开交互。
+  - 这个限制已在后续“Palimpsest 展开表格交互修正”中处理；后续接手时以后一节的验证结果为准。
+- 新证据：
+  - `wos4-artifacts/snapshots/pal_expand_demo_final_editor_verify.json`
+  - `wos4-artifacts/screenshots/pal_expand_demo_final_editor.png`
+  - `wos4-artifacts/tasks/20260626-展开表格演示画面/assets/pal-expand-table-demo-data.json`
+
+## 2026-06-26 Palimpsest 展开表格交互修正
+
+- 身份：孙宇飞_frontend-ai。
+- 背景：用户指出 `PalimpsestExpandTable_82_Demo` 里的 `展开` 只是静态文本，点击不会展开。
+- 修改：
+  - 修改前补做当前静态版本可恢复备份：`wos4-artifacts/backups/pal-expand-static-version-20260626T201602/`。
+  - 扩展假数据资产 `wos4-artifacts/tasks/20260626-展开表格演示画面/assets/pal-expand-table-demo-data.json`，新增 `detailTitle / detailSummary / detailItems` 字段。
+  - 重写 `pal_expand_native_table.detailConfig`：先 `this.table(...)` 渲染原生表格，再在第一列安装点击事件。
+  - 点击第一列 `展开` 后，在主表体当前行后插入 `.pal-expand-detail-row`；第一列文本切换为 `收起`，再次点击移除明细行。
+  - 操作列保持 `fixed:false`，不复用参考页 `fixed right 操作列 + custom-expand-tr` 组合。
+- 验证：
+  - browser-harness 顶层弹窗扫描为空。
+  - 注入后组件返回 `rows=6 / cols=9 / hasInstaller=true`。
+  - 点击第一行前：`text=展开 / details=0 / rows=6`。
+  - 点击第一行后：`text=收起 / details=1 / rows=7`。
+  - 明细行正文包含 `一车间压缩空气站部件明细 / 设备编码 / 健康度 / 设备连续运行 18 天...复检`。
+  - CSS 伪箭头在编辑器里会渲染为 `?`，已移除伪元素；复测 `hasQuestion=false`，行首仅显示 `展开/收起`。
+  - `view.savaData()` 保存 API 返回成功，保存后无阻塞弹窗或错误消息。
+- 当前限制：
+  - 本轮完成编辑器 runtime 点击验证和保存 API 验证，尚未完成顶部提交版本和预览链路。
+  - 顶部 `提交/预览` 仍需要后续用可靠 DOM 定位或人工配合触发，不能把本轮结果直接声明为已提交版本。
+- 新证据：
+  - `wos4-artifacts/snapshots/pal_expand_demo_expand_click_verify.json`
+  - `wos4-artifacts/screenshots/pal_expand_demo_expand_click_editor.png`
+  - `wos4-artifacts/snapshots/pal_expand_demo_save_result.json`
+  - `wos4-artifacts/screenshots/pal_expand_demo_after_save_editor.png`
+
+## 2026-06-26 Palimpsest 展开表格视觉优化
+
+- 身份：孙宇飞_frontend-ai。
+- 背景：用户反馈展开表格“太丑”，默认 `ElementTable` 文本过于裸露，操作区、状态和健康度缺少管理页层次。
+- 修改：
+  - 修改前新增视觉优化前备份：`wos4-artifacts/backups/pal-expand-before-polish-20260626T203000/`。
+  - 在 `pal_expand_native_table.detailConfig` 中继续保留原生表格与展开逻辑，新增运行时样式和 DOM 装饰。
+  - 表头改为浅色工作台样式；表格增加圆角边框和弱阴影。
+  - 行首 `展开/收起` 改为胶囊按钮样式，不使用图标伪元素。
+  - 状态列改为绿色/橙色/红色胶囊；健康度列改为数字 + 条形进度。
+  - 操作列从裸文本改为 `查看 / 编辑 / 更多` 三个按钮，其中 `查看` 复用展开逻辑，`编辑/更多` 做演示 toast。
+  - 展开明细改为卡片式详情，含标题、摘要、基础字段、健康度条和部件状态条。
+- 验证：
+  - 顶层弹窗扫描为空。
+  - `PATCH_RESULT ok=true / hasInstaller=true`。
+  - `opButtons=18 / statusPills=6 / healthBars=6`。
+  - 点击第一行后仍为 `details=1`，行首从 `展开` 变为 `收起`，`hasQuestion=false`。
+  - `view.savaData()` 保存 API 返回成功。
+  - 编辑器截图确认操作列未 fixed，展开详情未造成右侧错位。
+- 当前限制：
+  - 编辑器当前缩放约 63%，截图中视觉比例会显小；后续预览验收时应以预览页实际 viewport 为准。
+  - 顶部提交版本和预览链路尚未完成。
+- 新证据：
+  - `wos4-artifacts/screenshots/pal_expand_demo_polished_editor.png`
+  - `wos4-artifacts/snapshots/pal_expand_demo_polish_verify.json`
+  - `wos4-artifacts/snapshots/pal_expand_demo_polish_save_result.json`
+
+## 2026-06-26 Palimpsest 左树右表纯前端假查询
+
+- 身份：孙宇飞_frontend-ai。
+- 背景：用户要求参考别人家画面在左侧增加树形图，右侧内容随左树选择变化；同时明确“后端不通，不要真的接前后端”，所以本轮只做前端假查询。
+- 修改：
+  - 修改前新增备份：`wos4-artifacts/backups/pal-expand-before-left-tree-20260626T204200/`。
+  - 在 `assets/pal-expand-table-demo-data.json` 中新增 `treeNodes`，与 `rows` 共同作为前端假数据仓库。
+  - 页面运行时新增左侧树形查询面板，节点只带 `filter` 条件，例如 `area=二车间`、`status=异常`。
+  - 右侧表格通过 `queryRows(node)` 从本地 `rows` 过滤数据，模拟真实查询，不调用后端、不调用时空对象、不调用自定义计算。
+  - `查看` 按钮只展开当前行；`编辑 / 更多` 只显示前端 toast 假反馈。
+  - 修正树筛选后的 DOM 复用问题：每次查询后完整刷新健康度、状态、操作按钮和展开事件，避免旧行状态串到新查询结果。
+- 验证：
+  - 顶层弹窗扫描为空。
+  - `PATCH_RESULT ok=true / hasInstaller=true`。
+  - 初始 `全部设备=6`，左侧树节点数 `treeNodes=8`。
+  - 点击 `二车间` 后：活动节点 `二车间 / 2`，右侧表格 `rows=2`，显示 EQ-240602 与 EQ-240605。
+  - 点击 `异常` 后：活动节点 `异常 / 1`，右侧表格 `rows=1`，点击展开后 `details=1 / firstText=收起`，明细为 `仓储堆垛机`。
+  - `hasQuestion=false`，保存 API 返回成功。
+- 当前限制：
+  - 这是在 `ElementTable` 根内注入的树形查询面板，不是单独原生 `ElementTree` 组件；当前项目组件目录里 `ElementTree` 仍属于“只探索过”，未完成主线保存/预览验收。
+  - 本轮仍未完成顶部提交版本和预览链路。
+- 新证据：
+  - `wos4-artifacts/screenshots/pal_expand_demo_left_tree_query_editor.png`
+  - `wos4-artifacts/snapshots/pal_expand_demo_left_tree_query_verify.json`
+  - `wos4-artifacts/snapshots/pal_expand_demo_left_tree_query_save_result.json`
+
+## 2026-06-26 Palimpsest 默认首行展开
+
+- 身份：孙宇飞_frontend-ai。
+- 背景：用户要求页面默认显示第一条的展开内容。
+- 修改：
+  - 修改前新增备份：`wos4-artifacts/backups/pal-expand-before-default-first-open-20260626T205800/`。
+  - 在 `pal_expand_native_table.detailConfig` 中加入 `autoExpandFirst(root)`，页面加载后自动展开当前查询结果第一条。
+  - 左侧树节点切换后，重新查询右表并自动展开新结果的第一条。
+  - 自动展开直接触发行首 `td` 的点击逻辑，并同步行首文本为 `收起`。
+- 验证：
+  - 默认 `全部设备 / 6`。
+  - `rows=6`，`details=1`，`firstText=收起`，`firstOpen=true`。
+  - `hasQuestion=false`。
+  - `view.savaData()` 保存 API 返回成功。
+- 当前限制：
+  - 截图命令在该轮出现过超时，因此以结构化快照为准；此前左树右表截图仍可作为页面布局证据。
+- 新证据：
+  - `wos4-artifacts/snapshots/pal_expand_demo_default_first_open_verify.json`
+  - `wos4-artifacts/snapshots/pal_expand_demo_default_first_open_save_result.json`
+
+## 2026-06-26 Palimpsest 展开表格演示页提交版本
+
+- 身份：孙宇飞_frontend-ai。
+- 对象：页面精灵图 `PalimpsestExpandTable_82_Demo`。
+- 操作：
+  - 提交前运行 `wos4-artifacts/scripts/ai-preflight.ps1 -Wos4 -TaskPath wos4-artifacts/tasks/20260626-展开表格演示画面`，结果通过。
+  - 定位当前编辑器工具栏真实提交按钮 `button.toolbar-history-submit`，弹出 `版本提交` 对话框。
+  - 提交说明：`左树右表纯前端假查询和默认首行展开 0626`。
+- 结果：
+  - 观察窗口捕获 `保存成功`。
+  - 观察窗口捕获 `生成历史版本成功！`。
+  - 判断：当前 82 演示页已提交生成历史版本。
+- 注意：
+  - 当前 Chrome 可见工作区已经切到时空功能开发平台；旧编辑器 iframe 内仍能探测到 `版本提交` 弹窗残留，但它不是当前可见业务区。后续如果回到该旧编辑器，应先处理残留弹窗或重新按菜单进入页面。
+- 新证据：
+  - `wos4-artifacts/snapshots/pal_expand_submit_button_probe.json`
+  - `wos4-artifacts/snapshots/pal_expand_submit_click_state.json`
+  - `wos4-artifacts/snapshots/pal_expand_submit_confirm_observe.json`
+  - `wos4-artifacts/snapshots/pal_expand_after_submit_current_state.json`
+
+## 2026-06-27 PalimpsestMenu_18 左侧菜单提交
+
+- 身份：孙宇飞_frontend-ai。
+- 对象：页面精灵图 `PalimpsestMenu_18`，左侧菜单框架页。
+- 修改前备份：
+  - `wos4-artifacts/backups/pal-menu18-frame-before-20260627T000347/`
+- 实施：
+  - 保持右侧 `RCol12` 为空页面宿主，不放业务组件。
+  - `RCol11` 放标题 `Palimpsest 控制台`。
+  - `RCol6` 放原生 `ElementNavmenu`，组件名 `PalimpsestLeftNavMenu`。
+  - 菜单分组为 `考核管理`、`演示与调试`。
+  - 菜单项包括 `实习生考核管理`、`考核数据看板`、`展开表格演示`、`归档与日志`。
+  - 点击绑定写入 `detailConfig`，在客户端运行态绑定 `.el-menu-item` 点击事件，再调用原框架页语法 `RCol12.setPage(...)`。
+- 目标页：
+  - `实习生考核管理` -> `PalimpsestContent_82`
+  - `考核数据看板` -> `PalimpsestContent_82`
+  - `展开表格演示` -> `PalimpsestExpandTable_82_Demo`
+  - `归档与日志` -> `PalimpsestExpandTable_82_Demo`
+- 关键发现：
+  - 直接 `addChild` 后调用 `savaData()` 不足以持久化新增菜单；重载后菜单会消失。
+  - 需要使用顶部真实提交按钮 `button.toolbar-history-submit` 打开 `版本提交` 弹窗并提交历史版本。
+- 提交结果：
+  - 提交说明：`PalimpsestMenu_18 左侧导航菜单与 RCol12 setPage 事件`。
+  - 捕获 `保存成功`。
+  - 捕获 `生成历史版本成功！`。
+- 重载验证：
+  - 提交后重载编辑器，`PalimpsestLeftNavMenu` 仍存在。
+  - 菜单文本可见：`考核管理 / 实习生考核管理 / 考核数据看板 / 演示与调试 / 展开表格演示 / 归档与日志`。
+  - `detailConfig` 包含 `RCol12.setPage`。
+  - `RCol12.getObject()` 为 `[]`。
+- 当前限制：
+  - 用户确认 `setPage` 行为需要打包为客户端后才能测出，因此本轮只验证配置和提交持久化，不在编辑器内强测页面嵌入。
+- 新证据：
+  - `wos4-artifacts/snapshots/pal_menu18_navmenu_submit_verify_20260627.json`
+  - `wos4-artifacts/screenshots/pal_menu18_before_submit_reinsert.png`
+  - `wos4-artifacts/screenshots/pal_menu18_after_submit.png`
+  - `wos4-artifacts/screenshots/pal_menu18_after_submit_reload_verify.png`
+
+## 2026-06-27 PalimpsestMenu_18 全高整块宿主重布局
+
+- 身份：孙宇飞_frontend-ai。
+- 背景：用户要求框架页更有质感，并修正“右侧应该是一整块，不是上下被切分”。
+- 修改前备份：
+  - `wos4-artifacts/backups/pal-menu18-fullheight-redesign-before-20260627T010000/`
+- 布局修改：
+  - 隐藏旧顶部行 `RRow1/RCol11`，避免右侧宿主被顶部行切断。
+  - 保持 `RRow2=1080`。
+  - 平台内部内容高为 `1078`，因此 `RCol6/RCol12` 改为 `1078`，避免 `分栏高度不能大于行高`。
+  - `RCol12.object=[]`，作为右侧整块页面宿主。
+- 样式修改：
+  - 左侧菜单改为深色渐变控制台风格。
+  - 菜单品牌文字改为 `Palimpsest / Assessment Console`。
+  - 清理旧 style tag 中的 `height: 1008px !important` 残留，修复菜单底部露白。
+  - 最终持久化样式含 `height:1076px`，且无 `1008px`。
+- 提交结果：
+  - 提交说明：`PalimpsestMenu_18 全高侧边栏与右侧整块宿主重布局复提交`。
+  - 捕获 `保存成功`。
+  - 捕获 `生成历史版本成功！`。
+- 重载验证：
+  - `RRow1.height=0 / visible=false / show=false`。
+  - `RRow2.height=1080 / contentHeight=1078`。
+  - `RCol6.height=1078`。
+  - `RCol12.height=1078 / objects=0`。
+  - 菜单 DOM 计算高度为 `1076px`。
+  - `PalimpsestLeftNavMenu.detailConfig` 仍包含 `RCol12.setPage`。
+- 当前限制：
+  - `RCol12.setPage(...)` 需要打包客户端后验证；本轮只验证页面编辑器配置、提交和重载持久化。
+- 新证据：
+  - `wos4-artifacts/snapshots/pal_menu18_fullheight_submit_verify_20260627.json`
+  - `wos4-artifacts/screenshots/pal_menu18_fullheight_redesign_final_before_submit.png`
+  - `wos4-artifacts/screenshots/pal_menu18_fullheight_after_submit_reload_verify.png`
+
+## 2026-06-27 PalimpsestMenu_18 菜单数据驱动
+
+- 身份：孙宇飞_frontend-ai。
+- 背景：用户要求菜单不要硬编码，允许把赋值写在页面打开时脚本里。
+- 修改前备份：
+  - `wos4-artifacts/backups/pal-menu18-data-driven-before-20260627T013500/`
+- 实施：
+  - 新增页面变量 `palMenuConfigJson`，保存菜单分组、菜单项、图标、颜色和目标页。
+  - 新增页面变量 `palCurrentMenu`，保存当前选择菜单索引。
+  - 通过 `PageView.linkToPropertyJson()` 获取 `创建时` 模板，再用 `PageView.upDateLink(...)` 写入 `linkId=0` 页面打开时脚本。
+  - 页面打开时脚本读取 `palMenuConfigJson`，赋值到 `PageView.__palMenuConfig` 和 `window.__palMenuConfig`，再触发 `PalimpsestLeftNavMenu.detailConfig` 渲染。
+  - `PalimpsestLeftNavMenu.detailConfig` 不再包含具体目标页名，只读取页面变量并绑定点击，点击时根据数据里的 `targetPage` 调用 `RCol12.setPage(target)`。
+- 关键修正：
+  - 初版组件脚本使用普通 IIFE 导致 `this` 丢失，报 `self.navmenu is not a function`；已改为在 detailConfig 顶层先捕获 `var self = this;`。
+  - 直接改 `page.data.linkMng` 不持久化；最终用 `upDateLink` 落到平台认可的 `linkId=0`。
+- 提交结果：
+  - 提交说明：`PalimpsestMenu_18 页面打开脚本赋值驱动菜单最终版`。
+  - 捕获 `保存成功`。
+  - 捕获 `生成历史版本成功！`。
+- 重载验证：
+  - `palMenuConfigJson` 和 `palCurrentMenu` 持久化存在。
+  - `linkId=0.enable=true`，打开时脚本长度 `1084`，读取 `palMenuConfigJson` 并赋值 `__palMenuConfig`。
+  - 菜单 DOM 自动恢复：`人才考核 / 实习生考核管理 / 考核数据看板 / 演示与调试 / 展开表格演示 / 归档与日志 / 系统预留 / 时空切换预留`。
+  - 组件 `detailConfig` 不含 `PalimpsestContent_82` 或 `PalimpsestExpandTable_82_Demo`。
+  - `RCol12.object=[]`，仍作为右侧整块宿主。
+- 说明：
+  - 重载后运行态 `navMenuData=3` 是打开时脚本从页面变量生成的运行时结果，不是组件自身保存静态数组。
+- 新证据：
+  - `wos4-artifacts/snapshots/pal_menu18_data_driven_submit_verify_20260627.json`
+  - `wos4-artifacts/screenshots/pal_menu18_data_driven_oncreate_before_submit.png`
+  - `wos4-artifacts/screenshots/pal_menu18_data_driven_after_reload_verify.png`
+
+## 2026-06-27 PalimpsestContent_82 表格操作能力探索
+
+- 身份：孙宇飞_frontend-ai。
+- 目标：确认 `ElementTable` 哪些操作能力真实可用，并修复 `更多` 二级菜单位置和可用性。
+- 修改前备份：
+  - `wos4-artifacts/backups/pal-content82-table-actions-before-20260627T025239/`
+- 只读探测结论：
+  - 当前表格为 `pal_assessment_table / ElementTable`。
+  - 实例方法包含 `SetData / GetData / AddRow / AppendRow / DeleteRow / UpdateRow / ToggleRowExpansion / beginRowEdit / endRowEdit / Sort / Filter / ClearSelection`。
+  - 当前操作区不是原生按钮列，而是普通文本列 `viewAction / scoreAction / editAction / moreAction`。
+  - 旧 `CellClick` 脚本创建的 `pal-table-action-more-menu` 使用 `position:fixed; right:28px; top:70px`，所以菜单不会出现在点击的 `更多` 旁边。
+- 实施：
+  - 将表格 `detailConfig` 扩展为 `this.table(...)` + 持久化增强脚本。
+  - 运行时把 `查看 / 评分 / 编辑 / 更多` 单元格装饰成 `.pal-op-btn`。
+  - 用表格根节点事件委托处理操作列，避免每次渲染后丢事件。
+  - `更多` 菜单按按钮 `getBoundingClientRect()` 定位，并限制在当前视口内。
+  - `复制记录 / 查看日志 / 删除记录` 作为二级菜单项执行前端假数据动作。
+  - `查看 / 评分 / 编辑` 打开前端面板；`编辑` 保存后调用 `SetData` 刷新行数据。
+  - 原 `CellClick` 脚本改为只转发到 `window.__palTableHandleAction(e)`，不再写死菜单坐标。
+- 验证：
+  - 编辑器里点击 `更多` 后，菜单位置 `dx=8 / dy=0`。
+  - 预览页点击 `更多` 后，菜单位置 `dx=8 / dy=1`。
+  - 预览页菜单项 `复制记录` 执行后出现 `李明轩副本`。
+  - 预览页 `编辑` 保存后，延迟刷新确认首行部门显示 `Preview-Demo`。
+- 边界：
+  - 本轮验证的是前端假数据交互，不接后端 CRUD。
+  - 没证明 `ElementTable` 有原生内置下拉菜单；当前二级菜单是持久化脚本增强实现。
+  - 原生 `beginRowEdit/endRowEdit` 方法存在，但本轮没有把平台原生行编辑器作为稳定产品方案，只验证了自定义编辑面板 + `SetData` 可用。
+- 证据：
+  - `wos4-artifacts/snapshots/pal_content82_table_capability_probe_20260627.json`
+  - `wos4-artifacts/snapshots/pal_content82_table_linklist_probe_20260627.json`
+  - `wos4-artifacts/snapshots/pal_content82_more_position_before_20260627.json`
+  - `wos4-artifacts/snapshots/pal_content82_table_actions_patch_20260627.json`
+  - `wos4-artifacts/snapshots/pal_content82_table_actions_verify_20260627.json`
+  - `wos4-artifacts/snapshots/pal_content82_preview_verify_20260627.json`
+  - `wos4-artifacts/snapshots/pal_content82_preview_actions_verify_20260627.json`
+  - `wos4-artifacts/snapshots/pal_content82_preview_edit_delay_check_20260627.json`
+  - `wos4-artifacts/screenshots/pal_content82_more_menu_near_button_20260627.png`
+  - `wos4-artifacts/screenshots/pal_content82_preview_more_menu_verify_20260627.png`
+  - `wos4-artifacts/screenshots/pal_content82_preview_actions_verify_20260627.png`
+
+## 2026-06-27 PalimpsestContent_82 操作按钮重叠修复
+
+- 身份：孙宇飞_frontend-ai。
+- 背景：用户指出 `查看 / 评分 / 编辑 / 更多` 有明显重叠。
+- 根因：
+  - 上一版把四个操作做成四个独立窄列。
+  - `ElementTable` 在当前表格宽度下会压缩这些列，导致按钮横向重叠。
+- 修改前备份：
+  - `wos4-artifacts/backups/pal-content82-action-overlap-before-20260627T031500/`
+- 修复：
+  - 删除 `viewAction / scoreAction / editAction / moreAction` 四个窄操作列。
+  - 新增单列 `actions / 操作 / minWidth=230`。
+  - 在 `actions` 单元格内部用 `.pal-op-group` flex 横排 `查看 / 评分 / 编辑 / 更多`。
+  - 保留原先查看、评分、编辑和更多菜单行为。
+- 验证：
+  - 编辑器首行按钮间距 `[6,6,6]`，`更多` 菜单 `dx=8/dy=0`。
+  - 调用保存 API 后刷新预览旧 tab，预览 iframe 出现 `操作` 单列表头，`.pal-op-group=7`，`.pal-op-btn=28`。
+  - 最终预览首行按钮间距 `[10,10,10]`，`overlap=false`。
+  - 最终预览 `更多` 菜单 `dx=9/dy=0`，仍贴近按钮。
+- 证据：
+  - `wos4-artifacts/snapshots/pal_content82_action_overlap_patch_20260627.json`
+  - `wos4-artifacts/snapshots/pal_content82_action_overlap_editor_verify_20260627.json`
+  - `wos4-artifacts/snapshots/pal_content82_action_overlap_save_result_20260627.json`
+  - `wos4-artifacts/snapshots/pal_content82_action_overlap_reload_preview_probe_20260627.json`
+  - `wos4-artifacts/snapshots/pal_content82_action_overlap_final_preview_verify_20260627.json`
+  - `wos4-artifacts/screenshots/pal_content82_action_overlap_editor_verify_20260627.png`
+  - `wos4-artifacts/screenshots/pal_content82_action_overlap_final_preview_verify_20260627.png`
+
+## 2026-06-27 PalimpsestContent_82 后端 Smoke 联调
+
+- 身份：孙宇飞_code-ai。
+- 入口：browser-harness 可接管 `slot1`，从 `#/main -> 建模系统客户端1 -> 盛云_孙宇飞_根组 -> 盛云科技_孙宇飞_Palimpsest_前端_0623 -> 页面精灵图 -> PalimpsestContent_82 -> 编辑 -> 预览` 进入。
+- 预览页：`public/index.html ... runModelName=PalimpsestContent_82`，内层 iframe 正常显示 `Backend Smoke`、表格和假数据。
+- 直接 raw iframe 探测结论：
+  - 预览 iframe 中 `Call/StringMap/Variant` 存在。
+  - `SetRunInfo` 在 raw iframe `window` 上仍为 `undefined`。
+  - 因此 raw iframe 控制台不等同于按钮脚本运行上下文，不能只用 raw window 调用失败判断按钮失败。
+- 真实按钮验证：
+  - 点击预览页可见 `Backend Smoke`。
+  - 按钮文本变为 `Smoke ret=0 data="{\"ok\":true,\"code\":\"OK\",\"message\":\"success\",\"traceId\":\"pal-20260624...`。
+  - 说明 `PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2 -> QueryAssessmentRecords` 至少在该按钮 smoke 路径下已可从前端预览页调通。
+- 参数签名结论：
+  - 后端函数 `QueryAssessmentRecords` 输入是 `stringMap<var> strmapPara`。
+  - 前端必须传 `params: [new Variant(new StringMap(...))]`。
+  - `params: []` 会造成参数数量/类型不匹配。
+- 当前后端目标：
+  - `spaceTime = aba6cf7a-0715-4966-8eaf-0f448eba7bc9`
+  - `devName = PalimpsestBack_0626R2`
+  - `backend app = PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2`
+  - `funcname = QueryAssessmentRecords`
+- 证据：
+  - `wos4-artifacts/screenshots/wos4_modeling_client_after_click_20260627.png`
+  - `wos4-artifacts/screenshots/wos4_palimpsest_content82_editor_open_20260627.png`
+  - `wos4-artifacts/screenshots/wos4_content82_preview_tab_20260627.png`
+  - `wos4-artifacts/screenshots/wos4_content82_backend_smoke_after_click_20260627.png`
+
+## 2026-06-27 Palimpsest 后端真实 Query 替换与调试
+
+- 身份：孙宇飞_code-ai。
+- 参数无效根因：
+  - 后端 `QueryAssessmentRecords` 的函数签名是 `stringMap<var> strmapPara -> string`。
+  - 前端脚本传了 `params: []`，平台按函数元数据校验时判定为 0 个参数，不等于 1 个 `stringMap<var>` 参数。
+  - 正确形态是 `params: [new Variant(new StringMap(...))]`，数值型字段用 `_insert(..., "int32")` 明确类型。
+- 后端模型修改：
+  - 将 `QueryAssessmentRecords` 从静态假 JSON 改为真实 `Query(param,input,output)` 查询 `pal_assessment_record`。
+  - 统一返回 `ok/code/message/traceId/data`，失败时也把 `queryResult.ret` 和 `output` 写入 JSON 返回给前端。
+  - 当前元语言编辑器不识别手册里的枚举名，已改用数值常量：`4106 / 17 / 2 / 61 / 53`。
+- 保存提交：
+  - 通过 worker-space 保存接口提交当前函数脚本。
+  - 顶部版本提交说明：`pal-20260627-real-query-api`。
+  - worker 文本捕获到 `提交成功`。
+- 调试结果：
+  - 提交后点击 `.wos-editor-debug-start`。
+  - 编译结果：`编译成功 13:35:55`，无 `FATAL`。
+  - `.wos-editor-debug-stop` 出现，停止后 `.wos-editor-debug-start` 恢复。
+- 边界：
+  - 这证明模型层真实 Query 代码已提交并能编译启动。
+  - 本轮未证明前端预览已经调用到这次新提交的后端版本；还需要重新生成/更新运行包、部署/启动后验证。
+  - Create/Update/Delete 真实记录 API 参数结构尚未完全验证，不能声明真实 CRUD 全链路完成。
+- 新增/更新 skill：
+  - `.ai/skills/wos4-button-variable-flow/SKILL.md`
+  - `.ai/skills/wos4-demo-page-fullstack-skill/SKILL.md`
+  - `.ai/skills/wos4-meta-language-fu-create/SKILL.md`
+  - `.ai/skills/wos4-meta-language-debugger/SKILL.md`
+- 证据：
+  - `wos4-artifacts/snapshots/pal_backend_real_query_submit_debug_20260627.json`
+  - `wos4-artifacts/screenshots/pal_backend_real_query_submit_confirm_after_20260627.png`
+  - `wos4-artifacts/screenshots/pal_backend_real_query_debug_after_submit_20260627.png`
+  - `wos4-artifacts/screenshots/pal_backend_real_query_after_stop_20260627.png`
+
+## 2026-06-27 Palimpsest 后端真实 CRUD 函数改造
+
+- 身份：孙宇飞_code-ai。
+- 函数范围：
+  - `CreateAssessmentRecord`
+  - `UpdateAssessmentRecord`
+  - `DeleteAssessmentRecord`
+  - `SubmitAssessmentScore`
+- 实现原则：
+  - 真实业务事记录写入目标为 `pal_assessment_record`。
+  - `CreateAssessmentRecord` 使用 `Create(param,input,output)`，`param.type=4106`，`input.fieldValues` 写入业务事字段。
+  - `UpdateAssessmentRecord` 和 `SubmitAssessmentScore` 使用 `Update(param,input,output)`，`condition.mode=51`，按 `objectName + recordIDs` 更新。
+  - `DeleteAssessmentRecord` 使用 `Delete(param,input,output)`，`condition.mode=51`，按 `objectName + recordIDs` 删除，`deleteMode=1`。
+  - `recordID` 缺失时统一返回 `VALIDATION_FAILED`，不能假成功。
+- 调试问题和修复：
+  - 第一次调试失败不是 CRUD API 参数结构问题，而是大段脚本里手写 JSON 字符串转义丢失，元语言编译器读到 `resultText="{"ok"...` 后报语法错误。
+  - 修复为 `stringMap<var> returnData` 组织返回值，并用 `ConvertToJsonString(returnData,true)` 返回，避免手写大量 `\"`。
+- 保存提交：
+  - 四个函数通过 worker-space 保存接口更新，返回 `ret=0 / errorcodes=[0]`。
+  - 修复后点击 `.wos-editor-debug-start`，显示 `编译成功 14:02:09`，无 `FATAL`。
+  - 顶部版本提交说明：`pal-20260627-real-crud-api`。
+  - worker 文本捕获 `提交成功`。
+- 边界：
+  - 这证明模型层真实 CRUD 函数已提交并能编译启动。
+  - 本轮未证明运行对象 `PalimpsestBack_0626R2` 已更新到该模型版本；还需要运行包更新、部署/启动和蓝色客户端复测。
+  - 本轮未证明前端表格按钮已经把真实 `recordID` 传给 Update/Delete/Submit。
+- 证据：
+  - `wos4-artifacts/backups/Palimpsest后端真实CRUD改造-20260627T135516/after/real_crud_update_result.json`
+  - `wos4-artifacts/backups/Palimpsest后端真实CRUD改造-20260627T135516/after/real_crud_debug_after_fix_return.json`
+  - `wos4-artifacts/backups/Palimpsest后端真实CRUD改造-20260627T135516/after/real_crud_debug_after_fix_return.png`
+  - `wos4-artifacts/backups/Palimpsest后端真实CRUD改造-20260627T135516/after/real_crud_submit_confirm_result.json`
+  - `wos4-artifacts/backups/Palimpsest后端真实CRUD改造-20260627T135516/after/real_crud_submit_confirm_result.png`
+
+## 2026-06-27 Palimpsest 运行态业务事缺表与真实查询失败
+
+- 身份：孙宇飞_code-ai。
+- 用户追问“有哪些表、ID 是什么，是否应该先增加再查询”后，本轮先回到 `时空对象管理平台` 核对运行态，而不是继续假设模型层的 8 张表已经上线。
+- 权威运行态位置：
+  - 平台：`时空对象管理平台`
+  - 时空：`PalimpsestL1_0626R2`
+  - 页签：`计划 / 业务事`
+  - 当前列表总数：`共 5 条`
+- 当前已上线业务事对象：
+  - `pal_assessment_batch`：ID `1729382256910290475`，GUID `89b0424b-2227-41c4-8340-fcbc6aa75a39`
+  - `pal_department`：ID `1729382256910290476`，GUID `43897b4c-41b3-4309-a47f-5b5d04c43ec9`
+  - `pal_intern_student`：ID `1729382256910290477`，GUID `66430640-2f98-49d6-8a4f-f045c2b2bc4a`
+  - `pal_mentor`：ID `1729382256910290478`，GUID `e5f53ccc-c021-4e40-9ed5-5c58a7a11e97`
+  - `pal_menu_node`：ID `1729382256910290479`，GUID `e953278d-ceab-475d-99a6-e45428d8fae9`
+- 缺失但模型设计需要的业务事：
+  - `pal_assessment_record`
+  - `pal_assessment_score_detail`
+  - `pal_operation_log`
+- 后端断点调试结论：
+  - 函数：`PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC -> QueryAssessmentRecords`
+  - 断点命中后变量区读取到 `resultText`。
+  - 返回：`{"ok":false,"code":"QUERY_FAILED","message":"real query failed","traceId":"pal-20260627-real-query",...}`
+  - `data.table = pal_assessment_record`
+  - `queryRet = {"MLVariant":-210134}`
+  - `output = {"map":{}}`
+- 判断：
+  - 当前失败不是前端 `params: []` 那个参数类型错误；本次已经进入后端函数并执行真实 `Query(param,input,output)`。
+  - 失败主因与运行态缺少 `pal_assessment_record` 对象一致。该表没有出现在 `时空对象管理平台` 的上线业务事列表里，所以对它执行 Query 只能失败。
+  - 现在不应继续做“先 Create 再 Query”的验证；Create/Update/Delete/Submit 的目标同样是缺失的 `pal_assessment_record`，继续调试只会得到同类失败。
+- 下一步：
+  - 回到模型版本、组态实例配置和运维部署链路，确认为什么只有 5 张业务事被实例化/部署上线。
+  - 目标是让 8 张业务事全部出现在 `时空对象管理平台 -> PalimpsestL1_0626R2 -> 计划 / 业务事` 后，再执行 `CreateAssessmentRecord -> QueryAssessmentRecords -> Update/Delete/Submit` 的真实闭环。
+- 证据：
+  - `wos4-artifacts/snapshots/pal_crud_object_mgmt_business_events_20260627.json`
+  - `wos4-artifacts/screenshots/pal_crud_object_mgmt_business_events_20260627.png`
+  - `wos4-artifacts/snapshots/pal_crud_query_debug_variables_20260627.json`
+  - `wos4-artifacts/screenshots/pal_crud_query_debug_variables_20260627.png`
+  - `wos4-artifacts/snapshots/pal_crud_query_debug_after_stop_20260627.json`
+  - `wos4-artifacts/screenshots/pal_crud_query_debug_after_stop_20260627.png`
+
+### 2026-06-27 更正：Palimpsest 8 张业务事按形态分布在计划/历史页签
+
+- 更正上一节“运行态缺少 3 张业务事”的判断：该判断只检查了 `时空对象管理平台 -> PalimpsestL1_0626R2 -> 计划 -> 业务事`，没有检查 `历史 -> 业务事`。
+- 复查结果：
+  - `计划 -> 业务事` 共 5 条：`pal_assessment_batch / pal_department / pal_intern_student / pal_mentor / pal_menu_node`。
+  - `历史 -> 业务事` 共 3 条：`pal_assessment_record / pal_assessment_score_detail / pal_operation_log`。
+- 历史业务事 ID/GUID：
+  - `pal_assessment_record`: ID `1729382256910270465`, GUID `9981dbc2-e49e-496c-b509-7abdf0891be8`
+  - `pal_assessment_score_detail`: ID `1729382256910270466`, GUID `01425c7f-f3a7-406b-9404-9444375cce9c`
+  - `pal_operation_log`: ID `1729382256910270467`, GUID `da998b80-48a8-4bde-a497-5721169d9636`
+- 新规则：在 `时空对象管理平台` 找运行态业务事时，必须先按建模形态切换 `实时 / 历史 / 计划`，再切 `业务事` 子页签；不能用单个形态页签的总数判断全量业务事是否上线。
+- 证据：
+  - `wos4-artifacts/snapshots/pal_object_history_business_events_20260627.json`
+  - `wos4-artifacts/screenshots/pal_object_history_business_events_20260627.png`
+## 2026-06-27 Palimpsest 后端插入单点调试记录
+
+- 按用户纠正后的策略处理：不要在 `QueryAssessmentRecords` 里混入插入逻辑；启动调试入口先屏蔽查询链路，只让 `onCreate` 调 `CreateAssessmentRecord(strmapPara)`。
+- 已确认 `onCreate` 当前启动脚本收敛为：
+  - `strmapPara["action"] = "startupCreateOnly";`
+  - `strmapPara["testId"] = "PAL_CREATE_ONLY_20260627_B";`
+  - `resultText = CreateAssessmentRecord(strmapPara);`
+  - `Trace(2, "PalimpsestBackend.onCreate.CreateOnly", resultText);`
+- 运行页 `PageView.eval(...)` 环境中，`SetRunInfo({ stType:4, spaceTime:"aba6cf7a-0715-4966-8eaf-0f448eba7bc9", devName:"PalimpsestBack_0626R2" })` 后调用 `CreateAssessmentRecord`，参数用 `params:[new Variant(new StringMap(...))]`，返回 `ret=0`。
+- 但该运行态返回体仍为旧占位：`PAL_CREATED / record accepted / AR_NEW_001 / pal-20260624-create`，说明已部署运行包还没有加载当前编辑器中的真实 `Create(param,input,output)` 版本。
+- 从编辑器读取 `CreateAssessmentRecord` 源码，确认当前编辑器代码已经是面向 `pal_assessment_record` 的真实插入实现：构造 `dataFields/dataValues/fieldValues` 后执行 `Create(param, input, output)`，并返回 `createRet/output`。
+- 后端调试入口启动后能进入 `CreateAssessmentRecord`，变量区出现 `strmapPara/param/input/output/fieldValue1/returnData/data/fieldValues/dataFields`，堆栈显示 `CreateAssessmentRecord -> onCreate`。继续运行后调试器长期保持运行态，未取得 `createResult.ret`；本轮不能声明真实业务事插入已成功。
+- 当前判断：参数类型问题已排除；运行态旧占位问题需要走“模型提交版本 -> 时空批量提交/生成包 -> 运维更新/部署/启动 -> 时空对象管理验证”链路后，再重新用同一个 `CreateAssessmentRecord` 单点插入验证。
+
+## 2026-06-27 Palimpsest 运行态刷新后仍返回旧占位排查
+
+- 身份：孙宇飞_code-ai。
+- 本轮按当前标准链路重刷 Palimpsest 后端运行态：
+  - 建模系统客户端中对 `盛云科技_孙宇飞_Palimpsest_后台_0623` 点击 `提交版本`，提交说明 `pal-20260627-real-create-oncreate-only-runtime-refresh`，捕获 `提交版本成功！`。
+  - 组态系统客户端中进入 `盛云_孙宇飞_Palimpsest工程_0626 -> 管控单元实例配置`，选择 `PalimpsestL1_0626R2`，实例行显示 `PalimpsestBack_0626R2 / 盛云科技_孙宇飞_Palimpsest_后台_0623 / v3`。
+  - 时空列表使用纸飞机提交按钮触发时空仓库提交，进度窗口显示：
+    - `PalimpsestL1_0626R2 / aba6cf7a-0715-4966-8eaf-0f448eba7bc9 / 100% / 提交成功`
+    - `PalimpsestBack_0626R2 / 92d89140-0736-41f2-873b-6bfab8f3d276 / 100% / 提交成功`
+  - 运维部署客户端中 `PalimpsestL1_0626R2` 执行 `更新` 成功，行版本从 `1` 变为 `2`，状态保持 `已部署 / 已启动`。
+  - 后续又对实例行 `PalimpsestBack_0626R2` 执行行级 `提交版本`，进度显示 `100% / 提交成功`。
+- 运行态调用方式：
+  - `SetRunInfo({ stType:4, spaceTime:"aba6cf7a-0715-4966-8eaf-0f448eba7bc9", devName:"PalimpsestBack_0626R2" })`
+  - `Call(..., { identifierType:2, name:"PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2", funcname:"CreateAssessmentRecord", params:[new Variant(new StringMap(...))] })`
+- 多次调用结果均为 `ret=0`，但 `returndata` 仍是旧占位：
+  - `code = PAL_CREATED`
+  - `id = AR_NEW_001`
+  - `traceId = pal-20260624-create`
+- 追加刷新尝试：
+  - 对 `PalimpsestL1_0626R2` 执行 `停止`，进度 `100% / 成功`，行状态变为 `已部署 / 未启动`。
+  - 再执行 `启动` 后，Create 调用仍返回旧占位。
+- 当前结论：
+  - 前端参数包装问题已排除，运行态派发也能到达目标函数。
+  - 模型提交、组态时空提交、实例行提交、运维更新链路均有成功证据。
+  - 但运行态 `CreateAssessmentRecord` 的实际函数体仍是 2026-06-24 占位版本；继续重复运维部署/启动意义不大。
+  - 下一步应回到建模系统检查 `CreateAssessmentRecord` 在“已提交版本 v3 / 生成拷贝或模型版本内容”中是否真的包含 `Create(param,input,output)` 真实实现，重点排查“编辑器当前代码真实，但提交版本/拷贝内容仍旧”的版本持久化问题。
+- 本轮注意事项：
+  - 组态时空列表的 `...` 下拉菜单定位曾错位触发 `删除时空仓库` 确认框，已点击 `取消`，没有确认删除。
+  - 时空仓库提交进度弹窗和运维进度弹窗的关闭按钮多次 DOM click 不响应，后续操作通过切换窗口或隐藏已成功弹窗继续；该现象应记录为 UI 自动化限制。
+## 2026-06-28 Palimpsest runtime v3 CRUD probe after spacetime submit and ops update
+
+- Identity: `孙宇飞_code-ai`.
+- Context: after relogin, `PalimpsestL1_0626R2` was selected in `组态系统客户端 -> 管控单元实例配置`; `时空列表 -> 批量提交` completed with both `PalimpsestL1_0626R2` and `PalimpsestBack_0626R2` at `100% / 提交成功`.
+- `运维部署客户端1 -> 盛云_孙宇飞_Palimpsest工程_0626 -> 管控单元实例` then updated `PalimpsestL1_0626R2` successfully. The row changed from version `2` to version `3`, while status stayed `已部署 / 已启动`.
+- Verification environment: reopened `PalimpsestContent_82` through the page sprite editor and used toolbar `预览`; the correct top-level preview button coordinate required nested iframe offset conversion. Preview URL included `runModelName=PalimpsestContent_82`.
+- Raw preview iframe `Call` without `PageView.eval` is still not a valid backend proof; it returns `-210133` because the raw window lacks the page-script runtime context.
+- `PageView.eval(...)` with `SetRunInfo({ stType:4, spaceTime:"aba6cf7a-0715-4966-8eaf-0f448eba7bc9", devName:"PalimpsestBack_0626R2" })` succeeded with `ret=0 / 修改成功!`.
+- Runtime `CreateAssessmentRecord` now returns the real v3 code path, not the old placeholder:
+  - App `Call.ret=0`
+  - returned JSON has `code=CREATE_FAILED`
+  - `traceId=pal-20260627-real-create`
+  - target table `pal_assessment_record`
+  - inner `Create(param,input,output)` returned `-30038`
+- Runtime `QueryAssessmentRecords` also uses the real v3 code path:
+  - App `Call.ret=0`
+  - returned JSON has `code=QUERY_FAILED`
+  - `traceId=pal-20260627-real-query`
+  - target table `pal_assessment_record`
+  - inner `Query(param,input,output)` returned `-30038`
+- Local WOS4 manual says `-30038 = 对象不存在`; for `Query()` it means checking the specified `type` and object parameters.
+- Current conclusion: the standard release chain worked and runtime package v3 is loaded. The remaining blocker is not package refresh or frontend parameter wrapping; it is the backend real business-event record API targeting/identifying `pal_assessment_record` incorrectly, or using the wrong object/type/mode shape for historical business-event records.
+- Follow-up diagnosis from the local manual:
+  - `3106 = 历史库业务事记录`
+  - `4106 = 计划库业务事记录`
+  - `pal_assessment_record` is under `历史 -> 业务事`, so the backend should use `param.type=3106`.
+  - The current implementation used `4106`, which asks the plan library for a historical object and explains `-30038 = 对象不存在`.
+  - Next backend code fix should change `CreateAssessmentRecord / QueryAssessmentRecords / UpdateAssessmentRecord / DeleteAssessmentRecord / SubmitAssessmentScore` record type from `4106` to `3106` for `pal_assessment_record`, then repeat model submit -> spacetime batch submit -> ops update -> PageView.eval Create/Query.
+- Evidence:
+  - `wos4-artifacts/screenshots/palimpsest_resume_state_20260627.png`
+  - `wos4-artifacts/screenshots/palimpsest_after_close_batch_submit_20260627.png`
+  - `wos4-artifacts/screenshots/palimpsest_after_visible_ops_update_20260627.png`
+  - `wos4-artifacts/screenshots/palimpsest_content82_preview_global_click_20260627.png`
+  - `wos4-artifacts/snapshots/palimpsest_runtime_crud_after_v3_summary_20260627.json`
+
+## 2026-06-28 Palimpsest direct runtime Create -> Query success
+
+- Identity: `孙宇飞_code-ai`.
+- Target: `PalimpsestL1_0626R2 / PalimpsestBack_0626R2 / pal_assessment_record`.
+- Space-time GUID: `aba6cf7a-0715-4966-8eaf-0f448eba7bc9`.
+- Direct worker-space runtime API Create succeeded when:
+  - `param.type=3106`.
+  - `input.appspacetimeguid` was supplied.
+  - `input.objectIdentifierType=2`.
+  - `fieldValues[0].objectName=pal_assessment_record`.
+  - `dataValues` used typed `var[][]` cells, not raw JS scalar values.
+  - `dataFields` contained `$startTime/$endTime/$parentGUID/$parentRecordID` plus the 14 current business fields.
+- Create result:
+  - `ret=0`.
+  - `errorcodes=[0]`.
+  - `recordID=216172782113783809`.
+  - `id=PAL_DIRECT6_20260627175612`.
+- Query result:
+  - `Query mode=51`.
+  - `objectIdentifierType=2`.
+  - `recordIDs=["216172782113783809"]`.
+  - `ret=0`.
+  - Returned row includes `PAL_DIRECT6_20260627175612`, score fields, `updated_at`, and `deleted=false`.
+- Failure comparison:
+  - Without `appspacetimeguid`, direct Create returned `-30018`.
+  - With raw JS values in `valueArray2DValue`, direct Create returned `-31539`.
+- Conclusion: `pal_assessment_record` is online and real insert/query works. The previous blocker was the wrong call context and parameter encoding, not a missing runtime object.
+- Evidence: `wos4-artifacts/snapshots/palimpsest_direct_create_query_success_20260628.json`.
+
+## 2026-06-28 Palimpsest direct Create method correction
+
+- Identity: `孙宇飞_code-ai`.
+- User hypothesis: insert failure may be caused by using the wrong method. This was confirmed.
+- Failed path:
+  - `workerWindow.Call("Create", {param,input}, opts)`.
+  - Generic `me(... dataValues:"valueArray2DValue")` wrapper for `dataValues`.
+  - Result: `ret=-31520`, which the manual describes as `添加记录时缺少必要的属性`.
+- Successful path:
+  - Import the worker-space module and use `Ke("Create", req)`, where `Ke = mod.aV`.
+  - Manually encode `fieldValues[0]` as protobuf `keyValueList`.
+  - Manually encode `dataValues` as `valueArray2DValue.arrays[0].values`, with typed cells such as `int64Value`, `uint64Value`, `stringValue`, `doubleValue`, `dateTimeValue`, and `boolValue`.
+- Fresh Create result:
+  - `ret=0`.
+  - `ids=["216172782113783810"]`.
+  - `id=PAL_DIRECT6_20260627210127`.
+- Fresh Query result:
+  - `mode=51`.
+  - `recordID=216172782113783810`.
+  - `ret=0`.
+  - Returned row includes `PAL_DIRECT6_20260627210127`, total score `92`, and status `done`.
+- Conclusion: do not insert by modifying model properties, and do not use the generic `window.Call("Create")` wrapper as the Palimpsest direct backend smoke. Use the historical business-event record `Create/Query` API through the worker-space helper and explicit typed protobuf data.
+- Evidence: `wos4-artifacts/snapshots/palimpsest_direct_create_query_method_correction_20260628.json`.
+
+## 2026-06-28 Palimpsest remaining CRUD direct verify and function submit
+
+- Identity: `孙宇飞_code-ai`.
+- Target: `PalimpsestL1_0626R2 / PalimpsestBack_0626R2 / pal_assessment_record`.
+- Root correction: `pal_assessment_record` is under `历史 -> 业务事`, so remaining functions must use `3106`, not `4106`.
+- Direct runtime API results:
+  - Created A: `PAL_REMAIN_A_20260628005847`, `recordID=216172782113783811`, `ret=0`.
+  - Updated A: `Update ret=0`; query returned `total_score=88.5`, `status=updated_by_update_function`.
+  - Submitted score A: `Update ret=0`; query returned `professional_score=40`, `attitude_score=19`, `task_score=19`, `teamwork_score=10`, `innovation_score=10`, `total_score=98`, `status=completed_by_submit`.
+  - Created B: `PAL_REMAIN_B_20260628005847`, `recordID=216172782113783812`, `ret=0`.
+  - Deleted B: `Delete ret=0`; query after delete returned `-31537 / 记录ID不存在`, which matches hard-delete behavior.
+- Backend function edit-state:
+  - `UpdateAssessmentRecord` and `SubmitAssessmentScore` now use `objectRecordFieldValues`.
+  - `DeleteAssessmentRecord` now uses `objectRecords` and `deleteMode=1`.
+  - All three corrected functions contain `3106`, `appspacetimeguid`, and `mode=51`; none contains `4106`.
+- Model version:
+  - Hidden worker submit was slow; the `版本提交` dialog appeared after the first short confirm window.
+  - Submit note: `pal-20260628-real-remaining-crud-api`.
+  - Final worker text captured `提交成功`.
+- Boundary:
+  - Direct historical business-event record API and model-version submission are verified.
+  - Runtime package update/deploy/start has not yet been repeated for this corrected remaining-CRUD version, so do not claim the blue client or running backend App already uses it.
+- Evidence:
+  - `wos4-artifacts/snapshots/palimpsest_remaining_crud_direct_verify_20260628.json`
+  - `wos4-artifacts/snapshots/palimpsest_remaining_functions_after_update_20260628.json`
+  - `wos4-artifacts/snapshots/pal_remaining_funcs_submit_confirm_20260628.json`
+  - `wos4-artifacts/screenshots/pal_remaining_funcs_submit_confirm_20260628.png`
+
+## 2026-06-28 Palimpsest Content82 real backend query preview
+
+- Identity: `孙宇飞_frontend-ai`.
+- Target page: `盛云科技_孙宇飞_Palimpsest_前端_0623 -> 页面精灵图 -> PalimpsestContent_82`.
+- Runtime backend target:
+  - `spaceTime=aba6cf7a-0715-4966-8eaf-0f448eba7bc9`
+  - `devName=PalimpsestBack_0626R2`
+  - `name=PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2`
+  - `funcname=QueryAssessmentRecords`
+- Editor persistence:
+  - `pal_query_button.detailConfig` is `查询真实数据`.
+  - `pal_query_button.linkList[0].enable=true`.
+  - `pal_assessment_table.detailConfig` contains the real 3-row table.
+  - Save was confirmed by visible `保存成功`.
+- Preview caveat:
+  - The old `PalimpsestContent_82` preview tab kept rendering stale `Backend Smoke` / 7-row mock data even after refresh.
+  - Clearing that tab and using a real mouse click on the editor `预览` button opened a fresh `public/index.html?id=6192730962611142749` tab that loaded the new page.
+  - DOM `.click()` on `预览` did not open the tab; a coordinate click based on the visible button rect did.
+- Preview verification:
+  - Fresh preview initially showed `查询真实数据` and 3 real rows:
+    - `PAL_DIRECT6_20260627175612`
+    - `PAL_DIRECT6_20260627210127`
+    - `PAL_REMAIN_A_20260628005847`
+  - Clicking the exact `BUTTON` element, not a wrapping `DIV`, returned `window.__palLastAssessmentQuery.ret=0`.
+  - Button text changed to `查询真实数据 / 3条`.
+  - Table stayed on 3 backend rows and displayed backend timestamps.
+- Evidence:
+  - `wos4-artifacts/snapshots/content82-real-query-preview-20260628.json`
+  - `wos4-artifacts/screenshots/content82-real-query-preview-after-click-20260628.png`
+
+## 2026-06-28 Palimpsest 0626R2 blue client object creation and formal runtime
+
+- Identity: `孙宇飞_frontend-ai`.
+- Target spacetime/client:
+  - `PalimpsestL1_0626R2`
+  - `spaceTimeGuid=aba6cf7a-0715-4966-8eaf-0f448eba7bc9`
+  - config client `盛云_孙宇飞_Palimpsest客户端_0626R2`
+- Verified WebJS template row from `时空对象管理平台 -> PalimpsestL1_0626R2 -> 功能 -> 创建 -> 应用模板: 选择`:
+  - repo `盛云_孙宇飞_Palimpsest客户端_0626R2`
+  - language `WebJS`
+  - copy id `7205759403792797202`
+  - copy guid `5f2c8c4b-5ed5-4d0a-9444-a7ffaf0f67a2`
+  - model guid `f5f8c456-e145-4d85-b1c3-dc3a17e7b512`
+  - model version `118`
+- Result:
+  - Created/verified desktop card `盛云_孙宇飞_Palimpsest客户端_0626R2_正式蓝端`.
+  - Existing card `盛云_孙宇飞_Palimpsest客户端_0626R2_对象1` is visible but `is-stop`.
+  - `正式蓝端` uses blue WebJS icon `js_func_unit_editor_light-DMRXO09p.1780642478302.png`.
+- Runtime opened by triggering the visible desktop card:
+  - `/public/?id=6192730962611142751&parentid=0&cloudid=1&areaid=0&username=孙宇飞&bs=true`
+  - nested `GetFileContent/.../f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/index.html`
+- Runtime mounted text:
+  - `人才考核`
+  - `实习生考核管理`
+  - `考核数据看板`
+  - `演示与调试`
+  - `展开表格演示`
+  - `归档与日志`
+  - `系统预留`
+  - `时空切换预留`
+- Important caveats:
+  - `$Client -> 三方APP -> 创建` is the wrong path for WebJS and previously failed with `仓库不存在 / 654319619`.
+  - Object management `功能` list can show `共 1 条` while rendering `暂无数据`; refreshing back to desktop showed the created blue client cards.
+  - `名称重复, 请检查` appeared after retrying `正式蓝端`, which matched the object already having been created.
+  - Browser-harness real double-click did not open desktop cards in this run; dispatching DOM click/dblclick opened both `时空对象管理` and the formal blue client. Treat this as a harness limitation/workaround, not a human workflow.
+- Current acceptance boundary:
+  - Blue WebJS object creation and formal runtime shell are verified.
+  - Final three-page client composition is not accepted yet: `PalimpsestMenu_18` renders the left navigation, but clicking menu items did not load `PalimpsestContent_82` into the right-side host in the formal blue client.
+- Evidence:
+  - `wos4-artifacts/snapshots/palimpsest-blue-client-formal-runtime-20260628.json`
+  - `wos4-artifacts/screenshots/palimpsest-blue-client-formal-runtime-20260628.png`
+## 2026-06-28 PalimpsestMenu_18 formal client right-host diagnosis
+
+- 身份：孙宇飞_frontend-ai。
+- 目标：继续蓝色客户端联调，解决 `PalimpsestMenu_18` 左侧菜单点击后右侧内容区不稳定/空白的问题。
+- 已验证正式蓝端运行态：
+  - 蓝端对象：`盛云_孙宇飞_Palimpsest客户端_0626R2_正式蓝端`。
+  - 内层运行页：`GetFileContent/.../f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/index.html`。
+  - 右侧宿主存在，DOM 位置约为 `x=343,y=0,w=1567,h=1078`。
+  - 直接调用该宿主 `setPage("PalimpsestContent_82")` 后，右侧成功加载 `PalimpsestContent_82`，文本包含筛选区、`Backend Smoke`、考核表格和 6 行数据。
+- 结论：
+  - 客户端包里不是缺少 `PalimpsestContent_82`。
+  - 问题更接近 `PalimpsestMenu_18` 的菜单事件/默认挂载逻辑不稳，旧脚本依赖固定 `RCol12.setPage(...)`，正式运行态中应改为动态查找右侧 `setPage` 宿主。
+- 未提交原因：
+  - 通过建模系统进入 `盛云科技_孙宇飞_Palimpsest_前端_0623 -> 页面精灵图 -> PalimpsestMenu_18 -> 编辑` 后，编辑器资源为 `94054fd1-9b20-463a-8372-b69776349847_120/index.html`。
+  - 页面编辑器 `#page_edit_view_area.__vue__._data.comMap.$Children` 在 60 秒观察内持续为 `0`，界面显示对象图层 `暂无数据`。
+  - 曾短暂读到旧运行态 `kidCount=10` 并试写未保存脚本，但刷新后仍回到 `kidCount=0`；因此该短暂状态不能作为可提交编辑源。
+  - 为避免把空页提交为新版本，本轮未点击保存、未提交版本。
+- 证据：
+  - 空编辑器证据：`wos4-artifacts/backups/PalimpsestMenu18源编辑器空页异常-20260628T224459/before-empty-editor.json`
+  - 空编辑器截图：`wos4-artifacts/backups/PalimpsestMenu18源编辑器空页异常-20260628T224459/before-empty-editor.png`
+  - 修改前备份尝试：`wos4-artifacts/backups/PalimpsestMenu18正式蓝端右侧挂载修复-20260628T224941/`
+- 下一步：
+  - 先不要在当前空对象树编辑器里提交。
+  - 优先查 `PalimpsestMenu_18` 历史版本/模型版本来源，恢复到含 `PalimpsestLeftNavMenu`、`RCol6`、`RCol12` 的对象树后再打补丁。
+  - 补丁方向为：页面打开时读取 `palMenuConfigJson`，动态查找右侧大尺寸 `setPage` 宿主，默认加载 `defaultActive` 指向的页面；菜单点击时按 `routeMap[index].targetPage` 调用同一动态宿主。
+
+## 2026-06-29 Palimpsest blue client acceptance check
+
+- 身份：孙宇飞_frontend-ai。
+- 用户验收标准：WOS 桌面蓝色客户端内能切换 `PalimpsestContent_82` 与 `PalimpsestExpandTable_82_Demo` 两个页面；82 内查询、查看、修改、更多操作可用；数据条数正确。
+- 已完成：
+  - 在 `PalimpsestMenu_18` 编辑器中确认对象树恢复为 10 个组件，包含 `PalimpsestLeftNavMenu / RCol6 / RCol12`。
+  - 备份当前 18：`wos4-artifacts/backups/PalimpsestMenu18右侧挂载修复-20260629T012719/`。
+  - 将 18 菜单脚本从依赖全局 `RCol12` 改为从 `KMComponentsMng.$Children.RCol12` 等组件管理器路径动态查找右侧宿主，并加入默认打开 `defaultActive` 页面的逻辑。
+  - 保存 18 返回 `ret=0`，并尝试提交 18、提交前端模型、客户端 `更新版本`、客户端 `提交版本`，均未出现可见错误弹窗。
+- 关键发现：
+  - 正式蓝端对象 `盛云_孙宇飞_Palimpsest客户端_0626R2_正式蓝端` 仍打开到 `GetFileContent/.../f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/index.html`。
+  - 在 `时空对象管理平台 -> 盛云_孙宇飞_Palimpsest客户端_0626R2_$Client -> 功能 -> 创建 -> 应用模板: 选择` 中，WebJS 模板仍是 `模型版本 118`。
+  - 即使补做前端模型提交、客户端更新版本、客户端提交版本，WebJS 模板版本仍未上升，说明最新页面/客户端包没有生成到蓝端可选择的 WebJS 拷贝。
+- 当前结论：
+  - 18 的右侧挂载脚本已在编辑源中保存，但正式蓝端仍使用旧 WebJS 拷贝版本 118，因此验收未通过。
+  - 当前主要阻塞不是菜单脚本本身，而是“页面/前端模型/客户端行提交后没有生成新的 WebJS 模板版本”。
+- 证据：
+  - `before-pageData-and-rcol12-probe.json`
+  - `patch-save-result.json`
+  - `submit-confirm-result.json`
+  - `client-update-version-result.json`
+  - `front-model-submit-result.json`
+  - `client-update-submit-after-front-model.json`
+  - `template-still-version-118.png`
+
+## 2026-06-29 PalimpsestContent_82 recordID and real row actions
+
+- 身份：孙宇飞_code-ai。
+- 目标：修复 `PalimpsestContent_82` 表格操作区文字重叠，并让查看、编辑、评分、删除继续走真实后端函数，不退回假数据或简化菜单。
+- 已完成：
+  - 保持表格只有一个 `actions / 操作` 列，列宽约 240，单元格内部横排 `查看 / 评分 / 编辑 / 更多`，避免多列窄按钮被压缩后重叠。
+  - 保持操作菜单为真实动作入口：查看真实记录、编辑状态/评语、提交评分、删除记录、重新查询。
+  - 修复前端行数据 `recordID` 解析：旧脚本优先从整段返回文本正则抓 ID，导致三行都变成 `216172782113783800`；新脚本优先读取每行 `$recordID` 字段，并补充 `uint64Value / int64Value / int32Value / dateTimeValue / boolValue / values` 等 Variant 取值分支。
+  - 82 页面历史版本提交已捕获 `保存成功` 与 `生成历史版本成功！`。
+  - 前端模型 `盛云科技_孙宇飞_Palimpsest_前端_0623` 已提交版本，捕获 `提交版本成功！`。
+- 验证结果：
+  - 编辑器源码已包含 `fieldRecordID` 与 `uint64Value` 分支，且不再包含旧的正则优先表达式。
+  - 新开/刷新预览仍加载旧运行文件 `GetFileContent/.../94054fd1-9b20-463a-8372-b69776349847_120/index.html`。
+  - 预览运行态函数仍不含 `fieldRecordID`，真实查询后仍出现重复 `recordID`，说明已提交的页面源没有被刷新到当前预览静态运行包。
+- 当前结论：
+  - 不能把本轮判定为最终验收通过。源码层和历史版本已修复，预览/蓝端运行包仍旧。
+  - 下一步应继续走 WOS4 页面/前端模型/客户端运行包刷新链路，直到 `GetFileContent` 运行文件版本更新，再复测查询、查看、编辑、评分、删除和蓝端两页切换。
+- 证据：
+  - `wos4-artifacts/backups/pal-content82-real-actions-repair-20260629T060000/content82-runtime-patch-fixed.js`
+  - `wos4-artifacts/backups/pal-content82-real-actions-repair-20260629T060000/content82-recordid-fix-preview-stale-verify.json`
+  - `wos4-artifacts/backups/pal-content82-real-actions-repair-20260629T060000/preview-stale-after-model-submit-20260629.png`
+
+## 2026-06-29 PalimpsestContent_82 action buttons and real edit verification
+
+- 身份：孙宇飞_code-ai。
+- 目标：修复 `PalimpsestContent_82` 表格操作区，让 `查看 / 编辑 / 更多` 不再共用同一种弹出行为，并验证 `编辑` 真实调用后端更新 `pal_assessment_record`。
+- 修复内容：
+  - 修正 `recordID` 取值顺序：运行态返回文本中的真实 `216172782113783809/810/811` 优先，平台字段 `$recordID` 只做兜底，避免编辑打到错误记录 `216172782113783800`。
+  - 查询成功后对表格操作列做运行时按钮装饰，把纯文本 `查看 评分 编辑 更多` 转为四个独立按钮。
+  - `查看` 直接打开只读弹窗 `查看考核记录`；`编辑` 打开可填写状态和评语的 `编辑真实记录` 弹窗；`更多` 只打开操作菜单，包含查看真实记录、编辑状态/评语、提交评分、删除记录、重新查询。
+  - `编辑` 弹窗提交时调用 `UpdateAssessmentRecord`，参数包含 `recordID:uint64`、`status:string`、`comment:string`，返回后自动刷新表格。
+- 验证结果：
+  - 新预览页 `PalimpsestContent_82` 点击 `查询真实数据` 返回 `ret=0`，表格 3 条，第一条 `recordID=216172782113783809`。
+  - 操作列装饰成功：`decorate.rows=3 / dataRows=3`，预览文本中每行显示独立的 `查看 / 评分 / 编辑 / 更多`。
+  - `查看` 弹窗显示 `recordID：216172782113783809`；`更多` 菜单显示 5 个菜单项；`编辑` 弹窗显示状态和评语输入项。
+  - 编辑第一条记录提交 `status=front_edit_verified_20260629`、`comment=front edit verified 20260629 1782695299106` 后，后端返回 `lastAction.type=edit / ret=0`，刷新后第一条记录状态和评语已变为提交值。
+- 证据：
+  - `wos4-artifacts/snapshots/pal_content82_action_buttons_reapply_20260629.json`
+  - `wos4-artifacts/snapshots/pal_content82_action_buttons_submit_20260629.json`
+  - `wos4-artifacts/snapshots/pal_content82_action_buttons_edit_verify_20260629.json`
+  - `wos4-artifacts/screenshots/pal_content82_action_buttons_edit_verify_20260629.png`
+
+## 2026-06-29 PalimpsestL1_0626R2 batch submit, deploy and start
+
+- 身份：孙宇飞_code-ai。
+- 目标：验证用户指出的 `批量提交版本` 正确操作，并刷新 Palimpsest 0626R2 运行时空。
+- 已验证操作：
+  - 在 `组态系统客户端 -> 盛云_孙宇飞_Palimpsest工程_0626 -> 管控单元实例配置` 打开 `批量提交版本`。
+  - 左侧 `时空结构` 勾选 `PalimpsestL1_0626R2` 后，必须点击中间 transfer/arrow 按钮，将其加入右侧 `预选时空`；右侧出现目标节点后再填写提交说明并点击 `确定`。
+  - `时空仓库版本提交进度` 显示 `PalimpsestL1_0626R2` 与 `PalimpsestBack_0626R2` 均 `100% / 提交成功`。
+  - 切到 `运维部署客户端` 后，对 `PalimpsestL1_0626R2` 执行部署和启动均成功，最终行状态为 `版本 8 / 本云 / area0 / 已部署 / 已启动`。
+- 经验：
+  - 批量提交弹窗中左侧选中不等于预选成功，必须检查右侧 `预选时空`。
+  - Element UI 树复选框用 DOM `.click()` 可能不改变状态，按 DOM 位置做真实点击更可靠。
+  - browser-harness 脚本不要在 ASCII 文件里写原始中文选择器，优先用 `PalimpsestL1_0626R2` 等 ASCII 对象名或 Unicode escape。
+
+## 2026-06-29 PalimpsestL1_0626R2 object management verification
+
+- 身份：孙宇飞_code-ai。
+- 目标：在 `时空对象管理平台` 验证已部署上线对象，而不是在对象管理里新建内容。
+- 已验证：
+  - 进入对象管理后，必须先选中左侧树的 `PalimpsestL1_0626R2` 时空节点本体；如果当前选中的是 `$Client` 对象，只会显示 `连接 / 三方APP` 页签。
+  - 正确选中时空节点后，顶部页签恢复为 `功能 / 实时 / 历史 / 计划 / 连接 / 三方APP`。
+  - `计划 -> 业务事` 显示 5 条：`pal_assessment_batch`、`pal_department`、`pal_intern_student`、`pal_mentor`、`pal_menu_node`。
+  - `历史 -> 业务事` 显示 3 条：`pal_assessment_record`、`pal_assessment_score_detail`、`pal_operation_log`。
+  - 8 张业务事显示名均为 `PalimpsestBack_0626R2@<表名>`，模型版本均为 `7`。
+- 关键 ID/GUID 补充：
+  - `pal_mentor`：ID `1729382256910290478`，GUID `e5f53ccc-c021-4e40-9ed5-5c58a7a11e97`，模型拷贝 GUID `3491c0e1-c3cf-4b70-b54b-d96bc2cf3a90`。
+  - `pal_menu_node`：ID `1729382256910290479`，GUID `e953278d-ceab-475d-99a6-e45428d8fae9`，模型拷贝 GUID `edbf8580-7b29-48f5-8fe4-f442d58c18eb`。
+- 证据：
+  - `wos4-artifacts/snapshots/pal_0626r2_object_mgmt_business_events_20260629.json`
+  - `wos4-artifacts/screenshots/pal_0626r2_object_mgmt_business_events_20260629.png`
+
+## 2026-06-29 QueryAssessmentRecords parameter-driven backend update
+
+- 身份：孙宇飞_code-ai。
+- 目标：修正 `QueryAssessmentRecords` 查询不到新增记录的问题，避免后端写死旧的三条 `recordID`。
+- 修改内容：
+  - 函数仍保持 `stringMap<var> strmapPara` 入参、`string` 返回值。
+  - 从入参读取 `spaceTimeGuid / recordID / pageNo / pageSize / keyword / status / batch_id / student_id / mentor_id / startTime / endTime`。
+  - 传入 `recordID` 时走单条查询；未传 `recordID` 时走分页列表查询，不再写死 `216172782113783809/810/811`。
+  - 返回 JSON 中增加 `data.queryParams`，用于前端和调试器确认实际传入了哪些参数。
+- 验证结果：
+  - API 写入后重新读取函数，`scriptLength=4132`，`hasHardcoded=false`，`inputparam=stringMap<var> strmapPara`。
+  - 自定义计算编译通过，`errorcodes:[0]`。
+  - 建模侧提交版本成功，返回 `versions:[20]`。
+- 注意事项：
+  - 本轮只确认建模侧函数更新、编译和提交版本成功；运行态前端或蓝端要生效，还需要后续走时空提交、运维更新/部署/启动。
+  - 调用 WOS API 时，19 位模型 ID 必须用字符串/uint64 传递，不能用 JavaScript Number，否则会发生精度丢失。
+- 证据：
+  - `wos4-artifacts/backups/QueryAssessmentRecords参数查询修复-20260629T171500/QueryAssessmentRecords.before-api-dump.txt`
+  - `wos4-artifacts/backups/QueryAssessmentRecords参数查询修复-20260629T171500/QueryAssessmentRecords.after-api-dump.txt`
+  - `wos4-artifacts/backups/QueryAssessmentRecords参数查询修复-20260629T171500/QueryAssessmentRecords.after-v2.metalang.txt`
+## 2026-06-29 QueryAssessmentRecords v3 后端提交
+
+- 身份：孙宇飞_code-ai。
+- 范围：只处理后端 `PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC.QueryAssessmentRecords` 和 `onCreate` 烟测入口，不改前端和蓝端。
+- 修正点：
+  - 去掉无 `recordID` 时写死 `216172782113783809 / 216172782113783810 / 216172782113783811` 的逻辑。
+  - `recordID` 单条查询继续使用 `mode=51`，对象名 `pal_assessment_record`，返回评分表字段。
+  - 列表查询使用 `mode=61`，并补上 `objectCondition.mode=17 / identifierType=2 / names=["pal_assessment_record"]`，同时保留 `mainMode=53 / offset / limit / returnFields`。
+  - 返回 JSON 保留 `ok / code / message / traceId / data`，错误时也把 `queryRet` 和 `output` 返回给前端。
+- 写入和提交结果：
+  - worker-space API 更新 `QueryAssessmentRecords` 返回 `updateRet=0`，traceId 为 `pal-20260629-queryrecords-param-driven-v3-object-condition`。
+  - worker-space API 更新 `onCreate` 返回 `updateRet=0`，用于启动时调用 v3 查询。
+  - 建模界面版本提交说明 `pal-20260629-queryrecords-v3-object-condition`，弹窗消息捕获 `提交成功`。
+- 已知边界：
+  - 提交成功后 worker-space 残留两份 `版本提交` 弹窗，这是平台 UI 残留，不代表提交失败。
+  - 提交前 PageView 运行态调用仍返回旧 traceId `pal-20260628-queryrecords-conditions-fix`，说明运行包/部署还没更新；后续必须走用户确认的发布链路后再验证蓝端。
+  - 本轮 ad-hoc JS 直调 `Query` 返回 `-30018 必填参数缺失`，原因是 worker-space JS 包装没有复用之前成功的 typed protobuf direct helper，不作为元语言函数体失败证据。
+- 证据：
+  - `wos4-artifacts/backups/QueryAssessmentRecords-onCreate调试-20260629T1808/QueryAssessmentRecords.v3-object-condition.metalang.txt`
+  - `wos4-artifacts/backups/QueryAssessmentRecords-onCreate调试-20260629T1808/onCreate.queryrecords-v3-smoke.metalang.txt`
+  - `wos4-artifacts/snapshots/queryrecords_v3_backend_submit_20260629.json`
+
+## 2026-06-29 QueryAssessmentRecords onCreate 调试未通过记录
+
+- 身份：孙宇飞_code-ai。
+- 目标：按用户要求在 `onCreate` 中调用 `QueryAssessmentRecords`，确认调试时是否真实拿到返回数据，并补充“什么算调试通过”的 skill 规则。
+- 本轮实际结果：
+  - 进入 `PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC -> onCreate` 后，发现当前脚本只有参数构造和 `Trace(...params...)`，没有调用 `QueryAssessmentRecords`，因此原状态不可能拿到查询返回。
+  - 通过 worker-space `Update` API 补入 `resultText = QueryAssessmentRecords(strmapPara);`，但平台写入存在尾部截断：`Update ret=0` 后重载回读，最后的 `Trace(...result...)` 行未持久化。
+  - 启动调试只看到 `编译成功 21:11:54`，未能验证断点命中，变量区没有 `strmapPara/resultText` 值；因此不能声明 onCreate 调试通过。
+  - 按前端真实脚本包装 `params:[new Variant(StringMap)]` 从运行态直接 Call `QueryAssessmentRecords`，返回 `ret=-210133` 且无 `returndata`，不能算业务查询成功。
+- 当前结论：
+  - 本轮只确认 `onCreate` 已回读到目标调用语句；没有拿到 `resultText` 返回数据。
+  - `编译成功`、`Update ret=0`、模型提交成功或 `Call` 返回非 0 都不能算调试通过。
+  - 下一步应先解决断点命中或使用可靠的运行态 PageView 查询链路，再判断后端函数是否返回真实数据。
+- 证据：
+  - `wos4-artifacts/backups/QueryAssessmentRecords-onCreate真实调试-20260629T210011/onCreate-before.json`
+  - `wos4-artifacts/snapshots/queryrecords_oncreate_debug_attempt_20260629.json`
+  - `wos4-artifacts/snapshots/queryrecords_oncreate_debug_summary_20260629.json`
+
+## 2026-06-29 后端调试访问区域失败复核
+
+- 身份：孙宇飞_code-ai。
+- 目标：复核用户看到的 `未找到访问区域 / 启动调试失败`，并确认是否由 `QueryAssessmentRecords` 缺少时空号引起。
+- 复测现象：
+  - 点击自定义计算调试后，平台先显示 `编译成功 21:45:01`。
+  - 约 10 秒后提示 `未找到访问区域` 和 `启动调试失败`。
+  - `.wos-editor-debug-stop` 未出现，变量区仍无 `strmapPara/resultText`，说明函数没有进入执行阶段。
+- 调试配置现场：
+  - `时空信息 -> 已选信息` 中可见 `PalimpsestL1_0626R2`。
+  - `添加用户访问信息`、`添加时空访问信息` 仍是 `点击添加` 入口，未看到已配置行。
+- 当前判断：
+  - 这次失败优先判定为调试访问区域配置不完整，不是查询慢，也不是 Query 函数业务返回错误。
+  - `Query/Create/Update/Delete` 在 worker-space、调试器或外部直调场景下仍必须设置 `input.appspacetimeguid`；正式 App 上下文可能提供当前时空，但后端函数应保留 `spaceTimeGuid/appspacetimeguid` 入参。
+  - `pal_assessment_record` 位于 `历史 -> 业务事`，查询类型继续使用 `3106`。
+- 证据：
+  - `wos4-artifacts/snapshots/pal_backend_debug_access_region_failure_20260629.json`
+
+## 2026-06-29 PalimpsestExcel_82 Excel 组件探索
+
+- 身份：向学智_frontend-ai。
+- 页面：`盛云科技_孙宇飞_Palimpsest_前端_0623 -> Palim -> PalimpsestExcel_82`。
+- 组件识别：
+  - 页面中的 Excel 组件实际为 `报表流程图 / UIType=51` 子 APP。
+  - 子 APP 模型 ID `1441151880758560518`，模型 GUID `9dfa57d3-78a6-41ff-955e-4ea96e9da40e`，模型版本 `0`。
+  - 底层表格引擎为 Univer，DOM 含 `ksc_sheet_view`、`univer-sheet-main-canvas_*`、`sheet_print_html`。
+- 已完成布局和组件：
+  - 顶部实验区 `ExcelExperimentToolbarRow`，8 个槽位。
+  - 放入地址输入、写入值输入、读取/写入/样式/导出打印探针按钮、结果日志和能力说明。
+  - 第二行保留原报表组件。
+- API 结论：
+  - 直接 Univer API 可读写 `B1`：`sheet.getRange("B1").getValue()/setValue()/setBackground()`。
+  - WOS 封装 `KSCRunView` 暴露 `GetData/SetData/Export/Print/SetPagebreak/GetSheetName/GetSelectData`。
+  - 本轮验证 `GetData(3, [{rowStart:1,rowEnd:1,colStart:2,colEnd:2}], {mode:2})` 可读回 B1 cell 对象；`GetData(0, [{row:1,col:2}], {mode:0})` 参数形态失败。
+  - B1 最终写入 `WOS4 Excel probe verified`，背景 `#fff3bf`。
+- 导出/打印结论：
+  - `Print` 和 `Export(pdf)` 方法源码支持 `header / tail / title / isPaging / isPageNumber / pageBreakList`。
+  - `xls/xlsx` 导出路径侧重文件数据，不处理打印页眉页脚分页选项。
+  - 本轮未触发真实 PDF 下载或浏览器打印，只做 dry-run 参数和源码级探针。
+- 提交/预览：
+  - 页面版本提交捕获 `保存成功`、`生成历史版本成功！`。
+  - 右上角 `预览` 可打开新标签，但新标签停留 `about:blank`；本轮不能声明 fresh 预览验收通过。
+- 证据：
+  - `wos4-artifacts/backups/PalimpsestExcel82-before-20260629T231019/`
+  - `wos4-artifacts/backups/PalimpsestExcel82-after-20260629T2355/`
+  - `wos4-artifacts/snapshots/palimpsest_excel82_direct_api_verify_20260629T2355.json`
+  - `wos4-artifacts/screenshots/palimpsest_excel82_editor_direct_verify_20260629T2355.png`
+
+## 2026-06-30 PalimpsestExcel_82 分页 PDF、图片和多行数据复测
+
+- 身份：向学智_frontend-ai。
+- 页面：`盛云科技_孙宇飞_Palimpsest_前端_0623 -> Palim -> PalimpsestExcel_82`。
+- 页面调整：
+  - 顶部实验区保留 8 个独立槽位，不再把操作控件连成一串。
+  - 两个输入框：单元格地址、写入值。
+  - 六个独立按钮：`Read / Write / Style / 160 Rows / Image / Paged PDF`。
+  - 结果日志改写到报表区 `J1/J2`。
+- 多行数据：
+  - 已用 Univer sheet API 写入标题行、表头行、160 行测试数据和表尾装饰行。
+  - 关键单元格：`A1=WOS4 Excel paged PDF experiment...`、`A2=No`、`A3=1`、`A163=PDF FOOTER DECORATION...`。
+- 图片：
+  - `sheet.getRange("H2").insertCellImageAsync(dataUrl)` 返回成功，可插入单元格图片。
+  - `sheet.insertImage(dataUrl, ...)` 返回成功，可插入浮动图片。
+  - 预览页 DOM 点击 `Image` 后图片对象数为 `2`。
+- 分页/PDF：
+  - `SetPagebreak(0,row)` 在当前 Univer 运行态失败，原因是 WOS 兼容方法内部仍调用旧 `luckysheet` 全局。
+  - 直接写入 `reportData.pageBreakList.index0 = {h:[44,89,134],v:[]}` 后，PDF 打印逻辑可读取分页线。
+  - `Export(fileName, "pdf", options)` 返回 `{"code":0,"msg":"success"}`。
+  - 本轮使用参数：`title:{startRow:0,endRow:0}`、`header:{startRow:1,endRow:1}`、`tail:{startRow:162,endRow:162}`、`isPaging:true`、`isPageNumber:true`。
+  - 未在本机下载目录或 slot2 profile 中找到落盘 PDF，因此不能声明已人工核验 PDF 文件每页视觉内容。
+- 预览：
+  - 右上角预览实际打开 `public/index.html ... runModelName=PalimpsestExcel_82`，刷新后显示新按钮。
+  - 坐标点击按钮未触发脚本；DOM 精确点击 `<button>` 和按钮实例 `evalFun` 均可触发脚本。
+- 截图边界：
+  - 本轮 `capture_screenshot` 多次超时，未取得新增截图；以 JSON 快照作为主要证据。
+- 证据：
+  - `wos4-artifacts/backups/PalimpsestExcel82-page-print-image-before-20260630T090233/`
+  - `wos4-artifacts/snapshots/palimpsest_excel82_after_runtime_20260630T091843.json`
+  - `wos4-artifacts/snapshots/palimpsest_excel82_preview_evalfun_20260630T0935.json`
+  - `wos4-artifacts/snapshots/palimpsest_excel82_preview_dom_button_click_20260630T0937.json`
+  - `wos4-artifacts/snapshots/palimpsest_excel82_after_pdf_status_20260630T0940.json`
+
+## 2026-06-30 PalimpsestExcel_82 打印弹窗修复
+
+- 身份：向学智_frontend-ai。
+- 用户反馈：导出功能不可用，没有调用打印弹窗。
+- 修正：
+  - `excel_pdf_print_button` 文案改为 `Print`。
+  - 脚本移除 `Export(fileName, "pdf", options)`，改为先调用组件原生 `rv.Print(0, {}, options)`。
+  - 原生 `rv.Print(type=0)` 在预览中可被调用，但 20 秒内没有 `printJS`、`beforeprint` 或打印 iframe，不能单独作为“已弹打印窗”结论。
+  - 加入 fallback：隐藏 iframe 写入 printable HTML table 后调用 `iframe.contentWindow.print()`；表头表尾用 `thead/tfoot` 的 print CSS 每页重复。
+- 验证：
+  - 提交捕获 `保存成功` 和 `生成历史版本成功！`。
+  - 预览刷新后按钮显示 `Print`，脚本持久化为 `hasNativePrint=true / hasFallback=true / hasExport=false`。
+  - 点击 `Print` 后先写入 `J1=PRINT native requested...`，随后 browser-harness `Runtime.evaluate` 超时；超时发生在 fallback 调用浏览器打印后，符合系统打印弹窗接管前台导致 CDP 无法继续读取的表现。
+- 边界：
+  - fallback 打印的是由当前 sheet 数据生成的 HTML 表格，不是 Univer 原生导出的 PDF 文件。
+  - 浏览器/系统打印弹窗内部无法通过 browser-harness 读取，只能由前台人工确认打印预览。
+- 证据：
+  - `wos4-artifacts/backups/PalimpsestExcel82-打印入口修复前-20260630T094217/`
+  - `wos4-artifacts/snapshots/palimpsest_excel82_print_fallback_verify_20260630T0953.json`
+
+## 2026-06-30 PalimpsestExcel_82 读写和图片按钮修复
+
+- 身份：向学智_frontend-ai。
+- 用户反馈：打印已好用，但读写不好用，插入图片想换一个。
+- 修复：
+  - `Read/Write` 按钮脚本改为优先读取预览页顶部可见输入框 DOM，而不是旧组件 `propData.value`。
+  - `Image` 按钮示例图替换为绿色 Excel 报表卡片 SVG，包含表格网格和折线图。
+- 验证：
+  - 提交捕获 `保存成功` 和 `生成历史版本成功！`。
+  - 预览输入 `B1 / Hello WOS4` 后，`Write` 写入 `B1=Hello WOS4`。
+  - 再点 `Read`，`J1=READ B1`，`J2=Hello WOS4`。
+  - 点 `Image`，`J1=IMAGE inserted: green report card in H2 + floating image near G5`，`J2=new SVG sample`。
+- 证据：
+  - `wos4-artifacts/backups/PalimpsestExcel82-读写图片修复前-20260630T100054/`
+  - `wos4-artifacts/snapshots/palimpsest_excel82_rw_image_fix_verify_20260630T1005.json`
+
+## 2026-06-30 PalimpsestExcel_82 打印保留图片修复
+
+- 身份：向学智_frontend-ai。
+- 用户反馈：打印时图片会消失，希望尽量原生修复。
+- 原因：
+  - 原生 `rv.Print` 仍保留为第一优先，但当前环境下真正弹窗来自 fallback HTML 打印。
+  - 旧 fallback 只根据单元格文字重建 `<table>`，没有把 Univer 的图片层/图片资源带入 HTML，因此打印时图片丢失。
+- 修复：
+  - `Image` 按钮把绿色报表卡片 SVG dataURL 存入 `window.__wos4ExcelPrintImageUrl`。
+  - `Print` fallback HTML 读取该 dataURL，并在标题行、H2 表头单元格和正文靠前单元格中插入 `<img>`。
+  - `rv.Print(0, {}, options)` 仍先执行；fallback 只在原生打印未启动时执行。
+- 验证：
+  - 提交捕获 `保存成功` 和 `生成历史版本成功！`。
+  - 预览中 `Print` 脚本持久化为 `hasNativePrint=true / hasFallback=true / hasImgTags=true / storesImageUrl=true / hasTitleImg=true / hasCellImg=true / hasBodyImg=true`。
+  - 点击 `Image` 后，`J2=image will also be embedded in fallback print HTML`，全局图片 dataURL 存在。
+- 证据：
+  - `wos4-artifacts/backups/PalimpsestExcel82-打印保留图片修复前-20260630T101235/`
+  - `wos4-artifacts/snapshots/palimpsest_excel82_print_keep_image_verify_20260630T1015.json`
+
+## 2026-06-30 PalimpsestExcel_82 打印当前画面一致性修复
+
+- 身份：向学智_frontend-ai。
+- 用户反馈：打印内容和页面显示不一致。
+- 根因：
+  - 旧 `Print` fallback 会在打印前重新生成固定 160 行数据并清空/写入 sheet，再用独立 HTML table 打印；这会覆盖用户当前看到的 sheet 状态。
+  - 图片也按脚本固定位置插入 HTML，而不是来自当前 sheet 状态。
+- 修复：
+  - `Print` fallback 改为读取当前 sheet `A1:H163`，用当前 `A1` 作为标题、`A2:H2` 作为表头、`A163:H163` 作为表尾。
+  - 移除打印脚本里的 `seedRows`、`.clear(`、`setValues` 路径；打印不再改写 `A1/B1/J1` 等当前单元格。
+  - 原生 `rv.Print` 仍优先，参数改为字符串文件名 `WOS4ExcelPrint`；fallback 保留 `thead/tfoot`，支持浏览器打印时重复表头表尾。
+  - 新增 `__wos4ExcelDryRunPrint`，用于不弹系统打印框的脚本验证。
+- 验证：
+  - 第一轮版本提交捕获 `保存成功` 和 `生成历史版本成功！`。
+  - 后续恢复保存捕获 `保存成功`，两个 `excel_pdf_print_button` 节点脚本均恢复为长度 `7049`。
+  - dry-run 直接执行后 `htmlLength=35640`，HTML 包含当前 `A1`、`<thead>`、`<tfoot>`。
+  - dry-run 前后 `A1/B1/J1` 均未变化，脚本检查 `hasSeedRows=false / hasClear=false / hasSetValues=false / hasCurrentRows=true`。
+- 边界：
+  - 本轮旧预览 tab 裸刷新后为空 `public/index` 外壳，捕获新预览 URL 直接打开也未挂载报表 DOM；fresh preview 复测阻塞。
+  - 系统打印弹窗内部仍无法由 browser-harness 读取，需要人工在前台确认最终打印预览视觉效果。
+- 证据：
+  - `wos4-artifacts/backups/PalimpsestExcel82-打印当前画面一致性修复前-20260630T102919/`
+  - `wos4-artifacts/snapshots/palimpsest_excel82_print_current_sheet_fix_verify_20260630T1056.json`
+
+## 2026-06-30 PalimpsestExcel_82 打印 Illegal return 修复
+
+- 身份：向学智_frontend-ai。
+- 用户反馈：导出/打印时报 `C-Lodop WebSocket failed` 和 `SyntaxError: Illegal return statement`。
+- 原因：
+  - `Illegal return statement` 来自 `Print` 脚本顶层 `return`；WOS `ElementUIEval` 是直接 `eval`，顶层 `return` 非法。
+  - C-Lodop WebSocket 报错来自原生打印路径探测本机 C-Lodop 服务，本机未启动时会报连接失败。
+- 修复：
+  - 顶层 `return` 改成合法 `if/else`，脚本不再包含 `fallbackPrint(rows); return;`。
+  - 默认直接走浏览器 fallback 打印，避免默认触发 C-Lodop；只有设置 `window.__wos4ExcelUseNativePrint=true` 时才尝试原生 `rv.Print`。
+- 验证：
+  - 使用 `w.eval(script)` 模拟 `ElementUIEval`，结果 `evalError=null`。
+  - dry-run：`fallbackUsedCurrentSheet=true`、`fallbackMutatedSheet=false`、`htmlLength=27917`、`htmlHasThead=true`、`htmlHasTfoot=true`。
+  - 保存观察到 `保存成功`。
+- 证据：
+  - `wos4-artifacts/snapshots/palimpsest_excel82_print_illegal_return_fix_20260630T1124.json`
+
+## 2026-06-30 PalimpsestExcel_82 打印多一张图片修复
+
+- 身份：向学智_frontend-ai。
+- 用户反馈：页面呈现只有一张图，但导出/打印有两张。
+- 原因：
+  - 当前页面只有 H2 单元格图片。
+  - 旧 fallback HTML 为了模拟浮动图片，额外在正文区域硬编码插入 `body-img`，导致打印比页面多一张图。
+- 修复：
+  - 删除 `body-img` 样式和 `r===4 && c===6` 正文固定图片插入条件。
+  - 保留 H2 表头单元格的 `cell-img`。
+- 验证：
+  - 脚本检查 `hasBodyImg=false / hasBodyExtra=false / hasCellImg=true`。
+  - dry-run 临时注入测试图片 dataURL 后，HTML `<img>` 数量为 `1`。
+  - 保存观察到 `保存成功`。
+- 证据：
+  - `wos4-artifacts/snapshots/palimpsest_excel82_print_single_image_fix_20260630T1135.json`
+
+## 2026-06-30 PalimpsestExcel_82 slot2 提交恢复
+
+- 身份：向学智_frontend-ai。
+- 用户反馈：slot2 页面疑似失效，点击提交不弹版本说明，像卡死。
+- 诊断：
+  - 旧 `PalimpsestExcel_82` 标签是运行/debugger 页，不是编辑器提交入口。
+  - 建模系统旧 iframe 中残留 `删除 / 确定要删除所选？ / 取消 / 确认` 子窗口，会遮挡后续点击；该子窗口按钮未响应，继续在旧 iframe 内操作不可靠。
+  - 刷新顶层 WOS 页后回到干净 `#/main`；重新列桌面卡片发现真实 `建模系统客户端1` 位于 `x=128 y=152`，此前误用旧坐标会点到其他客户端。
+- 恢复：
+  - 从 `建模系统客户端1 -> 盛云_孙宇飞_根组 -> 盛云科技_孙宇飞_Palimpsest_前端_0623 -> 页面精灵图 -> PalimpsestExcel_82 -> 编辑` 重开页面编辑器。
+  - 编辑器 `#page_edit_view_area` 和 `comMap.$Children` 均存在。
+  - 顶部 `button.toolbar-history-submit` 命中点 `1790,80` 可正常触发 `版本提交` 弹窗。
+  - 填写提交说明 `slot2-resubmit-after-clean-session-20260630` 后捕获 `保存成功` 和 `生成历史版本成功！`。
+- 结论：slot2 提交链路已恢复；类似“提交卡死”优先检查是否处于运行页而非编辑器、是否有旧 iframe 子窗口/删除确认遮挡、桌面卡片坐标是否过期。
+- 证据：
+  - `wos4-artifacts/snapshots/palimpsest_excel82_slot2_resubmit_recovery_20260630T1204.json`
+
+## 2026-06-30 PalimpsestExcel_82 提交后预览单图 dry-run 复核
+
+- 身份：向学智_frontend-ai。
+- 目的：继续复核提交后的 fresh 预览页，确认 `Print` 脚本仍是单图、不改写 sheet。
+- 编辑器持久化检查：
+  - `excel_pdf_print_button` 脚本长度 `7118`。
+  - `hasBodyImg=false`、`hasBodyExtra=false`、`hasCellImg=true`、`hasIllegalReturn=false`、`hasDryRun=true`。
+- 预览页检查：
+  - 右上角 `预览` 打开新标签，运行 URL 含 `runModelName=PalimpsestExcel_82`。
+  - 运行页 iframe 挂载 `94054fd1-9b20-463a-8372-b69776349847_120/index.html`，`hasReport=true / hasUniver=true`。
+  - 触发 `Image` 后设置 `__wos4ExcelDryRunPrint=true`，再触发 `Print`。
+- dry-run 结果：
+  - `lastAction=PRINT DRY RUN CURRENT SHEET`。
+  - `htmlLength=29261`。
+  - `imgCount=1`。
+  - `hasBodyImgHtml=false`。
+  - `hasCellImgHtml=true`。
+  - `fallbackUsedCurrentSheet=true`。
+  - `fallbackMutatedSheet=false`。
+- 结论：提交后的新预览页中，打印 fallback 只保留 H2 单元格图，不再生成额外正文图片；dry-run 未弹系统打印框，且未改写 sheet。
+- 证据：
+  - `wos4-artifacts/snapshots/palimpsest_excel82_preview_single_image_dryrun_20260630T1210.json`

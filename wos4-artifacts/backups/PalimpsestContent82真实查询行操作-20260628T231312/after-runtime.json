@@ -1,0 +1,190 @@
+{
+  "ok": true,
+  "page": "PalimpsestContent_82",
+  "createdAt": "2026-06-28T15:30:23.037Z",
+  "editorHref": "http://221.239.19.118:13001/api/v1/GetFileContent/1/0/0/94054fd1-9b20-463a-8372-b69776349847_120/index.html",
+  "bodyText": "文件(F)\n提交\n预览\n\n组件\n\n布局容器\nUI组件\n图表组件\n流程图\n精灵图库\nPalimpsestContent_82\n状态\n\t\n部门\n\t\n导师\n\t\n批次\n\t\n时间\n\t\n关键词\n\t\n查询真实数据\n重置\n导出\n\n记录ID\t学号\t批次\t导师\t专业能力\t工作态度\t任务完成\t综合评分\t状态\t更新时间\t操作\n请先查询真实数据\n共 0 条\n1\n前往页\n属性\n基本\n名称\n\t\n\n\n描述\n\t\n\n\n版本\n\t\n\n\n时空配置\n\t\n\n\n设备名称\n\t\n画面大小\n宽度\n\t\n\n\n高度\n\t\n窗口\n窗口样式\n\t\n\n\nAPP端横竖屏\n\t\n\n\n页面百分比自适应\n\t\n对象图层\n图层1\n鼠标位置：0, 0\n所选对象位置： 0, 0\n选择对象类型: , 位于\n共 0 个对象, 已选 1 个对象\n选择对象名称: pal_filter_keyword\n63%",
+  "tableDetail": "this.table({\"border\":false,\"fit\":true,\"showHeader\":true,\"emptyText\":\"请先查询真实数据\",\"pagination\":true,\"pageSize\":10,\"currentPage\":1,\"columns\":[{\"prop\":\"name\",\"label\":\"记录ID\",\"minWidth\":\"170\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"studentId\",\"label\":\"学号\",\"minWidth\":\"120\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"dept\",\"label\":\"批次\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"mentor\",\"label\":\"导师\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"professional\",\"label\":\"专业能力\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"attitude\",\"label\":\"工作态度\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"task\",\"label\":\"任务完成\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"score\",\"label\":\"综合评分\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"status\",\"label\":\"状态\",\"minWidth\":\"118\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"updated\",\"label\":\"更新时间\",\"minWidth\":\"145\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"actions\",\"label\":\"操作\",\"minWidth\":\"180\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false}],\"totalData\":[]})",
+  "tableLinkList": [
+    {
+      "linkId": 200001,
+      "enable": false,
+      "KSCGUID": "k2e7729d44781322eaee595de851c86f",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "Select"
+    },
+    {
+      "linkId": 200002,
+      "enable": false,
+      "KSCGUID": "k9a505d552b9053d30b6a8993ba381cd",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "SelectAll"
+    },
+    {
+      "linkId": 200003,
+      "enable": false,
+      "KSCGUID": "k58077219968da2bd075f196c20ff5ec",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "SelectionChange"
+    },
+    {
+      "linkId": 200004,
+      "enable": false,
+      "KSCGUID": "k8daba2769fc1a0746e8f4b319d21ab3",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "CellMouseEnter"
+    },
+    {
+      "linkId": 200005,
+      "enable": false,
+      "KSCGUID": "k88a34ab7b2507e3df0c93a8d413e1f2",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "CellMouseLeave"
+    },
+    {
+      "linkId": 200006,
+      "enable": true,
+      "KSCGUID": "k4799f9eebb9227838fb1dd17dc4cbfa",
+      "script": "var e=arguments[1]||arguments[0]||{}; if(window.__palTableHandleAction){ window.__palTableHandleAction(e); } else { window.__palLastActionError='pal handler not ready'; }",
+      "KSCLINKGUID": "",
+      "linkName": "CellClick"
+    },
+    {
+      "linkId": 200007,
+      "enable": false,
+      "KSCGUID": "k1fe1e0794a5a2281bf323475e73ff23",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "CellDbclick"
+    },
+    {
+      "linkId": 200008,
+      "enable": false,
+      "KSCGUID": "k96fe89e7b45e7689a78846255d54960",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "RowClick"
+    },
+    {
+      "linkId": 200009,
+      "enable": false,
+      "KSCGUID": "k787f8576d762455a060973bf8bafaf3",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "RowContextmenu"
+    },
+    {
+      "linkId": 200010,
+      "enable": false,
+      "KSCGUID": "k65aa92476fb6700cfb740b8b25e10a7",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "RowDbclick"
+    },
+    {
+      "linkId": 200011,
+      "enable": false,
+      "KSCGUID": "k737c40e17f3c0b3ac5cc6238492ec71",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "HeaderClick"
+    },
+    {
+      "linkId": 200012,
+      "enable": false,
+      "KSCGUID": "k049bf8483ef5cfb629460beb0a6449b",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "SortChange"
+    },
+    {
+      "linkId": 200013,
+      "enable": false,
+      "KSCGUID": "kece27f515fc9f5fafa652e7845a6e01",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "FilterChange"
+    },
+    {
+      "linkId": 200014,
+      "enable": false,
+      "KSCGUID": "kd09fd41f1a7956436abe15744834079",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "CurrentChange"
+    },
+    {
+      "linkId": 200015,
+      "enable": false,
+      "KSCGUID": "k10b4177cf2f403b5e0808b94b338dda",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "HeaderDragend"
+    },
+    {
+      "linkId": 200016,
+      "enable": false,
+      "KSCGUID": "k8fef4fae1d3feed2e2e0687eca64bfd",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "ExpandChange"
+    },
+    {
+      "linkId": 200017,
+      "enable": false,
+      "KSCGUID": "kd71302763f6893566290573c8862a88",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "CurrentPageChange"
+    },
+    {
+      "linkId": 200018,
+      "enable": false,
+      "KSCGUID": "k6cffcd85fa72bb6d1cf8024c60be94c",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "OnLoadSuccess"
+    },
+    {
+      "linkId": 200019,
+      "enable": false,
+      "KSCGUID": "ka622c0c483128636b9242b6840d32c9",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "OnBeforeEdit"
+    },
+    {
+      "linkId": 200020,
+      "enable": false,
+      "KSCGUID": "k82f33b4f8d9b2ff4c5f713712cefb06",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "OnAfterEdit"
+    },
+    {
+      "linkId": 200021,
+      "enable": false,
+      "KSCGUID": "k42220d4da9150af734378f72ccfa68c",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "PageSizeChange"
+    }
+  ],
+  "queryDetail": "this.button({ text: \"查询真实数据\" })",
+  "queryLink": {
+    "name": "OnClick",
+    "property": "upDateLink",
+    "type": "script",
+    "enable": true,
+    "script": "\n(function(){\n  var PAL_ST = 'aba6cf7a-0715-4966-8eaf-0f448eba7bc9';\n  var PAL_DEV = 'PalimpsestBack_0626R2';\n  var PAL_APP = 'PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2';\n  function getMgr(ctx){ return ctx && (ctx.KMComponentsMng || (ctx.$parent && ctx.$parent.KMComponentsMng)); }\n  function getKids(ctx){ var mgr = getMgr(ctx); return mgr && (mgr.$Children || mgr['$'+'Children']) || {}; }\n  function getTable(ctx){ return getKids(ctx).pal_assessment_table; }\n  function getButton(ctx){ return getKids(ctx).pal_query_button; }\n  function columns(){ return [{\"prop\":\"name\",\"label\":\"记录ID\",\"minWidth\":\"170\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"studentId\",\"label\":\"学号\",\"minWidth\":\"120\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"dept\",\"label\":\"批次\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"mentor\",\"label\":\"导师\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"professional\",\"label\":\"专业能力\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"attitude\",\"label\":\"工作态度\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"task\",\"label\":\"任务完成\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"score\",\"label\":\"综合评分\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"status\",\"label\":\"状态\",\"minWidth\":\"118\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"updated\",\"label\":\"更新时间\",\"minWidth\":\"145\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"actions\",\"label\":\"操作\",\"minWidth\":\"180\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false}]; }\n  function cfg(rows){ return {border:false,fit:true,showHeader:true,emptyText:'请先查询真实数据',pagination:true,pageSize:10,currentPage:1,columns:columns(),totalData:rows || []}; }\n  function val(x){ if(x && typeof x === 'object' && x.utcTime) return x.utcTime; if(x && typeof x === 'object' && x.stringValue != null) return x.stringValue; if(x && typeof x === 'object' && x.doubleValue != null) return String(x.doubleValue); if(x == null) return ''; return String(x); }\n  function parsePayload(r){ var payload = r && r.returndata; if(typeof payload === 'string') { try { payload = JSON.parse(payload); } catch(e) { payload = null; } } return payload; }\n  function rowsFromResult(r){\n    var payload = parsePayload(r);\n    var ds = payload && payload.map && payload.map.data && payload.map.data.map && payload.map.data.map.output && payload.map.data.map.output.map && payload.map.data.map.output.map.returndatas && payload.map.data.map.output.map.returndatas.elements && payload.map.data.map.output.map.returndatas.elements[0];\n    var cols = ds && ds.colNames || []; var values = ds && ds.rowValues || [];\n    function get(row,name){ var i=cols.indexOf(name); return i>=0 ? row[i] : ''; }\n    return values.map(function(row){\n      var updated = val(get(row,'updated_at')).replace('.0.0','');\n      var recordID = val(get(row,'$recordID'));\n      return { name:val(get(row,'id')), studentId:val(get(row,'student_id')), dept:val(get(row,'batch_id')), mentor:val(get(row,'mentor_id')), professional:val(get(row,'professional_score')), attitude:val(get(row,'attitude_score')), task:val(get(row,'task_score')), score:val(get(row,'total_score')), status:val(get(row,'status')), updated:updated, recordID:recordID, teamwork:val(get(row,'teamwork_score')), innovation:val(get(row,'innovation_score')), comment:val(get(row,'comment')), actions:'查看 / 评分 / 编辑 / 更多' };\n    });\n  }\n  function sm(items){ var m = new StringMap({}); Object.keys(items || {}).forEach(function(k){ var it = items[k]; if(Array.isArray(it)) m._insert(k, it[0], it[1]); else m._insert(k, it, 'string'); }); return m; }\n  function backend(func, params){\n    return new Promise(function(resolve, reject){\n      SetRunInfo({stType:4, spaceTime:PAL_ST, devName:PAL_DEV}, function(changeRes){\n        Call(new StringMap({type:21001, cloudID:getLocalCloudID(), areaID:0, timeout:10000}), new StringMap({identifierType:2, name:PAL_APP, funcname:func, params:[new Variant(sm(params || {}))]}))\n          .then(function(r){ r.__changeRes = changeRes; resolve(r); }).catch(reject);\n      });\n    });\n  }\n  function install(win, ctx){\n    win.__palShowDialog = function(title, body, actions){\n      var old = win.document.getElementById('pal-runtime-dialog'); if(old) old.remove();\n      var wrap = win.document.createElement('div'); wrap.id='pal-runtime-dialog';\n      wrap.style.cssText='position:fixed;inset:0;z-index:999999;background:rgba(15,23,42,.28);display:flex;align-items:center;justify-content:center;font-family:Arial,\"Microsoft YaHei\",sans-serif;';\n      var box = win.document.createElement('div'); box.style.cssText='width:520px;max-width:calc(100vw - 40px);background:#fff;border:1px solid #dbe3ef;box-shadow:0 18px 60px rgba(15,23,42,.22);border-radius:8px;overflow:hidden;';\n      var head = win.document.createElement('div'); head.style.cssText='height:52px;display:flex;align-items:center;justify-content:space-between;padding:0 18px;border-bottom:1px solid #e5eaf2;font-weight:700;color:#0f172a;font-size:16px;'; head.innerHTML='<span>'+title+'</span>';\n      var close = win.document.createElement('button'); close.textContent='×'; close.style.cssText='border:0;background:transparent;font-size:22px;color:#64748b;cursor:pointer;'; close.onclick=function(){wrap.remove();}; head.appendChild(close);\n      var content = win.document.createElement('div'); content.style.cssText='padding:16px 18px;color:#334155;font-size:13px;line-height:1.7;'; if(typeof body==='string') content.innerHTML=body; else content.appendChild(body);\n      var foot = win.document.createElement('div'); foot.style.cssText='padding:12px 18px;border-top:1px solid #e5eaf2;display:flex;gap:10px;justify-content:flex-end;background:#f8fafc;';\n      (actions || [{text:'关闭'}]).forEach(function(a){ var b=win.document.createElement('button'); b.textContent=a.text; b.style.cssText='min-width:82px;height:34px;border-radius:4px;border:1px solid '+(a.primary?'#2563eb':'#cfd8e3')+';background:'+(a.primary?'#2563eb':'#fff')+';color:'+(a.primary?'#fff':'#334155')+';cursor:pointer;font-weight:600;'; b.onclick=function(){ if(a.click) a.click(wrap); else wrap.remove(); }; foot.appendChild(b); });\n      box.appendChild(head); box.appendChild(content); box.appendChild(foot); wrap.appendChild(box); win.document.body.appendChild(wrap); return wrap;\n    };\n    win.__palShowToast = function(text){ var old=win.document.getElementById('pal-runtime-toast'); if(old) old.remove(); var t=win.document.createElement('div'); t.id='pal-runtime-toast'; t.textContent=text; t.style.cssText='position:fixed;right:28px;top:24px;z-index:1000000;background:#0f172a;color:#fff;padding:10px 14px;border-radius:4px;box-shadow:0 8px 24px rgba(15,23,42,.25);font-size:13px;'; win.document.body.appendChild(t); setTimeout(function(){ if(t.parentNode) t.remove(); }, 2600); };\n    win.__palRefreshAssessmentRows = function(buttonText){\n      var table = getTable(ctx); var btn = getButton(ctx); if(btn && btn.button) btn.button({text: buttonText || '查询中...'});\n      return backend('QueryAssessmentRecords', {action:['query','string'], pageNo:[1,'int32'], pageSize:[20,'int32'], keyword:['','string']}).then(function(r){ var rows=rowsFromResult(r); win.__palRows=rows; if(table && table.table) table.table(cfg(rows)); if(btn && btn.button) btn.button({text:'查询真实数据 / '+rows.length+'条'}); win.__palLastAssessmentQuery={ret:r.ret, rows:rows, at:new Date().toISOString()}; install(win, ctx); return rows; }).catch(function(err){ if(btn && btn.button) btn.button({text:'查询失败'}); win.__palLastAssessmentQuery={error:String(err), at:new Date().toISOString()}; win.__palShowToast('查询失败：'+String(err).slice(0,80)); });\n    };\n    win.__palTableHandleAction = function(e){\n      var rows = win.__palRows || [];\n      var row = e && (e.row || e.rowData || e.data || e.currentRow || e.record);\n      if(!row && e && typeof e.rowIndex === 'number') row = rows[e.rowIndex];\n      if(!row && rows.length === 1) row = rows[0];\n      if(!row && rows.length) row = rows[0];\n      if(!row){ win.__palShowToast('请先查询真实数据'); return; }\n      showMenu(row, e || {});\n    };\n    function showMenu(row, e){\n      var old = win.document.getElementById('pal-action-menu'); if(old) old.remove();\n      var menu = win.document.createElement('div'); menu.id='pal-action-menu';\n      var x = e.clientX || (e.event && e.event.clientX) || Math.min(win.innerWidth-180, win.innerWidth*0.78);\n      var y = e.clientY || (e.event && e.event.clientY) || Math.min(win.innerHeight-220, win.innerHeight*0.62);\n      menu.style.cssText='position:fixed;left:'+Math.max(8,Math.min(x,win.innerWidth-190))+'px;top:'+Math.max(8,Math.min(y,win.innerHeight-230))+'px;z-index:1000000;width:168px;background:#fff;border:1px solid #dbe3ef;border-radius:6px;box-shadow:0 12px 36px rgba(15,23,42,.18);padding:6px;font-size:13px;color:#334155;';\n      function item(text, fn){ var b=win.document.createElement('button'); b.textContent=text; b.style.cssText='display:block;width:100%;height:32px;text-align:left;padding:0 10px;border:0;background:#fff;border-radius:4px;cursor:pointer;color:#1e293b;'; b.onmouseenter=function(){b.style.background='#eff6ff';}; b.onmouseleave=function(){b.style.background='#fff';}; b.onclick=function(){ menu.remove(); fn(row); }; menu.appendChild(b); }\n      item('查看真实记录', viewRow); item('编辑状态/评语', editRow); item('提交评分', scoreRow); item('删除记录', deleteRow); item('重新查询', function(){ win.__palRefreshAssessmentRows(); });\n      win.document.body.appendChild(menu);\n      setTimeout(function(){ win.document.addEventListener('click', function closer(ev){ if(!menu.contains(ev.target)){ menu.remove(); win.document.removeEventListener('click', closer, true); } }, true); }, 0);\n    }\n    function infoHtml(row){ return '<div><b>记录ID：</b>'+row.name+'</div><div><b>recordID：</b>'+row.recordID+'</div><div><b>学号：</b>'+row.studentId+'</div><div><b>批次：</b>'+row.dept+'</div><div><b>导师：</b>'+row.mentor+'</div><div><b>综合评分：</b>'+row.score+'</div><div><b>状态：</b>'+row.status+'</div><div><b>更新时间：</b>'+row.updated+'</div><div><b>评语：</b>'+(row.comment||'')+'</div>'; }\n    function viewRow(row){ win.__palShowDialog('查看考核记录', infoHtml(row), [{text:'关闭'}]); win.__palLastAction={type:'view', row:row}; }\n    function editRow(row){\n      var body = win.document.createElement('div'); body.innerHTML='<label>状态</label><input id=\"pal-edit-status\" style=\"width:100%;height:34px;margin:6px 0 12px;border:1px solid #cfd8e3;border-radius:4px;padding:0 8px;\" value=\"'+(row.status||'updated_by_frontend')+'\"><label>评语</label><textarea id=\"pal-edit-comment\" style=\"width:100%;height:82px;margin-top:6px;border:1px solid #cfd8e3;border-radius:4px;padding:8px;resize:none;\">'+(row.comment||'frontend edit from PalimpsestContent_82')+'</textarea>';\n      win.__palShowDialog('编辑真实记录', body, [{text:'取消'}, {text:'提交修改', primary:true, click:function(wrap){ var status=body.querySelector('#pal-edit-status').value; var comment=body.querySelector('#pal-edit-comment').value; backend('UpdateAssessmentRecord', {recordID:[String(row.recordID),'uint64'], status:[status,'string'], comment:[comment,'string']}).then(function(r){ win.__palLastAction={type:'edit', ret:r.ret, row:row}; wrap.remove(); win.__palShowToast('修改返回 ret='+r.ret); win.__palRefreshAssessmentRows('修改后刷新...'); }).catch(function(err){ win.__palShowToast('修改失败：'+String(err).slice(0,80)); }); }}]);\n    }\n    function scoreRow(row){\n      var body = win.document.createElement('div');\n      body.innerHTML=['professional:专业能力','attitude:工作态度','task:任务完成','teamwork:团队协作','innovation:创新能力'].map(function(x){ var p=x.split(':'); var v=row[p[0]] || (p[0]==='teamwork'?'10':p[0]==='innovation'?'10':'0'); return '<label>'+p[1]+'</label><input data-k=\"'+p[0]+'\" type=\"number\" step=\"0.5\" style=\"width:100%;height:32px;margin:4px 0 8px;border:1px solid #cfd8e3;border-radius:4px;padding:0 8px;\" value=\"'+v+'\">'; }).join('') + '<label>评语</label><textarea id=\"pal-score-comment\" style=\"width:100%;height:66px;margin-top:4px;border:1px solid #cfd8e3;border-radius:4px;padding:8px;resize:none;\">frontend score from PalimpsestContent_82</textarea>';\n      win.__palShowDialog('提交真实评分', body, [{text:'取消'}, {text:'提交评分', primary:true, click:function(wrap){ var m={recordID:[String(row.recordID),'uint64'], comment:[body.querySelector('#pal-score-comment').value,'string']}; Array.from(body.querySelectorAll('input[data-k]')).forEach(function(inp){ var key=inp.getAttribute('data-k'); var field = key==='professional'?'professional_score':key==='attitude'?'attitude_score':key==='task'?'task_score':key==='teamwork'?'teamwork_score':'innovation_score'; m[field]=[Number(inp.value || 0),'double']; }); backend('SubmitAssessmentScore', m).then(function(r){ win.__palLastAction={type:'score', ret:r.ret, row:row}; wrap.remove(); win.__palShowToast('评分返回 ret='+r.ret); win.__palRefreshAssessmentRows('评分后刷新...'); }).catch(function(err){ win.__palShowToast('评分失败：'+String(err).slice(0,80)); }); }}]);\n    }\n    function deleteRow(row){ win.__palShowDialog('删除真实记录', '<div>确认删除 <b>'+row.name+'</b>？<br>recordID: '+row.recordID+'</div>', [{text:'取消'}, {text:'确认删除', primary:true, click:function(wrap){ backend('DeleteAssessmentRecord', {recordID:[String(row.recordID),'uint64']}).then(function(r){ win.__palLastAction={type:'delete', ret:r.ret, row:row}; wrap.remove(); win.__palShowToast('删除返回 ret='+r.ret); win.__palRefreshAssessmentRows('删除后刷新...'); }).catch(function(err){ win.__palShowToast('删除失败：'+String(err).slice(0,80)); }); }}]); }\n  }\n  install(window, this);\n})();\nwindow.__palRefreshAssessmentRows && window.__palRefreshAssessmentRows('查询中...');",
+    "linkId": 200001,
+    "KSCGUID": "kd47ab7eca43ec7e36056175c4a98657",
+    "linkName": "OnClick"
+  },
+  "components": 43
+}

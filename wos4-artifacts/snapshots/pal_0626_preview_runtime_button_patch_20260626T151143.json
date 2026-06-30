@@ -1,0 +1,37 @@
+{
+  "path": "top.0",
+  "patched": true,
+  "UIName": "pal_query_button",
+  "text": "Smoke ret=-210133",
+  "linkList": [
+    {
+      "linkId": 200001,
+      "enable": true,
+      "KSCGUID": "kd47ab7eca43ec7e36056175c4a98657",
+      "script": "\nvar page = this.KMComponentsMng && this.KMComponentsMng.get ? this.KMComponentsMng.get(\"PageView\") : null;\nvar btn = this;\nfunction setBtnText(t) {\n  try { if (btn.button) btn.button({ text: t }); } catch(e) {}\n  try { btn.propData = btn.propData || {}; btn.propData.detailConfig = \"this.button({ text: \" + JSON.stringify(t) + \" })\"; } catch(e) {}\n}\nfunction saveSmoke(obj) {\n  try { if (page) page.__palBackendSmoke = obj; } catch(e) {}\n  try { window.__palBackendSmoke = obj; } catch(e) {}\n}\nsetBtnText(\"Smoke calling...\");\n(function(){\n  function changeSpace() {\n    if (typeof SetRunInfo !== \"function\") return Promise.resolve({ret:\"NO_SetRunInfo\"});\n    return new Promise(function(resolve) {\n      try {\n        SetRunInfo({ stType: 5, spaceTime: \"PalimpsestL1_0626R2\", devName: \"PalimpsestBack_0626R2\" }, function(res) { resolve(res); });\n      } catch(e) { resolve({ret:\"SetRunInfoError\", message:String(e)}); }\n    });\n  }\n  function doCallByName() {\n    var param = new StringMap({ type: 21001, cloudID: getLocalCloudID(), areaID: 0, timeout: 8000 });\n    var input = new StringMap({\n      identifierType: 2,\n      name: \"PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2\",\n      funcname: \"QueryAssessmentSmoke\",\n      params: []\n    });\n    return Call(param, input);\n  }\n  function doCallById() {\n    var param = new StringMap({ type: 21001, cloudID: getLocalCloudID(), areaID: 0, timeout: 8000 });\n    var input = new StringMap({\n      identifierType: 1,\n      id: \"7205759403792797099\",\n      funcname: \"QueryAssessmentSmoke\",\n      params: []\n    });\n    return Call(param, input);\n  }\n  changeSpace().then(function(stRes) {\n    return doCallByName().then(function(callRes) {\n      if (callRes && callRes.ret === 0) return {setRunInfo:stRes, mode:\"name\", call:callRes};\n      return doCallById().then(function(callRes2) { return {setRunInfo:stRes, mode:\"id\", firstCall:callRes, call:callRes2}; });\n    });\n  }).then(function(res) {\n    var ret = res && res.call ? res.call.ret : undefined;\n    saveSmoke({ok:ret===0, ret:ret, result:res, at:Date.now()});\n    setBtnText(ret === 0 ? \"Smoke OK\" : (\"Smoke ret=\" + ret));\n  }).catch(function(err) {\n    saveSmoke({ok:false, error:String(err), at:Date.now()});\n    setBtnText(\"Smoke error\");\n  });\n})();\n",
+      "KSCLINKGUID": "",
+      "linkName": "OnClick"
+    }
+  ],
+  "propLinkList": [
+    {
+      "linkId": 200001,
+      "enable": true,
+      "KSCGUID": "kd47ab7eca43ec7e36056175c4a98657",
+      "script": "\nvar page = this.KMComponentsMng && this.KMComponentsMng.get ? this.KMComponentsMng.get(\"PageView\") : null;\nvar btn = this;\nfunction setBtnText(t) {\n  try { if (btn.button) btn.button({ text: t }); } catch(e) {}\n  try { btn.propData = btn.propData || {}; btn.propData.detailConfig = \"this.button({ text: \" + JSON.stringify(t) + \" })\"; } catch(e) {}\n}\nfunction saveSmoke(obj) {\n  try { if (page) page.__palBackendSmoke = obj; } catch(e) {}\n  try { window.__palBackendSmoke = obj; } catch(e) {}\n}\nsetBtnText(\"Smoke calling...\");\n(function(){\n  function changeSpace() {\n    if (typeof SetRunInfo !== \"function\") return Promise.resolve({ret:\"NO_SetRunInfo\"});\n    return new Promise(function(resolve) {\n      try {\n        SetRunInfo({ stType: 5, spaceTime: \"PalimpsestL1_0626R2\", devName: \"PalimpsestBack_0626R2\" }, function(res) { resolve(res); });\n      } catch(e) { resolve({ret:\"SetRunInfoError\", message:String(e)}); }\n    });\n  }\n  function doCallByName() {\n    var param = new StringMap({ type: 21001, cloudID: getLocalCloudID(), areaID: 0, timeout: 8000 });\n    var input = new StringMap({\n      identifierType: 2,\n      name: \"PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2\",\n      funcname: \"QueryAssessmentSmoke\",\n      params: []\n    });\n    return Call(param, input);\n  }\n  function doCallById() {\n    var param = new StringMap({ type: 21001, cloudID: getLocalCloudID(), areaID: 0, timeout: 8000 });\n    var input = new StringMap({\n      identifierType: 1,\n      id: \"7205759403792797099\",\n      funcname: \"QueryAssessmentSmoke\",\n      params: []\n    });\n    return Call(param, input);\n  }\n  changeSpace().then(function(stRes) {\n    return doCallByName().then(function(callRes) {\n      if (callRes && callRes.ret === 0) return {setRunInfo:stRes, mode:\"name\", call:callRes};\n      return doCallById().then(function(callRes2) { return {setRunInfo:stRes, mode:\"id\", firstCall:callRes, call:callRes2}; });\n    });\n  }).then(function(res) {\n    var ret = res && res.call ? res.call.ret : undefined;\n    saveSmoke({ok:ret===0, ret:ret, result:res, at:Date.now()});\n    setBtnText(ret === 0 ? \"Smoke OK\" : (\"Smoke ret=\" + ret));\n  }).catch(function(err) {\n    saveSmoke({ok:false, error:String(err), at:Date.now()});\n    setBtnText(\"Smoke error\");\n  });\n})();\n",
+      "KSCLINKGUID": "",
+      "linkName": "OnClick"
+    }
+  ],
+  "spaceTimeId": {
+    "id": "1152921504606851418",
+    "name": "PalimpsestL1_0626R2",
+    "guid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+    "devName": "",
+    "realArea": 0,
+    "yuanArea": 0,
+    "webJsArea": 0,
+    "planArea": 0,
+    "historyArea": 0
+  }
+}

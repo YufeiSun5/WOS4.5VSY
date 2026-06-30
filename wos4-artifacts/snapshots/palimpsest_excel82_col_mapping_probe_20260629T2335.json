@@ -1,0 +1,166 @@
+{
+  "dataCols": [
+    {
+      "idx": 0,
+      "UIName": "CellAddressInputCol",
+      "KSCGUID": "k2f6384107840afab0370cab5a198dd4",
+      "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+      "objectLen": 0
+    },
+    {
+      "idx": 1,
+      "UIName": "CellValueInputCol",
+      "KSCGUID": "k5dc0db9b5da2ba97098c6ec6115d021",
+      "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+      "objectLen": 0
+    },
+    {
+      "idx": 2,
+      "UIName": "ReadCellButtonCol",
+      "KSCGUID": "k46c91bba7e34cc9b893e2e696528f7d",
+      "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+      "objectLen": 0
+    },
+    {
+      "idx": 3,
+      "UIName": "WriteCellButtonCol",
+      "KSCGUID": "kd57a986c2f08ccab5099d4306c0fb63",
+      "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+      "objectLen": 0
+    },
+    {
+      "idx": 4,
+      "UIName": "StyleCellButtonCol",
+      "KSCGUID": "k7ded8e7fce86f9d93e9e895c851330f",
+      "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+      "objectLen": 0
+    },
+    {
+      "idx": 5,
+      "UIName": "ExportPrintProbeCol",
+      "KSCGUID": "b7ea9ce9-4bfe-4efb-81e0-4bf4b83d85b6",
+      "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+      "objectLen": 0
+    },
+    {
+      "idx": 6,
+      "UIName": "ExperimentResultCol",
+      "KSCGUID": "kc165a48daa32f271491b5db8dd7fd00",
+      "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+      "objectLen": 0
+    },
+    {
+      "idx": 7,
+      "UIName": "CapabilityNotesCol",
+      "KSCGUID": "c7ec9ce9-4cfe-4efc-81e0-4bf4c83d85b6",
+      "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+      "objectLen": 0
+    }
+  ],
+  "kidCols": [
+    {
+      "key": "RCol11",
+      "name": "CellAddressInputCol",
+      "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+      "rect": {
+        "x": 337,
+        "y": 205,
+        "w": 8,
+        "h": 136
+      }
+    },
+    {
+      "key": "RCol12",
+      "name": "CellValueInputCol",
+      "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+      "rect": {
+        "x": 349,
+        "y": 205,
+        "w": 10,
+        "h": 136
+      }
+    },
+    {
+      "key": "RCol13",
+      "name": "ReadCellButtonCol",
+      "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+      "rect": {
+        "x": 364,
+        "y": 205,
+        "w": 6,
+        "h": 136
+      }
+    },
+    {
+      "key": "RCol14",
+      "name": "WriteCellButtonCol",
+      "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+      "rect": {
+        "x": 375,
+        "y": 205,
+        "w": 6,
+        "h": 136
+      }
+    },
+    {
+      "key": "RCol9",
+      "name": "StyleCellButtonCol",
+      "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+      "rect": {
+        "x": 386,
+        "y": 205,
+        "w": 6,
+        "h": 136
+      }
+    },
+    {
+      "key": "RCol2",
+      "name": "ExportPrintProbeCol",
+      "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+      "rect": {
+        "x": 396,
+        "y": 205,
+        "w": 8,
+        "h": 136
+      }
+    },
+    {
+      "key": "RCol8",
+      "name": "ExperimentResultCol",
+      "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+      "rect": {
+        "x": 409,
+        "y": 205,
+        "w": 13,
+        "h": 136
+      }
+    },
+    {
+      "key": "RCol3",
+      "name": "CapabilityNotesCol",
+      "parentGUID": "k144fe42fa796fb3fe20cd6dd0cda465",
+      "rect": {
+        "x": 427,
+        "y": 205,
+        "w": 8,
+        "h": 136
+      }
+    },
+    {
+      "key": "RCol6",
+      "name": "RCol6",
+      "parentGUID": "kfced2d11d057076a229e74f82c42122",
+      "rect": {
+        "x": 327,
+        "y": 348,
+        "w": 1200,
+        "h": 527
+      },
+      "object": {
+        "UIName": "报表流程图1",
+        "prototypeName": "报表流程图",
+        "UIType": 51
+      }
+    }
+  ]
+}

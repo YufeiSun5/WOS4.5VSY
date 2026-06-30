@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "verifiedAt": "2026-06-26T18:31:15.816Z",
+  "page": "PalimpsestMenu_18",
+  "submitMessages": [
+    "保存成功",
+    "生成历史版本成功！"
+  ],
+  "variables": [
+    {
+      "varName": "palMenuConfigJson",
+      "KSCGUID": "pal_menu_config_json_20260627",
+      "varType": 2,
+      "valueLen": 2330
+    },
+    {
+      "varName": "palCurrentMenu",
+      "KSCGUID": "pal_current_menu_20260627",
+      "varType": 2,
+      "valueLen": 10
+    }
+  ],
+  "onCreate": {
+    "enable": true,
+    "scriptLen": 1084,
+    "readsVariable": true,
+    "assignsPageConfig": true
+  },
+  "menu": {
+    "propNavDataLength": 3,
+    "detailHasTargetPages": false,
+    "detailReadsPageVariable": true,
+    "domText": "人才考核\n实习生考核管理\n考核数据看板\n演示与调试\n展开表格演示\n归档与日志\n系统预留\n时空切换预留",
+    "initError": ""
+  },
+  "layout": {
+    "col12Objects": 0,
+    "col12Height": 1078,
+    "col6Height": 1078
+  },
+  "screenshots": {
+    "beforeSubmit": "wos4-artifacts/screenshots/pal_menu18_data_driven_oncreate_before_submit.png",
+    "afterReload": "wos4-artifacts/screenshots/pal_menu18_data_driven_after_reload_verify.png"
+  },
+  "backup": "wos4-artifacts/backups/pal-menu18-data-driven-before-20260627T013500"
+}

@@ -1,0 +1,469 @@
+{
+  "hitCount": 61,
+  "hits": [
+    {
+      "path": "el22",
+      "text": "KingFusion4.5_组态系统 <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [
+        "storeNameEnum",
+        "scriptManager",
+        "refreshFlag",
+        "showPageList",
+        "currentShow",
+        "maxzIndex",
+        "pendingCloseItem",
+        "VariableManager"
+      ],
+      "dataSample": "{\"storeNameEnum\":{\"_root\":\"CLIENTRUN\",\"CLIENT_ROOT\":\"CLIENTRUN\",\"CLIENT_FU\":\"CLIENTRUN_KSCCLIENTFU\",\"CLIENT_PAGEMNG\":\"CLIENTRUN_KSCPAGEMNG\",\"CLIENT_VARIABLEGROUP\":\"CLIENTRUN_KSCVARIABLEGROUP\",\"CLIENT_SCRIPTMNG\":\"CLIENTRUN_KSCSCRIPTMNG\"},\"scriptManager\":{\"system\":[{\"name\":\"系统启动时\",\"code\":\"\",\"enable\":true},{\"name\":\"系统运行时\",\"code\":\"\",\"enable\":true,\"intervalMs\":1000,\"timerStatus\":true,\"timer\":3},{\"name\":\"系统关闭时\",\"code\":\"\",\"enable\":true}],\"dataChange\":[],\"timer\":[],\"custom\":[]},\"refreshFlag\":true,\"showPageList\":[{\"KSCGUID\":\"k08d70051-d062-422c-9e0a-9411deb7d338\",\"pageName\":\"工程浏览器_框架页面\",\"zIndex\":0,\"runParamData\":{\"mode\":\"production\",\"FUType\":\"21\",\"type\":1025,\"guid\":\"564bce60-7d1d-462f-939a-37db4e23b723\",\"id\":\"7205759403792796118\",\"guidVersion\":{\"guid\":\"d4f92e3e-8da7-4e32-b0dc-cb0e1cf03a61\",\"id\":\"\",\"version\":6}},\"options\":{\"type\":1,\"styleOptions\":{},\"variables\":[],\"events\":[],\"spaceTime\":{\"spaceTime\":\"\",\"sTType\":1,\"devName\":\"\"}}}],\"currentShow\":{\"KSCGUID\":\"k08d70051-d062-422c-9e0a-9411deb7d338\",\"pageName\":\"工程浏览器_框架页面\",\"zIndex\":0,\"runParamData\":{\"mode\":\"production\",\"FUType\":\"21\",\"type\":1025,\"guid\":\"564bce60-7d1d-462f-939a-37db4e23b723\",\"id\":\"7205759403792796118\",\"guidVersion\":{\"guid\":\"\",\"id\":\"\",\"version\":0}},\"options\":{\"type\":1,\"styleOptions\":{},\"variables\":[],\"events\":[],\"spaceTime\":{\"spaceTime\":\"\",\"sTType\":1,\"devName\":\"\"}}},\"maxzIndex\":1,\"pendingCloseItem\":null,\"VariableManager\":{\"getLocalVariableByName\":\"[Function]\",\"updateRelateInfo\":\"[Function]\",\"variable\":{\"head\":null,\"tail\":null,\"numberOfValues\":0}}}"
+    },
+    {
+      "path": "el22.0",
+      "text": "KingFusion4.5_组态系统 <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [],
+      "dataSample": "{}"
+    },
+    {
+      "path": "el22.0.0",
+      "text": "KingFusion4.5_组态系统 <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [
+        "PARENT_STORE_PARAM",
+        "RUN_PARAM_DATA"
+      ],
+      "dataSample": "{\"PARENT_STORE_PARAM\":{\"pageName\":\"工程浏览器_框架页面\",\"child$StoreName\":\"$组态系统客户端_新__$PicManager__工程浏览器_框架页面\",\"fuObj\":{\"$id\":\"7205759403792796118\",\"$guid\":\"564bce60-7d1d-462f-939a-37db4e23b723\",\"$name\":\"工程浏览器_框架页面\",\"$type\":1025,\"$modelguid\":\"d4f92e3e-8da7-4e32-b0dc-cb0e1cf03a61\",\"$modelversion\":6,\"$repositoryguid\":\"9a41e480-4678-4edd-9a50-d3bb01b83e51\",\"$memberlist\":[{\"defaultenable\":false,\"description\":\"成果类型\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"FUType\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"21\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"回收标志位\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"isRecycled\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"模型私有仓库\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"modelDBRepository\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"引用类型\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"quotedType\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"在父孪生容器中的位置\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"toFather\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"权限是否开启标志位\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"authFlag\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"false\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"时空信息\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"spaceTime\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"maxVersion\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"6\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"多人编辑信息储存\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"multiEditor\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"扩展域1\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"extendField1\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"扩展域2\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"extendField2\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"扩展域3\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"extendField3\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"扩展域4\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"extendField4\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"扩展域5\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"extendField5\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"扩展域6\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"extendField6\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"扩展域7\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"extendField7\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"扩展域8\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"extendField8\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"扩展域9\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"extendField9\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"扩展域10\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"extendField10\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"PUBVAR__工程管理_框架页面名称\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"{\\\"KSCGUID\\\":\\\"k8ed8765e65d93d0a3dff334c2f47fd7\\\",\\\"varDes\\\":\\\"\\\",\\\"varName\\\":\\\"工程管理_框架页面名称\\\",\\\"varType\\\":2,\\\"varDefaultValue\\\":\\\"工程管理_框架页面\\\",\\\"AbsVariableId\\\":\\\"AbsVariableId\\\",\\\"isPublic\\\":true,\\\"RefObject\\\":{\\\"type\\\":\\\"\\\",\\\"id\\\":\\\"0\\\",\\\"guid\\\":\\\"\\\",\\\"name\\\":\\\"\\\",\\\"version\\\":\\\"0\\\"},\\\"relateInfo\\\":\\\"\\\",\\\"isLinkDataObj\\\":false,\\\"linkDataObjInfo\\\":{},\\\"linkDataObjInfos\\\":[],\\\"linkDataObjName\\\":\\\"\\\",\\\"returnFormat\\\":0,\\\"isShowRealTimeClock\\\":false,\\\"concreteFormat\\\":\\\"yyyy-MM-dd HH:mm:ss\\\",\\\"varValue\\\":\\\"工程管理_框架页面\\\"}\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"PUBVAR__开发系统_框架页面名称\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"{\\\"KSCGUID\\\":\\\"k97f5af01368c2d5ab17a97c78eefe37\\\",\\\"varDes\\\":\\\"\\\",\\\"varName\\\":\\\"开发系统_框架页面名称\\\",\\\"varType\\\":2,\\\"varDefaultValue\\\":\\\"开发系统_组态_框架页面\\\",\\\"AbsVariableId\\\":\\\"AbsVariableId\\\",\\\"isPublic\\\":true,\\\"RefObject\\\":{},\\\"relateInfo\\\":\\\"\\\",\\\"isLinkDataObj\\\":false,\\\"linkDataObjInfo\\\":{},\\\"linkDataObjInfos\\\":[],\\\"linkDataObjName\\\":\\\"\\\",\\\"returnFormat\\\":0,\\\"isShowRealTimeClock\\\":false,\\\"concreteFormat\\\":\\\"yyyy-MM-dd HH:mm:ss\\\",\\\"varValue\\\":\\\"开发系统_组态_框架页面\\\"}\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"PUBVAR__switchPage\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"{\\\"KSCGUID\\\":\\\"k6b68b9323b21c189520fa2ec87849c6\\\",\\\"varDes\\\":\\\"\\\",\\\"varName\\\":\\\"switchPage\\\",\\\"varType\\\":1,\\\"varDefaultValue\\\":1,\\\"AbsVariableId\\\":\\\"AbsVariableId\\\",\\\"isPublic\\\":true,\\\"RefObject\\\":{\\\"type\\\":\\\"\\\",\\\"id\\\":\\\"0\\\",\\\"guid\\\":\\\"\\\",\\\"name\\\":\\\"\\\",\\\"version\\\":\\\"0\\\"},\\\"relateInfo\\\":\\\"\\\",\\\"isLinkDataObj\\\":false,\\\"linkDataObjInfo\\\":{},\\\"linkDataObjInfos\\\":[],\\\"linkDataObjName\\\":\\\"\\\",\\\"returnFormat\\\":0,\\\"isShowRealTimeClock\\\":false,\\\"concreteFormat\\\":\\\"yyyy-MM-"
+    },
+    {
+      "path": "el22.0.0.0",
+      "text": "KingFusion4.5_组态系统 <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [
+        "isEmitAlreadyRender"
+      ],
+      "dataSample": "{\"isEmitAlreadyRender\":true}"
+    },
+    {
+      "path": "el22.0.0.0.0",
+      "text": "KingFusion4.5_组态系统 <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [],
+      "dataSample": "{}"
+    },
+    {
+      "path": "el22.0.0.0.0.0",
+      "text": "KingFusion4.5_组态系统 <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [
+        "pageData",
+        "dataObjMng",
+        "runParamData",
+        "previewImage",
+        "previewVideo",
+        "previewPDF",
+        "$dynamicDialogIns",
+        "$ClientProject",
+        "dataLinkPageName",
+        "$Workflow",
+        "allPageList",
+        "showAlert",
+        "alertOption",
+        "userFuncList"
+      ],
+      "dataSample": "{\"pageData\":{\"objectType\":0,\"pageProperty\":{\"name\":\"工程浏览器_框架页面\",\"comment\":\"\",\"GUID\":\"k3be785a0-e8af-4c65-98f5-cf22b66c08c3\",\"backColor\":\"\",\"picName\":\"\",\"picId\":\"\",\"pageSize\":{\"width\":1920,\"height\":1080},\"windowStyle\":\"ratating\",\"showPage\":{\"closable\":true,\"maximizable\":true,\"styleConfig\":\"\"},\"sizeable\":true,\"fontsizeable\":false,\"appOrientation\":true,\"lockWidthHeight\":false,\"minSize\":false,\"minSize_width\":\"600px\",\"minSize_height\":\"100px\",\"authFlag\":\"close\"},\"objects\":[{\"UIName\":\"图层1\",\"visible\":true,\"runVisible\":true,\"lock\":false,\"prototypeName\":\"layer\",\"KSCGUID\":\"0c79c07f_d539_4808_84c5_e4f36a1ea285\",\"index\":0,\"object\":{\"UIName\":\"RContainer1\",\"ResponseLayoutId\":\"response_layout_root\",\"icon\":\"responsecontainer\",\"KSCGUID\":\"k584a25dd91dd09c7229dd6ad96acbf2\",\"parentGUID\":\"0c79c07f_d539_4808_84c5_e4f36a1ea285\",\"isRoot\":true,\"objectType\":1,\"prototypeName\":\"RContainer\",\"layoutType\":1,\"displayType\":\"xl\",\"UIDesc\":\"\",\"leftTopPt_y\":0,\"leftTopPt_x\":0,\"width\":1920,\"height\":899,\"isShowBorder\":false,\"rowsNumber\":2,\"backgroundColor\":\"\",\"picSrc\":\"\",\"lock\":false,\"visible\":true,\"runVisible\":true,\"styleConfig\":\"\",\"rowsManager\":[{\"UIName\":\"RRow5\",\"KSCGUID\":\"ka18c725fc00832c8b6c6963fb460db6\",\"parentGUID\":\"k584a25dd91dd09c7229dd6ad96acbf2\",\"prototypeName\":\"RRow\",\"objectType\":5,\"rowGap\":{\"top\":0,\"right\":0,\"bottom\":0,\"left\":0,\"autotop\":0,\"autoright\":0,\"autoleft\":0,\"autobottom\":0},\"index\":0,\"colsGap\":0,\"colsAutoGap\":0,\"lock\":false,\"wrapRowMargin\":0,\"wrapRowAutoMargin\":0,\"backgroundColor\":\"rgba(247, 249, 252, 1)\",\"contentWidth\":1920,\"contentHeight\":42,\"height\":\"42\",\"isShow\":true,\"visible\":true,\"heightStrategy\":\"fixedsize\",\"autoHeight\":\"4.67\",\"minSize\":0,\"colStrategy\":\"fixedsize\",\"rowGapStrategy\":\"fixedsize\",\"origHeight\":\"42\",\"origAutoHeight\":\"5.93\",\"picSrc\":\"\",\"colsNumber\":4,\"dragResizeFlag\":false,\"styleConfig\":\"\",\"colsManager\":[{\"UIName\":\"RCol57\",\"KSCGUID\":\"kdc5b1b197cc8b73822bce29b87d7f5a\",\"parentGUID\":\"ka18c725fc00832c8b6c6963fb460db6\",\"range\":10,\"prototypeName\":\"RCol\",\"index\":0,\"objectType\":6,\"backgroundColor\":\"\",\"colHeight\":40.47,\"widthStrategy\":\"percentage\",\"xsWidth\":\"25\",\"smWidth\":\"25\",\"mdWidth\":\"25\",\"lgWidth\":\"25\",\"xlWidth\":19,\"xsAutoWidth\":1,\"smAutoWidth\":1,\"mdAutoWidth\":1,\"lgAutoWidth\":1,\"xlAutoWidth\":1,\"minSize\":0,\"minWidth\":0,\"isShow\":true,\"visible\":true,\"xsIsShow\":true,\"smIsShow\":true,\"mdIsShow\":true,\"lgIsShow\":true,\"xlIsShow\":true,\"offsetValid\":true,\"sameWidth\":true,\"horinzontal\":\"left\",\"vertical\":\"top\",\"lock\":false,\"lockWidthHeight\":false,\"rateOfWidthHeight\":1,\"offset\":0,\"autoOffset\":0,\"offsetRight\":0,\"autoOffsetRight\":0,\"offsetStrategy\":\"fixedsize\",\"heightStrategy\":\"percentage\",\"autoHeight\":96.38,\"dragResizeFlag\":false,\"object\":[],\"uiInputLinkList\":[],\"uiOutputLinkList\":[],\"isNewCol\":false,\"offsetAnimation\":{},\"conditionConfig\":{}},{\"UIName\":\"RCol14\",\"KSCGUID\":\"k1052317089da0bf841f4a7af75aa088\",\"parentGUID\":\"ka18c725fc00832c8b6c6963fb460db6\",\"range\":10,\"prototypeName\":\"RCol\",\"index\":2,\"objectType\":6,\"backgroundColor\":\"\",\"colHeight\":\"24.29\",\"widthStrategy\":\"fixedsize\",\"xsWidth\":\"23.00\",\"smWidth\":\"23.00\",\"mdWidth\":\"23.00\",\"lgWidth\":\"23.00\",\"xlWidth\":\"23.00\",\"xsAutoWidth\":1,\"smAutoWidth\":1,\"mdAutoWidth\":1,\"lgAutoWidth\":1,\"xlAutoWidth\":1,\"minSize\":0,\"minWidth\":0,\"isShow\":true,\"visible\":true,\"xsIsShow\":true,\"smIsShow\":true,\"mdIsShow\":true,\"lgIsShow\":true,\"xlIsShow\":true,\"offsetValid\":true,\"sameWidth\":true,\"horinzontal\":\"left\",\"vertical\":\"center\",\"lock\":false,\"lockWidthHeight\":false,\"rateOfWidthHeight\":1,\"offset\":0,\"autoOffset\":0,\"offsetRight\":0,\"autoOffsetRight\":0,\"offsetStrategy\":\"fixedsize\",\"heightStrategy\":\"fixedsize\",\"autoHeight\":39.49,\"dragResizeFlag\":false,\"object\":[{\"UIName\":\"ElementImage1\",\"icon\":\"image\",\"KSCGUID\":\"kb8f2ee1eb6d1adfdc101cef025e1d41\",\"elementuiType\":\"ElementImage\",\"objectType\":2,\"prototypeName\":\"ElementImage\",\"fit\":\"fill\",\"src\":\"74\",\"lock\":false,\"visible\":true,\"runVisible\":true,\"operable\":true,\"referrerPolicy\":\"\",\"lazy\":false,\"previewSrcLists\":[],\"id\":\"k3d9cb482cf479fc0a0e436dea47fc86\",\"parentGUID\":\"k1052317089da0bf841f4a7af75aa088\",\"locationY\":\"8\",\"locationX\":\"21\",\"isConfigAuth\":false,\"authName\":\"\",\"ui2DataList\":[{\"enable\":false,\"key\":\"image.trigger.input\",\"method\":\"linkSetDefault\",\"source\":[]}],\"dataConfig\":{\"enable\":false,\"method\":\"linkSetDataSetData\",\"key\":\"image.data.config\",\"source\":[{\"module\":\"DataSet\",\"guid\":\"\",\"name\":\"\",\"list\":[{\"key\":\"image.data.value\",\"groupType\":\"\",\"variable\":\"\"}]}]},\"linkList\":[{\"linkId\":200001,\"enable\":false,\"KSCGUID\":\"k76da0fc30f8b5e5ee86072bd68f7546\",\"script\":\"\",\"KSCLINKGUID\":\"\",\"linkName\":\"Load\"},{\"linkId\":200002,\"enable\":false,\"KSCGUID\":\"k1ce59629f062c200f730969a123ec2f\",\"script\":\"\",\"KSCLINKGUID\":\"\",\"linkName\":\"Error\"}],\"uiInputLinkList\":[{\"enable\":true,\"key\":\"image.trigger.defaultConfig\",\"method\":\"setImageDefaultData\",\"source\":[{\"id\":\"a4bc9a0c-e835-4506-92d9-9053da87049d\",\"name\":\"defaultConfig\",\"dataSourceType\":1,\"guid\":\"\",\"belongedPage\":\"\",\"options\":{\"defaultValue\":\"\",\"dataSetMember\":\"\"}}]}]}],\"uiInputLinkList\":[],\"uiOutputLinkList\":[],\"isNewCol\":false,\"offsetAnimation\":{},\"conditionConfig\":{}},{\"UIName\":\"RCol62\",\"KSCGUID\":\"k765d8af52c1d01def8b62c36d72b642\",\"parentGUID\":\"ka18c725fc00832c8b6c6963fb460db6\",\"range\":10,\"prototypeName\":\"RCol\",\"index\":2,\"objectType\":6,\"backgroundColor\":\"\",\"colHeight\":42,\"widthStrategy\":\"fixedsize\",\"xsWidth\":\"260.00\",\"smWidth\":\"260.00\",\"mdWidth\":\"260.00\",\"lgWidth\":\"260.00\",\"xlWidth\":\"260.00\",\"xsAutoWidth\":6,\"smAutoWidth\":6,\"mdAutoWidth\":6,\"lgAutoWidth\":6,\"xlAutoWidth\":13,\"minSize\":0,\"minWidth\":0,\"isShow\":true,\"visible\":true,\"xsIsShow\":true,\"smIsShow\":true,\"mdIsShow\":true,\"lgIsShow\":true,\"xlIsShow\":true,\"offsetValid\":true,\"sameWidth\":true,\"horinzontal\":\"left\",\"vertical\":\"top\",\"lock\":false,\"lockWidthHeight\":false,\"rateOfWidthHeight\":1,\"offset\":\"3\",\"autoOffset\":\"0.16\",\"offsetRight\":0,\"autoOffsetRight\":0,\"offsetStrategy\":\"fixedsize\",\"heightStrategy\":\"percentage\",\"autoHeight\":\"100\",\"dragResizeFlag\":false,\"object\":[{\"elementuiType\":\"ElementText\",\"groupName\":\"其他\",\"objectType\":2,\"id\":\"UI_178119\",\"KSCGUID\":\"k4859109587a99756ce5286855a2b03e\",\"leftTopPt\":{\"x\":0,\"y\":0},\"prototypeName\":\"ElementText\",\"icon\":\"text\",\"UIName\":\"ElementText1\",\"accessable\":true,\"UIDesc\":\"\",\"locationX\":\"47\",\"locationY\":\"2\",\"value\":\"KingFusion4.5_组态系统\",\"color\":\"#333333\",\"fontFamily\":\"黑体\",\"fontSize\":18,\"backgroundColor\":\"rgba(255, 255, 255, 0)\",\"fontWeight\":true,\"fontStyle\":false,\"textDecoration\":false,\"detailConfig\":\"\",\"styleConfig\":\"#domId p {\\n  font-family: Source Han Sans;\\n  font-size: 18px;\\n  font-weight: bold;\\n  line-height: normal;\\n  letter-spacing: normal;\\n  color: #333333;\\n}\",\"borderWidth\":\"0px\",\"borderColor\":\"#000000\",\"horizontal\":\"left\",\"vertical\":\"center\",\"edit\":false,\"lineFeed\":false,\"lock\":false,\"visible\":true,\"runVisible\":true,\"isRequired\":false,\"tooltipDisable\":true,\"uiInputLinkList\":[{\"enable\":true,\"key\":\"text.trigger.defaultConfig\",\"method\":\"setTextDefaultData\",\"source\":[{\"id\":\"6432f547-d570-45eb-bab6-50f17f7d6013\",\"name\":\"defaultConfig\",\"dataSourceType\":0,\"guid\":\"\",\"belongedPage\":\"\",\"options\":{\"defaultValue\":\"\",\"dataSetMember\":\"\"}}]}],\"uiOutputLinkList\":[{\"enable\":true,\"key\":\"text.trigger.paramLinkOutput\",\"method\":\"setTextOutputData\",\"source\":[{\"id\":\"486b99ca-8dc8-46ff-9b4b-e0fbfc7a6b6a\",\"name\":\"paramLink\",\"guid\":\"\",\"belongedPage\":\"\",\"options\":{\"paramValue\":\"\"}}]}],\"langKeys\":[\"KingFusion4.5_组态系统\"],\"parentGUID\":\"k765d8af52c1d01def8b62c36d72b642\",\"linkList\":[]}],\"uiInputLinkList\":[],\"uiOutputLinkList\":[],\"isNewCol\":false,\"offsetAnimation\":{},\"conditionConfig\":{}},{\"UIName\":\"RCol16\",\"KSCGUID\":\"ke37ea3a6684db35d64aaf76ac60dcc1\",\"parentGUID\":\"ka18c725fc00832c8b6c6963fb460db6\",\"range\":10,\"prototypeName\":\"RCol\",\"index\":2,\"objectType\":6,\"backgroundColor\":\"\",\"colHeight\":\"42\",\"widthStrategy\":\"autosize\",\"xsWidth\":100,\"smWidth\":100,\"mdWidth\":100,\"lgWidth\":100,\"xlWidth\":1615,\"xsAutoWidth\":33.33,\"smAutoWidth\":33.33,\"mdAutoWidth\":33.33,\"lgAutoWidth\":33.33,\"xlAutoWidth\":33.33,\"minSize\":0,\"minWidth\":0,\"isShow\":true,\"visible\":true,\"xsIsShow\":true,\"smIsShow\":true,\"mdIsShow\":true,\"lgIsShow\":true,\"xlIsShow\":true,"
+    },
+    {
+      "path": "el22.0.0.0.0.0.0",
+      "text": "KingFusion4.5_组态系统 <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [
+        "showPageList",
+        "callTimerMap",
+        "dateTimeTimer",
+        "funcMap",
+        "setPageArray",
+        "renderComs",
+        "dataCenterMng",
+        "evalCreatedFlag",
+        "d_uiOutputLinkList"
+      ],
+      "dataSample": "{\"showPageList\":[],\"callTimerMap\":{},\"dateTimeTimer\":9,\"funcMap\":{},\"setPageArray\":[],\"renderComs\":[],\"dataCenterMng\":null,\"evalCreatedFlag\":true,\"d_uiOutputLinkList\":[]}"
+    },
+    {
+      "path": "el22.0.0.0.0.0.0.0",
+      "text": "KingFusion4.5_组态系统 <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [
+        "childWidth",
+        "childHeight",
+        "changeRowSize"
+      ],
+      "dataSample": "{\"childWidth\":1920,\"childHeight\":899,\"changeRowSize\":1}"
+    },
+    {
+      "path": "el22.0.0.0.0.0.0.0.0",
+      "text": "KingFusion4.5_组态系统 <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [
+        "containerElement",
+        "UIType",
+        "rowsNumber",
+        "contanierSelectFlag",
+        "isShowContextMenu",
+        "selectedItems",
+        "copiedItems",
+        "backgroundImageData",
+        "theContextMenuItem",
+        "dragDisabled",
+        "containerSubscriptTop",
+        "responseWidth",
+        "resizeObserver",
+        "contextmenuInstance",
+        "scrollFlag",
+        "borderWSize",
+        "borderHSize",
+        "isScroll",
+        "containerList",
+        "showContainerList",
+        "prevWidth",
+        "prevHeight",
+        "mountRow",
+        "containerStyle"
+      ],
+      "dataSample": "{\"containerElement\":\"k7ccf90252cc0882bd9c3fa43ebf03f5\",\"UIType\":\"container\",\"rowsNumber\":0,\"contanierSelectFlag\":false,\"isShowContextMenu\":false,\"selectedItems\":[],\"copiedItems\":[],\"backgroundImageData\":null,\"theContextMenuItem\":null,\"dragDisabled\":true,\"containerSubscriptTop\":\"887px\",\"responseWidth\":0,\"resizeObserver\":null,\"contextmenuInstance\":null,\"scrollFlag\":false,\"borderWSize\":0,\"borderHSize\":0,\"isScroll\":false,\"containerList\":[],\"showContainerList\":false,\"prevWidth\":1920,\"prevHeight\":899,\"mountRow\":0,\"containerStyle\":\"#domId {\\n                        height: 899px;\\n                        width: 1920px;\\n                        border: 0px solid rgba(0,0,0,0.1);\\n                        border-radius:0px;\\n                        background: ;\\n                        background-repeat: repeat;\\n                        background-size: auto;\\n                        box-shadow:0px 0px 0px 0px rgba(0,0,0,1)\\n                    }\"}"
+    },
+    {
+      "path": "el22.0.0.0.0.0.0.0.0.0",
+      "text": "KingFusion4.5_组态系统 <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [],
+      "dataSample": "{}"
+    },
+    {
+      "path": "el22.0.0.0.0.0.0.0.0.0.1",
+      "text": " <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [
+        "objectPosition",
+        "UIType",
+        "colsNumber",
+        "rowSelectFlag",
+        "backgroundImageRow",
+        "dragDisabled",
+        "rowTip",
+        "topAddLine",
+        "bottomAddLine",
+        "composingMod",
+        "lastRowGapLeft",
+        "lastRowGapRight",
+        "lastColsGap",
+        "leftScale",
+        "rightScale",
+        "oldRowMargin",
+        "backgroundImgFlag"
+      ],
+      "dataSample": "{\"objectPosition\":\"row_2\",\"UIType\":\"row\",\"colsNumber\":1,\"rowSelectFlag\":false,\"backgroundImageRow\":{\"package\":\"\",\"format\":\"\",\"URL\":\"\"},\"dragDisabled\":false,\"rowTip\":false,\"topAddLine\":false,\"bottomAddLine\":false,\"composingMod\":{\"left\":[{\"UIName\":\"浏览器分栏\",\"KSCGUID\":\"a7ec6ae3-92d1-456c-87ca-88481c5488cb\",\"parentGUID\":\"kd20fb7ea007dda29b11b2773bde3201\",\"range\":10,\"prototypeName\":\"RCol\",\"index\":0,\"objectType\":6,\"backgroundColor\":\"\",\"colHeight\":855,\"widthStrategy\":\"autosize\",\"xsWidth\":100,\"smWidth\":50,\"mdWidth\":20,\"lgWidth\":25,\"xlWidth\":1918,\"xsAutoWidth\":30,\"smAutoWidth\":30,\"mdAutoWidth\":30,\"lgAutoWidth\":30,\"xlAutoWidth\":30,\"minSize\":0,\"minWidth\":0,\"isShow\":true,\"visible\":true,\"xsIsShow\":true,\"smIsShow\":true,\"mdIsShow\":true,\"lgIsShow\":true,\"xlIsShow\":true,\"offsetValid\":true,\"sameWidth\":true,\"horinzontal\":\"left\",\"vertical\":\"top\",\"lock\":false,\"lockWidthHeight\":false,\"rateOfWidthHeight\":1,\"offset\":0,\"autoOffset\":0,\"offsetRight\":0,\"autoOffsetRight\":0,\"offsetStrategy\":\"fixedsize\",\"heightStrategy\":\"percentage\",\"autoHeight\":100,\"dragResizeFlag\":false,\"object\":[{\"renderType\":\"setPage\",\"pageName\":\"开发系统_组态_框架页面\",\"id\":\"k43f47c8a99e9b66ba0c7d4062f1521d\",\"KSCGUID\":\"k4c5de71730aa1bc3938aacac016cd09\",\"appType\":22,\"objectType\":4,\"pageInfo\":{\"pageName\":\"开发系统_组态_框架页面\",\"KSCGUID\":\"8f6bbb5b-7ceb-4ed5-a0c2-0d689ad2db21\",\"parentId\":\"\",\"isRecycle\":\"false\",\"FUID\":\"7205759403792796119\",\"testId\":\"\",\"AbsPictureId\":\"AbsPictureId\",\"authFlag\":\"close\",\"navigateFlag\":\"false\",\"FUType\":\"21\",\"fuCopyId\":\"7205759403792796119\",\"maxVersion\":\"8\",\"$id\":\"7205759403792796119\",\"$guid\":\"eaef5fc1-cfd8-4de7-b5a4-83590d960f7f\",\"$name\":\"CLIENT_PICTURE_INFO\",\"$repositoryGUID\":\"9a41e480-4678-4edd-9a50-d3bb01b83e51\",\"$type\":1025,\"$version\":null,\"$modelguid\":\"b41edd6c-d830-4ef1-810b-2dd3ff61b02c\",\"$modelversion\":8,\"generatorType\":null},\"startParam\":{\"child$StoreName\":\"$组态系统客户端_新__$PicManager__开发系统_组态_框架页面\",\"fuObj\":{\"$id\":\"7205759403792796119\",\"$guid\":\"eaef5fc1-cfd8-4de7-b5a4-83590d960f7f\",\"$name\":\"开发系统_组态_框架页面\",\"$type\":1025,\"$modelguid\":\"b41edd6c-d830-4ef1-810b-2dd3ff61b02c\",\"$modelversion\":8,\"$repositoryguid\":\"9a41e480-4678-4edd-9a50-d3bb01b83e51\",\"$memberlist\":[{\"defaultenable\":false,\"description\":\"成果类型\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"FUType\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"21\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"回收标志位\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"isRecycled\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"模型私有仓库\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"modelDBRepository\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"引用类型\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"quotedType\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"在父孪生容器中的位置\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"toFather\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"权限是否开启标志位\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"authFlag\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"false\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"时空信息\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"spaceTime\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"maxVersion\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"8\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"多人编辑信息储存\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"multiEditor\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"扩展域1\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"extendField1\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"扩展域2\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"extendField2\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"扩展域3\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"extendField3\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"扩展域4\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"extendField4\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"扩展域5\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"extendField5\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"扩展域6\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"extendField6\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"扩展域7\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"extendField7\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"扩展域8\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"extendField8\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"扩展域9\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"extendField9\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"扩展域10\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"extendField10\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"\",\"valueset\":{\"referencecolname\":\"\",\"referenceguid\":\"\",\"repoguid\":\"\"},\"valuetype\":13},{\"defaultenable\":false,\"description\":\"\",\"displaydigits\":20,\"maxvalue\":null,\"minvalue\":null,\"name\":\"PUBVAR__cloudID\",\"notnull\":false,\"unique\":false,\"unit\":0,\"unittype\":0,\"updateenable\":true,\"value\":\"{\\\"KSCGUID\\\":\\\"k3bf0a5d295f247295dcc1152f309f43\\\",\\\"varDes\\\":\\\"\\\",\\\"varName\\\":\\\"cloudID\\\",\\\"varType\\\":1,\\\"varDefaultValue\\\":0,\\\"AbsVariableId\\\":\\\"AbsVariableId\\\",\\\"isPublic\\\":true,\\\"RefObject\\\":{\\\"type\\\":\\\"\\\",\\\"id\\\":\\\"0\\\",\\\"guid\\\":\\\"\\\",\\\"n"
+    },
+    {
+      "path": "el22.0.0.0.0.0.0.0.0.0.1.0",
+      "text": " <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [],
+      "dataSample": "{}"
+    },
+    {
+      "path": "el22.0.0.0.0.0.0.0.0.0.1.0.0",
+      "text": " <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [
+        "setPageQueue",
+        "isSetPageProcessing",
+        "currentPageName",
+        "currentObject",
+        "paramConfigFlag",
+        "objectPosition",
+        "UIType",
+        "colSelectFlag",
+        "colWidth",
+        "componentName",
+        "dragDisabled",
+        "componentClass",
+        "lockhieght",
+        "offsetEditStatus",
+        "isNewObject",
+        "colTip",
+        "leftAddLine",
+        "rightAddLine",
+        "pageInstance",
+        "colLocationX",
+        "colLocationY",
+        "lastOffset",
+        "lastComponent",
+        "pasteBgFlag",
+        "childPageList",
+        "scale",
+        "initialOffset"
+      ],
+      "dataSample": "{\"setPageQueue\":[],\"isSetPageProcessing\":false,\"currentPageName\":\"开发系统_组态_框架页面\",\"currentObject\":{},\"paramConfigFlag\":false,\"objectPosition\":\"col_2_1\",\"UIType\":\"col\",\"colSelectFlag\":false,\"colWidth\":0,\"componentName\":\"\",\"dragDisabled\":false,\"componentClass\":\"component_object_unselect\",\"lockhieght\":{},\"offsetEditStatus\":\"label\",\"isNewObject\":false,\"colTip\":false,\"leftAddLine\":false,\"rightAddLine\":false,\"pageInstance\":null,\"colLocationX\":\"0\",\"colLocationY\":\"0\",\"lastOffset\":0,\"lastComponent\":null,\"pasteBgFlag\":false,\"childPageList\":[],\"scale\":1,\"initialOffset\":false}"
+    },
+    {
+      "path": "el22.0.0.0.0.0.0.0.0.0.1.0.0.0",
+      "text": " <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [
+        "selectSrc",
+        "linkEditorFlag",
+        "configBorderStyle",
+        "spriteConfigStatus",
+        "d_bLoadFlag"
+      ],
+      "dataSample": "{\"selectSrc\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAcCAYAAACZOmSXAAAAAXNSR0IArs4c6QAAA6tJREFUSEutV89PE0EU3pnZ7naBbbFYjIGoadSDHDmZaCQaFFHAg/Xm3T+D/8UTgUSIQcEgwbvclIMxHOSHSAUpS7vs7syseVOmTEt3S1p62dnu7Pu+972Zb94iLf6HmjyPexw2e7c+eN39ZBvgk/XgZ8iowU/GFcC89l1cC1qhOscZdCLJ2Kt2NXhWy4rxtDZw8l8Nkeo8GawKrIICmOvmkO8fief91I0E39QtEdQwusTVstZDIAREGpAQcyBYDTBkqoJmjw8wTPT5ZRQwL7YMCWKGBv4rAheS3RyInCUhVGgMvj64jiHbr1ffes0WTPxqC3ccXnpzb+P1Qjq9y0GFFW2Ia1q1BOFJ5pMI5Iasd+9kcW+5gOdzC2474PBuqIU7wz8e5kAFIJBbzfFKCSrZ14BD1sViLwapl24tl9sFh/fvrk10dSYcXkz1s961AleybwyeLuvky+2p0kWAP/k2nDo2MqzYQdlp9tM8MnMAT/r75DhlYYseY5+ZmIUMcW4hK2QIxkCMdzDEQ1OMk5yL62Jubksl/WBjvNt2KPNMj0H2A2sak9JHym56JnGZhb2Ui7s4RZKAAFVISAISfOHGbA34/Y1nlzqPAsaTnNZLH7ngHN/GduDgIAwQKMA4RUACwBnvRCykQgGTGUIVaukYCHy89q4GfHRjJBMc2YwmdQrS9/90maz7mX0utxqseCAAezvDfQQkKE8JcNodICBjURP73MMqgeW+mW1V9pFfL3t4GVM3wVjZJjQW/DwmI8moa0KnhIACi7nZHRX86ebLHt9gLChhmrF85vQ4bHV1jMF2a8lePeohcDwoi2PrBBalS3UCCny4PvOnBnw73xRcWq2maec7WKQfwMJUCSz1zRVU8NHfr6qyR2Uu55/rSAU3lIYE21IqYPiEzF+Z2lPBxwvPxYKDmjcDr/eViIOkYsdAwN6zyb5rECsgBLbl58zsPzXIo/0XYqtJo6lfcK0YGYLyDGkrePOmRcCOpfyf0tMHasDHxXzVZMDjLxQcDqL04SYpBTa2WQnP9b0/VMEntsZSDunkjfy91TZJZN6o9uCK4ANAQD9IhBZxuZOwea23V062VsHF7shreawew6orwoQESoQAbBsO3+3IcjjVKp3N6cHSSs1PtuZp9tCAgCtKD4AJ0NWYuhkCMHQ0jc7ztsHrXVENGNdKtSV7BaSSPYwkCRVcNpHwn9LFwG1bNY90xXop47rXVmVv4IpRHxnxffsFEogNVfPV8h8IoeJHqxejswAAAABJRU5ErkJggg==\",\"linkEditorFlag\":true,\"configBorderStyle\":{},\"spriteConfigStatus\":false,\"d_bLoadFlag\":true}"
+    },
+    {
+      "path": "el22.0.0.0.0.0.0.0.0.0.1.0.0.0.0",
+      "text": " <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [
+        "finishMounted"
+      ],
+      "dataSample": "{\"finishMounted\":false}"
+    },
+    {
+      "path": "el22.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0",
+      "text": " <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [
+        "pageData",
+        "dataObjMng",
+        "runParamData",
+        "previewImage",
+        "previewVideo",
+        "previewPDF",
+        "$dynamicDialogIns",
+        "$ClientProject",
+        "dataLinkPageName",
+        "$Workflow",
+        "allPageList",
+        "showAlert",
+        "alertOption",
+        "userFuncList"
+      ],
+      "dataSample": "{\"pageData\":{\"objectType\":0,\"pageProperty\":{\"name\":\"开发系统_组态_框架页面\",\"comment\":\"\",\"GUID\":\"k3be785a0-e8af-4c65-98f5-cf22b66c08c3\",\"backColor\":\"\",\"picName\":\"\",\"picId\":\"\",\"pageSize\":{\"width\":600,\"height\":345},\"windowStyle\":\"ratating\",\"showPage\":{\"closable\":true,\"maximizable\":true,\"styleConfig\":\"\"},\"sizeable\":true,\"fontsizeable\":false,\"appOrientation\":true,\"lockWidthHeight\":false,\"minSize\":false,\"minSize_width\":\"600px\",\"minSize_height\":\"100px\",\"authFlag\":\"close\"},\"objects\":[{\"UIName\":\"图层1\",\"visible\":true,\"runVisible\":true,\"lock\":false,\"prototypeName\":\"layer\",\"KSCGUID\":\"0c79c07f_d539_4808_84c5_e4f36a1ea285\",\"index\":0,\"object\":{\"UIName\":\"RContainer1\",\"ResponseLayoutId\":\"response_layout_root\",\"icon\":\"responsecontainer\",\"KSCGUID\":\"kfc067a71a2cc28d3b3e4085cdb92331\",\"parentGUID\":\"0c79c07f_d539_4808_84c5_e4f36a1ea285\",\"isRoot\":true,\"objectType\":1,\"prototypeName\":\"RContainer\",\"layoutType\":1,\"displayType\":\"lg\",\"UIDesc\":\"\",\"leftTopPt_y\":0,\"leftTopPt_x\":0,\"width\":1918,\"height\":855,\"isShowBorder\":false,\"rowsNumber\":1,\"backgroundColor\":\"rgba(255, 255, 255, 1)\",\"picSrc\":\"\",\"lock\":false,\"visible\":true,\"runVisible\":true,\"styleConfig\":\"\",\"rowsManager\":[{\"UIName\":\"RRow3\",\"KSCGUID\":\"k8f90fb78e48e0d185568cc00bbe7425\",\"parentGUID\":\"kfc067a71a2cc28d3b3e4085cdb92331\",\"prototypeName\":\"RRow\",\"objectType\":5,\"rowGap\":{\"top\":0,\"right\":0,\"bottom\":0,\"left\":0,\"autotop\":0,\"autoright\":0,\"autoleft\":0,\"autobottom\":0},\"index\":1,\"colsGap\":0,\"colsAutoGap\":0,\"lock\":false,\"wrapRowMargin\":0,\"wrapRowAutoMargin\":0,\"backgroundColor\":\"\",\"contentWidth\":1918,\"contentHeight\":855,\"height\":855,\"isShow\":true,\"visible\":true,\"heightStrategy\":\"autosize\",\"autoHeight\":96.76,\"minSize\":0,\"colStrategy\":\"fixedsize\",\"rowGapStrategy\":\"fixedsize\",\"origHeight\":855,\"origAutoHeight\":96.76,\"picSrc\":\"\",\"colsNumber\":2,\"dragResizeFlag\":false,\"styleConfig\":\"\",\"colsManager\":[{\"UIName\":\"RCol80\",\"KSCGUID\":\"ka0c42cc6bc9487d2c1e8b37c720aa43\",\"parentGUID\":\"k8f90fb78e48e0d185568cc00bbe7425\",\"range\":10,\"prototypeName\":\"RCol\",\"index\":0,\"objectType\":6,\"backgroundColor\":\"\",\"colHeight\":855,\"widthStrategy\":\"fixedsize\",\"xsWidth\":\"240\",\"smWidth\":\"240\",\"mdWidth\":\"240\",\"lgWidth\":\"240\",\"xlWidth\":\"240\",\"xsAutoWidth\":\"12.5\",\"smAutoWidth\":\"12.5\",\"mdAutoWidth\":\"12.5\",\"lgAutoWidth\":12,\"xlAutoWidth\":12,\"minSize\":0,\"minWidth\":0,\"isShow\":true,\"visible\":true,\"xsIsShow\":true,\"smIsShow\":true,\"mdIsShow\":true,\"lgIsShow\":true,\"xlIsShow\":true,\"offsetValid\":true,\"sameWidth\":true,\"horinzontal\":\"left\",\"vertical\":\"top\",\"lock\":false,\"lockWidthHeight\":false,\"rateOfWidthHeight\":1,\"offset\":0,\"autoOffset\":0,\"offsetRight\":0,\"autoOffsetRight\":0,\"offsetStrategy\":\"fixedsize\",\"heightStrategy\":\"percentage\",\"autoHeight\":\"100\",\"dragResizeFlag\":false,\"object\":[{\"UIName\":\"RContainer2\",\"ResponseLayoutId\":\"response_layout_root\",\"icon\":\"responsecontainer\",\"KSCGUID\":\"k58f4a36d719ce4fc8134285c967d7d6\",\"parentGUID\":\"ka0c42cc6bc9487d2c1e8b37c720aa43\",\"isRoot\":false,\"objectType\":1,\"prototypeName\":\"RContainer\",\"layoutType\":1,\"displayType\":\"lg\",\"UIDesc\":\"\",\"leftTopPt_y\":0,\"leftTopPt_x\":0,\"width\":240,\"height\":855,\"isShowBorder\":false,\"rowsNumber\":3,\"backgroundColor\":\"\",\"picSrc\":\"\",\"lock\":false,\"visible\":true,\"runVisible\":true,\"styleConfig\":\"\",\"rowsManager\":[{\"UIName\":\"RRow28\",\"KSCGUID\":\"k3af9c538c14297980781dfd6518fd1b\",\"parentGUID\":\"k58f4a36d719ce4fc8134285c967d7d6\",\"prototypeName\":\"RRow\",\"objectType\":5,\"rowGap\":{\"top\":0,\"right\":0,\"bottom\":0,\"left\":0,\"autotop\":0,\"autoright\":0,\"autoleft\":0,\"autobottom\":0},\"index\":0,\"colsGap\":0,\"colsAutoGap\":0,\"lock\":false,\"wrapRowMargin\":0,\"wrapRowAutoMargin\":0,\"backgroundColor\":\"\",\"contentWidth\":239,\"contentHeight\":38,\"height\":\"38\",\"isShow\":true,\"visible\":true,\"heightStrategy\":\"fixedsize\",\"autoHeight\":\"4.44\",\"minSize\":0,\"colStrategy\":\"fixedsize\",\"rowGapStrategy\":\"fixedsize\",\"origHeight\":\"38\",\"origAutoHeight\":\"7.36\",\"picSrc\":\"\",\"colsNumber\":2,\"dragResizeFlag\":false,\"styleConfig\":\"/*设置边框*/\\n#domId {\\n    border-right: 1px solid lightgray;\\n    border-bottom: 0px solid lightgray;\\n}\",\"colsManager\":[{\"UIName\":\"RCol81\",\"KSCGUID\":\"kcbfc006b1f9fa8a1d8b2758bfc31997\",\"parentGUID\":\"k3af9c538c14297980781dfd6518fd1b\",\"range\":10,\"prototypeName\":\"RCol\",\"index\":2,\"objectType\":6,\"backgroundColor\":\"\",\"colHeight\":\"38\",\"widthStrategy\":\"fixedsize\",\"xsWidth\":\"136\",\"smWidth\":\"136\",\"mdWidth\":\"136\",\"lgWidth\":\"136\",\"xlWidth\":\"136\",\"xsAutoWidth\":\"100\",\"smAutoWidth\":\"100\",\"mdAutoWidth\":\"100\",\"lgAutoWidth\":56,\"xlAutoWidth\":57,\"minSize\":0,\"minWidth\":0,\"isShow\":true,\"visible\":true,\"xsIsShow\":true,\"smIsShow\":true,\"mdIsShow\":true,\"lgIsShow\":true,\"xlIsShow\":true,\"offsetValid\":true,\"sameWidth\":true,\"horinzontal\":\"left\",\"vertical\":\"top\",\"lock\":false,\"lockWidthHeight\":false,\"rateOfWidthHeight\":1,\"offset\":0,\"autoOffset\":0,\"offsetRight\":0,\"autoOffsetRight\":0,\"offsetStrategy\":\"fixedsize\",\"heightStrategy\":\"fixedsize\",\"autoHeight\":52.77,\"dragResizeFlag\":false,\"object\":[{\"UIName\":\"ElementButton3\",\"groupName\":\"其他\",\"icon\":\"button\",\"authName\":\"\",\"isConfigAuth\":false,\"elementuiType\":\"ElementButton\",\"objectType\":2,\"prototypeName\":\"ElementButton\",\"id\":\"UI_629063\",\"KSCGUID\":\"k26cdf7d33a54f8071a25c364eade087\",\"leftTopPt\":{\"x\":0,\"y\":0},\"content\":\"\",\"badgeColor\":\"rgba(255, 255, 255, 1)\",\"color\":\"rgba(0, 0, 0, 1)\",\"backgroundColor\":\"rgba(255, 255, 255, 1)\",\"dot\":false,\"max\":null,\"accessable\":true,\"UIDesc\":\"\",\"locationX\":\"3\",\"locationY\":\"3\",\"lock\":false,\"visible\":true,\"runVisible\":true,\"operable\":true,\"tooltipDisable\":true,\"disabled\":false,\"plain\":false,\"round\":false,\"circle\":false,\"loading\":false,\"text\":\"<  返回工程管理\",\"detailConfig\":\"\",\"styleConfig\":\"\\n/*鼠标移入背景色*/\\n#domId button:hover{\\n    color:#0076FF;}\\n\\n/*字体颜色和大小*/\\n#domId button{\\n    font-size:12px;color:grey;}\\n\\n/*边框宽度、颜色*/\\n#domId button{\\n    border:0px solid;\\n    border-color: #D8D8D8;\\n    \\n}\\n\",\"tooltip\":{\"effect\":\"dark\",\"content\":\"\",\"placement\":\"bottom\",\"disabled\":true,\"offset\":0,\"transition\":\"el-fade-in-linear\",\"visibleArrow\":true,\"openDelay\":0,\"manual\":false,\"enterable\":true,\"hideAfter\":0},\"parentGUID\":\"kcbfc006b1f9fa8a1d8b2758bfc31997\",\"isCloseCurPage\":false,\"throttleTime\":500,\"uiInputLinkList\":[{\"enable\":false,\"key\":\"button.trigger.data\",\"method\":\"setButtonLinkData\",\"source\":[{\"id\":\"5d3e8e2c-7195-4339-bb99-5015f556691d\",\"name\":\"otherConfig\",\"guid\":\"\",\"dataSourceType\":0,\"belongedPage\":\"\",\"options\":{\"content\":\"\"}}]}],\"uiOutputLinkList\":[{\"enable\":false,\"key\":\"button.trigger.dataSetOutput\",\"method\":\"setButtonOutputData\",\"source\":[{\"id\":\"4372cf3b-61c9-4457-ae69-3dd80a2cecfb\",\"name\":\"dataSetLink\",\"guid\":\"\",\"belongedPage\":\"\",\"options\":{\"dataSetID\":\"\"}}]},{\"enable\":false,\"key\":\"button.trigger.paramLinkOutput\",\"method\":\"setButtonOutputData\",\"source\":[{\"id\":\"7a15d38e-7cf7-45a3-bb38-df4270f99608\",\"name\":\"paramLink\",\"guid\":\"\",\"belongedPage\":\"\",\"options\":{\"paramSelectValue\":\"\",\"paramDefaultValue\":\"\"}}]},{\"enable\":true,\"key\":\"button.trigger.pageJump\",\"method\":\"pageJump\",\"source\":[]}],\"langKeys\":[\"<  返回工程管理\"],\"linkList\":[{\"linkId\":200001,\"enable\":true,\"KSCGUID\":\"kb4df58259d4d10f7d6966da350b3542\",\"script\":\"/*\\n * 创建人：贾松达\\n * 函数名：返回按钮onClick \\n * 描述：页面切换\\n * 步骤：\\n *    1.设置工程浏览器_框架页面中的switchPage为1切换页面\\n * 参数：\\n * 返回值：\\n */\\n\\n\\n\\n// 设置工程浏览器_框架页面中的switchPage为1切换页面\\nSetVariable('工程浏览器_框架页面','switchPage',1);\",\"KSCLINKGUID\":\"k26cdf7d33a54f8071a25c364eade087\",\"linkName\":\"onClick\"}],\"styleOption\":{\"bc\":{\"color\":\"rgba(255,255,255,1)\"},\"bci\":{\"conditionList\":[]}}}],\"uiInputLinkList\":[],\"uiOutputLinkList\":[],\"isNewCol\":false,\"offsetAnimation\":{},\"conditionConfig\":{}},{\"UIName\":\"RCol82\",\"KSCGUID\":\"ka7738e02918539e1ec239b70df6b470\",\"parentGUID\":\"k3af9c538c14297980781dfd6518fd1b\",\"range\":10,\"prototypeName\":\"RCol\",\"index\":1,\"objectType\":6,\"backgroundColor\":\"\",\"colHeight\":\"38\",\"widthStrategy\":\"autosize\",\"xsWidth\":100,\"smWidth\":100,\"mdWidth\":100,\"lgWidth\":103,\"xlWidth\":99,\"xsAutoWidth\":\"100\",\"smAutoWidth\":\"100\",\"mdAutoWidth\":\"100\",\"lgAutoWidth\":\"100\",\"xlAutoWidth\":\"100\",\"minSize\":0,\"minWidth\":0,\"isShow\":true,\"visible\":true,\"xsIsShow\":true,\"smIsShow\":true,\"mdIsShow\":true,\"lgIsShow\":true,\"xlIsShow\":true,\"offsetValid\":true,\"sameWidth\":true,\"horinzontal\":\"left\",\"vertica"
+    },
+    {
+      "path": "el22.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0",
+      "text": " <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [
+        "showPageList",
+        "callTimerMap",
+        "dateTimeTimer",
+        "funcMap",
+        "setPageArray",
+        "renderComs",
+        "dataCenterMng",
+        "evalCreatedFlag",
+        "d_uiOutputLinkList"
+      ],
+      "dataSample": "{\"showPageList\":[],\"callTimerMap\":{},\"dateTimeTimer\":19,\"funcMap\":{},\"setPageArray\":[],\"renderComs\":[],\"dataCenterMng\":null,\"evalCreatedFlag\":true,\"d_uiOutputLinkList\":[]}"
+    },
+    {
+      "path": "el22.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0",
+      "text": " <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [
+        "childWidth",
+        "childHeight",
+        "changeRowSize"
+      ],
+      "dataSample": "{\"childWidth\":1918,\"childHeight\":855,\"changeRowSize\":1}"
+    },
+    {
+      "path": "el22.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0",
+      "text": " <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [
+        "containerElement",
+        "UIType",
+        "rowsNumber",
+        "contanierSelectFlag",
+        "isShowContextMenu",
+        "selectedItems",
+        "copiedItems",
+        "backgroundImageData",
+        "theContextMenuItem",
+        "dragDisabled",
+        "containerSubscriptTop",
+        "responseWidth",
+        "resizeObserver",
+        "contextmenuInstance",
+        "scrollFlag",
+        "borderWSize",
+        "borderHSize",
+        "isScroll",
+        "containerList",
+        "showContainerList",
+        "prevWidth",
+        "prevHeight",
+        "mountRow",
+        "containerStyle"
+      ],
+      "dataSample": "{\"containerElement\":\"kf2cc8fc4fbc81b9d8eeecb0ca9afcb2\",\"UIType\":\"container\",\"rowsNumber\":0,\"contanierSelectFlag\":false,\"isShowContextMenu\":false,\"selectedItems\":[],\"copiedItems\":[],\"backgroundImageData\":null,\"theContextMenuItem\":null,\"dragDisabled\":true,\"containerSubscriptTop\":\"843px\",\"responseWidth\":0,\"resizeObserver\":null,\"contextmenuInstance\":null,\"scrollFlag\":false,\"borderWSize\":0,\"borderHSize\":0,\"isScroll\":false,\"containerList\":[],\"showContainerList\":false,\"prevWidth\":1918,\"prevHeight\":855,\"mountRow\":0,\"containerStyle\":\"#domId {\\n                        height: 855px;\\n                        width: 1918px;\\n                        border: 0px solid rgba(0,0,0,0.1);\\n                        border-radius:0px;\\n                        background: rgba(255, 255, 255, 1);\\n                        background-image: ;\\n                        background-repeat: repeat;\\n                        background-size: auto;\\n                        box-shadow:0px 0px 0px 0px rgba(0,0,0,1)\\n                        \\n                    }\"}"
+    },
+    {
+      "path": "el22.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0.0",
+      "text": " <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [],
+      "dataSample": "{}"
+    },
+    {
+      "path": "el22.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0.0.0",
+      "text": " <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [
+        "objectPosition",
+        "UIType",
+        "colsNumber",
+        "rowSelectFlag",
+        "backgroundImageRow",
+        "dragDisabled",
+        "rowTip",
+        "topAddLine",
+        "bottomAddLine",
+        "composingMod",
+        "lastRowGapLeft",
+        "lastRowGapRight",
+        "lastColsGap",
+        "leftScale",
+        "rightScale",
+        "oldRowMargin",
+        "backgroundImgFlag"
+      ],
+      "dataSample": "{\"objectPosition\":\"row_1\",\"UIType\":\"row\",\"colsNumber\":2,\"rowSelectFlag\":false,\"backgroundImageRow\":{\"package\":\"\",\"format\":\"\",\"URL\":\"\"},\"dragDisabled\":false,\"rowTip\":false,\"topAddLine\":false,\"bottomAddLine\":false,\"composingMod\":{\"left\":[{\"UIName\":\"RCol80\",\"KSCGUID\":\"ka0c42cc6bc9487d2c1e8b37c720aa43\",\"parentGUID\":\"k8f90fb78e48e0d185568cc00bbe7425\",\"range\":10,\"prototypeName\":\"RCol\",\"index\":0,\"objectType\":6,\"backgroundColor\":\"\",\"colHeight\":855,\"widthStrategy\":\"fixedsize\",\"xsWidth\":\"240\",\"smWidth\":\"240\",\"mdWidth\":\"240\",\"lgWidth\":\"240\",\"xlWidth\":\"240\",\"xsAutoWidth\":\"12.5\",\"smAutoWidth\":\"12.5\",\"mdAutoWidth\":\"12.5\",\"lgAutoWidth\":12,\"xlAutoWidth\":12,\"minSize\":0,\"minWidth\":0,\"isShow\":true,\"visible\":true,\"xsIsShow\":true,\"smIsShow\":true,\"mdIsShow\":true,\"lgIsShow\":true,\"xlIsShow\":true,\"offsetValid\":true,\"sameWidth\":true,\"horinzontal\":\"left\",\"vertical\":\"top\",\"lock\":false,\"lockWidthHeight\":false,\"rateOfWidthHeight\":1,\"offset\":0,\"autoOffset\":0,\"offsetRight\":0,\"autoOffsetRight\":0,\"offsetStrategy\":\"fixedsize\",\"heightStrategy\":\"percentage\",\"autoHeight\":\"100\",\"dragResizeFlag\":false,\"object\":[{\"UIName\":\"RContainer2\",\"ResponseLayoutId\":\"response_layout_root\",\"icon\":\"responsecontainer\",\"KSCGUID\":\"k58f4a36d719ce4fc8134285c967d7d6\",\"parentGUID\":\"ka0c42cc6bc9487d2c1e8b37c720aa43\",\"isRoot\":false,\"objectType\":1,\"prototypeName\":\"RContainer\",\"layoutType\":1,\"displayType\":\"lg\",\"UIDesc\":\"\",\"leftTopPt_y\":0,\"leftTopPt_x\":0,\"width\":240,\"height\":855,\"isShowBorder\":false,\"rowsNumber\":3,\"backgroundColor\":\"\",\"picSrc\":\"\",\"lock\":false,\"visible\":true,\"runVisible\":true,\"styleConfig\":\"\",\"rowsManager\":[{\"UIName\":\"RRow28\",\"KSCGUID\":\"k3af9c538c14297980781dfd6518fd1b\",\"parentGUID\":\"k58f4a36d719ce4fc8134285c967d7d6\",\"prototypeName\":\"RRow\",\"objectType\":5,\"rowGap\":{\"top\":0,\"right\":0,\"bottom\":0,\"left\":0,\"autotop\":0,\"autoright\":0,\"autoleft\":0,\"autobottom\":0},\"index\":0,\"colsGap\":0,\"colsAutoGap\":0,\"lock\":false,\"wrapRowMargin\":0,\"wrapRowAutoMargin\":0,\"backgroundColor\":\"\",\"contentWidth\":239,\"contentHeight\":38,\"height\":\"38\",\"isShow\":true,\"visible\":true,\"heightStrategy\":\"fixedsize\",\"autoHeight\":\"4.44\",\"minSize\":0,\"colStrategy\":\"fixedsize\",\"rowGapStrategy\":\"fixedsize\",\"origHeight\":\"38\",\"origAutoHeight\":\"7.36\",\"picSrc\":\"\",\"colsNumber\":2,\"dragResizeFlag\":false,\"styleConfig\":\"/*设置边框*/\\n#domId {\\n    border-right: 1px solid lightgray;\\n    border-bottom: 0px solid lightgray;\\n}\",\"colsManager\":[{\"UIName\":\"RCol81\",\"KSCGUID\":\"kcbfc006b1f9fa8a1d8b2758bfc31997\",\"parentGUID\":\"k3af9c538c14297980781dfd6518fd1b\",\"range\":10,\"prototypeName\":\"RCol\",\"index\":2,\"objectType\":6,\"backgroundColor\":\"\",\"colHeight\":\"38\",\"widthStrategy\":\"fixedsize\",\"xsWidth\":\"136\",\"smWidth\":\"136\",\"mdWidth\":\"136\",\"lgWidth\":\"136\",\"xlWidth\":\"136\",\"xsAutoWidth\":\"100\",\"smAutoWidth\":\"100\",\"mdAutoWidth\":\"100\",\"lgAutoWidth\":56,\"xlAutoWidth\":57,\"minSize\":0,\"minWidth\":0,\"isShow\":true,\"visible\":true,\"xsIsShow\":true,\"smIsShow\":true,\"mdIsShow\":true,\"lgIsShow\":true,\"xlIsShow\":true,\"offsetValid\":true,\"sameWidth\":true,\"horinzontal\":\"left\",\"vertical\":\"top\",\"lock\":false,\"lockWidthHeight\":false,\"rateOfWidthHeight\":1,\"offset\":0,\"autoOffset\":0,\"offsetRight\":0,\"autoOffsetRight\":0,\"offsetStrategy\":\"fixedsize\",\"heightStrategy\":\"fixedsize\",\"autoHeight\":52.77,\"dragResizeFlag\":false,\"object\":[{\"UIName\":\"ElementButton3\",\"groupName\":\"其他\",\"icon\":\"button\",\"authName\":\"\",\"isConfigAuth\":false,\"elementuiType\":\"ElementButton\",\"objectType\":2,\"prototypeName\":\"ElementButton\",\"id\":\"UI_629063\",\"KSCGUID\":\"k26cdf7d33a54f8071a25c364eade087\",\"leftTopPt\":{\"x\":0,\"y\":0},\"content\":\"\",\"badgeColor\":\"rgba(255, 255, 255, 1)\",\"color\":\"rgba(0, 0, 0, 1)\",\"backgroundColor\":\"rgba(255, 255, 255, 1)\",\"dot\":false,\"max\":null,\"accessable\":true,\"UIDesc\":\"\",\"locationX\":\"3\",\"locationY\":\"3\",\"lock\":false,\"visible\":true,\"runVisible\":true,\"operable\":true,\"tooltipDisable\":true,\"disabled\":false,\"plain\":false,\"round\":false,\"circle\":false,\"loading\":false,\"text\":\"<  返回工程管理\",\"detailConfig\":\"\",\"styleConfig\":\"\\n/*鼠标移入背景色*/\\n#domId button:hover{\\n    color:#0076FF;}\\n\\n/*字体颜色和大小*/\\n#domId button{\\n    font-size:12px;color:grey;}\\n\\n/*边框宽度、颜色*/\\n#domId button{\\n    border:0px solid;\\n    border-color: #D8D8D8;\\n    \\n}\\n\",\"tooltip\":{\"effect\":\"dark\",\"content\":\"\",\"placement\":\"bottom\",\"disabled\":true,\"offset\":0,\"transition\":\"el-fade-in-linear\",\"visibleArrow\":true,\"openDelay\":0,\"manual\":false,\"enterable\":true,\"hideAfter\":0},\"parentGUID\":\"kcbfc006b1f9fa8a1d8b2758bfc31997\",\"isCloseCurPage\":false,\"throttleTime\":500,\"uiInputLinkList\":[{\"enable\":false,\"key\":\"button.trigger.data\",\"method\":\"setButtonLinkData\",\"source\":[{\"id\":\"5d3e8e2c-7195-4339-bb99-5015f556691d\",\"name\":\"otherConfig\",\"guid\":\"\",\"dataSourceType\":0,\"belongedPage\":\"\",\"options\":{\"content\":\"\"}}]}],\"uiOutputLinkList\":[{\"enable\":false,\"key\":\"button.trigger.dataSetOutput\",\"method\":\"setButtonOutputData\",\"source\":[{\"id\":\"4372cf3b-61c9-4457-ae69-3dd80a2cecfb\",\"name\":\"dataSetLink\",\"guid\":\"\",\"belongedPage\":\"\",\"options\":{\"dataSetID\":\"\"}}]},{\"enable\":false,\"key\":\"button.trigger.paramLinkOutput\",\"method\":\"setButtonOutputData\",\"source\":[{\"id\":\"7a15d38e-7cf7-45a3-bb38-df4270f99608\",\"name\":\"paramLink\",\"guid\":\"\",\"belongedPage\":\"\",\"options\":{\"paramSelectValue\":\"\",\"paramDefaultValue\":\"\"}}]},{\"enable\":true,\"key\":\"button.trigger.pageJump\",\"method\":\"pageJump\",\"source\":[]}],\"langKeys\":[\"<  返回工程管理\"],\"linkList\":[{\"linkId\":200001,\"enable\":true,\"KSCGUID\":\"kb4df58259d4d10f7d6966da350b3542\",\"script\":\"/*\\n * 创建人：贾松达\\n * 函数名：返回按钮onClick \\n * 描述：页面切换\\n * 步骤：\\n *    1.设置工程浏览器_框架页面中的switchPage为1切换页面\\n * 参数：\\n * 返回值：\\n */\\n\\n\\n\\n// 设置工程浏览器_框架页面中的switchPage为1切换页面\\nSetVariable('工程浏览器_框架页面','switchPage',1);\",\"KSCLINKGUID\":\"k26cdf7d33a54f8071a25c364eade087\",\"linkName\":\"onClick\"}],\"styleOption\":{\"bc\":{\"color\":\"rgba(255,255,255,1)\"},\"bci\":{\"conditionList\":[]}}}],\"uiInputLinkList\":[],\"uiOutputLinkList\":[],\"isNewCol\":false,\"offsetAnimation\":{},\"conditionConfig\":{}},{\"UIName\":\"RCol82\",\"KSCGUID\":\"ka7738e02918539e1ec239b70df6b470\",\"parentGUID\":\"k3af9c538c14297980781dfd6518fd1b\",\"range\":10,\"prototypeName\":\"RCol\",\"index\":1,\"objectType\":6,\"backgroundColor\":\"\",\"colHeight\":\"38\",\"widthStrategy\":\"autosize\",\"xsWidth\":100,\"smWidth\":100,\"mdWidth\":100,\"lgWidth\":103,\"xlWidth\":99,\"xsAutoWidth\":\"100\",\"smAutoWidth\":\"100\",\"mdAutoWidth\":\"100\",\"lgAutoWidth\":\"100\",\"xlAutoWidth\":\"100\",\"minSize\":0,\"minWidth\":0,\"isShow\":true,\"visible\":true,\"xsIsShow\":true,\"smIsShow\":true,\"mdIsShow\":true,\"lgIsShow\":true,\"xlIsShow\":true,\"offsetValid\":true,\"sameWidth\":true,\"horinzontal\":\"left\",\"vertical\":\"top\",\"lock\":false,\"lockWidthHeight\":false,\"rateOfWidthHeight\":1,\"offset\":0,\"autoOffset\":0,\"offsetRight\":0,\"autoOffsetRight\":0,\"offsetStrategy\":\"fixedsize\",\"heightStrategy\":\"fixedsize\",\"autoHeight\":52.77,\"dragResizeFlag\":false,\"object\":[],\"uiInputLinkList\":[],\"uiOutputLinkList\":[],\"isNewCol\":false,\"offsetAnimation\":{},\"conditionConfig\":{}}],\"warpCols\":[],\"verBorder\":0,\"borderWidth\":0,\"borderColor\":\"rgba(0,0,0,0.1)\",\"borderRadius\":0,\"boxShadow\":{\"type\":\"outset\",\"offsetX\":0,\"offsetY\":0,\"blueRadius\":0,\"spreadRadius\":0,\"color\":{\"color\":\"rgba(0,0,0,1)\",\"type\":\"solid-color\"}},\"horBorder\":2,\"conditionConfig\":{}},{\"UIName\":\"RRow29\",\"KSCGUID\":\"k8059b98ae00b68445cfb59de823e10f\",\"parentGUID\":\"k58f4a36d719ce4fc8134285c967d7d6\",\"prototypeName\":\"RRow\",\"objectType\":5,\"rowGap\":{\"top\":0,\"right\":0,\"bottom\":0,\"left\":0,\"autotop\":0,\"autoright\":0,\"autoleft\":0,\"autobottom\":0},\"index\":0,\"colsGap\":0,\"colsAutoGap\":0,\"lock\":false,\"wrapRowMargin\":0,\"wrapRowAutoMargin\":0,\"backgroundColor\":\"\",\"contentWidth\":239,\"contentHeight\":35,\"height\":\"36\",\"isShow\":true,\"visible\":true,\"heightStrategy\":\"fixedsize\",\"autoHeight\":\"4.21\",\"minSize\":0,\"colStrategy\":\"fixedsize\",\"rowGapStrategy\":\"fixedsize\",\"origHeight\":\"36\",\"origAutoHeight\":\"3.78\",\"picSrc\":\"\",\"colsNumber\":2,\"dragResizeFlag\":false,\"styleConfig\":\"/*设置边框*/\\n#domId {\\n    border-right: 1px solid lightgray;\\n    border-bottom: 1px solid lightgray;\\n}\",\"colsManager\":[{\"UIName\":\"RCol83\",\"KSCGUID\":\"k5794fd81d061ce3a9b111497cbcfefd\",\"parentGUID\":\"k8059b98ae00b68445cfb59de823e10f\",\"range\":10,\"prototypeName\":\"RCol\",\"index\":0,\"objectType\":6,\"backgroundColor\":"
+    },
+    {
+      "path": "el22.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0",
+      "text": " <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [],
+      "dataSample": "{}"
+    },
+    {
+      "path": "el22.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.1",
+      "text": "时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [
+        "setPageQueue",
+        "isSetPageProcessing",
+        "currentPageName",
+        "currentObject",
+        "paramConfigFlag",
+        "objectPosition",
+        "UIType",
+        "colSelectFlag",
+        "colWidth",
+        "componentName",
+        "dragDisabled",
+        "componentClass",
+        "lockhieght",
+        "offsetEditStatus",
+        "isNewObject",
+        "colTip",
+        "leftAddLine",
+        "rightAddLine",
+        "pageInstance",
+        "colLocationX",
+        "colLocationY",
+        "lastOffset",
+        "lastComponent",
+        "pasteBgFlag",
+        "childPageList",
+        "scale",
+        "initialOffset"
+      ],
+      "dataSample": "{\"setPageQueue\":[],\"isSetPageProcessing\":false,\"currentPageName\":\"数字孪生实例化_框架页面\",\"currentObject\":{},\"paramConfigFlag\":false,\"objectPosition\":\"col_1_2\",\"UIType\":\"col\",\"colSelectFlag\":false,\"colWidth\":0,\"componentName\":\"\",\"dragDisabled\":false,\"componentClass\":\"component_object_unselect\",\"lockhieght\":{},\"offsetEditStatus\":\"label\",\"isNewObject\":false,\"colTip\":false,\"leftAddLine\":false,\"rightAddLine\":false,\"pageInstance\":null,\"colLocationX\":\"0\",\"colLocationY\":\"0\",\"lastOffset\":0,\"lastComponent\":null,\"pasteBgFlag\":false,\"childPageList\":[],\"scale\":1,\"initialOffset\":false}"
+    },
+    {
+      "path": "el22.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.1.0",
+      "text": "时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [
+        "selectSrc",
+        "linkEditorFlag",
+        "configBorderStyle",
+        "spriteConfigStatus",
+        "d_bLoadFlag"
+      ],
+      "dataSample": "{\"selectSrc\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAcCAYAAACZOmSXAAAAAXNSR0IArs4c6QAAA6tJREFUSEutV89PE0EU3pnZ7naBbbFYjIGoadSDHDmZaCQaFFHAg/Xm3T+D/8UTgUSIQcEgwbvclIMxHOSHSAUpS7vs7syseVOmTEt3S1p62dnu7Pu+972Zb94iLf6HmjyPexw2e7c+eN39ZBvgk/XgZ8iowU/GFcC89l1cC1qhOscZdCLJ2Kt2NXhWy4rxtDZw8l8Nkeo8GawKrIICmOvmkO8fief91I0E39QtEdQwusTVstZDIAREGpAQcyBYDTBkqoJmjw8wTPT5ZRQwL7YMCWKGBv4rAheS3RyInCUhVGgMvj64jiHbr1ffes0WTPxqC3ccXnpzb+P1Qjq9y0GFFW2Ia1q1BOFJ5pMI5Iasd+9kcW+5gOdzC2474PBuqIU7wz8e5kAFIJBbzfFKCSrZ14BD1sViLwapl24tl9sFh/fvrk10dSYcXkz1s961AleybwyeLuvky+2p0kWAP/k2nDo2MqzYQdlp9tM8MnMAT/r75DhlYYseY5+ZmIUMcW4hK2QIxkCMdzDEQ1OMk5yL62Jubksl/WBjvNt2KPNMj0H2A2sak9JHym56JnGZhb2Ui7s4RZKAAFVISAISfOHGbA34/Y1nlzqPAsaTnNZLH7ngHN/GduDgIAwQKMA4RUACwBnvRCykQgGTGUIVaukYCHy89q4GfHRjJBMc2YwmdQrS9/90maz7mX0utxqseCAAezvDfQQkKE8JcNodICBjURP73MMqgeW+mW1V9pFfL3t4GVM3wVjZJjQW/DwmI8moa0KnhIACi7nZHRX86ebLHt9gLChhmrF85vQ4bHV1jMF2a8lePeohcDwoi2PrBBalS3UCCny4PvOnBnw73xRcWq2maec7WKQfwMJUCSz1zRVU8NHfr6qyR2Uu55/rSAU3lIYE21IqYPiEzF+Z2lPBxwvPxYKDmjcDr/eViIOkYsdAwN6zyb5rECsgBLbl58zsPzXIo/0XYqtJo6lfcK0YGYLyDGkrePOmRcCOpfyf0tMHasDHxXzVZMDjLxQcDqL04SYpBTa2WQnP9b0/VMEntsZSDunkjfy91TZJZN6o9uCK4ANAQD9IhBZxuZOwea23V062VsHF7shreawew6orwoQESoQAbBsO3+3IcjjVKp3N6cHSSs1PtuZp9tCAgCtKD4AJ0NWYuhkCMHQ0jc7ztsHrXVENGNdKtSV7BaSSPYwkCRVcNpHwn9LFwG1bNY90xXop47rXVmVv4IpRHxnxffsFEogNVfPV8h8IoeJHqxejswAAAABJRU5ErkJggg==\",\"linkEditorFlag\":true,\"configBorderStyle\":{},\"spriteConfigStatus\":false,\"d_bLoadFlag\":true}"
+    },
+    {
+      "path": "el22.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.1.0.0",
+      "text": "时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [
+        "finishMounted"
+      ],
+      "dataSample": "{\"finishMounted\":false}"
+    },
+    {
+      "path": "el22.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0",
+      "text": "时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [
+        "pageData",
+        "dataObjMng",
+        "runParamData",
+        "previewImage",
+        "previewVideo",
+        "previewPDF",
+        "$dynamicDialogIns",
+        "$ClientProject",
+        "dataLinkPageName",
+        "$Workflow",
+        "allPageList",
+        "showAlert",
+        "alertOption",
+        "userFuncList"
+      ],
+      "dataSample": "{\"pageData\":{\"objectType\":0,\"pageProperty\":{\"name\":\"数字孪生实例化_框架页面\",\"comment\":\"\",\"GUID\":\"k3be785a0-e8af-4c65-98f5-cf22b66c08c3\",\"backColor\":\"\",\"picName\":\"\",\"picId\":\"\",\"pageSize\":{\"width\":1803,\"height\":898},\"windowStyle\":\"ratating\",\"showPage\":{\"closable\":true,\"maximizable\":true,\"styleConfig\":\"\"},\"sizeable\":true,\"fontsizeable\":false,\"appOrientation\":true,\"lockWidthHeight\":false,\"minSize\":false,\"minSize_width\":\"600px\",\"minSize_height\":\"100px\",\"authFlag\":\"close\"},\"objects\":[{\"UIName\":\"时空属性图层\",\"visible\":false,\"runVisible\":true,\"lock\":false,\"prototypeName\":\"layer\",\"KSCGUID\":\"k19fe2d12f803ef207e07f5ef7aeb8af\",\"index\":1,\"object\":{\"UIName\":\"RContainer7\",\"ResponseLayoutId\":\"response_layout_root\",\"icon\":\"responsecontainer\",\"KSCGUID\":\"k690369463189fc8d2d7dfb8f3ff9e82\",\"parentGUID\":\"k19fe2d12f803ef207e07f5ef7aeb8af\",\"isRoot\":true,\"objectType\":1,\"prototypeName\":\"RContainer\",\"layoutType\":1,\"displayType\":\"lg\",\"UIDesc\":\"\",\"leftTopPt_y\":0,\"leftTopPt_x\":0,\"width\":1678,\"height\":855,\"isShowBorder\":false,\"rowsNumber\":1,\"backgroundColor\":\"\",\"picSrc\":\"\",\"lock\":false,\"visible\":true,\"runVisible\":true,\"styleConfig\":\"\",\"rowsManager\":[{\"UIName\":\"RRow24\",\"KSCGUID\":\"kc4cfa2564c277c997b37686b9e4648c\",\"parentGUID\":\"k690369463189fc8d2d7dfb8f3ff9e82\",\"prototypeName\":\"RRow\",\"objectType\":5,\"rowGap\":{\"top\":0,\"right\":0,\"bottom\":0,\"left\":0,\"autotop\":0,\"autoright\":0,\"autoleft\":0,\"autobottom\":0},\"index\":0,\"colsGap\":0,\"colsAutoGap\":0,\"lock\":false,\"wrapRowMargin\":0,\"wrapRowAutoMargin\":0,\"backgroundColor\":\"\",\"contentWidth\":1678,\"contentHeight\":855,\"height\":855,\"isShow\":true,\"visible\":true,\"heightStrategy\":\"autosize\",\"autoHeight\":\"100.00\",\"minSize\":0,\"colStrategy\":\"fixedsize\",\"rowGapStrategy\":\"fixedsize\",\"origHeight\":855,\"origAutoHeight\":\"100.00\",\"picSrc\":\"\",\"colsNumber\":1,\"dragResizeFlag\":false,\"styleConfig\":\"\",\"colsManager\":[{\"UIName\":\"spaceTimeRepoDetails_RCol\",\"KSCGUID\":\"k3ca8ebd9aaf5069564994897676d691\",\"parentGUID\":\"kc4cfa2564c277c997b37686b9e4648c\",\"range\":10,\"prototypeName\":\"RCol\",\"index\":2,\"objectType\":6,\"backgroundColor\":\"\",\"colHeight\":\"375\",\"widthStrategy\":\"fixedsize\",\"xsWidth\":\"260\",\"smWidth\":\"260\",\"mdWidth\":\"260\",\"lgWidth\":\"260\",\"xlWidth\":\"260\",\"xsAutoWidth\":96,\"smAutoWidth\":96,\"mdAutoWidth\":96,\"lgAutoWidth\":15,\"xlAutoWidth\":14,\"minSize\":0,\"minWidth\":0,\"isShow\":true,\"visible\":true,\"xsIsShow\":true,\"smIsShow\":true,\"mdIsShow\":true,\"lgIsShow\":true,\"xlIsShow\":true,\"offsetValid\":true,\"sameWidth\":true,\"horinzontal\":\"left\",\"vertical\":\"bottom\",\"lock\":false,\"lockWidthHeight\":false,\"rateOfWidthHeight\":1,\"offset\":0,\"autoOffset\":0,\"offsetRight\":0,\"autoOffsetRight\":0,\"offsetStrategy\":\"fixedsize\",\"heightStrategy\":\"fixedsize\",\"autoHeight\":41.87,\"dragResizeFlag\":false,\"object\":[],\"uiInputLinkList\":[],\"uiOutputLinkList\":[],\"isNewCol\":false,\"offsetAnimation\":{},\"conditionConfig\":{}}],\"warpCols\":[],\"verBorder\":0,\"borderWidth\":0,\"borderColor\":\"rgba(0,0,0,0.1)\",\"borderRadius\":0,\"boxShadow\":{\"type\":\"outset\",\"offsetX\":0,\"offsetY\":0,\"blueRadius\":0,\"spreadRadius\":0,\"color\":{\"color\":\"rgba(0,0,0,1)\",\"type\":\"solid-color\"}},\"horBorder\":2.22222,\"conditionConfig\":{}}],\"index\":0,\"borderWidth\":0,\"borderColor\":\"rgba(0,0,0,0.1)\",\"borderRadius\":0,\"boxShadow\":{\"type\":\"outset\",\"offsetX\":0,\"offsetY\":0,\"blueRadius\":0,\"spreadRadius\":0,\"color\":{\"color\":\"rgba(0,0,0,1)\",\"type\":\"solid-color\"}},\"conditionConfig\":{}},\"runVisibleConfig\":{},\"uiInputLinkList\":[]},{\"UIName\":\"图层1\",\"visible\":true,\"runVisible\":true,\"lock\":false,\"prototypeName\":\"layer\",\"KSCGUID\":\"0c79c07f_d539_4808_84c5_e4f36a1ea285\",\"index\":0,\"object\":{\"UIName\":\"RContainer1\",\"ResponseLayoutId\":\"response_layout_root\",\"icon\":\"responsecontainer\",\"KSCGUID\":\"k992246ea1fef1460c86dbb50d4495b7\",\"parentGUID\":\"0c79c07f_d539_4808_84c5_e4f36a1ea285\",\"isRoot\":true,\"objectType\":1,\"prototypeName\":\"RContainer\",\"layoutType\":1,\"displayType\":\"lg\",\"UIDesc\":\"\",\"leftTopPt_y\":0,\"leftTopPt_x\":0,\"width\":1678,\"height\":855,\"isShowBorder\":false,\"rowsNumber\":1,\"backgroundColor\":\"rgba(255, 255, 255, 1)\",\"picSrc\":\"\",\"lock\":false,\"visible\":true,\"runVisible\":true,\"styleConfig\":\".el-tooltip__popper.is-light {\\n    padding: 5px;\\n    font-size: 14px;\\n    border-radius: 4px;\\n}\\n\\n#domId\\n{\\n    font-family: 思源黑体;\\n    font-weight: 350;\\n    font-size: 14px;\\n    color: #333;\\n}\",\"rowsManager\":[{\"UIName\":\"RRow2\",\"KSCGUID\":\"k83f513fca4424519fb7d2843e1524d3\",\"parentGUID\":\"k992246ea1fef1460c86dbb50d4495b7\",\"prototypeName\":\"RRow\",\"objectType\":5,\"rowGap\":{\"top\":0,\"right\":0,\"bottom\":0,\"left\":0,\"autotop\":0,\"autoright\":0,\"autoleft\":0,\"autobottom\":0},\"index\":1,\"colsGap\":0,\"colsAutoGap\":0,\"lock\":false,\"wrapRowMargin\":0,\"wrapRowAutoMargin\":0,\"backgroundColor\":\"\",\"contentWidth\":1678,\"contentHeight\":855,\"height\":855,\"isShow\":true,\"visible\":true,\"heightStrategy\":\"autosize\",\"autoHeight\":96.76,\"minSize\":0,\"colStrategy\":\"fixedsize\",\"rowGapStrategy\":\"fixedsize\",\"origHeight\":855,\"origAutoHeight\":96.76,\"picSrc\":\"\",\"colsNumber\":2,\"dragResizeFlag\":false,\"styleConfig\":\"\",\"colsManager\":[{\"UIName\":\"RCol6\",\"KSCGUID\":\"a7ec6ae3-92d1-456c-87ca-88481c5488cb\",\"parentGUID\":\"k83f513fca4424519fb7d2843e1524d3\",\"range\":10,\"prototypeName\":\"RCol\",\"index\":0,\"objectType\":6,\"backgroundColor\":\"\",\"colHeight\":855,\"widthStrategy\":\"fixedsize\",\"xsWidth\":\"310\",\"smWidth\":\"310\",\"mdWidth\":\"310\",\"lgWidth\":\"310\",\"xlWidth\":\"310\",\"xsAutoWidth\":\"55\",\"smAutoWidth\":\"55\",\"mdAutoWidth\":\"55\",\"lgAutoWidth\":18,\"xlAutoWidth\":17,\"minSize\":0,\"minWidth\":0,\"isShow\":true,\"visible\":true,\"xsIsShow\":true,\"smIsShow\":true,\"mdIsShow\":true,\"lgIsShow\":true,\"xlIsShow\":true,\"offsetValid\":true,\"sameWidth\":true,\"horinzontal\":\"left\",\"vertical\":\"top\",\"lock\":false,\"lockWidthHeight\":false,\"rateOfWidthHeight\":1,\"offset\":0,\"autoOffset\":0,\"offsetRight\":0,\"autoOffsetRight\":0,\"offsetStrategy\":\"fixedsize\",\"heightStrategy\":\"percentage\",\"autoHeight\":100,\"dragResizeFlag\":false,\"object\":[{\"UIName\":\"RContainer2\",\"ResponseLayoutId\":\"response_layout_root\",\"icon\":\"responsecontainer\",\"KSCGUID\":\"k61e66a1505a5256803941e968c93381\",\"parentGUID\":\"a7ec6ae3-92d1-456c-87ca-88481c5488cb\",\"isRoot\":false,\"objectType\":1,\"prototypeName\":\"RContainer\",\"layoutType\":1,\"displayType\":\"lg\",\"UIDesc\":\"\",\"leftTopPt_y\":0,\"leftTopPt_x\":0,\"width\":310,\"height\":855,\"isShowBorder\":false,\"rowsNumber\":3,\"backgroundColor\":\"\",\"picSrc\":\"\",\"lock\":false,\"visible\":true,\"runVisible\":true,\"styleConfig\":\"#domId {\\n    box-shadow: 0 0px 1px rgba(0, 0, 0, 1);\\n    /*border-right: 1px solid lightgray;*/\\n}\",\"rowsManager\":[{\"UIName\":\"RRow3\",\"KSCGUID\":\"kdfa758740160fc72646dfc455ff3618\",\"parentGUID\":\"k61e66a1505a5256803941e968c93381\",\"prototypeName\":\"RRow\",\"objectType\":5,\"rowGap\":{\"top\":15,\"right\":15,\"bottom\":0,\"left\":15,\"autotop\":2.16,\"autoright\":1.69,\"autoleft\":1.69,\"autobottom\":0},\"index\":0,\"colsGap\":0,\"colsAutoGap\":0,\"lock\":false,\"wrapRowMargin\":0,\"wrapRowAutoMargin\":0,\"backgroundColor\":\"\",\"contentWidth\":280,\"contentHeight\":34,\"height\":\"34\",\"isShow\":true,\"visible\":true,\"heightStrategy\":\"fixedsize\",\"autoHeight\":\"3.98\",\"minSize\":0,\"colStrategy\":\"fixedsize\",\"rowGapStrategy\":\"fixedsize\",\"origHeight\":\"34\",\"origAutoHeight\":\"3.36\",\"picSrc\":\"\",\"colsNumber\":6,\"dragResizeFlag\":false,\"styleConfig\":\"\",\"colsManager\":[{\"UIName\":\"RCol8\",\"KSCGUID\":\"k4bfe4a6ac46dda870e85ce353513e91\",\"parentGUID\":\"kdfa758740160fc72646dfc455ff3618\",\"range\":10,\"prototypeName\":\"RCol\",\"index\":2,\"objectType\":6,\"backgroundColor\":\"\",\"colHeight\":34,\"widthStrategy\":\"fixedsize\",\"xsWidth\":\"80\",\"smWidth\":\"80\",\"mdWidth\":\"80\",\"lgWidth\":\"80\",\"xlWidth\":\"80\",\"xsAutoWidth\":\"100\",\"smAutoWidth\":\"100\",\"mdAutoWidth\":\"100\",\"lgAutoWidth\":28,\"xlAutoWidth\":28,\"minSize\":0,\"minWidth\":0,\"isShow\":true,\"visible\":true,\"xsIsShow\":true,\"smIsShow\":true,\"mdIsShow\":true,\"lgIsShow\":true,\"xlIsShow\":true,\"offsetValid\":true,\"sameWidth\":true,\"horinzontal\":\"left\",\"vertical\":\"top\",\"lock\":false,\"lockWidthHeight\":false,\"rateOfWidthHeight\":1,\"offset\":0,\"autoOffset\":0,\"offsetRight\":0,\"autoOffsetRight\":0,\"offsetStrategy\":\"fixedsize\",\"heightStrategy\":\"percentage\",\"autoHeight\":100,\"dragResizeFlag\":false,\"object\":[{\"elementuiType\":\"ElementText\",\"groupName\":\"其他\",\"objectType\":2,\"id\":\"UI_471951\",\"KSCGUID\":\"k8d4c0d338b92b0150ed67a79"
+    },
+    {
+      "path": "el22.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0",
+      "text": "时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [
+        "showPageList",
+        "callTimerMap",
+        "dateTimeTimer",
+        "funcMap",
+        "setPageArray",
+        "renderComs",
+        "dataCenterMng",
+        "evalCreatedFlag",
+        "d_uiOutputLinkList"
+      ],
+      "dataSample": "{\"showPageList\":[],\"callTimerMap\":{},\"dateTimeTimer\":31,\"funcMap\":{},\"setPageArray\":[],\"renderComs\":[],\"dataCenterMng\":null,\"evalCreatedFlag\":true,\"d_uiOutputLinkList\":[]}"
+    },
+    {
+      "path": "el22.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.1",
+      "text": "时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [
+        "childWidth",
+        "childHeight",
+        "changeRowSize"
+      ],
+      "dataSample": "{\"childWidth\":1678,\"childHeight\":855,\"changeRowSize\":1}"
+    },
+    {
+      "path": "el22.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.1.0",
+      "text": "时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [
+        "containerElement",
+        "UIType",
+        "rowsNumber",
+        "contanierSelectFlag",
+        "isShowContextMenu",
+        "selectedItems",
+        "copiedItems",
+        "backgroundImageData",
+        "theContextMenuItem",
+        "dragDisabled",
+        "containerSubscriptTop",
+        "responseWidth",
+        "resizeObserver",
+        "contextmenuInstance",
+        "scrollFlag",
+        "borderWSize",
+        "borderHSize",
+        "isScroll",
+        "containerList",
+        "showContainerList",
+        "prevWidth",
+        "prevHeight",
+        "mountRow",
+        "containerStyle"
+      ],
+      "dataSample": "{\"containerElement\":\"k659b52b8888841ba03778a311de76e7\",\"UIType\":\"container\",\"rowsNumber\":0,\"contanierSelectFlag\":false,\"isShowContextMenu\":false,\"selectedItems\":[],\"copiedItems\":[],\"backgroundImageData\":null,\"theContextMenuItem\":null,\"dragDisabled\":true,\"containerSubscriptTop\":\"843px\",\"responseWidth\":0,\"resizeObserver\":null,\"contextmenuInstance\":null,\"scrollFlag\":false,\"borderWSize\":0,\"borderHSize\":0,\"isScroll\":false,\"containerList\":[],\"showContainerList\":false,\"prevWidth\":1678,\"prevHeight\":855,\"mountRow\":0,\"containerStyle\":\"#domId {\\n                        height: 855px;\\n                        width: 1678px;\\n                        border: 0px solid rgba(0,0,0,0.1);\\n                        border-radius:0px;\\n                        background: rgba(255, 255, 255, 1);\\n                        background-image: ;\\n                        background-repeat: repeat;\\n                        background-size: auto;\\n                        box-shadow:0px 0px 0px 0px rgba(0,0,0,1)\\n                        \\n                    }\"}"
+    },
+    {
+      "path": "el22.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.1.0.0",
+      "text": "时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "dataKeys": [],
+      "dataSample": "{}"
+    }
+  ]
+}

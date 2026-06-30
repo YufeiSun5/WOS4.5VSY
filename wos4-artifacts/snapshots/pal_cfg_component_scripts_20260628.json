@@ -1,0 +1,2575 @@
+{
+  "count": 59,
+  "comps": [
+    {
+      "tag": "DIV",
+      "id": "client_run",
+      "cls": "client_run",
+      "text": "KingFusion4.5_组态系统 <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {
+        "scriptManager": {},
+        "showPageList": [
+          {
+            "pageName": "工程浏览器_框架页面"
+          }
+        ]
+      }
+    },
+    {
+      "tag": "UL",
+      "id": "",
+      "cls": "",
+      "text": "KingFusion4.5_组态系统 <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {}
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "ksc_page_run",
+      "text": "KingFusion4.5_组态系统 <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "propData": {
+        "pageName": "工程浏览器_框架页面"
+      },
+      "vmData": {
+        "PARENT_STORE_PARAM": {
+          "pageName": "工程浏览器_框架页面",
+          "child$StoreName": "$组态系统客户端_新__$PicManager__工程浏览器_框架页面",
+          "fuObj": {
+            "$modelguid": "d4f92e3e-8da7-4e32-b0dc-cb0e1cf03a61",
+            "$modelversion": 6,
+            "$memberlist": [
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]"
+            ],
+            "modelDBRepository": "4932e301-446a-42e2-8663-520d8863a919",
+            "maxVersion": "6",
+            "PUBVAR__switchPage": "{\"KSCGUID\":\"k6b68b9323b21c189520fa2ec87849c6\",\"varDes\":\"\",\"varName\":\"switchPage\",\"varType\":1,\"varDefaultValue\":1,\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":1}",
+            "AUTHORITY__访问权限": "{\"KSCGUID\":\"kd749c0038b1f4e77e206ac681ffcfbd\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"authKey\":\"\",\"AbsAuthId\":\"AbsAuthId\"}",
+            "isHasChild": "false"
+          }
+        }
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "$组态系统客户端_新__$PicManager__工程浏览器_框架页面",
+      "cls": "page_running",
+      "text": "KingFusion4.5_组态系统 <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "propData": {
+        "pageName": "工程浏览器_框架页面"
+      },
+      "vmData": {}
+    },
+    {
+      "tag": "DIV",
+      "id": "工程浏览器_框架页面",
+      "cls": "page_view_container client_page_view_container",
+      "text": "KingFusion4.5_组态系统 <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {
+        "pageData": {
+          "pageProperty": {
+            "pageSize": {},
+            "showPage": {}
+          },
+          "linkMng": {
+            "linkList": [
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]"
+            ]
+          },
+          "dataLink": [],
+          "authority": [
+            {
+              "description": "访问权限"
+            }
+          ],
+          "childPubEvent": {},
+          "authMng": [
+            {
+              "description": "访问权限"
+            }
+          ]
+        },
+        "dataLinkPageName": "",
+        "allPageList": []
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "pageView",
+      "cls": "page_view",
+      "text": "KingFusion4.5_组态系统 <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {
+        "showPageList": [],
+        "setPageArray": [],
+        "d_uiOutputLinkList": []
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "layer_view",
+      "text": "KingFusion4.5_组态系统 <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": "layer",
+      "UIName": "图层1",
+      "propData": {
+        "uiInputLinkList": []
+      },
+      "vmData": {
+        "childWidth": 1920,
+        "childHeight": 899
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "RContainerk584a25dd91dd09c7229dd6ad96acbf2",
+      "cls": "layout_container containerStyle",
+      "text": "KingFusion4.5_组态系统 <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {
+        "containerSubscriptTop": "887px"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "containerrow",
+      "text": "KingFusion4.5_组态系统 <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {}
+    },
+    {
+      "tag": "DIV",
+      "id": "kd20fb7ea007dda29b11b2773bde3201",
+      "cls": "response_row",
+      "text": "<  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {}
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "",
+      "text": "<  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {}
+    },
+    {
+      "tag": "DIV",
+      "id": "a7ec6ae3-92d1-456c-87ca-88481c5488cb",
+      "cls": "",
+      "text": "<  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {
+        "setPageQueue": [],
+        "isSetPageProcessing": false,
+        "currentPageName": "开发系统_组态_框架页面",
+        "pageInstance": null,
+        "childPageList": []
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "ui_factory layer_class",
+      "text": "<  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "propData": {
+        "pageName": "开发系统_组态_框架页面",
+        "pageInfo": {
+          "pageName": "开发系统_组态_框架页面",
+          "maxVersion": "8",
+          "$version": null,
+          "$modelguid": "b41edd6c-d830-4ef1-810b-2dd3ff61b02c",
+          "$modelversion": 8
+        },
+        "startParam": {
+          "child$StoreName": "$组态系统客户端_新__$PicManager__开发系统_组态_框架页面",
+          "fuObj": {
+            "$modelguid": "b41edd6c-d830-4ef1-810b-2dd3ff61b02c",
+            "$modelversion": 8,
+            "$memberlist": [
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]"
+            ],
+            "modelDBRepository": "023f7bfb-4005-4b4f-810c-e7662c67904c",
+            "maxVersion": "8",
+            "PUBVAR__switchPage": "{\"KSCGUID\":\"ka3f977e4046e86c8168924a02379d06\",\"varDes\":\"\",\"varName\":\"switchPage\",\"varType\":1,\"varDefaultValue\":0,\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":0}",
+            "PUBEVENT__submit": "{\"KSCGUID\":\"kee51ff4cb6acbf647649169d6f82411\",\"publicEventName\":\"submit\",\"publicEventDes\":\"\",\"eventScriptID\":\"ka687447d9de0c75917501fdd8e6b052\",\"publicEventSelfID\":\"kaaf83c00cffefdd3028540dc3a4563f\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "PUBEVENT__cancel": "{\"KSCGUID\":\"k46cbfaa403647ecabf8d39b8fd843a7\",\"publicEventName\":\"cancel\",\"publicEventDes\":\"\",\"eventScriptID\":\"ke337d7beeffe6672f5ccf2194f4bab0\",\"publicEventSelfID\":\"kc2a6afd5895276b720722f7d2b07bbe\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "PUBEVENT__Opentheprojectdirectorypage": "{\"KSCGUID\":\"k7eb016a45408da7b456c908d7a1a9cc\",\"publicEventName\":\"Opentheprojectdirectorypage\",\"publicEventDes\":\"\",\"eventScriptID\":\"k113a8f8af7e93a631ffbd0a4647ad2a\",\"publicEventSelfID\":\"k803bee2c54476a6992f402f8e00a13e\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "AUTHORITY__访问权限": "{\"KSCGUID\":\"k2dd7bacef426e9c3bca9223cbe3f6aa\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"authKey\":\"\",\"AbsAuthId\":\"AbsAuthId\"}",
+            "isHasChild": "false"
+          },
+          "pageName": "开发系统_组态_框架页面"
+        },
+        "options": {
+          "variables": [
+            {
+              "value": "盛云_孙宇飞_Palimpsest工程_0626"
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+          ]
+        }
+      },
+      "vmData": {
+        "linkEditorFlag": true
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "开发系统_组态_框架页面",
+      "cls": "page_view_container client_page_view_container set_page_app component_object 开发系统_组态_框架页面",
+      "text": "<  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {
+        "pageData": {
+          "pageProperty": {
+            "pageSize": {},
+            "showPage": {}
+          },
+          "linkMng": {
+            "linkList": [
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]"
+            ]
+          },
+          "dataLink": [],
+          "authority": [
+            {
+              "description": "访问权限"
+            }
+          ],
+          "childPubEvent": {},
+          "authMng": [
+            {
+              "description": "访问权限"
+            }
+          ]
+        },
+        "dataLinkPageName": "",
+        "allPageList": []
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "pageView",
+      "cls": "page_view",
+      "text": "<  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {
+        "showPageList": [],
+        "setPageArray": [],
+        "d_uiOutputLinkList": []
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "layer_view",
+      "text": "<  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": "layer",
+      "UIName": "图层1",
+      "propData": {
+        "uiInputLinkList": []
+      },
+      "vmData": {
+        "childWidth": 1918,
+        "childHeight": 855
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "RContainerkfc067a71a2cc28d3b3e4085cdb92331",
+      "cls": "layout_container containerStyle",
+      "text": "<  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {
+        "containerSubscriptTop": "843px"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "containerrow",
+      "text": "<  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {}
+    },
+    {
+      "tag": "DIV",
+      "id": "k8f90fb78e48e0d185568cc00bbe7425",
+      "cls": "response_row",
+      "text": "<  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {}
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "",
+      "text": "<  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {}
+    },
+    {
+      "tag": "DIV",
+      "id": "k329d43b8c6ba43c891065e00bdb9e8e",
+      "cls": "",
+      "text": "时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {
+        "setPageQueue": [],
+        "isSetPageProcessing": false,
+        "currentPageName": "数字孪生实例化_框架页面",
+        "pageInstance": null,
+        "childPageList": []
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "ui_factory layer_class",
+      "text": "时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "propData": {
+        "pageName": "数字孪生实例化_框架页面",
+        "pageInfo": {
+          "pageName": "数字孪生实例化_框架页面",
+          "maxVersion": "275",
+          "$version": null,
+          "$modelguid": "c42e0483-de2e-41a2-a115-ae4058bac63f",
+          "$modelversion": 275
+        },
+        "startParam": {
+          "child$StoreName": "$组态系统客户端_新__$PicManager__数字孪生实例化_框架页面",
+          "fuObj": {
+            "$modelguid": "c42e0483-de2e-41a2-a115-ae4058bac63f",
+            "$modelversion": 275,
+            "$memberlist": [
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]"
+            ],
+            "modelDBRepository": "c6372749-1df8-4c41-81e4-55767515f06d",
+            "maxVersion": "275",
+            "PUBVAR__heightOfPageHeader": "{\"KSCGUID\":\"k26f7da1dc74a5413cb9ba5d71ac5f7f\",\"varDes\":\"页面头部的高度，主要是用来计算实例编辑环境页面的高度百分比\",\"varName\":\"heightOfPageHeader\",\"varType\":1,\"varDefaultValue\":42,\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{\"type\":\"\",\"id\":\"0\",\"guid\":\"\",\"name\":\"\",\"version\":\"0\"},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":42}",
+            "PUBVAR__批量提交版本页面名称": "{\"KSCGUID\":\"k13e450f93948234686de2f0fdefbd70\",\"varDes\":\"\",\"varName\":\"批量提交版本页面名称\",\"varType\":2,\"varDefaultValue\":\"数字孪生实例化_批量提交版本\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"数字孪生实例化_批量提交版本\"}",
+            "AUTHORITY__访问权限": "{\"KSCGUID\":\"k0e1eb2114db54829b2e59aca791fae3\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"authKey\":\"\",\"AbsAuthId\":\"AbsAuthId\"}",
+            "PUBVAR__时空仓库版本提交说明页面名称": "{\"KSCGUID\":\"k4d7e69b5f52f2b5103c94d8884bbd4a\",\"varDes\":\"\",\"varName\":\"时空仓库版本提交说明页面名称\",\"varType\":2,\"varDefaultValue\":\"数字孪生实例化_时空_版本说明\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"数字孪生实例化_时空_版本说明\"}",
+            "PUBVAR__时空仓库版本提交页面名称": "{\"KSCGUID\":\"k3defda9e0747d505ec2feaef2706bbf\",\"varDes\":\"\",\"varName\":\"时空仓库版本提交页面名称\",\"varType\":2,\"varDefaultValue\":\"数字孪生实例化_时空_提交版本\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"数字孪生实例化_时空_提交版本\"}",
+            "PUBVAR__选择提交版本时空仓库页面名称": "{\"KSCGUID\":\"k46df913e9440bf1f1a93135ac4c9cae\",\"varDes\":\"\",\"varName\":\"选择提交版本时空仓库页面名称\",\"varType\":2,\"varDefaultValue\":\"数字孪生实例化_选择时空_提交版本\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"数字孪生实例化_选择时空_提交版本\"}",
+            "isHasChild": "false"
+          },
+          "pageName": "数字孪生实例化_框架页面"
+        },
+        "options": {
+          "variables": [
+            {
+              "value": "盛云_孙宇飞_Palimpsest工程_0626"
+            },
+            {},
+            {},
+            {},
+            {},
+            {}
+          ]
+        }
+      },
+      "vmData": {
+        "linkEditorFlag": true
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "数字孪生实例化_框架页面",
+      "cls": "page_view_container client_page_view_container set_page_app component_object 数字孪生实例化_框架页面",
+      "text": "时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {
+        "pageData": {
+          "pageProperty": {
+            "pageSize": {},
+            "showPage": {}
+          },
+          "linkMng": {
+            "linkList": [
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]"
+            ]
+          },
+          "dataLink": [],
+          "authority": [
+            {
+              "description": "访问权限"
+            }
+          ],
+          "childPubEvent": {},
+          "authMng": [
+            {
+              "description": "访问权限"
+            }
+          ]
+        },
+        "dataLinkPageName": "",
+        "allPageList": [
+          {
+            "childName": "数字孪生实例化_导入采集设备时空仓库",
+            "$version": 0,
+            "$memberlist": [
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]"
+            ],
+            "modelDBRepository": "",
+            "maxVersion": "8",
+            "isHasChild": "false",
+            "AUTHORITY__访问权限": "{\"KSCGUID\":\"kc3b0c6dd660fccac23937ba2ff31ae5\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"AbsAuthId\":\"AbsAuthId\",\"authKey\":\"\"}"
+          },
+          {
+            "childName": "数字孪生实例化_导入采集设备实例",
+            "$version": 0,
+            "$memberlist": [
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]"
+            ],
+            "modelDBRepository": "",
+            "maxVersion": "5",
+            "AUTHORITY__访问权限": "{\"KSCGUID\":\"kba093f280ed7b825037e29255d96753\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"authKey\":\"\",\"AbsAuthId\":\"AbsAuthId\"}",
+            "isHasChild": "false"
+          },
+          {
+            "childName": "数字孪生实例化_导入时空_同名详情",
+            "$version": 0,
+            "$memberlist": [
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]"
+            ],
+            "modelDBRepository": "",
+            "maxVersion": "9",
+            "PUBEVENT__Confirm": "{\"KSCGUID\":\"kb0cf3ff5f9a14b927f75bbcc474ac53\",\"publicEventName\":\"Confirm\",\"publicEventDes\":\"\",\"eventScriptID\":\"k2dc2a364d9b020b7656bf0427bb3fcd\",\"publicEventSelfID\":\"k9bfa6ff7de086ca0294c38171e7c709\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "AUTHORITY__访问权限": "{\"KSCGUID\":\"k63697f60496048f3e244ec0aef4bcbb\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"authKey\":\"\",\"AbsAuthId\":\"AbsAuthId\"}",
+            "isHasChild": "false"
+          },
+          {
+            "childName": "数字孪生实例化_保留数据配置",
+            "$version": 0,
+            "$memberlist": [
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]"
+            ],
+            "modelDBRepository": "",
+            "maxVersion": "9",
+            "isHasChild": "false",
+            "AUTHORITY__访问权限": "{\"KSCGUID\":\"k3dbde7a797c8dd17c22007a2912f5fc\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"AbsAuthId\":\"AbsAuthId\",\"authKey\":\"\"}"
+          },
+          {
+            "childName": "数字孪生实例化_导入时空_模式选择",
+            "$version": 0,
+            "$memberlist": [
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]"
+            ],
+            "modelDBRepository": "",
+            "maxVersion": "13",
+            "PUBVAR__pageConfig": "{\"KSCGUID\":\"ka63a65bd881c2cb5315bdc08da688b4\",\"varDes\":\"\",\"varName\":\"pageConfig\",\"varType\":6,\"varDefaultValue\":\"{}\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":{}}",
+            "PUBEVENT__Confirm": "{\"KSCGUID\":\"k0422a8443adf159a8a5e6d6d69b3eed\",\"publicEventName\":\"Confirm\",\"publicEventDes\":\"\",\"eventScriptID\":\"k2dc2a364d9b020b7656bf0427bb3fcd\",\"publicEventSelfID\":\"k9bfa6ff7de086ca0294c38171e7c709\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "PUBEVENT__Cancel": "{\"KSCGUID\":\"kd7a956474cc6883980fb692b4c57361\",\"publicEventName\":\"Cancel\",\"publicEventDes\":\"\",\"eventScriptID\":\"kda19ebeb63e1cc33318aa7a075fdb61\",\"publicEventSelfID\":\"kc68f815367785f6facdd2ce694cd115\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "AUTHORITY__访问权限": "{\"KSCGUID\":\"k63697f60496048f3e244ec0aef4bcbb\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"authKey\":\"\",\"AbsAuthId\":\"AbsAuthId\"}",
+            "isHasChild": "false"
+          },
+          {
+            "childName": "数字孪生实例化_时空_版本说明",
+            "$version": 0,
+            "$memberlist": [
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]"
+            ],
+            "modelDBRepository": "",
+            "maxVersion": "8",
+            "PUBVAR__版本提交进度展示页面名称": "{\"KSCGUID\":\"k6682d67201a5d1b41abf95abc9033fd\",\"varDes\":\"\",\"varName\":\"版本提交进度展示页面名称\",\"varType\":2,\"varDefaultValue\":\"数字孪生实例化_版本提交进度\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"数字孪生实例化_版本提交进度\"}",
+            "PUBEVENT__Confirm": "{\"KSCGUID\":\"kb0cf3ff5f9a14b927f75bbcc474ac53\",\"publicEventName\":\"Confirm\",\"publicEventDes\":\"\",\"eventScriptID\":\"k2dc2a364d9b020b7656bf0427bb3fcd\",\"publicEventSelfID\":\"k9bfa6ff7de086ca0294c38171e7c709\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "PUBEVENT__Cancel": "{\"KSCGUID\":\"k6859e1c7e55d8ae7be0beed3b451482\",\"publicEventName\":\"Cancel\",\"publicEventDes\":\"\",\"eventScriptID\":\"kda19ebeb63e1cc33318aa7a075fdb61\",\"publicEventSelfID\":\"kc68f815367785f6facdd2ce694cd115\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "AUTHORITY__访问权限": "{\"KSCGUID\":\"k63697f60496048f3e244ec0aef4bcbb\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"authKey\":\"\",\"AbsAuthId\":\"AbsAuthId\"}",
+            "isHasChild": "false"
+          },
+          {
+            "childName": "数字孪生实例化_时空_新建",
+            "$version": 0,
+            "$memberlist": [
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]"
+            ],
+            "modelDBRepository": "",
+            "maxVersion": "34",
+            "PUBEVENT__Confirm": "{\"KSCGUID\":\"kb0cf3ff5f9a14b927f75bbcc474ac53\",\"publicEventName\":\"Confirm\",\"publicEventDes\":\"\",\"eventScriptID\":\"k2dc2a364d9b020b7656bf0427bb3fcd\",\"publicEventSelfID\":\"k9bfa6ff7de086ca0294c38171e7c709\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "PUBEVENT__Cancel": "{\"KSCGUID\":\"k6859e1c7e55d8ae7be0beed3b451482\",\"publicEventName\":\"Cancel\",\"publicEventDes\":\"\",\"eventScriptID\":\"kda19ebeb63e1cc33318aa7a075fdb61\",\"publicEventSelfID\":\"kc68f815367785f6facdd2ce694cd115\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "AUTHORITY__访问权限": "{\"KSCGUID\":\"k63697f60496048f3e244ec0aef4bcbb\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"authKey\":\"\",\"AbsAuthId\":\"AbsAuthId\"}",
+            "isHasChild": "false"
+          },
+          {
+            "childName": "数字孪生实例化_实例_选择实例类型",
+            "$version": 0,
+            "$memberlist": [
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]"
+            ],
+            "modelDBRepository": "",
+            "maxVersion": "5",
+            "PUBEVENT__Confirm": "{\"KSCGUID\":\"k0422a8443adf159a8a5e6d6d69b3eed\",\"publicEventName\":\"Confirm\",\"publicEventDes\":\"\",\"eventScriptID\":\"k2dc2a364d9b020b7656bf0427bb3fcd\",\"publicEventSelfID\":\"k9bfa6ff7de086ca0294c38171e7c709\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "PUBEVENT__Cancel": "{\"KSCGUID\":\"kd7a956474cc6883980fb692b4c57361\",\"publicEventName\":\"Cancel\",\"publicEventDes\":\"\",\"eventScriptID\":\"kda19ebeb63e1cc33318aa7a075fdb61\",\"publicEventSelfID\":\"kc68f815367785f6facdd2ce694cd115\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "AUTHORITY__访问权限": "{\"KSCGUID\":\"k3dbde7a797c8dd17c22007a2912f5fc\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"authKey\":\"\",\"AbsAuthId\":\"AbsAuthId\"}",
+            "isHasChild": "false"
+          },
+          {
+            "childName": "数字孪生实例化_实例_编辑",
+            "$version": 0,
+            "$memberlist": [
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]"
+            ],
+            "modelDBRepository": "",
+            "maxVersion": "10",
+            "PUBEVENT__Confirm": "{\"KSCGUID\":\"kb0cf3ff5f9a14b927f75bbcc474ac53\",\"publicEventName\":\"Confirm\",\"publicEventDes\":\"\",\"eventScriptID\":\"k2dc2a364d9b020b7656bf0427bb3fcd\",\"publicEventSelfID\":\"k9bfa6ff7de086ca0294c38171e7c709\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "PUBEVENT__Cancel": "{\"KSCGUID\":\"k6859e1c7e55d8ae7be0beed3b451482\",\"publicEventName\":\"Cancel\",\"publicEventDes\":\"\",\"eventScriptID\":\"kda19ebeb63e1cc33318aa7a075fdb61\",\"publicEventSelfID\":\"kc68f815367785f6facdd2ce694cd115\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "AUTHORITY__访问权限": "{\"KSCGUID\":\"k63697f60496048f3e244ec0aef4bcbb\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"authKey\":\"\",\"AbsAuthId\":\"AbsAuthId\"}",
+            "isHasChild": "false"
+          },
+          {
+            "childName": "数字孪生实例化_实例_形参管理",
+            "$version": 0,
+            "$memberlist": [
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]"
+            ],
+            "modelDBRepository": "",
+            "maxVersion": "12",
+            "PUBEVENT__Confirm": "{\"KSCGUID\":\"kb0cf3ff5f9a14b927f75bbcc474ac53\",\"publicEventName\":\"Confirm\",\"publicEventDes\":\"\",\"eventScriptID\":\"k2dc2a364d9b020b7656bf0427bb3fcd\",\"publicEventSelfID\":\"k9bfa6ff7de086ca0294c38171e7c709\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "PUBEVENT__Cancel": "{\"KSCGUID\":\"k6859e1c7e55d8ae7be0beed3b451482\",\"publicEventName\":\"Cancel\",\"publicEventDes\":\"\",\"eventScriptID\":\"kda19ebeb63e1cc33318aa7a075fdb61\",\"publicEventSelfID\":\"kc68f815367785f6facdd2ce694cd115\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "AUTHORITY__访问权限": "{\"KSCGUID\":\"k63697f60496048f3e244ec0aef4bcbb\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"authKey\":\"\",\"AbsAuthId\":\"AbsAuthId\"}",
+            "isHasChild": "false"
+          },
+          {
+            "childName": "数字孪生实例化_实例_对比更新",
+            "$version": 0,
+            "$memberlist": [
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]"
+            ],
+            "modelDBRepository": "",
+            "maxVersion": "61",
+            "isHasChild": "false",
+            "AUTHORITY__访问权限": "{\"KSCGUID\":\"k63697f60496048f3e244ec0aef4bcbb\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"AbsAuthId\":\"AbsAuthId\",\"authKey\":\"\"}"
+          },
+          {
+            "childName": "数字孪生实例化_采集配置",
+            "$version": 0,
+            "$memberlist": [
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]"
+            ],
+            "modelDBRepository": "",
+            "maxVersion": "7",
+            "PUBEVENT__Confirm": "{\"KSCGUID\":\"kb0cf3ff5f9a14b927f75bbcc474ac53\",\"publicEventName\":\"Confirm\",\"publicEventDes\":\"\",\"eventScriptID\":\"k2dc2a364d9b020b7656bf0427bb3fcd\",\"publicEventSelfID\":\"k9bfa6ff7de086ca0294c38171e7c709\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "PUBEVENT__Cancel": "{\"KSCGUID\":\"k6859e1c7e55d8ae7be0beed3b451482\",\"publicEventName\":\"Cancel\",\"publicEventDes\":\"\",\"eventScriptID\":\"kda19ebeb63e1cc33318aa7a075fdb61\",\"publicEventSelfID\":\"kc68f815367785f6facdd2ce694cd115\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "AUTHORITY__访问权限": "{\"KSCGUID\":\"k63697f60496048f3e244ec0aef4bcbb\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"authKey\":\"\",\"AbsAuthId\":\"AbsAuthId\"}",
+            "isHasChild": "false"
+          },
+          {
+            "childName": "一键更新_部署更新",
+            "$version": 0,
+            "$memberlist": [
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]"
+            ],
+            "modelDBRepository": "",
+            "maxVersion": "45",
+            "isHasChild": "false",
+            "AUTHORITY__访问权限": "{\"KSCGUID\":\"kb96707198054790961b5e8abdf02920\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"AbsAuthId\":\"AbsAuthId\",\"authKey\":\"\"}"
+          },
+          {
+            "childName": "数字孪生实例化_选择时空_导出配置数据",
+            "$version": 0,
+            "$memberlist": [
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]"
+            ],
+            "modelDBRepository": "",
+            "maxVersion": "4",
+            "isHasChild": "false",
+            "AUTHORITY__访问权限": "{\"KSCGUID\":\"k63697f60496048f3e244ec0aef4bcbb\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"AbsAuthId\":\"AbsAuthId\",\"authKey\":\"\"}"
+          },
+          {
+            "childName": "数字孪生实例化_实例_提交版本",
+            "$version": 0,
+            "$memberlist": [
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]"
+            ],
+            "modelDBRepository": "",
+            "maxVersion": "19",
+            "PUBEVENT__Confirm": "{\"KSCGUID\":\"kb0cf3ff5f9a14b927f75bbcc474ac53\",\"publicEventName\":\"Confirm\",\"publicEventDes\":\"\",\"eventScriptID\":\"k2dc2a364d9b020b7656bf0427bb3fcd\",\"publicEventSelfID\":\"k9bfa6ff7de086ca0294c38171e7c709\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "PUBEVENT__Cancel": "{\"KSCGUID\":\"k6859e1c7e55d8ae7be0beed3b451482\",\"publicEventName\":\"Cancel\",\"publicEventDes\":\"\",\"eventScriptID\":\"kda19ebeb63e1cc33318aa7a075fdb61\",\"publicEventSelfID\":\"kc68f815367785f6facdd2ce694cd115\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "AUTHORITY__访问权限": "{\"KSCGUID\":\"k63697f60496048f3e244ec0aef4bcbb\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"authKey\":\"\",\"AbsAuthId\":\"AbsAuthId\"}",
+            "PUBVAR__versionInstruction": "{\"KSCGUID\":\"kd4f6cdf12a0bfff461d7fc059b858e8\",\"varDes\":\"\",\"varName\":\"versionInstruction\",\"varType\":2,\"varDefaultValue\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"\"}",
+            "PUBEVENT__Finish": "{\"KSCGUID\":\"k04cc55ee4374e635b319fd4b030af2a\",\"publicEventName\":\"Finish\",\"publicEventDes\":\"\",\"eventScriptID\":\"ka336e964811532c73337f2118a4946e\",\"publicEventSelfID\":\"k9c4b801a40242f883816738e2ece5a6\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "isHasChild": "false"
+          },
+          {
+            "childName": "数字孪生实例化_实例_新建采集设备实例",
+            "$version": 0,
+            "$memberlist": [
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]"
+            ],
+            "modelDBRepository": "",
+            "maxVersion": "4",
+            "isHasChild": "false",
+            "AUTHORITY__访问权限": "{\"KSCGUID\":\"kdffd1682635b0c2200b49eb73a6d5c6\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"AbsAuthId\":\"AbsAuthId\",\"authKey\":\"\"}"
+          },
+          {
+            "childName": "数字孪生实例化_实例_选择编辑实例",
+            "$version": 0,
+            "$memberlist": [
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]"
+            ],
+            "modelDBRepository": "",
+            "maxVersion": "8",
+            "PUBEVENT__Confirm": "{\"KSCGUID\":\"kb0cf3ff5f9a14b927f75bbcc474ac53\",\"publicEventName\":\"Confirm\",\"publicEventDes\":\"\",\"eventScriptID\":\"k2dc2a364d9b020b7656bf0427bb3fcd\",\"publicEventSelfID\":\"k9bfa6ff7de086ca0294c38171e7c709\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "PUBEVENT__Cancel": "{\"KSCGUID\":\"k6859e1c7e55d8ae7be0beed3b451482\",\"publicEventName\":\"Cancel\",\"publicEventDes\":\"\",\"eventScriptID\":\"kda19ebeb63e1cc33318aa7a075fdb61\",\"publicEventSelfID\":\"kc68f815367785f6facdd2ce694cd115\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "AUTHORITY__访问权限": "{\"KSCGUID\":\"k63697f60496048f3e244ec0aef4bcbb\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"authKey\":\"\",\"AbsAuthId\":\"AbsAuthId\"}",
+            "isHasChild": "false"
+          },
+          {
+            "childName": "数字孪生实例化_时空_提交版本",
+            "$version": 0,
+            "$memberlist": [
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]"
+            ],
+            "modelDBRepository": "",
+            "maxVersion": "56",
+            "PUBVAR__versionInstruction": "{\"KSCGUID\":\"kd4f6cdf12a0bfff461d7fc059b858e8\",\"varDes\":\"\",\"varName\":\"versionInstruction\",\"varType\":2,\"varDefaultValue\":\"\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":\"\"}",
+            "PUBEVENT__Confirm": "{\"KSCGUID\":\"kb0cf3ff5f9a14b927f75bbcc474ac53\",\"publicEventName\":\"Confirm\",\"publicEventDes\":\"\",\"eventScriptID\":\"k348662bc41acc4148fa48e253e641b1\",\"publicEventSelfID\":\"k125a3a05bcdbe4e408804b31410dc82\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "PUBEVENT__Cancel": "{\"KSCGUID\":\"k6859e1c7e55d8ae7be0beed3b451482\",\"publicEventName\":\"Cancel\",\"publicEventDes\":\"\",\"eventScriptID\":\"k19d3fce420c4914f48083763b246118\",\"publicEventSelfID\":\"kec933106bfe6aefa8a650d42968d14e\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "PUBEVENT__Finish": "{\"KSCGUID\":\"k04cc55ee4374e635b319fd4b030af2a\",\"publicEventName\":\"Finish\",\"publicEventDes\":\"\",\"eventScriptID\":\"ka336e964811532c73337f2118a4946e\",\"publicEventSelfID\":\"k9c4b801a40242f883816738e2ece5a6\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "AUTHORITY__访问权限": "{\"KSCGUID\":\"k63697f60496048f3e244ec0aef4bcbb\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"authKey\":\"\",\"AbsAuthId\":\"AbsAuthId\"}",
+            "isHasChild": "false"
+          },
+          {
+            "childName": "数字孪生实例化_选择导入数据类型",
+            "$version": 0,
+            "$memberlist": [
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]"
+            ],
+            "modelDBRepository": "",
+            "maxVersion": "23",
+            "AUTHORITY__访问权限": "{\"KSCGUID\":\"k3dbde7a797c8dd17c22007a2912f5fc\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"authKey\":\"\",\"AbsAuthId\":\"AbsAuthId\"}",
+            "PUBVAR__pageConfig": "{\"KSCGUID\":\"ka63a65bd881c2cb5315bdc08da688b4\",\"varDes\":\"\",\"varName\":\"pageConfig\",\"varType\":6,\"varDefaultValue\":\"{}\",\"AbsVariableId\":\"AbsVariableId\",\"isPublic\":true,\"RefObject\":{},\"relateInfo\":\"\",\"isLinkDataObj\":false,\"linkDataObjInfo\":{},\"linkDataObjInfos\":[],\"linkDataObjName\":\"\",\"returnFormat\":0,\"isShowRealTimeClock\":false,\"concreteFormat\":\"yyyy-MM-dd HH:mm:ss\",\"varValue\":{}}",
+            "PUBEVENT__Confirm": "{\"KSCGUID\":\"k0422a8443adf159a8a5e6d6d69b3eed\",\"publicEventName\":\"Confirm\",\"publicEventDes\":\"\",\"eventScriptID\":\"k2dc2a364d9b020b7656bf0427bb3fcd\",\"publicEventSelfID\":\"k9bfa6ff7de086ca0294c38171e7c709\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "PUBEVENT__Cancel": "{\"KSCGUID\":\"kd7a956474cc6883980fb692b4c57361\",\"publicEventName\":\"Cancel\",\"publicEventDes\":\"\",\"eventScriptID\":\"kda19ebeb63e1cc33318aa7a075fdb61\",\"publicEventSelfID\":\"kc68f815367785f6facdd2ce694cd115\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "isHasChild": "false"
+          },
+          {
+            "childName": "数字孪生实例化_时空_编辑",
+            "$version": 0,
+            "$memberlist": [
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]"
+            ],
+            "modelDBRepository": "",
+            "maxVersion": "18",
+            "PUBEVENT__Confirm": "{\"KSCGUID\":\"kb0cf3ff5f9a14b927f75bbcc474ac53\",\"publicEventName\":\"Confirm\",\"publicEventDes\":\"\",\"eventScriptID\":\"k2dc2a364d9b020b7656bf0427bb3fcd\",\"publicEventSelfID\":\"k9bfa6ff7de086ca0294c38171e7c709\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "PUBEVENT__Cancel": "{\"KSCGUID\":\"k6859e1c7e55d8ae7be0beed3b451482\",\"publicEventName\":\"Cancel\",\"publicEventDes\":\"\",\"eventScriptID\":\"kda19ebeb63e1cc33318aa7a075fdb61\",\"publicEventSelfID\":\"kc68f815367785f6facdd2ce694cd115\",\"paramConfigInfo1\":{\"name\":\"customParam\",\"list\":[{\"content\":\"\",\"type\":\"\",\"description\":\"\"}]},\"paramConfigInfo2\":\"\",\"paramConfigInfo3\":\"\",\"paramConfigInfo4\":\"\",\"paramConfigInfo5\":\"\",\"AbsPubEventId\":\"AbsPubEventId\",\"pubEventType\":\"custom\"}",
+            "AUTHORITY__访问权限": "{\"KSCGUID\":\"k63697f60496048f3e244ec0aef4bcbb\",\"authName\":\"访问权限\",\"description\":\"访问权限\",\"authKey\":\"\",\"AbsAuthId\":\"AbsAuthId\"}",
+            "isHasChild": "false"
+          }
+        ]
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "pageView",
+      "cls": "page_view",
+      "text": "时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {
+        "showPageList": [],
+        "setPageArray": [],
+        "d_uiOutputLinkList": []
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "layer_view",
+      "text": "时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": "layer",
+      "UIName": "图层1",
+      "propData": {
+        "uiInputLinkList": []
+      },
+      "vmData": {
+        "childWidth": 1678,
+        "childHeight": 855
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "RContainerk992246ea1fef1460c86dbb50d4495b7",
+      "cls": "layout_container containerStyle",
+      "text": "时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {
+        "containerSubscriptTop": "843px"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "containerrow",
+      "text": "时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {}
+    },
+    {
+      "tag": "DIV",
+      "id": "k83f513fca4424519fb7d2843e1524d3",
+      "cls": "response_row",
+      "text": "时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {}
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "",
+      "text": "时空列表         导入 导出 删除 移动 批量提交 导出变量 导入数据 导出数据 采集配置KF4.5RootPalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {}
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "ui_factory layer_class",
+      "text": "",
+      "proto": "ElementButton",
+      "UIName": "delete_ElementButton",
+      "propData": {
+        "isCloseCurPage": false,
+        "uiInputLinkList": [
+          {}
+        ],
+        "uiOutputLinkList": [
+          {},
+          {},
+          {}
+        ],
+        "linkList": [
+          {
+            "type": "script",
+            "script": "console.log(\"[D] 点击了编辑按钮\");\r\n\r\n$Variable.modifySpaceTimeRepo = !$Variable.modifySpaceTimeRepo;\r\n\r\n// debugger;\r\n\r\n\r\n// main();\r\n\r\nfunction main()\r\n{\r\n    const currentData = $Variable.currentSpaceTimeRepo;\r\n    if (Object.keys(currentData).length === 0)\r\n    {\r\n        _showMessage(\"请选择想要删除的实例\", \"warning\");\r\n        return;\r\n    }\r\n\r\n    if (currentData.guid === $Variable.工程Root时空仓库GUID)\r\n    {\r\n        _showMessage(\"实例根仓库不允许删除\", \"warning\");\r\n        return;\r\n    }\r\n    \r\n    if(currentData.instancetype === \"1\")\r\n    {\r\n        _showMessage(\"子实例不允许删除\", \"warning\");\r\n        return;\r\n    }\r\n\r\n    showChildPage();\r\n}\r\n\r\n\r\n\r\nfunction showChildPage()\r\n{\r\n\r\n    debugger;\r\n\r\n    const clientHeight = document.body.clientHeight;\r\n    const clientWidth = document.body.clientWidth;\r\n\r\n    const pageHeight = 200;\r\n    const pageWidth = 400;\r\n\r\n    const pageLeft = (clientWidth - pageWidth) / 2;\r\n    const pageTop = (clientHeight - pageHeight) / 2 - 100;\r\n\r\n    const styleOptions = {\r\n        width: pageWidth,\r\n        height: pageHeight,\r\n        left: pageLeft,\r\n        top: pageTop,\r\n        draggable: false,\r\n        header: false,\r\n        // title: pageTitle,\r\n        closable: true,\r\n        resizable: false,\r\n        maximizable: false,\r\n    };\r\n\r\n    const pageName = $Variable.删除实例页面名称;\r\n\r\n    const variables = [\r\n        {\r\n            name: \"配置后台时空对象全路径\",\r\n            value: $Variable.配置后台时空对象全路径\r\n        },\r\n        {\r\n            name: \"配置后台APP对象名称\",\r\n            value: $Variable.配置后台APP对象名称\r\n        },\r\n        {\r\n            name: \"cloudId\",\r\n            value: $Variable.cloudId\r\n        },\r\n        {\r\n            name: \"实例信息\",\r\n            value: $Variable.currentSpaceTimeRepo\r\n        },\r\n        {\r\n            name: \"实例根仓库GUID\",\r\n            value: $Variable.工程Root时空仓库GUID\r\n        }\r\n    ];\r\n\r\n    const options = {\r\n        styleOptions,\r\n        variables,\r\n        stType: 5, // 2：FULLNAME\r\n        spaceTime: $Variable.配置后台时空对象全路径\r\n    };\r\n\r\n    debugger;\r\n\r\n    ShowChild(pageName, options, function (transferData)\r\n    {\r\n        publicEventHanlder(pageName, transferData);\r\n    });\r\n}\r\n\r\nfunction publicEventHanlder(pageName, transferData)\r\n{\r\n    console.log(`[D] <实例化框架页面> 接收到 <${pageName}> 传递来的公开事件 transferData = `, transferData);\r\n\r\n    const {\r\n        eventName,\r\n        eventParam\r\n    } = transferData;\r\n\r\n\r\n    if (eventName === \"Cancel\")\r\n    {\r\n        CloseChild(pageName);\r\n        return;\r\n    }\r\n    else if (eventName === \"Confirm\")\r\n    {\r\n        // $Variable.isUpdateViewTable = !$Variable.isUpdateViewTable;\r\n        // $Variable.updateInstanceTreeView = !$Variable.updateInstanceTreeView;\r\n        debugger;\r\n\r\n        if ($Variable.spaceTimeRepoKeyWords.length === 0)\r\n        {\r\n            const parentNodeGuid = $Variable.currentSpaceTimeRepo.parentguid;\r\n            console.log(\"[D] 被删除节点的父节点 guid = \", parentNodeGuid);\r\n            spaceTimeRepo_ElementTree.SetCurrentKey(parentNodeGuid);\r\n            const parentNode = spaceTimeRepo_ElementTree.GetCurrentNode();\r\n            console.log(\"[D] 获取到当前选中的节点 parentNode = \", parentNode);\r\n            $Variable.currentSpaceTimeRepo = { ...parentNode };\r\n        }\r\n        else\r\n        {\r\n            $Variable.currentSpaceTimeRepo = {};\r\n            $Variable.updateTreeByFilter = !$Variable.updateTreeByFilter;\r\n        }\r\n        CloseChild(pageName);\r\n        return;\r\n    }\r\n}\r\n\r\n\r\nfunction _showMessage(massage, type = \"error\")\r\n{\r\n    var options = {\r\n        message: massage,\r\n        type: type,\r\n        duration: 3000,\r\n        showClose: true,\r\n    };\r\n    ShowMessage(options);\r\n}",
+            "linkId": 200001
+          }
+        ]
+      },
+      "vmData": {
+        "linkEditorFlag": true
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "k42b70ceb862de654efe7dfbe5485c93",
+      "cls": "component_object delete_ElementButton",
+      "text": "",
+      "proto": "ElementButton",
+      "UIName": "delete_ElementButton",
+      "propData": {
+        "isCloseCurPage": false,
+        "uiInputLinkList": [
+          {}
+        ],
+        "uiOutputLinkList": [
+          {},
+          {},
+          {}
+        ],
+        "linkList": [
+          {
+            "type": "script",
+            "script": "console.log(\"[D] 点击了编辑按钮\");\r\n\r\n$Variable.modifySpaceTimeRepo = !$Variable.modifySpaceTimeRepo;\r\n\r\n// debugger;\r\n\r\n\r\n// main();\r\n\r\nfunction main()\r\n{\r\n    const currentData = $Variable.currentSpaceTimeRepo;\r\n    if (Object.keys(currentData).length === 0)\r\n    {\r\n        _showMessage(\"请选择想要删除的实例\", \"warning\");\r\n        return;\r\n    }\r\n\r\n    if (currentData.guid === $Variable.工程Root时空仓库GUID)\r\n    {\r\n        _showMessage(\"实例根仓库不允许删除\", \"warning\");\r\n        return;\r\n    }\r\n    \r\n    if(currentData.instancetype === \"1\")\r\n    {\r\n        _showMessage(\"子实例不允许删除\", \"warning\");\r\n        return;\r\n    }\r\n\r\n    showChildPage();\r\n}\r\n\r\n\r\n\r\nfunction showChildPage()\r\n{\r\n\r\n    debugger;\r\n\r\n    const clientHeight = document.body.clientHeight;\r\n    const clientWidth = document.body.clientWidth;\r\n\r\n    const pageHeight = 200;\r\n    const pageWidth = 400;\r\n\r\n    const pageLeft = (clientWidth - pageWidth) / 2;\r\n    const pageTop = (clientHeight - pageHeight) / 2 - 100;\r\n\r\n    const styleOptions = {\r\n        width: pageWidth,\r\n        height: pageHeight,\r\n        left: pageLeft,\r\n        top: pageTop,\r\n        draggable: false,\r\n        header: false,\r\n        // title: pageTitle,\r\n        closable: true,\r\n        resizable: false,\r\n        maximizable: false,\r\n    };\r\n\r\n    const pageName = $Variable.删除实例页面名称;\r\n\r\n    const variables = [\r\n        {\r\n            name: \"配置后台时空对象全路径\",\r\n            value: $Variable.配置后台时空对象全路径\r\n        },\r\n        {\r\n            name: \"配置后台APP对象名称\",\r\n            value: $Variable.配置后台APP对象名称\r\n        },\r\n        {\r\n            name: \"cloudId\",\r\n            value: $Variable.cloudId\r\n        },\r\n        {\r\n            name: \"实例信息\",\r\n            value: $Variable.currentSpaceTimeRepo\r\n        },\r\n        {\r\n            name: \"实例根仓库GUID\",\r\n            value: $Variable.工程Root时空仓库GUID\r\n        }\r\n    ];\r\n\r\n    const options = {\r\n        styleOptions,\r\n        variables,\r\n        stType: 5, // 2：FULLNAME\r\n        spaceTime: $Variable.配置后台时空对象全路径\r\n    };\r\n\r\n    debugger;\r\n\r\n    ShowChild(pageName, options, function (transferData)\r\n    {\r\n        publicEventHanlder(pageName, transferData);\r\n    });\r\n}\r\n\r\nfunction publicEventHanlder(pageName, transferData)\r\n{\r\n    console.log(`[D] <实例化框架页面> 接收到 <${pageName}> 传递来的公开事件 transferData = `, transferData);\r\n\r\n    const {\r\n        eventName,\r\n        eventParam\r\n    } = transferData;\r\n\r\n\r\n    if (eventName === \"Cancel\")\r\n    {\r\n        CloseChild(pageName);\r\n        return;\r\n    }\r\n    else if (eventName === \"Confirm\")\r\n    {\r\n        // $Variable.isUpdateViewTable = !$Variable.isUpdateViewTable;\r\n        // $Variable.updateInstanceTreeView = !$Variable.updateInstanceTreeView;\r\n        debugger;\r\n\r\n        if ($Variable.spaceTimeRepoKeyWords.length === 0)\r\n        {\r\n            const parentNodeGuid = $Variable.currentSpaceTimeRepo.parentguid;\r\n            console.log(\"[D] 被删除节点的父节点 guid = \", parentNodeGuid);\r\n            spaceTimeRepo_ElementTree.SetCurrentKey(parentNodeGuid);\r\n            const parentNode = spaceTimeRepo_ElementTree.GetCurrentNode();\r\n            console.log(\"[D] 获取到当前选中的节点 parentNode = \", parentNode);\r\n            $Variable.currentSpaceTimeRepo = { ...parentNode };\r\n        }\r\n        else\r\n        {\r\n            $Variable.currentSpaceTimeRepo = {};\r\n            $Variable.updateTreeByFilter = !$Variable.updateTreeByFilter;\r\n        }\r\n        CloseChild(pageName);\r\n        return;\r\n    }\r\n}\r\n\r\n\r\nfunction _showMessage(massage, type = \"error\")\r\n{\r\n    var options = {\r\n        message: massage,\r\n        type: type,\r\n        duration: 3000,\r\n        showClose: true,\r\n    };\r\n    ShowMessage(options);\r\n}",
+            "linkId": 200001
+          }
+        ]
+      },
+      "vmData": {
+        "linkList": [
+          {
+            "type": "script",
+            "script": "console.log(\"[D] 点击了编辑按钮\");\r\n\r\n$Variable.modifySpaceTimeRepo = !$Variable.modifySpaceTimeRepo;\r\n\r\n// debugger;\r\n\r\n\r\n// main();\r\n\r\nfunction main()\r\n{\r\n    const currentData = $Variable.currentSpaceTimeRepo;\r\n    if (Object.keys(currentData).length === 0)\r\n    {\r\n        _showMessage(\"请选择想要删除的实例\", \"warning\");\r\n        return;\r\n    }\r\n\r\n    if (currentData.guid === $Variable.工程Root时空仓库GUID)\r\n    {\r\n        _showMessage(\"实例根仓库不允许删除\", \"warning\");\r\n        return;\r\n    }\r\n    \r\n    if(currentData.instancetype === \"1\")\r\n    {\r\n        _showMessage(\"子实例不允许删除\", \"warning\");\r\n        return;\r\n    }\r\n\r\n    showChildPage();\r\n}\r\n\r\n\r\n\r\nfunction showChildPage()\r\n{\r\n\r\n    debugger;\r\n\r\n    const clientHeight = document.body.clientHeight;\r\n    const clientWidth = document.body.clientWidth;\r\n\r\n    const pageHeight = 200;\r\n    const pageWidth = 400;\r\n\r\n    const pageLeft = (clientWidth - pageWidth) / 2;\r\n    const pageTop = (clientHeight - pageHeight) / 2 - 100;\r\n\r\n    const styleOptions = {\r\n        width: pageWidth,\r\n        height: pageHeight,\r\n        left: pageLeft,\r\n        top: pageTop,\r\n        draggable: false,\r\n        header: false,\r\n        // title: pageTitle,\r\n        closable: true,\r\n        resizable: false,\r\n        maximizable: false,\r\n    };\r\n\r\n    const pageName = $Variable.删除实例页面名称;\r\n\r\n    const variables = [\r\n        {\r\n            name: \"配置后台时空对象全路径\",\r\n            value: $Variable.配置后台时空对象全路径\r\n        },\r\n        {\r\n            name: \"配置后台APP对象名称\",\r\n            value: $Variable.配置后台APP对象名称\r\n        },\r\n        {\r\n            name: \"cloudId\",\r\n            value: $Variable.cloudId\r\n        },\r\n        {\r\n            name: \"实例信息\",\r\n            value: $Variable.currentSpaceTimeRepo\r\n        },\r\n        {\r\n            name: \"实例根仓库GUID\",\r\n            value: $Variable.工程Root时空仓库GUID\r\n        }\r\n    ];\r\n\r\n    const options = {\r\n        styleOptions,\r\n        variables,\r\n        stType: 5, // 2：FULLNAME\r\n        spaceTime: $Variable.配置后台时空对象全路径\r\n    };\r\n\r\n    debugger;\r\n\r\n    ShowChild(pageName, options, function (transferData)\r\n    {\r\n        publicEventHanlder(pageName, transferData);\r\n    });\r\n}\r\n\r\nfunction publicEventHanlder(pageName, transferData)\r\n{\r\n    console.log(`[D] <实例化框架页面> 接收到 <${pageName}> 传递来的公开事件 transferData = `, transferData);\r\n\r\n    const {\r\n        eventName,\r\n        eventParam\r\n    } = transferData;\r\n\r\n\r\n    if (eventName === \"Cancel\")\r\n    {\r\n        CloseChild(pageName);\r\n        return;\r\n    }\r\n    else if (eventName === \"Confirm\")\r\n    {\r\n        // $Variable.isUpdateViewTable = !$Variable.isUpdateViewTable;\r\n        // $Variable.updateInstanceTreeView = !$Variable.updateInstanceTreeView;\r\n        debugger;\r\n\r\n        if ($Variable.spaceTimeRepoKeyWords.length === 0)\r\n        {\r\n            const parentNodeGuid = $Variable.currentSpaceTimeRepo.parentguid;\r\n            console.log(\"[D] 被删除节点的父节点 guid = \", parentNodeGuid);\r\n            spaceTimeRepo_ElementTree.SetCurrentKey(parentNodeGuid);\r\n            const parentNode = spaceTimeRepo_ElementTree.GetCurrentNode();\r\n            console.log(\"[D] 获取到当前选中的节点 parentNode = \", parentNode);\r\n            $Variable.currentSpaceTimeRepo = { ...parentNode };\r\n        }\r\n        else\r\n        {\r\n            $Variable.currentSpaceTimeRepo = {};\r\n            $Variable.updateTreeByFilter = !$Variable.updateTreeByFilter;\r\n        }\r\n        CloseChild(pageName);\r\n        return;\r\n    }\r\n}\r\n\r\n\r\nfunction _showMessage(massage, type = \"error\")\r\n{\r\n    var options = {\r\n        message: massage,\r\n        type: type,\r\n        duration: 3000,\r\n        showClose: true,\r\n    };\r\n    ShowMessage(options);\r\n}",
+            "linkId": 200001
+          }
+        ]
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "ui_factory layer_class",
+      "text": "",
+      "proto": "ElementButton",
+      "UIName": "ElementButton3",
+      "propData": {
+        "isCloseCurPage": false,
+        "uiInputLinkList": [
+          {}
+        ],
+        "uiOutputLinkList": [
+          {},
+          {},
+          {}
+        ],
+        "linkList": [
+          {
+            "type": "script",
+            "script": "console.log(\"[D] 点击了提交版本按钮\");\r\n\r\ndebugger;\r\n\r\n\r\nmain();\r\n\r\nasync function main()\r\n{\r\n    const currentData = $Variable.currentSpaceTimeRepo;\r\n    if (Object.keys(currentData).length === 0)\r\n    {\r\n        _showMessage(\"请选择时空仓库\", \"warning\");\r\n        return;\r\n    }\r\n\r\n    if (currentData.guid === $Variable.工程Root时空仓库GUID)\r\n    {\r\n        _showMessage(\"实例根仓库不允许提交\", \"warning\");\r\n        return;\r\n    }\r\n\r\n    const instructionPageName = $Variable.时空仓库版本提交说明页面名称;\r\n    if (instructionPageName.length == 0)\r\n    {\r\n        _showMessage(\"时空仓库版本提交说明页面名称 为空\", \"warning\");\r\n        return\r\n    }\r\n\r\n\r\n    const versionInstruction = await _showInstructionPage(instructionPageName);\r\n    if (!versionInstruction)\r\n    {\r\n        return;\r\n    }\r\n\r\n    $Variable.submitSpaceTimeRepos = {\r\n        spaceTimeRepoGuids: [currentData.guid],\r\n        versionInstruction: versionInstruction,\r\n    };\r\n\r\n\r\n\r\n}\r\n\r\nasync function _showInstructionPage(pageName)\r\n{\r\n    const clientWidth = document.body.clientWidth;\r\n    const clientHeight = document.body.clientHeight;\r\n\r\n    const pageWidth = clientWidth > 360 ? 360 : clientWidth * 0.9;\r\n    const pageHeight = clientHeight > 180 ? 180 : clientHeight * 0.9;\r\n\r\n    const pageLeft = (clientWidth - pageWidth - 40) / 2;\r\n    const pageTop = (clientHeight - pageHeight - 34) / 2;\r\n\r\n    const styleOptions = {\r\n        width: pageWidth,\r\n        height: pageHeight,\r\n        left: pageLeft,\r\n        top: pageTop,\r\n        draggable: false,\r\n        header: false,\r\n        // title: pageTitle,\r\n        closable: true,\r\n        resizable: false,\r\n        maximizable: false,\r\n        topPadding: \"17px\",\r\n        bottomPadding: \"17px\",\r\n        leftPadding: \"20px\",\r\n        rightPadding: \"20px\"\r\n    };\r\n\r\n    const variables = [];\r\n    const options = {\r\n        styleOptions,\r\n        variables,\r\n        stType: 5, // 2：FULLNAME\r\n        spaceTime: $Variable.配置后台时空对象全路径\r\n    };\r\n    return new Promise(resolve =>\r\n    {\r\n        ShowChild(pageName, options, function (transferData)\r\n        {\r\n            console.log(`[D] <实例化框架页面> :: 接收到 <${pageName}> 传递来的公开事件 transferData = `, transferData);\r\n            const { eventName, eventParam } = transferData;\r\n            if (eventName == \"Confirm\")\r\n            {\r\n                resolve(eventParam[0]);\r\n                CloseChild(pageName);\r\n                return;\r\n            }\r\n            if (eventName === \"Cancel\")\r\n            {\r\n                resolve();\r\n                CloseChild(pageName);\r\n                return;\r\n            }\r\n        });\r\n    });\r\n}\r\n\r\nasync function _showSubmitPage(pageName, spaceTimeRepoGuids, versionInstruction)\r\n{\r\n    const clientWidth = document.body.clientWidth;\r\n    const clientHeight = document.body.clientHeight;\r\n\r\n    const pageWidth = clientWidth > 1300 ? 1300 : clientWidth * 0.9;\r\n    const pageHeight = clientHeight > 800 ? 800 : clientHeight * 0.9;\r\n\r\n    const pageLeft = (clientWidth - pageWidth) / 2;\r\n    const pageTop = (clientHeight - pageHeight) / 2;\r\n\r\n    const styleOptions = {\r\n        width: pageWidth,\r\n        height: pageHeight,\r\n        left: pageLeft,\r\n        top: pageTop,\r\n        draggable: false,\r\n        header: false,\r\n        // title: pageTitle,\r\n        closable: true,\r\n        resizable: false,\r\n        maximizable: false,\r\n        topPadding: \"17px\",\r\n        bottomPadding: \"17px\",\r\n        leftPadding: \"20px\",\r\n        rightPadding: \"20px\"\r\n    };\r\n\r\n    const variables = [\r\n        {\r\n            name: \"spaceTimeRepoGuids\",\r\n            value: spaceTimeRepoGuids\r\n        },\r\n        {\r\n            name: \"versionInstruction\",\r\n            value: versionInstruction\r\n        },\r\n    ];\r\n\r\n    const options = {\r\n        styleOptions,\r\n        variables,\r\n        stType: 5, // 2：FULLNAME\r\n        spaceTime: $Variable.配置后台时空对象全路径\r\n    };\r\n\r\n    return new Promise(resolve =>\r\n    {\r\n        ShowChild(pageName, options, function (transferData)\r\n        {\r\n            console.log(`[D] <实例化框架页面> :: submitInstances :: 接收到 <${pageName}> 传递来的公开事件 transferData = `, transferData);\r\n            const eventName = transferData.eventName;\r\n            if (eventName === \"Confirm\" || eventName === \"Cancel\")\r\n            {\r\n                CloseChild(pageName);\r\n                resolve();\r\n            }\r\n        });\r\n    });\r\n}\r\n\r\nfunction _showMessage(massage, type = \"error\")\r\n{\r\n    const options = {\r\n        message: massage,\r\n        type: type,\r\n        duration: 3000,\r\n        showClose: true,\r\n    };\r\n    ShowMessage(options);\r\n}",
+            "linkId": 200001
+          }
+        ]
+      },
+      "vmData": {
+        "linkEditorFlag": true
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "kffc865ff01e62406c0635e8b77d0c93",
+      "cls": "component_object ElementButton3",
+      "text": "",
+      "proto": "ElementButton",
+      "UIName": "ElementButton3",
+      "propData": {
+        "isCloseCurPage": false,
+        "uiInputLinkList": [
+          {}
+        ],
+        "uiOutputLinkList": [
+          {},
+          {},
+          {}
+        ],
+        "linkList": [
+          {
+            "type": "script",
+            "script": "console.log(\"[D] 点击了提交版本按钮\");\r\n\r\ndebugger;\r\n\r\n\r\nmain();\r\n\r\nasync function main()\r\n{\r\n    const currentData = $Variable.currentSpaceTimeRepo;\r\n    if (Object.keys(currentData).length === 0)\r\n    {\r\n        _showMessage(\"请选择时空仓库\", \"warning\");\r\n        return;\r\n    }\r\n\r\n    if (currentData.guid === $Variable.工程Root时空仓库GUID)\r\n    {\r\n        _showMessage(\"实例根仓库不允许提交\", \"warning\");\r\n        return;\r\n    }\r\n\r\n    const instructionPageName = $Variable.时空仓库版本提交说明页面名称;\r\n    if (instructionPageName.length == 0)\r\n    {\r\n        _showMessage(\"时空仓库版本提交说明页面名称 为空\", \"warning\");\r\n        return\r\n    }\r\n\r\n\r\n    const versionInstruction = await _showInstructionPage(instructionPageName);\r\n    if (!versionInstruction)\r\n    {\r\n        return;\r\n    }\r\n\r\n    $Variable.submitSpaceTimeRepos = {\r\n        spaceTimeRepoGuids: [currentData.guid],\r\n        versionInstruction: versionInstruction,\r\n    };\r\n\r\n\r\n\r\n}\r\n\r\nasync function _showInstructionPage(pageName)\r\n{\r\n    const clientWidth = document.body.clientWidth;\r\n    const clientHeight = document.body.clientHeight;\r\n\r\n    const pageWidth = clientWidth > 360 ? 360 : clientWidth * 0.9;\r\n    const pageHeight = clientHeight > 180 ? 180 : clientHeight * 0.9;\r\n\r\n    const pageLeft = (clientWidth - pageWidth - 40) / 2;\r\n    const pageTop = (clientHeight - pageHeight - 34) / 2;\r\n\r\n    const styleOptions = {\r\n        width: pageWidth,\r\n        height: pageHeight,\r\n        left: pageLeft,\r\n        top: pageTop,\r\n        draggable: false,\r\n        header: false,\r\n        // title: pageTitle,\r\n        closable: true,\r\n        resizable: false,\r\n        maximizable: false,\r\n        topPadding: \"17px\",\r\n        bottomPadding: \"17px\",\r\n        leftPadding: \"20px\",\r\n        rightPadding: \"20px\"\r\n    };\r\n\r\n    const variables = [];\r\n    const options = {\r\n        styleOptions,\r\n        variables,\r\n        stType: 5, // 2：FULLNAME\r\n        spaceTime: $Variable.配置后台时空对象全路径\r\n    };\r\n    return new Promise(resolve =>\r\n    {\r\n        ShowChild(pageName, options, function (transferData)\r\n        {\r\n            console.log(`[D] <实例化框架页面> :: 接收到 <${pageName}> 传递来的公开事件 transferData = `, transferData);\r\n            const { eventName, eventParam } = transferData;\r\n            if (eventName == \"Confirm\")\r\n            {\r\n                resolve(eventParam[0]);\r\n                CloseChild(pageName);\r\n                return;\r\n            }\r\n            if (eventName === \"Cancel\")\r\n            {\r\n                resolve();\r\n                CloseChild(pageName);\r\n                return;\r\n            }\r\n        });\r\n    });\r\n}\r\n\r\nasync function _showSubmitPage(pageName, spaceTimeRepoGuids, versionInstruction)\r\n{\r\n    const clientWidth = document.body.clientWidth;\r\n    const clientHeight = document.body.clientHeight;\r\n\r\n    const pageWidth = clientWidth > 1300 ? 1300 : clientWidth * 0.9;\r\n    const pageHeight = clientHeight > 800 ? 800 : clientHeight * 0.9;\r\n\r\n    const pageLeft = (clientWidth - pageWidth) / 2;\r\n    const pageTop = (clientHeight - pageHeight) / 2;\r\n\r\n    const styleOptions = {\r\n        width: pageWidth,\r\n        height: pageHeight,\r\n        left: pageLeft,\r\n        top: pageTop,\r\n        draggable: false,\r\n        header: false,\r\n        // title: pageTitle,\r\n        closable: true,\r\n        resizable: false,\r\n        maximizable: false,\r\n        topPadding: \"17px\",\r\n        bottomPadding: \"17px\",\r\n        leftPadding: \"20px\",\r\n        rightPadding: \"20px\"\r\n    };\r\n\r\n    const variables = [\r\n        {\r\n            name: \"spaceTimeRepoGuids\",\r\n            value: spaceTimeRepoGuids\r\n        },\r\n        {\r\n            name: \"versionInstruction\",\r\n            value: versionInstruction\r\n        },\r\n    ];\r\n\r\n    const options = {\r\n        styleOptions,\r\n        variables,\r\n        stType: 5, // 2：FULLNAME\r\n        spaceTime: $Variable.配置后台时空对象全路径\r\n    };\r\n\r\n    return new Promise(resolve =>\r\n    {\r\n        ShowChild(pageName, options, function (transferData)\r\n        {\r\n            console.log(`[D] <实例化框架页面> :: submitInstances :: 接收到 <${pageName}> 传递来的公开事件 transferData = `, transferData);\r\n            const eventName = transferData.eventName;\r\n            if (eventName === \"Confirm\" || eventName === \"Cancel\")\r\n            {\r\n                CloseChild(pageName);\r\n                resolve();\r\n            }\r\n        });\r\n    });\r\n}\r\n\r\nfunction _showMessage(massage, type = \"error\")\r\n{\r\n    const options = {\r\n        message: massage,\r\n        type: type,\r\n        duration: 3000,\r\n        showClose: true,\r\n    };\r\n    ShowMessage(options);\r\n}",
+            "linkId": 200001
+          }
+        ]
+      },
+      "vmData": {
+        "linkList": [
+          {
+            "type": "script",
+            "script": "console.log(\"[D] 点击了提交版本按钮\");\r\n\r\ndebugger;\r\n\r\n\r\nmain();\r\n\r\nasync function main()\r\n{\r\n    const currentData = $Variable.currentSpaceTimeRepo;\r\n    if (Object.keys(currentData).length === 0)\r\n    {\r\n        _showMessage(\"请选择时空仓库\", \"warning\");\r\n        return;\r\n    }\r\n\r\n    if (currentData.guid === $Variable.工程Root时空仓库GUID)\r\n    {\r\n        _showMessage(\"实例根仓库不允许提交\", \"warning\");\r\n        return;\r\n    }\r\n\r\n    const instructionPageName = $Variable.时空仓库版本提交说明页面名称;\r\n    if (instructionPageName.length == 0)\r\n    {\r\n        _showMessage(\"时空仓库版本提交说明页面名称 为空\", \"warning\");\r\n        return\r\n    }\r\n\r\n\r\n    const versionInstruction = await _showInstructionPage(instructionPageName);\r\n    if (!versionInstruction)\r\n    {\r\n        return;\r\n    }\r\n\r\n    $Variable.submitSpaceTimeRepos = {\r\n        spaceTimeRepoGuids: [currentData.guid],\r\n        versionInstruction: versionInstruction,\r\n    };\r\n\r\n\r\n\r\n}\r\n\r\nasync function _showInstructionPage(pageName)\r\n{\r\n    const clientWidth = document.body.clientWidth;\r\n    const clientHeight = document.body.clientHeight;\r\n\r\n    const pageWidth = clientWidth > 360 ? 360 : clientWidth * 0.9;\r\n    const pageHeight = clientHeight > 180 ? 180 : clientHeight * 0.9;\r\n\r\n    const pageLeft = (clientWidth - pageWidth - 40) / 2;\r\n    const pageTop = (clientHeight - pageHeight - 34) / 2;\r\n\r\n    const styleOptions = {\r\n        width: pageWidth,\r\n        height: pageHeight,\r\n        left: pageLeft,\r\n        top: pageTop,\r\n        draggable: false,\r\n        header: false,\r\n        // title: pageTitle,\r\n        closable: true,\r\n        resizable: false,\r\n        maximizable: false,\r\n        topPadding: \"17px\",\r\n        bottomPadding: \"17px\",\r\n        leftPadding: \"20px\",\r\n        rightPadding: \"20px\"\r\n    };\r\n\r\n    const variables = [];\r\n    const options = {\r\n        styleOptions,\r\n        variables,\r\n        stType: 5, // 2：FULLNAME\r\n        spaceTime: $Variable.配置后台时空对象全路径\r\n    };\r\n    return new Promise(resolve =>\r\n    {\r\n        ShowChild(pageName, options, function (transferData)\r\n        {\r\n            console.log(`[D] <实例化框架页面> :: 接收到 <${pageName}> 传递来的公开事件 transferData = `, transferData);\r\n            const { eventName, eventParam } = transferData;\r\n            if (eventName == \"Confirm\")\r\n            {\r\n                resolve(eventParam[0]);\r\n                CloseChild(pageName);\r\n                return;\r\n            }\r\n            if (eventName === \"Cancel\")\r\n            {\r\n                resolve();\r\n                CloseChild(pageName);\r\n                return;\r\n            }\r\n        });\r\n    });\r\n}\r\n\r\nasync function _showSubmitPage(pageName, spaceTimeRepoGuids, versionInstruction)\r\n{\r\n    const clientWidth = document.body.clientWidth;\r\n    const clientHeight = document.body.clientHeight;\r\n\r\n    const pageWidth = clientWidth > 1300 ? 1300 : clientWidth * 0.9;\r\n    const pageHeight = clientHeight > 800 ? 800 : clientHeight * 0.9;\r\n\r\n    const pageLeft = (clientWidth - pageWidth) / 2;\r\n    const pageTop = (clientHeight - pageHeight) / 2;\r\n\r\n    const styleOptions = {\r\n        width: pageWidth,\r\n        height: pageHeight,\r\n        left: pageLeft,\r\n        top: pageTop,\r\n        draggable: false,\r\n        header: false,\r\n        // title: pageTitle,\r\n        closable: true,\r\n        resizable: false,\r\n        maximizable: false,\r\n        topPadding: \"17px\",\r\n        bottomPadding: \"17px\",\r\n        leftPadding: \"20px\",\r\n        rightPadding: \"20px\"\r\n    };\r\n\r\n    const variables = [\r\n        {\r\n            name: \"spaceTimeRepoGuids\",\r\n            value: spaceTimeRepoGuids\r\n        },\r\n        {\r\n            name: \"versionInstruction\",\r\n            value: versionInstruction\r\n        },\r\n    ];\r\n\r\n    const options = {\r\n        styleOptions,\r\n        variables,\r\n        stType: 5, // 2：FULLNAME\r\n        spaceTime: $Variable.配置后台时空对象全路径\r\n    };\r\n\r\n    return new Promise(resolve =>\r\n    {\r\n        ShowChild(pageName, options, function (transferData)\r\n        {\r\n            console.log(`[D] <实例化框架页面> :: submitInstances :: 接收到 <${pageName}> 传递来的公开事件 transferData = `, transferData);\r\n            const eventName = transferData.eventName;\r\n            if (eventName === \"Confirm\" || eventName === \"Cancel\")\r\n            {\r\n                CloseChild(pageName);\r\n                resolve();\r\n            }\r\n        });\r\n    });\r\n}\r\n\r\nfunction _showMessage(massage, type = \"error\")\r\n{\r\n    const options = {\r\n        message: massage,\r\n        type: type,\r\n        duration: 3000,\r\n        showClose: true,\r\n    };\r\n    ShowMessage(options);\r\n}",
+            "linkId": 200001
+          }
+        ]
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "kdf276c45705e6ff0d1ef9d3af1c0c94",
+      "cls": "",
+      "text": "实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {
+        "setPageQueue": [],
+        "isSetPageProcessing": false,
+        "currentPageName": "",
+        "pageInstance": null,
+        "childPageList": []
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "ui_factory layer_class",
+      "text": "实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": "RContainer",
+      "UIName": "RContainer6",
+      "propData": {},
+      "vmData": {
+        "linkEditorFlag": true
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "RContainerka6633037c7852f672bcc1a85803cb08",
+      "cls": "layout_container component_object containerStyle",
+      "text": "实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {
+        "containerSubscriptTop": "843px"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "containerrow",
+      "text": "实例列表 新建  删除  更多操作  批量提交版本 序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {}
+    },
+    {
+      "tag": "DIV",
+      "id": "kcd70cfed67d133a6e3ca2274a9e486e",
+      "cls": "response_row",
+      "text": "序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {}
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "",
+      "text": "序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {}
+    },
+    {
+      "tag": "DIV",
+      "id": "k18c523170541352c0c9e8e4613466ca",
+      "cls": "",
+      "text": "序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {
+        "setPageQueue": [],
+        "isSetPageProcessing": false,
+        "currentPageName": "",
+        "pageInstance": null,
+        "childPageList": []
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "ui_factory layer_class",
+      "text": "序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": "ElementTable",
+      "UIName": "instanceList_ElementTable",
+      "propData": {
+        "data": [
+          {
+            "description": "Palimpsest backend runtime instance 0626 R2",
+            "displayname": "PalimpsestBack_0626R2",
+            "modeleditenvguid": "c4902fcf-26f8-434a-82aa-4d04297930fd",
+            "modelguid": "059ec133-cbf6-4212-b138-0ee081c1ac78",
+            "modelname": "盛云科技_孙宇飞_Palimpsest_后台_0623",
+            "modelversion": "4",
+            "name": "PalimpsestBack_0626R2",
+            "label": "PalimpsestBack_0626R2"
+          }
+        ],
+        "pageSizes": [
+          100,
+          150,
+          200,
+          300,
+          500
+        ],
+        "currentPage": 1,
+        "pageSize": 500,
+        "pagerCount": 7,
+        "linkList": [
+          {
+            "type": "script",
+            "script": "console.log(`[D] <实例化_框架页面> :: instanceList_ElementTable :: 触发 Select :: arguments = `, arguments);",
+            "linkId": 200001
+          },
+          {
+            "linkId": 200002,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "SelectAll"
+          },
+          {
+            "linkId": 200003,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "SelectionChange"
+          },
+          {
+            "linkId": 200004,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CellMouseEnter"
+          },
+          {
+            "linkId": 200005,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CellMouseLeave"
+          },
+          {
+            "linkId": 200006,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CellClick"
+          },
+          {
+            "linkId": 200007,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CellDbclick"
+          },
+          {
+            "linkId": 200008,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "RowClick"
+          },
+          {
+            "linkId": 200009,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "RowContextmenu"
+          },
+          {
+            "linkId": 200010,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "RowDbclick"
+          },
+          {
+            "linkId": 200011,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "HeaderClick"
+          },
+          {
+            "linkId": 200012,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "SortChange"
+          },
+          {
+            "linkId": 200013,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "FilterChange"
+          },
+          {
+            "type": "script",
+            "script": "console.log(`[D] <实例化_框架页面> :: instanceList_ElementTable :: 触发 Current-change :: arguments = `, arguments);\n\n$Variable.currentSelectedInstance = arguments[1].currentRow;",
+            "linkId": 200014
+          },
+          {
+            "linkId": 200015,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "HeaderDragend"
+          },
+          {
+            "linkId": 200016,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "ExpandChange"
+          },
+          {
+            "linkId": 200017,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CurrentPageChange"
+          },
+          {
+            "linkId": 200018,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "OnLoadSuccess"
+          },
+          {
+            "linkId": 200019,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "OnBeforeEdit"
+          },
+          {
+            "linkId": 200020,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "OnAfterEdit"
+          }
+        ],
+        "uiInputLinkList": [],
+        "uiOutputLinkList": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "hideOnSinglePage": false
+      },
+      "vmData": {
+        "linkEditorFlag": true
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "kb5f5ed64ab1b7e5d57a3f09f571f55e",
+      "cls": "PCUI_ElementTable component_object instanceList_ElementTable",
+      "text": "序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": "ElementTable",
+      "UIName": "instanceList_ElementTable",
+      "propData": {
+        "data": [
+          {
+            "description": "Palimpsest backend runtime instance 0626 R2",
+            "displayname": "PalimpsestBack_0626R2",
+            "modeleditenvguid": "c4902fcf-26f8-434a-82aa-4d04297930fd",
+            "modelguid": "059ec133-cbf6-4212-b138-0ee081c1ac78",
+            "modelname": "盛云科技_孙宇飞_Palimpsest_后台_0623",
+            "modelversion": "4",
+            "name": "PalimpsestBack_0626R2",
+            "label": "PalimpsestBack_0626R2"
+          }
+        ],
+        "pageSizes": [
+          100,
+          150,
+          200,
+          300,
+          500
+        ],
+        "currentPage": 1,
+        "pageSize": 500,
+        "pagerCount": 7,
+        "linkList": [
+          {
+            "type": "script",
+            "script": "console.log(`[D] <实例化_框架页面> :: instanceList_ElementTable :: 触发 Select :: arguments = `, arguments);",
+            "linkId": 200001
+          },
+          {
+            "linkId": 200002,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "SelectAll"
+          },
+          {
+            "linkId": 200003,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "SelectionChange"
+          },
+          {
+            "linkId": 200004,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CellMouseEnter"
+          },
+          {
+            "linkId": 200005,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CellMouseLeave"
+          },
+          {
+            "linkId": 200006,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CellClick"
+          },
+          {
+            "linkId": 200007,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CellDbclick"
+          },
+          {
+            "linkId": 200008,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "RowClick"
+          },
+          {
+            "linkId": 200009,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "RowContextmenu"
+          },
+          {
+            "linkId": 200010,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "RowDbclick"
+          },
+          {
+            "linkId": 200011,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "HeaderClick"
+          },
+          {
+            "linkId": 200012,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "SortChange"
+          },
+          {
+            "linkId": 200013,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "FilterChange"
+          },
+          {
+            "type": "script",
+            "script": "console.log(`[D] <实例化_框架页面> :: instanceList_ElementTable :: 触发 Current-change :: arguments = `, arguments);\n\n$Variable.currentSelectedInstance = arguments[1].currentRow;",
+            "linkId": 200014
+          },
+          {
+            "linkId": 200015,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "HeaderDragend"
+          },
+          {
+            "linkId": 200016,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "ExpandChange"
+          },
+          {
+            "linkId": 200017,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CurrentPageChange"
+          },
+          {
+            "linkId": 200018,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "OnLoadSuccess"
+          },
+          {
+            "linkId": 200019,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "OnBeforeEdit"
+          },
+          {
+            "linkId": 200020,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "OnAfterEdit"
+          }
+        ],
+        "uiInputLinkList": [],
+        "uiOutputLinkList": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "hideOnSinglePage": false
+      },
+      "vmData": {
+        "linkList": [
+          {
+            "type": "script",
+            "script": "console.log(`[D] <实例化_框架页面> :: instanceList_ElementTable :: 触发 Select :: arguments = `, arguments);",
+            "linkId": 200001
+          },
+          {
+            "linkId": 200002,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "SelectAll"
+          },
+          {
+            "linkId": 200003,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "SelectionChange"
+          },
+          {
+            "linkId": 200004,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CellMouseEnter"
+          },
+          {
+            "linkId": 200005,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CellMouseLeave"
+          },
+          {
+            "linkId": 200006,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CellClick"
+          },
+          {
+            "linkId": 200007,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CellDbclick"
+          },
+          {
+            "linkId": 200008,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "RowClick"
+          },
+          {
+            "linkId": 200009,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "RowContextmenu"
+          },
+          {
+            "linkId": 200010,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "RowDbclick"
+          },
+          {
+            "linkId": 200011,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "HeaderClick"
+          },
+          {
+            "linkId": 200012,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "SortChange"
+          },
+          {
+            "linkId": 200013,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "FilterChange"
+          },
+          {
+            "type": "script",
+            "script": "console.log(`[D] <实例化_框架页面> :: instanceList_ElementTable :: 触发 Current-change :: arguments = `, arguments);\n\n$Variable.currentSelectedInstance = arguments[1].currentRow;",
+            "linkId": 200014
+          },
+          {
+            "linkId": 200015,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "HeaderDragend"
+          },
+          {
+            "linkId": 200016,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "ExpandChange"
+          },
+          {
+            "linkId": 200017,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CurrentPageChange"
+          },
+          {
+            "linkId": 200018,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "OnLoadSuccess"
+          },
+          {
+            "linkId": 200019,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "OnBeforeEdit"
+          },
+          {
+            "linkId": 200020,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "OnAfterEdit"
+          }
+        ]
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "kb5f5ed64ab1b7e5d57a3f09f571f55e",
+      "cls": "el-table el-table--fit el-table--border el-table--enable-row-hover el-table--enable-row-transition el-table--medium",
+      "text": "序号名称显示名称描述模型模型版本操作1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {}
+    },
+    {
+      "tag": "TABLE",
+      "id": "",
+      "cls": "el-table__body",
+      "text": "1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {}
+    },
+    {
+      "tag": "TR",
+      "id": "",
+      "cls": "el-table__row kf-row-mcm-instance expanded",
+      "text": "1PalimpsestBack_0626R2PalimpsestBack_0626R2Palimpsest backend runtime instance 0626 R2盛云科技_孙宇飞_Palimpsest_后台_0623v4 编辑 属性 切换模型版本 形参管理 提交版本 删除",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {}
+    },
+    {
+      "tag": "DIV",
+      "id": "m数字孪生实例化_时空_提交版本",
+      "cls": "el-dialog__wrapper page_run_pop dialogPop dialogPoppage_child_209805",
+      "text": "数字孪生实例化_时空_提交版本时空仓库版本提交进度  100% 名称GUID状态详情1PalimpsestL1_0626R2aba6cf7a-0715-4966-8eaf-0f448eba7bc9100%提交成功2PalimpsestBack_0626R292d89140-0736-41f2-873b-6bfab8f3d276100%提交成功 关闭",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {}
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "page_view_container show_child_view_container",
+      "text": "时空仓库版本提交进度  100% 名称GUID状态详情1PalimpsestL1_0626R2aba6cf7a-0715-4966-8eaf-0f448eba7bc9100%提交成功2PalimpsestBack_0626R292d89140-0736-41f2-873b-6bfab8f3d276100%提交成功 关闭",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {
+        "pageData": {
+          "pageProperty": {
+            "pageSize": {},
+            "showPage": {}
+          },
+          "linkMng": {
+            "linkList": [
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]",
+              "[object]"
+            ]
+          },
+          "dataLink": [],
+          "authority": [
+            {
+              "description": "访问权限"
+            }
+          ],
+          "childPubEvent": {},
+          "authMng": [
+            {
+              "description": "访问权限"
+            }
+          ]
+        },
+        "dataLinkPageName": "",
+        "allPageList": []
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "pageView",
+      "cls": "page_view",
+      "text": "时空仓库版本提交进度  100% 名称GUID状态详情1PalimpsestL1_0626R2aba6cf7a-0715-4966-8eaf-0f448eba7bc9100%提交成功2PalimpsestBack_0626R292d89140-0736-41f2-873b-6bfab8f3d276100%提交成功 关闭",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {
+        "showPageList": [],
+        "setPageArray": [],
+        "d_uiOutputLinkList": []
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "layer_view",
+      "text": "时空仓库版本提交进度  100% 名称GUID状态详情1PalimpsestL1_0626R2aba6cf7a-0715-4966-8eaf-0f448eba7bc9100%提交成功2PalimpsestBack_0626R292d89140-0736-41f2-873b-6bfab8f3d276100%提交成功 关闭",
+      "proto": "layer",
+      "UIName": "图层1",
+      "propData": {
+        "uiInputLinkList": []
+      },
+      "vmData": {
+        "childWidth": 1320,
+        "childHeight": 760
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "RContainerke60eba2d60448683448daeabe9f9940",
+      "cls": "layout_container containerStyle",
+      "text": "时空仓库版本提交进度  100% 名称GUID状态详情1PalimpsestL1_0626R2aba6cf7a-0715-4966-8eaf-0f448eba7bc9100%提交成功2PalimpsestBack_0626R292d89140-0736-41f2-873b-6bfab8f3d276100%提交成功 关闭",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {
+        "containerSubscriptTop": "748px"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "containerrow",
+      "text": "时空仓库版本提交进度  100% 名称GUID状态详情1PalimpsestL1_0626R2aba6cf7a-0715-4966-8eaf-0f448eba7bc9100%提交成功2PalimpsestBack_0626R292d89140-0736-41f2-873b-6bfab8f3d276100%提交成功 关闭",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {}
+    },
+    {
+      "tag": "DIV",
+      "id": "k793d9f44c241443362048eaf6a2ccf9",
+      "cls": "response_row",
+      "text": "名称GUID状态详情1PalimpsestL1_0626R2aba6cf7a-0715-4966-8eaf-0f448eba7bc9100%提交成功2PalimpsestBack_0626R292d89140-0736-41f2-873b-6bfab8f3d276100%提交成功",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {}
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "",
+      "text": "名称GUID状态详情1PalimpsestL1_0626R2aba6cf7a-0715-4966-8eaf-0f448eba7bc9100%提交成功2PalimpsestBack_0626R292d89140-0736-41f2-873b-6bfab8f3d276100%提交成功",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {}
+    },
+    {
+      "tag": "DIV",
+      "id": "kfa235cc90832992596645ec456851eb",
+      "cls": "",
+      "text": "名称GUID状态详情1PalimpsestL1_0626R2aba6cf7a-0715-4966-8eaf-0f448eba7bc9100%提交成功2PalimpsestBack_0626R292d89140-0736-41f2-873b-6bfab8f3d276100%提交成功",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {
+        "setPageQueue": [],
+        "isSetPageProcessing": false,
+        "currentPageName": "",
+        "pageInstance": null,
+        "childPageList": []
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "ui_factory",
+      "text": "名称GUID状态详情1PalimpsestL1_0626R2aba6cf7a-0715-4966-8eaf-0f448eba7bc9100%提交成功2PalimpsestBack_0626R292d89140-0736-41f2-873b-6bfab8f3d276100%提交成功",
+      "proto": "ElementTable",
+      "UIName": "taskList_ElementTable",
+      "propData": {
+        "data": [
+          {
+            "name": "PalimpsestL1_0626R2",
+            "description": "Palimpsest runtime L1 unique 0626 R2 after duplicate deploy name",
+            "fullName": "PalimpsestL1_0626R2",
+            "children": [
+              "[object]"
+            ],
+            "packetVersion": 4
+          }
+        ],
+        "pageSizes": [
+          10,
+          20,
+          50,
+          100
+        ],
+        "currentPage": 1,
+        "pageSize": 10,
+        "pagerCount": 7,
+        "linkList": [
+          {
+            "linkId": 200001,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "Select"
+          },
+          {
+            "linkId": 200002,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "SelectAll"
+          },
+          {
+            "linkId": 200003,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "SelectionChange"
+          },
+          {
+            "linkId": 200004,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CellMouseEnter"
+          },
+          {
+            "linkId": 200005,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CellMouseLeave"
+          },
+          {
+            "linkId": 200006,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CellClick"
+          },
+          {
+            "linkId": 200007,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CellDbclick"
+          },
+          {
+            "linkId": 200008,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "RowClick"
+          },
+          {
+            "linkId": 200009,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "RowContextmenu"
+          },
+          {
+            "linkId": 200010,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "RowDbclick"
+          },
+          {
+            "linkId": 200011,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "HeaderClick"
+          },
+          {
+            "linkId": 200012,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "SortChange"
+          },
+          {
+            "linkId": 200013,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "FilterChange"
+          },
+          {
+            "linkId": 200014,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CurrentChange"
+          },
+          {
+            "linkId": 200015,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "HeaderDragend"
+          },
+          {
+            "linkId": 200016,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "ExpandChange"
+          },
+          {
+            "linkId": 200017,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CurrentPageChange"
+          },
+          {
+            "linkId": 200018,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "OnLoadSuccess"
+          },
+          {
+            "linkId": 200019,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "OnBeforeEdit"
+          },
+          {
+            "linkId": 200020,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "OnAfterEdit"
+          }
+        ],
+        "uiInputLinkList": [
+          {}
+        ],
+        "uiOutputLinkList": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "vmData": {
+        "linkEditorFlag": true
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "ka97bcc617e219ba5bf491396c868fb8",
+      "cls": "PCUI_ElementTable component_object taskList_ElementTable",
+      "text": "名称GUID状态详情1PalimpsestL1_0626R2aba6cf7a-0715-4966-8eaf-0f448eba7bc9100%提交成功2PalimpsestBack_0626R292d89140-0736-41f2-873b-6bfab8f3d276100%提交成功",
+      "proto": "ElementTable",
+      "UIName": "taskList_ElementTable",
+      "propData": {
+        "data": [
+          {
+            "name": "PalimpsestL1_0626R2",
+            "description": "Palimpsest runtime L1 unique 0626 R2 after duplicate deploy name",
+            "fullName": "PalimpsestL1_0626R2",
+            "children": [
+              "[object]"
+            ],
+            "packetVersion": 4
+          }
+        ],
+        "pageSizes": [
+          10,
+          20,
+          50,
+          100
+        ],
+        "currentPage": 1,
+        "pageSize": 10,
+        "pagerCount": 7,
+        "linkList": [
+          {
+            "linkId": 200001,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "Select"
+          },
+          {
+            "linkId": 200002,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "SelectAll"
+          },
+          {
+            "linkId": 200003,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "SelectionChange"
+          },
+          {
+            "linkId": 200004,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CellMouseEnter"
+          },
+          {
+            "linkId": 200005,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CellMouseLeave"
+          },
+          {
+            "linkId": 200006,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CellClick"
+          },
+          {
+            "linkId": 200007,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CellDbclick"
+          },
+          {
+            "linkId": 200008,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "RowClick"
+          },
+          {
+            "linkId": 200009,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "RowContextmenu"
+          },
+          {
+            "linkId": 200010,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "RowDbclick"
+          },
+          {
+            "linkId": 200011,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "HeaderClick"
+          },
+          {
+            "linkId": 200012,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "SortChange"
+          },
+          {
+            "linkId": 200013,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "FilterChange"
+          },
+          {
+            "linkId": 200014,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CurrentChange"
+          },
+          {
+            "linkId": 200015,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "HeaderDragend"
+          },
+          {
+            "linkId": 200016,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "ExpandChange"
+          },
+          {
+            "linkId": 200017,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CurrentPageChange"
+          },
+          {
+            "linkId": 200018,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "OnLoadSuccess"
+          },
+          {
+            "linkId": 200019,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "OnBeforeEdit"
+          },
+          {
+            "linkId": 200020,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "OnAfterEdit"
+          }
+        ],
+        "uiInputLinkList": [
+          {}
+        ],
+        "uiOutputLinkList": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "vmData": {
+        "linkList": [
+          {
+            "linkId": 200001,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "Select"
+          },
+          {
+            "linkId": 200002,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "SelectAll"
+          },
+          {
+            "linkId": 200003,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "SelectionChange"
+          },
+          {
+            "linkId": 200004,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CellMouseEnter"
+          },
+          {
+            "linkId": 200005,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CellMouseLeave"
+          },
+          {
+            "linkId": 200006,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CellClick"
+          },
+          {
+            "linkId": 200007,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CellDbclick"
+          },
+          {
+            "linkId": 200008,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "RowClick"
+          },
+          {
+            "linkId": 200009,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "RowContextmenu"
+          },
+          {
+            "linkId": 200010,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "RowDbclick"
+          },
+          {
+            "linkId": 200011,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "HeaderClick"
+          },
+          {
+            "linkId": 200012,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "SortChange"
+          },
+          {
+            "linkId": 200013,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "FilterChange"
+          },
+          {
+            "linkId": 200014,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CurrentChange"
+          },
+          {
+            "linkId": 200015,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "HeaderDragend"
+          },
+          {
+            "linkId": 200016,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "ExpandChange"
+          },
+          {
+            "linkId": 200017,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "CurrentPageChange"
+          },
+          {
+            "linkId": 200018,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "OnLoadSuccess"
+          },
+          {
+            "linkId": 200019,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "OnBeforeEdit"
+          },
+          {
+            "linkId": 200020,
+            "script": "",
+            "KSCLINKGUID": "",
+            "linkName": "OnAfterEdit"
+          }
+        ]
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "ka97bcc617e219ba5bf491396c868fb8",
+      "cls": "el-table el-table--fit el-table--border el-table--enable-row-hover el-table--enable-row-transition el-table--medium",
+      "text": "名称GUID状态详情1PalimpsestL1_0626R2aba6cf7a-0715-4966-8eaf-0f448eba7bc9100%提交成功2PalimpsestBack_0626R292d89140-0736-41f2-873b-6bfab8f3d276100%提交成功",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {}
+    },
+    {
+      "tag": "TABLE",
+      "id": "",
+      "cls": "el-table__body",
+      "text": "1PalimpsestL1_0626R2aba6cf7a-0715-4966-8eaf-0f448eba7bc9100%提交成功2PalimpsestBack_0626R292d89140-0736-41f2-873b-6bfab8f3d276100%提交成功",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {}
+    },
+    {
+      "tag": "TR",
+      "id": "",
+      "cls": "el-table__row el-table__row--level-1",
+      "text": "2PalimpsestBack_0626R292d89140-0736-41f2-873b-6bfab8f3d276100%提交成功",
+      "proto": null,
+      "UIName": null,
+      "propData": null,
+      "vmData": {}
+    }
+  ]
+}

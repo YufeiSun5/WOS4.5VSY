@@ -1,0 +1,115 @@
+{
+  "ok": true,
+  "top": {
+    "UIName": "ExcelExperimentToolbarRow",
+    "height": 220,
+    "heightStrategy": "fixedsize",
+    "colStrategy": "percentage",
+    "colsGap": 8,
+    "rowGap": {
+      "top": 8,
+      "right": 8,
+      "bottom": 8,
+      "left": 8,
+      "autotop": 0,
+      "autoright": 0,
+      "autoleft": 0,
+      "autobottom": 0
+    },
+    "cols": [
+      {
+        "UIName": "CellAddressInputCol",
+        "widthStrategy": "percentage",
+        "xs": 12,
+        "sm": 12,
+        "md": 12,
+        "lg": 12,
+        "xl": 12,
+        "objectLen": 0
+      },
+      {
+        "UIName": "CellValueInputCol",
+        "widthStrategy": "percentage",
+        "xs": 16,
+        "sm": 16,
+        "md": 16,
+        "lg": 16,
+        "xl": 16,
+        "objectLen": 0
+      },
+      {
+        "UIName": "ReadCellButtonCol",
+        "widthStrategy": "percentage",
+        "xs": 9,
+        "sm": 9,
+        "md": 9,
+        "lg": 9,
+        "xl": 9,
+        "objectLen": 0
+      },
+      {
+        "UIName": "WriteCellButtonCol",
+        "widthStrategy": "percentage",
+        "xs": 9,
+        "sm": 9,
+        "md": 9,
+        "lg": 9,
+        "xl": 9,
+        "objectLen": 0
+      },
+      {
+        "UIName": "StyleCellButtonCol",
+        "widthStrategy": "percentage",
+        "xs": 9,
+        "sm": 9,
+        "md": 9,
+        "lg": 9,
+        "xl": 9,
+        "objectLen": 0
+      },
+      {
+        "UIName": "ExportPrintProbeCol",
+        "widthStrategy": "percentage",
+        "xs": 13,
+        "sm": 13,
+        "md": 13,
+        "lg": 13,
+        "xl": 13,
+        "objectLen": 0
+      },
+      {
+        "UIName": "ExperimentResultCol",
+        "widthStrategy": "percentage",
+        "xs": 20,
+        "sm": 20,
+        "md": 20,
+        "lg": 20,
+        "xl": 20,
+        "objectLen": 0
+      },
+      {
+        "UIName": "CapabilityNotesCol",
+        "widthStrategy": "percentage",
+        "xs": 12,
+        "sm": 12,
+        "md": 12,
+        "lg": 12,
+        "xl": 12,
+        "objectLen": 0
+      }
+    ]
+  },
+  "pageViewRect": {
+    "x": 326,
+    "y": 200,
+    "w": 1201,
+    "h": 676
+  },
+  "sheetRect": {
+    "x": 328,
+    "y": 349,
+    "w": 1198,
+    "h": 526
+  },
+  "toolbarText": "Sheet1\n100%"
+}

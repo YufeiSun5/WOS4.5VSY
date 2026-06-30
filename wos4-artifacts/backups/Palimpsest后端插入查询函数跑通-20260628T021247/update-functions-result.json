@@ -1,0 +1,39 @@
+{
+  "ok": true,
+  "testId": "PAL_BACKEND_20260628021440",
+  "results": [
+    {
+      "name": "CreateAssessmentRecord",
+      "ret": 0,
+      "errorcodes": [
+        0
+      ],
+      "keys": [
+        "errorcodes",
+        "ret"
+      ]
+    },
+    {
+      "name": "QueryAssessmentRecords",
+      "ret": 0,
+      "errorcodes": [
+        0
+      ],
+      "keys": [
+        "errorcodes",
+        "ret"
+      ]
+    },
+    {
+      "name": "onCreate",
+      "ret": 0,
+      "errorcodes": [
+        0
+      ],
+      "keys": [
+        "errorcodes",
+        "ret"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "started": true,
+  "done": true,
+  "steps": [
+    {
+      "funcname": "IQueryRepoPacketsList",
+      "t": 1782627531565,
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": {
+          "errorcode": 0,
+          "errormsg": "success",
+          "repopktversionlist": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "traceID": "5189094921303937024",
+        "consumeTime": 100
+      }
+    },
+    {
+      "funcname": "IQuerySTRepoCfgInfo",
+      "t": 1782627531705,
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": {
+          "errorcode": 0,
+          "errormsg": "success",
+          "strepocfglist": [
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "strepocfgguid": "92d89140-0736-41f2-873b-6bfab8f3d276",
+              "strepocfgname": "PalimpsestBack_0626R2",
+              "strepocfgver": 7
+            }
+          ]
+        },
+        "traceID": "5189095068747836416",
+        "consumeTime": 107
+      }
+    },
+    {
+      "funcname": "IQuerySTObjectInfo",
+      "t": 1782627531857,
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": {
+          "errorcode": 0,
+          "errormsg": "success",
+          "stobjectlist": [
+            {
+              "deploy_state": "已部署",
+              "running_state": "已启动",
+              "stobjectguid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+              "stobjectname": "PalimpsestL1_0626R2"
+            }
+          ]
+        },
+        "traceID": "5189095227528989696",
+        "consumeTime": 114
+      }
+    }
+  ],
+  "t": 1782627531564,
+  "finishedAt": 1782627532012
+}

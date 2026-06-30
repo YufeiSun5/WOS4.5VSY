@@ -1,0 +1,107 @@
+{
+  "capturedAt": "2026-06-28T14:31:03.940Z",
+  "frames": [
+    {
+      "path": "top",
+      "href": "http://221.239.19.118:13001/#/main",
+      "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\n生成器\n建模系统客户端1\n组态系统客户端1\n运维部署客户端1\n接口测试\n工厂管理员客户端_对象1\n盛云_孙宇飞_Palimpsest客户端_0626R2_对象1\n盛云_孙宇飞_Palimpsest客户端_0626R2_正式蓝端",
+      "iframes": 1
+    },
+    {
+      "path": "top.0",
+      "href": "http://221.239.19.118:13001/public/?id=6192730962611142751&parentid=0&cloudid=1&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+      "text": "",
+      "iframes": 1
+    },
+    {
+      "path": "top.0.0",
+      "href": "http://221.239.19.118:13001/api/v1/GetFileContent/1/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/index.html",
+      "text": "人才考核\n实习生考核管理\n考核数据看板\n演示与调试\n展开表格演示\n归档与日志\n系统预留\n时空切换预留",
+      "iframes": 0
+    }
+  ],
+  "menuItems": [
+    {
+      "text": "实习生考核管理",
+      "cls": "el-menu-item",
+      "rect": {
+        "x": 20,
+        "y": 160,
+        "w": 303,
+        "h": 48
+      }
+    },
+    {
+      "text": "考核数据看板",
+      "cls": "el-menu-item is-active",
+      "rect": {
+        "x": 20,
+        "y": 214,
+        "w": 303,
+        "h": 48
+      }
+    },
+    {
+      "text": "展开表格演示",
+      "cls": "el-menu-item",
+      "rect": {
+        "x": 20,
+        "y": 322,
+        "w": 303,
+        "h": 48
+      }
+    },
+    {
+      "text": "归档与日志",
+      "cls": "el-menu-item",
+      "rect": {
+        "x": 20,
+        "y": 376,
+        "w": 303,
+        "h": 48
+      }
+    },
+    {
+      "text": "时空切换预留",
+      "cls": "el-menu-item",
+      "rect": {
+        "x": 20,
+        "y": 484,
+        "w": 303,
+        "h": 48
+      }
+    }
+  ],
+  "rightCandidates": [
+    {
+      "cls": "page_view",
+      "text": "人才考核\n实习生考核管理\n考核数据看板\n演示与调试\n展开表格演示\n归档与日志\n系统预留\n时空切换预留",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 899
+      }
+    },
+    {
+      "cls": "layout_container showScroll containerStyle",
+      "text": "人才考核\n实习生考核管理\n考核数据看板\n演示与调试\n展开表格演示\n归档与日志\n系统预留\n时空切换预留",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 899
+      }
+    },
+    {
+      "cls": "component_object PalimpsestLeftNavMenu",
+      "text": "人才考核\n实习生考核管理\n考核数据看板\n演示与调试\n展开表格演示\n归档与日志\n系统预留\n时空切换预留",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 343,
+        "h": 1076
+      }
+    }
+  ]
+}

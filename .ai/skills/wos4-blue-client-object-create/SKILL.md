@@ -1,21 +1,28 @@
 ---
 name: wos4-blue-client-object-create
-description: Create a runnable blue WOS4 WebJS client object from Time Space Object Management after the config client and deploy chain are already in place. Use when the task is to avoid purple FU/client objects, create a blue `js_func_unit_editor_light` client object, resolve display-name vs internal-repository-name mismatches such as `盛云_孙宇飞_Noctiluca_客户端` vs `客户端1`, and verify that `视图` really mounts a client runtime shell.
+description: WOS4 blue WebJS client object creation and runtime verification notes. Use to distinguish blue/purple client evidence, create a personal WebJS blue client object only from a deployed client template under the main spacetime 功能 tab, or verify an already deployed WebJS runtime shell. Do not use this skill to create backend/business-event/custom-calculation content in Time Space Object Management.
 ---
 
-# WOS4 Blue Client Object Create
+# WOS4 Blue Client Runtime Verify And Legacy Notes
 
 ## Overview
 
-Use this skill only after the client has already been configured and deployed far enough that `时空对象管理平台` can see the related client/template nodes.
+Use this skill for blue-client object creation and runtime verification only. It is not a backend instantiation skill.
 
-This skill is for the last step from:
+Use it only after `wos4-blue-client-publish-flow` has proven that the target client package/template exists or that an existing blue WebJS card should be reopened. Prefer updating/reusing an existing meaningful blue client object over creating duplicates.
+
+Current project rule:
 
 ```text
-已部署客户端模板
--> 蓝色 WebJS 运行对象
--> 视图打开运行壳
+建模系统: write/submit source model, business events, custom calculations
+-> 组态系统客户端: instantiate runtime-bearing models and bind pages/clients
+-> 运维部署客户端: deploy / update / start
+-> 时空对象管理平台: read spacetime info, verify objects, open view/log/debug
 ```
+
+`时空对象管理平台` is not a backend creation workaround. If a backend/business-event/custom-calculation object is absent there, go back to 运维部署 or model/package version work.
+
+WebJS blue client objects are the only object-management creation exception: after a config client has been submitted, packaged, deployed, and started, create or verify the personal WebJS app object from the main spacetime `功能` tab. This exception does not apply to backend/business-event/custom-calculation objects.
 
 Do not use it for:
 
@@ -23,7 +30,9 @@ Do not use it for:
 - layout editing
 - backend FU creation
 - general deploy management
-- public/shared object creation
+- public/shared object creation without the explicit role-binding step
+- current backend/business-event/custom-calculation debugging
+- creating backend/business-event/custom-calculation objects in `时空对象管理平台`
 
 ## Required Skills
 
@@ -66,18 +75,72 @@ If the result is purple, stop and go back to template selection. Do not continue
 
 For WOS4 clients, the visible renamed client and the internal runtime repo can diverge.
 
-Verified `Noctiluca` example:
+Historical `Noctiluca` example:
 
 - visible renamed node: `盛云_孙宇飞_Noctiluca_客户端`
 - internal runtime repo node: `客户端1`
 
-Do not assume the visible renamed node is the correct create context.
+Do not generalize `客户端1` as the correct create context for new work. Treat it as old evidence that visible names and runtime repos can diverge.
 
 The template selector is authoritative.
 
-## Failed Route
+Current rule:
 
-This route is verified as unstable for `Noctiluca`:
+```text
+Open the WebJS template selector
+-> choose the exact target repository/template shown there
+-> confirm language type is WebJS
+-> compare copy/model version with the client package expected from the publish flow
+```
+
+If the selector still shows an old model version after client update/submit/deploy, stop and return to 组态/运维 version propagation. Do not create another blue object from the stale template.
+
+## Current Palimpsest Route: WebJS Object Verification/Creation
+
+Use this route only after the config client row is already deployed/started and the WebJS template copy exists.
+
+```text
+时空对象管理平台
+-> select main spacetime `PalimpsestL1_0626R2`
+-> top tab `功能`
+-> 创建
+-> 应用模板: 选择
+-> 仓库: `盛云_孙宇飞_Palimpsest客户端_0626R2`
+-> select row:
+   名称: 盛云_孙宇飞_Palimpsest客户端_0626R2
+   语言类型: WebJS
+   拷贝ID: 7205759403792797202
+   拷贝GUID: 5f2c8c4b-5ed5-4d0a-9444-a7ffaf0f67a2
+   模型GUID: f5f8c456-e145-4d85-b1c3-dc3a17e7b512
+   模型版本: 118
+-> 确定
+-> name the object with a meaningful personal name
+-> keep `个人应用` for first runtime verification
+-> 确定
+```
+
+Observed created desktop cards:
+
+```text
+盛云_孙宇飞_Palimpsest客户端_0626R2_对象1
+  class: data-item card-item is-stop
+
+盛云_孙宇飞_Palimpsest客户端_0626R2_正式蓝端
+  icon: js_func_unit_editor_light-DMRXO09p.1780642478302.png
+  class: data-item card-item
+```
+
+Observed Palimpsest caveats:
+
+- Do not use `$Client -> 三方APP -> 创建` for WebJS. That path is for container third-party apps and can fail with `仓库不存在 / 654319619`.
+- The main spacetime `功能` list can show `共 1 条` and still render `暂无数据`; refresh back to the desktop and check blue WebJS cards.
+- `名称重复, 请检查` after submitting a meaningful name can mean the previous click already created the object while the list failed to render it.
+- The access-spacetime configuration dialog accepts rows such as `云ID=1` and `时空GUID=aba6cf7a-0715-4966-8eaf-0f448eba7bc9`, but the first successful personal object creation did not visibly require this field.
+- In browser-harness, real double-click did not open the desktop card in this run. Dispatching DOM `click/dblclick` to the visible `.data-item.card-item` opened the app. Treat this as a harness workaround, not a human workflow.
+
+## Deprecated Historical Route: Failed Object-Management Creation
+
+This historical route is now prohibited for current work. It is kept only as failure evidence for `Noctiluca`:
 
 ```text
 时空对象管理平台
@@ -100,9 +163,9 @@ Observed result:
 
 Do not reuse that route as the stable path.
 
-## Verified Route
+## Deprecated Historical Route: Object-Management Creation
 
-Verified `Noctiluca` route:
+This route was once verified for `Noctiluca`, but conflicts with the current backend-chain rule because it creates content in `时空对象管理平台`. Keep it as historical evidence only:
 
 ```text
 时空对象管理平台
@@ -131,9 +194,9 @@ Verified template fields:
 - model guid: `f5f8c456-e145-4d85-b1c3-dc3a17e7b512`
 - model version: `105`
 
-## 2026-06-22 Verified New-Client Route
+## Deprecated Historical Route: 2026-06-22 New-Client Creation
 
-Use this route when the task is to publish a newly named client instead of reusing the older internal `客户端1`.
+This route is historical only. Do not use it for current backend work or as a general publishing pattern.
 
 Verified project and client:
 
@@ -153,7 +216,7 @@ Precondition from `运维部署客户端 -> 数字孪生可视化`:
 
 If deployment/start status appears stale, switch to another工程 and back to `盛云_孙宇飞_CRUD工程_0620`, then re-enter `数字孪生可视化`.
 
-Object-management route:
+Deprecated object-management creation route:
 
 ```text
 时空对象管理平台
@@ -197,13 +260,13 @@ toolbar after selection:
   停止 / 编辑 / 日志 / 监视 / 视图 enabled
 ```
 
-## Acceptance
+## Current Acceptance For Already-Deployed Blue Runtime
 
-Do not mark this step complete until all are true:
+Do not mark already-deployed runtime verification complete until all are true:
 
-1. No `仓库不存在` error after submit.
+1. The target blue client object appears from the main spacetime `功能` WebJS route or as a desktop blue card; backend objects were not created in object management.
 2. A blue card appears with icon asset `js_func_unit_editor_light-...png`.
-3. `我创建的 -> 全部` contains the new object.
+3. The object-management tree/card belongs to the expected time-space/project.
 4. The running row/card has class like:
 
 ```text
@@ -211,6 +274,7 @@ data-item is-running
 ```
 
 5. After selecting the object, toolbar `停止 / 编辑 / 日志 / 视图` are enabled and `启动` is disabled.
+6. Time-space information recorded for debugging comes from `时空对象管理平台`, not from a guessed URL or only from `时空功能开发平台`.
 
 ## View Validation
 
@@ -258,7 +322,7 @@ Do not use this dynamic URL as an entry path; record it only as evidence.
 
 ## Current Limit And Strongest Evidence
 
-The AI-verified minimum route is still:
+The AI-verified minimum route for older Nadir evidence is still:
 
 ```text
 时空对象管理平台
@@ -267,9 +331,42 @@ The AI-verified minimum route is still:
 -> 视图
 ```
 
+This is a verification route only for that older evidence. For current Palimpsest WebJS blue-client object creation, use the main spacetime `功能 -> 创建 -> WebJS` route above.
+
 User follow-up evidence later confirmed that the blue client card is now visible on the desktop and can be opened in the current session.
 
 Treat that as stronger business evidence that publishing worked.
 
-But do not replace the AI minimum acceptance path above until a clean-session replay independently re-verifies desktop-card surfacing and opening behavior.
+2026-06-28 Palimpsest clean runtime evidence:
+
+```text
+desktop card opened:
+  盛云_孙宇飞_Palimpsest客户端_0626R2_正式蓝端
+
+runtime:
+  /public/?id=6192730962611142751&parentid=0&cloudid=1&areaid=0&username=孙宇飞&bs=true
+  -> GetFileContent/.../f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/index.html
+
+mounted text:
+  人才考核
+  实习生考核管理
+  考核数据看板
+  演示与调试
+  展开表格演示
+  归档与日志
+  系统预留
+  时空切换预留
+```
+
+Runtime not yet accepted for final three-page composition: `PalimpsestMenu_18` mounted, but menu clicks did not load `PalimpsestContent_82` into the right-side area in the verified blue client.
+
+## False Routes To Delete From Future Plans
+
+Do not propose these as current work:
+
+- Create backend/business-event/custom-calculation content in `时空对象管理平台`.
+- Use `$Client -> 三方APP -> 创建` for WebJS blue clients.
+- Treat `客户端1 / WebJS` as a universal target template.
+- Create another blue object when a meaningful existing blue object can be refreshed and reopened.
+- Validate against an old `public/index.html?...clientGuid...` tab after updating the client. Always reopen a fresh blue client/runtime.
 

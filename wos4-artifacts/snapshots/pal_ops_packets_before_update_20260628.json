@@ -1,0 +1,36 @@
+{
+  "repoGuid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+  "q": {
+    "funcname": "IQueryRepoPacketsList",
+    "setRunInfo": {
+      "ret": 0,
+      "msg": "修改成功!"
+    },
+    "res": {
+      "ret": -210133,
+      "consumeTime": 37
+    }
+  },
+  "cfg": {
+    "funcname": "IQuerySTRepoCfgInfo",
+    "setRunInfo": {
+      "ret": 0,
+      "msg": "修改成功!"
+    },
+    "res": {
+      "ret": -210133,
+      "consumeTime": 45
+    }
+  },
+  "obj": {
+    "funcname": "IQuerySTObjectInfo",
+    "setRunInfo": {
+      "ret": 0,
+      "msg": "修改成功!"
+    },
+    "res": {
+      "ret": -210133,
+      "consumeTime": 33
+    }
+  }
+}

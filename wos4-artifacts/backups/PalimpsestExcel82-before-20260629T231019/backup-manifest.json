@@ -1,0 +1,17 @@
+{
+  "backupType": "replayable-runtime-layout-and-components",
+  "page": "PalimpsestExcel_82",
+  "ai": "xiang_xuezhi_frontend-ai",
+  "files": [
+    "before-runtime.json",
+    "restore-runtime.js",
+    "before-editor.png"
+  ],
+  "contains": [
+    "root layout rowsManager",
+    "component propData/data/options",
+    "RCol getObject child objects",
+    "detailConfig/styleConfig/linkList",
+    "method inventory for report/spreadsheet probe"
+  ]
+}

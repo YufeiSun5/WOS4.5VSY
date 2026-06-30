@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "applyResult": {
+    "ok": true,
+    "path": "top.0.0.0",
+    "tableRows": 0,
+    "queryScriptLength": 18433,
+    "tableDetailLength": 1311,
+    "queryLinkEnabled": true,
+    "cellClickEnabled": true
+  },
+  "verify": {
+    "ok": true,
+    "path": "top.0.0.0",
+    "hasDecorate": true,
+    "hasPreferredOrder": true,
+    "scriptLength": 18433
+  }
+}

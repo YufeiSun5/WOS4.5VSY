@@ -1,0 +1,18 @@
+{
+  "backupType": "replayable-runtime-layout-and-components",
+  "page": "PalimpsestExpandTable_82_Demo",
+  "ai": "???_frontend-ai",
+  "createdAt": "2026-06-26T18:56:57",
+  "files": [
+    "before-runtime.json",
+    "restore-runtime.js",
+    "before-editor.png"
+  ],
+  "contains": [
+    "root layout rowsManager",
+    "component propData/data/options",
+    "RCol getObject child objects",
+    "detailConfig/styleConfig/linkList",
+    "restore script"
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "moreClickRect": {
+    "x": 1369.720458984375,
+    "y": 597.6806640625,
+    "w": 30.3048095703125,
+    "h": 15.1573486328125,
+    "inner": {
+      "x": 1359.720458984375,
+      "y": 537.6806640625,
+      "w": 30.3048095703125,
+      "h": 15.1573486328125
+    }
+  },
+  "moreState": {
+    "button": {
+      "x": 1359.720458984375,
+      "y": 537.6806640625,
+      "w": 30.3048095703125,
+      "h": 15.1573486328125
+    },
+    "menu": {
+      "x": 1398,
+      "y": 538,
+      "w": 132,
+      "h": 102.8125
+    },
+    "dx": 8,
+    "dy": 0,
+    "text": "复制记录\n查看日志\n删除记录",
+    "last": {
+      "action": "more",
+      "row": {
+        "name": "李明轩",
+        "studentId": "S2024041001",
+        "dept": "产品部",
+        "mentor": "王思远",
+        "professional": "97%",
+        "attitude": "85%",
+        "task": "85%",
+        "score": "92.6",
+        "status": "已完成",
+        "updated": "2024-06-12 14:30",
+        "viewAction": "查看",
+        "scoreAction": "评分",
+        "editAction": "编辑",
+        "moreAction": "更多▾",
+        "rowIndex": "1"
+      },
+      "time": 1782500489614,
+      "menuRect": {
+        "left": "1398px",
+        "top": "538px"
+      }
+    },
+    "rowCount": 0
+  },
+  "copyState": {
+    "last": {
+      "action": "copy",
+      "row": {
+        "name": "李明轩副本",
+        "studentId": "S2024041001C",
+        "dept": "产品部",
+        "mentor": "王思远",
+        "professional": "97%",
+        "attitude": "85%",
+        "task": "85%",
+        "score": "92.6",
+        "status": "已完成",
+        "updated": "2026-06-27 02:55",
+        "viewAction": "查看",
+        "scoreAction": "评分",
+        "editAction": "编辑",
+        "moreAction": "更多▾",
+        "rowIndex": "2"
+      },
+      "time": 1782500490571
+    },
+    "rowCount": 7,
+    "body": "文件(F)\n提交\n预览\n\n组件\n\n布局容器\nUI组件\n图表组件\n流程图\n精灵图库\nPalimpsestContent_82\n状态\n\t\n部门\n\t\n导师\n\t\n批次\n\t\n时间\n\t\n关键词\n\t\nBackend Smoke\n重置\n导出\n\n姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综合评分\t状态\t更新时间\t查看\t评分\t编辑\t更多\n李明轩\n\t\nS2024041001\n\t\n产品部\n\t\n王思远\n\t\n97%\n\t\n85%\n\t\n85%\n\t\n92.6\n\t已完成\t\n2024-06-12 14:30\n\t查看\t\n评分\n\t\n编辑\n\t\n更多▾\n\n\n李明轩副本\n\t\nS2024041001C\n\t\n产品部\n\t\n王思远\n\t\n97%\n\t\n85%\n\t\n85%\n\t\n92.6\n\t已完成\t\n2026-06-27 02:55\n\t查看\t\n评分\n\t\n编辑\n\t\n更多▾\n\n\n张雨婷\n\t\nS2024041002\n\t\n研发部\n\t\n陈浩然\n\t\n96%\n\t\n84%\n\t\n84%\n\t\n89.3\n\t已完成\t\n2024-06-11 11:20\n\t查看\t\n评分\n\t\n编辑\n\t\n更多▾\n\n\n王子涵\n\t\nS2024041003\n\t\n设计部\n\t\n刘佳怡\n\t\n95%\n\t\n83%\n\t\n83%\n\t\n87.4\n\t已完成\t\n2024-06-10 16:45\n\t查看\t\n评分\n\t\n编辑\n\t\n更多▾\n\n\n赵天宇\n\t\nS2024041004\n\t\n市场部\n\t\n孙一凡\n\t\n95%\n\t\n82%\n\t\n82%\n\t\n85.1\n\t已完成\t\n2024-06-09 09:15\n\t查看\t\n评分\n\t\n编辑\n\t\n更多▾\n\n\n陈欣怡\n\t\nS2024041005\n\t\n运营部\n\t\n周子墨\n\t\n93%\n\t\n80%\n\t\n80%\n\t\n83.6\n\t待考核\t\n2024-06-08 10:05\n\t查看\t\n评分\n\t\n编辑\n\t\n更多▾\n\n\n刘宇航\n\t\nS2024041006\n\t\n测试部\n\t\n吴昊天\n\t\n92%\n\t\n78%\n\t\n78%\n\t\n81.2\n\t待考核\t\n2024-06-07 15:40\n\t查看\t\n评分\n\t\n编辑\n\t\n更多▾\n共 7 条\n1\n前往页\n属性\n基本\n名称\n\t\n\n\n类型\n\t\nElementTable\n\n\n描述\n\t\n位置\n横坐标\n\t\n2\n\n\n纵坐标\n\t\n602\n配置\n数据配置\n\t\n配置\n\n\n样式配置\n\t\n配置\n变量联动\n选中行\n\t\n配置\n\n\n勾选行\n\t\n配置\n事件联动\n   行单击\n   行双击\n   行右击\n变量联动\nif()\n配置\n页面跳转\nif()\n配置\n数据集联动\nif()\n配置\n属性\nshow-header\n\t\n\n\nhighlight-current-row\n\t\n\n\nempty-text\n\t\n\n\ndefault-expand-all\n\t\n\n\n点击空白取消高亮\n\t\n\n\n是否单选\n\t\n\n\n树形数据懒加载\n\t\n\n\n虚拟滚动\n\t\n其他\n是否被锁住\n\t\n\n\n是否显示\n\t\n\n\n运行是否显"
+  },
+  "editStateBeforeSave": {
+    "panelText": "编辑记录×姓名部门状态已完成待考核取消保存"
+  },
+  "editState": {
+    "last": {
+      "action": "edit",
+      "row": {
+        "name": "李明轩",
+        "studentId": "S2024041001",
+        "dept": "QA-Demo",
+        "mentor": "王思远",
+        "professional": "97%",
+        "attitude": "85%",
+        "task": "85%",
+        "score": "92.6",
+        "status": "已完成",
+        "updated": "2026-06-27 02:55",
+        "viewAction": "查看",
+        "scoreAction": "评分",
+        "editAction": "编辑",
+        "moreAction": "更多▾",
+        "rowIndex": "1"
+      },
+      "time": 1782500491485,
+      "result": "saved"
+    },
+    "first": {
+      "name": "李明轩",
+      "studentId": "S2024041001",
+      "dept": "QA-Demo",
+      "mentor": "王思远",
+      "professional": "97%",
+      "attitude": "85%",
+      "task": "85%",
+      "score": "92.6",
+      "status": "已完成",
+      "updated": "2026-06-27 02:55",
+      "viewAction": "查看",
+      "scoreAction": "评分",
+      "editAction": "编辑",
+      "moreAction": "更多▾",
+      "rowIndex": "1"
+    },
+    "hasQa": true
+  }
+}

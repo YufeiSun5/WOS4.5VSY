@@ -1,0 +1,1213 @@
+[
+  {
+    "path": "rootData.rowsManager.1.colsManager.2.object.0",
+    "UIName": "pal_query_button",
+    "prototypeName": "ElementButton",
+    "detailConfig": "this.button({ text: \"\\u67e5\\u8be2\\u771f\\u5b9e\\u6570\\u636e\" })",
+    "linkList": [
+      {
+        "name": "OnClick",
+        "property": "upDateLink",
+        "type": "script",
+        "enable": true,
+        "script": "(function(ctx){\n  var self = ctx || this;\n  var mgr = self.KMComponentsMng || (self.$parent && self.$parent.KMComponentsMng);\n  var kids = mgr && (mgr.$Children || mgr['$'+'Children']);\n  var table = kids && kids.pal_assessment_table;\n  function columns(){ return [{\"prop\":\"name\",\"label\":\"记录ID\",\"minWidth\":\"170\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"studentId\",\"label\":\"学号\",\"minWidth\":\"120\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"dept\",\"label\":\"批次\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"mentor\",\"label\":\"导师\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"professional\",\"label\":\"专业能力\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"attitude\",\"label\":\"工作态度\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"task\",\"label\":\"任务完成\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"score\",\"label\":\"综合评分\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"status\",\"label\":\"状态\",\"minWidth\":\"110\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"updated\",\"label\":\"更新时间\",\"minWidth\":\"145\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"actions\",\"label\":\"操作\",\"minWidth\":\"150\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false}]; }\n  function cfg(rows){ return {border:false,fit:true,showHeader:true,emptyText:'暂无匹配数据',pagination:true,pageSize:10,currentPage:1,columns:columns(),totalData:rows}; }\n  function val(x){ if(x && typeof x === 'object' && x.utcTime) return x.utcTime; return x == null ? '' : String(x); }\n  function rowsFromResult(r){\n    var rows=[]; var payload = r && r.returndata;\n    if(typeof payload === 'string') { try { payload = JSON.parse(payload); } catch(e) { payload = null; } }\n    var ds = payload && payload.map && payload.map.data && payload.map.data.map && payload.map.data.map.output && payload.map.data.map.output.map && payload.map.data.map.output.map.returndatas && payload.map.data.map.output.map.returndatas.elements && payload.map.data.map.output.map.returndatas.elements[0];\n    var cols = ds && ds.colNames || []; var values = ds && ds.rowValues || [];\n    function get(row,name){ var i=cols.indexOf(name); return i>=0 ? row[i] : ''; }\n    rows = values.map(function(row,idx){\n      var updated = get(row,'updated_at'); if(updated && typeof updated === 'object' && updated.utcTime) updated = updated.utcTime;\n      return {name:val(get(row,'id')),studentId:val(get(row,'student_id')),dept:val(get(row,'batch_id')),mentor:val(get(row,'mentor_id')),professional:val(get(row,'professional_score')),attitude:val(get(row,'attitude_score')),task:val(get(row,'task_score')),score:val(get(row,'total_score')),status:val(get(row,'status')),updated:val(updated).replace('.0.0',''),recordID:val(get(row,'$recordID')),viewAction:'查看',scoreAction:'评分',editAction:'编辑',moreAction:'更多▾',actions:'查看 评分 编辑 更多'};\n    });\n    return rows;\n  }\n  if(self.button) self.button({text:'查询中...'});\n  var inParams = new StringMap({});\n  inParams._insert('action','query','string');\n  inParams._insert('pageNo',1,'int32');\n  inParams._insert('pageSize',20,'int32');\n  inParams._insert('keyword','','string');\n  SetRunInfo({stType:4,spaceTime:'aba6cf7a-0715-4966-8eaf-0f448eba7bc9',devName:'PalimpsestBack_0626R2'}, function(changeRes){\n    Call(new StringMap({type:21001,cloudID:getLocalCloudID(),areaID:0,timeout:8000}), new StringMap({identifierType:2,name:'PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2',funcname:'QueryAssessmentRecords',params:[new Variant(inParams)]}))\n    .then(function(r){\n      var rows = rowsFromResult(r);\n      if(table && table.table) table.table(cfg(rows));\n      window.__palLastAssessmentQuery = {ret:r.ret, rows:rows, changeRes:changeRes, at:new Date().toISOString()};\n      if(self.button) self.button({text:'查询真实数据 / '+rows.length+'条'});\n    }).catch(function(err){\n      window.__palLastAssessmentQuery = {error:String(err), at:new Date().toISOString()};\n      if(self.button) self.button({text:'查询失败: '+String(err).slice(0,32)});\n    });\n  });\n})(this);",
+        "linkId": 200001,
+        "KSCGUID": "kd47ab7eca43ec7e36056175c4a98657",
+        "linkName": "OnClick"
+      }
+    ]
+  },
+  {
+    "path": "rootData.rowsManager.4.colsManager.0.object.0",
+    "UIName": "pal_assessment_table",
+    "prototypeName": "ElementTable",
+    "detailConfig": "this.table({\"border\":false,\"fit\":true,\"showHeader\":true,\"emptyText\":\"暂无匹配数据\",\"pagination\":true,\"pageSize\":10,\"currentPage\":1,\"columns\":[{\"prop\":\"name\",\"label\":\"记录ID\",\"minWidth\":\"170\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"studentId\",\"label\":\"学号\",\"minWidth\":\"120\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"dept\",\"label\":\"批次\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"mentor\",\"label\":\"导师\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"professional\",\"label\":\"专业能力\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"attitude\",\"label\":\"工作态度\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"task\",\"label\":\"任务完成\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"score\",\"label\":\"综合评分\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"status\",\"label\":\"状态\",\"minWidth\":\"110\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"updated\",\"label\":\"更新时间\",\"minWidth\":\"145\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"actions\",\"label\":\"操作\",\"minWidth\":\"150\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false}],\"totalData\":[{\"name\":\"PAL_DIRECT6_20260627175612\",\"studentId\":\"S2026041001\",\"dept\":\"2024Q2\",\"mentor\":\"M001\",\"professional\":\"38\",\"attitude\":\"18\",\"task\":\"18\",\"score\":\"92\",\"status\":\"done\",\"updated\":\"2026-6-27 17:55\",\"recordID\":\"216172782113783809\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"actions\":\"查看 评分 编辑 更多\"},{\"name\":\"PAL_DIRECT6_20260627210127\",\"studentId\":\"S2026041001\",\"dept\":\"2024Q2\",\"mentor\":\"M001\",\"professional\":\"38\",\"attitude\":\"18\",\"task\":\"18\",\"score\":\"92\",\"status\":\"done\",\"updated\":\"2026-6-27 17:55\",\"recordID\":\"216172782113783810\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"actions\":\"查看 评分 编辑 更多\"},{\"name\":\"PAL_REMAIN_A_20260628005847\",\"studentId\":\"S2026041001\",\"dept\":\"2024Q2\",\"mentor\":\"M001\",\"professional\":\"40\",\"attitude\":\"19\",\"task\":\"19\",\"score\":\"98\",\"status\":\"completed_by_submit\",\"updated\":\"2026-6-28 5:30\",\"recordID\":\"216172782113783811\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"actions\":\"查看 评分 编辑 更多\"}]})",
+    "linkList": [
+      {
+        "linkId": 200001,
+        "enable": false,
+        "KSCGUID": "k2e7729d44781322eaee595de851c86f",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "Select"
+      },
+      {
+        "linkId": 200002,
+        "enable": false,
+        "KSCGUID": "k9a505d552b9053d30b6a8993ba381cd",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "SelectAll"
+      },
+      {
+        "linkId": 200003,
+        "enable": false,
+        "KSCGUID": "k58077219968da2bd075f196c20ff5ec",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "SelectionChange"
+      },
+      {
+        "linkId": 200004,
+        "enable": false,
+        "KSCGUID": "k8daba2769fc1a0746e8f4b319d21ab3",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CellMouseEnter"
+      },
+      {
+        "linkId": 200005,
+        "enable": false,
+        "KSCGUID": "k88a34ab7b2507e3df0c93a8d413e1f2",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CellMouseLeave"
+      },
+      {
+        "linkId": 200006,
+        "enable": true,
+        "KSCGUID": "k4799f9eebb9227838fb1dd17dc4cbfa",
+        "script": "var e=arguments[1]||{};if(window.__palTableHandleAction)window.__palTableHandleAction(e);",
+        "KSCLINKGUID": "",
+        "linkName": "CellClick"
+      },
+      {
+        "linkId": 200007,
+        "enable": false,
+        "KSCGUID": "k1fe1e0794a5a2281bf323475e73ff23",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CellDbclick"
+      },
+      {
+        "linkId": 200008,
+        "enable": false,
+        "KSCGUID": "k96fe89e7b45e7689a78846255d54960",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "RowClick"
+      },
+      {
+        "linkId": 200009,
+        "enable": false,
+        "KSCGUID": "k787f8576d762455a060973bf8bafaf3",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "RowContextmenu"
+      },
+      {
+        "linkId": 200010,
+        "enable": false,
+        "KSCGUID": "k65aa92476fb6700cfb740b8b25e10a7",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "RowDbclick"
+      },
+      {
+        "linkId": 200011,
+        "enable": false,
+        "KSCGUID": "k737c40e17f3c0b3ac5cc6238492ec71",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "HeaderClick"
+      },
+      {
+        "linkId": 200012,
+        "enable": false,
+        "KSCGUID": "k049bf8483ef5cfb629460beb0a6449b",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "SortChange"
+      },
+      {
+        "linkId": 200013,
+        "enable": false,
+        "KSCGUID": "kece27f515fc9f5fafa652e7845a6e01",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "FilterChange"
+      },
+      {
+        "linkId": 200014,
+        "enable": false,
+        "KSCGUID": "kd09fd41f1a7956436abe15744834079",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CurrentChange"
+      },
+      {
+        "linkId": 200015,
+        "enable": false,
+        "KSCGUID": "k10b4177cf2f403b5e0808b94b338dda",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "HeaderDragend"
+      },
+      {
+        "linkId": 200016,
+        "enable": false,
+        "KSCGUID": "k8fef4fae1d3feed2e2e0687eca64bfd",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "ExpandChange"
+      },
+      {
+        "linkId": 200017,
+        "enable": false,
+        "KSCGUID": "kd71302763f6893566290573c8862a88",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CurrentPageChange"
+      },
+      {
+        "linkId": 200018,
+        "enable": false,
+        "KSCGUID": "k6cffcd85fa72bb6d1cf8024c60be94c",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "OnLoadSuccess"
+      },
+      {
+        "linkId": 200019,
+        "enable": false,
+        "KSCGUID": "ka622c0c483128636b9242b6840d32c9",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "OnBeforeEdit"
+      },
+      {
+        "linkId": 200020,
+        "enable": false,
+        "KSCGUID": "k82f33b4f8d9b2ff4c5f713712cefb06",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "OnAfterEdit"
+      },
+      {
+        "linkId": 200021,
+        "enable": false,
+        "KSCGUID": "k42220d4da9150af734378f72ccfa68c",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "PageSizeChange"
+      }
+    ]
+  },
+  {
+    "path": "components.15",
+    "key": "pal_query_button",
+    "UIName": "pal_query_button",
+    "prototypeName": "ElementButton",
+    "propData": {
+      "UIName": "pal_query_button",
+      "detailConfig": "this.button({ text: \"\\u67e5\\u8be2\\u771f\\u5b9e\\u6570\\u636e\" })",
+      "linkList": [
+        {
+          "name": "OnClick",
+          "property": "upDateLink",
+          "type": "script",
+          "enable": true,
+          "script": "(function(ctx){\n  var self = ctx || this;\n  var mgr = self.KMComponentsMng || (self.$parent && self.$parent.KMComponentsMng);\n  var kids = mgr && (mgr.$Children || mgr['$'+'Children']);\n  var table = kids && kids.pal_assessment_table;\n  function columns(){ return [{\"prop\":\"name\",\"label\":\"记录ID\",\"minWidth\":\"170\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"studentId\",\"label\":\"学号\",\"minWidth\":\"120\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"dept\",\"label\":\"批次\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"mentor\",\"label\":\"导师\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"professional\",\"label\":\"专业能力\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"attitude\",\"label\":\"工作态度\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"task\",\"label\":\"任务完成\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"score\",\"label\":\"综合评分\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"status\",\"label\":\"状态\",\"minWidth\":\"110\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"updated\",\"label\":\"更新时间\",\"minWidth\":\"145\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"actions\",\"label\":\"操作\",\"minWidth\":\"150\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false}]; }\n  function cfg(rows){ return {border:false,fit:true,showHeader:true,emptyText:'暂无匹配数据',pagination:true,pageSize:10,currentPage:1,columns:columns(),totalData:rows}; }\n  function val(x){ if(x && typeof x === 'object' && x.utcTime) return x.utcTime; return x == null ? '' : String(x); }\n  function rowsFromResult(r){\n    var rows=[]; var payload = r && r.returndata;\n    if(typeof payload === 'string') { try { payload = JSON.parse(payload); } catch(e) { payload = null; } }\n    var ds = payload && payload.map && payload.map.data && payload.map.data.map && payload.map.data.map.output && payload.map.data.map.output.map && payload.map.data.map.output.map.returndatas && payload.map.data.map.output.map.returndatas.elements && payload.map.data.map.output.map.returndatas.elements[0];\n    var cols = ds && ds.colNames || []; var values = ds && ds.rowValues || [];\n    function get(row,name){ var i=cols.indexOf(name); return i>=0 ? row[i] : ''; }\n    rows = values.map(function(row,idx){\n      var updated = get(row,'updated_at'); if(updated && typeof updated === 'object' && updated.utcTime) updated = updated.utcTime;\n      return {name:val(get(row,'id')),studentId:val(get(row,'student_id')),dept:val(get(row,'batch_id')),mentor:val(get(row,'mentor_id')),professional:val(get(row,'professional_score')),attitude:val(get(row,'attitude_score')),task:val(get(row,'task_score')),score:val(get(row,'total_score')),status:val(get(row,'status')),updated:val(updated).replace('.0.0',''),recordID:val(get(row,'$recordID')),viewAction:'查看',scoreAction:'评分',editAction:'编辑',moreAction:'更多▾',actions:'查看 评分 编辑 更多'};\n    });\n    return rows;\n  }\n  if(self.button) self.button({text:'查询中...'});\n  var inParams = new StringMap({});\n  inParams._insert('action','query','string');\n  inParams._insert('pageNo',1,'int32');\n  inParams._insert('pageSize',20,'int32');\n  inParams._insert('keyword','','string');\n  SetRunInfo({stType:4,spaceTime:'aba6cf7a-0715-4966-8eaf-0f448eba7bc9',devName:'PalimpsestBack_0626R2'}, function(changeRes){\n    Call(new StringMap({type:21001,cloudID:getLocalCloudID(),areaID:0,timeout:8000}), new StringMap({identifierType:2,name:'PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2',funcname:'QueryAssessmentRecords',params:[new Variant(inParams)]}))\n    .then(function(r){\n      var rows = rowsFromResult(r);\n      if(table && table.table) table.table(cfg(rows));\n      window.__palLastAssessmentQuery = {ret:r.ret, rows:rows, changeRes:changeRes, at:new Date().toISOString()};\n      if(self.button) self.button({text:'查询真实数据 / '+rows.length+'条'});\n    }).catch(function(err){\n      window.__palLastAssessmentQuery = {error:String(err), at:new Date().toISOString()};\n      if(self.button) self.button({text:'查询失败: '+String(err).slice(0,32)});\n    });\n  });\n})(this);",
+          "linkId": 200001,
+          "KSCGUID": "kd47ab7eca43ec7e36056175c4a98657",
+          "linkName": "OnClick"
+        }
+      ]
+    },
+    "detailConfig": "this.button({ text: \"\\u67e5\\u8be2\\u771f\\u5b9e\\u6570\\u636e\" })",
+    "linkList": [
+      {
+        "name": "OnClick",
+        "property": "upDateLink",
+        "type": "script",
+        "enable": true,
+        "script": "(function(ctx){\n  var self = ctx || this;\n  var mgr = self.KMComponentsMng || (self.$parent && self.$parent.KMComponentsMng);\n  var kids = mgr && (mgr.$Children || mgr['$'+'Children']);\n  var table = kids && kids.pal_assessment_table;\n  function columns(){ return [{\"prop\":\"name\",\"label\":\"记录ID\",\"minWidth\":\"170\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"studentId\",\"label\":\"学号\",\"minWidth\":\"120\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"dept\",\"label\":\"批次\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"mentor\",\"label\":\"导师\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"professional\",\"label\":\"专业能力\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"attitude\",\"label\":\"工作态度\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"task\",\"label\":\"任务完成\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"score\",\"label\":\"综合评分\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"status\",\"label\":\"状态\",\"minWidth\":\"110\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"updated\",\"label\":\"更新时间\",\"minWidth\":\"145\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"actions\",\"label\":\"操作\",\"minWidth\":\"150\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false}]; }\n  function cfg(rows){ return {border:false,fit:true,showHeader:true,emptyText:'暂无匹配数据',pagination:true,pageSize:10,currentPage:1,columns:columns(),totalData:rows}; }\n  function val(x){ if(x && typeof x === 'object' && x.utcTime) return x.utcTime; return x == null ? '' : String(x); }\n  function rowsFromResult(r){\n    var rows=[]; var payload = r && r.returndata;\n    if(typeof payload === 'string') { try { payload = JSON.parse(payload); } catch(e) { payload = null; } }\n    var ds = payload && payload.map && payload.map.data && payload.map.data.map && payload.map.data.map.output && payload.map.data.map.output.map && payload.map.data.map.output.map.returndatas && payload.map.data.map.output.map.returndatas.elements && payload.map.data.map.output.map.returndatas.elements[0];\n    var cols = ds && ds.colNames || []; var values = ds && ds.rowValues || [];\n    function get(row,name){ var i=cols.indexOf(name); return i>=0 ? row[i] : ''; }\n    rows = values.map(function(row,idx){\n      var updated = get(row,'updated_at'); if(updated && typeof updated === 'object' && updated.utcTime) updated = updated.utcTime;\n      return {name:val(get(row,'id')),studentId:val(get(row,'student_id')),dept:val(get(row,'batch_id')),mentor:val(get(row,'mentor_id')),professional:val(get(row,'professional_score')),attitude:val(get(row,'attitude_score')),task:val(get(row,'task_score')),score:val(get(row,'total_score')),status:val(get(row,'status')),updated:val(updated).replace('.0.0',''),recordID:val(get(row,'$recordID')),viewAction:'查看',scoreAction:'评分',editAction:'编辑',moreAction:'更多▾',actions:'查看 评分 编辑 更多'};\n    });\n    return rows;\n  }\n  if(self.button) self.button({text:'查询中...'});\n  var inParams = new StringMap({});\n  inParams._insert('action','query','string');\n  inParams._insert('pageNo',1,'int32');\n  inParams._insert('pageSize',20,'int32');\n  inParams._insert('keyword','','string');\n  SetRunInfo({stType:4,spaceTime:'aba6cf7a-0715-4966-8eaf-0f448eba7bc9',devName:'PalimpsestBack_0626R2'}, function(changeRes){\n    Call(new StringMap({type:21001,cloudID:getLocalCloudID(),areaID:0,timeout:8000}), new StringMap({identifierType:2,name:'PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2',funcname:'QueryAssessmentRecords',params:[new Variant(inParams)]}))\n    .then(function(r){\n      var rows = rowsFromResult(r);\n      if(table && table.table) table.table(cfg(rows));\n      window.__palLastAssessmentQuery = {ret:r.ret, rows:rows, changeRes:changeRes, at:new Date().toISOString()};\n      if(self.button) self.button({text:'查询真实数据 / '+rows.length+'条'});\n    }).catch(function(err){\n      window.__palLastAssessmentQuery = {error:String(err), at:new Date().toISOString()};\n      if(self.button) self.button({text:'查询失败: '+String(err).slice(0,32)});\n    });\n  });\n})(this);",
+        "linkId": 200001,
+        "KSCGUID": "kd47ab7eca43ec7e36056175c4a98657",
+        "linkName": "OnClick"
+      }
+    ]
+  },
+  {
+    "path": "components.15.propData",
+    "UIName": "pal_query_button",
+    "prototypeName": "ElementButton",
+    "detailConfig": "this.button({ text: \"\\u67e5\\u8be2\\u771f\\u5b9e\\u6570\\u636e\" })",
+    "linkList": [
+      {
+        "name": "OnClick",
+        "property": "upDateLink",
+        "type": "script",
+        "enable": true,
+        "script": "(function(ctx){\n  var self = ctx || this;\n  var mgr = self.KMComponentsMng || (self.$parent && self.$parent.KMComponentsMng);\n  var kids = mgr && (mgr.$Children || mgr['$'+'Children']);\n  var table = kids && kids.pal_assessment_table;\n  function columns(){ return [{\"prop\":\"name\",\"label\":\"记录ID\",\"minWidth\":\"170\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"studentId\",\"label\":\"学号\",\"minWidth\":\"120\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"dept\",\"label\":\"批次\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"mentor\",\"label\":\"导师\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"professional\",\"label\":\"专业能力\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"attitude\",\"label\":\"工作态度\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"task\",\"label\":\"任务完成\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"score\",\"label\":\"综合评分\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"status\",\"label\":\"状态\",\"minWidth\":\"110\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"updated\",\"label\":\"更新时间\",\"minWidth\":\"145\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"actions\",\"label\":\"操作\",\"minWidth\":\"150\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false}]; }\n  function cfg(rows){ return {border:false,fit:true,showHeader:true,emptyText:'暂无匹配数据',pagination:true,pageSize:10,currentPage:1,columns:columns(),totalData:rows}; }\n  function val(x){ if(x && typeof x === 'object' && x.utcTime) return x.utcTime; return x == null ? '' : String(x); }\n  function rowsFromResult(r){\n    var rows=[]; var payload = r && r.returndata;\n    if(typeof payload === 'string') { try { payload = JSON.parse(payload); } catch(e) { payload = null; } }\n    var ds = payload && payload.map && payload.map.data && payload.map.data.map && payload.map.data.map.output && payload.map.data.map.output.map && payload.map.data.map.output.map.returndatas && payload.map.data.map.output.map.returndatas.elements && payload.map.data.map.output.map.returndatas.elements[0];\n    var cols = ds && ds.colNames || []; var values = ds && ds.rowValues || [];\n    function get(row,name){ var i=cols.indexOf(name); return i>=0 ? row[i] : ''; }\n    rows = values.map(function(row,idx){\n      var updated = get(row,'updated_at'); if(updated && typeof updated === 'object' && updated.utcTime) updated = updated.utcTime;\n      return {name:val(get(row,'id')),studentId:val(get(row,'student_id')),dept:val(get(row,'batch_id')),mentor:val(get(row,'mentor_id')),professional:val(get(row,'professional_score')),attitude:val(get(row,'attitude_score')),task:val(get(row,'task_score')),score:val(get(row,'total_score')),status:val(get(row,'status')),updated:val(updated).replace('.0.0',''),recordID:val(get(row,'$recordID')),viewAction:'查看',scoreAction:'评分',editAction:'编辑',moreAction:'更多▾',actions:'查看 评分 编辑 更多'};\n    });\n    return rows;\n  }\n  if(self.button) self.button({text:'查询中...'});\n  var inParams = new StringMap({});\n  inParams._insert('action','query','string');\n  inParams._insert('pageNo',1,'int32');\n  inParams._insert('pageSize',20,'int32');\n  inParams._insert('keyword','','string');\n  SetRunInfo({stType:4,spaceTime:'aba6cf7a-0715-4966-8eaf-0f448eba7bc9',devName:'PalimpsestBack_0626R2'}, function(changeRes){\n    Call(new StringMap({type:21001,cloudID:getLocalCloudID(),areaID:0,timeout:8000}), new StringMap({identifierType:2,name:'PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2',funcname:'QueryAssessmentRecords',params:[new Variant(inParams)]}))\n    .then(function(r){\n      var rows = rowsFromResult(r);\n      if(table && table.table) table.table(cfg(rows));\n      window.__palLastAssessmentQuery = {ret:r.ret, rows:rows, changeRes:changeRes, at:new Date().toISOString()};\n      if(self.button) self.button({text:'查询真实数据 / '+rows.length+'条'});\n    }).catch(function(err){\n      window.__palLastAssessmentQuery = {error:String(err), at:new Date().toISOString()};\n      if(self.button) self.button({text:'查询失败: '+String(err).slice(0,32)});\n    });\n  });\n})(this);",
+        "linkId": 200001,
+        "KSCGUID": "kd47ab7eca43ec7e36056175c4a98657",
+        "linkName": "OnClick"
+      }
+    ]
+  },
+  {
+    "path": "components.16.object.0",
+    "UIName": "pal_query_button",
+    "prototypeName": "ElementButton",
+    "detailConfig": "this.button({ text: \"\\u67e5\\u8be2\\u771f\\u5b9e\\u6570\\u636e\" })",
+    "linkList": [
+      {
+        "name": "OnClick",
+        "property": "upDateLink",
+        "type": "script",
+        "enable": true,
+        "script": "(function(ctx){\n  var self = ctx || this;\n  var mgr = self.KMComponentsMng || (self.$parent && self.$parent.KMComponentsMng);\n  var kids = mgr && (mgr.$Children || mgr['$'+'Children']);\n  var table = kids && kids.pal_assessment_table;\n  function columns(){ return [{\"prop\":\"name\",\"label\":\"记录ID\",\"minWidth\":\"170\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"studentId\",\"label\":\"学号\",\"minWidth\":\"120\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"dept\",\"label\":\"批次\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"mentor\",\"label\":\"导师\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"professional\",\"label\":\"专业能力\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"attitude\",\"label\":\"工作态度\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"task\",\"label\":\"任务完成\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"score\",\"label\":\"综合评分\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"status\",\"label\":\"状态\",\"minWidth\":\"110\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"updated\",\"label\":\"更新时间\",\"minWidth\":\"145\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"actions\",\"label\":\"操作\",\"minWidth\":\"150\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false}]; }\n  function cfg(rows){ return {border:false,fit:true,showHeader:true,emptyText:'暂无匹配数据',pagination:true,pageSize:10,currentPage:1,columns:columns(),totalData:rows}; }\n  function val(x){ if(x && typeof x === 'object' && x.utcTime) return x.utcTime; return x == null ? '' : String(x); }\n  function rowsFromResult(r){\n    var rows=[]; var payload = r && r.returndata;\n    if(typeof payload === 'string') { try { payload = JSON.parse(payload); } catch(e) { payload = null; } }\n    var ds = payload && payload.map && payload.map.data && payload.map.data.map && payload.map.data.map.output && payload.map.data.map.output.map && payload.map.data.map.output.map.returndatas && payload.map.data.map.output.map.returndatas.elements && payload.map.data.map.output.map.returndatas.elements[0];\n    var cols = ds && ds.colNames || []; var values = ds && ds.rowValues || [];\n    function get(row,name){ var i=cols.indexOf(name); return i>=0 ? row[i] : ''; }\n    rows = values.map(function(row,idx){\n      var updated = get(row,'updated_at'); if(updated && typeof updated === 'object' && updated.utcTime) updated = updated.utcTime;\n      return {name:val(get(row,'id')),studentId:val(get(row,'student_id')),dept:val(get(row,'batch_id')),mentor:val(get(row,'mentor_id')),professional:val(get(row,'professional_score')),attitude:val(get(row,'attitude_score')),task:val(get(row,'task_score')),score:val(get(row,'total_score')),status:val(get(row,'status')),updated:val(updated).replace('.0.0',''),recordID:val(get(row,'$recordID')),viewAction:'查看',scoreAction:'评分',editAction:'编辑',moreAction:'更多▾',actions:'查看 评分 编辑 更多'};\n    });\n    return rows;\n  }\n  if(self.button) self.button({text:'查询中...'});\n  var inParams = new StringMap({});\n  inParams._insert('action','query','string');\n  inParams._insert('pageNo',1,'int32');\n  inParams._insert('pageSize',20,'int32');\n  inParams._insert('keyword','','string');\n  SetRunInfo({stType:4,spaceTime:'aba6cf7a-0715-4966-8eaf-0f448eba7bc9',devName:'PalimpsestBack_0626R2'}, function(changeRes){\n    Call(new StringMap({type:21001,cloudID:getLocalCloudID(),areaID:0,timeout:8000}), new StringMap({identifierType:2,name:'PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2',funcname:'QueryAssessmentRecords',params:[new Variant(inParams)]}))\n    .then(function(r){\n      var rows = rowsFromResult(r);\n      if(table && table.table) table.table(cfg(rows));\n      window.__palLastAssessmentQuery = {ret:r.ret, rows:rows, changeRes:changeRes, at:new Date().toISOString()};\n      if(self.button) self.button({text:'查询真实数据 / '+rows.length+'条'});\n    }).catch(function(err){\n      window.__palLastAssessmentQuery = {error:String(err), at:new Date().toISOString()};\n      if(self.button) self.button({text:'查询失败: '+String(err).slice(0,32)});\n    });\n  });\n})(this);",
+        "linkId": 200001,
+        "KSCGUID": "kd47ab7eca43ec7e36056175c4a98657",
+        "linkName": "OnClick"
+      }
+    ]
+  },
+  {
+    "path": "components.35",
+    "key": "pal_assessment_table",
+    "UIName": "pal_assessment_table",
+    "prototypeName": "ElementTable",
+    "propData": {
+      "UIName": "pal_assessment_table",
+      "detailConfig": "this.table({\"border\":false,\"fit\":true,\"showHeader\":true,\"emptyText\":\"暂无匹配数据\",\"pagination\":true,\"pageSize\":10,\"currentPage\":1,\"columns\":[{\"prop\":\"name\",\"label\":\"记录ID\",\"minWidth\":\"170\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"studentId\",\"label\":\"学号\",\"minWidth\":\"120\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"dept\",\"label\":\"批次\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"mentor\",\"label\":\"导师\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"professional\",\"label\":\"专业能力\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"attitude\",\"label\":\"工作态度\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"task\",\"label\":\"任务完成\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"score\",\"label\":\"综合评分\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"status\",\"label\":\"状态\",\"minWidth\":\"110\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"updated\",\"label\":\"更新时间\",\"minWidth\":\"145\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"actions\",\"label\":\"操作\",\"minWidth\":\"150\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false}],\"totalData\":[{\"name\":\"PAL_DIRECT6_20260627175612\",\"studentId\":\"S2026041001\",\"dept\":\"2024Q2\",\"mentor\":\"M001\",\"professional\":\"38\",\"attitude\":\"18\",\"task\":\"18\",\"score\":\"92\",\"status\":\"done\",\"updated\":\"2026-6-27 17:55\",\"recordID\":\"216172782113783809\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"actions\":\"查看 评分 编辑 更多\"},{\"name\":\"PAL_DIRECT6_20260627210127\",\"studentId\":\"S2026041001\",\"dept\":\"2024Q2\",\"mentor\":\"M001\",\"professional\":\"38\",\"attitude\":\"18\",\"task\":\"18\",\"score\":\"92\",\"status\":\"done\",\"updated\":\"2026-6-27 17:55\",\"recordID\":\"216172782113783810\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"actions\":\"查看 评分 编辑 更多\"},{\"name\":\"PAL_REMAIN_A_20260628005847\",\"studentId\":\"S2026041001\",\"dept\":\"2024Q2\",\"mentor\":\"M001\",\"professional\":\"40\",\"attitude\":\"19\",\"task\":\"19\",\"score\":\"98\",\"status\":\"completed_by_submit\",\"updated\":\"2026-6-28 5:30\",\"recordID\":\"216172782113783811\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"actions\":\"查看 评分 编辑 更多\"}]})",
+      "linkList": [
+        {
+          "linkId": 200001,
+          "enable": false,
+          "KSCGUID": "k2e7729d44781322eaee595de851c86f",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Select"
+        },
+        {
+          "linkId": 200002,
+          "enable": false,
+          "KSCGUID": "k9a505d552b9053d30b6a8993ba381cd",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "SelectAll"
+        },
+        {
+          "linkId": 200003,
+          "enable": false,
+          "KSCGUID": "k58077219968da2bd075f196c20ff5ec",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "SelectionChange"
+        },
+        {
+          "linkId": 200004,
+          "enable": false,
+          "KSCGUID": "k8daba2769fc1a0746e8f4b319d21ab3",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CellMouseEnter"
+        },
+        {
+          "linkId": 200005,
+          "enable": false,
+          "KSCGUID": "k88a34ab7b2507e3df0c93a8d413e1f2",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CellMouseLeave"
+        },
+        {
+          "linkId": 200006,
+          "enable": true,
+          "KSCGUID": "k4799f9eebb9227838fb1dd17dc4cbfa",
+          "script": "var e=arguments[1]||{};if(window.__palTableHandleAction)window.__palTableHandleAction(e);",
+          "KSCLINKGUID": "",
+          "linkName": "CellClick"
+        },
+        {
+          "linkId": 200007,
+          "enable": false,
+          "KSCGUID": "k1fe1e0794a5a2281bf323475e73ff23",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CellDbclick"
+        },
+        {
+          "linkId": 200008,
+          "enable": false,
+          "KSCGUID": "k96fe89e7b45e7689a78846255d54960",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "RowClick"
+        },
+        {
+          "linkId": 200009,
+          "enable": false,
+          "KSCGUID": "k787f8576d762455a060973bf8bafaf3",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "RowContextmenu"
+        },
+        {
+          "linkId": 200010,
+          "enable": false,
+          "KSCGUID": "k65aa92476fb6700cfb740b8b25e10a7",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "RowDbclick"
+        },
+        {
+          "linkId": 200011,
+          "enable": false,
+          "KSCGUID": "k737c40e17f3c0b3ac5cc6238492ec71",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "HeaderClick"
+        },
+        {
+          "linkId": 200012,
+          "enable": false,
+          "KSCGUID": "k049bf8483ef5cfb629460beb0a6449b",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "SortChange"
+        },
+        {
+          "linkId": 200013,
+          "enable": false,
+          "KSCGUID": "kece27f515fc9f5fafa652e7845a6e01",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "FilterChange"
+        },
+        {
+          "linkId": 200014,
+          "enable": false,
+          "KSCGUID": "kd09fd41f1a7956436abe15744834079",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CurrentChange"
+        },
+        {
+          "linkId": 200015,
+          "enable": false,
+          "KSCGUID": "k10b4177cf2f403b5e0808b94b338dda",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "HeaderDragend"
+        },
+        {
+          "linkId": 200016,
+          "enable": false,
+          "KSCGUID": "k8fef4fae1d3feed2e2e0687eca64bfd",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "ExpandChange"
+        },
+        {
+          "linkId": 200017,
+          "enable": false,
+          "KSCGUID": "kd71302763f6893566290573c8862a88",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CurrentPageChange"
+        },
+        {
+          "linkId": 200018,
+          "enable": false,
+          "KSCGUID": "k6cffcd85fa72bb6d1cf8024c60be94c",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "OnLoadSuccess"
+        },
+        {
+          "linkId": 200019,
+          "enable": false,
+          "KSCGUID": "ka622c0c483128636b9242b6840d32c9",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "OnBeforeEdit"
+        },
+        {
+          "linkId": 200020,
+          "enable": false,
+          "KSCGUID": "k82f33b4f8d9b2ff4c5f713712cefb06",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "OnAfterEdit"
+        },
+        {
+          "linkId": 200021,
+          "enable": false,
+          "KSCGUID": "k42220d4da9150af734378f72ccfa68c",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "PageSizeChange"
+        }
+      ]
+    },
+    "detailConfig": "this.table({\"border\":false,\"fit\":true,\"showHeader\":true,\"emptyText\":\"暂无匹配数据\",\"pagination\":true,\"pageSize\":10,\"currentPage\":1,\"columns\":[{\"prop\":\"name\",\"label\":\"记录ID\",\"minWidth\":\"170\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"studentId\",\"label\":\"学号\",\"minWidth\":\"120\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"dept\",\"label\":\"批次\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"mentor\",\"label\":\"导师\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"professional\",\"label\":\"专业能力\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"attitude\",\"label\":\"工作态度\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"task\",\"label\":\"任务完成\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"score\",\"label\":\"综合评分\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"status\",\"label\":\"状态\",\"minWidth\":\"110\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"updated\",\"label\":\"更新时间\",\"minWidth\":\"145\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"actions\",\"label\":\"操作\",\"minWidth\":\"150\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false}],\"totalData\":[{\"name\":\"PAL_DIRECT6_20260627175612\",\"studentId\":\"S2026041001\",\"dept\":\"2024Q2\",\"mentor\":\"M001\",\"professional\":\"38\",\"attitude\":\"18\",\"task\":\"18\",\"score\":\"92\",\"status\":\"done\",\"updated\":\"2026-6-27 17:55\",\"recordID\":\"216172782113783809\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"actions\":\"查看 评分 编辑 更多\"},{\"name\":\"PAL_DIRECT6_20260627210127\",\"studentId\":\"S2026041001\",\"dept\":\"2024Q2\",\"mentor\":\"M001\",\"professional\":\"38\",\"attitude\":\"18\",\"task\":\"18\",\"score\":\"92\",\"status\":\"done\",\"updated\":\"2026-6-27 17:55\",\"recordID\":\"216172782113783810\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"actions\":\"查看 评分 编辑 更多\"},{\"name\":\"PAL_REMAIN_A_20260628005847\",\"studentId\":\"S2026041001\",\"dept\":\"2024Q2\",\"mentor\":\"M001\",\"professional\":\"40\",\"attitude\":\"19\",\"task\":\"19\",\"score\":\"98\",\"status\":\"completed_by_submit\",\"updated\":\"2026-6-28 5:30\",\"recordID\":\"216172782113783811\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"actions\":\"查看 评分 编辑 更多\"}]})",
+    "linkList": [
+      {
+        "linkId": 200001,
+        "enable": false,
+        "KSCGUID": "k2e7729d44781322eaee595de851c86f",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "Select"
+      },
+      {
+        "linkId": 200002,
+        "enable": false,
+        "KSCGUID": "k9a505d552b9053d30b6a8993ba381cd",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "SelectAll"
+      },
+      {
+        "linkId": 200003,
+        "enable": false,
+        "KSCGUID": "k58077219968da2bd075f196c20ff5ec",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "SelectionChange"
+      },
+      {
+        "linkId": 200004,
+        "enable": false,
+        "KSCGUID": "k8daba2769fc1a0746e8f4b319d21ab3",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CellMouseEnter"
+      },
+      {
+        "linkId": 200005,
+        "enable": false,
+        "KSCGUID": "k88a34ab7b2507e3df0c93a8d413e1f2",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CellMouseLeave"
+      },
+      {
+        "linkId": 200006,
+        "enable": true,
+        "KSCGUID": "k4799f9eebb9227838fb1dd17dc4cbfa",
+        "script": "var e=arguments[1]||{};if(window.__palTableHandleAction)window.__palTableHandleAction(e);",
+        "KSCLINKGUID": "",
+        "linkName": "CellClick"
+      },
+      {
+        "linkId": 200007,
+        "enable": false,
+        "KSCGUID": "k1fe1e0794a5a2281bf323475e73ff23",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CellDbclick"
+      },
+      {
+        "linkId": 200008,
+        "enable": false,
+        "KSCGUID": "k96fe89e7b45e7689a78846255d54960",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "RowClick"
+      },
+      {
+        "linkId": 200009,
+        "enable": false,
+        "KSCGUID": "k787f8576d762455a060973bf8bafaf3",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "RowContextmenu"
+      },
+      {
+        "linkId": 200010,
+        "enable": false,
+        "KSCGUID": "k65aa92476fb6700cfb740b8b25e10a7",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "RowDbclick"
+      },
+      {
+        "linkId": 200011,
+        "enable": false,
+        "KSCGUID": "k737c40e17f3c0b3ac5cc6238492ec71",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "HeaderClick"
+      },
+      {
+        "linkId": 200012,
+        "enable": false,
+        "KSCGUID": "k049bf8483ef5cfb629460beb0a6449b",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "SortChange"
+      },
+      {
+        "linkId": 200013,
+        "enable": false,
+        "KSCGUID": "kece27f515fc9f5fafa652e7845a6e01",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "FilterChange"
+      },
+      {
+        "linkId": 200014,
+        "enable": false,
+        "KSCGUID": "kd09fd41f1a7956436abe15744834079",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CurrentChange"
+      },
+      {
+        "linkId": 200015,
+        "enable": false,
+        "KSCGUID": "k10b4177cf2f403b5e0808b94b338dda",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "HeaderDragend"
+      },
+      {
+        "linkId": 200016,
+        "enable": false,
+        "KSCGUID": "k8fef4fae1d3feed2e2e0687eca64bfd",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "ExpandChange"
+      },
+      {
+        "linkId": 200017,
+        "enable": false,
+        "KSCGUID": "kd71302763f6893566290573c8862a88",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CurrentPageChange"
+      },
+      {
+        "linkId": 200018,
+        "enable": false,
+        "KSCGUID": "k6cffcd85fa72bb6d1cf8024c60be94c",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "OnLoadSuccess"
+      },
+      {
+        "linkId": 200019,
+        "enable": false,
+        "KSCGUID": "ka622c0c483128636b9242b6840d32c9",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "OnBeforeEdit"
+      },
+      {
+        "linkId": 200020,
+        "enable": false,
+        "KSCGUID": "k82f33b4f8d9b2ff4c5f713712cefb06",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "OnAfterEdit"
+      },
+      {
+        "linkId": 200021,
+        "enable": false,
+        "KSCGUID": "k42220d4da9150af734378f72ccfa68c",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "PageSizeChange"
+      }
+    ]
+  },
+  {
+    "path": "components.35.propData",
+    "UIName": "pal_assessment_table",
+    "prototypeName": "ElementTable",
+    "detailConfig": "this.table({\"border\":false,\"fit\":true,\"showHeader\":true,\"emptyText\":\"暂无匹配数据\",\"pagination\":true,\"pageSize\":10,\"currentPage\":1,\"columns\":[{\"prop\":\"name\",\"label\":\"记录ID\",\"minWidth\":\"170\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"studentId\",\"label\":\"学号\",\"minWidth\":\"120\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"dept\",\"label\":\"批次\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"mentor\",\"label\":\"导师\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"professional\",\"label\":\"专业能力\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"attitude\",\"label\":\"工作态度\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"task\",\"label\":\"任务完成\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"score\",\"label\":\"综合评分\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"status\",\"label\":\"状态\",\"minWidth\":\"110\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"updated\",\"label\":\"更新时间\",\"minWidth\":\"145\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"actions\",\"label\":\"操作\",\"minWidth\":\"150\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false}],\"totalData\":[{\"name\":\"PAL_DIRECT6_20260627175612\",\"studentId\":\"S2026041001\",\"dept\":\"2024Q2\",\"mentor\":\"M001\",\"professional\":\"38\",\"attitude\":\"18\",\"task\":\"18\",\"score\":\"92\",\"status\":\"done\",\"updated\":\"2026-6-27 17:55\",\"recordID\":\"216172782113783809\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"actions\":\"查看 评分 编辑 更多\"},{\"name\":\"PAL_DIRECT6_20260627210127\",\"studentId\":\"S2026041001\",\"dept\":\"2024Q2\",\"mentor\":\"M001\",\"professional\":\"38\",\"attitude\":\"18\",\"task\":\"18\",\"score\":\"92\",\"status\":\"done\",\"updated\":\"2026-6-27 17:55\",\"recordID\":\"216172782113783810\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"actions\":\"查看 评分 编辑 更多\"},{\"name\":\"PAL_REMAIN_A_20260628005847\",\"studentId\":\"S2026041001\",\"dept\":\"2024Q2\",\"mentor\":\"M001\",\"professional\":\"40\",\"attitude\":\"19\",\"task\":\"19\",\"score\":\"98\",\"status\":\"completed_by_submit\",\"updated\":\"2026-6-28 5:30\",\"recordID\":\"216172782113783811\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"actions\":\"查看 评分 编辑 更多\"}]})",
+    "linkList": [
+      {
+        "linkId": 200001,
+        "enable": false,
+        "KSCGUID": "k2e7729d44781322eaee595de851c86f",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "Select"
+      },
+      {
+        "linkId": 200002,
+        "enable": false,
+        "KSCGUID": "k9a505d552b9053d30b6a8993ba381cd",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "SelectAll"
+      },
+      {
+        "linkId": 200003,
+        "enable": false,
+        "KSCGUID": "k58077219968da2bd075f196c20ff5ec",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "SelectionChange"
+      },
+      {
+        "linkId": 200004,
+        "enable": false,
+        "KSCGUID": "k8daba2769fc1a0746e8f4b319d21ab3",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CellMouseEnter"
+      },
+      {
+        "linkId": 200005,
+        "enable": false,
+        "KSCGUID": "k88a34ab7b2507e3df0c93a8d413e1f2",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CellMouseLeave"
+      },
+      {
+        "linkId": 200006,
+        "enable": true,
+        "KSCGUID": "k4799f9eebb9227838fb1dd17dc4cbfa",
+        "script": "var e=arguments[1]||{};if(window.__palTableHandleAction)window.__palTableHandleAction(e);",
+        "KSCLINKGUID": "",
+        "linkName": "CellClick"
+      },
+      {
+        "linkId": 200007,
+        "enable": false,
+        "KSCGUID": "k1fe1e0794a5a2281bf323475e73ff23",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CellDbclick"
+      },
+      {
+        "linkId": 200008,
+        "enable": false,
+        "KSCGUID": "k96fe89e7b45e7689a78846255d54960",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "RowClick"
+      },
+      {
+        "linkId": 200009,
+        "enable": false,
+        "KSCGUID": "k787f8576d762455a060973bf8bafaf3",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "RowContextmenu"
+      },
+      {
+        "linkId": 200010,
+        "enable": false,
+        "KSCGUID": "k65aa92476fb6700cfb740b8b25e10a7",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "RowDbclick"
+      },
+      {
+        "linkId": 200011,
+        "enable": false,
+        "KSCGUID": "k737c40e17f3c0b3ac5cc6238492ec71",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "HeaderClick"
+      },
+      {
+        "linkId": 200012,
+        "enable": false,
+        "KSCGUID": "k049bf8483ef5cfb629460beb0a6449b",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "SortChange"
+      },
+      {
+        "linkId": 200013,
+        "enable": false,
+        "KSCGUID": "kece27f515fc9f5fafa652e7845a6e01",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "FilterChange"
+      },
+      {
+        "linkId": 200014,
+        "enable": false,
+        "KSCGUID": "kd09fd41f1a7956436abe15744834079",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CurrentChange"
+      },
+      {
+        "linkId": 200015,
+        "enable": false,
+        "KSCGUID": "k10b4177cf2f403b5e0808b94b338dda",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "HeaderDragend"
+      },
+      {
+        "linkId": 200016,
+        "enable": false,
+        "KSCGUID": "k8fef4fae1d3feed2e2e0687eca64bfd",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "ExpandChange"
+      },
+      {
+        "linkId": 200017,
+        "enable": false,
+        "KSCGUID": "kd71302763f6893566290573c8862a88",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CurrentPageChange"
+      },
+      {
+        "linkId": 200018,
+        "enable": false,
+        "KSCGUID": "k6cffcd85fa72bb6d1cf8024c60be94c",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "OnLoadSuccess"
+      },
+      {
+        "linkId": 200019,
+        "enable": false,
+        "KSCGUID": "ka622c0c483128636b9242b6840d32c9",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "OnBeforeEdit"
+      },
+      {
+        "linkId": 200020,
+        "enable": false,
+        "KSCGUID": "k82f33b4f8d9b2ff4c5f713712cefb06",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "OnAfterEdit"
+      },
+      {
+        "linkId": 200021,
+        "enable": false,
+        "KSCGUID": "k42220d4da9150af734378f72ccfa68c",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "PageSizeChange"
+      }
+    ]
+  },
+  {
+    "path": "components.36.object.0",
+    "UIName": "pal_assessment_table",
+    "prototypeName": "ElementTable",
+    "detailConfig": "this.table({\"border\":false,\"fit\":true,\"showHeader\":true,\"emptyText\":\"暂无匹配数据\",\"pagination\":true,\"pageSize\":10,\"currentPage\":1,\"columns\":[{\"prop\":\"name\",\"label\":\"记录ID\",\"minWidth\":\"170\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"studentId\",\"label\":\"学号\",\"minWidth\":\"120\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"dept\",\"label\":\"批次\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"mentor\",\"label\":\"导师\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"professional\",\"label\":\"专业能力\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"attitude\",\"label\":\"工作态度\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"task\",\"label\":\"任务完成\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"score\",\"label\":\"综合评分\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"status\",\"label\":\"状态\",\"minWidth\":\"110\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"updated\",\"label\":\"更新时间\",\"minWidth\":\"145\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"actions\",\"label\":\"操作\",\"minWidth\":\"150\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false}],\"totalData\":[{\"name\":\"PAL_DIRECT6_20260627175612\",\"studentId\":\"S2026041001\",\"dept\":\"2024Q2\",\"mentor\":\"M001\",\"professional\":\"38\",\"attitude\":\"18\",\"task\":\"18\",\"score\":\"92\",\"status\":\"done\",\"updated\":\"2026-6-27 17:55\",\"recordID\":\"216172782113783809\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"actions\":\"查看 评分 编辑 更多\"},{\"name\":\"PAL_DIRECT6_20260627210127\",\"studentId\":\"S2026041001\",\"dept\":\"2024Q2\",\"mentor\":\"M001\",\"professional\":\"38\",\"attitude\":\"18\",\"task\":\"18\",\"score\":\"92\",\"status\":\"done\",\"updated\":\"2026-6-27 17:55\",\"recordID\":\"216172782113783810\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"actions\":\"查看 评分 编辑 更多\"},{\"name\":\"PAL_REMAIN_A_20260628005847\",\"studentId\":\"S2026041001\",\"dept\":\"2024Q2\",\"mentor\":\"M001\",\"professional\":\"40\",\"attitude\":\"19\",\"task\":\"19\",\"score\":\"98\",\"status\":\"completed_by_submit\",\"updated\":\"2026-6-28 5:30\",\"recordID\":\"216172782113783811\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"actions\":\"查看 评分 编辑 更多\"}]})",
+    "linkList": [
+      {
+        "linkId": 200001,
+        "enable": false,
+        "KSCGUID": "k2e7729d44781322eaee595de851c86f",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "Select"
+      },
+      {
+        "linkId": 200002,
+        "enable": false,
+        "KSCGUID": "k9a505d552b9053d30b6a8993ba381cd",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "SelectAll"
+      },
+      {
+        "linkId": 200003,
+        "enable": false,
+        "KSCGUID": "k58077219968da2bd075f196c20ff5ec",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "SelectionChange"
+      },
+      {
+        "linkId": 200004,
+        "enable": false,
+        "KSCGUID": "k8daba2769fc1a0746e8f4b319d21ab3",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CellMouseEnter"
+      },
+      {
+        "linkId": 200005,
+        "enable": false,
+        "KSCGUID": "k88a34ab7b2507e3df0c93a8d413e1f2",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CellMouseLeave"
+      },
+      {
+        "linkId": 200006,
+        "enable": true,
+        "KSCGUID": "k4799f9eebb9227838fb1dd17dc4cbfa",
+        "script": "var e=arguments[1]||{};if(window.__palTableHandleAction)window.__palTableHandleAction(e);",
+        "KSCLINKGUID": "",
+        "linkName": "CellClick"
+      },
+      {
+        "linkId": 200007,
+        "enable": false,
+        "KSCGUID": "k1fe1e0794a5a2281bf323475e73ff23",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CellDbclick"
+      },
+      {
+        "linkId": 200008,
+        "enable": false,
+        "KSCGUID": "k96fe89e7b45e7689a78846255d54960",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "RowClick"
+      },
+      {
+        "linkId": 200009,
+        "enable": false,
+        "KSCGUID": "k787f8576d762455a060973bf8bafaf3",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "RowContextmenu"
+      },
+      {
+        "linkId": 200010,
+        "enable": false,
+        "KSCGUID": "k65aa92476fb6700cfb740b8b25e10a7",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "RowDbclick"
+      },
+      {
+        "linkId": 200011,
+        "enable": false,
+        "KSCGUID": "k737c40e17f3c0b3ac5cc6238492ec71",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "HeaderClick"
+      },
+      {
+        "linkId": 200012,
+        "enable": false,
+        "KSCGUID": "k049bf8483ef5cfb629460beb0a6449b",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "SortChange"
+      },
+      {
+        "linkId": 200013,
+        "enable": false,
+        "KSCGUID": "kece27f515fc9f5fafa652e7845a6e01",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "FilterChange"
+      },
+      {
+        "linkId": 200014,
+        "enable": false,
+        "KSCGUID": "kd09fd41f1a7956436abe15744834079",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CurrentChange"
+      },
+      {
+        "linkId": 200015,
+        "enable": false,
+        "KSCGUID": "k10b4177cf2f403b5e0808b94b338dda",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "HeaderDragend"
+      },
+      {
+        "linkId": 200016,
+        "enable": false,
+        "KSCGUID": "k8fef4fae1d3feed2e2e0687eca64bfd",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "ExpandChange"
+      },
+      {
+        "linkId": 200017,
+        "enable": false,
+        "KSCGUID": "kd71302763f6893566290573c8862a88",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CurrentPageChange"
+      },
+      {
+        "linkId": 200018,
+        "enable": false,
+        "KSCGUID": "k6cffcd85fa72bb6d1cf8024c60be94c",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "OnLoadSuccess"
+      },
+      {
+        "linkId": 200019,
+        "enable": false,
+        "KSCGUID": "ka622c0c483128636b9242b6840d32c9",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "OnBeforeEdit"
+      },
+      {
+        "linkId": 200020,
+        "enable": false,
+        "KSCGUID": "k82f33b4f8d9b2ff4c5f713712cefb06",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "OnAfterEdit"
+      },
+      {
+        "linkId": 200021,
+        "enable": false,
+        "KSCGUID": "k42220d4da9150af734378f72ccfa68c",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "PageSizeChange"
+      }
+    ]
+  },
+  {
+    "path": "components.38.data.rowsManager.1.colsManager.2.object.0",
+    "UIName": "pal_query_button",
+    "prototypeName": "ElementButton",
+    "detailConfig": "this.button({ text: \"\\u67e5\\u8be2\\u771f\\u5b9e\\u6570\\u636e\" })",
+    "linkList": [
+      {
+        "name": "OnClick",
+        "property": "upDateLink",
+        "type": "script",
+        "enable": true,
+        "script": "(function(ctx){\n  var self = ctx || this;\n  var mgr = self.KMComponentsMng || (self.$parent && self.$parent.KMComponentsMng);\n  var kids = mgr && (mgr.$Children || mgr['$'+'Children']);\n  var table = kids && kids.pal_assessment_table;\n  function columns(){ return [{\"prop\":\"name\",\"label\":\"记录ID\",\"minWidth\":\"170\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"studentId\",\"label\":\"学号\",\"minWidth\":\"120\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"dept\",\"label\":\"批次\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"mentor\",\"label\":\"导师\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"professional\",\"label\":\"专业能力\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"attitude\",\"label\":\"工作态度\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"task\",\"label\":\"任务完成\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"score\",\"label\":\"综合评分\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"status\",\"label\":\"状态\",\"minWidth\":\"110\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"updated\",\"label\":\"更新时间\",\"minWidth\":\"145\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"actions\",\"label\":\"操作\",\"minWidth\":\"150\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false}]; }\n  function cfg(rows){ return {border:false,fit:true,showHeader:true,emptyText:'暂无匹配数据',pagination:true,pageSize:10,currentPage:1,columns:columns(),totalData:rows}; }\n  function val(x){ if(x && typeof x === 'object' && x.utcTime) return x.utcTime; return x == null ? '' : String(x); }\n  function rowsFromResult(r){\n    var rows=[]; var payload = r && r.returndata;\n    if(typeof payload === 'string') { try { payload = JSON.parse(payload); } catch(e) { payload = null; } }\n    var ds = payload && payload.map && payload.map.data && payload.map.data.map && payload.map.data.map.output && payload.map.data.map.output.map && payload.map.data.map.output.map.returndatas && payload.map.data.map.output.map.returndatas.elements && payload.map.data.map.output.map.returndatas.elements[0];\n    var cols = ds && ds.colNames || []; var values = ds && ds.rowValues || [];\n    function get(row,name){ var i=cols.indexOf(name); return i>=0 ? row[i] : ''; }\n    rows = values.map(function(row,idx){\n      var updated = get(row,'updated_at'); if(updated && typeof updated === 'object' && updated.utcTime) updated = updated.utcTime;\n      return {name:val(get(row,'id')),studentId:val(get(row,'student_id')),dept:val(get(row,'batch_id')),mentor:val(get(row,'mentor_id')),professional:val(get(row,'professional_score')),attitude:val(get(row,'attitude_score')),task:val(get(row,'task_score')),score:val(get(row,'total_score')),status:val(get(row,'status')),updated:val(updated).replace('.0.0',''),recordID:val(get(row,'$recordID')),viewAction:'查看',scoreAction:'评分',editAction:'编辑',moreAction:'更多▾',actions:'查看 评分 编辑 更多'};\n    });\n    return rows;\n  }\n  if(self.button) self.button({text:'查询中...'});\n  var inParams = new StringMap({});\n  inParams._insert('action','query','string');\n  inParams._insert('pageNo',1,'int32');\n  inParams._insert('pageSize',20,'int32');\n  inParams._insert('keyword','','string');\n  SetRunInfo({stType:4,spaceTime:'aba6cf7a-0715-4966-8eaf-0f448eba7bc9',devName:'PalimpsestBack_0626R2'}, function(changeRes){\n    Call(new StringMap({type:21001,cloudID:getLocalCloudID(),areaID:0,timeout:8000}), new StringMap({identifierType:2,name:'PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2',funcname:'QueryAssessmentRecords',params:[new Variant(inParams)]}))\n    .then(function(r){\n      var rows = rowsFromResult(r);\n      if(table && table.table) table.table(cfg(rows));\n      window.__palLastAssessmentQuery = {ret:r.ret, rows:rows, changeRes:changeRes, at:new Date().toISOString()};\n      if(self.button) self.button({text:'查询真实数据 / '+rows.length+'条'});\n    }).catch(function(err){\n      window.__palLastAssessmentQuery = {error:String(err), at:new Date().toISOString()};\n      if(self.button) self.button({text:'查询失败: '+String(err).slice(0,32)});\n    });\n  });\n})(this);",
+        "linkId": 200001,
+        "KSCGUID": "kd47ab7eca43ec7e36056175c4a98657",
+        "linkName": "OnClick"
+      }
+    ]
+  },
+  {
+    "path": "components.38.data.rowsManager.4.colsManager.0.object.0",
+    "UIName": "pal_assessment_table",
+    "prototypeName": "ElementTable",
+    "detailConfig": "this.table({\"border\":false,\"fit\":true,\"showHeader\":true,\"emptyText\":\"暂无匹配数据\",\"pagination\":true,\"pageSize\":10,\"currentPage\":1,\"columns\":[{\"prop\":\"name\",\"label\":\"记录ID\",\"minWidth\":\"170\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"studentId\",\"label\":\"学号\",\"minWidth\":\"120\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"dept\",\"label\":\"批次\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"mentor\",\"label\":\"导师\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"professional\",\"label\":\"专业能力\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"attitude\",\"label\":\"工作态度\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"task\",\"label\":\"任务完成\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"score\",\"label\":\"综合评分\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"status\",\"label\":\"状态\",\"minWidth\":\"110\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"updated\",\"label\":\"更新时间\",\"minWidth\":\"145\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"actions\",\"label\":\"操作\",\"minWidth\":\"150\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false}],\"totalData\":[{\"name\":\"PAL_DIRECT6_20260627175612\",\"studentId\":\"S2026041001\",\"dept\":\"2024Q2\",\"mentor\":\"M001\",\"professional\":\"38\",\"attitude\":\"18\",\"task\":\"18\",\"score\":\"92\",\"status\":\"done\",\"updated\":\"2026-6-27 17:55\",\"recordID\":\"216172782113783809\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"actions\":\"查看 评分 编辑 更多\"},{\"name\":\"PAL_DIRECT6_20260627210127\",\"studentId\":\"S2026041001\",\"dept\":\"2024Q2\",\"mentor\":\"M001\",\"professional\":\"38\",\"attitude\":\"18\",\"task\":\"18\",\"score\":\"92\",\"status\":\"done\",\"updated\":\"2026-6-27 17:55\",\"recordID\":\"216172782113783810\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"actions\":\"查看 评分 编辑 更多\"},{\"name\":\"PAL_REMAIN_A_20260628005847\",\"studentId\":\"S2026041001\",\"dept\":\"2024Q2\",\"mentor\":\"M001\",\"professional\":\"40\",\"attitude\":\"19\",\"task\":\"19\",\"score\":\"98\",\"status\":\"completed_by_submit\",\"updated\":\"2026-6-28 5:30\",\"recordID\":\"216172782113783811\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"actions\":\"查看 评分 编辑 更多\"}]})",
+    "linkList": [
+      {
+        "linkId": 200001,
+        "enable": false,
+        "KSCGUID": "k2e7729d44781322eaee595de851c86f",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "Select"
+      },
+      {
+        "linkId": 200002,
+        "enable": false,
+        "KSCGUID": "k9a505d552b9053d30b6a8993ba381cd",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "SelectAll"
+      },
+      {
+        "linkId": 200003,
+        "enable": false,
+        "KSCGUID": "k58077219968da2bd075f196c20ff5ec",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "SelectionChange"
+      },
+      {
+        "linkId": 200004,
+        "enable": false,
+        "KSCGUID": "k8daba2769fc1a0746e8f4b319d21ab3",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CellMouseEnter"
+      },
+      {
+        "linkId": 200005,
+        "enable": false,
+        "KSCGUID": "k88a34ab7b2507e3df0c93a8d413e1f2",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CellMouseLeave"
+      },
+      {
+        "linkId": 200006,
+        "enable": true,
+        "KSCGUID": "k4799f9eebb9227838fb1dd17dc4cbfa",
+        "script": "var e=arguments[1]||{};if(window.__palTableHandleAction)window.__palTableHandleAction(e);",
+        "KSCLINKGUID": "",
+        "linkName": "CellClick"
+      },
+      {
+        "linkId": 200007,
+        "enable": false,
+        "KSCGUID": "k1fe1e0794a5a2281bf323475e73ff23",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CellDbclick"
+      },
+      {
+        "linkId": 200008,
+        "enable": false,
+        "KSCGUID": "k96fe89e7b45e7689a78846255d54960",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "RowClick"
+      },
+      {
+        "linkId": 200009,
+        "enable": false,
+        "KSCGUID": "k787f8576d762455a060973bf8bafaf3",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "RowContextmenu"
+      },
+      {
+        "linkId": 200010,
+        "enable": false,
+        "KSCGUID": "k65aa92476fb6700cfb740b8b25e10a7",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "RowDbclick"
+      },
+      {
+        "linkId": 200011,
+        "enable": false,
+        "KSCGUID": "k737c40e17f3c0b3ac5cc6238492ec71",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "HeaderClick"
+      },
+      {
+        "linkId": 200012,
+        "enable": false,
+        "KSCGUID": "k049bf8483ef5cfb629460beb0a6449b",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "SortChange"
+      },
+      {
+        "linkId": 200013,
+        "enable": false,
+        "KSCGUID": "kece27f515fc9f5fafa652e7845a6e01",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "FilterChange"
+      },
+      {
+        "linkId": 200014,
+        "enable": false,
+        "KSCGUID": "kd09fd41f1a7956436abe15744834079",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CurrentChange"
+      },
+      {
+        "linkId": 200015,
+        "enable": false,
+        "KSCGUID": "k10b4177cf2f403b5e0808b94b338dda",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "HeaderDragend"
+      },
+      {
+        "linkId": 200016,
+        "enable": false,
+        "KSCGUID": "k8fef4fae1d3feed2e2e0687eca64bfd",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "ExpandChange"
+      },
+      {
+        "linkId": 200017,
+        "enable": false,
+        "KSCGUID": "kd71302763f6893566290573c8862a88",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CurrentPageChange"
+      },
+      {
+        "linkId": 200018,
+        "enable": false,
+        "KSCGUID": "k6cffcd85fa72bb6d1cf8024c60be94c",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "OnLoadSuccess"
+      },
+      {
+        "linkId": 200019,
+        "enable": false,
+        "KSCGUID": "ka622c0c483128636b9242b6840d32c9",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "OnBeforeEdit"
+      },
+      {
+        "linkId": 200020,
+        "enable": false,
+        "KSCGUID": "k82f33b4f8d9b2ff4c5f713712cefb06",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "OnAfterEdit"
+      },
+      {
+        "linkId": 200021,
+        "enable": false,
+        "KSCGUID": "k42220d4da9150af734378f72ccfa68c",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "PageSizeChange"
+      }
+    ]
+  },
+  {
+    "path": "components.39",
+    "key": "图层1",
+    "UIName": "图层1",
+    "prototypeName": "layer",
+    "propData": {
+      "UIName": "图层1"
+    },
+    "detailConfig": "",
+    "linkList": []
+  },
+  {
+    "path": "components.39.propData.object.rowsManager.1.colsManager.2.object.0",
+    "UIName": "pal_query_button",
+    "prototypeName": "ElementButton",
+    "detailConfig": "this.button({ text: \"\\u67e5\\u8be2\\u771f\\u5b9e\\u6570\\u636e\" })",
+    "linkList": [
+      "[MaxDepth]"
+    ]
+  },
+  {
+    "path": "components.39.propData.object.rowsManager.4.colsManager.0.object.0",
+    "UIName": "pal_assessment_table",
+    "prototypeName": "ElementTable",
+    "detailConfig": "this.table({\"border\":false,\"fit\":true,\"showHeader\":true,\"emptyText\":\"暂无匹配数据\",\"pagination\":true,\"pageSize\":10,\"currentPage\":1,\"columns\":[{\"prop\":\"name\",\"label\":\"记录ID\",\"minWidth\":\"170\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"studentId\",\"label\":\"学号\",\"minWidth\":\"120\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"dept\",\"label\":\"批次\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"mentor\",\"label\":\"导师\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"professional\",\"label\":\"专业能力\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"attitude\",\"label\":\"工作态度\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"task\",\"label\":\"任务完成\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"score\",\"label\":\"综合评分\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"status\",\"label\":\"状态\",\"minWidth\":\"110\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"updated\",\"label\":\"更新时间\",\"minWidth\":\"145\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"actions\",\"label\":\"操作\",\"minWidth\":\"150\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false}],\"totalData\":[{\"name\":\"PAL_DIRECT6_20260627175612\",\"studentId\":\"S2026041001\",\"dept\":\"2024Q2\",\"mentor\":\"M001\",\"professional\":\"38\",\"attitude\":\"18\",\"task\":\"18\",\"score\":\"92\",\"status\":\"done\",\"updated\":\"2026-6-27 17:55\",\"recordID\":\"216172782113783809\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"actions\":\"查看 评分 编辑 更多\"},{\"name\":\"PAL_DIRECT6_20260627210127\",\"studentId\":\"S2026041001\",\"dept\":\"2024Q2\",\"mentor\":\"M001\",\"professional\":\"38\",\"attitude\":\"18\",\"task\":\"18\",\"score\":\"92\",\"status\":\"done\",\"updated\":\"2026-6-27 17:55\",\"recordID\":\"216172782113783810\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"actions\":\"查看 评分 编辑 更多\"},{\"name\":\"PAL_REMAIN_A_20260628005847\",\"studentId\":\"S2026041001\",\"dept\":\"2024Q2\",\"mentor\":\"M001\",\"professional\":\"40\",\"attitude\":\"19\",\"task\":\"19\",\"score\":\"98\",\"status\":\"completed_by_submit\",\"updated\":\"2026-6-28 5:30\",\"recordID\":\"216172782113783811\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"actions\":\"查看 评分 编辑 更多\"}]})",
+    "linkList": [
+      "[MaxDepth]",
+      "[MaxDepth]",
+      "[MaxDepth]",
+      "[MaxDepth]",
+      "[MaxDepth]",
+      "[MaxDepth]",
+      "[MaxDepth]",
+      "[MaxDepth]",
+      "[MaxDepth]",
+      "[MaxDepth]",
+      "[MaxDepth]",
+      "[MaxDepth]",
+      "[MaxDepth]",
+      "[MaxDepth]",
+      "[MaxDepth]",
+      "[MaxDepth]",
+      "[MaxDepth]",
+      "[MaxDepth]",
+      "[MaxDepth]",
+      "[MaxDepth]",
+      "[MaxDepth]"
+    ]
+  }
+]

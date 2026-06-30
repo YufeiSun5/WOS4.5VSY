@@ -1,0 +1,98 @@
+{
+  "model": {
+    "ret": 0,
+    "output": {
+      "keyValueList": [
+        {
+          "key": "errorcodes",
+          "value": {
+            "int32ArrayValue": {
+              "int32Array": [
+                0
+              ]
+            }
+          }
+        },
+        {
+          "key": "ret",
+          "value": {
+            "int32Value": 0
+          }
+        },
+        {
+          "key": "returndata",
+          "value": {
+            "dataSet": {
+              "fieldNames": [
+                "$id",
+                "$guid",
+                "$name",
+                "$version",
+                "$repositoryGUID"
+              ],
+              "fieldValues": [
+                {
+                  "values": [
+                    {
+                      "uint64Value": "1441151880758560281"
+                    },
+                    {
+                      "stringValue": "aa5d8314-87b7-453c-96e6-21e4327a8778"
+                    },
+                    {
+                      "stringValue": "PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC"
+                    },
+                    {
+                      "int32Value": 0
+                    },
+                    {
+                      "stringValue": "c4902fcf-26f8-434a-82aa-4d04297930fd"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "files": {
+    "ret": -10002,
+    "output": {
+      "keyValueList": [
+        {
+          "key": "errorcodes",
+          "value": {
+            "int32ArrayValue": {
+              "int32Array": [
+                -19838
+              ]
+            }
+          }
+        },
+        {
+          "key": "ret",
+          "value": {
+            "int32Value": -10002
+          }
+        },
+        {
+          "key": "returndata",
+          "value": {
+            "dataSet": {
+              "fieldNames": [
+                "$fileid",
+                "$name",
+                "$data",
+                "$parentid",
+                "$filetype"
+              ],
+              "fieldValues": []
+            }
+          }
+        }
+      ]
+    }
+  }
+}

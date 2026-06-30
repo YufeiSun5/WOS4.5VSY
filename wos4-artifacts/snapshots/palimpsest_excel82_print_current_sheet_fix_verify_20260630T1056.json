@@ -1,0 +1,37 @@
+{
+  "page": "PalimpsestExcel_82",
+  "component": "excel_pdf_print_button",
+  "scriptLength": 7049,
+  "hasSeedRows": false,
+  "hasClearCall": false,
+  "hasSetValues": false,
+  "hasCurrentRows": true,
+  "hasDryRun": true,
+  "hasDryRunBeforeNative": true,
+  "hasStringNativeCall": true,
+  "verification": {
+    "directDryRunHtmlLength": 35640,
+    "fallbackUsedCurrentSheet": true,
+    "fallbackMutatedSheet": false,
+    "htmlHasA1": true,
+    "htmlHasThead": true,
+    "htmlHasTfoot": true,
+    "unchangedA1": true,
+    "unchangedB1": true,
+    "unchangedJ1": true,
+    "before": {
+      "A1": "WOS4 Excel paged PDF experiment 2026/6/30 09:16:29",
+      "B1": "",
+      "J1": "seeded direct: 160 rows + header/footer/page breaks"
+    }
+  },
+  "preview": {
+    "status": "blocked",
+    "reason": "after the old preview tab was reloaded, captured preview URLs opened a blank public/index shell without report DOM in browser-harness; editor runtime and save/submit evidence were verified"
+  },
+  "submitted": {
+    "historyVersionObserved": ["保存成功", "生成历史版本成功！"],
+    "finalRestoreSaveObserved": ["保存成功"],
+    "note": "The first submitted version already contained the core current-sheet fix. After a dirty-state experiment cleared the Print linkList in the live editor, both Print nodes were restored from backup with current-sheet script and saved again."
+  }
+}

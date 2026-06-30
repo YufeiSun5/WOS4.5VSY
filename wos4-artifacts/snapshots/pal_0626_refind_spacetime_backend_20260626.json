@@ -1,0 +1,216 @@
+{
+  "capturedAt": "2026-06-26T13:32:58.964141",
+  "mode": "refind-own-instantiated-spacetime",
+  "steps": [
+    {
+      "step": "repo",
+      "target": "KF4.5工程",
+      "result": {
+        "clicked": true,
+        "label": "KF4.5工程",
+        "key": "288230376151716921_0",
+        "expanded": "true",
+        "cls": "el-tree-node is-expanded is-focusable",
+        "x": 25,
+        "y": 178,
+        "w": 270,
+        "h": 26,
+        "pad": "20px"
+      }
+    },
+    {
+      "step": "project",
+      "target": "盛云_孙宇飞_Palimpsest工程_0626",
+      "result": {
+        "clicked": true,
+        "label": "盛云_孙宇飞_Palimpsest工程_0626",
+        "key": "288230376151751573_0",
+        "expanded": "false",
+        "cls": "el-tree-node is-focusable",
+        "x": 25,
+        "y": 502,
+        "w": 270,
+        "h": 26,
+        "pad": "40px"
+      }
+    },
+    {
+      "step": "root",
+      "target": "KF4.5Root",
+      "result": {
+        "clicked": true,
+        "label": "KF4.5Root",
+        "key": "288230376151751574_0",
+        "expanded": "false",
+        "cls": "el-tree-node is-focusable",
+        "x": 25,
+        "y": 528,
+        "w": 270,
+        "h": 26,
+        "pad": "60px"
+      }
+    },
+    {
+      "step": "l1",
+      "target": "PalimpsestL1_0626R2",
+      "result": {
+        "clicked": true,
+        "label": "PalimpsestL1_0626R2",
+        "key": "288230376151751585_0",
+        "expanded": "false",
+        "cls": "el-tree-node is-focusable",
+        "x": 25,
+        "y": 736,
+        "w": 270,
+        "h": 26,
+        "pad": "80px"
+      }
+    },
+    {
+      "step": "back",
+      "target": "PalimpsestBack_0626R2",
+      "result": {
+        "clicked": true,
+        "label": "PalimpsestBack_0626R2",
+        "key": "288230376151751586_0",
+        "expanded": "false",
+        "cls": "el-tree-node is-focusable",
+        "x": 25,
+        "y": 762,
+        "w": 270,
+        "h": 26,
+        "pad": "100px"
+      }
+    }
+  ],
+  "final": {
+    "href": "http://221.239.19.118:13001/desktop-frame/index.html?cloud=1#/main/worker-space-model",
+    "currentNode": [
+      {
+        "text": "PalimpsestBack_0626R2",
+        "key": "288230376151751586_0",
+        "cls": "el-tree-node is-current is-focusable",
+        "y": 762,
+        "pad": "100px"
+      }
+    ],
+    "cards": [
+      {
+        "i": 0,
+        "title": "业务事_运行后台@PalimpsestBack_0626R2",
+        "text": "业务事_运行后台@PalimpsestBack_0626R2",
+        "cls": "data-item",
+        "x": 345,
+        "y": 152,
+        "w": 67,
+        "h": 99
+      },
+      {
+        "i": 1,
+        "title": "请求式计算_HTTP服务模型@PalimpsestBack_0626R2",
+        "text": "请求式计算_HTTP服务模型@PalimpsestBack_0626R2",
+        "cls": "data-item",
+        "x": 439.640625,
+        "y": 152,
+        "w": 67,
+        "h": 99
+      },
+      {
+        "i": 2,
+        "title": "PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2",
+        "text": "PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2",
+        "cls": "data-item",
+        "x": 534.265625,
+        "y": 152,
+        "w": 67,
+        "h": 99
+      },
+      {
+        "i": 3,
+        "title": "业务运行管理_运行后台@PalimpsestBack_0626R2",
+        "text": "业务运行管理_运行后台@PalimpsestBack_0626R2",
+        "cls": "data-item",
+        "x": 628.90625,
+        "y": 152,
+        "w": 67,
+        "h": 99
+      },
+      {
+        "i": 4,
+        "title": "盛云科技_孙宇飞_Palimpsest_后台_0623_2",
+        "text": "盛云科技_孙宇飞_Palimpsest_后台_0623_2",
+        "cls": "data-item",
+        "x": 723.546875,
+        "y": 152,
+        "w": 67,
+        "h": 99
+      },
+      {
+        "i": 5,
+        "title": "实例配置",
+        "text": "实例配置",
+        "cls": "data-item",
+        "x": 818.1875,
+        "y": 152,
+        "w": 67,
+        "h": 99
+      },
+      {
+        "i": 6,
+        "title": "pal_menu_node",
+        "text": "pal_menu_node",
+        "cls": "data-item",
+        "x": 912.8125,
+        "y": 152,
+        "w": 67,
+        "h": 99
+      },
+      {
+        "i": 7,
+        "title": "pal_department",
+        "text": "pal_department",
+        "cls": "data-item",
+        "x": 1007.453125,
+        "y": 152,
+        "w": 67,
+        "h": 99
+      },
+      {
+        "i": 8,
+        "title": "pal_mentor",
+        "text": "pal_mentor",
+        "cls": "data-item",
+        "x": 1102.09375,
+        "y": 152,
+        "w": 67,
+        "h": 99
+      },
+      {
+        "i": 9,
+        "title": "pal_intern_student",
+        "text": "pal_intern_student",
+        "cls": "data-item",
+        "x": 1196.734375,
+        "y": 152,
+        "w": 67,
+        "h": 99
+      },
+      {
+        "i": 10,
+        "title": "pal_assessment_batch",
+        "text": "pal_assessment_batch",
+        "cls": "data-item",
+        "x": 1291.359375,
+        "y": 152,
+        "w": 67,
+        "h": 99
+      }
+    ],
+    "props": {
+      "ID:": "ID: / 288230376151751586 /  /  / GUID: / 92d89140-0736-41f2-873b-6bfab8f3d276",
+      "GUID:": "GUID: / 92d89140-0736-41f2-873b-6bfab8f3d276 /  /  / 所属数据区: / "
+    },
+    "body": "时空功能开发平台\n\nTime Space Platform\n\n时空开发\n部署管理\n仓库包\n权限\n镜像\n关于\n时空管理\n新建\n删除\n默认数据区\nKingFusion4.5_V1\nKingStudio4.5_Beta_dataBase\nKF4.5工程\n引滦原水处理\n测试\nmwq测试\n张测试1\n盛云_孙宇飞_Noctiluca\n盛云_孙宇飞_CRUD工程_0620\n信息管理系统\n盛云_孙宇飞_Palimpsest工程_0624\n盛云_孙宇飞_Palimpsest工程_0626\nKF4.5Root\n报警转发\n采集管理\n数据源管理\n运行权限\n工作流\nPalimpsestL1\nPalimpsestL1_0626\nPalimpsestL1_0626R2\nPalimpsestBack_0626R2\n客户端1\n盛云_孙宇飞_Palimpsest客户端_0626R2\n个人仓库\n盛云_孙宇飞_仓库\nKingStudio4.5_Beta\nLRLtest\n新建\n生成拷贝\n复制\n移动\n导入\n导出\n删除\n上传资源\n打包\n名称\n本仓库-多类型\n业务事_运行后台@PalimpsestBack_0626R2\n请求式计算_HTTP服务模型@PalimpsestBack_0626R2\nPalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2\n业务运行管理_运行后台@PalimpsestBack_0626R2\n盛云科技_孙宇飞_Palimpsest_后台_0623_2\n实例配置\npal_menu_node\npal_department\npal_mentor\npal_intern_student\npal_assessment_batch\n全选\n共 11 条\n1\n前往\n页\n属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n43 / 128\n\n\nID:\n288230376151751586\n\n\nGUID:\n92d89140-0736-41f2-873b-6bfab8f3d276\n\n\n所属数据区:\n\n\n仓库路径:\nKF4.5工程/盛云_孙宇飞_Palimpsest工程_0626/KF4.5Root/PalimpsestL1_0626R2/PalimpsestBack_0626R2\n\n\n自启动APP:\n配置\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:\n\n\n扩展字段1:\n\n\n扩展字段2:\n\n\n扩展字段3:\n\n\n别名关联管理:\n配置\n\n\n数据包管理:\n管理"
+  },
+  "screenshot": "C:\\Users\\SunYufei\\AppData\\Local\\Temp\\shot.png"
+}

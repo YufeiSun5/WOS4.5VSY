@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "applyResult": {
+    "ok": true,
+    "path": "top.0.0.0",
+    "tableRows": 0,
+    "queryScriptLength": 16395,
+    "tableDetailLength": 1311,
+    "queryLinkEnabled": true,
+    "cellClickEnabled": true
+  },
+  "scriptLen": 16395,
+  "hasDoubleRegex": false,
+  "hasSingleRegex": true,
+  "snippet": "ar rawText = r && typeof r.returndata === 'string' ? r.returndata : '';\n    var exactRecordIDs = rawText.match(/\\b216172782113783\\d+\\b/g) || [];\n    var payload = parsePayload(r);\n    var ds = payload && payload.map && payload.map.data && payload.map.data.map "
+}

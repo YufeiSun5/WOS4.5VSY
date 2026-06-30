@@ -1,0 +1,1096 @@
+{
+  "capturedAt": "2026-06-28T11:34:24.167Z",
+  "url": "http://221.239.19.118:13001/public/index.html?id=6192730962611142748&parentid=0&cloudid=1&clientnumber=4611689052396176964&bs=true#/#{%22mode%22:%22debugger%22,%22FUType%22:%2221%22,%22type%22:1005,%22guid%22:%22%22,%22id%22:%22%22,%22guidVersion%22:{%22guid%22:%2260212e1d-16ab-41ef-82e2-89390b7c6511%22,%22version%22:0,%22id%22:%221441151880758560275%22},%22projectId%22:%22%22,%22isParamConfig%22:false,%22runModelName%22:%22PalimpsestContent_82%22}",
+  "iframeHref": "http://221.239.19.118:13001/api/v1/GetFileContent/1/0/0/94054fd1-9b20-463a-8372-b69776349847_120/index.html",
+  "text": "状态\n\t\n部门\n\t\n导师\n\t\n批次\n\t\n时间\n\t\n关键词\n\t\nSmoke ret=0 data=\"{\\n \\\"map\\\": {\\n \\\"code\\\": \\\"OK\\\",\\n \\\"data\\\": {\\n\n重置\n导出\n\n姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综合评分\t状态\t更新时间\t操作\n李明轩\n\t\nS2024041001\n\t\nQA-Demo\n\t\n王思远\n\t\n97%\n\t\n85%\n\t\n85%\n\t\n92.6\n\t已完成\t\n2026-06-27 02:55\n\t\n查看\n评分\n编辑\n更多\n\n\n李明轩副本\n\t\nS2024041001C\n\t\n产品部\n\t\n王思远\n\t\n97%\n\t\n85%\n\t\n85%\n\t\n92.6\n\t已完成\t\n2026-06-27 02:55\n\t\n查看\n评分\n编辑\n更多\n\n\n张雨婷\n\t\nS2024041002\n\t\n研发部\n\t\n陈浩然\n\t\n96%\n\t\n84%\n\t\n84%\n\t\n89.3\n\t已完成\t\n2024-06-11 11:20\n\t\n查看\n评分\n编辑\n更多\n\n\n王子涵\n\t\nS2024041003\n\t\n设计部\n\t\n刘佳怡\n\t\n95%\n\t\n83%\n\t\n83%\n\t\n87.4\n\t已完成\t\n2024-06-10 16:45\n\t\n查看\n评分\n编辑\n更多\n\n\n赵天宇\n\t\nS2024041004\n\t\n市场部\n\t\n孙一凡\n\t\n95%\n\t\n82%\n\t\n82%\n\t\n85.1\n\t已完成\t\n2024-06-09 09:15\n\t\n查看\n评分\n编辑\n更多\n\n\n陈欣怡\n\t\nS2024041005\n\t\n运营部\n\t\n周子墨\n\t\n93%\n\t\n80%\n\t\n80%\n\t\n83.6\n\t待考核\t\n2024-06-08 10:05\n\t\n查看\n评分\n编辑\n更多\n\n\n刘宇航\n\t\nS2024041006\n\t\n测试部\n\t\n吴昊天\n\t\n92%\n\t\n78%\n\t\n78%\n\t\n81.2\n\t待考核\t\n2024-06-07 15:40\n\t\n查看\n评分\n编辑\n更多\n共 7 条\n1\n前往页",
+  "components": [
+    {
+      "key": "KSCPageRun",
+      "UIName": "",
+      "proto": "",
+      "detailConfig": "",
+      "linkList": null
+    },
+    {
+      "key": "PageView",
+      "UIName": "",
+      "proto": "",
+      "detailConfig": "",
+      "linkList": null
+    },
+    {
+      "key": "pal_filter_status",
+      "UIName": "pal_filter_status",
+      "proto": "ElementInput",
+      "detailConfig": "options.prepend='状态';options.placeholder='全部状态';options.value='';options.clearable=true;options.disabled=false;",
+      "linkList": [
+        {
+          "linkId": 200001,
+          "enable": false,
+          "KSCGUID": "k832f0bae7e07f14e431a19f3cdc48c4",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Focus"
+        },
+        {
+          "linkId": 200002,
+          "enable": false,
+          "KSCGUID": "kd634d96a02d99d5e4c2037a87cfa2c4",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Blur"
+        },
+        {
+          "linkId": 200003,
+          "enable": false,
+          "KSCGUID": "k7c22c88c4ea55b11dcc3d50a9e910e6",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Change"
+        },
+        {
+          "linkId": 200004,
+          "enable": false,
+          "KSCGUID": "k0355257ecdb0f259be7e807ae5b2dc4",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Input"
+        },
+        {
+          "linkId": 200005,
+          "enable": false,
+          "KSCGUID": "k76ed91d64116696233abdb108fee4b6",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Clear"
+        },
+        {
+          "linkId": 200006,
+          "enable": false,
+          "KSCGUID": "k5156b5f87e719b94d5473204506b805",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Select"
+        }
+      ]
+    },
+    {
+      "key": "FilterKeywordCol",
+      "UIName": "",
+      "proto": "",
+      "detailConfig": "",
+      "linkList": null
+    },
+    {
+      "key": "pal_filter_dept",
+      "UIName": "pal_filter_dept",
+      "proto": "ElementInput",
+      "detailConfig": "options.prepend='部门';options.placeholder='请选择部门';options.value='';options.clearable=true;options.disabled=false;",
+      "linkList": [
+        {
+          "linkId": 200001,
+          "enable": false,
+          "KSCGUID": "k6f9ad01eec2d5f7d8e140215fb4f417",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Focus"
+        },
+        {
+          "linkId": 200002,
+          "enable": false,
+          "KSCGUID": "k1ac7377729bba132089834ffbe1d527",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Blur"
+        },
+        {
+          "linkId": 200003,
+          "enable": false,
+          "KSCGUID": "k03aa9bde03e729682c5b3b8e47bc8c8",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Change"
+        },
+        {
+          "linkId": 200004,
+          "enable": false,
+          "KSCGUID": "k3b6b8ad90a294e7062b05d2ce7ada5d",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Input"
+        },
+        {
+          "linkId": 200005,
+          "enable": false,
+          "KSCGUID": "kba6dcad14e4897d3e404ebdc4bff24a",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Clear"
+        },
+        {
+          "linkId": 200006,
+          "enable": false,
+          "KSCGUID": "k04e012cd44795aa28fabebd670602b3",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Select"
+        }
+      ]
+    },
+    {
+      "key": "FilterDeptCol",
+      "UIName": "",
+      "proto": "",
+      "detailConfig": "",
+      "linkList": null
+    },
+    {
+      "key": "pal_filter_mentor",
+      "UIName": "pal_filter_mentor",
+      "proto": "ElementInput",
+      "detailConfig": "options.prepend='导师';options.placeholder='请选择导师';options.value='';options.clearable=true;options.disabled=false;",
+      "linkList": [
+        {
+          "linkId": 200001,
+          "enable": false,
+          "KSCGUID": "kb8dfcd149e337ca98066e54623bc125",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Focus"
+        },
+        {
+          "linkId": 200002,
+          "enable": false,
+          "KSCGUID": "k4ffeeb3379191f4499dedc86b5ae861",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Blur"
+        },
+        {
+          "linkId": 200003,
+          "enable": false,
+          "KSCGUID": "kba95557a19d6144d308a5654cd1a941",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Change"
+        },
+        {
+          "linkId": 200004,
+          "enable": false,
+          "KSCGUID": "k07eae6f33acb17907c9d655e5956789",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Input"
+        },
+        {
+          "linkId": 200005,
+          "enable": false,
+          "KSCGUID": "k18cecd61b08e1443663915462aa6685",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Clear"
+        },
+        {
+          "linkId": 200006,
+          "enable": false,
+          "KSCGUID": "k01dc3393b27d09172e1aefa97d44316",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Select"
+        }
+      ]
+    },
+    {
+      "key": "FilterMentorCol",
+      "UIName": "",
+      "proto": "",
+      "detailConfig": "",
+      "linkList": null
+    },
+    {
+      "key": "pal_filter_batch",
+      "UIName": "pal_filter_batch",
+      "proto": "ElementInput",
+      "detailConfig": "options.prepend='批次';options.placeholder='请选择实习批次';options.value='';options.clearable=true;options.disabled=false;",
+      "linkList": [
+        {
+          "linkId": 200001,
+          "enable": false,
+          "KSCGUID": "kaba5831fe5e9e22c79d4d1f5938ac5d",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Focus"
+        },
+        {
+          "linkId": 200002,
+          "enable": false,
+          "KSCGUID": "k8a95d89f35b56010e4daf7336be14d7",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Blur"
+        },
+        {
+          "linkId": 200003,
+          "enable": false,
+          "KSCGUID": "k2f44812dcaceb1566a8b7dc5349960e",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Change"
+        },
+        {
+          "linkId": 200004,
+          "enable": false,
+          "KSCGUID": "kf65c38731df43f33c6f6975b4dc2fda",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Input"
+        },
+        {
+          "linkId": 200005,
+          "enable": false,
+          "KSCGUID": "k4ac62fc836119284ff534da70ad5554",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Clear"
+        },
+        {
+          "linkId": 200006,
+          "enable": false,
+          "KSCGUID": "kf604db99f31ba502920d66e7da583f6",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Select"
+        }
+      ]
+    },
+    {
+      "key": "FilterBatchCol",
+      "UIName": "",
+      "proto": "",
+      "detailConfig": "",
+      "linkList": null
+    },
+    {
+      "key": "pal_filter_date",
+      "UIName": "pal_filter_date",
+      "proto": "ElementInput",
+      "detailConfig": "options.prepend='时间';options.placeholder='2024-04-01  ~  2024-06-30';options.value='';options.clearable=true;options.disabled=false;",
+      "linkList": [
+        {
+          "linkId": 200001,
+          "enable": false,
+          "KSCGUID": "k3a35b050eb2ae58fd207290b6877b03",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Focus"
+        },
+        {
+          "linkId": 200002,
+          "enable": false,
+          "KSCGUID": "k1f0430e7bf1731723b9dac8225dbe67",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Blur"
+        },
+        {
+          "linkId": 200003,
+          "enable": false,
+          "KSCGUID": "ke75229e2e826aeae9720a4ec73cdfcd",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Change"
+        },
+        {
+          "linkId": 200004,
+          "enable": false,
+          "KSCGUID": "kf2bb08ca5afe609a95c80774937569c",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Input"
+        },
+        {
+          "linkId": 200005,
+          "enable": false,
+          "KSCGUID": "k0e194b9b6f2e49909b26bf04ee6b668",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Clear"
+        },
+        {
+          "linkId": 200006,
+          "enable": false,
+          "KSCGUID": "kfc5775fc4276265d9dae6f5871428e4",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Select"
+        }
+      ]
+    },
+    {
+      "key": "FilterDateCol",
+      "UIName": "",
+      "proto": "",
+      "detailConfig": "",
+      "linkList": null
+    },
+    {
+      "key": "RRow1",
+      "UIName": "",
+      "proto": "",
+      "detailConfig": "",
+      "linkList": null
+    },
+    {
+      "key": "FilterStatusCol",
+      "UIName": "",
+      "proto": "",
+      "detailConfig": "",
+      "linkList": null
+    },
+    {
+      "key": "pal_filter_keyword",
+      "UIName": "pal_filter_keyword",
+      "proto": "ElementInput",
+      "detailConfig": "options.prepend='关键词';options.placeholder='姓名 / 学号 / 手机号';options.value='';options.clearable=true;options.disabled=false;",
+      "linkList": [
+        {
+          "linkId": 200001,
+          "enable": false,
+          "KSCGUID": "kc1a04e85e11d61f782bcb5923e50a12",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Focus"
+        },
+        {
+          "linkId": 200002,
+          "enable": false,
+          "KSCGUID": "k4a73a1ed22f41b8f56042867d1bb40f",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Blur"
+        },
+        {
+          "linkId": 200003,
+          "enable": false,
+          "KSCGUID": "k1eed6055d693ad3b01789ad7bca892b",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Change"
+        },
+        {
+          "linkId": 200004,
+          "enable": false,
+          "KSCGUID": "k1fa75c587d8b29908e3ba8722dfff45",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Input"
+        },
+        {
+          "linkId": 200005,
+          "enable": false,
+          "KSCGUID": "kc48964cd13bb64407f4a9eb342988cf",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Clear"
+        },
+        {
+          "linkId": 200006,
+          "enable": false,
+          "KSCGUID": "kf8c986a5e88f9d6f442ed164c4b5a2b",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Select"
+        }
+      ]
+    },
+    {
+      "key": "ActionSpacerCol",
+      "UIName": "",
+      "proto": "",
+      "detailConfig": "",
+      "linkList": null
+    },
+    {
+      "key": "pal_query_button",
+      "UIName": "pal_query_button",
+      "proto": "ElementButton",
+      "detailConfig": "this.button({ text: \"Backend Smoke\" })",
+      "linkList": [
+        {
+          "name": "OnClick",
+          "property": "upDateLink",
+          "type": "script",
+          "enable": true,
+          "script": "debugger;\r\n\r\nvar runInfo = {\r\n  stType: 4,\r\n  spaceTime: \"aba6cf7a-0715-4966-8eaf-0f448eba7bc9\",\r\n  devName: \"PalimpsestBack_0626R2\"\r\n};\r\n\r\nvar inParams = new StringMap({});\r\ninParams._insert(\"action\", \"query\", \"string\");\r\ninParams._insert(\"pageNo\", 1, \"int32\");\r\ninParams._insert(\"pageSize\", 20, \"int32\");\r\ninParams._insert(\"keyword\", \"\", \"string\");\r\n\r\nSetRunInfo(runInfo, function(changeRes) {\r\n  debugger;\r\n\r\n  Call(\r\n    new StringMap({\r\n      type: 21001,\r\n      cloudID: getLocalCloudID(),\r\n      areaID: 0,\r\n      timeout: 8000\r\n    }),\r\n    new StringMap({\r\n      identifierType: 2,\r\n      name: \"PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2\",\r\n      funcname: \"QueryAssessmentRecords\",\r\n      params: [new Variant(inParams)]\r\n    })\r\n  ).then(function(r) {\r\n    debugger;\r\n\r\n    var text = \"Smoke ret=\" + r.ret;\r\n\r\n    if (r && r.returndata) {\r\n      text += \" data=\" + JSON.stringify(r.returndata).slice(0, 80);\r\n    }\r\n\r\n    this.button({ text: text });\r\n  }.bind(this)).catch(function(err) {\r\n    debugger;\r\n\r\n    this.button({\r\n      text: \"Smoke error=\" + String(err).slice(0, 80)\r\n    });\r\n  }.bind(this));\r\n}.bind(this));",
+          "linkId": 200001,
+          "KSCGUID": "kd47ab7eca43ec7e36056175c4a98657"
+        }
+      ]
+    },
+    {
+      "key": "QueryCol",
+      "UIName": "",
+      "proto": "",
+      "detailConfig": "",
+      "linkList": null
+    },
+    {
+      "key": "pal_reset_button",
+      "UIName": "pal_reset_button",
+      "proto": "ElementButton",
+      "detailConfig": "this.button({ text: \"重置\" })",
+      "linkList": [
+        {
+          "linkId": 200001,
+          "enable": false,
+          "KSCGUID": "k97bf5db24a8591684a8160ffe69d174",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "OnClick"
+        }
+      ]
+    },
+    {
+      "key": "ResetCol",
+      "UIName": "",
+      "proto": "",
+      "detailConfig": "",
+      "linkList": null
+    },
+    {
+      "key": "pal_export_button",
+      "UIName": "pal_export_button",
+      "proto": "ElementButton",
+      "detailConfig": "this.button({ text: \"导出\" })",
+      "linkList": [
+        {
+          "linkId": 200001,
+          "enable": false,
+          "KSCGUID": "kb04882f278155bcc632709df7e05878",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "OnClick"
+        }
+      ]
+    },
+    {
+      "key": "ExportCol",
+      "UIName": "",
+      "proto": "",
+      "detailConfig": "",
+      "linkList": null
+    },
+    {
+      "key": "ActionTailCol",
+      "UIName": "",
+      "proto": "",
+      "detailConfig": "",
+      "linkList": null
+    },
+    {
+      "key": "RRow2",
+      "UIName": "",
+      "proto": "",
+      "detailConfig": "",
+      "linkList": null
+    },
+    {
+      "key": "pal_metric_total",
+      "UIName": "pal_metric_total",
+      "proto": "ElementText",
+      "detailConfig": "options.value = \"<img onload=\\\"(function(){function fix(){document.body.setAttribute('data-palimpsest-badgefix','1');document.querySelectorAll('.van-badge').forEach(function(e){e.style.setProperty('display','none','important');});var kw=document.querySelector('.pal_filter_keyword input');if(kw){kw.value='';kw.setAttribute('placeholder','姓名 / 学号 / 手机号');}}fix();var i=0,t=setInterval(function(){fix();if(++i>50)clearInterval(t);},200);})();this.onload=null;\\\" src=\\\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTkiIGhlaWdodD0iMTA4IiB2aWV3Qm94PSIwIDAgMzU5IDEwOCI+PHJlY3QgeD0iMSIgeT0iMSIgd2lkdGg9IjM1NyIgaGVpZ2h0PSIxMDYiIHJ4PSI4IiBmaWxsPSIjZmZmIiBzdHJva2U9IiNlNmVkZjciLz48Y2lyY2xlIGN4PSI0OCIgY3k9IjU0IiByPSIyNyIgZmlsbD0iIzI1NjNlYiIgZmlsbC1vcGFjaXR5PSIwLjEyIi8+PGNpcmNsZSBjeD0iNDgiIGN5PSI1NCIgcj0iMTMiIGZpbGw9IiMyNTYzZWIiIGZpbGwtb3BhY2l0eT0iMC45NCIvPjxwYXRoIGQ9Ik00OCA0M3YxMWgxMSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgZmlsbD0ibm9uZSIvPjx0ZXh0IHg9Ijg4IiB5PSIzOSIgZm9udC1mYW1pbHk9Ik1pY3Jvc29mdCBZYUhlaSxBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjNDI1MzZiIj7lrp7kuaDnlJ/mgLvmlbA8L3RleHQ+PHRleHQgeD0iODgiIHk9IjcyIiBmb250LWZhbWlseT0iQXJpYWwsTWljcm9zb2Z0IFlhSGVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMzIiIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMyNTYzZWIiPjEyODwvdGV4dD48dGV4dCB4PSI4OCIgeT0iOTYiIGZvbnQtZmFtaWx5PSJNaWNyb3NvZnQgWWFIZWksQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzI1NjNlYiI+6L6D5LiK5pyfIDEyLjUlPC90ZXh0Pjwvc3ZnPg==\\\" style=\\\"display:block;width:calc(100% - 28px);height:calc(100% - 24px);margin:12px 14px;object-fit:fill;border:0;box-sizing:border-box\\\"/>\"",
+      "linkList": []
+    },
+    {
+      "key": "MetricTotalCol",
+      "UIName": "",
+      "proto": "",
+      "detailConfig": "",
+      "linkList": null
+    },
+    {
+      "key": "pal_metric_wait",
+      "UIName": "pal_metric_wait",
+      "proto": "ElementText",
+      "detailConfig": "options.value = \"<img src=\\\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTkiIGhlaWdodD0iMTA4IiB2aWV3Qm94PSIwIDAgMzU5IDEwOCI+PHJlY3QgeD0iMSIgeT0iMSIgd2lkdGg9IjM1NyIgaGVpZ2h0PSIxMDYiIHJ4PSI4IiBmaWxsPSIjZmZmIiBzdHJva2U9IiNlNmVkZjciLz48Y2lyY2xlIGN4PSI0OCIgY3k9IjU0IiByPSIyNyIgZmlsbD0iI2Y1OWUwYiIgZmlsbC1vcGFjaXR5PSIwLjEyIi8+PGNpcmNsZSBjeD0iNDgiIGN5PSI1NCIgcj0iMTMiIGZpbGw9IiNmNTllMGIiIGZpbGwtb3BhY2l0eT0iMC45NCIvPjxwYXRoIGQ9Ik00OCA0M3YxMWgxMSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgZmlsbD0ibm9uZSIvPjx0ZXh0IHg9Ijg4IiB5PSIzOSIgZm9udC1mYW1pbHk9Ik1pY3Jvc29mdCBZYUhlaSxBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjNDI1MzZiIj7lvoXogIPmoLg8L3RleHQ+PHRleHQgeD0iODgiIHk9IjcyIiBmb250LWZhbWlseT0iQXJpYWwsTWljcm9zb2Z0IFlhSGVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMzIiIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiNmNTllMGIiPjIzPC90ZXh0Pjx0ZXh0IHg9Ijg4IiB5PSI5NiIgZm9udC1mYW1pbHk9Ik1pY3Jvc29mdCBZYUhlaSxBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZjU5ZTBiIj7ovoPkuIrmnJ8gNS4yJTwvdGV4dD48L3N2Zz4=\\\" style=\\\"display:block;width:calc(100% - 28px);height:calc(100% - 24px);margin:12px 14px;object-fit:fill;border:0;box-sizing:border-box\\\"/>\"",
+      "linkList": []
+    },
+    {
+      "key": "MetricWaitCol",
+      "UIName": "",
+      "proto": "",
+      "detailConfig": "",
+      "linkList": null
+    },
+    {
+      "key": "pal_metric_done",
+      "UIName": "pal_metric_done",
+      "proto": "ElementText",
+      "detailConfig": "options.value = \"<img src=\\\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTkiIGhlaWdodD0iMTA4IiB2aWV3Qm94PSIwIDAgMzU5IDEwOCI+PHJlY3QgeD0iMSIgeT0iMSIgd2lkdGg9IjM1NyIgaGVpZ2h0PSIxMDYiIHJ4PSI4IiBmaWxsPSIjZmZmIiBzdHJva2U9IiNlNmVkZjciLz48Y2lyY2xlIGN4PSI0OCIgY3k9IjU0IiByPSIyNyIgZmlsbD0iIzE2YTM0YSIgZmlsbC1vcGFjaXR5PSIwLjEyIi8+PGNpcmNsZSBjeD0iNDgiIGN5PSI1NCIgcj0iMTMiIGZpbGw9IiMxNmEzNGEiIGZpbGwtb3BhY2l0eT0iMC45NCIvPjxwYXRoIGQ9Ik00MSA1NGw1IDUgMTEtMTMiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiLz48dGV4dCB4PSI4OCIgeT0iMzkiIGZvbnQtZmFtaWx5PSJNaWNyb3NvZnQgWWFIZWksQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNSIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzQyNTM2YiI+5bey5a6M5oiQ6ICD5qC4PC90ZXh0Pjx0ZXh0IHg9Ijg4IiB5PSI3MiIgZm9udC1mYW1pbHk9IkFyaWFsLE1pY3Jvc29mdCBZYUhlaSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjMyIiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjMTZhMzRhIj4xMDU8L3RleHQ+PHRleHQgeD0iODgiIHk9Ijk2IiBmb250LWZhbWlseT0iTWljcm9zb2Z0IFlhSGVpLEFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMxNmEzNGEiPui+g+S4iuacnyAxOC4zJTwvdGV4dD48L3N2Zz4=\\\" style=\\\"display:block;width:calc(100% - 28px);height:calc(100% - 24px);margin:12px 14px;object-fit:fill;border:0;box-sizing:border-box\\\"/>\"",
+      "linkList": []
+    },
+    {
+      "key": "MetricDoneCol",
+      "UIName": "",
+      "proto": "",
+      "detailConfig": "",
+      "linkList": null
+    },
+    {
+      "key": "pal_metric_avg",
+      "UIName": "pal_metric_avg",
+      "proto": "ElementText",
+      "detailConfig": "options.value = \"<img src=\\\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTkiIGhlaWdodD0iMTA4IiB2aWV3Qm94PSIwIDAgMzU5IDEwOCI+PHJlY3QgeD0iMSIgeT0iMSIgd2lkdGg9IjM1NyIgaGVpZ2h0PSIxMDYiIHJ4PSI4IiBmaWxsPSIjZmZmIiBzdHJva2U9IiNlNmVkZjciLz48Y2lyY2xlIGN4PSI0OCIgY3k9IjU0IiByPSIyNyIgZmlsbD0iIzRmNDZlNSIgZmlsbC1vcGFjaXR5PSIwLjEyIi8+PGNpcmNsZSBjeD0iNDgiIGN5PSI1NCIgcj0iMTMiIGZpbGw9IiM0ZjQ2ZTUiIGZpbGwtb3BhY2l0eT0iMC45NCIvPjxwYXRoIGQ9Ik00OCA0M3YxMWgxMSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgZmlsbD0ibm9uZSIvPjx0ZXh0IHg9Ijg4IiB5PSIzOSIgZm9udC1mYW1pbHk9Ik1pY3Jvc29mdCBZYUhlaSxBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjNDI1MzZiIj7lubPlnYflvpfliIY8L3RleHQ+PHRleHQgeD0iODgiIHk9IjcyIiBmb250LWZhbWlseT0iQXJpYWwsTWljcm9zb2Z0IFlhSGVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMzIiIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiM0ZjQ2ZTUiPjg2LjfliIY8L3RleHQ+PHRleHQgeD0iODgiIHk9Ijk2IiBmb250LWZhbWlseT0iTWljcm9zb2Z0IFlhSGVpLEFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiM0ZjQ2ZTUiPui+g+S4iuacnyAzLjbliIY8L3RleHQ+PC9zdmc+\\\" style=\\\"display:block;width:calc(100% - 28px);height:calc(100% - 24px);margin:12px 14px;object-fit:fill;border:0;box-sizing:border-box\\\"/>\"",
+      "linkList": []
+    },
+    {
+      "key": "MetricAvgCol",
+      "UIName": "",
+      "proto": "",
+      "detailConfig": "",
+      "linkList": null
+    },
+    {
+      "key": "RRow3",
+      "UIName": "",
+      "proto": "",
+      "detailConfig": "",
+      "linkList": null
+    },
+    {
+      "key": "DeptChartCol",
+      "UIName": "",
+      "proto": "",
+      "detailConfig": "",
+      "linkList": null
+    },
+    {
+      "key": "TrendChartCol",
+      "UIName": "",
+      "proto": "",
+      "detailConfig": "",
+      "linkList": null
+    },
+    {
+      "key": "RRow4",
+      "UIName": "",
+      "proto": "",
+      "detailConfig": "",
+      "linkList": null
+    },
+    {
+      "key": "pal_assessment_table",
+      "UIName": "pal_assessment_table",
+      "proto": "ElementTable",
+      "detailConfig": "this.table({\"border\":false,\"fit\":true,\"showHeader\":true,\"emptyText\":\"暂无匹配数据\",\"pagination\":true,\"pageSize\":10,\"currentPage\":1,\"columns\":[{\"prop\":\"name\",\"label\":\"姓名\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"studentId\",\"label\":\"学号\",\"minWidth\":\"130\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"dept\",\"label\":\"部门\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"mentor\",\"label\":\"导师\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"professional\",\"label\":\"专业能力\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"attitude\",\"label\":\"工作态度\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"task\",\"label\":\"任务完成\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"score\",\"label\":\"综合评分\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"status\",\"label\":\"状态\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"updated\",\"label\":\"更新时间\",\"minWidth\":\"135\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"actions\",\"label\":\"操作\",\"minWidth\":\"230\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false}],\"totalData\":[{\"name\":\"李明轩\",\"studentId\":\"S2024041001\",\"dept\":\"QA-Demo\",\"mentor\":\"王思远\",\"professional\":\"97%\",\"attitude\":\"85%\",\"task\":\"85%\",\"score\":\"92.6\",\"status\":\"已完成\",\"updated\":\"2026-06-27 02:55\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"rowIndex\":\"1\",\"actions\":\"查看 评分 编辑 更多\"},{\"name\":\"李明轩副本\",\"studentId\":\"S2024041001C\",\"dept\":\"产品部\",\"mentor\":\"王思远\",\"professional\":\"97%\",\"attitude\":\"85%\",\"task\":\"85%\",\"score\":\"92.6\",\"status\":\"已完成\",\"updated\":\"2026-06-27 02:55\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"rowIndex\":\"2\",\"actions\":\"查看 评分 编辑 更多\"},{\"name\":\"张雨婷\",\"studentId\":\"S2024041002\",\"dept\":\"研发部\",\"mentor\":\"陈浩然\",\"professional\":\"96%\",\"attitude\":\"84%\",\"task\":\"84%\",\"score\":\"89.3\",\"status\":\"已完成\",\"updated\":\"2024-06-11 11:20\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"rowIndex\":\"3\",\"actions\":\"查看 评分 编辑 更多\"},{\"name\":\"王子涵\",\"studentId\":\"S2024041003\",\"dept\":\"设计部\",\"mentor\":\"刘佳怡\",\"professional\":\"95%\",\"attitude\":\"83%\",\"task\":\"83%\",\"score\":\"87.4\",\"status\":\"已完成\",\"updated\":\"2024-06-10 16:45\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"rowIndex\":\"4\",\"actions\":\"查看 评分 编辑 更多\"},{\"name\":\"赵天宇\",\"studentId\":\"S2024041004\",\"dept\":\"市场部\",\"mentor\":\"孙一凡\",\"professional\":\"95%\",\"attitude\":\"82%\",\"task\":\"82%\",\"score\":\"85.1\",\"status\":\"已完成\",\"updated\":\"2024-06-09 09:15\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"rowIndex\":\"5\",\"actions\":\"查看 评分 编辑 更多\"},{\"name\":\"陈欣怡\",\"studentId\":\"S2024041005\",\"dept\":\"运营部\",\"mentor\":\"周子墨\",\"professional\":\"93%\",\"attitude\":\"80%\",\"task\":\"80%\",\"score\":\"83.6\",\"status\":\"待考核\",\"updated\":\"2024-06-08 10:05\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"rowIndex\":\"6\",\"actions\":\"查看 评分 编辑 更多\"},{\"name\":\"刘宇航\",\"studentId\":\"S2024041006\",\"dept\":\"测试部\",\"mentor\":\"吴昊天\",\"professional\":\"92%\",\"attitude\":\"78%\",\"task\":\"78%\",\"score\":\"81.2\",\"status\":\"待考核\",\"updated\":\"2024-06-07 15:40\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"rowIndex\":\"7\",\"actions\":\"查看 评分 编辑 更多\"}]});\n\nvar tableVm=this;\n(function(){\n  var doc=document,win=window;\n  var actionProps=['viewAction','scoreAction','editAction','moreAction'];\n  var labels={viewAction:'\\u67e5\\u770b',scoreAction:'\\u8bc4\\u5206',editAction:'\\u7f16\\u8f91',moreAction:'\\u66f4\\u591a'};\n  var styleId='pal-content82-table-action-style';var oldStyle=doc.getElementById(styleId);if(oldStyle&&oldStyle.parentNode)oldStyle.parentNode.removeChild(oldStyle);\n  var style=doc.createElement('style');style.id=styleId;\n  style.textContent='.pal-op-group{display:flex;justify-content:center;align-items:center;gap:10px;white-space:nowrap;min-width:205px}.pal-op-btn{border:0;background:transparent;color:#2563eb;font-weight:600;font-size:13px;line-height:24px;padding:0 3px;cursor:pointer;border-radius:3px}.pal-op-btn:hover{background:#eaf2ff}.pal-flyout{position:fixed;z-index:999999;background:#fff;border:1px solid #d6dfeb;border-radius:6px;box-shadow:0 12px 30px rgba(15,23,42,.18);color:#1f2937;font-size:13px;min-width:132px;overflow:hidden}.pal-flyout-item{padding:9px 14px;cursor:pointer;white-space:nowrap;border-bottom:1px solid #eef2f7}.pal-flyout-item:last-child{border-bottom:0}.pal-flyout-item:hover{background:#f3f7ff}.pal-flyout-danger{color:#dc2626}.pal-panel{position:fixed;z-index:999998;background:#fff;border:1px solid #d6dfeb;border-radius:7px;box-shadow:0 14px 34px rgba(15,23,42,.20);width:300px;color:#111827;font-size:13px}.pal-panel-head{display:flex;justify-content:space-between;align-items:center;padding:12px 14px;border-bottom:1px solid #eef2f7;font-weight:700}.pal-panel-body{padding:12px 14px}.pal-panel-row{display:flex;gap:8px;align-items:center;margin-bottom:10px}.pal-panel-row label{width:72px;color:#64748b}.pal-panel-row input,.pal-panel-row select{height:30px;border:1px solid #d6dfeb;border-radius:4px;padding:0 8px;flex:1}.pal-panel-foot{display:flex;justify-content:flex-end;gap:8px;padding:10px 14px;border-top:1px solid #eef2f7}.pal-btn{border:1px solid #cbd5e1;background:#fff;border-radius:4px;height:30px;padding:0 12px;cursor:pointer}.pal-btn-primary{border-color:#2563eb;background:#2563eb;color:#fff}.pal-toast{position:fixed;right:28px;top:24px;z-index:1000000;background:#0f172a;color:#fff;border-radius:5px;padding:10px 14px;font-size:13px;box-shadow:0 8px 22px rgba(15,23,42,.22)}';\n  doc.head.appendChild(style);\n  function rows(){var data=[];try{data=tableVm.GetData?tableVm.GetData():[]}catch(e){};if(!data||!data.length)data=tableVm.propData&&(tableVm.propData.totalData||tableVm.propData.data)||[];return data||[];}\n  function setRows(data){data=data.map(function(r){r.actions='\\u67e5\\u770b \\u8bc4\\u5206 \\u7f16\\u8f91 \\u66f4\\u591a';return r;});tableVm.propData.totalData=data;tableVm.propData.data=data;if(tableVm.SetData)tableVm.SetData(data);win.__palContent82Rows=data;setTimeout(decorate,80);}\n  function removeEl(id){var el=doc.getElementById(id);if(el&&el.parentNode)el.parentNode.removeChild(el);}\n  function toast(text){removeEl('pal-table-action-feedback');var box=doc.createElement('div');box.id='pal-table-action-feedback';box.className='pal-toast';box.textContent=text;doc.body.appendChild(box);setTimeout(function(){removeEl('pal-table-action-feedback');},2200);}\n  function clampPanel(panel,anchorRect){var w=panel.offsetWidth||180,h=panel.offsetHeight||180,left=anchorRect?anchorRect.right+8:28,top=anchorRect?anchorRect.top:70;if(left+w>win.innerWidth-12)left=Math.max(12,(anchorRect?anchorRect.left-w-8:win.innerWidth-w-12));if(top+h>win.innerHeight-12)top=Math.max(12,win.innerHeight-h-12);panel.style.left=Math.round(left)+'px';panel.style.top=Math.round(top)+'px';}\n  function indexFromButton(btn){var tr=btn&&btn.closest('tr');if(!tr)return 0;var body=tr.parentNode;var trs=Array.prototype.filter.call(body.children,function(x){return x.tagName==='TR'&&x.offsetHeight>0;});return Math.max(0,trs.indexOf(tr));}\n  function rowByIndex(i){var data=rows();return data[Math.max(0,Math.min(i,data.length-1))]||{};}\n  function showPanel(kind,row,idx,anchorRect){removeEl('pal-table-action-panel');removeEl('pal-table-action-more-menu');var p=doc.createElement('div');p.id='pal-table-action-panel';p.className='pal-panel';var title=kind==='edit'?'\\u7f16\\u8f91\\u8bb0\\u5f55':kind==='score'?'\\u8bc4\\u5206\\u8bb0\\u5f55':'\\u67e5\\u770b\\u8bb0\\u5f55';if(kind==='view'){p.innerHTML='<div class=\"pal-panel-head\"><span>'+title+'</span><button class=\"pal-btn\" data-close=\"1\">x</button></div><div class=\"pal-panel-body\"><div class=\"pal-panel-row\"><label>\\u59d3\\u540d</label><b>'+(row.name||'')+'</b></div><div class=\"pal-panel-row\"><label>\\u5b66\\u53f7</label><span>'+(row.studentId||'')+'</span></div><div class=\"pal-panel-row\"><label>\\u90e8\\u95e8</label><span>'+(row.dept||'')+'</span></div><div class=\"pal-panel-row\"><label>\\u5bfc\\u5e08</label><span>'+(row.mentor||'')+'</span></div><div class=\"pal-panel-row\"><label>\\u7efc\\u5408\\u8bc4\\u5206</label><span>'+(row.score||'')+'</span></div></div>';}else{var scoreField=kind==='score'?'<div class=\"pal-panel-row\"><label>\\u7efc\\u5408\\u8bc4\\u5206</label><input data-field=\"score\" value=\"'+(row.score||'')+'\"></div>':'';p.innerHTML='<div class=\"pal-panel-head\"><span>'+title+'</span><button class=\"pal-btn\" data-close=\"1\">x</button></div><div class=\"pal-panel-body\"><div class=\"pal-panel-row\"><label>\\u59d3\\u540d</label><input data-field=\"name\" value=\"'+(row.name||'')+'\"></div><div class=\"pal-panel-row\"><label>\\u90e8\\u95e8</label><input data-field=\"dept\" value=\"'+(row.dept||'')+'\"></div><div class=\"pal-panel-row\"><label>\\u72b6\\u6001</label><select data-field=\"status\"><option>\\u5df2\\u5b8c\\u6210</option><option>\\u5f85\\u8003\\u6838</option></select></div>'+scoreField+'</div><div class=\"pal-panel-foot\"><button class=\"pal-btn\" data-close=\"1\">\\u53d6\\u6d88</button><button class=\"pal-btn pal-btn-primary\" data-save=\"1\">\\u4fdd\\u5b58</button></div>';}\n    doc.body.appendChild(p);var sel=p.querySelector('select[data-field=\"status\"]');if(sel)sel.value=row.status||'\\u5f85\\u8003\\u6838';clampPanel(p,anchorRect);p.addEventListener('click',function(ev){if(ev.target&&ev.target.getAttribute('data-close'))removeEl('pal-table-action-panel');if(ev.target&&ev.target.getAttribute('data-save')){var data=rows().slice();var next=Object.assign({},data[idx]||row);Array.prototype.forEach.call(p.querySelectorAll('[data-field]'),function(input){next[input.getAttribute('data-field')]=input.value;});next.updated='2026-06-27 03:15';data[idx]=next;setRows(data);removeEl('pal-table-action-panel');toast('\\u5df2\\u66f4\\u65b0\\uff1a'+(next.name||''));win.__palLastTableAction={action:kind,row:next,time:Date.now(),result:'saved'};}});\n  }\n  function showMore(row,idx,anchorRect){removeEl('pal-table-action-more-menu');removeEl('pal-table-action-panel');var menu=doc.createElement('div');menu.id='pal-table-action-more-menu';menu.className='pal-flyout';menu.innerHTML='<div class=\"pal-flyout-item\" data-act=\"copy\">\\u590d\\u5236\\u8bb0\\u5f55</div><div class=\"pal-flyout-item\" data-act=\"log\">\\u67e5\\u770b\\u65e5\\u5fd7</div><div class=\"pal-flyout-item pal-flyout-danger\" data-act=\"delete\">\\u5220\\u9664\\u8bb0\\u5f55</div>';doc.body.appendChild(menu);clampPanel(menu,anchorRect);menu.addEventListener('click',function(ev){var item=ev.target&&ev.target.closest('[data-act]');if(!item)return;var act=item.getAttribute('data-act'),data=rows().slice();if(act==='copy'){var cp=Object.assign({},row,{studentId:(row.studentId||'S')+'C',name:(row.name||'')+'\\u526f\\u672c',updated:'2026-06-27 03:15'});data.splice(idx+1,0,cp);setRows(data);toast('\\u5df2\\u590d\\u5236\\uff1a'+(row.name||''));win.__palLastTableAction={action:'copy',row:cp,time:Date.now()};}if(act==='log'){showPanel('view',Object.assign({},row,{score:(row.score||'')+' / log'}),idx,menu.getBoundingClientRect());toast('\\u5df2\\u6253\\u5f00\\u65e5\\u5fd7\\uff1a'+(row.name||''));win.__palLastTableAction={action:'log',row:row,time:Date.now()};}if(act==='delete'){data.splice(idx,1);setRows(data);toast('\\u5df2\\u5220\\u9664\\uff1a'+(row.name||''));win.__palLastTableAction={action:'delete',row:row,time:Date.now()};}removeEl('pal-table-action-more-menu');});win.__palLastTableAction={action:'more',row:row,time:Date.now(),menuRect:{left:menu.style.left,top:menu.style.top}};}\n  function handle(prop,row,idx,anchorRect){if(prop==='viewAction')return showPanel('view',row,idx,anchorRect);if(prop==='scoreAction')return showPanel('score',row,idx,anchorRect);if(prop==='editAction')return showPanel('edit',row,idx,anchorRect);if(prop==='moreAction')return showMore(row,idx,anchorRect);}\n  win.__palTableHandleAction=function(e){var row=e&&e.row||{},idx=0;handle('viewAction',row,idx,null);};\n  function decorate(){var root=tableVm.$el||doc;var cols=(tableVm.propData&&tableVm.propData.columns)||[];Array.prototype.forEach.call(root.querySelectorAll('.el-table__body-wrapper tbody tr'),function(tr){Array.prototype.forEach.call(tr.children,function(td,i){var col=cols[i];if(!col||col.prop!=='actions')return;var cell=td.querySelector('.cell')||td;if(cell.querySelector('.pal-op-group'))return;cell.innerHTML='<div class=\"pal-op-group\"><button type=\"button\" class=\"pal-op-btn pal-op-viewAction\">\\u67e5\\u770b</button><button type=\"button\" class=\"pal-op-btn pal-op-scoreAction\">\\u8bc4\\u5206</button><button type=\"button\" class=\"pal-op-btn pal-op-editAction\">\\u7f16\\u8f91</button><button type=\"button\" class=\"pal-op-btn pal-op-moreAction\">\\u66f4\\u591a</button></div>';});});}\n  var root=tableVm.$el||doc;if(root.__palContent82ActionBound)root.removeEventListener('click',root.__palContent82ActionBound,true);root.__palContent82ActionBound=function(ev){var btn=ev.target&&ev.target.closest&&ev.target.closest('.pal-op-btn');if(!btn)return;ev.preventDefault();ev.stopPropagation();var prop=actionProps.find(function(p){return btn.className.indexOf('pal-op-'+p)>=0;});var idx=indexFromButton(btn);var row=rowByIndex(idx);handle(prop,row,idx,btn.getBoundingClientRect());};root.addEventListener('click',root.__palContent82ActionBound,true);\n  if(!doc.__palContent82OutsideBound){doc.__palContent82OutsideBound=function(ev){if(!ev.target.closest||(!ev.target.closest('#pal-table-action-more-menu')&&!ev.target.closest('.pal-op-moreAction')))removeEl('pal-table-action-more-menu');};doc.addEventListener('click',doc.__palContent82OutsideBound,false);doc.addEventListener('keydown',function(ev){if(ev.key==='Escape'){removeEl('pal-table-action-more-menu');removeEl('pal-table-action-panel');}},false);}\n  setTimeout(decorate,80);setTimeout(decorate,400);\n})();",
+      "linkList": [
+        {
+          "linkId": 200001,
+          "enable": false,
+          "KSCGUID": "k7116a39977985709898b39106f9c24a",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "Select"
+        },
+        {
+          "linkId": 200002,
+          "enable": false,
+          "KSCGUID": "kde531ef81805f03a7978652364fc6e5",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "SelectAll"
+        },
+        {
+          "linkId": 200003,
+          "enable": false,
+          "KSCGUID": "k6b17ee5135cc972a392419823799869",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "SelectionChange"
+        },
+        {
+          "linkId": 200004,
+          "enable": false,
+          "KSCGUID": "kd5d69b0f1b497a062163231fa011c60",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CellMouseEnter"
+        },
+        {
+          "linkId": 200005,
+          "enable": false,
+          "KSCGUID": "ke0d03025b2d369509e93f32b3b06698",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CellMouseLeave"
+        },
+        {
+          "linkId": 200006,
+          "enable": true,
+          "KSCGUID": "k4799f9eebb9227838fb1dd17dc4cbfa",
+          "script": "var e=arguments[1]||{};if(window.__palTableHandleAction)window.__palTableHandleAction(e);",
+          "KSCLINKGUID": "",
+          "linkName": "CellClick"
+        },
+        {
+          "linkId": 200007,
+          "enable": false,
+          "KSCGUID": "k3f40ad40fdc2cfa9aa2738f2c8b709a",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CellDbclick"
+        },
+        {
+          "linkId": 200008,
+          "enable": false,
+          "KSCGUID": "k543a5f068434649d7604f8783fbaafd",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "RowClick"
+        },
+        {
+          "linkId": 200009,
+          "enable": false,
+          "KSCGUID": "k3cce2b4e41a63c13ff2c7c8be76df63",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "RowContextmenu"
+        },
+        {
+          "linkId": 200010,
+          "enable": false,
+          "KSCGUID": "k8d3d59fdbefb092e2c5b3a3dc30d23f",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "RowDbclick"
+        },
+        {
+          "linkId": 200011,
+          "enable": false,
+          "KSCGUID": "kfcefa2858931e2301459e09e64606d7",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "HeaderClick"
+        },
+        {
+          "linkId": 200012,
+          "enable": false,
+          "KSCGUID": "k28b1683510d30592388a9415265b74b",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "SortChange"
+        },
+        {
+          "linkId": 200013,
+          "enable": false,
+          "KSCGUID": "k931398cdcfb262579419334f440aadd",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "FilterChange"
+        },
+        {
+          "linkId": 200014,
+          "enable": false,
+          "KSCGUID": "kffc280f74da2be15690a02af83460db",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CurrentChange"
+        },
+        {
+          "linkId": 200015,
+          "enable": false,
+          "KSCGUID": "k82027972722d504b5e93f41a78e9ce4",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "HeaderDragend"
+        },
+        {
+          "linkId": 200016,
+          "enable": false,
+          "KSCGUID": "kaaab3c93ca5194a038cdb0fe0444b86",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "ExpandChange"
+        },
+        {
+          "linkId": 200017,
+          "enable": false,
+          "KSCGUID": "ke5650d38c66d4b98d93ef5f935277fc",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "CurrentPageChange"
+        },
+        {
+          "linkId": 200018,
+          "enable": false,
+          "KSCGUID": "k3797594649ac6575db30019bb61229d",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "OnLoadSuccess"
+        },
+        {
+          "linkId": 200019,
+          "enable": false,
+          "KSCGUID": "k75552b64753d26945b1d61263724c1f",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "OnBeforeEdit"
+        },
+        {
+          "linkId": 200020,
+          "enable": false,
+          "KSCGUID": "k1c04b6710f75302fde9ad5db91c3aa5",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "OnAfterEdit"
+        },
+        {
+          "linkId": 200021,
+          "enable": false,
+          "KSCGUID": "k22bc0ca390132c6239cc2c8cfd1f733",
+          "script": "",
+          "KSCLINKGUID": "",
+          "linkName": "PageSizeChange"
+        }
+      ],
+      "data": [
+        {
+          "name": "李明轩",
+          "studentId": "S2024041001",
+          "dept": "QA-Demo",
+          "mentor": "王思远",
+          "professional": "97%",
+          "attitude": "85%",
+          "task": "85%",
+          "score": "92.6",
+          "status": "已完成",
+          "updated": "2026-06-27 02:55",
+          "viewAction": "查看",
+          "scoreAction": "评分",
+          "editAction": "编辑",
+          "moreAction": "更多▾",
+          "rowIndex": "1",
+          "actions": "查看 评分 编辑 更多"
+        },
+        {
+          "name": "李明轩副本",
+          "studentId": "S2024041001C",
+          "dept": "产品部",
+          "mentor": "王思远",
+          "professional": "97%",
+          "attitude": "85%",
+          "task": "85%",
+          "score": "92.6",
+          "status": "已完成",
+          "updated": "2026-06-27 02:55",
+          "viewAction": "查看",
+          "scoreAction": "评分",
+          "editAction": "编辑",
+          "moreAction": "更多▾",
+          "rowIndex": "2",
+          "actions": "查看 评分 编辑 更多"
+        },
+        {
+          "name": "张雨婷",
+          "studentId": "S2024041002",
+          "dept": "研发部",
+          "mentor": "陈浩然",
+          "professional": "96%",
+          "attitude": "84%",
+          "task": "84%",
+          "score": "89.3",
+          "status": "已完成",
+          "updated": "2024-06-11 11:20",
+          "viewAction": "查看",
+          "scoreAction": "评分",
+          "editAction": "编辑",
+          "moreAction": "更多▾",
+          "rowIndex": "3",
+          "actions": "查看 评分 编辑 更多"
+        },
+        {
+          "name": "王子涵",
+          "studentId": "S2024041003",
+          "dept": "设计部",
+          "mentor": "刘佳怡",
+          "professional": "95%",
+          "attitude": "83%",
+          "task": "83%",
+          "score": "87.4",
+          "status": "已完成",
+          "updated": "2024-06-10 16:45",
+          "viewAction": "查看",
+          "scoreAction": "评分",
+          "editAction": "编辑",
+          "moreAction": "更多▾",
+          "rowIndex": "4",
+          "actions": "查看 评分 编辑 更多"
+        },
+        {
+          "name": "赵天宇",
+          "studentId": "S2024041004",
+          "dept": "市场部",
+          "mentor": "孙一凡",
+          "professional": "95%",
+          "attitude": "82%",
+          "task": "82%",
+          "score": "85.1",
+          "status": "已完成",
+          "updated": "2024-06-09 09:15",
+          "viewAction": "查看",
+          "scoreAction": "评分",
+          "editAction": "编辑",
+          "moreAction": "更多▾",
+          "rowIndex": "5",
+          "actions": "查看 评分 编辑 更多"
+        },
+        {
+          "name": "陈欣怡",
+          "studentId": "S2024041005",
+          "dept": "运营部",
+          "mentor": "周子墨",
+          "professional": "93%",
+          "attitude": "80%",
+          "task": "80%",
+          "score": "83.6",
+          "status": "待考核",
+          "updated": "2024-06-08 10:05",
+          "viewAction": "查看",
+          "scoreAction": "评分",
+          "editAction": "编辑",
+          "moreAction": "更多▾",
+          "rowIndex": "6",
+          "actions": "查看 评分 编辑 更多"
+        },
+        {
+          "name": "刘宇航",
+          "studentId": "S2024041006",
+          "dept": "测试部",
+          "mentor": "吴昊天",
+          "professional": "92%",
+          "attitude": "78%",
+          "task": "78%",
+          "score": "81.2",
+          "status": "待考核",
+          "updated": "2024-06-07 15:40",
+          "viewAction": "查看",
+          "scoreAction": "评分",
+          "editAction": "编辑",
+          "moreAction": "更多▾",
+          "rowIndex": "7",
+          "actions": "查看 评分 编辑 更多"
+        }
+      ]
+    },
+    {
+      "key": "AssessmentTableCol",
+      "UIName": "",
+      "proto": "",
+      "detailConfig": "",
+      "linkList": null
+    },
+    {
+      "key": "RRow5",
+      "UIName": "",
+      "proto": "",
+      "detailConfig": "",
+      "linkList": null
+    },
+    {
+      "key": "PalimpsestContentRoot",
+      "UIName": "",
+      "proto": "",
+      "detailConfig": "",
+      "linkList": null
+    },
+    {
+      "key": "图层1",
+      "UIName": "图层1",
+      "proto": "layer",
+      "detailConfig": "",
+      "linkList": null
+    },
+    {
+      "key": "pal_department_score_bar",
+      "UIName": "pal_department_score_bar",
+      "proto": "ElementChart",
+      "detailConfig": "option={\"color\":[\"#2f7df6\"],\"tooltip\":{\"trigger\":\"axis\"},\"title\":{\"text\":\"部门平均得分对比（Top 10）\",\"left\":18,\"top\":10,\"textStyle\":{\"fontSize\":14,\"fontWeight\":600,\"color\":\"#1f2937\"},\"subtext\":\"单位：分\",\"subtextStyle\":{\"fontSize\":12,\"color\":\"#64748b\"}},\"grid\":{\"left\":48,\"right\":24,\"top\":76,\"bottom\":46},\"xAxis\":{\"type\":\"category\",\"data\":[\"产品部\",\"研发部\",\"设计部\",\"市场部\",\"运营部\",\"测试部\",\"人事部\",\"财务部\",\"法务部\",\"行政部\"],\"axisLabel\":{\"color\":\"#334155\",\"fontSize\":11},\"axisTick\":{\"show\":false},\"axisLine\":{\"lineStyle\":{\"color\":\"#d7dee9\"}}},\"yAxis\":{\"type\":\"value\",\"min\":0,\"max\":100,\"axisLabel\":{\"color\":\"#64748b\"},\"splitLine\":{\"lineStyle\":{\"color\":\"#eef2f7\"}}},\"series\":[{\"name\":\"平均得分\",\"type\":\"bar\",\"barWidth\":18,\"itemStyle\":{\"borderRadius\":[3,3,0,0],\"color\":\"#2f7df6\"},\"label\":{\"show\":true,\"position\":\"top\",\"color\":\"#334155\",\"fontSize\":11},\"data\":[92.6,89.3,87.4,85.1,83.6,81.2,78.9,76.5,74.3,72.8]}]}",
+      "linkList": [
+        {
+          "linkId": 200001,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Click",
+          "KSCGUID": "kada25439f93c021348bfb03abd834e2"
+        },
+        {
+          "linkId": 200002,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Dblclick",
+          "KSCGUID": "kb37446c6b7abc34314d6afb1fef0a52"
+        },
+        {
+          "linkId": 200003,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Mousedown",
+          "KSCGUID": "k1de410e776b41b52555f24d83f2e522"
+        },
+        {
+          "linkId": 200004,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Mousemove",
+          "KSCGUID": "kd56a471dd31660b2a03958de5e53efc"
+        },
+        {
+          "linkId": 200005,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Mouseup",
+          "KSCGUID": "k25c01eb8cca4f16bfb20e44b864c0f0"
+        },
+        {
+          "linkId": 200006,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Mouseover",
+          "KSCGUID": "k5996418cad476ea342b279a011c8195"
+        },
+        {
+          "linkId": 200007,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Mouseout",
+          "KSCGUID": "kf6a5cbfa07644c1f3b6a70f801d4a70"
+        },
+        {
+          "linkId": 200008,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Globalout",
+          "KSCGUID": "k17a141affac5f5da33b9797e8a06548"
+        },
+        {
+          "linkId": 200009,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Contextmenu",
+          "KSCGUID": "k22166d1340b241ec9bc7d9df5d4653d"
+        }
+      ]
+    },
+    {
+      "key": "pal_completion_trend_line",
+      "UIName": "pal_completion_trend_line",
+      "proto": "ElementChart",
+      "detailConfig": "option={\"color\":[\"#2563eb\",\"#22c55e\"],\"tooltip\":{\"trigger\":\"axis\"},\"legend\":{\"top\":18,\"data\":[\"完成数\",\"待考核数\"],\"textStyle\":{\"color\":\"#334155\",\"fontSize\":11}},\"title\":{\"text\":\"考核完成趋势\",\"left\":18,\"top\":10,\"textStyle\":{\"fontSize\":14,\"fontWeight\":600,\"color\":\"#1f2937\"}},\"grid\":{\"left\":48,\"right\":28,\"top\":74,\"bottom\":42},\"xAxis\":{\"type\":\"category\",\"data\":[\"04-01\",\"04-08\",\"04-15\",\"04-22\",\"04-29\",\"05-06\",\"05-13\",\"05-20\",\"05-27\",\"06-03\",\"06-10\",\"06-17\",\"06-24\",\"06-30\"],\"axisLabel\":{\"color\":\"#334155\",\"fontSize\":11},\"axisLine\":{\"lineStyle\":{\"color\":\"#d7dee9\"}},\"axisTick\":{\"show\":false}},\"yAxis\":{\"type\":\"value\",\"min\":0,\"max\":120,\"splitLine\":{\"lineStyle\":{\"color\":\"#eef2f7\"}},\"axisLabel\":{\"color\":\"#64748b\"}},\"series\":[{\"name\":\"完成数\",\"type\":\"line\",\"smooth\":true,\"symbolSize\":6,\"lineStyle\":{\"width\":3},\"data\":[25,38,52,58,62,67,73,79,88,94,99,101,105,109]},{\"name\":\"待考核数\",\"type\":\"line\",\"smooth\":true,\"symbolSize\":6,\"lineStyle\":{\"width\":3},\"data\":[56,47,39,35,33,31,26,22,17,13,10,7,4,2]}]}",
+      "linkList": [
+        {
+          "linkId": 200001,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Click",
+          "KSCGUID": "k92545aafcf64b4b8a1344e46c988c9d"
+        },
+        {
+          "linkId": 200002,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Dblclick",
+          "KSCGUID": "k51938ecfe4678f6034862e35b963822"
+        },
+        {
+          "linkId": 200003,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Mousedown",
+          "KSCGUID": "k6bcf4bf74cdf95ce9f5d9dd72c90579"
+        },
+        {
+          "linkId": 200004,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Mousemove",
+          "KSCGUID": "k11248d45020e294d1a8ea5415d16cdf"
+        },
+        {
+          "linkId": 200005,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Mouseup",
+          "KSCGUID": "k96b6dce5202e35e8a8e21b0c8de65e1"
+        },
+        {
+          "linkId": 200006,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Mouseover",
+          "KSCGUID": "k77fae46964a47e3ec29ef6a16eded13"
+        },
+        {
+          "linkId": 200007,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Mouseout",
+          "KSCGUID": "k091dfa5152f79e14b48faad3540620b"
+        },
+        {
+          "linkId": 200008,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Globalout",
+          "KSCGUID": "kc5329764481fde4d5651958190a4d59"
+        },
+        {
+          "linkId": 200009,
+          "enable": false,
+          "script": "",
+          "scriptId": "",
+          "linkName": "Contextmenu",
+          "KSCGUID": "kbe7757b9581f144b2bfa73c30f80995"
+        }
+      ]
+    }
+  ],
+  "pageInfo": {
+    "ret": 0,
+    "msg": "获取成功!",
+    "data": {
+      "id": "1441151880758560275",
+      "guid": "60212e1d-16ab-41ef-82e2-89390b7c6511",
+      "type": 1005,
+      "name": "PalimpsestContent_82",
+      "version": 25,
+      "spaceTime": {
+        "id": "1152921504606851418",
+        "name": "PalimpsestL1_0626R2",
+        "guid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+        "devName": "PalimpsestBack_0626R2",
+        "realArea": 0,
+        "yuanArea": 0,
+        "webJsArea": 0,
+        "planArea": 0,
+        "historyArea": 0
+      }
+    }
+  }
+}

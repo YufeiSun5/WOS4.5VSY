@@ -1,0 +1,111 @@
+Trace(2, "QueryAssessmentRecords.enter", strmapPara);
+stringMap<var> param,input,output,condition1,objectRecord1,returnData,data,queryParams;
+stringMap<var>[] objectRecords;
+uint64[] recordIDs;
+string[] returnFields;
+Result queryResult;
+string resultText;
+string spaceTimeGuid;
+string keyword;
+string status;
+string batchID;
+string studentID;
+string mentorID;
+string startTimeText;
+string endTimeText;
+uint64 recordID;
+bool hasRecordID;
+int32 pageNo;
+int32 pageSize;
+int32 offset;
+
+spaceTimeGuid = "aba6cf7a-0715-4966-8eaf-0f448eba7bc9";
+hasRecordID = false;
+pageNo = 1;
+pageSize = 20;
+keyword = "";
+status = "";
+batchID = "";
+studentID = "";
+mentorID = "";
+startTimeText = "";
+endTimeText = "";
+if (strmapPara.containsKey("spaceTimeGuid")) { spaceTimeGuid = strmapPara.spaceTimeGuid; }
+if (strmapPara.containsKey("recordID")) { recordID = (uint64)strmapPara.recordID; hasRecordID = true; }
+if (strmapPara.containsKey("pageNo")) { pageNo = (int32)strmapPara.pageNo; }
+if (strmapPara.containsKey("pageSize")) { pageSize = (int32)strmapPara.pageSize; }
+if (strmapPara.containsKey("keyword")) { keyword = strmapPara.keyword; }
+if (strmapPara.containsKey("status")) { status = strmapPara.status; }
+if (strmapPara.containsKey("batch_id")) { batchID = strmapPara.batch_id; }
+if (strmapPara.containsKey("student_id")) { studentID = strmapPara.student_id; }
+if (strmapPara.containsKey("mentor_id")) { mentorID = strmapPara.mentor_id; }
+if (strmapPara.containsKey("startTime")) { startTimeText = strmapPara.startTime; }
+if (strmapPara.containsKey("endTime")) { endTimeText = strmapPara.endTime; }
+if (pageNo < 1) { pageNo = 1; }
+if (pageSize < 1) { pageSize = 20; }
+if (pageSize > 100) { pageSize = 100; }
+offset = (pageNo - 1) * pageSize;
+
+param.cloudID = 0;
+param.areaID = 0;
+param.transactionID = (uint64)0;
+param.timeout = 8000;
+param.type = (int32)3106;
+returnFields = {"$recordID","$startTime","$endTime","$parentGUID","$parentRecordID","id","student_id","batch_id","mentor_id","professional_score","attitude_score","task_score","teamwork_score","innovation_score","total_score","status","comment","updated_at","deleted"};
+input.appspacetimeguid = spaceTimeGuid;
+
+if (hasRecordID)
+{
+    recordIDs.push(recordID);
+    objectRecord1.objectName = "pal_assessment_record";
+    objectRecord1.recordIDs = new recordIDs;
+    objectRecords.push(new objectRecord1);
+    condition1.mode = (int32)51;
+    condition1.objectIdentifierType = (int32)2;
+    condition1.objectRecords = new objectRecords;
+    condition1.returnFields = new returnFields;
+    input.condition = new condition1;
+}
+else
+{
+    condition1.mode = (int32)61;
+    condition1.mainMode = (int32)53;
+    condition1.recordSpaceTimeMode = (int32)1;
+    condition1.returnFields = new returnFields;
+    condition1.offset = offset;
+    condition1.limit = pageSize;
+    input.condition = new condition1;
+}
+
+queryResult = Query(param, input, output);
+Trace(2, "QueryAssessmentRecords.queryRet", queryResult.ret);
+Trace(2, "QueryAssessmentRecords.output", output);
+
+queryParams.spaceTimeGuid = spaceTimeGuid;
+queryParams.pageNo = pageNo;
+queryParams.pageSize = pageSize;
+queryParams.offset = offset;
+queryParams.keyword = keyword;
+queryParams.status = status;
+queryParams.batch_id = batchID;
+queryParams.student_id = studentID;
+queryParams.mentor_id = mentorID;
+queryParams.startTime = startTimeText;
+queryParams.endTime = endTimeText;
+queryParams.hasRecordID = hasRecordID;
+if (hasRecordID) { queryParams.recordID = recordID; }
+
+data.table = "pal_assessment_record";
+data.type = 3106;
+data.queryMode = condition1.mode;
+data.queryRet = queryResult.ret;
+data.queryParams = new queryParams;
+data.output = new output;
+returnData.ok = (bool)(queryResult.ret == 0);
+if (queryResult.ret == 0) { returnData.code = "OK"; returnData.message = "query assessment records success"; }
+else { returnData.code = "QUERY_FAILED"; returnData.message = "query assessment records failed"; }
+returnData.traceId = "pal-20260629-queryrecords-param-driven-v2";
+returnData.data = new data;
+resultText = ConvertToJsonString(returnData,true);
+Trace(2, "QueryAssessmentRecords.return", resultText);
+return resultText;

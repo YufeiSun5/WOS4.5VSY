@@ -29,6 +29,30 @@ browser-harness --doctor
 
 4. 只在已通过人类导航进入自定义计算 `worker-space/index.html?...type=1005` 后操作。动态 URL 只能作为证据，不作为入口。
 
+## 开发阶段入口边界
+
+后端自定义计算的开发阶段第一阶段，必须在 `建模系统客户端` 里打开后端模型和自定义计算函数，再进入函数编辑器调试。标准目标是源模型中的自定义计算，例如：
+
+```text
+WOS4 主页面
+-> 回到桌面
+-> 建模系统客户端
+-> 后端模型
+-> 逻辑模型 / 自定义计算
+-> PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC
+-> 目标函数 / onCreate
+-> 调试配置 / 断点 / 启动调试
+```
+
+`时空功能开发平台`、`时空对象管理平台`、`组态系统客户端`、`运维部署客户端` 不作为这一阶段的函数源码开发入口：
+
+- `时空功能开发平台` 用于时空、仓库包、运行侧对象和后续运行链路相关操作；它不是建模客户端里的源模型函数编辑入口。
+- `时空对象管理平台` 只验证已上线运行对象、记录、GUID 和运行态数据；不能在其中新建或修改源模型函数来绕过开发流程。
+- `组态系统客户端` 负责实例化、画面引用和时空配置。
+- `运维部署客户端` 负责更新、部署、启动。
+
+如果任务是“调后端函数 / 调自定义计算 / 修改 Query/Create/Update/Delete 函数 / 在 onCreate 里调试”，先回到桌面并进入 `建模系统客户端`。不要误进 `时空功能开发平台` 后在仓库包或运行对象页面里寻找源函数。
+
 ## 定位调试编辑器
 
 用递归 iframe 查找精确的 worker-space 编辑器，不要误匹配外层 `worker-space-model`：
@@ -120,10 +144,190 @@ resultText: {"ok":true,"code":"OK","message":"success","traceId":"pal-20260624-b
 
 调试结束后必须停止调试，并保存停止后的快照，确认 `.wos-editor-debug-start` 恢复。
 
+## 什么算调试通过
+
+后端元语言函数调试通过必须有“执行证据”和“业务结果证据”，不能只看编辑、编译或提交动作：
+
+- `编译成功` 只证明语法能编译，不证明函数执行到目标语句。
+- `Update ret=0` 只证明平台接受了写入请求；必须重载或重新打开函数，回读完整函数头尾，确认目标调用语句没有被截断。
+- `提交成功` 只证明模型版本提交，不证明运行包、时空对象或蓝色客户端已经更新。
+- 断点调试通过的最低标准：断点列表出现目标函数行，启动后变量区出现目标变量，堆栈/断点区有目标函数帧，单步后能读到 `resultText` 或目标返回变量。
+- 后端 Query/CRUD 通过的最低标准：返回协议中能看到业务 `ret/queryRet`，且成功场景必须为 `0`；如果用户要求“拿到数据”，还必须看到实际记录值、记录数或明确的空结果原因。
+- 前端或运行态 `Call` 通过的最低标准：`Call` 返回 `ret=0`，并且 `returndata` 或统一 JSON 中包含目标函数的 `ok/code/message/data/traceId`。`ret=-210133`、`CALL_FAIL`、只有 `consumeTime`、没有 `returndata` 都不能算通过。
+- 如果是在 `onCreate` 里做单点调试，必须看到 `resultText = TargetFunc(strmapPara)` 执行后的 `resultText` 值；只看到参数 Trace 或变量区空白不能算通过。
+
+证据文件必须写明结论字段，例如 `passed:false`、`reason:"breakpoint_not_hit"`，避免后续 agent 把失败证据误读成通过证据。
+
 ## 常见失败
 
 - 只看到 `编译成功`，但变量区仍是 `暂无数据`：没有断点命中，不能算调试通过。
+- 点击启动调试后先显示 `编译成功`，随后提示 `未找到访问区域 / 启动调试失败`：这是调试器启动访问区失败，函数尚未执行。先打开 `调试配置` 检查访问配置，不要先改 Query/CRUD 代码。
+  - `时空信息 -> 已选信息` 只有目标时空还不够。
+  - 还必须补齐 `添加用户访问信息` 和 `添加时空访问信息`，尤其是其他云客户端业务用户和目标时空 GUID。
+  - 失败时变量区通常仍为空，不会出现 `strmapPara/resultText`，也不会有业务返回 JSON。
 - 启动后长时间显示 `启动中`：继续轮询；如果断点命中，变量区和 `.debug-interrupt-*` 会出现。
 - 点击断点后左侧断点区没出现行号：点击位置不在 `.glyph-margin`，按行号文本重新定位。
 - `line-numbers` 返回顺序是 `10,11,12,7,8,9,4,5,6,1,2,3` 这类乱序：必须按 `txt` 精确找目标行，不能按数组下标。
 - 中文出现在 browser-harness ASCII 临时脚本里会变成 `????`：脚本里避免中文正则，或使用 Unicode 转义/UTF-8 文件读取。
+- browser-harness ASCII 临时脚本里不要直接写 `提交`、`确认`、`版本提交` 这类中文比较值。用 Unicode 转义，例如 `\u63d0\u4ea4`、`\u786e\u8ba4`、`\u7248\u672c\u63d0\u4ea4`，否则会出现“读到按钮文本正确，但匹配目标失败”的假象。
+- Monaco 多行编辑不要优先用 `Input.insertText`。当前平台实测会把长脚本截断、插入到错误光标位置或残留查找框文本。需要批量替换函数脚本时，优先抓保存请求并复用 `/api/v1/Update`；若只能走 UI，必须截图确认完整函数头尾和编译结果。
+- `/api/v1/Update` 返回 `ret=0` 后仍可能发生脚本文本截断，尤其是函数尾部语句缺失。更新后必须重新加载 worker 或重新打开函数，并比对 `textarea`/代码区中的完整脚本；未回读确认前不得调试或提交。
+- 几何估算点击 Monaco gutter 不一定能设置断点。必须在左侧断点列表或 `.breakpoint-item-line` 中看到目标函数行；没有断点项时，启动调试只会得到编译成功或空变量区。
+- 运行态 `Call` 参数必须照真实页面脚本包装。`stringMap<var>` 入参从前端传递时通常是 `params:[new Variant(new StringMap(...))]`，少包 `Variant` 会返回非业务结果，不能据此判断后端函数失败。
+
+## 前后端参数类型对齐
+
+调试前端 `Call` 到元语言自定义计算时，先核对后端函数签名。典型函数：
+
+```text
+QueryAssessmentRecords(stringMap<var> strmapPara) -> string
+```
+
+调用方必须传入与签名匹配的映射参数，不能把空数组当作参数体：
+
+```javascript
+// 错误：后端需要 stringMap<var>，这里传了数组
+params: []
+
+// 正确：传一个对象/映射，字段名和后端 strmapPara.containsKey(...) 对齐
+params: [new StringMap({
+  spaceTimeGuid: currentSpaceTimeGuid,
+  pageNo: 1,
+  pageSize: 20,
+  startTime: "2020-01-01 00:00:00",
+  endTime: "2020-01-31 00:00:00"
+})]
+```
+
+如果平台报“参数不符合/参数类型不符合”，优先检查：
+
+1. 后端函数入参类型，例如 `stringMap<var>`、`string`、`int32`。
+2. 前端 `params` 的层级和元素类型，尤其不要用 `[]` 代替 `stringMap<var>`。
+3. 字段名是否和后端 `strmapPara.containsKey("...")` 一致。
+4. 调后台前是否已执行 `SetRunInfo({stType:4, spaceTime, devName})` 切到目标时空和后端运行对象。
+
+后端单点调试时，优先在 `onCreate` 里构造同形态 `strmapPara`，再调用目标函数并 `Trace` 返回值。这样可以先排除前端按钮、页面变量和运行态包装问题。
+
+## 后端 Query 的时空号规则
+
+元语言函数内部调用 `Query/Create/Update/Delete` 时，要区分 App 运行上下文和调试/worker-space 直调上下文：
+
+- 在正式 App 运行态里，`SetRunInfo` 或客户端上下文可能已经提供当前时空；但函数仍应允许前端传入 `spaceTimeGuid` 或 `appspacetimeguid`，避免页面只能绑定单一时空。
+- 在 `worker-space`、调试器、外部直调或直接调用历史/计划记录 API 时，必须把目标时空写入 `input.appspacetimeguid`。否则常见失败是必填参数缺失或访问区类错误。
+- Palimpsest 当前目标时空 GUID 是 `aba6cf7a-0715-4966-8eaf-0f448eba7bc9`，只作为当前项目证据，不应写死到通用页面逻辑里。
+- `pal_assessment_record / pal_assessment_score_detail / pal_operation_log` 位于 `历史 -> 业务事`，记录 API 类型必须使用 `3106`。旧脚本里出现的 `4106` 只适合计划业务事，不能作为当前后端查询依据。
+
+推荐的函数入口兼容写法：
+
+```c
+string spaceTimeGuid;
+spaceTimeGuid = "aba6cf7a-0715-4966-8eaf-0f448eba7bc9";
+if (strmapPara.containsKey("spaceTimeGuid")) { spaceTimeGuid = strmapPara.spaceTimeGuid; }
+if (strmapPara.containsKey("appspacetimeguid")) { spaceTimeGuid = strmapPara.appspacetimeguid; }
+input.appspacetimeguid = spaceTimeGuid;
+```
+
+如果调试启动已经报 `未找到访问区域`，这段代码还没有机会执行；先修调试配置，再判断 Query 语句。
+
+## Palimpsest 真实 Query 调试记录
+
+2026-06-27 在 `PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC -> QueryAssessmentRecords` 验证：
+
+- 后端函数元数据是 `QueryAssessmentRecords(stringMap<var> strmapPara) -> string`。
+- 手册枚举在当前元语言编译环境里不一定已声明。`Enum_His_Type::THING_RECORD`、`Enum_HisPlan_Mode::OBJECTS_SINGLEST`、`Enum_IdentifierType::NAME`、`Enum_HisPlan_Mode::RECORDS_BY_CONDITION`、`Enum_HisPlan_MainMode::RECORDS_ALL` 编译失败时，改用数值常量：
+
+```text
+4106 = 计划库业务事记录
+3106 = 历史库业务事记录
+17   = 指定单个时空对象查询
+2    = 按名称标识
+61   = 按对象条件和记录条件查询记录
+53   = 查询记录
+```
+
+- 本次真实查询脚本使用 `Query(param,input,output)` 查询 `pal_assessment_record`，统一把 `queryResult.ret` 和 `output` 写入返回 JSON，错误时也返回给前端而不是吞掉。
+- 已提交版本说明：`pal-20260627-real-query-api`。
+- 提交后点击 `.wos-editor-debug-start`，证据显示 `编译成功 13:35:55`、无 `FATAL`，`.wos-editor-debug-stop` 出现。
+- 该结果只能证明“模型层真实 Query 代码已提交并可启动编译调试”。没有断点变量或运行对象重新部署前，不能宣称前端已调用到这版真实 Query，也不能宣称 Create/Update/Delete 真实持久化已完成。
+
+## Palimpsest 真实 CRUD 调试记录
+
+2026-06-27 在 `PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC` 继续验证：
+
+- 函数范围：`CreateAssessmentRecord / UpdateAssessmentRecord / DeleteAssessmentRecord / SubmitAssessmentScore`。
+- 业务事记录 API 采用手册中的历史/计划库函数：`Create / Update / Delete`。关键常量要按对象形态选择：
+  - `3106 = 历史库业务事记录`
+  - `4106 = 计划库业务事记录`
+  - `51 = 按时空对象和 recordID 操作记录`
+  - `2 = 按名称标识对象`
+- Palimpsest 的 `pal_assessment_record / pal_assessment_score_detail / pal_operation_log` 位于 `历史 -> 业务事`，所以真实 CRUD 应使用 `param.type=3106`。如果误用 `4106`，运行态可能返回 `-30038 = 对象不存在`。
+- `recordID` 只适用于业务事/时序事记录。Update/Delete/Submit 没有 `recordID` 时必须返回结构化 `VALIDATION_FAILED`，不能假成功。
+- 本轮先通过 `/api/v1/Update` 更新函数脚本，再点击 `.wos-editor-debug-start` 验证编译。第一次失败不是 CRUD API 形态问题，而是 JSON 字符串转义在注入过程中丢失，编译器看到 `resultText="{"ok"...` 后报语法错误。
+- 修复方式：所有函数改为用 `stringMap<var> returnData` 组织返回值，最后 `return ConvertToJsonString(returnData,true);`，不要在大段脚本里手写大量 `\"`。
+- 修复后调试启动显示 `编译成功 14:02:09`、无 `FATAL`，随后提交版本说明 `pal-20260627-real-crud-api`，worker 文本捕获 `提交成功`。
+- 该结果只能证明“模型层真实 CRUD 函数已提交并可编译启动”。没有运行包更新、部署/启动和蓝色客户端复测前，不能宣称前端已经调用到这版真实 CRUD，也不能宣称数据库记录已实际增删改。
+
+## Palimpsest 运行态缺表导致真实 Query 失败
+
+2026-06-27 在 `QueryAssessmentRecords` 中继续断点验证真实 `Query(param,input,output)`：
+
+- 断点命中并读取变量区，说明本次已经进入后端函数，不再是前端参数数量/类型不匹配问题。
+- `resultText` 返回统一错误协议：`ok=false / code=QUERY_FAILED / message=real query failed / traceId=pal-20260627-real-query`。
+- `data.table=pal_assessment_record`，`queryRet={"MLVariant":-210134}`，`output={"map":{}}`。
+- 同轮在 `时空对象管理平台 -> PalimpsestL1_0626R2 -> 计划 -> 业务事` 只看到 5 张业务事，缺少 `pal_assessment_record / pal_assessment_score_detail / pal_operation_log`。
+
+判定规则：如果目标业务事不在 `时空对象管理平台` 的运行态列表中，后端断点里对该业务事执行 Query/Create/Update/Delete 失败应优先按“运行对象未上线/未部署到当前时空”处理。不要把它误判成前端按钮、`Call` 参数或元语言语法问题。先补齐实例化/部署，再做 Create->Query->Update/Delete 闭环。
+
+## Palimpsest 真实 Create -> Query 跑通记录
+
+2026-06-28 在 `PalimpsestL1_0626R2 / PalimpsestBack_0626R2` 验证 `pal_assessment_record` 真实插入和查询：
+
+- 运行时空 GUID：`aba6cf7a-0715-4966-8eaf-0f448eba7bc9`。
+- 目标对象：`pal_assessment_record`，位于 `历史 -> 业务事`，必须使用 `param.type=3106`。
+- 从建模 `worker-space` 直调运行库 API 时，不在 App 后端上下文内，必须在 `input` 补 `appspacetimeguid`；否则 `Create` 返回 `-30018 必填参数缺失`。
+- `dataValues` 必须按 `var[][]` 的 protobuf 形态包装，每个单元格是 `{stringValue/int64Value/uint64Value/doubleValue/dateTimeValue/boolValue}`。如果传 JS 原始二维数组，`Create` 会进入目标时空但返回 `-31539 添加时名称和值数量不对`。
+- `pal_assessment_record` 当前实际业务字段有 14 个：`id / student_id / batch_id / mentor_id / professional_score / attitude_score / task_score / teamwork_score / innovation_score / total_score / status / comment / updated_at / deleted`。
+- 业务事记录插入还需要记录系统字段：`$startTime / $endTime / $parentGUID / $parentRecordID`。
+- 成功 Create 返回：
+
+```text
+ret=0
+errorcodes=[0]
+ids=["216172782113783809"]
+business id=PAL_DIRECT6_20260627175612
+```
+
+- 成功 Query 使用 `mode=51`、`objectIdentifierType=2`、`objectRecords=[{objectName:"pal_assessment_record",recordIDs:["216172782113783809"]}]`，返回 `ret=0`，并查回 `PAL_DIRECT6_20260627175612`、分数字段、`updated_at` 和 `deleted=false`。
+
+结论：此前插入失败是调用方法和参数形态问题，不是表未上线。正确链路是运行态业务事记录 `Create/Query`，不是修改模型属性；外部直调还必须显式传 `appspacetimeguid`。
+
+2026-06-28 追加纠偏：
+
+- 用户判断“插入不成可能是方法不对”成立。`workerWindow.Call("Create", {param,input}, opts)` 这条直调封装会返回 `-31520 = 添加记录时缺少必要的属性`，不能作为 Palimpsest 业务事插入的标准验证方法。
+- 已验证的 worker-space 直调方式是导入编辑器模块后使用 `Ke("Create", req)`，其中 `Ke = mod.aV`，并手工构造 `fieldValues[0].keyValueList`。
+- `dataValues` 不能依赖通用 helper 自动推断；必须显式写成 `valueArray2DValue.arrays[0].values`，每个单元格带类型键，例如 `{int64Value:"..."}`、`{uint64Value:"0"}`、`{stringValue:"..."}`、`{doubleValue:38}`、`{dateTimeValue:{...}}`、`{boolValue:false}`。
+- 新验证结果：`Create ret=0 / ids=["216172782113783810"] / id=PAL_DIRECT6_20260627210127`，随后 `Query mode=51` 按 `recordID=216172782113783810` 返回 `ret=0` 并查回该业务 id。
+
+## Palimpsest 剩余 CRUD 调通记录
+
+2026-06-28 继续验证 `pal_assessment_record` 的剩余历史业务事函数：
+
+- 历史业务事和计划业务事的记录类型不同，不能混用：
+  - `3106 = 历史库业务事记录`
+  - `4106 = 计划库业务事记录`
+- 对 `pal_assessment_record`，`UpdateAssessmentRecord / SubmitAssessmentScore / DeleteAssessmentRecord` 均应使用 `3106`。
+- 直接运行库 API 闭环结果：
+  - 新建 A：`id=PAL_REMAIN_A_20260628005847 / recordID=216172782113783811`，`ret=0`。
+  - 更新 A：`Update ret=0`，查询回读 `total_score=88.5 / status=updated_by_update_function`。
+  - 评分 A：`SubmitAssessmentScore` 本质是按 `recordID` 更新评分字段，`ret=0`，查询回读 `total_score=98 / status=completed_by_submit`。
+  - 新建 B：`id=PAL_REMAIN_B_20260628005847 / recordID=216172782113783812`，`ret=0`。
+  - 删除 B：`Delete ret=0`，随后查询返回 `-31537 = 记录ID不存在`，符合硬删除预期。
+- 编辑态函数体复核：
+  - `UpdateAssessmentRecord`、`SubmitAssessmentScore` 含 `3106 / appspacetimeguid / mode=51 / objectRecordFieldValues`。
+  - `DeleteAssessmentRecord` 含 `3106 / appspacetimeguid / mode=51 / objectRecords / deleteMode=1`。
+  - 三个函数均不再含 `4106`。
+- 隐藏 worker 中顶栏 `提交` 弹出 `版本提交` 较慢，不能只等 20 秒。观察窗口内应继续轮询隐藏 worker 的 `el-dialog`；本次提交说明 `pal-20260628-real-remaining-crud-api`，最终 worker 文本捕获 `提交成功`。
+- 证据：
+  - `wos4-artifacts/snapshots/palimpsest_remaining_crud_direct_verify_20260628.json`
+  - `wos4-artifacts/snapshots/palimpsest_remaining_functions_after_update_20260628.json`
+  - `wos4-artifacts/snapshots/pal_remaining_funcs_submit_confirm_20260628.json`

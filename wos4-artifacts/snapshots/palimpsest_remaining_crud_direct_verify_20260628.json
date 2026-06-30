@@ -1,0 +1,1241 @@
+{
+  "ok": true,
+  "stamp": "20260628005847",
+  "createA": {
+    "testId": "PAL_REMAIN_A_20260628005847",
+    "resp": {
+      "errorcodes": [
+        0
+      ],
+      "ids": [
+        "216172782113783811"
+      ],
+      "ret": 0
+    },
+    "recordID": "216172782113783811"
+  },
+  "createB": {
+    "testId": "PAL_REMAIN_B_20260628005847",
+    "resp": {
+      "errorcodes": [
+        0
+      ],
+      "ids": [
+        "216172782113783812"
+      ],
+      "ret": 0
+    },
+    "recordID": "216172782113783812"
+  },
+  "updateA": {
+    "errorcodeexs": [],
+    "errorcodes": [],
+    "ret": 0
+  },
+  "queryAfterUpdateA": {
+    "errorcodeexs": [],
+    "errorcodes": [],
+    "ret": 0,
+    "returndatas": {
+      "dataSetList": [
+        {
+          "fieldNames": [
+            "$recordID",
+            "$startTime",
+            "$endTime",
+            "$parentGUID",
+            "$parentRecordID",
+            "id",
+            "student_id",
+            "batch_id",
+            "mentor_id",
+            "professional_score",
+            "attitude_score",
+            "task_score",
+            "teamwork_score",
+            "innovation_score",
+            "total_score",
+            "status",
+            "comment",
+            "updated_at",
+            "deleted"
+          ],
+          "fieldValues": [
+            {
+              "values": [
+                {
+                  "uint64Value": "216172782113783811"
+                },
+                {
+                  "uint64Value": "132225120000001000"
+                },
+                {
+                  "uint64Value": "132225120000024450"
+                },
+                {
+                  "stringValue": "00000000-0000-0000-0000-000000000000"
+                },
+                {
+                  "uint64Value": "0"
+                },
+                {
+                  "stringValue": "PAL_REMAIN_A_20260628005847"
+                },
+                {
+                  "stringValue": "S2026041001"
+                },
+                {
+                  "stringValue": "2024Q2"
+                },
+                {
+                  "stringValue": "M001"
+                },
+                {
+                  "doubleValue": 38
+                },
+                {
+                  "doubleValue": 18
+                },
+                {
+                  "doubleValue": 18
+                },
+                {
+                  "doubleValue": 9
+                },
+                {
+                  "doubleValue": 9
+                },
+                {
+                  "doubleValue": 88.5
+                },
+                {
+                  "stringValue": "updated_by_update_function"
+                },
+                {
+                  "stringValue": "UpdateAssessmentRecord direct verified"
+                },
+                {
+                  "dateTimeValue": {
+                    "day": 28,
+                    "hour": 5,
+                    "microsecond": 0,
+                    "millisecond": 0,
+                    "minute": 20,
+                    "month": 6,
+                    "second": 0,
+                    "year": 2026
+                  }
+                },
+                {
+                  "boolValue": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "dataset": {
+      "fieldNames": [
+        "$recordID",
+        "$startTime",
+        "$endTime",
+        "$parentGUID",
+        "$parentRecordID",
+        "id",
+        "student_id",
+        "batch_id",
+        "mentor_id",
+        "professional_score",
+        "attitude_score",
+        "task_score",
+        "teamwork_score",
+        "innovation_score",
+        "total_score",
+        "status",
+        "comment",
+        "updated_at",
+        "deleted"
+      ],
+      "fieldValues": [
+        {
+          "values": [
+            {
+              "uint64Value": "216172782113783811"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "uint64Value": "132225120000001000"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "uint64Value": "132225120000024450"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "stringValue": "00000000-0000-0000-0000-000000000000"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "uint64Value": "0"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "stringValue": "PAL_REMAIN_A_20260628005847"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "stringValue": "S2026041001"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "stringValue": "2024Q2"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "stringValue": "M001"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "doubleValue": 38
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "doubleValue": 18
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "doubleValue": 18
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "doubleValue": 9
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "doubleValue": 9
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "doubleValue": 88.5
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "stringValue": "updated_by_update_function"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "stringValue": "UpdateAssessmentRecord direct verified"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "dateTimeValue": {
+                "day": 28,
+                "hour": 5,
+                "microsecond": 0,
+                "millisecond": 0,
+                "minute": 20,
+                "month": 6,
+                "second": 0,
+                "year": 2026
+              }
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "boolValue": false
+            }
+          ]
+        }
+      ],
+      "newFieldValues": [
+        {
+          "values": [
+            {
+              "uint64Value": "216172782113783811"
+            },
+            {
+              "uint64Value": "132225120000001000"
+            },
+            {
+              "uint64Value": "132225120000024450"
+            },
+            {
+              "stringValue": "00000000-0000-0000-0000-000000000000"
+            },
+            {
+              "uint64Value": "0"
+            },
+            {
+              "stringValue": "PAL_REMAIN_A_20260628005847"
+            },
+            {
+              "stringValue": "S2026041001"
+            },
+            {
+              "stringValue": "2024Q2"
+            },
+            {
+              "stringValue": "M001"
+            },
+            {
+              "doubleValue": 38
+            },
+            {
+              "doubleValue": 18
+            },
+            {
+              "doubleValue": 18
+            },
+            {
+              "doubleValue": 9
+            },
+            {
+              "doubleValue": 9
+            },
+            {
+              "doubleValue": 88.5
+            },
+            {
+              "stringValue": "updated_by_update_function"
+            },
+            {
+              "stringValue": "UpdateAssessmentRecord direct verified"
+            },
+            {
+              "dateTimeValue": {
+                "day": 28,
+                "hour": 5,
+                "microsecond": 0,
+                "millisecond": 0,
+                "minute": 20,
+                "month": 6,
+                "second": 0,
+                "year": 2026
+              }
+            },
+            {
+              "boolValue": false
+            }
+          ]
+        }
+      ]
+    },
+    "returndata": {
+      "fieldNames": [
+        "$recordID",
+        "$startTime",
+        "$endTime",
+        "$parentGUID",
+        "$parentRecordID",
+        "id",
+        "student_id",
+        "batch_id",
+        "mentor_id",
+        "professional_score",
+        "attitude_score",
+        "task_score",
+        "teamwork_score",
+        "innovation_score",
+        "total_score",
+        "status",
+        "comment",
+        "updated_at",
+        "deleted"
+      ],
+      "fieldValues": [
+        {
+          "values": [
+            {
+              "uint64Value": "216172782113783811"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "uint64Value": "132225120000001000"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "uint64Value": "132225120000024450"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "stringValue": "00000000-0000-0000-0000-000000000000"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "uint64Value": "0"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "stringValue": "PAL_REMAIN_A_20260628005847"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "stringValue": "S2026041001"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "stringValue": "2024Q2"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "stringValue": "M001"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "doubleValue": 38
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "doubleValue": 18
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "doubleValue": 18
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "doubleValue": 9
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "doubleValue": 9
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "doubleValue": 88.5
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "stringValue": "updated_by_update_function"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "stringValue": "UpdateAssessmentRecord direct verified"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "dateTimeValue": {
+                "day": 28,
+                "hour": 5,
+                "microsecond": 0,
+                "millisecond": 0,
+                "minute": 20,
+                "month": 6,
+                "second": 0,
+                "year": 2026
+              }
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "boolValue": false
+            }
+          ]
+        }
+      ],
+      "newFieldValues": [
+        {
+          "values": [
+            {
+              "uint64Value": "216172782113783811"
+            },
+            {
+              "uint64Value": "132225120000001000"
+            },
+            {
+              "uint64Value": "132225120000024450"
+            },
+            {
+              "stringValue": "00000000-0000-0000-0000-000000000000"
+            },
+            {
+              "uint64Value": "0"
+            },
+            {
+              "stringValue": "PAL_REMAIN_A_20260628005847"
+            },
+            {
+              "stringValue": "S2026041001"
+            },
+            {
+              "stringValue": "2024Q2"
+            },
+            {
+              "stringValue": "M001"
+            },
+            {
+              "doubleValue": 38
+            },
+            {
+              "doubleValue": 18
+            },
+            {
+              "doubleValue": 18
+            },
+            {
+              "doubleValue": 9
+            },
+            {
+              "doubleValue": 9
+            },
+            {
+              "doubleValue": 88.5
+            },
+            {
+              "stringValue": "updated_by_update_function"
+            },
+            {
+              "stringValue": "UpdateAssessmentRecord direct verified"
+            },
+            {
+              "dateTimeValue": {
+                "day": 28,
+                "hour": 5,
+                "microsecond": 0,
+                "millisecond": 0,
+                "minute": 20,
+                "month": 6,
+                "second": 0,
+                "year": 2026
+              }
+            },
+            {
+              "boolValue": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "submitA": {
+    "errorcodeexs": [],
+    "errorcodes": [],
+    "ret": 0
+  },
+  "queryAfterSubmitA": {
+    "errorcodeexs": [],
+    "errorcodes": [],
+    "ret": 0,
+    "returndatas": {
+      "dataSetList": [
+        {
+          "fieldNames": [
+            "$recordID",
+            "$startTime",
+            "$endTime",
+            "$parentGUID",
+            "$parentRecordID",
+            "id",
+            "student_id",
+            "batch_id",
+            "mentor_id",
+            "professional_score",
+            "attitude_score",
+            "task_score",
+            "teamwork_score",
+            "innovation_score",
+            "total_score",
+            "status",
+            "comment",
+            "updated_at",
+            "deleted"
+          ],
+          "fieldValues": [
+            {
+              "values": [
+                {
+                  "uint64Value": "216172782113783811"
+                },
+                {
+                  "uint64Value": "132225120000001000"
+                },
+                {
+                  "uint64Value": "132225120000024450"
+                },
+                {
+                  "stringValue": "00000000-0000-0000-0000-000000000000"
+                },
+                {
+                  "uint64Value": "0"
+                },
+                {
+                  "stringValue": "PAL_REMAIN_A_20260628005847"
+                },
+                {
+                  "stringValue": "S2026041001"
+                },
+                {
+                  "stringValue": "2024Q2"
+                },
+                {
+                  "stringValue": "M001"
+                },
+                {
+                  "doubleValue": 40
+                },
+                {
+                  "doubleValue": 19
+                },
+                {
+                  "doubleValue": 19
+                },
+                {
+                  "doubleValue": 10
+                },
+                {
+                  "doubleValue": 10
+                },
+                {
+                  "doubleValue": 98
+                },
+                {
+                  "stringValue": "completed_by_submit"
+                },
+                {
+                  "stringValue": "SubmitAssessmentScore direct verified"
+                },
+                {
+                  "dateTimeValue": {
+                    "day": 28,
+                    "hour": 5,
+                    "microsecond": 0,
+                    "millisecond": 0,
+                    "minute": 30,
+                    "month": 6,
+                    "second": 0,
+                    "year": 2026
+                  }
+                },
+                {
+                  "boolValue": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "dataset": {
+      "fieldNames": [
+        "$recordID",
+        "$startTime",
+        "$endTime",
+        "$parentGUID",
+        "$parentRecordID",
+        "id",
+        "student_id",
+        "batch_id",
+        "mentor_id",
+        "professional_score",
+        "attitude_score",
+        "task_score",
+        "teamwork_score",
+        "innovation_score",
+        "total_score",
+        "status",
+        "comment",
+        "updated_at",
+        "deleted"
+      ],
+      "fieldValues": [
+        {
+          "values": [
+            {
+              "uint64Value": "216172782113783811"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "uint64Value": "132225120000001000"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "uint64Value": "132225120000024450"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "stringValue": "00000000-0000-0000-0000-000000000000"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "uint64Value": "0"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "stringValue": "PAL_REMAIN_A_20260628005847"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "stringValue": "S2026041001"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "stringValue": "2024Q2"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "stringValue": "M001"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "doubleValue": 40
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "doubleValue": 19
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "doubleValue": 19
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "doubleValue": 10
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "doubleValue": 10
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "doubleValue": 98
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "stringValue": "completed_by_submit"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "stringValue": "SubmitAssessmentScore direct verified"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "dateTimeValue": {
+                "day": 28,
+                "hour": 5,
+                "microsecond": 0,
+                "millisecond": 0,
+                "minute": 30,
+                "month": 6,
+                "second": 0,
+                "year": 2026
+              }
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "boolValue": false
+            }
+          ]
+        }
+      ],
+      "newFieldValues": [
+        {
+          "values": [
+            {
+              "uint64Value": "216172782113783811"
+            },
+            {
+              "uint64Value": "132225120000001000"
+            },
+            {
+              "uint64Value": "132225120000024450"
+            },
+            {
+              "stringValue": "00000000-0000-0000-0000-000000000000"
+            },
+            {
+              "uint64Value": "0"
+            },
+            {
+              "stringValue": "PAL_REMAIN_A_20260628005847"
+            },
+            {
+              "stringValue": "S2026041001"
+            },
+            {
+              "stringValue": "2024Q2"
+            },
+            {
+              "stringValue": "M001"
+            },
+            {
+              "doubleValue": 40
+            },
+            {
+              "doubleValue": 19
+            },
+            {
+              "doubleValue": 19
+            },
+            {
+              "doubleValue": 10
+            },
+            {
+              "doubleValue": 10
+            },
+            {
+              "doubleValue": 98
+            },
+            {
+              "stringValue": "completed_by_submit"
+            },
+            {
+              "stringValue": "SubmitAssessmentScore direct verified"
+            },
+            {
+              "dateTimeValue": {
+                "day": 28,
+                "hour": 5,
+                "microsecond": 0,
+                "millisecond": 0,
+                "minute": 30,
+                "month": 6,
+                "second": 0,
+                "year": 2026
+              }
+            },
+            {
+              "boolValue": false
+            }
+          ]
+        }
+      ]
+    },
+    "returndata": {
+      "fieldNames": [
+        "$recordID",
+        "$startTime",
+        "$endTime",
+        "$parentGUID",
+        "$parentRecordID",
+        "id",
+        "student_id",
+        "batch_id",
+        "mentor_id",
+        "professional_score",
+        "attitude_score",
+        "task_score",
+        "teamwork_score",
+        "innovation_score",
+        "total_score",
+        "status",
+        "comment",
+        "updated_at",
+        "deleted"
+      ],
+      "fieldValues": [
+        {
+          "values": [
+            {
+              "uint64Value": "216172782113783811"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "uint64Value": "132225120000001000"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "uint64Value": "132225120000024450"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "stringValue": "00000000-0000-0000-0000-000000000000"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "uint64Value": "0"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "stringValue": "PAL_REMAIN_A_20260628005847"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "stringValue": "S2026041001"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "stringValue": "2024Q2"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "stringValue": "M001"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "doubleValue": 40
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "doubleValue": 19
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "doubleValue": 19
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "doubleValue": 10
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "doubleValue": 10
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "doubleValue": 98
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "stringValue": "completed_by_submit"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "stringValue": "SubmitAssessmentScore direct verified"
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "dateTimeValue": {
+                "day": 28,
+                "hour": 5,
+                "microsecond": 0,
+                "millisecond": 0,
+                "minute": 30,
+                "month": 6,
+                "second": 0,
+                "year": 2026
+              }
+            }
+          ]
+        },
+        {
+          "values": [
+            {
+              "boolValue": false
+            }
+          ]
+        }
+      ],
+      "newFieldValues": [
+        {
+          "values": [
+            {
+              "uint64Value": "216172782113783811"
+            },
+            {
+              "uint64Value": "132225120000001000"
+            },
+            {
+              "uint64Value": "132225120000024450"
+            },
+            {
+              "stringValue": "00000000-0000-0000-0000-000000000000"
+            },
+            {
+              "uint64Value": "0"
+            },
+            {
+              "stringValue": "PAL_REMAIN_A_20260628005847"
+            },
+            {
+              "stringValue": "S2026041001"
+            },
+            {
+              "stringValue": "2024Q2"
+            },
+            {
+              "stringValue": "M001"
+            },
+            {
+              "doubleValue": 40
+            },
+            {
+              "doubleValue": 19
+            },
+            {
+              "doubleValue": 19
+            },
+            {
+              "doubleValue": 10
+            },
+            {
+              "doubleValue": 10
+            },
+            {
+              "doubleValue": 98
+            },
+            {
+              "stringValue": "completed_by_submit"
+            },
+            {
+              "stringValue": "SubmitAssessmentScore direct verified"
+            },
+            {
+              "dateTimeValue": {
+                "day": 28,
+                "hour": 5,
+                "microsecond": 0,
+                "millisecond": 0,
+                "minute": 30,
+                "month": 6,
+                "second": 0,
+                "year": 2026
+              }
+            },
+            {
+              "boolValue": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "deleteB": {
+    "errorcodeexs": [],
+    "errorcodes": [],
+    "ret": 0
+  },
+  "queryAfterDeleteB": {
+    "errorcodeexs": [
+      {
+        "errorcodes": [
+          -31537
+        ]
+      }
+    ],
+    "errorcodes": [
+      -31537
+    ],
+    "ret": -31537,
+    "returndatas": {
+      "dataSetList": [
+        {
+          "fieldNames": [],
+          "fieldValues": []
+        }
+      ]
+    },
+    "dataset": {
+      "fieldNames": [],
+      "fieldValues": [],
+      "newFieldValues": []
+    },
+    "returndata": {
+      "fieldNames": [],
+      "fieldValues": [],
+      "newFieldValues": []
+    },
+    "retMessage": "记录ID不存在"
+  }
+}

@@ -1,0 +1,431 @@
+{
+  "kind": "wos4-page-runtime-replayable-backup",
+  "page": "PalimpsestContent_82",
+  "createdAt": "2026-06-26T19:28:53.449Z",
+  "ai": "sun_yufei_frontend-ai",
+  "href": "http://221.239.19.118:13001/api/v1/GetFileContent/1/0/0/94054fd1-9b20-463a-8372-b69776349847_120/index.html",
+  "table": {
+    "detailConfig": "this.table({\"border\":false,\"fit\":true,\"showHeader\":true,\"emptyText\":\"暂无匹配数据\",\"pagination\":true,\"pageSize\":10,\"currentPage\":1,\"columns\":[{\"prop\":\"name\",\"label\":\"姓名\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"studentId\",\"label\":\"学号\",\"minWidth\":\"130\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"dept\",\"label\":\"部门\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"mentor\",\"label\":\"导师\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"professional\",\"label\":\"专业能力\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"attitude\",\"label\":\"工作态度\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"task\",\"label\":\"任务完成\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"score\",\"label\":\"综合评分\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"status\",\"label\":\"状态\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"updated\",\"label\":\"更新时间\",\"minWidth\":\"135\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"viewAction\",\"label\":\"查看\",\"minWidth\":\"54\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"scoreAction\",\"label\":\"评分\",\"minWidth\":\"54\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"editAction\",\"label\":\"编辑\",\"minWidth\":\"54\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"moreAction\",\"label\":\"更多\",\"minWidth\":\"64\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false}],\"totalData\":[{\"name\":\"李明轩\",\"studentId\":\"S2024041001\",\"dept\":\"产品部\",\"mentor\":\"王思远\",\"professional\":\"97%\",\"attitude\":\"85%\",\"task\":\"85%\",\"score\":\"92.6\",\"status\":\"已完成\",\"updated\":\"2024-06-12 14:30\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"rowIndex\":\"1\"},{\"name\":\"张雨婷\",\"studentId\":\"S2024041002\",\"dept\":\"研发部\",\"mentor\":\"陈浩然\",\"professional\":\"96%\",\"attitude\":\"84%\",\"task\":\"84%\",\"score\":\"89.3\",\"status\":\"已完成\",\"updated\":\"2024-06-11 11:20\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"rowIndex\":\"2\"},{\"name\":\"王子涵\",\"studentId\":\"S2024041003\",\"dept\":\"设计部\",\"mentor\":\"刘佳怡\",\"professional\":\"95%\",\"attitude\":\"83%\",\"task\":\"83%\",\"score\":\"87.4\",\"status\":\"已完成\",\"updated\":\"2024-06-10 16:45\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"rowIndex\":\"3\"},{\"name\":\"赵天宇\",\"studentId\":\"S2024041004\",\"dept\":\"市场部\",\"mentor\":\"孙一凡\",\"professional\":\"95%\",\"attitude\":\"82%\",\"task\":\"82%\",\"score\":\"85.1\",\"status\":\"已完成\",\"updated\":\"2024-06-09 09:15\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"rowIndex\":\"4\"},{\"name\":\"陈欣怡\",\"studentId\":\"S2024041005\",\"dept\":\"运营部\",\"mentor\":\"周子墨\",\"professional\":\"93%\",\"attitude\":\"80%\",\"task\":\"80%\",\"score\":\"83.6\",\"status\":\"待考核\",\"updated\":\"2024-06-08 10:05\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"rowIndex\":\"5\"},{\"name\":\"刘宇航\",\"studentId\":\"S2024041006\",\"dept\":\"测试部\",\"mentor\":\"吴昊天\",\"professional\":\"92%\",\"attitude\":\"78%\",\"task\":\"78%\",\"score\":\"81.2\",\"status\":\"待考核\",\"updated\":\"2024-06-07 15:40\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\",\"rowIndex\":\"6\"}]});\n\nvar tableVm=this;\n(function(){\n  var doc=document;\n  var win=window;\n  var labels={viewAction:'\\u67e5\\u770b',scoreAction:'\\u8bc4\\u5206',editAction:'\\u7f16\\u8f91',moreAction:'\\u66f4\\u591a'};\n  var actionProps=['viewAction','scoreAction','editAction','moreAction'];\n  var styleId='pal-content82-table-action-style';\n  var oldStyle=doc.getElementById(styleId);\n  if(oldStyle&&oldStyle.parentNode) oldStyle.parentNode.removeChild(oldStyle);\n  var style=doc.createElement('style');\n  style.id=styleId;\n  style.textContent='.pal-op-btn{border:0;background:transparent;color:#2563eb;font-weight:600;font-size:13px;line-height:24px;padding:0 4px;cursor:pointer;border-radius:3px}.pal-op-btn:hover{background:#eaf2ff}.pal-op-more{padding-right:2px}.pal-flyout{position:fixed;z-index:999999;background:#fff;border:1px solid #d6dfeb;border-radius:6px;box-shadow:0 12px 30px rgba(15,23,42,.18);color:#1f2937;font-size:13px;min-width:132px;overflow:hidden}.pal-flyout-item{padding:9px 14px;cursor:pointer;white-space:nowrap;border-bottom:1px solid #eef2f7}.pal-flyout-item:last-child{border-bottom:0}.pal-flyout-item:hover{background:#f3f7ff}.pal-flyout-danger{color:#dc2626}.pal-panel{position:fixed;z-index:999998;background:#fff;border:1px solid #d6dfeb;border-radius:7px;box-shadow:0 14px 34px rgba(15,23,42,.20);width:300px;color:#111827;font-size:13px}.pal-panel-head{display:flex;justify-content:space-between;align-items:center;padding:12px 14px;border-bottom:1px solid #eef2f7;font-weight:700}.pal-panel-body{padding:12px 14px}.pal-panel-row{display:flex;gap:8px;align-items:center;margin-bottom:10px}.pal-panel-row label{width:72px;color:#64748b}.pal-panel-row input,.pal-panel-row select{height:30px;border:1px solid #d6dfeb;border-radius:4px;padding:0 8px;flex:1}.pal-panel-foot{display:flex;justify-content:flex-end;gap:8px;padding:10px 14px;border-top:1px solid #eef2f7}.pal-btn{border:1px solid #cbd5e1;background:#fff;border-radius:4px;height:30px;padding:0 12px;cursor:pointer}.pal-btn-primary{border-color:#2563eb;background:#2563eb;color:#fff}.pal-toast{position:fixed;right:28px;top:24px;z-index:1000000;background:#0f172a;color:#fff;border-radius:5px;padding:10px 14px;font-size:13px;box-shadow:0 8px 22px rgba(15,23,42,.22)}';\n  doc.head.appendChild(style);\n  function rows(){\n    var data=[];\n    try{ data=tableVm.GetData?tableVm.GetData():[]; }catch(e){}\n    if(!data||!data.length) data=tableVm.propData&&(tableVm.propData.totalData||tableVm.propData.data)||[];\n    return data||[];\n  }\n  function setRows(data){\n    tableVm.propData.totalData=data;\n    tableVm.propData.data=data;\n    if(tableVm.SetData) tableVm.SetData(data);\n    win.__palContent82Rows=data;\n    setTimeout(decorate,60);\n  }\n  function removeEl(id){var el=doc.getElementById(id);if(el&&el.parentNode)el.parentNode.removeChild(el);}\n  function toast(text){removeEl('pal-table-action-feedback');var box=doc.createElement('div');box.id='pal-table-action-feedback';box.className='pal-toast';box.textContent=text;doc.body.appendChild(box);setTimeout(function(){removeEl('pal-table-action-feedback');},2200);}\n  function clampPanel(panel, anchorRect){\n    var w=panel.offsetWidth||180;var h=panel.offsetHeight||180;\n    var left=anchorRect?anchorRect.right+8:28;var top=anchorRect?anchorRect.top:70;\n    if(left+w>win.innerWidth-12) left=Math.max(12,(anchorRect?anchorRect.left-w-8:win.innerWidth-w-12));\n    if(top+h>win.innerHeight-12) top=Math.max(12,win.innerHeight-h-12);\n    panel.style.left=Math.round(left)+'px';panel.style.top=Math.round(top)+'px';\n  }\n  function indexFromButton(btn){\n    var tr=btn&&btn.closest('tr'); if(!tr) return 0;\n    var body=tr.parentNode; var trs=Array.prototype.filter.call(body.children,function(x){return x.tagName==='TR'&&x.offsetHeight>0;});\n    return Math.max(0,trs.indexOf(tr));\n  }\n  function rowByIndex(i){var data=rows();return data[Math.max(0,Math.min(i,data.length-1))]||{};}\n  function showPanel(kind,row,idx,anchorRect){\n    removeEl('pal-table-action-panel');removeEl('pal-table-action-more-menu');\n    var p=doc.createElement('div');p.id='pal-table-action-panel';p.className='pal-panel';\n    var title=kind==='edit'?'\\u7f16\\u8f91\\u8bb0\\u5f55':kind==='score'?'\\u8bc4\\u5206\\u8bb0\\u5f55':'\\u67e5\\u770b\\u8bb0\\u5f55';\n    if(kind==='view'){\n      p.innerHTML='<div class=\"pal-panel-head\"><span>'+title+'</span><button class=\"pal-btn\" data-close=\"1\">\\u00d7</button></div><div class=\"pal-panel-body\"><div class=\"pal-panel-row\"><label>\\u59d3\\u540d</label><b>'+(row.name||'')+'</b></div><div class=\"pal-panel-row\"><label>\\u5b66\\u53f7</label><span>'+(row.studentId||'')+'</span></div><div class=\"pal-panel-row\"><label>\\u90e8\\u95e8</label><span>'+(row.dept||'')+'</span></div><div class=\"pal-panel-row\"><label>\\u5bfc\\u5e08</label><span>'+(row.mentor||'')+'</span></div><div class=\"pal-panel-row\"><label>\\u7efc\\u5408\\u8bc4\\u5206</label><span>'+(row.score||'')+'</span></div></div>';\n    } else {\n      var scoreField=kind==='score'?'<div class=\"pal-panel-row\"><label>\\u7efc\\u5408\\u8bc4\\u5206</label><input data-field=\"score\" value=\"'+(row.score||'')+'\"></div>':'';\n      p.innerHTML='<div class=\"pal-panel-head\"><span>'+title+'</span><button class=\"pal-btn\" data-close=\"1\">\\u00d7</button></div><div class=\"pal-panel-body\"><div class=\"pal-panel-row\"><label>\\u59d3\\u540d</label><input data-field=\"name\" value=\"'+(row.name||'')+'\"></div><div class=\"pal-panel-row\"><label>\\u90e8\\u95e8</label><input data-field=\"dept\" value=\"'+(row.dept||'')+'\"></div><div class=\"pal-panel-row\"><label>\\u72b6\\u6001</label><select data-field=\"status\"><option>\\u5df2\\u5b8c\\u6210</option><option>\\u5f85\\u8003\\u6838</option></select></div>'+scoreField+'</div><div class=\"pal-panel-foot\"><button class=\"pal-btn\" data-close=\"1\">\\u53d6\\u6d88</button><button class=\"pal-btn pal-btn-primary\" data-save=\"1\">\\u4fdd\\u5b58</button></div>';\n    }\n    doc.body.appendChild(p);\n    var sel=p.querySelector('select[data-field=\"status\"]'); if(sel) sel.value=row.status||'\\u5f85\\u8003\\u6838';\n    clampPanel(p,anchorRect);\n    p.addEventListener('click',function(ev){\n      if(ev.target&&ev.target.getAttribute('data-close')) removeEl('pal-table-action-panel');\n      if(ev.target&&ev.target.getAttribute('data-save')){\n        var data=rows().slice();var next=Object.assign({},data[idx]||row);\n        Array.prototype.forEach.call(p.querySelectorAll('[data-field]'),function(input){next[input.getAttribute('data-field')]=input.value;});\n        next.updated='2026-06-27 02:55';data[idx]=next;setRows(data);removeEl('pal-table-action-panel');toast('\\u5df2\\u66f4\\u65b0\\uff1a'+(next.name||''));\n        win.__palLastTableAction={action:kind,row:next,time:Date.now(),result:'saved'};\n      }\n    });\n  }\n  function showMore(row,idx,anchorRect){\n    removeEl('pal-table-action-more-menu');removeEl('pal-table-action-panel');\n    var menu=doc.createElement('div');menu.id='pal-table-action-more-menu';menu.className='pal-flyout';\n    menu.innerHTML='<div class=\"pal-flyout-item\" data-act=\"copy\">\\u590d\\u5236\\u8bb0\\u5f55</div><div class=\"pal-flyout-item\" data-act=\"log\">\\u67e5\\u770b\\u65e5\\u5fd7</div><div class=\"pal-flyout-item pal-flyout-danger\" data-act=\"delete\">\\u5220\\u9664\\u8bb0\\u5f55</div>';\n    doc.body.appendChild(menu);clampPanel(menu,anchorRect);\n    menu.addEventListener('click',function(ev){\n      var item=ev.target&&ev.target.closest('[data-act]'); if(!item)return;\n      var act=item.getAttribute('data-act'); var data=rows().slice();\n      if(act==='copy'){var cp=Object.assign({},row,{studentId:(row.studentId||'S')+'C',name:(row.name||'')+'\\u526f\\u672c',updated:'2026-06-27 02:55'});data.splice(idx+1,0,cp);setRows(data);toast('\\u5df2\\u590d\\u5236\\uff1a'+(row.name||''));win.__palLastTableAction={action:'copy',row:cp,time:Date.now()};}\n      if(act==='log'){showPanel('view',Object.assign({},row,{score:(row.score||'')+' / log'}),idx,menu.getBoundingClientRect());toast('\\u5df2\\u6253\\u5f00\\u65e5\\u5fd7\\uff1a'+(row.name||''));win.__palLastTableAction={action:'log',row:row,time:Date.now()};}\n      if(act==='delete'){data.splice(idx,1);setRows(data);toast('\\u5df2\\u5220\\u9664\\uff1a'+(row.name||''));win.__palLastTableAction={action:'delete',row:row,time:Date.now()};}\n      removeEl('pal-table-action-more-menu');\n    });\n    win.__palLastTableAction={action:'more',row:row,time:Date.now(),menuRect:{left:menu.style.left,top:menu.style.top}};\n  }\n  function handle(prop,row,idx,anchorRect){\n    win.__palLastTableAction={action:prop,row:row,time:Date.now()};\n    if(prop==='viewAction') return showPanel('view',row,idx,anchorRect);\n    if(prop==='scoreAction') return showPanel('score',row,idx,anchorRect);\n    if(prop==='editAction') return showPanel('edit',row,idx,anchorRect);\n    if(prop==='moreAction') return showMore(row,idx,anchorRect);\n  }\n  win.__palTableHandleAction=function(e){\n    e=e||{};var row=e.row||{};var col=e.column||{};var prop=col.property||col.prop||'';if(!labels[prop])return;handle(prop,row,0,null);\n  };\n  function decorate(){\n    var root=tableVm.$el||doc;\n    var cols=(tableVm.propData&&tableVm.propData.columns)||[];\n    Array.prototype.forEach.call(root.querySelectorAll('.el-table__body-wrapper tbody tr'),function(tr){\n      Array.prototype.forEach.call(tr.children,function(td,i){\n        var col=cols[i]; if(!col||actionProps.indexOf(col.prop)<0)return;\n        var cell=td.querySelector('.cell')||td; if(cell.querySelector('.pal-op-btn'))return;\n        var label=labels[col.prop]||cell.textContent.trim(); if(col.prop==='moreAction') label+='\\u25be';\n        cell.innerHTML='<button type=\"button\" class=\"pal-op-btn pal-op-'+col.prop+'\">'+label+'</button>';\n      });\n    });\n  }\n  var root=tableVm.$el||doc;\n  if(root.__palContent82ActionBound) root.removeEventListener('click',root.__palContent82ActionBound,true);\n  root.__palContent82ActionBound=function(ev){\n    var btn=ev.target&&ev.target.closest&&ev.target.closest('.pal-op-btn'); if(!btn)return;\n    ev.preventDefault();ev.stopPropagation();\n    var prop=actionProps.find(function(p){return btn.className.indexOf('pal-op-'+p)>=0;});\n    var idx=indexFromButton(btn); var row=rowByIndex(idx); handle(prop,row,idx,btn.getBoundingClientRect());\n  };\n  root.addEventListener('click',root.__palContent82ActionBound,true);\n  if(!doc.__palContent82OutsideBound){\n    doc.__palContent82OutsideBound=function(ev){if(!ev.target.closest||(!ev.target.closest('#pal-table-action-more-menu')&&!ev.target.closest('.pal-op-moreAction')))removeEl('pal-table-action-more-menu');};\n    doc.addEventListener('click',doc.__palContent82OutsideBound,false);\n    doc.addEventListener('keydown',function(ev){if(ev.key==='Escape'){removeEl('pal-table-action-more-menu');removeEl('pal-table-action-panel');}},false);\n  }\n  setTimeout(decorate,80);setTimeout(decorate,400);\n})();",
+    "styleConfig": "#domId.PCUI_ElementTable{position:relative!important;background:#fff!important;border:1px solid #e6edf7!important;border-radius:8px!important;box-shadow:0 8px 20px rgba(15,23,42,.05)!important;margin:8px!important;padding-top:38px!important;height:472px!important;max-height:472px!important;box-sizing:border-box!important;overflow:hidden!important;}#domId.PCUI_ElementTable::before{content:\"考核列表  共 128 条\";position:absolute;top:12px;left:18px;font-size:15px;font-weight:700;color:#2563eb;border-bottom:3px solid #2563eb;padding-bottom:8px;z-index:2;}#domId .el-table{font-size:12px!important;color:#334155!important;}#domId .el-table__header th,#domId .el-table__header tr{background:#f4f7fb!important;color:#64748b!important;font-weight:700!important;}#domId .el-table__body tr:nth-child(even){background:#fafcff!important;}#domId .el-table__body td{border-color:#edf2f7!important;height:38px!important;}#domId .el-table__body td:nth-child(8) .cell{color:#2563eb!important;font-weight:700!important;}#domId .el-table__body tr:nth-child(-n+4) td:nth-child(9) .cell{display:inline-block;min-width:56px;background:#dcfce7!important;color:#16a34a!important;border-radius:4px;font-weight:700;padding:2px 8px;}#domId .el-table__body tr:nth-child(n+5) td:nth-child(9) .cell{display:inline-block;min-width:56px;background:#ffedd5!important;color:#f97316!important;border-radius:4px;font-weight:700;padding:2px 8px;}#domId .el-table__body td:nth-child(11) .cell{display:inline-block;min-width:185px;background:#eaf3ff!important;border:1px solid #bfdbfe!important;border-radius:3px;color:#2563eb!important;font-weight:700!important;line-height:22px!important;}#domId .el-pagination{position:absolute!important;right:18px!important;top:12px!important;}",
+    "linkList": [
+      {
+        "linkId": 200001,
+        "enable": false,
+        "KSCGUID": "ke37cec09ad12fb638d03a06c9b3c66f",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "Select"
+      },
+      {
+        "linkId": 200002,
+        "enable": false,
+        "KSCGUID": "k698db5e9fb40bbc683e7d92b9d8c9c1",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "SelectAll"
+      },
+      {
+        "linkId": 200003,
+        "enable": false,
+        "KSCGUID": "k70d4ed4c9a42e99dbf9d14ebd869a98",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "SelectionChange"
+      },
+      {
+        "linkId": 200004,
+        "enable": false,
+        "KSCGUID": "kbd188231efbd66960ad47923b8365e4",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CellMouseEnter"
+      },
+      {
+        "linkId": 200005,
+        "enable": false,
+        "KSCGUID": "k9730c27dfae10d2bb06cf0118e55856",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CellMouseLeave"
+      },
+      {
+        "linkId": 200006,
+        "enable": true,
+        "KSCGUID": "k4799f9eebb9227838fb1dd17dc4cbfa",
+        "script": "var e=arguments[1]||{};if(window.__palTableHandleAction)window.__palTableHandleAction(e);",
+        "KSCLINKGUID": "",
+        "linkName": "CellClick"
+      },
+      {
+        "linkId": 200007,
+        "enable": false,
+        "KSCGUID": "k18316fe673df3e8abb7d22510608367",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CellDbclick"
+      },
+      {
+        "linkId": 200008,
+        "enable": false,
+        "KSCGUID": "k78bc403615d6d50edd5b846e5fe6e25",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "RowClick"
+      },
+      {
+        "linkId": 200009,
+        "enable": false,
+        "KSCGUID": "k1058f43ff3cfadc6d100d3aa61369b0",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "RowContextmenu"
+      },
+      {
+        "linkId": 200010,
+        "enable": false,
+        "KSCGUID": "k337161caf16a42ea4cec48622d53792",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "RowDbclick"
+      },
+      {
+        "linkId": 200011,
+        "enable": false,
+        "KSCGUID": "kea9554f7a212988e844156976dccbcf",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "HeaderClick"
+      },
+      {
+        "linkId": 200012,
+        "enable": false,
+        "KSCGUID": "kbf867ea840c1bd0568c9ffd910dec0b",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "SortChange"
+      },
+      {
+        "linkId": 200013,
+        "enable": false,
+        "KSCGUID": "kd5bed57b27390f58bc874a831120e3e",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "FilterChange"
+      },
+      {
+        "linkId": 200014,
+        "enable": false,
+        "KSCGUID": "k84f5c660c915fb0072ac1a960be00ab",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CurrentChange"
+      },
+      {
+        "linkId": 200015,
+        "enable": false,
+        "KSCGUID": "k502d8320372a634521957a2f29c6ad3",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "HeaderDragend"
+      },
+      {
+        "linkId": 200016,
+        "enable": false,
+        "KSCGUID": "k4272212c1a20c82a4cfc7f30f22b93b",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "ExpandChange"
+      },
+      {
+        "linkId": 200017,
+        "enable": false,
+        "KSCGUID": "k9afe5c955d11e479d5967902769f600",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "CurrentPageChange"
+      },
+      {
+        "linkId": 200018,
+        "enable": false,
+        "KSCGUID": "kfe11f8dba0c8a8b27f18cd12af56c2b",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "OnLoadSuccess"
+      },
+      {
+        "linkId": 200019,
+        "enable": false,
+        "KSCGUID": "kf5cea17832d8c3289d50fa0955ddab8",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "OnBeforeEdit"
+      },
+      {
+        "linkId": 200020,
+        "enable": false,
+        "KSCGUID": "kbf733ffa777bb5c6c39e489f21620ce",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "OnAfterEdit"
+      },
+      {
+        "linkId": 200021,
+        "enable": false,
+        "KSCGUID": "k86abc7fb9728f320823e9011aea75ec",
+        "script": "",
+        "KSCLINKGUID": "",
+        "linkName": "PageSizeChange"
+      }
+    ],
+    "columns": [
+      {
+        "prop": "name",
+        "label": "姓名",
+        "minWidth": "90",
+        "align": "center",
+        "type": "",
+        "columnKey": "",
+        "fixed": false
+      },
+      {
+        "prop": "studentId",
+        "label": "学号",
+        "minWidth": "130",
+        "align": "center",
+        "type": "",
+        "columnKey": "",
+        "fixed": false
+      },
+      {
+        "prop": "dept",
+        "label": "部门",
+        "minWidth": "85",
+        "align": "center",
+        "type": "",
+        "columnKey": "",
+        "fixed": false
+      },
+      {
+        "prop": "mentor",
+        "label": "导师",
+        "minWidth": "85",
+        "align": "center",
+        "type": "",
+        "columnKey": "",
+        "fixed": false
+      },
+      {
+        "prop": "professional",
+        "label": "专业能力",
+        "minWidth": "85",
+        "align": "center",
+        "type": "",
+        "columnKey": "",
+        "fixed": false
+      },
+      {
+        "prop": "attitude",
+        "label": "工作态度",
+        "minWidth": "85",
+        "align": "center",
+        "type": "",
+        "columnKey": "",
+        "fixed": false
+      },
+      {
+        "prop": "task",
+        "label": "任务完成",
+        "minWidth": "85",
+        "align": "center",
+        "type": "",
+        "columnKey": "",
+        "fixed": false
+      },
+      {
+        "prop": "score",
+        "label": "综合评分",
+        "minWidth": "85",
+        "align": "center",
+        "type": "",
+        "columnKey": "",
+        "fixed": false
+      },
+      {
+        "prop": "status",
+        "label": "状态",
+        "minWidth": "85",
+        "align": "center",
+        "type": "",
+        "columnKey": "",
+        "fixed": false
+      },
+      {
+        "prop": "updated",
+        "label": "更新时间",
+        "minWidth": "135",
+        "align": "center",
+        "type": "",
+        "columnKey": "",
+        "fixed": false
+      },
+      {
+        "prop": "viewAction",
+        "label": "查看",
+        "minWidth": "54",
+        "align": "center",
+        "type": "",
+        "columnKey": "",
+        "fixed": false
+      },
+      {
+        "prop": "scoreAction",
+        "label": "评分",
+        "minWidth": "54",
+        "align": "center",
+        "type": "",
+        "columnKey": "",
+        "fixed": false
+      },
+      {
+        "prop": "editAction",
+        "label": "编辑",
+        "minWidth": "54",
+        "align": "center",
+        "type": "",
+        "columnKey": "",
+        "fixed": false
+      },
+      {
+        "prop": "moreAction",
+        "label": "更多",
+        "minWidth": "64",
+        "align": "center",
+        "type": "",
+        "columnKey": "",
+        "fixed": false
+      }
+    ],
+    "totalData": [
+      {
+        "name": "李明轩",
+        "studentId": "S2024041001",
+        "dept": "QA-Demo",
+        "mentor": "王思远",
+        "professional": "97%",
+        "attitude": "85%",
+        "task": "85%",
+        "score": "92.6",
+        "status": "已完成",
+        "updated": "2026-06-27 02:55",
+        "viewAction": "查看",
+        "scoreAction": "评分",
+        "editAction": "编辑",
+        "moreAction": "更多▾",
+        "rowIndex": "1"
+      },
+      {
+        "name": "李明轩副本",
+        "studentId": "S2024041001C",
+        "dept": "产品部",
+        "mentor": "王思远",
+        "professional": "97%",
+        "attitude": "85%",
+        "task": "85%",
+        "score": "92.6",
+        "status": "已完成",
+        "updated": "2026-06-27 02:55",
+        "viewAction": "查看",
+        "scoreAction": "评分",
+        "editAction": "编辑",
+        "moreAction": "更多▾",
+        "rowIndex": "2"
+      },
+      {
+        "name": "张雨婷",
+        "studentId": "S2024041002",
+        "dept": "研发部",
+        "mentor": "陈浩然",
+        "professional": "96%",
+        "attitude": "84%",
+        "task": "84%",
+        "score": "89.3",
+        "status": "已完成",
+        "updated": "2024-06-11 11:20",
+        "viewAction": "查看",
+        "scoreAction": "评分",
+        "editAction": "编辑",
+        "moreAction": "更多▾",
+        "rowIndex": "3"
+      },
+      {
+        "name": "王子涵",
+        "studentId": "S2024041003",
+        "dept": "设计部",
+        "mentor": "刘佳怡",
+        "professional": "95%",
+        "attitude": "83%",
+        "task": "83%",
+        "score": "87.4",
+        "status": "已完成",
+        "updated": "2024-06-10 16:45",
+        "viewAction": "查看",
+        "scoreAction": "评分",
+        "editAction": "编辑",
+        "moreAction": "更多▾",
+        "rowIndex": "4"
+      },
+      {
+        "name": "赵天宇",
+        "studentId": "S2024041004",
+        "dept": "市场部",
+        "mentor": "孙一凡",
+        "professional": "95%",
+        "attitude": "82%",
+        "task": "82%",
+        "score": "85.1",
+        "status": "已完成",
+        "updated": "2024-06-09 09:15",
+        "viewAction": "查看",
+        "scoreAction": "评分",
+        "editAction": "编辑",
+        "moreAction": "更多▾",
+        "rowIndex": "5"
+      },
+      {
+        "name": "陈欣怡",
+        "studentId": "S2024041005",
+        "dept": "运营部",
+        "mentor": "周子墨",
+        "professional": "93%",
+        "attitude": "80%",
+        "task": "80%",
+        "score": "83.6",
+        "status": "待考核",
+        "updated": "2024-06-08 10:05",
+        "viewAction": "查看",
+        "scoreAction": "评分",
+        "editAction": "编辑",
+        "moreAction": "更多▾",
+        "rowIndex": "6"
+      },
+      {
+        "name": "刘宇航",
+        "studentId": "S2024041006",
+        "dept": "测试部",
+        "mentor": "吴昊天",
+        "professional": "92%",
+        "attitude": "78%",
+        "task": "78%",
+        "score": "81.2",
+        "status": "待考核",
+        "updated": "2024-06-07 15:40",
+        "viewAction": "查看",
+        "scoreAction": "评分",
+        "editAction": "编辑",
+        "moreAction": "更多▾",
+        "rowIndex": "7"
+      }
+    ]
+  },
+  "body": "文件(F)\n提交\n预览\n\n组件\n\n布局容器\nUI组件\n图表组件\n流程图\n精灵图库\nPalimpsestContent_82\n状态\n\t\n部门\n\t\n导师\n\t\n批次\n\t\n时间\n\t\n关键词\n\t\nBackend Smoke\n重置\n导出\n\n姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综合评分\t状态\t更新时间\t查看\t评分\t编辑\t更多\n李明轩\n\t\nS2024041001\n\t\n产品部\n\t\n王思远\n\t\n97%\n\t\n85%\n\t\n85%\n\t\n92.6\n\t已完成\t\n2024-06-12 14:30\n\t查看\t\n评分\n\t\n编辑\n\t\n更多▾\n\n\n张雨婷\n\t\nS2024041002\n\t\n研发部\n\t\n陈浩然\n\t\n96%\n\t\n84%\n\t\n84%\n\t\n89.3\n\t已完成\t\n2024-06-11 11:20\n\t查看\t\n评分\n\t\n编辑\n\t\n更多▾\n\n\n王子涵\n\t\nS2024041003\n\t\n设计部\n\t\n刘佳怡\n\t\n95%\n\t\n83%\n\t\n83%\n\t\n87.4\n\t已完成\t\n2024-06-10 16:45\n\t查看\t\n评分\n\t\n编辑\n\t\n更多▾\n\n\n赵天宇\n\t\nS2024041004\n\t\n市场部\n\t\n孙一凡\n\t\n95%\n\t\n82%\n\t\n82%\n\t\n85.1\n\t已完成\t\n2024-06-09 09:15\n\t查看\t\n评分\n\t\n编辑\n\t\n更多▾\n\n\n陈欣怡\n\t\nS2024041005\n\t\n运营部\n\t\n周子墨\n\t\n93%\n\t\n80%\n\t\n80%\n\t\n83.6\n\t待考核\t\n2024-06-08 10:05\n\t查看\t\n评分\n\t\n编辑\n\t\n更多▾\n\n\n刘宇航\n\t\nS2024041006\n\t\n测试部\n\t\n吴昊天\n\t\n92%\n\t\n78%\n\t\n78%\n\t\n81.2\n\t待考核\t\n2024-06-07 15:40\n\t查看\t\n评分\n\t\n编辑\n\t\n更多▾\n共 6 条\n1\n前往页\n属性\n基本\n名称\n\t\n\n\n类型\n\t\nElementTable\n\n\n描述\n\t\n位置\n横坐标\n\t\n2\n\n\n纵坐标\n\t\n602\n配置\n数据配置\n\t\n配置\n\n\n样式配置\n\t\n配置\n变量联动\n选中行\n\t\n配置\n\n\n勾选行\n\t\n配置\n事件联动\n   行单击\n   行双击\n   行右击\n变量联动\nif()\n配置\n页面跳转\nif()\n配置\n数据集联动\nif()\n配置\n属性\nshow-header\n\t\n\n\nhighlight-current-row\n\t\n\n\nempty-text\n\t\n\n\ndefault-expand-all\n\t\n\n\n点击空白取消高亮\n\t\n\n\n是否单选\n\t\n\n\n树形数据懒加载\n\t\n\n\n虚拟滚动\n\t\n其他\n是否被锁住\n\t\n\n\n是否显示\n\t\n\n\n运行是否显示\n\t\n对象图层\n图层1\n鼠标位置：0, 0\n所选对象位置： 2, 602\n选择对象类型: UI组件 , 位于\n共 0 个对象, 已选 1 个对象\n选择对象名称: pal_assessment_table\n63%"
+}

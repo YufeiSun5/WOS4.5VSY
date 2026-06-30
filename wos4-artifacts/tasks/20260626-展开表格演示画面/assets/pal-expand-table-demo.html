@@ -1,0 +1,781 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Palimpsest 展开表格演示</title>
+  <style>
+    :root {
+      --bg: #f4f7fb;
+      --panel: #ffffff;
+      --line: #dbe4f0;
+      --soft-line: #edf2f8;
+      --text: #172033;
+      --muted: #66758a;
+      --blue: #2563eb;
+      --blue-soft: #e8f0ff;
+      --green: #16a34a;
+      --green-soft: #dcfce7;
+      --amber: #f59e0b;
+      --amber-soft: #fff3d6;
+      --red: #dc2626;
+      --red-soft: #fee2e2;
+      --violet: #6254e8;
+      --shadow: 0 14px 34px rgba(15, 23, 42, .08);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif;
+      letter-spacing: 0;
+    }
+
+    button, input, select {
+      font: inherit;
+    }
+
+    .page {
+      width: 100%;
+      min-height: 100vh;
+      padding: 18px 22px 22px;
+    }
+
+    .toolbar {
+      display: grid;
+      grid-template-columns: minmax(260px, 1.25fr) minmax(170px, .8fr) minmax(170px, .8fr) minmax(180px, .85fr) auto auto auto;
+      gap: 12px;
+      align-items: end;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px 16px;
+      box-shadow: var(--shadow);
+    }
+
+    .field {
+      display: grid;
+      gap: 6px;
+      min-width: 0;
+    }
+
+    .field label {
+      color: #273349;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .field input,
+    .field select {
+      width: 100%;
+      height: 36px;
+      border: 1px solid #cfd9e8;
+      border-radius: 6px;
+      background: #fff;
+      color: #1f2937;
+      padding: 0 12px;
+      outline: none;
+    }
+
+    .field input:focus,
+    .field select:focus {
+      border-color: var(--blue);
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, .12);
+    }
+
+    .btn {
+      height: 36px;
+      min-width: 84px;
+      border: 1px solid #cfd9e8;
+      border-radius: 6px;
+      background: #fff;
+      color: #334155;
+      cursor: pointer;
+      font-weight: 700;
+      transition: background .15s ease, border-color .15s ease, transform .15s ease;
+    }
+
+    .btn:hover { border-color: var(--blue); color: var(--blue); }
+    .btn:active { transform: translateY(1px); }
+    .btn.primary { background: var(--blue); border-color: var(--blue); color: #fff; }
+    .btn.primary:hover { background: #1d4ed8; border-color: #1d4ed8; color: #fff; }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 12px;
+    }
+
+    .metric {
+      display: grid;
+      grid-template-columns: 52px 1fr;
+      gap: 14px;
+      align-items: center;
+      min-height: 92px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 15px 18px;
+      box-shadow: var(--shadow);
+    }
+
+    .metric-icon {
+      width: 52px;
+      height: 52px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--blue-soft);
+      color: var(--blue);
+    }
+
+    .metric:nth-child(2) .metric-icon { background: var(--green-soft); color: var(--green); }
+    .metric:nth-child(3) .metric-icon { background: var(--amber-soft); color: var(--amber); }
+    .metric:nth-child(4) .metric-icon { background: #eeeaff; color: var(--violet); }
+
+    .metric-title {
+      font-size: 14px;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .metric-value {
+      margin-top: 3px;
+      font-size: 28px;
+      line-height: 1.1;
+      font-weight: 800;
+      color: #0f172a;
+    }
+
+    .metric-note {
+      margin-top: 5px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .content {
+      margin-top: 12px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .content-head {
+      height: 52px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 0 18px;
+      border-bottom: 1px solid var(--soft-line);
+      background: linear-gradient(180deg, #ffffff, #f8fbff);
+    }
+
+    .title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 18px;
+      font-weight: 800;
+      color: #102033;
+    }
+
+    .title::before {
+      content: "";
+      width: 4px;
+      height: 18px;
+      border-radius: 4px;
+      background: var(--blue);
+    }
+
+    .summary {
+      color: var(--muted);
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .table {
+      width: 100%;
+      min-width: 1180px;
+    }
+
+    .table-wrap {
+      overflow: auto;
+      max-height: calc(100vh - 232px);
+    }
+
+    .row,
+    .head {
+      display: grid;
+      grid-template-columns: 54px 156px minmax(250px, 1.3fr) 132px 116px 116px 116px 208px;
+      align-items: center;
+      min-height: 48px;
+    }
+
+    .head {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      min-height: 44px;
+      background: #eef4fb;
+      color: #45566e;
+      font-size: 13px;
+      font-weight: 800;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .cell {
+      min-width: 0;
+      padding: 0 12px;
+      border-right: 1px solid var(--soft-line);
+    }
+
+    .cell:last-child { border-right: 0; }
+
+    .row {
+      background: #fff;
+      border-bottom: 1px solid var(--soft-line);
+      font-size: 14px;
+    }
+
+    .row:nth-child(4n + 3) { background: #fbfdff; }
+    .row:hover { background: #f6faff; }
+
+    .toggle {
+      width: 26px;
+      height: 26px;
+      border: 1px solid #b9c7da;
+      border-radius: 50%;
+      color: var(--blue);
+      background: #fff;
+      cursor: pointer;
+      line-height: 22px;
+      font-size: 16px;
+      font-weight: 800;
+    }
+
+    .asset-name {
+      font-weight: 800;
+      color: #172033;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .muted {
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 3px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .badge {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      height: 24px;
+      min-width: 70px;
+      padding: 0 10px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .ok { background: var(--green-soft); color: #10803a; }
+    .warn { background: var(--amber-soft); color: #b66e00; }
+    .bad { background: var(--red-soft); color: var(--red); }
+    .info { background: var(--blue-soft); color: var(--blue); }
+
+    .ops {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      justify-content: flex-start;
+      position: relative;
+      flex-wrap: wrap;
+    }
+
+    .link-btn {
+      border: 0;
+      background: transparent;
+      color: var(--blue);
+      cursor: pointer;
+      font-weight: 800;
+      padding: 4px 2px;
+    }
+
+    .link-btn:hover { color: #1d4ed8; text-decoration: underline; }
+
+    .more-menu {
+      display: none;
+      position: absolute;
+      right: 8px;
+      top: 30px;
+      width: 112px;
+      padding: 6px;
+      border: 1px solid var(--line);
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 12px 28px rgba(15, 23, 42, .16);
+      z-index: 5;
+    }
+
+    .more-menu button {
+      width: 100%;
+      height: 30px;
+      border: 0;
+      background: transparent;
+      text-align: left;
+      padding: 0 8px;
+      color: #334155;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .more-menu button:hover { background: #f1f5f9; }
+
+    .ops.open .more-menu { display: block; }
+
+    .detail {
+      display: none;
+      grid-column: 1 / -1;
+      background: #f8fbff;
+      border-bottom: 1px solid var(--line);
+      padding: 14px 18px 16px 66px;
+    }
+
+    .row.expanded + .detail {
+      display: block;
+    }
+
+    .detail-grid {
+      display: grid;
+      grid-template-columns: 1.15fr .85fr .85fr;
+      gap: 12px;
+    }
+
+    .detail-card {
+      min-height: 96px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      padding: 12px 14px;
+    }
+
+    .detail-title {
+      font-size: 13px;
+      font-weight: 800;
+      color: #334155;
+      margin-bottom: 8px;
+    }
+
+    .part-list {
+      display: grid;
+      gap: 6px;
+    }
+
+    .part {
+      display: grid;
+      grid-template-columns: 1fr 74px 86px;
+      gap: 8px;
+      align-items: center;
+      color: #334155;
+      font-size: 13px;
+    }
+
+    .bar {
+      height: 8px;
+      background: #e5eaf2;
+      border-radius: 999px;
+      overflow: hidden;
+    }
+
+    .bar span {
+      display: block;
+      height: 100%;
+      background: linear-gradient(90deg, #2563eb, #22c55e);
+      border-radius: 999px;
+    }
+
+    .mini-chart {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      align-items: end;
+      gap: 5px;
+      height: 60px;
+      margin-top: 12px;
+    }
+
+    .mini-chart span {
+      display: block;
+      min-height: 8px;
+      background: #93c5fd;
+      border-radius: 4px 4px 0 0;
+    }
+
+    .modal-mask {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 20;
+      background: rgba(15, 23, 42, .34);
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+    }
+
+    .modal-mask.show { display: flex; }
+
+    .modal {
+      width: min(620px, 100%);
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 24px 72px rgba(15, 23, 42, .28);
+      overflow: hidden;
+    }
+
+    .modal-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 54px;
+      padding: 0 18px;
+      border-bottom: 1px solid var(--line);
+      font-weight: 800;
+    }
+
+    .modal-body {
+      padding: 18px;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .modal-item {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px 12px;
+      background: #fbfdff;
+    }
+
+    .modal-item span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      margin-bottom: 5px;
+    }
+
+    .modal-item strong {
+      color: #172033;
+      font-size: 15px;
+    }
+
+    .modal-foot {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      padding: 14px 18px 18px;
+    }
+
+    @media (max-width: 1200px) {
+      .toolbar { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .detail-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="toolbar" aria-label="查询条件">
+      <div class="field">
+        <label for="keyword">关键字</label>
+        <input id="keyword" type="search" placeholder="设备名称 / 编码 / 责任人" />
+      </div>
+      <div class="field">
+        <label for="area">区域</label>
+        <select id="area">
+          <option value="">全部区域</option>
+          <option>一车间</option>
+          <option>二车间</option>
+          <option>动力站</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="status">状态</label>
+        <select id="status">
+          <option value="">全部状态</option>
+          <option>运行</option>
+          <option>待维护</option>
+          <option>异常</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="owner">责任组</label>
+        <select id="owner">
+          <option value="">全部责任组</option>
+          <option>设备运维组</option>
+          <option>质量巡检组</option>
+          <option>能源保障组</option>
+        </select>
+      </div>
+      <button class="btn primary" id="queryBtn" type="button">查询</button>
+      <button class="btn" id="resetBtn" type="button">重置</button>
+      <button class="btn" id="exportBtn" type="button">导出</button>
+    </section>
+
+    <section class="metrics">
+      <article class="metric">
+        <div class="metric-icon" aria-hidden="true">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3h11A2.5 2.5 0 0 1 20 5.5v13a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 18.5v-13Zm3 2V9h10V7.5H7Zm0 4V13h10v-1.5H7Zm0 4V17h6v-1.5H7Z"/></svg>
+        </div>
+        <div><div class="metric-title">设备总数</div><div class="metric-value" id="totalCount">18</div><div class="metric-note">覆盖 4 个区域</div></div>
+      </article>
+      <article class="metric">
+        <div class="metric-icon" aria-hidden="true">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm-1.1 14.4-3.5-3.5 1.4-1.4 2.1 2.1 4.8-4.8 1.4 1.4-6.2 6.2Z"/></svg>
+        </div>
+        <div><div class="metric-title">在线率</div><div class="metric-value" id="onlineRate">94.8%</div><div class="metric-note">较上周 +2.1%</div></div>
+      </article>
+      <article class="metric">
+        <div class="metric-icon" aria-hidden="true">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 2 20h20L12 2Zm1 15h-2v-2h2v2Zm0-4h-2V8h2v5Z"/></svg>
+        </div>
+        <div><div class="metric-title">待维护</div><div class="metric-value" id="maintainCount">5</div><div class="metric-note">包含 2 个高优先级</div></div>
+      </article>
+      <article class="metric">
+        <div class="metric-icon" aria-hidden="true">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M3 4h18v4H3V4Zm2 6h14v10H5V10Zm3 2v2h8v-2H8Zm0 4v2h5v-2H8Z"/></svg>
+        </div>
+        <div><div class="metric-title">可展开部件</div><div class="metric-value" id="partCount">42</div><div class="metric-note">点击行首按钮查看明细</div></div>
+      </article>
+    </section>
+
+    <section class="content">
+      <div class="content-head">
+        <div class="title">设备台账与部件明细</div>
+        <div class="summary" id="summaryText">共 6 条假数据，已展开 0 条</div>
+      </div>
+      <div class="table-wrap">
+        <div class="table" id="tableRoot">
+          <div class="head">
+            <div class="cell">展开</div>
+            <div class="cell">设备编码</div>
+            <div class="cell">设备名称</div>
+            <div class="cell">区域</div>
+            <div class="cell">健康度</div>
+            <div class="cell">状态</div>
+            <div class="cell">责任人</div>
+            <div class="cell">操作</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal-mask" id="modalMask" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal">
+      <div class="modal-head">
+        <span id="modalTitle">设备详情</span>
+        <button class="link-btn" id="closeModal" type="button">关闭</button>
+      </div>
+      <div class="modal-body" id="modalBody"></div>
+      <div class="modal-foot">
+        <button class="btn" id="cancelModal" type="button">取消</button>
+        <button class="btn primary" type="button">保存模拟</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const sourceRows = [
+      { code: "EQ-240601", name: "一车间压缩空气站", area: "一车间", health: 96, status: "运行", owner: "李明轩", team: "设备运维组", plan: "2026-07-05", parts: [["主空压机", 98, "正常"], ["干燥机", 94, "正常"], ["储气罐", 91, "观察"]], trend: [28, 34, 41, 46, 53, 58, 63, 67, 72, 76, 82, 88] },
+      { code: "EQ-240602", name: "二车间循环水泵组", area: "二车间", health: 88, status: "待维护", owner: "张雨婷", team: "能源保障组", plan: "2026-06-29", parts: [["1号水泵", 86, "待维护"], ["2号水泵", 92, "正常"], ["过滤器", 78, "更换滤芯"]], trend: [58, 55, 51, 48, 46, 44, 43, 41, 39, 37, 35, 34] },
+      { code: "EQ-240603", name: "动力站变配电柜", area: "动力站", health: 93, status: "运行", owner: "王子涵", team: "能源保障组", plan: "2026-07-12", parts: [["进线柜", 94, "正常"], ["补偿柜", 91, "正常"], ["温控模块", 89, "观察"]], trend: [62, 63, 65, 68, 70, 71, 73, 76, 79, 82, 85, 87] },
+      { code: "EQ-240604", name: "装配线视觉检测台", area: "一车间", health: 82, status: "待维护", owner: "赵天宇", team: "质量巡检组", plan: "2026-06-30", parts: [["工业相机", 84, "标定"], ["光源控制器", 80, "待维护"], ["采集工控机", 90, "正常"]], trend: [40, 43, 45, 46, 49, 50, 52, 53, 55, 57, 60, 62] },
+      { code: "EQ-240605", name: "仓储堆垛机", area: "二车间", health: 74, status: "异常", owner: "陈欣怡", team: "设备运维组", plan: "2026-06-27", parts: [["行走电机", 72, "异常"], ["货叉机构", 79, "待维护"], ["定位传感器", 81, "观察"]], trend: [76, 74, 71, 69, 66, 62, 59, 55, 51, 46, 41, 38] },
+      { code: "EQ-240606", name: "总装拧紧工作站", area: "一车间", health: 90, status: "运行", owner: "刘宇航", team: "质量巡检组", plan: "2026-07-08", parts: [["拧紧轴", 92, "正常"], ["扭矩传感器", 88, "观察"], ["安全光栅", 96, "正常"]], trend: [50, 53, 55, 58, 61, 63, 66, 69, 71, 75, 78, 80] }
+    ];
+
+    let rows = sourceRows.slice();
+    let expanded = new Set();
+
+    const tableRoot = document.getElementById("tableRoot");
+    const summaryText = document.getElementById("summaryText");
+
+    function statusClass(status) {
+      if (status === "运行") return "ok";
+      if (status === "待维护") return "warn";
+      return "bad";
+    }
+
+    function healthClass(value) {
+      if (value >= 90) return "ok";
+      if (value >= 80) return "warn";
+      return "bad";
+    }
+
+    function renderMiniChart(values) {
+      const max = Math.max(...values);
+      return values.map(v => `<span style="height:${Math.max(8, Math.round(v / max * 58))}px"></span>`).join("");
+    }
+
+    function renderDetail(row) {
+      const parts = row.parts.map(p => `
+        <div class="part">
+          <span>${p[0]}</span>
+          <div class="bar"><span style="width:${p[1]}%"></span></div>
+          <span class="badge ${healthClass(p[1])}">${p[2]}</span>
+        </div>
+      `).join("");
+      return `
+        <div class="detail">
+          <div class="detail-grid">
+            <div class="detail-card">
+              <div class="detail-title">部件状态</div>
+              <div class="part-list">${parts}</div>
+            </div>
+            <div class="detail-card">
+              <div class="detail-title">近 12 周健康趋势</div>
+              <div class="mini-chart">${renderMiniChart(row.trend)}</div>
+            </div>
+            <div class="detail-card">
+              <div class="detail-title">维护计划</div>
+              <div class="muted">责任组：${row.team}</div>
+              <div class="muted">计划日期：${row.plan}</div>
+              <div class="muted">演示说明：展开区域与操作区在同一表格流内，不使用固定列克隆层，因此不会产生错位。</div>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function render() {
+      const body = rows.map(row => `
+        <div class="row ${expanded.has(row.code) ? "expanded" : ""}" data-code="${row.code}">
+          <div class="cell"><button class="toggle" data-action="toggle" data-code="${row.code}" type="button">${expanded.has(row.code) ? "−" : "+"}</button></div>
+          <div class="cell"><div class="asset-name">${row.code}</div><div class="muted">${row.team}</div></div>
+          <div class="cell"><div class="asset-name">${row.name}</div><div class="muted">下次维护：${row.plan}</div></div>
+          <div class="cell">${row.area}</div>
+          <div class="cell"><span class="badge ${healthClass(row.health)}">${row.health}%</span></div>
+          <div class="cell"><span class="badge ${statusClass(row.status)}">${row.status}</span></div>
+          <div class="cell">${row.owner}</div>
+          <div class="cell">
+            <div class="ops" data-code="${row.code}">
+              <button class="link-btn" data-action="view" data-code="${row.code}" type="button">查看</button>
+              <button class="link-btn" data-action="edit" data-code="${row.code}" type="button">编辑</button>
+              <button class="link-btn" data-action="more" data-code="${row.code}" type="button">更多⌄</button>
+              <div class="more-menu">
+                <button data-action="plan" data-code="${row.code}" type="button">维护计划</button>
+                <button data-action="copy" data-code="${row.code}" type="button">复制编码</button>
+                <button data-action="archive" data-code="${row.code}" type="button">归档模拟</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        ${renderDetail(row)}
+      `).join("");
+      tableRoot.querySelectorAll(".row,.detail").forEach(el => el.remove());
+      tableRoot.insertAdjacentHTML("beforeend", body);
+      summaryText.textContent = `共 ${rows.length} 条假数据，已展开 ${expanded.size} 条`;
+      document.getElementById("totalCount").textContent = sourceRows.length * 3;
+      document.getElementById("maintainCount").textContent = sourceRows.filter(r => r.status !== "运行").length;
+      document.getElementById("partCount").textContent = sourceRows.reduce((sum, r) => sum + r.parts.length, 0);
+    }
+
+    function findRow(code) {
+      return sourceRows.find(r => r.code === code) || rows[0];
+    }
+
+    function showModal(row, mode) {
+      document.getElementById("modalTitle").textContent = mode === "edit" ? "编辑设备假数据" : "设备详情";
+      document.getElementById("modalBody").innerHTML = [
+        ["设备编码", row.code],
+        ["设备名称", row.name],
+        ["所在区域", row.area],
+        ["运行状态", row.status],
+        ["健康度", row.health + "%"],
+        ["责任人", row.owner],
+        ["责任组", row.team],
+        ["计划维护", row.plan]
+      ].map(([k, v]) => `<div class="modal-item"><span>${k}</span><strong>${v}</strong></div>`).join("");
+      document.getElementById("modalMask").classList.add("show");
+    }
+
+    function queryRows() {
+      const keyword = document.getElementById("keyword").value.trim().toLowerCase();
+      const area = document.getElementById("area").value;
+      const status = document.getElementById("status").value;
+      const owner = document.getElementById("owner").value;
+      rows = sourceRows.filter(row => {
+        const hitKeyword = !keyword || [row.code, row.name, row.owner, row.team].join(" ").toLowerCase().includes(keyword);
+        return hitKeyword && (!area || row.area === area) && (!status || row.status === status) && (!owner || row.team === owner);
+      });
+      expanded = new Set([...expanded].filter(code => rows.some(r => r.code === code)));
+      render();
+    }
+
+    document.addEventListener("click", event => {
+      const target = event.target.closest("button");
+      if (!target) return;
+      const action = target.dataset.action;
+      const code = target.dataset.code;
+      if (action === "toggle") {
+        expanded.has(code) ? expanded.delete(code) : expanded.add(code);
+        render();
+      } else if (action === "view" || action === "edit") {
+        showModal(findRow(code), action);
+      } else if (action === "more") {
+        document.querySelectorAll(".ops").forEach(el => {
+          if (el.dataset.code !== code) el.classList.remove("open");
+        });
+        target.closest(".ops").classList.toggle("open");
+      } else if (action) {
+        showModal(findRow(code), "view");
+      }
+    });
+
+    document.getElementById("queryBtn").addEventListener("click", queryRows);
+    document.getElementById("resetBtn").addEventListener("click", () => {
+      ["keyword", "area", "status", "owner"].forEach(id => document.getElementById(id).value = "");
+      rows = sourceRows.slice();
+      expanded.clear();
+      render();
+    });
+    document.getElementById("exportBtn").addEventListener("click", () => showModal(rows[0] || sourceRows[0], "view"));
+    document.getElementById("closeModal").addEventListener("click", () => document.getElementById("modalMask").classList.remove("show"));
+    document.getElementById("cancelModal").addEventListener("click", () => document.getElementById("modalMask").classList.remove("show"));
+    document.getElementById("modalMask").addEventListener("click", event => {
+      if (event.target.id === "modalMask") document.getElementById("modalMask").classList.remove("show");
+    });
+
+    window.PalExpandTableDemo = {
+      setData(nextRows) {
+        if (Array.isArray(nextRows)) {
+          rows = nextRows;
+          expanded.clear();
+          render();
+        }
+      },
+      getData() {
+        return rows.map(row => ({ ...row }));
+      },
+      reset() {
+        rows = sourceRows.slice();
+        expanded.clear();
+        render();
+      }
+    };
+
+    render();
+  </script>
+</body>
+</html>

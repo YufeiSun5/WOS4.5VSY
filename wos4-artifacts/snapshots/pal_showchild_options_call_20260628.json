@@ -1,0 +1,38 @@
+{
+  "ok": true,
+  "path": "top.2.0",
+  "hasFv": true,
+  "row": {
+    "description": "Palimpsest backend runtime instance 0626 R2",
+    "displayname": "PalimpsestBack_0626R2",
+    "guid": "92d89140-0736-41f2-873b-6bfab8f3d276",
+    "id": "288230376151751586",
+    "instancetype": "2",
+    "modeleditenvguid": "c4902fcf-26f8-434a-82aa-4d04297930fd",
+    "modelguid": "059ec133-cbf6-4212-b138-0ee081c1ac78",
+    "modelname": "盛云科技_孙宇飞_Palimpsest_后台_0623",
+    "modelversion": "4",
+    "name": "PalimpsestBack_0626R2",
+    "parentguid": "",
+    "parentrepoguid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+    "label": "PalimpsestBack_0626R2",
+    "rowIndex": "1",
+    "timeStamp": {},
+    "rowSelectStatus": true
+  },
+  "variableAttempts": [
+    {
+      "name": "client",
+      "ret": {
+        "code": -1,
+        "msg": "操作失败"
+      }
+    },
+    {
+      "name": "frame"
+    }
+  ],
+  "ret": {},
+  "err": null,
+  "dialogs": []
+}

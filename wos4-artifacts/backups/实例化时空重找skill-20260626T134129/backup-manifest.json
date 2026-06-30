@@ -1,0 +1,14 @@
+{
+  "createdAt": "2026-06-26T13:41:29",
+  "task": "新增 wos4-instantiated-spacetime-refind skill",
+  "operator": "孙宇飞_code-ai",
+  "before": [
+    "AGENTS.md",
+    ".ai/skills/README.md",
+    "MEMORY.md"
+  ],
+  "newFiles": [
+    ".ai/skills/wos4-instantiated-spacetime-refind/SKILL.md",
+    ".ai/skills/wos4-instantiated-spacetime-refind/agents/openai.yaml"
+  ]
+}

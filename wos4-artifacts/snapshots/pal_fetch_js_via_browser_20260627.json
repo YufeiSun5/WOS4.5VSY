@@ -1,0 +1,42 @@
+[
+  {
+    "path": "top.1.0",
+    "url": "http://221.239.19.118:13001/api/v1/GetFileContent/1/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/js/runtime.beta.2026.06.17.15.js",
+    "status": 200,
+    "error": null,
+    "file": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\snapshots\\pal_js_bundle_probe_20260627\\browser_fetch\\0_http_221.239.19.118_13001_api_v1_GetFileContent_1_0_0_f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118_js_runtime.beta.2026.06.17.15.js",
+    "len": 19996
+  },
+  {
+    "path": "top.1.0",
+    "url": "http://221.239.19.118:13001/api/v1/GetFileContent/1/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/js/index.beta.2026.06.17.15.js",
+    "status": 200,
+    "error": null,
+    "file": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\snapshots\\pal_js_bundle_probe_20260627\\browser_fetch\\1_http_221.239.19.118_13001_api_v1_GetFileContent_1_0_0_f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118_js_index.beta.2026.06.17.15.js",
+    "len": 3377148
+  },
+  {
+    "path": "top.1.0.0",
+    "url": "http://221.239.19.118:13001/worker-space/js/index.1780642363899.js",
+    "status": 200,
+    "error": null,
+    "file": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\snapshots\\pal_js_bundle_probe_20260627\\browser_fetch\\2_http_221.239.19.118_13001_worker-space_js_index.1780642363899.js",
+    "len": 1041215
+  },
+  {
+    "path": "top.2.0",
+    "url": "http://221.239.19.118:13001/api/v1/GetFileContent/1/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/js/runtime.beta.2026.06.17.15.js",
+    "status": 200,
+    "error": null,
+    "file": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\snapshots\\pal_js_bundle_probe_20260627\\browser_fetch\\3_http_221.239.19.118_13001_api_v1_GetFileContent_1_0_0_f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118_js_runtime.beta.2026.06.17.15.js",
+    "len": 19996
+  },
+  {
+    "path": "top.2.0",
+    "url": "http://221.239.19.118:13001/api/v1/GetFileContent/1/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/js/index.beta.2026.06.17.15.js",
+    "status": 200,
+    "error": null,
+    "file": "D:\\DEV_D\\WOS4.5\\wos4-artifacts\\snapshots\\pal_js_bundle_probe_20260627\\browser_fetch\\4_http_221.239.19.118_13001_api_v1_GetFileContent_1_0_0_f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118_js_index.beta.2026.06.17.15.js",
+    "len": 3377148
+  }
+]

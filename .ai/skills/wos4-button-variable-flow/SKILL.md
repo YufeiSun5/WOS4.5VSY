@@ -48,6 +48,8 @@ this.linkList[0].enable && this.evalFun(this.linkList[0].script, this.getPropert
 
 - `param.cloudID` 不能盲写 `0`；当前 4.5 环境里，编辑器/预览实测应优先用 `getLocalCloudID()`。
 - `Call` 只能调当前运行时空可见的 App。即使后端对象已经在别的个人时空运行，当前页面运行上下文未绑定到同一时空时，预览里会返回 `-210133`（目标App不存在）。
+- 当前后端链路中，正式时空信息和“是否可调试”的权威来源是 `时空对象管理平台`。页面运行态里的 `page.spaceTimeId` / `_getPageInfo().data.spaceTime` 用于和对象管理平台的时空信息做一致性校验；不能只凭编辑器预览或时空功能开发树判定已上线。
+- 页面按钮/查询脚本不要把时空写死成唯一常量。页面创建阶段应预留 `currentSpaceTime`、`targetSpaceTimeGuid` 或 `spaceTimeOptions` 这类变量/方法，让用户或页面逻辑能切换查询目标。实例化时填写的时空只能作为默认值；一个页面查询多个时空时，应先切换页面时空上下文，再发起对应 Query/Call。
 - 不要在编辑器预览壳或直接 `GetFileContent/.../index.html` 页里证明前后端打通。必须先检查：
 
 ```js
@@ -453,7 +455,7 @@ ret = -210139
 meaning = 时空不匹配
 ```
 
-So the next validation point is not more backend script editing. It is opening a real published client/object-management entry whose `_getPageInfo().data.spaceTime.guid` equals `4fa17a11-b923-4b36-b1e8-c39ca1bcf62c`, then retrying `Call`.
+So the next validation point is not more backend script editing. It is opening a real deployed object from `时空对象管理平台`, recording the platform-provided time-space info, then verifying the opened runtime `_getPageInfo().data.spaceTime.guid` matches it before retrying `Call`.
 
 2026-06-22 after-sales parameter-signature correction:
 
@@ -624,6 +626,132 @@ If Call fails in raw window but succeeds in .page_view.__vue__.eval,
 fix the component/page script execution context and data normalizer first.
 Do not keep changing backend code or runtime package versions.
 ```
+
+2026-06-27 Palimpsest preview backend smoke success:
+
+- Verified page: `盛云科技_孙宇飞_Palimpsest_前端_0623 -> 页面精灵图 -> PalimpsestContent_82`.
+- Open preview by the editor toolbar `预览`. Do not use a stale old `public/index.html` debugger tab and do not treat direct `GetFileContent/.../index.html` as a valid runtime entry.
+- The toolbar preview may open a new `public/index.html` tab while the main editor tab remains open. Pick the new preview target by URL/page name, not by "last tab" order.
+- In the preview iframe, raw `window` exposes `Call/StringMap/Variant`, but `SetRunInfo` can still be `undefined`. This raw iframe environment is not identical to the button `evalFun` execution environment.
+- Do not use raw iframe `window.Call(...)` failure alone as proof that the installed button script is broken. Verify the visible preview button click and compare the button text/table state after the click.
+- For Palimpsest, the installed `Backend Smoke` button was clicked in the visible preview page and returned:
+
+```text
+Smoke ret=0 data="{\"ok\":true,\"code\":\"OK\",\"message\":\"success\",\"traceId\":\"pal-20260624..."
+```
+
+- Current confirmed backend target:
+
+```text
+spaceTime = aba6cf7a-0715-4966-8eaf-0f448eba7bc9
+devName = PalimpsestBack_0626R2
+backend app = PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2
+function = QueryAssessmentRecords
+```
+
+- If the backend function input is `stringMap<var> strmapPara`, the frontend `Call` input must pass one `Variant` wrapping a `StringMap`; `params: []` is a parameter-count/type mismatch.
+
+```js
+var inParams = new StringMap({})
+inParams._insert("action", "query", "string")
+inParams._insert("pageNo", 1, "int32")
+inParams._insert("pageSize", 20, "int32")
+inParams._insert("keyword", "", "string")
+
+var callInput = new StringMap({
+  identifierType: 2,
+  name: "PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2",
+  funcname: "QueryAssessmentRecords",
+  params: [new Variant(inParams)]
+})
+```
+
+- If the page script needs to change runtime spacetime before the call, do it inside the button/page eval context before `Call`, then call only after the switch callback resolves. Do not assume `SetRunInfo` exists on raw iframe `window`.
+- Evidence:
+  - `D:\DEV_D\WOS4.5\wos4-artifacts\screenshots\wos4_content82_preview_tab_20260627.png`
+  - `D:\DEV_D\WOS4.5\wos4-artifacts\screenshots\wos4_content82_backend_smoke_after_click_20260627.png`
+
+2026-06-27 parameter mismatch root cause:
+
+- Platform `Call` validates target function metadata. For `QueryAssessmentRecords(stringMap<var> strmapPara) -> string`, the frontend must pass exactly one argument and that argument must be `Variant(StringMap)`.
+- `params: []` means zero arguments, not an empty `stringMap<var>`.
+- `params: [new Variant("", "string")]` means one string argument, also wrong for this function.
+- Use `_insert(key,value,type)` when values need explicit platform types such as `int32`:
+
+```js
+var p = new StringMap({})
+p._insert("action", "query", "string")
+p._insert("pageNo", 1, "int32")
+p._insert("pageSize", 20, "int32")
+p._insert("keyword", "", "string")
+
+var callInput = new StringMap({
+  identifierType: 2,
+  name: "PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2",
+  funcname: "QueryAssessmentRecords",
+  params: [new Variant(p)]
+})
+```
+
+- If the button has to switch spacetime first, call `SetRunInfo({...}, callback)` and only execute `Call(...)` inside/after that callback. A raw preview iframe may not expose `SetRunInfo`; the visible button/page eval context is the acceptance context.
+
+2026-06-28 Palimpsest Content82 real query button success:
+
+- Verified page: `盛云科技_孙宇飞_Palimpsest_前端_0623 -> 页面精灵图 -> PalimpsestContent_82`.
+- Verified backend target:
+
+```text
+spaceTime = aba6cf7a-0715-4966-8eaf-0f448eba7bc9
+devName = PalimpsestBack_0626R2
+backend app = PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2
+function = QueryAssessmentRecords
+```
+
+- The page button script must run in the component click context. It switches runtime with `SetRunInfo(...)`, then calls `Call(...)` with:
+
+```js
+var inParams = new StringMap({})
+inParams._insert("action", "query", "string")
+inParams._insert("pageNo", 1, "int32")
+inParams._insert("pageSize", 20, "int32")
+inParams._insert("keyword", "", "string")
+
+var callInput = new StringMap({
+  identifierType: 2,
+  name: "PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2",
+  funcname: "QueryAssessmentRecords",
+  params: [new Variant(inParams)]
+})
+```
+
+- Successful visible preview result:
+
+```text
+button text before = 查询真实数据
+button text after  = 查询真实数据 / 3条
+window.__palLastAssessmentQuery.ret = 0
+rows include PAL_DIRECT6_20260627175612, PAL_DIRECT6_20260627210127, PAL_REMAIN_A_20260628005847
+```
+
+- Stale preview rule:
+
+```text
+If an old PalimpsestContent_82 preview tab still shows Backend Smoke / 7-row mock data after save,
+do not keep refreshing that tab as proof of failure.
+Clear or ignore the stale tab, then use a real mouse click on the editor 预览 button to open a fresh public/index.html tab.
+DOM .click() on 预览 may not open a new tab because the platform relies on a trusted user event.
+```
+
+- Exact click rule:
+
+```text
+When validating the query button, locate and click the exact BUTTON element whose text is 查询真实数据.
+Clicking a wrapping DIV can leave the UI unchanged and falsely look like the backend script did not run.
+```
+
+- Evidence:
+  - `D:\DEV_D\WOS4.5\wos4-artifacts\snapshots\content82-real-query-preview-20260628.json`
+  - `D:\DEV_D\WOS4.5\wos4-artifacts\screenshots\content82-real-query-preview-after-click-20260628.png`
 
 ## 验收清单
 

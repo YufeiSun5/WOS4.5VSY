@@ -1,0 +1,430 @@
+{
+  "linkList": [
+    {
+      "linkId": 200001,
+      "enable": false,
+      "KSCGUID": "ke37cec09ad12fb638d03a06c9b3c66f",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "Select"
+    },
+    {
+      "linkId": 200002,
+      "enable": false,
+      "KSCGUID": "k698db5e9fb40bbc683e7d92b9d8c9c1",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "SelectAll"
+    },
+    {
+      "linkId": 200003,
+      "enable": false,
+      "KSCGUID": "k70d4ed4c9a42e99dbf9d14ebd869a98",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "SelectionChange"
+    },
+    {
+      "linkId": 200004,
+      "enable": false,
+      "KSCGUID": "kbd188231efbd66960ad47923b8365e4",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "CellMouseEnter"
+    },
+    {
+      "linkId": 200005,
+      "enable": false,
+      "KSCGUID": "k9730c27dfae10d2bb06cf0118e55856",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "CellMouseLeave"
+    },
+    {
+      "linkId": 200006,
+      "enable": true,
+      "KSCGUID": "k4799f9eebb9227838fb1dd17dc4cbfa",
+      "script": "var e=arguments[1]||{};var row=e.row||{};var col=e.column||{};var prop=col.property||col.prop||'';var map={viewAction:'\\u67e5\\u770b',scoreAction:'\\u8bc4\\u5206',editAction:'\\u7f16\\u8f91',moreAction:'\\u66f4\\u591a'};if(map[prop]){var doc=document;var old=doc.getElementById('pal-table-action-feedback');if(old&&old.parentNode)old.parentNode.removeChild(old);var oldMenu=doc.getElementById('pal-table-action-more-menu');if(oldMenu&&oldMenu.parentNode)oldMenu.parentNode.removeChild(oldMenu);var box=doc.createElement('div');box.id='pal-table-action-feedback';box.style.cssText='position:fixed;right:28px;top:24px;z-index:999999;background:#0f172a;color:#fff;border-radius:4px;padding:10px 14px;font-size:14px;box-shadow:0 8px 22px rgba(15,23,42,.22);';box.textContent=map[prop]+'\\uff1a'+(row.name||'')+' '+(row.studentId||'');doc.body.appendChild(box);window.__palLastTableAction={action:map[prop],prop:prop,name:row.name,studentId:row.studentId,time:Date.now()};if(prop==='moreAction'){var menu=doc.createElement('div');menu.id='pal-table-action-more-menu';menu.style.cssText='position:fixed;right:28px;top:70px;z-index:999999;background:#fff;border:1px solid #d6dfeb;border-radius:4px;box-shadow:0 10px 28px rgba(15,23,42,.18);overflow:hidden;color:#1f2937;font-size:14px;';menu.innerHTML='<div style=\\'padding:9px 18px;border-bottom:1px solid #eef2f7;\\'>\\u590d\\u5236\\u8bb0\\u5f55</div><div style=\\'padding:9px 18px;border-bottom:1px solid #eef2f7;\\'>\\u67e5\\u770b\\u65e5\\u5fd7</div><div style=\\'padding:9px 18px;color:#dc2626;\\'>\\u5220\\u9664\\u8bb0\\u5f55</div>';doc.body.appendChild(menu);}setTimeout(function(){var b=doc.getElementById('pal-table-action-feedback');if(b&&b.parentNode)b.parentNode.removeChild(b);},2200);}",
+      "KSCLINKGUID": "",
+      "linkName": "CellClick"
+    },
+    {
+      "linkId": 200007,
+      "enable": false,
+      "KSCGUID": "k18316fe673df3e8abb7d22510608367",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "CellDbclick"
+    },
+    {
+      "linkId": 200008,
+      "enable": false,
+      "KSCGUID": "k78bc403615d6d50edd5b846e5fe6e25",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "RowClick"
+    },
+    {
+      "linkId": 200009,
+      "enable": false,
+      "KSCGUID": "k1058f43ff3cfadc6d100d3aa61369b0",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "RowContextmenu"
+    },
+    {
+      "linkId": 200010,
+      "enable": false,
+      "KSCGUID": "k337161caf16a42ea4cec48622d53792",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "RowDbclick"
+    },
+    {
+      "linkId": 200011,
+      "enable": false,
+      "KSCGUID": "kea9554f7a212988e844156976dccbcf",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "HeaderClick"
+    },
+    {
+      "linkId": 200012,
+      "enable": false,
+      "KSCGUID": "kbf867ea840c1bd0568c9ffd910dec0b",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "SortChange"
+    },
+    {
+      "linkId": 200013,
+      "enable": false,
+      "KSCGUID": "kd5bed57b27390f58bc874a831120e3e",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "FilterChange"
+    },
+    {
+      "linkId": 200014,
+      "enable": false,
+      "KSCGUID": "k84f5c660c915fb0072ac1a960be00ab",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "CurrentChange"
+    },
+    {
+      "linkId": 200015,
+      "enable": false,
+      "KSCGUID": "k502d8320372a634521957a2f29c6ad3",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "HeaderDragend"
+    },
+    {
+      "linkId": 200016,
+      "enable": false,
+      "KSCGUID": "k4272212c1a20c82a4cfc7f30f22b93b",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "ExpandChange"
+    },
+    {
+      "linkId": 200017,
+      "enable": false,
+      "KSCGUID": "k9afe5c955d11e479d5967902769f600",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "CurrentPageChange"
+    },
+    {
+      "linkId": 200018,
+      "enable": false,
+      "KSCGUID": "kfe11f8dba0c8a8b27f18cd12af56c2b",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "OnLoadSuccess"
+    },
+    {
+      "linkId": 200019,
+      "enable": false,
+      "KSCGUID": "kf5cea17832d8c3289d50fa0955ddab8",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "OnBeforeEdit"
+    },
+    {
+      "linkId": 200020,
+      "enable": false,
+      "KSCGUID": "kbf733ffa777bb5c6c39e489f21620ce",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "OnAfterEdit"
+    },
+    {
+      "linkId": 200021,
+      "enable": false,
+      "KSCGUID": "k86abc7fb9728f320823e9011aea75ec",
+      "script": "",
+      "KSCLINKGUID": "",
+      "linkName": "PageSizeChange"
+    }
+  ],
+  "uiInputLinkList": [],
+  "uiOutputLinkList": [
+    {
+      "enable": false,
+      "key": "table.current.select.change",
+      "method": "",
+      "source": []
+    },
+    {
+      "enable": false,
+      "key": "table.selection.change",
+      "method": "",
+      "source": []
+    },
+    {
+      "enable": false,
+      "key": "rowClick.trigger.pageJump",
+      "method": "pageJump",
+      "source": [],
+      "condition": {
+        "enable": false,
+        "list": []
+      }
+    },
+    {
+      "enable": false,
+      "key": "rowClick.dataSet.link",
+      "method": "runDataSet",
+      "source": [
+        {
+          "dataSetLinks": []
+        }
+      ],
+      "condition": {
+        "enable": false,
+        "list": []
+      }
+    },
+    {
+      "enable": false,
+      "key": "rowClick.param.link",
+      "method": "",
+      "source": [
+        {
+          "paramLinks": []
+        }
+      ],
+      "condition": {
+        "enable": false,
+        "list": []
+      }
+    },
+    {
+      "enable": false,
+      "key": "rowDbClick.trigger.pageJump",
+      "method": "pageJump",
+      "source": [],
+      "condition": {
+        "enable": false,
+        "list": []
+      }
+    },
+    {
+      "enable": false,
+      "key": "rowDbClick.dataSet.link",
+      "method": "runDataSet",
+      "source": [
+        {
+          "dataSetLinks": []
+        }
+      ],
+      "condition": {
+        "enable": false,
+        "list": []
+      }
+    },
+    {
+      "enable": false,
+      "key": "rowDbClick.param.link",
+      "method": "",
+      "source": [
+        {
+          "paramLinks": []
+        }
+      ],
+      "condition": {
+        "enable": false,
+        "list": []
+      }
+    },
+    {
+      "enable": false,
+      "key": "rowRightClick.trigger.pageJump",
+      "method": "pageJump",
+      "source": [],
+      "condition": {
+        "enable": false,
+        "list": []
+      }
+    },
+    {
+      "enable": false,
+      "key": "rowRightClick.dataSet.link",
+      "method": "runDataSet",
+      "source": [
+        {
+          "dataSetLinks": []
+        }
+      ],
+      "condition": {
+        "enable": false,
+        "list": []
+      }
+    },
+    {
+      "enable": false,
+      "key": "rowRightClick.param.link",
+      "method": "",
+      "source": [
+        {
+          "paramLinks": []
+        }
+      ],
+      "condition": {
+        "enable": false,
+        "list": []
+      }
+    }
+  ],
+  "userEvents": [
+    {
+      "enable": false,
+      "key": "table.current.select.change",
+      "method": "",
+      "source": []
+    },
+    {
+      "enable": false,
+      "key": "table.selection.change",
+      "method": "",
+      "source": []
+    },
+    {
+      "enable": false,
+      "key": "rowClick.trigger.pageJump",
+      "method": "pageJump",
+      "source": [],
+      "condition": {
+        "enable": false,
+        "list": []
+      }
+    },
+    {
+      "enable": false,
+      "key": "rowClick.dataSet.link",
+      "method": "runDataSet",
+      "source": [
+        {
+          "dataSetLinks": []
+        }
+      ],
+      "condition": {
+        "enable": false,
+        "list": []
+      }
+    },
+    {
+      "enable": false,
+      "key": "rowClick.param.link",
+      "method": "",
+      "source": [
+        {
+          "paramLinks": []
+        }
+      ],
+      "condition": {
+        "enable": false,
+        "list": []
+      }
+    },
+    {
+      "enable": false,
+      "key": "rowDbClick.trigger.pageJump",
+      "method": "pageJump",
+      "source": [],
+      "condition": {
+        "enable": false,
+        "list": []
+      }
+    },
+    {
+      "enable": false,
+      "key": "rowDbClick.dataSet.link",
+      "method": "runDataSet",
+      "source": [
+        {
+          "dataSetLinks": []
+        }
+      ],
+      "condition": {
+        "enable": false,
+        "list": []
+      }
+    },
+    {
+      "enable": false,
+      "key": "rowDbClick.param.link",
+      "method": "",
+      "source": [
+        {
+          "paramLinks": []
+        }
+      ],
+      "condition": {
+        "enable": false,
+        "list": []
+      }
+    },
+    {
+      "enable": false,
+      "key": "rowRightClick.trigger.pageJump",
+      "method": "pageJump",
+      "source": [],
+      "condition": {
+        "enable": false,
+        "list": []
+      }
+    },
+    {
+      "enable": false,
+      "key": "rowRightClick.dataSet.link",
+      "method": "runDataSet",
+      "source": [
+        {
+          "dataSetLinks": []
+        }
+      ],
+      "condition": {
+        "enable": false,
+        "list": []
+      }
+    },
+    {
+      "enable": false,
+      "key": "rowRightClick.param.link",
+      "method": "",
+      "source": [
+        {
+          "paramLinks": []
+        }
+      ],
+      "condition": {
+        "enable": false,
+        "list": []
+      }
+    }
+  ],
+  "rowClickLink": null
+}

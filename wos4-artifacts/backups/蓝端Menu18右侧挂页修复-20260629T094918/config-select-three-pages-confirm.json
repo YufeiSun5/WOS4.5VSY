@@ -1,0 +1,52 @@
+{
+  "select": {
+    "steps": [
+      {
+        "name": "PalimpsestMenu_18",
+        "clicked": true,
+        "rowText": "PalimpsestMenu_18\n\t\nLeft menu page sprite, intended width 18 percent."
+      },
+      {
+        "name": "PalimpsestContent_82",
+        "clicked": true,
+        "rowText": "PalimpsestContent_82\n\t\nRight content page sprite, intended width 82 percent."
+      },
+      {
+        "name": "PalimpsestExpandTable_82_Demo",
+        "clicked": true,
+        "rowText": "PalimpsestExpandTable_82_Demo\n\t\nRight content expandable table demo, mock data only, avoids fixed-column expansion offset."
+      }
+    ],
+    "selected": [
+      {
+        "i": 0,
+        "text": "PalimpsestMenu_18\n\t\nLeft menu page sprite, intended width 18 percent.",
+        "checked": true
+      },
+      {
+        "i": 1,
+        "text": "PalimpsestContent_82\n\t\nRight content page sprite, intended width 82 percent.",
+        "checked": true
+      },
+      {
+        "i": 3,
+        "text": "PalimpsestExpandTable_82_Demo\n\t\nRight content expandable table demo, mock data only, avoids fixed-column expansion offset.",
+        "checked": true
+      }
+    ],
+    "text": "添加\n\nX\n\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n数据管理\n生产计划与执行\n接口测试\n\t精灵图名称\t描述\n\t\nPalimpsestMenu_18\n\t\nLeft menu page sprite, intended width 18 percent.\n\n\n\t\nPalimpsestContent_82\n\t\nRight content page sprite, intended width 82 percent.\n\n\n\t\ntestbaobiao\n\t\n\n\n\t\nPalimpsestExpandTable_82_Demo\n\t\nRight content expandable table demo, mock data only, avoids fixed-column expansion offset.\n共 4 条\n1\n前往页\n取消\n确定"
+  },
+  "confirm": {
+    "clicked": true,
+    "disabled": false
+  },
+  "state": {
+    "present": [
+      "PalimpsestMenu_18",
+      "PalimpsestContent_82",
+      "PalimpsestExpandTable_82_Demo"
+    ],
+    "dialogs": [],
+    "text": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0626\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n< 返回 盛云_孙宇飞_Palimpsest客户端_0626R2\n\n画面分组\n\n根组\n\n画面列表\n\n新建\n添加\n画面引用器\n更多操作 \n\t首页\t画面名称\t描述\t操作\n\t\n\t\nPalimpsestExpandTable_82_Demo\n\n添加画面\n\n\t\nRight content expandable table demo, mock data only, avoids fixed-column expansion offset.\n\t\n编辑属性更新删除\n\n\n\t\n\t\nPalimpsestMenu_18\n\n添加画面\n\n\t\nLeft menu page sprite, intended width 18 percent.\n\t\n编辑属性更新删除\n\n\n\t\n\t\nPalimpsestContent_82\n\n添加画面\n\n\t\nRight content page sprite, intended width 82 percent.\n\t\n编辑属性更新删除\n共 3 条\n1\n前往页\n\n添加成功"
+  }
+}

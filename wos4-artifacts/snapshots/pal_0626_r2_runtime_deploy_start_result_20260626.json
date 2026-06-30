@@ -1,0 +1,60 @@
+{
+  "operator": "孙宇飞_code-ai",
+  "date": "2026-06-26",
+  "tool": "browser-harness",
+  "project": "盛云_孙宇飞_Palimpsest工程_0626",
+  "reason": "PalimpsestL1 deployment failed because the runtime object name was duplicated in another cloud area; create a unique runtime node and redeploy.",
+  "spacetime": {
+    "name": "PalimpsestL1_0626R2",
+    "guid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+    "submitStatus": "100%",
+    "submitDetail": "提交成功"
+  },
+  "backendInstance": {
+    "name": "PalimpsestBack_0626R2",
+    "guid": "92d89140-0736-41f2-873b-6bfab8f3d276",
+    "model": "盛云科技_孙宇飞_Palimpsest_后台_0623",
+    "modelVersion": "v2",
+    "submitStatus": "100%",
+    "submitDetail": "提交成功"
+  },
+  "submitProgressRows": [
+    {
+      "name": "PalimpsestL1_0626R2",
+      "guid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+      "status": "100%",
+      "detail": "提交成功"
+    },
+    {
+      "name": "PalimpsestBack_0626R2",
+      "guid": "92d89140-0736-41f2-873b-6bfab8f3d276",
+      "status": "100%",
+      "detail": "提交成功"
+    }
+  ],
+  "opsDeploy": {
+    "area": "area0",
+    "progress": "100%",
+    "detail": "成功",
+    "statusAfterRefresh": "版本 1 / 本云 / area0 / 已部署 / 未启动"
+  },
+  "opsStart": {
+    "progress": "100%",
+    "detail": "成功",
+    "statusAfterRefresh": "版本 1 / 本云 / area0 / 已部署 / 已启动"
+  },
+  "finalOpsRows": [
+    "PalimpsestL1 无 未部署 未启动 部署启动更新部分更新删除全部展开",
+    "PalimpsestL1_0626 无 未部署 未启动 部署启动更新部分更新删除全部展开",
+    "PalimpsestL1_0626R2 1 本云 area0 已部署 已启动 撤销部署停止更新部分更新删除全部展开"
+  ],
+  "screenshots": [
+    "wos4-artifacts/screenshots/pal_0626_ops_before_deploy_r2.png",
+    "wos4-artifacts/screenshots/pal_0626_ops_started_r2.png"
+  ],
+  "notes": [
+    "PalimpsestL1_0626 was also created successfully after UI delay, but PalimpsestL1_0626R2 was used as the active unique deploy target.",
+    "The operations client must be brought to the foreground through the bottom taskbar before row button coordinates are reliable.",
+    "After deploy/start progress reports 100% success, the project list must be switched away and back before trusting the table status."
+  ]
+}

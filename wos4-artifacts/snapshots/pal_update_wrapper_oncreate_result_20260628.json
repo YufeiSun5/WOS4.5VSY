@@ -1,0 +1,82 @@
+{
+  "updates": [
+    {
+      "name": "QueryAssessmentPage",
+      "ret": 0,
+      "errorcodes": [
+        0
+      ],
+      "scriptLen": 249
+    },
+    {
+      "name": "QueryAssessmentData",
+      "ret": 0,
+      "errorcodes": [
+        0
+      ],
+      "scriptLen": 725
+    },
+    {
+      "name": "QueryAssessmentSmoke",
+      "ret": 0,
+      "errorcodes": [
+        0
+      ],
+      "scriptLen": 567
+    },
+    {
+      "name": "PalimpsestCrudService",
+      "ret": 0,
+      "errorcodes": [
+        0
+      ],
+      "scriptLen": 1074
+    },
+    {
+      "name": "onCreate",
+      "ret": 0,
+      "errorcodes": [
+        0
+      ],
+      "scriptLen": 257
+    }
+  ],
+  "queryRet": 0,
+  "verify": {
+    "QueryAssessmentPage": {
+      "inputparam": "stringMap<var> strmapPara",
+      "returntype": "string",
+      "scriptLen": 249,
+      "scriptStart": "Trace(2, \"QueryAssessmentPage.enter\", strmapPara);\nstring resultText;\nstrmapPara.pageNo = (int32)1;\nstrmapPara.pageSize = (int32)50;\nresultText = QueryAssessmentData(strmapPara);\nT",
+      "matches": true
+    },
+    "QueryAssessmentData": {
+      "inputparam": "stringMap<var> strmapPara",
+      "returntype": "string",
+      "scriptLen": 725,
+      "scriptStart": "Trace(2, \"QueryAssessmentData.enter\", strmapPara);\nstringMap<var> returnData,data;\nstring recordsText;\nstring resultText;\nstrmapPara.pageNo = (int32)1;\nstrmapPara.pageSize = (int32",
+      "matches": true
+    },
+    "QueryAssessmentSmoke": {
+      "inputparam": "stringMap<var> strmapPara",
+      "returntype": "string",
+      "scriptLen": 567,
+      "scriptStart": "Trace(2, \"QueryAssessmentSmoke.enter\", strmapPara);\nstringMap<var> returnData,data;\nstring queryText;\nstring resultText;\nstrmapPara.pageNo = (int32)1;\nstrmapPara.pageSize = (int32)",
+      "matches": true
+    },
+    "PalimpsestCrudService": {
+      "inputparam": "stringMap<var> strmapPara",
+      "returntype": "string",
+      "scriptLen": 1074,
+      "scriptStart": "Trace(2, \"PalimpsestCrudService.enter\", strmapPara);\nstring action;\nstring resultText;\nstringMap<var> errorPara;\naction = \"query\";\nif (strmapPara.containsKey(\"action\")) { action = ",
+      "matches": true
+    },
+    "onCreate": {
+      "inputparam": "",
+      "returntype": "",
+      "scriptLen": 257,
+      "scriptStart": "stringMap<var> strmapPara;\nstring resultText;\nstrmapPara.action = \"smoke\";\nstrmapPara.pageNo = (int32)1;\nstrmapPara.pageSize = (int32)10;\nresultText = QueryAssessmentSmoke(strmapPa",
+      "matches": true
+    }
+  }
+}

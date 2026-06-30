@@ -1,0 +1,2473 @@
+{
+  "ok": true,
+  "href": "http://221.239.19.118:13001/worker-space/index.html?guid=aa5d8314-87b7-453c-96e6-21e4327a8778&version=0&areaid=0&parentid=0&cloudid=1&type=1005",
+  "keys": [
+    "onappinstalled",
+    "oncontextrestored",
+    "ontimeupdate",
+    "requestAnimationFrame",
+    "requestIdleCallback",
+    "webkitRequestAnimationFrame",
+    "webkitRequestFileSystem",
+    "MonacoEnvironment",
+    "__VUE_INSTANCE_SETTERS__",
+    "__VUE_SSR_SETTERS__",
+    "__vueuse_ssr_handlers__",
+    "__VUE_I18N_FULL_INSTALL__",
+    "__VUE_I18N_LEGACY_API__",
+    "__VUE__",
+    "_fuid"
+  ],
+  "selected": [
+    [
+      "MonacoEnvironment",
+      {
+        "type": "object",
+        "keys": [
+          "getWorker"
+        ]
+      }
+    ],
+    [
+      "__VUE_INSTANCE_SETTERS__",
+      {
+        "type": "object",
+        "keys": [
+          "0"
+        ]
+      }
+    ],
+    [
+      "__VUE_SSR_SETTERS__",
+      {
+        "type": "object",
+        "keys": [
+          "0"
+        ]
+      }
+    ]
+  ],
+  "appEls": [
+    {
+      "tag": "STYLE",
+      "id": "",
+      "cls": "monaco-colors",
+      "text": ".codicon-add:before { content: '\\ea60'; }\n.codicon-plus:before { content: '\\ea60",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "BODY",
+      "id": "",
+      "cls": "enable-motion underline-links",
+      "text": "变量暂无数据监视 111 堆栈断点新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryA",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "worker-space",
+      "cls": "wos-root-app",
+      "text": "变量暂无数据监视 111 堆栈断点新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryA",
+      "hasVue": false,
+      "hasVueApp": true
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "editor-container fu-editor-container",
+      "text": "变量暂无数据监视 111 堆栈断点新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryA",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "editor-main",
+      "text": "变量暂无数据监视 111 堆栈断点新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryA",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "editor-aside editor-aside-main",
+      "text": "变量暂无数据监视 111 堆栈断点新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryA",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "editor-aside-comp-container",
+      "text": "变量暂无数据监视 111 堆栈断点新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryA",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "editor-aside-comp-item",
+      "text": "变量暂无数据监视 111 堆栈断点新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryA",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "editor-main",
+      "text": "变量暂无数据监视 111 堆栈断点新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryA",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-row",
+      "text": "变量暂无数据监视 111 堆栈断点新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryA",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "app-model-editor code-editor w100 h100 code-editor",
+      "text": "变量暂无数据监视 111 堆栈断点新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryA",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "script-editor-menu h100",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "menu-item wos-script-editor-function-mng is-active",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon item-icon",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "menu-item wos-script-editor-debugger-mng",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon item-icon",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "icon iconfont icon-zaixiantiaoshi",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-collapse el-collapse-icon-position-right code-editor-debugger-view w100 h100 script-editor-debugger",
+      "text": "变量暂无数据监视 111 堆栈断点",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-collapse-item is-active open-item",
+      "text": "变量暂无数据",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "el-collapse-head-11",
+      "cls": "el-collapse-item__header is-active",
+      "text": "变量",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "el-collapse-item__title",
+      "text": "变量",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "title",
+      "text": "变量",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "code-editor-debugger-variable",
+      "text": "变量",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon el-collapse-item__arrow is-active",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "el-collapse-content-11",
+      "cls": "el-collapse-item__wrap",
+      "text": "暂无数据",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-collapse-item__content",
+      "text": "暂无数据",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar item-main",
+      "text": "暂无数据",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__wrap el-scrollbar__wrap--hidden-default",
+      "text": "暂无数据",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__view",
+      "text": "暂无数据",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-tree variable-tree",
+      "text": "暂无数据",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-tree__empty-block",
+      "text": "暂无数据",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "el-tree__empty-text",
+      "text": "暂无数据",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-tree__drop-indicator",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__bar is-horizontal",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__thumb",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__bar is-vertical",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__thumb",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-collapse-item is-disabled",
+      "text": "监视 111",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "el-collapse-head-12",
+      "cls": "el-collapse-item__header",
+      "text": "监视",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "el-collapse-item__title",
+      "text": "监视",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "title code-editor-debugger-watch",
+      "text": "监视",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon el-collapse-item__arrow",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "el-collapse-content-12",
+      "cls": "el-collapse-item__wrap",
+      "text": "111",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-collapse-item__content",
+      "text": "111",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar item-main",
+      "text": "111",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__wrap el-scrollbar__wrap--hidden-default",
+      "text": "111",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__view",
+      "text": "111",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__bar is-horizontal",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__thumb",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__bar is-vertical",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__thumb",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-collapse-item is-active open-item",
+      "text": "堆栈",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "el-collapse-head-13",
+      "cls": "el-collapse-item__header is-active",
+      "text": "堆栈",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "el-collapse-item__title",
+      "text": "堆栈",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "title code-editor-debugger-stack",
+      "text": "堆栈",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon el-collapse-item__arrow is-active",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "el-collapse-content-13",
+      "cls": "el-collapse-item__wrap",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-collapse-item__content",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar item-main",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__wrap el-scrollbar__wrap--hidden-default",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__view",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "stack-item-view",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__bar is-horizontal",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__thumb",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__bar is-vertical",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__thumb",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-collapse-item",
+      "text": "断点",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "el-collapse-head-14",
+      "cls": "el-collapse-item__header",
+      "text": "断点",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "el-collapse-item__title",
+      "text": "断点",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "title code-editor-debugger-breakpoint",
+      "text": "断点",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "batch-breakpoint-icon disabled batch-breakpoint",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon delete-icon batch-delete-point",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon el-collapse-item__arrow",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "el-collapse-content-14",
+      "cls": "el-collapse-item__wrap",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-collapse-item__content",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar item-main",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__wrap el-scrollbar__wrap--hidden-default",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__view",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "breakpoint-item-view",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__bar is-horizontal",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__thumb",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__bar is-vertical",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__thumb",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "metalang-script-editor w100 h100",
+      "text": "新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryAssessmentDataQuer",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "code-editor-metalang-model-function function-mng-panel w100 metalang-script-editor-model-functions",
+      "text": "新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryAssessmentDataQuer",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "model-function-header",
+      "text": "新建",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "function-add",
+      "text": "新建",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "model-function-add-text",
+      "text": "新建",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "icon iconfont icon-model-function-add cursor-pointer",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "function-search",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-input el-input--default el-input--suffix model-function-search-input",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-input__wrapper",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "INPUT",
+      "id": "el-id-3397-37",
+      "cls": "el-input__inner",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "el-input__suffix",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "el-input__suffix-inner",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "icon iconfont cursor-pointer wos-editor-search",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar model-function-list",
+      "text": "declareonCreateonDestroyonExceptionQueryAssessmentPageQueryAssessmentDataQueryAs",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__wrap el-scrollbar__wrap--hidden-default",
+      "text": "declareonCreateonDestroyonExceptionQueryAssessmentPageQueryAssessmentDataQueryAs",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__view",
+      "text": "declareonCreateonDestroyonExceptionQueryAssessmentPageQueryAssessmentDataQueryAs",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "P",
+      "id": "",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "text": "declare",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "model-function-list-item-text",
+      "text": "declare",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "P",
+      "id": "",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "text": "onCreate",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "model-function-list-item-text",
+      "text": "onCreate",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "P",
+      "id": "",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "text": "onDestroy",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "model-function-list-item-text",
+      "text": "onDestroy",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "P",
+      "id": "",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "text": "onException",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "model-function-list-item-text",
+      "text": "onException",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "P",
+      "id": "",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "text": "QueryAssessmentPage",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "model-function-list-item-text",
+      "text": "QueryAssessmentPage",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon model-function-list-item-icon",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "svg",
+      "id": "",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "svg",
+      "id": "",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "P",
+      "id": "",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "text": "QueryAssessmentData",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "model-function-list-item-text",
+      "text": "QueryAssessmentData",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon model-function-list-item-icon",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "svg",
+      "id": "",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "svg",
+      "id": "",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "P",
+      "id": "",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "text": "QueryAssessmentSmoke",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "model-function-list-item-text",
+      "text": "QueryAssessmentSmoke",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon model-function-list-item-icon",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "svg",
+      "id": "",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "svg",
+      "id": "",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "P",
+      "id": "",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "text": "PalimpsestCrudService",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "model-function-list-item-text",
+      "text": "PalimpsestCrudService",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon model-function-list-item-icon",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "svg",
+      "id": "",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "svg",
+      "id": "",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "P",
+      "id": "",
+      "cls": "model-function-list-item cursor-pointer function-list-item active",
+      "text": "QueryAssessmentRecords",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "model-function-list-item-text",
+      "text": "QueryAssessmentRecords",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon model-function-list-item-icon",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "svg",
+      "id": "",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "svg",
+      "id": "",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "P",
+      "id": "",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "text": "CreateAssessmentRecord",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "model-function-list-item-text",
+      "text": "CreateAssessmentRecord",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon model-function-list-item-icon",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "svg",
+      "id": "",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "svg",
+      "id": "",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "P",
+      "id": "",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "text": "UpdateAssessmentRecord",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "model-function-list-item-text",
+      "text": "UpdateAssessmentRecord",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon model-function-list-item-icon",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "svg",
+      "id": "",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "svg",
+      "id": "",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "P",
+      "id": "",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "text": "DeleteAssessmentRecord",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "model-function-list-item-text",
+      "text": "DeleteAssessmentRecord",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon model-function-list-item-icon",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "svg",
+      "id": "",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "svg",
+      "id": "",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "P",
+      "id": "",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "text": "SubmitAssessmentScore",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "model-function-list-item-text",
+      "text": "SubmitAssessmentScore",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon model-function-list-item-icon",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "svg",
+      "id": "",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "svg",
+      "id": "",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "P",
+      "id": "",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "text": "PalimpsestHandleError",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "model-function-list-item-text",
+      "text": "PalimpsestHandleError",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon model-function-list-item-icon",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "svg",
+      "id": "",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "svg",
+      "id": "",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__bar is-horizontal",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__thumb",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__bar is-vertical",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-scrollbar__thumb",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "drag-tool metalang-divider",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "monaco-editor-view w100 h100 metalang-monaco-editor monaco-editor-panel",
+      "text": "当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC提交调试配置declareonCreateQueryAssessmen",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "code-editor-toolbar",
+      "text": "当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC提交调试配置",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "code-editor-toolbar-left",
+      "text": "当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "icon iconfont cursor-pointer wos-editor-save el-tooltip__trigger el-tooltip__trigger",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "icon iconfont cursor-pointer wos-editor-undo el-tooltip__trigger el-tooltip__trigger",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "icon iconfont cursor-pointer wos-editor-redo el-tooltip__trigger el-tooltip__trigger",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "icon iconfont cursor-pointer wos-editor-search el-tooltip__trigger el-tooltip__trigger",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "icon iconfont cursor-pointer wos-editor-copy el-tooltip__trigger el-tooltip__trigger",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "icon iconfont cursor-pointer wos-HTMLyuanma el-tooltip__trigger el-tooltip__trigger",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "icon iconfont cursor-pointer wos-editor-complie el-tooltip__trigger el-tooltip__trigger",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon icon cursor-pointer wos-editor-debug-start el-tooltip__trigger el-tooltip__trigger",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "icon text wos-editor-edit-model",
+      "text": "当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "code-editor-toolbar-right",
+      "text": "提交调试配置",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "cls": "el-button el-button--default",
+      "text": "提交",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "",
+      "text": "提交",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "cls": "el-button el-button--default",
+      "text": "调试配置",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "",
+      "text": "调试配置",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon icon cursor-pointer wos-editor-change-theme el-tooltip__trigger el-tooltip__trigger",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon icon cursor-pointer wos-editor-fullScreen el-tooltip__trigger el-tooltip__trigger",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "code-editor-body",
+      "text": "declareonCreateQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimps",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-tabs el-tabs--top el-tabs--card monaco-editor-tabs",
+      "text": "declareonCreateQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimps",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-tabs__header is-top",
+      "text": "declareonCreateQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimps",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-tabs__nav-wrap is-top",
+      "text": "declareonCreateQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimps",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-tabs__nav-scroll",
+      "text": "declareonCreateQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimps",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-tabs__nav is-top",
+      "text": "declareonCreateQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimps",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "tab-declare",
+      "cls": "el-tabs__item is-top",
+      "text": "declare",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "tab-un-save wos-editor-function-tab-close",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "title",
+      "text": "declare",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "tab-onCreate",
+      "cls": "el-tabs__item is-top is-closable",
+      "text": "onCreate",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "tab-un-save wos-editor-function-tab-close",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "title",
+      "text": "onCreate",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon is-icon-close",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "tab-QueryAssessmentPage",
+      "cls": "el-tabs__item is-top is-closable",
+      "text": "QueryAssessmentPage",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "tab-un-save wos-editor-function-tab-close",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "title",
+      "text": "QueryAssessmentPage",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon is-icon-close",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "tab-QueryAssessmentData",
+      "cls": "el-tabs__item is-top is-closable",
+      "text": "QueryAssessmentData",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "tab-un-save wos-editor-function-tab-close",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "title",
+      "text": "QueryAssessmentData",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon is-icon-close",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "tab-QueryAssessmentSmoke",
+      "cls": "el-tabs__item is-top is-closable",
+      "text": "QueryAssessmentSmoke",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "tab-un-save wos-editor-function-tab-close",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "title",
+      "text": "QueryAssessmentSmoke",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon is-icon-close",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "tab-PalimpsestCrudService",
+      "cls": "el-tabs__item is-top is-closable",
+      "text": "PalimpsestCrudService",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "tab-un-save wos-editor-function-tab-close",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "title",
+      "text": "PalimpsestCrudService",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon is-icon-close",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "tab-QueryAssessmentRecords",
+      "cls": "el-tabs__item is-top is-active is-closable",
+      "text": "QueryAssessmentRecords",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "tab-un-save wos-editor-function-tab-close",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "title",
+      "text": "QueryAssessmentRecords",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon is-icon-close",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "tab-CreateAssessmentRecord",
+      "cls": "el-tabs__item is-top is-closable",
+      "text": "CreateAssessmentRecord",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "tab-un-save wos-editor-function-tab-close",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "title",
+      "text": "CreateAssessmentRecord",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon is-icon-close",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "tab-UpdateAssessmentRecord",
+      "cls": "el-tabs__item is-top is-closable",
+      "text": "UpdateAssessmentRecord",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "tab-un-save wos-editor-function-tab-close",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "title",
+      "text": "UpdateAssessmentRecord",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon is-icon-close",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "tab-DeleteAssessmentRecord",
+      "cls": "el-tabs__item is-top is-closable",
+      "text": "DeleteAssessmentRecord",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "tab-un-save wos-editor-function-tab-close",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "title",
+      "text": "DeleteAssessmentRecord",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon is-icon-close",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "tab-SubmitAssessmentScore",
+      "cls": "el-tabs__item is-top is-closable",
+      "text": "SubmitAssessmentScore",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "tab-un-save wos-editor-function-tab-close",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "title",
+      "text": "SubmitAssessmentScore",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon is-icon-close",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "tab-PalimpsestHandleError",
+      "cls": "el-tabs__item is-top is-closable",
+      "text": "PalimpsestHandleError",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "tab-un-save wos-editor-function-tab-close",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "SPAN",
+      "id": "",
+      "cls": "title",
+      "text": "PalimpsestHandleError",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon is-icon-close",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-tabs__content",
+      "text": "名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "pane-declare",
+      "cls": "el-tab-pane",
+      "text": "名称:输入参数:返回值类型:",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "monaco-editor-tab-metalang-data",
+      "text": "名称:输入参数:返回值类型:",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "FORM",
+      "id": "",
+      "cls": "el-form el-form--default el-form--label-right monaco-editor-tab-metalang-data-form",
+      "text": "名称:输入参数:返回值类型:",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-form-item el-form-item--default asterisk-left el-form-item--label-right",
+      "text": "名称:",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "LABEL",
+      "id": "el-id-3397-70",
+      "cls": "el-form-item__label",
+      "text": "名称:",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-form-item__content",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-name wos-editor-function-name",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-input__wrapper",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "INPUT",
+      "id": "el-id-3397-73",
+      "cls": "el-input__inner",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-form-item el-form-item--default asterisk-left el-form-item--label-right param-list-form-item",
+      "text": "输入参数:",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "LABEL",
+      "id": "el-id-3397-71",
+      "cls": "el-form-item__label",
+      "text": "输入参数:",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-form-item__content",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-input__wrapper",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "INPUT",
+      "id": "el-id-3397-74",
+      "cls": "el-input__inner",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon param-list-icon cursor-pointer",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-form-item el-form-item--default asterisk-left el-form-item--label-right",
+      "text": "返回值类型:",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "LABEL",
+      "id": "el-id-3397-72",
+      "cls": "el-form-item__label",
+      "text": "返回值类型:",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-form-item__content",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-input__wrapper",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "INPUT",
+      "id": "el-id-3397-75",
+      "cls": "el-input__inner",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "pane-onCreate",
+      "cls": "el-tab-pane",
+      "text": "名称:输入参数:返回值类型:",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "monaco-editor-tab-metalang-data",
+      "text": "名称:输入参数:返回值类型:",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "FORM",
+      "id": "",
+      "cls": "el-form el-form--default el-form--label-right monaco-editor-tab-metalang-data-form",
+      "text": "名称:输入参数:返回值类型:",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-form-item el-form-item--default asterisk-left el-form-item--label-right",
+      "text": "名称:",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "LABEL",
+      "id": "el-id-3397-159",
+      "cls": "el-form-item__label",
+      "text": "名称:",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-form-item__content",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-name wos-editor-function-name",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-input__wrapper",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "INPUT",
+      "id": "el-id-3397-162",
+      "cls": "el-input__inner",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-form-item el-form-item--default asterisk-left el-form-item--label-right param-list-form-item",
+      "text": "输入参数:",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "LABEL",
+      "id": "el-id-3397-160",
+      "cls": "el-form-item__label",
+      "text": "输入参数:",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-form-item__content",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-input__wrapper",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "INPUT",
+      "id": "el-id-3397-163",
+      "cls": "el-input__inner",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon param-list-icon cursor-pointer",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-form-item el-form-item--default asterisk-left el-form-item--label-right",
+      "text": "返回值类型:",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "LABEL",
+      "id": "el-id-3397-161",
+      "cls": "el-form-item__label",
+      "text": "返回值类型:",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-form-item__content",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-input__wrapper",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "INPUT",
+      "id": "el-id-3397-164",
+      "cls": "el-input__inner",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "pane-QueryAssessmentPage",
+      "cls": "el-tab-pane",
+      "text": "名称:输入参数:返回值类型:",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "monaco-editor-tab-metalang-data",
+      "text": "名称:输入参数:返回值类型:",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "FORM",
+      "id": "",
+      "cls": "el-form el-form--default el-form--label-right monaco-editor-tab-metalang-data-form",
+      "text": "名称:输入参数:返回值类型:",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-form-item el-form-item--default asterisk-left el-form-item--label-right",
+      "text": "名称:",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "LABEL",
+      "id": "el-id-3397-127",
+      "cls": "el-form-item__label",
+      "text": "名称:",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-form-item__content",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-name wos-editor-function-name",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-input__wrapper",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "INPUT",
+      "id": "el-id-3397-130",
+      "cls": "el-input__inner",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-form-item el-form-item--default asterisk-left el-form-item--label-right param-list-form-item",
+      "text": "输入参数:",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "LABEL",
+      "id": "el-id-3397-128",
+      "cls": "el-form-item__label",
+      "text": "输入参数:",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-form-item__content",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-input__wrapper",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "INPUT",
+      "id": "el-id-3397-131",
+      "cls": "el-input__inner",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "I",
+      "id": "",
+      "cls": "el-icon param-list-icon cursor-pointer",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-form-item el-form-item--default asterisk-left el-form-item--label-right",
+      "text": "返回值类型:",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "LABEL",
+      "id": "el-id-3397-129",
+      "cls": "el-form-item__label",
+      "text": "返回值类型:",
+      "hasVue": false,
+      "hasVueApp": false
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "el-form-item__content",
+      "text": "",
+      "hasVue": false,
+      "hasVueApp": false
+    }
+  ],
+  "storage": {
+    "session": [
+      "IS_BS",
+      "storage_desktop_filterType",
+      "storage_desktop_model-filterList",
+      "proxy_pathname",
+      "desktop_storageCloud",
+      "csframe_fu-app-filterList",
+      "clientNumber",
+      "wsRequestID",
+      "username"
+    ],
+    "local": [
+      "csframe_fu",
+      "upgradePackageVersion",
+      "connection-collect-list",
+      "editor-theme",
+      "desktop_language",
+      "KGSDataObjMng"
+    ]
+  }
+}

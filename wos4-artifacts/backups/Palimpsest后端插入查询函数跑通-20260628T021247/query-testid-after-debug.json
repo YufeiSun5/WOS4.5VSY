@@ -1,0 +1,15 @@
+{
+  "ret": -30042,
+  "keys": [
+    "errorcodeexs",
+    "errorcodes",
+    "ret",
+    "returndatas",
+    "dataset",
+    "returndata",
+    "retMessage"
+  ],
+  "testId": "PAL_BACKEND_20260628021440",
+  "found": false,
+  "text": "{\"errorcodeexs\":[{}],\"errorcodes\":[-30042],\"ret\":-30042,\"returndatas\":{\"dataSetList\":[{\"fieldNames\":[],\"fieldValues\":[]}]},\"dataset\":{\"fieldNames\":[],\"fieldValues\":[],\"newFieldValues\":[]},\"returndata\":{\"fieldNames\":[],\"fieldValues\":[],\"newFieldValues\":[]},\"retMessage\":\"无有效的数据\"}"
+}

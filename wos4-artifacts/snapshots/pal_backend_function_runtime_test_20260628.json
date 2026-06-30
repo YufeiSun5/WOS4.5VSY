@@ -1,0 +1,143 @@
+{
+  "started": true,
+  "done": true,
+  "calls": [
+    {
+      "funcname": "QueryAssessmentRecords",
+      "payload": {
+        "action": "query",
+        "pageNo": 1,
+        "pageSize": 5,
+        "keyword": ""
+      },
+      "t": 1782627669691,
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": "{\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{\n    \"MLVariant\": -30038\n},\"output\":{\n    \"map\": {\n        \"errorcodeexs\": {\n            \"elementType\": \"@stringVarMap\",\n            \"elements\": [\n                {\n                    \"map\": {}\n                }\n            ]\n        },\n        \"errorcodes\": {\n            \"elements\": [\n                -30038\n            ]\n        },\n        \"ret\": -30038,\n        \"returndatas\": {\n            \"elementType\": \"@dataset\",\n            \"elements\": [\n                {\n                    \"colNames\": [],\n                    \"rowValues\": []\n                }\n            ]\n        }\n    }\n}}}",
+        "traceID": "5189236327293497344",
+        "consumeTime": 113
+      }
+    },
+    {
+      "funcname": "CreateAssessmentRecord",
+      "payload": {
+        "action": "create",
+        "id": "PAL_FUNC_20260628_142109",
+        "student_id": "S2099062801",
+        "batch_id": "2026Q2",
+        "mentor_id": "M001",
+        "department_id": "D001",
+        "professional_score": 31,
+        "attitude_score": 17,
+        "task_score": 16,
+        "teamwork_score": 8,
+        "innovation_score": 7,
+        "total_score": 79,
+        "status": "pending_runtime_func",
+        "comment": "runtime function create smoke",
+        "updated_at": "2026-06-28 12:00:00",
+        "deleted": false,
+        "appspacetimeguid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9"
+      },
+      "t": 1782627669804,
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": "{\n    \"map\": {\n        \"code\": \"CREATE_FAILED\",\n        \"data\": {\n            \"map\": {\n                \"createRet\": -30038,\n                \"output\": {\n                    \"map\": {\n                        \"errorcodes\": {\n                            \"elements\": [\n                                -30038\n                            ]\n                        },\n                        \"ret\": -30038\n                    }\n                },\n                \"table\": \"pal_assessment_record\"\n            }\n        },\n        \"message\": \"create assessment record failed\",\n        \"ok\": 0,\n        \"traceId\": \"pal-20260627-real-create\"\n    }\n}",
+        "traceID": "5189236435380694016",
+        "consumeTime": 108
+      }
+    },
+    {
+      "funcname": "PalimpsestCrudService",
+      "payload": {
+        "action": "query",
+        "pageNo": 1,
+        "pageSize": 5,
+        "keyword": "PAL_FUNC_20260628_142109",
+        "appspacetimeguid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9"
+      },
+      "t": 1782627669912,
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": "{\"ok\":true,\"code\":\"OK\",\"message\":\"success\",\"traceId\":\"pal-20260624-backend\",\"data\":{\"records\":[{\"id\":\"AR2024041001\",\"studentNo\":\"S2024041001\",\"name\":\"Li Mingxuan\",\"department\":\"Product\",\"mentor\":\"Wang Siyuan\",\"batch\":\"2024Q2\",\"professionalScore\":38,\"attitudeScore\":18,\"taskScore\":18,\"teamworkScore\":9,\"innovationScore\":9,\"totalScore\":92,\"status\":\"completed\",\"updatedAt\":\"2024-06-12 14:30\"},{\"id\":\"AR2024041002\",\"studentNo\":\"S2024041002\",\"name\":\"Zhang Yuting\",\"department\":\"R&D\",\"mentor\":\"Chen Haoran\",\"batch\":\"2024Q2\",\"professionalScore\":36,\"attitudeScore\":18,\"taskScore\":18,\"teamworkScore\":8,\"innovationScore\":9,\"totalScore\":89,\"status\":\"completed\",\"updatedAt\":\"2024-06-11 11:20\"},{\"id\":\"AR2024041005\",\"studentNo\":\"S2024041005\",\"name\":\"Chen Xinyi\",\"department\":\"Operations\",\"mentor\":\"Zhou Zimo\",\"batch\":\"2024Q2\",\"professionalScore\":34,\"attitudeScore\":17,\"taskScore\":16,\"teamworkScore\":8,\"innovationScore\":8,\"totalScore\":83,\"status\":\"pending\",\"updatedAt\":\"2024-06-08 10:05\"}],\"total\":128,\"page\":1,\"pageSize\":10,\"methods\":[\"QueryAssessmentRecords\",\"CreateAssessmentRecord\",\"UpdateAssessmentRecord\",\"DeleteAssessmentRecord\",\"SubmitAssessmentScore\"],\"tables\":[\"pal_menu_node\",\"pal_department\",\"pal_mentor\",\"pal_intern_student\",\"pal_assessment_batch\",\"pal_assessment_record\",\"pal_assessment_score_detail\",\"pal_operation_log\"],\"persistence\":\"businessEventRecordsPendingRuntimeObject\"}}",
+        "traceID": "5189236545959051264",
+        "consumeTime": 54
+      }
+    },
+    {
+      "funcname": "QueryAssessmentData",
+      "payload": {
+        "action": "dashboard",
+        "appspacetimeguid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9"
+      },
+      "t": 1782627669966,
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "res": {
+        "ret": 536903694,
+        "consumeTime": 38
+      }
+    },
+    {
+      "funcname": "QueryAssessmentPage",
+      "payload": {
+        "action": "page",
+        "pageNo": 1,
+        "pageSize": 5,
+        "appspacetimeguid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9"
+      },
+      "t": 1782627670004,
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "res": {
+        "ret": 536903694,
+        "consumeTime": 33
+      }
+    },
+    {
+      "funcname": "QueryAssessmentSmoke",
+      "payload": {
+        "action": "smoke",
+        "appspacetimeguid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9"
+      },
+      "t": 1782627670037,
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "res": {
+        "ret": 536903694,
+        "consumeTime": 28
+      }
+    }
+  ],
+  "t": 1782627669691,
+  "stamp": "PAL_FUNC_20260628_142109",
+  "createdRecordID": "",
+  "finishedAt": 1782627670065
+}

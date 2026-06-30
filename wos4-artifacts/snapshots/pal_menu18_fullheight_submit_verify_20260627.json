@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "verifiedAt": "2026-06-26T17:31:28.551Z",
+  "page": "PalimpsestMenu_18",
+  "submitMessages": [
+    "????",
+    "?????????"
+  ],
+  "row1": {
+    "height": 0,
+    "visible": false,
+    "show": false
+  },
+  "row2": {
+    "height": 1080,
+    "contentHeight": 1078
+  },
+  "col6": {
+    "height": 1078,
+    "width": 343,
+    "background": "#070b14"
+  },
+  "col12": {
+    "height": 1078,
+    "width": 1574,
+    "objects": 0,
+    "background": "#f5f7fb"
+  },
+  "menu": {
+    "computedHeight": "1076px",
+    "rectHeight": 662.34521484375,
+    "styleHas1076": true,
+    "stale1008": false,
+    "hasSetPage": true,
+    "text": "人才考核\n实习生考核管理\n考核数据看板\n演示与调试\n展开表格演示\n归档与日志\n系统预留\n时空切换预留"
+  },
+  "screenshots": {
+    "beforeSubmit": "wos4-artifacts/screenshots/pal_menu18_fullheight_redesign_final_before_submit.png",
+    "afterReload": "wos4-artifacts/screenshots/pal_menu18_fullheight_after_submit_reload_verify.png"
+  },
+  "backup": "wos4-artifacts/backups/pal-menu18-fullheight-redesign-before-20260627T010000"
+}

@@ -1,0 +1,84 @@
+{
+  "capturedAt": "2026-06-26T02:55:18.537Z",
+  "currentTopUrl": "http://221.239.19.118:13001/#/main",
+  "timeSpacePlatform": {
+    "bodySample": "时空功能开发平台Time Space Platform时空开发部署管理 仓库包 权限 镜像 关于时空管理 新建 删除默认数据区KingFusion4.5_V1KingStudio4.5_Beta_dataBaseKF4.5工程引滦原水处理测试mwq测试张测试1盛云_孙宇飞_Noctiluca盛云_孙宇飞_CRUD工程_0620信息管理系统盛云_孙宇飞_Palimpsest工程_0624盛云_孙宇飞_Palimpsest工程_0626KF4.5Root报警转发采集管理数据源管理运行权限工作流PalimpsestL1PalimpsestL1_0626PalimpsestL1_0626R2PalimpsestBack_0626R2个人仓库盛云_孙宇飞_仓库KingStudio4.5_BetaLRLtest新建生成拷贝复制移动导入导出模式选择:只导出本仓库导出本仓库+数据对象只导出仓库树结构导出仓库树结构+数据对象是否开源:是否删除上传资源打包新建生成拷贝生成拷贝至复制复制至移动导入导出模式选择:只导出本仓库导出本仓库+数据对象只导出仓库树结构导出仓库树结构+数据对象是否开源:是否删除上传资源打包全量打包名称本仓库-多类型暂无数据全选重置共 11 条 1 23456Infinity前往页属性基础信息名称:显示名称:描述:0 / 128ID:7205759403792797099GUID:9d464a7f-232b-4a27-9bf5-e7fe479f4f3f母模型GUID:aa5d8314-87b7-453c-96e6-21e4327a8778母模型版本:6版本状态:用户列表:配置父ID:安全策略:关联审计策略:关联位置ID:选择上传图标:已配置上传对象类型:功能单元拷贝仓库路径:KF4.5工程/盛云_孙宇飞_Palimpsest工程_0626/KF4.5Root/PalimpsestL1_0626R2/PalimpsestBack_0626R2分类标签1:分类标签2:分类标签3:别名关联管理:配置成员配置编辑成员名称成员值kindIndex2005时空仓库筛选全部:Label1:Label2:Label3:取消确定生成拷贝至复制至全量打包名称GUID按本仓库查看按仓库树查看全部功能单元第三方APPapp模块业务物单灵敏时序物多灵敏时序物业务事时序事关系组织岗位人员安全策略审计策略机密性完整性锁用户用户组角色域型域型交互表资源别名",
+    "propRows": [
+      "名称:",
+      "显示名称:",
+      "描述:0 / 128",
+      "ID:7205759403792797099",
+      "GUID:9d464a7f-232b-4a27-9bf5-e7fe479f4f3f",
+      "母模型GUID:aa5d8314-87b7-453c-96e6-21e4327a8778",
+      "母模型版本:6",
+      "版本状态:",
+      "用户列表:配置",
+      "父ID:",
+      "安全策略:关联",
+      "审计策略:关联",
+      "位置ID:选择",
+      "上传图标:已配置上传",
+      "对象类型:功能单元拷贝",
+      "仓库路径:KF4.5工程/盛云_孙宇飞_Palimpsest工程_0626/KF4.5Root/PalimpsestL1_0626R2/PalimpsestBack_0626R2",
+      "分类标签1:",
+      "分类标签2:",
+      "分类标签3:",
+      "别名关联管理:配置",
+      "kindIndex2005"
+    ],
+    "runtimeDataItems": []
+  },
+  "confirmedObjects": {
+    "project": {
+      "name": "shengyun_sunyufei_palimpsest_project_0626",
+      "id": "288230376151751573",
+      "guid": "577b7acf-2fc6-4a57-bb84-5fcbba3246b3"
+    },
+    "root": {
+      "name": "KF4.5Root",
+      "id": "288230376151751574",
+      "guid": "8c6286b5-18d8-4f55-99ea-0161285d48d1"
+    },
+    "timeSpace": {
+      "name": "PalimpsestL1_0626R2",
+      "id": "288230376151751585",
+      "guid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9"
+    },
+    "backendInstance": {
+      "name": "PalimpsestBack_0626R2",
+      "id": "288230376151751586",
+      "guid": "92d89140-0736-41f2-873b-6bfab8f3d276"
+    },
+    "customFuncRuntimeCopy": {
+      "name": "PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2",
+      "id": "7205759403792797099",
+      "guid": "9d464a7f-232b-4a27-9bf5-e7fe479f4f3f",
+      "baseModelGuid": "aa5d8314-87b7-453c-96e6-21e4327a8778",
+      "baseModelVersion": "6"
+    }
+  },
+  "runtimeChildrenVisible": [],
+  "workerSpace": {
+    "path": "top.1.0.0",
+    "href": "http://221.239.19.118:13001/worker-space/index.html?guid=aa5d8314-87b7-453c-96e6-21e4327a8778&version=0&areaid=0&parentid=0&cloudid=1&type=1005",
+    "title": "worker-space",
+    "modelTextPresent": true,
+    "methods": [
+      "declare",
+      "onCreate",
+      "onDestroy",
+      "onException",
+      "QueryAssessmentPage",
+      "QueryAssessmentData",
+      "QueryAssessmentSmoke",
+      "PalimpsestCrudService",
+      "QueryAssessmentRecords",
+      "CreateAssessmentRecord",
+      "UpdateAssessmentRecord",
+      "DeleteAssessmentRecord",
+      "SubmitAssessmentScore",
+      "PalimpsestHandleError"
+    ],
+    "bodySample": "变量暂无数据监视 111 堆栈断点新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecordUpdateAssessmentRecordDeleteAssessmentRecordSubmitAssessmentScorePalimpsestHandleError当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC提交调试配置declare名称:输入参数:返回值类型:1行：1，列：1， 空格：4元语言属性基础信息名称:显示名称:描述:0 / 128ID:1441151880758560281GUID:aa5d8314-87b7-453c-96e6-21e4327a8778版本状态:编辑态上传图标:已配置上传对象类型:功能单元模型历史版本:提交查看仓库路径:KingFusion4.5_V1/产品仓库/KF4.5产品/KF4.5数字孪生模型/管控单元模型/盛云科技_孙宇飞_Palimpsest_后台_0623分类标签1:分类标签2:分类标签3:成员配置编辑成员名称成员值暂无数据12345678"
+  }
+}

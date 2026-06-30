@@ -101,6 +101,19 @@ Expected verified version 2 row:
 说明: meta-language-demo-0617-oncreate-trace-v2
 ```
 
+## Model Submit Is Not Runtime Update
+
+Submitting the FU model only creates a new modeling-side version. It does not prove that the running backend object, PageView runtime, blue client, or deployed package is using that version.
+
+Use this rule after a backend function submit:
+
+1. Treat `提交成功` in the modeling editor as `model_version_submitted`.
+2. If the frontend or PageView runtime still returns an old `traceId`, old message, or old fake data, first suspect that the runtime package/deployment was not updated.
+3. Continue the verified release chain: generate/copy/package as required by the current flow, submit the target spacetime in configuration, update/deploy/start in operations, then reopen a fresh runtime/blue client.
+4. Only after the fresh runtime returns the new `traceId` or new behavior can the backend change be considered active online.
+
+Do not rewrite frontend `Call` code only because it sees an old `traceId` after a model submit. Check the deployed runtime version first.
+
 ## Generate FU Copy
 
 Return to `时空开发` repository view through the visible tab:

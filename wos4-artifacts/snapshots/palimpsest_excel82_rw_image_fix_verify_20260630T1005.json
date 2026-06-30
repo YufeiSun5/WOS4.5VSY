@@ -1,0 +1,39 @@
+{
+  "page": "PalimpsestExcel_82",
+  "ai": "向学智_frontend-ai",
+  "time": "2026-06-30T10:05:05+08:00",
+  "purpose": "修复 Print fallback 后用户反馈的 Read/Write 读写输入不稳定，并替换 Image 按钮插入的示例图片。",
+  "changes": {
+    "readButton": "脚本改为优先读取顶部可见输入框 DOM：placeholder=Cell address, e.g. B1。",
+    "writeButton": "脚本改为优先读取顶部可见输入框 DOM：地址输入框 + Value to write 输入框。",
+    "imageButton": "示例图由旧蓝色 WOS4 SVG 替换为绿色 Excel 报表卡片 SVG，包含表格网格和折线图。"
+  },
+  "submit": {
+    "saved": true,
+    "messages": ["保存成功", "生成历史版本成功！"]
+  },
+  "previewVerify": {
+    "inputs": [
+      { "placeholder": "Cell address, e.g. B1", "value": "B1" },
+      { "placeholder": "Value to write", "value": "Hello WOS4" }
+    ],
+    "scriptPersistence": {
+      "readHasDomInput": true,
+      "writeHasDomInput": true,
+      "imageHasNewGreenReportSvg": true
+    },
+    "writeResult": {
+      "B1": "Hello WOS4"
+    },
+    "imageResult": {
+      "J1": "10:04:22 IMAGE inserted: green report card in H2 + floating image near G5",
+      "J2": "new SVG sample"
+    },
+    "readResult": {
+      "B1": "Hello WOS4",
+      "J1": "10:05:05 READ B1",
+      "J2": "Hello WOS4"
+    }
+  },
+  "backup": "wos4-artifacts/backups/PalimpsestExcel82-读写图片修复前-20260630T100054/"
+}

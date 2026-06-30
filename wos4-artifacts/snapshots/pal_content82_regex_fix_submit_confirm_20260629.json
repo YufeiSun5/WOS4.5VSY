@@ -1,0 +1,160 @@
+[
+  {
+    "path": "top",
+    "dialogs": [],
+    "messages": [],
+    "cap": null
+  },
+  {
+    "path": "top.0",
+    "dialogs": [],
+    "messages": [],
+    "cap": null
+  },
+  {
+    "path": "top.0.0",
+    "dialogs": [
+      {
+        "path": "top.0.0",
+        "text": "编辑器",
+        "buttons": []
+      }
+    ],
+    "messages": [],
+    "cap": {
+      "events": []
+    }
+  },
+  {
+    "path": "top.0.0.0",
+    "dialogs": [],
+    "messages": [],
+    "cap": {
+      "messages": [
+        {
+          "kind": "mutation",
+          "text": "版本提交提交说明\n          取消\n        \n          确定",
+          "extra": {
+            "className": "el-message-box__wrapper msgbox-fade-leave msgbox-fade-leave-active"
+          },
+          "t": 1782692361407
+        },
+        {
+          "kind": "mutation",
+          "text": "保存中,请稍后 ! ! !",
+          "extra": {
+            "className": "el-loading-mask is-fullscreen el-loading-fade-leave el-loading-fade-leave-active"
+          },
+          "t": 1782692408158
+        },
+        {
+          "kind": "mutation",
+          "text": "保存中,请稍后 ! ! !",
+          "extra": {
+            "className": "el-loading-mask is-fullscreen el-loading-fade-leave el-loading-fade-leave-active"
+          },
+          "t": 1782692408158
+        },
+        {
+          "kind": "mutation",
+          "text": "保存成功",
+          "extra": {
+            "className": "el-message"
+          },
+          "t": 1782692409721
+        },
+        {
+          "kind": "mutation",
+          "text": "保存成功",
+          "extra": {
+            "className": "el-message"
+          },
+          "t": 1782692409721
+        },
+        {
+          "kind": "mutation",
+          "text": "生成历史版本成功！",
+          "extra": {
+            "className": "el-message el-message--success"
+          },
+          "t": 1782692409852
+        },
+        {
+          "kind": "mutation",
+          "text": "生成历史版本成功！",
+          "extra": {
+            "className": "el-message el-message--success"
+          },
+          "t": 1782692409852
+        },
+        {
+          "kind": "mutation",
+          "text": "版本提交提交说明\n          取消\n        \n          确定",
+          "extra": {
+            "className": "el-message-box__wrapper"
+          },
+          "t": 1782694248800
+        },
+        {
+          "kind": "mutation",
+          "text": "版本提交提交说明\n          取消\n        \n          确定",
+          "extra": {
+            "className": "el-message-box__wrapper"
+          },
+          "t": 1782694248800
+        },
+        {
+          "kind": "mutation",
+          "text": "保存中,请稍后 ! ! !",
+          "extra": {
+            "className": "el-loading-mask is-fullscreen"
+          },
+          "t": 1782694314807
+        },
+        {
+          "kind": "mutation",
+          "text": "保存中,请稍后 ! ! !",
+          "extra": {
+            "className": "el-loading-mask is-fullscreen"
+          },
+          "t": 1782694314807
+        },
+        {
+          "kind": "mutation",
+          "text": "保存成功",
+          "extra": {
+            "className": "el-message"
+          },
+          "t": 1782694315683
+        },
+        {
+          "kind": "mutation",
+          "text": "保存成功",
+          "extra": {
+            "className": "el-message"
+          },
+          "t": 1782694315683
+        },
+        {
+          "kind": "mutation",
+          "text": "生成历史版本成功！",
+          "extra": {
+            "className": "el-message el-message--success"
+          },
+          "t": 1782694315831
+        },
+        {
+          "kind": "mutation",
+          "text": "生成历史版本成功！",
+          "extra": {
+            "className": "el-message el-message--success"
+          },
+          "t": 1782694315831
+        }
+      ],
+      "dialogs": [],
+      "clicked": true,
+      "t": 1782692361405
+    }
+  }
+]

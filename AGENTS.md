@@ -37,6 +37,9 @@ WOS4 产物目录：
 - `wos4-artifacts/backups/`：修改前后备份，必须配合 Git 作为安全控制。
 - `wos4-artifacts/tasks/`：任务工作包。复杂任务一个任务一个文件夹，交互面板只指向任务目录和简要状态。
 - `wos4-artifacts/config/`：本机 WOS4 连接配置。真实 `*.ini` 不进 Git，只提交示例和说明。
+- `wos4-artifacts/docs/wos4-model-registry.md`：WOS4 建模侧对象台账，记录模型、业务事/物、字段结构、模型版本和历史证据。
+- `wos4-artifacts/docs/wos4-runtime-object-registry.md`：WOS4 运行侧对象台账，记录时空、实例、运行拷贝、业务事对象、客户端对象、ID/GUID/copy GUID/clientGuid 和核实状态。
+- `wos4-artifacts/docs/wos4-method-registry.md`：WOS4 方法台账，记录后端/前端方法签名、目标对象、关键常量、调用上下文和验证证据。
 - `wos4-artifacts/docs/wos4-help-kb/`：WOS4 帮助手册本地知识库。AI 查询手册时先读该目录的 `AGENTS.md` 和 `AI-ROUTE.md`，再按任务索引定位章节。
 
 Preflight 门禁：
@@ -169,6 +172,12 @@ MCP 和本地工具规则：
 
 - WOS4 页面操作优先使用 Chrome MCP；用户需要在 Codex Desktop 中安装并启用 Chrome 相关 MCP/插件。
 - Chrome MCP 不可用时，按 `.ai/docs/mcp-and-local-tools.md` 检查 `browser-harness` 或 Playwright 兜底。
+- WOS4 页面操作时，顶层可见弹窗优先级最高，高于任何 iframe、运行态、组件树或业务 DOM。每次登录后、点击后、保存/提交/预览/发布/部署/启动前后，以及读取 nested iframe 前，必须先扫描顶层 `document.body`、可见 `el-message-box`、`el-dialog`、遮罩层和确认框。
+- 如果顶层弹窗出现 `应用停止`、`会话失效`、`无法连接到云`、`未知错误`、确认退出、保存失败、提交失败等阻塞内容，必须先向用户或日志说明弹窗标题、正文和按钮，再按对应 skill 处理；禁止继续读取旧 iframe 或旧运行态并把它当作当前有效页面。
+- 处理阻塞弹窗时，优先使用弹窗按钮文本定位，例如 `退出`、`立即退出`、`确定`、`取消`，不得在未识别弹窗内容时按坐标盲点。
+- WOS4 点击 `确定`、`新建`、`保存`、`提交`、`发布`、`部署`、`启动`、`更新版本`、`关闭` 等会触发网络或弹窗变化的按钮后，必须进入对应 skill 定义的点击后观察窗口；观察请求、toast、进度条、弹窗、目标列表/行文本和 iframe 稳定状态后再判断成功或失败。禁止因为 1 到 3 秒内 DOM 未变化就重复点击、退出页面或把旧内容当作最终状态。
+- 后端业务事、自定义计算和命令语言可以在建模系统中开发和提交；运行实例化必须走组态系统客户端，正式运行和调试必须先经过运维部署客户端部署/更新/启动。`时空对象管理平台`只用于读取已上线时空信息、查看已部署对象、打开视图、日志和调试；如果对象管理平台里没有目标对象，说明还没有真正上线，必须回到运维部署或模型提版本链路处理，禁止在时空对象管理平台里新建内容来绕过部署。
+- 创建或修改 WOS4 画面时，页面模型里必须预留时空信息和切换时空的方法。组态实例化阶段通常只能填写一个默认/当前时空，但一个页面后续可能查询多个时空的数据或后端对象；因此不要把页面逻辑写死到单一实例化时空，应该在画面变量、页面初始化脚本、按钮/下拉/菜单事件或统一 helper 中保留 `currentSpaceTime`、`targetSpaceTimeGuid`、`spaceTimeOptions` 等可切换入口，并在运行时用 `时空对象管理平台` 获取到的真实时空信息做校验。
 - 微信文件发送使用 Windows Computer Use，要求用户已登录微信桌面端。
 - 工具不可用时必须停止并记录 `blocked`，不能伪造页面操作结果。
 
@@ -202,6 +211,7 @@ MCP 和本地工具规则：
 - `D:\DEV_D\WOS4.5\.ai\skills\wos4-component-catalog\SKILL.md`
 - `D:\DEV_D\WOS4.5\.ai\skills\wos4-style-config\SKILL.md`
 - `D:\DEV_D\WOS4.5\.ai\skills\wos4-page-runtime-backup\SKILL.md`
+- `D:\DEV_D\WOS4.5\.ai\skills\wos4-page-variable-edit\SKILL.md`
 - `D:\DEV_D\WOS4.5\.ai\skills\wos4-business-event-member-edit\SKILL.md`
 - `D:\DEV_D\WOS4.5\.ai\skills\wos4-button-variable-flow\SKILL.md`
 - `D:\DEV_D\WOS4.5\.ai\skills\wos4-interaction-flow-skill\SKILL.md`
@@ -217,6 +227,10 @@ MCP 和本地工具规则：
 - `D:\DEV_D\WOS4.5\.ai\skills\wos4-blue-client-object-create\SKILL.md`
 - `D:\DEV_D\WOS4.5\.ai\skills\wos4-modeling-reference-inspection\SKILL.md`
 - `D:\DEV_D\WOS4.5\.ai\skills\wos4-instance-submit-package-diagnosis\SKILL.md`
+- `D:\DEV_D\WOS4.5\.ai\skills\wos4-instantiated-spacetime-refind\SKILL.md`
+- `D:\DEV_D\WOS4.5\.ai\skills\wos4-object-registry\SKILL.md`
+
+涉及模型 GUID、模型 ID、业务事/业务物 ID、运行对象 GUID、copy ID、copy GUID、clientGuid、字段名/类型/描述、方法签名、后端函数目标对象或历史证据摘录时，必须先读 `wos4-object-registry`，并把确认结果写入对应台账文件。建模侧结构、运行侧对象和方法调用必须分开记录，不得混成一个全量业务数据文件。
 
 微信文件发送 skill：
 
@@ -240,6 +254,7 @@ MCP 和本地工具规则：
 
 - 登录阶段优先使用 `wos4-login` 中已验证的脚本注入 / 原生 value setter。
 - 登录成功到 `#/main` 后，不要因为编辑器页空白而重复登录。
+- 接管或读取任何业务 iframe 前，必须先检查顶层页面是否存在可见弹窗或遮罩；顶层弹窗未解决时，业务 iframe 内的文本、按钮、变量和组件状态一律只能作为旧状态参考，不能作为当前操作依据。
 - `KingStudio_V20260514` 已被用户确认为废弃入口，后续不得再进入或基于它探索客户端发布/页面设计流程。历史 KingStudio 记录只作为旧证据和反例，不再作为当前操作路径。
 - 进入仍有效的客户端、建模系统、页面设计器必须按菜单层级模拟人类操作，不允许把动态 URL 当作入口直接打开。URL 只能作为证据记录和校验。
 - 页面设计、布局、组件、保存、提交、预览阶段优先使用 Chrome MCP；Chrome MCP 不可用或无法接管时，按 skill 记录原因后退回直连 Playwright。

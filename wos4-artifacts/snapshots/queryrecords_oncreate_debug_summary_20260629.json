@@ -1,0 +1,32 @@
+{
+  "task": "QueryAssessmentRecords onCreate debug",
+  "time": "2026-06-29T21:20:00+08:00",
+  "agent": "孙宇飞_code-ai",
+  "model": "PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC",
+  "function": "onCreate",
+  "targetFunction": "QueryAssessmentRecords",
+  "passed": false,
+  "reason": "breakpoint_not_hit_and_no_resultText",
+  "observations": {
+    "onCreateBeforeHadTargetCall": false,
+    "onCreateAfterHasTargetCall": true,
+    "onCreateAfterHasResultTrace": false,
+    "compileSuccessSeen": true,
+    "breakpointVerified": false,
+    "variablesSeen": false,
+    "resultTextSeen": false,
+    "workerDebugStopped": true,
+    "runtimeDirectCallRet": -210133,
+    "runtimeDirectCallHasReturnData": false
+  },
+  "notes": [
+    "The old onCreate only traced params and could not return query data.",
+    "worker-space Update returned ret=0, but reload showed script tail truncation; Update ret=0 is not enough.",
+    "Starting debug produced compile success but no breakpoint hit and no resultText variable.",
+    "Runtime Call used the real page wrapping params:[new Variant(StringMap)], but returned ret=-210133 without returndata."
+  ],
+  "evidence": [
+    "wos4-artifacts/backups/QueryAssessmentRecords-onCreate真实调试-20260629T210011/onCreate-before.json",
+    "wos4-artifacts/snapshots/queryrecords_oncreate_debug_attempt_20260629.json"
+  ]
+}

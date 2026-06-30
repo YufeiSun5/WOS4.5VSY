@@ -1,0 +1,12 @@
+{
+  "task": "点击后观察窗口和客户端临时名规则",
+  "created_at": "2026-06-26T11:54:28",
+  "reason": "修改 WOS4 自动化规则前备份当前 AGENTS、相关 skill 和 MEMORY",
+  "files": [
+    "AGENTS.md",
+    ".ai/skills/wos4-browser-harness/SKILL.md",
+    ".ai/skills/wos4-human-navigation/SKILL.md",
+    ".ai/skills/wos4-config-client-screen-create/SKILL.md",
+    "MEMORY.md"
+  ]
+}

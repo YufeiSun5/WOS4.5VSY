@@ -1,0 +1,16 @@
+{
+  "createdAt": "20260629T103456",
+  "task": "WOS4对象台账skill落地",
+  "operator": "孙宇飞_design-ai",
+  "backups": [
+    "AGENTS.md",
+    "MEMORY.md"
+  ],
+  "newFiles": [
+    ".ai/skills/wos4-object-registry/SKILL.md",
+    ".ai/skills/wos4-object-registry/agents/openai.yaml",
+    "wos4-artifacts/docs/wos4-model-registry.md",
+    "wos4-artifacts/docs/wos4-runtime-object-registry.md",
+    "wos4-artifacts/docs/wos4-method-registry.md"
+  ]
+}

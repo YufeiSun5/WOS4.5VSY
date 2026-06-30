@@ -5,6 +5,44 @@ description: Verified WOS4 组态系统客户端 flow for creating/opening a fro
 
 # WOS4 组态客户端画面新建与编辑
 
+## Current Backend Boundary
+
+For backend business events and custom calculations, this skill only covers the configuration/client/page side. It does not prove that backend runtime is online.
+
+Accepted backend debug chain:
+
+```text
+建模系统提交业务事 / 自定义计算
+-> 组态系统客户端实例化
+-> 运维部署客户端部署 / 更新 / 启动
+-> 时空对象管理平台获取时空信息并调试
+```
+
+Do not use `时空对象管理平台` to create missing backend objects.
+
+## Page Spacetime Design Rule
+
+When creating or editing a page, reserve spacetime information and a spacetime-switching method in the page model.
+
+Reason:
+
+```text
+组态实例化阶段通常只能填写一个默认/当前时空
+但一个页面可能需要查询多个时空的数据、业务事或后端 App
+```
+
+Therefore do not hard-code page logic to only the instantiated spacetime. Add or preserve page-level variables/helpers such as:
+
+```text
+currentSpaceTime
+targetSpaceTimeGuid
+spaceTimeOptions
+setCurrentSpaceTime(...)
+resolveBackendTarget(...)
+```
+
+The exact UI can be a hidden page variable, a dropdown, a menu item, or a button-triggered helper, depending on the page design. Formal runtime validation must compare the page runtime spacetime with the real online spacetime information read from `时空对象管理平台`.
+
 ## Scope
 
 Use this skill for the current frontend route through `组态系统客户端` / `KingFusion4.5_工程浏览器`.
@@ -127,6 +165,21 @@ const view = document.getElementById("page_edit_view_area")?.__vue__
 const kids = view?._data?.comMap?.$Children
 Boolean(view && kids && Object.keys(kids).length)
 ```
+
+### Client Creation Latency And Temporary Names
+
+`客户端1` is a platform default/intermediate name. Seeing `客户端1` immediately after clicking `新建` or confirming `新建人机界面` is not enough evidence that the AI created or selected the wrong final client.
+
+After confirming client creation:
+
+1. Enter the browser-harness post-action observation window.
+2. Check top-level blocking dialogs before any iframe/list read.
+3. Observe toast/message, request evidence, loading/progress mask, dialog close/open state, list row count, and visible client row text.
+4. Wait for the expected unique business name, for example `盛云_孙宇飞_Palimpsest客户端_0626...`, to appear and stay stable.
+5. If the expected business name appears, stop and continue from that row. Do not recreate or rename it again.
+6. If only `客户端1` remains after the observation window and no request/progress/toast is active, then use the row `属性` action to rename it, or retry the normal creation path once.
+
+Do not repeat-click `确定` while the create dialog, request, toast, or table state is still changing. Repeating the click can create duplicate clients or leave stale overlays that later hide the real page state.
 
 ### Menu Trap
 
@@ -285,6 +338,59 @@ The verified preview behavior is now split into two layers:
 2. `数字孪生可视化 -> 客户端列表` row action `预览`
 
 Do not treat them as the same thing.
+
+## Stale Screen Reference Recovery
+
+Use this branch when the 建模系统 or page editor preview is correct, but the 组态系统 client preview, formal `clientGuid` preview, or blue client still shows an older page version.
+
+Root cause to assume first:
+
+```text
+The client screen list is still bound to an old page/screen reference or copy.
+```
+
+Verified Palimpsest rule:
+
+```text
+For referenced screens, the row action 更新 does not refresh the reference to the newest page sprite version.
+If a referenced screen is stale, delete/remove the referenced screen row and add/reference the current page sprite again.
+```
+
+强规则：
+
+```text
+组态客户端里的“引用画面”不是源页面本体，不能靠行内 更新 刷到最新源页面。
+凡是通过 添加 / 引用 挂进画面列表的页面精灵图，发现版本旧、预览旧、蓝端旧时，处理方式是删除该引用行，再重新 添加 / 引用 当前源页面。
+不要把“更新”按钮当作刷新引用版本的手段；它可能无报错，但不会让蓝端消费最新页面精灵图。
+```
+
+Recovery:
+
+```text
+组态系统客户端
+-> target project
+-> 数字孪生可视化
+-> target client row, preferably double-click into the screen list
+-> record before evidence for the stale screen row, homepage flag, page name, and configured spacetime
+-> delete/remove the stale screen reference from the screen list
+-> use 添加 / 引用, not 新建, to add the current page sprite again
+-> select the correct page sprite row and check 精灵图名称 when the selector requires it
+-> confirm
+-> set exactly one 首页
+-> reapply 当前时空 / page spacetime config if it was cleared by the rebind
+-> return to client list
+-> run row 更新版本
+-> run row 提交版本 when available
+-> open a fresh formal preview or fresh blue client
+```
+
+Acceptance:
+
+- The screen list contains the intended current page, not the old stale row.
+- Homepage is unique.
+- A fresh preview/client shows the page content that matched the latest editor preview.
+
+Do not solve this by adding a page-only frontend model to `管控单元实例配置`. That creates the wrong runtime shape and will not fix a stale client screen reference.
 
 ### Editor Toolbar Preview
 

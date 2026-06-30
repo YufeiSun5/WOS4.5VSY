@@ -1,0 +1,269 @@
+{
+  "body": "KingFusion4.5_建模系统\n\n建模系统\n\n管控单元建模\n采集设备建模\n工作流建模\n数据源建模\n\n数字孪生建模分组\n\n根组\n集成测试\n测试\n引滦工程\nmwq测试\n张测试组\nlk测试\n盛云_孙宇飞_根组\n产品生成器功能测试_lk\n工厂\n车间\n产线\n设备\n数据管理\n生产计划与执行\n接口测试\n\n模型列表\n\n新建\n更多操作 \n\n\t序号\t名称\t描述\t操作\n\t\n1\n\t\n盛云_孙宇飞_Smoke模型_0518\n\t\n建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n2\n\t\n盛云_孙宇飞_后台_查询Demo_0618\n\t\nreference lk backend minimal clone: business event + custom calc skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n3\n\t\n盛云_孙宇飞_前端_框架_0618\n\t\nreference lk front frame minimal clone: frame page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n4\n\t\n盛云_孙宇飞_前端_查询Demo_0618\n\t\nreference lk front business minimal clone: list page + edit page skeleton\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n5\n\t\n盛云_孙宇飞_后台_CRUDDemo_0620\n\t\nclean restart backend CRUD model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n6\n\t\n盛云_孙宇飞_前端_框架_0620\n\t\nclean restart front frame model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n7\n\t\n盛云_孙宇飞_前端_CRUDDemo_0620\n\t\nclean restart front business model 0620\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n8\n\t\n盛云科技_孙宇飞_Palimpsest_前端_0623\n\t\nPalimpsest frontend model: left 18 percent menu and right 82 percent content test page.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n\n\n\t\n10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除\n共 10 条\n<1>前往页\n\nKingFusion4.5_工程浏览器\n\n盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物\n\t\n\n\n单灵敏时序物\n\t\n\n\n业务物\n\t\n\n\n事\n\t\n\n\n时序事\n\t\n\n\n业务事\n\t\n\n\n岗位\n\t\n\n\n组织\n\t\n\n\n人员\n\t\n\n\n逻辑模型\n\t\n\n\n报警规则配置\n\t\n\n\n多灵敏数据报警转发\n\t\n\n\n单灵敏数据报警转发\n\t\n\n\n自定义计算\n\t\n\n\n第三方计算管理\n\t\n\n\n图形模型\n\t\n\n\n2D精灵图\n\t\n\n\n3D精灵图\n\t\n\n\n页面精灵图\n\t\n\n\n报表精灵图\n\t\n\n\n自定义精灵图\n\t\n\n\n子模型\n\t\n\n\n形参配置\n\t\n\n自定义计算模型\n\n新建\n更多操作 \n\t模型名称\t触发类型\t触发条件\t操作\n\t\nPalimpsestBackend\n\t\n自定义函数\n\t\n\t\n编辑\n属性\n删除\n共 1 条\n1\n前往页\n\nPalimpsestBackend脚本编辑器",
+  "hits": [
+    {
+      "i": 722,
+      "tag": "TR",
+      "cls": "el-table__row expanded",
+      "text": "9\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nPalimpsest backend model: fake assessment CRUD functions and test records.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "x": 543,
+      "y": 465,
+      "w": 1348,
+      "h": 40,
+      "visible": true
+    },
+    {
+      "i": 735,
+      "tag": "TD",
+      "cls": "el-table_1_column_4 is-left   el-table__cell",
+      "text": "Palimpsest backend model: fake assessment CRUD functions and test records.",
+      "x": 893,
+      "y": 465,
+      "w": 390,
+      "h": 40,
+      "visible": true
+    },
+    {
+      "i": 736,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "text": "Palimpsest backend model: fake assessment CRUD functions and test records.",
+      "x": 893,
+      "y": 474.5,
+      "w": 388,
+      "h": 20,
+      "visible": true
+    },
+    {
+      "i": 737,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "Palimpsest backend model: fake assessment CRUD functions and test records.",
+      "x": 903,
+      "y": 474.5,
+      "w": 500.234375,
+      "h": 20,
+      "visible": true
+    },
+    {
+      "i": 752,
+      "tag": "TR",
+      "cls": "el-table__row expanded",
+      "text": "10\n\t\nPalimpsestAssessment_CUSTOMFUNC\n\t\nPalimpsest assessment CRUD backend functions for frontend integration.\n\t\n编辑\n属性\n提交版本\n版本管理\n更新\n删除",
+      "x": 543,
+      "y": 505,
+      "w": 1348,
+      "h": 40,
+      "visible": true
+    },
+    {
+      "i": 765,
+      "tag": "TD",
+      "cls": "el-table_1_column_4 is-left   el-table__cell",
+      "text": "Palimpsest assessment CRUD backend functions for frontend integration.",
+      "x": 893,
+      "y": 505,
+      "w": 390,
+      "h": 40,
+      "visible": true
+    },
+    {
+      "i": 766,
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "text": "Palimpsest assessment CRUD backend functions for frontend integration.",
+      "x": 893,
+      "y": 514.5,
+      "w": 388,
+      "h": 20,
+      "visible": true
+    },
+    {
+      "i": 767,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "Palimpsest assessment CRUD backend functions for frontend integration.",
+      "x": 903,
+      "y": 514.5,
+      "w": 469.78125,
+      "h": 20,
+      "visible": true
+    },
+    {
+      "i": 832,
+      "tag": "DIV",
+      "cls": "ksc_page_run",
+      "text": "KingFusion4.5_工程浏览器\n\n盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物",
+      "x": 0,
+      "y": 0,
+      "w": 1904,
+      "h": 939,
+      "visible": true
+    },
+    {
+      "i": 833,
+      "tag": "DIV",
+      "cls": "page_running",
+      "text": "KingFusion4.5_工程浏览器\n\n盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物",
+      "x": 0,
+      "y": 0,
+      "w": 1904,
+      "h": 939,
+      "visible": true
+    },
+    {
+      "i": 834,
+      "tag": "DIV",
+      "cls": "page_view_container client_page_view_container",
+      "text": "KingFusion4.5_工程浏览器\n\n盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物",
+      "x": 0,
+      "y": 0,
+      "w": 1904,
+      "h": 939,
+      "visible": true
+    },
+    {
+      "i": 835,
+      "tag": "DIV",
+      "cls": "page_view",
+      "text": "KingFusion4.5_工程浏览器\n\n盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物",
+      "x": 0,
+      "y": 0,
+      "w": 1904,
+      "h": 939,
+      "visible": true
+    },
+    {
+      "i": 836,
+      "tag": "DIV",
+      "cls": "layer_view",
+      "text": "KingFusion4.5_工程浏览器\n\n盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物",
+      "x": 0,
+      "y": 0,
+      "w": 1904,
+      "h": 939,
+      "visible": true
+    },
+    {
+      "i": 837,
+      "tag": "DIV",
+      "cls": "layout_container containerStyle",
+      "text": "KingFusion4.5_工程浏览器\n\n盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物",
+      "x": 0,
+      "y": 0,
+      "w": 1904,
+      "h": 939,
+      "visible": true
+    },
+    {
+      "i": 838,
+      "tag": "SPAN",
+      "cls": "containerrow",
+      "text": "KingFusion4.5_工程浏览器\n\n盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.\n\n退出\n\n菜单\n\n实例显示\n\n数据模型\n\t\n\n\n物\n\t\n\n\n多灵敏时序物",
+      "x": 0,
+      "y": 0,
+      "w": 1904,
+      "h": 939,
+      "visible": true
+    },
+    {
+      "i": 855,
+      "tag": "DIV",
+      "cls": "response_row",
+      "text": "盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.\n\n退出",
+      "x": 0,
+      "y": 42,
+      "w": 1904,
+      "h": 40,
+      "visible": true
+    },
+    {
+      "i": 856,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.\n\n退出",
+      "x": 1,
+      "y": 43,
+      "w": 1902,
+      "h": 38,
+      "visible": true
+    },
+    {
+      "i": 864,
+      "tag": "DIV",
+      "cls": "",
+      "text": "盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.",
+      "x": 53,
+      "y": 49,
+      "w": 400,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "i": 865,
+      "tag": "DIV",
+      "cls": "component_object_unselect",
+      "text": "盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.",
+      "x": 53,
+      "y": 49,
+      "w": 400,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "i": 866,
+      "tag": "DIV",
+      "cls": "ui_factory",
+      "text": "盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.",
+      "x": 53,
+      "y": 49,
+      "w": 400,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "i": 867,
+      "tag": "DIV",
+      "cls": "pointer_auto",
+      "text": "盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.",
+      "x": 53,
+      "y": 49,
+      "w": 400,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "i": 868,
+      "tag": "DIV",
+      "cls": "el-text-component component_object ElementText1",
+      "text": "盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.",
+      "x": 53,
+      "y": 49,
+      "w": 400,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "i": 869,
+      "tag": "P",
+      "cls": "label",
+      "text": "盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.",
+      "x": 53,
+      "y": 49,
+      "w": 400,
+      "h": 26,
+      "visible": true
+    },
+    {
+      "i": 870,
+      "tag": "LABEL",
+      "cls": "label_disable",
+      "text": "盛云科技_孙宇飞_Palimpsest_后台_0623 Palimpsest backend model: fake assessment CRUD functions and test records.",
+      "x": 53,
+      "y": 49,
+      "w": 1032.28125,
+      "h": 26,
+      "visible": true
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "initial": {
+    "href": "http://221.239.19.118:13001/#/main",
+    "dialogs": [],
+    "cards": [],
+    "body": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\n生成器\n建模系统客户端1\n组态系统客户端1\n运维部署客户端1"
+  },
+  "frames": [
+    {
+      "path": "top",
+      "href": "http://221.239.19.118:13001/#/main",
+      "title": "🐴 WellinOS4.5",
+      "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\n生成器\n建模系统客户端1\n组态系统客户端1\n运维部署客户端1",
+      "iframes": 3
+    },
+    {
+      "path": "top.0",
+      "href": "http://221.239.19.118:13001/desktop-frame/index.html?cloud=1#/main/worker-space-model",
+      "title": "desktop-frame",
+      "text": "时空功能开发平台Time Space Platform时空开发部署管理 仓库包 权限 镜像 关于时空管理 新建 删除默认数据区KingFusion4.5_V1KingStudio4.5_Beta_dataBaseKF4.5工程个人仓库盛云_孙宇飞_仓库KingStudio4.5_BetaLRLtest新建生成拷贝复制移动导入导出模式选择:只导出本仓库导出本仓库+数据对象只导出仓库树结构导出仓库树结构+数据对象是否开源:是否删除上传资源打包新建生成拷贝生成拷贝至复制复制至移动导入导出模式选择:只导出本仓库导出本仓库+数据对象只导出仓库树结构导出仓库树结构+数据对象是否开源:是否删除上传资源打包全量打包名称本仓库-多类型暂无数据全选共 7 条 1 23456Infinity前往页属性暂无数据时空仓库筛选全部:Label1:Label2:Label3:取消确定生成拷贝至复制至全量打包名称GUID按本仓库查看按仓库树查看全部功能单元第三方APPapp模块业务物单灵敏时序物多灵敏时序物业务事时序事关系组织岗位人员安全策略审计策略机密性完整性锁用户用户组角色域型域型交互表资源别名",
+      "iframes": 0
+    },
+    {
+      "path": "top.1",
+      "href": "http://221.239.19.118:13001/public/?id=6192730962611142662&parentid=0&cloudid=1&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+      "title": "WellinOS4.0",
+      "text": "\n    \n    \n    !function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();\n    \n    System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))\n  \n\n",
+      "iframes": 1
+    },
+    {
+      "path": "top.1.0",
+      "href": "http://221.239.19.118:13001/api/v1/GetFileContent/1/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/index.html",
+      "title": "客户端运行",
+      "text": "<strong>We're sorry but app-master doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>KingFusion4.5_建模系统建模系统管控单元建模采集设备建模工作流建模数据源建模数字孪生建模分组       导入 导出 删除  根组集成测试测试引滦工程mwq测试张测试组lk测试盛云_孙宇飞_根组产品生成器功能测试_lk工厂车间产线设备数据管理生产计划与执行模型列表 新建  更多操作  导入 导出 复制 粘贴 移动 删除   序号名称描述操作1盛云_孙宇飞_Smoke模型_0518建模系统客户端冒烟测试模型；父分组：盛云_孙宇飞_根组；用于验证新建、提交、生成拷贝链路。 编辑 属性 提交版本 版本管理 更新 删除2盛云_孙宇飞_后台_查询Demo_0618reference lk backend minimal clone: business event + custom calc skeleton 编辑 属性 提交版本 版本管理 更新 删除3盛云_孙宇飞_前端_框架_0618reference lk front frame minimal clone: frame page skeleton 编辑 属性 提交版本 版本管理 更新 删除4盛云_孙宇飞_前端_查询Demo_0618reference lk front business minimal clone: list page + edit page skeleton 编辑 属性 提交版本 版本管理 更新 删除5盛云_孙宇飞_后台_CRUDDemo_0620clean restart backend CRUD model 0620 编辑 属性 提交版本 版本管理 更新 删除6盛云_孙宇飞_前端_框架_0620clean restart front frame model 0620 编辑 属性 提交版本 版本管理 更新 删除7盛云_孙宇飞_前端_CRUDDemo_0620clean restart front business model 0620 编辑 属性 提交版本 版本管理 更新 删除8盛云科技_孙宇飞_Palimpsest_前端_0623Palimpsest frontend model: left 18 percent menu and right 82 percent content test page. 编辑 属性 提交版本 版本管理 更新 删除9盛云科技_孙宇飞_Palimpsest_后台_0623Palimpsest backend model: fake assessment CRUD functions and test records. 编辑 属性 提交版本 版本管理 更新 删除10PalimpsestAssessment_CUSTOMFUNCPalimpsest assessment CRUD backend functions for frontend integration. 编辑 属性 提交版本 版本管理 更新 删除共 10 条50条/页100条/页150条/页200条/页250条/页300条/页<1>前往页\n          \n          body #RContainerkfcbba53c657b1612dd997aa6c16d579 #k5d8e3c36eb953335de0d1f8d7aa1cf2 p {\n  font-family: Source Han Sans;\n  font-size: 18px;\n  font-weight: bold;\n  line-height: normal;\n  letter-spacing: normal;\n  color: #333333;\n}#RContainerkfcbba53c657b1612dd997aa6c16d579 #k5d8e3c36eb953335de0d1f8d7aa1cf2 {\n          background:rgba(255, 255, 255, 0);\n          border-width:0px;\n          border-style:null;\n          border-color:#000000;\n          text-align:left;\n          align-items:center;\n      }\n      #RContainerkfcbba53c657b1612dd997aa6c16d579 #k5d8e3c36eb953335de0d1f8",
+      "iframes": 0
+    },
+    {
+      "path": "top.2",
+      "href": "http://221.239.19.118:13001/public/?id=6192730962611142663&parentid=0&cloudid=1&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+      "title": "WellinOS4.0",
+      "text": "\n    \n    \n    !function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();\n    \n    System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))\n  \n\n",
+      "iframes": 1
+    },
+    {
+      "path": "top.2.0",
+      "href": "http://221.239.19.118:13001/api/v1/GetFileContent/1/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/index.html",
+      "title": "客户端运行",
+      "text": "<strong>We're sorry but app-master doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>KingFusion4.5_组态系统 <  返回工程管理 盛云_孙宇飞_Palimpsest工程_0626数字孪生实例配置管控单元实例配置工作流实例配置数据源实例化采集设备实例配置数字孪生可视化系统服务配置报警转发采集管理数据源管理安全设置电子签名管理 < 返回 盛云_孙宇飞_Palimpsest客户端_0626R2 画面分组      根组画面列表 新建  添加  画面引用器  更多操作 首页画面名称描述操作\n                                PalimpsestContent_82\n                                添加画面\n                            Right content page sprite, intended width 82 percent. 编辑 属性 更新 删除共 1 条50条/页100条/页150条/页200条/页250条/页300条/页1前往页\n          \n          body #RContainerk8169594ba8b79ec58638f8e561af94e #k4859109587a99756ce5286855a2b03e p {\n  font-family: Source Han Sans;\n  font-size: 18px;\n  font-weight: bold;\n  line-height: normal;\n  letter-spacing: normal;\n  color: #333333;\n}#RContainerk8169594ba8b79ec58638f8e561af94e #k4859109587a99756ce5286855a2b03e {\n          background:rgba(255, 255, 255, 0);\n          border-width:0px;\n          border-style:null;\n          border-color:#000000;\n          text-align:left;\n          align-items:center;\n      }\n      #RContainerk8169594ba8b79ec58638f8e561af94e #k4859109587a99756ce5286855a2b03e p{\n          font-family:黑体;\n          font-size:18px;\n      }\n      #RContainerk8169594ba8b79ec58638f8e561af94e #k4859109587a99756ce5286855a2b03e label{\n          font-weight:bold;\n          font-style:normal;\n          padding-right: 0px;\n          text-decoration:none;\n      }#RContainerk8169594ba8b79ec58638f8e561af94e #k4859109587a99756ce5286855a2b03e p {\n            color: #333333;\n          }#RContainerk8169594ba8b79ec58638f8e561af94e #ka18c725fc00832c8b6c6963fb460db6 {\n                    background: rgba(247, 249, 252, 1);\n                    background-repeat: repeat;\n                    background-size: auto;\n                }#RContainerk8169594ba8b79ec58638f8e561af94e #ka18c725fc00832c8b6c6963fb460db6 { \n                        box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);\n                    }#RContainerk81695",
+      "iframes": 1
+    },
+    {
+      "path": "top.2.0.0",
+      "href": "http://221.239.19.118:13001/api/v1/GetFileContent/1/0/0/94054fd1-9b20-463a-8372-b69776349847_120/index.html",
+      "title": "KingStudio4.5",
+      "text": "<strong>We're sorry but app-master doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>参数配置当前时空： PalimpsestL1_0626R2 配置预览布局容器UI组件图表组件流程图组件 布局容器 删除重命名 布局  分栏*1  分栏*2  分栏*4  UI组件 删除重命名全部常用导航数据选择输入媒体其他 按钮  表格  输入框  选择器  文本  日期时间选择器  导航菜单  树  图片  上传  标签页  单选框  多选框  开关  时间选择器  卡片  业务卡片  折叠面板  下拉菜单  级联选择器  网页容器  标签  穿梭框  计数器  时间线  步骤条  滑块  评分  轮播组件  自定义轮播  日历  电子签名  条形码  脚本编辑器  分页  大数据表格  移动端_输入框  移动端_文件上传  移动端_进度条  移动端_宫格  移动端_导航栏  移动端_标签栏   移动端_下拉菜单  移动端_列表  移动端_分类选择  移动端_表单  按钮  表格  输入框  选择器  文本  时间选择器  导航菜单  树  标签页  折叠面板  步骤条  移动端_宫格  移动端_导航栏  移动端_标签栏   表格  卡片  业务卡片  日历  大数据表格  移动端_进度条  移动端_列表  选择器  日期时间选择器  单选框  多选框  开关  时间选择器  下拉菜单  级联选择器  穿梭框  滑块  评分  移动端_下拉菜单  移动端_分类选择  输入框  上传  计数器  电子签名  脚本编辑器  移动端_输入框  移动端_文件上传  图片  网页容器  轮播组件  自定义轮播  条形码  按钮  文本  标签  时间线  分页  移动端_表单  图表组件 删除重命名全部业务表格趋势曲线柱状图立体柱状图条形图折线图混合图饼图仪表雷达图气泡图漏斗图甘特图水波图百分比图3D饼图地图其他 多对象表格  实时表格  历史表格  计划表格  趋势曲线  自定义图表  流程查看器  流程编辑器  报警窗  甘特图  普通柱状图  多系列柱状图  普通柱状图  堆叠柱状图  曲顶柱状图  象形柱状图  立体柱状图  多系列立体柱状图  立体柱状图  光圈柱状图  多系列立体柱状图  立体柱状图1  光圈立体柱状图  横向渐变柱状图  横向立体柱状图  横向柱状图  横向柱状图  象形柱状图  横向柱状图及排名  横向柱状图1  电池-进度柱状图  横排分隔形柱状图  折线图  渐变折线图  多线图  多线图  折现堆叠图  多线图  立体混合图  立体混合图  同数据混合图  渐变混合图  气泡混合图  普通饼图  南丁格尔玫瑰图  光圈饼图  断开环形图  动画装饰仪表盘  普通饼图  普通饼图  占比饼图  仪表饼图  多系列饼图  立体饼图  普通饼图  普通饼图  炫酷饼图  普通饼图  普通饼图  仪表盘  仪表盘  分段渐变仪表盘  仪表盘  炫酷仪表盘  噪音仪表盘  噪音仪表盘  仪表盘  雷达图  k_mzubq6  雷达图  卫星坐标雷达图  普通气泡图  普通气泡图  散点图  普通气泡图  漏斗图  前后对比漏斗图  左右对比漏斗图  向下漏斗图  向上漏斗图  普通甘特图  普通甘特图  水波图  水球图  水球图  圆环百分比  圆环百分比  百分比进度条  立体环饼图  立体环形图  立体环形图  地图流向图  地图气泡图  多对象表格  实时表格  历史表格  计划表格  趋势曲线  普通柱状图  多系列柱状图  普通柱状图  堆叠柱状图  曲顶柱状图  象形柱状图  立体柱状图  多系列立体柱状图  立体柱状图  光圈柱状图  多系列立体柱状图  立体柱状图1  光圈立体柱状图  横向渐变柱状图  横向立体柱状图  横向柱状图  横向柱状图  象形柱状图  横向柱状图及排名  横向柱状图1  电池-进度柱状图  横排分隔形柱状图  折线图  渐变折线图  多线图  多线图  折现堆叠图  多线图  立体混合图  立体混合图  同数据混合图  渐变混合图  气泡混合图  普通饼图  南丁格尔玫瑰图  光圈饼图  断开环形图  动画装饰仪表盘  普通饼图  普通饼图  占比饼图  仪表饼图  多系列饼图  立体饼图  普通饼图  普通饼图  炫酷饼图  普通饼图  普通饼图  仪表盘  仪表盘  分段渐变仪表盘  仪表盘  炫酷仪表盘  噪音仪表盘  噪音仪表盘  仪表盘  雷达图  k_mzubq6  雷达图  卫星坐标雷达图  普通气泡图  ",
+      "iframes": 0
+    }
+  ]
+}

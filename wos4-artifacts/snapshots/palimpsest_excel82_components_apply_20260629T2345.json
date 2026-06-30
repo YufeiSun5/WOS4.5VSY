@@ -1,0 +1,54 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "name": "excel_cell_address_input",
+      "ok": true,
+      "proto": "ElementInput",
+      "col": "RCol11"
+    },
+    {
+      "name": "excel_cell_value_input",
+      "ok": true,
+      "proto": "ElementInput",
+      "col": "RCol12"
+    },
+    {
+      "name": "excel_read_button",
+      "ok": true,
+      "proto": "ElementButton",
+      "col": "RCol13"
+    },
+    {
+      "name": "excel_write_button",
+      "ok": true,
+      "proto": "ElementButton",
+      "col": "RCol14"
+    },
+    {
+      "name": "excel_style_button",
+      "ok": true,
+      "proto": "ElementButton",
+      "col": "RCol9"
+    },
+    {
+      "name": "excel_export_probe_button",
+      "ok": true,
+      "proto": "ElementButton",
+      "col": "RCol2"
+    },
+    {
+      "name": "excel_result_log",
+      "ok": true,
+      "proto": "ElementInput",
+      "col": "RCol8"
+    },
+    {
+      "name": "excel_capability_notes",
+      "ok": true,
+      "proto": "ElementInput",
+      "col": "RCol3"
+    }
+  ],
+  "childCount": 16
+}

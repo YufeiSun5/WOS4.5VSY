@@ -15,11 +15,56 @@ model/page changes
 -> target time-space submit / package generation
 -> config-client instance submit check
 -> operation deployment update/start
--> reopen or refresh blue WebJS client object
+-> verify deployed runtime object from Time Space Object Management
 -> runtime verification
 ```
 
 This skill does not replace the detailed child skills. It defines the order, stop points, and acceptance gates.
+
+## Current Authoritative Flow
+
+Use this flow for the current Palimpsest-style page/client release work. Treat every arrow as an evidence gate; if one gate fails, stop at that layer instead of compensating in a later platform.
+
+```text
+建模系统客户端
+-> edit/save/submit the source page or backend model version
+-> verify the editor/runtime preview is correct
+-> 组态系统客户端
+-> 数字孪生可视化: bind or rebind the page into the target client screen list
+-> set homepage and page spacetime/config as required
+-> client row 更新版本 and 提交版本
+-> 管控单元实例配置: only runtime-bearing backend/data/logic instances, not page-only frontend models
+-> target spacetime 批量提交 / generate time-space package
+-> 运维部署客户端: update/deploy/start the target spacetime/client package
+-> 时空对象管理平台: verify online objects and existing WebJS template/card
+-> reopen a fresh blue WebJS client
+-> verify page switch, query, dialogs, and frontend Call backend
+```
+
+For page-only frontend changes such as `页面精灵图`, the common stale-preview fix is not another source edit:
+
+```text
+组态系统客户端
+-> 数字孪生可视化
+-> target client
+-> 画面列表
+-> delete/remove the stale screen reference if it still points to an old page copy
+-> 添加 / 引用 the current page sprite again
+-> set the homepage again
+-> update and submit the client version
+```
+
+Use this delete-and-readd screen reference recovery only for the target personal client/page. Capture before evidence of the screen row and page name, because it changes the client composition, not just the editor preview.
+
+Palimpsest verified caveat: for referenced screens in the config client screen list, row action `更新` is not a valid stale-reference refresh. It may click without visible error, but it does not force the blue client/template to consume the latest page sprite. Use delete/remove plus `添加 / 引用` instead.
+
+Chinese hard rule for future operators:
+
+```text
+引用的画面没法通过“更新”刷新到最新源页面。
+如果蓝端或组态预览仍是旧版，先在 画面列表 删除旧引用，再用 添加 / 引用 重新挂当前页面精灵图。
+删除的是客户端画面列表里的引用关系，不是建模系统里的源页面精灵图；执行前仍要记录 before 证据。
+```
 
 Do not use this full publishing flow when the current goal is only:
 
@@ -59,9 +104,12 @@ Also read task-specific skills:
 - Do not use `KingStudio_V20260514`.
 - Do not use dynamic preview URLs as entry points. Use visible WOS4 navigation; generated preview URLs are evidence only.
 - Do not treat a row-level `提交版本` as proof that runtime has updated.
-- Do not treat the product-provider `时空列表 -> 批量提交` release order as a verified skill rule until it is replayed successfully after the vendor update. Keep it in docs as an unverified hypothesis.
+- Do not treat `时空列表 -> 批量提交` as success by itself. It is the current package-generation route, but every run must capture progress/details and prove the new package is consumed by 运维部署 and the fresh blue client.
 - Do not create a `管控单元实例配置` row for a frontend model that only contains page sprites/screens. Product-provider correction: page-only frontend models are bound from `数字孪生可视化`, not instantiated under the time-space instance list.
 - Do not treat a purple object as a runnable final WebJS client.
+- Do not create backend/business-event/custom-calculation objects in `时空对象管理平台`. Current backend-chain rule: business events/custom calculations are developed in 建模系统, instantiated in 组态系统, deployed/updated/started in 运维部署客户端, and only then verified/debugged from `时空对象管理平台`.
+- WebJS blue client objects are the exception: after the config client has been submitted, packaged, deployed, and started, a personal WebJS object may be created from the target main spacetime `功能 -> 创建 -> 应用模板: WebJS`. Do not create it from `$Client -> 三方APP`.
+- If a backend/runtime-bearing object is absent from `时空对象管理平台`, treat it as not online. Go back to 运维部署 or model/package version work; do not compensate by creating backend content in object management.
 - If the first time-space level is empty, stop and add/verify a real level-1 instance before deploy.
 - If a left menu item is only a parent menu, click the real child page. In the config client, `数字孪生实例配置` is a menu group; `管控单元实例配置` is a real page.
 
@@ -95,9 +143,7 @@ Acceptance:
 
 ### 2. Submit target time-space and generate the package
 
-Status: unverified after the 2026-06-24 vendor update notice.
-
-The previously recorded product-provider chain is now retained in project docs only as a hypothesis:
+The product-provider chain is the current route to replay, but it is only accepted after the concrete run proves each gate:
 
 ```text
 模型提交版本
@@ -108,7 +154,7 @@ The previously recorded product-provider chain is now retained in project docs o
 -> 前端 Call 后端
 ```
 
-Do not execute this section as a skill workflow until a fresh replay proves:
+Execute this section only as a controlled publish run. Before moving on, prove:
 
 - `时空列表 -> 更多 -> 批量提交` is the correct visible entry.
 - The time-space submit actually carries the expected configured instances.
@@ -116,11 +162,11 @@ Do not execute this section as a skill workflow until a fresh replay proves:
 - 运维部署更新/部署/启动 consumes that package.
 - Reopened blue client can call the backend.
 
-Until then, use this skill only for already verified parts of blue-client publishing and record any probe results in docs, not in skill rules.
+If any proof is missing, record the failed gate and stop. Do not fill the gap by creating backend or business-event content in `时空对象管理平台`.
 
 ### 3. Check config instance submit after time-space submit
 
-After the target time-space package is generated, `管控单元实例配置提交` may be a confirmation or fallback step, but this ordering is still unverified after the 2026-06-24 vendor update notice.
+After the target time-space package is generated, `管控单元实例配置提交` is a confirmation/fallback check. It is not a substitute for package generation.
 
 Check:
 
@@ -140,6 +186,33 @@ Instance rows show the intended versions and no required level is empty.
 ```
 
 Do not treat this step alone as runtime update evidence. The runtime package is proven by the time-space package query and later 运维部署 update/start verification.
+
+### 3.2 Page-only frontend rebind check
+
+Use this when the 建模 editor preview is correct but 组态 preview or blue client still shows an old page:
+
+Do not try to fix this with the screen row `更新` action. For referenced page sprites, it does not update the underlying referenced page version in the way the blue client needs.
+
+```text
+数字孪生可视化
+-> target client
+-> 画面列表
+-> identify the stale screen row
+-> remove/delete the screen reference
+-> 添加 / 引用 the current page sprite again
+-> set 首页 and page spacetime/config again
+-> return to client list
+-> 更新版本
+-> 提交版本
+```
+
+Acceptance:
+
+- The screen list shows the intended current page.
+- The homepage is unique and points at the intended frame/page.
+- A fresh formal preview or fresh blue client no longer shows the stale page content.
+
+Do not add the page-only frontend model to `管控单元实例配置` to solve this. That list is for runtime-bearing instances.
 
 ### 3.1 Dirty instance recovery
 
@@ -192,11 +265,57 @@ Acceptance:
 - Target spacetime and its child frontend/backend configs are `已部署 / 已启动`.
 - `strepocfgver` reflects the new package/version where available.
 
-### 5. Reopen or refresh the blue client object
+### 5. Verify the deployed object from Time Space Object Management
 
-After update/deploy/start, close stale runtime tabs and reopen the blue WebJS client through the visible desktop/object-management route. Do not validate against a stale iframe or an old public URL tab.
+After update/deploy/start, close stale runtime tabs and open `时空对象管理平台` through the visible desktop route. Do not validate against a stale iframe or an old public URL tab.
 
-If a personal blue client object already exists, validate or refresh it instead of creating duplicates. If creation is required, use `wos4-blue-client-object-create`.
+For backend work, object management is the authoritative source for whether the target time-space/business events/custom calculation App is online and debuggable.
+
+If the expected object is visible, use it for:
+
+```text
+time-space GUID / object GUID lookup
+records
+logs
+view/debug entry
+runtime verification
+```
+
+If it is not visible, stop runtime testing and return to:
+
+```text
+模型提交版本
+-> 组态实例化 / 时空提交
+-> 运维部署客户端 更新 / 部署 / 启动
+```
+
+Do not create missing backend/runtime-bearing objects from `时空对象管理平台`. For a WebJS blue client object, use only the main spacetime `功能 -> 创建` route after the client package is already visible as a WebJS template.
+
+Verified Palimpsest 0626R2 WebJS object route:
+
+```text
+时空对象管理平台
+-> 左树选中 main spacetime `PalimpsestL1_0626R2`
+-> 顶部 tab `功能`
+-> 创建
+-> 应用模板: 选择
+-> 仓库选择/确认 `盛云_孙宇飞_Palimpsest客户端_0626R2`
+-> select WebJS copy row
+   copy id: 7205759403792797202
+   copy guid: 5f2c8c4b-5ed5-4d0a-9444-a7ffaf0f67a2
+   model guid: f5f8c456-e145-4d85-b1c3-dc3a17e7b512
+   model version: 118
+-> name the object with a meaningful personal name
+-> keep personal app for first runtime verification unless public role binding is the explicit step
+-> confirm
+```
+
+Observed caveats:
+
+- `$Client -> 三方APP -> 创建` opens a container third-party app flow and can fail with `仓库不存在`; it is not the WebJS blue-client route.
+- After creation the `功能` list can show `共 1 条` and still render `暂无数据`; refresh back to the desktop and verify the new blue client card instead.
+- A duplicate-name warning for the just-entered name can mean the previous create actually succeeded but the object-management list did not render it yet.
+- In browser-harness, real double-click can fail to open WOS desktop cards even when human clicking works. For diagnosis only, dispatching DOM `click/dblclick` on the visible `.data-item.card-item` opened the app; record this as tool behavior, not a user-facing workflow.
 
 Blue client clues:
 
@@ -217,6 +336,19 @@ language type 元语言
 
 Open the blue client through visible object-management or desktop route, then inspect the inner runtime. Do not reuse stale preview tabs.
 
+Palimpsest 0626R2 verified runtime evidence:
+
+```text
+desktop card:
+  盛云_孙宇飞_Palimpsest客户端_0626R2_正式蓝端
+  icon: js_func_unit_editor_light-DMRXO09p.1780642478302.png
+runtime:
+  /public/?id=6192730962611142751&parentid=0&cloudid=1&areaid=0&username=孙宇飞&bs=true
+  -> GetFileContent/.../f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/index.html
+```
+
+In that verification the formal runtime mounted `PalimpsestMenu_18`, but only the left menu rendered. Menu clicks changed/kept active state and the right content area did not load `PalimpsestContent_82`; therefore blue-client object creation was verified, but the three-page client composition was not yet accepted.
+
 Strong same-spacetime signal:
 
 ```js
@@ -228,23 +360,38 @@ page.spaceTimeId.devName
 
 For frontend-to-backend calls:
 
-1. Read `page.spaceTimeId.guid`.
-2. Query running App objects in that same guid.
-3. Use the returned current `$id` or exact current `$name`.
-4. Call the backend with the function's exact parameter signature.
+1. Read and record the authoritative time-space/object information from `时空对象管理平台` first.
+2. Read `page.spaceTimeId.guid` from the opened runtime and compare it with the object-management value.
+3. Query running App objects in that same guid.
+4. Use the returned current `$id` or exact current `$name`.
+5. Call the backend with the function's exact parameter signature.
+
+If the page can query multiple time-spaces, validate the page's spacetime-switching path before backend acceptance:
+
+```text
+default instantiated spacetime
+-> page-level spacetime variable/helper
+-> selected target spacetime guid
+-> Query/Call uses the selected context
+-> result proves the selected target was used
+```
+
+Do not accept a page that can only work by hard-coded single spacetime if the user requirement includes cross-spacetime queries.
 
 Do not hard-code a previous runtime object ID such as `5911255985900487006` without re-querying the current spacetime. Runtime App IDs can change after package update/redeploy, and they are only valid inside their own spacetime.
 
 Acceptance:
 
 - Inner `.page_view` exists and has the expected page.
-- `page.spaceTimeId.guid` equals the target spacetime guid.
+- `page.spaceTimeId.guid` equals the target spacetime guid from `时空对象管理平台`.
 - Button or page script records `ret` and `errorcodes`.
 - Backend integration is not accepted until `Call(...)` returns `ret === 0` or an expected business return.
 
 ### 7. Verify backend App location from Time Space Platform
 
 When frontend `Call` cannot find the backend or returns `-210133`, use `时空功能开发平台 -> 时空开发` as a read-only cross-check before changing code.
+
+Do this only after `时空对象管理平台` proves the target time-space/object is online. `时空功能开发平台` can help find backend copy names and method metadata, but it is not the authority for deployed/debuggable runtime state.
 
 Verified route for the 2026-06-23 CRUD case:
 

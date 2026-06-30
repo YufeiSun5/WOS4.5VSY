@@ -1,0 +1,262 @@
+{
+  "ok": true,
+  "chosen": "DCE01AFA366BF2E835D9B08DA649FEB8",
+  "applyResult": {
+    "ok": true,
+    "path": "top.0.0.0",
+    "tableRows": 0,
+    "queryScriptLength": 16395,
+    "tableDetailLength": 1311,
+    "queryLinkEnabled": true,
+    "cellClickEnabled": true
+  },
+  "verify": {
+    "ok": true,
+    "path": "top.0.0.0",
+    "hasPreferredOrder": true,
+    "hasBadOrder": false,
+    "actionCol": {
+      "prop": "actions",
+      "label": "操作",
+      "minWidth": "240",
+      "align": "center",
+      "type": "",
+      "columnKey": "",
+      "fixed": false
+    },
+    "tableLinkNames": [
+      "Select",
+      "SelectAll",
+      "SelectionChange",
+      "CellMouseEnter",
+      "CellMouseLeave",
+      "CellClick",
+      "CellDbclick",
+      "RowClick",
+      "RowContextmenu",
+      "RowDbclick",
+      "HeaderClick",
+      "SortChange",
+      "FilterChange",
+      "CurrentChange",
+      "HeaderDragend",
+      "ExpandChange",
+      "CurrentPageChange",
+      "OnLoadSuccess",
+      "OnBeforeEdit",
+      "OnAfterEdit",
+      "PageSizeChange"
+    ]
+  },
+  "states": [
+    {
+      "tab": "A28CBAC5557E6027BE6404A7455CEDD7",
+      "title": "WellinOS4.5",
+      "url": "http://221.239.19.118:13001/#/login",
+      "dialogs": [],
+      "state": {
+        "ok": false,
+        "href": "http://221.239.19.118:13001/#/login",
+        "title": "🐴 WellinOS4.5"
+      }
+    },
+    {
+      "tab": "AF03705DFB4A3212B9E33A9614D2F753",
+      "title": "WellinOS4.5",
+      "url": "http://221.239.19.118:13001/#/main",
+      "dialogs": [],
+      "state": {
+        "ok": false,
+        "href": "http://221.239.19.118:13001/#/main",
+        "title": "🐴 WellinOS4.5"
+      }
+    },
+    {
+      "tab": "FCB1F99F0D3A8EF3D58BEFB3BD7B8A25",
+      "title": "🐴",
+      "url": "about:blank",
+      "dialogs": [],
+      "state": {
+        "ok": false,
+        "href": "about:blank",
+        "title": "🐴"
+      }
+    },
+    {
+      "tab": "B1B7B86D3350556BF5F8E6095E2469AF",
+      "title": "WellinOS4.0",
+      "url": "http://221.239.19.118:13001/public/index.html?id=6192730962611142763&parentid=0&cloudid=1&clientnumber=4611689054715413410&bs=true#/#{%22mode%22:%22debugger%22,%22FUType%22:%2221%22,%22type%22:1005,%22guid%22:%22%22,%22id%22:%22%22,%22guidVersion%22:{%22guid%22:%2260212e1d-16ab-41ef-82e2-89390b7c6511%22,%22version%22:0,%22id%22:%221441151880758560275%22},%22projectId%22:%22%22,%22isParamConfig%22:false,%22runModelName%22:%22PalimpsestContent_82%22}",
+      "dialogs": [],
+      "state": {
+        "ok": false,
+        "href": "http://221.239.19.118:13001/public/index.html?id=6192730962611142763&parentid=0&cloudid=1&clientnumber=4611689054715413410&bs=true#/#{%22mode%22:%22debugger%22,%22FUType%22:%2221%22,%22type%22:1005,%22guid%22:%22%22,%22id%22:%22%22,%22guidVersion%22:{%22guid%22:%2260212e1d-16ab-41ef-82e2-89390b7c6511%22,%22version%22:0,%22id%22:%221441151880758560275%22},%22projectId%22:%22%22,%22isParamConfig%22:false,%22runModelName%22:%22PalimpsestContent_82%22}",
+        "title": "🐴 WellinOS4.0"
+      }
+    },
+    {
+      "tab": "9FDF7BE7CB59AADF5D36CECC59B958A5",
+      "title": "WellinOS4.5",
+      "url": "http://221.239.19.118:13001/#/main",
+      "dialogs": [],
+      "state": {
+        "ok": false,
+        "href": "http://221.239.19.118:13001/#/main",
+        "title": "🐴 WellinOS4.5"
+      }
+    },
+    {
+      "tab": "ECE84460041D353FEE4909BAF51F6835",
+      "title": "WellinOS4.0",
+      "url": "http://221.239.19.118:13001/public/index.html?id=6192730962611142663&parentid=0&cloudid=1&clientnumber=4611689051900562228&bs=true#/#{%22clientGuid%22:%22d2916b64-619e-4b6a-bd0f-10df31005d52%22,%22FUType%22:11}",
+      "dialogs": [],
+      "state": {
+        "ok": false,
+        "href": "http://221.239.19.118:13001/public/index.html?id=6192730962611142663&parentid=0&cloudid=1&clientnumber=4611689051900562228&bs=true#/#{%22clientGuid%22:%22d2916b64-619e-4b6a-bd0f-10df31005d52%22,%22FUType%22:11}",
+        "title": "🐴 WellinOS4.0"
+      }
+    },
+    {
+      "tab": "37782A1FB33BD1F0A20DD7ABBAB2BA75",
+      "error": "Runtime.evaluate timed out; expression: (() => {\\n  const visible = el => {\\n    if (!el) return false;\\n    const s = getComputedStyle(el); const r = el.getBoundingClientRect();\\n    return s.disp..."
+    },
+    {
+      "tab": "E661B6F25436BA83D472E1A201F8F7A6",
+      "title": "🐴",
+      "url": "about:blank",
+      "dialogs": [],
+      "state": {
+        "ok": false,
+        "href": "about:blank",
+        "title": "🐴"
+      }
+    },
+    {
+      "tab": "8DE0E6C0D46B6BD3078367EAB7F73E8A",
+      "title": "🐴",
+      "url": "about:blank",
+      "dialogs": [],
+      "state": {
+        "ok": false,
+        "href": "about:blank",
+        "title": "🐴"
+      }
+    },
+    {
+      "tab": "C0BDE3BDCDFE2B36C8B3997AFF4AD412",
+      "title": "WellinOS4.0",
+      "url": "http://221.239.19.118:13001/public/index.html?id=6192730962611142763&parentid=0&cloudid=1&clientnumber=4611689054715413410&bs=true#/#{%22mode%22:%22debugger%22,%22FUType%22:%2221%22,%22type%22:1005,%22guid%22:%22%22,%22id%22:%22%22,%22guidVersion%22:{%22guid%22:%2260212e1d-16ab-41ef-82e2-89390b7c6511%22,%22version%22:0,%22id%22:%221441151880758560275%22},%22projectId%22:%22%22,%22isParamConfig%22:false,%22runModelName%22:%22PalimpsestContent_82%22}",
+      "dialogs": [],
+      "state": {
+        "ok": false,
+        "href": "http://221.239.19.118:13001/public/index.html?id=6192730962611142763&parentid=0&cloudid=1&clientnumber=4611689054715413410&bs=true#/#{%22mode%22:%22debugger%22,%22FUType%22:%2221%22,%22type%22:1005,%22guid%22:%22%22,%22id%22:%22%22,%22guidVersion%22:{%22guid%22:%2260212e1d-16ab-41ef-82e2-89390b7c6511%22,%22version%22:0,%22id%22:%221441151880758560275%22},%22projectId%22:%22%22,%22isParamConfig%22:false,%22runModelName%22:%22PalimpsestContent_82%22}",
+        "title": "🐴 WellinOS4.0"
+      }
+    },
+    {
+      "tab": "92B0A13544D2C390B80445280CA8657B",
+      "title": "WellinOS4.0",
+      "url": "http://221.239.19.118:13001/public/index.html?id=6192730962611142663&parentid=0&cloudid=1&clientnumber=4611689051900562228&bs=true#/#{%22clientGuid%22:%22bb532fc1-7eb3-4318-9a3b-05125fdf4a2c%22,%22FUType%22:11}",
+      "dialogs": [],
+      "state": {
+        "ok": false,
+        "href": "http://221.239.19.118:13001/public/index.html?id=6192730962611142663&parentid=0&cloudid=1&clientnumber=4611689051900562228&bs=true#/#{%22clientGuid%22:%22bb532fc1-7eb3-4318-9a3b-05125fdf4a2c%22,%22FUType%22:11}",
+        "title": "🐴 WellinOS4.0"
+      }
+    },
+    {
+      "tab": "28DEC87858AF67357A2E429072936BF3",
+      "title": "WellinOS4.0",
+      "url": "http://221.239.19.118:13001/public/index.html?id=6192730962611142758&parentid=0&cloudid=1&clientnumber=4611689054715413410&bs=true#/#{%22mode%22:%22debugger%22,%22FUType%22:%2221%22,%22type%22:1025,%22guid%22:%224a51234d-7690-4610-9de9-ac1a07016bfe%22,%22id%22:%227205759403792797201%22,%22guidVersion%22:{%22guid%22:%22%22,%22version%22:0,%22id%22:%22%22},%22projectId%22:%22%22,%22isParamConfig%22:true,%22runModelName%22:%22PalimpsestMenu_18%22}",
+      "dialogs": [],
+      "state": {
+        "ok": false,
+        "href": "http://221.239.19.118:13001/public/index.html?id=6192730962611142758&parentid=0&cloudid=1&clientnumber=4611689054715413410&bs=true#/#{%22mode%22:%22debugger%22,%22FUType%22:%2221%22,%22type%22:1025,%22guid%22:%224a51234d-7690-4610-9de9-ac1a07016bfe%22,%22id%22:%227205759403792797201%22,%22guidVersion%22:{%22guid%22:%22%22,%22version%22:0,%22id%22:%22%22},%22projectId%22:%22%22,%22isParamConfig%22:true,%22runModelName%22:%22PalimpsestMenu_18%22}",
+        "title": "🐴 WellinOS4.0"
+      }
+    },
+    {
+      "tab": "75C078C8AAEE083D1E5FC9FE3F16BF9D",
+      "title": "🐴",
+      "url": "about:blank",
+      "dialogs": [],
+      "state": {
+        "ok": false,
+        "href": "about:blank",
+        "title": "🐴"
+      }
+    },
+    {
+      "tab": "E8B7EA3C3681EA72FEC7578E4CC1C974",
+      "title": "WellinOS4.0",
+      "url": "http://221.239.19.118:13001/public/index.html?id=6192730962611142663&parentid=0&cloudid=1&clientnumber=4611689051900562228&bs=true#/#{%22clientGuid%22:%22bb532fc1-7eb3-4318-9a3b-05125fdf4a2c%22,%22FUType%22:11}",
+      "dialogs": [],
+      "state": {
+        "ok": false,
+        "href": "http://221.239.19.118:13001/public/index.html?id=6192730962611142663&parentid=0&cloudid=1&clientnumber=4611689051900562228&bs=true#/#{%22clientGuid%22:%22bb532fc1-7eb3-4318-9a3b-05125fdf4a2c%22,%22FUType%22:11}",
+        "title": "🐴 WellinOS4.0"
+      }
+    },
+    {
+      "tab": "8B9D9DC5CC81903C752B7B51C732AC0C",
+      "title": "🐴",
+      "url": "about:blank",
+      "dialogs": [],
+      "state": {
+        "ok": false,
+        "href": "about:blank",
+        "title": "🐴"
+      }
+    },
+    {
+      "tab": "8693BAB7718FEF6E663A26954D02F7CD",
+      "title": "🐴",
+      "url": "about:blank",
+      "dialogs": [],
+      "state": {
+        "ok": false,
+        "href": "about:blank",
+        "title": "🐴"
+      }
+    },
+    {
+      "tab": "807DA70FBDDB1E36F30E60DBF056DBF4",
+      "title": "WellinOS4.0",
+      "url": "http://221.239.19.118:13001/public/index.html?id=6192730962611142663&parentid=0&cloudid=1&clientnumber=4611689051900562228&bs=true#/#{%22clientGuid%22:%22bb532fc1-7eb3-4318-9a3b-05125fdf4a2c%22,%22FUType%22:11}",
+      "dialogs": [],
+      "state": {
+        "ok": false,
+        "href": "http://221.239.19.118:13001/public/index.html?id=6192730962611142663&parentid=0&cloudid=1&clientnumber=4611689051900562228&bs=true#/#{%22clientGuid%22:%22bb532fc1-7eb3-4318-9a3b-05125fdf4a2c%22,%22FUType%22:11}",
+        "title": "🐴 WellinOS4.0"
+      }
+    },
+    {
+      "tab": "DCE01AFA366BF2E835D9B08DA649FEB8",
+      "title": "🐴 WellinOS4.5",
+      "url": "http://221.239.19.118:13001/#/main",
+      "dialogs": [],
+      "state": {
+        "ok": true,
+        "path": "top.0.0.0",
+        "href": "http://221.239.19.118:13001/api/v1/GetFileContent/1/0/0/94054fd1-9b20-463a-8372-b69776349847_120/index.html",
+        "keys": [
+          "pal_filter_status",
+          "pal_filter_dept",
+          "pal_filter_mentor",
+          "pal_filter_batch",
+          "pal_filter_date",
+          "pal_filter_keyword",
+          "pal_query_button",
+          "pal_reset_button",
+          "pal_export_button",
+          "pal_metric_total",
+          "pal_metric_wait",
+          "pal_metric_done",
+          "pal_metric_avg",
+          "pal_assessment_table",
+          "pal_department_score_bar",
+          "pal_completion_trend_line"
+        ]
+      }
+    }
+  ]
+}

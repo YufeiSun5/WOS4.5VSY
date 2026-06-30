@@ -79,6 +79,20 @@
   - `PalimpsestMenu_18` 修正第二行列高度后重开，仍为 `346x1080`，两行高度保持 `72/1008`。
 - 2026-06-23 晚间修复 `PalimpsestContent_82` 顶部筛选区：第一行为 `状态 / 部门 / 导师 / 批次 / 时间`，第二行的 `关键词` 输入框已移动到查询按钮左侧；最终预览验证六个输入框均存在 `prepend` 前置文字，按钮仍在右侧同一行。
 - 后端设计稿已补充为 8 张表和分层方法职责：菜单、部门、导师、实习生、批次、考核记录、评分明细、操作日志；CRUD 与评分弹窗方法均有统一异常处理边界。
+- 2026-06-27 已将 `PalimpsestMenu_18` 从早期 `72/1008` 上下切分框架改为左侧全高菜单 + 右侧整块宿主：
+  - 旧顶部行 `RRow1/RCol11` 已隐藏，高度为 `0`。
+  - 主行 `RRow2=1080`，`RCol6/RCol12=1078`。
+  - `RCol12.object=[]`，作为右侧整块页面宿主。
+  - 左侧菜单已提交历史版本并重载验证，`detailConfig` 仍绑定 `RCol12.setPage(...)`。
+- 2026-06-27 已将 `PalimpsestMenu_18` 菜单改为数据驱动：
+  - 页面变量 `palMenuConfigJson` 保存菜单配置和目标页。
+  - 页面打开时脚本 `linkId=0` 读取变量并赋值 `PageView.__palMenuConfig`，再触发菜单渲染。
+  - 菜单组件脚本只读取页面变量并绑定点击，组件 `detailConfig` 不再写死 `PalimpsestContent_82` 或 `PalimpsestExpandTable_82_Demo`。
+- 2026-06-27 后端真实 CRUD 当前阻塞点已收敛为运行态缺表：
+  - `时空对象管理平台 -> PalimpsestL1_0626R2 -> 计划 / 业务事` 当前只有 5 张表：`pal_assessment_batch / pal_department / pal_intern_student / pal_mentor / pal_menu_node`。
+  - 缺少真实 CRUD 目标表 `pal_assessment_record`，以及 `pal_assessment_score_detail / pal_operation_log`。
+  - `QueryAssessmentRecords` 断点已进入后端函数，真实 Query 返回 `QUERY_FAILED`，`queryRet={"MLVariant":-210134}`。
+  - 后续应先补齐实例化/部署，让 8 张业务事都出现在时空对象管理平台，再做新增、查询、更新、删除闭环。
 
 ## 证据目录
 

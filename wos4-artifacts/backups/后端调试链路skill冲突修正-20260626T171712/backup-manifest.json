@@ -1,0 +1,26 @@
+{
+  "task": "后端调试链路skill冲突修正",
+  "createdAt": "2026-06-26T17:17:12+08:00",
+  "operator": "孙宇飞_review-ai",
+  "reason": "修正与当前后端链路规范冲突的 WOS4 skill：业务事和自定义计算在模型中开发，组态中实例化，运维部署后在时空对象管理平台获取时空信息并调试；时空对象管理平台不作为新建入口。",
+  "beforeFiles": [
+    "AGENTS.md",
+    "MEMORY.md",
+    ".ai/skills/wos4-blue-client-object-create/SKILL.md",
+    ".ai/skills/wos4-blue-client-object-create/README.md",
+    ".ai/skills/wos4-blue-client-object-create/agents/openai.yaml",
+    ".ai/skills/wos4-object-create-verify/SKILL.md",
+    ".ai/skills/wos4-object-create-verify/README.md",
+    ".ai/skills/wos4-blue-client-publish-flow/SKILL.md",
+    ".ai/skills/wos4-instantiated-spacetime-refind/SKILL.md",
+    ".ai/skills/wos4-instantiated-spacetime-refind/agents/openai.yaml",
+    ".ai/skills/wos4-repository-package-deploy-start/SKILL.md",
+    ".ai/skills/wos4-runtime-package-update/SKILL.md",
+    ".ai/skills/wos4-button-variable-flow/SKILL.md",
+    ".ai/docs/wos4-version-tree.md",
+    ".ai/docs/wos4-current-clients-manual-plan.md",
+    ".ai/docs/wos4-gpt5-implementation-runbook.md",
+    ".ai/skills/README.md",
+    ".ai/skills/wos4-blue-client-object-create/agents/README.md"
+  ]
+}

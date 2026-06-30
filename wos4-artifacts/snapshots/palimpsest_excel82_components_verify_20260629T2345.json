@@ -1,0 +1,316 @@
+{
+  "ok": true,
+  "out": [
+    {
+      "col": "RCol11",
+      "colName": "CellAddressInputCol",
+      "rect": {
+        "x": 337,
+        "y": 205,
+        "w": 131,
+        "h": 136
+      },
+      "object": {
+        "UIName": "excel_cell_address_input",
+        "prototypeName": "ElementInput",
+        "value": "B1",
+        "type": "text",
+        "rows": 2,
+        "placeholder": "单元格地址，如 B1",
+        "detailConfig": "",
+        "linkList": [
+          {
+            "linkId": 200001,
+            "enable": false,
+            "scriptLen": ""
+          },
+          {
+            "linkId": 200002,
+            "enable": false,
+            "scriptLen": ""
+          },
+          {
+            "linkId": 200003,
+            "enable": false,
+            "scriptLen": ""
+          },
+          {
+            "linkId": 200004,
+            "enable": false,
+            "scriptLen": ""
+          },
+          {
+            "linkId": 200005,
+            "enable": false,
+            "scriptLen": ""
+          },
+          {
+            "linkId": 200006,
+            "enable": false,
+            "scriptLen": ""
+          }
+        ]
+      },
+      "domText": ""
+    },
+    {
+      "col": "RCol12",
+      "colName": "CellValueInputCol",
+      "rect": {
+        "x": 473,
+        "y": 205,
+        "w": 181,
+        "h": 136
+      },
+      "object": {
+        "UIName": "excel_cell_value_input",
+        "prototypeName": "ElementInput",
+        "value": "WOS4 Excel probe",
+        "type": "text",
+        "rows": 2,
+        "placeholder": "写入值",
+        "detailConfig": "",
+        "linkList": [
+          {
+            "linkId": 200001,
+            "enable": false,
+            "scriptLen": ""
+          },
+          {
+            "linkId": 200002,
+            "enable": false,
+            "scriptLen": ""
+          },
+          {
+            "linkId": 200003,
+            "enable": false,
+            "scriptLen": ""
+          },
+          {
+            "linkId": 200004,
+            "enable": false,
+            "scriptLen": ""
+          },
+          {
+            "linkId": 200005,
+            "enable": false,
+            "scriptLen": ""
+          },
+          {
+            "linkId": 200006,
+            "enable": false,
+            "scriptLen": ""
+          }
+        ]
+      },
+      "domText": ""
+    },
+    {
+      "col": "RCol13",
+      "colName": "ReadCellButtonCol",
+      "rect": {
+        "x": 660,
+        "y": 205,
+        "w": 88,
+        "h": 136
+      },
+      "object": {
+        "UIName": "excel_read_button",
+        "prototypeName": "ElementButton",
+        "text": "读取单元格",
+        "detailConfig": "this.button({ text: \"读取单元格\" })",
+        "linkList": [
+          {
+            "linkId": 200001,
+            "enable": true,
+            "scriptLen": 1870
+          }
+        ]
+      },
+      "domText": "读取单元格"
+    },
+    {
+      "col": "RCol14",
+      "colName": "WriteCellButtonCol",
+      "rect": {
+        "x": 752,
+        "y": 205,
+        "w": 88,
+        "h": 136
+      },
+      "object": {
+        "UIName": "excel_write_button",
+        "prototypeName": "ElementButton",
+        "text": "写入值",
+        "detailConfig": "this.button({ text: \"写入值\" })",
+        "linkList": [
+          {
+            "linkId": 200001,
+            "enable": true,
+            "scriptLen": 1843
+          }
+        ]
+      },
+      "domText": "写入值"
+    },
+    {
+      "col": "RCol9",
+      "colName": "StyleCellButtonCol",
+      "rect": {
+        "x": 845,
+        "y": 205,
+        "w": 88,
+        "h": 136
+      },
+      "object": {
+        "UIName": "excel_style_button",
+        "prototypeName": "ElementButton",
+        "text": "套用样式",
+        "detailConfig": "this.button({ text: \"套用样式\" })",
+        "linkList": [
+          {
+            "linkId": 200001,
+            "enable": true,
+            "scriptLen": 2022
+          }
+        ]
+      },
+      "domText": "套用样式"
+    },
+    {
+      "col": "RCol2",
+      "colName": "ExportPrintProbeCol",
+      "rect": {
+        "x": 938,
+        "y": 205,
+        "w": 138,
+        "h": 136
+      },
+      "object": {
+        "UIName": "excel_export_probe_button",
+        "prototypeName": "ElementButton",
+        "text": "导出/打印探针",
+        "detailConfig": "this.button({ text: \"导出/打印探针\" })",
+        "linkList": [
+          {
+            "linkId": 200001,
+            "enable": true,
+            "scriptLen": 2777
+          }
+        ]
+      },
+      "domText": "导出/打印探针"
+    },
+    {
+      "col": "RCol8",
+      "colName": "ExperimentResultCol",
+      "rect": {
+        "x": 1080,
+        "y": 205,
+        "w": 257,
+        "h": 136
+      },
+      "object": {
+        "UIName": "excel_result_log",
+        "prototypeName": "ElementInput",
+        "value": "结果区：点击按钮后显示 JSON",
+        "type": "textarea",
+        "rows": 5,
+        "placeholder": "结果日志",
+        "detailConfig": "",
+        "linkList": [
+          {
+            "linkId": 200001,
+            "enable": false,
+            "scriptLen": ""
+          },
+          {
+            "linkId": 200002,
+            "enable": false,
+            "scriptLen": ""
+          },
+          {
+            "linkId": 200003,
+            "enable": false,
+            "scriptLen": ""
+          },
+          {
+            "linkId": 200004,
+            "enable": false,
+            "scriptLen": ""
+          },
+          {
+            "linkId": 200005,
+            "enable": false,
+            "scriptLen": ""
+          },
+          {
+            "linkId": 200006,
+            "enable": false,
+            "scriptLen": ""
+          }
+        ]
+      },
+      "domText": ""
+    },
+    {
+      "col": "RCol3",
+      "colName": "CapabilityNotesCol",
+      "rect": {
+        "x": 1342,
+        "y": 205,
+        "w": 156,
+        "h": 136
+      },
+      "object": {
+        "UIName": "excel_capability_notes",
+        "prototypeName": "ElementInput",
+        "value": "已识别：Univer range API + WOS KSCReportFu.GetData/SetData/Print/Export\nB1 读写和样式通过 range 验证。\nPDF/Print 支持 header/tail/isPaging/isPag",
+        "type": "textarea",
+        "rows": 5,
+        "placeholder": "能力说明",
+        "detailConfig": "",
+        "linkList": [
+          {
+            "linkId": 200001,
+            "enable": false,
+            "scriptLen": ""
+          },
+          {
+            "linkId": 200002,
+            "enable": false,
+            "scriptLen": ""
+          },
+          {
+            "linkId": 200003,
+            "enable": false,
+            "scriptLen": ""
+          },
+          {
+            "linkId": 200004,
+            "enable": false,
+            "scriptLen": ""
+          },
+          {
+            "linkId": 200005,
+            "enable": false,
+            "scriptLen": ""
+          },
+          {
+            "linkId": 200006,
+            "enable": false,
+            "scriptLen": ""
+          }
+        ]
+      },
+      "domText": ""
+    }
+  ],
+  "pageText": "读取单元格\n写入值\n套用样式\n导出/打印探针\nSheet1\n100%",
+  "sheetRect": {
+    "x": 328,
+    "y": 349,
+    "w": 1198,
+    "h": 526
+  }
+}

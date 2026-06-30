@@ -1,0 +1,41 @@
+{
+  "steps": [
+    {
+      "enter": {
+        "ok": true,
+        "path": "top.0.0",
+        "clicked": "进入工程",
+        "row": "盛云_孙宇飞_Palimpsest工程_0626\n\t\nPalimpsest 0626 after reset\n\t\n2026-06-26 08:58:27\n\t\n2026-06-26 08:58:27\n\t\n进入工程编辑删除"
+      }
+    },
+    {
+      "menu": {
+        "ok": true,
+        "path": "top.0.0",
+        "clicked": "管控单元实例配置"
+      }
+    }
+  ],
+  "probe": [
+    {
+      "path": "top",
+      "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\n生成器\n建模系统客户端1\n组态系统客户端1\n运维部署客户端1\n工厂管理员客户端_对象1\n盛云_孙宇飞_Palimpsest客户端_0626R2_对象1",
+      "rows": [],
+      "buttons": []
+    },
+    {
+      "path": "top.0",
+      "text": "",
+      "rows": [],
+      "buttons": []
+    },
+    {
+      "path": "top.0.0",
+      "text": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0626\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理",
+      "rows": [],
+      "buttons": [
+        "< 返回工程管理"
+      ]
+    }
+  ]
+}

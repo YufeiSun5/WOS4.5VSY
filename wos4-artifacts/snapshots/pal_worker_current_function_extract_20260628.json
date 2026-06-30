@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "frame": "top.0.0.0",
+  "url": "http://221.239.19.118:13001/worker-space/index.html?guid=aa5d8314-87b7-453c-96e6-21e4327a8778&version=0&areaid=0&parentid=0&cloudid=1&type=1005",
+  "body": "变量暂无数据监视 111 堆栈断点新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecordUpdateAssessmentRecordDeleteAssessmentRecordSubmitAssessmentScorePalimpsestHandleError当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC提交调试配置declareonCreateQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecord名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:编译信息 *PalimpsestCrudService*: FATAL: 0;ERROR: 3;WARNING: 0;ERRORerrorCode:604013721错误行:11;错误列:61错误信息:QueryAssessmentPage - the function parameter type is mismatched.errorCode:604013721错误行:12;错误列:61错误信息:QueryAssessmentData - the function parameter type is mismatched.errorCode:604013721错误行:17;错误列:63错误信息:QueryAssessmentSmoke - the function parameter type is mismatched. *QueryAssessmentData*: FATAL: 0;ERROR: 4;WARNING: 0;ERRORerrorCode:604013821错误行:1;错误列:39错误信息:filterJson - can not find the identifier.errorCode:604013672错误行:2;错误列:15错误信息:strmapPara - variable has been defined !errorCode:604013821错误行:8;错误列:24错误信息:filterJson - can not",
+  "monaco": [],
+  "vues": []
+}

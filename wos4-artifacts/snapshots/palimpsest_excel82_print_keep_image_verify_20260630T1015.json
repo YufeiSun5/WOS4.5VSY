@@ -1,0 +1,41 @@
+{
+  "page": "PalimpsestExcel_82",
+  "ai": "向学智_frontend-ai",
+  "time": "2026-06-30T10:15:31+08:00",
+  "purpose": "修复 fallback 打印路径只打印文字、导致插入图片在打印/PDF 时消失的问题。",
+  "nativePriority": {
+    "printButtonStillCallsNative": true,
+    "nativeCall": "rv.Print(0, {}, options)",
+    "fallbackOnlyWhenNativeNoPrintEvent": true
+  },
+  "imagePersistence": {
+    "imageButtonStoresGlobalDataUrl": true,
+    "globalName": "__wos4ExcelPrintImageUrl",
+    "dataUrlPrefix": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2"
+  },
+  "fallbackHtml": {
+    "containsImgTags": true,
+    "titleImg": true,
+    "cellImg": true,
+    "bodyImg": true,
+    "repeatHeaderFooter": true,
+    "css": "thead/tfoot remain table-header-group/table-footer-group; image appears in title/header/body cells"
+  },
+  "previewVerify": {
+    "bodyContains": "Read / Write / Style / 160 Rows / Image / Print",
+    "printScript": {
+      "hasNativePrint": true,
+      "hasFallback": true,
+      "hasImgTags": true,
+      "storesImageUrl": true,
+      "hasTitleImg": true,
+      "hasCellImg": true,
+      "hasBodyImg": true
+    },
+    "imageButtonResult": {
+      "J1": "10:15:31 IMAGE inserted: green report card in H2 + floating image near G5",
+      "J2": "image will also be embedded in fallback print HTML"
+    }
+  },
+  "note": "本轮没有再次点击 Print，避免系统打印弹窗阻塞 browser-harness；验证重点为脚本持久化、图片 dataURL 存储和 fallback HTML 中图片标签存在。"
+}

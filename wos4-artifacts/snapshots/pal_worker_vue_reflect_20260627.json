@@ -1,0 +1,196 @@
+{
+  "ok": true,
+  "path": "top.1.0.0",
+  "href": "http://221.239.19.118:13001/worker-space/index.html?guid=aa5d8314-87b7-453c-96e6-21e4327a8778&version=0&areaid=0&parentid=0&cloudid=1&type=1005",
+  "windowInteresting": [
+    "Function",
+    "XMLHttpRequestUpload",
+    "XMLHttpRequestEventTarget",
+    "XMLHttpRequest",
+    "TrustedScriptURL",
+    "TrustedScript",
+    "ScriptProcessorNode",
+    "SVGScriptElement",
+    "SVGFEFuncRElement",
+    "SVGFEFuncGElement",
+    "SVGFEFuncBElement",
+    "SVGFEFuncAElement",
+    "SVGComponentTransferFunctionElement",
+    "Request",
+    "ReadableStreamBYOBRequest",
+    "RTCSessionDescription"
+  ],
+  "appDump": {
+    "__kind": "[object Object]",
+    "__keys": [
+      "_uid",
+      "_component",
+      "_props",
+      "_container",
+      "_context",
+      "_instance",
+      "version",
+      "config",
+      "use",
+      "mixin",
+      "component",
+      "directive",
+      "mount",
+      "onUnmount",
+      "unmount",
+      "provide",
+      "runWithContext",
+      "__VUE_I18N_SYMBOL__"
+    ],
+    "_uid": 0,
+    "_component": {
+      "__kind": "[object Object]",
+      "__keys": [
+        "__name",
+        "setup",
+        "template"
+      ],
+      "__name": "App",
+      "setup": "[Function setup]",
+      "template": ""
+    },
+    "_props": null,
+    "_container": {
+      "__kind": "[object HTMLDivElement]",
+      "__keys": [
+        "_vnode",
+        "__vue_app__"
+      ],
+      "_vnode": "[Object __v_isVNode,__v_skip,type,props,key,ref,scopeId,slotScopeIds,children,component,suspense,ssContent,ssFallback,dirs,transition,el,anchor,target,targetStart,targetAnchor]",
+      "__vue_app__": "[Circular]"
+    },
+    "_context": {
+      "__kind": "[object Object]",
+      "__keys": [
+        "app",
+        "config",
+        "mixins",
+        "components",
+        "directives",
+        "provides",
+        "optionsCache",
+        "propsCache",
+        "emitsCache"
+      ],
+      "app": "[Circular]",
+      "config": "[Object isNativeTag,performance,globalProperties,optionMergeStrategies,errorHandler,warnHandler,compilerOptions]",
+      "mixins": "[Array 0]",
+      "components": "[Object i18n-t,I18nT,i18n-n,I18nN,i18n-d,I18nD]",
+      "directives": "[Object t,focus,title,resizable,clickOutside]",
+      "provides": "[Object Symbol(),Symbol()]",
+      "optionsCache": "[Object ]",
+      "propsCache": "[Object ]",
+      "emitsCache": "[Object ]"
+    },
+    "_instance": null,
+    "version": "3.5.25",
+    "config": {
+      "__kind": "[object Object]",
+      "__keys": [
+        "isNativeTag",
+        "performance",
+        "globalProperties",
+        "optionMergeStrategies",
+        "errorHandler",
+        "warnHandler",
+        "compilerOptions"
+      ],
+      "isNativeTag": "[Function nh]",
+      "performance": false,
+      "globalProperties": "[Object $pinia,$i18n,$t,$rt,$d,$n,$tm,$te]",
+      "optionMergeStrategies": "[Object ]",
+      "compilerOptions": "[Object ]"
+    },
+    "use": {
+      "__kind": "[object Function]",
+      "__keys": [
+        "length",
+        "name"
+      ],
+      "length": 1,
+      "name": "use"
+    },
+    "mixin": {
+      "__kind": "[object Function]",
+      "__keys": [
+        "length",
+        "name"
+      ],
+      "length": 1,
+      "name": "mixin"
+    },
+    "component": {
+      "__kind": "[object Function]",
+      "__keys": [
+        "length",
+        "name"
+      ],
+      "length": 2,
+      "name": "component"
+    },
+    "directive": {
+      "__kind": "[object Function]",
+      "__keys": [
+        "length",
+        "name"
+      ],
+      "length": 2,
+      "name": "directive"
+    },
+    "mount": {
+      "__kind": "[object Function]",
+      "__keys": [
+        "length",
+        "name"
+      ],
+      "length": 1,
+      "name": ""
+    },
+    "onUnmount": {
+      "__kind": "[object Function]",
+      "__keys": [
+        "length",
+        "name"
+      ],
+      "length": 1,
+      "name": "onUnmount"
+    },
+    "unmount": {
+      "__kind": "[object Function]",
+      "__keys": [
+        "length",
+        "name"
+      ],
+      "length": 0,
+      "name": ""
+    },
+    "provide": {
+      "__kind": "[object Function]",
+      "__keys": [
+        "length",
+        "name"
+      ],
+      "length": 2,
+      "name": "provide"
+    },
+    "runWithContext": {
+      "__kind": "[object Function]",
+      "__keys": [
+        "length",
+        "name"
+      ],
+      "length": 1,
+      "name": "runWithContext"
+    },
+    "__VUE_I18N_SYMBOL__": "[Object ERR:Reflect.ownKeys called on non-object]"
+  },
+  "instDump": null,
+  "proxyDump": null,
+  "ctxDump": null,
+  "stores": []
+}

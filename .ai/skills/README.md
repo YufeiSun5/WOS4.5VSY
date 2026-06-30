@@ -12,6 +12,7 @@
 - `wos4-component-catalog`
 - `wos4-style-config`
 - `wos4-page-runtime-backup`
+- `wos4-page-variable-edit`
 - `wos4-button-variable-flow`
 - `wos4-interaction-flow-skill`
 - `wos4-demo-page-fullstack-skill`
@@ -21,11 +22,13 @@
 - `wos4-repository-package-deploy-start`
 - `wos4-runtime-package-update`
 - `wos4-blue-client-publish-flow`
-- `wos4-object-create-verify`
-- `wos4-blue-client-object-create`
+- `wos4-object-create-verify`（当前只用于已上线对象验证；对象管理创建段落为历史记录）
+- `wos4-blue-client-object-create`（当前只用于蓝色客户端历史证据和已上线运行验证；对象管理创建段落为历史记录）
 - `wos4-config-client-screen-create`
 - `wos4-component-catalog`
 - `wos4-modeling-reference-inspection`
+- `wos4-instantiated-spacetime-refind`
+- `wos4-object-registry`
 - `wechat-send-file-transfer`
 
 ## 使用规则
@@ -36,6 +39,8 @@
 - 新增或修订 skill 时，只更新 `.ai/skills/`。
 - 任何 skill 不得写入明文密码、Cookie、Token。
 - WOS4 密码从 `WOS4_PASS` 或不进 Git 的 `wos4-artifacts/config/wos4.local.ini` 读取。
+- 当前后端链路中，业务事和自定义计算在建模系统开发，组态系统实例化，运维部署客户端部署/更新/启动，`时空对象管理平台`只用于已上线对象的时空信息获取、日志、视图和调试；不得在对象管理平台中新建内容来补部署缺口。
+- 涉及 WOS4 模型、业务事/物、运行对象、方法、字段结构和各类 GUID/ID 台账时，先用 `wos4-object-registry`，分别维护建模台账、运行对象台账和方法台账，避免把全量业务数据写进长期索引。
 
 ## 后续整理
 

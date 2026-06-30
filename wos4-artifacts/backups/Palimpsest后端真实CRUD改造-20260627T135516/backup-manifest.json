@@ -1,0 +1,29 @@
+{
+  "task": "Palimpsest后端真实CRUD改造",
+  "created": "2026-06-27T13:55:16",
+  "operator": "孙宇飞_code-ai",
+  "target": "PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC",
+  "modelId": "1441151880758560281",
+  "modelGuid": "aa5d8314-87b7-453c-96e6-21e4327a8778",
+  "note": "before/after backup for direct /api/v1/Update function-script patch and skill documentation update",
+  "modelSubmitNote": "pal-20260627-real-crud-api",
+  "verified": {
+    "saveApi": "ret=0 / errorcodes=[0] for four CRUD function updates",
+    "debugStart": "编译成功 14:02:09, no FATAL observed",
+    "submit": "worker text captured 提交成功"
+  },
+  "afterFiles": [
+    "after/real_crud_update_result.json",
+    "after/real_crud_update_fix_return_result.json",
+    "after/real_crud_debug_after_fix_return.json",
+    "after/real_crud_debug_after_fix_return.png",
+    "after/real_crud_submit_confirm_result.json",
+    "after/real_crud_submit_confirm_result.png",
+    "after/wos4-meta-language-fu-create.SKILL.md",
+    "after/wos4-meta-language-debugger.SKILL.md",
+    "after/wos4-demo-page-fullstack-skill.SKILL.md",
+    "after/WOS4_deep_test_notes.md",
+    "after/MEMORY.md"
+  ],
+  "boundary": "Model-layer functions were saved, compiled, and submitted. Runtime package update/deploy/start and blue-client CRUD calls are not verified in this backup."
+}

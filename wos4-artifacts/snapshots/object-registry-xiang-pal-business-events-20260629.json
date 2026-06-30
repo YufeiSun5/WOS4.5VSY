@@ -1,0 +1,84 @@
+{
+  "status": "verified_partial",
+  "verified_at": "2026-06-29T10:53:23",
+  "operator_account": "xiang_xuezhi",
+  "operator_display_name": "向学智",
+  "tool": "browser-harness",
+  "session": "slot2",
+  "source": "时空对象管理平台",
+  "selected_spacetime": "PalimpsestL1_0626R2",
+  "top_level_dialogs": [],
+  "evidence_screenshot": "wos4-artifacts/screenshots/object-registry-xiang-pal-business-events-20260629.png",
+  "plan_business_events": {
+    "total": 5,
+    "visible_rows": [
+      {
+        "name": "pal_assessment_batch",
+        "display_name": "PalimpsestBack_0626R2@pal_assessment_batch",
+        "id": "1729382256910290475",
+        "guid": "89b0424b-2227-41c4-8340-fcbc6aa75a39",
+        "description": "assessment batch data",
+        "model_copy_guid": "7b34d6ee-99ec-4fc3-8d0b-5ffda0c16094",
+        "model_version": "7"
+      },
+      {
+        "name": "pal_department",
+        "display_name": "PalimpsestBack_0626R2@pal_department",
+        "id": "1729382256910290476",
+        "guid": "43897b4c-41b3-4309-a47f-5b5d04c43ec9",
+        "description": "department dictionary",
+        "model_copy_guid": "72ba12a2-d857-4c1a-90ca-31da4b14d82b",
+        "model_version": "7"
+      },
+      {
+        "name": "pal_intern_student",
+        "display_name": "PalimpsestBack_0626R2@pal_intern_student",
+        "id": "1729382256910290477",
+        "guid": "66430640-2f98-49d6-8a4f-f045c2b2bc4a",
+        "description": "intern student master data",
+        "model_copy_guid": "01348eb5-a84f-4c2b-9d95-37d59dd867e5",
+        "model_version": "7"
+      }
+    ],
+    "not_visible_due_to_virtual_table": [
+      "pal_mentor",
+      "pal_menu_node"
+    ]
+  },
+  "history_business_events": {
+    "total": 3,
+    "visible_rows": [
+      {
+        "name": "pal_assessment_record",
+        "display_name": "PalimpsestBack_0626R2@pal_assessment_record",
+        "id": "1729382256910270465",
+        "guid": "9981dbc2-e49e-496c-b509-7abdf0891be8",
+        "description": "assessment record main table",
+        "model_copy_guid": "9bd9fc44-6b78-4088-9e56-0e2512ed5b9c",
+        "model_version": "7"
+      },
+      {
+        "name": "pal_assessment_score_detail",
+        "display_name": "PalimpsestBack_0626R2@pal_assessment_score_detail",
+        "id": "1729382256910270466",
+        "guid": "01425c7f-f3a7-406b-9404-9444375cce9c",
+        "description": "assessment score detail table",
+        "model_copy_guid": "74ac4a7d-fe50-4a37-956d-d822ea7e4838",
+        "model_version": "7"
+      },
+      {
+        "name": "pal_operation_log",
+        "display_name": "PalimpsestBack_0626R2@pal_operation_log",
+        "id": "1729382256910270467",
+        "guid": "da998b80-48a8-4bde-a497-5721169d9636",
+        "description": "operation audit log",
+        "model_copy_guid": "85c84c17-42ee-4e3a-b9e6-c8d6727515f0",
+        "model_version": "7"
+      }
+    ]
+  },
+  "notes": [
+    "计划业务事查询返回共 5 条，但当前虚拟表格只渲染前三条；pal_mentor 和 pal_menu_node 的 ID/GUID 仍来自历史记录，model_copy_guid 未补猜。",
+    "对象 ID 查询框未立即过滤当前虚拟表格，因此未作为 pal_mentor/pal_menu_node 的 live 证据使用。"
+  ]
+}

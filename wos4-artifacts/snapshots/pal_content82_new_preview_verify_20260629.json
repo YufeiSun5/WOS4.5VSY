@@ -1,0 +1,265 @@
+{
+  "initial": {
+    "ok": true,
+    "path": "top.0",
+    "href": "http://221.239.19.118:13001/api/v1/GetFileContent/1/0/0/94054fd1-9b20-463a-8372-b69776349847_120/index.html",
+    "rows": null,
+    "queryType": "undefined",
+    "refreshType": "undefined",
+    "handleType": "undefined",
+    "lastQuery": null,
+    "lastAction": null,
+    "lastError": null,
+    "text": "状态\n\t\n部门\n\t\n导师\n\t\n批次\n\t\n时间\n\t\n关键词\n\t\n查询真实数据\n重置\n导出\n\n记录ID\t学号\t批次\t导师\t专业能力\t工作态度\t任务完成\t综合评分\t状态\t更新时间\t操作\n请先查询真实数据\n共 0 条\n1\n前往页",
+    "buttons": [
+      {
+        "text": "查询真实数据",
+        "tag": "DIV",
+        "cls": "",
+        "x": 1008,
+        "y": 72,
+        "w": 145,
+        "h": 58
+      },
+      {
+        "text": "查询真实数据",
+        "tag": "DIV",
+        "cls": "component_object_unselect",
+        "x": 1008,
+        "y": 72,
+        "w": 145,
+        "h": 58
+      },
+      {
+        "text": "查询真实数据",
+        "tag": "DIV",
+        "cls": "ui_factory",
+        "x": 1008,
+        "y": 72,
+        "w": 145,
+        "h": 58
+      },
+      {
+        "text": "查询真实数据",
+        "tag": "DIV",
+        "cls": "pointer_auto",
+        "x": 1008,
+        "y": 72,
+        "w": 145,
+        "h": 58
+      },
+      {
+        "text": "查询真实数据",
+        "tag": "DIV",
+        "cls": "component_object pal_query_button",
+        "x": 1008,
+        "y": 72,
+        "w": 145,
+        "h": 46
+      },
+      {
+        "text": "查询真实数据",
+        "tag": "BUTTON",
+        "cls": "el-button el-button--primary el-button--medium propertyStyle",
+        "x": 1016,
+        "y": 77,
+        "w": 112,
+        "h": 38
+      },
+      {
+        "text": "查询真实数据",
+        "tag": "SPAN",
+        "cls": "",
+        "x": 1030,
+        "y": 87,
+        "w": 84,
+        "h": 18
+      }
+    ],
+    "cells": [],
+    "dialogs": []
+  },
+  "clickQuery": {
+    "ok": true,
+    "rect": {
+      "x": 1008,
+      "y": 72,
+      "w": 145,
+      "h": 58
+    },
+    "tag": "DIV",
+    "cls": ""
+  },
+  "after": {
+    "ok": true,
+    "path": "top.0",
+    "href": "http://221.239.19.118:13001/api/v1/GetFileContent/1/0/0/94054fd1-9b20-463a-8372-b69776349847_120/index.html",
+    "rows": null,
+    "queryType": "undefined",
+    "refreshType": "undefined",
+    "handleType": "undefined",
+    "lastQuery": null,
+    "lastAction": null,
+    "lastError": null,
+    "text": "状态\n\t\n部门\n\t\n导师\n\t\n批次\n\t\n时间\n\t\n关键词\n\t\n查询真实数据\n重置\n导出\n\n记录ID\t学号\t批次\t导师\t专业能力\t工作态度\t任务完成\t综合评分\t状态\t更新时间\t操作\n请先查询真实数据\n共 0 条\n1\n前往页",
+    "buttons": [
+      {
+        "text": "查询真实数据",
+        "tag": "DIV",
+        "cls": "",
+        "x": 1008,
+        "y": 72,
+        "w": 145,
+        "h": 58
+      },
+      {
+        "text": "查询真实数据",
+        "tag": "DIV",
+        "cls": "component_object_unselect",
+        "x": 1008,
+        "y": 72,
+        "w": 145,
+        "h": 58
+      },
+      {
+        "text": "查询真实数据",
+        "tag": "DIV",
+        "cls": "ui_factory",
+        "x": 1008,
+        "y": 72,
+        "w": 145,
+        "h": 58
+      },
+      {
+        "text": "查询真实数据",
+        "tag": "DIV",
+        "cls": "pointer_auto",
+        "x": 1008,
+        "y": 72,
+        "w": 145,
+        "h": 58
+      },
+      {
+        "text": "查询真实数据",
+        "tag": "DIV",
+        "cls": "component_object pal_query_button",
+        "x": 1008,
+        "y": 72,
+        "w": 145,
+        "h": 46
+      },
+      {
+        "text": "查询真实数据",
+        "tag": "BUTTON",
+        "cls": "el-button el-button--primary el-button--medium propertyStyle",
+        "x": 1016,
+        "y": 77,
+        "w": 112,
+        "h": 38
+      },
+      {
+        "text": "查询真实数据",
+        "tag": "SPAN",
+        "cls": "",
+        "x": 1030,
+        "y": 87,
+        "w": 84,
+        "h": 18
+      }
+    ],
+    "cells": [],
+    "dialogs": []
+  },
+  "menu": {
+    "ok": false,
+    "reason": "handler missing"
+  },
+  "edit": {
+    "ok": false,
+    "reason": "menu missing"
+  },
+  "submit": {
+    "ok": false,
+    "reason": "dialog missing"
+  },
+  "final": {
+    "ok": true,
+    "path": "top.0",
+    "href": "http://221.239.19.118:13001/api/v1/GetFileContent/1/0/0/94054fd1-9b20-463a-8372-b69776349847_120/index.html",
+    "rows": null,
+    "queryType": "undefined",
+    "refreshType": "undefined",
+    "handleType": "undefined",
+    "lastQuery": null,
+    "lastAction": null,
+    "lastError": null,
+    "text": "状态\n\t\n部门\n\t\n导师\n\t\n批次\n\t\n时间\n\t\n关键词\n\t\n查询真实数据\n重置\n导出\n\n记录ID\t学号\t批次\t导师\t专业能力\t工作态度\t任务完成\t综合评分\t状态\t更新时间\t操作\n请先查询真实数据\n共 0 条\n1\n前往页",
+    "buttons": [
+      {
+        "text": "查询真实数据",
+        "tag": "DIV",
+        "cls": "",
+        "x": 1008,
+        "y": 72,
+        "w": 145,
+        "h": 58
+      },
+      {
+        "text": "查询真实数据",
+        "tag": "DIV",
+        "cls": "component_object_unselect",
+        "x": 1008,
+        "y": 72,
+        "w": 145,
+        "h": 58
+      },
+      {
+        "text": "查询真实数据",
+        "tag": "DIV",
+        "cls": "ui_factory",
+        "x": 1008,
+        "y": 72,
+        "w": 145,
+        "h": 58
+      },
+      {
+        "text": "查询真实数据",
+        "tag": "DIV",
+        "cls": "pointer_auto",
+        "x": 1008,
+        "y": 72,
+        "w": 145,
+        "h": 58
+      },
+      {
+        "text": "查询真实数据",
+        "tag": "DIV",
+        "cls": "component_object pal_query_button",
+        "x": 1008,
+        "y": 72,
+        "w": 145,
+        "h": 46
+      },
+      {
+        "text": "查询真实数据",
+        "tag": "BUTTON",
+        "cls": "el-button el-button--primary el-button--medium propertyStyle",
+        "x": 1016,
+        "y": 77,
+        "w": 112,
+        "h": 38
+      },
+      {
+        "text": "查询真实数据",
+        "tag": "SPAN",
+        "cls": "",
+        "x": 1030,
+        "y": 87,
+        "w": 84,
+        "h": 18
+      }
+    ],
+    "cells": [],
+    "dialogs": []
+  }
+}

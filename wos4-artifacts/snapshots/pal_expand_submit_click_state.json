@@ -1,0 +1,50 @@
+{
+  "click": {
+    "ok": true,
+    "clicked": true,
+    "path": "top.1.0.0",
+    "text": "提交"
+  },
+  "state": {
+    "href": "http://221.239.19.118:13001/#/main",
+    "dialogs": [
+      {
+        "path": "top.1.0",
+        "text": "编辑器",
+        "buttons": [],
+        "inputs": []
+      },
+      {
+        "path": "top.1.0.0",
+        "text": "版本提交\n\n提交说明\n\n取消确定",
+        "buttons": [
+          "",
+          "取消",
+          "确定"
+        ],
+        "inputs": [
+          {
+            "placeholder": "",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "path": "top.1.0.0",
+        "text": "版本提交\n\n提交说明\n\n取消确定",
+        "buttons": [
+          "",
+          "取消",
+          "确定"
+        ],
+        "inputs": [
+          {
+            "placeholder": "",
+            "value": ""
+          }
+        ]
+      }
+    ],
+    "messages": []
+  }
+}

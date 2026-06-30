@@ -1,0 +1,76 @@
+Trace(2, "QueryAssessmentRecords.enter", strmapPara);
+stringMap<var> param,input,output,condition1,objectRecord1,returnData,data;
+stringMap<var>[] conditions,objectRecords;
+uint64[] recordIDs;
+string[] returnFields;
+Result queryResult;
+string resultText;
+string spaceTimeGuid;
+uint64 recordID;
+bool hasRecordID;
+int32 pageNo;
+int32 pageSize;
+int32 offset;
+
+spaceTimeGuid = "aba6cf7a-0715-4966-8eaf-0f448eba7bc9";
+hasRecordID = false;
+pageNo = 1;
+pageSize = 20;
+if (strmapPara.containsKey("spaceTimeGuid")) { spaceTimeGuid = strmapPara.spaceTimeGuid; }
+if (strmapPara.containsKey("recordID")) { recordID = (uint64)strmapPara.recordID; hasRecordID = true; }
+if (strmapPara.containsKey("pageNo")) { pageNo = (int32)strmapPara.pageNo; }
+if (strmapPara.containsKey("pageSize")) { pageSize = (int32)strmapPara.pageSize; }
+if (pageNo < 1) { pageNo = 1; }
+if (pageSize < 1) { pageSize = 20; }
+if (pageSize > 100) { pageSize = 100; }
+offset = (pageNo - 1) * pageSize;
+
+param.cloudID = 0;
+param.areaID = 0;
+param.transactionID = (uint64)0;
+param.timeout = 8000;
+param.type = (int32)3106;
+returnFields = {"$recordID","$startTime","$endTime","$parentGUID","$parentRecordID","id","student_id","batch_id","mentor_id","professional_score","attitude_score","task_score","teamwork_score","innovation_score","total_score","status","comment","updated_at","deleted"};
+input.appspacetimeguid = spaceTimeGuid;
+
+if (hasRecordID)
+{
+    recordIDs.push(recordID);
+}
+else
+{
+    recordIDs.push((uint64)216172782113783809);
+    recordIDs.push((uint64)216172782113783810);
+    recordIDs.push((uint64)216172782113783811);
+}
+objectRecord1.objectName = "pal_assessment_record";
+objectRecord1.recordIDs = new recordIDs;
+objectRecords.push(new objectRecord1);
+condition1.mode = (int32)51;
+condition1.objectIdentifierType = (int32)2;
+condition1.objectRecords = new objectRecords;
+condition1.returnFields = new returnFields;
+conditions.push(new condition1);
+input.conditions = new conditions;
+
+queryResult = Query(param, input, output);
+Trace(2, "QueryAssessmentRecords.queryRet", queryResult.ret);
+Trace(2, "QueryAssessmentRecords.output", output);
+
+data.table = "pal_assessment_record";
+data.type = 3106;
+data.pageNo = pageNo;
+data.pageSize = pageSize;
+data.hasRecordID = hasRecordID;
+data.defaultRecordIDs = new recordIDs;
+if (hasRecordID) { data.recordID = recordID; }
+data.queryRet = queryResult.ret;
+data.output = new output;
+returnData.ok = (bool)(queryResult.ret == 0);
+if (queryResult.ret == 0) { returnData.code = "OK"; returnData.message = "query assessment records success"; }
+else { returnData.code = "QUERY_FAILED"; returnData.message = "query assessment records failed"; }
+returnData.traceId = "pal-20260628-queryrecords-conditions-fix";
+returnData.data = new data;
+resultText = ConvertToJsonString(returnData,true);
+Trace(2, "QueryAssessmentRecords.return", resultText);
+return resultText;

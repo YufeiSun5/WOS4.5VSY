@@ -175,6 +175,12 @@ Observed boundary:
 - fixing only the spacetime selection and spacetime GUID was not enough
 - adding the `其他云客户端用户` row removed the `未找到访问区域 / 启动调试失败` failure on the next debug start
 
+2026-06-29 Palimpsest current observation:
+
+- In `PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC`, debug start showed `编译成功` and then `未找到访问区域 / 启动调试失败`.
+- The debug config dialog showed `时空信息 -> 已选信息: PalimpsestL1_0626R2`, but `添加用户访问信息` and `添加时空访问信息` only showed `点击添加` entries and no visible configured rows.
+- No variables, stack frame, or `resultText` appeared. Treat this as debugger access-region failure before function execution, not as `QueryAssessmentRecords` business logic failure.
+
 The same prerequisite chain was re-verified on the clean backend:
 
 ```text
@@ -267,6 +273,9 @@ Submit description: query-demo-data-backend-method-0617-single-return
 Verified Palimpsest functions:
 
 ```text
+QueryAssessmentPage(stringMap<var> strmapPara) -> string
+QueryAssessmentData(stringMap<var> strmapPara) -> string
+QueryAssessmentSmoke(stringMap<var> strmapPara) -> string
 PalimpsestCrudService(stringMap<var> strmapPara) -> string
 QueryAssessmentRecords(stringMap<var> strmapPara) -> string
 CreateAssessmentRecord(stringMap<var> strmapPara) -> string
@@ -295,6 +304,136 @@ Use `onCreate` to call the backend functions that need smoke verification before
 ```
 
 Do not claim real database CRUD from this alone. This verifies function protocol, compilation, submit, and startup debug execution path. Persisting records into business-event runtime records still requires package deployment, object creation, same-spacetime access, and record API verification.
+
+2026-06-27 frontend preview smoke verification:
+
+- Runtime spacetime and backend instance were confirmed in the instantiated Palimpsest R2 chain:
+
+```text
+PalimpsestL1_0626R2 = aba6cf7a-0715-4966-8eaf-0f448eba7bc9
+PalimpsestBack_0626R2
+PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2
+```
+
+- `PalimpsestContent_82` preview button `Backend Smoke` successfully called `QueryAssessmentRecords` and returned `ret=0`.
+- Frontend parameters must match the function metadata exactly. For `stringMap<var> strmapPara`, call with:
+
+```js
+params: [new Variant(new StringMap(/* strmapPara */))]
+```
+
+- Do not call these functions with `params: []`; that is not the same signature as `stringMap<var> strmapPara`.
+- Raw iframe probing can show `SetRunInfo === undefined`; use visible preview button execution or page/button eval context as the acceptance path for frontend smoke.
+
+2026-06-27 Palimpsest real Query replacement:
+
+- `QueryAssessmentRecords` was changed from static fake JSON to a real `Query(param,input,output)` call against the business-event record `pal_assessment_record`.
+- The frontend/backend invalid-parameter failure was caused by calling a function whose signature is `stringMap<var> strmapPara` with `params: []`. The platform checks parameter count and type against function metadata; an empty params array is not a default `stringMap`.
+- Correct frontend call shape:
+
+```js
+var p = new StringMap({})
+p._insert("action", "query", "string")
+p._insert("pageNo", 1, "int32")
+p._insert("pageSize", 20, "int32")
+p._insert("keyword", "", "string")
+
+var input = new StringMap({
+  identifierType: 2,
+  name: "PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2",
+  funcname: "QueryAssessmentRecords",
+  params: [new Variant(p)]
+})
+```
+
+- Current numeric constants for planned business-event records:
+
+```text
+param.type = 4106
+objectCondition.mode = 17
+objectCondition.identifierType = 2
+condition.mode = 61
+condition.mainMode = 53
+```
+
+- The model editor saved and submitted the real query change with submit note `pal-20260627-real-query-api`; debug start after submit compiled successfully.
+- Create/Update/Delete/Submit real record shape was verified from the local manual and compiled in `PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC` on 2026-06-27, but the first runtime v3 probe exposed an important type mistake:
+  - `pal_assessment_record / pal_assessment_score_detail / pal_operation_log` are historical business events under `历史 -> 业务事`.
+  - Historical business-event record type is `3106`.
+  - Planned business-event record type is `4106`.
+  - If code uses `4106` against `pal_assessment_record`, runtime `Create/Query` can return `-30038 = 对象不存在`.
+- For `pal_assessment_record`, use record type `3106`, name identifier `2`, and record condition mode `51` for record-id updates/deletes.
+- `CreateAssessmentRecord` uses `Create(param,input,output)` with `param.type=3106` and `input.fieldValues=[{objectName:"pal_assessment_record",dataFields:[...],dataValues:[...]}]`.
+- `UpdateAssessmentRecord` and `SubmitAssessmentScore` use `Update(param,input,output)` with `input.condition.mode=51`, `input.condition.objectIdentifierType=2`, and `input.condition.objectRecordFieldValues=[{objectName:"pal_assessment_record",recordIDs:[recordID],mulFieldValue:{...}}]`.
+- `DeleteAssessmentRecord` uses `Delete(param,input,output)` with `input.condition.mode=51`, `input.condition.objectIdentifierType=2`, `input.condition.objectRecords=[{objectName:"pal_assessment_record",recordIDs:[recordID]}]`, and `input.condition.deleteMode=1`.
+- Do not hand-build JSON strings with escaped quotes in large injected scripts; browser template literals can consume the backslashes before the meta-language compiler sees them. Build `stringMap<var>` return objects and return `ConvertToJsonString(returnData,true)` instead.
+- The model editor saved, compiled, and submitted these real CRUD functions with submit note `pal-20260627-real-crud-api`. This is model-layer evidence only; runtime package update/deploy/start is still required before claiming the blue client calls this version.
+
+2026-06-28 Palimpsest runtime Create -> Query success:
+
+- Direct runtime API verification from `worker-space` proved that `pal_assessment_record` insertion works when all of these are true:
+  - `param.type=3106`.
+  - `input.appspacetimeguid="aba6cf7a-0715-4966-8eaf-0f448eba7bc9"` is present for out-of-App direct calls.
+  - `input.objectIdentifierType=2`.
+  - `fieldValues[0].objectName="pal_assessment_record"`.
+  - `dataFields` includes record system fields plus all 14 business fields: `$startTime/$endTime/$parentGUID/$parentRecordID/id/student_id/batch_id/mentor_id/professional_score/attitude_score/task_score/teamwork_score/innovation_score/total_score/status/comment/updated_at/deleted`.
+  - `dataValues` is real `var[][]` protobuf data; each cell must be wrapped as a typed value, for example `{int64Value:"132225120000000000"}`, `{stringValue:"S2026041001"}`, `{doubleValue:38}`, `{dateTimeValue:{...}}`, `{boolValue:false}`.
+- Passing raw JS values inside `valueArray2DValue.arrays[].values` is not enough; the platform reaches the record API but returns `-31539`.
+- Omitting `appspacetimeguid` from a worker-space direct call returns `-30018`.
+- Verified insert result: `ret=0 / errorcodes=[0] / ids=["216172782113783809"]`.
+- Verified query result: `Query mode=51` by `recordID=216172782113783809` returned `ret=0` and row `id=PAL_DIRECT6_20260627175612`.
+
+Use this verified shape before changing the backend function body again. If the same shape is implemented inside an already-running App backend function, the App context may supply the space-time automatically; direct external probes still need `appspacetimeguid`.
+
+2026-06-28 follow-up method correction:
+
+- The failed fresh insert path used `workerWindow.Call("Create", {param,input}, opts)` plus a generic `me(... dataValues:"valueArray2DValue")` conversion. It reached the historical record API but returned `-31520 = 添加记录时缺少必要的属性`.
+- The successful fresh insert path used the worker-space module helper `Ke("Create", req)` (`mod.aV`) and manually encoded `fieldValues[0]` as a protobuf `keyValueList`.
+- For direct backend record smoke tests from `worker-space`, build `fieldValues[0].dataValues` explicitly:
+
+```js
+const values = [
+  {int64Value: "132225120000000000"},
+  {int64Value: "132225120000023456"},
+  {stringValue: ""},
+  {uint64Value: "0"},
+  {stringValue: testId}
+  // ...remaining typed cells...
+];
+const fieldValue = {keyValueList: [
+  {key: "objectName", value: {stringValue: "pal_assessment_record"}},
+  {key: "dataFields", value: {stringArrayValue: {stringArray: fields}}},
+  {key: "dataValues", value: {valueArray2DValue: {arrays: [{values}]}}}
+]};
+```
+
+- Fresh verification after this correction inserted `recordID=216172782113783810 / id=PAL_DIRECT6_20260627210127`, then queried the same record with `mode=51` and got `ret=0`.
+- Conclusion: if direct insert fails while the object is visible in `时空对象管理平台`, first check the call helper and protobuf encoding. Do not modify model properties to "insert data"; use the historical business-event record `Create/Query` API.
+
+2026-06-28 Palimpsest remaining CRUD correction:
+
+- Direct worker-space runtime verification proved the remaining historical business-event operations are valid with `param.type=3106`:
+  - `Update` by `recordID=216172782113783811` returned `ret=0`, and query read back `status=updated_by_update_function / total_score=88.5`.
+  - Score submit is also an `Update` by `recordID`; it returned `ret=0`, and query read back score fields `40/19/19/10/10`, `total_score=98`, `status=completed_by_submit`.
+  - `Delete` by `recordID=216172782113783812` returned `ret=0`; querying that record then returned `-31537 = 记录ID不存在`, which is the expected hard-delete result.
+- `UpdateAssessmentRecord` and `SubmitAssessmentScore` must use:
+
+```text
+param.type = 3106
+input.appspacetimeguid = <target spacetime guid> when called outside App context
+condition.mode = 51
+condition.objectIdentifierType = 2
+condition.objectRecordFieldValues = [{ objectName, recordIDs, mulFieldValue }]
+```
+
+- `DeleteAssessmentRecord` must use the same `3106 / mode=51 / objectIdentifierType=2`, but `condition.objectRecords=[{ objectName, recordIDs }]` plus `condition.deleteMode=1`.
+- The backend edit-state functions `UpdateAssessmentRecord / SubmitAssessmentScore / DeleteAssessmentRecord` were rewritten with those shapes and verified to contain `3106`, `appspacetimeguid`, `mode=51`, and no remaining `4106`.
+- The model editor submitted this corrected remaining-CRUD version with note `pal-20260628-real-remaining-crud-api` and captured `提交成功`.
+- Boundary: this proves direct record API shape and model-version submission. Runtime package update/deploy/start is still required before claiming the blue client or running App instance is using this corrected version.
+- Evidence:
+  - `wos4-artifacts/snapshots/palimpsest_remaining_crud_direct_verify_20260628.json`
+  - `wos4-artifacts/snapshots/palimpsest_remaining_functions_after_update_20260628.json`
+  - `wos4-artifacts/snapshots/pal_remaining_funcs_submit_confirm_20260628.json`
 
 ## What This Skill Does Not Cover Yet
 

@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-06-28T05:02:00+08:00",
+  "identity": "孙宇飞_code-ai",
+  "target": {
+    "spaceTimeName": "PalimpsestL1_0626R2",
+    "spaceTimeGuid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+    "backendInstance": "PalimpsestBack_0626R2",
+    "objectName": "pal_assessment_record",
+    "recordType": 3106
+  },
+  "diagnosis": {
+    "wrongPath": "worker iframe window.Call('Create', {param,input}, opts) with generic me(...dataValues:'valueArray2DValue') wrapper",
+    "wrongPathResult": {
+      "ret": -31520,
+      "meaning": "添加记录时缺少必要的属性"
+    },
+    "correctPath": "worker-space module helper Ke('Create', req) with fieldValue manually encoded as protobuf keyValueList and valueArray2DValue typed cells",
+    "importantDifference": [
+      "Use imported worker-space helper Ke/aV instead of window.Call for this direct backend record smoke.",
+      "Do not let the generic me() helper infer dataValues; build fieldValues[0].dataValues.valueArray2DValue.arrays[0].values explicitly.",
+      "Use param.type=3106 because pal_assessment_record is under 历史 -> 业务事.",
+      "Keep input.appspacetimeguid when the call is made from worker-space instead of inside a running App backend context."
+    ]
+  },
+  "create": {
+    "ret": 0,
+    "errorcodes": [0],
+    "recordID": "216172782113783810",
+    "businessId": "PAL_DIRECT6_20260627210127"
+  },
+  "query": {
+    "ret": 0,
+    "mode": 51,
+    "recordID": "216172782113783810",
+    "returnedBusinessId": "PAL_DIRECT6_20260627210127",
+    "returnedTotalScore": 92,
+    "returnedStatus": "done"
+  },
+  "conclusion": "用户指出的方法问题成立。本次失败不是表未上线，也不是应修改模型属性；失败来自直调封装不对。正确的后端记录插入验证应使用历史业务事记录 Create/Query 的运行库入口和手工 typed protobuf 数据形态。"
+}

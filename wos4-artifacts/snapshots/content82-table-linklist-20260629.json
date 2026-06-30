@@ -1,0 +1,170 @@
+[
+  {
+    "linkId": 200001,
+    "enable": false,
+    "KSCGUID": "k312403f6309533e92d590fa50429db4",
+    "script": "",
+    "KSCLINKGUID": "",
+    "linkName": "Select"
+  },
+  {
+    "linkId": 200002,
+    "enable": false,
+    "KSCGUID": "k96d3ea70b4cca142dc20ec72c2d4542",
+    "script": "",
+    "KSCLINKGUID": "",
+    "linkName": "SelectAll"
+  },
+  {
+    "linkId": 200003,
+    "enable": false,
+    "KSCGUID": "kf32534e6beeb1de209fc959d4a171e2",
+    "script": "",
+    "KSCLINKGUID": "",
+    "linkName": "SelectionChange"
+  },
+  {
+    "linkId": 200004,
+    "enable": false,
+    "KSCGUID": "kc8469826585e751e8f5873848c8e2e1",
+    "script": "",
+    "KSCLINKGUID": "",
+    "linkName": "CellMouseEnter"
+  },
+  {
+    "linkId": 200005,
+    "enable": false,
+    "KSCGUID": "k53ef419fef27d7d484edc555f562869",
+    "script": "",
+    "KSCLINKGUID": "",
+    "linkName": "CellMouseLeave"
+  },
+  {
+    "linkId": 200006,
+    "enable": true,
+    "KSCGUID": "k4799f9eebb9227838fb1dd17dc4cbfa",
+    "script": "var e=arguments[1]||arguments[0]||{}; if(window.__palTableHandleAction){ window.__palTableHandleAction(e); } else { window.__palLastActionError='pal handler not ready'; }",
+    "KSCLINKGUID": "",
+    "linkName": "CellClick"
+  },
+  {
+    "linkId": 200007,
+    "enable": false,
+    "KSCGUID": "k796c3de28b1348c83d51b6ce5c7a67e",
+    "script": "",
+    "KSCLINKGUID": "",
+    "linkName": "CellDbclick"
+  },
+  {
+    "linkId": 200008,
+    "enable": false,
+    "KSCGUID": "kbebda35232d6c2ef6dc76f5925e081f",
+    "script": "",
+    "KSCLINKGUID": "",
+    "linkName": "RowClick"
+  },
+  {
+    "linkId": 200009,
+    "enable": false,
+    "KSCGUID": "k89c42447569a6869c1ce739eb539548",
+    "script": "",
+    "KSCLINKGUID": "",
+    "linkName": "RowContextmenu"
+  },
+  {
+    "linkId": 200010,
+    "enable": false,
+    "KSCGUID": "k8bc456092ae11ae2da0c9b330e1e9de",
+    "script": "",
+    "KSCLINKGUID": "",
+    "linkName": "RowDbclick"
+  },
+  {
+    "linkId": 200011,
+    "enable": false,
+    "KSCGUID": "kf2627880879adf545d77935b4bafd5f",
+    "script": "",
+    "KSCLINKGUID": "",
+    "linkName": "HeaderClick"
+  },
+  {
+    "linkId": 200012,
+    "enable": false,
+    "KSCGUID": "kb0915a0f005ad893a95ce4ea60bfa15",
+    "script": "",
+    "KSCLINKGUID": "",
+    "linkName": "SortChange"
+  },
+  {
+    "linkId": 200013,
+    "enable": false,
+    "KSCGUID": "k88c2c4c908bb615091dd7c1e747a7ec",
+    "script": "",
+    "KSCLINKGUID": "",
+    "linkName": "FilterChange"
+  },
+  {
+    "linkId": 200014,
+    "enable": false,
+    "KSCGUID": "k5386a5770f6fe869357cca88083c4fb",
+    "script": "",
+    "KSCLINKGUID": "",
+    "linkName": "CurrentChange"
+  },
+  {
+    "linkId": 200015,
+    "enable": false,
+    "KSCGUID": "k495ffdd2c6383faca099302b0ef3d01",
+    "script": "",
+    "KSCLINKGUID": "",
+    "linkName": "HeaderDragend"
+  },
+  {
+    "linkId": 200016,
+    "enable": false,
+    "KSCGUID": "k25fa40b9c64a430ebf150235d4e74d9",
+    "script": "",
+    "KSCLINKGUID": "",
+    "linkName": "ExpandChange"
+  },
+  {
+    "linkId": 200017,
+    "enable": false,
+    "KSCGUID": "k7e66e51361c801386b571d4c35e404c",
+    "script": "",
+    "KSCLINKGUID": "",
+    "linkName": "CurrentPageChange"
+  },
+  {
+    "linkId": 200018,
+    "enable": false,
+    "KSCGUID": "kb01e2ee46b9d794bf935c59fea993ec",
+    "script": "",
+    "KSCLINKGUID": "",
+    "linkName": "OnLoadSuccess"
+  },
+  {
+    "linkId": 200019,
+    "enable": false,
+    "KSCGUID": "kd8fec0b50aa8d22695b36a72924b2ad",
+    "script": "",
+    "KSCLINKGUID": "",
+    "linkName": "OnBeforeEdit"
+  },
+  {
+    "linkId": 200020,
+    "enable": false,
+    "KSCGUID": "k229301ae338a473abbbdd8e9ef3e0b0",
+    "script": "",
+    "KSCLINKGUID": "",
+    "linkName": "OnAfterEdit"
+  },
+  {
+    "linkId": 200021,
+    "enable": false,
+    "KSCGUID": "kf41a797b7c0fcf99976b443b99614c6",
+    "script": "",
+    "KSCLINKGUID": "",
+    "linkName": "PageSizeChange"
+  }
+]

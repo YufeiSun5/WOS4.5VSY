@@ -1,13 +1,36 @@
 ---
 name: wos4-object-create-verify
-description: Create and verify a WOS4 App/FU object from a deployed running repository copy in Time Space Object Management. Use when selecting a running time-space, choosing an App template copy, creating the object, confirming it runs, and verifying onCreate/script Trace logs with browser-harness.
+description: Historical WOS4 App/FU object creation notes plus current object-management verification rules. Use only to verify already deployed objects, logs, and runtime state in Time Space Object Management, or to read old 0617 evidence. Do not use this skill to create content in Time Space Object Management for current backend work.
 ---
 
-# WOS4 Object Create Verify
+# WOS4 Object Verify And Legacy Create Notes
 
 ## Scope
 
-Use this skill after a repository package is deployed and running in a time-space, and the next task is to create a runtime App/FU object from a copy and verify its script logs.
+Use this skill after backend models, business events, and custom calculations have been:
+
+```text
+建模系统提交
+-> 组态系统实例化
+-> 运维部署客户端部署/更新/启动
+-> 时空对象管理平台可见
+```
+
+Current use is verification only:
+
+```text
+WOS4 main desktop
+-> 时空对象管理平台
+-> select deployed time-space/object
+-> records / logs / view / debug
+-> verify Trace/onCreate/business behavior
+```
+
+Do not create missing objects in `时空对象管理平台`. If the target is missing, return to 运维部署 or model/package version work.
+
+## Deprecated Historical Creation Route
+
+The following route was historically verified in an older 0617 source/meta-language demo. It conflicts with the current backend-chain rule and must not be used as the current workflow:
 
 Verified route:
 
@@ -76,7 +99,7 @@ Before using this skill:
    - `daemon alive`
    - `active browser connections`
 
-Do not claim object creation is verified just because a repository package is running. The object must appear in Object Management and its runtime behavior must be checked.
+Do not claim runtime availability just because a repository package is running. The object must appear in Object Management and its runtime behavior must be checked.
 
 ## Open Object Management
 
@@ -99,7 +122,9 @@ Verified working target:
 盛云_孙宇飞_时空_0617_TOPV2
 ```
 
-## Create Object From Copy
+## Deprecated: Create Object From Copy
+
+This section is retained only as historical 0617 evidence. Do not execute it for current backend work.
 
 1. Click `创建`.
 2. In the create dialog, click `应用模板: 选择`.
@@ -144,6 +169,7 @@ Do not use this skill to:
 
 - Stop, delete, force-delete, anti-deploy, or overwrite running objects.
 - Create objects in shared/customer spaces unless explicitly requested by the user.
+- Create any missing backend/FU/App object in `时空对象管理平台` during the current backend workflow.
 - Treat a child time-space as selectable in Object Management until that path is separately verified.
 - Mark runtime verification complete without checking either visible object state or logs.
 
@@ -176,12 +202,11 @@ Use:
 D:\DEV_D\WOS4.5\.ai\skills\wos4-blue-client-object-create\SKILL.md
 ```
 
-That skill now owns:
+That skill now owns historical blue-client verification notes:
 
 - purple vs blue object distinction
 - `盛云_孙宇飞_Noctiluca_客户端` vs `客户端1` dual-name handling
 - `仓库不存在 / 654319619` failure path
-- blue `WebJS` object creation
 - `视图` recursive-frame runtime validation
 
 This skill remains the generic object-creation/log-verification skill for:

@@ -1,0 +1,122 @@
+{
+  "treeNodes": [
+    {
+      "id": "all",
+      "label": "全部设备",
+      "filter": {},
+      "children": [
+        { "id": "area-1", "label": "一车间", "filter": { "area": "一车间" } },
+        { "id": "area-2", "label": "二车间", "filter": { "area": "二车间" } },
+        { "id": "area-power", "label": "动力站", "filter": { "area": "动力站" } }
+      ]
+    },
+    {
+      "id": "status",
+      "label": "按状态",
+      "filter": {},
+      "children": [
+        { "id": "status-running", "label": "运行", "filter": { "status": "运行" } },
+        { "id": "status-maintain", "label": "待维护", "filter": { "status": "待维护" } },
+        { "id": "status-abnormal", "label": "异常", "filter": { "status": "异常" } }
+      ]
+    }
+  ],
+  "emptyText": "暂无数据",
+  "columns": [
+    { "prop": "expand", "label": "展开", "minWidth": "70", "align": "center", "type": "", "columnKey": "", "fixed": false },
+    { "prop": "code", "label": "设备编码", "minWidth": "140", "align": "left", "type": "", "columnKey": "", "fixed": false },
+    { "prop": "name", "label": "设备名称", "minWidth": "240", "align": "left", "type": "", "columnKey": "", "fixed": false },
+    { "prop": "area", "label": "区域", "minWidth": "110", "align": "center", "type": "", "columnKey": "", "fixed": false },
+    { "prop": "health", "label": "健康度", "minWidth": "110", "align": "center", "type": "", "columnKey": "", "fixed": false },
+    { "prop": "status", "label": "状态", "minWidth": "110", "align": "center", "type": "", "columnKey": "", "fixed": false },
+    { "prop": "owner", "label": "责任人", "minWidth": "110", "align": "center", "type": "", "columnKey": "", "fixed": false },
+    { "prop": "parts", "label": "展开明细 / 部件摘要", "minWidth": "360", "align": "left", "type": "", "columnKey": "", "fixed": false },
+    { "prop": "operation", "label": "操作", "minWidth": "190", "align": "center", "type": "", "columnKey": "", "fixed": false }
+  ],
+  "rows": [
+    {
+      "expand": "展开",
+      "code": "EQ-240601",
+      "name": "一车间压缩空气站",
+      "area": "一车间",
+      "health": "96%",
+      "status": "运行",
+      "owner": "李明轩",
+      "parts": "主空压机 98%；干燥机 94%；储气罐 91%",
+      "detailTitle": "一车间压缩空气站部件明细",
+      "detailSummary": "设备连续运行 18 天，当前健康度稳定；干燥机滤芯建议在 7 天内复检。",
+      "detailItems": "主空压机：98% / 正常；干燥机：94% / 观察；储气罐：91% / 观察",
+      "operation": "查看  编辑  更多"
+    },
+    {
+      "expand": "展开",
+      "code": "EQ-240602",
+      "name": "二车间循环水泵组",
+      "area": "二车间",
+      "health": "88%",
+      "status": "待维护",
+      "owner": "张雨婷",
+      "parts": "1号水泵 86%；2号水泵 92%；过滤器 78%",
+      "detailTitle": "二车间循环水泵组部件明细",
+      "detailSummary": "过滤器压差偏高，建议本周安排维护；2 号水泵可继续运行。",
+      "detailItems": "1号水泵：86% / 观察；2号水泵：92% / 正常；过滤器：78% / 待维护",
+      "operation": "查看  编辑  更多"
+    },
+    {
+      "expand": "展开",
+      "code": "EQ-240603",
+      "name": "动力站变配电柜",
+      "area": "动力站",
+      "health": "93%",
+      "status": "运行",
+      "owner": "王子涵",
+      "parts": "进线柜 94%；补偿柜 91%；温控模块 89%",
+      "detailTitle": "动力站变配电柜部件明细",
+      "detailSummary": "柜体温升正常，温控模块波动略高；继续保持日巡检。",
+      "detailItems": "进线柜：94% / 正常；补偿柜：91% / 正常；温控模块：89% / 观察",
+      "operation": "查看  编辑  更多"
+    },
+    {
+      "expand": "展开",
+      "code": "EQ-240604",
+      "name": "装配线视觉检测台",
+      "area": "一车间",
+      "health": "82%",
+      "status": "待维护",
+      "owner": "赵天宇",
+      "parts": "工业相机 84%；光源控制器 80%；采集工控机 90%",
+      "detailTitle": "装配线视觉检测台部件明细",
+      "detailSummary": "光源控制器亮度衰减明显，检测误判率有上升趋势。",
+      "detailItems": "工业相机：84% / 观察；光源控制器：80% / 待维护；采集工控机：90% / 正常",
+      "operation": "查看  编辑  更多"
+    },
+    {
+      "expand": "展开",
+      "code": "EQ-240605",
+      "name": "仓储堆垛机",
+      "area": "二车间",
+      "health": "74%",
+      "status": "异常",
+      "owner": "陈欣怡",
+      "parts": "行走电机 72%；货叉机构 79%；定位传感器 81%",
+      "detailTitle": "仓储堆垛机部件明细",
+      "detailSummary": "行走电机振动超阈值，已建议停机检查；定位传感器需重新标定。",
+      "detailItems": "行走电机：72% / 异常；货叉机构：79% / 待维护；定位传感器：81% / 待维护",
+      "operation": "查看  编辑  更多"
+    },
+    {
+      "expand": "展开",
+      "code": "EQ-240606",
+      "name": "总装拧紧工作站",
+      "area": "一车间",
+      "health": "90%",
+      "status": "运行",
+      "owner": "刘宇航",
+      "parts": "拧紧轴 92%；扭矩传感器 88%；安全光栅 96%",
+      "detailTitle": "总装拧紧工作站部件明细",
+      "detailSummary": "扭矩传感器校准日期临近，建议下次换线时完成复标。",
+      "detailItems": "拧紧轴：92% / 正常；扭矩传感器：88% / 观察；安全光栅：96% / 正常",
+      "operation": "查看  编辑  更多"
+    }
+  ]
+}

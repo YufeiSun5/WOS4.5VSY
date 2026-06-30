@@ -1,0 +1,73 @@
+{
+  "ok": true,
+  "steps": [
+    {
+      "before": {
+        "value": null,
+        "display": "",
+        "background": "#fff",
+        "formula": ""
+      }
+    },
+    {
+      "button": "excel_read_button",
+      "result": {
+        "name": "excel_read_button",
+        "ok": true,
+        "scriptLen": 2397
+      },
+      "log": "结果区：点击按钮后显示 JSON",
+      "b1": {
+        "value": null,
+        "display": "",
+        "background": "#fff",
+        "formula": ""
+      }
+    },
+    {
+      "button": "excel_write_button",
+      "result": {
+        "name": "excel_write_button",
+        "ok": true,
+        "scriptLen": 2370
+      },
+      "log": "结果区：点击按钮后显示 JSON",
+      "b1": {
+        "value": null,
+        "display": "",
+        "background": "#fff",
+        "formula": ""
+      }
+    },
+    {
+      "button": "excel_style_button",
+      "result": {
+        "name": "excel_style_button",
+        "ok": true,
+        "scriptLen": 2549
+      },
+      "log": "结果区：点击按钮后显示 JSON",
+      "b1": {
+        "value": null,
+        "display": "",
+        "background": "#fff",
+        "formula": ""
+      }
+    },
+    {
+      "button": "excel_export_probe_button",
+      "result": {
+        "name": "excel_export_probe_button",
+        "ok": true,
+        "scriptLen": 3304
+      },
+      "log": "结果区：点击按钮后显示 JSON",
+      "b1": {
+        "value": null,
+        "display": "",
+        "background": "#fff",
+        "formula": ""
+      }
+    }
+  ]
+}

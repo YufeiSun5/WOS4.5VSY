@@ -1,0 +1,745 @@
+{
+  "href": "http://221.239.19.118:13001/api/v1/GetFileContent/1/0/0/94054fd1-9b20-463a-8372-b69776349847_120/index.html",
+  "component": {
+    "exists": true,
+    "id": "k0566caa20c7eab0fb97068c7a5d84da",
+    "cls": "PCUI_ElementTable component_object tblTest",
+    "ui": "tblTest",
+    "vmName": "ElementTable",
+    "tag": "ElementTable"
+  },
+  "propData": {
+    "UIName": "tblTest",
+    "groupName": "数据",
+    "icon": "table",
+    "prototypeName": "ElementTable",
+    "elementuiType": "ElementTable",
+    "objectType": 2,
+    "KSCGUID": "k0566caa20c7eab0fb97068c7a5d84da",
+    "leftTopPt": {
+      "type": "object",
+      "keys": [
+        "x",
+        "y"
+      ]
+    },
+    "showCustomLabel": false,
+    "customLabel": "",
+    "expands": {
+      "type": "array",
+      "length": 0,
+      "sample": []
+    },
+    "detailConfig": "this.table({columns:[{prop:\"index\",type:\"index\",m_id:\"1057754b-1bc4-423f-8e99-d442e21bdf58\"},{prop:\"eqCode\",label:\"设备/部件编码\",align:\"center\",minWidth:\"100\",type:\"\",columnKey:\"\",fixed:false,m_id:\"945696df-2df5-45cb-9d4a-83118af9bb70\"},{prop:\"eqName\",label:\"设备/部件名称\",align:\"center\",minWidth:\"200\",type:\"\",columnKey:\"\",fixed:false,m_id:\"b42d8089-5391-4314-8284-58376eb6c9f8\"},{prop:\"eqCategory\",label:\"设备/部件分类\",align:\"center\",minWidth:\"100\",type:\"\",columnKey:\"\",fixed:false,m_id:\"92b3bf49-1a4d-4624-a137-c41a201a39d8\"},{prop:\"eqModel\",label:\"设备/部件型号\",align:\"center\",minWidth:\"100\",type:\"\",columnKey:\"\",fixed:false,m_id:\"98a2d6f1-11db-44e4-8fbf-afdb7feb02b9\"},{prop:\"assetNo\",label:\"固定资产编号\",align:\"center\",minWidth:\"100\",type:\"\",columnKey:\"\",fixed:false,m_id:\"a7f636f3-8e94-42e9-b1a8-a7dc29c3b4dd\"},{prop:\"operation\",label:\"操作\",align:\"center\",minWidth:\"60\",type:\"operation\",columnKey:\"\",fixed:\"right\",plugins:[{pluginType:\"button\",text:\"详情\",type:\"primary\",icon:\"\",backgroundColor:\"rgba(255,255,255,1)\",color:\"rgba(0,0,0,1)\",pageJumpOption:{enable:false,key:\"tree.trigger.pageJump\",method:\"pageJump\",source:[]},dataSetLinkOption:{enable:false,linkInfos:[]},variableLinkOption:{enable:false,key:\"table.trigger.paramLinkOutPut\",paramLinks:[]},click:function(e){ alert(\"该行数据\" + JSON.stringify(e.row)) }}],hidden:false,m_id:\"401a2b24-d55b-4be2-8a6c-5c68e3f9b44f\"}],totalData:[{prop1:\"aaaaa\",prop2:\"bbbbb\",eqCode:\"24-0001\",eqName:\"XXX部件名称\",eqCategory:\"部件分类\",eqModel:\"YL30-751\",assetNo:\"25012103\"},{prop1:\"111111\",prop2:\"22222222222222222222\",eqCode:\"24-0002\",eqName:\"XXX部件名称\",eqCategory:\"部件分类\",eqModel:\"YL30-751\",assetNo:\"25012103\"},{prop1:\"aaaaaa\",prop2:\"bbbb\",eqCode:\"24-0003\",eqName:\"XXX部件名称\",eqCategory:\"部件分类\",eqModel:\"YL30-751\",assetNo:\"25012103\"},{prop1:\"ccc\",prop2:\"ddd\",eqCode:\"24-0004\",eqName:\"XXX部件名称\",eqCategory:\"部件分类\",eqModel:\"YL30-751\",assetNo:\"25012103\"},{prop1:\"eeeeee\",prop2:\"fffffffff\",eqCode:\"24-0005\",eqName:\"XXX部件名称\",eqCategory:\"部件分类\",eqModel:\"YL30-751\",assetNo:\"25012103\"},{prop1:\"gggggggg\",prop2:\"hhhhhhh\",eqCode:\"24-0006\",eqName:\"XXX部件名称\",eqCategory:\"部件分类\",eqModel:\"YL30-751\",assetNo:\"25012103\"},{eqCode:\"24-0007\",eqName:\"XXX部件名称\",eqCategory:\"部件分类\",eqModel:\"YL30-751\",assetNo:\"25012103\"},{eqCode:\"24-0008\",eqName:\"XXX部件名称\",eqCategory:\"部件分类\",eqModel:\"YL30-751\",assetNo:\"25012103\"}],selectable:function (row, index){ alert(\"aaaaaaaaaa\"); },rowStyle:function ({ row, rowIndex }){ return {\n  background: 'rgba(243,54,64,0.1)'\n} }})",
+    "styleConfig": "",
+    "dblLight": true,
+    "operable": true,
+    "lock": false,
+    "visible": true,
+    "expandRowKeys": {
+      "type": "array",
+      "length": 0,
+      "sample": []
+    },
+    "runVisible": true,
+    "checkStateSave": false,
+    "show": true,
+    "data": {
+      "type": "array",
+      "length": 8,
+      "sample": [
+        {
+          "prop1": "aaaaa",
+          "prop2": "bbbbb",
+          "eqCode": "24-0001",
+          "eqName": "XXX部件名称",
+          "eqCategory": "部件分类",
+          "eqModel": "YL30-751",
+          "assetNo": "25012103",
+          "rowIndex": "1"
+        },
+        {
+          "prop1": "111111",
+          "prop2": "22222222222222222222",
+          "eqCode": "24-0002",
+          "eqName": "XXX部件名称",
+          "eqCategory": "部件分类",
+          "eqModel": "YL30-751",
+          "assetNo": "25012103",
+          "rowIndex": "2"
+        },
+        {
+          "prop1": "aaaaaa",
+          "prop2": "bbbb",
+          "eqCode": "24-0003",
+          "eqName": "XXX部件名称",
+          "eqCategory": "部件分类",
+          "eqModel": "YL30-751",
+          "assetNo": "25012103",
+          "rowIndex": "3"
+        }
+      ]
+    },
+    "stripe": true,
+    "border": true,
+    "treeProps": {
+      "type": "object",
+      "keys": [
+        "children",
+        "hasChildren"
+      ]
+    },
+    "showHeader": true,
+    "fit": true,
+    "highlightCurrentRow": true,
+    "emptyText": "empty",
+    "showSummary": false,
+    "sumText": "sumText",
+    "pagination": false,
+    "pageSizes": {
+      "type": "array",
+      "length": 4,
+      "sample": [
+        10,
+        20,
+        50
+      ]
+    },
+    "currentPage": 1,
+    "pageSize": 10,
+    "defaultExpandAll": true,
+    "lazyLoad": true,
+    "paginationLayout": "total,sizes,prev,pager,next,jumper",
+    "paginationBackground": false,
+    "isVirtualScroll": false,
+    "totalData": {
+      "type": "array",
+      "length": 0,
+      "sample": []
+    },
+    "totalLength": 8,
+    "pagerCount": 7,
+    "height": "100%",
+    "styleOption": {
+      "type": "object",
+      "keys": [
+        "c",
+        "b"
+      ]
+    },
+    "langKeys": {
+      "type": "array",
+      "length": 8,
+      "sample": [
+        "empty",
+        "sumText",
+        "设备/部件编码"
+      ]
+    },
+    "rowStyleConditions": {
+      "type": "array",
+      "length": 0,
+      "sample": []
+    },
+    "cellStyleConditions": {
+      "type": "array",
+      "length": 0,
+      "sample": []
+    },
+    "locationY": "281",
+    "locationX": "387",
+    "singleSelect": false,
+    "columns": {
+      "type": "array",
+      "length": 7,
+      "sample": [
+        {
+          "prop": "index",
+          "type": "index",
+          "m_id": "1057754b-1bc4-423f-8e99-d442e21bdf58"
+        },
+        {
+          "prop": "eqCode",
+          "label": "设备/部件编码",
+          "align": "center",
+          "minWidth": "100",
+          "type": "",
+          "columnKey": "",
+          "fixed": false,
+          "m_id": "945696df-2df5-45cb-9d4a-83118af9bb70"
+        },
+        {
+          "prop": "eqName",
+          "label": "设备/部件名称",
+          "align": "center",
+          "minWidth": "200",
+          "type": "",
+          "columnKey": "",
+          "fixed": false,
+          "m_id": "b42d8089-5391-4314-8284-58376eb6c9f8"
+        }
+      ]
+    },
+    "linkList": {
+      "type": "array",
+      "length": 21,
+      "sample": [
+        {
+          "name": "Select",
+          "property": "upDateLink",
+          "type": "script",
+          "enable": false,
+          "script": "",
+          "linkId": 200001,
+          "KSCGUID": "kbfef2d8e80f1670e2d8fb4d18e7e42c"
+        },
+        {
+          "name": "SelectAll",
+          "property": "upDateLink",
+          "type": "script",
+          "enable": false,
+          "script": "",
+          "linkId": 200002,
+          "KSCGUID": "kbd04d5828e0c93708dbde1dfebd49c5"
+        },
+        {
+          "name": "SelectionChange",
+          "property": "upDateLink",
+          "type": "script",
+          "enable": false,
+          "script": "",
+          "linkId": 200003,
+          "KSCGUID": "k9f7b07795cb07d6b8faddebca5291e6"
+        }
+      ]
+    },
+    "uiInputLinkList": {
+      "type": "array",
+      "length": 0,
+      "sample": []
+    },
+    "uiOutputLinkList": {
+      "type": "array",
+      "length": 11,
+      "sample": [
+        {
+          "enable": false,
+          "key": "table.current.select.change",
+          "method": "",
+          "source": []
+        },
+        {
+          "enable": false,
+          "key": "table.selection.change",
+          "method": "",
+          "source": []
+        },
+        {
+          "enable": false,
+          "key": "rowClick.trigger.pageJump",
+          "method": "pageJump",
+          "source": [],
+          "condition": {
+            "enable": false,
+            "list": []
+          }
+        }
+      ]
+    },
+    "parentGUID": "k445c528d7fe4b30c5b3c7c74b9dac0c",
+    "spanMethodConfig": {
+      "type": "object",
+      "keys": [
+        "enable",
+        "list"
+      ]
+    },
+    "id": "k7f70d4d5415923319380ad06ed494b9",
+    "index": 0,
+    "currentRow": {
+      "type": "object",
+      "keys": [
+        "prop1",
+        "prop2",
+        "eqCode",
+        "eqName",
+        "eqCategory",
+        "eqModel",
+        "assetNo",
+        "rowIndex"
+      ]
+    },
+    "": "",
+    "hideOnSinglePage": false,
+    "selectable": {
+      "type": "function",
+      "keys": []
+    },
+    "rowStyle": {
+      "type": "function",
+      "keys": []
+    }
+  },
+  "vmData": {
+    "tableDataCopy": {
+      "type": "array",
+      "length": 0,
+      "sample": []
+    },
+    "isRowEdit": false,
+    "editRowIndex": "null",
+    "multipleSelectionRow": {
+      "type": "array",
+      "length": 0,
+      "sample": []
+    },
+    "filterFlag": "",
+    "filterTotalData": {
+      "type": "array",
+      "length": 0,
+      "sample": []
+    },
+    "inputSearchValue": "",
+    "searchTotalData": {
+      "type": "array",
+      "length": 0,
+      "sample": []
+    },
+    "filterData": {
+      "type": "array",
+      "length": 0,
+      "sample": []
+    },
+    "searchData": {
+      "type": "array",
+      "length": 0,
+      "sample": []
+    },
+    "cellTooltipOption": {
+      "type": "object",
+      "keys": [
+        "effect",
+        "content",
+        "placement",
+        "offset",
+        "visibleArrow",
+        "openDelay",
+        "enterable",
+        "tabindex",
+        "show"
+      ]
+    },
+    "cellPositionInfo": {
+      "type": "object",
+      "keys": [
+        "rowIndex",
+        "colIndex"
+      ]
+    },
+    "disabled": true,
+    "startIndex": 1,
+    "scrollEventFlag": false,
+    "pluginCheckboxValues": {
+      "type": "array",
+      "length": 0,
+      "sample": []
+    },
+    "parentSelectStatus": "",
+    "expandsRow": {
+      "type": "array",
+      "length": 0,
+      "sample": []
+    },
+    "checkList": {
+      "type": "array",
+      "length": 0,
+      "sample": []
+    },
+    "filterisShow": false,
+    "filterShowProp": "",
+    "filterList": {
+      "type": "array",
+      "length": 0,
+      "sample": []
+    },
+    "filterIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAADwikbvAAABeElEQVQokX3Sz0sXURQF8M83v2UtBLOdO3cVtAiEIIr2/cCgNhLYIhyoBuZfyLYSNDRQzaqFGwmCdoIU6CICkUCEIAha5CbIVBKU0uLak6Yv2oUHM/fde865577Ww0dPp3ABW2j5Ey9xD2OYxA8c8De68KWNcxjBGxzFNo7jBeYxgYP+jSBZCrRviflykWeL2EyMz4o8u4mhdK40zlVcbyeU13hQVvUZnMR39AZXkWev7BMx8wr6GlKD9S4C+BpmkuxfDYhQ/CkKVpP0lTTvOI5hGOuYS0DNCMM+RPIE7qAfP1PFRJFnC+l7eD/Zu9Ju4HCSFh704HZZ1YdwurHCpuzlmHkN4fLHVNSNS2EgnqcVtjtmDtmfI7lR5NnZJmxZ1W9xMZl3vuOB7DKvR/N2WdV9RZ4td1zGmsKDd/+budXRGBGuB+gAZvdYVfzvuH2krOppvE+MkTuFx/iKePthXLM5anb2/AS3MJguwrRY0/0iz8LM0T014zdnRWN1rzDIGQAAAABJRU5ErkJggg==",
+    "lastProp": "",
+    "imgList": {
+      "type": "array",
+      "length": 0,
+      "sample": []
+    },
+    "selectEventData": {
+      "type": "object",
+      "keys": [
+        "type",
+        "selectRow",
+        "selection",
+        "unselectRow"
+      ]
+    },
+    "multupleToolTips": {
+      "type": "object",
+      "keys": []
+    },
+    "d_objColFilterConfig": {
+      "type": "object",
+      "keys": []
+    },
+    "d_arrColFilterData": {
+      "type": "array",
+      "length": 0,
+      "sample": []
+    },
+    "UIType": "comp",
+    "linkList": {
+      "type": "array",
+      "length": 21,
+      "sample": [
+        {
+          "name": "Select",
+          "property": "upDateLink",
+          "type": "script",
+          "enable": false,
+          "script": "",
+          "linkId": 200001,
+          "KSCGUID": "kbfef2d8e80f1670e2d8fb4d18e7e42c"
+        },
+        {
+          "name": "SelectAll",
+          "property": "upDateLink",
+          "type": "script",
+          "enable": false,
+          "script": "",
+          "linkId": 200002,
+          "KSCGUID": "kbd04d5828e0c93708dbde1dfebd49c5"
+        },
+        {
+          "name": "SelectionChange",
+          "property": "upDateLink",
+          "type": "script",
+          "enable": false,
+          "script": "",
+          "linkId": 200003,
+          "KSCGUID": "k9f7b07795cb07d6b8faddebca5291e6"
+        }
+      ]
+    },
+    "times": 1782466232327
+  },
+  "detailConfigStart": "this.table({columns:[{prop:\"index\",type:\"index\",m_id:\"1057754b-1bc4-423f-8e99-d442e21bdf58\"},{prop:\"eqCode\",label:\"设备/部件编码\",align:\"center\",minWidth:\"100\",type:\"\",columnKey:\"\",fixed:false,m_id:\"945696df-2df5-45cb-9d4a-83118af9bb70\"},{prop:\"eqName\",label:\"设备/部件名称\",align:\"center\",minWidth:\"200\",type:\"\",columnKey:\"\",fixed:false,m_id:\"b42d8089-5391-4314-8284-58376eb6c9f8\"},{prop:\"eqCategory\",label:\"设备/部件分类\",align:\"center\",minWidth:\"100\",type:\"\",columnKey:\"\",fixed:false,m_id:\"92b3bf49-1a4d-4624-a137-c41a201a39d8\"},{prop:\"eqModel\",label:\"设备/部件型号\",align:\"center\",minWidth:\"100\",type:\"\",columnKey:\"\",fixed:false,m_id:\"98a2d6f1-11db-44e4-8fbf-afdb7feb02b9\"},{prop:\"assetNo\",label:\"固定资产编号\",align:\"center\",minWidth:\"100\",type:\"\",columnKey:\"\",fixed:false,m_id:\"a7f636f3-8e94-42e9-b1a8-a7dc29c3b4dd\"},{prop:\"operation\",label:\"操作\",align:\"center\",minWidth:\"60\",type:\"operation\",columnKey:\"\",fixed:\"right\",plugins:[{pluginType:\"button\",text:\"详情\",type:\"primary\",icon:\"\",backgroundColor:\"rgba(255,255,255,1)\",color:\"rgba(0,0,0,1)\",pageJumpOption:{enable:false,key:\"tree.trigger.pageJump\",method:\"pageJump\",source:[]},dataSetLinkOption:{enable:false,linkInfos:[]},variableLinkOption:{enable:false,key:\"table.trigger.paramLinkOutPut\",paramLinks:[]},click:function(e){ alert(\"该行数据\" + JSON.stringify(e.row)) }}],hidden:false,m_id:\"401a2b24-d55b-4be2-8a6c-5c68e3f9b44f\"}],totalData:[{prop1:\"aaaaa\",prop2:\"bbbbb\",eqCode:\"24-0001\",eqName:\"XXX部件名称\",eqCategory:\"部件分类\",eqModel:\"YL30-751\",assetNo:\"25012103\"},{prop1:\"111111\",prop2:\"22222222222222222222\",eqCode:\"24-0002\",eqName:\"XXX部件名称\",eqCategory:\"部件分类\",eqModel:\"YL30-751\",assetNo:\"25012103\"},{prop1:\"aaaaaa\",prop2:\"bbbb\",eqCode:\"24-0003\",eqName:\"XXX部件名称\",eqCategory:\"部件分类\",eqModel:\"YL30-751\",assetNo:\"25012103\"},{prop1:\"ccc\",prop2:\"ddd\",eqCode:\"24-0004\",eqName:\"XXX部件名称\",eqCategory:\"部件分类\",eqModel:\"YL30-751\",assetNo:\"25012103\"},{prop1:\"eeeeee\",prop2:\"fffffffff\",eqCode:\"24-0005\",eqName:\"XXX部件名称\",eqCategory:\"部件分类\",eqModel:\"YL30-751\",assetNo:\"25012103\"},{prop1:\"gggggggg\",prop2:\"hhhhhhh\",eqCode:\"24-0006\",eqName:\"XXX部件名称\",eqCategory:\"部件分类\",eqModel:\"YL30-751\",assetNo:\"25012103\"},{eqCode:\"24-0007\",eqName:\"XXX部件名称\",eqCategory:\"部件分类\",eqModel:\"YL30-751\",assetNo:\"25012103\"},{eqCode:\"24-0008\",eqName:\"XXX部件名称\",eqCategory:\"部件分类\",eqModel:\"YL30-751\",assetNo:\"25012103\"}],selectable:function (row, index){ alert(\"aaaaaaaaaa\"); },rowStyle:function ({ row, rowIndex }){ return {\n  background: 'rgba(243,54,64,0.1)'\n} }})",
+  "detailConfigHasCustomExpand": false,
+  "etProps": {
+    "stripe": true,
+    "border": true,
+    "fit": true,
+    "dataLen": 8,
+    "columns": [
+      {
+        "id": "el-table_1_column_1",
+        "type": "index",
+        "width": 48,
+        "realWidth": null
+      },
+      {
+        "id": "el-table_1_column_2",
+        "type": "default",
+        "label": "设备/部件编码",
+        "property": "eqCode",
+        "realWidth": 228,
+        "fixed": false
+      },
+      {
+        "id": "el-table_1_column_3",
+        "type": "default",
+        "label": "设备/部件名称",
+        "property": "eqName",
+        "realWidth": 450,
+        "fixed": false
+      },
+      {
+        "id": "el-table_1_column_4",
+        "type": "default",
+        "label": "设备/部件分类",
+        "property": "eqCategory",
+        "realWidth": 225,
+        "fixed": false
+      },
+      {
+        "id": "el-table_1_column_5",
+        "type": "default",
+        "label": "设备/部件型号",
+        "property": "eqModel",
+        "realWidth": 225,
+        "fixed": false
+      },
+      {
+        "id": "el-table_1_column_6",
+        "type": "default",
+        "label": "固定资产编号",
+        "property": "assetNo",
+        "realWidth": 225,
+        "fixed": false
+      },
+      {
+        "id": "el-table_1_column_7",
+        "type": "button",
+        "label": "操作",
+        "property": "operation",
+        "realWidth": 135,
+        "fixed": "right"
+      }
+    ]
+  },
+  "css": [],
+  "before": {
+    "wrappers": [
+      {
+        "i": 0,
+        "cls": "el-table__body-wrapper is-scrolling-none",
+        "rect": {
+          "x": 384,
+          "y": 319.625,
+          "w": 1536,
+          "h": 624
+        },
+        "scrollTop": 0,
+        "scrollLeft": 0,
+        "text": "1 24-0001 XXX部件名称 部件分类 YL30-751 25012103 设备/部件编码 设备/部件名称 设备/部件分类 设备/部件型号 固定资产编号 SB001 数控车床 加工设备 CK6140 GD2025001 SB002 冲压机 成型设备 Y32-315 GD2025002 2 24-0002 XXX部件名称 部件分类 YL30-751 25012103 3 24-0003 XXX"
+      },
+      {
+        "i": 1,
+        "cls": "el-table__fixed-right",
+        "rect": {
+          "x": 1785,
+          "y": 275.625,
+          "w": 135,
+          "h": 668
+        },
+        "scrollTop": 0,
+        "scrollLeft": 0,
+        "text": "操作 详情 详情 详情 详情 详情 详情 详情 详情"
+      },
+      {
+        "i": 2,
+        "cls": "el-table__fixed-body-wrapper",
+        "rect": {
+          "x": 384,
+          "y": 319.625,
+          "w": 1536,
+          "h": 624
+        },
+        "scrollTop": 0,
+        "scrollLeft": 0,
+        "text": "详情 详情 详情 详情 详情 详情 详情 详情"
+      }
+    ],
+    "bodies": [
+      {
+        "bi": 0,
+        "cls": "el-table__body",
+        "rect": {
+          "x": 384,
+          "y": 319.625,
+          "w": 1536,
+          "h": 436
+        },
+        "rows": [
+          {
+            "i": 0,
+            "cls": "el-table__row expanded",
+            "text": "1 24-0001 XXX部件名称 部件分类 YL30-751 25012103",
+            "x": 384,
+            "y": 319.625,
+            "w": 1536,
+            "h": 37
+          },
+          {
+            "i": 1,
+            "cls": "custom-expand-tr",
+            "text": "设备/部件编码 设备/部件名称 设备/部件分类 设备/部件型号 固定资产编号 SB001 数控车床 加工设备 CK6140 GD2025001 SB002 冲压机 成型设备 Y32-315 GD2025002",
+            "x": 384,
+            "y": 356.625,
+            "w": 1536,
+            "h": 140
+          },
+          {
+            "i": 2,
+            "cls": "",
+            "text": "SB001 数控车床 加工设备 CK6140 GD2025001",
+            "x": 404.5,
+            "y": 408.125,
+            "w": 1495,
+            "h": 36
+          },
+          {
+            "i": 3,
+            "cls": "",
+            "text": "SB002 冲压机 成型设备 Y32-315 GD2025002",
+            "x": 404.5,
+            "y": 444.125,
+            "w": 1495,
+            "h": 36
+          },
+          {
+            "i": 4,
+            "cls": "el-table__row el-table__row--striped expanded",
+            "text": "2 24-0002 XXX部件名称 部件分类 YL30-751 25012103",
+            "x": 384,
+            "y": 496.625,
+            "w": 1536,
+            "h": 37
+          },
+          {
+            "i": 5,
+            "cls": "el-table__row expanded",
+            "text": "3 24-0003 XXX部件名称 部件分类 YL30-751 25012103",
+            "x": 384,
+            "y": 533.625,
+            "w": 1536,
+            "h": 37
+          },
+          {
+            "i": 6,
+            "cls": "el-table__row el-table__row--striped expanded",
+            "text": "4 24-0004 XXX部件名称 部件分类 YL30-751 25012103",
+            "x": 384,
+            "y": 570.625,
+            "w": 1536,
+            "h": 37
+          },
+          {
+            "i": 7,
+            "cls": "el-table__row expanded",
+            "text": "5 24-0005 XXX部件名称 部件分类 YL30-751 25012103",
+            "x": 384,
+            "y": 607.625,
+            "w": 1536,
+            "h": 37
+          },
+          {
+            "i": 8,
+            "cls": "el-table__row el-table__row--striped expanded",
+            "text": "6 24-0006 XXX部件名称 部件分类 YL30-751 25012103",
+            "x": 384,
+            "y": 644.625,
+            "w": 1536,
+            "h": 37
+          },
+          {
+            "i": 9,
+            "cls": "el-table__row expanded",
+            "text": "7 24-0007 XXX部件名称 部件分类 YL30-751 25012103",
+            "x": 384,
+            "y": 681.625,
+            "w": 1536,
+            "h": 37
+          },
+          {
+            "i": 10,
+            "cls": "el-table__row el-table__row--striped expanded",
+            "text": "8 24-0008 XXX部件名称 部件分类 YL30-751 25012103",
+            "x": 384,
+            "y": 718.625,
+            "w": 1536,
+            "h": 37
+          }
+        ]
+      },
+      {
+        "bi": 1,
+        "cls": "el-table__body",
+        "rect": {
+          "x": 384,
+          "y": 319.625,
+          "w": 1536,
+          "h": 516
+        },
+        "rows": [
+          {
+            "i": 0,
+            "cls": "el-table__row expanded",
+            "text": "详情",
+            "x": 384,
+            "y": 319.625,
+            "w": 1536,
+            "h": 37
+          },
+          {
+            "i": 1,
+            "cls": "custom-expand-tr",
+            "text": "",
+            "x": 384,
+            "y": 356.625,
+            "w": 1536,
+            "h": 220
+          },
+          {
+            "i": 2,
+            "cls": "el-table__row el-table__row--striped expanded",
+            "text": "详情",
+            "x": 384,
+            "y": 576.625,
+            "w": 1536,
+            "h": 37
+          },
+          {
+            "i": 3,
+            "cls": "el-table__row expanded",
+            "text": "详情",
+            "x": 384,
+            "y": 613.625,
+            "w": 1536,
+            "h": 37
+          },
+          {
+            "i": 4,
+            "cls": "el-table__row el-table__row--striped expanded",
+            "text": "详情",
+            "x": 384,
+            "y": 650.625,
+            "w": 1536,
+            "h": 37
+          },
+          {
+            "i": 5,
+            "cls": "el-table__row expanded",
+            "text": "详情",
+            "x": 384,
+            "y": 687.625,
+            "w": 1536,
+            "h": 37
+          },
+          {
+            "i": 6,
+            "cls": "el-table__row el-table__row--striped expanded",
+            "text": "详情",
+            "x": 384,
+            "y": 724.625,
+            "w": 1536,
+            "h": 37
+          },
+          {
+            "i": 7,
+            "cls": "el-table__row expanded",
+            "text": "详情",
+            "x": 384,
+            "y": 761.625,
+            "w": 1536,
+            "h": 37
+          },
+          {
+            "i": 8,
+            "cls": "el-table__row el-table__row--striped expanded",
+            "text": "详情",
+            "x": 384,
+            "y": 798.625,
+            "w": 1536,
+            "h": 37
+          }
+        ]
+      }
+    ]
+  },
+  "buttons": []
+}

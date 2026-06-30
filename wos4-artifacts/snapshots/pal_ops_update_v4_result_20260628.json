@@ -1,0 +1,90 @@
+{
+  "result": {
+    "status": "done",
+    "at": "2026-06-28T05:14:07.592Z",
+    "repoGuid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+    "updateVersion": 4,
+    "update": {
+      "funcname": "IUpdatePUInstance",
+      "setRunInfo": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "res": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": {
+          "errorcode": 0,
+          "errormsg": "success"
+        },
+        "traceID": "5189058352950090752",
+        "consumeTime": 3089
+      }
+    },
+    "polls": [
+      {
+        "i": 0,
+        "cfg": {
+          "funcname": "IQuerySTRepoCfgInfo",
+          "setRunInfo": {
+            "ret": 0,
+            "msg": "修改成功!"
+          },
+          "res": {
+            "errorcodes": [
+              0
+            ],
+            "ret": 0,
+            "returndata": {
+              "errorcode": 0,
+              "errormsg": "success",
+              "strepocfglist": [
+                {
+                  "deploy_state": "已部署",
+                  "running_state": "已启动",
+                  "strepocfgguid": "92d89140-0736-41f2-873b-6bfab8f3d276",
+                  "strepocfgname": "PalimpsestBack_0626R2",
+                  "strepocfgver": 7
+                }
+              ]
+            },
+            "traceID": "5189061552564794368",
+            "consumeTime": 96
+          }
+        },
+        "obj": {
+          "funcname": "IQuerySTObjectInfo",
+          "setRunInfo": {
+            "ret": 0,
+            "msg": "修改成功!"
+          },
+          "res": {
+            "errorcodes": [
+              0
+            ],
+            "ret": 0,
+            "returndata": {
+              "errorcode": 0,
+              "errormsg": "success",
+              "stobjectlist": [
+                {
+                  "deploy_state": "已部署",
+                  "running_state": "已启动",
+                  "stobjectguid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+                  "stobjectname": "PalimpsestL1_0626R2"
+                }
+              ]
+            },
+            "traceID": "5189061691764259840",
+            "consumeTime": 103
+          }
+        },
+        "t": "2026-06-28T05:14:10.992Z"
+      }
+    ],
+    "doneAt": "2026-06-28T05:14:10.992Z"
+  },
+  "text": "<strong>We're sorry but app-master doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>KingFusion4.5_部署系统工程列表名称引滦原水处理测试mwq测试张测试1盛云_孙宇飞_Noctiluca盛云_孙宇飞_CRUD工程_0620信息管理系统盛云_孙宇飞_Palimpsest工程_0624盛云_孙宇飞_Palimpsest工程_0626接口测试共 11 条10条/页20条/页50条/页100条/页12前往页 管控单元实例  数字孪生可视化  工作流实例  系统服务配置  采集设备实例  云管理  批量撤销部署  批量部署  批量启动  批量停止   实例名称版本云数据区部署状态运行状态操作PalimpsestL1无未部署未启动部署启动 更新 部分更新 删除 全部展开PalimpsestL1_0626无未部署未启动部署启动 更新 部分更新 删除 全部展开PalimpsestL1_0626R23本云area0已部署已启动撤销部署停止 更新 部分更新 删除 全部展开\n          \n          body #RContainerk0211f401829ebb881c4581b5b931da6 #k0cf2e5501c87454b2c448de64169255 p\n{\nfont-family: Source Han Sans;\nfont-size: 18px;\nfont-weight: bold;\nline-height: normal;\nletter-spacing: normal;\ncolor: #333333;\n}#RContainerk0211f401829ebb881c4581b5b931da6 #k0cf2e5501c87454b2c448de64169255 {\n          background:rgba(255, 255, 255, 0);\n          border-width:0px;\n          border-style:null;\n          border-color:#000000;\n          text-align:left;\n          align-items:center;\n      }\n      #RContainerk0211f401829ebb881c4581b5b931da6 #k0cf2e5501c87454b2c448de64169255 p{\n          font-family:微软雅黑;\n          font-size:18px;\n      }\n      #RContaine"
+}

@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "path": "top.2.0",
+  "rowSource": "totalData",
+  "row": {
+    "description": "Palimpsest backend runtime instance 0626 R2",
+    "displayname": "PalimpsestBack_0626R2",
+    "guid": "92d89140-0736-41f2-873b-6bfab8f3d276",
+    "id": "288230376151751586",
+    "instancetype": "2",
+    "modeleditenvguid": "c4902fcf-26f8-434a-82aa-4d04297930fd",
+    "modelguid": "059ec133-cbf6-4212-b138-0ee081c1ac78",
+    "modelname": "盛云科技_孙宇飞_Palimpsest_后台_0623",
+    "modelversion": "4",
+    "name": "PalimpsestBack_0626R2",
+    "parentguid": "",
+    "parentrepoguid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+    "label": "PalimpsestBack_0626R2",
+    "rowIndex": "1",
+    "timeStamp": {},
+    "rowSelectStatus": true
+  },
+  "calls": [
+    {
+      "name": "client",
+      "api": "SetVariable",
+      "ret": {
+        "code": -1,
+        "msg": "操作失败"
+      }
+    },
+    {
+      "name": "client",
+      "api": "GetVariable"
+    },
+    {
+      "name": "frame",
+      "api": "SetVariable"
+    },
+    {
+      "name": "frame",
+      "api": "GetVariable"
+    }
+  ],
+  "sigs": [
+    {
+      "k": "ShowChild",
+      "type": "function",
+      "len": 1,
+      "src": "function () { [native code] }"
+    },
+    {
+      "k": "setChild",
+      "type": "undefined",
+      "src": "undefined"
+    },
+    {
+      "k": "KMSetChildMng",
+      "type": "object",
+      "src": "[object Map]"
+    },
+    {
+      "k": "ShowChildByID",
+      "type": "function",
+      "len": 3,
+      "src": "function () { [native code] }"
+    }
+  ],
+  "showResults": [
+    {
+      "try": "nameOnly",
+      "ret": {}
+    },
+    {
+      "try": "nameObj",
+      "ret": {}
+    }
+  ],
+  "dialogs": [],
+  "body": "KingFusion4.5_组态系统\n\n< 返回工程管理\n\n盛云_孙宇飞_Palimpsest工程_0626\n\n数字孪生实例配置\n管控单元实例配置\n工作流实例配置\n数据源实例化\n采集设备实例配置\n数字孪生可视化\n系统服务配置\n报警转发\n采集管理\n数据源管理\n安全设置\n电子签名管理\n\n时空列表\n\nKF4.5Root\nPalimpsestL1\nPalimpsestL1_0626\nPalimpsestL1_0626R2\n\n实例列表\n\n新建\n删除\n更多操作 \n\t序号\t名称\t显示名称\t描述\t模型\t模型版本\t操作\n\t\n1\n\t\nPalimpsestBack_0626R2\n\t\nPalimpsestBack_0626R2\n\t\nPalimpsest backend runtime instance 0626 R2\n\t\n盛云科技_孙宇飞_Palimpsest_后台_0623\n\t\nv4\n\t\n编辑属性切换模型版本形参管理提交版本删除"
+}

@@ -1,0 +1,11 @@
+{
+  "createdAt": "2026-06-27T16:44:18",
+  "task": "修正时空对象管理平台按实时/历史/计划形态查业务事的 skill 规则",
+  "files": [
+    ".ai/skills/wos4-instantiated-spacetime-refind/SKILL.md",
+    "MEMORY.md",
+    "WOS4_deep_test_notes.md",
+    ".ai/skills/wos4-instantiated-spacetime-refind/agents/openai.yaml"
+  ],
+  "note": "修改前备份；本轮不修改 WOS4 平台对象。"
+}

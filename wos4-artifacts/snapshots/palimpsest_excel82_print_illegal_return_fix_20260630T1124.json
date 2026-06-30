@@ -1,0 +1,23 @@
+{
+  "page": "PalimpsestExcel_82",
+  "component": "excel_pdf_print_button",
+  "fix": "remove top-level return from ElementUIEval script and skip C-Lodop native print by default",
+  "scriptLength": 7162,
+  "hasIllegalReturn": false,
+  "hasNativeFlag": true,
+  "nativeDefault": "disabled unless window.__wos4ExcelUseNativePrint === true",
+  "dryRunVerification": {
+    "evalError": null,
+    "fallbackUsedCurrentSheet": true,
+    "fallbackMutatedSheet": false,
+    "htmlLength": 27917,
+    "htmlHasThead": true,
+    "htmlHasTfoot": true
+  },
+  "observedSave": ["保存成功"],
+  "observedHistorySubmitBeforeNativeSkip": ["保存成功", "生成历史版本成功！"],
+  "notes": [
+    "The reported Illegal return statement was caused by a top-level return inside the WOS ElementUIEval/eval script path.",
+    "The C-Lodop WebSocket failures are local native print service probes; default print path now uses browser fallback to avoid triggering C-Lodop unless explicitly enabled."
+  ]
+}

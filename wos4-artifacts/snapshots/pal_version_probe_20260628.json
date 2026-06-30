@@ -1,0 +1,191 @@
+{
+  "ctx": {
+    "path": "top.1.0",
+    "href": "http://221.239.19.118:13001/api/v1/GetFileContent/1/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/index.html"
+  },
+  "byName": [
+    {
+      "type": 1001,
+      "ret": -19869,
+      "ok": true,
+      "hit": false
+    },
+    {
+      "type": 1002,
+      "ret": -10002,
+      "ok": true,
+      "hit": false
+    },
+    {
+      "type": 1003,
+      "ret": -10002,
+      "ok": true,
+      "hit": false
+    },
+    {
+      "type": 1004,
+      "ret": 0,
+      "ok": true,
+      "hit": false
+    },
+    {
+      "type": 1005,
+      "ret": -19783,
+      "ok": true,
+      "hit": false
+    },
+    {
+      "type": 1006,
+      "ret": -19783,
+      "ok": true,
+      "hit": false
+    },
+    {
+      "type": 1007,
+      "ret": -19783,
+      "ok": true,
+      "hit": false
+    },
+    {
+      "type": 1010,
+      "ret": -19783,
+      "ok": true,
+      "hit": false
+    },
+    {
+      "type": 1016,
+      "ret": -19783,
+      "ok": true,
+      "hit": false
+    },
+    {
+      "type": 1020,
+      "ret": -10002,
+      "ok": true,
+      "hit": false
+    },
+    {
+      "type": 1021,
+      "ret": -19869,
+      "ok": true,
+      "hit": false
+    },
+    {
+      "type": 1022,
+      "ret": -10002,
+      "ok": true,
+      "hit": false
+    },
+    {
+      "type": 1023,
+      "ret": -10002,
+      "ok": true,
+      "hit": false
+    },
+    {
+      "type": 1024,
+      "ret": -10002,
+      "ok": true,
+      "hit": false
+    },
+    {
+      "type": 1025,
+      "ret": -19783,
+      "ok": true,
+      "hit": false
+    },
+    {
+      "type": 1030,
+      "ret": -19783,
+      "ok": true,
+      "hit": false
+    },
+    {
+      "type": 1040,
+      "ret": -19783,
+      "ok": true,
+      "hit": false
+    },
+    {
+      "type": 21001,
+      "ret": 536903681,
+      "ok": true,
+      "hit": false
+    }
+  ],
+  "custom": {
+    "ok": true,
+    "ret": -19783,
+    "raw": {
+      "ret": -19783,
+      "output": {
+        "errorcodes": [],
+        "ret": -19783,
+        "returndata": []
+      },
+      "traceID": "5189268285591010304",
+      "consumeTime": 42
+    }
+  },
+  "runtime": {
+    "ok": true,
+    "ret": 0,
+    "raw": {
+      "ret": 0,
+      "output": {
+        "errorcodes": [
+          0
+        ],
+        "ret": 0,
+        "returndata": [
+          {
+            "$id": "5911255985900486762",
+            "$guid": "c5f58116-5168-4c80-9f9e-af773aca3197",
+            "$name": "业务运行管理_运行后台@PalimpsestBack_0626R2",
+            "$spacetimeguid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+            "$modelguid": "4afd8750-11e8-4d9c-a3e0-49f539ab9ed1",
+            "$modelversion": 11,
+            "$basemodelguid": null,
+            "$basemodelversion": null,
+            "$repositoryguid": null
+          },
+          {
+            "$id": "5911255985900486763",
+            "$guid": "65fb4da8-3579-4db9-832f-ee569bced48d",
+            "$name": "业务事_运行后台@PalimpsestBack_0626R2",
+            "$spacetimeguid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+            "$modelguid": "f2cafeb2-27f2-43df-881f-0fcb6b49ab45",
+            "$modelversion": 12,
+            "$basemodelguid": null,
+            "$basemodelversion": null,
+            "$repositoryguid": null
+          },
+          {
+            "$id": "5911255985900486764",
+            "$guid": "9f8e1a2b-02aa-4e06-ab42-58b1ae17327e",
+            "$name": "请求式计算_HTTP服务模型@PalimpsestBack_0626R2",
+            "$spacetimeguid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+            "$modelguid": "74d7d99d-1c7b-4a24-a001-5558c1e95e65",
+            "$modelversion": 4,
+            "$basemodelguid": null,
+            "$basemodelversion": null,
+            "$repositoryguid": null
+          },
+          {
+            "$id": "5911255985900486765",
+            "$guid": "c4b5274a-ad97-49b0-b8c9-4dd367a27873",
+            "$name": "PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2",
+            "$spacetimeguid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+            "$modelguid": "aa5d8314-87b7-453c-96e6-21e4327a8778",
+            "$modelversion": 10,
+            "$basemodelguid": null,
+            "$basemodelversion": null,
+            "$repositoryguid": null
+          }
+        ]
+      },
+      "traceID": "5189268319987162112",
+      "consumeTime": 34
+    }
+  }
+}

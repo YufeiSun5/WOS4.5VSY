@@ -1,0 +1,1202 @@
+{
+  "tables": [
+    {
+      "key": "pal_assessment_table",
+      "UIName": "pal_assessment_table",
+      "prototypeName": "ElementTable",
+      "methods": [
+        "$set",
+        "AddRow",
+        "AppendRow",
+        "ClearFilter",
+        "ClearSelection",
+        "ClearSort",
+        "DeleteRow",
+        "Filter",
+        "GetCurrentPageData",
+        "GetCurrentRow",
+        "GetCurrentRowProp",
+        "GetData",
+        "GetMultipleSelectionRow",
+        "GetSelectionProp",
+        "SetCurrentRow",
+        "SetData",
+        "SetUIEventConfig",
+        "SetUIStyleConfig",
+        "Sort",
+        "ToggleAllSelection",
+        "ToggleRowExpansion",
+        "ToggleRowSelection",
+        "UpdateRow",
+        "_ToggleRowSelection",
+        "_ToggleRowSelectionChildren",
+        "__defineGetter__",
+        "__defineSetter__",
+        "__lookupGetter__",
+        "__lookupSetter__",
+        "_columnFilter",
+        "_getCallRetData",
+        "_getColumnsList",
+        "_getDataSetLink",
+        "_getSelectValue",
+        "_pluginSelectChange",
+        "_selectAllTreeNode",
+        "_setIsLazyLoad",
+        "_setIsVirtualScroll",
+        "_setTotalLength",
+        "_tableAnimate",
+        "_updateColFilterConfig",
+        "assignPropData",
+        "beginRowEdit",
+        "clearSelectStatus",
+        "deleteRow",
+        "diffColor",
+        "diffData",
+        "endRowEdit",
+        "evalDetailConfig",
+        "evalPropertyColor",
+        "evalStyleConfig",
+        "executeRunDataSet",
+        "expandChange",
+        "filterChange",
+        "filterMethodSystem",
+        "filterNode",
+        "filterShow",
+        "findSelectData",
+        "formatConfigToURL",
+        "formatURLToConfig",
+        "getAuthName",
+        "getBackgroundColor",
+        "getCellTooltip",
+        "getChildVariableByGuid",
+        "getColor",
+        "getColors",
+        "getDataSetValue",
+        "getDisplayData",
+        "getFilteredRule",
+        "getFontStyle",
+        "getGUID",
+        "getImageData",
+        "getLangRes",
+        "getLanguageRes",
+        "getLinkAnimate",
+        "getOption",
+        "getParamLinkCurrentSelect",
+        "getParamLinkSelection",
+        "getProperty",
+        "getPrototypeName",
+        "getRowColIndex",
+        "getRowData",
+        "getRowIndex",
+        "getRowKey",
+        "getScroll",
+        "getStyleOption",
+        "getTimePickerKey",
+        "getUIAuthKey",
+        "getUserDefinedEvents",
+        "getUuid",
+        "getVariableList",
+        "handleFilterChange",
+        "handleTotalData",
+        "iGetFiltersList",
+        "initTreeData",
+        "isTreeData",
+        "isTreeTable",
+        "mergeRow",
+        "multiSelectChangeLink",
+        "multiSetProperty",
+        "recursionSort",
+        "removePropertyStyleConfig",
+        "removeStyleConfig",
+        "rowClick",
+        "rowClickChangeLink",
+        "rowContextmenu",
+        "rowDbClick",
+        "select",
+        "selectAll",
+        "selectionChange",
+        "setBackgroundColor",
+        "setBorderColor",
+        "setChildren",
+        "setColor",
+        "setComponentProperty",
+        "setImage",
+        "setLanguageRes",
+        "setLinkAnimate",
+        "setOption",
+        "setParamLinkCurrentSelect",
+        "setParamLinkSelection",
+        "setProperty",
+        "setRowIndex",
+        "setSelectData",
+        "setSelectStatus",
+        "setSelection",
+        "setStyleOption",
+        "setTableLinkData",
+        "setTablePluginRadioInput",
+        "setTablePluginSelectInput",
+        "setUserDefinedEvents",
+        "sortAll",
+        "sortChange",
+        "sortRuleByAsc",
+        "sortRuleByDesc",
+        "styleUtilsSet",
+        "table",
+        "tableClick",
+        "tableRowClassName",
+        "tableStyle",
+        "uiRunDataSet",
+        "verifyTotalData"
+      ],
+      "propKeys": [
+        "KSCGUID",
+        "UIName",
+        "border",
+        "cellClassName",
+        "cellStyle",
+        "cellStyleConditions",
+        "checkStateSave",
+        "columns",
+        "currentPage",
+        "currentRow",
+        "customLabel",
+        "customPagination",
+        "data",
+        "dblLight",
+        "defaultExpandAll",
+        "detailConfig",
+        "elementuiType",
+        "emptyText",
+        "expandRowKeys",
+        "expands",
+        "fit",
+        "getSummary",
+        "groupName",
+        "headerCellClassName",
+        "headerCellStyle",
+        "headerRowClassName",
+        "headerRowStyle",
+        "height",
+        "highlightCurrentRow",
+        "icon",
+        "isVirtualScroll",
+        "langKeys",
+        "lazyLoad",
+        "leftTopPt",
+        "linkList",
+        "locationX",
+        "locationY",
+        "lock",
+        "objectType",
+        "operable",
+        "pageSize",
+        "pageSizes",
+        "pagerCount",
+        "pagination",
+        "paginationBackground",
+        "paginationLayout",
+        "parentGUID",
+        "prototypeName",
+        "rowClassName",
+        "rowStyle",
+        "rowStyleConditions",
+        "runVisible",
+        "show",
+        "showCustomLabel",
+        "showHeader",
+        "showSummary",
+        "singleSelect",
+        "spanMethodConfig",
+        "stripe",
+        "styleConfig",
+        "styleOption",
+        "sumText",
+        "totalData",
+        "totalLength",
+        "treeProps",
+        "uiInputLinkList",
+        "uiOutputLinkList",
+        "visible"
+      ],
+      "detailConfig": "this.table({\"border\":false,\"fit\":true,\"showHeader\":true,\"emptyText\":\"暂无匹配数据\",\"pagination\":true,\"pageSize\":10,\"currentPage\":1,\"columns\":[{\"prop\":\"name\",\"label\":\"姓名\",\"minWidth\":\"90\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"studentId\",\"label\":\"学号\",\"minWidth\":\"130\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"dept\",\"label\":\"部门\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"mentor\",\"label\":\"导师\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"professional\",\"label\":\"专业能力\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"attitude\",\"label\":\"工作态度\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"task\",\"label\":\"任务完成\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"score\",\"label\":\"综合评分\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"status\",\"label\":\"状态\",\"minWidth\":\"85\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"updated\",\"label\":\"更新时间\",\"minWidth\":\"135\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"viewAction\",\"label\":\"查看\",\"minWidth\":\"54\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"scoreAction\",\"label\":\"评分\",\"minWidth\":\"54\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"editAction\",\"label\":\"编辑\",\"minWidth\":\"54\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"moreAction\",\"label\":\"更多\",\"minWidth\":\"64\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false}],\"totalData\":[{\"name\":\"李明轩\",\"studentId\":\"S2024041001\",\"dept\":\"产品部\",\"mentor\":\"王思远\",\"professional\":\"97%\",\"attitude\":\"85%\",\"task\":\"85%\",\"score\":\"92.6\",\"status\":\"已完成\",\"updated\":\"2024-06-12 14:30\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\"},{\"name\":\"张雨婷\",\"studentId\":\"S2024041002\",\"dept\":\"研发部\",\"mentor\":\"陈浩然\",\"professional\":\"96%\",\"attitude\":\"84%\",\"task\":\"84%\",\"score\":\"89.3\",\"status\":\"已完成\",\"updated\":\"2024-06-11 11:20\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\"},{\"name\":\"王子涵\",\"studentId\":\"S2024041003\",\"dept\":\"设计部\",\"mentor\":\"刘佳怡\",\"professional\":\"95%\",\"attitude\":\"83%\",\"task\":\"83%\",\"score\":\"87.4\",\"status\":\"已完成\",\"updated\":\"2024-06-10 16:45\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\"},{\"name\":\"赵天宇\",\"studentId\":\"S2024041004\",\"dept\":\"市场部\",\"mentor\":\"孙一凡\",\"professional\":\"95%\",\"attitude\":\"82%\",\"task\":\"82%\",\"score\":\"85.1\",\"status\":\"已完成\",\"updated\":\"2024-06-09 09:15\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\"},{\"name\":\"陈欣怡\",\"studentId\":\"S2024041005\",\"dept\":\"运营部\",\"mentor\":\"周子墨\",\"professional\":\"93%\",\"attitude\":\"80%\",\"task\":\"80%\",\"score\":\"83.6\",\"status\":\"待考核\",\"updated\":\"2024-06-08 10:05\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\"},{\"name\":\"刘宇航\",\"studentId\":\"S2024041006\",\"dept\":\"测试部\",\"mentor\":\"吴昊天\",\"professional\":\"92%\",\"attitude\":\"78%\",\"task\":\"78%\",\"score\":\"81.2\",\"status\":\"待考核\",\"updated\":\"2024-06-07 15:40\",\"viewAction\":\"查看\",\"scoreAction\":\"评分\",\"editAction\":\"编辑\",\"moreAction\":\"更多▾\"}]})",
+      "columns": [
+        {
+          "prop": "name",
+          "label": "姓名",
+          "minWidth": "90",
+          "align": "center",
+          "type": "",
+          "columnKey": "",
+          "fixed": false
+        },
+        {
+          "prop": "studentId",
+          "label": "学号",
+          "minWidth": "130",
+          "align": "center",
+          "type": "",
+          "columnKey": "",
+          "fixed": false
+        },
+        {
+          "prop": "dept",
+          "label": "部门",
+          "minWidth": "85",
+          "align": "center",
+          "type": "",
+          "columnKey": "",
+          "fixed": false
+        },
+        {
+          "prop": "mentor",
+          "label": "导师",
+          "minWidth": "85",
+          "align": "center",
+          "type": "",
+          "columnKey": "",
+          "fixed": false
+        },
+        {
+          "prop": "professional",
+          "label": "专业能力",
+          "minWidth": "85",
+          "align": "center",
+          "type": "",
+          "columnKey": "",
+          "fixed": false
+        },
+        {
+          "prop": "attitude",
+          "label": "工作态度",
+          "minWidth": "85",
+          "align": "center",
+          "type": "",
+          "columnKey": "",
+          "fixed": false
+        },
+        {
+          "prop": "task",
+          "label": "任务完成",
+          "minWidth": "85",
+          "align": "center",
+          "type": "",
+          "columnKey": "",
+          "fixed": false
+        },
+        {
+          "prop": "score",
+          "label": "综合评分",
+          "minWidth": "85",
+          "align": "center",
+          "type": "",
+          "columnKey": "",
+          "fixed": false
+        },
+        {
+          "prop": "status",
+          "label": "状态",
+          "minWidth": "85",
+          "align": "center",
+          "type": "",
+          "columnKey": "",
+          "fixed": false
+        },
+        {
+          "prop": "updated",
+          "label": "更新时间",
+          "minWidth": "135",
+          "align": "center",
+          "type": "",
+          "columnKey": "",
+          "fixed": false
+        },
+        {
+          "prop": "viewAction",
+          "label": "查看",
+          "minWidth": "54",
+          "align": "center",
+          "type": "",
+          "columnKey": "",
+          "fixed": false
+        },
+        {
+          "prop": "scoreAction",
+          "label": "评分",
+          "minWidth": "54",
+          "align": "center",
+          "type": "",
+          "columnKey": "",
+          "fixed": false
+        },
+        {
+          "prop": "editAction",
+          "label": "编辑",
+          "minWidth": "54",
+          "align": "center",
+          "type": "",
+          "columnKey": "",
+          "fixed": false
+        },
+        {
+          "prop": "moreAction",
+          "label": "更多",
+          "minWidth": "64",
+          "align": "center",
+          "type": "",
+          "columnKey": "",
+          "fixed": false
+        }
+      ],
+      "totalDataSample": [
+        {
+          "name": "李明轩",
+          "studentId": "S2024041001",
+          "dept": "产品部",
+          "mentor": "王思远",
+          "professional": "97%",
+          "attitude": "85%",
+          "task": "85%",
+          "score": "92.6",
+          "status": "已完成",
+          "updated": "2024-06-12 14:30",
+          "viewAction": "查看",
+          "scoreAction": "评分",
+          "editAction": "编辑",
+          "moreAction": "更多▾",
+          "rowIndex": "1"
+        },
+        {
+          "name": "张雨婷",
+          "studentId": "S2024041002",
+          "dept": "研发部",
+          "mentor": "陈浩然",
+          "professional": "96%",
+          "attitude": "84%",
+          "task": "84%",
+          "score": "89.3",
+          "status": "已完成",
+          "updated": "2024-06-11 11:20",
+          "viewAction": "查看",
+          "scoreAction": "评分",
+          "editAction": "编辑",
+          "moreAction": "更多▾",
+          "rowIndex": "2"
+        }
+      ]
+    },
+    {
+      "key": "AssessmentTableCol",
+      "UIName": "",
+      "prototypeName": "",
+      "methods": [
+        "$set",
+        "GetOptions",
+        "SetOptions",
+        "__defineGetter__",
+        "__defineSetter__",
+        "__lookupGetter__",
+        "__lookupSetter__",
+        "_getPageInfoByName",
+        "_initUiDataLink",
+        "_setPage",
+        "clearCol",
+        "colContextMenu",
+        "colTipChange",
+        "copyColSelf",
+        "dropEvent",
+        "endSetPageQueue",
+        "getAllWidth",
+        "getAutoColHeight",
+        "getAutoOffset",
+        "getAutoResponseColWidth",
+        "getColDragResize",
+        "getColHeight",
+        "getColHeightStrategy",
+        "getColShow",
+        "getColVisible",
+        "getColWidth",
+        "getComponentType",
+        "getDisplayValue",
+        "getGUID",
+        "getHorPosition",
+        "getLockWidthHeight",
+        "getLocked",
+        "getMinSize",
+        "getName",
+        "getObject",
+        "getOffset",
+        "getOffsetRow",
+        "getOffsetStrategy",
+        "getOffsetValid",
+        "getPageJumpOption",
+        "getProjectDataById",
+        "getProperty",
+        "getResponseColWidth",
+        "getResponseShow",
+        "getSelectStatus",
+        "getSizeValue",
+        "getStrategy",
+        "getTopGap",
+        "getVerPosition",
+        "handColResize",
+        "handleColBackGroundColor",
+        "handleColStartResize",
+        "handleColStopResize",
+        "handleSelect",
+        "handleSelectItem",
+        "offsetAnimation",
+        "offsetAnimationStyle",
+        "pasteColCustom",
+        "pasteColSelfAfter",
+        "pasteColSelfPrev",
+        "processSetPageQueue",
+        "removeColSelf",
+        "selectedCol",
+        "setAllDisplayWidth",
+        "setAllWidth",
+        "setChild",
+        "setColAnimationNotShow",
+        "setColAnimationToShow",
+        "setColDragResize",
+        "setColHeight",
+        "setColHeightStrategy",
+        "setColOffsetAnimation",
+        "setColShow",
+        "setColVisible",
+        "setConditionConfig",
+        "setGUID",
+        "setHorPosition",
+        "setLockWidthHeight",
+        "setLocked",
+        "setLockedHeight",
+        "setMinSize",
+        "setName",
+        "setObject",
+        "setOffset",
+        "setOffsetAnimation",
+        "setOffsetStrategy",
+        "setOffsetValid",
+        "setPage",
+        "setPageByID",
+        "setPageJumpConfig",
+        "setProperty",
+        "setResponseColWidth",
+        "setResponseColWidthLG",
+        "setResponseColWidthMD",
+        "setResponseColWidthSM",
+        "setResponseColWidthXL",
+        "setResponseColWidthXS",
+        "setResponseShow",
+        "setResponseShowLG",
+        "setResponseShowMD",
+        "setResponseShowSM",
+        "setResponseShowXL",
+        "setResponseShowXS",
+        "setSelectStatus",
+        "setStrategy",
+        "setVerPosition",
+        "updateSelectFlag"
+      ],
+      "propKeys": [],
+      "detailConfig": "",
+      "columns": null,
+      "totalDataSample": []
+    }
+  ],
+  "opButtons": [
+    {
+      "text": "评分",
+      "tag": "DIV",
+      "cls": "toolkit_group_item",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "text": "评分",
+      "tag": "DIV",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "text": "评分",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "text": "评分",
+      "tag": "DIV",
+      "cls": "toolkit_group_item",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "text": "评分",
+      "tag": "DIV",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "text": "评分",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "text": "查看",
+      "tag": "DIV",
+      "cls": "cell",
+      "rect": {
+        "x": 1216.3572998046875,
+        "y": 512.1026611328125,
+        "w": 44.2088623046875,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "text": "查看",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 1229.6199951171875,
+        "y": 513.997314453125,
+        "w": 17.6834716796875,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "text": "评分",
+      "tag": "DIV",
+      "cls": "cell",
+      "rect": {
+        "x": 1260.566162109375,
+        "y": 512.1026611328125,
+        "w": 44.208984375,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "text": "评分",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 1273.828857421875,
+        "y": 513.997314453125,
+        "w": 17.6834716796875,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "text": "编辑",
+      "tag": "DIV",
+      "cls": "cell",
+      "rect": {
+        "x": 1304.775146484375,
+        "y": 512.1026611328125,
+        "w": 44.2088623046875,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "text": "编辑",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 1318.037841796875,
+        "y": 513.997314453125,
+        "w": 17.6834716796875,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "text": "更多",
+      "tag": "DIV",
+      "cls": "cell",
+      "rect": {
+        "x": 1348.9840087890625,
+        "y": 512.1026611328125,
+        "w": 53.0506591796875,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "text": "更多",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 1366.6676025390625,
+        "y": 513.997314453125,
+        "w": 17.6834716796875,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "text": "查看",
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "rect": {
+        "x": 1216.3572998046875,
+        "y": 537.049072265625,
+        "w": 116.8377685546875,
+        "h": 15.1573486328125
+      }
+    },
+    {
+      "text": "查看",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 1265.9344482421875,
+        "y": 539.5753173828125,
+        "w": 17.6834716796875,
+        "h": 10.1048583984375
+      }
+    },
+    {
+      "text": "评分",
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "rect": {
+        "x": 1260.566162109375,
+        "y": 537.9964599609375,
+        "w": 42.94580078125,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "text": "评分",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 1273.197265625,
+        "y": 539.89111328125,
+        "w": 17.68359375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "text": "编辑",
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "rect": {
+        "x": 1304.775146484375,
+        "y": 537.9964599609375,
+        "w": 42.94580078125,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "text": "编辑",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 1317.40625,
+        "y": 539.89111328125,
+        "w": 17.68359375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "text": "更多▾",
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "rect": {
+        "x": 1348.9840087890625,
+        "y": 537.9964599609375,
+        "w": 51.78759765625,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "text": "更多▾",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 1362.33544921875,
+        "y": 539.89111328125,
+        "w": 25.07470703125,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "text": "查看",
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "rect": {
+        "x": 1216.3572998046875,
+        "y": 561.0482177734375,
+        "w": 116.8377685546875,
+        "h": 15.1573486328125
+      }
+    },
+    {
+      "text": "查看",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 1265.9344482421875,
+        "y": 563.574462890625,
+        "w": 17.6834716796875,
+        "h": 10.1048583984375
+      }
+    },
+    {
+      "text": "评分",
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "rect": {
+        "x": 1260.566162109375,
+        "y": 561.9955444335938,
+        "w": 42.94580078125,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "text": "评分",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 1273.197265625,
+        "y": 563.8901977539062,
+        "w": 17.68359375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "text": "编辑",
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "rect": {
+        "x": 1304.775146484375,
+        "y": 561.9955444335938,
+        "w": 42.94580078125,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "text": "编辑",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 1317.40625,
+        "y": 563.8901977539062,
+        "w": 17.68359375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "text": "更多▾",
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "rect": {
+        "x": 1348.9840087890625,
+        "y": 561.9955444335938,
+        "w": 51.78759765625,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "text": "更多▾",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 1362.33544921875,
+        "y": 563.8901977539062,
+        "w": 25.07470703125,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "text": "查看",
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "rect": {
+        "x": 1216.3572998046875,
+        "y": 585.04736328125,
+        "w": 116.8377685546875,
+        "h": 15.15728759765625
+      }
+    },
+    {
+      "text": "查看",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 1265.9344482421875,
+        "y": 587.5736083984375,
+        "w": 17.6834716796875,
+        "h": 10.1048583984375
+      }
+    },
+    {
+      "text": "评分",
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "rect": {
+        "x": 1260.566162109375,
+        "y": 585.99462890625,
+        "w": 42.94580078125,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "text": "评分",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 1273.197265625,
+        "y": 587.8892822265625,
+        "w": 17.68359375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "text": "编辑",
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "rect": {
+        "x": 1304.775146484375,
+        "y": 585.99462890625,
+        "w": 42.94580078125,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "text": "编辑",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 1317.40625,
+        "y": 587.8892822265625,
+        "w": 17.68359375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "text": "更多▾",
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "rect": {
+        "x": 1348.9840087890625,
+        "y": 585.99462890625,
+        "w": 51.78759765625,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "text": "更多▾",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 1362.33544921875,
+        "y": 587.8892822265625,
+        "w": 25.07470703125,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "text": "查看",
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "rect": {
+        "x": 1216.3572998046875,
+        "y": 609.0464477539062,
+        "w": 116.8377685546875,
+        "h": 15.1573486328125
+      }
+    },
+    {
+      "text": "查看",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 1265.9344482421875,
+        "y": 611.5726928710938,
+        "w": 17.6834716796875,
+        "h": 10.1048583984375
+      }
+    },
+    {
+      "text": "评分",
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "rect": {
+        "x": 1260.566162109375,
+        "y": 609.9937744140625,
+        "w": 42.94580078125,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "text": "评分",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 1273.197265625,
+        "y": 611.888427734375,
+        "w": 17.68359375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "text": "编辑",
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "rect": {
+        "x": 1304.775146484375,
+        "y": 609.9937744140625,
+        "w": 42.94580078125,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "text": "编辑",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 1317.40625,
+        "y": 611.888427734375,
+        "w": 17.68359375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "text": "更多▾",
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "rect": {
+        "x": 1348.9840087890625,
+        "y": 609.9937744140625,
+        "w": 51.78759765625,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "text": "更多▾",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 1362.33544921875,
+        "y": 611.888427734375,
+        "w": 25.07470703125,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "text": "查看",
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "rect": {
+        "x": 1216.3572998046875,
+        "y": 633.0455932617188,
+        "w": 116.8377685546875,
+        "h": 15.1573486328125
+      }
+    },
+    {
+      "text": "查看",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 1265.9344482421875,
+        "y": 635.5718383789062,
+        "w": 17.6834716796875,
+        "h": 10.1048583984375
+      }
+    },
+    {
+      "text": "评分",
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "rect": {
+        "x": 1260.566162109375,
+        "y": 633.992919921875,
+        "w": 42.94580078125,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "text": "评分",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 1273.197265625,
+        "y": 635.8875732421875,
+        "w": 17.68359375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "text": "编辑",
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "rect": {
+        "x": 1304.775146484375,
+        "y": 633.992919921875,
+        "w": 42.94580078125,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "text": "编辑",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 1317.40625,
+        "y": 635.8875732421875,
+        "w": 17.68359375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "text": "更多▾",
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "rect": {
+        "x": 1348.9840087890625,
+        "y": 633.992919921875,
+        "w": 51.78759765625,
+        "h": 14.5257568359375
+      }
+    },
+    {
+      "text": "更多▾",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 1362.33544921875,
+        "y": 635.8875732421875,
+        "w": 25.07470703125,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "text": "查看",
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "rect": {
+        "x": 1216.3572998046875,
+        "y": 657.044677734375,
+        "w": 116.8377685546875,
+        "h": 15.1573486328125
+      }
+    },
+    {
+      "text": "查看",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 1265.9344482421875,
+        "y": 659.5709228515625,
+        "w": 17.6834716796875,
+        "h": 10.1048583984375
+      }
+    },
+    {
+      "text": "评分",
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "rect": {
+        "x": 1260.566162109375,
+        "y": 657.9920043945312,
+        "w": 42.94580078125,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "text": "评分",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 1273.197265625,
+        "y": 659.8866577148438,
+        "w": 17.68359375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "text": "编辑",
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "rect": {
+        "x": 1304.775146484375,
+        "y": 657.9920043945312,
+        "w": 42.94580078125,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "text": "编辑",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 1317.40625,
+        "y": 659.8866577148438,
+        "w": 17.68359375,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "text": "更多▾",
+      "tag": "DIV",
+      "cls": "cell el-tooltip",
+      "rect": {
+        "x": 1348.9840087890625,
+        "y": 657.9920043945312,
+        "w": 51.78759765625,
+        "h": 14.52581787109375
+      }
+    },
+    {
+      "text": "更多▾",
+      "tag": "SPAN",
+      "cls": "",
+      "rect": {
+        "x": 1362.33544921875,
+        "y": 659.8866577148438,
+        "w": 25.07470703125,
+        "h": 10.10491943359375
+      }
+    },
+    {
+      "text": "编辑",
+      "tag": "DIV",
+      "cls": "cell",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    }
+  ],
+  "bodyText": "文件(F)\n提交\n预览\n\n组件\n\n布局容器\nUI组件\n图表组件\n流程图\n精灵图库\nPalimpsestContent_82\n状态\n\t\n部门\n\t\n导师\n\t\n批次\n\t\n时间\n\t\n关键词\n\t\nBackend Smoke\n重置\n导出\n\n姓名\t学号\t部门\t导师\t专业能力\t工作态度\t任务完成\t综合评分\t状态\t更新时间\t查看\t评分\t编辑\t更多\n李明轩\n\t\nS2024041001\n\t\n产品部\n\t\n王思远\n\t\n97%\n\t\n85%\n\t\n85%\n\t\n92.6\n\t已完成\t\n2024-06-12 14:30\n\t查看\t\n评分\n\t\n编辑\n\t\n更多▾\n\n\n张雨婷\n\t\nS2024041002\n\t\n研发部\n\t\n陈浩然\n\t\n96%\n\t\n84%\n\t\n84%\n\t\n89.3\n\t已完成\t\n2024-06-11 11:20\n\t查看\t\n评分\n\t\n编辑\n\t\n更多▾\n\n\n王子涵\n\t\nS2024041003\n\t\n设计部\n\t\n刘佳怡\n\t\n95%\n\t\n83%\n\t\n83%\n\t\n87.4\n\t已完成\t\n2024-06-10 16:45\n\t查看\t\n评分\n\t\n编辑\n\t\n更多▾\n\n\n赵天宇\n\t\nS2024041004\n\t\n市场部\n\t\n孙一凡\n\t\n95%\n\t\n82%\n\t\n82%\n\t\n85.1\n\t已完成\t\n2024-06-09 09:15\n\t查看\t\n评分\n\t\n编辑\n\t\n更多▾\n\n\n陈欣怡\n\t\nS2024041005\n\t\n运营部\n\t\n周子墨\n\t\n93%\n\t\n80%\n\t\n80%\n\t\n83.6\n\t待考核\t\n2024-06-08 10:05\n\t查看\t\n评分\n\t\n编辑\n\t\n更多▾\n\n\n刘宇航\n\t\nS2024041006\n\t\n测试部\n\t\n吴昊天\n\t\n92%\n\t\n78%\n\t\n78%\n\t\n81.2\n\t待考核\t\n2024-06-07 15:40\n\t查看\t\n评分\n\t\n编辑\n\t\n更多▾\n共 6 条\n1\n前往页\n属性\n基本\n名称\n\t\n\n\n描述\n\t\n\n\n版本\n\t\n\n\n时空配置\n\t\n\n\n设备名称\n\t\n画面大小\n宽度\n\t\n\n\n高度\n\t\n窗口\n窗口样式\n\t\n\n\nAPP端横竖屏\n\t\n\n\n页面百分比自适应\n\t\n对象图层\n图层1\n鼠标位置：0, 0\n所选对象位置： 0, 0\n选择对象类型: , 位于\n共 0 个对象, 已选 1 个对象\n选择对象名称: pal_filter_keyword\n63%"
+}

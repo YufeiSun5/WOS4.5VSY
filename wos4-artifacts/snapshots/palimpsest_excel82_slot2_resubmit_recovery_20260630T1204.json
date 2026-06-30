@@ -1,0 +1,39 @@
+{
+  "page": "PalimpsestExcel_82",
+  "identity": "向学智_frontend-ai",
+  "session": "slot2",
+  "account": "xiang_xuezhi",
+  "task": "slot2 重新登录并恢复页面提交",
+  "time": "2026-06-30T12:04:37",
+  "diagnosis": {
+    "oldRuntimeTab": "public/index debugger tab only showed runtime buttons and was not the editor submit surface",
+    "blockingDialog": "old modeling iframe contained a delete confirmation child window: 删除 / 确定要删除所选？ / 取消 / 确认",
+    "wrongClick": "after refresh, the desktop card coordinates were rechecked; the real 建模系统客户端1 card was at x=128 y=152 w=68 h=112",
+    "recovery": "refresh top WOS page, reopen 建模系统客户端1, navigate to 盛云_孙宇飞_根组 -> 盛云科技_孙宇飞_Palimpsest_前端_0623 -> 页面精灵图 -> PalimpsestExcel_82"
+  },
+  "editor": {
+    "editorRuntime": "94054fd1-9b20-463a-8372-b69776349847_120/index.html",
+    "hasPageEditViewArea": true,
+    "hasComMapChildren": true,
+    "submitButtonSelector": "button.toolbar-history-submit",
+    "submitButtonHit": {
+      "x": 1790,
+      "y": 80,
+      "editorHitTag": "SPAN",
+      "editorHitText": "提交"
+    }
+  },
+  "submit": {
+    "versionDialogOpened": true,
+    "dialogText": "版本提交 / 提交说明 / 取消 / 确定",
+    "versionDescription": "slot2-resubmit-after-clean-session-20260630",
+    "filledField": "INPUT[type=text]",
+    "clickedOk": true,
+    "messages": [
+      "保存中,请稍后 ! ! !",
+      "保存成功",
+      "生成历史版本成功！"
+    ],
+    "success": true
+  }
+}

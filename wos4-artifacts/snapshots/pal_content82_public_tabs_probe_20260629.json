@@ -1,0 +1,42 @@
+[
+  {
+    "tab": {
+      "targetId": "B1B7B86D3350556BF5F8E6095E2469AF",
+      "title": "WellinOS4.0",
+      "url": "http://221.239.19.118:13001/public/index.html?id=6192730962611142763&parentid=0&cloudid=1&clientnumber=4611689054715413410&bs=true#/#{%22mode%22:%22debugger%22,%22FUType%22:%2221%22,%22type%22:1005,%22guid%22:%22%22,%22id%22:%22%22,%22guidVersion%22:{%22guid%22:%2260212e1d-16ab-41ef-82e2-89390b7c6511%22,%22version%22:0,%22id%22:%221441151880758560275%22},%22projectId%22:%22%22,%22isParamConfig%22:false,%22runModelName%22:%22PalimpsestContent_82%22}"
+    },
+    "hits": [
+      {
+        "path": "top.0",
+        "href": "http://221.239.19.118:13001/api/v1/GetFileContent/1/0/0/94054fd1-9b20-463a-8372-b69776349847_120/index.html?pal_ts=1782685802300",
+        "title": "KingStudio4.5",
+        "hit": true,
+        "text": "状态\n\t\n部门\n\t\n导师\n\t\n批次\n\t\n时间\n\t\n关键词\n\t\n查询真实数据\n重置\n导出\n\n记录ID\t学号\t批次\t导师\t专业能力\t工作态度\t任务完成\t综合评分\t状态\t更新时间\t操作\nPAL_DIRECT6_20260627175612\n\t\nS2026041001\n\t\n2024Q2\n\t\nM001\n\t\n38\n\t\n18\n\t\n18\n\t\n92\n\tdone\t\n2026-6-27 17:55:30\n\t查看 评分 编辑 更多\n\nPAL_DIRECT6_20260627210127\n\t\nS2026041001\n\t\n2024Q2\n\t\nM001\n\t\n38\n\t\n18\n\t\n18\n\t\n92\n\tdone\t\n2026-6-27 17:55:30\n\t查看 评分 编辑 更多\n\nPAL_REMAIN_A_20260628005847\n\t\nS2026041001\n\t\n2024Q2\n\t\nM001\n\t\n40\n\t\n19\n\t\n19\n\t\n98\n\tcompleted_by_submit\t\n2026-6-28 5:30:0\n\t查看 评分 编辑 更多\n共 3 条\n1\n前往页",
+        "runtime": {
+          "hasRows": true,
+          "rowCount": 3,
+          "first": {
+            "name": "PAL_DIRECT6_20260627175612",
+            "studentId": "S2026041001",
+            "dept": "2024Q2",
+            "mentor": "M001",
+            "professional": "38",
+            "attitude": "18",
+            "task": "18",
+            "score": "92",
+            "status": "done",
+            "updated": "2026-6-27 17:55:30",
+            "recordID": "216172782113783800",
+            "teamwork": "9",
+            "innovation": "9",
+            "comment": "direct create wrapped values",
+            "actions": "查看   评分   编辑   更多",
+            "rowIndex": "1"
+          },
+          "hasQuery": "undefined",
+          "hasMenu": "function"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,2154 @@
+{
+  "ok": true,
+  "path": "top.1.0.0",
+  "href": "http://221.239.19.118:13001/worker-space/index.html?guid=aa5d8314-87b7-453c-96e6-21e4327a8778&version=0&areaid=0&parentid=0&cloudid=1&type=1005",
+  "bodyText": "变量暂无数据监视 111 堆栈断点新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecordUpdateAssessmentRecordDeleteAssessmentRecordSubmitAssessmentScorePalimpsestHandleError当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC提交调试配置declareonCreateQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecord名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:1Trace(2, \"PalimpsestCrudService.enter\", strmapPara);编译信息 xxxxxxxxxxxxxx 编译成功 11:47:22 xxxxxxxxxxxxxx 行：1，列：1， 空格：4元语言属性基础信息名称:显示名称:描述:0 / 128ID:1441151880758560281GUID:aa5d8314-87b7-453c-96e6-21e4327a8778版本状态:编辑态上传图标:已配置上传对象类型:功能单元模型历史版本:提交查看仓库路径:KingFusion4.5_V1/产品仓库/KF4.5产品/KF4.5数字孪生模型/管控单元模型/盛云科技_孙宇飞_Palimpsest_后台_0623分类标签1:分类标签2:分类标签3:成员配置编辑成员名称成员值暂无数据12345678",
+  "globalKeys": [
+    "oncontextrestored",
+    "onloadedmetadata",
+    "ontimeupdate",
+    "ongotpointercapture",
+    "onlostpointercapture",
+    "onpointerdown",
+    "onpointermove",
+    "onpointerup",
+    "onpointercancel",
+    "onpointerover",
+    "onpointerout",
+    "onpointerenter",
+    "onpointerleave",
+    "clearInterval",
+    "createImageBitmap",
+    "setInterval",
+    "MonacoEnvironment"
+  ],
+  "scripts": [
+    "http://221.239.19.118:13001/worker-space/js/index.1780642363899.js"
+  ],
+  "appSummary": {
+    "version": "3.5.25",
+    "gpKeys": [
+      "$pinia",
+      "$i18n",
+      "$t",
+      "$rt",
+      "$d",
+      "$n",
+      "$tm",
+      "$te"
+    ],
+    "piniaKeys": [
+      "install",
+      "use",
+      "_p",
+      "_a",
+      "_e",
+      "_s",
+      "state"
+    ],
+    "storeKeys": []
+  },
+  "monaco": {
+    "has": false
+  },
+  "els": [
+    {
+      "i": 49,
+      "tag": "STYLE",
+      "cls": "monaco-colors",
+      "id": "",
+      "text": ".codicon-add:before { content: '\\ea60'; }\n.codicon-plus:before { content: '\\ea60'; }\n.codicon-gist-new:before { content: '\\ea60'; }\n.codicon-repo-create:before { content: '\\ea60'; }\n.codicon-lightbulb:before { content: '"
+    },
+    {
+      "i": 54,
+      "tag": "DIV",
+      "cls": "wos-root-app",
+      "id": "worker-space",
+      "text": "变量暂无数据监视 111 堆栈断点新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecordUpdateAssessmentRecordDeleteAssessmentReco"
+    },
+    {
+      "i": 55,
+      "tag": "DIV",
+      "cls": "editor-container fu-editor-container",
+      "id": "",
+      "text": "变量暂无数据监视 111 堆栈断点新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecordUpdateAssessmentRecordDeleteAssessmentReco"
+    },
+    {
+      "i": 56,
+      "tag": "DIV",
+      "cls": "editor-main",
+      "id": "",
+      "text": "变量暂无数据监视 111 堆栈断点新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecordUpdateAssessmentRecordDeleteAssessmentReco"
+    },
+    {
+      "i": 57,
+      "tag": "DIV",
+      "cls": "editor-aside editor-aside-main",
+      "id": "",
+      "text": "变量暂无数据监视 111 堆栈断点新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecordUpdateAssessmentRecordDeleteAssessmentReco"
+    },
+    {
+      "i": 58,
+      "tag": "DIV",
+      "cls": "editor-aside-comp-container",
+      "id": "",
+      "text": "变量暂无数据监视 111 堆栈断点新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecordUpdateAssessmentRecordDeleteAssessmentReco"
+    },
+    {
+      "i": 59,
+      "tag": "DIV",
+      "cls": "editor-aside-comp-item",
+      "id": "",
+      "text": "变量暂无数据监视 111 堆栈断点新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecordUpdateAssessmentRecordDeleteAssessmentReco"
+    },
+    {
+      "i": 60,
+      "tag": "DIV",
+      "cls": "editor-main",
+      "id": "",
+      "text": "变量暂无数据监视 111 堆栈断点新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecordUpdateAssessmentRecordDeleteAssessmentReco"
+    },
+    {
+      "i": 62,
+      "tag": "DIV",
+      "cls": "app-model-editor code-editor w100 h100 code-editor",
+      "id": "",
+      "text": "变量暂无数据监视 111 堆栈断点新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecordUpdateAssessmentRecordDeleteAssessmentReco"
+    },
+    {
+      "i": 63,
+      "tag": "DIV",
+      "cls": "script-editor-menu h100",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 64,
+      "tag": "DIV",
+      "cls": "menu-item wos-script-editor-function-mng is-active",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 68,
+      "tag": "DIV",
+      "cls": "menu-item wos-script-editor-debugger-mng",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 71,
+      "tag": "DIV",
+      "cls": "el-collapse el-collapse-icon-position-right code-editor-debugger-view w100 h100 script-editor-debugger",
+      "id": "",
+      "text": "变量暂无数据监视 111 堆栈断点"
+    },
+    {
+      "i": 76,
+      "tag": "SPAN",
+      "cls": "code-editor-debugger-variable",
+      "id": "",
+      "text": "变量"
+    },
+    {
+      "i": 96,
+      "tag": "DIV",
+      "cls": "title code-editor-debugger-watch",
+      "id": "",
+      "text": "监视"
+    },
+    {
+      "i": 113,
+      "tag": "DIV",
+      "cls": "title code-editor-debugger-stack",
+      "id": "",
+      "text": "堆栈"
+    },
+    {
+      "i": 131,
+      "tag": "DIV",
+      "cls": "title code-editor-debugger-breakpoint",
+      "id": "",
+      "text": "断点"
+    },
+    {
+      "i": 151,
+      "tag": "DIV",
+      "cls": "metalang-script-editor w100 h100",
+      "id": "",
+      "text": "新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecordUpdateAssessmentRecordDeleteAssessmentRecordSubmitAssessmen"
+    },
+    {
+      "i": 152,
+      "tag": "DIV",
+      "cls": "code-editor-metalang-model-function function-mng-panel w100 metalang-script-editor-model-functions",
+      "id": "",
+      "text": "新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecordUpdateAssessmentRecordDeleteAssessmentRecordSubmitAssessmen"
+    },
+    {
+      "i": 153,
+      "tag": "DIV",
+      "cls": "model-function-header",
+      "id": "",
+      "text": "新建"
+    },
+    {
+      "i": 154,
+      "tag": "DIV",
+      "cls": "function-add",
+      "id": "",
+      "text": "新建"
+    },
+    {
+      "i": 155,
+      "tag": "SPAN",
+      "cls": "model-function-add-text",
+      "id": "",
+      "text": "新建"
+    },
+    {
+      "i": 156,
+      "tag": "SPAN",
+      "cls": "icon iconfont icon-model-function-add cursor-pointer",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 157,
+      "tag": "DIV",
+      "cls": "function-search",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 158,
+      "tag": "DIV",
+      "cls": "el-input el-input--default el-input--suffix model-function-search-input",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 163,
+      "tag": "I",
+      "cls": "icon iconfont cursor-pointer wos-editor-search",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 164,
+      "tag": "DIV",
+      "cls": "el-scrollbar model-function-list",
+      "id": "",
+      "text": "declareonCreateonDestroyonExceptionQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecordUpdateAssessmentRecordDeleteAssessmentRecordSubmitAssessmentSc"
+    },
+    {
+      "i": 165,
+      "tag": "DIV",
+      "cls": "el-scrollbar__wrap el-scrollbar__wrap--hidden-default",
+      "id": "",
+      "text": "declareonCreateonDestroyonExceptionQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecordUpdateAssessmentRecordDeleteAssessmentRecordSubmitAssessmentSc"
+    },
+    {
+      "i": 166,
+      "tag": "DIV",
+      "cls": "el-scrollbar__view",
+      "id": "",
+      "text": "declareonCreateonDestroyonExceptionQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecordUpdateAssessmentRecordDeleteAssessmentRecordSubmitAssessmentSc"
+    },
+    {
+      "i": 167,
+      "tag": "P",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "id": "",
+      "text": "declare"
+    },
+    {
+      "i": 168,
+      "tag": "SPAN",
+      "cls": "model-function-list-item-text",
+      "id": "",
+      "text": "declare"
+    },
+    {
+      "i": 169,
+      "tag": "P",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "id": "",
+      "text": "onCreate"
+    },
+    {
+      "i": 170,
+      "tag": "SPAN",
+      "cls": "model-function-list-item-text",
+      "id": "",
+      "text": "onCreate"
+    },
+    {
+      "i": 171,
+      "tag": "P",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "id": "",
+      "text": "onDestroy"
+    },
+    {
+      "i": 172,
+      "tag": "SPAN",
+      "cls": "model-function-list-item-text",
+      "id": "",
+      "text": "onDestroy"
+    },
+    {
+      "i": 173,
+      "tag": "P",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "id": "",
+      "text": "onException"
+    },
+    {
+      "i": 174,
+      "tag": "SPAN",
+      "cls": "model-function-list-item-text",
+      "id": "",
+      "text": "onException"
+    },
+    {
+      "i": 175,
+      "tag": "P",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "id": "",
+      "text": "QueryAssessmentPage"
+    },
+    {
+      "i": 176,
+      "tag": "SPAN",
+      "cls": "model-function-list-item-text",
+      "id": "",
+      "text": "QueryAssessmentPage"
+    },
+    {
+      "i": 177,
+      "tag": "I",
+      "cls": "el-icon model-function-list-item-icon",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 183,
+      "tag": "P",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "id": "",
+      "text": "QueryAssessmentData"
+    },
+    {
+      "i": 184,
+      "tag": "SPAN",
+      "cls": "model-function-list-item-text",
+      "id": "",
+      "text": "QueryAssessmentData"
+    },
+    {
+      "i": 185,
+      "tag": "I",
+      "cls": "el-icon model-function-list-item-icon",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 191,
+      "tag": "P",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "id": "",
+      "text": "QueryAssessmentSmoke"
+    },
+    {
+      "i": 192,
+      "tag": "SPAN",
+      "cls": "model-function-list-item-text",
+      "id": "",
+      "text": "QueryAssessmentSmoke"
+    },
+    {
+      "i": 193,
+      "tag": "I",
+      "cls": "el-icon model-function-list-item-icon",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 199,
+      "tag": "P",
+      "cls": "model-function-list-item cursor-pointer function-list-item active",
+      "id": "",
+      "text": "PalimpsestCrudService"
+    },
+    {
+      "i": 200,
+      "tag": "SPAN",
+      "cls": "model-function-list-item-text",
+      "id": "",
+      "text": "PalimpsestCrudService"
+    },
+    {
+      "i": 201,
+      "tag": "I",
+      "cls": "el-icon model-function-list-item-icon",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 207,
+      "tag": "P",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "id": "",
+      "text": "QueryAssessmentRecords"
+    },
+    {
+      "i": 208,
+      "tag": "SPAN",
+      "cls": "model-function-list-item-text",
+      "id": "",
+      "text": "QueryAssessmentRecords"
+    },
+    {
+      "i": 209,
+      "tag": "I",
+      "cls": "el-icon model-function-list-item-icon",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 215,
+      "tag": "P",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "id": "",
+      "text": "CreateAssessmentRecord"
+    },
+    {
+      "i": 216,
+      "tag": "SPAN",
+      "cls": "model-function-list-item-text",
+      "id": "",
+      "text": "CreateAssessmentRecord"
+    },
+    {
+      "i": 217,
+      "tag": "I",
+      "cls": "el-icon model-function-list-item-icon",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 223,
+      "tag": "P",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "id": "",
+      "text": "UpdateAssessmentRecord"
+    },
+    {
+      "i": 224,
+      "tag": "SPAN",
+      "cls": "model-function-list-item-text",
+      "id": "",
+      "text": "UpdateAssessmentRecord"
+    },
+    {
+      "i": 225,
+      "tag": "I",
+      "cls": "el-icon model-function-list-item-icon",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 231,
+      "tag": "P",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "id": "",
+      "text": "DeleteAssessmentRecord"
+    },
+    {
+      "i": 232,
+      "tag": "SPAN",
+      "cls": "model-function-list-item-text",
+      "id": "",
+      "text": "DeleteAssessmentRecord"
+    },
+    {
+      "i": 233,
+      "tag": "I",
+      "cls": "el-icon model-function-list-item-icon",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 239,
+      "tag": "P",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "id": "",
+      "text": "SubmitAssessmentScore"
+    },
+    {
+      "i": 240,
+      "tag": "SPAN",
+      "cls": "model-function-list-item-text",
+      "id": "",
+      "text": "SubmitAssessmentScore"
+    },
+    {
+      "i": 241,
+      "tag": "I",
+      "cls": "el-icon model-function-list-item-icon",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 247,
+      "tag": "P",
+      "cls": "model-function-list-item cursor-pointer function-list-item",
+      "id": "",
+      "text": "PalimpsestHandleError"
+    },
+    {
+      "i": 248,
+      "tag": "SPAN",
+      "cls": "model-function-list-item-text",
+      "id": "",
+      "text": "PalimpsestHandleError"
+    },
+    {
+      "i": 249,
+      "tag": "I",
+      "cls": "el-icon model-function-list-item-icon",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 259,
+      "tag": "DIV",
+      "cls": "drag-tool metalang-divider",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 260,
+      "tag": "DIV",
+      "cls": "monaco-editor-view w100 h100 metalang-monaco-editor monaco-editor-panel",
+      "id": "",
+      "text": "当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC提交调试配置declareonCreateQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecord名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:"
+    },
+    {
+      "i": 261,
+      "tag": "DIV",
+      "cls": "code-editor-toolbar",
+      "id": "",
+      "text": "当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC提交调试配置"
+    },
+    {
+      "i": 263,
+      "tag": "DIV",
+      "cls": "code-editor-toolbar-left",
+      "id": "",
+      "text": "当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC"
+    },
+    {
+      "i": 264,
+      "tag": "SPAN",
+      "cls": "icon iconfont cursor-pointer wos-editor-save el-tooltip__trigger el-tooltip__trigger",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 265,
+      "tag": "SPAN",
+      "cls": "icon iconfont cursor-pointer wos-editor-undo el-tooltip__trigger el-tooltip__trigger",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 266,
+      "tag": "SPAN",
+      "cls": "icon iconfont cursor-pointer wos-editor-redo el-tooltip__trigger el-tooltip__trigger",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 267,
+      "tag": "SPAN",
+      "cls": "icon iconfont cursor-pointer wos-editor-search el-tooltip__trigger el-tooltip__trigger",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 268,
+      "tag": "SPAN",
+      "cls": "icon iconfont cursor-pointer wos-editor-copy el-tooltip__trigger el-tooltip__trigger",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 269,
+      "tag": "SPAN",
+      "cls": "icon iconfont cursor-pointer wos-HTMLyuanma el-tooltip__trigger el-tooltip__trigger",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 270,
+      "tag": "SPAN",
+      "cls": "icon iconfont cursor-pointer wos-editor-complie el-tooltip__trigger el-tooltip__trigger",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 271,
+      "tag": "I",
+      "cls": "el-icon icon cursor-pointer wos-editor-debug-start el-tooltip__trigger el-tooltip__trigger",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 274,
+      "tag": "SPAN",
+      "cls": "icon text wos-editor-edit-model",
+      "id": "",
+      "text": "当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC"
+    },
+    {
+      "i": 275,
+      "tag": "DIV",
+      "cls": "code-editor-toolbar-right",
+      "id": "",
+      "text": "提交调试配置"
+    },
+    {
+      "i": 286,
+      "tag": "I",
+      "cls": "el-icon icon cursor-pointer wos-editor-change-theme el-tooltip__trigger el-tooltip__trigger",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 289,
+      "tag": "I",
+      "cls": "el-icon icon cursor-pointer wos-editor-fullScreen el-tooltip__trigger el-tooltip__trigger",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 292,
+      "tag": "DIV",
+      "cls": "code-editor-body",
+      "id": "",
+      "text": "declareonCreateQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecord名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类"
+    },
+    {
+      "i": 293,
+      "tag": "DIV",
+      "cls": "el-tabs el-tabs--top el-tabs--card monaco-editor-tabs",
+      "id": "",
+      "text": "declareonCreateQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecord名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类"
+    },
+    {
+      "i": 294,
+      "tag": "DIV",
+      "cls": "el-tabs__header is-top",
+      "id": "",
+      "text": "declareonCreateQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecord"
+    },
+    {
+      "i": 295,
+      "tag": "DIV",
+      "cls": "el-tabs__nav-wrap is-top",
+      "id": "",
+      "text": "declareonCreateQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecord"
+    },
+    {
+      "i": 296,
+      "tag": "DIV",
+      "cls": "el-tabs__nav-scroll",
+      "id": "",
+      "text": "declareonCreateQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecord"
+    },
+    {
+      "i": 297,
+      "tag": "DIV",
+      "cls": "el-tabs__nav is-top",
+      "id": "",
+      "text": "declareonCreateQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecord"
+    },
+    {
+      "i": 298,
+      "tag": "DIV",
+      "cls": "el-tabs__item is-top",
+      "id": "tab-declare",
+      "text": "declare"
+    },
+    {
+      "i": 299,
+      "tag": "I",
+      "cls": "tab-un-save wos-editor-function-tab-close",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 301,
+      "tag": "DIV",
+      "cls": "el-tabs__item is-top is-closable",
+      "id": "tab-onCreate",
+      "text": "onCreate"
+    },
+    {
+      "i": 302,
+      "tag": "I",
+      "cls": "tab-un-save wos-editor-function-tab-close",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 307,
+      "tag": "DIV",
+      "cls": "el-tabs__item is-top is-closable",
+      "id": "tab-QueryAssessmentPage",
+      "text": "QueryAssessmentPage"
+    },
+    {
+      "i": 308,
+      "tag": "I",
+      "cls": "tab-un-save wos-editor-function-tab-close",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 313,
+      "tag": "DIV",
+      "cls": "el-tabs__item is-top is-closable",
+      "id": "tab-QueryAssessmentData",
+      "text": "QueryAssessmentData"
+    },
+    {
+      "i": 314,
+      "tag": "I",
+      "cls": "tab-un-save wos-editor-function-tab-close",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 319,
+      "tag": "DIV",
+      "cls": "el-tabs__item is-top is-closable",
+      "id": "tab-QueryAssessmentSmoke",
+      "text": "QueryAssessmentSmoke"
+    },
+    {
+      "i": 320,
+      "tag": "I",
+      "cls": "tab-un-save wos-editor-function-tab-close",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 325,
+      "tag": "DIV",
+      "cls": "el-tabs__item is-top is-active is-closable",
+      "id": "tab-PalimpsestCrudService",
+      "text": "PalimpsestCrudService"
+    },
+    {
+      "i": 326,
+      "tag": "I",
+      "cls": "tab-un-save wos-editor-function-tab-close",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 331,
+      "tag": "DIV",
+      "cls": "el-tabs__item is-top is-closable",
+      "id": "tab-QueryAssessmentRecords",
+      "text": "QueryAssessmentRecords"
+    },
+    {
+      "i": 332,
+      "tag": "I",
+      "cls": "tab-un-save wos-editor-function-tab-close",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 337,
+      "tag": "DIV",
+      "cls": "el-tabs__item is-top is-closable",
+      "id": "tab-CreateAssessmentRecord",
+      "text": "CreateAssessmentRecord"
+    },
+    {
+      "i": 338,
+      "tag": "I",
+      "cls": "tab-un-save wos-editor-function-tab-close",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 343,
+      "tag": "DIV",
+      "cls": "el-tabs__content",
+      "id": "",
+      "text": "名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:"
+    },
+    {
+      "i": 344,
+      "tag": "DIV",
+      "cls": "el-tab-pane",
+      "id": "pane-declare",
+      "text": "名称:输入参数:返回值类型:"
+    },
+    {
+      "i": 345,
+      "tag": "DIV",
+      "cls": "monaco-editor-tab-metalang-data",
+      "id": "",
+      "text": "名称:输入参数:返回值类型:"
+    },
+    {
+      "i": 346,
+      "tag": "FORM",
+      "cls": "el-form el-form--default el-form--label-right monaco-editor-tab-metalang-data-form",
+      "id": "",
+      "text": "名称:输入参数:返回值类型:"
+    },
+    {
+      "i": 350,
+      "tag": "DIV",
+      "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-name wos-editor-function-name",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 356,
+      "tag": "DIV",
+      "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 365,
+      "tag": "DIV",
+      "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 368,
+      "tag": "DIV",
+      "cls": "el-tab-pane",
+      "id": "pane-onCreate",
+      "text": "名称:输入参数:返回值类型:"
+    },
+    {
+      "i": 369,
+      "tag": "DIV",
+      "cls": "monaco-editor-tab-metalang-data",
+      "id": "",
+      "text": "名称:输入参数:返回值类型:"
+    },
+    {
+      "i": 370,
+      "tag": "FORM",
+      "cls": "el-form el-form--default el-form--label-right monaco-editor-tab-metalang-data-form",
+      "id": "",
+      "text": "名称:输入参数:返回值类型:"
+    },
+    {
+      "i": 374,
+      "tag": "DIV",
+      "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-name wos-editor-function-name",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 380,
+      "tag": "DIV",
+      "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 389,
+      "tag": "DIV",
+      "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 392,
+      "tag": "DIV",
+      "cls": "el-tab-pane",
+      "id": "pane-QueryAssessmentPage",
+      "text": "名称:输入参数:返回值类型:"
+    },
+    {
+      "i": 393,
+      "tag": "DIV",
+      "cls": "monaco-editor-tab-metalang-data",
+      "id": "",
+      "text": "名称:输入参数:返回值类型:"
+    },
+    {
+      "i": 394,
+      "tag": "FORM",
+      "cls": "el-form el-form--default el-form--label-right monaco-editor-tab-metalang-data-form",
+      "id": "",
+      "text": "名称:输入参数:返回值类型:"
+    },
+    {
+      "i": 398,
+      "tag": "DIV",
+      "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-name wos-editor-function-name",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 404,
+      "tag": "DIV",
+      "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 413,
+      "tag": "DIV",
+      "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 416,
+      "tag": "DIV",
+      "cls": "el-tab-pane",
+      "id": "pane-QueryAssessmentData",
+      "text": "名称:输入参数:返回值类型:"
+    },
+    {
+      "i": 417,
+      "tag": "DIV",
+      "cls": "monaco-editor-tab-metalang-data",
+      "id": "",
+      "text": "名称:输入参数:返回值类型:"
+    },
+    {
+      "i": 418,
+      "tag": "FORM",
+      "cls": "el-form el-form--default el-form--label-right monaco-editor-tab-metalang-data-form",
+      "id": "",
+      "text": "名称:输入参数:返回值类型:"
+    },
+    {
+      "i": 422,
+      "tag": "DIV",
+      "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-name wos-editor-function-name",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 428,
+      "tag": "DIV",
+      "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 437,
+      "tag": "DIV",
+      "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 440,
+      "tag": "DIV",
+      "cls": "el-tab-pane",
+      "id": "pane-QueryAssessmentSmoke",
+      "text": "名称:输入参数:返回值类型:"
+    },
+    {
+      "i": 441,
+      "tag": "DIV",
+      "cls": "monaco-editor-tab-metalang-data",
+      "id": "",
+      "text": "名称:输入参数:返回值类型:"
+    },
+    {
+      "i": 442,
+      "tag": "FORM",
+      "cls": "el-form el-form--default el-form--label-right monaco-editor-tab-metalang-data-form",
+      "id": "",
+      "text": "名称:输入参数:返回值类型:"
+    },
+    {
+      "i": 446,
+      "tag": "DIV",
+      "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-name wos-editor-function-name",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 452,
+      "tag": "DIV",
+      "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 461,
+      "tag": "DIV",
+      "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 464,
+      "tag": "DIV",
+      "cls": "el-tab-pane",
+      "id": "pane-PalimpsestCrudService",
+      "text": "名称:输入参数:返回值类型:"
+    },
+    {
+      "i": 465,
+      "tag": "DIV",
+      "cls": "monaco-editor-tab-metalang-data",
+      "id": "",
+      "text": "名称:输入参数:返回值类型:"
+    },
+    {
+      "i": 466,
+      "tag": "FORM",
+      "cls": "el-form el-form--default el-form--label-right monaco-editor-tab-metalang-data-form",
+      "id": "",
+      "text": "名称:输入参数:返回值类型:"
+    },
+    {
+      "i": 470,
+      "tag": "DIV",
+      "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-name wos-editor-function-name",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 476,
+      "tag": "DIV",
+      "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 485,
+      "tag": "DIV",
+      "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 488,
+      "tag": "DIV",
+      "cls": "el-tab-pane",
+      "id": "pane-QueryAssessmentRecords",
+      "text": "名称:输入参数:返回值类型:"
+    },
+    {
+      "i": 489,
+      "tag": "DIV",
+      "cls": "monaco-editor-tab-metalang-data",
+      "id": "",
+      "text": "名称:输入参数:返回值类型:"
+    },
+    {
+      "i": 490,
+      "tag": "FORM",
+      "cls": "el-form el-form--default el-form--label-right monaco-editor-tab-metalang-data-form",
+      "id": "",
+      "text": "名称:输入参数:返回值类型:"
+    },
+    {
+      "i": 494,
+      "tag": "DIV",
+      "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-name wos-editor-function-name",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 500,
+      "tag": "DIV",
+      "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 509,
+      "tag": "DIV",
+      "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 512,
+      "tag": "DIV",
+      "cls": "el-tab-pane",
+      "id": "pane-CreateAssessmentRecord",
+      "text": "名称:输入参数:返回值类型:"
+    },
+    {
+      "i": 513,
+      "tag": "DIV",
+      "cls": "monaco-editor-tab-metalang-data",
+      "id": "",
+      "text": "名称:输入参数:返回值类型:"
+    },
+    {
+      "i": 514,
+      "tag": "FORM",
+      "cls": "el-form el-form--default el-form--label-right monaco-editor-tab-metalang-data-form",
+      "id": "",
+      "text": "名称:输入参数:返回值类型:"
+    },
+    {
+      "i": 518,
+      "tag": "DIV",
+      "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-name wos-editor-function-name",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 524,
+      "tag": "DIV",
+      "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 533,
+      "tag": "DIV",
+      "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 536,
+      "tag": "DIV",
+      "cls": "monaco-editor",
+      "id": "",
+      "text": "1Trace(2, \"PalimpsestCrudService.enter\", strmapPara);"
+    },
+    {
+      "i": 538,
+      "tag": "DIV",
+      "cls": "monaco-editor no-user-select  showUnused showDeprecated vs-dark",
+      "id": "",
+      "text": "1Trace(2, \"PalimpsestCrudService.enter\", strmapPara);"
+    },
+    {
+      "i": 548,
+      "tag": "DIV",
+      "cls": "monaco-scrollable-element editor-scrollable vs-dark",
+      "id": "",
+      "text": "Trace(2, \"PalimpsestCrudService.enter\", strmapPara);"
+    },
+    {
+      "i": 549,
+      "tag": "DIV",
+      "cls": "lines-content monaco-editor-background",
+      "id": "",
+      "text": "Trace(2, \"PalimpsestCrudService.enter\", strmapPara);"
+    },
+    {
+      "i": 555,
+      "tag": "DIV",
+      "cls": "view-lines monaco-mouse-cursor-text",
+      "id": "",
+      "text": "Trace(2, \"PalimpsestCrudService.enter\", strmapPara);"
+    },
+    {
+      "i": 570,
+      "tag": "DIV",
+      "cls": "cursor  monaco-mouse-cursor-text ",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 577,
+      "tag": "TEXTAREA",
+      "cls": "inputarea monaco-mouse-cursor-text",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 578,
+      "tag": "DIV",
+      "cls": "monaco-editor-background textAreaCover margin",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 584,
+      "tag": "DIV",
+      "cls": "monaco-hover hidden",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 585,
+      "tag": "DIV",
+      "cls": "monaco-scrollable-element ",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 586,
+      "tag": "DIV",
+      "cls": "monaco-hover-content",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 603,
+      "tag": "DIV",
+      "cls": "monaco-sash vertical",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 604,
+      "tag": "DIV",
+      "cls": "monaco-sash vertical",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 605,
+      "tag": "DIV",
+      "cls": "monaco-sash orthogonal-edge-north horizontal",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 608,
+      "tag": "DIV",
+      "cls": "monaco-sash orthogonal-edge-south horizontal",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 611,
+      "tag": "DIV",
+      "cls": "monaco-hover hidden",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 612,
+      "tag": "DIV",
+      "cls": "monaco-scrollable-element ",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 613,
+      "tag": "DIV",
+      "cls": "monaco-hover-content",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 623,
+      "tag": "DIV",
+      "cls": "editor-message-view w100 h100 editor-message",
+      "id": "",
+      "text": "编译信息 xxxxxxxxxxxxxx 编译成功 11:47:22 xxxxxxxxxxxxxx "
+    },
+    {
+      "i": 624,
+      "tag": "DIV",
+      "cls": "el-tabs el-tabs--top el-tabs--card editor-message-tabs h100",
+      "id": "",
+      "text": "编译信息 xxxxxxxxxxxxxx 编译成功 11:47:22 xxxxxxxxxxxxxx "
+    },
+    {
+      "i": 625,
+      "tag": "DIV",
+      "cls": "el-tabs__header is-top",
+      "id": "",
+      "text": "编译信息"
+    },
+    {
+      "i": 626,
+      "tag": "DIV",
+      "cls": "el-tabs__nav-wrap is-top",
+      "id": "",
+      "text": "编译信息"
+    },
+    {
+      "i": 627,
+      "tag": "DIV",
+      "cls": "el-tabs__nav-scroll",
+      "id": "",
+      "text": "编译信息"
+    },
+    {
+      "i": 628,
+      "tag": "DIV",
+      "cls": "el-tabs__nav is-top",
+      "id": "",
+      "text": "编译信息"
+    },
+    {
+      "i": 629,
+      "tag": "DIV",
+      "cls": "el-tabs__item is-top is-active",
+      "id": "tab-0",
+      "text": "编译信息"
+    },
+    {
+      "i": 630,
+      "tag": "DIV",
+      "cls": "el-tabs__content",
+      "id": "",
+      "text": " xxxxxxxxxxxxxx 编译成功 11:47:22 xxxxxxxxxxxxxx "
+    },
+    {
+      "i": 631,
+      "tag": "DIV",
+      "cls": "el-tab-pane h100",
+      "id": "pane-0",
+      "text": " xxxxxxxxxxxxxx 编译成功 11:47:22 xxxxxxxxxxxxxx "
+    },
+    {
+      "i": 632,
+      "tag": "DIV",
+      "cls": "el-scrollbar editor-message-debugger-view w100 h100",
+      "id": "",
+      "text": " xxxxxxxxxxxxxx 编译成功 11:47:22 xxxxxxxxxxxxxx "
+    },
+    {
+      "i": 635,
+      "tag": "DIV",
+      "cls": "editor-message-debug-item green",
+      "id": "",
+      "text": " xxxxxxxxxxxxxx 编译成功 11:47:22 xxxxxxxxxxxxxx "
+    },
+    {
+      "i": 650,
+      "tag": "DIV",
+      "cls": "code-editor-footer w100",
+      "id": "",
+      "text": "行：1，列：1， 空格：4元语言"
+    },
+    {
+      "i": 651,
+      "tag": "DIV",
+      "cls": "code-editor-footer-cursor-position code-editor-footer-item",
+      "id": "",
+      "text": "行：1，列：1， "
+    },
+    {
+      "i": 653,
+      "tag": "SPAN",
+      "cls": "code-editor-footer-tab-size code-editor-footer-item el-tooltip__trigger el-tooltip__trigger",
+      "id": "el-id-7674-25",
+      "text": "空格：4"
+    },
+    {
+      "i": 654,
+      "tag": "DIV",
+      "cls": "code-editor-footer-type code-editor-footer-item",
+      "id": "",
+      "text": "元语言"
+    },
+    {
+      "i": 655,
+      "tag": "DIV",
+      "cls": "editor-aside function-editor-property",
+      "id": "",
+      "text": "属性基础信息名称:显示名称:描述:0 / 128ID:1441151880758560281GUID:aa5d8314-87b7-453c-96e6-21e4327a8778版本状态:编辑态上传图标:已配置上传对象类型:功能单元模型历史版本:提交查看仓库路径:KingFusion4.5_V1/产品仓库/KF4.5产品/KF4.5数字孪生模型/管控单元模型/盛云科技_孙宇飞_Palimpsest_后台_0623分类标签1:分类标签2:分类"
+    },
+    {
+      "i": 656,
+      "tag": "DIV",
+      "cls": "editor-aside-comp-container",
+      "id": "",
+      "text": "属性基础信息名称:显示名称:描述:0 / 128ID:1441151880758560281GUID:aa5d8314-87b7-453c-96e6-21e4327a8778版本状态:编辑态上传图标:已配置上传对象类型:功能单元模型历史版本:提交查看仓库路径:KingFusion4.5_V1/产品仓库/KF4.5产品/KF4.5数字孪生模型/管控单元模型/盛云科技_孙宇飞_Palimpsest_后台_0623分类标签1:分类标签2:分类"
+    },
+    {
+      "i": 657,
+      "tag": "DIV",
+      "cls": "editor-aside-comp-item",
+      "id": "",
+      "text": "属性基础信息名称:显示名称:描述:0 / 128ID:1441151880758560281GUID:aa5d8314-87b7-453c-96e6-21e4327a8778版本状态:编辑态上传图标:已配置上传对象类型:功能单元模型历史版本:提交查看仓库路径:KingFusion4.5_V1/产品仓库/KF4.5产品/KF4.5数字孪生模型/管控单元模型/盛云科技_孙宇飞_Palimpsest_后台_0623分类标签1:分类标签2:分类"
+    },
+    {
+      "i": 683,
+      "tag": "DIV",
+      "cls": "el-table--fit el-table--scrollable-x el-table--enable-row-hover el-table--enable-row-transition el-table--default el-table el-table--layout-fixed is-scrolling-right",
+      "id": "",
+      "text": "名称:显示名称:描述:0 / 128ID:1441151880758560281GUID:aa5d8314-87b7-453c-96e6-21e4327a8778版本状态:编辑态上传图标:已配置上传对象类型:功能单元模型历史版本:提交查看仓库路径:KingFusion4.5_V1/产品仓库/KF4.5产品/KF4.5数字孪生模型/管控单元模型/盛云科技_孙宇飞_Palimpsest_后台_0623分类标签1:分类标签2:分类标签3:"
+    },
+    {
+      "i": 684,
+      "tag": "DIV",
+      "cls": "el-table__inner-wrapper",
+      "id": "",
+      "text": "名称:显示名称:描述:0 / 128ID:1441151880758560281GUID:aa5d8314-87b7-453c-96e6-21e4327a8778版本状态:编辑态上传图标:已配置上传对象类型:功能单元模型历史版本:提交查看仓库路径:KingFusion4.5_V1/产品仓库/KF4.5产品/KF4.5数字孪生模型/管控单元模型/盛云科技_孙宇飞_Palimpsest_后台_0623分类标签1:分类标签2:分类标签3:"
+    },
+    {
+      "i": 689,
+      "tag": "DIV",
+      "cls": "el-table__body-wrapper",
+      "id": "",
+      "text": "名称:显示名称:描述:0 / 128ID:1441151880758560281GUID:aa5d8314-87b7-453c-96e6-21e4327a8778版本状态:编辑态上传图标:已配置上传对象类型:功能单元模型历史版本:提交查看仓库路径:KingFusion4.5_V1/产品仓库/KF4.5产品/KF4.5数字孪生模型/管控单元模型/盛云科技_孙宇飞_Palimpsest_后台_0623分类标签1:分类标签2:分类标签3:"
+    },
+    {
+      "i": 693,
+      "tag": "TABLE",
+      "cls": "el-table__body",
+      "id": "",
+      "text": "名称:显示名称:描述:0 / 128ID:1441151880758560281GUID:aa5d8314-87b7-453c-96e6-21e4327a8778版本状态:编辑态上传图标:已配置上传对象类型:功能单元模型历史版本:提交查看仓库路径:KingFusion4.5_V1/产品仓库/KF4.5产品/KF4.5数字孪生模型/管控单元模型/盛云科技_孙宇飞_Palimpsest_后台_0623分类标签1:分类标签2:分类标签3:"
+    },
+    {
+      "i": 699,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "id": "",
+      "text": "名称:"
+    },
+    {
+      "i": 700,
+      "tag": "TD",
+      "cls": "el-table_2_column_3 el-table__expand-column el-table__cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 702,
+      "tag": "DIV",
+      "cls": "el-table__expand-icon el-table__expand-icon--expanded",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 706,
+      "tag": "TD",
+      "cls": "el-table_2_column_4 is-left el-table__cell",
+      "id": "",
+      "text": "名称:"
+    },
+    {
+      "i": 709,
+      "tag": "TD",
+      "cls": "el-table_2_column_5 is-right el-table__cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 718,
+      "tag": "TD",
+      "cls": "el-table__cell el-table__expanded-cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 719,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "id": "",
+      "text": "显示名称:"
+    },
+    {
+      "i": 720,
+      "tag": "TD",
+      "cls": "el-table_2_column_3 el-table__expand-column el-table__cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 722,
+      "tag": "DIV",
+      "cls": "el-table__expand-icon el-table__expand-icon--expanded",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 726,
+      "tag": "TD",
+      "cls": "el-table_2_column_4 is-left el-table__cell",
+      "id": "",
+      "text": "显示名称:"
+    },
+    {
+      "i": 729,
+      "tag": "TD",
+      "cls": "el-table_2_column_5 is-right el-table__cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 738,
+      "tag": "TD",
+      "cls": "el-table__cell el-table__expanded-cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 739,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "id": "",
+      "text": "描述:0 / 128"
+    },
+    {
+      "i": 740,
+      "tag": "TD",
+      "cls": "el-table_2_column_3 el-table__expand-column el-table__cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 742,
+      "tag": "DIV",
+      "cls": "el-table__expand-icon el-table__expand-icon--expanded",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 746,
+      "tag": "TD",
+      "cls": "el-table_2_column_4 is-left el-table__cell",
+      "id": "",
+      "text": "描述:"
+    },
+    {
+      "i": 749,
+      "tag": "TD",
+      "cls": "el-table_2_column_5 is-right el-table__cell",
+      "id": "",
+      "text": "0 / 128"
+    },
+    {
+      "i": 751,
+      "tag": "FORM",
+      "cls": "el-form el-form--default el-form--label-right property-item property-item-description property-value",
+      "id": "",
+      "text": "0 / 128"
+    },
+    {
+      "i": 762,
+      "tag": "TD",
+      "cls": "el-table__cell el-table__expanded-cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 763,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "id": "",
+      "text": "ID:1441151880758560281"
+    },
+    {
+      "i": 764,
+      "tag": "TD",
+      "cls": "el-table_2_column_3 el-table__expand-column el-table__cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 766,
+      "tag": "DIV",
+      "cls": "el-table__expand-icon el-table__expand-icon--expanded",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 770,
+      "tag": "TD",
+      "cls": "el-table_2_column_4 is-left el-table__cell",
+      "id": "",
+      "text": "ID:"
+    },
+    {
+      "i": 773,
+      "tag": "TD",
+      "cls": "el-table_2_column_5 is-right el-table__cell",
+      "id": "",
+      "text": "1441151880758560281"
+    },
+    {
+      "i": 780,
+      "tag": "TD",
+      "cls": "el-table__cell el-table__expanded-cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 781,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "id": "",
+      "text": "GUID:aa5d8314-87b7-453c-96e6-21e4327a8778"
+    },
+    {
+      "i": 782,
+      "tag": "TD",
+      "cls": "el-table_2_column_3 el-table__expand-column el-table__cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 784,
+      "tag": "DIV",
+      "cls": "el-table__expand-icon el-table__expand-icon--expanded",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 788,
+      "tag": "TD",
+      "cls": "el-table_2_column_4 is-left el-table__cell",
+      "id": "",
+      "text": "GUID:"
+    },
+    {
+      "i": 791,
+      "tag": "TD",
+      "cls": "el-table_2_column_5 is-right el-table__cell",
+      "id": "",
+      "text": "aa5d8314-87b7-453c-96e6-21e4327a8778"
+    },
+    {
+      "i": 798,
+      "tag": "TD",
+      "cls": "el-table__cell el-table__expanded-cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 799,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "id": "",
+      "text": "版本状态:编辑态"
+    },
+    {
+      "i": 800,
+      "tag": "TD",
+      "cls": "el-table_2_column_3 el-table__expand-column el-table__cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 802,
+      "tag": "DIV",
+      "cls": "el-table__expand-icon el-table__expand-icon--expanded",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 806,
+      "tag": "TD",
+      "cls": "el-table_2_column_4 is-left el-table__cell",
+      "id": "",
+      "text": "版本状态:"
+    },
+    {
+      "i": 809,
+      "tag": "TD",
+      "cls": "el-table_2_column_5 is-right el-table__cell",
+      "id": "",
+      "text": "编辑态"
+    },
+    {
+      "i": 811,
+      "tag": "FORM",
+      "cls": "el-form el-form--default el-form--label-right property-item property-item-versionstatus property-value",
+      "id": "",
+      "text": "编辑态"
+    },
+    {
+      "i": 816,
+      "tag": "TD",
+      "cls": "el-table__cell el-table__expanded-cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 817,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "id": "",
+      "text": "上传图标:已配置上传"
+    },
+    {
+      "i": 818,
+      "tag": "TD",
+      "cls": "el-table_2_column_3 el-table__expand-column el-table__cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 820,
+      "tag": "DIV",
+      "cls": "el-table__expand-icon el-table__expand-icon--expanded",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 824,
+      "tag": "TD",
+      "cls": "el-table_2_column_4 is-left el-table__cell",
+      "id": "",
+      "text": "上传图标:"
+    },
+    {
+      "i": 827,
+      "tag": "TD",
+      "cls": "el-table_2_column_5 is-right el-table__cell",
+      "id": "",
+      "text": "已配置上传"
+    },
+    {
+      "i": 837,
+      "tag": "TD",
+      "cls": "el-table__cell el-table__expanded-cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 838,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "id": "",
+      "text": "对象类型:功能单元模型"
+    },
+    {
+      "i": 839,
+      "tag": "TD",
+      "cls": "el-table_2_column_3 el-table__expand-column el-table__cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 841,
+      "tag": "DIV",
+      "cls": "el-table__expand-icon el-table__expand-icon--expanded",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 845,
+      "tag": "TD",
+      "cls": "el-table_2_column_4 is-left el-table__cell",
+      "id": "",
+      "text": "对象类型:"
+    },
+    {
+      "i": 848,
+      "tag": "TD",
+      "cls": "el-table_2_column_5 is-right el-table__cell",
+      "id": "",
+      "text": "功能单元模型"
+    },
+    {
+      "i": 855,
+      "tag": "TD",
+      "cls": "el-table__cell el-table__expanded-cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 856,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "id": "",
+      "text": "历史版本:提交查看"
+    },
+    {
+      "i": 857,
+      "tag": "TD",
+      "cls": "el-table_2_column_3 el-table__expand-column el-table__cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 859,
+      "tag": "DIV",
+      "cls": "el-table__expand-icon el-table__expand-icon--expanded",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 863,
+      "tag": "TD",
+      "cls": "el-table_2_column_4 is-left el-table__cell",
+      "id": "",
+      "text": "历史版本:"
+    },
+    {
+      "i": 866,
+      "tag": "TD",
+      "cls": "el-table_2_column_5 is-right el-table__cell",
+      "id": "",
+      "text": "提交查看"
+    },
+    {
+      "i": 868,
+      "tag": "FORM",
+      "cls": "el-form el-form--default el-form--label-right property-item property-item-historyVersion property-value",
+      "id": "",
+      "text": "提交查看"
+    },
+    {
+      "i": 877,
+      "tag": "TD",
+      "cls": "el-table__cell el-table__expanded-cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 878,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "id": "",
+      "text": "仓库路径:KingFusion4.5_V1/产品仓库/KF4.5产品/KF4.5数字孪生模型/管控单元模型/盛云科技_孙宇飞_Palimpsest_后台_0623"
+    },
+    {
+      "i": 879,
+      "tag": "TD",
+      "cls": "el-table_2_column_3 el-table__expand-column el-table__cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 881,
+      "tag": "DIV",
+      "cls": "el-table__expand-icon el-table__expand-icon--expanded",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 885,
+      "tag": "TD",
+      "cls": "el-table_2_column_4 is-left el-table__cell",
+      "id": "",
+      "text": "仓库路径:"
+    },
+    {
+      "i": 888,
+      "tag": "TD",
+      "cls": "el-table_2_column_5 is-right el-table__cell",
+      "id": "",
+      "text": "KingFusion4.5_V1/产品仓库/KF4.5产品/KF4.5数字孪生模型/管控单元模型/盛云科技_孙宇飞_Palimpsest_后台_0623"
+    },
+    {
+      "i": 895,
+      "tag": "TD",
+      "cls": "el-table__cell el-table__expanded-cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 896,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "id": "",
+      "text": "分类标签1:"
+    },
+    {
+      "i": 897,
+      "tag": "TD",
+      "cls": "el-table_2_column_3 el-table__expand-column el-table__cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 899,
+      "tag": "DIV",
+      "cls": "el-table__expand-icon el-table__expand-icon--expanded",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 903,
+      "tag": "TD",
+      "cls": "el-table_2_column_4 is-left el-table__cell",
+      "id": "",
+      "text": "分类标签1:"
+    },
+    {
+      "i": 906,
+      "tag": "TD",
+      "cls": "el-table_2_column_5 is-right el-table__cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 915,
+      "tag": "TD",
+      "cls": "el-table__cell el-table__expanded-cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 916,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "id": "",
+      "text": "分类标签2:"
+    },
+    {
+      "i": 917,
+      "tag": "TD",
+      "cls": "el-table_2_column_3 el-table__expand-column el-table__cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 919,
+      "tag": "DIV",
+      "cls": "el-table__expand-icon el-table__expand-icon--expanded",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 923,
+      "tag": "TD",
+      "cls": "el-table_2_column_4 is-left el-table__cell",
+      "id": "",
+      "text": "分类标签2:"
+    },
+    {
+      "i": 926,
+      "tag": "TD",
+      "cls": "el-table_2_column_5 is-right el-table__cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 935,
+      "tag": "TD",
+      "cls": "el-table__cell el-table__expanded-cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 936,
+      "tag": "TR",
+      "cls": "el-table__row",
+      "id": "",
+      "text": "分类标签3:"
+    },
+    {
+      "i": 937,
+      "tag": "TD",
+      "cls": "el-table_2_column_3 el-table__expand-column el-table__cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 939,
+      "tag": "DIV",
+      "cls": "el-table__expand-icon el-table__expand-icon--expanded",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 943,
+      "tag": "TD",
+      "cls": "el-table_2_column_4 is-left el-table__cell",
+      "id": "",
+      "text": "分类标签3:"
+    },
+    {
+      "i": 946,
+      "tag": "TD",
+      "cls": "el-table_2_column_5 is-right el-table__cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 955,
+      "tag": "TD",
+      "cls": "el-table__cell el-table__expanded-cell",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 960,
+      "tag": "DIV",
+      "cls": "el-table__column-resize-proxy",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 965,
+      "tag": "DIV",
+      "cls": "editor-aside-comp-item",
+      "id": "",
+      "text": "成员配置编辑成员名称成员值暂无数据"
+    },
+    {
+      "i": 982,
+      "tag": "DIV",
+      "cls": "el-table--fit el-table--scrollable-x el-table--enable-row-hover el-table--default el-table el-table--layout-fixed is-scrolling-right",
+      "id": "",
+      "text": "成员名称成员值暂无数据"
+    },
+    {
+      "i": 983,
+      "tag": "DIV",
+      "cls": "el-table__inner-wrapper",
+      "id": "",
+      "text": "成员名称成员值暂无数据"
+    },
+    {
+      "i": 987,
+      "tag": "DIV",
+      "cls": "el-table__header-wrapper",
+      "id": "",
+      "text": "成员名称成员值"
+    },
+    {
+      "i": 988,
+      "tag": "TABLE",
+      "cls": "el-table__header",
+      "id": "",
+      "text": "成员名称成员值"
+    },
+    {
+      "i": 994,
+      "tag": "TH",
+      "cls": "el-table_1_column_1 is-left is-leaf el-table__cell",
+      "id": "",
+      "text": "成员名称"
+    },
+    {
+      "i": 997,
+      "tag": "TH",
+      "cls": "el-table_1_column_2 is-left is-leaf el-table__cell",
+      "id": "",
+      "text": "成员值"
+    },
+    {
+      "i": 1000,
+      "tag": "DIV",
+      "cls": "el-table__body-wrapper",
+      "id": "",
+      "text": "暂无数据"
+    },
+    {
+      "i": 1004,
+      "tag": "TABLE",
+      "cls": "el-table__body",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 1009,
+      "tag": "DIV",
+      "cls": "el-table__empty-block",
+      "id": "",
+      "text": "暂无数据"
+    },
+    {
+      "i": 1010,
+      "tag": "SPAN",
+      "cls": "el-table__empty-text",
+      "id": "",
+      "text": "暂无数据"
+    },
+    {
+      "i": 1015,
+      "tag": "DIV",
+      "cls": "el-table__column-resize-proxy",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 1020,
+      "tag": "DIV",
+      "cls": "editor-aside-comp-item",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 1021,
+      "tag": "DIV",
+      "cls": "editor-aside-btn-container",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 1022,
+      "tag": "DIV",
+      "cls": "el-icon-editor-property-light fu-right-menu-item",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 1023,
+      "tag": "DIV",
+      "cls": "el-icon-editor-member fu-right-menu-item",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 1024,
+      "tag": "DIV",
+      "cls": "icon iconfont-WOS45 icon-WOS45-shishishujuzhanxian",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 1053,
+      "tag": "DIV",
+      "cls": "monaco-aria-container",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 1054,
+      "tag": "DIV",
+      "cls": "monaco-alert",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 1055,
+      "tag": "DIV",
+      "cls": "monaco-alert",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 1056,
+      "tag": "DIV",
+      "cls": "monaco-status",
+      "id": "",
+      "text": ""
+    },
+    {
+      "i": 1057,
+      "tag": "DIV",
+      "cls": "monaco-status",
+      "id": "",
+      "text": ""
+    }
+  ],
+  "vueLike": [
+    {
+      "i": 54,
+      "tag": "DIV",
+      "id": "worker-space",
+      "cls": "wos-root-app",
+      "keys": [
+        "__vue_app__"
+      ],
+      "text": "变量暂无数据监视 111 堆栈断点新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryAssessmentDataQueryAs"
+    }
+  ]
+}

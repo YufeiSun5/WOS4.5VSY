@@ -1,0 +1,17 @@
+{
+  "create": {
+    "ret": 0,
+    "errorcodes": [
+      0
+    ],
+    "ids": null,
+    "keys": [
+      "errorcodes",
+      "ret"
+    ]
+  },
+  "query": {
+    "ret": 0,
+    "text": "{\"errorcodes\":[0],\"ret\":0,\"returndata\":{\"fieldNames\":[\"$codeline\",\"$condition\",\"$isoneshot\",\"$enable\",\"$functionname\"],\"fieldValues\":[{\"values\":[{\"int32Value\":45},{\"int32Value\":12}]},{\"values\":[{\"stringValue\":\"\"},{\"stringValue\":\"\"}]},{\"values\":[{\"boolValue\":false},{\"boolValue\":false}]},{\"values\":[{\"boolValue\":true},{\"boolValue\":true}]},{\"values\":[{\"stringValue\":\"onCreate\"},{\"stringValue\":\"onCreate\"}]}],\"newFieldValues\":[{\"values\":[{\"int32Value\":45},{\"stringValue\":\"\"},{\"boolValue\":false},{\"boolValue\":true},{\"stringValue\":\"onCreate\"}]},{\"values\":[{\"int32Value\":12},{\"stringValue\":\"\"},{\"boolValue\":false},{\"boolValue\":true},{\"stringValue\":\"onCreate\"}]}]},\"dataset\":{\"fieldNames\":[\"$codeline\",\"$condition\",\"$isoneshot\",\"$enable\",\"$functionname\"],\"fieldValues\":[{\"values\":[{\"int32Value\":45},{\"int32Value\":12}]},{\"values\":[{\"stringValue\":\"\"},{\"stringValue\":\"\"}]},{\"values\":[{\"boolValue\":false},{\"boolValue\":false}]},{\"values\":[{\"boolValue\":true},{\"boolValue\":true}]},{\"values\":[{\"stringValue\":\"onCreate\"},{\"stringValue\":\"onCreate\"}]}],\"newFieldValues\":[{\"values\":[{\"int32Value\":45},{\"stringValue\":\"\"},{\"boolValue\":false},{\"boolValue\":true},{\"stringValue\":\"onCreate\"}]},{\"values\":[{\"int32Value\":12},{\"stringValue\":\"\"},{\"boolValue\":false},{\"boolValue\":true},{\"stringValue\":\"onCreate\"}]}]}}"
+  }
+}

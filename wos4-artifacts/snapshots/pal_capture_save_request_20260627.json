@@ -1,0 +1,36 @@
+[
+  {
+    "kind": "fetch",
+    "path": "top",
+    "url": "http://221.239.19.118:13001/api/v1/Query",
+    "body": "{\"header\":{\"cloudID\":1,\"commandID\":516,\"serviceType\":22,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":22001,\"clientNumber\":\"4611689051954125571\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":1}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":22001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"6192730962611142658\",\"6192730962611142662\",\"6192730962611142663\",\"6192730962611142664\",\"6192730962611142709\",\"6192730962611142726\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}",
+    "t": 1782554336141,
+    "frame": "top"
+  },
+  {
+    "kind": "fetchResp",
+    "path": "top",
+    "url": "http://221.239.19.118:13001/api/v1/Query",
+    "status": 200,
+    "text": "{\"data\":{\"output\":{\"keyValueList\":[{\"key\":\"errorcodes\",\"value\":{\"int32ArrayValue\":{\"int32Array\":[0,0,0,0,0,0]}}},{\"key\":\"ret\",\"value\":{\"int32Value\":0}},{\"key\":\"returndata\",\"value\":{\"dataSet\":{\"fieldNames\":[\"$guid\",\"$id\",\"$runstatus\"],\"fieldValues\":[{\"values\":[{\"stringValue\":\"e36952a0-dfec-462e-a39a-e54d906a571f\"},{\"uint64Value\":\"6192730962611142658\"},{\"int32Value\":2}]},{\"values\":[{\"stringValue\":\"9c10b1cb-f41b-43d5-b017-1f87a3df9ea3\"},{\"uint64Value\":\"6192730962611142662\"},{\"int32Value\":2}]},{\"values\":[{\"stringValue\":\"864063fd-7e66-4d27-b60f-3c036769e4c0\"},{\"uint64Value\":\"6192730962611142663\"},{\"int32Value\":2}]},{\"values\":[{\"stringValue\":\"71d089f0-c3d7-4737-8092-dd8f5358f599\"},{\"uint64Value\":\"6192730962611142664\"},{\"int32Value\":2}]},{\"values\":[{\"stringValue\":\"150dcb9a-1d78-40e5-81ff-479030f73a22\"},{\"uint64Value\":\"6192730962611142709\"},{\"int32Value\":2}]},{\"values\":[{\"stringValue\":\"ad910204-75e9-4fb8-8534-dd1012dca3d3\"},{\"uint64Value\":\"6192730962611142726\"},{\"int32Value\":2}]}]}}}]}},\"header\":{\"commandID\": 516, \"requestID\":268616346, \"cloudID\":0, \"userType\":2, \"packetType\":2, \"transactionID\": \"0\", \"clientID\":0, \"serviceType\":22, \"traceID\": \"5189014588504121344\", \"fuid\": \"0\"}}",
+    "t": 1782554336176,
+    "frame": "top"
+  },
+  {
+    "kind": "fetch",
+    "path": "top",
+    "url": "http://221.239.19.118:13001/api/v1/Query",
+    "body": "{\"header\":{\"cloudID\":1,\"commandID\":516,\"serviceType\":22,\"clientID\":0,\"usertype\":2,\"desDataAreaID\":0,\"transactionID\":\"0\",\"fuid\":\"0\",\"dataType\":22001,\"clientNumber\":\"4611689051954125571\"},\"data\":{\"param\":{\"keyValueList\":[{\"key\":\"cloudid\",\"value\":{\"int32Value\":1}},{\"key\":\"areaid\",\"value\":{\"int32Value\":0}},{\"key\":\"type\",\"value\":{\"int32Value\":22001}}]},\"input\":{\"keyValueList\":[{\"key\":\"appspacetimeguid\",\"value\":{\"stringValue\":\"\"}},{\"key\":\"mode\",\"value\":{\"int32Value\":1}},{\"key\":\"identifierType\",\"value\":{\"int32Value\":1}},{\"key\":\"ids\",\"value\":{\"uint64ArrayValue\":{\"uint64Array\":[\"6192730962611142658\",\"6192730962611142662\",\"6192730962611142663\",\"6192730962611142664\",\"6192730962611142709\",\"6192730962611142726\"]}}},{\"key\":\"returnfields\",\"value\":{\"stringArrayValue\":{\"stringArray\":[\"$guid\",\"$id\",\"$runstatus\"]}}}]}}}",
+    "t": 1782554338134,
+    "frame": "top"
+  },
+  {
+    "kind": "fetchResp",
+    "path": "top",
+    "url": "http://221.239.19.118:13001/api/v1/Query",
+    "status": 200,
+    "text": "{\"data\":{\"output\":{\"keyValueList\":[{\"key\":\"errorcodes\",\"value\":{\"int32ArrayValue\":{\"int32Array\":[0,0,0,0,0,0]}}},{\"key\":\"ret\",\"value\":{\"int32Value\":0}},{\"key\":\"returndata\",\"value\":{\"dataSet\":{\"fieldNames\":[\"$guid\",\"$id\",\"$runstatus\"],\"fieldValues\":[{\"values\":[{\"stringValue\":\"e36952a0-dfec-462e-a39a-e54d906a571f\"},{\"uint64Value\":\"6192730962611142658\"},{\"int32Value\":2}]},{\"values\":[{\"stringValue\":\"9c10b1cb-f41b-43d5-b017-1f87a3df9ea3\"},{\"uint64Value\":\"6192730962611142662\"},{\"int32Value\":2}]},{\"values\":[{\"stringValue\":\"864063fd-7e66-4d27-b60f-3c036769e4c0\"},{\"uint64Value\":\"6192730962611142663\"},{\"int32Value\":2}]},{\"values\":[{\"stringValue\":\"71d089f0-c3d7-4737-8092-dd8f5358f599\"},{\"uint64Value\":\"6192730962611142664\"},{\"int32Value\":2}]},{\"values\":[{\"stringValue\":\"150dcb9a-1d78-40e5-81ff-479030f73a22\"},{\"uint64Value\":\"6192730962611142709\"},{\"int32Value\":2}]},{\"values\":[{\"stringValue\":\"ad910204-75e9-4fb8-8534-dd1012dca3d3\"},{\"uint64Value\":\"6192730962611142726\"},{\"int32Value\":2}]}]}}}]}},\"header\":{\"commandID\": 516, \"requestID\":268616347, \"cloudID\":0, \"userType\":2, \"packetType\":2, \"transactionID\": \"0\", \"clientID\":0, \"serviceType\":22, \"traceID\": \"5189016628839725056\", \"fuid\": \"0\"}}",
+    "t": 1782554338169,
+    "frame": "top"
+  }
+]

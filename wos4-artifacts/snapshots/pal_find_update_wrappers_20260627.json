@@ -1,0 +1,123 @@
+[
+  {
+    "path": "top",
+    "href": "http://221.239.19.118:13001/#/main",
+    "hits": [],
+    "globals": [
+      "oncontextrestored",
+      "__VUE_I18N_LEGACY_API__"
+    ]
+  },
+  {
+    "path": "top.0",
+    "href": "http://221.239.19.118:13001/desktop-frame/index.html?cloud=1#/main/worker-space-model",
+    "hits": [],
+    "globals": [
+      "oncontextrestored",
+      "__VUE_I18N_LEGACY_API__"
+    ]
+  },
+  {
+    "path": "top.1",
+    "href": "http://221.239.19.118:13001/public/?id=6192730962611142662&parentid=0&cloudid=1&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+    "hits": [],
+    "globals": [
+      "oncontextrestored",
+      "initApiForTarget"
+    ]
+  },
+  {
+    "path": "top.1.0",
+    "href": "http://221.239.19.118:13001/api/v1/GetFileContent/1/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/index.html",
+    "hits": [
+      {
+        "name": "KGSInterFace",
+        "keys": [
+          "Create",
+          "Update",
+          "Query",
+          "AsyncCreate",
+          "AsyncUpdate",
+          "AsyncQuery",
+          "QueryMix",
+          "QueryJoin",
+          "QueryPath"
+        ]
+      },
+      {
+        "name": "KGSDataObjMng",
+        "keys": [
+          "fuModelCopyList"
+        ]
+      },
+      {
+        "name": "$store",
+        "keys": []
+      }
+    ],
+    "globals": [
+      "oncontextrestored",
+      "getSourceApi",
+      "initApiForTarget",
+      "$StoreMap",
+      "$store",
+      "KGSInterFace"
+    ]
+  },
+  {
+    "path": "top.1.0.0",
+    "href": "http://221.239.19.118:13001/worker-space/index.html?guid=aa5d8314-87b7-453c-96e6-21e4327a8778&version=0&areaid=0&parentid=0&cloudid=1&type=1005",
+    "hits": [],
+    "globals": [
+      "oncontextrestored",
+      "__VUE_I18N_LEGACY_API__"
+    ]
+  },
+  {
+    "path": "top.2",
+    "href": "http://221.239.19.118:13001/public/?id=6192730962611142664&parentid=0&cloudid=1&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+    "hits": [],
+    "globals": [
+      "oncontextrestored",
+      "initApiForTarget"
+    ]
+  },
+  {
+    "path": "top.2.0",
+    "href": "http://221.239.19.118:13001/api/v1/GetFileContent/1/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/index.html",
+    "hits": [
+      {
+        "name": "KGSInterFace",
+        "keys": [
+          "Create",
+          "Update",
+          "Query",
+          "AsyncCreate",
+          "AsyncUpdate",
+          "AsyncQuery",
+          "QueryMix",
+          "QueryJoin",
+          "QueryPath"
+        ]
+      },
+      {
+        "name": "KGSDataObjMng",
+        "keys": [
+          "fuModelCopyList"
+        ]
+      },
+      {
+        "name": "$store",
+        "keys": []
+      }
+    ],
+    "globals": [
+      "oncontextrestored",
+      "getSourceApi",
+      "initApiForTarget",
+      "$StoreMap",
+      "$store",
+      "KGSInterFace"
+    ]
+  }
+]

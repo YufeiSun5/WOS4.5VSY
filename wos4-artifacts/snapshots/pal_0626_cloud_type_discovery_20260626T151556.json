@@ -1,0 +1,233 @@
+{
+  "start": {
+    "href": "http://221.239.19.118:13001/api/v1/GetFileContent/1/0/0/94054fd1-9b20-463a-8372-b69776349847_120/index.html",
+    "started": {
+      "status": "running",
+      "probes": []
+    },
+    "st": {
+      "id": "1152921504606851418",
+      "name": "PalimpsestL1_0626R2",
+      "guid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+      "devName": "PalimpsestBack_0626R2",
+      "realArea": 0,
+      "yuanArea": 0,
+      "webJsArea": 0,
+      "planArea": 0,
+      "historyArea": 0
+    }
+  },
+  "final": {
+    "disc": {
+      "status": "done",
+      "probes": [
+        {
+          "cloudID": 1,
+          "type": 21001,
+          "ret": 0,
+          "raw": {
+            "ret": 0,
+            "output": {
+              "errorcodes": [
+                0
+              ],
+              "ret": 0,
+              "returndata": []
+            },
+            "traceID": "5189041535633726464",
+            "consumeTime": 36
+          }
+        },
+        {
+          "cloudID": 1,
+          "type": 1005,
+          "ret": -10002,
+          "raw": {
+            "ret": -10002,
+            "output": {
+              "errorcodes": [
+                -19755
+              ],
+              "ret": -10002,
+              "returndata": []
+            },
+            "traceID": "5189041575059723264",
+            "consumeTime": 36
+          }
+        },
+        {
+          "cloudID": 1,
+          "type": 1025,
+          "ret": 0,
+          "raw": {
+            "ret": 0,
+            "output": {
+              "errorcodes": [],
+              "ret": 0,
+              "returndata": []
+            },
+            "traceID": "5189041615495399424",
+            "consumeTime": 39
+          }
+        },
+        {
+          "cloudID": 1,
+          "type": 2005,
+          "ret": -20001,
+          "raw": {
+            "ret": -20001,
+            "output": {
+              "errorcodeexs": [],
+              "errorcodes": [],
+              "returndatas": []
+            },
+            "traceID": "5189041688682626048",
+            "consumeTime": 39
+          }
+        },
+        {
+          "cloudID": 1,
+          "type": 21001,
+          "ret": 0,
+          "raw": {
+            "ret": 0,
+            "output": {
+              "errorcodes": [
+                0
+              ],
+              "ret": 0,
+              "returndata": []
+            },
+            "traceID": "5189041726549370880",
+            "consumeTime": 31
+          }
+        },
+        {
+          "cloudID": 1,
+          "type": 1005,
+          "ret": -10002,
+          "raw": {
+            "ret": -10002,
+            "output": {
+              "errorcodes": [
+                -19755
+              ],
+              "ret": -10002,
+              "returndata": []
+            },
+            "traceID": "5189041758312697856",
+            "consumeTime": 32
+          }
+        },
+        {
+          "cloudID": 1,
+          "type": 1025,
+          "ret": 0,
+          "raw": {
+            "ret": 0,
+            "output": {
+              "errorcodes": [],
+              "ret": 0,
+              "returndata": []
+            },
+            "traceID": "5189041796768967680",
+            "consumeTime": 36
+          }
+        },
+        {
+          "cloudID": 1,
+          "type": 2005,
+          "ret": -20001,
+          "raw": {
+            "ret": -20001,
+            "output": {
+              "errorcodeexs": [],
+              "errorcodes": [],
+              "returndatas": []
+            },
+            "traceID": "5189041831017414656",
+            "consumeTime": 33
+          }
+        },
+        {
+          "cloudID": 107,
+          "type": 21001,
+          "ret": -220064,
+          "raw": {
+            "ret": -220064,
+            "output": {
+              "returndata": null,
+              "errorcodes": [
+                -220064
+              ]
+            },
+            "traceID": "0",
+            "consumeTime": 0
+          }
+        },
+        {
+          "cloudID": 107,
+          "type": 1005,
+          "ret": -10002,
+          "raw": {
+            "ret": -10002,
+            "output": {
+              "errorcodes": [
+                -19755
+              ],
+              "ret": -10002,
+              "returndata": []
+            },
+            "traceID": "5189041864812806144",
+            "consumeTime": 32
+          }
+        },
+        {
+          "cloudID": 107,
+          "type": 1025,
+          "ret": 0,
+          "raw": {
+            "ret": 0,
+            "output": {
+              "errorcodes": [],
+              "ret": 0,
+              "returndata": []
+            },
+            "traceID": "5189041897056740352",
+            "consumeTime": 31
+          }
+        },
+        {
+          "cloudID": 107,
+          "type": 2005,
+          "ret": -20001,
+          "raw": {
+            "ret": -20001,
+            "output": {
+              "errorcodeexs": [],
+              "errorcodes": [],
+              "returndatas": []
+            },
+            "traceID": "5189041929308162048",
+            "consumeTime": 32
+          }
+        }
+      ],
+      "change": {
+        "ret": 0,
+        "msg": "修改成功!"
+      }
+    },
+    "st": {
+      "id": "1152921504606851418",
+      "name": "PalimpsestL1_0626R2",
+      "guid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+      "devName": "PalimpsestBack_0626R2",
+      "realArea": 0,
+      "yuanArea": 0,
+      "webJsArea": 0,
+      "planArea": 0,
+      "historyArea": 0
+    }
+  }
+}

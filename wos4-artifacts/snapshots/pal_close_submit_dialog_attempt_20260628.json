@@ -1,0 +1,38 @@
+{
+  "action": "fire-close-or-cancel then-fire-ok",
+  "before": [
+    {
+      "i": 0,
+      "cls": "el-dialog",
+      "text": "PalimpsestBackend脚本编辑器",
+      "html": "<div role=\"dialog\" aria-modal=\"true\" aria-label=\"自定义计算建模_脚本编辑器\" class=\"el-dialog\" style=\"margin-top: 3vh; width: 1618.4px;\"><div class=\"el-dialog__header\" style=\"display: none;\"><div data-v-69053206=\"\" class=\"slot_header\"><div data-v-69053206=\"\" class=\"text_left\"><div data-v-69053206=\"\" style=\"text-align: left; display: flex; align-items: center;\"><span data-v-69053206=\"\">自定义计算建模_脚本编辑器</span></div></div><div data-v-69053206=\"\" class=\"title_icon\"><!----><i data-v-69053206=\"\" title=\"放大\" class=\"i el-icon-full-screen\" style=\"font-size: 14px;\"></i><i data-v-69053206=\"\" title=\"关闭\" class=\"i el-icon-close\" style=\"font-size: 14px;\"></i></div></div><!----></div><div class=\"el-dialog__body\"><div data-v-69053206=\"\" id=\"name_自定义计算建模_脚本编辑器\" style=\"width: 1618.4px; height: 845.1px;\"><div data-v-120b977f=\"\" class=\"page_view_container show_child_view_container\" childwidth=\"1618.3999999999999\" childheight=\"845.1\"><div data-v-401dd8fe=\"\" data-v-120b977f=\"\" id=\"pageView\" class=\"page_view\" style=\"width: 10"
+    },
+    {
+      "i": 1,
+      "cls": "el-dialog",
+      "text": "提交版本\n\n提交说明\n\n取消\n确定",
+      "html": "<div role=\"dialog\" aria-modal=\"true\" aria-label=\"数字孪生模型提交版本\" class=\"el-dialog\" style=\"margin-top: 300px; width: 450px;\"><div class=\"el-dialog__header\" style=\"display: none;\"><div data-v-69053206=\"\" class=\"slot_header\"><div data-v-69053206=\"\" class=\"text_left\"><div data-v-69053206=\"\" style=\"text-align: left; display: flex; align-items: center;\"><span data-v-69053206=\"\">数字孪生模型提交版本</span></div></div><div data-v-69053206=\"\" class=\"title_icon\"><!----><i data-v-69053206=\"\" title=\"放大\" class=\"i el-icon-full-screen\" style=\"font-size: 14px;\"></i><i data-v-69053206=\"\" title=\"关闭\" class=\"i el-icon-close\" style=\"font-size: 14px;\"></i></div></div><!----></div><div class=\"el-dialog__body\"><div data-v-69053206=\"\" id=\"name_数字孪生模型提交版本\" style=\"width: 430px; height: 220px;\"><div data-v-120b977f=\"\" class=\"page_view_container show_child_view_container\" childwidth=\"430\" childheight=\"220\"><div data-v-401dd8fe=\"\" data-v-120b977f=\"\" id=\"pageView\" class=\"page_view\" style=\"width: 100%; height: 100%; position: rela"
+    }
+  ],
+  "after": [
+    {
+      "i": 0,
+      "cls": "el-dialog",
+      "text": "PalimpsestBackend脚本编辑器",
+      "buttons": [
+        "",
+        ""
+      ]
+    },
+    {
+      "i": 1,
+      "cls": "el-dialog",
+      "text": "提交版本\n\n提交说明\n\n取消\n确定",
+      "buttons": [
+        "",
+        "取消",
+        "确定"
+      ]
+    }
+  ]
+}

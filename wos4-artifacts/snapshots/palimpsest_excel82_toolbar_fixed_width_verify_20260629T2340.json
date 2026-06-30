@@ -1,0 +1,146 @@
+{
+  "ok": true,
+  "top": {
+    "height": 220,
+    "colStrategy": "fixedsize",
+    "colsGap": 8,
+    "cols": [
+      {
+        "UIName": "CellAddressInputCol",
+        "w": 210,
+        "strategy": "fixedsize",
+        "objectLen": 0
+      },
+      {
+        "UIName": "CellValueInputCol",
+        "w": 290,
+        "strategy": "fixedsize",
+        "objectLen": 0
+      },
+      {
+        "UIName": "ReadCellButtonCol",
+        "w": 140,
+        "strategy": "fixedsize",
+        "objectLen": 0
+      },
+      {
+        "UIName": "WriteCellButtonCol",
+        "w": 140,
+        "strategy": "fixedsize",
+        "objectLen": 0
+      },
+      {
+        "UIName": "StyleCellButtonCol",
+        "w": 140,
+        "strategy": "fixedsize",
+        "objectLen": 0
+      },
+      {
+        "UIName": "ExportPrintProbeCol",
+        "w": 220,
+        "strategy": "fixedsize",
+        "objectLen": 0
+      },
+      {
+        "UIName": "ExperimentResultCol",
+        "w": 410,
+        "strategy": "fixedsize",
+        "objectLen": 0
+      },
+      {
+        "UIName": "CapabilityNotesCol",
+        "w": 250,
+        "strategy": "fixedsize",
+        "objectLen": 0
+      }
+    ]
+  },
+  "kidCols": [
+    {
+      "key": "RCol11",
+      "name": "CellAddressInputCol",
+      "rect": {
+        "x": 337,
+        "y": 205,
+        "w": 8,
+        "h": 136
+      }
+    },
+    {
+      "key": "RCol12",
+      "name": "CellValueInputCol",
+      "rect": {
+        "x": 349,
+        "y": 205,
+        "w": 10,
+        "h": 136
+      }
+    },
+    {
+      "key": "RCol13",
+      "name": "ReadCellButtonCol",
+      "rect": {
+        "x": 364,
+        "y": 205,
+        "w": 6,
+        "h": 136
+      }
+    },
+    {
+      "key": "RCol14",
+      "name": "WriteCellButtonCol",
+      "rect": {
+        "x": 375,
+        "y": 205,
+        "w": 6,
+        "h": 136
+      }
+    },
+    {
+      "key": "RCol9",
+      "name": "StyleCellButtonCol",
+      "rect": {
+        "x": 386,
+        "y": 205,
+        "w": 6,
+        "h": 136
+      }
+    },
+    {
+      "key": "RCol2",
+      "name": "ExportPrintProbeCol",
+      "rect": {
+        "x": 396,
+        "y": 205,
+        "w": 8,
+        "h": 136
+      }
+    },
+    {
+      "key": "RCol8",
+      "name": "ExperimentResultCol",
+      "rect": {
+        "x": 409,
+        "y": 205,
+        "w": 13,
+        "h": 136
+      }
+    },
+    {
+      "key": "RCol3",
+      "name": "CapabilityNotesCol",
+      "rect": {
+        "x": 427,
+        "y": 205,
+        "w": 8,
+        "h": 136
+      }
+    }
+  ],
+  "sheetRect": {
+    "x": 328,
+    "y": 349,
+    "w": 1198,
+    "h": 526
+  }
+}

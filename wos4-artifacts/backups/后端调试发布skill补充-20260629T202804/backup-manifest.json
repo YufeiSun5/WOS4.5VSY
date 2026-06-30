@@ -1,0 +1,20 @@
+{
+  "task": "后端调试发布skill补充",
+  "time": "2026-06-29T20:28:04",
+  "ai": "孙宇飞_code-ai",
+  "reason": "补充本轮后端参数类型对齐和模型提交/运行态发布边界经验",
+  "files": [
+    {
+      "path": ".ai/skills/wos4-meta-language-debugger/SKILL.md",
+      "backup": "before/wos4-meta-language-debugger.SKILL.md"
+    },
+    {
+      "path": ".ai/skills/wos4-meta-language-fu-release-package/SKILL.md",
+      "backup": "before/wos4-meta-language-fu-release-package.SKILL.md"
+    },
+    {
+      "path": "MEMORY.md",
+      "backup": "before/MEMORY.md"
+    }
+  ]
+}

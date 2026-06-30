@@ -1,0 +1,18 @@
+{
+  "page": "PalimpsestExcel_82",
+  "component": "excel_pdf_print_button",
+  "fix": "remove hardcoded extra body image from print fallback",
+  "reason": "The visible sheet has one cell image in H2, but the fallback HTML also injected a synthetic body-img at body row 5 / column G, so export/print showed two images.",
+  "scriptLength": 7118,
+  "hasBodyImg": false,
+  "hasBodyExtraCondition": false,
+  "hasCellImg": true,
+  "dryRunWithTestImage": {
+    "evalError": null,
+    "imgCount": 1,
+    "bodyImgHtml": false,
+    "htmlLength": 28095
+  },
+  "observedSave": ["保存成功"],
+  "historyDialogOpened": false
+}

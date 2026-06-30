@@ -1,0 +1,1411 @@
+{
+  "ok": true,
+  "out": [
+    {
+      "name": "QueryAssessmentPage",
+      "clicked": true,
+      "text": "变量暂无数据监视 111 堆栈断点新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecordUpdateAssessmentRecordDeleteAssessmentRecordSubmitAssessmentScorePalimpsestHandleError当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC提交调试配置declareonCreateQueryAssessmentPageQueryAssessmentRecordsCreateAssessmentRecord名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:编译信息 *PalimpsestCrudService*: FATAL: 0;ERROR: 3;WARNING: 0;ERRORerrorCode:604013721错误行:8;错误列:61错误信息:QueryAssessmentPage - the function does not support 0 parameters.errorCode:604013721错误行:9;错误列:61错误信息:QueryAssessmentData - the function does not support 0 parameters.errorCode:604013721错误行:14;错误列:63错误信息:QueryAssessmentSmoke - the function does not support 0 parameters. *QueryAssessmentPage*: FATAL: 0;ERROR: 1;WARNING: 0;ERRORerrorCode:604013721错误行:3;错误列:32错误信息:QueryAssessmentData - the function does not support 0 parameters. *onCreate*: FATAL: 0;ERROR: 1;WARNING: 0;ERRORerrorCode:604013721错误行:2;错误列:33错误信息:QueryAssessmentSmoke - the function does not support 0 parameters.行：1，列：1， 空格：4元语言属性基础信息名称:显示名称:描述:0 / 128ID:1441151880758560281GUID:aa5d8314-87b7-453c-96e6-21e4327a8778版本状态:编辑态上传图标:已配置上传对象类型:功能单元模型历史版本:提交查看仓库路径:KingFusion4.5_V1/产品仓库/KF4.5产品/KF4.5数字孪生模型/管控单元模型/盛云科技_孙宇飞_Palimpsest_后台_0623分类标签1:分类标签2:分类标签3:成员配置编辑成员名称成员值暂无数据12345678",
+      "inputs": [
+        {
+          "i": 0,
+          "value": "",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 1,
+          "value": "declare",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 2,
+          "value": "",
+          "placeholder": "参数用,隔开，如int a, int b",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 3,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 4,
+          "value": "onCreate",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 5,
+          "value": "",
+          "placeholder": "参数用,隔开，如int a, int b",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 6,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 7,
+          "value": "QueryAssessmentPage",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 8,
+          "value": "string filterJson",
+          "placeholder": "参数用,隔开，如int a, int b",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 9,
+          "value": "string",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 10,
+          "value": "QueryAssessmentRecords",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 11,
+          "value": "stringMap<var> strmapPara",
+          "placeholder": "参数用,隔开，如int a, int b",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 12,
+          "value": "string",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 13,
+          "value": "CreateAssessmentRecord",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 14,
+          "value": "stringMap<var> strmapPara",
+          "placeholder": "参数用,隔开，如int a, int b",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 15,
+          "value": "string",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 16,
+          "value": "",
+          "placeholder": null,
+          "aria": "编辑器内容",
+          "cls": "inputarea monaco-mouse-cursor-text"
+        },
+        {
+          "i": 17,
+          "value": "common.property.baseInfo",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-radio-button__original-radio"
+        },
+        {
+          "i": 18,
+          "value": "PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 19,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": ""
+        },
+        {
+          "i": 20,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": ""
+        },
+        {
+          "i": 21,
+          "value": "PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 22,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": ""
+        },
+        {
+          "i": 23,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": ""
+        },
+        {
+          "i": 24,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 25,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": ""
+        },
+        {
+          "i": 26,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": ""
+        },
+        {
+          "i": 27,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": ""
+        },
+        {
+          "i": 28,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": ""
+        },
+        {
+          "i": 29,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": ""
+        }
+      ],
+      "selects": [
+        {
+          "i": 0,
+          "text": "",
+          "cls": "el-input el-input--default el-input--suffix model-function-search-input"
+        },
+        {
+          "i": 1,
+          "text": "",
+          "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-name wos-editor-function-name"
+        },
+        {
+          "i": 2,
+          "text": "",
+          "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param"
+        },
+        {
+          "i": 3,
+          "text": "",
+          "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type"
+        },
+        {
+          "i": 4,
+          "text": "",
+          "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-name wos-editor-function-name"
+        },
+        {
+          "i": 5,
+          "text": "",
+          "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param"
+        },
+        {
+          "i": 6,
+          "text": "",
+          "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type"
+        },
+        {
+          "i": 7,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-name wos-editor-function-name"
+        },
+        {
+          "i": 8,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param"
+        },
+        {
+          "i": 9,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type"
+        },
+        {
+          "i": 10,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-name wos-editor-function-name"
+        },
+        {
+          "i": 11,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param"
+        },
+        {
+          "i": 12,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type"
+        },
+        {
+          "i": 13,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-name wos-editor-function-name"
+        },
+        {
+          "i": 14,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param"
+        },
+        {
+          "i": 15,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type"
+        },
+        {
+          "i": 16,
+          "text": "",
+          "cls": "el-input el-input--default"
+        },
+        {
+          "i": 17,
+          "text": "",
+          "cls": "el-input el-input--default"
+        },
+        {
+          "i": 18,
+          "text": "0 / 128",
+          "cls": "el-input el-input--default"
+        },
+        {
+          "i": 19,
+          "text": "",
+          "cls": "el-input el-input--default"
+        },
+        {
+          "i": 20,
+          "text": "",
+          "cls": "el-input el-input--default"
+        },
+        {
+          "i": 21,
+          "text": "",
+          "cls": "el-input el-input--default"
+        }
+      ]
+    },
+    {
+      "name": "QueryAssessmentData",
+      "clicked": true,
+      "text": "变量暂无数据监视 111 堆栈断点新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecordUpdateAssessmentRecordDeleteAssessmentRecordSubmitAssessmentScorePalimpsestHandleError当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC提交调试配置declareonCreateQueryAssessmentPageQueryAssessmentDataQueryAssessmentRecordsCreateAssessmentRecord名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:编译信息 *PalimpsestCrudService*: FATAL: 0;ERROR: 3;WARNING: 0;ERRORerrorCode:604013721错误行:8;错误列:61错误信息:QueryAssessmentPage - the function does not support 0 parameters.errorCode:604013721错误行:9;错误列:61错误信息:QueryAssessmentData - the function does not support 0 parameters.errorCode:604013721错误行:14;错误列:63错误信息:QueryAssessmentSmoke - the function does not support 0 parameters. *QueryAssessmentPage*: FATAL: 0;ERROR: 1;WARNING: 0;ERRORerrorCode:604013721错误行:3;错误列:32错误信息:QueryAssessmentData - the function does not support 0 parameters. *onCreate*: FATAL: 0;ERROR: 1;WARNING: 0;ERRORerrorCode:604013721错误行:2;错误列:33错误信息:QueryAssessmentSmoke - the function does not support 0 parameters.行：1，列：1， 空格：4元语言属性基础信息名称:显示名称:描述:0 / 128ID:1441151880758560281GUID:aa5d8314-87b7-453c-96e6-21e4327a8778版本状态:编辑态上传图标:已配置上传对象类型:功能单元模型历史版本:提交查看仓库路径:KingFusion4.5_V1/产品仓库/KF4.5产品/KF4.5数字孪生模型/管控单元模型/盛云科技_孙宇飞_Palimpsest_后台_0623分类标签1:分类标签2:分类标签3:成员配置编辑成员名称成员值暂无数据12345678",
+      "inputs": [
+        {
+          "i": 0,
+          "value": "",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 1,
+          "value": "declare",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 2,
+          "value": "",
+          "placeholder": "参数用,隔开，如int a, int b",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 3,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 4,
+          "value": "onCreate",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 5,
+          "value": "",
+          "placeholder": "参数用,隔开，如int a, int b",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 6,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 7,
+          "value": "QueryAssessmentPage",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 8,
+          "value": "string filterJson",
+          "placeholder": "参数用,隔开，如int a, int b",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 9,
+          "value": "string",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 10,
+          "value": "QueryAssessmentData",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 11,
+          "value": "string filterJson",
+          "placeholder": "参数用,隔开，如int a, int b",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 12,
+          "value": "string",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 13,
+          "value": "QueryAssessmentRecords",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 14,
+          "value": "stringMap<var> strmapPara",
+          "placeholder": "参数用,隔开，如int a, int b",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 15,
+          "value": "string",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 16,
+          "value": "CreateAssessmentRecord",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 17,
+          "value": "stringMap<var> strmapPara",
+          "placeholder": "参数用,隔开，如int a, int b",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 18,
+          "value": "string",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 19,
+          "value": "",
+          "placeholder": null,
+          "aria": "编辑器内容",
+          "cls": "inputarea monaco-mouse-cursor-text"
+        },
+        {
+          "i": 20,
+          "value": "common.property.baseInfo",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-radio-button__original-radio"
+        },
+        {
+          "i": 21,
+          "value": "PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 22,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": ""
+        },
+        {
+          "i": 23,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": ""
+        },
+        {
+          "i": 24,
+          "value": "PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 25,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": ""
+        },
+        {
+          "i": 26,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": ""
+        },
+        {
+          "i": 27,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 28,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": ""
+        },
+        {
+          "i": 29,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": ""
+        }
+      ],
+      "selects": [
+        {
+          "i": 0,
+          "text": "",
+          "cls": "el-input el-input--default el-input--suffix model-function-search-input"
+        },
+        {
+          "i": 1,
+          "text": "",
+          "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-name wos-editor-function-name"
+        },
+        {
+          "i": 2,
+          "text": "",
+          "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param"
+        },
+        {
+          "i": 3,
+          "text": "",
+          "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type"
+        },
+        {
+          "i": 4,
+          "text": "",
+          "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-name wos-editor-function-name"
+        },
+        {
+          "i": 5,
+          "text": "",
+          "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param"
+        },
+        {
+          "i": 6,
+          "text": "",
+          "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type"
+        },
+        {
+          "i": 7,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-name wos-editor-function-name"
+        },
+        {
+          "i": 8,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param"
+        },
+        {
+          "i": 9,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type"
+        },
+        {
+          "i": 10,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-name wos-editor-function-name"
+        },
+        {
+          "i": 11,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param"
+        },
+        {
+          "i": 12,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type"
+        },
+        {
+          "i": 13,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-name wos-editor-function-name"
+        },
+        {
+          "i": 14,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param"
+        },
+        {
+          "i": 15,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type"
+        },
+        {
+          "i": 16,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-name wos-editor-function-name"
+        },
+        {
+          "i": 17,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param"
+        },
+        {
+          "i": 18,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type"
+        },
+        {
+          "i": 19,
+          "text": "",
+          "cls": "el-input el-input--default"
+        },
+        {
+          "i": 20,
+          "text": "",
+          "cls": "el-input el-input--default"
+        },
+        {
+          "i": 21,
+          "text": "0 / 128",
+          "cls": "el-input el-input--default"
+        },
+        {
+          "i": 22,
+          "text": "",
+          "cls": "el-input el-input--default"
+        },
+        {
+          "i": 23,
+          "text": "",
+          "cls": "el-input el-input--default"
+        },
+        {
+          "i": 24,
+          "text": "",
+          "cls": "el-input el-input--default"
+        }
+      ]
+    },
+    {
+      "name": "QueryAssessmentSmoke",
+      "clicked": true,
+      "text": "变量暂无数据监视 111 堆栈断点新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecordUpdateAssessmentRecordDeleteAssessmentRecordSubmitAssessmentScorePalimpsestHandleError当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC提交调试配置declareonCreateQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokeQueryAssessmentRecordsCreateAssessmentRecord名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:编译信息 *PalimpsestCrudService*: FATAL: 0;ERROR: 3;WARNING: 0;ERRORerrorCode:604013721错误行:8;错误列:61错误信息:QueryAssessmentPage - the function does not support 0 parameters.errorCode:604013721错误行:9;错误列:61错误信息:QueryAssessmentData - the function does not support 0 parameters.errorCode:604013721错误行:14;错误列:63错误信息:QueryAssessmentSmoke - the function does not support 0 parameters. *QueryAssessmentPage*: FATAL: 0;ERROR: 1;WARNING: 0;ERRORerrorCode:604013721错误行:3;错误列:32错误信息:QueryAssessmentData - the function does not support 0 parameters. *onCreate*: FATAL: 0;ERROR: 1;WARNING: 0;ERRORerrorCode:604013721错误行:2;错误列:33错误信息:QueryAssessmentSmoke - the function does not support 0 parameters.行：1，列：1， 空格：4元语言属性基础信息名称:显示名称:描述:0 / 128ID:1441151880758560281GUID:aa5d8314-87b7-453c-96e6-21e4327a8778版本状态:编辑态上传图标:已配置上传对象类型:功能单元模型历史版本:提交查看仓库路径:KingFusion4.5_V1/产品仓库/KF4.5产品/KF4.5数字孪生模型/管控单元模型/盛云科技_孙宇飞_Palimpsest_后台_0623分类标签1:分类标签2:分类标签3:成员配置编辑成员名称成员值暂无数据12345678",
+      "inputs": [
+        {
+          "i": 0,
+          "value": "",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 1,
+          "value": "declare",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 2,
+          "value": "",
+          "placeholder": "参数用,隔开，如int a, int b",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 3,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 4,
+          "value": "onCreate",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 5,
+          "value": "",
+          "placeholder": "参数用,隔开，如int a, int b",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 6,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 7,
+          "value": "QueryAssessmentPage",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 8,
+          "value": "string filterJson",
+          "placeholder": "参数用,隔开，如int a, int b",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 9,
+          "value": "string",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 10,
+          "value": "QueryAssessmentData",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 11,
+          "value": "string filterJson",
+          "placeholder": "参数用,隔开，如int a, int b",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 12,
+          "value": "string",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 13,
+          "value": "QueryAssessmentSmoke",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 14,
+          "value": "string filterJson",
+          "placeholder": "参数用,隔开，如int a, int b",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 15,
+          "value": "string",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 16,
+          "value": "QueryAssessmentRecords",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 17,
+          "value": "stringMap<var> strmapPara",
+          "placeholder": "参数用,隔开，如int a, int b",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 18,
+          "value": "string",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 19,
+          "value": "CreateAssessmentRecord",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 20,
+          "value": "stringMap<var> strmapPara",
+          "placeholder": "参数用,隔开，如int a, int b",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 21,
+          "value": "string",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 22,
+          "value": "",
+          "placeholder": null,
+          "aria": "编辑器内容",
+          "cls": "inputarea monaco-mouse-cursor-text"
+        },
+        {
+          "i": 23,
+          "value": "common.property.baseInfo",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-radio-button__original-radio"
+        },
+        {
+          "i": 24,
+          "value": "PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 25,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": ""
+        },
+        {
+          "i": 26,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": ""
+        },
+        {
+          "i": 27,
+          "value": "PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 28,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": ""
+        },
+        {
+          "i": 29,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": ""
+        }
+      ],
+      "selects": [
+        {
+          "i": 0,
+          "text": "",
+          "cls": "el-input el-input--default el-input--suffix model-function-search-input"
+        },
+        {
+          "i": 1,
+          "text": "",
+          "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-name wos-editor-function-name"
+        },
+        {
+          "i": 2,
+          "text": "",
+          "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param"
+        },
+        {
+          "i": 3,
+          "text": "",
+          "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type"
+        },
+        {
+          "i": 4,
+          "text": "",
+          "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-name wos-editor-function-name"
+        },
+        {
+          "i": 5,
+          "text": "",
+          "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param"
+        },
+        {
+          "i": 6,
+          "text": "",
+          "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type"
+        },
+        {
+          "i": 7,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-name wos-editor-function-name"
+        },
+        {
+          "i": 8,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param"
+        },
+        {
+          "i": 9,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type"
+        },
+        {
+          "i": 10,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-name wos-editor-function-name"
+        },
+        {
+          "i": 11,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param"
+        },
+        {
+          "i": 12,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type"
+        },
+        {
+          "i": 13,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-name wos-editor-function-name"
+        },
+        {
+          "i": 14,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param"
+        },
+        {
+          "i": 15,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type"
+        },
+        {
+          "i": 16,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-name wos-editor-function-name"
+        },
+        {
+          "i": 17,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param"
+        },
+        {
+          "i": 18,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type"
+        },
+        {
+          "i": 19,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-name wos-editor-function-name"
+        },
+        {
+          "i": 20,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param"
+        },
+        {
+          "i": 21,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type"
+        },
+        {
+          "i": 22,
+          "text": "",
+          "cls": "el-input el-input--default"
+        },
+        {
+          "i": 23,
+          "text": "",
+          "cls": "el-input el-input--default"
+        },
+        {
+          "i": 24,
+          "text": "0 / 128",
+          "cls": "el-input el-input--default"
+        },
+        {
+          "i": 25,
+          "text": "",
+          "cls": "el-input el-input--default"
+        },
+        {
+          "i": 26,
+          "text": "",
+          "cls": "el-input el-input--default"
+        },
+        {
+          "i": 27,
+          "text": "",
+          "cls": "el-input el-input--default"
+        }
+      ]
+    },
+    {
+      "name": "PalimpsestCrudService",
+      "clicked": true,
+      "text": "变量暂无数据监视 111 堆栈断点新建declareonCreateonDestroyonExceptionQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecordUpdateAssessmentRecordDeleteAssessmentRecordSubmitAssessmentScorePalimpsestHandleError当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC提交调试配置declareonCreateQueryAssessmentPageQueryAssessmentDataQueryAssessmentSmokePalimpsestCrudServiceQueryAssessmentRecordsCreateAssessmentRecord名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:名称:输入参数:返回值类型:编译信息 *PalimpsestCrudService*: FATAL: 0;ERROR: 3;WARNING: 0;ERRORerrorCode:604013721错误行:8;错误列:61错误信息:QueryAssessmentPage - the function does not support 0 parameters.errorCode:604013721错误行:9;错误列:61错误信息:QueryAssessmentData - the function does not support 0 parameters.errorCode:604013721错误行:14;错误列:63错误信息:QueryAssessmentSmoke - the function does not support 0 parameters. *QueryAssessmentPage*: FATAL: 0;ERROR: 1;WARNING: 0;ERRORerrorCode:604013721错误行:3;错误列:32错误信息:QueryAssessmentData - the function does not support 0 parameters. *onCreate*: FATAL: 0;ERROR: 1;WARNING: 0;ERRORerrorCode:604013721错误行:2;错误列:33错误信息:QueryAssessmentSmoke - the function does not support 0 parameters.行：1，列：1， 空格：4元语言属性基础信息名称:显示名称:描述:0 / 128ID:1441151880758560281GUID:aa5d8314-87b7-453c-96e6-21e4327a8778版本状态:编辑态上传图标:已配置上传对象类型:功能单元模型历史版本:提交查看仓库路径:KingFusion4.5_V1/产品仓库/KF4.5产品/KF4.5数字孪生模型/管控单元模型/盛云科技_孙宇飞_Palimpsest_后台_0623分类标签1:分类标签2:分类标签3:成员配置编辑成员名称成员值暂无数据12345678",
+      "inputs": [
+        {
+          "i": 0,
+          "value": "",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 1,
+          "value": "declare",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 2,
+          "value": "",
+          "placeholder": "参数用,隔开，如int a, int b",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 3,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 4,
+          "value": "onCreate",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 5,
+          "value": "",
+          "placeholder": "参数用,隔开，如int a, int b",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 6,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 7,
+          "value": "QueryAssessmentPage",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 8,
+          "value": "string filterJson",
+          "placeholder": "参数用,隔开，如int a, int b",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 9,
+          "value": "string",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 10,
+          "value": "QueryAssessmentData",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 11,
+          "value": "string filterJson",
+          "placeholder": "参数用,隔开，如int a, int b",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 12,
+          "value": "string",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 13,
+          "value": "QueryAssessmentSmoke",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 14,
+          "value": "string filterJson",
+          "placeholder": "参数用,隔开，如int a, int b",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 15,
+          "value": "string",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 16,
+          "value": "PalimpsestCrudService",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 17,
+          "value": "stringMap<var> strmapPara",
+          "placeholder": "参数用,隔开，如int a, int b",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 18,
+          "value": "string",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 19,
+          "value": "QueryAssessmentRecords",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 20,
+          "value": "stringMap<var> strmapPara",
+          "placeholder": "参数用,隔开，如int a, int b",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 21,
+          "value": "string",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 22,
+          "value": "CreateAssessmentRecord",
+          "placeholder": "请输入功能名称",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 23,
+          "value": "stringMap<var> strmapPara",
+          "placeholder": "参数用,隔开，如int a, int b",
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 24,
+          "value": "string",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 25,
+          "value": "",
+          "placeholder": null,
+          "aria": "编辑器内容",
+          "cls": "inputarea monaco-mouse-cursor-text"
+        },
+        {
+          "i": 26,
+          "value": "common.property.baseInfo",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-radio-button__original-radio"
+        },
+        {
+          "i": 27,
+          "value": "PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC",
+          "placeholder": null,
+          "aria": null,
+          "cls": "el-input__inner"
+        },
+        {
+          "i": 28,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": ""
+        },
+        {
+          "i": 29,
+          "value": "",
+          "placeholder": null,
+          "aria": null,
+          "cls": ""
+        }
+      ],
+      "selects": [
+        {
+          "i": 0,
+          "text": "",
+          "cls": "el-input el-input--default el-input--suffix model-function-search-input"
+        },
+        {
+          "i": 1,
+          "text": "",
+          "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-name wos-editor-function-name"
+        },
+        {
+          "i": 2,
+          "text": "",
+          "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param"
+        },
+        {
+          "i": 3,
+          "text": "",
+          "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type"
+        },
+        {
+          "i": 4,
+          "text": "",
+          "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-name wos-editor-function-name"
+        },
+        {
+          "i": 5,
+          "text": "",
+          "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param"
+        },
+        {
+          "i": 6,
+          "text": "",
+          "cls": "el-input el-input--default is-disabled monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type"
+        },
+        {
+          "i": 7,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-name wos-editor-function-name"
+        },
+        {
+          "i": 8,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param"
+        },
+        {
+          "i": 9,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type"
+        },
+        {
+          "i": 10,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-name wos-editor-function-name"
+        },
+        {
+          "i": 11,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param"
+        },
+        {
+          "i": 12,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type"
+        },
+        {
+          "i": 13,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-name wos-editor-function-name"
+        },
+        {
+          "i": 14,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param"
+        },
+        {
+          "i": 15,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type"
+        },
+        {
+          "i": 16,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-name wos-editor-function-name"
+        },
+        {
+          "i": 17,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param"
+        },
+        {
+          "i": 18,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type"
+        },
+        {
+          "i": 19,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-name wos-editor-function-name"
+        },
+        {
+          "i": 20,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param"
+        },
+        {
+          "i": 21,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type"
+        },
+        {
+          "i": 22,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-name wos-editor-function-name"
+        },
+        {
+          "i": 23,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-paramList wos-editor-function-param"
+        },
+        {
+          "i": 24,
+          "text": "",
+          "cls": "el-input el-input--default monaco-editor-tab-metalang-data-form-returnType wos-editor-function-return-type"
+        },
+        {
+          "i": 25,
+          "text": "",
+          "cls": "el-input el-input--default"
+        },
+        {
+          "i": 26,
+          "text": "",
+          "cls": "el-input el-input--default"
+        },
+        {
+          "i": 27,
+          "text": "0 / 128",
+          "cls": "el-input el-input--default"
+        },
+        {
+          "i": 28,
+          "text": "",
+          "cls": "el-input el-input--default"
+        },
+        {
+          "i": 29,
+          "text": "",
+          "cls": "el-input el-input--default"
+        },
+        {
+          "i": 30,
+          "text": "",
+          "cls": "el-input el-input--default"
+        }
+      ]
+    }
+  ]
+}

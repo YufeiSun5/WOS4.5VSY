@@ -1,0 +1,573 @@
+{
+  "ok": true,
+  "path": "top.0.0.0",
+  "keys": [
+    "pal_filter_status",
+    "pal_filter_dept",
+    "pal_filter_mentor",
+    "pal_filter_batch",
+    "pal_filter_date",
+    "pal_filter_keyword",
+    "pal_query_button",
+    "pal_reset_button",
+    "pal_export_button",
+    "pal_metric_total",
+    "pal_metric_wait",
+    "pal_metric_done",
+    "pal_metric_avg",
+    "pal_assessment_table",
+    "pal_department_score_bar",
+    "pal_completion_trend_line"
+  ],
+  "table": {
+    "exists": true,
+    "UIName": "pal_assessment_table",
+    "detailLen": 1311,
+    "detailStart": "this.table({\"border\":false,\"fit\":true,\"showHeader\":true,\"emptyText\":\"请先查询真实数据\",\"pagination\":true,\"pageSize\":10,\"currentPage\":1,\"columns\":[{\"prop\":\"name\",\"label\":\"记录ID\",\"minWidth\":\"170\",\"align\":\"center\",\"type\":\"\",\"columnKey\":\"\",\"fixed\":false},{\"prop\":\"studentId\",\"label\":\"学号\",\"minWidth\":\"120\",\"align\":",
+    "detailHasTable": true,
+    "linkList": [
+      {
+        "i": 0,
+        "linkName": "Select",
+        "enable": false,
+        "linkId": 200001,
+        "scriptLen": "",
+        "scriptStart": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 1,
+        "linkName": "SelectAll",
+        "enable": false,
+        "linkId": 200002,
+        "scriptLen": "",
+        "scriptStart": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 2,
+        "linkName": "SelectionChange",
+        "enable": false,
+        "linkId": 200003,
+        "scriptLen": "",
+        "scriptStart": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 3,
+        "linkName": "CellMouseEnter",
+        "enable": false,
+        "linkId": 200004,
+        "scriptLen": "",
+        "scriptStart": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 4,
+        "linkName": "CellMouseLeave",
+        "enable": false,
+        "linkId": 200005,
+        "scriptLen": "",
+        "scriptStart": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 5,
+        "linkName": "CellClick",
+        "enable": true,
+        "linkId": 200006,
+        "scriptLen": 170,
+        "scriptStart": "var e=arguments[1]||arguments[0]||{}; if(window.__palTableHandleAction){ window.__palTableHandleAction(e); } else { window.__palLastActionError='pal handler not ready'; }",
+        "hasRecordID": false,
+        "hasRefresh": false,
+        "hasBackend": false
+      },
+      {
+        "i": 6,
+        "linkName": "CellDbclick",
+        "enable": false,
+        "linkId": 200007,
+        "scriptLen": "",
+        "scriptStart": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 7,
+        "linkName": "RowClick",
+        "enable": false,
+        "linkId": 200008,
+        "scriptLen": "",
+        "scriptStart": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 8,
+        "linkName": "RowContextmenu",
+        "enable": false,
+        "linkId": 200009,
+        "scriptLen": "",
+        "scriptStart": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 9,
+        "linkName": "RowDbclick",
+        "enable": false,
+        "linkId": 200010,
+        "scriptLen": "",
+        "scriptStart": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 10,
+        "linkName": "HeaderClick",
+        "enable": false,
+        "linkId": 200011,
+        "scriptLen": "",
+        "scriptStart": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 11,
+        "linkName": "SortChange",
+        "enable": false,
+        "linkId": 200012,
+        "scriptLen": "",
+        "scriptStart": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 12,
+        "linkName": "FilterChange",
+        "enable": false,
+        "linkId": 200013,
+        "scriptLen": "",
+        "scriptStart": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 13,
+        "linkName": "CurrentChange",
+        "enable": false,
+        "linkId": 200014,
+        "scriptLen": "",
+        "scriptStart": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 14,
+        "linkName": "HeaderDragend",
+        "enable": false,
+        "linkId": 200015,
+        "scriptLen": "",
+        "scriptStart": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 15,
+        "linkName": "ExpandChange",
+        "enable": false,
+        "linkId": 200016,
+        "scriptLen": "",
+        "scriptStart": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 16,
+        "linkName": "CurrentPageChange",
+        "enable": false,
+        "linkId": 200017,
+        "scriptLen": "",
+        "scriptStart": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 17,
+        "linkName": "OnLoadSuccess",
+        "enable": false,
+        "linkId": 200018,
+        "scriptLen": "",
+        "scriptStart": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 18,
+        "linkName": "OnBeforeEdit",
+        "enable": false,
+        "linkId": 200019,
+        "scriptLen": "",
+        "scriptStart": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 19,
+        "linkName": "OnAfterEdit",
+        "enable": false,
+        "linkId": 200020,
+        "scriptLen": "",
+        "scriptStart": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 20,
+        "linkName": "PageSizeChange",
+        "enable": false,
+        "linkId": 200021,
+        "scriptLen": "",
+        "scriptStart": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      }
+    ],
+    "propLinkList": [
+      {
+        "i": 0,
+        "linkName": "Select",
+        "enable": false,
+        "linkId": 200001,
+        "scriptLen": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 1,
+        "linkName": "SelectAll",
+        "enable": false,
+        "linkId": 200002,
+        "scriptLen": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 2,
+        "linkName": "SelectionChange",
+        "enable": false,
+        "linkId": 200003,
+        "scriptLen": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 3,
+        "linkName": "CellMouseEnter",
+        "enable": false,
+        "linkId": 200004,
+        "scriptLen": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 4,
+        "linkName": "CellMouseLeave",
+        "enable": false,
+        "linkId": 200005,
+        "scriptLen": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 5,
+        "linkName": "CellClick",
+        "enable": true,
+        "linkId": 200006,
+        "scriptLen": 170,
+        "hasRecordID": false,
+        "hasRefresh": false,
+        "hasBackend": false
+      },
+      {
+        "i": 6,
+        "linkName": "CellDbclick",
+        "enable": false,
+        "linkId": 200007,
+        "scriptLen": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 7,
+        "linkName": "RowClick",
+        "enable": false,
+        "linkId": 200008,
+        "scriptLen": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 8,
+        "linkName": "RowContextmenu",
+        "enable": false,
+        "linkId": 200009,
+        "scriptLen": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 9,
+        "linkName": "RowDbclick",
+        "enable": false,
+        "linkId": 200010,
+        "scriptLen": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 10,
+        "linkName": "HeaderClick",
+        "enable": false,
+        "linkId": 200011,
+        "scriptLen": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 11,
+        "linkName": "SortChange",
+        "enable": false,
+        "linkId": 200012,
+        "scriptLen": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 12,
+        "linkName": "FilterChange",
+        "enable": false,
+        "linkId": 200013,
+        "scriptLen": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 13,
+        "linkName": "CurrentChange",
+        "enable": false,
+        "linkId": 200014,
+        "scriptLen": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 14,
+        "linkName": "HeaderDragend",
+        "enable": false,
+        "linkId": 200015,
+        "scriptLen": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 15,
+        "linkName": "ExpandChange",
+        "enable": false,
+        "linkId": 200016,
+        "scriptLen": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 16,
+        "linkName": "CurrentPageChange",
+        "enable": false,
+        "linkId": 200017,
+        "scriptLen": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 17,
+        "linkName": "OnLoadSuccess",
+        "enable": false,
+        "linkId": 200018,
+        "scriptLen": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 18,
+        "linkName": "OnBeforeEdit",
+        "enable": false,
+        "linkId": 200019,
+        "scriptLen": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 19,
+        "linkName": "OnAfterEdit",
+        "enable": false,
+        "linkId": 200020,
+        "scriptLen": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      },
+      {
+        "i": 20,
+        "linkName": "PageSizeChange",
+        "enable": false,
+        "linkId": 200021,
+        "scriptLen": "",
+        "hasRecordID": "",
+        "hasRefresh": "",
+        "hasBackend": ""
+      }
+    ]
+  },
+  "query": {
+    "exists": true,
+    "UIName": "pal_query_button",
+    "detailLen": 31,
+    "detailStart": "this.button({ text: \"查询真实数据\" })",
+    "detailHasTable": false,
+    "linkList": [
+      {
+        "i": 0,
+        "linkName": "OnClick",
+        "name": "OnClick",
+        "enable": true,
+        "linkId": 200001,
+        "type": "script",
+        "scriptLen": 16398,
+        "scriptStart": "\n(function(){\n  var PAL_ST = 'aba6cf7a-0715-4966-8eaf-0f448eba7bc9';\n  var PAL_DEV = 'PalimpsestBack_0626R2';\n  var PAL_APP = 'PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2';\n  function getMgr(ctx){ return ctx && (ctx.KMComponentsMng || (ctx.$parent && ctx.$parent.KMComponentsMng)); ",
+        "hasRecordID": true,
+        "hasRefresh": true,
+        "hasBackend": true
+      }
+    ],
+    "propLinkList": [
+      {
+        "i": 0,
+        "linkName": "OnClick",
+        "enable": true,
+        "linkId": 200001,
+        "type": "script",
+        "scriptLen": 16398,
+        "hasRecordID": true,
+        "hasRefresh": true,
+        "hasBackend": true
+      }
+    ]
+  },
+  "reset": {
+    "exists": true,
+    "UIName": "pal_reset_button",
+    "detailLen": 27,
+    "detailStart": "this.button({ text: \"重置\" })",
+    "detailHasTable": false,
+    "linkList": [
+      {
+        "i": 0,
+        "linkName": "OnClick",
+        "enable": true,
+        "linkId": 200001,
+        "scriptLen": 18086,
+        "scriptStart": "\n(function(){\n  var PAL_ST = 'aba6cf7a-0715-4966-8eaf-0f448eba7bc9';\n  var PAL_DEV = 'PalimpsestBack_0626R2';\n  var PAL_APP = 'PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2';\n  function getMgr(ctx){ return ctx && (ctx.KMComponentsMng || (ctx.$parent && ctx.$parent.KMComponentsMng)); ",
+        "hasRecordID": true,
+        "hasRefresh": true,
+        "hasBackend": true
+      }
+    ],
+    "propLinkList": [
+      {
+        "i": 0,
+        "linkName": "OnClick",
+        "enable": true,
+        "linkId": 200001,
+        "scriptLen": 18086,
+        "hasRecordID": true,
+        "hasRefresh": true,
+        "hasBackend": true
+      }
+    ]
+  },
+  "exportBtn": {
+    "exists": true,
+    "UIName": "pal_export_button",
+    "detailLen": 27,
+    "detailStart": "this.button({ text: \"导出\" })",
+    "detailHasTable": false,
+    "linkList": [
+      {
+        "i": 0,
+        "linkName": "OnClick",
+        "enable": true,
+        "linkId": 200001,
+        "scriptLen": 16667,
+        "scriptStart": "\n(function(){\n  var PAL_ST = 'aba6cf7a-0715-4966-8eaf-0f448eba7bc9';\n  var PAL_DEV = 'PalimpsestBack_0626R2';\n  var PAL_APP = 'PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC@PalimpsestBack_0626R2';\n  function getMgr(ctx){ return ctx && (ctx.KMComponentsMng || (ctx.$parent && ctx.$parent.KMComponentsMng)); ",
+        "hasRecordID": true,
+        "hasRefresh": true,
+        "hasBackend": true
+      }
+    ],
+    "propLinkList": [
+      {
+        "i": 0,
+        "linkName": "OnClick",
+        "enable": true,
+        "linkId": 200001,
+        "scriptLen": 16667,
+        "hasRecordID": true,
+        "hasRefresh": true,
+        "hasBackend": true
+      }
+    ]
+  }
+}

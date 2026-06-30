@@ -1,0 +1,129 @@
+{
+  "start": {
+    "href": "http://221.239.19.118:13001/api/v1/GetFileContent/1/0/0/94054fd1-9b20-463a-8372-b69776349847_120/index.html",
+    "started": {
+      "status": "running",
+      "startedAt": 1782458119226,
+      "probes": []
+    },
+    "spaceTimeId": {
+      "id": "1152921504606851418",
+      "name": "PalimpsestL1_0626R2",
+      "guid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+      "devName": "PalimpsestBack_0626R2",
+      "realArea": 0,
+      "yuanArea": 0,
+      "webJsArea": 0,
+      "planArea": 0,
+      "historyArea": 0
+    }
+  },
+  "final": {
+    "discovery": {
+      "status": "done",
+      "startedAt": 1782458119226,
+      "probes": [
+        {
+          "label": "mode2-st-guid",
+          "ret": 0,
+          "returnData": "undefined",
+          "raw": {
+            "ret": 0,
+            "output": {
+              "errorcodes": [
+                0
+              ],
+              "ret": 0,
+              "returndata": []
+            },
+            "traceID": "5189004037320678400",
+            "consumeTime": 31
+          }
+        },
+        {
+          "label": "mode2-st-id",
+          "ret": 0,
+          "returnData": "undefined",
+          "raw": {
+            "ret": 0,
+            "output": {
+              "errorcodes": [
+                0
+              ],
+              "ret": 0,
+              "returndata": []
+            },
+            "traceID": "5189004070110217216",
+            "consumeTime": 31
+          }
+        },
+        {
+          "label": "mode2-no-st",
+          "ret": 0,
+          "returnData": "undefined",
+          "raw": {
+            "ret": 0,
+            "output": {
+              "errorcodes": [
+                0
+              ],
+              "ret": 0,
+              "returndata": []
+            },
+            "traceID": "5189004101800527872",
+            "consumeTime": 32
+          }
+        },
+        {
+          "label": "mode1",
+          "ret": 536903681,
+          "returnData": "undefined",
+          "raw": {
+            "ret": 536903681,
+            "output": {
+              "errorcodes": [],
+              "ret": 536903681,
+              "returndata": []
+            },
+            "traceID": "5189004137704907776",
+            "consumeTime": 34
+          }
+        },
+        {
+          "label": "empty",
+          "ret": 536903681,
+          "returnData": "undefined",
+          "raw": {
+            "ret": 536903681,
+            "output": {
+              "ret": 536903681,
+              "errorcodes": [
+                536903681
+              ]
+            },
+            "traceID": "5189004171997562880",
+            "consumeTime": 31
+          }
+        }
+      ],
+      "changeByName": {
+        "ret": 0,
+        "msg": "修改成功!"
+      },
+      "spaceAfter": null,
+      "cloud": 1,
+      "doneAt": 1782458119430
+    },
+    "spaceTimeId": {
+      "id": "1152921504606851418",
+      "name": "PalimpsestL1_0626R2",
+      "guid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+      "devName": "PalimpsestBack_0626R2",
+      "realArea": 0,
+      "yuanArea": 0,
+      "webJsArea": 0,
+      "planArea": 0,
+      "historyArea": 0
+    }
+  }
+}

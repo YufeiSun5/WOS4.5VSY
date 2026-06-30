@@ -1,5 +1,5 @@
 interface:
-  display_name: "WOS4 蓝色客户端创建"
-  short_description: "在时空对象管理中创建可运行的蓝色 WebJS 客户端对象。"
-  default_prompt: "在时空对象管理中按已验证路径创建蓝色 WebJS 客户端对象，并验证运行壳。"
+  display_name: "WOS4 蓝色客户端验证"
+  short_description: "验证已部署蓝色 WebJS 客户端对象和运行壳。"
+  default_prompt: "验证时空对象管理平台中已上线的蓝色 WebJS 客户端对象、视图和运行壳；不要在对象管理中新建内容。"
 

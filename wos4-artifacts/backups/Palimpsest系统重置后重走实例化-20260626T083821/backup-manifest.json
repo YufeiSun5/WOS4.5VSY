@@ -1,0 +1,21 @@
+{
+  "task": "Palimpsest系统重置后重走实例化",
+  "created_at": "2026-06-26T08:38:21+08:00",
+  "operator": "孙宇飞_code-ai",
+  "reason": "用户说明 WOS4 系统被重置，之前的组态实例化结果失效；随后明确要求不要在当前 0624 工程继续，改为新建 0626 工程重走链路。",
+  "target_project": "盛云_孙宇飞_Palimpsest工程_0626",
+  "target_spacetime": "PalimpsestL1",
+  "target_backend_instance": "PalimpsestBack",
+  "backend_model": "盛云科技_孙宇飞_Palimpsest_后台_0623",
+  "frontend_model_note": "Palimpsest 前端模型仅含页面精灵图，按当前规则不作为管控单元实例行创建；后续通过数字孪生可视化绑定页面。",
+  "operation_plan": [
+    "登录 WOS4 并进入组态系统客户端",
+    "返回工程管理并新建 盛云_孙宇飞_Palimpsest工程_0626",
+    "在 0626 工程内创建/核实时空列表和实例列表当前状态",
+    "重新创建 PalimpsestL1 和后端运行实例",
+    "执行时空列表批量提交并捕获提交进度",
+    "若生成时空包成功，再进入运维部署客户端更新/部署/启动",
+    "保存截图、快照和执行结论"
+  ],
+  "evidence_to_add": []
+}

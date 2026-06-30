@@ -1,0 +1,47 @@
+[
+  {
+    "path": "top",
+    "href": "http://221.239.19.118:13001/#/main",
+    "text": "时空功能开发\n时空对象管理\n系统运维\n安全管理\n审计管理\n亚控云商城\n生成器\n建模系统客户端1\n组态系统客户端1\n运维部署客户端1\n接口测试\n工厂管理员客户端_对象1\n盛云_孙宇飞_Palimpsest客户端_0626R2_对象1",
+    "isConfig": false,
+    "hasProject": false,
+    "hasClient": true,
+    "hasScreenList": false
+  },
+  {
+    "path": "top.0",
+    "href": "http://221.239.19.118:13001/public/?id=6192730962611142663&parentid=0&cloudid=1&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+    "text": "",
+    "isConfig": false,
+    "hasProject": false,
+    "hasClient": false,
+    "hasScreenList": false
+  },
+  {
+    "path": "top.0.0",
+    "href": "http://221.239.19.118:13001/api/v1/GetFileContent/1/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/index.html",
+    "text": "KingFusion4.5_组态系统\n\n工程目录\n\n新建工程\n刷新\n更多操作\n工程名称\t描述\t创建时间\t上次更新时间\t操作\n引滦原水处理\n\t\n\t\n2026-04-08 11:35:36\n\t\n2026-04-08 11:35:36\n\t\n进入工程编辑删除\n\n\n测试\n\t\n\t\n2026-04-13 13:41:23\n\t\n2026-04-13 13:41:23\n\t\n进入工程编辑删除\n\n\nmwq测试\n\t\n\t\n2026-06-12 17:09:13\n\t\n2026-06-12 17:09:13\n\t\n进入工程编辑删除\n\n\n张测试1\n\t\n\t\n2026-06-15 09:36:22\n\t\n2026-06-15 09:36:22\n\t\n进入工程编辑删除\n\n\n盛云_孙宇飞_Noctiluca\n\t\nisolated config line for code\n\t\n2026-06-18 22:35:20\n\t\n2026-06-19 08:28:51\n\t\n进入工程编辑删除\n\n\n盛云_孙宇飞_CRUD工程_0620\n\t\nclean runtime chain for CRUD 0620\n\t\n2026-06-20 22:00:47\n\t\n2026-06-20 22:00:47\n\t\n进入工程编辑删除\n\n\n信息管理系统\n\t\n\t\n2026-06-21 23:33:45\n\t\n2026-06-21 23:34:02\n\t\n进入工程编辑删除\n\n\n盛云_孙宇飞_Palimpsest工程_0624\n\t\nPalimpsest前后端联调工程\n\t\n2026-06-24 00:48:20\n\t\n2026-06-24 00:48:20\n\t\n进入工程编辑删除\n\n\n盛云_孙宇飞_Palimpsest工程_0626\n\t\nPalimpsest 0626 after reset\n\t\n2026-06-26 08:58:27\n\t\n2026-06-26 08:58:27\n\t\n进入工程编辑删除\n\n\n接口测试当前工程\n\t\n\t\n2026-06-26 14:36:17\n\t\n2026-06-26 14:36:17\n\t\n进入工程编辑删除\n\n\ntext\n\t\n\t\n2026-06-26 15:04:49\n\t\n2026-06-26 15:04:49\n\t\n进入工程编辑删除\n共 11 条\n1\n前往页",
+    "isConfig": true,
+    "hasProject": true,
+    "hasClient": false,
+    "hasScreenList": false
+  },
+  {
+    "path": "top.1",
+    "href": "http://221.239.19.118:13001/public/?id=6192730962611142664&parentid=0&cloudid=1&areaid=0&username=%E5%AD%99%E5%AE%87%E9%A3%9E&bs=true",
+    "text": "\n    \n    \n    !function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();\n    \n    System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))\n  \n\n",
+    "isConfig": false,
+    "hasProject": false,
+    "hasClient": false,
+    "hasScreenList": false
+  },
+  {
+    "path": "top.1.0",
+    "href": "http://221.239.19.118:13001/api/v1/GetFileContent/1/0/0/f5f8c456-e145-4d85-b1c3-dc3a17e7b512_118/index.html",
+    "text": "<strong>We're sorry but app-master doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>KingFusion4.5_部署系统工程列表名称引滦原水处理测试mwq测试张测试1盛云_孙宇飞_Noctiluca盛云_孙宇飞_CRUD工程_0620信息管理系统盛云_孙宇飞_Palimpsest工程_0624盛云_孙宇飞_Palimpsest工程_0626接口测试共 11 条10条/页20条/页50条/页100条/页12前往页 管控单元实例  数字孪生可视化  工作流实例  系统服务配置  采集设备实例  云管理  批量撤销部署  批量部署  批量启动  批量停止   实例名称版本云数据区部署状态运行状态操作PalimpsestL1无未部署未启动部署启动 更新 部分更新 删除 全部展开PalimpsestL1_0626无未部署未启动部署启动 更新 部分更新 删除 全部展开PalimpsestL1_0626R2无本云area0未部署未启动部署启动 更新 部分更新 删除 全部展开\n          \n          body #RContainerk5085bc26e0f8870c519ba6e84f0c3d0 #k0cf2e5501c87454b2c448de64169255 p\n{\nfont-family: Source Han Sans;\nfont-size: 18px;\nfont-weight: bold;\nline-height: normal;\nletter-spacing: normal;\ncolor: #333333;\n}#RContainerk5085bc26e0f8870c519ba6e84f0c3d0 #k0cf2e5501c87454b2c448de64169255 {\n          background:rgba(255, 255, 255, 0);\n          border-width:0px;\n          border-style:null;\n          border-color:#000000;\n          text-align:left;\n          align-items:center;\n      }\n      #RContainerk5085bc26e0f8870c519ba6e84f0c3d0 #k0cf2e5501c87454b2c448de64169255 p{\n          font-family:微软雅黑;\n          font-size:18px;\n      }\n      #RContainerk5085bc26e0f8870c519ba6e84f0c3d0 #k0cf2e5501c87454b2c448de64169255 label{\n          font-weight:bold;\n          font-style:normal;\n          padding-right: 0px;\n          text-decoration:none;\n      }#RContainerk5085bc26e0f8870c519ba6e84f0c3d0 #k0cf2e5501c87454b2c448de64169255 p {\n            color: #333333;\n          }#RContainerk5085bc26e0f8870c519ba6e84f0c3d0 #k4ff424179c2ee1d85fb4ac419e4c5c8 {\n                    background: rgba(247, 249, 252, 1);\n                    background-repeat: repeat;\n                    background-size: auto;\n                }#RContainerk5085bc26e0f8870c519ba6e84f0c3d0 #k4ff424179c2ee1d85fb4ac419e4c5c8 { \n                        box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);\n                    }#RContainerk5085bc26e0f8870c519ba6e84f0c3d0 #kccd02436b13320cafc6c5271be5b19c { \n                        box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);\n                    }\n/*设置边框*/\n#RContainerk5085bc26e0f8870c519ba6e84f0c3d0 #kccd02436b13320cafc6c5271be5b19c {\n    border:1px solid lightgray;}\n#RContainerk5085bc26e0f8870c519ba6e84f0c3d0 {\n                        height: 899px;\n                        width: 1920px;\n                        border: 0px solid rgba(0,0,0,0.1);\n                        border-radius:0px;\n                        background: ;\n            ",
+    "isConfig": false,
+    "hasProject": true,
+    "hasClient": false,
+    "hasScreenList": false
+  }
+]

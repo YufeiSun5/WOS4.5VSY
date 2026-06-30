@@ -1,0 +1,57 @@
+{
+  "capturedAt": "2026-06-26T09:20:40+08:00",
+  "operator": "孙宇飞_code-ai",
+  "project": "盛云_孙宇飞_Palimpsest工程_0626",
+  "tool": "browser-harness",
+  "route": "组态系统客户端 -> 工程目录 -> 盛云_孙宇飞_Palimpsest工程_0626 -> 管控单元实例配置 -> PalimpsestL1 -> 提交版本",
+  "submittedTimeSpace": {
+    "name": "PalimpsestL1",
+    "guid": "657add61-3075-47cb-95a0-0b076373bd3e",
+    "version": 1
+  },
+  "instances": [
+    {
+      "name": "PalimpsestBack",
+      "displayName": "PalimpsestBack",
+      "guid": "9a372903-13bd-49b9-808f-6448d5625b03",
+      "modelName": "盛云科技_孙宇飞_Palimpsest_后台_0623",
+      "modelGuid": "603ca6ac-1c23-4c8b-ab54-88b1adb053b9",
+      "modelVersion": "2",
+      "version": 1
+    }
+  ],
+  "progressDialog": {
+    "title": "时空仓库版本提交进度",
+    "percent": "100%",
+    "rows": [
+      {
+        "name": "PalimpsestL1",
+        "guid": "657add61-3075-47cb-95a0-0b076373bd3e",
+        "status": "100%",
+        "detail": "提交成功"
+      },
+      {
+        "name": "PalimpsestBack",
+        "guid": "9a372903-13bd-49b9-808f-6448d5625b03",
+        "status": "100%",
+        "detail": "提交成功"
+      }
+    ]
+  },
+  "callbacks": [
+    {
+      "function": "_asyncCreatePacketCallback",
+      "errorcodes": [0],
+      "guids": ["657add61-3075-47cb-95a0-0b076373bd3e"],
+      "versions": [1]
+    },
+    {
+      "function": "_asyncCreatePacketCallback",
+      "errorcodes": [0],
+      "guids": ["9a372903-13bd-49b9-808f-6448d5625b03"],
+      "versions": [1]
+    }
+  ],
+  "result": "success",
+  "frontendInstanceDecision": "盛云科技_孙宇飞_Palimpsest_前端_0623 是页面精灵图前端模型，本次未放入管控单元实例配置；后续通过数字孪生可视化客户端画面列表引用页面并配置当前时空。"
+}

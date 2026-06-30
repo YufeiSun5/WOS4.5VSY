@@ -5,6 +5,19 @@ description: Update an existing WOS4 runtime time-space to a newer repository pa
 
 # WOS4 Runtime Package Update
 
+## Current Backend-Chain Boundary
+
+For backend business events and custom calculations, the accepted runtime path is:
+
+```text
+建模系统提交模型
+-> 组态系统客户端实例化
+-> 运维部署客户端更新 / 部署 / 启动
+-> 时空对象管理平台获取时空信息并调试
+```
+
+`时空对象管理平台` is the authority for whether the runtime is online and debuggable. `时空功能开发` package/deploy notes in this skill are historical or diagnostic unless a task explicitly asks to inspect that older route.
+
 ## Purpose
 
 Use this skill to update a fixed personal runtime time-space to a newer repository package version.

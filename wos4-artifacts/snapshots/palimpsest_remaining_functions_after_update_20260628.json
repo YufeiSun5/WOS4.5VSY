@@ -1,0 +1,32 @@
+{
+  "UpdateAssessmentRecord": {
+    "ret": 0,
+    "has3106": true,
+    "has4106": false,
+    "hasAppSpaceTimeGuid": true,
+    "hasMode51": true,
+    "hasObjectRecordFieldValues": true,
+    "hasObjectRecords": false,
+    "traceIdLine": "traceId = \"pal-20260628-real-update"
+  },
+  "SubmitAssessmentScore": {
+    "ret": 0,
+    "has3106": true,
+    "has4106": false,
+    "hasAppSpaceTimeGuid": true,
+    "hasMode51": true,
+    "hasObjectRecordFieldValues": true,
+    "hasObjectRecords": false,
+    "traceIdLine": "traceId = \"pal-20260628-real-score"
+  },
+  "DeleteAssessmentRecord": {
+    "ret": 0,
+    "has3106": true,
+    "has4106": false,
+    "hasAppSpaceTimeGuid": true,
+    "hasMode51": true,
+    "hasObjectRecordFieldValues": false,
+    "hasObjectRecords": true,
+    "traceIdLine": "traceId = \"pal-20260628-real-delete"
+  }
+}

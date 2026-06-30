@@ -1,0 +1,2347 @@
+{
+  "leftPanel": [
+    {
+      "i": 0,
+      "tag": "HTML",
+      "cls": "",
+      "text": "变量\nstrmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}\n监视\n堆栈\n\n0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4\n\n断点\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"da",
+      "x": 0,
+      "y": 0,
+      "w": 1598,
+      "h": 784
+    },
+    {
+      "i": 1,
+      "tag": "BODY",
+      "cls": "enable-motion underline-links",
+      "text": "变量\nstrmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}\n监视\n堆栈\n\n0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4\n\n断点\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"da",
+      "x": 0,
+      "y": 0,
+      "w": 1598,
+      "h": 784
+    },
+    {
+      "i": 2,
+      "tag": "DIV",
+      "cls": "wos-root-app",
+      "text": "变量\nstrmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}\n监视\n堆栈\n\n0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4\n\n断点\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"da",
+      "x": 0,
+      "y": 0,
+      "w": 1598,
+      "h": 784
+    },
+    {
+      "i": 3,
+      "tag": "DIV",
+      "cls": "editor-container fu-editor-container",
+      "text": "变量\nstrmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}\n监视\n堆栈\n\n0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4\n\n断点\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"da",
+      "x": 0,
+      "y": 0,
+      "w": 1598,
+      "h": 784
+    },
+    {
+      "i": 4,
+      "tag": "DIV",
+      "cls": "editor-main",
+      "text": "变量\nstrmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}\n监视\n堆栈\n\n0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4\n\n断点\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"da",
+      "x": 0,
+      "y": 0,
+      "w": 1221,
+      "h": 784
+    },
+    {
+      "i": 5,
+      "tag": "DIV",
+      "cls": "editor-aside editor-aside-main",
+      "text": "变量\nstrmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}\n监视\n堆栈\n\n0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4\n\n断点\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"da",
+      "x": 0,
+      "y": 0,
+      "w": 1221,
+      "h": 784
+    },
+    {
+      "i": 6,
+      "tag": "DIV",
+      "cls": "editor-aside-comp-container",
+      "text": "变量\nstrmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}\n监视\n堆栈\n\n0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4\n\n断点\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"da",
+      "x": 6,
+      "y": 12,
+      "w": 1209,
+      "h": 772
+    },
+    {
+      "i": 7,
+      "tag": "DIV",
+      "cls": "editor-aside-comp-item",
+      "text": "变量\nstrmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}\n监视\n堆栈\n\n0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4\n\n断点\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"da",
+      "x": 6,
+      "y": 12,
+      "w": 1209,
+      "h": 772
+    },
+    {
+      "i": 8,
+      "tag": "DIV",
+      "cls": "editor-main",
+      "text": "变量\nstrmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}\n监视\n堆栈\n\n0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4\n\n断点\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"da",
+      "x": 6,
+      "y": 12,
+      "w": 1209,
+      "h": 772
+    },
+    {
+      "i": 9,
+      "tag": "DIV",
+      "cls": "el-row",
+      "text": "变量\nstrmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}\n监视\n堆栈\n\n0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4\n\n断点\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"da",
+      "x": 6,
+      "y": 12,
+      "w": 1209,
+      "h": 772
+    },
+    {
+      "i": 10,
+      "tag": "DIV",
+      "cls": "app-model-editor code-editor w100 h100 code-editor",
+      "text": "变量\nstrmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}\n监视\n堆栈\n\n0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4\n\n断点\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"da",
+      "x": 6,
+      "y": 12,
+      "w": 1209,
+      "h": 772
+    },
+    {
+      "i": 11,
+      "tag": "DIV",
+      "cls": "script-editor-menu h100",
+      "text": "",
+      "x": 6,
+      "y": 12,
+      "w": 40,
+      "h": 772
+    },
+    {
+      "i": 12,
+      "tag": "DIV",
+      "cls": "menu-item wos-script-editor-function-mng",
+      "text": "",
+      "x": 6,
+      "y": 12,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "i": 13,
+      "tag": "I",
+      "cls": "el-icon item-icon",
+      "text": "",
+      "x": 16,
+      "y": 22,
+      "w": 20,
+      "h": 20
+    },
+    {
+      "i": 14,
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "x": 16,
+      "y": 22,
+      "w": 20,
+      "h": 20
+    },
+    {
+      "i": 15,
+      "tag": "path",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "x": 18.5,
+      "y": 23.25,
+      "w": 15,
+      "h": 17.5
+    },
+    {
+      "i": 16,
+      "tag": "DIV",
+      "cls": "menu-item wos-script-editor-debugger-mng is-active",
+      "text": "",
+      "x": 6,
+      "y": 52,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "i": 17,
+      "tag": "I",
+      "cls": "el-icon item-icon",
+      "text": "",
+      "x": 16,
+      "y": 62,
+      "w": 20,
+      "h": 20
+    },
+    {
+      "i": 18,
+      "tag": "I",
+      "cls": "icon iconfont icon-zaixiantiaoshi",
+      "text": "",
+      "x": 16.34375,
+      "y": 62,
+      "w": 19.296875,
+      "h": 20
+    },
+    {
+      "i": 19,
+      "tag": "DIV",
+      "cls": "el-collapse el-collapse-icon-position-right code-editor-debugger-view w100 h100 script-editor-debugger",
+      "text": "变量\nstrmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}\n监视\n堆栈\n\n0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4\n\n断点",
+      "x": 46,
+      "y": 12,
+      "w": 300,
+      "h": 748
+    },
+    {
+      "i": 20,
+      "tag": "DIV",
+      "cls": "el-collapse-item is-active open-item",
+      "text": "变量\nstrmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}",
+      "x": 46,
+      "y": 12,
+      "w": 300,
+      "h": 333
+    },
+    {
+      "i": 21,
+      "tag": "DIV",
+      "cls": "el-collapse-item__header is-active",
+      "text": "变量",
+      "x": 46,
+      "y": 12,
+      "w": 300,
+      "h": 41
+    },
+    {
+      "i": 22,
+      "tag": "SPAN",
+      "cls": "el-collapse-item__title",
+      "text": "变量",
+      "x": 46,
+      "y": 12,
+      "w": 292,
+      "h": 40
+    },
+    {
+      "i": 23,
+      "tag": "DIV",
+      "cls": "title",
+      "text": "变量",
+      "x": 46,
+      "y": 12,
+      "w": 292,
+      "h": 40
+    },
+    {
+      "i": 24,
+      "tag": "SPAN",
+      "cls": "code-editor-debugger-variable",
+      "text": "变量",
+      "x": 61,
+      "y": 12,
+      "w": 26,
+      "h": 40
+    },
+    {
+      "i": 25,
+      "tag": "I",
+      "cls": "el-icon el-collapse-item__arrow is-active",
+      "text": "",
+      "x": 46,
+      "y": 25.5,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "i": 26,
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "x": 46,
+      "y": 25.5,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "i": 27,
+      "tag": "path",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "x": 47.784584045410156,
+      "y": 29.716821670532227,
+      "w": 9.430831909179688,
+      "h": 4.966012954711914
+    },
+    {
+      "i": 28,
+      "tag": "DIV",
+      "cls": "el-collapse-item__wrap el-collapse-transition-enter-from el-collapse-transition-enter-active",
+      "text": "strmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}",
+      "x": 46,
+      "y": 53,
+      "w": 300,
+      "h": 1
+    },
+    {
+      "i": 29,
+      "tag": "DIV",
+      "cls": "el-scrollbar__view",
+      "text": "strmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}",
+      "x": 46,
+      "y": 53,
+      "w": 300,
+      "h": 260
+    },
+    {
+      "i": 30,
+      "tag": "DIV",
+      "cls": "el-tree variable-tree",
+      "text": "strmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}",
+      "x": 46,
+      "y": 53,
+      "w": 300,
+      "h": 260
+    },
+    {
+      "i": 31,
+      "tag": "DIV",
+      "cls": "el-tree-node is-focusable",
+      "text": "strmapPara: Array(1)",
+      "x": 46,
+      "y": 53,
+      "w": 300,
+      "h": 26
+    },
+    {
+      "i": 32,
+      "tag": "DIV",
+      "cls": "el-tree-node__content",
+      "text": "strmapPara: Array(1)",
+      "x": 46,
+      "y": 53,
+      "w": 300,
+      "h": 26
+    },
+    {
+      "i": 33,
+      "tag": "I",
+      "cls": "el-icon el-tree-node__expand-icon",
+      "text": "",
+      "x": 46,
+      "y": 54,
+      "w": 24,
+      "h": 24
+    },
+    {
+      "i": 34,
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "x": 52,
+      "y": 60,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "i": 35,
+      "tag": "path",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "x": 56.5,
+      "y": 62.25,
+      "w": 4.5,
+      "h": 7.5
+    },
+    {
+      "i": 36,
+      "tag": "DIV",
+      "cls": "variable-box",
+      "text": "strmapPara: Array(1)",
+      "x": 70,
+      "y": 53.609375,
+      "w": 266,
+      "h": 24.765625
+    },
+    {
+      "i": 37,
+      "tag": "SPAN",
+      "cls": "variable-value",
+      "text": "strmapPara: Array(1)",
+      "x": 70,
+      "y": 53.609375,
+      "w": 266,
+      "h": 24.765625
+    },
+    {
+      "i": 38,
+      "tag": "DIV",
+      "cls": "el-tree-node is-focusable",
+      "text": "param: Array(5)",
+      "x": 46,
+      "y": 79,
+      "w": 300,
+      "h": 26
+    },
+    {
+      "i": 39,
+      "tag": "DIV",
+      "cls": "el-tree-node__content",
+      "text": "param: Array(5)",
+      "x": 46,
+      "y": 79,
+      "w": 300,
+      "h": 26
+    },
+    {
+      "i": 40,
+      "tag": "I",
+      "cls": "el-icon el-tree-node__expand-icon",
+      "text": "",
+      "x": 46,
+      "y": 80,
+      "w": 24,
+      "h": 24
+    },
+    {
+      "i": 41,
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "x": 52,
+      "y": 86,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "i": 42,
+      "tag": "path",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "x": 56.5,
+      "y": 88.25,
+      "w": 4.5,
+      "h": 7.5
+    },
+    {
+      "i": 43,
+      "tag": "DIV",
+      "cls": "variable-box",
+      "text": "param: Array(5)",
+      "x": 70,
+      "y": 79.609375,
+      "w": 266,
+      "h": 24.765625
+    },
+    {
+      "i": 44,
+      "tag": "SPAN",
+      "cls": "variable-value",
+      "text": "param: Array(5)",
+      "x": 70,
+      "y": 79.609375,
+      "w": 266,
+      "h": 24.765625
+    },
+    {
+      "i": 45,
+      "tag": "DIV",
+      "cls": "el-tree-node is-focusable",
+      "text": "input: Array(3)",
+      "x": 46,
+      "y": 105,
+      "w": 300,
+      "h": 26
+    },
+    {
+      "i": 46,
+      "tag": "DIV",
+      "cls": "el-tree-node__content",
+      "text": "input: Array(3)",
+      "x": 46,
+      "y": 105,
+      "w": 300,
+      "h": 26
+    },
+    {
+      "i": 47,
+      "tag": "I",
+      "cls": "el-icon el-tree-node__expand-icon",
+      "text": "",
+      "x": 46,
+      "y": 106,
+      "w": 24,
+      "h": 24
+    },
+    {
+      "i": 48,
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "x": 52,
+      "y": 112,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "i": 49,
+      "tag": "path",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "x": 56.5,
+      "y": 114.25,
+      "w": 4.5,
+      "h": 7.5
+    },
+    {
+      "i": 50,
+      "tag": "DIV",
+      "cls": "variable-box",
+      "text": "input: Array(3)",
+      "x": 70,
+      "y": 105.609375,
+      "w": 266,
+      "h": 24.765625
+    },
+    {
+      "i": 51,
+      "tag": "SPAN",
+      "cls": "variable-value",
+      "text": "input: Array(3)",
+      "x": 70,
+      "y": 105.609375,
+      "w": 266,
+      "h": 24.765625
+    },
+    {
+      "i": 52,
+      "tag": "DIV",
+      "cls": "el-tree-node is-focusable",
+      "text": "output: Array(0)",
+      "x": 46,
+      "y": 131,
+      "w": 300,
+      "h": 26
+    },
+    {
+      "i": 53,
+      "tag": "DIV",
+      "cls": "el-tree-node__content",
+      "text": "output: Array(0)",
+      "x": 46,
+      "y": 131,
+      "w": 300,
+      "h": 26
+    },
+    {
+      "i": 54,
+      "tag": "I",
+      "cls": "el-icon el-tree-node__expand-icon",
+      "text": "",
+      "x": 46,
+      "y": 132,
+      "w": 24,
+      "h": 24
+    },
+    {
+      "i": 55,
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "x": 52,
+      "y": 138,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "i": 56,
+      "tag": "path",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "x": 56.5,
+      "y": 140.25,
+      "w": 4.5,
+      "h": 7.5
+    },
+    {
+      "i": 57,
+      "tag": "DIV",
+      "cls": "variable-box",
+      "text": "output: Array(0)",
+      "x": 70,
+      "y": 131.609375,
+      "w": 266,
+      "h": 24.765625
+    },
+    {
+      "i": 58,
+      "tag": "SPAN",
+      "cls": "variable-value",
+      "text": "output: Array(0)",
+      "x": 70,
+      "y": 131.609375,
+      "w": 266,
+      "h": 24.765625
+    },
+    {
+      "i": 59,
+      "tag": "DIV",
+      "cls": "el-tree-node is-focusable",
+      "text": "objectCondition: Array(3)",
+      "x": 46,
+      "y": 157,
+      "w": 300,
+      "h": 26
+    },
+    {
+      "i": 60,
+      "tag": "DIV",
+      "cls": "el-tree-node__content",
+      "text": "objectCondition: Array(3)",
+      "x": 46,
+      "y": 157,
+      "w": 300,
+      "h": 26
+    },
+    {
+      "i": 61,
+      "tag": "I",
+      "cls": "el-icon el-tree-node__expand-icon",
+      "text": "",
+      "x": 46,
+      "y": 158,
+      "w": 24,
+      "h": 24
+    },
+    {
+      "i": 62,
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "x": 52,
+      "y": 164,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "i": 63,
+      "tag": "path",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "x": 56.5,
+      "y": 166.25,
+      "w": 4.5,
+      "h": 7.5
+    },
+    {
+      "i": 64,
+      "tag": "DIV",
+      "cls": "variable-box",
+      "text": "objectCondition: Array(3)",
+      "x": 70,
+      "y": 157.609375,
+      "w": 266,
+      "h": 24.765625
+    },
+    {
+      "i": 65,
+      "tag": "SPAN",
+      "cls": "variable-value",
+      "text": "objectCondition: Array(3)",
+      "x": 70,
+      "y": 157.609375,
+      "w": 266,
+      "h": 24.765625
+    },
+    {
+      "i": 66,
+      "tag": "DIV",
+      "cls": "el-tree-node is-focusable",
+      "text": "condition1: Array(7)",
+      "x": 46,
+      "y": 183,
+      "w": 300,
+      "h": 26
+    },
+    {
+      "i": 67,
+      "tag": "DIV",
+      "cls": "el-tree-node__content",
+      "text": "condition1: Array(7)",
+      "x": 46,
+      "y": 183,
+      "w": 300,
+      "h": 26
+    },
+    {
+      "i": 68,
+      "tag": "I",
+      "cls": "el-icon el-tree-node__expand-icon",
+      "text": "",
+      "x": 46,
+      "y": 184,
+      "w": 24,
+      "h": 24
+    },
+    {
+      "i": 69,
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "x": 52,
+      "y": 190,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "i": 70,
+      "tag": "path",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "x": 56.5,
+      "y": 192.25,
+      "w": 4.5,
+      "h": 7.5
+    },
+    {
+      "i": 71,
+      "tag": "DIV",
+      "cls": "variable-box",
+      "text": "condition1: Array(7)",
+      "x": 70,
+      "y": 183.609375,
+      "w": 266,
+      "h": 24.765625
+    },
+    {
+      "i": 72,
+      "tag": "SPAN",
+      "cls": "variable-value",
+      "text": "condition1: Array(7)",
+      "x": 70,
+      "y": 183.609375,
+      "w": 266,
+      "h": 24.765625
+    },
+    {
+      "i": 73,
+      "tag": "DIV",
+      "cls": "el-tree-node is-focusable",
+      "text": "conditions: Array(1)",
+      "x": 46,
+      "y": 209,
+      "w": 300,
+      "h": 26
+    },
+    {
+      "i": 74,
+      "tag": "DIV",
+      "cls": "el-tree-node__content",
+      "text": "conditions: Array(1)",
+      "x": 46,
+      "y": 209,
+      "w": 300,
+      "h": 26
+    },
+    {
+      "i": 75,
+      "tag": "I",
+      "cls": "el-icon el-tree-node__expand-icon",
+      "text": "",
+      "x": 46,
+      "y": 210,
+      "w": 24,
+      "h": 24
+    },
+    {
+      "i": 76,
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "x": 52,
+      "y": 216,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "i": 77,
+      "tag": "path",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "x": 56.5,
+      "y": 218.25,
+      "w": 4.5,
+      "h": 7.5
+    },
+    {
+      "i": 78,
+      "tag": "DIV",
+      "cls": "variable-box",
+      "text": "conditions: Array(1)",
+      "x": 70,
+      "y": 209.609375,
+      "w": 266,
+      "h": 24.765625
+    },
+    {
+      "i": 79,
+      "tag": "SPAN",
+      "cls": "variable-value",
+      "text": "conditions: Array(1)",
+      "x": 70,
+      "y": 209.609375,
+      "w": 266,
+      "h": 24.765625
+    },
+    {
+      "i": 80,
+      "tag": "DIV",
+      "cls": "el-tree-node is-focusable",
+      "text": "queryResult: Array(3)",
+      "x": 46,
+      "y": 235,
+      "w": 300,
+      "h": 26
+    },
+    {
+      "i": 81,
+      "tag": "DIV",
+      "cls": "el-tree-node__content",
+      "text": "queryResult: Array(3)",
+      "x": 46,
+      "y": 235,
+      "w": 300,
+      "h": 26
+    },
+    {
+      "i": 82,
+      "tag": "I",
+      "cls": "el-icon el-tree-node__expand-icon",
+      "text": "",
+      "x": 46,
+      "y": 236,
+      "w": 24,
+      "h": 24
+    },
+    {
+      "i": 83,
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "x": 52,
+      "y": 242,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "i": 84,
+      "tag": "path",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "x": 56.5,
+      "y": 244.25,
+      "w": 4.5,
+      "h": 7.5
+    },
+    {
+      "i": 85,
+      "tag": "DIV",
+      "cls": "variable-box",
+      "text": "queryResult: Array(3)",
+      "x": 70,
+      "y": 235.609375,
+      "w": 266,
+      "h": 24.765625
+    },
+    {
+      "i": 86,
+      "tag": "SPAN",
+      "cls": "variable-value",
+      "text": "queryResult: Array(3)",
+      "x": 70,
+      "y": 235.609375,
+      "w": 266,
+      "h": 24.765625
+    },
+    {
+      "i": 87,
+      "tag": "DIV",
+      "cls": "el-tree-node is-focusable",
+      "text": "returnFields: Array(17)",
+      "x": 46,
+      "y": 261,
+      "w": 300,
+      "h": 26
+    },
+    {
+      "i": 88,
+      "tag": "DIV",
+      "cls": "el-tree-node__content",
+      "text": "returnFields: Array(17)",
+      "x": 46,
+      "y": 261,
+      "w": 300,
+      "h": 26
+    },
+    {
+      "i": 89,
+      "tag": "I",
+      "cls": "el-icon el-tree-node__expand-icon",
+      "text": "",
+      "x": 46,
+      "y": 262,
+      "w": 24,
+      "h": 24
+    },
+    {
+      "i": 90,
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "x": 52,
+      "y": 268,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "i": 91,
+      "tag": "path",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "x": 56.5,
+      "y": 270.25,
+      "w": 4.5,
+      "h": 7.5
+    },
+    {
+      "i": 92,
+      "tag": "DIV",
+      "cls": "variable-box",
+      "text": "returnFields: Array(17)",
+      "x": 70,
+      "y": 261.609375,
+      "w": 266,
+      "h": 24.765625
+    },
+    {
+      "i": 93,
+      "tag": "SPAN",
+      "cls": "variable-value",
+      "text": "returnFields: Array(17)",
+      "x": 70,
+      "y": 261.609375,
+      "w": 266,
+      "h": 24.765625
+    },
+    {
+      "i": 94,
+      "tag": "DIV",
+      "cls": "el-tree-node is-focusable",
+      "text": "resultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}",
+      "x": 46,
+      "y": 287,
+      "w": 300,
+      "h": 26
+    },
+    {
+      "i": 95,
+      "tag": "DIV",
+      "cls": "el-tree-node__content",
+      "text": "resultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}",
+      "x": 46,
+      "y": 287,
+      "w": 300,
+      "h": 26
+    },
+    {
+      "i": 96,
+      "tag": "DIV",
+      "cls": "variable-box",
+      "text": "resultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}",
+      "x": 70,
+      "y": 287.609375,
+      "w": 266,
+      "h": 24.765625
+    },
+    {
+      "i": 97,
+      "tag": "SPAN",
+      "cls": "variable-value",
+      "text": "resultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}",
+      "x": 70,
+      "y": 287.609375,
+      "w": 266,
+      "h": 24.765625
+    },
+    {
+      "i": 98,
+      "tag": "DIV",
+      "cls": "el-collapse-item is-disabled",
+      "text": "监视",
+      "x": 46,
+      "y": 345,
+      "w": 300,
+      "h": 41
+    },
+    {
+      "i": 99,
+      "tag": "DIV",
+      "cls": "el-collapse-item__header",
+      "text": "监视",
+      "x": 46,
+      "y": 345,
+      "w": 300,
+      "h": 41
+    },
+    {
+      "i": 100,
+      "tag": "SPAN",
+      "cls": "el-collapse-item__title",
+      "text": "监视",
+      "x": 46,
+      "y": 345,
+      "w": 292,
+      "h": 40
+    },
+    {
+      "i": 101,
+      "tag": "DIV",
+      "cls": "title code-editor-debugger-watch",
+      "text": "监视",
+      "x": 46,
+      "y": 345,
+      "w": 292,
+      "h": 40
+    },
+    {
+      "i": 102,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "监视",
+      "x": 61,
+      "y": 345,
+      "w": 26,
+      "h": 40
+    },
+    {
+      "i": 103,
+      "tag": "I",
+      "cls": "el-icon el-collapse-item__arrow",
+      "text": "",
+      "x": 46,
+      "y": 358.5,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "i": 104,
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "x": 46,
+      "y": 358.5,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "i": 105,
+      "tag": "path",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "x": 50.21682357788086,
+      "y": 360.2845764160156,
+      "w": 4.966011047363281,
+      "h": 9.43084716796875
+    },
+    {
+      "i": 106,
+      "tag": "DIV",
+      "cls": "el-collapse-item is-active open-item",
+      "text": "堆栈\n\n0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4",
+      "x": 46,
+      "y": 386,
+      "w": 300,
+      "h": 333
+    },
+    {
+      "i": 107,
+      "tag": "DIV",
+      "cls": "el-collapse-item__header is-active",
+      "text": "堆栈",
+      "x": 46,
+      "y": 386,
+      "w": 300,
+      "h": 41
+    },
+    {
+      "i": 108,
+      "tag": "SPAN",
+      "cls": "el-collapse-item__title",
+      "text": "堆栈",
+      "x": 46,
+      "y": 386,
+      "w": 292,
+      "h": 40
+    },
+    {
+      "i": 109,
+      "tag": "DIV",
+      "cls": "title code-editor-debugger-stack",
+      "text": "堆栈",
+      "x": 46,
+      "y": 386,
+      "w": 292,
+      "h": 40
+    },
+    {
+      "i": 110,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "堆栈",
+      "x": 61,
+      "y": 386,
+      "w": 26,
+      "h": 40
+    },
+    {
+      "i": 111,
+      "tag": "I",
+      "cls": "el-icon el-collapse-item__arrow is-active",
+      "text": "",
+      "x": 46,
+      "y": 399.5,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "i": 112,
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "x": 46,
+      "y": 399.5,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "i": 113,
+      "tag": "path",
+      "cls": "[object SVGAnimatedString]",
+      "text": "",
+      "x": 47.784584045410156,
+      "y": 403.7168273925781,
+      "w": 9.430831909179688,
+      "h": 4.96600341796875
+    },
+    {
+      "i": 114,
+      "tag": "DIV",
+      "cls": "el-collapse-item__wrap",
+      "text": "0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4",
+      "x": 46,
+      "y": 427,
+      "w": 300,
+      "h": 293
+    },
+    {
+      "i": 115,
+      "tag": "DIV",
+      "cls": "el-collapse-item__content",
+      "text": "0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4",
+      "x": 46,
+      "y": 427,
+      "w": 300,
+      "h": 292
+    },
+    {
+      "i": 116,
+      "tag": "DIV",
+      "cls": "el-scrollbar item-main",
+      "text": "0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4",
+      "x": 46,
+      "y": 427,
+      "w": 300,
+      "h": 292
+    },
+    {
+      "i": 117,
+      "tag": "DIV",
+      "cls": "el-scrollbar__wrap el-scrollbar__wrap--hidden-default",
+      "text": "0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4",
+      "x": 46,
+      "y": 427,
+      "w": 300,
+      "h": 292
+    },
+    {
+      "i": 118,
+      "tag": "DIV",
+      "cls": "el-scrollbar__view",
+      "text": "0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4",
+      "x": 46,
+      "y": 427,
+      "w": 300,
+      "h": 77
+    },
+    {
+      "i": 119,
+      "tag": "DIV",
+      "cls": "stack-item-view",
+      "text": "0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4",
+      "x": 46,
+      "y": 427,
+      "w": 300,
+      "h": 77
+    },
+    {
+      "i": 120,
+      "tag": "P",
+      "cls": "stack-item-line cursor-pointer",
+      "text": "0: QueryAssessmentRecords\n1441151880758560281_0: 46",
+      "x": 46,
+      "y": 427,
+      "w": 300,
+      "h": 50
+    },
+    {
+      "i": 121,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "0: QueryAssessmentRecords",
+      "x": 51,
+      "y": 429,
+      "w": 157.140625,
+      "h": 46
+    },
+    {
+      "i": 122,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "1441151880758560281_0: 46",
+      "x": 208.140625,
+      "y": 429,
+      "w": 155.1875,
+      "h": 46
+    },
+    {
+      "i": 123,
+      "tag": "P",
+      "cls": "stack-item-line cursor-pointer",
+      "text": "1: onCreate\n1441151880758560281_0: 4",
+      "x": 46,
+      "y": 477,
+      "w": 300,
+      "h": 27
+    },
+    {
+      "i": 124,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "1: onCreate",
+      "x": 51,
+      "y": 479,
+      "w": 68.625,
+      "h": 23
+    },
+    {
+      "i": 125,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "1441151880758560281_0: 4",
+      "x": 175.6875,
+      "y": 479,
+      "w": 165.3125,
+      "h": 23
+    },
+    {
+      "i": 139,
+      "tag": "DIV",
+      "cls": "metalang-script-editor w100 h100",
+      "text": "当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nelse\n{\n resultText = \"{\\\"ok\\\":false,\\\"code\\\":\\\"QUERY_FAILED\\\",\\\"message\\\":\\\"real query failed\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) ",
+      "x": 346,
+      "y": 12,
+      "w": 869,
+      "h": 748
+    },
+    {
+      "i": 140,
+      "tag": "DIV",
+      "cls": "drag-tool metalang-divider",
+      "text": "",
+      "x": 346,
+      "y": 12,
+      "w": 3,
+      "h": 748
+    },
+    {
+      "i": 141,
+      "tag": "DIV",
+      "cls": "monaco-editor-view w100 h100 metalang-monaco-editor monaco-editor-panel",
+      "text": "当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nelse\n{\n resultText = \"{\\\"ok\\\":false,\\\"code\\\":\\\"QUERY_FAILED\\\",\\\"message\\\":\\\"real query failed\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) ",
+      "x": 349,
+      "y": 12,
+      "w": 866,
+      "h": 748
+    },
+    {
+      "i": 142,
+      "tag": "DIV",
+      "cls": "code-editor-toolbar",
+      "text": "当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置",
+      "x": 349,
+      "y": 12,
+      "w": 866,
+      "h": 55
+    },
+    {
+      "i": 143,
+      "tag": "DIV",
+      "cls": "",
+      "text": "当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置",
+      "x": 359,
+      "y": 12,
+      "w": 846,
+      "h": 47
+    },
+    {
+      "i": 144,
+      "tag": "DIV",
+      "cls": "code-editor-toolbar-left",
+      "text": "当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC",
+      "x": 359,
+      "y": 12,
+      "w": 454,
+      "h": 46
+    },
+    {
+      "i": 145,
+      "tag": "SPAN",
+      "cls": "icon iconfont cursor-pointer wos-editor-save el-tooltip__trigger el-tooltip__trigger",
+      "text": "",
+      "x": 359,
+      "y": 7.5,
+      "w": 20,
+      "h": 55
+    },
+    {
+      "i": 173,
+      "tag": "DIV",
+      "cls": "code-editor-body",
+      "text": "declare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nelse\n{\n resultText = \"{\\\"ok\\\":false,\\\"code\\\":\\\"QUERY_FAILED\\\",\\\"message\\\":\\\"real query failed\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nTrace(2, \"QueryAssessmentRecords.return\", re",
+      "x": 349,
+      "y": 67,
+      "w": 866,
+      "h": 693
+    },
+    {
+      "i": 174,
+      "tag": "DIV",
+      "cls": "el-tabs el-tabs--top el-tabs--card monaco-editor-tabs",
+      "text": "declare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:",
+      "x": 349,
+      "y": 67,
+      "w": 866,
+      "h": 74
+    },
+    {
+      "i": 175,
+      "tag": "DIV",
+      "cls": "el-tabs__header is-top",
+      "text": "declare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError",
+      "x": 349,
+      "y": 67,
+      "w": 866,
+      "h": 30
+    },
+    {
+      "i": 176,
+      "tag": "DIV",
+      "cls": "el-tabs__nav-wrap is-scrollable is-top",
+      "text": "declare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError",
+      "x": 359,
+      "y": 67.5,
+      "w": 856,
+      "h": 29
+    },
+    {
+      "i": 177,
+      "tag": "SPAN",
+      "cls": "el-tabs__nav-prev is-disabled",
+      "text": "",
+      "x": 359,
+      "y": 67.5,
+      "w": 20,
+      "h": 30
+    },
+    {
+      "i": 224,
+      "tag": "DIV",
+      "cls": "el-tabs__content",
+      "text": "名称:\n输入参数:\n返回值类型:",
+      "x": 349,
+      "y": 97,
+      "w": 866,
+      "h": 44
+    },
+    {
+      "i": 225,
+      "tag": "DIV",
+      "cls": "el-tab-pane",
+      "text": "名称:\n输入参数:\n返回值类型:",
+      "x": 349,
+      "y": 97,
+      "w": 866,
+      "h": 44
+    },
+    {
+      "i": 226,
+      "tag": "DIV",
+      "cls": "monaco-editor-tab-metalang-data",
+      "text": "名称:\n输入参数:\n返回值类型:",
+      "x": 349,
+      "y": 97,
+      "w": 866,
+      "h": 44
+    },
+    {
+      "i": 227,
+      "tag": "FORM",
+      "cls": "el-form el-form--default el-form--label-right monaco-editor-tab-metalang-data-form",
+      "text": "名称:\n输入参数:\n返回值类型:",
+      "x": 359,
+      "y": 97,
+      "w": 856,
+      "h": 44
+    },
+    {
+      "i": 228,
+      "tag": "DIV",
+      "cls": "el-form-item el-form-item--default asterisk-left el-form-item--label-right",
+      "text": "名称:",
+      "x": 359,
+      "y": 102,
+      "w": 237.90625,
+      "h": 34
+    },
+    {
+      "i": 229,
+      "tag": "LABEL",
+      "cls": "el-form-item__label",
+      "text": "名称:",
+      "x": 359,
+      "y": 102,
+      "w": 43.90625,
+      "h": 32
+    },
+    {
+      "i": 249,
+      "tag": "DIV",
+      "cls": "monaco-editor",
+      "text": "37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nelse\n{\n resultText = \"{\\\"ok\\\":false,\\\"code\\\":\\\"QUERY_FAILED\\\",\\\"message\\\":\\\"real query failed\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nTrace(2, \"QueryAssessmentRecords.return\", resultText);\nreturn resultText;\n37\n{\n无结果",
+      "x": 349,
+      "y": 146,
+      "w": 866,
+      "h": 311
+    },
+    {
+      "i": 250,
+      "tag": "DIV",
+      "cls": "monaco-editor no-user-select  showUnused showDeprecated vs-dark",
+      "text": "37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nelse\n{\n resultText = \"{\\\"ok\\\":false,\\\"code\\\":\\\"QUERY_FAILED\\\",\\\"message\\\":\\\"real query failed\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nTrace(2, \"QueryAssessmentRecords.return\", resultText);\nreturn resultText;\n37\n{\n无结果",
+      "x": 349,
+      "y": 146,
+      "w": 866,
+      "h": 311
+    },
+    {
+      "i": 251,
+      "tag": "DIV",
+      "cls": "overflow-guard",
+      "text": "37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nelse\n{\n resultText = \"{\\\"ok\\\":false,\\\"code\\\":\\\"QUERY_FAILED\\\",\\\"message\\\":\\\"real query failed\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nTrace(2, \"QueryAssessmentRecords.return\", resultText);\nreturn resultText;\n37\n{\n无结果",
+      "x": 349,
+      "y": 146,
+      "w": 866,
+      "h": 311
+    },
+    {
+      "i": 252,
+      "tag": "DIV",
+      "cls": "margin",
+      "text": "37\n38\n39\n40\n41\n42\n43\n44\n45\n46",
+      "x": 349,
+      "y": -553,
+      "w": 83,
+      "h": 1166
+    },
+    {
+      "i": 253,
+      "tag": "DIV",
+      "cls": "glyph-margin",
+      "text": "",
+      "x": 349,
+      "y": -553,
+      "w": 19,
+      "h": 1166
+    },
+    {
+      "i": 254,
+      "tag": "DIV",
+      "cls": "margin-view-overlays",
+      "text": "37\n38\n39\n40\n41\n42\n43\n44\n45\n46",
+      "x": 349,
+      "y": -553,
+      "w": 83,
+      "h": 1166
+    },
+    {
+      "i": 255,
+      "tag": "DIV",
+      "cls": "",
+      "text": "37",
+      "x": 349,
+      "y": 131,
+      "w": 83,
+      "h": 19
+    },
+    {
+      "i": 258,
+      "tag": "DIV",
+      "cls": "",
+      "text": "38",
+      "x": 349,
+      "y": 150,
+      "w": 83,
+      "h": 19
+    },
+    {
+      "i": 260,
+      "tag": "DIV",
+      "cls": "",
+      "text": "39",
+      "x": 349,
+      "y": 169,
+      "w": 83,
+      "h": 19
+    },
+    {
+      "i": 262,
+      "tag": "DIV",
+      "cls": "",
+      "text": "40",
+      "x": 349,
+      "y": 188,
+      "w": 83,
+      "h": 19
+    },
+    {
+      "i": 264,
+      "tag": "DIV",
+      "cls": "",
+      "text": "41",
+      "x": 349,
+      "y": 207,
+      "w": 83,
+      "h": 19
+    },
+    {
+      "i": 267,
+      "tag": "DIV",
+      "cls": "",
+      "text": "42",
+      "x": 349,
+      "y": 226,
+      "w": 83,
+      "h": 19
+    },
+    {
+      "i": 269,
+      "tag": "DIV",
+      "cls": "",
+      "text": "43",
+      "x": 349,
+      "y": 245,
+      "w": 83,
+      "h": 19
+    },
+    {
+      "i": 271,
+      "tag": "DIV",
+      "cls": "",
+      "text": "44",
+      "x": 349,
+      "y": 264,
+      "w": 83,
+      "h": 19
+    },
+    {
+      "i": 273,
+      "tag": "DIV",
+      "cls": "",
+      "text": "45",
+      "x": 349,
+      "y": 283,
+      "w": 83,
+      "h": 19
+    },
+    {
+      "i": 275,
+      "tag": "DIV",
+      "cls": "",
+      "text": "46",
+      "x": 349,
+      "y": 302,
+      "w": 83,
+      "h": 19
+    },
+    {
+      "i": 276,
+      "tag": "DIV",
+      "cls": "cmdr debug-interrupt-arrow",
+      "text": "",
+      "x": 349,
+      "y": 302,
+      "w": 83,
+      "h": 19
+    },
+    {
+      "i": 278,
+      "tag": "DIV",
+      "cls": "cgmr codicon breakpoint",
+      "text": "",
+      "x": 354,
+      "y": 302,
+      "w": 10,
+      "h": 10
+    },
+    {
+      "i": 408,
+      "tag": "DIV",
+      "cls": "scroll-decoration",
+      "text": "",
+      "x": 349,
+      "y": 146,
+      "w": 852,
+      "h": 6
+    },
+    {
+      "i": 409,
+      "tag": "TEXTAREA",
+      "cls": "inputarea monaco-mouse-cursor-text",
+      "text": "",
+      "x": 349,
+      "y": 146,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "i": 410,
+      "tag": "DIV",
+      "cls": "monaco-editor-background textAreaCover margin",
+      "text": "",
+      "x": 349,
+      "y": 146,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "i": 411,
+      "tag": "DIV",
+      "cls": "sticky-widget",
+      "text": "37\n{",
+      "x": 349,
+      "y": 146,
+      "w": 852,
+      "h": 19
+    },
+    {
+      "i": 412,
+      "tag": "DIV",
+      "cls": "sticky-widget-line-numbers",
+      "text": "37",
+      "x": 349,
+      "y": 146,
+      "w": 83,
+      "h": 19
+    },
+    {
+      "i": 413,
+      "tag": "SPAN",
+      "cls": "sticky-line-number",
+      "text": "37",
+      "x": 349,
+      "y": 146,
+      "w": 83,
+      "h": 19
+    },
+    {
+      "i": 414,
+      "tag": "SPAN",
+      "cls": "sticky-line-number-inner",
+      "text": "37",
+      "x": 349,
+      "y": 148,
+      "w": 57,
+      "h": 19
+    },
+    {
+      "i": 446,
+      "tag": "DIV",
+      "cls": "drag-tool",
+      "text": "",
+      "x": 349,
+      "y": 457,
+      "w": 866,
+      "h": 3
+    },
+    {
+      "i": 447,
+      "tag": "DIV",
+      "cls": "editor-message-view w100 h100 editor-message",
+      "text": "编译信息\nxxxxxxxxxxxxxx 编译成功 15:24:47 xxxxxxxxxxxxxx",
+      "x": 349,
+      "y": 460,
+      "w": 866,
+      "h": 300
+    },
+    {
+      "i": 448,
+      "tag": "DIV",
+      "cls": "el-tabs el-tabs--top el-tabs--card editor-message-tabs h100",
+      "text": "编译信息\nxxxxxxxxxxxxxx 编译成功 15:24:47 xxxxxxxxxxxxxx",
+      "x": 349,
+      "y": 460,
+      "w": 866,
+      "h": 300
+    },
+    {
+      "i": 449,
+      "tag": "DIV",
+      "cls": "el-tabs__header is-top",
+      "text": "编译信息",
+      "x": 349,
+      "y": 461,
+      "w": 866,
+      "h": 30
+    },
+    {
+      "i": 450,
+      "tag": "DIV",
+      "cls": "el-tabs__nav-wrap is-top",
+      "text": "编译信息",
+      "x": 349,
+      "y": 461.5,
+      "w": 866,
+      "h": 29
+    },
+    {
+      "i": 451,
+      "tag": "DIV",
+      "cls": "el-tabs__nav-scroll",
+      "text": "编译信息",
+      "x": 349,
+      "y": 461.5,
+      "w": 866,
+      "h": 29
+    },
+    {
+      "i": 452,
+      "tag": "DIV",
+      "cls": "el-tabs__nav is-top",
+      "text": "编译信息",
+      "x": 349,
+      "y": 461.5,
+      "w": 96,
+      "h": 29
+    },
+    {
+      "i": 453,
+      "tag": "DIV",
+      "cls": "el-tabs__item is-top is-active",
+      "text": "编译信息",
+      "x": 349,
+      "y": 460.5,
+      "w": 96,
+      "h": 30
+    },
+    {
+      "i": 454,
+      "tag": "DIV",
+      "cls": "el-tabs__content",
+      "text": "xxxxxxxxxxxxxx 编译成功 15:24:47 xxxxxxxxxxxxxx",
+      "x": 349,
+      "y": 491,
+      "w": 866,
+      "h": 269
+    },
+    {
+      "i": 455,
+      "tag": "DIV",
+      "cls": "el-tab-pane h100",
+      "text": "xxxxxxxxxxxxxx 编译成功 15:24:47 xxxxxxxxxxxxxx",
+      "x": 349,
+      "y": 491,
+      "w": 866,
+      "h": 269
+    },
+    {
+      "i": 456,
+      "tag": "DIV",
+      "cls": "el-scrollbar editor-message-debugger-view w100 h100",
+      "text": "xxxxxxxxxxxxxx 编译成功 15:24:47 xxxxxxxxxxxxxx",
+      "x": 349,
+      "y": 491,
+      "w": 866,
+      "h": 269
+    },
+    {
+      "i": 457,
+      "tag": "DIV",
+      "cls": "el-scrollbar__wrap el-scrollbar__wrap--hidden-default",
+      "text": "xxxxxxxxxxxxxx 编译成功 15:24:47 xxxxxxxxxxxxxx",
+      "x": 349,
+      "y": 491,
+      "w": 866,
+      "h": 269
+    },
+    {
+      "i": 458,
+      "tag": "DIV",
+      "cls": "el-scrollbar__view",
+      "text": "xxxxxxxxxxxxxx 编译成功 15:24:47 xxxxxxxxxxxxxx",
+      "x": 349,
+      "y": 491,
+      "w": 866,
+      "h": 26
+    },
+    {
+      "i": 459,
+      "tag": "DIV",
+      "cls": "editor-message-debug-item green",
+      "text": "xxxxxxxxxxxxxx 编译成功 15:24:47 xxxxxxxxxxxxxx",
+      "x": 349,
+      "y": 491,
+      "w": 866,
+      "h": 26
+    },
+    {
+      "i": 685,
+      "tag": "DIV",
+      "cls": "monaco-aria-container",
+      "text": "为“(int32)Enum_HisPlan_MainMode::RECORDS_ALL”找到 无结果",
+      "x": -15985,
+      "y": -1,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "i": 686,
+      "tag": "DIV",
+      "cls": "monaco-alert",
+      "text": "为“(int32)Enum_HisPlan_MainMode::RECORDS_ALL”找到 无结果",
+      "x": -15985,
+      "y": -1,
+      "w": 1,
+      "h": 112
+    }
+  ],
+  "resultHits": [
+    {
+      "i": 0,
+      "tag": "HTML",
+      "cls": "",
+      "text": "变量\nstrmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}\n监视\n堆栈\n\n0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4\n\n断点\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"da",
+      "x": 0,
+      "y": 0,
+      "w": 1598,
+      "h": 784
+    },
+    {
+      "i": 1,
+      "tag": "BODY",
+      "cls": "enable-motion underline-links",
+      "text": "变量\nstrmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}\n监视\n堆栈\n\n0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4\n\n断点\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"da",
+      "x": 0,
+      "y": 0,
+      "w": 1598,
+      "h": 784
+    },
+    {
+      "i": 2,
+      "tag": "DIV",
+      "cls": "wos-root-app",
+      "text": "变量\nstrmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}\n监视\n堆栈\n\n0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4\n\n断点\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"da",
+      "x": 0,
+      "y": 0,
+      "w": 1598,
+      "h": 784
+    },
+    {
+      "i": 3,
+      "tag": "DIV",
+      "cls": "editor-container fu-editor-container",
+      "text": "变量\nstrmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}\n监视\n堆栈\n\n0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4\n\n断点\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"da",
+      "x": 0,
+      "y": 0,
+      "w": 1598,
+      "h": 784
+    },
+    {
+      "i": 4,
+      "tag": "DIV",
+      "cls": "editor-main",
+      "text": "变量\nstrmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}\n监视\n堆栈\n\n0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4\n\n断点\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"da",
+      "x": 0,
+      "y": 0,
+      "w": 1221,
+      "h": 784
+    },
+    {
+      "i": 5,
+      "tag": "DIV",
+      "cls": "editor-aside editor-aside-main",
+      "text": "变量\nstrmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}\n监视\n堆栈\n\n0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4\n\n断点\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"da",
+      "x": 0,
+      "y": 0,
+      "w": 1221,
+      "h": 784
+    },
+    {
+      "i": 6,
+      "tag": "DIV",
+      "cls": "editor-aside-comp-container",
+      "text": "变量\nstrmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}\n监视\n堆栈\n\n0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4\n\n断点\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"da",
+      "x": 6,
+      "y": 12,
+      "w": 1209,
+      "h": 772
+    },
+    {
+      "i": 7,
+      "tag": "DIV",
+      "cls": "editor-aside-comp-item",
+      "text": "变量\nstrmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}\n监视\n堆栈\n\n0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4\n\n断点\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"da",
+      "x": 6,
+      "y": 12,
+      "w": 1209,
+      "h": 772
+    },
+    {
+      "i": 8,
+      "tag": "DIV",
+      "cls": "editor-main",
+      "text": "变量\nstrmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}\n监视\n堆栈\n\n0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4\n\n断点\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"da",
+      "x": 6,
+      "y": 12,
+      "w": 1209,
+      "h": 772
+    },
+    {
+      "i": 9,
+      "tag": "DIV",
+      "cls": "el-row",
+      "text": "变量\nstrmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}\n监视\n堆栈\n\n0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4\n\n断点\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"da",
+      "x": 6,
+      "y": 12,
+      "w": 1209,
+      "h": 772
+    },
+    {
+      "i": 10,
+      "tag": "DIV",
+      "cls": "app-model-editor code-editor w100 h100 code-editor",
+      "text": "变量\nstrmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}\n监视\n堆栈\n\n0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4\n\n断点\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"da",
+      "x": 6,
+      "y": 12,
+      "w": 1209,
+      "h": 772
+    },
+    {
+      "i": 19,
+      "tag": "DIV",
+      "cls": "el-collapse el-collapse-icon-position-right code-editor-debugger-view w100 h100 script-editor-debugger",
+      "text": "变量\nstrmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}\n监视\n堆栈\n\n0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4\n\n断点",
+      "x": 46,
+      "y": 12,
+      "w": 300,
+      "h": 748
+    },
+    {
+      "i": 20,
+      "tag": "DIV",
+      "cls": "el-collapse-item is-active open-item",
+      "text": "变量\nstrmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}",
+      "x": 46,
+      "y": 12,
+      "w": 300,
+      "h": 333
+    },
+    {
+      "i": 28,
+      "tag": "DIV",
+      "cls": "el-collapse-item__wrap el-collapse-transition-enter-from el-collapse-transition-enter-active",
+      "text": "strmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}",
+      "x": 46,
+      "y": 53,
+      "w": 300,
+      "h": 1
+    },
+    {
+      "i": 29,
+      "tag": "DIV",
+      "cls": "el-scrollbar__view",
+      "text": "strmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}",
+      "x": 46,
+      "y": 53,
+      "w": 300,
+      "h": 260
+    },
+    {
+      "i": 30,
+      "tag": "DIV",
+      "cls": "el-tree variable-tree",
+      "text": "strmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}",
+      "x": 46,
+      "y": 53,
+      "w": 300,
+      "h": 260
+    },
+    {
+      "i": 31,
+      "tag": "DIV",
+      "cls": "el-tree-node is-focusable",
+      "text": "strmapPara: Array(1)",
+      "x": 46,
+      "y": 53,
+      "w": 300,
+      "h": 26
+    },
+    {
+      "i": 32,
+      "tag": "DIV",
+      "cls": "el-tree-node__content",
+      "text": "strmapPara: Array(1)",
+      "x": 46,
+      "y": 53,
+      "w": 300,
+      "h": 26
+    },
+    {
+      "i": 36,
+      "tag": "DIV",
+      "cls": "variable-box",
+      "text": "strmapPara: Array(1)",
+      "x": 70,
+      "y": 53.609375,
+      "w": 266,
+      "h": 24.765625
+    },
+    {
+      "i": 37,
+      "tag": "SPAN",
+      "cls": "variable-value",
+      "text": "strmapPara: Array(1)",
+      "x": 70,
+      "y": 53.609375,
+      "w": 266,
+      "h": 24.765625
+    },
+    {
+      "i": 94,
+      "tag": "DIV",
+      "cls": "el-tree-node is-focusable",
+      "text": "resultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}",
+      "x": 46,
+      "y": 287,
+      "w": 300,
+      "h": 26
+    },
+    {
+      "i": 95,
+      "tag": "DIV",
+      "cls": "el-tree-node__content",
+      "text": "resultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}",
+      "x": 46,
+      "y": 287,
+      "w": 300,
+      "h": 26
+    },
+    {
+      "i": 96,
+      "tag": "DIV",
+      "cls": "variable-box",
+      "text": "resultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}",
+      "x": 70,
+      "y": 287.609375,
+      "w": 266,
+      "h": 24.765625
+    },
+    {
+      "i": 97,
+      "tag": "SPAN",
+      "cls": "variable-value",
+      "text": "resultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}",
+      "x": 70,
+      "y": 287.609375,
+      "w": 266,
+      "h": 24.765625
+    },
+    {
+      "i": 139,
+      "tag": "DIV",
+      "cls": "metalang-script-editor w100 h100",
+      "text": "当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nelse\n{\n resultText = \"{\\\"ok\\\":false,\\\"code\\\":\\\"QUERY_FAILED\\\",\\\"message\\\":\\\"real query failed\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) ",
+      "x": 346,
+      "y": 12,
+      "w": 869,
+      "h": 748
+    },
+    {
+      "i": 141,
+      "tag": "DIV",
+      "cls": "monaco-editor-view w100 h100 metalang-monaco-editor monaco-editor-panel",
+      "text": "当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nelse\n{\n resultText = \"{\\\"ok\\\":false,\\\"code\\\":\\\"QUERY_FAILED\\\",\\\"message\\\":\\\"real query failed\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) ",
+      "x": 349,
+      "y": 12,
+      "w": 866,
+      "h": 748
+    },
+    {
+      "i": 173,
+      "tag": "DIV",
+      "cls": "code-editor-body",
+      "text": "declare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nelse\n{\n resultText = \"{\\\"ok\\\":false,\\\"code\\\":\\\"QUERY_FAILED\\\",\\\"message\\\":\\\"real query failed\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nTrace(2, \"QueryAssessmentRecords.return\", re",
+      "x": 349,
+      "y": 67,
+      "w": 866,
+      "h": 693
+    },
+    {
+      "i": 249,
+      "tag": "DIV",
+      "cls": "monaco-editor",
+      "text": "37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nelse\n{\n resultText = \"{\\\"ok\\\":false,\\\"code\\\":\\\"QUERY_FAILED\\\",\\\"message\\\":\\\"real query failed\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nTrace(2, \"QueryAssessmentRecords.return\", resultText);\nreturn resultText;\n37\n{\n无结果",
+      "x": 349,
+      "y": 146,
+      "w": 866,
+      "h": 311
+    },
+    {
+      "i": 250,
+      "tag": "DIV",
+      "cls": "monaco-editor no-user-select  showUnused showDeprecated vs-dark",
+      "text": "37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nelse\n{\n resultText = \"{\\\"ok\\\":false,\\\"code\\\":\\\"QUERY_FAILED\\\",\\\"message\\\":\\\"real query failed\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nTrace(2, \"QueryAssessmentRecords.return\", resultText);\nreturn resultText;\n37\n{\n无结果",
+      "x": 349,
+      "y": 146,
+      "w": 866,
+      "h": 311
+    },
+    {
+      "i": 251,
+      "tag": "DIV",
+      "cls": "overflow-guard",
+      "text": "37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nelse\n{\n resultText = \"{\\\"ok\\\":false,\\\"code\\\":\\\"QUERY_FAILED\\\",\\\"message\\\":\\\"real query failed\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nTrace(2, \"QueryAssessmentRecords.return\", resultText);\nreturn resultText;\n37\n{\n无结果",
+      "x": 349,
+      "y": 146,
+      "w": 866,
+      "h": 311
+    },
+    {
+      "i": 279,
+      "tag": "DIV",
+      "cls": "monaco-scrollable-element editor-scrollable vs-dark",
+      "text": "{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nelse\n{\n resultText = \"{\\\"ok\\\":false,\\\"code\\\":\\\"QUERY_FAILED\\\",\\\"message\\\":\\\"real query failed\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nTrace(2, \"QueryAssessmentRecords.return\", resultText);\nreturn resultText;",
+      "x": 432,
+      "y": 146,
+      "w": 783,
+      "h": 311
+    },
+    {
+      "i": 280,
+      "tag": "DIV",
+      "cls": "lines-content monaco-editor-background",
+      "text": "{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nelse\n{\n resultText = \"{\\\"ok\\\":false,\\\"code\\\":\\\"QUERY_FAILED\\\",\\\"message\\\":\\\"real query failed\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nTrace(2, \"QueryAssessmentRecords.return\", resultText);\nreturn resultText;",
+      "x": 432,
+      "y": -553,
+      "w": 16777216,
+      "h": 16777216
+    },
+    {
+      "i": 295,
+      "tag": "DIV",
+      "cls": "view-lines monaco-mouse-cursor-text",
+      "text": "{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nelse\n{\n resultText = \"{\\\"ok\\\":false,\\\"code\\\":\\\"QUERY_FAILED\\\",\\\"message\\\":\\\"real query failed\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nTrace(2, \"QueryAssessmentRecords.return\", resultText);\nreturn resultText;",
+      "x": 432,
+      "y": -553,
+      "w": 2615,
+      "h": 1166
+    },
+    {
+      "i": 299,
+      "tag": "DIV",
+      "cls": "view-line",
+      "text": "resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";",
+      "x": 432,
+      "y": 150,
+      "w": 2615,
+      "h": 19
+    },
+    {
+      "i": 300,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";",
+      "x": 432,
+      "y": 150,
+      "w": 2494.140625,
+      "h": 19
+    },
+    {
+      "i": 301,
+      "tag": "SPAN",
+      "cls": "mtk1",
+      "text": "resultText",
+      "x": 432,
+      "y": 151,
+      "w": 92.375,
+      "h": 17
+    },
+    {
+      "i": 307,
+      "tag": "SPAN",
+      "cls": "mtk5",
+      "text": "ut)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryR",
+      "x": 1694.40625,
+      "y": 151,
+      "w": 384.875,
+      "h": 17
+    },
+    {
+      "i": 345,
+      "tag": "DIV",
+      "cls": "view-line",
+      "text": "resultText = \"{\\\"ok\\\":false,\\\"code\\\":\\\"QUERY_FAILED\\\",\\\"message\\\":\\\"real query failed\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";",
+      "x": 432,
+      "y": 226,
+      "w": 2615,
+      "h": 19
+    },
+    {
+      "i": 346,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "resultText = \"{\\\"ok\\\":false,\\\"code\\\":\\\"QUERY_FAILED\\\",\\\"message\\\":\\\"real query failed\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";",
+      "x": 432,
+      "y": 226,
+      "w": 2571.109375,
+      "h": 19
+    },
+    {
+      "i": 347,
+      "tag": "SPAN",
+      "cls": "mtk1",
+      "text": "resultText",
+      "x": 432,
+      "y": 227,
+      "w": 92.375,
+      "h": 17
+    },
+    {
+      "i": 350,
+      "tag": "SPAN",
+      "cls": "mtk5",
+      "text": "\"{\\\"ok\\\":false,\\\"code\\\":\\\"QUERY_FAILED\\\",\\\"message",
+      "x": 539.78125,
+      "y": 227,
+      "w": 384.875,
+      "h": 17
+    },
+    {
+      "i": 353,
+      "tag": "SPAN",
+      "cls": "mtk5",
+      "text": "input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\",
+      "x": 1694.40625,
+      "y": 227,
+      "w": 384.875,
+      "h": 17
+    },
+    {
+      "i": 354,
+      "tag": "SPAN",
+      "cls": "mtk5",
+      "text": "\",\\\"queryRet\\\":\"",
+      "x": 2079.28125,
+      "y": 227,
+      "w": 123.15625,
+      "h": 17
+    },
+    {
+      "i": 386,
+      "tag": "DIV",
+      "cls": "view-line",
+      "text": "Trace(2, \"QueryAssessmentRecords.return\", resultText);",
+      "x": 432,
+      "y": 283,
+      "w": 2615,
+      "h": 19
+    },
+    {
+      "i": 387,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "Trace(2, \"QueryAssessmentRecords.return\", resultText);",
+      "x": 432,
+      "y": 283,
+      "w": 415.71875,
+      "h": 19
+    },
+    {
+      "i": 395,
+      "tag": "SPAN",
+      "cls": "mtk1",
+      "text": "resultText",
+      "x": 747.640625,
+      "y": 284,
+      "w": 84.671875,
+      "h": 17
+    },
+    {
+      "i": 398,
+      "tag": "DIV",
+      "cls": "view-line",
+      "text": "return resultText;",
+      "x": 432,
+      "y": 302,
+      "w": 2615,
+      "h": 19
+    },
+    {
+      "i": 399,
+      "tag": "SPAN",
+      "cls": "",
+      "text": "return resultText;",
+      "x": 432,
+      "y": 302,
+      "w": 138.5625,
+      "h": 19
+    },
+    {
+      "i": 401,
+      "tag": "SPAN",
+      "cls": "mtk1",
+      "text": "resultText",
+      "x": 478.1875,
+      "y": 303,
+      "w": 84.671875,
+      "h": 17
+    }
+  ],
+  "body": "变量\nstrmapPara: Array(1)\nparam: Array(5)\ninput: Array(3)\noutput: Array(0)\nobjectCondition: Array(3)\ncondition1: Array(7)\nconditions: Array(1)\nqueryResult: Array(3)\nreturnFields: Array(17)\nresultText: {\"ok\":false,\"code\":\"QUERY_FAILED\",\"message\":\"real query failed\",\"traceId\":\"pal-20260627-real-query\",\"data\":{\"source\":\"Query(param,input,output)\",\"table\":\"pal_assessment_record\",\"queryRet\":{ \"MLVariant\": -210134 },\"output\":{ \"map\": {} }}}\n监视\n堆栈\n\n0: QueryAssessmentRecords\n1441151880758560281_0: 46\n\n1: onCreate\n1441151880758560281_0: 4\n\n断点\n当前模型: PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC\n提交\n调试配置\ndeclare\nonCreate\nQueryAssessmentPage\nQueryAssessmentData\nQueryAssessmentSmoke\nPalimpsestCrudService\nQueryAssessmentRecords\nCreateAssessmentRecord\nUpdateAssessmentRecord\nDeleteAssessmentRecord\nSubmitAssessmentScore\nPalimpsestHandleError\n名称:\n输入参数:\n返回值类型:\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n{\n resultText = \"{\\\"ok\\\":true,\\\"code\\\":\\\"OK\\\",\\\"message\\\":\\\"real query success\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nelse\n{\n resultText = \"{\\\"ok\\\":false,\\\"code\\\":\\\"QUERY_FAILED\\\",\\\"message\\\":\\\"real query failed\\\",\\\"traceId\\\":\\\"pal-20260627-real-query\\\",\\\"data\\\":{\\\"source\\\":\\\"Query(param,input,output)\\\",\\\"table\\\":\\\"pal_assessment_record\\\",\\\"queryRet\\\":\" + ConvertToJsonString(queryResult.ret,true) + \",\\\"output\\\":\" + ConvertToJsonString(output,true) + \"}}\";\n}\nTrace(2, \"QueryAssessmentRecords.return\", resultText);\nreturn resultText;\n37\n{\n无结果\n编译信息\nxxxxxxxxxxxxxx 编译成功 15:24:47 xxxxxxxxxxxxxx\n行：1，列：1，\n空格：4\n元语言\n属性\n基础信息\n名称:\n\n\n显示名称:\n\n\n描述:\n0 / 128\n\n\nID:\n1441151880758560281\n\n\nGUID:\naa5d8314-87b7-453c-96e6-21e4327a8778\n\n\n版本状态:\n编辑态\n\n\n上传图标:\n已配置\n上传\n\n\n对象类型:\n功能单元模型\n\n\n历史版本:\n提交\n查看\n\n\n仓库路径:\nKingFusion4.5_V1/产品仓库/KF4.5产品/KF4.5数字孪生模型/管控单元模型/盛云科技_孙宇飞_Palimpsest_后台_0623\n\n\n分类标签1:\n\n\n分类标签2:\n\n\n分类标签3:\n停止调试\n为“(int32)Enum_HisPlan_MainMode::RECORDS_ALL”找到 无结果"
+}

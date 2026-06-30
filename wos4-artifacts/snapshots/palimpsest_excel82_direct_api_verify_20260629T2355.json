@@ -1,0 +1,76 @@
+{
+  "ok": true,
+  "log": {
+    "action": "direct_api_verify",
+    "before": {
+      "value": null,
+      "display": "",
+      "background": "#fff",
+      "formula": ""
+    },
+    "afterWrite": {
+      "value": "WOS4 Excel probe verified",
+      "display": "WOS4 Excel probe verified",
+      "background": "#fff",
+      "formula": ""
+    },
+    "afterStyle": {
+      "value": "WOS4 Excel probe verified",
+      "display": "WOS4 Excel probe verified",
+      "background": "#fff3bf",
+      "fontColor": null,
+      "formula": ""
+    },
+    "wosGetCell": {
+      "code": 1,
+      "msg": "获取失败，请检查参数是否填写正确",
+      "data": null
+    },
+    "wosGetZone": {
+      "code": 0,
+      "msg": "success",
+      "data": [
+        [
+          {
+            "ct": {
+              "t": "s"
+            },
+            "v": "WOS4 Excel probe verified",
+            "m": "WOS4 Excel probe verified",
+            "bg": "#fff3bf",
+            "bl": 1,
+            "vt": 0,
+            "ht": 0
+          }
+        ]
+      ]
+    },
+    "exportProbe": {
+      "sheetName": "Sheet1",
+      "pageSize": {
+        "W": 718,
+        "H": 1046
+      },
+      "printSupports": {
+        "header": true,
+        "tail": true,
+        "title": true,
+        "isPaging": true,
+        "isPageNumber": true,
+        "pageBreakList": true
+      },
+      "exportPdfSupports": {
+        "header": true,
+        "tail": true,
+        "title": true,
+        "isPaging": true,
+        "isPageNumber": true,
+        "pageBreakList": true,
+        "pdf": true
+      },
+      "xlsxPathHasHeaderTail": true
+    },
+    "time": "2026-06-29T15:36:02.965Z"
+  },
+  "setLog": true
+}

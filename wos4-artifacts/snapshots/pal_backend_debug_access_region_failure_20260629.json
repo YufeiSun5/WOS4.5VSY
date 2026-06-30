@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-06-29T21:53:01+08:00",
+  "actor": "孙宇飞_code-ai",
+  "task": "Palimpsest backend debug access-region failure diagnosis",
+  "target": {
+    "model": "PalimpsestBackend_CUSTOMFUNC_CUSTOMFUNC",
+    "function": "onCreate -> QueryAssessmentRecords",
+    "spacetimeName": "PalimpsestL1_0626R2",
+    "spacetimeGuid": "aba6cf7a-0715-4966-8eaf-0f448eba7bc9",
+    "backendInstance": "PalimpsestBack_0626R2",
+    "businessEvent": "pal_assessment_record",
+    "recordApiType": 3106
+  },
+  "debugAttempt": {
+    "clickedStartDebug": true,
+    "compileSuccessSeen": true,
+    "compileSuccessText": "编译成功 21:45:01",
+    "failureMessages": [
+      "未找到访问区域",
+      "启动调试失败"
+    ],
+    "debugStopButtonAppeared": false,
+    "variablesAppeared": false,
+    "resultTextAppeared": false,
+    "breakpointHit": false
+  },
+  "debugConfigObserved": {
+    "selectedSpacetimeText": "PalimpsestL1_0626R2",
+    "userAccessInfoVisibleRows": [],
+    "spacetimeAccessInfoVisibleRows": [],
+    "rawDialogSignals": [
+      "添加用户访问信息: 点击添加",
+      "添加时空访问信息: 点击添加",
+      "时空信息: 默认数据区",
+      "已选信息: PalimpsestL1_0626R2"
+    ]
+  },
+  "diagnosis": {
+    "passed": false,
+    "reason": "debug_access_region_not_configured",
+    "summary": "The debugger failed before entering onCreate or QueryAssessmentRecords. This is not evidence of QueryAssessmentRecords returning a business error.",
+    "nextAction": "Open 调试配置 and add required user access information and spacetime access information, then rerun debug and require variables/resultText evidence."
+  },
+  "spacetimeQueryRule": {
+    "workerSpaceOrDebuggerDirectCalls": "must set input.appspacetimeguid",
+    "appRuntimeCalls": "may receive current spacetime from SetRunInfo/runtime context, but backend functions should still accept spaceTimeGuid/appspacetimeguid parameters",
+    "historicalBusinessEventType": 3106,
+    "plannedBusinessEventType": 4106
+  }
+}
